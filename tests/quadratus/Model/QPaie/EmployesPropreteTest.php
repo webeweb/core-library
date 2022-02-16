@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EmployesPropreteTest extends AbstractTestCase {
 
     /**
-     * Tests the setControleur() method.
+     * Tests setControleur()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class EmployesPropreteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHotellerie() method.
+     * Tests setHotellerie()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class EmployesPropreteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLivreur() method.
+     * Tests setLivreur()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class EmployesPropreteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setModulation() method.
+     * Tests setModulation()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class EmployesPropreteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class EmployesPropreteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPolyvalent() method.
+     * Tests setPolyvalent()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class EmployesPropreteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class BudgetLignesTest extends AbstractTestCase {
 
     /**
-     * Tests the setCentre() method.
+     * Tests setCentre()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeBudget() method.
+     * Tests setCodeBudget()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCoef() method.
+     * Tests setCoef()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setColSaisie() method.
+     * Tests setColSaisie()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCommentaires() method.
+     * Tests setCommentaires()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompte() method.
+     * Tests setCompte()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMt1() method.
+     * Tests setMt1()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMt10() method.
+     * Tests setMt10()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMt11() method.
+     * Tests setMt11()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMt12() method.
+     * Tests setMt12()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMt13() method.
+     * Tests setMt13()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMt14() method.
+     * Tests setMt14()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMt15() method.
+     * Tests setMt15()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMt16() method.
+     * Tests setMt16()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMt17() method.
+     * Tests setMt17()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMt18() method.
+     * Tests setMt18()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMt19() method.
+     * Tests setMt19()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMt2() method.
+     * Tests setMt2()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMt20() method.
+     * Tests setMt20()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMt21() method.
+     * Tests setMt21()
      *
      * @return void
      */
@@ -283,7 +283,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMt22() method.
+     * Tests setMt22()
      *
      * @return void
      */
@@ -296,7 +296,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMt23() method.
+     * Tests setMt23()
      *
      * @return void
      */
@@ -309,7 +309,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMt24() method.
+     * Tests setMt24()
      *
      * @return void
      */
@@ -322,7 +322,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMt3() method.
+     * Tests setMt3()
      *
      * @return void
      */
@@ -335,7 +335,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMt4() method.
+     * Tests setMt4()
      *
      * @return void
      */
@@ -348,7 +348,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMt5() method.
+     * Tests setMt5()
      *
      * @return void
      */
@@ -361,7 +361,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMt6() method.
+     * Tests setMt6()
      *
      * @return void
      */
@@ -374,7 +374,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMt7() method.
+     * Tests setMt7()
      *
      * @return void
      */
@@ -387,7 +387,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMt8() method.
+     * Tests setMt8()
      *
      * @return void
      */
@@ -400,7 +400,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMt9() method.
+     * Tests setMt9()
      *
      * @return void
      */
@@ -413,7 +413,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNature() method.
+     * Tests setNature()
      *
      * @return void
      */
@@ -426,7 +426,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRefImage() method.
+     * Tests setRefImage()
      *
      * @return void
      */
@@ -439,7 +439,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeSaisie() method.
+     * Tests setTypeSaisie()
      *
      * @return void
      */
@@ -452,7 +452,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

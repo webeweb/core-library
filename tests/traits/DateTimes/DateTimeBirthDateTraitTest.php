@@ -25,7 +25,7 @@ use WBW\Library\Traits\Tests\Fixtures\DateTimes\TestDateTimeBirthDateTrait;
 class DateTimeBirthDateTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setBirthDate() method.
+     * Tests setBirthDate()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.

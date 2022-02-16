@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringLinkTrait;
 class StringLinkTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setLink() method.
+     * Tests setLink()
      *
      * @return void
      */

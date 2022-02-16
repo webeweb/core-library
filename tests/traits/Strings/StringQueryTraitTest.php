@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringQueryTrait;
 class StringQueryTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setQuery() method.
+     * Tests setQuery()
      *
      * @return void
      */

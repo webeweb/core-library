@@ -24,7 +24,7 @@ use WBW\Library\Curl\Tests\AbstractTestCase;
 class ConfigurationTest extends AbstractTestCase {
 
     /**
-     * Tests the clearHeader() method.
+     * Tests clearHeader()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -41,7 +41,7 @@ class ConfigurationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the removeHeader() method.
+     * Tests removeHeader()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -59,7 +59,7 @@ class ConfigurationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAllowEncoding() method.
+     * Tests setAllowEncoding()
      *
      * @return void
      */
@@ -72,7 +72,7 @@ class ConfigurationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setConnectTimeout() method.
+     * Tests setConnectTimeout()
      *
      * @return void
      */
@@ -85,7 +85,7 @@ class ConfigurationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDebugFile() method.
+     * Tests setDebugFile()
      *
      * @return void
      */
@@ -98,7 +98,7 @@ class ConfigurationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHost() method.
+     * Tests setHost()
      *
      * @return void
      */
@@ -111,7 +111,7 @@ class ConfigurationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHttpPassword() method.
+     * Tests setHttpPassword()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class ConfigurationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHttpUsername() method.
+     * Tests setHttpUsername()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class ConfigurationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProxyHost() method.
+     * Tests setProxyHost()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class ConfigurationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProxyPassword() method.
+     * Tests setProxyPassword()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class ConfigurationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProxyPort() method.
+     * Tests setProxyPort()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class ConfigurationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProxyType() method.
+     * Tests setProxyType()
      *
      * @return void
      */
@@ -189,7 +189,7 @@ class ConfigurationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProxyUsername() method.
+     * Tests setProxyUsername()
      *
      * @return void
      */
@@ -202,7 +202,7 @@ class ConfigurationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRequestTimeout() method.
+     * Tests setRequestTimeout()
      *
      * @return void
      */
@@ -215,7 +215,7 @@ class ConfigurationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSslVerification() method.
+     * Tests setSslVerification()
      *
      * @return void
      */
@@ -228,7 +228,7 @@ class ConfigurationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUserAgent() method.
+     * Tests setUserAgent()
      *
      * @return void
      */
@@ -241,7 +241,7 @@ class ConfigurationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __constructor() method.
+     * Tests __constructor()
      *
      * @return void
      */

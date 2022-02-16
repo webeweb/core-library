@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class CleRepartitionLignesTest extends AbstractTestCase {
 
     /**
-     * Tests the setCode() method.
+     * Tests setCode()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class CleRepartitionLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCentre() method.
+     * Tests setCodeCentre()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class CleRepartitionLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLigne() method.
+     * Tests setNumLigne()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class CleRepartitionLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setValeur() method.
+     * Tests setValeur()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class CleRepartitionLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

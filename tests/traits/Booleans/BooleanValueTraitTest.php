@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Booleans\TestBooleanValueTrait;
 class BooleanValueTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setValue() method.
+     * Tests setValue()
      *
      * @return void
      */

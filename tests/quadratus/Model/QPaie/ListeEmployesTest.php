@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ListeEmployesTest extends AbstractTestCase {
 
     /**
-     * Tests the setBtq() method.
+     * Tests setBtq()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBureauDistributeur() method.
+     * Tests setBureauDistributeur()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCarteSejourDelivreeLe() method.
+     * Tests setCarteSejourDelivreeLe()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCarteSejourExpireLe() method.
+     * Tests setCarteSejourExpireLe()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -85,7 +85,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCarteTravailDelivreeLe() method.
+     * Tests setCarteTravailDelivreeLe()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -102,7 +102,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCarteTravailExpireLe() method.
+     * Tests setCarteTravailExpireLe()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -119,7 +119,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCategoriePermis() method.
+     * Tests setCategoriePermis()
      *
      * @return void
      */
@@ -132,7 +132,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCddcdi() method.
+     * Tests setCddcdi()
      *
      * @return void
      */
@@ -145,7 +145,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCleDeux() method.
+     * Tests setCleDeux()
      *
      * @return void
      */
@@ -158,7 +158,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEtablissement() method.
+     * Tests setCodeEtablissement()
      *
      * @return void
      */
@@ -171,7 +171,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeMotifRupture() method.
+     * Tests setCodeMotifRupture()
      *
      * @return void
      */
@@ -184,7 +184,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeOfficielCommune() method.
+     * Tests setCodeOfficielCommune()
      *
      * @return void
      */
@@ -197,7 +197,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePostal() method.
+     * Tests setCodePostal()
      *
      * @return void
      */
@@ -210,7 +210,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTypeSal() method.
+     * Tests setCodeTypeSal()
      *
      * @return void
      */
@@ -223,7 +223,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCommuneNaissance() method.
+     * Tests setCommuneNaissance()
      *
      * @return void
      */
@@ -236,7 +236,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setComplement() method.
+     * Tests setComplement()
      *
      * @return void
      */
@@ -249,7 +249,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCum30Ss() method.
+     * Tests setCum30Ss()
      *
      * @return void
      */
@@ -262,7 +262,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBaseGmp() method.
+     * Tests setCumBaseGmp()
      *
      * @return void
      */
@@ -275,7 +275,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBaseSs() method.
+     * Tests setCumBaseSs()
      *
      * @return void
      */
@@ -288,7 +288,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBaseTrA() method.
+     * Tests setCumBaseTrA()
      *
      * @return void
      */
@@ -301,7 +301,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBaseTrB() method.
+     * Tests setCumBaseTrB()
      *
      * @return void
      */
@@ -314,7 +314,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBaseTrC() method.
+     * Tests setCumBaseTrC()
      *
      * @return void
      */
@@ -327,7 +327,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBrutAbatNonLim() method.
+     * Tests setCumBrutAbatNonLim()
      *
      * @return void
      */
@@ -340,7 +340,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBrutAl() method.
+     * Tests setCumBrutAl()
      *
      * @return void
      */
@@ -353,7 +353,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBrutNonAbattu() method.
+     * Tests setCumBrutNonAbattu()
      *
      * @return void
      */
@@ -366,7 +366,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumCpDus() method.
+     * Tests setCumCpDus()
      *
      * @return void
      */
@@ -379,7 +379,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumCpDus1() method.
+     * Tests setCumCpDus1()
      *
      * @return void
      */
@@ -392,7 +392,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumCpPris() method.
+     * Tests setCumCpPris()
      *
      * @return void
      */
@@ -405,7 +405,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumCpPris1() method.
+     * Tests setCumCpPris1()
      *
      * @return void
      */
@@ -418,7 +418,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumHSup() method.
+     * Tests setCumHSup()
      *
      * @return void
      */
@@ -431,7 +431,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumHeurePaye() method.
+     * Tests setCumHeurePaye()
      *
      * @return void
      */
@@ -444,7 +444,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumHeureTrav() method.
+     * Tests setCumHeureTrav()
      *
      * @return void
      */
@@ -457,7 +457,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumJourPaye() method.
+     * Tests setCumJourPaye()
      *
      * @return void
      */
@@ -470,7 +470,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumJourTrav() method.
+     * Tests setCumJourTrav()
      *
      * @return void
      */
@@ -483,7 +483,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumMtCpPris() method.
+     * Tests setCumMtCpPris()
      *
      * @return void
      */
@@ -496,7 +496,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumMtCpPris1() method.
+     * Tests setCumMtCpPris1()
      *
      * @return void
      */
@@ -509,7 +509,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumNetAPayer() method.
+     * Tests setCumNetAPayer()
      *
      * @return void
      */
@@ -522,7 +522,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumNetImposable() method.
+     * Tests setCumNetImposable()
      *
      * @return void
      */
@@ -535,7 +535,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumPlafondGmp() method.
+     * Tests setCumPlafondGmp()
      *
      * @return void
      */
@@ -548,7 +548,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumPlafondSs1() method.
+     * Tests setCumPlafondSs1()
      *
      * @return void
      */
@@ -561,7 +561,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumPlafondSs2() method.
+     * Tests setCumPlafondSs2()
      *
      * @return void
      */
@@ -574,7 +574,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumProvCp() method.
+     * Tests setCumProvCp()
      *
      * @return void
      */
@@ -587,7 +587,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumProvCp1() method.
+     * Tests setCumProvCp1()
      *
      * @return void
      */
@@ -600,7 +600,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumReposComp() method.
+     * Tests setCumReposComp()
      *
      * @return void
      */
@@ -613,7 +613,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateEntree() method.
+     * Tests setDateEntree()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -630,7 +630,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateModification() method.
+     * Tests setDateModification()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -647,7 +647,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateNaissConjoint() method.
+     * Tests setDateNaissConjoint()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -664,7 +664,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateNaissance() method.
+     * Tests setDateNaissance()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -681,7 +681,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateSortie() method.
+     * Tests setDateSortie()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -698,7 +698,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateVisiteMedicale() method.
+     * Tests setDateVisiteMedicale()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -715,7 +715,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateVisiteReprise() method.
+     * Tests setDateVisiteReprise()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -732,7 +732,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDeptNaissance() method.
+     * Tests setDeptNaissance()
      *
      * @return void
      */
@@ -745,7 +745,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDerniereVisiteMedicale() method.
+     * Tests setDerniereVisiteMedicale()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -762,7 +762,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmail() method.
+     * Tests setEmail()
      *
      * @return void
      */
@@ -775,7 +775,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFictif() method.
+     * Tests setFictif()
      *
      * @return void
      */
@@ -788,7 +788,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionMailBulletin() method.
+     * Tests setGestionMailBulletin()
      *
      * @return void
      */
@@ -801,7 +801,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHandicape() method.
+     * Tests setHandicape()
      *
      * @return void
      */
@@ -814,7 +814,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLieuTravailConjoint() method.
+     * Tests setLieuTravailConjoint()
      *
      * @return void
      */
@@ -827,7 +827,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMatricule() method.
+     * Tests setMatricule()
      *
      * @return void
      */
@@ -840,7 +840,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNationalite() method.
+     * Tests setNationalite()
      *
      * @return void
      */
@@ -853,7 +853,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHeureMois() method.
+     * Tests setNbHeureMois()
      *
      * @return void
      */
@@ -866,7 +866,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJoursAnc() method.
+     * Tests setNbJoursAnc()
      *
      * @return void
      */
@@ -879,7 +879,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJoursVisiteMed() method.
+     * Tests setNbJoursVisiteMed()
      *
      * @return void
      */
@@ -892,7 +892,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNiveauConfidentialite() method.
+     * Tests setNiveauConfidentialite()
      *
      * @return void
      */
@@ -905,7 +905,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomConjoint() method.
+     * Tests setNomConjoint()
      *
      * @return void
      */
@@ -918,7 +918,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomMarital() method.
+     * Tests setNomMarital()
      *
      * @return void
      */
@@ -931,7 +931,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomNaissance() method.
+     * Tests setNomNaissance()
      *
      * @return void
      */
@@ -944,7 +944,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomVille() method.
+     * Tests setNomVille()
      *
      * @return void
      */
@@ -957,7 +957,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomVoie() method.
+     * Tests setNomVoie()
      *
      * @return void
      */
@@ -970,7 +970,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNombreEnfants() method.
+     * Tests setNombreEnfants()
      *
      * @return void
      */
@@ -983,7 +983,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumVoie() method.
+     * Tests setNumVoie()
      *
      * @return void
      */
@@ -996,7 +996,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumero() method.
+     * Tests setNumero()
      *
      * @return void
      */
@@ -1009,7 +1009,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroCarteSejour() method.
+     * Tests setNumeroCarteSejour()
      *
      * @return void
      */
@@ -1022,7 +1022,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroCarteTravail() method.
+     * Tests setNumeroCarteTravail()
      *
      * @return void
      */
@@ -1035,7 +1035,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroInsee() method.
+     * Tests setNumeroInsee()
      *
      * @return void
      */
@@ -1048,7 +1048,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroPermis() method.
+     * Tests setNumeroPermis()
      *
      * @return void
      */
@@ -1061,7 +1061,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOrphelin() method.
+     * Tests setOrphelin()
      *
      * @return void
      */
@@ -1074,7 +1074,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPasGestionPdp() method.
+     * Tests setPasGestionPdp()
      *
      * @return void
      */
@@ -1087,7 +1087,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPension() method.
+     * Tests setPension()
      *
      * @return void
      */
@@ -1100,7 +1100,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodicite() method.
+     * Tests setPeriodicite()
      *
      * @return void
      */
@@ -1113,7 +1113,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPermisDelivreLe() method.
+     * Tests setPermisDelivreLe()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -1130,7 +1130,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPermisDelivrePar() method.
+     * Tests setPermisDelivrePar()
      *
      * @return void
      */
@@ -1143,7 +1143,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPermisExpireLe() method.
+     * Tests setPermisExpireLe()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -1160,7 +1160,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPersonneAPrevenir() method.
+     * Tests setPersonneAPrevenir()
      *
      * @return void
      */
@@ -1173,7 +1173,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPourcentAct() method.
+     * Tests setPourcentAct()
      *
      * @return void
      */
@@ -1186,7 +1186,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrenom() method.
+     * Tests setPrenom()
      *
      * @return void
      */
@@ -1199,7 +1199,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrenomConjoint() method.
+     * Tests setPrenomConjoint()
      *
      * @return void
      */
@@ -1212,7 +1212,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRib() method.
+     * Tests setRib()
      *
      * @return void
      */
@@ -1225,7 +1225,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSalaireBase() method.
+     * Tests setSalaireBase()
      *
      * @return void
      */
@@ -1238,7 +1238,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setService() method.
+     * Tests setService()
      *
      * @return void
      */
@@ -1251,7 +1251,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSexe() method.
+     * Tests setSexe()
      *
      * @return void
      */
@@ -1264,7 +1264,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSituationFam() method.
+     * Tests setSituationFam()
      *
      * @return void
      */
@@ -1277,7 +1277,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxPensionCivile() method.
+     * Tests setTauxPensionCivile()
      *
      * @return void
      */
@@ -1290,7 +1290,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxPensionMilitaire() method.
+     * Tests setTauxPensionMilitaire()
      *
      * @return void
      */
@@ -1303,7 +1303,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds138() method.
+     * Tests setTds138()
      *
      * @return void
      */
@@ -1316,7 +1316,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds60() method.
+     * Tests setTds60()
      *
      * @return void
      */
@@ -1329,7 +1329,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds61() method.
+     * Tests setTds61()
      *
      * @return void
      */
@@ -1342,7 +1342,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds76() method.
+     * Tests setTds76()
      *
      * @return void
      */
@@ -1355,7 +1355,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTel1() method.
+     * Tests setTel1()
      *
      * @return void
      */
@@ -1368,7 +1368,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTel2() method.
+     * Tests setTel2()
      *
      * @return void
      */
@@ -1381,7 +1381,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTelConjoint() method.
+     * Tests setTelConjoint()
      *
      * @return void
      */
@@ -1394,7 +1394,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTelPersAPrevenir() method.
+     * Tests setTelPersAPrevenir()
      *
      * @return void
      */
@@ -1407,7 +1407,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTitre() method.
+     * Tests setTitre()
      *
      * @return void
      */
@@ -1420,7 +1420,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTransfertEntree() method.
+     * Tests setTransfertEntree()
      *
      * @return void
      */
@@ -1433,7 +1433,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTransfertSortie() method.
+     * Tests setTransfertSortie()
      *
      * @return void
      */
@@ -1446,7 +1446,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeNationalite() method.
+     * Tests setTypeNationalite()
      *
      * @return void
      */
@@ -1459,7 +1459,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypePaiement() method.
+     * Tests setTypePaiement()
      *
      * @return void
      */
@@ -1472,7 +1472,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

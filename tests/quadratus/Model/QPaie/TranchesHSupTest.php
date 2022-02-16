@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class TranchesHSupTest extends AbstractTestCase {
 
     /**
-     * Tests the setAComptabiliserRc() method.
+     * Tests setAComptabiliserRc()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class TranchesHSupTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAComptabiliserRcit() method.
+     * Tests setAComptabiliserRcit()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class TranchesHSupTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAppliquerHSup() method.
+     * Tests setAppliquerHSup()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class TranchesHSupTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAppliquerReposRemplace() method.
+     * Tests setAppliquerReposRemplace()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class TranchesHSupTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeLibHs() method.
+     * Tests setCodeLibHs()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class TranchesHSupTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateApplication() method.
+     * Tests setDateApplication()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -107,7 +107,7 @@ class TranchesHSupTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDeclencheRcSemaine() method.
+     * Tests setDeclencheRcSemaine()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class TranchesHSupTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHoraireDepassement() method.
+     * Tests setHoraireDepassement()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class TranchesHSupTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroGrilleType() method.
+     * Tests setNumeroGrilleType()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class TranchesHSupTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPourcentHSup() method.
+     * Tests setPourcentHSup()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class TranchesHSupTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPourcentRc() method.
+     * Tests setPourcentRc()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class TranchesHSupTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPourcentReposRemplace() method.
+     * Tests setPourcentReposRemplace()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class TranchesHSupTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypePaiement() method.
+     * Tests setTypePaiement()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class TranchesHSupTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

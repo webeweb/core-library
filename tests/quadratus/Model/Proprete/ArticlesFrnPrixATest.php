@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ArticlesFrnPrixATest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeArticle() method.
+     * Tests setCodeArticle()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class ArticlesFrnPrixATest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeFournisseur() method.
+     * Tests setCodeFournisseur()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class ArticlesFrnPrixATest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateDebut() method.
+     * Tests setDateDebut()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class ArticlesFrnPrixATest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrixCond() method.
+     * Tests setPrixCond()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class ArticlesFrnPrixATest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPxAchat() method.
+     * Tests setPxAchat()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class ArticlesFrnPrixATest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQteAchat() method.
+     * Tests setQteAchat()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class ArticlesFrnPrixATest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQteCond() method.
+     * Tests setQteCond()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class ArticlesFrnPrixATest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemise1() method.
+     * Tests setRemise1()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class ArticlesFrnPrixATest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemise2() method.
+     * Tests setRemise2()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class ArticlesFrnPrixATest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemise3() method.
+     * Tests setRemise3()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class ArticlesFrnPrixATest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

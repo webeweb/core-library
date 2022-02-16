@@ -26,7 +26,7 @@ use WBW\Library\Database\Tests\AbstractTestCase;
 class MicrosoftAccessDatabaseConnectorTest extends AbstractTestCase {
 
     /**
-     * Tests the getConnection() method.
+     * Tests getConnection()
      *
      * @return void
      */
@@ -45,7 +45,7 @@ class MicrosoftAccessDatabaseConnectorTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the getConnection() method.
+     * Tests getConnection()
      *
      * @return void
      */
@@ -67,7 +67,7 @@ class MicrosoftAccessDatabaseConnectorTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the prepareBinding() method.
+     * Tests prepareBinding()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class MicrosoftAccessDatabaseConnectorTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the prepareInsert() method.
+     * Tests prepareInsert()
      *
      * @return void
      */
@@ -95,7 +95,7 @@ class MicrosoftAccessDatabaseConnectorTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the prepareUpdate() method.
+     * Tests prepareUpdate()
      *
      * @return void
      */

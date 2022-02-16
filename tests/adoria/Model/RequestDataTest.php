@@ -25,7 +25,7 @@ use WBW\Library\Adoria\Tests\AbstractTestCase;
 class RequestDataTest extends AbstractTestCase {
 
     /**
-     * Tests the setAnalyticCode() method.
+     * Tests setAnalyticCode()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class RequestDataTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBuyDateMax() method.
+     * Tests setBuyDateMax()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -55,7 +55,7 @@ class RequestDataTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIdentificationKey() method.
+     * Tests setIdentificationKey()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class RequestDataTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

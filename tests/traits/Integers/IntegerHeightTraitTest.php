@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Integers\TestIntegerHeightTrait;
 class IntegerHeightTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setHeight() method.
+     * Tests setHeight()
      *
      * @return void
      */

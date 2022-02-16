@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class HistoriqueTest extends AbstractTestCase {
 
     /**
-     * Tests the setAlpha() method.
+     * Tests setAlpha()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class HistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAnN() method.
+     * Tests setAnN()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class HistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAnN1() method.
+     * Tests setAnN1()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class HistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAnN2() method.
+     * Tests setAnN2()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class HistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBudget1() method.
+     * Tests setBudget1()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class HistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBudget2() method.
+     * Tests setBudget2()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class HistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDate() method.
+     * Tests setDate()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class HistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFlgAnN() method.
+     * Tests setFlgAnN()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class HistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFlgAnN1() method.
+     * Tests setFlgAnN1()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class HistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFlgAnN2() method.
+     * Tests setFlgAnN2()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class HistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFlgBudget1() method.
+     * Tests setFlgBudget1()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class HistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFlgBudget2() method.
+     * Tests setFlgBudget2()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class HistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFmtDec() method.
+     * Tests setFmtDec()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class HistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFmtInt() method.
+     * Tests setFmtInt()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class HistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMemo() method.
+     * Tests setMemo()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class HistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNoConvEuro() method.
+     * Tests setNoConvEuro()
      *
      * @return void
      */
@@ -237,7 +237,7 @@ class HistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRegle() method.
+     * Tests setRegle()
      *
      * @return void
      */
@@ -250,7 +250,7 @@ class HistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRub() method.
+     * Tests setRub()
      *
      * @return void
      */
@@ -263,7 +263,7 @@ class HistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeZone() method.
+     * Tests setTypeZone()
      *
      * @return void
      */
@@ -276,7 +276,7 @@ class HistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

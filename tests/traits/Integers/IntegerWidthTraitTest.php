@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Integers\TestIntegerWidthTrait;
 class IntegerWidthTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setWidth() method.
+     * Tests setWidth()
      *
      * @return void
      */

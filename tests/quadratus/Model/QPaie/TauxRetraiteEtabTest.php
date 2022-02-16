@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class TauxRetraiteEtabTest extends AbstractTestCase {
 
     /**
-     * Tests the setAPartirDe() method.
+     * Tests setAPartirDe()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -42,7 +42,7 @@ class TauxRetraiteEtabTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEtablissement() method.
+     * Tests setCodeEtablissement()
      *
      * @return void
      */
@@ -55,7 +55,7 @@ class TauxRetraiteEtabTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxRetTr2Pp() method.
+     * Tests setTauxRetTr2Pp()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class TauxRetraiteEtabTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxRetTr2Ps() method.
+     * Tests setTauxRetTr2Ps()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class TauxRetraiteEtabTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxRetTrApp() method.
+     * Tests setTauxRetTrApp()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class TauxRetraiteEtabTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxRetTrAps() method.
+     * Tests setTauxRetTrAps()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class TauxRetraiteEtabTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxRetTrBpp() method.
+     * Tests setTauxRetTrBpp()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class TauxRetraiteEtabTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxRetTrBps() method.
+     * Tests setTauxRetTrBps()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class TauxRetraiteEtabTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxRetTrCpp() method.
+     * Tests setTauxRetTrCpp()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class TauxRetraiteEtabTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxRetTrCps() method.
+     * Tests setTauxRetTrCps()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class TauxRetraiteEtabTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxRetTrDpp() method.
+     * Tests setTauxRetTrDpp()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class TauxRetraiteEtabTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxRetTrDps() method.
+     * Tests setTauxRetTrDps()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class TauxRetraiteEtabTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

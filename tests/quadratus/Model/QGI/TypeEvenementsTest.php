@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class TypeEvenementsTest extends AbstractTestCase {
 
     /**
-     * Tests the setAvecEtat() method.
+     * Tests setAvecEtat()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class TypeEvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCode() method.
+     * Tests setCode()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class TypeEvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtatCouleur1() method.
+     * Tests setEtatCouleur1()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class TypeEvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtatCouleur2() method.
+     * Tests setEtatCouleur2()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class TypeEvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtatCouleur3() method.
+     * Tests setEtatCouleur3()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class TypeEvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtatPriorite1() method.
+     * Tests setEtatPriorite1()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class TypeEvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtatPriorite2() method.
+     * Tests setEtatPriorite2()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class TypeEvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtatPriorite3() method.
+     * Tests setEtatPriorite3()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class TypeEvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle() method.
+     * Tests setLibelle()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class TypeEvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle1() method.
+     * Tests setLibelle1()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class TypeEvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle2() method.
+     * Tests setLibelle2()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class TypeEvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle3() method.
+     * Tests setLibelle3()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class TypeEvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelleEtat() method.
+     * Tests setLibelleEtat()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class TypeEvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPosFlag() method.
+     * Tests setPosFlag()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class TypeEvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

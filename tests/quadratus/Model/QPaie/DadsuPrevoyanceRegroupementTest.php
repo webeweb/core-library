@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DadsuPrevoyanceRegroupementTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeLibelle() method.
+     * Tests setCodeLibelle()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class DadsuPrevoyanceRegroupementTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeOption() method.
+     * Tests setCodeOption()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class DadsuPrevoyanceRegroupementTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeOrganisme() method.
+     * Tests setCodeOrganisme()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class DadsuPrevoyanceRegroupementTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePopulation() method.
+     * Tests setCodePopulation()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class DadsuPrevoyanceRegroupementTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRegroupement() method.
+     * Tests setCodeRegroupement()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class DadsuPrevoyanceRegroupementTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRefContrat() method.
+     * Tests setRefContrat()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class DadsuPrevoyanceRegroupementTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeCotis() method.
+     * Tests setTypeCotis()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class DadsuPrevoyanceRegroupementTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setValeurCotis() method.
+     * Tests setValeurCotis()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class DadsuPrevoyanceRegroupementTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setValeurCotisInitiale() method.
+     * Tests setValeurCotisInitiale()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class DadsuPrevoyanceRegroupementTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

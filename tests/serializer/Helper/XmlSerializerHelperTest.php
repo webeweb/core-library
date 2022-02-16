@@ -24,7 +24,7 @@ use WBW\Library\Serializer\Tests\Fixtures\Model\TestXmlSerializable;
 class XmlSerializerHelperTest extends AbstractTestCase {
 
     /**
-     * Tests the serializeArray() method.
+     * Tests serializeArray()
      *
      * @return void
      */
@@ -41,7 +41,7 @@ class XmlSerializerHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the serializeValue() method.
+     * Tests serializeValue()
      *
      * @return void
      */

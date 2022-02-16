@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ArticlesFrnTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeArticle() method.
+     * Tests setCodeArticle()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ArticlesFrnTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeFournisseur() method.
+     * Tests setCodeFournisseur()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ArticlesFrnTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCommentaires() method.
+     * Tests setCommentaires()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ArticlesFrnTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setConditionnement() method.
+     * Tests setConditionnement()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ArticlesFrnTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDelaiLe() method.
+     * Tests setDelaiLe()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ArticlesFrnTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDelaiLocal() method.
+     * Tests setDelaiLocal()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class ArticlesFrnTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDelaiNombre() method.
+     * Tests setDelaiNombre()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class ArticlesFrnTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDelaiType() method.
+     * Tests setDelaiType()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class ArticlesFrnTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRefArticleFournisseur() method.
+     * Tests setRefArticleFournisseur()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class ArticlesFrnTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

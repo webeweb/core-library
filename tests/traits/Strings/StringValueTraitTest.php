@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringValueTrait;
 class StringValueTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setValue() method.
+     * Tests setValue()
      *
      * @return void
      */

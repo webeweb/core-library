@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class VariablesPaieEmpTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeLibelle() method.
+     * Tests setCodeLibelle()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class VariablesPaieEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle() method.
+     * Tests setLibelle()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class VariablesPaieEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class VariablesPaieEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setValeur1() method.
+     * Tests setValeur1()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class VariablesPaieEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setValeur2() method.
+     * Tests setValeur2()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class VariablesPaieEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

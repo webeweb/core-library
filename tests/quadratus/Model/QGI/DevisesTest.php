@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DevisesTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeDevise() method.
+     * Tests setCodeDevise()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class DevisesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDate() method.
+     * Tests setDate()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -55,7 +55,7 @@ class DevisesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbDec() method.
+     * Tests setNbDec()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class DevisesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTaux() method.
+     * Tests setTaux()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class DevisesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUseNbDec() method.
+     * Tests setUseNbDec()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class DevisesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

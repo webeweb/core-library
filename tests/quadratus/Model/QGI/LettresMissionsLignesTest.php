@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LettresMissionsLignesTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class LettresMissionsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaborateur() method.
+     * Tests setCodeCollaborateur()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class LettresMissionsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeMission() method.
+     * Tests setCodeMission()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class LettresMissionsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRegroupement() method.
+     * Tests setCodeRegroupement()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class LettresMissionsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTravail() method.
+     * Tests setCodeTravail()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class LettresMissionsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateDebut() method.
+     * Tests setDateDebut()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -107,7 +107,7 @@ class LettresMissionsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateFin() method.
+     * Tests setDateFin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -124,7 +124,7 @@ class LettresMissionsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDeclarationARediger() method.
+     * Tests setDeclarationARediger()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class LettresMissionsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFrequence() method.
+     * Tests setFrequence()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class LettresMissionsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle() method.
+     * Tests setLibelle()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class LettresMissionsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbrHeures() method.
+     * Tests setNbrHeures()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class LettresMissionsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbrOperations() method.
+     * Tests setNbrOperations()
      *
      * @return void
      */
@@ -189,7 +189,7 @@ class LettresMissionsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNiveau() method.
+     * Tests setNiveau()
      *
      * @return void
      */
@@ -202,7 +202,7 @@ class LettresMissionsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNiveauLigne() method.
+     * Tests setNiveauLigne()
      *
      * @return void
      */
@@ -215,7 +215,7 @@ class LettresMissionsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroLettre() method.
+     * Tests setNumeroLettre()
      *
      * @return void
      */
@@ -228,7 +228,7 @@ class LettresMissionsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroLigne() method.
+     * Tests setNumeroLigne()
      *
      * @return void
      */
@@ -241,7 +241,7 @@ class LettresMissionsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setObservations() method.
+     * Tests setObservations()
      *
      * @return void
      */
@@ -254,7 +254,7 @@ class LettresMissionsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPolice() method.
+     * Tests setPolice()
      *
      * @return void
      */
@@ -267,7 +267,7 @@ class LettresMissionsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRealisePar() method.
+     * Tests setRealisePar()
      *
      * @return void
      */
@@ -280,7 +280,7 @@ class LettresMissionsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeAffectation() method.
+     * Tests setTypeAffectation()
      *
      * @return void
      */
@@ -293,7 +293,7 @@ class LettresMissionsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniqId() method.
+     * Tests setUniqId()
      *
      * @return void
      */
@@ -306,7 +306,7 @@ class LettresMissionsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

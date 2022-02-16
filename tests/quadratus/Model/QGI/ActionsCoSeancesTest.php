@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ActionsCoSeancesTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeAction() method.
+     * Tests setCodeAction()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class ActionsCoSeancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeManif() method.
+     * Tests setCodeManif()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class ActionsCoSeancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateSeance() method.
+     * Tests setDateSeance()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class ActionsCoSeancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHeureDeb() method.
+     * Tests setHeureDeb()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -85,7 +85,7 @@ class ActionsCoSeancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHeureFin() method.
+     * Tests setHeureFin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -102,7 +102,7 @@ class ActionsCoSeancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelleSeance() method.
+     * Tests setLibelleSeance()
      *
      * @return void
      */
@@ -115,7 +115,7 @@ class ActionsCoSeancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumSeance() method.
+     * Tests setNumSeance()
      *
      * @return void
      */
@@ -128,7 +128,7 @@ class ActionsCoSeancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

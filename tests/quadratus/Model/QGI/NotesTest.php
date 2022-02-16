@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class NotesTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeCategorie() method.
+     * Tests setCodeCategorie()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class NotesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaborateur() method.
+     * Tests setCodeCollaborateur()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class NotesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaborateurModif() method.
+     * Tests setCodeCollaborateurModif()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class NotesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateCreation() method.
+     * Tests setDateCreation()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class NotesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateModification() method.
+     * Tests setDateModification()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -98,7 +98,7 @@ class NotesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateRappel() method.
+     * Tests setDateRappel()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -115,7 +115,7 @@ class NotesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEnvoiPostIt() method.
+     * Tests setEnvoiPostIt()
      *
      * @return void
      */
@@ -128,7 +128,7 @@ class NotesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule() method.
+     * Tests setIntitule()
      *
      * @return void
      */
@@ -141,7 +141,7 @@ class NotesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumUniq() method.
+     * Tests setNumUniq()
      *
      * @return void
      */
@@ -154,7 +154,7 @@ class NotesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTitre() method.
+     * Tests setTitre()
      *
      * @return void
      */
@@ -167,7 +167,7 @@ class NotesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

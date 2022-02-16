@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Floats\TestFloatTotalAmountTrait;
 class FloatTotalAmountTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setTotalAmount() method.
+     * Tests setTotalAmount()
      *
      * @return void
      */

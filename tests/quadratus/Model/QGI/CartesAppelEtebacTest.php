@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class CartesAppelEtebacTest extends AbstractTestCase {
 
     /**
-     * Tests the setCarteAppel() method.
+     * Tests setCarteAppel()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class CartesAppelEtebacTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeBanque() method.
+     * Tests setCodeBanque()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class CartesAppelEtebacTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIdCarte() method.
+     * Tests setIdCarte()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class CartesAppelEtebacTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLgCarteAppel() method.
+     * Tests setLgCarteAppel()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class CartesAppelEtebacTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle() method.
+     * Tests setLibelle()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class CartesAppelEtebacTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeCarte() method.
+     * Tests setTypeCarte()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class CartesAppelEtebacTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

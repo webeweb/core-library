@@ -24,7 +24,7 @@ use WBW\Library\Dropdown\Tests\AbstractTestCase;
 class DropdownItemFactoryTest extends AbstractTestCase {
 
     /**
-     * Tests the copy() method.
+     * Tests copy()
      *
      * @return void
      */

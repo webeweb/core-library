@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringFilenameTrait;
 class StringFilenameTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setFilename() method.
+     * Tests setFilename()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AnnexeTest extends AbstractTestCase {
 
     /**
-     * Tests the setCode1() method.
+     * Tests setCode1()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AnnexeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCode2() method.
+     * Tests setCode2()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AnnexeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDate1() method.
+     * Tests setDate1()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class AnnexeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDate2() method.
+     * Tests setDate2()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -85,7 +85,7 @@ class AnnexeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDouble1() method.
+     * Tests setDouble1()
      *
      * @return void
      */
@@ -98,7 +98,7 @@ class AnnexeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDouble2() method.
+     * Tests setDouble2()
      *
      * @return void
      */
@@ -111,7 +111,7 @@ class AnnexeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumero() method.
+     * Tests setNumero()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class AnnexeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTexte1() method.
+     * Tests setTexte1()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class AnnexeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTexte2() method.
+     * Tests setTexte2()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class AnnexeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTexte3() method.
+     * Tests setTexte3()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class AnnexeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTexte4() method.
+     * Tests setTexte4()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class AnnexeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTexte5() method.
+     * Tests setTexte5()
      *
      * @return void
      */
@@ -189,7 +189,7 @@ class AnnexeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setType() method.
+     * Tests setType()
      *
      * @return void
      */
@@ -202,7 +202,7 @@ class AnnexeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniqId() method.
+     * Tests setUniqId()
      *
      * @return void
      */
@@ -215,7 +215,7 @@ class AnnexeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

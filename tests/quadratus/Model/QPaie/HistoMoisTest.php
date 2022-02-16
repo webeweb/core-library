@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class HistoMoisTest extends AbstractTestCase {
 
     /**
-     * Tests the setIndicePeriode() method.
+     * Tests setIndicePeriode()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class HistoMoisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle() method.
+     * Tests setLibelle()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class HistoMoisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLienDocument() method.
+     * Tests setLienDocument()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class HistoMoisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriode() method.
+     * Tests setPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class HistoMoisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

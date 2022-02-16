@@ -24,7 +24,7 @@ use WBW\Library\Serializer\Tests\AbstractTestCase;
 class SerializerHelperTest extends AbstractTestCase {
 
     /**
-     * Tests the getLogger() method.
+     * Tests getLogger()
      *
      * @return void
      */

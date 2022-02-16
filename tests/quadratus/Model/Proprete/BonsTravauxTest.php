@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class BonsTravauxTest extends AbstractTestCase {
 
     /**
-     * Tests the setAdBtBureauDistributeur() method.
+     * Tests setAdBtBureauDistributeur()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdBtCivilite() method.
+     * Tests setAdBtCivilite()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdBtCodePays() method.
+     * Tests setAdBtCodePays()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdBtCodePostal() method.
+     * Tests setAdBtCodePostal()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdBtComplement() method.
+     * Tests setAdBtComplement()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdBtNom() method.
+     * Tests setAdBtNom()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdBtNomSuite() method.
+     * Tests setAdBtNomSuite()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdBtNomVoie() method.
+     * Tests setAdBtNomVoie()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdBtNumVoie() method.
+     * Tests setAdBtNumVoie()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdBtbtq() method.
+     * Tests setAdBtbtq()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdFBureauDistributeur() method.
+     * Tests setAdFBureauDistributeur()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdFCivilite() method.
+     * Tests setAdFCivilite()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdFCodePays() method.
+     * Tests setAdFCodePays()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdFCodePostal() method.
+     * Tests setAdFCodePostal()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdFComplement() method.
+     * Tests setAdFComplement()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdFNom() method.
+     * Tests setAdFNom()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdFNomSuite() method.
+     * Tests setAdFNomSuite()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdFNomSuite2() method.
+     * Tests setAdFNomSuite2()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdFNomSuite3() method.
+     * Tests setAdFNomSuite3()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdFNomVoie() method.
+     * Tests setAdFNomVoie()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdFNumVoie() method.
+     * Tests setAdFNumVoie()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdFbtq() method.
+     * Tests setAdFbtq()
      *
      * @return void
      */
@@ -311,7 +311,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdresseBtSaisie() method.
+     * Tests setAdresseBtSaisie()
      *
      * @return void
      */
@@ -324,7 +324,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdresseFacturationSaisie() method.
+     * Tests setAdresseFacturationSaisie()
      *
      * @return void
      */
@@ -337,7 +337,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAffaire() method.
+     * Tests setCodeAffaire()
      *
      * @return void
      */
@@ -350,7 +350,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeChantier() method.
+     * Tests setCodeChantier()
      *
      * @return void
      */
@@ -363,7 +363,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -376,7 +376,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeFrequence() method.
+     * Tests setCodeFrequence()
      *
      * @return void
      */
@@ -389,7 +389,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTacheBt() method.
+     * Tests setCodeTacheBt()
      *
      * @return void
      */
@@ -402,7 +402,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTournee() method.
+     * Tests setCodeTournee()
      *
      * @return void
      */
@@ -415,7 +415,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCritereListe1() method.
+     * Tests setCritereListe1()
      *
      * @return void
      */
@@ -428,7 +428,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCritereListe2() method.
+     * Tests setCritereListe2()
      *
      * @return void
      */
@@ -441,7 +441,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCritereNumerique1() method.
+     * Tests setCritereNumerique1()
      *
      * @return void
      */
@@ -454,7 +454,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCritereNumerique2() method.
+     * Tests setCritereNumerique2()
      *
      * @return void
      */
@@ -467,7 +467,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCritereTexte1() method.
+     * Tests setCritereTexte1()
      *
      * @return void
      */
@@ -480,7 +480,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCritereTexte2() method.
+     * Tests setCritereTexte2()
      *
      * @return void
      */
@@ -493,7 +493,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateDernierPassage() method.
+     * Tests setDateDernierPassage()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -510,7 +510,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateFinValidite() method.
+     * Tests setDateFinValidite()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -527,7 +527,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDatePremierPassage() method.
+     * Tests setDatePremierPassage()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -544,7 +544,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateValidite() method.
+     * Tests setDateValidite()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -561,7 +561,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDescription() method.
+     * Tests setDescription()
      *
      * @return void
      */
@@ -574,7 +574,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEquipe() method.
+     * Tests setEquipe()
      *
      * @return void
      */
@@ -587,7 +587,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFrequence() method.
+     * Tests setFrequence()
      *
      * @return void
      */
@@ -600,7 +600,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFrequenceSuite() method.
+     * Tests setFrequenceSuite()
      *
      * @return void
      */
@@ -613,7 +613,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionPlanning() method.
+     * Tests setGestionPlanning()
      *
      * @return void
      */
@@ -626,7 +626,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHeureDeb() method.
+     * Tests setHeureDeb()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -643,7 +643,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLatitude() method.
+     * Tests setLatitude()
      *
      * @return void
      */
@@ -656,7 +656,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLongitude() method.
+     * Tests setLongitude()
      *
      * @return void
      */
@@ -669,7 +669,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMentionSpeciale() method.
+     * Tests setMentionSpeciale()
      *
      * @return void
      */
@@ -682,7 +682,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHeures() method.
+     * Tests setNbHeures()
      *
      * @return void
      */
@@ -695,7 +695,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJours() method.
+     * Tests setNbJours()
      *
      * @return void
      */
@@ -708,7 +708,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumBt() method.
+     * Tests setNumBt()
      *
      * @return void
      */
@@ -721,7 +721,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPosteRent() method.
+     * Tests setPosteRent()
      *
      * @return void
      */
@@ -734,7 +734,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSaisieInterJour() method.
+     * Tests setSaisieInterJour()
      *
      * @return void
      */
@@ -747,7 +747,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTravailleDimanche() method.
+     * Tests setTravailleDimanche()
      *
      * @return void
      */
@@ -760,7 +760,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTravailleJoursFeries() method.
+     * Tests setTravailleJoursFeries()
      *
      * @return void
      */
@@ -773,7 +773,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTravailleSamedi() method.
+     * Tests setTravailleSamedi()
      *
      * @return void
      */
@@ -786,7 +786,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeFrequence() method.
+     * Tests setTypeFrequence()
      *
      * @return void
      */
@@ -799,7 +799,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUnBonParMois() method.
+     * Tests setUnBonParMois()
      *
      * @return void
      */
@@ -812,7 +812,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

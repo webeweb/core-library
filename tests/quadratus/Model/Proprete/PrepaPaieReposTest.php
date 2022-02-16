@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class PrepaPaieReposTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeEmploye() method.
+     * Tests setCodeEmploye()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class PrepaPaieReposTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCpPris() method.
+     * Tests setCpPris()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class PrepaPaieReposTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHEffectives() method.
+     * Tests setHEffectives()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class PrepaPaieReposTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHPrevues() method.
+     * Tests setHPrevues()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class PrepaPaieReposTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHRealisees() method.
+     * Tests setHRealisees()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class PrepaPaieReposTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumSem() method.
+     * Tests setNumSem()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class PrepaPaieReposTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriode() method.
+     * Tests setPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class PrepaPaieReposTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setReposCompAcquis() method.
+     * Tests setReposCompAcquis()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class PrepaPaieReposTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setReposCompPris() method.
+     * Tests setReposCompPris()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class PrepaPaieReposTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setReposRemplAcquis() method.
+     * Tests setReposRemplAcquis()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class PrepaPaieReposTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setReposRemplPris() method.
+     * Tests setReposRemplPris()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class PrepaPaieReposTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

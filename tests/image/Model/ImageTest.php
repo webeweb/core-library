@@ -43,7 +43,7 @@ class ImageTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the init() method.
+     * Tests init()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class ImageTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the resize() method.
+     * Tests resize()
      *
      * @return void
      */
@@ -83,7 +83,7 @@ class ImageTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */
@@ -105,7 +105,7 @@ class ImageTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

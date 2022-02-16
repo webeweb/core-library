@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class PlanObligationClientTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class PlanObligationClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollabSpecif() method.
+     * Tests setCodeCollabSpecif()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class PlanObligationClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeObligation() method.
+     * Tests setCodeObligation()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class PlanObligationClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateDebut() method.
+     * Tests setDateDebut()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class PlanObligationClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateFin() method.
+     * Tests setDateFin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -98,7 +98,7 @@ class PlanObligationClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFrequence() method.
+     * Tests setFrequence()
      *
      * @return void
      */
@@ -111,7 +111,7 @@ class PlanObligationClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLigne() method.
+     * Tests setNumLigne()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class PlanObligationClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQuiLeFait() method.
+     * Tests setQuiLeFait()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class PlanObligationClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

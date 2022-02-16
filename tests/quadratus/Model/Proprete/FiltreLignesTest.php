@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class FiltreLignesTest extends AbstractTestCase {
 
     /**
-     * Tests the setCode() method.
+     * Tests setCode()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class FiltreLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniqId() method.
+     * Tests setUniqId()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class FiltreLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

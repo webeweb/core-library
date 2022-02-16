@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class TauxRetraiteMetierTest extends AbstractTestCase {
 
     /**
-     * Tests the setActive() method.
+     * Tests setActive()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCategSalarie() method.
+     * Tests setCategSalarie()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeActivite() method.
+     * Tests setCodeActivite()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeDucs() method.
+     * Tests setCodeDucs()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEditionHisto() method.
+     * Tests setCodeEditionHisto()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeLibelle() method.
+     * Tests setCodeLibelle()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeMetier() method.
+     * Tests setCodeMetier()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeOrganisme() method.
+     * Tests setCodeOrganisme()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteCharge() method.
+     * Tests setCompteCharge()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setConditionSpec() method.
+     * Tests setConditionSpec()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setExclureLoiTepa() method.
+     * Tests setExclureLoiTepa()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndiceCateg() method.
+     * Tests setIndiceCateg()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelleBul() method.
+     * Tests setLibelleBul()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLigne() method.
+     * Tests setNumLigne()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQualifiantCotis() method.
+     * Tests setQualifiantCotis()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeLibelle() method.
+     * Tests setTypeLibelle()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

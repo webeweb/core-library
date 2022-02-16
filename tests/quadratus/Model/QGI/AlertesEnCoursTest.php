@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AlertesEnCoursTest extends AbstractTestCase {
 
     /**
-     * Tests the setArDemande() method.
+     * Tests setArDemande()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AlertesEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AlertesEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollabDst() method.
+     * Tests setCodeCollabDst()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AlertesEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollabOrg() method.
+     * Tests setCodeCollabOrg()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class AlertesEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateCreation() method.
+     * Tests setDateCreation()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -94,7 +94,7 @@ class AlertesEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateDeclenchement() method.
+     * Tests setDateDeclenchement()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -111,7 +111,7 @@ class AlertesEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIdAlerte() method.
+     * Tests setIdAlerte()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class AlertesEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTexteAlerte() method.
+     * Tests setTexteAlerte()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class AlertesEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

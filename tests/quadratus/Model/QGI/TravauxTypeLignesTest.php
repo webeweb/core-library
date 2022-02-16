@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class TravauxTypeLignesTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeRepartition() method.
+     * Tests setCodeRepartition()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class TravauxTypeLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTravail() method.
+     * Tests setCodeTravail()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class TravauxTypeLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle() method.
+     * Tests setLibelle()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class TravauxTypeLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbUo() method.
+     * Tests setNbUo()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class TravauxTypeLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNiveauLigne() method.
+     * Tests setNiveauLigne()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class TravauxTypeLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroLigne() method.
+     * Tests setNumeroLigne()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class TravauxTypeLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPolice() method.
+     * Tests setPolice()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class TravauxTypeLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

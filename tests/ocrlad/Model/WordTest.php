@@ -24,7 +24,7 @@ use WBW\Library\OcrLad\Tests\AbstractTestCase;
 class WordTest extends AbstractTestCase {
 
     /**
-     * Tests the setOcrConfidence() method.
+     * Tests setOcrConfidence()
      *
      * @return void
      */
@@ -37,7 +37,7 @@ class WordTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setX1() method.
+     * Tests setX1()
      *
      * @return void
      */
@@ -50,7 +50,7 @@ class WordTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setX2() method.
+     * Tests setX2()
      *
      * @return void
      */
@@ -63,7 +63,7 @@ class WordTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setY1() method.
+     * Tests setY1()
      *
      * @return void
      */
@@ -76,7 +76,7 @@ class WordTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setY2() method.
+     * Tests setY2()
      *
      * @return void
      */
@@ -89,7 +89,7 @@ class WordTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

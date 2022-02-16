@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AgendaCollabConstTest extends AbstractTestCase {
 
     /**
-     * Tests the setArtt() method.
+     * Tests setArtt()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaborateur() method.
+     * Tests setCodeCollaborateur()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeSiteTenue() method.
+     * Tests setCodeSiteTenue()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setConfidentiel() method.
+     * Tests setConfidentiel()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateDerniereModifAgenda() method.
+     * Tests setDateDerniereModifAgenda()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -94,7 +94,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDimancheAMdeb() method.
+     * Tests setDimancheAMdeb()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -111,7 +111,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDimancheAMfin() method.
+     * Tests setDimancheAMfin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -128,7 +128,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDimanchePMdeb() method.
+     * Tests setDimanchePMdeb()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -145,7 +145,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDimanchePMfin() method.
+     * Tests setDimanchePMfin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -162,7 +162,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setInterdireRdVHorsTravail() method.
+     * Tests setInterdireRdVHorsTravail()
      *
      * @return void
      */
@@ -175,7 +175,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJeudiAMdeb() method.
+     * Tests setJeudiAMdeb()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -192,7 +192,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJeudiAMfin() method.
+     * Tests setJeudiAMfin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -209,7 +209,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJeudiPMdeb() method.
+     * Tests setJeudiPMdeb()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -226,7 +226,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJeudiPMfin() method.
+     * Tests setJeudiPMfin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -243,7 +243,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLundiAMdeb() method.
+     * Tests setLundiAMdeb()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -260,7 +260,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLundiAMfin() method.
+     * Tests setLundiAMfin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -277,7 +277,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLundiPMdeb() method.
+     * Tests setLundiPMdeb()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -294,7 +294,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLundiPMfin() method.
+     * Tests setLundiPMfin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -311,7 +311,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMardiAMdeb() method.
+     * Tests setMardiAMdeb()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -328,7 +328,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMardiAMfin() method.
+     * Tests setMardiAMfin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -345,7 +345,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMardiPMdeb() method.
+     * Tests setMardiPMdeb()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -362,7 +362,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMardiPMfin() method.
+     * Tests setMardiPMfin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -379,7 +379,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMercrediAMdeb() method.
+     * Tests setMercrediAMdeb()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -396,7 +396,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMercrediAMfin() method.
+     * Tests setMercrediAMfin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -413,7 +413,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMercrediPMdeb() method.
+     * Tests setMercrediPMdeb()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -430,7 +430,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMercrediPMfin() method.
+     * Tests setMercrediPMfin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -447,7 +447,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPlusPetiteDateActiviteModifiee() method.
+     * Tests setPlusPetiteDateActiviteModifiee()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -464,7 +464,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSamediAMdeb() method.
+     * Tests setSamediAMdeb()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -481,7 +481,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSamediAMfin() method.
+     * Tests setSamediAMfin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -498,7 +498,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSamediPMdeb() method.
+     * Tests setSamediPMdeb()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -515,7 +515,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSamediPMfin() method.
+     * Tests setSamediPMfin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -532,7 +532,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSuiviOrdreMission() method.
+     * Tests setSuiviOrdreMission()
      *
      * @return void
      */
@@ -545,7 +545,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniteRdv() method.
+     * Tests setUniteRdv()
      *
      * @return void
      */
@@ -558,7 +558,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setVendrediAMdeb() method.
+     * Tests setVendrediAMdeb()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -575,7 +575,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setVendrediAMfin() method.
+     * Tests setVendrediAMfin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -592,7 +592,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setVendrediPMdeb() method.
+     * Tests setVendrediPMdeb()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -609,7 +609,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setVendrediPMfin() method.
+     * Tests setVendrediPMfin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -626,7 +626,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

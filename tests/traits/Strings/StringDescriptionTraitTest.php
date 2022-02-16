@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringDescriptionTrait;
 class StringDescriptionTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setDescription() method.
+     * Tests setDescription()
      *
      * @return void
      */

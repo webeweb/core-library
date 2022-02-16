@@ -27,7 +27,7 @@ use WBW\Library\Types\Tests\AbstractTestCase;
 class DateTimeHelperTest extends AbstractTestCase {
 
     /**
-     * Tests the addDay() method.
+     * Tests addDay()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -53,7 +53,7 @@ class DateTimeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the addMonth() method.
+     * Tests addMonth()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -79,7 +79,7 @@ class DateTimeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the addYear() method.
+     * Tests addYear()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -105,7 +105,7 @@ class DateTimeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the compare() method.
+     * Tests compare()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -118,7 +118,7 @@ class DateTimeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the compare() method.
+     * Tests compare()
      *
      * @return void
      */
@@ -135,7 +135,7 @@ class DateTimeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the equals() method.
+     * Tests equals()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -148,7 +148,7 @@ class DateTimeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the getAge() method.
+     * Tests getAge()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -166,7 +166,7 @@ class DateTimeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the getDayNumber() method.
+     * Tests getDayNumber()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -183,7 +183,7 @@ class DateTimeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the getDayNumber() method.
+     * Tests getDayNumber()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -200,7 +200,7 @@ class DateTimeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the getDuration() method.
+     * Tests getDuration()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -212,7 +212,7 @@ class DateTimeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the getGreater() method.
+     * Tests getGreater()
      *
      * @return void.
      * @throws Exception Throws an exception if an error occurs.
@@ -228,7 +228,7 @@ class DateTimeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the getMonthNumber() method.
+     * Tests getMonthNumber()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -250,7 +250,7 @@ class DateTimeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the getSmaller() method.
+     * Tests getSmaller()
      *
      * @return void.
      * @throws Exception Throws an exception if an error occurs.
@@ -266,7 +266,7 @@ class DateTimeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the getWeekNumber() method.
+     * Tests getWeekNumber()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -285,7 +285,7 @@ class DateTimeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the getWeekNumberToApply() method.
+     * Tests getWeekNumberToApply()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -360,7 +360,7 @@ class DateTimeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the getWeekPeriod() method.
+     * Tests getWeekPeriod()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -418,7 +418,7 @@ class DateTimeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the getWeekPeriod() method.
+     * Tests getWeekPeriod()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -430,7 +430,7 @@ class DateTimeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the getWeekPeriod() method.
+     * Tests getWeekPeriod()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -488,7 +488,7 @@ class DateTimeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the getYearNumber() method.
+     * Tests getYearNumber()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -502,7 +502,7 @@ class DateTimeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the isBetween() method.
+     * Tests isBetween()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -514,7 +514,7 @@ class DateTimeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the isGreaterThan() method.
+     * Tests isGreaterThan()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -526,7 +526,7 @@ class DateTimeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the isLessThan() method.
+     * Tests isLessThan()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -538,7 +538,7 @@ class DateTimeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the range() method.
+     * Tests range()
      *
      * @return void
      */
@@ -558,7 +558,7 @@ class DateTimeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the subDay() method.
+     * Tests subDay()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -583,7 +583,7 @@ class DateTimeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the subMonth() method.
+     * Tests subMonth()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -608,7 +608,7 @@ class DateTimeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the subYear() method.
+     * Tests subYear()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -633,7 +633,7 @@ class DateTimeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the toString() method.
+     * Tests toString()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -646,7 +646,7 @@ class DateTimeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the translateWeekday() method.
+     * Tests translateWeekday()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -697,7 +697,7 @@ class DateTimeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

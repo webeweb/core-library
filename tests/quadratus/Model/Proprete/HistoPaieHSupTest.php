@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class HistoPaieHSupTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeEmploye() method.
+     * Tests setCodeEmploye()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class HistoPaieHSupTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHSup() method.
+     * Tests setNbHSup()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class HistoPaieHSupTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriode() method.
+     * Tests setPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class HistoPaieHSupTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPourcentHSup() method.
+     * Tests setPourcentHSup()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class HistoPaieHSupTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

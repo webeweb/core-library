@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class FournisseursTest extends AbstractTestCase {
 
     /**
-     * Tests the setApe() method.
+     * Tests setApe()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBtq() method.
+     * Tests setBtq()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBureauDistributeur() method.
+     * Tests setBureauDistributeur()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCode() method.
+     * Tests setCode()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeDevise() method.
+     * Tests setCodeDevise()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeFamille() method.
+     * Tests setCodeFamille()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeImputationAnalytique() method.
+     * Tests setCodeImputationAnalytique()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeLangueDesignationArticle() method.
+     * Tests setCodeLangueDesignationArticle()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeOfficielCommune() method.
+     * Tests setCodeOfficielCommune()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePays() method.
+     * Tests setCodePays()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePostal() method.
+     * Tests setCodePostal()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeReglement() method.
+     * Tests setCodeReglement()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeSousFamille() method.
+     * Tests setCodeSousFamille()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTva() method.
+     * Tests setCodeTva()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTva1() method.
+     * Tests setCodeTva1()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTva2() method.
+     * Tests setCodeTva2()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeVentilCompta() method.
+     * Tests setCodeVentilCompta()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCollectif() method.
+     * Tests setCollectif()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCommentaires() method.
+     * Tests setCommentaires()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setComplement() method.
+     * Tests setComplement()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateCreation() method.
+     * Tests setDateCreation()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -302,7 +302,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateModification() method.
+     * Tests setDateModification()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -319,7 +319,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDelaiLe() method.
+     * Tests setDelaiLe()
      *
      * @return void
      */
@@ -332,7 +332,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDelaiNombre() method.
+     * Tests setDelaiNombre()
      *
      * @return void
      */
@@ -345,7 +345,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDelaiType() method.
+     * Tests setDelaiType()
      *
      * @return void
      */
@@ -358,7 +358,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDomiciliationBancaire1() method.
+     * Tests setDomiciliationBancaire1()
      *
      * @return void
      */
@@ -371,7 +371,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDomiciliationBancaire2() method.
+     * Tests setDomiciliationBancaire2()
      *
      * @return void
      */
@@ -384,7 +384,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmail() method.
+     * Tests setEmail()
      *
      * @return void
      */
@@ -397,7 +397,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFactureEuros() method.
+     * Tests setFactureEuros()
      *
      * @return void
      */
@@ -410,7 +410,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFax() method.
+     * Tests setFax()
      *
      * @return void
      */
@@ -423,7 +423,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFraisFixes1() method.
+     * Tests setFraisFixes1()
      *
      * @return void
      */
@@ -436,7 +436,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFraisFixes2() method.
+     * Tests setFraisFixes2()
      *
      * @return void
      */
@@ -449,7 +449,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFraisFixes3() method.
+     * Tests setFraisFixes3()
      *
      * @return void
      */
@@ -462,7 +462,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIdentTva() method.
+     * Tests setIdentTva()
      *
      * @return void
      */
@@ -475,7 +475,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantAcompte() method.
+     * Tests setMontantAcompte()
      *
      * @return void
      */
@@ -488,7 +488,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbColis() method.
+     * Tests setNbColis()
      *
      * @return void
      */
@@ -501,7 +501,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNom() method.
+     * Tests setNom()
      *
      * @return void
      */
@@ -514,7 +514,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomResponsable() method.
+     * Tests setNomResponsable()
      *
      * @return void
      */
@@ -527,7 +527,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomSuite() method.
+     * Tests setNomSuite()
      *
      * @return void
      */
@@ -540,7 +540,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomVille() method.
+     * Tests setNomVille()
      *
      * @return void
      */
@@ -553,7 +553,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomVoie() method.
+     * Tests setNomVoie()
      *
      * @return void
      */
@@ -566,7 +566,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNombreEcheances() method.
+     * Tests setNombreEcheances()
      *
      * @return void
      */
@@ -579,7 +579,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumVoie() method.
+     * Tests setNumVoie()
      *
      * @return void
      */
@@ -592,7 +592,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroCompte() method.
+     * Tests setNumeroCompte()
      *
      * @return void
      */
@@ -605,7 +605,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPaiementDepartLe() method.
+     * Tests setPaiementDepartLe()
      *
      * @return void
      */
@@ -618,7 +618,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPaiementLe() method.
+     * Tests setPaiementLe()
      *
      * @return void
      */
@@ -631,7 +631,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPaiementNombreDeJours() method.
+     * Tests setPaiementNombreDeJours()
      *
      * @return void
      */
@@ -644,7 +644,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPoids() method.
+     * Tests setPoids()
      *
      * @return void
      */
@@ -657,7 +657,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPortable1() method.
+     * Tests setPortable1()
      *
      * @return void
      */
@@ -670,7 +670,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPortable2() method.
+     * Tests setPortable2()
      *
      * @return void
      */
@@ -683,7 +683,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRc() method.
+     * Tests setRc()
      *
      * @return void
      */
@@ -696,7 +696,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setReferenceClient() method.
+     * Tests setReferenceClient()
      *
      * @return void
      */
@@ -709,7 +709,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemiseLigne1() method.
+     * Tests setRemiseLigne1()
      *
      * @return void
      */
@@ -722,7 +722,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemiseLigne2() method.
+     * Tests setRemiseLigne2()
      *
      * @return void
      */
@@ -735,7 +735,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemiseLigne3() method.
+     * Tests setRemiseLigne3()
      *
      * @return void
      */
@@ -748,7 +748,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemisePied() method.
+     * Tests setRemisePied()
      *
      * @return void
      */
@@ -761,7 +761,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemisePied2() method.
+     * Tests setRemisePied2()
      *
      * @return void
      */
@@ -774,7 +774,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemisePied3() method.
+     * Tests setRemisePied3()
      *
      * @return void
      */
@@ -787,7 +787,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRib() method.
+     * Tests setRib()
      *
      * @return void
      */
@@ -800,7 +800,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSiret() method.
+     * Tests setSiret()
      *
      * @return void
      */
@@ -813,7 +813,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSoumisTaxe1() method.
+     * Tests setSoumisTaxe1()
      *
      * @return void
      */
@@ -826,7 +826,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSoumisTaxe2() method.
+     * Tests setSoumisTaxe2()
      *
      * @return void
      */
@@ -839,7 +839,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSoumisTaxe3() method.
+     * Tests setSoumisTaxe3()
      *
      * @return void
      */
@@ -852,7 +852,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTel1() method.
+     * Tests setTel1()
      *
      * @return void
      */
@@ -865,7 +865,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTel2() method.
+     * Tests setTel2()
      *
      * @return void
      */
@@ -878,7 +878,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTelVoiture() method.
+     * Tests setTelVoiture()
      *
      * @return void
      */
@@ -891,7 +891,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTelex() method.
+     * Tests setTelex()
      *
      * @return void
      */
@@ -904,7 +904,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTransporteur() method.
+     * Tests setTransporteur()
      *
      * @return void
      */
@@ -917,7 +917,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaCle() method.
+     * Tests setTvaCle()
      *
      * @return void
      */
@@ -930,7 +930,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaCodeDossier() method.
+     * Tests setTvaCodeDossier()
      *
      * @return void
      */
@@ -943,7 +943,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaCodeRecette() method.
+     * Tests setTvaCodeRecette()
      *
      * @return void
      */
@@ -956,7 +956,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaRegime() method.
+     * Tests setTvaRegime()
      *
      * @return void
      */
@@ -969,7 +969,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTxEscompteAchat() method.
+     * Tests setTxEscompteAchat()
      *
      * @return void
      */
@@ -982,7 +982,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

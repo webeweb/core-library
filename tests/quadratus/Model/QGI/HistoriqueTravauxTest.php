@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class HistoriqueTravauxTest extends AbstractTestCase {
 
     /**
-     * Tests the setCataloguee() method.
+     * Tests setCataloguee()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class HistoriqueTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class HistoriqueTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaborateurClot() method.
+     * Tests setCodeCollaborateurClot()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class HistoriqueTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaborateurDest() method.
+     * Tests setCodeCollaborateurDest()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class HistoriqueTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaborateurEntrant() method.
+     * Tests setCodeCollaborateurEntrant()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class HistoriqueTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateAlerte() method.
+     * Tests setDateAlerte()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -107,7 +107,7 @@ class HistoriqueTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateButoir() method.
+     * Tests setDateButoir()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -124,7 +124,7 @@ class HistoriqueTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateEntree() method.
+     * Tests setDateEntree()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -141,7 +141,7 @@ class HistoriqueTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateSortie() method.
+     * Tests setDateSortie()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -158,7 +158,7 @@ class HistoriqueTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDemandeur() method.
+     * Tests setDemandeur()
      *
      * @return void
      */
@@ -171,7 +171,7 @@ class HistoriqueTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDuree() method.
+     * Tests setDuree()
      *
      * @return void
      */
@@ -184,7 +184,7 @@ class HistoriqueTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIdTravail() method.
+     * Tests setIdTravail()
      *
      * @return void
      */
@@ -197,7 +197,7 @@ class HistoriqueTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule() method.
+     * Tests setIntitule()
      *
      * @return void
      */
@@ -210,7 +210,7 @@ class HistoriqueTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomClient() method.
+     * Tests setNomClient()
      *
      * @return void
      */
@@ -223,7 +223,7 @@ class HistoriqueTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPieceJointe() method.
+     * Tests setPieceJointe()
      *
      * @return void
      */
@@ -236,7 +236,7 @@ class HistoriqueTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setReponse() method.
+     * Tests setReponse()
      *
      * @return void
      */
@@ -249,7 +249,7 @@ class HistoriqueTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTravailFait() method.
+     * Tests setTravailFait()
      *
      * @return void
      */
@@ -262,7 +262,7 @@ class HistoriqueTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

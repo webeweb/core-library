@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AlertesTest extends AbstractTestCase {
 
     /**
-     * Tests the setCloturee() method.
+     * Tests setCloturee()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AlertesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCommentaire() method.
+     * Tests setCommentaire()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AlertesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateDebut() method.
+     * Tests setDateDebut()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class AlertesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniqId() method.
+     * Tests setUniqId()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class AlertesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

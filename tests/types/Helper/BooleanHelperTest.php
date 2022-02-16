@@ -23,7 +23,7 @@ use WBW\Library\Types\Tests\AbstractTestCase;
 class BooleanHelperTest extends AbstractTestCase {
 
     /**
-     * Tests the parseInteger() method.
+     * Tests parseInteger()
      *
      * @return void
      */
@@ -35,7 +35,7 @@ class BooleanHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the parseString() method.
+     * Tests parseString()
      *
      * @return void
      */

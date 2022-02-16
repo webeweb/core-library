@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EcrituresTest extends AbstractTestCase {
 
     /**
-     * Tests the setActif() method.
+     * Tests setActif()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBic() method.
+     * Tests setBic()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBonsAPayer() method.
+     * Tests setBonsAPayer()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCentre() method.
+     * Tests setCentre()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCentreSimple() method.
+     * Tests setCentreSimple()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setClientOuFrn() method.
+     * Tests setClientOuFrn()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeBanque() method.
+     * Tests setCodeBanque()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeDevise() method.
+     * Tests setCodeDevise()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeJournal() method.
+     * Tests setCodeJournal()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeLettrage() method.
+     * Tests setCodeLettrage()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeLettrageTiers() method.
+     * Tests setCodeLettrageTiers()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeLibelleAuto() method.
+     * Tests setCodeLibelleAuto()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeOperateur() method.
+     * Tests setCodeOperateur()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTva() method.
+     * Tests setCodeTva()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteContrepartie() method.
+     * Tests setCompteContrepartie()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateDecTva() method.
+     * Tests setDateDecTva()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -237,7 +237,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateEcheance() method.
+     * Tests setDateEcheance()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -254,7 +254,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDatePointageAux() method.
+     * Tests setDatePointageAux()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -271,7 +271,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateRapproBancaire() method.
+     * Tests setDateRapproBancaire()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -288,7 +288,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateSysSaisie() method.
+     * Tests setDateSysSaisie()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -305,7 +305,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateSysValidation() method.
+     * Tests setDateSysValidation()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -322,7 +322,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDomBanque() method.
+     * Tests setDomBanque()
      *
      * @return void
      */
@@ -335,7 +335,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEcheanceSimple() method.
+     * Tests setEcheanceSimple()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -352,7 +352,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEcritureNum() method.
+     * Tests setEcritureNum()
      *
      * @return void
      */
@@ -365,7 +365,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEnLitige() method.
+     * Tests setEnLitige()
      *
      * @return void
      */
@@ -378,7 +378,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtat() method.
+     * Tests setEtat()
      *
      * @return void
      */
@@ -391,7 +391,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFolio() method.
+     * Tests setFolio()
      *
      * @return void
      */
@@ -404,7 +404,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIban() method.
+     * Tests setIban()
      *
      * @return void
      */
@@ -417,7 +417,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJourEcriture() method.
+     * Tests setJourEcriture()
      *
      * @return void
      */
@@ -430,7 +430,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJrnRapproBancaire() method.
+     * Tests setJrnRapproBancaire()
      *
      * @return void
      */
@@ -443,7 +443,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle() method.
+     * Tests setLibelle()
      *
      * @return void
      */
@@ -456,7 +456,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelleMemo() method.
+     * Tests setLibelleMemo()
      *
      * @return void
      */
@@ -469,7 +469,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLigneFolio() method.
+     * Tests setLigneFolio()
      *
      * @return void
      */
@@ -482,7 +482,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMethodeTva() method.
+     * Tests setMethodeTva()
      *
      * @return void
      */
@@ -495,7 +495,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMilliemesAna() method.
+     * Tests setMilliemesAna()
      *
      * @return void
      */
@@ -508,7 +508,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setModePaiement() method.
+     * Tests setModePaiement()
      *
      * @return void
      */
@@ -521,7 +521,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantAna() method.
+     * Tests setMontantAna()
      *
      * @return void
      */
@@ -534,7 +534,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantSaisiCredit() method.
+     * Tests setMontantSaisiCredit()
      *
      * @return void
      */
@@ -547,7 +547,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantSaisiDebit() method.
+     * Tests setMontantSaisiDebit()
      *
      * @return void
      */
@@ -560,7 +560,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantTenuCredit() method.
+     * Tests setMontantTenuCredit()
      *
      * @return void
      */
@@ -573,7 +573,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantTenuDebit() method.
+     * Tests setMontantTenuDebit()
      *
      * @return void
      */
@@ -586,7 +586,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtDevForce() method.
+     * Tests setMtDevForce()
      *
      * @return void
      */
@@ -599,7 +599,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNature() method.
+     * Tests setNature()
      *
      * @return void
      */
@@ -612,7 +612,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNoLotEcritures() method.
+     * Tests setNoLotEcritures()
      *
      * @return void
      */
@@ -625,7 +625,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNoLotFactor() method.
+     * Tests setNoLotFactor()
      *
      * @return void
      */
@@ -638,7 +638,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNoLotIs() method.
+     * Tests setNoLotIs()
      *
      * @return void
      */
@@ -651,7 +651,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNoLotTrace() method.
+     * Tests setNoLotTrace()
      *
      * @return void
      */
@@ -664,7 +664,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumCptOrigine() method.
+     * Tests setNumCptOrigine()
      *
      * @return void
      */
@@ -677,7 +677,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumEcrEco() method.
+     * Tests setNumEcrEco()
      *
      * @return void
      */
@@ -690,7 +690,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumEditLettrePaiement() method.
+     * Tests setNumEditLettrePaiement()
      *
      * @return void
      */
@@ -703,7 +703,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLettrage() method.
+     * Tests setNumLettrage()
      *
      * @return void
      */
@@ -716,7 +716,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLigne() method.
+     * Tests setNumLigne()
      *
      * @return void
      */
@@ -729,7 +729,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumMandat() method.
+     * Tests setNumMandat()
      *
      * @return void
      */
@@ -742,7 +742,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumUniq() method.
+     * Tests setNumUniq()
      *
      * @return void
      */
@@ -755,7 +755,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroCompte() method.
+     * Tests setNumeroCompte()
      *
      * @return void
      */
@@ -768,7 +768,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroPiece() method.
+     * Tests setNumeroPiece()
      *
      * @return void
      */
@@ -781,7 +781,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeEcriture() method.
+     * Tests setPeriodeEcriture()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -798,7 +798,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodiciteDebut() method.
+     * Tests setPeriodiciteDebut()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -815,7 +815,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodiciteFin() method.
+     * Tests setPeriodiciteFin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -832,7 +832,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPieceInterne() method.
+     * Tests setPieceInterne()
      *
      * @return void
      */
@@ -845,7 +845,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrctRepartition() method.
+     * Tests setPrctRepartition()
      *
      * @return void
      */
@@ -858,7 +858,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQuantite() method.
+     * Tests setQuantite()
      *
      * @return void
      */
@@ -871,7 +871,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQuantite2() method.
+     * Tests setQuantite2()
      *
      * @return void
      */
@@ -884,7 +884,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRapproBancaireOk() method.
+     * Tests setRapproBancaireOk()
      *
      * @return void
      */
@@ -897,7 +897,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRefImage() method.
+     * Tests setRefImage()
      *
      * @return void
      */
@@ -910,7 +910,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setReferenceTire() method.
+     * Tests setReferenceTire()
      *
      * @return void
      */
@@ -923,7 +923,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRib() method.
+     * Tests setRib()
      *
      * @return void
      */
@@ -936,7 +936,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaE4Bi() method.
+     * Tests setTvaE4Bi()
      *
      * @return void
      */
@@ -949,7 +949,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaE4Dr() method.
+     * Tests setTvaE4Dr()
      *
      * @return void
      */
@@ -962,7 +962,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaE4Mt() method.
+     * Tests setTvaE4Mt()
      *
      * @return void
      */
@@ -975,7 +975,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeLigne() method.
+     * Tests setTypeLigne()
      *
      * @return void
      */
@@ -988,7 +988,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeSaisie() method.
+     * Tests setTypeSaisie()
      *
      * @return void
      */
@@ -1001,7 +1001,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setValidee() method.
+     * Tests setValidee()
      *
      * @return void
      */
@@ -1014,7 +1014,7 @@ class EcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

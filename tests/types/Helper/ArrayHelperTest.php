@@ -23,7 +23,7 @@ use WBW\Library\Types\Tests\AbstractTestCase;
 class ArrayHelperTest extends AbstractTestCase {
 
     /**
-     * Tests the get() method.
+     * Tests get()
      *
      * @return void
      */
@@ -54,7 +54,7 @@ class ArrayHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the isObject() method.
+     * Tests isObject()
      *
      * @return void
      */
@@ -67,7 +67,7 @@ class ArrayHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the set() method.
+     * Tests set()
      *
      * @return void
      */

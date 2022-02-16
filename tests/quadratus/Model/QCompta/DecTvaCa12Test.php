@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DecTvaCa12Test extends AbstractTestCase {
 
     /**
-     * Tests the setDateCession() method.
+     * Tests setDateCession()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -42,7 +42,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriode() method.
+     * Tests setPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -59,7 +59,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTxImposition() method.
+     * Tests setTxImposition()
      *
      * @return void
      */
@@ -72,7 +72,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeCa12() method.
+     * Tests setTypeCa12()
      *
      * @return void
      */
@@ -85,7 +85,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz0008() method.
+     * Tests setz0008()
      *
      * @return void
      */
@@ -98,7 +98,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz0018() method.
+     * Tests setz0018()
      *
      * @return void
      */
@@ -111,7 +111,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz0019() method.
+     * Tests setz0019()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz0020() method.
+     * Tests setz0020()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz0028() method.
+     * Tests setz0028()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz0030b() method.
+     * Tests setz0030b()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz0058() method.
+     * Tests setz0058()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz0704() method.
+     * Tests setz0704()
      *
      * @return void
      */
@@ -189,7 +189,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz0709() method.
+     * Tests setz0709()
      *
      * @return void
      */
@@ -202,7 +202,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz0970() method.
+     * Tests setz0970()
      *
      * @return void
      */
@@ -215,7 +215,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz0970b() method.
+     * Tests setz0970b()
      *
      * @return void
      */
@@ -228,7 +228,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz0980() method.
+     * Tests setz0980()
      *
      * @return void
      */
@@ -241,7 +241,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz0980b() method.
+     * Tests setz0980b()
      *
      * @return void
      */
@@ -254,7 +254,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz0981() method.
+     * Tests setz0981()
      *
      * @return void
      */
@@ -267,7 +267,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz0981b() method.
+     * Tests setz0981b()
      *
      * @return void
      */
@@ -280,7 +280,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz0982() method.
+     * Tests setz0982()
      *
      * @return void
      */
@@ -293,7 +293,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz0983() method.
+     * Tests setz0983()
      *
      * @return void
      */
@@ -306,7 +306,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz3240() method.
+     * Tests setz3240()
      *
      * @return void
      */
@@ -319,7 +319,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz32Code() method.
+     * Tests setz32Code()
      *
      * @return void
      */
@@ -332,7 +332,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz32Libelle() method.
+     * Tests setz32Libelle()
      *
      * @return void
      */
@@ -345,7 +345,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz32Taxe() method.
+     * Tests setz32Taxe()
      *
      * @return void
      */
@@ -358,7 +358,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz35BCode() method.
+     * Tests setz35BCode()
      *
      * @return void
      */
@@ -371,7 +371,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz35BLibelle() method.
+     * Tests setz35BLibelle()
      *
      * @return void
      */
@@ -384,7 +384,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz35BTaxe() method.
+     * Tests setz35BTaxe()
      *
      * @return void
      */
@@ -397,7 +397,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz35Code() method.
+     * Tests setz35Code()
      *
      * @return void
      */
@@ -410,7 +410,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz35Libelle() method.
+     * Tests setz35Libelle()
      *
      * @return void
      */
@@ -423,7 +423,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz35Taxe() method.
+     * Tests setz35Taxe()
      *
      * @return void
      */
@@ -436,7 +436,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz4202() method.
+     * Tests setz4202()
      *
      * @return void
      */
@@ -449,7 +449,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz4213() method.
+     * Tests setz4213()
      *
      * @return void
      */
@@ -462,7 +462,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz4216() method.
+     * Tests setz4216()
      *
      * @return void
      */
@@ -475,7 +475,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz4217() method.
+     * Tests setz4217()
      *
      * @return void
      */
@@ -488,7 +488,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz4218() method.
+     * Tests setz4218()
      *
      * @return void
      */
@@ -501,7 +501,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz4220() method.
+     * Tests setz4220()
      *
      * @return void
      */
@@ -514,7 +514,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz45Ca12() method.
+     * Tests setz45Ca12()
      *
      * @return void
      */
@@ -527,7 +527,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz45Ca12Code() method.
+     * Tests setz45Ca12Code()
      *
      * @return void
      */
@@ -540,7 +540,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz45Ca12Libelle() method.
+     * Tests setz45Ca12Libelle()
      *
      * @return void
      */
@@ -553,7 +553,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz47Ca12() method.
+     * Tests setz47Ca12()
      *
      * @return void
      */
@@ -566,7 +566,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz47Ca12Code() method.
+     * Tests setz47Ca12Code()
      *
      * @return void
      */
@@ -579,7 +579,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz47Ca12Libelle() method.
+     * Tests setz47Ca12Libelle()
      *
      * @return void
      */
@@ -592,7 +592,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz4Aca12() method.
+     * Tests setz4Aca12()
      *
      * @return void
      */
@@ -605,7 +605,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz4Aca12Code() method.
+     * Tests setz4Aca12Code()
      *
      * @return void
      */
@@ -618,7 +618,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz4Aca12Libelle() method.
+     * Tests setz4Aca12Libelle()
      *
      * @return void
      */
@@ -631,7 +631,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz4Bca12() method.
+     * Tests setz4Bca12()
      *
      * @return void
      */
@@ -644,7 +644,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz4Bca12Code() method.
+     * Tests setz4Bca12Code()
      *
      * @return void
      */
@@ -657,7 +657,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz4Bca12Libelle() method.
+     * Tests setz4Bca12Libelle()
      *
      * @return void
      */
@@ -670,7 +670,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz4Cca12() method.
+     * Tests setz4Cca12()
      *
      * @return void
      */
@@ -683,7 +683,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz4Cca12Code() method.
+     * Tests setz4Cca12Code()
      *
      * @return void
      */
@@ -696,7 +696,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz4Cca12Libelle() method.
+     * Tests setz4Cca12Libelle()
      *
      * @return void
      */
@@ -709,7 +709,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz5bCode() method.
+     * Tests setz5bCode()
      *
      * @return void
      */
@@ -722,7 +722,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz5bHt() method.
+     * Tests setz5bHt()
      *
      * @return void
      */
@@ -735,7 +735,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz5bLibelle() method.
+     * Tests setz5bLibelle()
      *
      * @return void
      */
@@ -748,7 +748,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz5bTaxe() method.
+     * Tests setz5bTaxe()
      *
      * @return void
      */
@@ -761,7 +761,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz7bCode() method.
+     * Tests setz7bCode()
      *
      * @return void
      */
@@ -774,7 +774,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz7bHt() method.
+     * Tests setz7bHt()
      *
      * @return void
      */
@@ -787,7 +787,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz7bLibelle() method.
+     * Tests setz7bLibelle()
      *
      * @return void
      */
@@ -800,7 +800,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz7bTaxe() method.
+     * Tests setz7bTaxe()
      *
      * @return void
      */
@@ -813,7 +813,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz8004() method.
+     * Tests setz8004()
      *
      * @return void
      */
@@ -826,7 +826,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setzAcompteDeduit1() method.
+     * Tests setzAcompteDeduit1()
      *
      * @return void
      */
@@ -839,7 +839,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setzAcompteDeduit2() method.
+     * Tests setzAcompteDeduit2()
      *
      * @return void
      */
@@ -852,7 +852,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setzAcompteDeduit3() method.
+     * Tests setzAcompteDeduit3()
      *
      * @return void
      */
@@ -865,7 +865,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setzAcompteDeduit4() method.
+     * Tests setzAcompteDeduit4()
      *
      * @return void
      */
@@ -878,7 +878,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setzAnneeAcompte1() method.
+     * Tests setzAnneeAcompte1()
      *
      * @return void
      */
@@ -891,7 +891,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setzAnneeAcompte2() method.
+     * Tests setzAnneeAcompte2()
      *
      * @return void
      */
@@ -904,7 +904,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setzAnneeAcompte3() method.
+     * Tests setzAnneeAcompte3()
      *
      * @return void
      */
@@ -917,7 +917,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setzAnneeAcompte4() method.
+     * Tests setzAnneeAcompte4()
      *
      * @return void
      */
@@ -930,7 +930,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setzCol1Acompte1() method.
+     * Tests setzCol1Acompte1()
      *
      * @return void
      */
@@ -943,7 +943,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setzCol1Acompte2() method.
+     * Tests setzCol1Acompte2()
      *
      * @return void
      */
@@ -956,7 +956,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setzCol1Acompte3() method.
+     * Tests setzCol1Acompte3()
      *
      * @return void
      */
@@ -969,7 +969,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setzCol1Acompte4() method.
+     * Tests setzCol1Acompte4()
      *
      * @return void
      */
@@ -982,7 +982,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setzCol2Acompte1() method.
+     * Tests setzCol2Acompte1()
      *
      * @return void
      */
@@ -995,7 +995,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setzCol2Acompte2() method.
+     * Tests setzCol2Acompte2()
      *
      * @return void
      */
@@ -1008,7 +1008,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setzCol2Acompte3() method.
+     * Tests setzCol2Acompte3()
      *
      * @return void
      */
@@ -1021,7 +1021,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setzCol2Acompte4() method.
+     * Tests setzCol2Acompte4()
      *
      * @return void
      */
@@ -1034,7 +1034,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setzExcedentVersement() method.
+     * Tests setzExcedentVersement()
      *
      * @return void
      */
@@ -1047,7 +1047,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setzNomDemandeurRbt() method.
+     * Tests setzNomDemandeurRbt()
      *
      * @return void
      */
@@ -1060,7 +1060,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setzNumMsa() method.
+     * Tests setzNumMsa()
      *
      * @return void
      */
@@ -1073,7 +1073,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setzRbtDemande() method.
+     * Tests setzRbtDemande()
      *
      * @return void
      */
@@ -1086,7 +1086,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setzRbtQualite() method.
+     * Tests setzRbtQualite()
      *
      * @return void
      */
@@ -1099,7 +1099,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setzRbtVille() method.
+     * Tests setzRbtVille()
      *
      * @return void
      */
@@ -1112,7 +1112,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setzRbtbic() method.
+     * Tests setzRbtbic()
      *
      * @return void
      */
@@ -1125,7 +1125,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setzRbtiban() method.
+     * Tests setzRbtiban()
      *
      * @return void
      */
@@ -1138,7 +1138,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setzRbtrib() method.
+     * Tests setzRbtrib()
      *
      * @return void
      */
@@ -1151,7 +1151,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setzSoldeAPayer() method.
+     * Tests setzSoldeAPayer()
      *
      * @return void
      */
@@ -1164,7 +1164,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setzSurfaceAgr() method.
+     * Tests setzSurfaceAgr()
      *
      * @return void
      */
@@ -1177,7 +1177,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setzTaxesFiscales() method.
+     * Tests setzTaxesFiscales()
      *
      * @return void
      */
@@ -1190,7 +1190,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setzYaDemandeRbt() method.
+     * Tests setzYaDemandeRbt()
      *
      * @return void
      */
@@ -1203,7 +1203,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringAddresseeTrait;
 class StringAddresseeTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setAddressee() method.
+     * Tests setAddressee()
      *
      * @return void
      */

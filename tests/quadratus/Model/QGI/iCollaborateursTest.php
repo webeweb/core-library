@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class iCollaborateursTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeCollab() method.
+     * Tests setCodeCollab()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class iCollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumiKey() method.
+     * Tests setNumiKey()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class iCollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPassword() method.
+     * Tests setPassword()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class iCollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setValideA() method.
+     * Tests setValideA()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class iCollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setValideDe() method.
+     * Tests setValideDe()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -98,7 +98,7 @@ class iCollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

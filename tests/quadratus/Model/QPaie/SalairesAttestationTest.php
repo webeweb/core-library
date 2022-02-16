@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class SalairesAttestationTest extends AbstractTestCase {
 
     /**
-     * Tests the setDatePaie() method.
+     * Tests setDatePaie()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -42,7 +42,7 @@ class SalairesAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEuroOuFranc() method.
+     * Tests setEuroOuFranc()
      *
      * @return void
      */
@@ -55,7 +55,7 @@ class SalairesAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHeuresTrav() method.
+     * Tests setHeuresTrav()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class SalairesAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJoursNonPayes() method.
+     * Tests setJoursNonPayes()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class SalairesAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLigne() method.
+     * Tests setNumLigne()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class SalairesAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroAttestation() method.
+     * Tests setNumeroAttestation()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class SalairesAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setObservation() method.
+     * Tests setObservation()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class SalairesAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeDeb() method.
+     * Tests setPeriodeDeb()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -137,7 +137,7 @@ class SalairesAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeFin() method.
+     * Tests setPeriodeFin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -154,7 +154,7 @@ class SalairesAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrecompte() method.
+     * Tests setPrecompte()
      *
      * @return void
      */
@@ -167,7 +167,7 @@ class SalairesAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSalaireBrut() method.
+     * Tests setSalaireBrut()
      *
      * @return void
      */
@@ -180,7 +180,7 @@ class SalairesAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class StatsPersoSuiviClientTetesTest extends AbstractTestCase {
 
     /**
-     * Tests the setCode() method.
+     * Tests setCode()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class StatsPersoSuiviClientTetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCollCreat() method.
+     * Tests setCollCreat()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class StatsPersoSuiviClientTetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCollModif() method.
+     * Tests setCollModif()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class StatsPersoSuiviClientTetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateCreat() method.
+     * Tests setDateCreat()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class StatsPersoSuiviClientTetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateModif() method.
+     * Tests setDateModif()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -98,7 +98,7 @@ class StatsPersoSuiviClientTetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndice() method.
+     * Tests setIndice()
      *
      * @return void
      */
@@ -111,7 +111,7 @@ class StatsPersoSuiviClientTetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle() method.
+     * Tests setLibelle()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class StatsPersoSuiviClientTetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLstCollab() method.
+     * Tests setLstCollab()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class StatsPersoSuiviClientTetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

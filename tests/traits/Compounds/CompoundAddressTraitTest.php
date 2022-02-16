@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Compounds\TestCompoundAddressTrait;
 class CompoundAddressTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setAddresseeDescription() method.
+     * Tests setAddresseeDescription()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class CompoundAddressTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

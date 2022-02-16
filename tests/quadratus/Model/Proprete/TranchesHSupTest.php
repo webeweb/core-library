@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class TranchesHSupTest extends AbstractTestCase {
 
     /**
-     * Tests the setNbHeures() method.
+     * Tests setNbHeures()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class TranchesHSupTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTaux() method.
+     * Tests setTaux()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class TranchesHSupTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setType() method.
+     * Tests setType()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class TranchesHSupTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

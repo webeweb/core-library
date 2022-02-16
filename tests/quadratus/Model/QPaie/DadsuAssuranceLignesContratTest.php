@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DadsuAssuranceLignesContratTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeEtablissement() method.
+     * Tests setCodeEtablissement()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class DadsuAssuranceLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeLibelle() method.
+     * Tests setCodeLibelle()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class DadsuAssuranceLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeOrganisme() method.
+     * Tests setCodeOrganisme()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class DadsuAssuranceLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePorteurRisque() method.
+     * Tests setCodePorteurRisque()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class DadsuAssuranceLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDesignationCommerciale() method.
+     * Tests setDesignationCommerciale()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class DadsuAssuranceLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRefContrat() method.
+     * Tests setRefContrat()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class DadsuAssuranceLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniteGestion() method.
+     * Tests setUniteGestion()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class DadsuAssuranceLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

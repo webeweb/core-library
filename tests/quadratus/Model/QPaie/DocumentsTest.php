@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DocumentsTest extends AbstractTestCase {
 
     /**
-     * Tests the setAnnee() method.
+     * Tests setAnnee()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class DocumentsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAuteur() method.
+     * Tests setAuteur()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class DocumentsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setChapitre() method.
+     * Tests setChapitre()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class DocumentsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setChrono() method.
+     * Tests setChrono()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class DocumentsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeNature() method.
+     * Tests setCodeNature()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class DocumentsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateHeureSys() method.
+     * Tests setDateHeureSys()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -107,7 +107,7 @@ class DocumentsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateModification() method.
+     * Tests setDateModification()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -124,7 +124,7 @@ class DocumentsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndiceBulletin() method.
+     * Tests setIndiceBulletin()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class DocumentsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle() method.
+     * Tests setLibelle()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class DocumentsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLienDocument() method.
+     * Tests setLienDocument()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class DocumentsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class DocumentsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeArchivage() method.
+     * Tests setPeriodeArchivage()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -193,7 +193,7 @@ class DocumentsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPublierWeb() method.
+     * Tests setPublierWeb()
      *
      * @return void
      */
@@ -206,7 +206,7 @@ class DocumentsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringReferenceTrait;
 class StringReferenceTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setReference() method.
+     * Tests setReference()
      *
      * @return void
      */

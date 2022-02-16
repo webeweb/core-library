@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringAccessTokenTrait;
 class StringAccessTokenTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setAccessToken() method.
+     * Tests setAccessToken()
      *
      * @return void
      */

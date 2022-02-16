@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LignesAttestationExtrasTest extends AbstractTestCase {
 
     /**
-     * Tests the setDateDebut() method.
+     * Tests setDateDebut()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -42,7 +42,7 @@ class LignesAttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateFin() method.
+     * Tests setDateFin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -59,7 +59,7 @@ class LignesAttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantIccp() method.
+     * Tests setMontantIccp()
      *
      * @return void
      */
@@ -72,7 +72,7 @@ class LignesAttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantIpe() method.
+     * Tests setMontantIpe()
      *
      * @return void
      */
@@ -85,7 +85,7 @@ class LignesAttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantPrecompte() method.
+     * Tests setMontantPrecompte()
      *
      * @return void
      */
@@ -98,7 +98,7 @@ class LignesAttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHeureTrav() method.
+     * Tests setNbHeureTrav()
      *
      * @return void
      */
@@ -111,7 +111,7 @@ class LignesAttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLigne() method.
+     * Tests setNumLigne()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class LignesAttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroAttestation() method.
+     * Tests setNumeroAttestation()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class LignesAttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class LignesAttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSalaireBrut() method.
+     * Tests setSalaireBrut()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class LignesAttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

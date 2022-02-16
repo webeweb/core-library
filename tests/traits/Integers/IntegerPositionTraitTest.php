@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Integers\TestIntegerPositionTrait;
 class IntegerPositionTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setPosition() method.
+     * Tests setPosition()
      *
      * @return void
      */

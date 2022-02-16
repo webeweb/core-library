@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class PointageReglementsTetesTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class PointageReglementsTetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollCreation() method.
+     * Tests setCodeCollCreation()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class PointageReglementsTetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollGenere() method.
+     * Tests setCodeCollGenere()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class PointageReglementsTetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollModif() method.
+     * Tests setCodeCollModif()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class PointageReglementsTetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateCreation() method.
+     * Tests setDateCreation()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -94,7 +94,7 @@ class PointageReglementsTetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateGenere() method.
+     * Tests setDateGenere()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -111,7 +111,7 @@ class PointageReglementsTetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateModif() method.
+     * Tests setDateModif()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -128,7 +128,7 @@ class PointageReglementsTetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle() method.
+     * Tests setLibelle()
      *
      * @return void
      */
@@ -141,7 +141,7 @@ class PointageReglementsTetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantSaisi() method.
+     * Tests setMontantSaisi()
      *
      * @return void
      */
@@ -154,7 +154,7 @@ class PointageReglementsTetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumCptPayeur() method.
+     * Tests setNumCptPayeur()
      *
      * @return void
      */
@@ -167,7 +167,7 @@ class PointageReglementsTetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumDoss() method.
+     * Tests setNumDoss()
      *
      * @return void
      */
@@ -180,7 +180,7 @@ class PointageReglementsTetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

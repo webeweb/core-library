@@ -25,7 +25,7 @@ use WBW\Library\Types\Tests\AbstractTestCase;
 class DoubleHelperTest extends AbstractTestCase {
 
     /**
-     * Tests the parseString() method.
+     * Tests parseString()
      *
      * @return void
      */
@@ -41,7 +41,7 @@ class DoubleHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the parseString() method.
+     * Tests parseString()
      *
      * @return void
      */

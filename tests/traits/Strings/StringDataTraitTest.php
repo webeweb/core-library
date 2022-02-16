@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringDataTrait;
 class StringDataTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setData() method.
+     * Tests setData()
      *
      * @return void
      */

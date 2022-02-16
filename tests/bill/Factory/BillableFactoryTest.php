@@ -27,7 +27,7 @@ use WBW\Library\Bill\Tests\Fixtures\Model\TestBillable;
 class BillableFactoryTest extends AbstractTestCase {
 
     /**
-     * Tests the copy() method.
+     * Tests copy()
      *
      * @return void
      */

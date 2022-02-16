@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Floats\TestFloatVatRateTrait;
 class FloatVatRateTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setVatRate() method.
+     * Tests setVatRate()
      *
      * @return void
      */

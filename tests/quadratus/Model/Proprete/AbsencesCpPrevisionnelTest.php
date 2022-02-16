@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AbsencesCpPrevisionnelTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeEmploye() method.
+     * Tests setCodeEmploye()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AbsencesCpPrevisionnelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCollaborateur() method.
+     * Tests setCollaborateur()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AbsencesCpPrevisionnelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCommentaire() method.
+     * Tests setCommentaire()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AbsencesCpPrevisionnelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateDebutCp() method.
+     * Tests setDateDebutCp()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class AbsencesCpPrevisionnelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateDemande() method.
+     * Tests setDateDemande()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -98,7 +98,7 @@ class AbsencesCpPrevisionnelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateEtatCp() method.
+     * Tests setDateEtatCp()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -115,7 +115,7 @@ class AbsencesCpPrevisionnelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateFinCp() method.
+     * Tests setDateFinCp()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -132,7 +132,7 @@ class AbsencesCpPrevisionnelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDepuisWeb() method.
+     * Tests setDepuisWeb()
      *
      * @return void
      */
@@ -145,7 +145,7 @@ class AbsencesCpPrevisionnelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtatCp() method.
+     * Tests setEtatCp()
      *
      * @return void
      */
@@ -158,7 +158,7 @@ class AbsencesCpPrevisionnelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndice() method.
+     * Tests setIndice()
      *
      * @return void
      */
@@ -171,7 +171,7 @@ class AbsencesCpPrevisionnelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class PointagesEmployesTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeCollaboValid() method.
+     * Tests setCodeCollaboValid()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class PointagesEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaborateur() method.
+     * Tests setCodeCollaborateur()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class PointagesEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEmploye() method.
+     * Tests setCodeEmploye()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class PointagesEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteurHeures() method.
+     * Tests setCompteurHeures()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class PointagesEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateValidationSynchro() method.
+     * Tests setDateValidationSynchro()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -94,7 +94,7 @@ class PointagesEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtat() method.
+     * Tests setEtat()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class PointagesEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHpTheoNonAffectees() method.
+     * Tests setHpTheoNonAffectees()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class PointagesEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriode() method.
+     * Tests setPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -137,7 +137,7 @@ class PointagesEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniqIdSynchro() method.
+     * Tests setUniqIdSynchro()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class PointagesEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

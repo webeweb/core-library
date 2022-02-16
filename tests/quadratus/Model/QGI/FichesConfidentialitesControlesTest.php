@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class FichesConfidentialitesControlesTest extends AbstractTestCase {
 
     /**
-     * Tests the setAgence() method.
+     * Tests setAgence()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class FichesConfidentialitesControlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAutorise() method.
+     * Tests setAutorise()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class FichesConfidentialitesControlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeColl() method.
+     * Tests setCodeColl()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class FichesConfidentialitesControlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDossier() method.
+     * Tests setDossier()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class FichesConfidentialitesControlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMotControle() method.
+     * Tests setMotControle()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class FichesConfidentialitesControlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMotDePasse() method.
+     * Tests setMotDePasse()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class FichesConfidentialitesControlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setType() method.
+     * Tests setType()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class FichesConfidentialitesControlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

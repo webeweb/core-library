@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class Dossier4Test extends AbstractTestCase {
 
     /**
-     * Tests the setAcompte1() method.
+     * Tests setAcompte1()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAcompte2() method.
+     * Tests setAcompte2()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAcompte3() method.
+     * Tests setAcompte3()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAcompte4() method.
+     * Tests setAcompte4()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setArchImp3519Tva() method.
+     * Tests setArchImp3519Tva()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setArchiveDeclTva() method.
+     * Tests setArchiveDeclTva()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBalAgeeNbJoursInt1() method.
+     * Tests setBalAgeeNbJoursInt1()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBalAgeeNbJoursInt2() method.
+     * Tests setBalAgeeNbJoursInt2()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBalAgeeNbJoursInt3() method.
+     * Tests setBalAgeeNbJoursInt3()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBalAgeeNbJoursInt4() method.
+     * Tests setBalAgeeNbJoursInt4()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBase15pcent() method.
+     * Tests setBase15pcent()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBase33pcent() method.
+     * Tests setBase33pcent()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBaseTNpcent() method.
+     * Tests setBaseTNpcent()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCategoriePme() method.
+     * Tests setCategoriePme()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCdiBtq() method.
+     * Tests setCdiBtq()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCdiBureauDistributeur() method.
+     * Tests setCdiBureauDistributeur()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCdiCodeOfficielCommune() method.
+     * Tests setCdiCodeOfficielCommune()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCdiCodePostal() method.
+     * Tests setCdiCodePostal()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCdiComplement() method.
+     * Tests setCdiComplement()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCdiNom() method.
+     * Tests setCdiNom()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCdiNomVille() method.
+     * Tests setCdiNomVille()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCdiNomVoie() method.
+     * Tests setCdiNomVoie()
      *
      * @return void
      */
@@ -311,7 +311,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCdiNumVoie() method.
+     * Tests setCdiNumVoie()
      *
      * @return void
      */
@@ -324,7 +324,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCdiTel1() method.
+     * Tests setCdiTel1()
      *
      * @return void
      */
@@ -337,7 +337,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDatePlafondInterets() method.
+     * Tests setDatePlafondInterets()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -354,7 +354,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDatePlafondInterets2() method.
+     * Tests setDatePlafondInterets2()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -371,7 +371,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateTransfLotCvae() method.
+     * Tests setDateTransfLotCvae()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -388,7 +388,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateTransfLotIs() method.
+     * Tests setDateTransfLotIs()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -405,7 +405,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateTransfertInterets() method.
+     * Tests setDateTransfertInterets()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -422,7 +422,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateTransfertInterets2() method.
+     * Tests setDateTransfertInterets2()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -439,7 +439,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDecTvaTypeReglement() method.
+     * Tests setDecTvaTypeReglement()
      *
      * @return void
      */
@@ -452,7 +452,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDecalageQuinzaine() method.
+     * Tests setDecalageQuinzaine()
      *
      * @return void
      */
@@ -465,7 +465,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDeclReferencePaiement() method.
+     * Tests setDeclReferencePaiement()
      *
      * @return void
      */
@@ -478,7 +478,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDeclTvaCdi() method.
+     * Tests setDeclTvaCdi()
      *
      * @return void
      */
@@ -491,7 +491,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDeclTvaInsp() method.
+     * Tests setDeclTvaInsp()
      *
      * @return void
      */
@@ -504,7 +504,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDeclTvaRegime() method.
+     * Tests setDeclTvaRegime()
      *
      * @return void
      */
@@ -517,7 +517,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFtisContribMtt() method.
+     * Tests setFtisContribMtt()
      *
      * @return void
      */
@@ -530,7 +530,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFtisCreditImpot() method.
+     * Tests setFtisCreditImpot()
      *
      * @return void
      */
@@ -543,7 +543,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFtisDeficitsReportables() method.
+     * Tests setFtisDeficitsReportables()
      *
      * @return void
      */
@@ -556,7 +556,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFtisNumCpt1() method.
+     * Tests setFtisNumCpt1()
      *
      * @return void
      */
@@ -569,7 +569,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFtisNumCpt2() method.
+     * Tests setFtisNumCpt2()
      *
      * @return void
      */
@@ -582,7 +582,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFtiscice() method.
+     * Tests setFtiscice()
      *
      * @return void
      */
@@ -595,7 +595,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setImmoRealloc() method.
+     * Tests setImmoRealloc()
      *
      * @return void
      */
@@ -608,7 +608,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setInteretBase() method.
+     * Tests setInteretBase()
      *
      * @return void
      */
@@ -621,7 +621,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setInteretsCap() method.
+     * Tests setInteretsCap()
      *
      * @return void
      */
@@ -634,7 +634,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setInteretsCap2() method.
+     * Tests setInteretsCap2()
      *
      * @return void
      */
@@ -647,7 +647,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setInteretsContrepartie() method.
+     * Tests setInteretsContrepartie()
      *
      * @return void
      */
@@ -660,7 +660,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setInteretsContrepartie2() method.
+     * Tests setInteretsContrepartie2()
      *
      * @return void
      */
@@ -673,7 +673,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setInteretsContrepartieDeduc() method.
+     * Tests setInteretsContrepartieDeduc()
      *
      * @return void
      */
@@ -686,7 +686,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setInteretsContrepartieDeduc2() method.
+     * Tests setInteretsContrepartieDeduc2()
      *
      * @return void
      */
@@ -699,7 +699,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setInteretsPca() method.
+     * Tests setInteretsPca()
      *
      * @return void
      */
@@ -712,7 +712,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setInteretsPca2() method.
+     * Tests setInteretsPca2()
      *
      * @return void
      */
@@ -725,7 +725,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNoLotCptRecip() method.
+     * Tests setNoLotCptRecip()
      *
      * @return void
      */
@@ -738,7 +738,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNoLotCreditIs() method.
+     * Tests setNoLotCreditIs()
      *
      * @return void
      */
@@ -751,7 +751,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNoLotCvae() method.
+     * Tests setNoLotCvae()
      *
      * @return void
      */
@@ -764,7 +764,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNoLotInterets() method.
+     * Tests setNoLotInterets()
      *
      * @return void
      */
@@ -777,7 +777,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNoLotInterets2() method.
+     * Tests setNoLotInterets2()
      *
      * @return void
      */
@@ -790,7 +790,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNoLotIs() method.
+     * Tests setNoLotIs()
      *
      * @return void
      */
@@ -803,7 +803,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNoLotPaiementIs() method.
+     * Tests setNoLotPaiementIs()
      *
      * @return void
      */
@@ -816,7 +816,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeTransfertStock() method.
+     * Tests setPeriodeTransfertStock()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -833,7 +833,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrecedentNumLotStock() method.
+     * Tests setPrecedentNumLotStock()
      *
      * @return void
      */
@@ -846,7 +846,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRegimeAgricole() method.
+     * Tests setRegimeAgricole()
      *
      * @return void
      */
@@ -859,7 +859,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setResultatNetCpt() method.
+     * Tests setResultatNetCpt()
      *
      * @return void
      */
@@ -872,7 +872,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRofTva() method.
+     * Tests setRofTva()
      *
      * @return void
      */
@@ -885,7 +885,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxPlafondInterets() method.
+     * Tests setTauxPlafondInterets()
      *
      * @return void
      */
@@ -898,7 +898,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxPlafondInterets2() method.
+     * Tests setTauxPlafondInterets2()
      *
      * @return void
      */
@@ -911,7 +911,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaAchatsEnc() method.
+     * Tests setTvaAchatsEnc()
      *
      * @return void
      */
@@ -924,7 +924,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaCa12Ae() method.
+     * Tests setTvaCa12Ae()
      *
      * @return void
      */
@@ -937,7 +937,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaCadtm() method.
+     * Tests setTvaCadtm()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -954,7 +954,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaCascade() method.
+     * Tests setTvaCascade()
      *
      * @return void
      */
@@ -967,7 +967,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaClotureFaite() method.
+     * Tests setTvaClotureFaite()
      *
      * @return void
      */
@@ -980,7 +980,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaCodeCabinet() method.
+     * Tests setTvaCodeCabinet()
      *
      * @return void
      */
@@ -993,7 +993,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaCodeIntEmetteur() method.
+     * Tests setTvaCodeIntEmetteur()
      *
      * @return void
      */
@@ -1006,7 +1006,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaCodeIntRecepteur() method.
+     * Tests setTvaCodeIntRecepteur()
      *
      * @return void
      */
@@ -1019,7 +1019,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaCodeJournalBq() method.
+     * Tests setTvaCodeJournalBq()
      *
      * @return void
      */
@@ -1032,7 +1032,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaCodeJournalOd() method.
+     * Tests setTvaCodeJournalOd()
      *
      * @return void
      */
@@ -1045,7 +1045,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaCptAAjouter() method.
+     * Tests setTvaCptAAjouter()
      *
      * @return void
      */
@@ -1058,7 +1058,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaCptAAjouterG() method.
+     * Tests setTvaCptAAjouterG()
      *
      * @return void
      */
@@ -1071,7 +1071,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaCptADeduire() method.
+     * Tests setTvaCptADeduire()
      *
      * @return void
      */
@@ -1084,7 +1084,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaCptAImputer() method.
+     * Tests setTvaCptAImputer()
      *
      * @return void
      */
@@ -1097,7 +1097,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaCptAImputerG() method.
+     * Tests setTvaCptAImputerG()
      *
      * @return void
      */
@@ -1110,7 +1110,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaCptAPayer() method.
+     * Tests setTvaCptAPayer()
      *
      * @return void
      */
@@ -1123,7 +1123,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaCptAPayerG() method.
+     * Tests setTvaCptAPayerG()
      *
      * @return void
      */
@@ -1136,7 +1136,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaCptAcqIntraCom() method.
+     * Tests setTvaCptAcqIntraCom()
      *
      * @return void
      */
@@ -1149,7 +1149,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaCptAncTaux() method.
+     * Tests setTvaCptAncTaux()
      *
      * @return void
      */
@@ -1162,7 +1162,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaCptAnteDeduit() method.
+     * Tests setTvaCptAnteDeduit()
      *
      * @return void
      */
@@ -1175,7 +1175,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaCptAssimil3310() method.
+     * Tests setTvaCptAssimil3310()
      *
      * @return void
      */
@@ -1188,7 +1188,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaCptAssimil3310G() method.
+     * Tests setTvaCptAssimil3310G()
      *
      * @return void
      */
@@ -1201,7 +1201,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaCptBiens() method.
+     * Tests setTvaCptBiens()
      *
      * @return void
      */
@@ -1214,7 +1214,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaCptBiensIntraCom() method.
+     * Tests setTvaCptBiensIntraCom()
      *
      * @return void
      */
@@ -1227,7 +1227,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaCptDifference() method.
+     * Tests setTvaCptDifference()
      *
      * @return void
      */
@@ -1240,7 +1240,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaCptDom() method.
+     * Tests setTvaCptDom()
      *
      * @return void
      */
@@ -1253,7 +1253,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaCptGroupe() method.
+     * Tests setTvaCptGroupe()
      *
      * @return void
      */
@@ -1266,7 +1266,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaCptImmos() method.
+     * Tests setTvaCptImmos()
      *
      * @return void
      */
@@ -1279,7 +1279,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaCptImmosIntraCom() method.
+     * Tests setTvaCptImmosIntraCom()
      *
      * @return void
      */
@@ -1292,7 +1292,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaCptRegul() method.
+     * Tests setTvaCptRegul()
      *
      * @return void
      */
@@ -1305,7 +1305,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaCptRembours() method.
+     * Tests setTvaCptRembours()
      *
      * @return void
      */
@@ -1318,7 +1318,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaCptRemboursG() method.
+     * Tests setTvaCptRemboursG()
      *
      * @return void
      */
@@ -1331,7 +1331,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaCptReport() method.
+     * Tests setTvaCptReport()
      *
      * @return void
      */
@@ -1344,7 +1344,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaCptReportG() method.
+     * Tests setTvaCptReportG()
      *
      * @return void
      */
@@ -1357,7 +1357,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaCptTauxPart() method.
+     * Tests setTvaCptTauxPart()
      *
      * @return void
      */
@@ -1370,7 +1370,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaCptVente() method.
+     * Tests setTvaCptVente()
      *
      * @return void
      */
@@ -1383,7 +1383,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaDeb3JrnExclure() method.
+     * Tests setTvaDeb3JrnExclure()
      *
      * @return void
      */
@@ -1396,7 +1396,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaDestAttn() method.
+     * Tests setTvaDestAttn()
      *
      * @return void
      */
@@ -1409,7 +1409,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaDestFax() method.
+     * Tests setTvaDestFax()
      *
      * @return void
      */
@@ -1422,7 +1422,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaDestNom() method.
+     * Tests setTvaDestNom()
      *
      * @return void
      */
@@ -1435,7 +1435,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaE4Dbs() method.
+     * Tests setTvaE4Dbs()
      *
      * @return void
      */
@@ -1448,7 +1448,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaE4Di() method.
+     * Tests setTvaE4Di()
      *
      * @return void
      */
@@ -1461,7 +1461,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaE4RJrnOd() method.
+     * Tests setTvaE4RJrnOd()
      *
      * @return void
      */
@@ -1474,7 +1474,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaE4Rbs() method.
+     * Tests setTvaE4Rbs()
      *
      * @return void
      */
@@ -1487,7 +1487,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaE4Ri() method.
+     * Tests setTvaE4Ri()
      *
      * @return void
      */
@@ -1500,7 +1500,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaEmetteurIsCab() method.
+     * Tests setTvaEmetteurIsCab()
      *
      * @return void
      */
@@ -1513,7 +1513,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaEnc3DerPerRechDa() method.
+     * Tests setTvaEnc3DerPerRechDa()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -1530,7 +1530,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaEnvoyerMail() method.
+     * Tests setTvaEnvoyerMail()
      *
      * @return void
      */
@@ -1543,7 +1543,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaEtabBtq() method.
+     * Tests setTvaEtabBtq()
      *
      * @return void
      */
@@ -1556,7 +1556,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaEtabBureauDistributeur() method.
+     * Tests setTvaEtabBureauDistributeur()
      *
      * @return void
      */
@@ -1569,7 +1569,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaEtabCodePostal() method.
+     * Tests setTvaEtabCodePostal()
      *
      * @return void
      */
@@ -1582,7 +1582,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaEtabComplement() method.
+     * Tests setTvaEtabComplement()
      *
      * @return void
      */
@@ -1595,7 +1595,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaEtabNom() method.
+     * Tests setTvaEtabNom()
      *
      * @return void
      */
@@ -1608,7 +1608,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaEtabNomVoie() method.
+     * Tests setTvaEtabNomVoie()
      *
      * @return void
      */
@@ -1621,7 +1621,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaEtabNumVoie() method.
+     * Tests setTvaEtabNumVoie()
      *
      * @return void
      */
@@ -1634,7 +1634,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaExpNom() method.
+     * Tests setTvaExpNom()
      *
      * @return void
      */
@@ -1647,7 +1647,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaJourDecla() method.
+     * Tests setTvaJourDecla()
      *
      * @return void
      */
@@ -1660,7 +1660,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaMailPj() method.
+     * Tests setTvaMailPj()
      *
      * @return void
      */
@@ -1673,7 +1673,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaMethode() method.
+     * Tests setTvaMethode()
      *
      * @return void
      */
@@ -1686,7 +1686,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaMoyenPaiement() method.
+     * Tests setTvaMoyenPaiement()
      *
      * @return void
      */
@@ -1699,7 +1699,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaNomVir() method.
+     * Tests setTvaNomVir()
      *
      * @return void
      */
@@ -1712,7 +1712,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaParametrageOk() method.
+     * Tests setTvaParametrageOk()
      *
      * @return void
      */
@@ -1725,7 +1725,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaPeriodicite() method.
+     * Tests setTvaPeriodicite()
      *
      * @return void
      */
@@ -1738,7 +1738,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaPrefixeIntracom() method.
+     * Tests setTvaPrefixeIntracom()
      *
      * @return void
      */
@@ -1751,7 +1751,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaRecepteurJeDeclare() method.
+     * Tests setTvaRecepteurJeDeclare()
      *
      * @return void
      */
@@ -1764,7 +1764,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaRegime() method.
+     * Tests setTvaRegime()
      *
      * @return void
      */
@@ -1777,7 +1777,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaSignataire() method.
+     * Tests setTvaSignataire()
      *
      * @return void
      */
@@ -1790,7 +1790,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaType() method.
+     * Tests setTvaType()
      *
      * @return void
      */
@@ -1803,7 +1803,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaVireCrlf() method.
+     * Tests setTvaVireCrlf()
      *
      * @return void
      */
@@ -1816,7 +1816,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvabicVir() method.
+     * Tests setTvabicVir()
      *
      * @return void
      */
@@ -1829,7 +1829,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaediEdition() method.
+     * Tests setTvaediEdition()
      *
      * @return void
      */
@@ -1842,7 +1842,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaibanVir() method.
+     * Tests setTvaibanVir()
      *
      * @return void
      */
@@ -1855,7 +1855,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaribVir() method.
+     * Tests setTvaribVir()
      *
      * @return void
      */
@@ -1868,7 +1868,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvatlraBic1() method.
+     * Tests setTvatlraBic1()
      *
      * @return void
      */
@@ -1881,7 +1881,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvatlraBic2() method.
+     * Tests setTvatlraBic2()
      *
      * @return void
      */
@@ -1894,7 +1894,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvatlraBic3() method.
+     * Tests setTvatlraBic3()
      *
      * @return void
      */
@@ -1907,7 +1907,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvatlraIban1() method.
+     * Tests setTvatlraIban1()
      *
      * @return void
      */
@@ -1920,7 +1920,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvatlraIban2() method.
+     * Tests setTvatlraIban2()
      *
      * @return void
      */
@@ -1933,7 +1933,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvatlraIban3() method.
+     * Tests setTvatlraIban3()
      *
      * @return void
      */
@@ -1946,7 +1946,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvatlraRib1() method.
+     * Tests setTvatlraRib1()
      *
      * @return void
      */
@@ -1959,7 +1959,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvatlraRib2() method.
+     * Tests setTvatlraRib2()
      *
      * @return void
      */
@@ -1972,7 +1972,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvatlraRib3() method.
+     * Tests setTvatlraRib3()
      *
      * @return void
      */
@@ -1985,7 +1985,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setVmpCodeJrnPmv() method.
+     * Tests setVmpCodeJrnPmv()
      *
      * @return void
      */
@@ -1998,7 +1998,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setVmpCptMoinsValue() method.
+     * Tests setVmpCptMoinsValue()
      *
      * @return void
      */
@@ -2011,7 +2011,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setVmpCptPlusValue() method.
+     * Tests setVmpCptPlusValue()
      *
      * @return void
      */
@@ -2024,7 +2024,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setVmpGestEcrPmv() method.
+     * Tests setVmpGestEcrPmv()
      *
      * @return void
      */
@@ -2037,7 +2037,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setVmpGestionEnSaisie() method.
+     * Tests setVmpGestionEnSaisie()
      *
      * @return void
      */
@@ -2050,7 +2050,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setYaRepriseCice() method.
+     * Tests setYaRepriseCice()
      *
      * @return void
      */
@@ -2063,7 +2063,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setYaTauxReduit() method.
+     * Tests setYaTauxReduit()
      *
      * @return void
      */
@@ -2076,7 +2076,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setbCa12T() method.
+     * Tests setbCa12T()
      *
      * @return void
      */
@@ -2089,7 +2089,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

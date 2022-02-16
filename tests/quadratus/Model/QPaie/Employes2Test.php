@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class Employes2Test extends AbstractTestCase {
 
     /**
-     * Tests the setADeclarerCp() method.
+     * Tests setADeclarerCp()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setActiveSalMinConv() method.
+     * Tests setActiveSalMinConv()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setActiveSmic() method.
+     * Tests setActiveSmic()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAenLogement() method.
+     * Tests setAenLogement()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAllegParticulierEmp() method.
+     * Tests setAllegParticulierEmp()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setArbitrageAuto() method.
+     * Tests setArbitrageAuto()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAutreAllegEmp() method.
+     * Tests setAutreAllegEmp()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBic() method.
+     * Tests setBic()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCaisseCp() method.
+     * Tests setCaisseCp()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCentreAnalytique() method.
+     * Tests setCentreAnalytique()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setChefEquipe() method.
+     * Tests setChefEquipe()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCiePlus50() method.
+     * Tests setCiePlus50()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAnalytiqueProprete() method.
+     * Tests setCodeAnalytiqueProprete()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEmpRemplace() method.
+     * Tests setCodeEmpRemplace()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeInsee() method.
+     * Tests setCodeInsee()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeMotifRupture1() method.
+     * Tests setCodeMotifRupture1()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeMotifRupture2() method.
+     * Tests setCodeMotifRupture2()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePaysResidence() method.
+     * Tests setCodePaysResidence()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTuteur() method.
+     * Tests setCodeTuteur()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCoeffConvention() method.
+     * Tests setCoeffConvention()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCommercial() method.
+     * Tests setCommercial()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setComplementPcs() method.
+     * Tests setComplementPcs()
      *
      * @return void
      */
@@ -311,7 +311,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setConjointExploitant() method.
+     * Tests setConjointExploitant()
      *
      * @return void
      */
@@ -324,7 +324,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setContratCne() method.
+     * Tests setContratCne()
      *
      * @return void
      */
@@ -337,7 +337,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCotisBasePenibilite() method.
+     * Tests setCotisBasePenibilite()
      *
      * @return void
      */
@@ -350,7 +350,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCritereTriAbsConges1() method.
+     * Tests setCritereTriAbsConges1()
      *
      * @return void
      */
@@ -363,7 +363,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCritereTriAbsConges2() method.
+     * Tests setCritereTriAbsConges2()
      *
      * @return void
      */
@@ -376,7 +376,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCritereTriAbsConges3() method.
+     * Tests setCritereTriAbsConges3()
      *
      * @return void
      */
@@ -389,7 +389,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBaseTr2() method.
+     * Tests setCumBaseTr2()
      *
      * @return void
      */
@@ -402,7 +402,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBaseTrD() method.
+     * Tests setCumBaseTrD()
      *
      * @return void
      */
@@ -415,7 +415,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBaseTrD1() method.
+     * Tests setCumBaseTrD1()
      *
      * @return void
      */
@@ -428,7 +428,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBaseTrD1Caisse1() method.
+     * Tests setCumBaseTrD1Caisse1()
      *
      * @return void
      */
@@ -441,7 +441,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBaseTrD1Caisse2() method.
+     * Tests setCumBaseTrD1Caisse2()
      *
      * @return void
      */
@@ -454,7 +454,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBaseTrD1Caisse3() method.
+     * Tests setCumBaseTrD1Caisse3()
      *
      * @return void
      */
@@ -467,7 +467,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBaseTrDCaisse1() method.
+     * Tests setCumBaseTrDCaisse1()
      *
      * @return void
      */
@@ -480,7 +480,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBaseTrDCaisse2() method.
+     * Tests setCumBaseTrDCaisse2()
      *
      * @return void
      */
@@ -493,7 +493,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBaseTrDCaisse3() method.
+     * Tests setCumBaseTrDCaisse3()
      *
      * @return void
      */
@@ -506,7 +506,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBrutAlSansSi() method.
+     * Tests setCumBrutAlSansSi()
      *
      * @return void
      */
@@ -519,7 +519,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBrutCaisse1() method.
+     * Tests setCumBrutCaisse1()
      *
      * @return void
      */
@@ -532,7 +532,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBrutCaisse2() method.
+     * Tests setCumBrutCaisse2()
      *
      * @return void
      */
@@ -545,7 +545,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBrutCaisse3() method.
+     * Tests setCumBrutCaisse3()
      *
      * @return void
      */
@@ -558,7 +558,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumDifDus() method.
+     * Tests setCumDifDus()
      *
      * @return void
      */
@@ -571,7 +571,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumDifDus1() method.
+     * Tests setCumDifDus1()
      *
      * @return void
      */
@@ -584,7 +584,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumHBonifie() method.
+     * Tests setCumHBonifie()
      *
      * @return void
      */
@@ -597,7 +597,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumRttDus() method.
+     * Tests setCumRttDus()
      *
      * @return void
      */
@@ -610,7 +610,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumRttPris() method.
+     * Tests setCumRttPris()
      *
      * @return void
      */
@@ -623,7 +623,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumTotSi() method.
+     * Tests setCumTotSi()
      *
      * @return void
      */
@@ -636,7 +636,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumTranche2SansSi() method.
+     * Tests setCumTranche2SansSi()
      *
      * @return void
      */
@@ -649,7 +649,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumTranche2Si() method.
+     * Tests setCumTranche2Si()
      *
      * @return void
      */
@@ -662,7 +662,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumTrancheASansSi() method.
+     * Tests setCumTrancheASansSi()
      *
      * @return void
      */
@@ -675,7 +675,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumTrancheAsi() method.
+     * Tests setCumTrancheAsi()
      *
      * @return void
      */
@@ -688,7 +688,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumTrancheBSansSi() method.
+     * Tests setCumTrancheBSansSi()
      *
      * @return void
      */
@@ -701,7 +701,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumTrancheBsi() method.
+     * Tests setCumTrancheBsi()
      *
      * @return void
      */
@@ -714,7 +714,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumTrancheCSansSi() method.
+     * Tests setCumTrancheCSansSi()
      *
      * @return void
      */
@@ -727,7 +727,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumTrancheCsi() method.
+     * Tests setCumTrancheCsi()
      *
      * @return void
      */
@@ -740,7 +740,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumTrancheD1SansSi() method.
+     * Tests setCumTrancheD1SansSi()
      *
      * @return void
      */
@@ -753,7 +753,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumTrancheDSansSi() method.
+     * Tests setCumTrancheDSansSi()
      *
      * @return void
      */
@@ -766,7 +766,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDadsuConjointSalarie() method.
+     * Tests setDadsuConjointSalarie()
      *
      * @return void
      */
@@ -779,7 +779,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateCreation() method.
+     * Tests setDateCreation()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -796,7 +796,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateFinExclureLfr2012() method.
+     * Tests setDateFinExclureLfr2012()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -813,7 +813,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateFinPortabilite() method.
+     * Tests setDateFinPortabilite()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -830,7 +830,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDatePassageCdi() method.
+     * Tests setDatePassageCdi()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -847,7 +847,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateRenouvCdd() method.
+     * Tests setDateRenouvCdd()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -864,7 +864,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDeductionAnc() method.
+     * Tests setDeductionAnc()
      *
      * @return void
      */
@@ -877,7 +877,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEchelon() method.
+     * Tests setEchelon()
      *
      * @return void
      */
@@ -890,7 +890,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEdHSupBonifQueMajo() method.
+     * Tests setEdHSupBonifQueMajo()
      *
      * @return void
      */
@@ -903,7 +903,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmail() method.
+     * Tests setEmail()
      *
      * @return void
      */
@@ -916,7 +916,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtatIPaie() method.
+     * Tests setEtatIPaie()
      *
      * @return void
      */
@@ -929,7 +929,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setExclureChomCdd() method.
+     * Tests setExclureChomCdd()
      *
      * @return void
      */
@@ -942,7 +942,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setExclureCice() method.
+     * Tests setExclureCice()
      *
      * @return void
      */
@@ -955,7 +955,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setExclureCospar() method.
+     * Tests setExclureCospar()
      *
      * @return void
      */
@@ -968,7 +968,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setExclureCotAssedicParUrssaf() method.
+     * Tests setExclureCotAssedicParUrssaf()
      *
      * @return void
      */
@@ -981,7 +981,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setExclureDas() method.
+     * Tests setExclureDas()
      *
      * @return void
      */
@@ -994,7 +994,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setExclureDsn() method.
+     * Tests setExclureDsn()
      *
      * @return void
      */
@@ -1007,7 +1007,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setExclureLfr2012() method.
+     * Tests setExclureLfr2012()
      *
      * @return void
      */
@@ -1020,7 +1020,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setExclureLoiTepa() method.
+     * Tests setExclureLoiTepa()
      *
      * @return void
      */
@@ -1033,7 +1033,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setExclureLoiTepaPartP() method.
+     * Tests setExclureLoiTepaPartP()
      *
      * @return void
      */
@@ -1046,7 +1046,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setExclureLoiTepaPartS() method.
+     * Tests setExclureLoiTepaPartS()
      *
      * @return void
      */
@@ -1059,7 +1059,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setExclureQgc() method.
+     * Tests setExclureQgc()
      *
      * @return void
      */
@@ -1072,7 +1072,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setExoAccre17() method.
+     * Tests setExoAccre17()
      *
      * @return void
      */
@@ -1085,7 +1085,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setExoAgff() method.
+     * Tests setExoAgff()
      *
      * @return void
      */
@@ -1098,7 +1098,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setExoOccasionnelMsa() method.
+     * Tests setExoOccasionnelMsa()
      *
      * @return void
      */
@@ -1111,7 +1111,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setExoProfessionnalisation() method.
+     * Tests setExoProfessionnalisation()
      *
      * @return void
      */
@@ -1124,7 +1124,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setExoSpecif() method.
+     * Tests setExoSpecif()
      *
      * @return void
      */
@@ -1137,7 +1137,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setForfaitHeure() method.
+     * Tests setForfaitHeure()
      *
      * @return void
      */
@@ -1150,7 +1150,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setForfaitJour() method.
+     * Tests setForfaitJour()
      *
      * @return void
      */
@@ -1163,7 +1163,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionCompteurHCompleter() method.
+     * Tests setGestionCompteurHCompleter()
      *
      * @return void
      */
@@ -1176,7 +1176,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionCp() method.
+     * Tests setGestionCp()
      *
      * @return void
      */
@@ -1189,7 +1189,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionMailBulletin() method.
+     * Tests setGestionMailBulletin()
      *
      * @return void
      */
@@ -1202,7 +1202,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionReposComp() method.
+     * Tests setGestionReposComp()
      *
      * @return void
      */
@@ -1215,7 +1215,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionReposRecup() method.
+     * Tests setGestionReposRecup()
      *
      * @return void
      */
@@ -1228,7 +1228,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionReposRemplace() method.
+     * Tests setGestionReposRemplace()
      *
      * @return void
      */
@@ -1241,7 +1241,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionRtt() method.
+     * Tests setGestionRtt()
      *
      * @return void
      */
@@ -1254,7 +1254,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionSemType() method.
+     * Tests setGestionSemType()
      *
      * @return void
      */
@@ -1267,7 +1267,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHeuresPeriodeInitial() method.
+     * Tests setHeuresPeriodeInitial()
      *
      * @return void
      */
@@ -1280,7 +1280,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIban() method.
+     * Tests setIban()
      *
      * @return void
      */
@@ -1293,7 +1293,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndemCpMsa() method.
+     * Tests setIndemCpMsa()
      *
      * @return void
      */
@@ -1306,7 +1306,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndiceCateg() method.
+     * Tests setIndiceCateg()
      *
      * @return void
      */
@@ -1319,7 +1319,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setInspecteur() method.
+     * Tests setInspecteur()
      *
      * @return void
      */
@@ -1332,7 +1332,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setInterimIndemCpFillon() method.
+     * Tests setInterimIndemCpFillon()
      *
      * @return void
      */
@@ -1345,7 +1345,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMailBulletinPwd() method.
+     * Tests setMailBulletinPwd()
      *
      * @return void
      */
@@ -1358,7 +1358,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMaintienIntervientCp() method.
+     * Tests setMaintienIntervientCp()
      *
      * @return void
      */
@@ -1371,7 +1371,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMaintienNetDeducCsgijss() method.
+     * Tests setMaintienNetDeducCsgijss()
      *
      * @return void
      */
@@ -1384,7 +1384,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMaintienSalaire() method.
+     * Tests setMaintienSalaire()
      *
      * @return void
      */
@@ -1397,7 +1397,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMaintienSpecifique() method.
+     * Tests setMaintienSpecifique()
      *
      * @return void
      */
@@ -1410,7 +1410,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMajoProfessionnalisation() method.
+     * Tests setMajoProfessionnalisation()
      *
      * @return void
      */
@@ -1423,7 +1423,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMandataireSocial() method.
+     * Tests setMandataireSocial()
      *
      * @return void
      */
@@ -1436,7 +1436,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setModeleBulletin() method.
+     * Tests setModeleBulletin()
      *
      * @return void
      */
@@ -1449,7 +1449,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMoisClotureDif() method.
+     * Tests setMoisClotureDif()
      *
      * @return void
      */
@@ -1462,7 +1462,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMotifCdd() method.
+     * Tests setMotifCdd()
      *
      * @return void
      */
@@ -1475,7 +1475,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMotifExclusionDsn() method.
+     * Tests setMotifExclusionDsn()
      *
      * @return void
      */
@@ -1488,7 +1488,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMultiEmployeur() method.
+     * Tests setMultiEmployeur()
      *
      * @return void
      */
@@ -1501,7 +1501,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNatureAnalytique() method.
+     * Tests setNatureAnalytique()
      *
      * @return void
      */
@@ -1514,7 +1514,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHBonifie() method.
+     * Tests setNbHBonifie()
      *
      * @return void
      */
@@ -1527,7 +1527,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHContingent() method.
+     * Tests setNbHContingent()
      *
      * @return void
      */
@@ -1540,7 +1540,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHJour1() method.
+     * Tests setNbHJour1()
      *
      * @return void
      */
@@ -1553,7 +1553,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHJour2() method.
+     * Tests setNbHJour2()
      *
      * @return void
      */
@@ -1566,7 +1566,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHJour3() method.
+     * Tests setNbHJour3()
      *
      * @return void
      */
@@ -1579,7 +1579,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHJour4() method.
+     * Tests setNbHJour4()
      *
      * @return void
      */
@@ -1592,7 +1592,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHJour5() method.
+     * Tests setNbHJour5()
      *
      * @return void
      */
@@ -1605,7 +1605,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHJour6() method.
+     * Tests setNbHJour6()
      *
      * @return void
      */
@@ -1618,7 +1618,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHJour7() method.
+     * Tests setNbHJour7()
      *
      * @return void
      */
@@ -1631,7 +1631,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJourAnnee() method.
+     * Tests setNbJourAnnee()
      *
      * @return void
      */
@@ -1644,7 +1644,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJourCpAcquis() method.
+     * Tests setNbJourCpAcquis()
      *
      * @return void
      */
@@ -1657,7 +1657,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJourCpSup() method.
+     * Tests setNbJourCpSup()
      *
      * @return void
      */
@@ -1670,7 +1670,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbPieceLogement() method.
+     * Tests setNbPieceLogement()
      *
      * @return void
      */
@@ -1683,7 +1683,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNePasActiverPrimeAnnuelleProprete() method.
+     * Tests setNePasActiverPrimeAnnuelleProprete()
      *
      * @return void
      */
@@ -1696,7 +1696,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNiveau() method.
+     * Tests setNiveau()
      *
      * @return void
      */
@@ -1709,7 +1709,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomVilleInsee() method.
+     * Tests setNomVilleInsee()
      *
      * @return void
      */
@@ -1722,7 +1722,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumero() method.
+     * Tests setNumero()
      *
      * @return void
      */
@@ -1735,7 +1735,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroAbattementContratMsa() method.
+     * Tests setNumeroAbattementContratMsa()
      *
      * @return void
      */
@@ -1748,7 +1748,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroContrat() method.
+     * Tests setNumeroContrat()
      *
      * @return void
      */
@@ -1761,7 +1761,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmployeContrat() method.
+     * Tests setNumeroEmployeContrat()
      *
      * @return void
      */
@@ -1774,7 +1774,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPasGestionDif() method.
+     * Tests setPasGestionDif()
      *
      * @return void
      */
@@ -1787,7 +1787,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPaysNaissance() method.
+     * Tests setPaysNaissance()
      *
      * @return void
      */
@@ -1800,7 +1800,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPaysNat() method.
+     * Tests setPaysNat()
      *
      * @return void
      */
@@ -1813,7 +1813,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodePointageCloturee() method.
+     * Tests setPeriodePointageCloturee()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -1830,7 +1830,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPosition() method.
+     * Tests setPosition()
      *
      * @return void
      */
@@ -1843,7 +1843,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPourcentExo() method.
+     * Tests setPourcentExo()
      *
      * @return void
      */
@@ -1856,7 +1856,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRbtNavigoNonProratise() method.
+     * Tests setRbtNavigoNonProratise()
      *
      * @return void
      */
@@ -1869,7 +1869,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setReductionFillon() method.
+     * Tests setReductionFillon()
      *
      * @return void
      */
@@ -1882,7 +1882,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setReductionMayotte() method.
+     * Tests setReductionMayotte()
      *
      * @return void
      */
@@ -1895,7 +1895,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemunPartFillon() method.
+     * Tests setRemunPartFillon()
      *
      * @return void
      */
@@ -1908,7 +1908,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRtt1() method.
+     * Tests setRtt1()
      *
      * @return void
      */
@@ -1921,7 +1921,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRtt10() method.
+     * Tests setRtt10()
      *
      * @return void
      */
@@ -1934,7 +1934,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRtt11() method.
+     * Tests setRtt11()
      *
      * @return void
      */
@@ -1947,7 +1947,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRtt12() method.
+     * Tests setRtt12()
      *
      * @return void
      */
@@ -1960,7 +1960,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRtt2() method.
+     * Tests setRtt2()
      *
      * @return void
      */
@@ -1973,7 +1973,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRtt3() method.
+     * Tests setRtt3()
      *
      * @return void
      */
@@ -1986,7 +1986,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRtt4() method.
+     * Tests setRtt4()
      *
      * @return void
      */
@@ -1999,7 +1999,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRtt5() method.
+     * Tests setRtt5()
      *
      * @return void
      */
@@ -2012,7 +2012,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRtt6() method.
+     * Tests setRtt6()
      *
      * @return void
      */
@@ -2025,7 +2025,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRtt7() method.
+     * Tests setRtt7()
      *
      * @return void
      */
@@ -2038,7 +2038,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRtt8() method.
+     * Tests setRtt8()
      *
      * @return void
      */
@@ -2051,7 +2051,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRtt9() method.
+     * Tests setRtt9()
      *
      * @return void
      */
@@ -2064,7 +2064,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSansContrat() method.
+     * Tests setSansContrat()
      *
      * @return void
      */
@@ -2077,7 +2077,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSubrogation() method.
+     * Tests setSubrogation()
      *
      * @return void
      */
@@ -2090,7 +2090,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds142() method.
+     * Tests setTds142()
      *
      * @return void
      */
@@ -2103,7 +2103,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTdsAllocChom() method.
+     * Tests setTdsAllocChom()
      *
      * @return void
      */
@@ -2116,7 +2116,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTdsAllocRetraite() method.
+     * Tests setTdsAllocRetraite()
      *
      * @return void
      */
@@ -2129,7 +2129,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTel2() method.
+     * Tests setTel2()
      *
      * @return void
      */
@@ -2142,7 +2142,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTravailleurDeNuit() method.
+     * Tests setTravailleurDeNuit()
      *
      * @return void
      */
@@ -2155,7 +2155,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeAboNavigo() method.
+     * Tests setTypeAboNavigo()
      *
      * @return void
      */
@@ -2168,7 +2168,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeExoLodeom() method.
+     * Tests setTypeExoLodeom()
      *
      * @return void
      */
@@ -2181,7 +2181,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeIntemperieBtp() method.
+     * Tests setTypeIntemperieBtp()
      *
      * @return void
      */
@@ -2194,7 +2194,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeMaintienBrutNet() method.
+     * Tests setTypeMaintienBrutNet()
      *
      * @return void
      */
@@ -2207,7 +2207,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeMaintienSalaire() method.
+     * Tests setTypeMaintienSalaire()
      *
      * @return void
      */
@@ -2220,7 +2220,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeSaisieAbCp() method.
+     * Tests setTypeSaisieAbCp()
      *
      * @return void
      */
@@ -2233,7 +2233,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setZoneNavigo() method.
+     * Tests setZoneNavigo()
      *
      * @return void
      */
@@ -2246,7 +2246,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

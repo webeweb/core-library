@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Integers\TestIntegerMinHeightTrait;
 class IntegerMinHeightTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setMinHeight() method.
+     * Tests setMinHeight()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringPathnameTrait;
 class StringPathnameTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setPathname() method.
+     * Tests setPathname()
      *
      * @return void
      */

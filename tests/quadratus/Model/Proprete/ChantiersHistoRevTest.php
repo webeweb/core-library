@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ChantiersHistoRevTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeAffaire() method.
+     * Tests setCodeAffaire()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeChantier() method.
+     * Tests setCodeChantier()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeFormule() method.
+     * Tests setCodeFormule()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRegroupement() method.
+     * Tests setCodeRegroupement()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCommentaire() method.
+     * Tests setCommentaire()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateRevision() method.
+     * Tests setDateRevision()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFormule() method.
+     * Tests setFormule()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLienDocument() method.
+     * Tests setLienDocument()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumBt() method.
+     * Tests setNumBt()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLigneRev() method.
+     * Tests setNumLigneRev()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeRevisee() method.
+     * Tests setPeriodeRevisee()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -189,7 +189,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPourcentage() method.
+     * Tests setPourcentage()
      *
      * @return void
      */
@@ -202,7 +202,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRefusClient() method.
+     * Tests setRefusClient()
      *
      * @return void
      */
@@ -215,7 +215,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

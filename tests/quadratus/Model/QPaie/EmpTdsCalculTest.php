@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EmpTdsCalculTest extends AbstractTestCase {
 
     /**
-     * Tests the setBaseCalcTds142() method.
+     * Tests setBaseCalcTds142()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAtPer() method.
+     * Tests setCodeAtPer()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEtablissement() method.
+     * Tests setCodeEtablissement()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumNetImpos() method.
+     * Tests setCumNetImpos()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDebutPeriodeDecl() method.
+     * Tests setDebutPeriodeDecl()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -94,7 +94,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDernierePeriodeAnnee() method.
+     * Tests setDernierePeriodeAnnee()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFinPeriodeDecl() method.
+     * Tests setFinPeriodeDecl()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -124,7 +124,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndemnImpat() method.
+     * Tests setIndemnImpat()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantHSupComplExo() method.
+     * Tests setMontantHSupComplExo()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHeureSal() method.
+     * Tests setNbHeureSal()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHeureTrav() method.
+     * Tests setNbHeureTrav()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbPerPaie() method.
+     * Tests setNbPerPaie()
      *
      * @return void
      */
@@ -189,7 +189,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumero() method.
+     * Tests setNumero()
      *
      * @return void
      */
@@ -202,7 +202,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroOrdre() method.
+     * Tests setNumeroOrdre()
      *
      * @return void
      */
@@ -215,7 +215,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setParticipServPers() method.
+     * Tests setParticipServPers()
      *
      * @return void
      */
@@ -228,7 +228,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPremierePeriodeAnnee() method.
+     * Tests setPremierePeriodeAnnee()
      *
      * @return void
      */
@@ -241,7 +241,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds100() method.
+     * Tests setTds100()
      *
      * @return void
      */
@@ -254,7 +254,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds102() method.
+     * Tests setTds102()
      *
      * @return void
      */
@@ -267,7 +267,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds103() method.
+     * Tests setTds103()
      *
      * @return void
      */
@@ -280,7 +280,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds105() method.
+     * Tests setTds105()
      *
      * @return void
      */
@@ -293,7 +293,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds107() method.
+     * Tests setTds107()
      *
      * @return void
      */
@@ -306,7 +306,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds108() method.
+     * Tests setTds108()
      *
      * @return void
      */
@@ -319,7 +319,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds109() method.
+     * Tests setTds109()
      *
      * @return void
      */
@@ -332,7 +332,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds110() method.
+     * Tests setTds110()
      *
      * @return void
      */
@@ -345,7 +345,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds111() method.
+     * Tests setTds111()
      *
      * @return void
      */
@@ -358,7 +358,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds112() method.
+     * Tests setTds112()
      *
      * @return void
      */
@@ -371,7 +371,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds113() method.
+     * Tests setTds113()
      *
      * @return void
      */
@@ -384,7 +384,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds117() method.
+     * Tests setTds117()
      *
      * @return void
      */
@@ -397,7 +397,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds119() method.
+     * Tests setTds119()
      *
      * @return void
      */
@@ -410,7 +410,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds120() method.
+     * Tests setTds120()
      *
      * @return void
      */
@@ -423,7 +423,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds121() method.
+     * Tests setTds121()
      *
      * @return void
      */
@@ -436,7 +436,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds122() method.
+     * Tests setTds122()
      *
      * @return void
      */
@@ -449,7 +449,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds125() method.
+     * Tests setTds125()
      *
      * @return void
      */
@@ -462,7 +462,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds127() method.
+     * Tests setTds127()
      *
      * @return void
      */
@@ -475,7 +475,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds128() method.
+     * Tests setTds128()
      *
      * @return void
      */
@@ -488,7 +488,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds132() method.
+     * Tests setTds132()
      *
      * @return void
      */
@@ -501,7 +501,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds133() method.
+     * Tests setTds133()
      *
      * @return void
      */
@@ -514,7 +514,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds134() method.
+     * Tests setTds134()
      *
      * @return void
      */
@@ -527,7 +527,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds135() method.
+     * Tests setTds135()
      *
      * @return void
      */
@@ -540,7 +540,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds136() method.
+     * Tests setTds136()
      *
      * @return void
      */
@@ -553,7 +553,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds137() method.
+     * Tests setTds137()
      *
      * @return void
      */
@@ -566,7 +566,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds139() method.
+     * Tests setTds139()
      *
      * @return void
      */
@@ -579,7 +579,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds141() method.
+     * Tests setTds141()
      *
      * @return void
      */
@@ -592,7 +592,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds142() method.
+     * Tests setTds142()
      *
      * @return void
      */
@@ -605,7 +605,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds142DejaCalcule() method.
+     * Tests setTds142DejaCalcule()
      *
      * @return void
      */
@@ -618,7 +618,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds75() method.
+     * Tests setTds75()
      *
      * @return void
      */
@@ -631,7 +631,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds77() method.
+     * Tests setTds77()
      *
      * @return void
      */
@@ -644,7 +644,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds78() method.
+     * Tests setTds78()
      *
      * @return void
      */
@@ -657,7 +657,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds81() method.
+     * Tests setTds81()
      *
      * @return void
      */
@@ -670,7 +670,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds82() method.
+     * Tests setTds82()
      *
      * @return void
      */
@@ -683,7 +683,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds84() method.
+     * Tests setTds84()
      *
      * @return void
      */
@@ -696,7 +696,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds85() method.
+     * Tests setTds85()
      *
      * @return void
      */
@@ -709,7 +709,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds86() method.
+     * Tests setTds86()
      *
      * @return void
      */
@@ -722,7 +722,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds87() method.
+     * Tests setTds87()
      *
      * @return void
      */
@@ -735,7 +735,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds88() method.
+     * Tests setTds88()
      *
      * @return void
      */
@@ -748,7 +748,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds89() method.
+     * Tests setTds89()
      *
      * @return void
      */
@@ -761,7 +761,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds90() method.
+     * Tests setTds90()
      *
      * @return void
      */
@@ -774,7 +774,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds91() method.
+     * Tests setTds91()
      *
      * @return void
      */
@@ -787,7 +787,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds92() method.
+     * Tests setTds92()
      *
      * @return void
      */
@@ -800,7 +800,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds93() method.
+     * Tests setTds93()
      *
      * @return void
      */
@@ -813,7 +813,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds94() method.
+     * Tests setTds94()
      *
      * @return void
      */
@@ -826,7 +826,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds95() method.
+     * Tests setTds95()
      *
      * @return void
      */
@@ -839,7 +839,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTdsAbattFraisPro() method.
+     * Tests setTdsAbattFraisPro()
      *
      * @return void
      */
@@ -852,7 +852,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTdsAllocChom() method.
+     * Tests setTdsAllocChom()
      *
      * @return void
      */
@@ -865,7 +865,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTdsAllocComplIjss() method.
+     * Tests setTdsAllocComplIjss()
      *
      * @return void
      */
@@ -878,7 +878,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTdsAllocRetraite() method.
+     * Tests setTdsAllocRetraite()
      *
      * @return void
      */
@@ -891,7 +891,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTdsContribCeChequesVac() method.
+     * Tests setTdsContribCeChequesVac()
      *
      * @return void
      */
@@ -904,7 +904,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTdsCumulN() method.
+     * Tests setTdsCumulN()
      *
      * @return void
      */
@@ -917,7 +917,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTdsFlagRaz() method.
+     * Tests setTdsFlagRaz()
      *
      * @return void
      */
@@ -930,7 +930,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTdsIndemnDepartRetraite() method.
+     * Tests setTdsIndemnDepartRetraite()
      *
      * @return void
      */
@@ -943,7 +943,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTdsIndemnImposables() method.
+     * Tests setTdsIndemnImposables()
      *
      * @return void
      */
@@ -956,7 +956,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTdsRembFraisPro() method.
+     * Tests setTdsRembFraisPro()
      *
      * @return void
      */
@@ -969,7 +969,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTdsSommeExoTaxeSal() method.
+     * Tests setTdsSommeExoTaxeSal()
      *
      * @return void
      */
@@ -982,7 +982,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTdsSup120() method.
+     * Tests setTdsSup120()
      *
      * @return void
      */
@@ -995,7 +995,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTdsSup1200() method.
+     * Tests setTdsSup1200()
      *
      * @return void
      */
@@ -1008,7 +1008,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTotalPlaf() method.
+     * Tests setTotalPlaf()
      *
      * @return void
      */
@@ -1021,7 +1021,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

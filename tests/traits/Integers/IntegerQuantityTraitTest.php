@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Integers\TestIntegerQuantityTrait;
 class IntegerQuantityTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setQuantity() method.
+     * Tests setQuantity()
      *
      * @return void
      */

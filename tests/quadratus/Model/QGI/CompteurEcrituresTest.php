@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class CompteurEcrituresTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class CompteurEcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateComptage() method.
+     * Tests setDateComptage()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -55,7 +55,7 @@ class CompteurEcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMillesime() method.
+     * Tests setMillesime()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class CompteurEcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbEcritures() method.
+     * Tests setNbEcritures()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class CompteurEcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbEcrituresADeduire() method.
+     * Tests setNbEcrituresADeduire()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class CompteurEcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNoChronoPreparation() method.
+     * Tests setNoChronoPreparation()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class CompteurEcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodePreparation() method.
+     * Tests setPeriodePreparation()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -124,7 +124,7 @@ class CompteurEcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setType() method.
+     * Tests setType()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class CompteurEcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniqIdPdf() method.
+     * Tests setUniqIdPdf()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class CompteurEcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

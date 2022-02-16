@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ContratslocatifsTest extends AbstractTestCase {
 
     /**
-     * Tests the setCaution() method.
+     * Tests setCaution()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCaution2() method.
+     * Tests setCaution2()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCaution3() method.
+     * Tests setCaution3()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCaution4() method.
+     * Tests setCaution4()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCaution5() method.
+     * Tests setCaution5()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setClausespeciale() method.
+     * Tests setClausespeciale()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCentre() method.
+     * Tests setCodeCentre()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateAnniversaire() method.
+     * Tests setDateAnniversaire()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateCaution() method.
+     * Tests setDateCaution()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -146,7 +146,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateCaution2() method.
+     * Tests setDateCaution2()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -163,7 +163,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateCaution3() method.
+     * Tests setDateCaution3()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -180,7 +180,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateCaution4() method.
+     * Tests setDateCaution4()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -197,7 +197,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateCaution5() method.
+     * Tests setDateCaution5()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -214,7 +214,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateSignature() method.
+     * Tests setDateSignature()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -231,7 +231,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateSignature2() method.
+     * Tests setDateSignature2()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -248,7 +248,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateSignature3() method.
+     * Tests setDateSignature3()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -265,7 +265,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateSignature4() method.
+     * Tests setDateSignature4()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -282,7 +282,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateSignature5() method.
+     * Tests setDateSignature5()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -299,7 +299,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDuree() method.
+     * Tests setDuree()
      *
      * @return void
      */
@@ -312,7 +312,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDureePreavis() method.
+     * Tests setDureePreavis()
      *
      * @return void
      */
@@ -325,7 +325,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle() method.
+     * Tests setLibelle()
      *
      * @return void
      */
@@ -338,7 +338,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMonnaieCaution() method.
+     * Tests setMonnaieCaution()
      *
      * @return void
      */
@@ -351,7 +351,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMonnaieLoyer() method.
+     * Tests setMonnaieLoyer()
      *
      * @return void
      */
@@ -364,7 +364,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantAnnuel() method.
+     * Tests setMontantAnnuel()
      *
      * @return void
      */
@@ -377,7 +377,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantAnnuel2() method.
+     * Tests setMontantAnnuel2()
      *
      * @return void
      */
@@ -390,7 +390,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantAnnuel3() method.
+     * Tests setMontantAnnuel3()
      *
      * @return void
      */
@@ -403,7 +403,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantAnnuel4() method.
+     * Tests setMontantAnnuel4()
      *
      * @return void
      */
@@ -416,7 +416,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantAnnuel5() method.
+     * Tests setMontantAnnuel5()
      *
      * @return void
      */
@@ -429,7 +429,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantCharges() method.
+     * Tests setMontantCharges()
      *
      * @return void
      */
@@ -442,7 +442,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantCharges2() method.
+     * Tests setMontantCharges2()
      *
      * @return void
      */
@@ -455,7 +455,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantCharges3() method.
+     * Tests setMontantCharges3()
      *
      * @return void
      */
@@ -468,7 +468,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantCharges4() method.
+     * Tests setMontantCharges4()
      *
      * @return void
      */
@@ -481,7 +481,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantCharges5() method.
+     * Tests setMontantCharges5()
      *
      * @return void
      */
@@ -494,7 +494,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumCptCaution() method.
+     * Tests setNumCptCaution()
      *
      * @return void
      */
@@ -507,7 +507,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumCptCharges() method.
+     * Tests setNumCptCharges()
      *
      * @return void
      */
@@ -520,7 +520,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumCptLoyer() method.
+     * Tests setNumCptLoyer()
      *
      * @return void
      */
@@ -533,7 +533,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumOrdre() method.
+     * Tests setNumOrdre()
      *
      * @return void
      */
@@ -546,7 +546,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroPj() method.
+     * Tests setNumeroPj()
      *
      * @return void
      */
@@ -559,7 +559,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRefImage() method.
+     * Tests setRefImage()
      *
      * @return void
      */
@@ -572,7 +572,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setService() method.
+     * Tests setService()
      *
      * @return void
      */
@@ -585,7 +585,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniteDuree() method.
+     * Tests setUniteDuree()
      *
      * @return void
      */
@@ -598,7 +598,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

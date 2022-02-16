@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DsnLieuTravailTest extends AbstractTestCase {
 
     /**
-     * Tests the setBtq() method.
+     * Tests setBtq()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class DsnLieuTravailTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBureauDistributeur() method.
+     * Tests setBureauDistributeur()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class DsnLieuTravailTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeDistribution() method.
+     * Tests setCodeDistribution()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class DsnLieuTravailTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeInsee() method.
+     * Tests setCodeInsee()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class DsnLieuTravailTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeNaf() method.
+     * Tests setCodeNaf()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class DsnLieuTravailTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePays() method.
+     * Tests setCodePays()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class DsnLieuTravailTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePostal() method.
+     * Tests setCodePostal()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class DsnLieuTravailTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setComplement() method.
+     * Tests setComplement()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class DsnLieuTravailTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setComplementVoie() method.
+     * Tests setComplementVoie()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class DsnLieuTravailTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setId() method.
+     * Tests setId()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class DsnLieuTravailTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNatureJuridique() method.
+     * Tests setNatureJuridique()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class DsnLieuTravailTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomVoie() method.
+     * Tests setNomVoie()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class DsnLieuTravailTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumVoie() method.
+     * Tests setNumVoie()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class DsnLieuTravailTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRaisonSociale() method.
+     * Tests setRaisonSociale()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class DsnLieuTravailTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

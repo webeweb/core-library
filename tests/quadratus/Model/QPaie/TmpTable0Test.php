@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class TmpTable0Test extends AbstractTestCase {
 
     /**
-     * Tests the setBase() method.
+     * Tests setBase()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class TmpTable0Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBaseTot() method.
+     * Tests setBaseTot()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class TmpTable0Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setChargePat() method.
+     * Tests setChargePat()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class TmpTable0Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setChargePatTot() method.
+     * Tests setChargePatTot()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class TmpTable0Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setChargeSal() method.
+     * Tests setChargeSal()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class TmpTable0Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setChargeSalTot() method.
+     * Tests setChargeSalTot()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class TmpTable0Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setClasse() method.
+     * Tests setClasse()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class TmpTable0Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCode() method.
+     * Tests setCode()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class TmpTable0Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeOrganisme() method.
+     * Tests setCodeOrganisme()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class TmpTable0Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtablissement() method.
+     * Tests setEtablissement()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class TmpTable0Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setImputation() method.
+     * Tests setImputation()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class TmpTable0Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndicePeriode() method.
+     * Tests setIndicePeriode()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class TmpTable0Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setInverse() method.
+     * Tests setInverse()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class TmpTable0Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle() method.
+     * Tests setLibelle()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class TmpTable0Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumero() method.
+     * Tests setNumero()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class TmpTable0Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriode() method.
+     * Tests setPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -237,7 +237,7 @@ class TmpTable0Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQui() method.
+     * Tests setQui()
      *
      * @return void
      */
@@ -250,7 +250,7 @@ class TmpTable0Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setService() method.
+     * Tests setService()
      *
      * @return void
      */
@@ -263,7 +263,7 @@ class TmpTable0Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxPat() method.
+     * Tests setTauxPat()
      *
      * @return void
      */
@@ -276,7 +276,7 @@ class TmpTable0Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxSal() method.
+     * Tests setTauxSal()
      *
      * @return void
      */
@@ -289,7 +289,7 @@ class TmpTable0Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setType() method.
+     * Tests setType()
      *
      * @return void
      */
@@ -302,7 +302,7 @@ class TmpTable0Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

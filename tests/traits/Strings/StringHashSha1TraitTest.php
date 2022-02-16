@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringHashSha1Trait;
 class StringHashSha1TraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setHashSha1() method.
+     * Tests setHashSha1()
      *
      * @return void
      */

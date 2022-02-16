@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class SuiviActiviteTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeColl() method.
+     * Tests setCodeColl()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class SuiviActiviteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateHeure() method.
+     * Tests setDateHeure()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -55,7 +55,7 @@ class SuiviActiviteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDescription() method.
+     * Tests setDescription()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class SuiviActiviteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIdAction() method.
+     * Tests setIdAction()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class SuiviActiviteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setResultat() method.
+     * Tests setResultat()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class SuiviActiviteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Floats\TestFloatUnitValueTrait;
 class FloatUnitValueTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setUnitValue() method.
+     * Tests setUnitValue()
      *
      * @return void
      */

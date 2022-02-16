@@ -24,7 +24,7 @@ use WBW\Library\Vehicle\Tests\AbstractTestCase;
 class VehicleBrandFactoryTest extends AbstractTestCase {
 
     /**
-     * Tests the copy() method.
+     * Tests copy()
      *
      * @return void
      */

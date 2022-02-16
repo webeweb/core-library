@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ClientsLstPersoColonnesTest extends AbstractTestCase {
 
     /**
-     * Tests the setClauseWhere() method.
+     * Tests setClauseWhere()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ClientsLstPersoColonnesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndice() method.
+     * Tests setIndice()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ClientsLstPersoColonnesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndiceTri() method.
+     * Tests setIndiceTri()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ClientsLstPersoColonnesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule() method.
+     * Tests setIntitule()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ClientsLstPersoColonnesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIsFormule() method.
+     * Tests setIsFormule()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ClientsLstPersoColonnesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJointure() method.
+     * Tests setJointure()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class ClientsLstPersoColonnesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbDecimales() method.
+     * Tests setNbDecimales()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class ClientsLstPersoColonnesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomChamp() method.
+     * Tests setNomChamp()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class ClientsLstPersoColonnesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomTable() method.
+     * Tests setNomTable()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class ClientsLstPersoColonnesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRefGuid() method.
+     * Tests setRefGuid()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class ClientsLstPersoColonnesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSaisie() method.
+     * Tests setSaisie()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class ClientsLstPersoColonnesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSelection() method.
+     * Tests setSelection()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class ClientsLstPersoColonnesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTaille() method.
+     * Tests setTaille()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class ClientsLstPersoColonnesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTitre() method.
+     * Tests setTitre()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class ClientsLstPersoColonnesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

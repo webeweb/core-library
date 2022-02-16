@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class PrevisionnelTest extends AbstractTestCase {
 
     /**
-     * Tests the setAnnee() method.
+     * Tests setAnnee()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class PrevisionnelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateApplication() method.
+     * Tests setDateApplication()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -55,7 +55,7 @@ class PrevisionnelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDebutSemaine() method.
+     * Tests setDebutSemaine()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -72,7 +72,7 @@ class PrevisionnelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHorairePrevu() method.
+     * Tests setHorairePrevu()
      *
      * @return void
      */
@@ -85,7 +85,7 @@ class PrevisionnelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroGrilleType() method.
+     * Tests setNumeroGrilleType()
      *
      * @return void
      */
@@ -98,7 +98,7 @@ class PrevisionnelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroSemaine() method.
+     * Tests setNumeroSemaine()
      *
      * @return void
      */
@@ -111,7 +111,7 @@ class PrevisionnelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

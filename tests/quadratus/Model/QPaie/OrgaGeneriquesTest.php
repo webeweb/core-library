@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class OrgaGeneriquesTest extends AbstractTestCase {
 
     /**
-     * Tests the setADeclarerDsnNeant() method.
+     * Tests setADeclarerDsnNeant()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAgrementMinisteriel() method.
+     * Tests setAgrementMinisteriel()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAppliquerCpn220() method.
+     * Tests setAppliquerCpn220()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setArrondirBase() method.
+     * Tests setArrondirBase()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setArrondirCotis() method.
+     * Tests setArrondirCotis()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAssietteSpecifAgff() method.
+     * Tests setAssietteSpecifAgff()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCode() method.
+     * Tests setCode()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAssietteSit2() method.
+     * Tests setCodeAssietteSit2()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAssietteSit2Agff() method.
+     * Tests setCodeAssietteSit2Agff()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAssietteSitb() method.
+     * Tests setCodeAssietteSitb()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAssietteSitbagff() method.
+     * Tests setCodeAssietteSitbagff()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAssietteSitc() method.
+     * Tests setCodeAssietteSitc()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCaisseMsa() method.
+     * Tests setCodeCaisseMsa()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeOrganismeAssuranceDadsu() method.
+     * Tests setCodeOrganismeAssuranceDadsu()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeOrganismeMutuelleDadsu() method.
+     * Tests setCodeOrganismeMutuelleDadsu()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDetailArrco() method.
+     * Tests setDetailArrco()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGroupeCrc() method.
+     * Tests setGroupeCrc()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIdInstitution() method.
+     * Tests setIdInstitution()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitSousTotalAgffAgirc() method.
+     * Tests setIntitSousTotalAgffAgirc()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitSousTotalAgffArrco() method.
+     * Tests setIntitSousTotalAgffArrco()
      *
      * @return void
      */
@@ -283,7 +283,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitSousTotalApec() method.
+     * Tests setIntitSousTotalApec()
      *
      * @return void
      */
@@ -296,7 +296,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule() method.
+     * Tests setIntitule()
      *
      * @return void
      */
@@ -309,7 +309,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLienFicParamDsn() method.
+     * Tests setLienFicParamDsn()
      *
      * @return void
      */
@@ -322,7 +322,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRegroupementSi() method.
+     * Tests setRegroupementSi()
      *
      * @return void
      */
@@ -335,7 +335,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSousTotalAgff() method.
+     * Tests setSousTotalAgff()
      *
      * @return void
      */
@@ -348,7 +348,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSousTotalApec() method.
+     * Tests setSousTotalApec()
      *
      * @return void
      */
@@ -361,7 +361,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSousTotalCaisse() method.
+     * Tests setSousTotalCaisse()
      *
      * @return void
      */
@@ -374,7 +374,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTraitementDadsu() method.
+     * Tests setTraitementDadsu()
      *
      * @return void
      */
@@ -387,7 +387,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeDeclaration() method.
+     * Tests setTypeDeclaration()
      *
      * @return void
      */
@@ -400,7 +400,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeOrganisme() method.
+     * Tests setTypeOrganisme()
      *
      * @return void
      */
@@ -413,7 +413,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUtilise() method.
+     * Tests setUtilise()
      *
      * @return void
      */
@@ -426,7 +426,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

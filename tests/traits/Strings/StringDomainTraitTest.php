@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringDomainTrait;
 class StringDomainTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setDomain() method.
+     * Tests setDomain()
      *
      * @return void
      */

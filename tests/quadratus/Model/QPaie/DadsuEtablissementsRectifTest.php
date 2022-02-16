@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DadsuEtablissementsRectifTest extends AbstractTestCase {
 
     /**
-     * Tests the setActif() method.
+     * Tests setActif()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class DadsuEtablissementsRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEtablissement() method.
+     * Tests setCodeEtablissement()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class DadsuEtablissementsRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFormaProBase() method.
+     * Tests setFormaProBase()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class DadsuEtablissementsRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFormaProBaseCdd() method.
+     * Tests setFormaProBaseCdd()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class DadsuEtablissementsRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndiceRectif() method.
+     * Tests setIndiceRectif()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class DadsuEtablissementsRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTaxeApprentissageBase() method.
+     * Tests setTaxeApprentissageBase()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class DadsuEtablissementsRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

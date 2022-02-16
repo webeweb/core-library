@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class FactFournLignesTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class FactFournLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeMission() method.
+     * Tests setCodeMission()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class FactFournLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCollaborateur() method.
+     * Tests setCollaborateur()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class FactFournLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompte() method.
+     * Tests setCompte()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class FactFournLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle() method.
+     * Tests setLibelle()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class FactFournLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantCredit() method.
+     * Tests setMontantCredit()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class FactFournLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantDebit() method.
+     * Tests setMontantDebit()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class FactFournLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumEntete() method.
+     * Tests setNumEntete()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class FactFournLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLigne() method.
+     * Tests setNumLigne()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class FactFournLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

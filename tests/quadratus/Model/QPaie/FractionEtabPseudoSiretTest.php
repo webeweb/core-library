@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class FractionEtabPseudoSiretTest extends AbstractTestCase {
 
     /**
-     * Tests the setAPartirDe() method.
+     * Tests setAPartirDe()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -42,7 +42,7 @@ class FractionEtabPseudoSiretTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEtablissement() method.
+     * Tests setCodeEtablissement()
      *
      * @return void
      */
@@ -55,7 +55,7 @@ class FractionEtabPseudoSiretTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumFraction() method.
+     * Tests setNumFraction()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class FractionEtabPseudoSiretTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPseudoSiret() method.
+     * Tests setPseudoSiret()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class FractionEtabPseudoSiretTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ActionsCoSuiviTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeAction() method.
+     * Tests setCodeAction()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ActionsCoSuiviTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ActionsCoSuiviTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeManif() method.
+     * Tests setCodeManif()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ActionsCoSuiviTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setConfirmes() method.
+     * Tests setConfirmes()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ActionsCoSuiviTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setContrat() method.
+     * Tests setContrat()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ActionsCoSuiviTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setInscrits() method.
+     * Tests setInscrits()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class ActionsCoSuiviTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumInterlocuteur() method.
+     * Tests setNumInterlocuteur()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class ActionsCoSuiviTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumSeance() method.
+     * Tests setNumSeance()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class ActionsCoSuiviTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPresents() method.
+     * Tests setPresents()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class ActionsCoSuiviTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPriseRdv() method.
+     * Tests setPriseRdv()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class ActionsCoSuiviTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeInvite() method.
+     * Tests setTypeInvite()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class ActionsCoSuiviTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

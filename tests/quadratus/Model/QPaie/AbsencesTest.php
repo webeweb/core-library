@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AbsencesTest extends AbstractTestCase {
 
     /**
-     * Tests the setAbsJour() method.
+     * Tests setAbsJour()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaborateur() method.
+     * Tests setCodeCollaborateur()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeUser() method.
+     * Tests setCodeUser()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCongesPayes() method.
+     * Tests setCongesPayes()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateAdded() method.
+     * Tests setDateAdded()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -94,7 +94,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateAddedColl() method.
+     * Tests setDateAddedColl()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -111,7 +111,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setInBul() method.
+     * Tests setInBul()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndicePeriode() method.
+     * Tests setIndicePeriode()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNb30() method.
+     * Tests setNb30()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHAbCpCalcule() method.
+     * Tests setNbHAbCpCalcule()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHAbCpSaisi() method.
+     * Tests setNbHAbCpSaisi()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJh() method.
+     * Tests setNbJh()
      *
      * @return void
      */
@@ -189,7 +189,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJhCalcule() method.
+     * Tests setNbJhCalcule()
      *
      * @return void
      */
@@ -202,7 +202,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumEvenement() method.
+     * Tests setNumEvenement()
      *
      * @return void
      */
@@ -215,7 +215,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumUniq() method.
+     * Tests setNumUniq()
      *
      * @return void
      */
@@ -228,7 +228,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -241,7 +241,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeBul() method.
+     * Tests setPeriodeBul()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -258,7 +258,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeDeb() method.
+     * Tests setPeriodeDeb()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -275,7 +275,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeFin() method.
+     * Tests setPeriodeFin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -292,7 +292,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProlongation() method.
+     * Tests setProlongation()
      *
      * @return void
      */
@@ -305,7 +305,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setReprise() method.
+     * Tests setReprise()
      *
      * @return void
      */
@@ -318,7 +318,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeAbs() method.
+     * Tests setTypeAbs()
      *
      * @return void
      */
@@ -331,7 +331,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

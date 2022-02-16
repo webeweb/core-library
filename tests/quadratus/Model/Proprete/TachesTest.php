@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class TachesTest extends AbstractTestCase {
 
     /**
-     * Tests the setAutoIncr() method.
+     * Tests setAutoIncr()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCadence() method.
+     * Tests setCadence()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAffaire() method.
+     * Tests setCodeAffaire()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAnalytique() method.
+     * Tests setCodeAnalytique()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeChantier() method.
+     * Tests setCodeChantier()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeDernSemGen() method.
+     * Tests setCodeDernSemGen()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePrimeDimanche1Type2() method.
+     * Tests setCodePrimeDimanche1Type2()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePrimeJf1Type2() method.
+     * Tests setCodePrimeJf1Type2()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePrimeNuit1Type2() method.
+     * Tests setCodePrimeNuit1Type2()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTache() method.
+     * Tests setCodeTache()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTacheType() method.
+     * Tests setCodeTacheType()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDescriptif() method.
+     * Tests setDescriptif()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDtDernSemGen() method.
+     * Tests setDtDernSemGen()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -211,7 +211,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDureeBudget() method.
+     * Tests setDureeBudget()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFichePoste() method.
+     * Tests setFichePoste()
      *
      * @return void
      */
@@ -237,7 +237,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionHotellerie() method.
+     * Tests setGestionHotellerie()
      *
      * @return void
      */
@@ -250,7 +250,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMajDimNormalType2() method.
+     * Tests setMajDimNormalType2()
      *
      * @return void
      */
@@ -263,7 +263,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMajJfNormalType2() method.
+     * Tests setMajJfNormalType2()
      *
      * @return void
      */
@@ -276,7 +276,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMajNuitNormalType2() method.
+     * Tests setMajNuitNormalType2()
      *
      * @return void
      */
@@ -289,7 +289,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNiveauQualif() method.
+     * Tests setNiveauQualif()
      *
      * @return void
      */
@@ -302,7 +302,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNonOeuvrant() method.
+     * Tests setNonOeuvrant()
      *
      * @return void
      */
@@ -315,7 +315,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumBt() method.
+     * Tests setNumBt()
      *
      * @return void
      */
@@ -328,7 +328,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPlanningDernSemPrioritaire() method.
+     * Tests setPlanningDernSemPrioritaire()
      *
      * @return void
      */
@@ -341,7 +341,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPosteRent() method.
+     * Tests setPosteRent()
      *
      * @return void
      */
@@ -354,7 +354,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSuiviHeures() method.
+     * Tests setSuiviHeures()
      *
      * @return void
      */
@@ -367,7 +367,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

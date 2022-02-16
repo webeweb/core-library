@@ -43,7 +43,7 @@ class AlphabeticalTreeNodeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the createChoices() method.
+     * Tests createChoices()
      *
      * @return void
      */
@@ -63,7 +63,7 @@ class AlphabeticalTreeNodeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the getLevel() method.
+     * Tests getLevel()
      *
      * @return void
      */
@@ -82,7 +82,7 @@ class AlphabeticalTreeNodeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the removeOrphan() method.
+     * Tests removeOrphan()
      *
      * @return void
      */

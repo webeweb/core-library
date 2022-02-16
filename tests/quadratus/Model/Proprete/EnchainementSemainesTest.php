@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EnchainementSemainesTest extends AbstractTestCase {
 
     /**
-     * Tests the setDiscrSem() method.
+     * Tests setDiscrSem()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class EnchainementSemainesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumOrdre() method.
+     * Tests setNumOrdre()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class EnchainementSemainesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

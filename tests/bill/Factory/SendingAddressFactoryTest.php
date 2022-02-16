@@ -24,7 +24,7 @@ use WBW\Library\Bill\Tests\Fixtures\Model\TestSendingAddressTrait;
 class SendingAddressFactoryTest extends AbstractTestCase {
 
     /**
-     * Tests the copy() method.
+     * Tests copy()
      *
      * @return void
      */

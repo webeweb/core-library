@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ConstantesEntreprise2Test extends AbstractTestCase {
 
     /**
-     * Tests the setDateApplicationForfaitSocial8() method.
+     * Tests setDateApplicationForfaitSocial8()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -42,7 +42,7 @@ class ConstantesEntreprise2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateApplicationFsLisse() method.
+     * Tests setDateApplicationFsLisse()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -59,7 +59,7 @@ class ConstantesEntreprise2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGereEvtFinContratLot() method.
+     * Tests setGereEvtFinContratLot()
      *
      * @return void
      */
@@ -72,7 +72,7 @@ class ConstantesEntreprise2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGerePrevNormeDsn() method.
+     * Tests setGerePrevNormeDsn()
      *
      * @return void
      */
@@ -85,7 +85,7 @@ class ConstantesEntreprise2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionDsn() method.
+     * Tests setGestionDsn()
      *
      * @return void
      */
@@ -98,7 +98,7 @@ class ConstantesEntreprise2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNEvenementDsn() method.
+     * Tests setNEvenementDsn()
      *
      * @return void
      */
@@ -111,7 +111,7 @@ class ConstantesEntreprise2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNePasActiverPrimeAnnuelleProprete() method.
+     * Tests setNePasActiverPrimeAnnuelleProprete()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class ConstantesEntreprise2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRegimeMixteMsa() method.
+     * Tests setRegimeMixteMsa()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class ConstantesEntreprise2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxPrimeAnnuellePropreteMoins20Ans() method.
+     * Tests setTauxPrimeAnnuellePropreteMoins20Ans()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class ConstantesEntreprise2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxPrimeAnnuellePropretePlus20Ans() method.
+     * Tests setTauxPrimeAnnuellePropretePlus20Ans()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class ConstantesEntreprise2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class CdeFournisseurEnteteTest extends AbstractTestCase {
 
     /**
-     * Tests the setBtq() method.
+     * Tests setBtq()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBtq2() method.
+     * Tests setBtq2()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBureauDistributeur() method.
+     * Tests setBureauDistributeur()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBureauDistributeur2() method.
+     * Tests setBureauDistributeur2()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeDevise() method.
+     * Tests setCodeDevise()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeFournisseur() method.
+     * Tests setCodeFournisseur()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeLivraison() method.
+     * Tests setCodeLivraison()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeOfficielCommune() method.
+     * Tests setCodeOfficielCommune()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeOfficielCommune2() method.
+     * Tests setCodeOfficielCommune2()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePostal() method.
+     * Tests setCodePostal()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePostal2() method.
+     * Tests setCodePostal2()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeReglement() method.
+     * Tests setCodeReglement()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTva() method.
+     * Tests setCodeTva()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeVentilCompta() method.
+     * Tests setCodeVentilCompta()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setComplement() method.
+     * Tests setComplement()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setComplement2() method.
+     * Tests setComplement2()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateCreation() method.
+     * Tests setDateCreation()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -250,7 +250,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateEcheance() method.
+     * Tests setDateEcheance()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -267,7 +267,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateModification() method.
+     * Tests setDateModification()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -284,7 +284,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDatePiece() method.
+     * Tests setDatePiece()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -301,7 +301,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateReceptionPrevue() method.
+     * Tests setDateReceptionPrevue()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -318,7 +318,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEcheanceForcee() method.
+     * Tests setEcheanceForcee()
      *
      * @return void
      */
@@ -331,7 +331,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEdition() method.
+     * Tests setEdition()
      *
      * @return void
      */
@@ -344,7 +344,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFactureEuros() method.
+     * Tests setFactureEuros()
      *
      * @return void
      */
@@ -357,7 +357,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantAcompte() method.
+     * Tests setMontantAcompte()
      *
      * @return void
      */
@@ -370,7 +370,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbColis() method.
+     * Tests setNbColis()
      *
      * @return void
      */
@@ -383,7 +383,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNoPiece() method.
+     * Tests setNoPiece()
      *
      * @return void
      */
@@ -396,7 +396,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNom() method.
+     * Tests setNom()
      *
      * @return void
      */
@@ -409,7 +409,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNom2() method.
+     * Tests setNom2()
      *
      * @return void
      */
@@ -422,7 +422,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomSuite() method.
+     * Tests setNomSuite()
      *
      * @return void
      */
@@ -435,7 +435,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomSuite2() method.
+     * Tests setNomSuite2()
      *
      * @return void
      */
@@ -448,7 +448,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomVille() method.
+     * Tests setNomVille()
      *
      * @return void
      */
@@ -461,7 +461,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomVille2() method.
+     * Tests setNomVille2()
      *
      * @return void
      */
@@ -474,7 +474,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomVoie() method.
+     * Tests setNomVoie()
      *
      * @return void
      */
@@ -487,7 +487,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomVoie2() method.
+     * Tests setNomVoie2()
      *
      * @return void
      */
@@ -500,7 +500,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNombreEcheances() method.
+     * Tests setNombreEcheances()
      *
      * @return void
      */
@@ -513,7 +513,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumVoie() method.
+     * Tests setNumVoie()
      *
      * @return void
      */
@@ -526,7 +526,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumVoie2() method.
+     * Tests setNumVoie2()
      *
      * @return void
      */
@@ -539,7 +539,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPaiementDepartLe() method.
+     * Tests setPaiementDepartLe()
      *
      * @return void
      */
@@ -552,7 +552,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPaiementLe() method.
+     * Tests setPaiementLe()
      *
      * @return void
      */
@@ -565,7 +565,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPaiementNombreDeJours() method.
+     * Tests setPaiementNombreDeJours()
      *
      * @return void
      */
@@ -578,7 +578,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodePreparation() method.
+     * Tests setPeriodePreparation()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -595,7 +595,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPoids() method.
+     * Tests setPoids()
      *
      * @return void
      */
@@ -608,7 +608,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setReference1() method.
+     * Tests setReference1()
      *
      * @return void
      */
@@ -621,7 +621,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setReference2() method.
+     * Tests setReference2()
      *
      * @return void
      */
@@ -634,7 +634,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setReference3() method.
+     * Tests setReference3()
      *
      * @return void
      */
@@ -647,7 +647,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setReference4() method.
+     * Tests setReference4()
      *
      * @return void
      */
@@ -660,7 +660,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemisePied() method.
+     * Tests setRemisePied()
      *
      * @return void
      */
@@ -673,7 +673,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemisePied2() method.
+     * Tests setRemisePied2()
      *
      * @return void
      */
@@ -686,7 +686,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemisePied3() method.
+     * Tests setRemisePied3()
      *
      * @return void
      */
@@ -699,7 +699,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSaisirAdresse() method.
+     * Tests setSaisirAdresse()
      *
      * @return void
      */
@@ -712,7 +712,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSaisirAdresseLivraison() method.
+     * Tests setSaisirAdresseLivraison()
      *
      * @return void
      */
@@ -725,7 +725,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSoumisEscompte() method.
+     * Tests setSoumisEscompte()
      *
      * @return void
      */
@@ -738,7 +738,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSoumisTaxe1() method.
+     * Tests setSoumisTaxe1()
      *
      * @return void
      */
@@ -751,7 +751,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSoumisTaxe2() method.
+     * Tests setSoumisTaxe2()
      *
      * @return void
      */
@@ -764,7 +764,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSoumisTaxe3() method.
+     * Tests setSoumisTaxe3()
      *
      * @return void
      */
@@ -777,7 +777,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxDevise() method.
+     * Tests setTauxDevise()
      *
      * @return void
      */
@@ -790,7 +790,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTransfert() method.
+     * Tests setTransfert()
      *
      * @return void
      */
@@ -803,7 +803,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTransporteur() method.
+     * Tests setTransporteur()
      *
      * @return void
      */
@@ -816,7 +816,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTxEscompteAchat() method.
+     * Tests setTxEscompteAchat()
      *
      * @return void
      */
@@ -829,7 +829,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

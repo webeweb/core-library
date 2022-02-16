@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class PlanPrevOrdonnancementTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeAffaire() method.
+     * Tests setCodeAffaire()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class PlanPrevOrdonnancementTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeChantier() method.
+     * Tests setCodeChantier()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class PlanPrevOrdonnancementTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class PlanPrevOrdonnancementTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEmploye() method.
+     * Tests setCodeEmploye()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class PlanPrevOrdonnancementTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTache() method.
+     * Tests setCodeTache()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class PlanPrevOrdonnancementTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDate() method.
+     * Tests setDate()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -107,7 +107,7 @@ class PlanPrevOrdonnancementTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDescriptif() method.
+     * Tests setDescriptif()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class PlanPrevOrdonnancementTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDiscrTache() method.
+     * Tests setDiscrTache()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class PlanPrevOrdonnancementTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumBt() method.
+     * Tests setNumBt()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class PlanPrevOrdonnancementTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumOrdre() method.
+     * Tests setNumOrdre()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class PlanPrevOrdonnancementTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

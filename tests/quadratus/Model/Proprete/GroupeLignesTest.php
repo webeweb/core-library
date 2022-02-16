@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class GroupeLignesTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeElement() method.
+     * Tests setCodeElement()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class GroupeLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGroupe() method.
+     * Tests setGroupe()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class GroupeLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOrdre() method.
+     * Tests setOrdre()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class GroupeLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeElement() method.
+     * Tests setTypeElement()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class GroupeLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class iSitesTest extends AbstractTestCase {
 
     /**
-     * Tests the setAdresseIp() method.
+     * Tests setAdresseIp()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class iSitesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomSite() method.
+     * Tests setNomSite()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class iSitesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

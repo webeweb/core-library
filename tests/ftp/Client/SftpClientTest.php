@@ -42,7 +42,7 @@ class SftpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the connect() method.
+     * Tests connect()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -78,7 +78,7 @@ class SftpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the delete() method.
+     * Tests delete()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -115,7 +115,7 @@ class SftpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the get() method.
+     * Tests get()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -138,7 +138,7 @@ class SftpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the login() method.
+     * Tests login()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -173,7 +173,7 @@ class SftpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the mkdir() method.
+     * Tests mkdir()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -208,7 +208,7 @@ class SftpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the put() method.
+     * Tests put()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -246,7 +246,7 @@ class SftpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the rename() method.
+     * Tests rename()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -283,7 +283,7 @@ class SftpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the rmdir() method.
+     * Tests rmdir()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -320,7 +320,7 @@ class SftpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ComptesLibQuadraTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeDucs() method.
+     * Tests setCodeDucs()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEditionHisto() method.
+     * Tests setCodeEditionHisto()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeLibelle() method.
+     * Tests setCodeLibelle()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeOrganisme() method.
+     * Tests setCodeOrganisme()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTypeBSpecPrev() method.
+     * Tests setCodeTypeBSpecPrev()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteCharge() method.
+     * Tests setCompteCharge()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setConditionSpec() method.
+     * Tests setConditionSpec()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEditionForceeDs() method.
+     * Tests setEditionForceeDs()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setExclureLoiTepa() method.
+     * Tests setExclureLoiTepa()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFraisSante() method.
+     * Tests setFraisSante()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrevoyanceComp() method.
+     * Tests setPrevoyanceComp()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQualifiantCotis() method.
+     * Tests setQualifiantCotis()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRetraiteObligatoire() method.
+     * Tests setRetraiteObligatoire()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRetraiteSupp() method.
+     * Tests setRetraiteSupp()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSansReintegrationSociale() method.
+     * Tests setSansReintegrationSociale()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSoumisCrds100() method.
+     * Tests setSoumisCrds100()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSoumisCsg100() method.
+     * Tests setSoumisCsg100()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxForfaitSocial20() method.
+     * Tests setTauxForfaitSocial20()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxForfaitSocial8() method.
+     * Tests setTauxForfaitSocial8()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

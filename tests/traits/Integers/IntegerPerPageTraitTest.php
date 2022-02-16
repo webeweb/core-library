@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Integers\TestIntegerPerPageTrait;
 class IntegerPerPageTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setPerPage() method.
+     * Tests setPerPage()
      *
      * @return void
      */

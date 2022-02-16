@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ControleTvaTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeCalc() method.
+     * Tests setCodeCalc()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ControleTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTva() method.
+     * Tests setCodeTva()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ControleTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setColonneTaux() method.
+     * Tests setColonneTaux()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ControleTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule() method.
+     * Tests setIntitule()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ControleTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMttTaux() method.
+     * Tests setMttTaux()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ControleTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLigne() method.
+     * Tests setNumLigne()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class ControleTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRacineCpt() method.
+     * Tests setRacineCpt()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class ControleTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSaisieManuelle() method.
+     * Tests setSaisieManuelle()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class ControleTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeControle() method.
+     * Tests setTypeControle()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class ControleTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeLigne() method.
+     * Tests setTypeLigne()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class ControleTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setValeurTaux() method.
+     * Tests setValeurTaux()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class ControleTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

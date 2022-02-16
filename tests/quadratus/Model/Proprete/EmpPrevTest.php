@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EmpPrevTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeCollaboValid() method.
+     * Tests setCodeCollaboValid()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class EmpPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaborateur() method.
+     * Tests setCodeCollaborateur()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class EmpPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEmploye() method.
+     * Tests setCodeEmploye()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class EmpPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDate() method.
+     * Tests setDate()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class EmpPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateAbsDecalee() method.
+     * Tests setDateAbsDecalee()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -98,7 +98,7 @@ class EmpPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateValidationSynchro() method.
+     * Tests setDateValidationSynchro()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -115,7 +115,7 @@ class EmpPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDimType2() method.
+     * Tests setDimType2()
      *
      * @return void
      */
@@ -128,7 +128,7 @@ class EmpPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDiscrTache() method.
+     * Tests setDiscrTache()
      *
      * @return void
      */
@@ -141,7 +141,7 @@ class EmpPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDuree() method.
+     * Tests setDuree()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -158,7 +158,7 @@ class EmpPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmployeRemplace() method.
+     * Tests setEmployeRemplace()
      *
      * @return void
      */
@@ -171,7 +171,7 @@ class EmpPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtat() method.
+     * Tests setEtat()
      *
      * @return void
      */
@@ -184,7 +184,7 @@ class EmpPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHNuitType2() method.
+     * Tests setHNuitType2()
      *
      * @return void
      */
@@ -197,7 +197,7 @@ class EmpPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHeureDeb() method.
+     * Tests setHeureDeb()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -214,7 +214,7 @@ class EmpPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJfType2() method.
+     * Tests setJfType2()
      *
      * @return void
      */
@@ -227,7 +227,7 @@ class EmpPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbChambres() method.
+     * Tests setNbChambres()
      *
      * @return void
      */
@@ -240,7 +240,7 @@ class EmpPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNoteMemo() method.
+     * Tests setNoteMemo()
      *
      * @return void
      */
@@ -253,7 +253,7 @@ class EmpPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumChrono() method.
+     * Tests setNumChrono()
      *
      * @return void
      */
@@ -266,7 +266,7 @@ class EmpPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPointage() method.
+     * Tests setPointage()
      *
      * @return void
      */
@@ -279,7 +279,7 @@ class EmpPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniqId() method.
+     * Tests setUniqId()
      *
      * @return void
      */
@@ -292,7 +292,7 @@ class EmpPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniqIdPlanning() method.
+     * Tests setUniqIdPlanning()
      *
      * @return void
      */
@@ -305,7 +305,7 @@ class EmpPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniqIdSynchro() method.
+     * Tests setUniqIdSynchro()
      *
      * @return void
      */
@@ -318,7 +318,7 @@ class EmpPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class iCollaborateursSitesTest extends AbstractTestCase {
 
     /**
-     * Tests the setAdresseIp() method.
+     * Tests setAdresseIp()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class iCollaborateursSitesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollab() method.
+     * Tests setCodeCollab()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class iCollaborateursSitesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDossier() method.
+     * Tests setDossier()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class iCollaborateursSitesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRestrCliAssist1() method.
+     * Tests setRestrCliAssist1()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class iCollaborateursSitesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRestrCliAssist2() method.
+     * Tests setRestrCliAssist2()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class iCollaborateursSitesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRestrCliAutre1() method.
+     * Tests setRestrCliAutre1()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class iCollaborateursSitesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRestrCliAutre2() method.
+     * Tests setRestrCliAutre2()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class iCollaborateursSitesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRestrCliCollab() method.
+     * Tests setRestrCliCollab()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class iCollaborateursSitesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRestrCliExpert() method.
+     * Tests setRestrCliExpert()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class iCollaborateursSitesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRestrCliPortef() method.
+     * Tests setRestrCliPortef()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class iCollaborateursSitesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

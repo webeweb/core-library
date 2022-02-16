@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LignesMsaPenibiliteTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeEtablissement() method.
+     * Tests setCodeEtablissement()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRisque1() method.
+     * Tests setCodeRisque1()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRisque10() method.
+     * Tests setCodeRisque10()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRisque2() method.
+     * Tests setCodeRisque2()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRisque3() method.
+     * Tests setCodeRisque3()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRisque4() method.
+     * Tests setCodeRisque4()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRisque5() method.
+     * Tests setCodeRisque5()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRisque6() method.
+     * Tests setCodeRisque6()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRisque7() method.
+     * Tests setCodeRisque7()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRisque8() method.
+     * Tests setCodeRisque8()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRisque9() method.
+     * Tests setCodeRisque9()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeUnite() method.
+     * Tests setCodeUnite()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDtDebPenibilite() method.
+     * Tests setDtDebPenibilite()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -198,7 +198,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDtDebPer() method.
+     * Tests setDtDebPer()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -215,7 +215,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDtFinPenibilite() method.
+     * Tests setDtFinPenibilite()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -232,7 +232,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDtFinPer() method.
+     * Tests setDtFinPer()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -249,7 +249,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -262,7 +262,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeDecla() method.
+     * Tests setPeriodeDecla()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -279,7 +279,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

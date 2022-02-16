@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class SuiviCompteParticulierTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeJournal() method.
+     * Tests setCodeJournal()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class SuiviCompteParticulierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeLettrage() method.
+     * Tests setCodeLettrage()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class SuiviCompteParticulierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeLibelleAuto() method.
+     * Tests setCodeLibelleAuto()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class SuiviCompteParticulierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeOperateur() method.
+     * Tests setCodeOperateur()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class SuiviCompteParticulierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateOperation() method.
+     * Tests setDateOperation()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -94,7 +94,7 @@ class SuiviCompteParticulierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFolio() method.
+     * Tests setFolio()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class SuiviCompteParticulierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJourEcriture() method.
+     * Tests setJourEcriture()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class SuiviCompteParticulierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle() method.
+     * Tests setLibelle()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class SuiviCompteParticulierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLigneFolio() method.
+     * Tests setLigneFolio()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class SuiviCompteParticulierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantTenuCredit() method.
+     * Tests setMontantTenuCredit()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class SuiviCompteParticulierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantTenuDebit() method.
+     * Tests setMontantTenuDebit()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class SuiviCompteParticulierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumUniq() method.
+     * Tests setNumUniq()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class SuiviCompteParticulierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroCompte() method.
+     * Tests setNumeroCompte()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class SuiviCompteParticulierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroPiece() method.
+     * Tests setNumeroPiece()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class SuiviCompteParticulierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeEcriture() method.
+     * Tests setPeriodeEcriture()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -228,7 +228,7 @@ class SuiviCompteParticulierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeLigne() method.
+     * Tests setTypeLigne()
      *
      * @return void
      */
@@ -241,7 +241,7 @@ class SuiviCompteParticulierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeOperation() method.
+     * Tests setTypeOperation()
      *
      * @return void
      */
@@ -254,7 +254,7 @@ class SuiviCompteParticulierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

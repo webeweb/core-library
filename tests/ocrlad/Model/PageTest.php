@@ -24,7 +24,7 @@ use WBW\Library\OcrLad\Tests\AbstractTestCase;
 class PageTest extends AbstractTestCase {
 
     /**
-     * Tests the setParent() method.
+     * Tests setParent()
      *
      * @return void
      */
@@ -40,7 +40,7 @@ class PageTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setResolution() method.
+     * Tests setResolution()
      *
      * @return void
      */
@@ -53,7 +53,7 @@ class PageTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRotation() method.
+     * Tests setRotation()
      *
      * @return void
      */
@@ -66,7 +66,7 @@ class PageTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTag() method.
+     * Tests setTag()
      *
      * @return void
      */
@@ -79,7 +79,7 @@ class PageTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

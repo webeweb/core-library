@@ -23,7 +23,7 @@ use WBW\Library\Types\Tests\AbstractTestCase;
 class IntegerArgumentExceptionTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

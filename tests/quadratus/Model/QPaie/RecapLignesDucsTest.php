@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class RecapLignesDucsTest extends AbstractTestCase {
 
     /**
-     * Tests the setAEditerDucs() method.
+     * Tests setAEditerDucs()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAcompte() method.
+     * Tests setAcompte()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setArrondiBase() method.
+     * Tests setArrondiBase()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setArrondiCotis() method.
+     * Tests setArrondiCotis()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCentre() method.
+     * Tests setCodeCentre()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEtablissement() method.
+     * Tests setCodeEtablissement()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateReglement() method.
+     * Tests setDateReglement()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateVerseSalaire() method.
+     * Tests setDateVerseSalaire()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -137,7 +137,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDucsEuro() method.
+     * Tests setDucsEuro()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEffectifInscrit() method.
+     * Tests setEffectifInscrit()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEffectifPaye() method.
+     * Tests setEffectifPaye()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFinPer() method.
+     * Tests setFinPer()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -193,7 +193,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGrandDecalage() method.
+     * Tests setGrandDecalage()
      *
      * @return void
      */
@@ -206,7 +206,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLienDocument() method.
+     * Tests setLienDocument()
      *
      * @return void
      */
@@ -219,7 +219,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantTotal() method.
+     * Tests setMontantTotal()
      *
      * @return void
      */
@@ -232,7 +232,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMotifEcartEff() method.
+     * Tests setMotifEcartEff()
      *
      * @return void
      */
@@ -245,7 +245,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbAutres() method.
+     * Tests setNbAutres()
      *
      * @return void
      */
@@ -258,7 +258,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbFemmes() method.
+     * Tests setNbFemmes()
      *
      * @return void
      */
@@ -271,7 +271,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbFinContrat() method.
+     * Tests setNbFinContrat()
      *
      * @return void
      */
@@ -284,7 +284,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHommes() method.
+     * Tests setNbHommes()
      *
      * @return void
      */
@@ -297,7 +297,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNoAffiliation() method.
+     * Tests setNoAffiliation()
      *
      * @return void
      */
@@ -310,7 +310,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOrganisme() method.
+     * Tests setOrganisme()
      *
      * @return void
      */
@@ -323,7 +323,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPaieDecalee() method.
+     * Tests setPaieDecalee()
      *
      * @return void
      */
@@ -336,7 +336,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPerDebCice() method.
+     * Tests setPerDebCice()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -353,7 +353,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPerFinCice() method.
+     * Tests setPerFinCice()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -370,7 +370,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriode() method.
+     * Tests setPeriode()
      *
      * @return void
      */
@@ -383,7 +383,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeDecla() method.
+     * Tests setPeriodeDecla()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -400,7 +400,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPetitDecalage() method.
+     * Tests setPetitDecalage()
      *
      * @return void
      */
@@ -413,7 +413,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPremMois() method.
+     * Tests setPremMois()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -430,7 +430,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRaisonSociale() method.
+     * Tests setRaisonSociale()
      *
      * @return void
      */
@@ -443,7 +443,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRegulDucs() method.
+     * Tests setRegulDucs()
      *
      * @return void
      */
@@ -456,7 +456,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRib() method.
+     * Tests setRib()
      *
      * @return void
      */
@@ -469,7 +469,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSousTypeOrganisme() method.
+     * Tests setSousTypeOrganisme()
      *
      * @return void
      */
@@ -482,7 +482,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTraiterEdi() method.
+     * Tests setTraiterEdi()
      *
      * @return void
      */
@@ -495,7 +495,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeOrganisme() method.
+     * Tests setTypeOrganisme()
      *
      * @return void
      */
@@ -508,7 +508,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

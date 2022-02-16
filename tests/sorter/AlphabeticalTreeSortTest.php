@@ -41,7 +41,7 @@ class AlphabeticalTreeSortTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the sort() method.
+     * Tests sort()
      *
      * @return void
      */

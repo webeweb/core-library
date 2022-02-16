@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AnnexeSuiteTest extends AbstractTestCase {
 
     /**
-     * Tests the setCode1() method.
+     * Tests setCode1()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class AnnexeSuiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCode2() method.
+     * Tests setCode2()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class AnnexeSuiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCritereLibre1() method.
+     * Tests setCritereLibre1()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class AnnexeSuiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCritereLibre2() method.
+     * Tests setCritereLibre2()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class AnnexeSuiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDestRelance() method.
+     * Tests setDestRelance()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class AnnexeSuiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFax() method.
+     * Tests setFax()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class AnnexeSuiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumero() method.
+     * Tests setNumero()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class AnnexeSuiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrenom() method.
+     * Tests setPrenom()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class AnnexeSuiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemarquesRtf() method.
+     * Tests setRemarquesRtf()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class AnnexeSuiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setService() method.
+     * Tests setService()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class AnnexeSuiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setType() method.
+     * Tests setType()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class AnnexeSuiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

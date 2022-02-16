@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LogicielsTest extends AbstractTestCase {
 
     /**
-     * Tests the setCategorie() method.
+     * Tests setCategorie()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class LogicielsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class LogicielsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeIntervenant() method.
+     * Tests setCodeIntervenant()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class LogicielsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCommentaire() method.
+     * Tests setCommentaire()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class LogicielsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateAchat() method.
+     * Tests setDateAchat()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -94,7 +94,7 @@ class LogicielsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateFinMaint() method.
+     * Tests setDateFinMaint()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -111,7 +111,7 @@ class LogicielsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndiceAff() method.
+     * Tests setIndiceAff()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class LogicielsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMaintenance() method.
+     * Tests setMaintenance()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class LogicielsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantMaint() method.
+     * Tests setMontantMaint()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class LogicielsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomLogiciel() method.
+     * Tests setNomLogiciel()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class LogicielsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLicence() method.
+     * Tests setNumLicence()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class LogicielsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRefImage() method.
+     * Tests setRefImage()
      *
      * @return void
      */
@@ -189,7 +189,7 @@ class LogicielsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSousCategorie() method.
+     * Tests setSousCategorie()
      *
      * @return void
      */
@@ -202,7 +202,7 @@ class LogicielsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

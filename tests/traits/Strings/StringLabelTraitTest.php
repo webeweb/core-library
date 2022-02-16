@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringLabelTrait;
 class StringLabelTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setLabel() method.
+     * Tests setLabel()
      *
      * @return void
      */

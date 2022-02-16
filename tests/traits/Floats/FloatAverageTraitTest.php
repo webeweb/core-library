@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Floats\TestFloatAverageTrait;
 class FloatAverageTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setAverage() method.
+     * Tests setAverage()
      *
      * @return void
      */

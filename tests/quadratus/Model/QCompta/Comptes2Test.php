@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class Comptes2Test extends AbstractTestCase {
 
     /**
-     * Tests the setAffacturage() method.
+     * Tests setAffacturage()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBic() method.
+     * Tests setBic()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBtq() method.
+     * Tests setBtq()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBureauDistributeur() method.
+     * Tests setBureauDistributeur()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeOfficielCommune() method.
+     * Tests setCodeOfficielCommune()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePostal() method.
+     * Tests setCodePostal()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setComplement() method.
+     * Tests setComplement()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setComplementSuite() method.
+     * Tests setComplementSuite()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setContrepartieAuto() method.
+     * Tests setContrepartieAuto()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCptFourAffacturage() method.
+     * Tests setCptFourAffacturage()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCptOrigine() method.
+     * Tests setCptOrigine()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDomBanque() method.
+     * Tests setDomBanque()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDomBanque2() method.
+     * Tests setDomBanque2()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDomBanque3() method.
+     * Tests setDomBanque3()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEcheanceFinDecade() method.
+     * Tests setEcheanceFinDecade()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEcheanceFinQuinzaine() method.
+     * Tests setEcheanceFinQuinzaine()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmail() method.
+     * Tests setEmail()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFax() method.
+     * Tests setFax()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIban() method.
+     * Tests setIban()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIbanCodeImputFrais() method.
+     * Tests setIbanCodeImputFrais()
      *
      * @return void
      */
@@ -283,7 +283,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIdentTva() method.
+     * Tests setIdentTva()
      *
      * @return void
      */
@@ -296,7 +296,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJourDepartEcheance() method.
+     * Tests setJourDepartEcheance()
      *
      * @return void
      */
@@ -309,7 +309,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setModePaiement() method.
+     * Tests setModePaiement()
      *
      * @return void
      */
@@ -322,7 +322,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJoursEcheance() method.
+     * Tests setNbJoursEcheance()
      *
      * @return void
      */
@@ -335,7 +335,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNiveauRelance() method.
+     * Tests setNiveauRelance()
      *
      * @return void
      */
@@ -348,7 +348,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomVille() method.
+     * Tests setNomVille()
      *
      * @return void
      */
@@ -361,7 +361,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomVoie() method.
+     * Tests setNomVoie()
      *
      * @return void
      */
@@ -374,7 +374,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumCptStock() method.
+     * Tests setNumCptStock()
      *
      * @return void
      */
@@ -387,7 +387,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumMandat() method.
+     * Tests setNumMandat()
      *
      * @return void
      */
@@ -400,7 +400,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumVoie() method.
+     * Tests setNumVoie()
      *
      * @return void
      */
@@ -413,7 +413,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroCompte() method.
+     * Tests setNumeroCompte()
      *
      * @return void
      */
@@ -426,7 +426,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPays() method.
+     * Tests setPays()
      *
      * @return void
      */
@@ -439,7 +439,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProfession() method.
+     * Tests setProfession()
      *
      * @return void
      */
@@ -452,7 +452,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRib() method.
+     * Tests setRib()
      *
      * @return void
      */
@@ -465,7 +465,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRib2() method.
+     * Tests setRib2()
      *
      * @return void
      */
@@ -478,7 +478,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRib3() method.
+     * Tests setRib3()
      *
      * @return void
      */
@@ -491,7 +491,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSiret() method.
+     * Tests setSiret()
      *
      * @return void
      */
@@ -504,7 +504,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSuiviStock() method.
+     * Tests setSuiviStock()
      *
      * @return void
      */
@@ -517,7 +517,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTel1() method.
+     * Tests setTel1()
      *
      * @return void
      */
@@ -530,7 +530,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTel2() method.
+     * Tests setTel2()
      *
      * @return void
      */
@@ -543,7 +543,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTermeEcheanceLe() method.
+     * Tests setTermeEcheanceLe()
      *
      * @return void
      */
@@ -556,7 +556,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeSuivi() method.
+     * Tests setTypeSuivi()
      *
      * @return void
      */
@@ -569,7 +569,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setZipCode() method.
+     * Tests setZipCode()
      *
      * @return void
      */
@@ -582,7 +582,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

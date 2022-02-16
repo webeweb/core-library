@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class PointageReglementsLignesTest extends AbstractTestCase {
 
     /**
-     * Tests the setMontantPointe() method.
+     * Tests setMontantPointe()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class PointageReglementsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumCptPayeur() method.
+     * Tests setNumCptPayeur()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class PointageReglementsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumDoss() method.
+     * Tests setNumDoss()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class PointageReglementsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLigne() method.
+     * Tests setNumLigne()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class PointageReglementsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumUniqEcr() method.
+     * Tests setNumUniqEcr()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class PointageReglementsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroCompte() method.
+     * Tests setNumeroCompte()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class PointageReglementsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

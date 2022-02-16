@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EmpRecapCodePenibiliteTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodePenibilite() method.
+     * Tests setCodePenibilite()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class EmpRecapCodePenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIdRecap() method.
+     * Tests setIdRecap()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class EmpRecapCodePenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroOrdre() method.
+     * Tests setNumeroOrdre()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class EmpRecapCodePenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

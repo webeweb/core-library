@@ -26,7 +26,7 @@ use WBW\Library\Types\Tests\AbstractTestCase;
 class FloatHelperTest extends AbstractTestCase {
 
     /**
-     * Tests the calcPercent() method.
+     * Tests calcPercent()
      *
      * @return void
      */
@@ -41,7 +41,7 @@ class FloatHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the calcPercent() method.
+     * Tests calcPercent()
      *
      * @return void
      */
@@ -58,7 +58,7 @@ class FloatHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the parseString() method.
+     * Tests parseString()
      *
      * @return void
      */
@@ -74,7 +74,7 @@ class FloatHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the parseString() method.
+     * Tests parseString()
      *
      * @return void
      */

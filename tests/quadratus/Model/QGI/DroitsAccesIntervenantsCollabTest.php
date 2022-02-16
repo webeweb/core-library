@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DroitsAccesIntervenantsCollabTest extends AbstractTestCase {
 
     /**
-     * Tests the setAccesLibre() method.
+     * Tests setAccesLibre()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class DroitsAccesIntervenantsCollabTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaborateur() method.
+     * Tests setCodeCollaborateur()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class DroitsAccesIntervenantsCollabTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeIntervenant() method.
+     * Tests setTypeIntervenant()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class DroitsAccesIntervenantsCollabTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

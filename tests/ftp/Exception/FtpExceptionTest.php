@@ -23,7 +23,7 @@ use WBW\Library\Ftp\Tests\AbstractTestCase;
 class FtpExceptionTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

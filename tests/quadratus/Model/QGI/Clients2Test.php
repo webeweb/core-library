@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class Clients2Test extends AbstractTestCase {
 
     /**
-     * Tests the setAllotissement() method.
+     * Tests setAllotissement()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBlMail() method.
+     * Tests setBlMail()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCdesMail() method.
+     * Tests setCdesMail()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeActiviteCga() method.
+     * Tests setCodeActiviteCga()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTransporteur1() method.
+     * Tests setCodeTransporteur1()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTransporteur2() method.
+     * Tests setCodeTransporteur2()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTransporteur3() method.
+     * Tests setCodeTransporteur3()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTransporteur4() method.
+     * Tests setCodeTransporteur4()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTransporteur5() method.
+     * Tests setCodeTransporteur5()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateDebExePublication() method.
+     * Tests setDateDebExePublication()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -172,7 +172,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDelaiLivraison() method.
+     * Tests setDelaiLivraison()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDevisMail() method.
+     * Tests setDevisMail()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEanClient() method.
+     * Tests setEanClient()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEanFacturePapier() method.
+     * Tests setEanFacturePapier()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEanPlateforme() method.
+     * Tests setEanPlateforme()
      *
      * @return void
      */
@@ -237,7 +237,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEcheanceFinDecade() method.
+     * Tests setEcheanceFinDecade()
      *
      * @return void
      */
@@ -250,7 +250,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEcheanceFinQuinzaine() method.
+     * Tests setEcheanceFinQuinzaine()
      *
      * @return void
      */
@@ -263,7 +263,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEdiExportBl() method.
+     * Tests setEdiExportBl()
      *
      * @return void
      */
@@ -276,7 +276,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEdiExportFac() method.
+     * Tests setEdiExportFac()
      *
      * @return void
      */
@@ -289,7 +289,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFactComplementSuite() method.
+     * Tests setFactComplementSuite()
      *
      * @return void
      */
@@ -302,7 +302,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFactZipCode() method.
+     * Tests setFactZipCode()
      *
      * @return void
      */
@@ -315,7 +315,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndMailPublication() method.
+     * Tests setIndMailPublication()
      *
      * @return void
      */
@@ -328,7 +328,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndiceBlMail() method.
+     * Tests setIndiceBlMail()
      *
      * @return void
      */
@@ -341,7 +341,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndiceCdesMail() method.
+     * Tests setIndiceCdesMail()
      *
      * @return void
      */
@@ -354,7 +354,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndiceDevisMail() method.
+     * Tests setIndiceDevisMail()
      *
      * @return void
      */
@@ -367,7 +367,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndiceRelevesMail() method.
+     * Tests setIndiceRelevesMail()
      *
      * @return void
      */
@@ -380,7 +380,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLettreDeMissionDateSignature() method.
+     * Tests setLettreDeMissionDateSignature()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -397,7 +397,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setModeleFactureManuelleSpe() method.
+     * Tests setModeleFactureManuelleSpe()
      *
      * @return void
      */
@@ -410,7 +410,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantDepassementAutorise() method.
+     * Tests setMontantDepassementAutorise()
      *
      * @return void
      */
@@ -423,7 +423,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMotifEntree() method.
+     * Tests setMotifEntree()
      *
      * @return void
      */
@@ -436,7 +436,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMotifSortie() method.
+     * Tests setMotifSortie()
      *
      * @return void
      */
@@ -449,7 +449,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtTransport1() method.
+     * Tests setMtTransport1()
      *
      * @return void
      */
@@ -462,7 +462,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtTransport2() method.
+     * Tests setMtTransport2()
      *
      * @return void
      */
@@ -475,7 +475,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtTransport3() method.
+     * Tests setMtTransport3()
      *
      * @return void
      */
@@ -488,7 +488,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtTransport4() method.
+     * Tests setMtTransport4()
      *
      * @return void
      */
@@ -501,7 +501,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtTransport5() method.
+     * Tests setMtTransport5()
      *
      * @return void
      */
@@ -514,7 +514,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNonConcerneIs() method.
+     * Tests setNonConcerneIs()
      *
      * @return void
      */
@@ -527,7 +527,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNonConcerneTp() method.
+     * Tests setNonConcerneTp()
      *
      * @return void
      */
@@ -540,7 +540,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNonFacturable() method.
+     * Tests setNonFacturable()
      *
      * @return void
      */
@@ -553,7 +553,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPmeTarifOuRemSpe() method.
+     * Tests setPmeTarifOuRemSpe()
      *
      * @return void
      */
@@ -566,7 +566,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrevenirMailPublier() method.
+     * Tests setPrevenirMailPublier()
      *
      * @return void
      */
@@ -579,7 +579,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRelevesMail() method.
+     * Tests setRelevesMail()
      *
      * @return void
      */
@@ -592,7 +592,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSocialComplementSuite() method.
+     * Tests setSocialComplementSuite()
      *
      * @return void
      */
@@ -605,7 +605,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSocialZipCode() method.
+     * Tests setSocialZipCode()
      *
      * @return void
      */
@@ -618,7 +618,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrsArtPied() method.
+     * Tests setTrsArtPied()
      *
      * @return void
      */
@@ -631,7 +631,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrsArtPied2() method.
+     * Tests setTrsArtPied2()
      *
      * @return void
      */
@@ -644,7 +644,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrsCategMarch() method.
+     * Tests setTrsCategMarch()
      *
      * @return void
      */
@@ -657,7 +657,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrsCentreAna() method.
+     * Tests setTrsCentreAna()
      *
      * @return void
      */
@@ -670,7 +670,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrsCodeTarif1() method.
+     * Tests setTrsCodeTarif1()
      *
      * @return void
      */
@@ -683,7 +683,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrsCodeTarif1Sens() method.
+     * Tests setTrsCodeTarif1Sens()
      *
      * @return void
      */
@@ -696,7 +696,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrsCodeTarif2() method.
+     * Tests setTrsCodeTarif2()
      *
      * @return void
      */
@@ -709,7 +709,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrsCodeTarif2Sens() method.
+     * Tests setTrsCodeTarif2Sens()
      *
      * @return void
      */
@@ -722,7 +722,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrsCodeTarif3() method.
+     * Tests setTrsCodeTarif3()
      *
      * @return void
      */
@@ -735,7 +735,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrsCodeTarif3Sens() method.
+     * Tests setTrsCodeTarif3Sens()
      *
      * @return void
      */
@@ -748,7 +748,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrsCodeTarif4() method.
+     * Tests setTrsCodeTarif4()
      *
      * @return void
      */
@@ -761,7 +761,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrsCodeTarif4Sens() method.
+     * Tests setTrsCodeTarif4Sens()
      *
      * @return void
      */
@@ -774,7 +774,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrsCodeTarif5() method.
+     * Tests setTrsCodeTarif5()
      *
      * @return void
      */
@@ -787,7 +787,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrsCodeTarif5Sens() method.
+     * Tests setTrsCodeTarif5Sens()
      *
      * @return void
      */
@@ -800,7 +800,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrsCodeTarif6() method.
+     * Tests setTrsCodeTarif6()
      *
      * @return void
      */
@@ -813,7 +813,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrsCodeTarif6Sens() method.
+     * Tests setTrsCodeTarif6Sens()
      *
      * @return void
      */
@@ -826,7 +826,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrsCodeTarifDef() method.
+     * Tests setTrsCodeTarifDef()
      *
      * @return void
      */
@@ -839,7 +839,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrsComment1() method.
+     * Tests setTrsComment1()
      *
      * @return void
      */
@@ -852,7 +852,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrsComment2() method.
+     * Tests setTrsComment2()
      *
      * @return void
      */
@@ -865,7 +865,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrsComment3() method.
+     * Tests setTrsComment3()
      *
      * @return void
      */
@@ -878,7 +878,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrsComment4() method.
+     * Tests setTrsComment4()
      *
      * @return void
      */
@@ -891,7 +891,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrsComment5() method.
+     * Tests setTrsComment5()
      *
      * @return void
      */
@@ -904,7 +904,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrsComment6() method.
+     * Tests setTrsComment6()
      *
      * @return void
      */
@@ -917,7 +917,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrsComment7() method.
+     * Tests setTrsComment7()
      *
      * @return void
      */
@@ -930,7 +930,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrsComment8() method.
+     * Tests setTrsComment8()
      *
      * @return void
      */
@@ -943,7 +943,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrsComment9() method.
+     * Tests setTrsComment9()
      *
      * @return void
      */
@@ -956,7 +956,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrsConsignes1() method.
+     * Tests setTrsConsignes1()
      *
      * @return void
      */
@@ -969,7 +969,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrsConsignes2() method.
+     * Tests setTrsConsignes2()
      *
      * @return void
      */
@@ -982,7 +982,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrsConsignes3() method.
+     * Tests setTrsConsignes3()
      *
      * @return void
      */
@@ -995,7 +995,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrsGestionPalettes() method.
+     * Tests setTrsGestionPalettes()
      *
      * @return void
      */
@@ -1008,7 +1008,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrsMarchandiseSensible() method.
+     * Tests setTrsMarchandiseSensible()
      *
      * @return void
      */
@@ -1021,7 +1021,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrsModeleFactureSpe() method.
+     * Tests setTrsModeleFactureSpe()
      *
      * @return void
      */
@@ -1034,7 +1034,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrsPoidsMiniPal() method.
+     * Tests setTrsPoidsMiniPal()
      *
      * @return void
      */
@@ -1047,7 +1047,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrsPortDuAuto() method.
+     * Tests setTrsPortDuAuto()
      *
      * @return void
      */
@@ -1060,7 +1060,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrsSuiviCaMens() method.
+     * Tests setTrsSuiviCaMens()
      *
      * @return void
      */
@@ -1073,7 +1073,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrsSuiviDtEnl() method.
+     * Tests setTrsSuiviDtEnl()
      *
      * @return void
      */
@@ -1086,7 +1086,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrsSuiviDtLiv() method.
+     * Tests setTrsSuiviDtLiv()
      *
      * @return void
      */
@@ -1099,7 +1099,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrsSuiviDtLivFax() method.
+     * Tests setTrsSuiviDtLivFax()
      *
      * @return void
      */
@@ -1112,7 +1112,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrsSuiviDtLivMail() method.
+     * Tests setTrsSuiviDtLivMail()
      *
      * @return void
      */
@@ -1125,7 +1125,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrsTypeClient() method.
+     * Tests setTrsTypeClient()
      *
      * @return void
      */
@@ -1138,7 +1138,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrsTypeFacturation() method.
+     * Tests setTrsTypeFacturation()
      *
      * @return void
      */
@@ -1151,7 +1151,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrsTypeTravail() method.
+     * Tests setTrsTypeTravail()
      *
      * @return void
      */
@@ -1164,7 +1164,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeTransport1() method.
+     * Tests setTypeTransport1()
      *
      * @return void
      */
@@ -1177,7 +1177,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeTransport2() method.
+     * Tests setTypeTransport2()
      *
      * @return void
      */
@@ -1190,7 +1190,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeTransport3() method.
+     * Tests setTypeTransport3()
      *
      * @return void
      */
@@ -1203,7 +1203,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeTransport4() method.
+     * Tests setTypeTransport4()
      *
      * @return void
      */
@@ -1216,7 +1216,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeTransport5() method.
+     * Tests setTypeTransport5()
      *
      * @return void
      */
@@ -1229,7 +1229,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setlocalisationArchives() method.
+     * Tests setlocalisationArchives()
      *
      * @return void
      */
@@ -1242,7 +1242,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

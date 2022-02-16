@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class HSupTepaBulTest extends AbstractTestCase {
 
     /**
-     * Tests the setIndicePeriode() method.
+     * Tests setIndicePeriode()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class HSupTepaBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtBrutExo() method.
+     * Tests setMtBrutExo()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class HSupTepaBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtBrutExoAbat() method.
+     * Tests setMtBrutExoAbat()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class HSupTepaBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJhExo() method.
+     * Tests setNbJhExo()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class HSupTepaBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLigne() method.
+     * Tests setNumLigne()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class HSupTepaBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class HSupTepaBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriode() method.
+     * Tests setPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class HSupTepaBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPourcentMajo() method.
+     * Tests setPourcentMajo()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class HSupTepaBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeExo() method.
+     * Tests setTypeExo()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class HSupTepaBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

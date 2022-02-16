@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class SubventionsTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeCentre() method.
+     * Tests setCodeCentre()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class SubventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCoeffDegressif() method.
+     * Tests setCoeffDegressif()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class SubventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDate() method.
+     * Tests setDate()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class SubventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateCession() method.
+     * Tests setDateCession()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -85,7 +85,7 @@ class SubventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateMiseEnService() method.
+     * Tests setDateMiseEnService()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -102,7 +102,7 @@ class SubventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDuree() method.
+     * Tests setDuree()
      *
      * @return void
      */
@@ -115,7 +115,7 @@ class SubventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setImmoNumero() method.
+     * Tests setImmoNumero()
      *
      * @return void
      */
@@ -128,7 +128,7 @@ class SubventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setImmoNumeroCompte() method.
+     * Tests setImmoNumeroCompte()
      *
      * @return void
      */
@@ -141,7 +141,7 @@ class SubventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setImmoNumeroDeux() method.
+     * Tests setImmoNumeroDeux()
      *
      * @return void
      */
@@ -154,7 +154,7 @@ class SubventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle() method.
+     * Tests setLibelle()
      *
      * @return void
      */
@@ -167,7 +167,7 @@ class SubventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontant() method.
+     * Tests setMontant()
      *
      * @return void
      */
@@ -180,7 +180,7 @@ class SubventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumContrat() method.
+     * Tests setNumContrat()
      *
      * @return void
      */
@@ -193,7 +193,7 @@ class SubventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumCptSubvention() method.
+     * Tests setNumCptSubvention()
      *
      * @return void
      */
@@ -206,7 +206,7 @@ class SubventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroPj() method.
+     * Tests setNumeroPj()
      *
      * @return void
      */
@@ -219,7 +219,7 @@ class SubventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxLineaire() method.
+     * Tests setTauxLineaire()
      *
      * @return void
      */
@@ -232,7 +232,7 @@ class SubventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeAmort() method.
+     * Tests setTypeAmort()
      *
      * @return void
      */
@@ -245,7 +245,7 @@ class SubventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

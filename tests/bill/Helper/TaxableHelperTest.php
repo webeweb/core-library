@@ -25,7 +25,7 @@ use WBW\Library\Bill\Tests\Fixtures\Model\TestTaxable;
 class TaxableHelperTest extends AbstractTestCase {
 
     /**
-     * Tests the calcDiscountAmount() method.
+     * Tests calcDiscountAmount()
      *
      * @return void
      */
@@ -44,7 +44,7 @@ class TaxableHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the calcExcludingVatPrice() method.
+     * Tests calcExcludingVatPrice()
      *
      * @return void
      */
@@ -66,7 +66,7 @@ class TaxableHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the calcIncludingVatPrice() method.
+     * Tests calcIncludingVatPrice()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class TaxableHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the calcVatAmount() method.
+     * Tests calcVatAmount()
      *
      * @return void
      */
@@ -110,7 +110,7 @@ class TaxableHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the getDiscountRatio() method.
+     * Tests getDiscountRatio()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class TaxableHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the getVatRatio() method.
+     * Tests getVatRatio()
      *
      * @return void
      */

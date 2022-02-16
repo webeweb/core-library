@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AgendaConstantesTest extends AbstractTestCase {
 
     /**
-     * Tests the setArchivagePermanent() method.
+     * Tests setArchivagePermanent()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeActivite7() method.
+     * Tests setCodeActivite7()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeActivite8() method.
+     * Tests setCodeActivite8()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeActivite9() method.
+     * Tests setCodeActivite9()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCouleurActivite1() method.
+     * Tests setCouleurActivite1()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCouleurActivite10() method.
+     * Tests setCouleurActivite10()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCouleurActivite11() method.
+     * Tests setCouleurActivite11()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCouleurActivite2() method.
+     * Tests setCouleurActivite2()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCouleurActivite3() method.
+     * Tests setCouleurActivite3()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCouleurActivite4() method.
+     * Tests setCouleurActivite4()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCouleurActivite5() method.
+     * Tests setCouleurActivite5()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCouleurActivite6() method.
+     * Tests setCouleurActivite6()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCouleurActivite7() method.
+     * Tests setCouleurActivite7()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCouleurActivite8() method.
+     * Tests setCouleurActivite8()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCouleurActivite9() method.
+     * Tests setCouleurActivite9()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCouleurCalendrier() method.
+     * Tests setCouleurCalendrier()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCouleurDimJFeries() method.
+     * Tests setCouleurDimJFeries()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDisabledActivityLabelOnFirstRow() method.
+     * Tests setDisabledActivityLabelOnFirstRow()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDossierFactPme() method.
+     * Tests setDossierFactPme()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHeureDebut() method.
+     * Tests setHeureDebut()
      *
      * @return void
      */
@@ -283,7 +283,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHeureFin() method.
+     * Tests setHeureFin()
      *
      * @return void
      */
@@ -296,7 +296,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelleActivite7() method.
+     * Tests setLibelleActivite7()
      *
      * @return void
      */
@@ -309,7 +309,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelleActivite8() method.
+     * Tests setLibelleActivite8()
      *
      * @return void
      */
@@ -322,7 +322,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelleActivite9() method.
+     * Tests setLibelleActivite9()
      *
      * @return void
      */
@@ -335,7 +335,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMultiDossiers() method.
+     * Tests setMultiDossiers()
      *
      * @return void
      */
@@ -348,7 +348,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTextColorActivite1() method.
+     * Tests setTextColorActivite1()
      *
      * @return void
      */
@@ -361,7 +361,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTextColorActivite10() method.
+     * Tests setTextColorActivite10()
      *
      * @return void
      */
@@ -374,7 +374,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTextColorActivite11() method.
+     * Tests setTextColorActivite11()
      *
      * @return void
      */
@@ -387,7 +387,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTextColorActivite2() method.
+     * Tests setTextColorActivite2()
      *
      * @return void
      */
@@ -400,7 +400,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTextColorActivite3() method.
+     * Tests setTextColorActivite3()
      *
      * @return void
      */
@@ -413,7 +413,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTextColorActivite4() method.
+     * Tests setTextColorActivite4()
      *
      * @return void
      */
@@ -426,7 +426,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTextColorActivite5() method.
+     * Tests setTextColorActivite5()
      *
      * @return void
      */
@@ -439,7 +439,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTextColorActivite6() method.
+     * Tests setTextColorActivite6()
      *
      * @return void
      */
@@ -452,7 +452,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTextColorActivite7() method.
+     * Tests setTextColorActivite7()
      *
      * @return void
      */
@@ -465,7 +465,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTextColorActivite8() method.
+     * Tests setTextColorActivite8()
      *
      * @return void
      */
@@ -478,7 +478,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTextColorActivite9() method.
+     * Tests setTextColorActivite9()
      *
      * @return void
      */
@@ -491,7 +491,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTextColorDimJFeries() method.
+     * Tests setTextColorDimJFeries()
      *
      * @return void
      */
@@ -504,7 +504,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUseNewGpeParam() method.
+     * Tests setUseNewGpeParam()
      *
      * @return void
      */
@@ -517,7 +517,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setWeekMode() method.
+     * Tests setWeekMode()
      *
      * @return void
      */
@@ -530,7 +530,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

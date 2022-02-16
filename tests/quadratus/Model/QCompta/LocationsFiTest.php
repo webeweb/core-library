@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LocationsFiTest extends AbstractTestCase {
 
     /**
-     * Tests the setBureau() method.
+     * Tests setBureau()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class LocationsFiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCentreAnalytique() method.
+     * Tests setCentreAnalytique()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class LocationsFiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeJournalEcheance() method.
+     * Tests setCodeJournalEcheance()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class LocationsFiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeJournalPaiement() method.
+     * Tests setCodeJournalPaiement()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class LocationsFiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTva() method.
+     * Tests setCodeTva()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class LocationsFiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteFrn() method.
+     * Tests setCompteFrn()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class LocationsFiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCptAssurance() method.
+     * Tests setCptAssurance()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class LocationsFiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCptCharge() method.
+     * Tests setCptCharge()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class LocationsFiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCptEntretien() method.
+     * Tests setCptEntretien()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class LocationsFiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCptTva() method.
+     * Tests setCptTva()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class LocationsFiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCptTvaAssu() method.
+     * Tests setCptTvaAssu()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class LocationsFiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateAcquisition() method.
+     * Tests setDateAcquisition()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -185,7 +185,7 @@ class LocationsFiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateFinContrat() method.
+     * Tests setDateFinContrat()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -202,7 +202,7 @@ class LocationsFiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateMiseService() method.
+     * Tests setDateMiseService()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -219,7 +219,7 @@ class LocationsFiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDin() method.
+     * Tests setDin()
      *
      * @return void
      */
@@ -232,7 +232,7 @@ class LocationsFiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGuidVehicule() method.
+     * Tests setGuidVehicule()
      *
      * @return void
      */
@@ -245,7 +245,7 @@ class LocationsFiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle() method.
+     * Tests setLibelle()
      *
      * @return void
      */
@@ -258,7 +258,7 @@ class LocationsFiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelleFrn() method.
+     * Tests setLibelleFrn()
      *
      * @return void
      */
@@ -271,7 +271,7 @@ class LocationsFiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMateriauxAgricole() method.
+     * Tests setMateriauxAgricole()
      *
      * @return void
      */
@@ -284,7 +284,7 @@ class LocationsFiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantTva() method.
+     * Tests setMontantTva()
      *
      * @return void
      */
@@ -297,7 +297,7 @@ class LocationsFiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumero() method.
+     * Tests setNumero()
      *
      * @return void
      */
@@ -310,7 +310,7 @@ class LocationsFiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroCompte() method.
+     * Tests setNumeroCompte()
      *
      * @return void
      */
@@ -323,7 +323,7 @@ class LocationsFiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroPj() method.
+     * Tests setNumeroPj()
      *
      * @return void
      */
@@ -336,7 +336,7 @@ class LocationsFiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQuantite() method.
+     * Tests setQuantite()
      *
      * @return void
      */
@@ -349,7 +349,7 @@ class LocationsFiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setService() method.
+     * Tests setService()
      *
      * @return void
      */
@@ -362,7 +362,7 @@ class LocationsFiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTaxePro() method.
+     * Tests setTaxePro()
      *
      * @return void
      */
@@ -375,7 +375,7 @@ class LocationsFiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTpDuree() method.
+     * Tests setTpDuree()
      *
      * @return void
      */
@@ -388,7 +388,7 @@ class LocationsFiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTpEchoirEchu() method.
+     * Tests setTpEchoirEchu()
      *
      * @return void
      */
@@ -401,7 +401,7 @@ class LocationsFiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTpMoisAnnee() method.
+     * Tests setTpMoisAnnee()
      *
      * @return void
      */
@@ -414,7 +414,7 @@ class LocationsFiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTpMonttDepot() method.
+     * Tests setTpMonttDepot()
      *
      * @return void
      */
@@ -427,7 +427,7 @@ class LocationsFiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTpPeriodicite() method.
+     * Tests setTpPeriodicite()
      *
      * @return void
      */
@@ -440,7 +440,7 @@ class LocationsFiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTpPremierPaiement() method.
+     * Tests setTpPremierPaiement()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -457,7 +457,7 @@ class LocationsFiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setValeurHt() method.
+     * Tests setValeurHt()
      *
      * @return void
      */
@@ -470,7 +470,7 @@ class LocationsFiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setValeurLocative() method.
+     * Tests setValeurLocative()
      *
      * @return void
      */
@@ -483,7 +483,7 @@ class LocationsFiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

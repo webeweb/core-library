@@ -23,7 +23,7 @@ use WBW\Library\Database\Tests\AbstractTestCase;
 class PaginateHelperTest extends AbstractTestCase {
 
     /**
-     * Tests the getPageOffsetAndLimit() method.
+     * Tests getPageOffsetAndLimit()
      *
      * @return void
      */
@@ -45,7 +45,7 @@ class PaginateHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the getPagesCount() method.
+     * Tests getPagesCount()
      *
      * @return void
      */

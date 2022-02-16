@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DadsuPrevoyanceLignesContratTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeDelegGestion() method.
+     * Tests setCodeDelegGestion()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class DadsuPrevoyanceLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeLibelle() method.
+     * Tests setCodeLibelle()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class DadsuPrevoyanceLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeOption() method.
+     * Tests setCodeOption()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class DadsuPrevoyanceLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeOrganisme() method.
+     * Tests setCodeOrganisme()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class DadsuPrevoyanceLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePopulation() method.
+     * Tests setCodePopulation()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class DadsuPrevoyanceLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule() method.
+     * Tests setIntitule()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class DadsuPrevoyanceLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeAffectation() method.
+     * Tests setPeriodeAffectation()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class DadsuPrevoyanceLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQualificationFraisSante() method.
+     * Tests setQualificationFraisSante()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class DadsuPrevoyanceLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRefContrat() method.
+     * Tests setRefContrat()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class DadsuPrevoyanceLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeCotis() method.
+     * Tests setTypeCotis()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class DadsuPrevoyanceLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypePopulation() method.
+     * Tests setTypePopulation()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class DadsuPrevoyanceLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniteDateAncienBranche() method.
+     * Tests setUniteDateAncienBranche()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class DadsuPrevoyanceLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniteDateAncienCollege() method.
+     * Tests setUniteDateAncienCollege()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class DadsuPrevoyanceLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniteDateAncienPoste() method.
+     * Tests setUniteDateAncienPoste()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class DadsuPrevoyanceLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUnitePremDateEntree() method.
+     * Tests setUnitePremDateEntree()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class DadsuPrevoyanceLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setValeurCotis() method.
+     * Tests setValeurCotis()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class DadsuPrevoyanceLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setValeurCotisInitiale() method.
+     * Tests setValeurCotisInitiale()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class DadsuPrevoyanceLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

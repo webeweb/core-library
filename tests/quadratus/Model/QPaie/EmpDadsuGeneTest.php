@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EmpDadsuGeneTest extends AbstractTestCase {
 
     /**
-     * Tests the setAnciennBtp() method.
+     * Tests setAnciennBtp()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -42,7 +42,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAnnexe7Mutation() method.
+     * Tests setAnnexe7Mutation()
      *
      * @return void
      */
@@ -55,7 +55,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setApprentiEtam() method.
+     * Tests setApprentiEtam()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBenefAssedic() method.
+     * Tests setBenefAssedic()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBtqLieuTrav() method.
+     * Tests setBtqLieuTrav()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBureauDistributeurLieuTrav() method.
+     * Tests setBureauDistributeurLieuTrav()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCaisseCp() method.
+     * Tests setCodeCaisseCp()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCaract() method.
+     * Tests setCodeCaract()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCategSalPourcentAbat() method.
+     * Tests setCodeCategSalPourcentAbat()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClassBtp() method.
+     * Tests setCodeClassBtp()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeContratTrav() method.
+     * Tests setCodeContratTrav()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeConventionCol() method.
+     * Tests setCodeConventionCol()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeDistriEtranger() method.
+     * Tests setCodeDistriEtranger()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeExoTrav() method.
+     * Tests setCodeExoTrav()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeInseeLieuTrav() method.
+     * Tests setCodeInseeLieuTrav()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeIntitContratTrav() method.
+     * Tests setCodeIntitContratTrav()
      *
      * @return void
      */
@@ -237,7 +237,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeMetierBtp() method.
+     * Tests setCodeMetierBtp()
      *
      * @return void
      */
@@ -250,7 +250,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeOfficielCommuneLieuTrav() method.
+     * Tests setCodeOfficielCommuneLieuTrav()
      *
      * @return void
      */
@@ -263,7 +263,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePaysLieuTrav() method.
+     * Tests setCodePaysLieuTrav()
      *
      * @return void
      */
@@ -276,7 +276,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePostalLieuTrav() method.
+     * Tests setCodePostalLieuTrav()
      *
      * @return void
      */
@@ -289,7 +289,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRegimeAt() method.
+     * Tests setCodeRegimeAt()
      *
      * @return void
      */
@@ -302,7 +302,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRegimeBaseObl() method.
+     * Tests setCodeRegimeBaseObl()
      *
      * @return void
      */
@@ -315,7 +315,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRegimeVieillesse() method.
+     * Tests setCodeRegimeVieillesse()
      *
      * @return void
      */
@@ -328,7 +328,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRetraiteComplementaire() method.
+     * Tests setCodeRetraiteComplementaire()
      *
      * @return void
      */
@@ -341,7 +341,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeSituAdmin() method.
+     * Tests setCodeSituAdmin()
      *
      * @return void
      */
@@ -354,7 +354,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeStatutCateg() method.
+     * Tests setCodeStatutCateg()
      *
      * @return void
      */
@@ -367,7 +367,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeStatutCategRetraite() method.
+     * Tests setCodeStatutCategRetraite()
      *
      * @return void
      */
@@ -380,7 +380,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeStatutPro() method.
+     * Tests setCodeStatutPro()
      *
      * @return void
      */
@@ -393,7 +393,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTypeExo1() method.
+     * Tests setCodeTypeExo1()
      *
      * @return void
      */
@@ -406,7 +406,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTypeExo2() method.
+     * Tests setCodeTypeExo2()
      *
      * @return void
      */
@@ -419,7 +419,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTypeExo3() method.
+     * Tests setCodeTypeExo3()
      *
      * @return void
      */
@@ -432,7 +432,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeUniteTempsTravail() method.
+     * Tests setCodeUniteTempsTravail()
      *
      * @return void
      */
@@ -445,7 +445,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeZoneGeo() method.
+     * Tests setCodeZoneGeo()
      *
      * @return void
      */
@@ -458,7 +458,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setComplementLieuTrav() method.
+     * Tests setComplementLieuTrav()
      *
      * @return void
      */
@@ -471,7 +471,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateRachat() method.
+     * Tests setDateRachat()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -488,7 +488,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDetacheExpatrie() method.
+     * Tests setDetacheExpatrie()
      *
      * @return void
      */
@@ -501,7 +501,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEchelon() method.
+     * Tests setEchelon()
      *
      * @return void
      */
@@ -514,7 +514,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtabLieuTravail() method.
+     * Tests setEtabLieuTravail()
      *
      * @return void
      */
@@ -527,7 +527,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIdLieuTravail() method.
+     * Tests setIdLieuTravail()
      *
      * @return void
      */
@@ -540,7 +540,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndice() method.
+     * Tests setIndice()
      *
      * @return void
      */
@@ -553,7 +553,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNiveau() method.
+     * Tests setNiveau()
      *
      * @return void
      */
@@ -566,7 +566,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomVilleInseeLieuTrav() method.
+     * Tests setNomVilleInseeLieuTrav()
      *
      * @return void
      */
@@ -579,7 +579,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomVilleLieuTrav() method.
+     * Tests setNomVilleLieuTrav()
      *
      * @return void
      */
@@ -592,7 +592,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomVoieLieuTrav() method.
+     * Tests setNomVoieLieuTrav()
      *
      * @return void
      */
@@ -605,7 +605,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumVoieLieuTrav() method.
+     * Tests setNumVoieLieuTrav()
      *
      * @return void
      */
@@ -618,7 +618,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumero() method.
+     * Tests setNumero()
      *
      * @return void
      */
@@ -631,7 +631,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPosition() method.
+     * Tests setPosition()
      *
      * @return void
      */
@@ -644,7 +644,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRaisonSocLieuTrav() method.
+     * Tests setRaisonSocLieuTrav()
      *
      * @return void
      */
@@ -657,7 +657,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSiretLieuTrav() method.
+     * Tests setSiretLieuTrav()
      *
      * @return void
      */
@@ -670,7 +670,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

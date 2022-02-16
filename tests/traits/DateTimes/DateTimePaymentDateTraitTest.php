@@ -24,7 +24,7 @@ use WBW\Library\Traits\Tests\Fixtures\DateTimes\TestDateTimePaymentDateTrait;
 class DateTimePaymentDateTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setPaymentDate() method.
+     * Tests setPaymentDate()
      *
      * @return void
      */

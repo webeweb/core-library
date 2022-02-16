@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class TachesTest extends AbstractTestCase {
 
     /**
-     * Tests the setArticle() method.
+     * Tests setArticle()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCode() method.
+     * Tests setCode()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeFrais() method.
+     * Tests setCodeFrais()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRegroupement() method.
+     * Tests setCodeRegroupement()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTravail() method.
+     * Tests setCodeTravail()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeUo() method.
+     * Tests setCodeUo()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteComptable() method.
+     * Tests setCompteComptable()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteTva() method.
+     * Tests setCompteTva()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFacturable() method.
+     * Tests setFacturable()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setInactif() method.
+     * Tests setInactif()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule() method.
+     * Tests setIntitule()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntituleRtf() method.
+     * Tests setIntituleRtf()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setListeTravaux() method.
+     * Tests setListeTravaux()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNiveauExec() method.
+     * Tests setNiveauExec()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNonRemboursable() method.
+     * Tests setNonRemboursable()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNonTravaillee() method.
+     * Tests setNonTravaillee()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOperationnelle() method.
+     * Tests setOperationnelle()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrixVente1() method.
+     * Tests setPrixVente1()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrixVente2() method.
+     * Tests setPrixVente2()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrixVente3() method.
+     * Tests setPrixVente3()
      *
      * @return void
      */
@@ -283,7 +283,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPvMaxi() method.
+     * Tests setPvMaxi()
      *
      * @return void
      */
@@ -296,7 +296,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSaisieTva() method.
+     * Tests setSaisieTva()
      *
      * @return void
      */
@@ -309,7 +309,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSuperFacturable() method.
+     * Tests setSuperFacturable()
      *
      * @return void
      */
@@ -322,7 +322,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTicketResto() method.
+     * Tests setTicketResto()
      *
      * @return void
      */
@@ -335,7 +335,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeHeure() method.
+     * Tests setTypeHeure()
      *
      * @return void
      */
@@ -348,7 +348,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

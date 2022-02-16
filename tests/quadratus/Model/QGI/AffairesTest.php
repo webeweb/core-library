@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AffairesTest extends AbstractTestCase {
 
     /**
-     * Tests the setClientDonneurOrdre() method.
+     * Tests setClientDonneurOrdre()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setClientPayeur() method.
+     * Tests setClientPayeur()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAffaire() method.
+     * Tests setCodeAffaire()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAvenant() method.
+     * Tests setCodeAvenant()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeColCreat() method.
+     * Tests setCodeColCreat()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeColModif() method.
+     * Tests setCodeColModif()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePhase() method.
+     * Tests setCodePhase()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCoutHeureTheo() method.
+     * Tests setCoutHeureTheo()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateCreation() method.
+     * Tests setDateCreation()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -146,7 +146,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateDebutPrevue() method.
+     * Tests setDateDebutPrevue()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -163,7 +163,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateDebutReelle() method.
+     * Tests setDateDebutReelle()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -180,7 +180,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateFinPrevue() method.
+     * Tests setDateFinPrevue()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -197,7 +197,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateFinReelle() method.
+     * Tests setDateFinReelle()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -214,7 +214,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateModification() method.
+     * Tests setDateModification()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -231,7 +231,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEchEnMt() method.
+     * Tests setEchEnMt()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtat() method.
+     * Tests setEtat()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtat1() method.
+     * Tests setEtat1()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtat2() method.
+     * Tests setEtat2()
      *
      * @return void
      */
@@ -283,7 +283,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtat3() method.
+     * Tests setEtat3()
      *
      * @return void
      */
@@ -296,7 +296,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtat4() method.
+     * Tests setEtat4()
      *
      * @return void
      */
@@ -309,7 +309,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtat5() method.
+     * Tests setEtat5()
      *
      * @return void
      */
@@ -322,7 +322,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule() method.
+     * Tests setIntitule()
      *
      * @return void
      */
@@ -335,7 +335,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setListeCollabAcces() method.
+     * Tests setListeCollabAcces()
      *
      * @return void
      */
@@ -348,7 +348,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtCaPrevu() method.
+     * Tests setMtCaPrevu()
      *
      * @return void
      */
@@ -361,7 +361,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHeuresInterim() method.
+     * Tests setNbHeuresInterim()
      *
      * @return void
      */
@@ -374,7 +374,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHeuresPrevues() method.
+     * Tests setNbHeuresPrevues()
      *
      * @return void
      */
@@ -387,7 +387,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHeuresReelInterim() method.
+     * Tests setNbHeuresReelInterim()
      *
      * @return void
      */
@@ -400,7 +400,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHeuresReelSousTrait() method.
+     * Tests setNbHeuresReelSousTrait()
      *
      * @return void
      */
@@ -413,7 +413,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHeuresSousTrait() method.
+     * Tests setNbHeuresSousTrait()
      *
      * @return void
      */
@@ -426,7 +426,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbInscrits() method.
+     * Tests setNbInscrits()
      *
      * @return void
      */
@@ -439,7 +439,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJoursPrevus() method.
+     * Tests setNbJoursPrevus()
      *
      * @return void
      */
@@ -452,7 +452,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJoursReels() method.
+     * Tests setNbJoursReels()
      *
      * @return void
      */
@@ -465,7 +465,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProchainNumArr() method.
+     * Tests setProchainNumArr()
      *
      * @return void
      */
@@ -478,7 +478,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRefDevis() method.
+     * Tests setRefDevis()
      *
      * @return void
      */
@@ -491,7 +491,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setResponsable() method.
+     * Tests setResponsable()
      *
      * @return void
      */
@@ -504,7 +504,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setResponsableChantier() method.
+     * Tests setResponsableChantier()
      *
      * @return void
      */
@@ -517,7 +517,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setType() method.
+     * Tests setType()
      *
      * @return void
      */
@@ -530,7 +530,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeFg() method.
+     * Tests setTypeFg()
      *
      * @return void
      */
@@ -543,7 +543,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

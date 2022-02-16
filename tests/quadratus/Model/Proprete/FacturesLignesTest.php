@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class FacturesLignesTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeAffaire() method.
+     * Tests setCodeAffaire()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAffaireLigne() method.
+     * Tests setCodeAffaireLigne()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAnalArticle() method.
+     * Tests setCodeAnalArticle()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeArticle() method.
+     * Tests setCodeArticle()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeChantier() method.
+     * Tests setCodeChantier()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeChantierLigne() method.
+     * Tests setCodeChantierLigne()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRegroupement() method.
+     * Tests setCodeRegroupement()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTvaArticle() method.
+     * Tests setCodeTvaArticle()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeUnite() method.
+     * Tests setCodeUnite()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeVentilArticle() method.
+     * Tests setCodeVentilArticle()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCoefficientBt() method.
+     * Tests setCoefficientBt()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateBt() method.
+     * Tests setDateBt()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -198,7 +198,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDatePreparation() method.
+     * Tests setDatePreparation()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -215,7 +215,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDepuisDebFac() method.
+     * Tests setDepuisDebFac()
      *
      * @return void
      */
@@ -228,7 +228,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDesignation() method.
+     * Tests setDesignation()
      *
      * @return void
      */
@@ -241,7 +241,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDesignation2() method.
+     * Tests setDesignation2()
      *
      * @return void
      */
@@ -254,7 +254,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDesignation3() method.
+     * Tests setDesignation3()
      *
      * @return void
      */
@@ -267,7 +267,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDesignationBis() method.
+     * Tests setDesignationBis()
      *
      * @return void
      */
@@ -280,7 +280,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDesignationBis2() method.
+     * Tests setDesignationBis2()
      *
      * @return void
      */
@@ -293,7 +293,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDesignationBis3() method.
+     * Tests setDesignationBis3()
      *
      * @return void
      */
@@ -306,7 +306,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDesignationRtf() method.
+     * Tests setDesignationRtf()
      *
      * @return void
      */
@@ -319,7 +319,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDureeBt() method.
+     * Tests setDureeBt()
      *
      * @return void
      */
@@ -332,7 +332,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFromPointageBt() method.
+     * Tests setFromPointageBt()
      *
      * @return void
      */
@@ -345,7 +345,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHeuresPrev() method.
+     * Tests setHeuresPrev()
      *
      * @return void
      */
@@ -358,7 +358,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHeuresReel() method.
+     * Tests setHeuresReel()
      *
      * @return void
      */
@@ -371,7 +371,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setImprimerDansPied() method.
+     * Tests setImprimerDansPied()
      *
      * @return void
      */
@@ -384,7 +384,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantUnitaireTaxe() method.
+     * Tests setMontantUnitaireTaxe()
      *
      * @return void
      */
@@ -397,7 +397,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMotCleDansPied() method.
+     * Tests setMotCleDansPied()
      *
      * @return void
      */
@@ -410,7 +410,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNoChronoPreparation() method.
+     * Tests setNoChronoPreparation()
      *
      * @return void
      */
@@ -423,7 +423,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNoLigneOri() method.
+     * Tests setNoLigneOri()
      *
      * @return void
      */
@@ -436,7 +436,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNoPieceOrigine() method.
+     * Tests setNoPieceOrigine()
      *
      * @return void
      */
@@ -449,7 +449,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroBt() method.
+     * Tests setNumeroBt()
      *
      * @return void
      */
@@ -462,7 +462,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroFacture() method.
+     * Tests setNumeroFacture()
      *
      * @return void
      */
@@ -475,7 +475,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroLigne() method.
+     * Tests setNumeroLigne()
      *
      * @return void
      */
@@ -488,7 +488,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodePreparation() method.
+     * Tests setPeriodePreparation()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -505,7 +505,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeVentilMarge() method.
+     * Tests setPeriodeVentilMarge()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -522,7 +522,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPosteRent() method.
+     * Tests setPosteRent()
      *
      * @return void
      */
@@ -535,7 +535,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrixAchat() method.
+     * Tests setPrixAchat()
      *
      * @return void
      */
@@ -548,7 +548,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrixAchatBt() method.
+     * Tests setPrixAchatBt()
      *
      * @return void
      */
@@ -561,7 +561,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrixUnitaire() method.
+     * Tests setPrixUnitaire()
      *
      * @return void
      */
@@ -574,7 +574,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrixUnitairePdf() method.
+     * Tests setPrixUnitairePdf()
      *
      * @return void
      */
@@ -587,7 +587,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPxFacture() method.
+     * Tests setPxFacture()
      *
      * @return void
      */
@@ -600,7 +600,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQuantite() method.
+     * Tests setQuantite()
      *
      * @return void
      */
@@ -613,7 +613,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRefPosteCdeWebFt() method.
+     * Tests setRefPosteCdeWebFt()
      *
      * @return void
      */
@@ -626,7 +626,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemiseLigne1() method.
+     * Tests setRemiseLigne1()
      *
      * @return void
      */
@@ -639,7 +639,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemiseLigne2() method.
+     * Tests setRemiseLigne2()
      *
      * @return void
      */
@@ -652,7 +652,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemiseLigne3() method.
+     * Tests setRemiseLigne3()
      *
      * @return void
      */
@@ -665,7 +665,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxHoraireBt() method.
+     * Tests setTauxHoraireBt()
      *
      * @return void
      */
@@ -678,7 +678,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxTvaArticle() method.
+     * Tests setTauxTvaArticle()
      *
      * @return void
      */
@@ -691,7 +691,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxTvaTaxe() method.
+     * Tests setTauxTvaTaxe()
      *
      * @return void
      */
@@ -704,7 +704,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypePiece() method.
+     * Tests setTypePiece()
      *
      * @return void
      */
@@ -717,7 +717,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setVentilMarge() method.
+     * Tests setVentilMarge()
      *
      * @return void
      */
@@ -730,7 +730,7 @@ class FacturesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

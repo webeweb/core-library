@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DevisChantiersTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeAffaire() method.
+     * Tests setCodeAffaire()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class DevisChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeChantier() method.
+     * Tests setCodeChantier()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class DevisChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class DevisChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMajDescriptif() method.
+     * Tests setMajDescriptif()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class DevisChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantHt() method.
+     * Tests setMontantHt()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class DevisChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumDevis() method.
+     * Tests setNumDevis()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class DevisChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

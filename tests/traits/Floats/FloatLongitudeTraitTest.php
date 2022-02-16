@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Floats\TestFloatLongitudeTrait;
 class FloatLongitudeTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setLongitude() method.
+     * Tests setLongitude()
      *
      * @return void
      */

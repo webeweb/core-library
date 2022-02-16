@@ -24,7 +24,7 @@ use WBW\Library\Types\Tests\AbstractTestCase;
 class ObjectHelperTest extends AbstractTestCase {
 
     /**
-     * Tests the compare() method.
+     * Tests compare()
      *
      * @return void
      */

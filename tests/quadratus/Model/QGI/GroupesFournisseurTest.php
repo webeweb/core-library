@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class GroupesFournisseurTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeFournisseur() method.
+     * Tests setCodeFournisseur()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeImputationAnalytique() method.
+     * Tests setCodeImputationAnalytique()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeReglement() method.
+     * Tests setCodeReglement()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTva() method.
+     * Tests setCodeTva()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeVentilCompta() method.
+     * Tests setCodeVentilCompta()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCollectif() method.
+     * Tests setCollectif()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateEntree() method.
+     * Tests setDateEntree()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateSortie() method.
+     * Tests setDateSortie()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -137,7 +137,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDelaiLe() method.
+     * Tests setDelaiLe()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDelaiNombre() method.
+     * Tests setDelaiNombre()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDelaiType() method.
+     * Tests setDelaiType()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDomiciliationBancaire1() method.
+     * Tests setDomiciliationBancaire1()
      *
      * @return void
      */
@@ -189,7 +189,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDomiciliationBancaire2() method.
+     * Tests setDomiciliationBancaire2()
      *
      * @return void
      */
@@ -202,7 +202,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFactureEuros() method.
+     * Tests setFactureEuros()
      *
      * @return void
      */
@@ -215,7 +215,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFournisseurPerdu() method.
+     * Tests setFournisseurPerdu()
      *
      * @return void
      */
@@ -228,7 +228,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGroupe() method.
+     * Tests setGroupe()
      *
      * @return void
      */
@@ -241,7 +241,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNombreEcheances() method.
+     * Tests setNombreEcheances()
      *
      * @return void
      */
@@ -254,7 +254,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroCompte() method.
+     * Tests setNumeroCompte()
      *
      * @return void
      */
@@ -267,7 +267,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPaiementDepartLe() method.
+     * Tests setPaiementDepartLe()
      *
      * @return void
      */
@@ -280,7 +280,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPaiementLe() method.
+     * Tests setPaiementLe()
      *
      * @return void
      */
@@ -293,7 +293,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPaiementNombreDeJours() method.
+     * Tests setPaiementNombreDeJours()
      *
      * @return void
      */
@@ -306,7 +306,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setReferencePiece() method.
+     * Tests setReferencePiece()
      *
      * @return void
      */
@@ -319,7 +319,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemiseLigne1() method.
+     * Tests setRemiseLigne1()
      *
      * @return void
      */
@@ -332,7 +332,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemiseLigne2() method.
+     * Tests setRemiseLigne2()
      *
      * @return void
      */
@@ -345,7 +345,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemiseLigne3() method.
+     * Tests setRemiseLigne3()
      *
      * @return void
      */
@@ -358,7 +358,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemisePied() method.
+     * Tests setRemisePied()
      *
      * @return void
      */
@@ -371,7 +371,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemisePied2() method.
+     * Tests setRemisePied2()
      *
      * @return void
      */
@@ -384,7 +384,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemisePied3() method.
+     * Tests setRemisePied3()
      *
      * @return void
      */
@@ -397,7 +397,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRib() method.
+     * Tests setRib()
      *
      * @return void
      */
@@ -410,7 +410,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSoumisEscompte() method.
+     * Tests setSoumisEscompte()
      *
      * @return void
      */
@@ -423,7 +423,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxEscompte() method.
+     * Tests setTauxEscompte()
      *
      * @return void
      */
@@ -436,7 +436,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTransporteur() method.
+     * Tests setTransporteur()
      *
      * @return void
      */
@@ -449,7 +449,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

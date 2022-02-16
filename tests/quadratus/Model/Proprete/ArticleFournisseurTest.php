@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ArticleFournisseurTest extends AbstractTestCase {
 
     /**
-     * Tests the setAvtDerCodeDevise() method.
+     * Tests setAvtDerCodeDevise()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAvtDerDateAchat() method.
+     * Tests setAvtDerDateAchat()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -55,7 +55,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAvtDerEuros() method.
+     * Tests setAvtDerEuros()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAvtDerPxAchat() method.
+     * Tests setAvtDerPxAchat()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAvtDerQteAchat() method.
+     * Tests setAvtDerQteAchat()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAvtDerRemise1() method.
+     * Tests setAvtDerRemise1()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAvtDerRemise2() method.
+     * Tests setAvtDerRemise2()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAvtDerRemise3() method.
+     * Tests setAvtDerRemise3()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeArticle() method.
+     * Tests setCodeArticle()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeFournisseur() method.
+     * Tests setCodeFournisseur()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCommentaires() method.
+     * Tests setCommentaires()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setConditionnement() method.
+     * Tests setConditionnement()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDelaiLe() method.
+     * Tests setDelaiLe()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDelaiNombre() method.
+     * Tests setDelaiNombre()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDelaiType() method.
+     * Tests setDelaiType()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDerCodeDevise() method.
+     * Tests setDerCodeDevise()
      *
      * @return void
      */
@@ -237,7 +237,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDerDateAchat() method.
+     * Tests setDerDateAchat()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -254,7 +254,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDerEuros() method.
+     * Tests setDerEuros()
      *
      * @return void
      */
@@ -267,7 +267,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDerPxAchat() method.
+     * Tests setDerPxAchat()
      *
      * @return void
      */
@@ -280,7 +280,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDerQteAchat() method.
+     * Tests setDerQteAchat()
      *
      * @return void
      */
@@ -293,7 +293,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDerRemise1() method.
+     * Tests setDerRemise1()
      *
      * @return void
      */
@@ -306,7 +306,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDerRemise2() method.
+     * Tests setDerRemise2()
      *
      * @return void
      */
@@ -319,7 +319,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDerRemise3() method.
+     * Tests setDerRemise3()
      *
      * @return void
      */
@@ -332,7 +332,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMiniCodeDevise() method.
+     * Tests setMiniCodeDevise()
      *
      * @return void
      */
@@ -345,7 +345,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMiniDateAchat() method.
+     * Tests setMiniDateAchat()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -362,7 +362,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMiniEuros() method.
+     * Tests setMiniEuros()
      *
      * @return void
      */
@@ -375,7 +375,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMiniPxAchat() method.
+     * Tests setMiniPxAchat()
      *
      * @return void
      */
@@ -388,7 +388,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMiniQteAchat() method.
+     * Tests setMiniQteAchat()
      *
      * @return void
      */
@@ -401,7 +401,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMiniRemise1() method.
+     * Tests setMiniRemise1()
      *
      * @return void
      */
@@ -414,7 +414,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMiniRemise2() method.
+     * Tests setMiniRemise2()
      *
      * @return void
      */
@@ -427,7 +427,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMiniRemise3() method.
+     * Tests setMiniRemise3()
      *
      * @return void
      */
@@ -440,7 +440,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroLigne() method.
+     * Tests setNumeroLigne()
      *
      * @return void
      */
@@ -453,7 +453,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQteEconomique() method.
+     * Tests setQteEconomique()
      *
      * @return void
      */
@@ -466,7 +466,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRefArticleFournisseur() method.
+     * Tests setRefArticleFournisseur()
      *
      * @return void
      */
@@ -479,7 +479,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

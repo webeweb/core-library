@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EtebacLibAutoTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeEtebac() method.
+     * Tests setCodeEtebac()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class EtebacLibAutoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeLibAuto() method.
+     * Tests setCodeLibAuto()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class EtebacLibAutoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

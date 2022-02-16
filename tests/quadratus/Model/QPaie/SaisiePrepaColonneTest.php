@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class SaisiePrepaColonneTest extends AbstractTestCase {
 
     /**
-     * Tests the setCode() method.
+     * Tests setCode()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class SaisiePrepaColonneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeLibelle() method.
+     * Tests setCodeLibelle()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class SaisiePrepaColonneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCommentaire() method.
+     * Tests setCommentaire()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class SaisiePrepaColonneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitCol() method.
+     * Tests setIntitCol()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class SaisiePrepaColonneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLigneAbondement() method.
+     * Tests setLigneAbondement()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class SaisiePrepaColonneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumCol() method.
+     * Tests setNumCol()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class SaisiePrepaColonneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setWidth() method.
+     * Tests setWidth()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class SaisiePrepaColonneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

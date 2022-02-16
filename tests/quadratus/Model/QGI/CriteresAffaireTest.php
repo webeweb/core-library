@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class CriteresAffaireTest extends AbstractTestCase {
 
     /**
-     * Tests the setBooleen1() method.
+     * Tests setBooleen1()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBooleen10() method.
+     * Tests setBooleen10()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBooleen2() method.
+     * Tests setBooleen2()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBooleen3() method.
+     * Tests setBooleen3()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBooleen4() method.
+     * Tests setBooleen4()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBooleen5() method.
+     * Tests setBooleen5()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBooleen6() method.
+     * Tests setBooleen6()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBooleen7() method.
+     * Tests setBooleen7()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBooleen8() method.
+     * Tests setBooleen8()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBooleen9() method.
+     * Tests setBooleen9()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAffaire() method.
+     * Tests setCodeAffaire()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRef1() method.
+     * Tests setCodeRef1()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRef10() method.
+     * Tests setCodeRef10()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRef2() method.
+     * Tests setCodeRef2()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRef3() method.
+     * Tests setCodeRef3()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRef4() method.
+     * Tests setCodeRef4()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRef5() method.
+     * Tests setCodeRef5()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRef6() method.
+     * Tests setCodeRef6()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRef7() method.
+     * Tests setCodeRef7()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRef8() method.
+     * Tests setCodeRef8()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRef9() method.
+     * Tests setCodeRef9()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDate1() method.
+     * Tests setDate1()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -315,7 +315,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDate10() method.
+     * Tests setDate10()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -332,7 +332,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDate2() method.
+     * Tests setDate2()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -349,7 +349,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDate3() method.
+     * Tests setDate3()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -366,7 +366,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDate4() method.
+     * Tests setDate4()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -383,7 +383,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDate5() method.
+     * Tests setDate5()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -400,7 +400,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDate6() method.
+     * Tests setDate6()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -417,7 +417,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDate7() method.
+     * Tests setDate7()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -434,7 +434,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDate8() method.
+     * Tests setDate8()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -451,7 +451,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDate9() method.
+     * Tests setDate9()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -468,7 +468,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDouble1() method.
+     * Tests setDouble1()
      *
      * @return void
      */
@@ -481,7 +481,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDouble10() method.
+     * Tests setDouble10()
      *
      * @return void
      */
@@ -494,7 +494,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDouble2() method.
+     * Tests setDouble2()
      *
      * @return void
      */
@@ -507,7 +507,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDouble3() method.
+     * Tests setDouble3()
      *
      * @return void
      */
@@ -520,7 +520,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDouble4() method.
+     * Tests setDouble4()
      *
      * @return void
      */
@@ -533,7 +533,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDouble5() method.
+     * Tests setDouble5()
      *
      * @return void
      */
@@ -546,7 +546,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDouble6() method.
+     * Tests setDouble6()
      *
      * @return void
      */
@@ -559,7 +559,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDouble7() method.
+     * Tests setDouble7()
      *
      * @return void
      */
@@ -572,7 +572,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDouble8() method.
+     * Tests setDouble8()
      *
      * @return void
      */
@@ -585,7 +585,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDouble9() method.
+     * Tests setDouble9()
      *
      * @return void
      */
@@ -598,7 +598,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLong1() method.
+     * Tests setLong1()
      *
      * @return void
      */
@@ -611,7 +611,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLong10() method.
+     * Tests setLong10()
      *
      * @return void
      */
@@ -624,7 +624,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLong2() method.
+     * Tests setLong2()
      *
      * @return void
      */
@@ -637,7 +637,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLong3() method.
+     * Tests setLong3()
      *
      * @return void
      */
@@ -650,7 +650,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLong4() method.
+     * Tests setLong4()
      *
      * @return void
      */
@@ -663,7 +663,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLong5() method.
+     * Tests setLong5()
      *
      * @return void
      */
@@ -676,7 +676,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLong6() method.
+     * Tests setLong6()
      *
      * @return void
      */
@@ -689,7 +689,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLong7() method.
+     * Tests setLong7()
      *
      * @return void
      */
@@ -702,7 +702,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLong8() method.
+     * Tests setLong8()
      *
      * @return void
      */
@@ -715,7 +715,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLong9() method.
+     * Tests setLong9()
      *
      * @return void
      */
@@ -728,7 +728,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTexte1() method.
+     * Tests setTexte1()
      *
      * @return void
      */
@@ -741,7 +741,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTexte10() method.
+     * Tests setTexte10()
      *
      * @return void
      */
@@ -754,7 +754,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTexte2() method.
+     * Tests setTexte2()
      *
      * @return void
      */
@@ -767,7 +767,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTexte3() method.
+     * Tests setTexte3()
      *
      * @return void
      */
@@ -780,7 +780,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTexte4() method.
+     * Tests setTexte4()
      *
      * @return void
      */
@@ -793,7 +793,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTexte5() method.
+     * Tests setTexte5()
      *
      * @return void
      */
@@ -806,7 +806,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTexte6() method.
+     * Tests setTexte6()
      *
      * @return void
      */
@@ -819,7 +819,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTexte7() method.
+     * Tests setTexte7()
      *
      * @return void
      */
@@ -832,7 +832,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTexte8() method.
+     * Tests setTexte8()
      *
      * @return void
      */
@@ -845,7 +845,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTexte9() method.
+     * Tests setTexte9()
      *
      * @return void
      */
@@ -858,7 +858,7 @@ class CriteresAffaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

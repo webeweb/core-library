@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DosRevEtatCptTest extends AbstractTestCase {
 
     /**
-     * Tests the setCollaborateur() method.
+     * Tests setCollaborateur()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class DosRevEtatCptTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCredit() method.
+     * Tests setCredit()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class DosRevEtatCptTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateModif() method.
+     * Tests setDateModif()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class DosRevEtatCptTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDebit() method.
+     * Tests setDebit()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class DosRevEtatCptTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtatCpt() method.
+     * Tests setEtatCpt()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class DosRevEtatCptTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setModifie() method.
+     * Tests setModifie()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class DosRevEtatCptTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroCompte() method.
+     * Tests setNumeroCompte()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class DosRevEtatCptTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeRev() method.
+     * Tests setPeriodeRev()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -137,7 +137,7 @@ class DosRevEtatCptTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSolde() method.
+     * Tests setSolde()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class DosRevEtatCptTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

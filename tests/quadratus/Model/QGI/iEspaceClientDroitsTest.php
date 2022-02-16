@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class iEspaceClientDroitsTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeCollabMessages() method.
+     * Tests setCodeCollabMessages()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class iEspaceClientDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeUser() method.
+     * Tests setCodeUser()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class iEspaceClientDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDossierClient() method.
+     * Tests setDossierClient()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class iEspaceClientDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFctDocuments() method.
+     * Tests setFctDocuments()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class iEspaceClientDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFctDocumentsAutre() method.
+     * Tests setFctDocumentsAutre()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class iEspaceClientDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFctDocumentsCompta() method.
+     * Tests setFctDocumentsCompta()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class iEspaceClientDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFctDocumentsJuridique() method.
+     * Tests setFctDocumentsJuridique()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class iEspaceClientDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFctDocumentsPaie() method.
+     * Tests setFctDocumentsPaie()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class iEspaceClientDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFctInfos() method.
+     * Tests setFctInfos()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class iEspaceClientDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFctMessagerie() method.
+     * Tests setFctMessagerie()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class iEspaceClientDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomUser() method.
+     * Tests setNomUser()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class iEspaceClientDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPassword() method.
+     * Tests setPassword()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class iEspaceClientDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

@@ -40,7 +40,7 @@ class IOFileTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the getUniqFilenameDer() method.
+     * Tests getUniqFilenameDer()
      *
      * @return void
      */
@@ -54,7 +54,7 @@ class IOFileTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the getUniqFilenamePdf() method.
+     * Tests getUniqFilenamePdf()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class IOFileTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the getUniqFilenameTif() method.
+     * Tests getUniqFilenameTif()
      *
      * @return void
      */
@@ -82,7 +82,7 @@ class IOFileTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the getUniqFilenameXml() method.
+     * Tests getUniqFilenameXml()
      *
      * @return void
      */
@@ -96,7 +96,7 @@ class IOFileTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

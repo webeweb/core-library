@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class CollabAdrMailConfTest extends AbstractTestCase {
 
     /**
-     * Tests the setAdresseEmail() method.
+     * Tests setAdresseEmail()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class CollabAdrMailConfTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaborateur() method.
+     * Tests setCodeCollaborateur()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class CollabAdrMailConfTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule() method.
+     * Tests setIntitule()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class CollabAdrMailConfTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

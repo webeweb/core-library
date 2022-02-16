@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LignesAttestationCacmTest extends AbstractTestCase {
 
     /**
-     * Tests the setDateDebut() method.
+     * Tests setDateDebut()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -42,7 +42,7 @@ class LignesAttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateFin() method.
+     * Tests setDateFin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -59,7 +59,7 @@ class LignesAttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDatePaiement() method.
+     * Tests setDatePaiement()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -76,7 +76,7 @@ class LignesAttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontant() method.
+     * Tests setMontant()
      *
      * @return void
      */
@@ -89,7 +89,7 @@ class LignesAttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantPrecompte() method.
+     * Tests setMontantPrecompte()
      *
      * @return void
      */
@@ -102,7 +102,7 @@ class LignesAttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHeureTrav() method.
+     * Tests setNbHeureTrav()
      *
      * @return void
      */
@@ -115,7 +115,7 @@ class LignesAttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJourTrav() method.
+     * Tests setNbJourTrav()
      *
      * @return void
      */
@@ -128,7 +128,7 @@ class LignesAttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLigne() method.
+     * Tests setNumLigne()
      *
      * @return void
      */
@@ -141,7 +141,7 @@ class LignesAttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroAttestation() method.
+     * Tests setNumeroAttestation()
      *
      * @return void
      */
@@ -154,7 +154,7 @@ class LignesAttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSalaireBrut() method.
+     * Tests setSalaireBrut()
      *
      * @return void
      */
@@ -167,7 +167,7 @@ class LignesAttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeLigne() method.
+     * Tests setTypeLigne()
      *
      * @return void
      */
@@ -180,7 +180,7 @@ class LignesAttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

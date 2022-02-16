@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ChantiersTest extends AbstractTestCase {
 
     /**
-     * Tests the setAdFBureauDistributeur() method.
+     * Tests setAdFBureauDistributeur()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdFCivilite() method.
+     * Tests setAdFCivilite()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdFCodePays() method.
+     * Tests setAdFCodePays()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdFCodePostal() method.
+     * Tests setAdFCodePostal()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdFComplement() method.
+     * Tests setAdFComplement()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdFNomClient() method.
+     * Tests setAdFNomClient()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdFNomSuite() method.
+     * Tests setAdFNomSuite()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdFNomSuite2() method.
+     * Tests setAdFNomSuite2()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdFNomSuite3() method.
+     * Tests setAdFNomSuite3()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdFNomVoie() method.
+     * Tests setAdFNomVoie()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdFNumVoie() method.
+     * Tests setAdFNumVoie()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdFTypeAdresse() method.
+     * Tests setAdFTypeAdresse()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdFbtq() method.
+     * Tests setAdFbtq()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdresse() method.
+     * Tests setAdresse()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBtq() method.
+     * Tests setBtq()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBtqLivraison() method.
+     * Tests setBtqLivraison()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBudgetCommande() method.
+     * Tests setBudgetCommande()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBureauDistributeur() method.
+     * Tests setBureauDistributeur()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBureauDistributeurLivraison() method.
+     * Tests setBureauDistributeurLivraison()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setChantierPonctuel() method.
+     * Tests setChantierPonctuel()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setChefEquipe() method.
+     * Tests setChefEquipe()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCleAlpha() method.
+     * Tests setCleAlpha()
      *
      * @return void
      */
@@ -311,7 +311,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAffaire() method.
+     * Tests setCodeAffaire()
      *
      * @return void
      */
@@ -324,7 +324,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAgence() method.
+     * Tests setCodeAgence()
      *
      * @return void
      */
@@ -337,7 +337,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAnalytique() method.
+     * Tests setCodeAnalytique()
      *
      * @return void
      */
@@ -350,7 +350,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeChantier() method.
+     * Tests setCodeChantier()
      *
      * @return void
      */
@@ -363,7 +363,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -376,7 +376,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCommercial() method.
+     * Tests setCodeCommercial()
      *
      * @return void
      */
@@ -389,7 +389,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEmpInspecteur() method.
+     * Tests setCodeEmpInspecteur()
      *
      * @return void
      */
@@ -402,7 +402,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeFormule() method.
+     * Tests setCodeFormule()
      *
      * @return void
      */
@@ -415,7 +415,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeLivraison() method.
+     * Tests setCodeLivraison()
      *
      * @return void
      */
@@ -428,7 +428,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePays() method.
+     * Tests setCodePays()
      *
      * @return void
      */
@@ -441,7 +441,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePostal() method.
+     * Tests setCodePostal()
      *
      * @return void
      */
@@ -454,7 +454,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePostalLivraison() method.
+     * Tests setCodePostalLivraison()
      *
      * @return void
      */
@@ -467,7 +467,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRegMarge() method.
+     * Tests setCodeRegMarge()
      *
      * @return void
      */
@@ -480,7 +480,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRevision() method.
+     * Tests setCodeRevision()
      *
      * @return void
      */
@@ -493,7 +493,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTva() method.
+     * Tests setCodeTva()
      *
      * @return void
      */
@@ -506,7 +506,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeVentilCompta() method.
+     * Tests setCodeVentilCompta()
      *
      * @return void
      */
@@ -519,7 +519,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCollectif() method.
+     * Tests setCollectif()
      *
      * @return void
      */
@@ -532,7 +532,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCommandeIsolee() method.
+     * Tests setCommandeIsolee()
      *
      * @return void
      */
@@ -545,7 +545,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setComplement() method.
+     * Tests setComplement()
      *
      * @return void
      */
@@ -558,7 +558,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setComplementLivraison() method.
+     * Tests setComplementLivraison()
      *
      * @return void
      */
@@ -571,7 +571,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateCreat() method.
+     * Tests setDateCreat()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -588,7 +588,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateDebut() method.
+     * Tests setDateDebut()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -605,7 +605,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateEcheanceContrat() method.
+     * Tests setDateEcheanceContrat()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -622,7 +622,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateFin() method.
+     * Tests setDateFin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -639,7 +639,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateModif() method.
+     * Tests setDateModif()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -656,7 +656,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateRevision() method.
+     * Tests setDateRevision()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -673,7 +673,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDescriptif() method.
+     * Tests setDescriptif()
      *
      * @return void
      */
@@ -686,7 +686,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDtAvantDernPrepa() method.
+     * Tests setDtAvantDernPrepa()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -703,7 +703,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDtDernPrepa() method.
+     * Tests setDtDernPrepa()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -720,7 +720,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDtValiditeFactDeb() method.
+     * Tests setDtValiditeFactDeb()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -737,7 +737,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDtValiditeFactDebDebMois() method.
+     * Tests setDtValiditeFactDebDebMois()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -754,7 +754,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDtValiditeFactFin() method.
+     * Tests setDtValiditeFactFin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -771,7 +771,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDtValiditeFactFinFinMois() method.
+     * Tests setDtValiditeFactFinFinMois()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -788,7 +788,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEcheanceAnnuelle() method.
+     * Tests setEcheanceAnnuelle()
      *
      * @return void
      */
@@ -801,7 +801,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFactNegoceIsolee() method.
+     * Tests setFactNegoceIsolee()
      *
      * @return void
      */
@@ -814,7 +814,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFactureIsolee() method.
+     * Tests setFactureIsolee()
      *
      * @return void
      */
@@ -827,7 +827,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJourFact() method.
+     * Tests setJourFact()
      *
      * @return void
      */
@@ -840,7 +840,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLatitude() method.
+     * Tests setLatitude()
      *
      * @return void
      */
@@ -853,7 +853,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLoiChatelSurFacture() method.
+     * Tests setLoiChatelSurFacture()
      *
      * @return void
      */
@@ -866,7 +866,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLongitude() method.
+     * Tests setLongitude()
      *
      * @return void
      */
@@ -879,7 +879,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMajStockByDa() method.
+     * Tests setMajStockByDa()
      *
      * @return void
      */
@@ -892,7 +892,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbControlesPrevus() method.
+     * Tests setNbControlesPrevus()
      *
      * @return void
      */
@@ -905,7 +905,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbMoisPreavis() method.
+     * Tests setNbMoisPreavis()
      *
      * @return void
      */
@@ -918,7 +918,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomAdresse() method.
+     * Tests setNomAdresse()
      *
      * @return void
      */
@@ -931,7 +931,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomChantier() method.
+     * Tests setNomChantier()
      *
      * @return void
      */
@@ -944,7 +944,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomLivraison() method.
+     * Tests setNomLivraison()
      *
      * @return void
      */
@@ -957,7 +957,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomResponsable() method.
+     * Tests setNomResponsable()
      *
      * @return void
      */
@@ -970,7 +970,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomSuite() method.
+     * Tests setNomSuite()
      *
      * @return void
      */
@@ -983,7 +983,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomSuiteLivraison() method.
+     * Tests setNomSuiteLivraison()
      *
      * @return void
      */
@@ -996,7 +996,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomVoie() method.
+     * Tests setNomVoie()
      *
      * @return void
      */
@@ -1009,7 +1009,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomVoieLivraison() method.
+     * Tests setNomVoieLivraison()
      *
      * @return void
      */
@@ -1022,7 +1022,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumVoie() method.
+     * Tests setNumVoie()
      *
      * @return void
      */
@@ -1035,7 +1035,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumVoieLivraison() method.
+     * Tests setNumVoieLivraison()
      *
      * @return void
      */
@@ -1048,7 +1048,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroCompte() method.
+     * Tests setNumeroCompte()
      *
      * @return void
      */
@@ -1061,7 +1061,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPlanFact() method.
+     * Tests setPlanFact()
      *
      * @return void
      */
@@ -1074,7 +1074,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPourcConsoProduit() method.
+     * Tests setPourcConsoProduit()
      *
      * @return void
      */
@@ -1087,7 +1087,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPourcMargePrevis() method.
+     * Tests setPourcMargePrevis()
      *
      * @return void
      */
@@ -1100,7 +1100,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setReferenceFacture() method.
+     * Tests setReferenceFacture()
      *
      * @return void
      */
@@ -1113,7 +1113,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setReferenceFacture2() method.
+     * Tests setReferenceFacture2()
      *
      * @return void
      */
@@ -1126,7 +1126,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRuptDateLivraison() method.
+     * Tests setRuptDateLivraison()
      *
      * @return void
      */
@@ -1139,7 +1139,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTelephone() method.
+     * Tests setTelephone()
      *
      * @return void
      */
@@ -1152,7 +1152,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

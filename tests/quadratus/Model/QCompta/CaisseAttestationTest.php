@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class CaisseAttestationTest extends AbstractTestCase {
 
     /**
-     * Tests the setCollaborateur() method.
+     * Tests setCollaborateur()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class CaisseAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateAcquisition() method.
+     * Tests setDateAcquisition()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -55,7 +55,7 @@ class CaisseAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateApplication() method.
+     * Tests setDateApplication()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -72,7 +72,7 @@ class CaisseAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateAttestation() method.
+     * Tests setDateAttestation()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -89,7 +89,7 @@ class CaisseAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateCreation() method.
+     * Tests setDateCreation()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -106,7 +106,7 @@ class CaisseAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setInfoFichier() method.
+     * Tests setInfoFichier()
      *
      * @return void
      */
@@ -119,7 +119,7 @@ class CaisseAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLicence() method.
+     * Tests setLicence()
      *
      * @return void
      */
@@ -132,7 +132,7 @@ class CaisseAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomResponsable() method.
+     * Tests setNomResponsable()
      *
      * @return void
      */
@@ -145,7 +145,7 @@ class CaisseAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomVille() method.
+     * Tests setNomVille()
      *
      * @return void
      */
@@ -158,7 +158,7 @@ class CaisseAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumVersion() method.
+     * Tests setNumVersion()
      *
      * @return void
      */
@@ -171,7 +171,7 @@ class CaisseAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOrdinateur() method.
+     * Tests setOrdinateur()
      *
      * @return void
      */
@@ -184,7 +184,7 @@ class CaisseAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOrigine() method.
+     * Tests setOrigine()
      *
      * @return void
      */
@@ -197,7 +197,7 @@ class CaisseAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrenomResponsable() method.
+     * Tests setPrenomResponsable()
      *
      * @return void
      */
@@ -210,7 +210,7 @@ class CaisseAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRaisonSocialeDistri() method.
+     * Tests setRaisonSocialeDistri()
      *
      * @return void
      */
@@ -223,7 +223,7 @@ class CaisseAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRaisonSocialeSociete() method.
+     * Tests setRaisonSocialeSociete()
      *
      * @return void
      */
@@ -236,7 +236,7 @@ class CaisseAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniqId() method.
+     * Tests setUniqId()
      *
      * @return void
      */
@@ -249,7 +249,7 @@ class CaisseAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUtilisateur() method.
+     * Tests setUtilisateur()
      *
      * @return void
      */
@@ -262,7 +262,7 @@ class CaisseAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class BordPrepAcomptesTest extends AbstractTestCase {
 
     /**
-     * Tests the setDate() method.
+     * Tests setDate()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -42,7 +42,7 @@ class BordPrepAcomptesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setId() method.
+     * Tests setId()
      *
      * @return void
      */
@@ -55,7 +55,7 @@ class BordPrepAcomptesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule() method.
+     * Tests setIntitule()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class BordPrepAcomptesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontant() method.
+     * Tests setMontant()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class BordPrepAcomptesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class BordPrepAcomptesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriode() method.
+     * Tests setPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -111,7 +111,7 @@ class BordPrepAcomptesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypePaiement() method.
+     * Tests setTypePaiement()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class BordPrepAcomptesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

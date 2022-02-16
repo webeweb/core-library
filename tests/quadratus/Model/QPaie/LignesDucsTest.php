@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LignesDucsTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeAt() method.
+     * Tests setCodeAt()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class LignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCentre() method.
+     * Tests setCodeCentre()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class LignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeDucs() method.
+     * Tests setCodeDucs()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class LignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEtablissement() method.
+     * Tests setCodeEtablissement()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class LignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeInsee() method.
+     * Tests setCodeInsee()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class LignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeLibelle() method.
+     * Tests setCodeLibelle()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class LignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setConditionSpec() method.
+     * Tests setConditionSpec()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class LignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateApplication() method.
+     * Tests setDateApplication()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -133,7 +133,7 @@ class LignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setExclureFusion() method.
+     * Tests setExclureFusion()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class LignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIdInstitution() method.
+     * Tests setIdInstitution()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class LignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule() method.
+     * Tests setIntitule()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class LignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIsTaux() method.
+     * Tests setIsTaux()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class LignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMarque() method.
+     * Tests setMarque()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class LignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontant() method.
+     * Tests setMontant()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class LignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtPatronal() method.
+     * Tests setMtPatronal()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class LignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtSalarial() method.
+     * Tests setMtSalarial()
      *
      * @return void
      */
@@ -237,7 +237,7 @@ class LignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbCot() method.
+     * Tests setNbCot()
      *
      * @return void
      */
@@ -250,7 +250,7 @@ class LignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbPatronal() method.
+     * Tests setNbPatronal()
      *
      * @return void
      */
@@ -263,7 +263,7 @@ class LignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbSalarial() method.
+     * Tests setNbSalarial()
      *
      * @return void
      */
@@ -276,7 +276,7 @@ class LignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOrganisme() method.
+     * Tests setOrganisme()
      *
      * @return void
      */
@@ -289,7 +289,7 @@ class LignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeDecla() method.
+     * Tests setPeriodeDecla()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -306,7 +306,7 @@ class LignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQualifiantCotis() method.
+     * Tests setQualifiantCotis()
      *
      * @return void
      */
@@ -319,7 +319,7 @@ class LignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSommeBase() method.
+     * Tests setSommeBase()
      *
      * @return void
      */
@@ -332,7 +332,7 @@ class LignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxAt() method.
+     * Tests setTauxAt()
      *
      * @return void
      */
@@ -345,7 +345,7 @@ class LignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxPatronal() method.
+     * Tests setTauxPatronal()
      *
      * @return void
      */
@@ -358,7 +358,7 @@ class LignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxSalarial() method.
+     * Tests setTauxSalarial()
      *
      * @return void
      */
@@ -371,7 +371,7 @@ class LignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeBaseUnique() method.
+     * Tests setTypeBaseUnique()
      *
      * @return void
      */
@@ -384,7 +384,7 @@ class LignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

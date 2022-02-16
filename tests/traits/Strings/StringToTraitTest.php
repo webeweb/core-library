@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringToTrait;
 class StringToTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setTo() method.
+     * Tests setTo()
      *
      * @return void
      */

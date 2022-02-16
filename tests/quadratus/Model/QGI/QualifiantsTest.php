@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class QualifiantsTest extends AbstractTestCase {
 
     /**
-     * Tests the setCode() method.
+     * Tests setCode()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class QualifiantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setColonne() method.
+     * Tests setColonne()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class QualifiantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setVisuAppels() method.
+     * Tests setVisuAppels()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class QualifiantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setVisuDocuments() method.
+     * Tests setVisuDocuments()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class QualifiantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setVisuEvenements() method.
+     * Tests setVisuEvenements()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class QualifiantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

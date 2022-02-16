@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringStateTrait;
 class StringStateTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setState() method.
+     * Tests setState()
      *
      * @return void
      */

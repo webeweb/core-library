@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AccesWebTest extends AbstractTestCase {
 
     /**
-     * Tests the setAccesAgenda() method.
+     * Tests setAccesAgenda()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAccesArticles() method.
+     * Tests setAccesArticles()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAccesArticlesConsommes() method.
+     * Tests setAccesArticlesConsommes()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAccesClients() method.
+     * Tests setAccesClients()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAccesClientsFavoris() method.
+     * Tests setAccesClientsFavoris()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAccesConsultation() method.
+     * Tests setAccesConsultation()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAccesDossierCabinet() method.
+     * Tests setAccesDossierCabinet()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAccesFacture() method.
+     * Tests setAccesFacture()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAccesIBureau() method.
+     * Tests setAccesIBureau()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAccesInterventions() method.
+     * Tests setAccesInterventions()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAccesListeCollab() method.
+     * Tests setAccesListeCollab()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAccesMessages() method.
+     * Tests setAccesMessages()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAccesNoteFrais() method.
+     * Tests setAccesNoteFrais()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAccesRepertoire() method.
+     * Tests setAccesRepertoire()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAccesSaisieCommande() method.
+     * Tests setAccesSaisieCommande()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAccesSaisieTp() method.
+     * Tests setAccesSaisieTp()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAccesSoldeCpta() method.
+     * Tests setAccesSoldeCpta()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAccesTableauxBord() method.
+     * Tests setAccesTableauxBord()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaborateur() method.
+     * Tests setCodeCollaborateur()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateActivation() method.
+     * Tests setDateActivation()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -289,7 +289,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateFin() method.
+     * Tests setDateFin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -306,7 +306,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDernTentative() method.
+     * Tests setDernTentative()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -323,7 +323,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDossCpta() method.
+     * Tests setDossCpta()
      *
      * @return void
      */
@@ -336,7 +336,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDossPaie() method.
+     * Tests setDossPaie()
      *
      * @return void
      */
@@ -349,7 +349,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDossProp() method.
+     * Tests setDossProp()
      *
      * @return void
      */
@@ -362,7 +362,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDupliqueIntervention() method.
+     * Tests setDupliqueIntervention()
      *
      * @return void
      */
@@ -375,7 +375,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMemeMdpQueIBureau() method.
+     * Tests setMemeMdpQueIBureau()
      *
      * @return void
      */
@@ -388,7 +388,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMotDePasse() method.
+     * Tests setMotDePasse()
      *
      * @return void
      */
@@ -401,7 +401,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRestrCliAssist1() method.
+     * Tests setRestrCliAssist1()
      *
      * @return void
      */
@@ -414,7 +414,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRestrCliAssist2() method.
+     * Tests setRestrCliAssist2()
      *
      * @return void
      */
@@ -427,7 +427,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRestrCliAutre1() method.
+     * Tests setRestrCliAutre1()
      *
      * @return void
      */
@@ -440,7 +440,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRestrCliAutre2() method.
+     * Tests setRestrCliAutre2()
      *
      * @return void
      */
@@ -453,7 +453,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRestrCliCollab() method.
+     * Tests setRestrCliCollab()
      *
      * @return void
      */
@@ -466,7 +466,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRestrCliDebut() method.
+     * Tests setRestrCliDebut()
      *
      * @return void
      */
@@ -479,7 +479,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRestrCliExpert() method.
+     * Tests setRestrCliExpert()
      *
      * @return void
      */
@@ -492,7 +492,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRestrCliFin() method.
+     * Tests setRestrCliFin()
      *
      * @return void
      */
@@ -505,7 +505,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRestrCliPortef() method.
+     * Tests setRestrCliPortef()
      *
      * @return void
      */
@@ -518,7 +518,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTentatives() method.
+     * Tests setTentatives()
      *
      * @return void
      */
@@ -531,7 +531,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setiKey() method.
+     * Tests setiKey()
      *
      * @return void
      */
@@ -544,7 +544,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class InfosComplBulTest extends AbstractTestCase {
 
     /**
-     * Tests the setActiveSalMinConv() method.
+     * Tests setActiveSalMinConv()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setActiveSmic() method.
+     * Tests setActiveSmic()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAenLogement() method.
+     * Tests setAenLogement()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAllegParticulierEmp() method.
+     * Tests setAllegParticulierEmp()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAnnexe7Mutation() method.
+     * Tests setAnnexe7Mutation()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setArbitrageAuto() method.
+     * Tests setArbitrageAuto()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAssietteAf() method.
+     * Tests setAssietteAf()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAutreAllegEmp() method.
+     * Tests setAutreAllegEmp()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBrutAlSansHSup() method.
+     * Tests setBrutAlSansHSup()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBrutAlSansHSupMajoHe() method.
+     * Tests setBrutAlSansHSupMajoHe()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBtq() method.
+     * Tests setBtq()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBureauDistributeur() method.
+     * Tests setBureauDistributeur()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCaisseCp() method.
+     * Tests setCaisseCp()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCategPopulation() method.
+     * Tests setCategPopulation()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCategSalarie() method.
+     * Tests setCategSalarie()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCddcdi() method.
+     * Tests setCddcdi()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCentreAnalytique() method.
+     * Tests setCentreAnalytique()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setClassification() method.
+     * Tests setClassification()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCaisseCp() method.
+     * Tests setCodeCaisseCp()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCaract() method.
+     * Tests setCodeCaract()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCategSalPourcentAbat() method.
+     * Tests setCodeCategSalPourcentAbat()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClassBtp() method.
+     * Tests setCodeClassBtp()
      *
      * @return void
      */
@@ -311,7 +311,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeContratTrav() method.
+     * Tests setCodeContratTrav()
      *
      * @return void
      */
@@ -324,7 +324,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeConvention() method.
+     * Tests setCodeConvention()
      *
      * @return void
      */
@@ -337,7 +337,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeConventionCol() method.
+     * Tests setCodeConventionCol()
      *
      * @return void
      */
@@ -350,7 +350,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEmpRemplace() method.
+     * Tests setCodeEmpRemplace()
      *
      * @return void
      */
@@ -363,7 +363,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeExoTrav() method.
+     * Tests setCodeExoTrav()
      *
      * @return void
      */
@@ -376,7 +376,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeIntitContratTrav() method.
+     * Tests setCodeIntitContratTrav()
      *
      * @return void
      */
@@ -389,7 +389,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeMetierBtp() method.
+     * Tests setCodeMetierBtp()
      *
      * @return void
      */
@@ -402,7 +402,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeOfficielCommune() method.
+     * Tests setCodeOfficielCommune()
      *
      * @return void
      */
@@ -415,7 +415,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePostal() method.
+     * Tests setCodePostal()
      *
      * @return void
      */
@@ -428,7 +428,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRegimeAt() method.
+     * Tests setCodeRegimeAt()
      *
      * @return void
      */
@@ -441,7 +441,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRegimeBaseObl() method.
+     * Tests setCodeRegimeBaseObl()
      *
      * @return void
      */
@@ -454,7 +454,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRegimeVieillesse() method.
+     * Tests setCodeRegimeVieillesse()
      *
      * @return void
      */
@@ -467,7 +467,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRetraiteComplementaire() method.
+     * Tests setCodeRetraiteComplementaire()
      *
      * @return void
      */
@@ -480,7 +480,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeSituAdmin() method.
+     * Tests setCodeSituAdmin()
      *
      * @return void
      */
@@ -493,7 +493,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeStatutCateg() method.
+     * Tests setCodeStatutCateg()
      *
      * @return void
      */
@@ -506,7 +506,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeStatutCategRetraite() method.
+     * Tests setCodeStatutCategRetraite()
      *
      * @return void
      */
@@ -519,7 +519,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeStatutPro() method.
+     * Tests setCodeStatutPro()
      *
      * @return void
      */
@@ -532,7 +532,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTuteur() method.
+     * Tests setCodeTuteur()
      *
      * @return void
      */
@@ -545,7 +545,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeUniteTempsTravail() method.
+     * Tests setCodeUniteTempsTravail()
      *
      * @return void
      */
@@ -558,7 +558,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCoeffConvention() method.
+     * Tests setCoeffConvention()
      *
      * @return void
      */
@@ -571,7 +571,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCoeffFillonMoins20() method.
+     * Tests setCoeffFillonMoins20()
      *
      * @return void
      */
@@ -584,7 +584,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setComplement() method.
+     * Tests setComplement()
      *
      * @return void
      */
@@ -597,7 +597,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setComplementPcs() method.
+     * Tests setComplementPcs()
      *
      * @return void
      */
@@ -610,7 +610,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setContratCne() method.
+     * Tests setContratCne()
      *
      * @return void
      */
@@ -623,7 +623,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBasePrevoyanceComp() method.
+     * Tests setCumBasePrevoyanceComp()
      *
      * @return void
      */
@@ -636,7 +636,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBaseRetraiteObli() method.
+     * Tests setCumBaseRetraiteObli()
      *
      * @return void
      */
@@ -649,7 +649,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBaseRetraiteSupp() method.
+     * Tests setCumBaseRetraiteSupp()
      *
      * @return void
      */
@@ -662,7 +662,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumMtForfaitSocial20() method.
+     * Tests setCumMtForfaitSocial20()
      *
      * @return void
      */
@@ -675,7 +675,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumMtForfaitSocial8() method.
+     * Tests setCumMtForfaitSocial8()
      *
      * @return void
      */
@@ -688,7 +688,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumPpFiscPrev() method.
+     * Tests setCumPpFiscPrev()
      *
      * @return void
      */
@@ -701,7 +701,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumPpFiscRet() method.
+     * Tests setCumPpFiscRet()
      *
      * @return void
      */
@@ -714,7 +714,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumPsFiscPrev() method.
+     * Tests setCumPsFiscPrev()
      *
      * @return void
      */
@@ -727,7 +727,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumPsFiscRet() method.
+     * Tests setCumPsFiscRet()
      *
      * @return void
      */
@@ -740,7 +740,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumSmicM() method.
+     * Tests setCumSmicM()
      *
      * @return void
      */
@@ -753,7 +753,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumTrD1Caisse1() method.
+     * Tests setCumTrD1Caisse1()
      *
      * @return void
      */
@@ -766,7 +766,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumTrD1caisse2() method.
+     * Tests setCumTrD1caisse2()
      *
      * @return void
      */
@@ -779,7 +779,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumTrD1caisse3() method.
+     * Tests setCumTrD1caisse3()
      *
      * @return void
      */
@@ -792,7 +792,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumTrDCaisse1() method.
+     * Tests setCumTrDCaisse1()
      *
      * @return void
      */
@@ -805,7 +805,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumTrDcaisse2() method.
+     * Tests setCumTrDcaisse2()
      *
      * @return void
      */
@@ -818,7 +818,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumTrDcaisse3() method.
+     * Tests setCumTrDcaisse3()
      *
      * @return void
      */
@@ -831,7 +831,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumTrancheD() method.
+     * Tests setCumTrancheD()
      *
      * @return void
      */
@@ -844,7 +844,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumTrancheD1() method.
+     * Tests setCumTrancheD1()
      *
      * @return void
      */
@@ -857,7 +857,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateAncienBranche() method.
+     * Tests setDateAncienBranche()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -874,7 +874,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateAncienCollege() method.
+     * Tests setDateAncienCollege()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -891,7 +891,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateAncienPoste() method.
+     * Tests setDateAncienPoste()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -908,7 +908,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateDebutChomCdd() method.
+     * Tests setDateDebutChomCdd()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -925,7 +925,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateDebutContrat() method.
+     * Tests setDateDebutContrat()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -942,7 +942,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateEnvoiMail() method.
+     * Tests setDateEnvoiMail()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -959,7 +959,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateFinChomCdd() method.
+     * Tests setDateFinChomCdd()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -976,7 +976,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateFinContrat() method.
+     * Tests setDateFinContrat()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -993,7 +993,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateFinPrev() method.
+     * Tests setDateFinPrev()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -1010,7 +1010,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateRachat() method.
+     * Tests setDateRachat()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -1027,7 +1027,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateRenouvCdd() method.
+     * Tests setDateRenouvCdd()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -1044,7 +1044,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateRenouvCdd2() method.
+     * Tests setDateRenouvCdd2()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -1061,7 +1061,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDetacheExpatrie() method.
+     * Tests setDetacheExpatrie()
      *
      * @return void
      */
@@ -1074,7 +1074,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEchelon() method.
+     * Tests setEchelon()
      *
      * @return void
      */
@@ -1087,7 +1087,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEchelonConventionCol() method.
+     * Tests setEchelonConventionCol()
      *
      * @return void
      */
@@ -1100,7 +1100,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmail() method.
+     * Tests setEmail()
      *
      * @return void
      */
@@ -1113,7 +1113,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmploi() method.
+     * Tests setEmploi()
      *
      * @return void
      */
@@ -1126,7 +1126,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtabLieuTravail() method.
+     * Tests setEtabLieuTravail()
      *
      * @return void
      */
@@ -1139,7 +1139,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setExclureChomCdd() method.
+     * Tests setExclureChomCdd()
      *
      * @return void
      */
@@ -1152,7 +1152,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setExclureCice() method.
+     * Tests setExclureCice()
      *
      * @return void
      */
@@ -1165,7 +1165,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setExclureCospar() method.
+     * Tests setExclureCospar()
      *
      * @return void
      */
@@ -1178,7 +1178,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setExclureDsn() method.
+     * Tests setExclureDsn()
      *
      * @return void
      */
@@ -1191,7 +1191,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setExclureLoiTepa() method.
+     * Tests setExclureLoiTepa()
      *
      * @return void
      */
@@ -1204,7 +1204,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setExclureLoiTepaPartP() method.
+     * Tests setExclureLoiTepaPartP()
      *
      * @return void
      */
@@ -1217,7 +1217,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setExclureLoiTepaPartS() method.
+     * Tests setExclureLoiTepaPartS()
      *
      * @return void
      */
@@ -1230,7 +1230,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setExclureQgc() method.
+     * Tests setExclureQgc()
      *
      * @return void
      */
@@ -1243,7 +1243,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setExoAccre17() method.
+     * Tests setExoAccre17()
      *
      * @return void
      */
@@ -1256,7 +1256,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setExoOccasionnelMsa() method.
+     * Tests setExoOccasionnelMsa()
      *
      * @return void
      */
@@ -1269,7 +1269,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setExoProfessionnalisation() method.
+     * Tests setExoProfessionnalisation()
      *
      * @return void
      */
@@ -1282,7 +1282,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setExoSpecif() method.
+     * Tests setExoSpecif()
      *
      * @return void
      */
@@ -1295,7 +1295,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setForfaitHeure() method.
+     * Tests setForfaitHeure()
      *
      * @return void
      */
@@ -1308,7 +1308,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFractionEtab() method.
+     * Tests setFractionEtab()
      *
      * @return void
      */
@@ -1321,7 +1321,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionCp() method.
+     * Tests setGestionCp()
      *
      * @return void
      */
@@ -1334,7 +1334,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionHstepa() method.
+     * Tests setGestionHstepa()
      *
      * @return void
      */
@@ -1347,7 +1347,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionMailBulletin() method.
+     * Tests setGestionMailBulletin()
      *
      * @return void
      */
@@ -1360,7 +1360,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionRtt() method.
+     * Tests setGestionRtt()
      *
      * @return void
      */
@@ -1373,7 +1373,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGrilleAnc1() method.
+     * Tests setGrilleAnc1()
      *
      * @return void
      */
@@ -1386,7 +1386,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGrilleAnc2() method.
+     * Tests setGrilleAnc2()
      *
      * @return void
      */
@@ -1399,7 +1399,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGrilleAnc3() method.
+     * Tests setGrilleAnc3()
      *
      * @return void
      */
@@ -1412,7 +1412,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIdLieuTravail() method.
+     * Tests setIdLieuTravail()
      *
      * @return void
      */
@@ -1425,7 +1425,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndemCpMsa() method.
+     * Tests setIndemCpMsa()
      *
      * @return void
      */
@@ -1438,7 +1438,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndice() method.
+     * Tests setIndice()
      *
      * @return void
      */
@@ -1451,7 +1451,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndiceCateg() method.
+     * Tests setIndiceCateg()
      *
      * @return void
      */
@@ -1464,7 +1464,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndicePeriode() method.
+     * Tests setIndicePeriode()
      *
      * @return void
      */
@@ -1477,7 +1477,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setInterimIndemCpFillon() method.
+     * Tests setInterimIndemCpFillon()
      *
      * @return void
      */
@@ -1490,7 +1490,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelleReintegration() method.
+     * Tests setLibelleReintegration()
      *
      * @return void
      */
@@ -1503,7 +1503,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLienReintegration() method.
+     * Tests setLienReintegration()
      *
      * @return void
      */
@@ -1516,7 +1516,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMaintienIntervientCp() method.
+     * Tests setMaintienIntervientCp()
      *
      * @return void
      */
@@ -1529,7 +1529,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMaintienSalaire() method.
+     * Tests setMaintienSalaire()
      *
      * @return void
      */
@@ -1542,7 +1542,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantAvantage() method.
+     * Tests setMontantAvantage()
      *
      * @return void
      */
@@ -1555,7 +1555,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMotifCdd() method.
+     * Tests setMotifCdd()
      *
      * @return void
      */
@@ -1568,7 +1568,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMotifExclusionDsn() method.
+     * Tests setMotifExclusionDsn()
      *
      * @return void
      */
@@ -1581,7 +1581,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtAbsActPart() method.
+     * Tests setMtAbsActPart()
      *
      * @return void
      */
@@ -1594,7 +1594,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtCotisationPrev() method.
+     * Tests setMtCotisationPrev()
      *
      * @return void
      */
@@ -1607,7 +1607,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtCotisationRetraite() method.
+     * Tests setMtCotisationRetraite()
      *
      * @return void
      */
@@ -1620,7 +1620,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtCrds100() method.
+     * Tests setMtCrds100()
      *
      * @return void
      */
@@ -1633,7 +1633,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtCsg100() method.
+     * Tests setMtCsg100()
      *
      * @return void
      */
@@ -1646,7 +1646,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtFiscFraisSante() method.
+     * Tests setMtFiscFraisSante()
      *
      * @return void
      */
@@ -1659,7 +1659,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtFiscPrev() method.
+     * Tests setMtFiscPrev()
      *
      * @return void
      */
@@ -1672,7 +1672,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtFiscRetraite() method.
+     * Tests setMtFiscRetraite()
      *
      * @return void
      */
@@ -1685,7 +1685,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtForfaitSocial20() method.
+     * Tests setMtForfaitSocial20()
      *
      * @return void
      */
@@ -1698,7 +1698,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtForfaitSocial8() method.
+     * Tests setMtForfaitSocial8()
      *
      * @return void
      */
@@ -1711,7 +1711,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtIap() method.
+     * Tests setMtIap()
      *
      * @return void
      */
@@ -1724,7 +1724,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtJourneeCpn() method.
+     * Tests setMtJourneeCpn()
      *
      * @return void
      */
@@ -1737,7 +1737,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtJourneeCpn1() method.
+     * Tests setMtJourneeCpn1()
      *
      * @return void
      */
@@ -1750,7 +1750,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMultiEmployeur() method.
+     * Tests setMultiEmployeur()
      *
      * @return void
      */
@@ -1763,7 +1763,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNatureAnalytique() method.
+     * Tests setNatureAnalytique()
      *
      * @return void
      */
@@ -1776,7 +1776,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNb30RenouvCdd() method.
+     * Tests setNb30RenouvCdd()
      *
      * @return void
      */
@@ -1789,7 +1789,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHActPart() method.
+     * Tests setNbHActPart()
      *
      * @return void
      */
@@ -1802,7 +1802,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHActPartIndem() method.
+     * Tests setNbHActPartIndem()
      *
      * @return void
      */
@@ -1815,7 +1815,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHBonifie() method.
+     * Tests setNbHBonifie()
      *
      * @return void
      */
@@ -1828,7 +1828,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHContingent() method.
+     * Tests setNbHContingent()
      *
      * @return void
      */
@@ -1841,7 +1841,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHContract() method.
+     * Tests setNbHContract()
      *
      * @return void
      */
@@ -1854,7 +1854,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHeureMois() method.
+     * Tests setNbHeureMois()
      *
      * @return void
      */
@@ -1867,7 +1867,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJourAnnee() method.
+     * Tests setNbJourAnnee()
      *
      * @return void
      */
@@ -1880,7 +1880,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJourCpAcquis() method.
+     * Tests setNbJourCpAcquis()
      *
      * @return void
      */
@@ -1893,7 +1893,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJourCpSup() method.
+     * Tests setNbJourCpSup()
      *
      * @return void
      */
@@ -1906,7 +1906,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbPieceLogement() method.
+     * Tests setNbPieceLogement()
      *
      * @return void
      */
@@ -1919,7 +1919,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNePasActiverPrimeAnnuelleProprete() method.
+     * Tests setNePasActiverPrimeAnnuelleProprete()
      *
      * @return void
      */
@@ -1932,7 +1932,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNePasPublierWeb() method.
+     * Tests setNePasPublierWeb()
      *
      * @return void
      */
@@ -1945,7 +1945,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNiveau() method.
+     * Tests setNiveau()
      *
      * @return void
      */
@@ -1958,7 +1958,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNiveauConventionCol() method.
+     * Tests setNiveauConventionCol()
      *
      * @return void
      */
@@ -1971,7 +1971,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomMarital() method.
+     * Tests setNomMarital()
      *
      * @return void
      */
@@ -1984,7 +1984,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomNaissance() method.
+     * Tests setNomNaissance()
      *
      * @return void
      */
@@ -1997,7 +1997,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomVille() method.
+     * Tests setNomVille()
      *
      * @return void
      */
@@ -2010,7 +2010,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomVoie() method.
+     * Tests setNomVoie()
      *
      * @return void
      */
@@ -2023,7 +2023,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumEvenement() method.
+     * Tests setNumEvenement()
      *
      * @return void
      */
@@ -2036,7 +2036,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumObjet() method.
+     * Tests setNumObjet()
      *
      * @return void
      */
@@ -2049,7 +2049,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumVoie() method.
+     * Tests setNumVoie()
      *
      * @return void
      */
@@ -2062,7 +2062,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumero() method.
+     * Tests setNumero()
      *
      * @return void
      */
@@ -2075,7 +2075,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroAbattementContratMsa() method.
+     * Tests setNumeroAbattementContratMsa()
      *
      * @return void
      */
@@ -2088,7 +2088,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroContrat() method.
+     * Tests setNumeroContrat()
      *
      * @return void
      */
@@ -2101,7 +2101,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroGrilleType() method.
+     * Tests setNumeroGrilleType()
      *
      * @return void
      */
@@ -2114,7 +2114,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPartPatronPrevForfaitSocial8() method.
+     * Tests setPartPatronPrevForfaitSocial8()
      *
      * @return void
      */
@@ -2127,7 +2127,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPasDeReintegration() method.
+     * Tests setPasDeReintegration()
      *
      * @return void
      */
@@ -2140,7 +2140,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPasGestionDif() method.
+     * Tests setPasGestionDif()
      *
      * @return void
      */
@@ -2153,7 +2153,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriode() method.
+     * Tests setPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -2170,7 +2170,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPosition() method.
+     * Tests setPosition()
      *
      * @return void
      */
@@ -2183,7 +2183,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPositionConventionCol() method.
+     * Tests setPositionConventionCol()
      *
      * @return void
      */
@@ -2196,7 +2196,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPourcentExo() method.
+     * Tests setPourcentExo()
      *
      * @return void
      */
@@ -2209,7 +2209,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPremDateEntree() method.
+     * Tests setPremDateEntree()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -2226,7 +2226,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrenom() method.
+     * Tests setPrenom()
      *
      * @return void
      */
@@ -2239,7 +2239,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPss1Force() method.
+     * Tests setPss1Force()
      *
      * @return void
      */
@@ -2252,7 +2252,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQualification() method.
+     * Tests setQualification()
      *
      * @return void
      */
@@ -2265,7 +2265,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setReductionFillon() method.
+     * Tests setReductionFillon()
      *
      * @return void
      */
@@ -2278,7 +2278,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRegleCalcul() method.
+     * Tests setRegleCalcul()
      *
      * @return void
      */
@@ -2291,7 +2291,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemunPartFillon() method.
+     * Tests setRemunPartFillon()
      *
      * @return void
      */
@@ -2304,7 +2304,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRtt1() method.
+     * Tests setRtt1()
      *
      * @return void
      */
@@ -2317,7 +2317,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRtt10() method.
+     * Tests setRtt10()
      *
      * @return void
      */
@@ -2330,7 +2330,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRtt11() method.
+     * Tests setRtt11()
      *
      * @return void
      */
@@ -2343,7 +2343,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRtt12() method.
+     * Tests setRtt12()
      *
      * @return void
      */
@@ -2356,7 +2356,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRtt2() method.
+     * Tests setRtt2()
      *
      * @return void
      */
@@ -2369,7 +2369,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRtt3() method.
+     * Tests setRtt3()
      *
      * @return void
      */
@@ -2382,7 +2382,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRtt4() method.
+     * Tests setRtt4()
      *
      * @return void
      */
@@ -2395,7 +2395,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRtt5() method.
+     * Tests setRtt5()
      *
      * @return void
      */
@@ -2408,7 +2408,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRtt6() method.
+     * Tests setRtt6()
      *
      * @return void
      */
@@ -2421,7 +2421,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRtt7() method.
+     * Tests setRtt7()
      *
      * @return void
      */
@@ -2434,7 +2434,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRtt8() method.
+     * Tests setRtt8()
      *
      * @return void
      */
@@ -2447,7 +2447,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRtt9() method.
+     * Tests setRtt9()
      *
      * @return void
      */
@@ -2460,7 +2460,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSalaireBase() method.
+     * Tests setSalaireBase()
      *
      * @return void
      */
@@ -2473,7 +2473,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSalaireReference() method.
+     * Tests setSalaireReference()
      *
      * @return void
      */
@@ -2486,7 +2486,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSalaireRetabliDsn() method.
+     * Tests setSalaireRetabliDsn()
      *
      * @return void
      */
@@ -2499,7 +2499,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSalaireRetabliDsnForce() method.
+     * Tests setSalaireRetabliDsnForce()
      *
      * @return void
      */
@@ -2512,7 +2512,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSansContrat() method.
+     * Tests setSansContrat()
      *
      * @return void
      */
@@ -2525,7 +2525,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setService() method.
+     * Tests setService()
      *
      * @return void
      */
@@ -2538,7 +2538,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSetpFillon() method.
+     * Tests setSetpFillon()
      *
      * @return void
      */
@@ -2551,7 +2551,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSigneAf() method.
+     * Tests setSigneAf()
      *
      * @return void
      */
@@ -2564,7 +2564,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSiretLieuTrav() method.
+     * Tests setSiretLieuTrav()
      *
      * @return void
      */
@@ -2577,7 +2577,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSmicMFillonSansHs() method.
+     * Tests setSmicMFillonSansHs()
      *
      * @return void
      */
@@ -2590,7 +2590,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSmicMaf() method.
+     * Tests setSmicMaf()
      *
      * @return void
      */
@@ -2603,7 +2603,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSmicMcice() method.
+     * Tests setSmicMcice()
      *
      * @return void
      */
@@ -2616,7 +2616,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSubrogation() method.
+     * Tests setSubrogation()
      *
      * @return void
      */
@@ -2629,7 +2629,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds59() method.
+     * Tests setTds59()
      *
      * @return void
      */
@@ -2642,7 +2642,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds76() method.
+     * Tests setTds76()
      *
      * @return void
      */
@@ -2655,7 +2655,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTel1() method.
+     * Tests setTel1()
      *
      * @return void
      */
@@ -2668,7 +2668,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTel2() method.
+     * Tests setTel2()
      *
      * @return void
      */
@@ -2681,7 +2681,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTepaMoins20() method.
+     * Tests setTepaMoins20()
      *
      * @return void
      */
@@ -2694,7 +2694,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTitre() method.
+     * Tests setTitre()
      *
      * @return void
      */
@@ -2707,7 +2707,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTotCotUrssaf() method.
+     * Tests setTotCotUrssaf()
      *
      * @return void
      */
@@ -2720,7 +2720,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrD1Caisse1() method.
+     * Tests setTrD1Caisse1()
      *
      * @return void
      */
@@ -2733,7 +2733,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrD1caisse2() method.
+     * Tests setTrD1caisse2()
      *
      * @return void
      */
@@ -2746,7 +2746,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrD1caisse3() method.
+     * Tests setTrD1caisse3()
      *
      * @return void
      */
@@ -2759,7 +2759,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrDCaisse1() method.
+     * Tests setTrDCaisse1()
      *
      * @return void
      */
@@ -2772,7 +2772,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrDcaisse2() method.
+     * Tests setTrDcaisse2()
      *
      * @return void
      */
@@ -2785,7 +2785,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrDcaisse3() method.
+     * Tests setTrDcaisse3()
      *
      * @return void
      */
@@ -2798,7 +2798,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrancheD() method.
+     * Tests setTrancheD()
      *
      * @return void
      */
@@ -2811,7 +2811,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrancheD1() method.
+     * Tests setTrancheD1()
      *
      * @return void
      */
@@ -2824,7 +2824,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeChomCdd() method.
+     * Tests setTypeChomCdd()
      *
      * @return void
      */
@@ -2837,7 +2837,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeContrat() method.
+     * Tests setTypeContrat()
      *
      * @return void
      */
@@ -2850,7 +2850,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeExoLodeom() method.
+     * Tests setTypeExoLodeom()
      *
      * @return void
      */
@@ -2863,7 +2863,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeHeFillon() method.
+     * Tests setTypeHeFillon()
      *
      * @return void
      */
@@ -2876,7 +2876,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeMaintienSalaire() method.
+     * Tests setTypeMaintienSalaire()
      *
      * @return void
      */
@@ -2889,7 +2889,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeReductionFillon() method.
+     * Tests setTypeReductionFillon()
      *
      * @return void
      */
@@ -2902,7 +2902,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeReductionMayotte() method.
+     * Tests setTypeReductionMayotte()
      *
      * @return void
      */
@@ -2915,7 +2915,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeSaisieAbCp() method.
+     * Tests setTypeSaisieAbCp()
      *
      * @return void
      */
@@ -2928,7 +2928,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeSaisieChomIntemp() method.
+     * Tests setTypeSaisieChomIntemp()
      *
      * @return void
      */
@@ -2941,7 +2941,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setVrpMulticarte() method.
+     * Tests setVrpMulticarte()
      *
      * @return void
      */
@@ -2954,7 +2954,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

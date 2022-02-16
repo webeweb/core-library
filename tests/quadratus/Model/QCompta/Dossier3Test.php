@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class Dossier3Test extends AbstractTestCase {
 
     /**
-     * Tests the setAchatVenteAutomate() method.
+     * Tests setAchatVenteAutomate()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAchatVenteLocalTva() method.
+     * Tests setAchatVenteLocalTva()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAchatVenteStopTva() method.
+     * Tests setAchatVenteStopTva()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBonsAPayer() method.
+     * Tests setBonsAPayer()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeIcs() method.
+     * Tests setCodeIcs()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeJournalRevision() method.
+     * Tests setCodeJournalRevision()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeJournalTransfImmo() method.
+     * Tests setCodeJournalTransfImmo()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompCliFrs() method.
+     * Tests setCompCliFrs()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteDebutAssurance() method.
+     * Tests setCompteDebutAssurance()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteDebutBail() method.
+     * Tests setCompteDebutBail()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteDebutCar() method.
+     * Tests setCompteDebutCar()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteDebutSubventions() method.
+     * Tests setCompteDebutSubventions()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteFinAssurance() method.
+     * Tests setCompteFinAssurance()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteFinBail() method.
+     * Tests setCompteFinBail()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteFinCar() method.
+     * Tests setCompteFinCar()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteFinSubventions() method.
+     * Tests setCompteFinSubventions()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteTvacar() method.
+     * Tests setCompteTvacar()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setConserveMoisRb() method.
+     * Tests setConserveMoisRb()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setControleEdition() method.
+     * Tests setControleEdition()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setControleExistEcr() method.
+     * Tests setControleExistEcr()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setControleRefTire() method.
+     * Tests setControleRefTire()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCptTransfImmoCommuns() method.
+     * Tests setCptTransfImmoCommuns()
      *
      * @return void
      */
@@ -311,7 +311,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateRevision() method.
+     * Tests setDateRevision()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -328,7 +328,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateTransfCb() method.
+     * Tests setDateTransfCb()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -345,7 +345,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateTransfCliDouteux() method.
+     * Tests setDateTransfCliDouteux()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -362,7 +362,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateTransfIntCourus() method.
+     * Tests setDateTransfIntCourus()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -379,7 +379,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateTransfIntExtournes() method.
+     * Tests setDateTransfIntExtournes()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -396,7 +396,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateTransfLf() method.
+     * Tests setDateTransfLf()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -413,7 +413,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateTransfProvCp() method.
+     * Tests setDateTransfProvCp()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -430,7 +430,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateTransfertEchCb() method.
+     * Tests setDateTransfertEchCb()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -447,7 +447,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateTransfertEchLf() method.
+     * Tests setDateTransfertEchLf()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -464,7 +464,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateTransfertEcheance() method.
+     * Tests setDateTransfertEcheance()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -481,7 +481,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDebutCalculImmo() method.
+     * Tests setDebutCalculImmo()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -498,7 +498,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDelaiRejetEffet() method.
+     * Tests setDelaiRejetEffet()
      *
      * @return void
      */
@@ -511,7 +511,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDetailCb() method.
+     * Tests setDetailCb()
      *
      * @return void
      */
@@ -524,7 +524,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDetailImmo() method.
+     * Tests setDetailImmo()
      *
      * @return void
      */
@@ -537,7 +537,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDotFrancCentime() method.
+     * Tests setDotFrancCentime()
      *
      * @return void
      */
@@ -550,7 +550,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEdi400() method.
+     * Tests setEdi400()
      *
      * @return void
      */
@@ -563,7 +563,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEditAnaContrepasse() method.
+     * Tests setEditAnaContrepasse()
      *
      * @return void
      */
@@ -576,7 +576,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFinCalculImmo() method.
+     * Tests setFinCalculImmo()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -593,7 +593,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFolioRevision() method.
+     * Tests setFolioRevision()
      *
      * @return void
      */
@@ -606,7 +606,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFolioTransfImmo() method.
+     * Tests setFolioTransfImmo()
      *
      * @return void
      */
@@ -619,7 +619,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionPmagClient() method.
+     * Tests setGestionPmagClient()
      *
      * @return void
      */
@@ -632,7 +632,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionTraitePapier() method.
+     * Tests setGestionTraitePapier()
      *
      * @return void
      */
@@ -645,7 +645,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionVirementFrn() method.
+     * Tests setGestionVirementFrn()
      *
      * @return void
      */
@@ -658,7 +658,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setImmoDetailLignes() method.
+     * Tests setImmoDetailLignes()
      *
      * @return void
      */
@@ -671,7 +671,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setImmoDetailParCpt() method.
+     * Tests setImmoDetailParCpt()
      *
      * @return void
      */
@@ -684,7 +684,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setImmoEditEnsemble() method.
+     * Tests setImmoEditEnsemble()
      *
      * @return void
      */
@@ -697,7 +697,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setImmoJoursParAn() method.
+     * Tests setImmoJoursParAn()
      *
      * @return void
      */
@@ -710,7 +710,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setImmoSsTotImmo() method.
+     * Tests setImmoSsTotImmo()
      *
      * @return void
      */
@@ -723,7 +723,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setImmoTotParCompte() method.
+     * Tests setImmoTotParCompte()
      *
      * @return void
      */
@@ -736,7 +736,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setImmoTransfertForfaitVersReel() method.
+     * Tests setImmoTransfertForfaitVersReel()
      *
      * @return void
      */
@@ -749,7 +749,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setImmoTriAnalytique() method.
+     * Tests setImmoTriAnalytique()
      *
      * @return void
      */
@@ -762,7 +762,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setImmoTriParDate() method.
+     * Tests setImmoTriParDate()
      *
      * @return void
      */
@@ -775,7 +775,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setImmoTriParService() method.
+     * Tests setImmoTriParService()
      *
      * @return void
      */
@@ -788,7 +788,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setImmoTypeLiasse() method.
+     * Tests setImmoTypeLiasse()
      *
      * @return void
      */
@@ -801,7 +801,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIsClientExp() method.
+     * Tests setIsClientExp()
      *
      * @return void
      */
@@ -814,7 +814,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLettrePvautBo() method.
+     * Tests setLettrePvautBo()
      *
      * @return void
      */
@@ -827,7 +827,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibVariable1() method.
+     * Tests setLibVariable1()
      *
      * @return void
      */
@@ -840,7 +840,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibVariable2() method.
+     * Tests setLibVariable2()
      *
      * @return void
      */
@@ -853,7 +853,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibVariable3() method.
+     * Tests setLibVariable3()
      *
      * @return void
      */
@@ -866,7 +866,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMiseEnPortefeuilleBicF() method.
+     * Tests setMiseEnPortefeuilleBicF()
      *
      * @return void
      */
@@ -879,7 +879,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMiseEnPortefeuilleDomF() method.
+     * Tests setMiseEnPortefeuilleDomF()
      *
      * @return void
      */
@@ -892,7 +892,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMiseEnPortefeuilleIbanF() method.
+     * Tests setMiseEnPortefeuilleIbanF()
      *
      * @return void
      */
@@ -905,7 +905,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMiseEnPortefeuilleRibF() method.
+     * Tests setMiseEnPortefeuilleRibF()
      *
      * @return void
      */
@@ -918,7 +918,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMultiEchClient() method.
+     * Tests setMultiEchClient()
      *
      * @return void
      */
@@ -931,7 +931,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMultiEchFrn() method.
+     * Tests setMultiEchFrn()
      *
      * @return void
      */
@@ -944,7 +944,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMultiEchParCodeLibAuto() method.
+     * Tests setMultiEchParCodeLibAuto()
      *
      * @return void
      */
@@ -957,7 +957,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNePlusAfficher() method.
+     * Tests setNePlusAfficher()
      *
      * @return void
      */
@@ -970,7 +970,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNivTriAnalytique() method.
+     * Tests setNivTriAnalytique()
      *
      * @return void
      */
@@ -983,7 +983,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNivTriBureau() method.
+     * Tests setNivTriBureau()
      *
      * @return void
      */
@@ -996,7 +996,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNivTriFamille() method.
+     * Tests setNivTriFamille()
      *
      * @return void
      */
@@ -1009,7 +1009,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNivTriNat() method.
+     * Tests setNivTriNat()
      *
      * @return void
      */
@@ -1022,7 +1022,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNivTriService() method.
+     * Tests setNivTriService()
      *
      * @return void
      */
@@ -1035,7 +1035,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNivTriSite() method.
+     * Tests setNivTriSite()
      *
      * @return void
      */
@@ -1048,7 +1048,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNivTriZl1() method.
+     * Tests setNivTriZl1()
      *
      * @return void
      */
@@ -1061,7 +1061,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNivTriZl2() method.
+     * Tests setNivTriZl2()
      *
      * @return void
      */
@@ -1074,7 +1074,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNivTriZl3() method.
+     * Tests setNivTriZl3()
      *
      * @return void
      */
@@ -1087,7 +1087,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomLettreP() method.
+     * Tests setNomLettreP()
      *
      * @return void
      */
@@ -1100,7 +1100,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomLettrePc() method.
+     * Tests setNomLettrePc()
      *
      * @return void
      */
@@ -1113,7 +1113,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumChronoBo() method.
+     * Tests setNumChronoBo()
      *
      * @return void
      */
@@ -1126,7 +1126,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLotCliDouteux() method.
+     * Tests setNumLotCliDouteux()
      *
      * @return void
      */
@@ -1139,7 +1139,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLotEcritTransAssurance() method.
+     * Tests setNumLotEcritTransAssurance()
      *
      * @return void
      */
@@ -1152,7 +1152,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLotEcritTransBaux() method.
+     * Tests setNumLotEcritTransBaux()
      *
      * @return void
      */
@@ -1165,7 +1165,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLotEcritTransCar() method.
+     * Tests setNumLotEcritTransCar()
      *
      * @return void
      */
@@ -1178,7 +1178,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLotEcritTransPeriodicite() method.
+     * Tests setNumLotEcritTransPeriodicite()
      *
      * @return void
      */
@@ -1191,7 +1191,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLotEcritTransSubventions() method.
+     * Tests setNumLotEcritTransSubventions()
      *
      * @return void
      */
@@ -1204,7 +1204,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLotEcritTransfCb() method.
+     * Tests setNumLotEcritTransfCb()
      *
      * @return void
      */
@@ -1217,7 +1217,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLotEcritTransfImmo() method.
+     * Tests setNumLotEcritTransfImmo()
      *
      * @return void
      */
@@ -1230,7 +1230,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLotEcritTransfLf() method.
+     * Tests setNumLotEcritTransfLf()
      *
      * @return void
      */
@@ -1243,7 +1243,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLotIntCourus() method.
+     * Tests setNumLotIntCourus()
      *
      * @return void
      */
@@ -1256,7 +1256,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLotIntExtournes() method.
+     * Tests setNumLotIntExtournes()
      *
      * @return void
      */
@@ -1269,7 +1269,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLotProvCp() method.
+     * Tests setNumLotProvCp()
      *
      * @return void
      */
@@ -1282,7 +1282,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOptionImportMvtRb() method.
+     * Tests setOptionImportMvtRb()
      *
      * @return void
      */
@@ -1295,7 +1295,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeRevision() method.
+     * Tests setPeriodeRevision()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -1312,7 +1312,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeTransfImmo() method.
+     * Tests setPeriodeTransfImmo()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -1329,7 +1329,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodiciteUtiliserLibelle() method.
+     * Tests setPeriodiciteUtiliserLibelle()
      *
      * @return void
      */
@@ -1342,7 +1342,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProchainLotLcr() method.
+     * Tests setProchainLotLcr()
      *
      * @return void
      */
@@ -1355,7 +1355,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProchainLotLettreP() method.
+     * Tests setProchainLotLettreP()
      *
      * @return void
      */
@@ -1368,7 +1368,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProchainLotTraite() method.
+     * Tests setProchainLotTraite()
      *
      * @return void
      */
@@ -1381,7 +1381,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProchainNumCb() method.
+     * Tests setProchainNumCb()
      *
      * @return void
      */
@@ -1394,7 +1394,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProchainNumImmo() method.
+     * Tests setProchainNumImmo()
      *
      * @return void
      */
@@ -1407,7 +1407,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProchainNumLf() method.
+     * Tests setProchainNumLf()
      *
      * @return void
      */
@@ -1420,7 +1420,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProchainNumPj() method.
+     * Tests setProchainNumPj()
      *
      * @return void
      */
@@ -1433,7 +1433,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRacineImportMvtRb() method.
+     * Tests setRacineImportMvtRb()
      *
      * @return void
      */
@@ -1446,7 +1446,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRebutVautCession() method.
+     * Tests setRebutVautCession()
      *
      * @return void
      */
@@ -1459,7 +1459,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRefRemiseLcr() method.
+     * Tests setRefRemiseLcr()
      *
      * @return void
      */
@@ -1472,7 +1472,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRefVirementFrn() method.
+     * Tests setRefVirementFrn()
      *
      * @return void
      */
@@ -1485,7 +1485,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRegroupFourCptEch() method.
+     * Tests setRegroupFourCptEch()
      *
      * @return void
      */
@@ -1498,7 +1498,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRepAss() method.
+     * Tests setRepAss()
      *
      * @return void
      */
@@ -1511,7 +1511,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRepBudget() method.
+     * Tests setRepBudget()
      *
      * @return void
      */
@@ -1524,7 +1524,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRepCar() method.
+     * Tests setRepCar()
      *
      * @return void
      */
@@ -1537,7 +1537,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRepCb() method.
+     * Tests setRepCb()
      *
      * @return void
      */
@@ -1550,7 +1550,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRepCl() method.
+     * Tests setRepCl()
      *
      * @return void
      */
@@ -1563,7 +1563,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRepComptaGen() method.
+     * Tests setRepComptaGen()
      *
      * @return void
      */
@@ -1576,7 +1576,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRepDecTva() method.
+     * Tests setRepDecTva()
      *
      * @return void
      */
@@ -1589,7 +1589,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRepDosRev() method.
+     * Tests setRepDosRev()
      *
      * @return void
      */
@@ -1602,7 +1602,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRepEmprunts() method.
+     * Tests setRepEmprunts()
      *
      * @return void
      */
@@ -1615,7 +1615,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRepEs() method.
+     * Tests setRepEs()
      *
      * @return void
      */
@@ -1628,7 +1628,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRepImmo() method.
+     * Tests setRepImmo()
      *
      * @return void
      */
@@ -1641,7 +1641,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRepLocFi() method.
+     * Tests setRepLocFi()
      *
      * @return void
      */
@@ -1654,7 +1654,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRepPartielle() method.
+     * Tests setRepPartielle()
      *
      * @return void
      */
@@ -1667,7 +1667,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRepSubv() method.
+     * Tests setRepSubv()
      *
      * @return void
      */
@@ -1680,7 +1680,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRepVmp() method.
+     * Tests setRepVmp()
      *
      * @return void
      */
@@ -1693,7 +1693,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRevisSoldeEnEuro() method.
+     * Tests setRevisSoldeEnEuro()
      *
      * @return void
      */
@@ -1706,7 +1706,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRevisVoirSoldeEx() method.
+     * Tests setRevisVoirSoldeEx()
      *
      * @return void
      */
@@ -1719,7 +1719,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSaisieCaisse() method.
+     * Tests setSaisieCaisse()
      *
      * @return void
      */
@@ -1732,7 +1732,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSaisieNumPiece() method.
+     * Tests setSaisieNumPiece()
      *
      * @return void
      */
@@ -1745,7 +1745,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSauverPeriodicite() method.
+     * Tests setSauverPeriodicite()
      *
      * @return void
      */
@@ -1758,7 +1758,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSuiviAuxClient() method.
+     * Tests setSuiviAuxClient()
      *
      * @return void
      */
@@ -1771,7 +1771,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSuiviAuxFrn() method.
+     * Tests setSuiviAuxFrn()
      *
      * @return void
      */
@@ -1784,7 +1784,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSuiviDevises() method.
+     * Tests setSuiviDevises()
      *
      * @return void
      */
@@ -1797,7 +1797,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTransfertImmoOk() method.
+     * Tests setTransfertImmoOk()
      *
      * @return void
      */
@@ -1810,7 +1810,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypePmagClient() method.
+     * Tests setTypePmagClient()
      *
      * @return void
      */
@@ -1823,7 +1823,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeTransfertImmo() method.
+     * Tests setTypeTransfertImmo()
      *
      * @return void
      */
@@ -1836,7 +1836,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeTransfertTiers() method.
+     * Tests setTypeTransfertTiers()
      *
      * @return void
      */
@@ -1849,7 +1849,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeTransfertTiersF() method.
+     * Tests setTypeTransfertTiersF()
      *
      * @return void
      */
@@ -1862,7 +1862,7 @@ class Dossier3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

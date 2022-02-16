@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class FichesConfidentialitesMenusTest extends AbstractTestCase {
 
     /**
-     * Tests the setCode() method.
+     * Tests setCode()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDroitAjout() method.
+     * Tests setDroitAjout()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDroitModification() method.
+     * Tests setDroitModification()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDroitSuppression() method.
+     * Tests setDroitSuppression()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndex() method.
+     * Tests setIndex()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndexDuPereNo1() method.
+     * Tests setIndexDuPereNo1()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndexDuPereNo2() method.
+     * Tests setIndexDuPereNo2()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndexDuPereNo3() method.
+     * Tests setIndexDuPereNo3()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndexDuPereNo4() method.
+     * Tests setIndexDuPereNo4()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndexDuPereNo5() method.
+     * Tests setIndexDuPereNo5()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndexDuPereNo6() method.
+     * Tests setIndexDuPereNo6()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndexDuPereNo7() method.
+     * Tests setIndexDuPereNo7()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelleMenu() method.
+     * Tests setLibelleMenu()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMenuVisible() method.
+     * Tests setMenuVisible()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMotDePasse() method.
+     * Tests setMotDePasse()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNiveauLigne() method.
+     * Tests setNiveauLigne()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomDuPereNo1() method.
+     * Tests setNomDuPereNo1()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomDuPereNo2() method.
+     * Tests setNomDuPereNo2()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomDuPereNo3() method.
+     * Tests setNomDuPereNo3()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomDuPereNo4() method.
+     * Tests setNomDuPereNo4()
      *
      * @return void
      */
@@ -283,7 +283,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomDuPereNo5() method.
+     * Tests setNomDuPereNo5()
      *
      * @return void
      */
@@ -296,7 +296,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomDuPereNo6() method.
+     * Tests setNomDuPereNo6()
      *
      * @return void
      */
@@ -309,7 +309,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomDuPereNo7() method.
+     * Tests setNomDuPereNo7()
      *
      * @return void
      */
@@ -322,7 +322,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomMenu() method.
+     * Tests setNomMenu()
      *
      * @return void
      */
@@ -335,7 +335,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeSelection() method.
+     * Tests setTypeSelection()
      *
      * @return void
      */
@@ -348,7 +348,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DevisCommercialLignesTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeAffaire() method.
+     * Tests setCodeAffaire()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAffaireLigne() method.
+     * Tests setCodeAffaireLigne()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAnalArticle() method.
+     * Tests setCodeAnalArticle()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeArticle() method.
+     * Tests setCodeArticle()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeChantier() method.
+     * Tests setCodeChantier()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeChantierLigne() method.
+     * Tests setCodeChantierLigne()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRegroupement() method.
+     * Tests setCodeRegroupement()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTvaArticle() method.
+     * Tests setCodeTvaArticle()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeUnite() method.
+     * Tests setCodeUnite()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeVentilArticle() method.
+     * Tests setCodeVentilArticle()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDepuisDebFac() method.
+     * Tests setDepuisDebFac()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDesignation() method.
+     * Tests setDesignation()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDesignation2() method.
+     * Tests setDesignation2()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDesignation3() method.
+     * Tests setDesignation3()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDesignationBis() method.
+     * Tests setDesignationBis()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDesignationBis2() method.
+     * Tests setDesignationBis2()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDesignationBis3() method.
+     * Tests setDesignationBis3()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDesignationRtf() method.
+     * Tests setDesignationRtf()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setImprimerDansPied() method.
+     * Tests setImprimerDansPied()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantUnitaireTaxe() method.
+     * Tests setMontantUnitaireTaxe()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMotCleDansPied() method.
+     * Tests setMotCleDansPied()
      *
      * @return void
      */
@@ -311,7 +311,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroDevis() method.
+     * Tests setNumeroDevis()
      *
      * @return void
      */
@@ -324,7 +324,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroLigne() method.
+     * Tests setNumeroLigne()
      *
      * @return void
      */
@@ -337,7 +337,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeVentilMarge() method.
+     * Tests setPeriodeVentilMarge()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -354,7 +354,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPosteRent() method.
+     * Tests setPosteRent()
      *
      * @return void
      */
@@ -367,7 +367,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrixAchat() method.
+     * Tests setPrixAchat()
      *
      * @return void
      */
@@ -380,7 +380,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrixUnitaire() method.
+     * Tests setPrixUnitaire()
      *
      * @return void
      */
@@ -393,7 +393,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPxDevis() method.
+     * Tests setPxDevis()
      *
      * @return void
      */
@@ -406,7 +406,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQuantite() method.
+     * Tests setQuantite()
      *
      * @return void
      */
@@ -419,7 +419,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemiseLigne1() method.
+     * Tests setRemiseLigne1()
      *
      * @return void
      */
@@ -432,7 +432,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemiseLigne2() method.
+     * Tests setRemiseLigne2()
      *
      * @return void
      */
@@ -445,7 +445,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemiseLigne3() method.
+     * Tests setRemiseLigne3()
      *
      * @return void
      */
@@ -458,7 +458,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxTvaArticle() method.
+     * Tests setTauxTvaArticle()
      *
      * @return void
      */
@@ -471,7 +471,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxTvaTaxe() method.
+     * Tests setTauxTvaTaxe()
      *
      * @return void
      */
@@ -484,7 +484,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setVentilMarge() method.
+     * Tests setVentilMarge()
      *
      * @return void
      */
@@ -497,7 +497,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

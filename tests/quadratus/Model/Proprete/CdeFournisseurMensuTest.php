@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class CdeFournisseurMensuTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeAffaire() method.
+     * Tests setCodeAffaire()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeArticle() method.
+     * Tests setCodeArticle()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeChantier() method.
+     * Tests setCodeChantier()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaborateur() method.
+     * Tests setCodeCollaborateur()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeFournisseur() method.
+     * Tests setCodeFournisseur()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeInspecteur() method.
+     * Tests setCodeInspecteur()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeLivraison() method.
+     * Tests setCodeLivraison()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeLivreur() method.
+     * Tests setCodeLivreur()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCommandeIsolee() method.
+     * Tests setCommandeIsolee()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCritereTexte1() method.
+     * Tests setCritereTexte1()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateLivraison() method.
+     * Tests setDateLivraison()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -185,7 +185,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateTransfert() method.
+     * Tests setDateTransfert()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -202,7 +202,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDesignation() method.
+     * Tests setDesignation()
      *
      * @return void
      */
@@ -215,7 +215,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDesignation2() method.
+     * Tests setDesignation2()
      *
      * @return void
      */
@@ -228,7 +228,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDesignation3() method.
+     * Tests setDesignation3()
      *
      * @return void
      */
@@ -241,7 +241,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFromCdeType() method.
+     * Tests setFromCdeType()
      *
      * @return void
      */
@@ -254,7 +254,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMajStockByDa() method.
+     * Tests setMajStockByDa()
      *
      * @return void
      */
@@ -267,7 +267,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNoBonInt() method.
+     * Tests setNoBonInt()
      *
      * @return void
      */
@@ -280,7 +280,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNoPieceCde() method.
+     * Tests setNoPieceCde()
      *
      * @return void
      */
@@ -293,7 +293,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNoPieceCdeCli() method.
+     * Tests setNoPieceCdeCli()
      *
      * @return void
      */
@@ -306,7 +306,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroBsGenere() method.
+     * Tests setNumeroBsGenere()
      *
      * @return void
      */
@@ -319,7 +319,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroLigne() method.
+     * Tests setNumeroLigne()
      *
      * @return void
      */
@@ -332,7 +332,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriode() method.
+     * Tests setPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -349,7 +349,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPosteRent() method.
+     * Tests setPosteRent()
      *
      * @return void
      */
@@ -362,7 +362,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrixSaisi() method.
+     * Tests setPrixSaisi()
      *
      * @return void
      */
@@ -375,7 +375,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPuBrut() method.
+     * Tests setPuBrut()
      *
      * @return void
      */
@@ -388,7 +388,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQuantite() method.
+     * Tests setQuantite()
      *
      * @return void
      */
@@ -401,7 +401,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQuantiteBs() method.
+     * Tests setQuantiteBs()
      *
      * @return void
      */
@@ -414,7 +414,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQuantiteCde() method.
+     * Tests setQuantiteCde()
      *
      * @return void
      */
@@ -427,7 +427,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQuantiteCdeCli() method.
+     * Tests setQuantiteCdeCli()
      *
      * @return void
      */
@@ -440,7 +440,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQuantiteLiv() method.
+     * Tests setQuantiteLiv()
      *
      * @return void
      */
@@ -453,7 +453,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemise1() method.
+     * Tests setRemise1()
      *
      * @return void
      */
@@ -466,7 +466,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemise2() method.
+     * Tests setRemise2()
      *
      * @return void
      */
@@ -479,7 +479,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemise3() method.
+     * Tests setRemise3()
      *
      * @return void
      */
@@ -492,7 +492,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeGestion() method.
+     * Tests setTypeGestion()
      *
      * @return void
      */
@@ -505,7 +505,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypePiece() method.
+     * Tests setTypePiece()
      *
      * @return void
      */
@@ -518,7 +518,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniqIdBlocage() method.
+     * Tests setUniqIdBlocage()
      *
      * @return void
      */
@@ -531,7 +531,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setValidee() method.
+     * Tests setValidee()
      *
      * @return void
      */
@@ -544,7 +544,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

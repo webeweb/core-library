@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DetailChargesTest extends AbstractTestCase {
 
     /**
-     * Tests the setCommentaire() method.
+     * Tests setCommentaire()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class DetailChargesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontant() method.
+     * Tests setMontant()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class DetailChargesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLigne() method.
+     * Tests setNumLigne()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class DetailChargesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniqId() method.
+     * Tests setUniqId()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class DetailChargesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

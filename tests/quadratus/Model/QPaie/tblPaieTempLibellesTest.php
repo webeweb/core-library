@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class tblPaieTempLibellesTest extends AbstractTestCase {
 
     /**
-     * Tests the setCode() method.
+     * Tests setCode()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class tblPaieTempLibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCalcul() method.
+     * Tests setCodeCalcul()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class tblPaieTempLibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule() method.
+     * Tests setIntitule()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class tblPaieTempLibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class tblPaieTempLibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

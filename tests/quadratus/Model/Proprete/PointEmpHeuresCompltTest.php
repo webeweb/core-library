@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class PointEmpHeuresCompltTest extends AbstractTestCase {
 
     /**
-     * Tests the setAFacturer() method.
+     * Tests setAFacturer()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class PointEmpHeuresCompltTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAffaire() method.
+     * Tests setCodeAffaire()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class PointEmpHeuresCompltTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeChantier() method.
+     * Tests setCodeChantier()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class PointEmpHeuresCompltTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class PointEmpHeuresCompltTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEmploye() method.
+     * Tests setCodeEmploye()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class PointEmpHeuresCompltTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTache() method.
+     * Tests setCodeTache()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class PointEmpHeuresCompltTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDate() method.
+     * Tests setDate()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class PointEmpHeuresCompltTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHeureCompl() method.
+     * Tests setHeureCompl()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -137,7 +137,7 @@ class PointEmpHeuresCompltTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHeureComplNuit() method.
+     * Tests setHeureComplNuit()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -154,7 +154,7 @@ class PointEmpHeuresCompltTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumBt() method.
+     * Tests setNumBt()
      *
      * @return void
      */
@@ -167,7 +167,7 @@ class PointEmpHeuresCompltTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeHeure() method.
+     * Tests setTypeHeure()
      *
      * @return void
      */
@@ -180,7 +180,7 @@ class PointEmpHeuresCompltTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

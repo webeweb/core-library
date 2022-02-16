@@ -24,7 +24,7 @@ use WBW\Library\OcrLad\Tests\Fixtures\Provider\TestOcrProviderTrait;
 class OcrProviderTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setOcrProvider() method.
+     * Tests setOcrProvider()
      *
      * @return void
      */

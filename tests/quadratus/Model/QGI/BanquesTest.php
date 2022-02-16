@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class BanquesTest extends AbstractTestCase {
 
     /**
-     * Tests the setBic() method.
+     * Tests setBic()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class BanquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeBanque() method.
+     * Tests setCodeBanque()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class BanquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class BanquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCommentaire() method.
+     * Tests setCommentaire()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class BanquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEdiTdfc() method.
+     * Tests setEdiTdfc()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class BanquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIban() method.
+     * Tests setIban()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class BanquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIdCarteAppelEnv() method.
+     * Tests setIdCarteAppelEnv()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class BanquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIdCarteAppelEnv2() method.
+     * Tests setIdCarteAppelEnv2()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class BanquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIdCarteAppelEnv3() method.
+     * Tests setIdCarteAppelEnv3()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class BanquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIdCarteAppelRec() method.
+     * Tests setIdCarteAppelRec()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class BanquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIsBanqueFact() method.
+     * Tests setIsBanqueFact()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class BanquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMandatDateDebutEtebac() method.
+     * Tests setMandatDateDebutEtebac()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -185,7 +185,7 @@ class BanquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMandatDureeEtebac() method.
+     * Tests setMandatDureeEtebac()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class BanquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMandatPieceJointeEtebac() method.
+     * Tests setMandatPieceJointeEtebac()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class BanquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbPrelevements() method.
+     * Tests setNbPrelevements()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class BanquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomInt() method.
+     * Tests setNomInt()
      *
      * @return void
      */
@@ -237,7 +237,7 @@ class BanquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumero() method.
+     * Tests setNumero()
      *
      * @return void
      */
@@ -250,7 +250,7 @@ class BanquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRib() method.
+     * Tests setRib()
      *
      * @return void
      */
@@ -263,7 +263,7 @@ class BanquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSepa() method.
+     * Tests setSepa()
      *
      * @return void
      */
@@ -276,7 +276,7 @@ class BanquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setType() method.
+     * Tests setType()
      *
      * @return void
      */
@@ -289,7 +289,7 @@ class BanquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniqId() method.
+     * Tests setUniqId()
      *
      * @return void
      */
@@ -302,7 +302,7 @@ class BanquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class SubventionsLignesTest extends AbstractTestCase {
 
     /**
-     * Tests the setAnnee() method.
+     * Tests setAnnee()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class SubventionsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantRestant() method.
+     * Tests setMontantRestant()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class SubventionsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantVir() method.
+     * Tests setMontantVir()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class SubventionsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumContrat() method.
+     * Tests setNumContrat()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class SubventionsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumCptSubvention() method.
+     * Tests setNumCptSubvention()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class SubventionsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLigne() method.
+     * Tests setNumLigne()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class SubventionsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

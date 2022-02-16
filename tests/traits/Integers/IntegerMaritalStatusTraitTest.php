@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Integers\TestIntegerMaritalStatusTrait;
 class IntegerMaritalStatusTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setMaritalStatus() method.
+     * Tests setMaritalStatus()
      *
      * @return void
      */

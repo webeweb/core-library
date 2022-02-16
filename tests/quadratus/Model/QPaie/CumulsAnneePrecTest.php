@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class CumulsAnneePrecTest extends AbstractTestCase {
 
     /**
-     * Tests the setAnnee() method.
+     * Tests setAnnee()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCum30Ss() method.
+     * Tests setCum30Ss()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBaseCsg() method.
+     * Tests setCumBaseCsg()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBaseGmp() method.
+     * Tests setCumBaseGmp()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBaseSs() method.
+     * Tests setCumBaseSs()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBaseTr2() method.
+     * Tests setCumBaseTr2()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBaseTrA() method.
+     * Tests setCumBaseTrA()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBaseTrACaisse1() method.
+     * Tests setCumBaseTrACaisse1()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBaseTrACaisse2() method.
+     * Tests setCumBaseTrACaisse2()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBaseTrACaisse3() method.
+     * Tests setCumBaseTrACaisse3()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBaseTrB() method.
+     * Tests setCumBaseTrB()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBaseTrBCaisse1() method.
+     * Tests setCumBaseTrBCaisse1()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBaseTrBCaisse2() method.
+     * Tests setCumBaseTrBCaisse2()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBaseTrBCaisse3() method.
+     * Tests setCumBaseTrBCaisse3()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBaseTrC() method.
+     * Tests setCumBaseTrC()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBaseTrCCaisse1() method.
+     * Tests setCumBaseTrCCaisse1()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBaseTrCCaisse2() method.
+     * Tests setCumBaseTrCCaisse2()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBaseTrCCaisse3() method.
+     * Tests setCumBaseTrCCaisse3()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBaseTrD() method.
+     * Tests setCumBaseTrD()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBaseTrD1() method.
+     * Tests setCumBaseTrD1()
      *
      * @return void
      */
@@ -283,7 +283,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBaseTrD1Caisse1() method.
+     * Tests setCumBaseTrD1Caisse1()
      *
      * @return void
      */
@@ -296,7 +296,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBaseTrD1Caisse2() method.
+     * Tests setCumBaseTrD1Caisse2()
      *
      * @return void
      */
@@ -309,7 +309,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBaseTrD1Caisse3() method.
+     * Tests setCumBaseTrD1Caisse3()
      *
      * @return void
      */
@@ -322,7 +322,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBaseTrDCaisse1() method.
+     * Tests setCumBaseTrDCaisse1()
      *
      * @return void
      */
@@ -335,7 +335,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBaseTrDCaisse2() method.
+     * Tests setCumBaseTrDCaisse2()
      *
      * @return void
      */
@@ -348,7 +348,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBaseTrDCaisse3() method.
+     * Tests setCumBaseTrDCaisse3()
      *
      * @return void
      */
@@ -361,7 +361,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBrutAbatNonLim() method.
+     * Tests setCumBrutAbatNonLim()
      *
      * @return void
      */
@@ -374,7 +374,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBrutAl() method.
+     * Tests setCumBrutAl()
      *
      * @return void
      */
@@ -387,7 +387,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBrutAlSansSi() method.
+     * Tests setCumBrutAlSansSi()
      *
      * @return void
      */
@@ -400,7 +400,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBrutCaisse1() method.
+     * Tests setCumBrutCaisse1()
      *
      * @return void
      */
@@ -413,7 +413,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBrutCaisse2() method.
+     * Tests setCumBrutCaisse2()
      *
      * @return void
      */
@@ -426,7 +426,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBrutCaisse3() method.
+     * Tests setCumBrutCaisse3()
      *
      * @return void
      */
@@ -439,7 +439,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBrutNonAbattu() method.
+     * Tests setCumBrutNonAbattu()
      *
      * @return void
      */
@@ -452,7 +452,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumCpDus() method.
+     * Tests setCumCpDus()
      *
      * @return void
      */
@@ -465,7 +465,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumCpDus1() method.
+     * Tests setCumCpDus1()
      *
      * @return void
      */
@@ -478,7 +478,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumCpPris() method.
+     * Tests setCumCpPris()
      *
      * @return void
      */
@@ -491,7 +491,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumCpPris1() method.
+     * Tests setCumCpPris1()
      *
      * @return void
      */
@@ -504,7 +504,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumDifDus() method.
+     * Tests setCumDifDus()
      *
      * @return void
      */
@@ -517,7 +517,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumDifDus1() method.
+     * Tests setCumDifDus1()
      *
      * @return void
      */
@@ -530,7 +530,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumHBonifie() method.
+     * Tests setCumHBonifie()
      *
      * @return void
      */
@@ -543,7 +543,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumHReposRemplace() method.
+     * Tests setCumHReposRemplace()
      *
      * @return void
      */
@@ -556,7 +556,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumHService() method.
+     * Tests setCumHService()
      *
      * @return void
      */
@@ -569,7 +569,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumHSup() method.
+     * Tests setCumHSup()
      *
      * @return void
      */
@@ -582,7 +582,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumHSupRcit() method.
+     * Tests setCumHSupRcit()
      *
      * @return void
      */
@@ -595,7 +595,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumHeurePaye() method.
+     * Tests setCumHeurePaye()
      *
      * @return void
      */
@@ -608,7 +608,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumHeureTrav() method.
+     * Tests setCumHeureTrav()
      *
      * @return void
      */
@@ -621,7 +621,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumJReposRecup() method.
+     * Tests setCumJReposRecup()
      *
      * @return void
      */
@@ -634,7 +634,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumJourPaye() method.
+     * Tests setCumJourPaye()
      *
      * @return void
      */
@@ -647,7 +647,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumJourTrav() method.
+     * Tests setCumJourTrav()
      *
      * @return void
      */
@@ -660,7 +660,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumMtCpPris() method.
+     * Tests setCumMtCpPris()
      *
      * @return void
      */
@@ -673,7 +673,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumMtCpPris1() method.
+     * Tests setCumMtCpPris1()
      *
      * @return void
      */
@@ -686,7 +686,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumNetAPayer() method.
+     * Tests setCumNetAPayer()
      *
      * @return void
      */
@@ -699,7 +699,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumNetImposable() method.
+     * Tests setCumNetImposable()
      *
      * @return void
      */
@@ -712,7 +712,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumPlaf1Caisse1() method.
+     * Tests setCumPlaf1Caisse1()
      *
      * @return void
      */
@@ -725,7 +725,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumPlaf1Caisse2() method.
+     * Tests setCumPlaf1Caisse2()
      *
      * @return void
      */
@@ -738,7 +738,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumPlaf1Caisse3() method.
+     * Tests setCumPlaf1Caisse3()
      *
      * @return void
      */
@@ -751,7 +751,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumPlaf2Caisse1() method.
+     * Tests setCumPlaf2Caisse1()
      *
      * @return void
      */
@@ -764,7 +764,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumPlaf2Caisse2() method.
+     * Tests setCumPlaf2Caisse2()
      *
      * @return void
      */
@@ -777,7 +777,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumPlaf2Caisse3() method.
+     * Tests setCumPlaf2Caisse3()
      *
      * @return void
      */
@@ -790,7 +790,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumPlafondGmp() method.
+     * Tests setCumPlafondGmp()
      *
      * @return void
      */
@@ -803,7 +803,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumPlafondSs1() method.
+     * Tests setCumPlafondSs1()
      *
      * @return void
      */
@@ -816,7 +816,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumPlafondSs2() method.
+     * Tests setCumPlafondSs2()
      *
      * @return void
      */
@@ -829,7 +829,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumProvCp() method.
+     * Tests setCumProvCp()
      *
      * @return void
      */
@@ -842,7 +842,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumProvCp1() method.
+     * Tests setCumProvCp1()
      *
      * @return void
      */
@@ -855,7 +855,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumReposComp() method.
+     * Tests setCumReposComp()
      *
      * @return void
      */
@@ -868,7 +868,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumRttDus() method.
+     * Tests setCumRttDus()
      *
      * @return void
      */
@@ -881,7 +881,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumRttPris() method.
+     * Tests setCumRttPris()
      *
      * @return void
      */
@@ -894,7 +894,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumTotSi() method.
+     * Tests setCumTotSi()
      *
      * @return void
      */
@@ -907,7 +907,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumTranche2SansSi() method.
+     * Tests setCumTranche2SansSi()
      *
      * @return void
      */
@@ -920,7 +920,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumTranche2Si() method.
+     * Tests setCumTranche2Si()
      *
      * @return void
      */
@@ -933,7 +933,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumTrancheASansSi() method.
+     * Tests setCumTrancheASansSi()
      *
      * @return void
      */
@@ -946,7 +946,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumTrancheAsi() method.
+     * Tests setCumTrancheAsi()
      *
      * @return void
      */
@@ -959,7 +959,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumTrancheBSansSi() method.
+     * Tests setCumTrancheBSansSi()
      *
      * @return void
      */
@@ -972,7 +972,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumTrancheBsi() method.
+     * Tests setCumTrancheBsi()
      *
      * @return void
      */
@@ -985,7 +985,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumTrancheCSansSi() method.
+     * Tests setCumTrancheCSansSi()
      *
      * @return void
      */
@@ -998,7 +998,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumTrancheCsi() method.
+     * Tests setCumTrancheCsi()
      *
      * @return void
      */
@@ -1011,7 +1011,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumTrancheD1SansSi() method.
+     * Tests setCumTrancheD1SansSi()
      *
      * @return void
      */
@@ -1024,7 +1024,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumTrancheDSansSi() method.
+     * Tests setCumTrancheDSansSi()
      *
      * @return void
      */
@@ -1037,7 +1037,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -1050,7 +1050,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

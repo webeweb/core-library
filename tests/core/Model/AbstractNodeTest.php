@@ -23,7 +23,7 @@ use WBW\Library\Core\Tests\Fixtures\Model\TestNode;
 class AbstractNodeTest extends AbstractTestCase {
 
     /**
-     * Tests the clearNode() method.
+     * Tests clearNode()
      *
      * @return void
      */
@@ -40,7 +40,7 @@ class AbstractNodeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the getFirstNode() method.
+     * Tests getFirstNode()
      *
      * @return void
      */
@@ -56,7 +56,7 @@ class AbstractNodeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the getLastNode() method.
+     * Tests getLastNode()
      *
      * @return void
      */
@@ -72,7 +72,7 @@ class AbstractNodeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the getNodeAt() method.
+     * Tests getNodeAt()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class AbstractNodeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the getNodeById() method.
+     * Tests getNodeById()
      *
      * @return void
      */
@@ -111,7 +111,7 @@ class AbstractNodeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the removeNode() method.
+     * Tests removeNode()
      *
      * @return void
      */
@@ -130,7 +130,7 @@ class AbstractNodeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setParent() method.
+     * Tests setParent()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class AbstractNodeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the size() method.
+     * Tests size()
      *
      * @return void
      */
@@ -164,7 +164,7 @@ class AbstractNodeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

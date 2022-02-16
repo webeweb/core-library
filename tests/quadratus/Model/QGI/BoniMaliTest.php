@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class BoniMaliTest extends AbstractTestCase {
 
     /**
-     * Tests the setBmCalcule() method.
+     * Tests setBmCalcule()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class BoniMaliTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBonus() method.
+     * Tests setBonus()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class BoniMaliTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class BoniMaliTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaborateur() method.
+     * Tests setCodeCollaborateur()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class BoniMaliTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeMission() method.
+     * Tests setCodeMission()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class BoniMaliTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateBm() method.
+     * Tests setDateBm()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -107,7 +107,7 @@ class BoniMaliTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle() method.
+     * Tests setLibelle()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class BoniMaliTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMalus() method.
+     * Tests setMalus()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class BoniMaliTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMonnaie() method.
+     * Tests setMonnaie()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class BoniMaliTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroBm() method.
+     * Tests setNumeroBm()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class BoniMaliTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroLigne() method.
+     * Tests setNumeroLigne()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class BoniMaliTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

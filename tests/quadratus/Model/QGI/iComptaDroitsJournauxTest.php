@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class iComptaDroitsJournauxTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeJournal() method.
+     * Tests setCodeJournal()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class iComptaDroitsJournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeUser() method.
+     * Tests setCodeUser()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class iComptaDroitsJournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFlag() method.
+     * Tests setFlag()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class iComptaDroitsJournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle() method.
+     * Tests setLibelle()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class iComptaDroitsJournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNoDossCpta() method.
+     * Tests setNoDossCpta()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class iComptaDroitsJournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

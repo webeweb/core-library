@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class PhotosTest extends AbstractTestCase {
 
     /**
-     * Tests the setAPublierEspaceClient() method.
+     * Tests setAPublierEspaceClient()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class PhotosTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAuteur() method.
+     * Tests setAuteur()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class PhotosTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateCreation() method.
+     * Tests setDateCreation()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class PhotosTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomFichierId() method.
+     * Tests setNomFichierId()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class PhotosTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeId() method.
+     * Tests setTypeId()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class PhotosTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniqId() method.
+     * Tests setUniqId()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class PhotosTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

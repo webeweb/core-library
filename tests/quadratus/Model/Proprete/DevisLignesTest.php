@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DevisLignesTest extends AbstractTestCase {
 
     /**
-     * Tests the setBatiment() method.
+     * Tests setBatiment()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class DevisLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeLocal() method.
+     * Tests setCodeLocal()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class DevisLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRevetement() method.
+     * Tests setCodeRevetement()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class DevisLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtage() method.
+     * Tests setEtage()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class DevisLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIdentification() method.
+     * Tests setIdentification()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class DevisLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelleLocal() method.
+     * Tests setLibelleLocal()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class DevisLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelleRevetement() method.
+     * Tests setLibelleRevetement()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class DevisLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumDevis() method.
+     * Tests setNumDevis()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class DevisLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLigne() method.
+     * Tests setNumLigne()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class DevisLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumProgramme() method.
+     * Tests setNumProgramme()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class DevisLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSolMur() method.
+     * Tests setSolMur()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class DevisLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSurface() method.
+     * Tests setSurface()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class DevisLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setZoneGeographique() method.
+     * Tests setZoneGeographique()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class DevisLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

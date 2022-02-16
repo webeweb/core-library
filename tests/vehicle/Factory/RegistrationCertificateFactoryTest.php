@@ -27,7 +27,7 @@ use WBW\Library\Vehicle\Tests\AbstractTestCase;
 class RegistrationCertificateFactoryTest extends AbstractTestCase {
 
     /**
-     * Tests the copy() method.
+     * Tests copy()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.

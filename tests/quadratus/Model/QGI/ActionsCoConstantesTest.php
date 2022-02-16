@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ActionsCoConstantesTest extends AbstractTestCase {
 
     /**
-     * Tests the setLieuEdition() method.
+     * Tests setLieuEdition()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ActionsCoConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumDeclaration() method.
+     * Tests setNumDeclaration()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ActionsCoConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

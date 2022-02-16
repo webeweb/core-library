@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ReglementsTest extends AbstractTestCase {
 
     /**
-     * Tests the setCode() method.
+     * Tests setCode()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule() method.
+     * Tests setIntitule()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule2() method.
+     * Tests setIntitule2()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule3() method.
+     * Tests setIntitule3()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeAcceptation() method.
+     * Tests setTypeAcceptation()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

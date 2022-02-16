@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringAccountingCodeTrait;
 class StringAccountingCodeTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setAccountingCode() method.
+     * Tests setAccountingCode()
      *
      * @return void
      */

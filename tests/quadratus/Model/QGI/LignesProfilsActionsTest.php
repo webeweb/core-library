@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LignesProfilsActionsTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeAction() method.
+     * Tests setCodeAction()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class LignesProfilsActionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeProfil() method.
+     * Tests setCodeProfil()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class LignesProfilsActionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLigne() method.
+     * Tests setNumLigne()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class LignesProfilsActionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

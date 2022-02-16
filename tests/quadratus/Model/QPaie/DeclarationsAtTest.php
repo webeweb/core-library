@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DeclarationsAtTest extends AbstractTestCase {
 
     /**
-     * Tests the setAdresse() method.
+     * Tests setAdresse()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCategorie() method.
+     * Tests setCategorie()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEtablissement() method.
+     * Tests setCodeEtablissement()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePostal() method.
+     * Tests setCodePostal()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCommune() method.
+     * Tests setCommune()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setComplement() method.
+     * Tests setComplement()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateNaissance() method.
+     * Tests setDateNaissance()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDeductForfait() method.
+     * Tests setDeductForfait()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDtAccouchement() method.
+     * Tests setDtAccouchement()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -150,7 +150,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDtDebAt() method.
+     * Tests setDtDebAt()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -167,7 +167,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDtDebConges() method.
+     * Tests setDtDebConges()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -184,7 +184,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDtEmbauche() method.
+     * Tests setDtEmbauche()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -201,7 +201,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDtFinConges() method.
+     * Tests setDtFinConges()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -218,7 +218,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDtFinContrat() method.
+     * Tests setDtFinContrat()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -235,7 +235,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDtFinPreavis() method.
+     * Tests setDtFinPreavis()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -252,7 +252,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtblNom() method.
+     * Tests setEtblNom()
      *
      * @return void
      */
@@ -265,7 +265,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtblResponsable() method.
+     * Tests setEtblResponsable()
      *
      * @return void
      */
@@ -278,7 +278,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtblSignature() method.
+     * Tests setEtblSignature()
      *
      * @return void
      */
@@ -291,7 +291,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtblSiret() method.
+     * Tests setEtblSiret()
      *
      * @return void
      */
@@ -304,7 +304,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtblTel() method.
+     * Tests setEtblTel()
      *
      * @return void
      */
@@ -317,7 +317,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLienDocument() method.
+     * Tests setLienDocument()
      *
      * @return void
      */
@@ -330,7 +330,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMemoAccident() method.
+     * Tests setMemoAccident()
      *
      * @return void
      */
@@ -343,7 +343,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMemoCorrespondance() method.
+     * Tests setMemoCorrespondance()
      *
      * @return void
      */
@@ -356,7 +356,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMotifAt() method.
+     * Tests setMotifAt()
      *
      * @return void
      */
@@ -369,7 +369,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtSalaireBrut() method.
+     * Tests setMtSalaireBrut()
      *
      * @return void
      */
@@ -382,7 +382,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNir() method.
+     * Tests setNir()
      *
      * @return void
      */
@@ -395,7 +395,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNom() method.
+     * Tests setNom()
      *
      * @return void
      */
@@ -408,7 +408,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumDat() method.
+     * Tests setNumDat()
      *
      * @return void
      */
@@ -421,7 +421,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -434,7 +434,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrenom() method.
+     * Tests setPrenom()
      *
      * @return void
      */
@@ -447,7 +447,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSignDate() method.
+     * Tests setSignDate()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -464,7 +464,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeDat() method.
+     * Tests setTypeDat()
      *
      * @return void
      */
@@ -477,7 +477,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

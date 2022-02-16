@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringSizeTrait;
 class StringSizeTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setSize() method.
+     * Tests setSize()
      *
      * @return void
      */

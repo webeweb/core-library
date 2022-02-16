@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class RegroupementEdBulTest extends AbstractTestCase {
 
     /**
-     * Tests the setAfficher() method.
+     * Tests setAfficher()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class RegroupementEdBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeLibelle() method.
+     * Tests setCodeLibelle()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class RegroupementEdBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRegroupEdBul() method.
+     * Tests setCodeRegroupEdBul()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class RegroupementEdBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTitre() method.
+     * Tests setCodeTitre()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class RegroupementEdBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setExo() method.
+     * Tests setExo()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class RegroupementEdBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQuadra() method.
+     * Tests setQuadra()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class RegroupementEdBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

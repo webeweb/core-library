@@ -25,7 +25,7 @@ use WBW\Library\SkiData\Tests\Fixtures\Traits\TestCustomerTrait;
 class CustomerTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setCustomerNumber() method.
+     * Tests setCustomerNumber()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class CustomerTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDatetimeLastModification() method.
+     * Tests setDatetimeLastModification()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -52,7 +52,7 @@ class CustomerTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDeletedRecord() method.
+     * Tests setDeletedRecord()
      *
      * @return void
      */
@@ -65,7 +65,7 @@ class CustomerTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDivision() method.
+     * Tests setDivision()
      *
      * @return void
      */
@@ -78,7 +78,7 @@ class CustomerTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmail() method.
+     * Tests setEmail()
      *
      * @return void
      */
@@ -91,7 +91,7 @@ class CustomerTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFirstname() method.
+     * Tests setFirstname()
      *
      * @return void
      */
@@ -104,7 +104,7 @@ class CustomerTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGroupCounting() method.
+     * Tests setGroupCounting()
      *
      * @return void
      */
@@ -117,7 +117,7 @@ class CustomerTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemarks() method.
+     * Tests setRemarks()
      *
      * @return void
      */
@@ -130,7 +130,7 @@ class CustomerTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemarks2() method.
+     * Tests setRemarks2()
      *
      * @return void
      */
@@ -143,7 +143,7 @@ class CustomerTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemarks3() method.
+     * Tests setRemarks3()
      *
      * @return void
      */
@@ -156,7 +156,7 @@ class CustomerTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSurname() method.
+     * Tests setSurname()
      *
      * @return void
      */
@@ -169,7 +169,7 @@ class CustomerTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTitle() method.
+     * Tests setTitle()
      *
      * @return void
      */

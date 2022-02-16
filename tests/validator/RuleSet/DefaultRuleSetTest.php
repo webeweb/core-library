@@ -25,7 +25,7 @@ use WBW\Library\Validator\Tests\Fixtures\Rule\TestRule;
 class DefaultRuleSetTest extends AbstractTestCase {
 
     /**
-     * Tests the removeRule() method.
+     * Tests removeRule()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class DefaultRuleSetTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the validate() method.
+     * Tests validate()
      *
      * @return void
      */
@@ -72,7 +72,7 @@ class DefaultRuleSetTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

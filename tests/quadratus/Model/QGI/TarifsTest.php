@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class TarifsTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeArticle() method.
+     * Tests setCodeArticle()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeDevise() method.
+     * Tests setCodeDevise()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeNature() method.
+     * Tests setCodeNature()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setComSurMargeBrute() method.
+     * Tests setComSurMargeBrute()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrixTtc() method.
+     * Tests setPrixTtc()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrixUnitBase() method.
+     * Tests setPrixUnitBase()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxCommission() method.
+     * Tests setTauxCommission()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeCodeArticle() method.
+     * Tests setTypeCodeArticle()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeCodeClient() method.
+     * Tests setTypeCodeClient()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

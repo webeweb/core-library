@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ReglesPublicationTest extends AbstractTestCase {
 
     /**
-     * Tests the setChainePublication() method.
+     * Tests setChainePublication()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ReglesPublicationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ReglesPublicationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEwsPublication() method.
+     * Tests setEwsPublication()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ReglesPublicationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypePublication() method.
+     * Tests setTypePublication()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ReglesPublicationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setWebPublication() method.
+     * Tests setWebPublication()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ReglesPublicationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

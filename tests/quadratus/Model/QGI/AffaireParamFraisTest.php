@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AffaireParamFraisTest extends AbstractTestCase {
 
     /**
-     * Tests the setCode() method.
+     * Tests setCode()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAffaire() method.
+     * Tests setCodeAffaire()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAvenant() method.
+     * Tests setCodeAvenant()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeFraisFixe() method.
+     * Tests setCodeFraisFixe()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePhase() method.
+     * Tests setCodePhase()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setComptesComptables() method.
+     * Tests setComptesComptables()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle() method.
+     * Tests setLibelle()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontant() method.
+     * Tests setMontant()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtFg1() method.
+     * Tests setMtFg1()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtFg2() method.
+     * Tests setMtFg2()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriode() method.
+     * Tests setPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -172,7 +172,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPourcentage() method.
+     * Tests setPourcentage()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrctFg1() method.
+     * Tests setPrctFg1()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrctFg2() method.
+     * Tests setPrctFg2()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setType() method.
+     * Tests setType()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

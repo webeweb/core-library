@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringClassTrait;
 class StringClassTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setClass() method.
+     * Tests setClass()
      *
      * @return void
      */

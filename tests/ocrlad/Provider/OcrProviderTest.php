@@ -25,7 +25,7 @@ use WBW\Library\OcrLad\Tests\Fixtures\Provider\TestOcrProvider;
 class OcrProviderTest extends AbstractTestCase {
 
     /**
-     * Tests the buildFilePaths() method.
+     * Tests buildFilePaths()
      *
      * @return void
      */
@@ -60,7 +60,7 @@ class OcrProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLocalDirectoryAfter() method.
+     * Tests setLocalDirectoryAfter()
      *
      * @return void
      */
@@ -73,7 +73,7 @@ class OcrProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLocalDirectoryBefore() method.
+     * Tests setLocalDirectoryBefore()
      *
      * @return void
      */
@@ -86,7 +86,7 @@ class OcrProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLocalDirectoryError() method.
+     * Tests setLocalDirectoryError()
      *
      * @return void
      */
@@ -99,7 +99,7 @@ class OcrProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemoteDirectoryAfter() method.
+     * Tests setRemoteDirectoryAfter()
      *
      * @return void
      */
@@ -112,7 +112,7 @@ class OcrProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemoteDirectoryBefore() method.
+     * Tests setRemoteDirectoryBefore()
      *
      * @return void
      */
@@ -125,7 +125,7 @@ class OcrProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemoteDirectoryError() method.
+     * Tests setRemoteDirectoryError()
      *
      * @return void
      */
@@ -138,7 +138,7 @@ class OcrProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

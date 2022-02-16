@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ReglementsAuxTest extends AbstractTestCase {
 
     /**
-     * Tests the setActif() method.
+     * Tests setActif()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAutreDomBanque() method.
+     * Tests setAutreDomBanque()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAutreRib() method.
+     * Tests setAutreRib()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeJournalBanque() method.
+     * Tests setCodeJournalBanque()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeModePaiement() method.
+     * Tests setCodeModePaiement()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDans1Groupe() method.
+     * Tests setDans1Groupe()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateEcheance() method.
+     * Tests setDateEcheance()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantGroupe() method.
+     * Tests setMontantGroupe()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantSaisiCredit() method.
+     * Tests setMontantSaisiCredit()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantSaisiDebit() method.
+     * Tests setMontantSaisiDebit()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantTenuCredit() method.
+     * Tests setMontantTenuCredit()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantTenuDebit() method.
+     * Tests setMontantTenuDebit()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNoRib() method.
+     * Tests setNoRib()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumGroupe() method.
+     * Tests setNumGroupe()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLotLcr() method.
+     * Tests setNumLotLcr()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLotLettreP() method.
+     * Tests setNumLotLettreP()
      *
      * @return void
      */
@@ -237,7 +237,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLotTraite() method.
+     * Tests setNumLotTraite()
      *
      * @return void
      */
@@ -250,7 +250,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumUniq() method.
+     * Tests setNumUniq()
      *
      * @return void
      */
@@ -263,7 +263,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumUniqEcriture() method.
+     * Tests setNumUniqEcriture()
      *
      * @return void
      */
@@ -276,7 +276,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroCompte() method.
+     * Tests setNumeroCompte()
      *
      * @return void
      */
@@ -289,7 +289,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setReferenceTire() method.
+     * Tests setReferenceTire()
      *
      * @return void
      */
@@ -302,7 +302,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeReglement() method.
+     * Tests setTypeReglement()
      *
      * @return void
      */
@@ -315,7 +315,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

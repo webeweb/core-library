@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class RegularisationAfTest extends AbstractTestCase {
 
     /**
-     * Tests the setBaseAf() method.
+     * Tests setBaseAf()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class RegularisationAfTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeLibelle() method.
+     * Tests setCodeLibelle()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class RegularisationAfTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndiceBulDeb() method.
+     * Tests setIndiceBulDeb()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class RegularisationAfTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndiceBulFin() method.
+     * Tests setIndiceBulFin()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class RegularisationAfTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndicePeriode() method.
+     * Tests setIndicePeriode()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class RegularisationAfTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class RegularisationAfTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPerBulDeb() method.
+     * Tests setPerBulDeb()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class RegularisationAfTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPerBulFin() method.
+     * Tests setPerBulFin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -137,7 +137,7 @@ class RegularisationAfTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriode() method.
+     * Tests setPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -154,7 +154,7 @@ class RegularisationAfTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

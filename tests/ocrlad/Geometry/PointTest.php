@@ -24,7 +24,7 @@ use WBW\Library\OcrLad\Tests\AbstractTestCase;
 class PointTest extends AbstractTestCase {
 
     /**
-     * Tests the d() method.
+     * Tests d()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class PointTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the deg() method.
+     * Tests deg()
      *
      * @return void
      */
@@ -50,7 +50,7 @@ class PointTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the m() method.
+     * Tests m()
      *
      * @return void
      */
@@ -63,7 +63,7 @@ class PointTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the rotate() method.
+     * Tests rotate()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class PointTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

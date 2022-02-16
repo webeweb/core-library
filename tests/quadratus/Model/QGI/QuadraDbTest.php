@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class QuadraDbTest extends AbstractTestCase {
 
     /**
-     * Tests the setDateEnvoiMessage() method.
+     * Tests setDateEnvoiMessage()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -42,7 +42,7 @@ class QuadraDbTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTailleBase() method.
+     * Tests setTailleBase()
      *
      * @return void
      */
@@ -55,7 +55,7 @@ class QuadraDbTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setVersion() method.
+     * Tests setVersion()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class QuadraDbTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class HorairesEmpTest extends AbstractTestCase {
 
     /**
-     * Tests the setAou() method.
+     * Tests setAou()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class HorairesEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAvr() method.
+     * Tests setAvr()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class HorairesEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaboValid() method.
+     * Tests setCodeCollaboValid()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class HorairesEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaborateur() method.
+     * Tests setCodeCollaborateur()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class HorairesEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEmploye() method.
+     * Tests setCodeEmploye()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class HorairesEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateDebutAffectation() method.
+     * Tests setDateDebutAffectation()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -107,7 +107,7 @@ class HorairesEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateFinAffectation() method.
+     * Tests setDateFinAffectation()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -124,7 +124,7 @@ class HorairesEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateValidationSynchro() method.
+     * Tests setDateValidationSynchro()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -141,7 +141,7 @@ class HorairesEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDec() method.
+     * Tests setDec()
      *
      * @return void
      */
@@ -154,7 +154,7 @@ class HorairesEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDimType2() method.
+     * Tests setDimType2()
      *
      * @return void
      */
@@ -167,7 +167,7 @@ class HorairesEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDiscrSem() method.
+     * Tests setDiscrSem()
      *
      * @return void
      */
@@ -180,7 +180,7 @@ class HorairesEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDuree() method.
+     * Tests setDuree()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -197,7 +197,7 @@ class HorairesEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtat() method.
+     * Tests setEtat()
      *
      * @return void
      */
@@ -210,7 +210,7 @@ class HorairesEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFev() method.
+     * Tests setFev()
      *
      * @return void
      */
@@ -223,7 +223,7 @@ class HorairesEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHNuitType2() method.
+     * Tests setHNuitType2()
      *
      * @return void
      */
@@ -236,7 +236,7 @@ class HorairesEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHeureDeb() method.
+     * Tests setHeureDeb()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -253,7 +253,7 @@ class HorairesEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJan() method.
+     * Tests setJan()
      *
      * @return void
      */
@@ -266,7 +266,7 @@ class HorairesEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJfType2() method.
+     * Tests setJfType2()
      *
      * @return void
      */
@@ -279,7 +279,7 @@ class HorairesEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJuil() method.
+     * Tests setJuil()
      *
      * @return void
      */
@@ -292,7 +292,7 @@ class HorairesEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJuin() method.
+     * Tests setJuin()
      *
      * @return void
      */
@@ -305,7 +305,7 @@ class HorairesEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMai() method.
+     * Tests setMai()
      *
      * @return void
      */
@@ -318,7 +318,7 @@ class HorairesEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMar() method.
+     * Tests setMar()
      *
      * @return void
      */
@@ -331,7 +331,7 @@ class HorairesEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNoteMemo() method.
+     * Tests setNoteMemo()
      *
      * @return void
      */
@@ -344,7 +344,7 @@ class HorairesEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNov() method.
+     * Tests setNov()
      *
      * @return void
      */
@@ -357,7 +357,7 @@ class HorairesEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumChrono() method.
+     * Tests setNumChrono()
      *
      * @return void
      */
@@ -370,7 +370,7 @@ class HorairesEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumJour() method.
+     * Tests setNumJour()
      *
      * @return void
      */
@@ -383,7 +383,7 @@ class HorairesEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroAvenant() method.
+     * Tests setNumeroAvenant()
      *
      * @return void
      */
@@ -396,7 +396,7 @@ class HorairesEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroSemaine() method.
+     * Tests setNumeroSemaine()
      *
      * @return void
      */
@@ -409,7 +409,7 @@ class HorairesEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOct() method.
+     * Tests setOct()
      *
      * @return void
      */
@@ -422,7 +422,7 @@ class HorairesEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSaufSemaineComplete() method.
+     * Tests setSaufSemaineComplete()
      *
      * @return void
      */
@@ -435,7 +435,7 @@ class HorairesEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSemaineComplete() method.
+     * Tests setSemaineComplete()
      *
      * @return void
      */
@@ -448,7 +448,7 @@ class HorairesEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSep() method.
+     * Tests setSep()
      *
      * @return void
      */
@@ -461,7 +461,7 @@ class HorairesEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTravailleJf() method.
+     * Tests setTravailleJf()
      *
      * @return void
      */
@@ -474,7 +474,7 @@ class HorairesEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeContrat() method.
+     * Tests setTypeContrat()
      *
      * @return void
      */
@@ -487,7 +487,7 @@ class HorairesEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeFreq() method.
+     * Tests setTypeFreq()
      *
      * @return void
      */
@@ -500,7 +500,7 @@ class HorairesEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniqId() method.
+     * Tests setUniqId()
      *
      * @return void
      */
@@ -513,7 +513,7 @@ class HorairesEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniqIdSynchro() method.
+     * Tests setUniqIdSynchro()
      *
      * @return void
      */
@@ -526,7 +526,7 @@ class HorairesEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

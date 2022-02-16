@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class HeuresAbsenceTest extends AbstractTestCase {
 
     /**
-     * Tests the setAbsenceAu() method.
+     * Tests setAbsenceAu()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -42,7 +42,7 @@ class HeuresAbsenceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAbsenceDu() method.
+     * Tests setAbsenceDu()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -59,7 +59,7 @@ class HeuresAbsenceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateJour() method.
+     * Tests setDateJour()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -76,7 +76,7 @@ class HeuresAbsenceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHNonEffectue() method.
+     * Tests setNbHNonEffectue()
      *
      * @return void
      */
@@ -89,7 +89,7 @@ class HeuresAbsenceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHRetenueSalaire() method.
+     * Tests setNbHRetenueSalaire()
      *
      * @return void
      */
@@ -102,7 +102,7 @@ class HeuresAbsenceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHaReintegrer() method.
+     * Tests setNbHaReintegrer()
      *
      * @return void
      */
@@ -115,7 +115,7 @@ class HeuresAbsenceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -128,7 +128,7 @@ class HeuresAbsenceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTransfere() method.
+     * Tests setTransfere()
      *
      * @return void
      */
@@ -141,7 +141,7 @@ class HeuresAbsenceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeAbsence() method.
+     * Tests setTypeAbsence()
      *
      * @return void
      */
@@ -154,7 +154,7 @@ class HeuresAbsenceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

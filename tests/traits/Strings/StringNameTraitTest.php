@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringNameTrait;
 class StringNameTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setName() method.
+     * Tests setName()
      *
      * @return void
      */

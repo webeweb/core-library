@@ -24,7 +24,7 @@ use WBW\Library\Types\Tests\AbstractTestCase;
 class DateTimeZoneHelperTest extends AbstractTestCase {
 
     /**
-     * Tests the equals() method.
+     * Tests equals()
      *
      * @return void
      */

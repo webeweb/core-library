@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class VehiculesTest extends AbstractTestCase {
 
     /**
-     * Tests the setCategorie() method.
+     * Tests setCategorie()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class VehiculesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateCession() method.
+     * Tests setDateCession()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -55,7 +55,7 @@ class VehiculesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateImmat() method.
+     * Tests setDateImmat()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -72,7 +72,7 @@ class VehiculesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDatePmec() method.
+     * Tests setDatePmec()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -89,7 +89,7 @@ class VehiculesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGuid() method.
+     * Tests setGuid()
      *
      * @return void
      */
@@ -102,7 +102,7 @@ class VehiculesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHybride() method.
+     * Tests setHybride()
      *
      * @return void
      */
@@ -115,7 +115,7 @@ class VehiculesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setImmatriculation() method.
+     * Tests setImmatriculation()
      *
      * @return void
      */
@@ -128,7 +128,7 @@ class VehiculesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle() method.
+     * Tests setLibelle()
      *
      * @return void
      */
@@ -141,7 +141,7 @@ class VehiculesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLienCompta() method.
+     * Tests setLienCompta()
      *
      * @return void
      */
@@ -154,7 +154,7 @@ class VehiculesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNonPolluant() method.
+     * Tests setNonPolluant()
      *
      * @return void
      */
@@ -167,7 +167,7 @@ class VehiculesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPuissanceCv() method.
+     * Tests setPuissanceCv()
      *
      * @return void
      */
@@ -180,7 +180,7 @@ class VehiculesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSuperCarbu() method.
+     * Tests setSuperCarbu()
      *
      * @return void
      */
@@ -193,7 +193,7 @@ class VehiculesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxEmissionCo2() method.
+     * Tests setTauxEmissionCo2()
      *
      * @return void
      */
@@ -206,7 +206,7 @@ class VehiculesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUsageAgricole() method.
+     * Tests setUsageAgricole()
      *
      * @return void
      */
@@ -219,7 +219,7 @@ class VehiculesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

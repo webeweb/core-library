@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LignesProfilTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeLibelle() method.
+     * Tests setCodeLibelle()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class LignesProfilTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeProfil() method.
+     * Tests setCodeProfil()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class LignesProfilTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDebPerApplication() method.
+     * Tests setDebPerApplication()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class LignesProfilTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFinPerApplication() method.
+     * Tests setFinPerApplication()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -85,7 +85,7 @@ class LignesProfilTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFreq1() method.
+     * Tests setFreq1()
      *
      * @return void
      */
@@ -98,7 +98,7 @@ class LignesProfilTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFreq10() method.
+     * Tests setFreq10()
      *
      * @return void
      */
@@ -111,7 +111,7 @@ class LignesProfilTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFreq11() method.
+     * Tests setFreq11()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class LignesProfilTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFreq12() method.
+     * Tests setFreq12()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class LignesProfilTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFreq2() method.
+     * Tests setFreq2()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class LignesProfilTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFreq3() method.
+     * Tests setFreq3()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class LignesProfilTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFreq4() method.
+     * Tests setFreq4()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class LignesProfilTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFreq5() method.
+     * Tests setFreq5()
      *
      * @return void
      */
@@ -189,7 +189,7 @@ class LignesProfilTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFreq6() method.
+     * Tests setFreq6()
      *
      * @return void
      */
@@ -202,7 +202,7 @@ class LignesProfilTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFreq7() method.
+     * Tests setFreq7()
      *
      * @return void
      */
@@ -215,7 +215,7 @@ class LignesProfilTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFreq8() method.
+     * Tests setFreq8()
      *
      * @return void
      */
@@ -228,7 +228,7 @@ class LignesProfilTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFreq9() method.
+     * Tests setFreq9()
      *
      * @return void
      */
@@ -241,7 +241,7 @@ class LignesProfilTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLigneProfil() method.
+     * Tests setNumLigneProfil()
      *
      * @return void
      */
@@ -254,7 +254,7 @@ class LignesProfilTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

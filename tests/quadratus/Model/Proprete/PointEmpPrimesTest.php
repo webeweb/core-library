@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class PointEmpPrimesTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeAffaire() method.
+     * Tests setCodeAffaire()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeChantier() method.
+     * Tests setCodeChantier()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaboValid() method.
+     * Tests setCodeCollaboValid()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaborateur() method.
+     * Tests setCodeCollaborateur()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEmploye() method.
+     * Tests setCodeEmploye()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePrime() method.
+     * Tests setCodePrime()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTache() method.
+     * Tests setCodeTache()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTacheTypeBt() method.
+     * Tests setCodeTacheTypeBt()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateApplication() method.
+     * Tests setDateApplication()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -159,7 +159,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateValidationSynchro() method.
+     * Tests setDateValidationSynchro()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -176,7 +176,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDefaut() method.
+     * Tests setDefaut()
      *
      * @return void
      */
@@ -189,7 +189,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtat() method.
+     * Tests setEtat()
      *
      * @return void
      */
@@ -202,7 +202,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHeureMajoration() method.
+     * Tests setNbHeureMajoration()
      *
      * @return void
      */
@@ -215,7 +215,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNombrePrime() method.
+     * Tests setNombrePrime()
      *
      * @return void
      */
@@ -228,7 +228,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumBt() method.
+     * Tests setNumBt()
      *
      * @return void
      */
@@ -241,7 +241,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroPrime() method.
+     * Tests setNumeroPrime()
      *
      * @return void
      */
@@ -254,7 +254,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriode() method.
+     * Tests setPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -271,7 +271,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxPrime() method.
+     * Tests setTauxPrime()
      *
      * @return void
      */
@@ -284,7 +284,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeMajo() method.
+     * Tests setTypeMajo()
      *
      * @return void
      */
@@ -297,7 +297,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypePrime() method.
+     * Tests setTypePrime()
      *
      * @return void
      */
@@ -310,7 +310,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniqIdSynchro() method.
+     * Tests setUniqIdSynchro()
      *
      * @return void
      */
@@ -323,7 +323,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

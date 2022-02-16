@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LiaisonsOpTransTest extends AbstractTestCase {
 
     /**
-     * Tests the setBatchApres() method.
+     * Tests setBatchApres()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBatchAvant() method.
+     * Tests setBatchAvant()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCode() method.
+     * Tests setCode()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDtDernXFer() method.
+     * Tests setDtDernXFer()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule() method.
+     * Tests setIntitule()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setListeDestinataires() method.
+     * Tests setListeDestinataires()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUseDtDernXFer() method.
+     * Tests setUseDtDernXFer()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerActivites() method.
+     * Tests setXFerActivites()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerArticles() method.
+     * Tests setXFerArticles()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerBoniMali() method.
+     * Tests setXFerBoniMali()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerBudgetsTemps() method.
+     * Tests setXFerBudgetsTemps()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerCivilites() method.
+     * Tests setXFerCivilites()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerCli() method.
+     * Tests setXFerCli()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerCliA1() method.
+     * Tests setXFerCliA1()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerCliA2() method.
+     * Tests setXFerCliA2()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerCliC() method.
+     * Tests setXFerCliC()
      *
      * @return void
      */
@@ -237,7 +237,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerCliDeb() method.
+     * Tests setXFerCliDeb()
      *
      * @return void
      */
@@ -250,7 +250,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerCliDocs() method.
+     * Tests setXFerCliDocs()
      *
      * @return void
      */
@@ -263,7 +263,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerCliE() method.
+     * Tests setXFerCliE()
      *
      * @return void
      */
@@ -276,7 +276,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerCliFin() method.
+     * Tests setXFerCliFin()
      *
      * @return void
      */
@@ -289,7 +289,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerCliP() method.
+     * Tests setXFerCliP()
      *
      * @return void
      */
@@ -302,7 +302,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerCol() method.
+     * Tests setXFerCol()
      *
      * @return void
      */
@@ -315,7 +315,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerCollabTache() method.
+     * Tests setXFerCollabTache()
      *
      * @return void
      */
@@ -328,7 +328,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerContenu() method.
+     * Tests setXFerContenu()
      *
      * @return void
      */
@@ -341,7 +341,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerCpta() method.
+     * Tests setXFerCpta()
      *
      * @return void
      */
@@ -354,7 +354,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerCptaAll() method.
+     * Tests setXFerCptaAll()
      *
      * @return void
      */
@@ -367,7 +367,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerCptaCli() method.
+     * Tests setXFerCptaCli()
      *
      * @return void
      */
@@ -380,7 +380,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerCptaDest() method.
+     * Tests setXFerCptaDest()
      *
      * @return void
      */
@@ -393,7 +393,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerCptaFrn() method.
+     * Tests setXFerCptaFrn()
      *
      * @return void
      */
@@ -406,7 +406,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerCptaImg() method.
+     * Tests setXFerCptaImg()
      *
      * @return void
      */
@@ -419,7 +419,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerCptaLstDc() method.
+     * Tests setXFerCptaLstDc()
      *
      * @return void
      */
@@ -432,7 +432,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerCptaSrc() method.
+     * Tests setXFerCptaSrc()
      *
      * @return void
      */
@@ -445,7 +445,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerCrDsi() method.
+     * Tests setXFerCrDsi()
      *
      * @return void
      */
@@ -458,7 +458,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerCrDucs() method.
+     * Tests setXFerCrDucs()
      *
      * @return void
      */
@@ -471,7 +471,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerCrPedi() method.
+     * Tests setXFerCrPedi()
      *
      * @return void
      */
@@ -484,7 +484,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerCrReq() method.
+     * Tests setXFerCrReq()
      *
      * @return void
      */
@@ -497,7 +497,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerCrTdfc() method.
+     * Tests setXFerCrTdfc()
      *
      * @return void
      */
@@ -510,7 +510,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerCrTva() method.
+     * Tests setXFerCrTva()
      *
      * @return void
      */
@@ -523,7 +523,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerCstPxKm() method.
+     * Tests setXFerCstPxKm()
      *
      * @return void
      */
@@ -536,7 +536,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerDosCpta() method.
+     * Tests setXFerDosCpta()
      *
      * @return void
      */
@@ -549,7 +549,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerDosPaie() method.
+     * Tests setXFerDosPaie()
      *
      * @return void
      */
@@ -562,7 +562,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerEdGrp() method.
+     * Tests setXFerEdGrp()
      *
      * @return void
      */
@@ -575,7 +575,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerEtebac() method.
+     * Tests setXFerEtebac()
      *
      * @return void
      */
@@ -588,7 +588,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerFactEdit() method.
+     * Tests setXFerFactEdit()
      *
      * @return void
      */
@@ -601,7 +601,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerFactEditDelSrc() method.
+     * Tests setXFerFactEditDelSrc()
      *
      * @return void
      */
@@ -614,7 +614,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerFactNonEdit() method.
+     * Tests setXFerFactNonEdit()
      *
      * @return void
      */
@@ -627,7 +627,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerFactNonEditDelSrc() method.
+     * Tests setXFerFactNonEditDelSrc()
      *
      * @return void
      */
@@ -640,7 +640,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerFonctions() method.
+     * Tests setXFerFonctions()
      *
      * @return void
      */
@@ -653,7 +653,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerImpotsDirects() method.
+     * Tests setXFerImpotsDirects()
      *
      * @return void
      */
@@ -666,7 +666,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerInt() method.
+     * Tests setXFerInt()
      *
      * @return void
      */
@@ -679,7 +679,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerIntNoCliOnly() method.
+     * Tests setXFerIntNoCliOnly()
      *
      * @return void
      */
@@ -692,7 +692,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerLstCabs() method.
+     * Tests setXFerLstCabs()
      *
      * @return void
      */
@@ -705,7 +705,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerMis() method.
+     * Tests setXFerMis()
      *
      * @return void
      */
@@ -718,7 +718,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerMisCli() method.
+     * Tests setXFerMisCli()
      *
      * @return void
      */
@@ -731,7 +731,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerMissionPrincipale() method.
+     * Tests setXFerMissionPrincipale()
      *
      * @return void
      */
@@ -744,7 +744,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerMsg() method.
+     * Tests setXFerMsg()
      *
      * @return void
      */
@@ -757,7 +757,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerMsgCli() method.
+     * Tests setXFerMsgCli()
      *
      * @return void
      */
@@ -770,7 +770,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerMsgCol() method.
+     * Tests setXFerMsgCol()
      *
      * @return void
      */
@@ -783,7 +783,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerMsgDelSrc() method.
+     * Tests setXFerMsgDelSrc()
      *
      * @return void
      */
@@ -796,7 +796,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerMsgHist() method.
+     * Tests setXFerMsgHist()
      *
      * @return void
      */
@@ -809,7 +809,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerMsgHistCli() method.
+     * Tests setXFerMsgHistCli()
      *
      * @return void
      */
@@ -822,7 +822,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerMsgHistDelSrc() method.
+     * Tests setXFerMsgHistDelSrc()
      *
      * @return void
      */
@@ -835,7 +835,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerObligations() method.
+     * Tests setXFerObligations()
      *
      * @return void
      */
@@ -848,7 +848,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerPdf() method.
+     * Tests setXFerPdf()
      *
      * @return void
      */
@@ -861,7 +861,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerPlanning() method.
+     * Tests setXFerPlanning()
      *
      * @return void
      */
@@ -874,7 +874,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerPreFact() method.
+     * Tests setXFerPreFact()
      *
      * @return void
      */
@@ -887,7 +887,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerPreFactCli() method.
+     * Tests setXFerPreFactCli()
      *
      * @return void
      */
@@ -900,7 +900,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerPreFactCol() method.
+     * Tests setXFerPreFactCol()
      *
      * @return void
      */
@@ -913,7 +913,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerPreFactFact() method.
+     * Tests setXFerPreFactFact()
      *
      * @return void
      */
@@ -926,7 +926,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerQInfos() method.
+     * Tests setXFerQInfos()
      *
      * @return void
      */
@@ -939,7 +939,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerQInfosDet() method.
+     * Tests setXFerQInfosDet()
      *
      * @return void
      */
@@ -952,7 +952,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerQualifiants() method.
+     * Tests setXFerQualifiants()
      *
      * @return void
      */
@@ -965,7 +965,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerReglements() method.
+     * Tests setXFerReglements()
      *
      * @return void
      */
@@ -978,7 +978,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerSuiCli() method.
+     * Tests setXFerSuiCli()
      *
      * @return void
      */
@@ -991,7 +991,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerTaches() method.
+     * Tests setXFerTaches()
      *
      * @return void
      */
@@ -1004,7 +1004,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerTps() method.
+     * Tests setXFerTps()
      *
      * @return void
      */
@@ -1017,7 +1017,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerTpsCli() method.
+     * Tests setXFerTpsCli()
      *
      * @return void
      */
@@ -1030,7 +1030,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerTpsCol() method.
+     * Tests setXFerTpsCol()
      *
      * @return void
      */
@@ -1043,7 +1043,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerTypeEvenements() method.
+     * Tests setXFerTypeEvenements()
      *
      * @return void
      */
@@ -1056,7 +1056,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setXFerTypeSocietes() method.
+     * Tests setXFerTypeSocietes()
      *
      * @return void
      */
@@ -1069,7 +1069,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

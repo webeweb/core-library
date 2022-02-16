@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class SemaineTypeTest extends AbstractTestCase {
 
     /**
-     * Tests the setCode() method.
+     * Tests setCode()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class SemaineTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule() method.
+     * Tests setIntitule()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class SemaineTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbreH() method.
+     * Tests setNbreH()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class SemaineTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbreHDimanche() method.
+     * Tests setNbreHDimanche()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class SemaineTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbreHJeudi() method.
+     * Tests setNbreHJeudi()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class SemaineTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbreHLundi() method.
+     * Tests setNbreHLundi()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class SemaineTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbreHMardi() method.
+     * Tests setNbreHMardi()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class SemaineTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbreHMax() method.
+     * Tests setNbreHMax()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class SemaineTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbreHMaxiDimanche() method.
+     * Tests setNbreHMaxiDimanche()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class SemaineTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbreHMaxiJeudi() method.
+     * Tests setNbreHMaxiJeudi()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class SemaineTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbreHMaxiLundi() method.
+     * Tests setNbreHMaxiLundi()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class SemaineTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbreHMaxiMardi() method.
+     * Tests setNbreHMaxiMardi()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class SemaineTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbreHMaxiMercredi() method.
+     * Tests setNbreHMaxiMercredi()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class SemaineTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbreHMaxiSamedi() method.
+     * Tests setNbreHMaxiSamedi()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class SemaineTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbreHMaxiVendredi() method.
+     * Tests setNbreHMaxiVendredi()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class SemaineTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbreHMercredi() method.
+     * Tests setNbreHMercredi()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class SemaineTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbreHMini() method.
+     * Tests setNbreHMini()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class SemaineTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbreHMiniDimanche() method.
+     * Tests setNbreHMiniDimanche()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class SemaineTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbreHMiniJeudi() method.
+     * Tests setNbreHMiniJeudi()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class SemaineTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbreHMiniLundi() method.
+     * Tests setNbreHMiniLundi()
      *
      * @return void
      */
@@ -283,7 +283,7 @@ class SemaineTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbreHMiniMardi() method.
+     * Tests setNbreHMiniMardi()
      *
      * @return void
      */
@@ -296,7 +296,7 @@ class SemaineTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbreHMiniMercredi() method.
+     * Tests setNbreHMiniMercredi()
      *
      * @return void
      */
@@ -309,7 +309,7 @@ class SemaineTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbreHMiniSamedi() method.
+     * Tests setNbreHMiniSamedi()
      *
      * @return void
      */
@@ -322,7 +322,7 @@ class SemaineTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbreHMiniVendredi() method.
+     * Tests setNbreHMiniVendredi()
      *
      * @return void
      */
@@ -335,7 +335,7 @@ class SemaineTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbreHSamedi() method.
+     * Tests setNbreHSamedi()
      *
      * @return void
      */
@@ -348,7 +348,7 @@ class SemaineTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbreHVendredi() method.
+     * Tests setNbreHVendredi()
      *
      * @return void
      */
@@ -361,7 +361,7 @@ class SemaineTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTDimanche() method.
+     * Tests setTDimanche()
      *
      * @return void
      */
@@ -374,7 +374,7 @@ class SemaineTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTJeudi() method.
+     * Tests setTJeudi()
      *
      * @return void
      */
@@ -387,7 +387,7 @@ class SemaineTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTLundi() method.
+     * Tests setTLundi()
      *
      * @return void
      */
@@ -400,7 +400,7 @@ class SemaineTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTMardi() method.
+     * Tests setTMardi()
      *
      * @return void
      */
@@ -413,7 +413,7 @@ class SemaineTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTMercredi() method.
+     * Tests setTMercredi()
      *
      * @return void
      */
@@ -426,7 +426,7 @@ class SemaineTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTSamedi() method.
+     * Tests setTSamedi()
      *
      * @return void
      */
@@ -439,7 +439,7 @@ class SemaineTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTVendredi() method.
+     * Tests setTVendredi()
      *
      * @return void
      */
@@ -452,7 +452,7 @@ class SemaineTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

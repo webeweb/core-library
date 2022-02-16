@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class GrillesTypeTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeLibHNuit() method.
+     * Tests setCodeLibHNuit()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class GrillesTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setContingentHSupRc() method.
+     * Tests setContingentHSupRc()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class GrillesTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setContingentHSupRcit() method.
+     * Tests setContingentHSupRcit()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class GrillesTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateApplication() method.
+     * Tests setDateApplication()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class GrillesTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateFin() method.
+     * Tests setDateFin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -98,7 +98,7 @@ class GrillesTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDureeHebdo() method.
+     * Tests setDureeHebdo()
      *
      * @return void
      */
@@ -111,7 +111,7 @@ class GrillesTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDureeMaxHebdo() method.
+     * Tests setDureeMaxHebdo()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class GrillesTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDureeMaxHebdoModul() method.
+     * Tests setDureeMaxHebdoModul()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class GrillesTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDureeMaxMens() method.
+     * Tests setDureeMaxMens()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class GrillesTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDureeMoyHebdo1() method.
+     * Tests setDureeMoyHebdo1()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class GrillesTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDureeMoyHebdo2() method.
+     * Tests setDureeMoyHebdo2()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class GrillesTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDureeMoyPeriode1() method.
+     * Tests setDureeMoyPeriode1()
      *
      * @return void
      */
@@ -189,7 +189,7 @@ class GrillesTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDureeMoyPeriode2() method.
+     * Tests setDureeMoyPeriode2()
      *
      * @return void
      */
@@ -202,7 +202,7 @@ class GrillesTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionHNuit() method.
+     * Tests setGestionHNuit()
      *
      * @return void
      */
@@ -215,7 +215,7 @@ class GrillesTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionJfnt() method.
+     * Tests setGestionJfnt()
      *
      * @return void
      */
@@ -228,7 +228,7 @@ class GrillesTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionPlagesHoraires() method.
+     * Tests setGestionPlagesHoraires()
      *
      * @return void
      */
@@ -241,7 +241,7 @@ class GrillesTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHNuitDeb() method.
+     * Tests setHNuitDeb()
      *
      * @return void
      */
@@ -254,7 +254,7 @@ class GrillesTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHNuitFin() method.
+     * Tests setHNuitFin()
      *
      * @return void
      */
@@ -267,7 +267,7 @@ class GrillesTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHNuitTxMajo() method.
+     * Tests setHNuitTxMajo()
      *
      * @return void
      */
@@ -280,7 +280,7 @@ class GrillesTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHebdoMens() method.
+     * Tests setHebdoMens()
      *
      * @return void
      */
@@ -293,7 +293,7 @@ class GrillesTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setModulation() method.
+     * Tests setModulation()
      *
      * @return void
      */
@@ -306,7 +306,7 @@ class GrillesTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHeuresDansJour() method.
+     * Tests setNbHeuresDansJour()
      *
      * @return void
      */
@@ -319,7 +319,7 @@ class GrillesTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHjf1() method.
+     * Tests setNbHjf1()
      *
      * @return void
      */
@@ -332,7 +332,7 @@ class GrillesTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHjf2() method.
+     * Tests setNbHjf2()
      *
      * @return void
      */
@@ -345,7 +345,7 @@ class GrillesTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHjf3() method.
+     * Tests setNbHjf3()
      *
      * @return void
      */
@@ -358,7 +358,7 @@ class GrillesTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHjf4() method.
+     * Tests setNbHjf4()
      *
      * @return void
      */
@@ -371,7 +371,7 @@ class GrillesTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHjf5() method.
+     * Tests setNbHjf5()
      *
      * @return void
      */
@@ -384,7 +384,7 @@ class GrillesTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHjf6() method.
+     * Tests setNbHjf6()
      *
      * @return void
      */
@@ -397,7 +397,7 @@ class GrillesTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHjf7() method.
+     * Tests setNbHjf7()
      *
      * @return void
      */
@@ -410,7 +410,7 @@ class GrillesTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroGrilleType() method.
+     * Tests setNumeroGrilleType()
      *
      * @return void
      */
@@ -423,7 +423,7 @@ class GrillesTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setReposRecup() method.
+     * Tests setReposRecup()
      *
      * @return void
      */
@@ -436,7 +436,7 @@ class GrillesTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxReposComp() method.
+     * Tests setTauxReposComp()
      *
      * @return void
      */
@@ -449,7 +449,7 @@ class GrillesTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

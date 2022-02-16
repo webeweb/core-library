@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ClientsSelAvanceFavorisTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeCollaborateur() method.
+     * Tests setCodeCollaborateur()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ClientsSelAvanceFavorisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeListe() method.
+     * Tests setCodeListe()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ClientsSelAvanceFavorisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDescription() method.
+     * Tests setDescription()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ClientsSelAvanceFavorisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOrdre() method.
+     * Tests setOrdre()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ClientsSelAvanceFavorisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOrigine() method.
+     * Tests setOrigine()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ClientsSelAvanceFavorisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class RecapLignesMsaTest extends AbstractTestCase {
 
     /**
-     * Tests the setAdresseMsa() method.
+     * Tests setAdresseMsa()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCCollect() method.
+     * Tests setCCollect()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeActivite() method.
+     * Tests setCodeActivite()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEtablissement() method.
+     * Tests setCodeEtablissement()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeUnite() method.
+     * Tests setCodeUnite()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateReglement() method.
+     * Tests setDateReglement()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -107,7 +107,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEffectifCice() method.
+     * Tests setEffectifCice()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFaitA() method.
+     * Tests setFaitA()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFaitLe() method.
+     * Tests setFaitLe()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -150,7 +150,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFinPer() method.
+     * Tests setFinPer()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -167,7 +167,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntituleCodeUnite() method.
+     * Tests setIntituleCodeUnite()
      *
      * @return void
      */
@@ -180,7 +180,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setListeServices() method.
+     * Tests setListeServices()
      *
      * @return void
      */
@@ -193,7 +193,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtCsg() method.
+     * Tests setMtCsg()
      *
      * @return void
      */
@@ -206,7 +206,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtCsgrdsrrImp() method.
+     * Tests setMtCsgrdsrrImp()
      *
      * @return void
      */
@@ -219,7 +219,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtCsgrdsrrNonImp() method.
+     * Tests setMtCsgrdsrrNonImp()
      *
      * @return void
      */
@@ -232,7 +232,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtElemCalcul57() method.
+     * Tests setMtElemCalcul57()
      *
      * @return void
      */
@@ -245,7 +245,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtElemCalcul58() method.
+     * Tests setMtElemCalcul58()
      *
      * @return void
      */
@@ -258,7 +258,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtElemCalcul59() method.
+     * Tests setMtElemCalcul59()
      *
      * @return void
      */
@@ -271,7 +271,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtElemCalcul60() method.
+     * Tests setMtElemCalcul60()
      *
      * @return void
      */
@@ -284,7 +284,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtElemCalcul61() method.
+     * Tests setMtElemCalcul61()
      *
      * @return void
      */
@@ -297,7 +297,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtElemCalcul62() method.
+     * Tests setMtElemCalcul62()
      *
      * @return void
      */
@@ -310,7 +310,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtElemCalcul63() method.
+     * Tests setMtElemCalcul63()
      *
      * @return void
      */
@@ -323,7 +323,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtElemCalcul65() method.
+     * Tests setMtElemCalcul65()
      *
      * @return void
      */
@@ -336,7 +336,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtElemCalcul66() method.
+     * Tests setMtElemCalcul66()
      *
      * @return void
      */
@@ -349,7 +349,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtElemCalcul67() method.
+     * Tests setMtElemCalcul67()
      *
      * @return void
      */
@@ -362,7 +362,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtElemCalcul68() method.
+     * Tests setMtElemCalcul68()
      *
      * @return void
      */
@@ -375,7 +375,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtElemCalcul69() method.
+     * Tests setMtElemCalcul69()
      *
      * @return void
      */
@@ -388,7 +388,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtElemCalcul70() method.
+     * Tests setMtElemCalcul70()
      *
      * @return void
      */
@@ -401,7 +401,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtElemCalcul71() method.
+     * Tests setMtElemCalcul71()
      *
      * @return void
      */
@@ -414,7 +414,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtElemCalcul72() method.
+     * Tests setMtElemCalcul72()
      *
      * @return void
      */
@@ -427,7 +427,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtElemCalcul73() method.
+     * Tests setMtElemCalcul73()
      *
      * @return void
      */
@@ -440,7 +440,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtElemCalcul74() method.
+     * Tests setMtElemCalcul74()
      *
      * @return void
      */
@@ -453,7 +453,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtElemCalcul75() method.
+     * Tests setMtElemCalcul75()
      *
      * @return void
      */
@@ -466,7 +466,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtElemCalcul76() method.
+     * Tests setMtElemCalcul76()
      *
      * @return void
      */
@@ -479,7 +479,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtElemCalcul77() method.
+     * Tests setMtElemCalcul77()
      *
      * @return void
      */
@@ -492,7 +492,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtElemCalcul78() method.
+     * Tests setMtElemCalcul78()
      *
      * @return void
      */
@@ -505,7 +505,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtElemCalcul79() method.
+     * Tests setMtElemCalcul79()
      *
      * @return void
      */
@@ -518,7 +518,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtElemCalcul97() method.
+     * Tests setMtElemCalcul97()
      *
      * @return void
      */
@@ -531,7 +531,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtElemCalcul98() method.
+     * Tests setMtElemCalcul98()
      *
      * @return void
      */
@@ -544,7 +544,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtTcp() method.
+     * Tests setMtTcp()
      *
      * @return void
      */
@@ -557,7 +557,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPerDebCice() method.
+     * Tests setPerDebCice()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -574,7 +574,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPerFinCice() method.
+     * Tests setPerFinCice()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -591,7 +591,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeDecla() method.
+     * Tests setPeriodeDecla()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -608,7 +608,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPersonneContact() method.
+     * Tests setPersonneContact()
      *
      * @return void
      */
@@ -621,7 +621,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPremMois() method.
+     * Tests setPremMois()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -638,7 +638,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSalariesDe() method.
+     * Tests setSalariesDe()
      *
      * @return void
      */
@@ -651,7 +651,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSelectionService() method.
+     * Tests setSelectionService()
      *
      * @return void
      */
@@ -664,7 +664,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSiren() method.
+     * Tests setSiren()
      *
      * @return void
      */
@@ -677,7 +677,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSiret() method.
+     * Tests setSiret()
      *
      * @return void
      */
@@ -690,7 +690,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSuiviPar() method.
+     * Tests setSuiviPar()
      *
      * @return void
      */
@@ -703,7 +703,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTelPersonne() method.
+     * Tests setTelPersonne()
      *
      * @return void
      */
@@ -716,7 +716,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTriDeclMsa() method.
+     * Tests setTriDeclMsa()
      *
      * @return void
      */
@@ -729,7 +729,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

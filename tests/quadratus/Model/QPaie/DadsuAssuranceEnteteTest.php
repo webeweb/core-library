@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DadsuAssuranceEnteteTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeEtablissement() method.
+     * Tests setCodeEtablissement()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class DadsuAssuranceEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeOrganisme() method.
+     * Tests setCodeOrganisme()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class DadsuAssuranceEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePeriodicite() method.
+     * Tests setCodePeriodicite()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class DadsuAssuranceEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateApplication() method.
+     * Tests setDateApplication()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class DadsuAssuranceEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateEmission() method.
+     * Tests setDateEmission()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -98,7 +98,7 @@ class DadsuAssuranceEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule() method.
+     * Tests setIntitule()
      *
      * @return void
      */
@@ -111,7 +111,7 @@ class DadsuAssuranceEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMailContact() method.
+     * Tests setMailContact()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class DadsuAssuranceEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMoisAnniv() method.
+     * Tests setMoisAnniv()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class DadsuAssuranceEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomContact() method.
+     * Tests setNomContact()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class DadsuAssuranceEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTelContact() method.
+     * Tests setTelContact()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class DadsuAssuranceEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniteGestion() method.
+     * Tests setUniteGestion()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class DadsuAssuranceEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

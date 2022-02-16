@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LicencesTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class LicencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClientDistr() method.
+     * Tests setCodeClientDistr()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class LicencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeProduit() method.
+     * Tests setCodeProduit()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class LicencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCommentaire() method.
+     * Tests setCommentaire()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class LicencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCpVille() method.
+     * Tests setCpVille()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class LicencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateCreation() method.
+     * Tests setDateCreation()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -107,7 +107,7 @@ class LicencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDemo() method.
+     * Tests setDemo()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class LicencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLicence() method.
+     * Tests setLicence()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class LicencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomClient() method.
+     * Tests setNomClient()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class LicencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNombrePostes() method.
+     * Tests setNombrePostes()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class LicencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOption1() method.
+     * Tests setOption1()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class LicencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOption2() method.
+     * Tests setOption2()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class LicencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOption3() method.
+     * Tests setOption3()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class LicencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOption4() method.
+     * Tests setOption4()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class LicencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriode() method.
+     * Tests setPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -228,7 +228,7 @@ class LicencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSupport() method.
+     * Tests setSupport()
      *
      * @return void
      */
@@ -241,7 +241,7 @@ class LicencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeReseau() method.
+     * Tests setTypeReseau()
      *
      * @return void
      */
@@ -254,7 +254,7 @@ class LicencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setVersion() method.
+     * Tests setVersion()
      *
      * @return void
      */
@@ -267,7 +267,7 @@ class LicencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

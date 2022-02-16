@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AttestationAemTest extends AbstractTestCase {
 
     /**
-     * Tests the setActivite() method.
+     * Tests setActivite()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAemInitiale() method.
+     * Tests setAemInitiale()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAutresContributions() method.
+     * Tests setAutresContributions()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAutresRemunBrut() method.
+     * Tests setAutresRemunBrut()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAutresTauxCotis() method.
+     * Tests setAutresTauxCotis()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBrut() method.
+     * Tests setBrut()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBrutAl() method.
+     * Tests setBrutAl()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCertificationSociale() method.
+     * Tests setCertificationSociale()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCivilite() method.
+     * Tests setCivilite()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEmploi() method.
+     * Tests setCodeEmploi()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEtablissement() method.
+     * Tests setCodeEtablissement()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeNaf2008() method.
+     * Tests setCodeNaf2008()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeQualif() method.
+     * Tests setCodeQualif()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setContact() method.
+     * Tests setContact()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setContratEnCours() method.
+     * Tests setContratEnCours()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setContributions() method.
+     * Tests setContributions()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateEmbauche() method.
+     * Tests setDateEmbauche()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -250,7 +250,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateFinContrat() method.
+     * Tests setDateFinContrat()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -267,7 +267,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateFinContratInitiale() method.
+     * Tests setDateFinContratInitiale()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -284,7 +284,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateNaiss() method.
+     * Tests setDateNaiss()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -301,7 +301,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmpAdresse1() method.
+     * Tests setEmpAdresse1()
      *
      * @return void
      */
@@ -314,7 +314,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmpAdresse2() method.
+     * Tests setEmpAdresse2()
      *
      * @return void
      */
@@ -327,7 +327,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmpCodePostal() method.
+     * Tests setEmpCodePostal()
      *
      * @return void
      */
@@ -340,7 +340,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmpCommune() method.
+     * Tests setEmpCommune()
      *
      * @return void
      */
@@ -353,7 +353,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmpTel() method.
+     * Tests setEmpTel()
      *
      * @return void
      */
@@ -366,7 +366,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmploi() method.
+     * Tests setEmploi()
      *
      * @return void
      */
@@ -379,7 +379,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtblAdresse1() method.
+     * Tests setEtblAdresse1()
      *
      * @return void
      */
@@ -392,7 +392,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtblAdresse2() method.
+     * Tests setEtblAdresse2()
      *
      * @return void
      */
@@ -405,7 +405,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtblCodePostal() method.
+     * Tests setEtblCodePostal()
      *
      * @return void
      */
@@ -418,7 +418,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtblCommune() method.
+     * Tests setEtblCommune()
      *
      * @return void
      */
@@ -431,7 +431,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtblFax() method.
+     * Tests setEtblFax()
      *
      * @return void
      */
@@ -444,7 +444,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtblMail() method.
+     * Tests setEtblMail()
      *
      * @return void
      */
@@ -457,7 +457,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtblRaisonSociale() method.
+     * Tests setEtblRaisonSociale()
      *
      * @return void
      */
@@ -470,7 +470,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtblTel() method.
+     * Tests setEtblTel()
      *
      * @return void
      */
@@ -483,7 +483,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndiceAem() method.
+     * Tests setIndiceAem()
      *
      * @return void
      */
@@ -496,7 +496,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLabelPrestataire() method.
+     * Tests setLabelPrestataire()
      *
      * @return void
      */
@@ -509,7 +509,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLicenceSpectacle() method.
+     * Tests setLicenceSpectacle()
      *
      * @return void
      */
@@ -522,7 +522,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLienDocument() method.
+     * Tests setLienDocument()
      *
      * @return void
      */
@@ -535,7 +535,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLienParente() method.
+     * Tests setLienParente()
      *
      * @return void
      */
@@ -548,7 +548,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMotifFinContrat() method.
+     * Tests setMotifFinContrat()
      *
      * @return void
      */
@@ -561,7 +561,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMotifRupture() method.
+     * Tests setMotifRupture()
      *
      * @return void
      */
@@ -574,7 +574,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNaf() method.
+     * Tests setNaf()
      *
      * @return void
      */
@@ -587,7 +587,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJourTrav() method.
+     * Tests setNbJourTrav()
      *
      * @return void
      */
@@ -600,7 +600,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNir() method.
+     * Tests setNir()
      *
      * @return void
      */
@@ -613,7 +613,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomEmploye() method.
+     * Tests setNomEmploye()
      *
      * @return void
      */
@@ -626,7 +626,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomNaissance() method.
+     * Tests setNomNaissance()
      *
      * @return void
      */
@@ -639,7 +639,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomRetraite() method.
+     * Tests setNomRetraite()
      *
      * @return void
      */
@@ -652,7 +652,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNombreCachets() method.
+     * Tests setNombreCachets()
      *
      * @return void
      */
@@ -665,7 +665,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNombreCachetsIsoles() method.
+     * Tests setNombreCachetsIsoles()
      *
      * @return void
      */
@@ -678,7 +678,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNombreHeures() method.
+     * Tests setNombreHeures()
      *
      * @return void
      */
@@ -691,7 +691,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumAssedic() method.
+     * Tests setNumAssedic()
      *
      * @return void
      */
@@ -704,7 +704,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumCaisseSpectacle() method.
+     * Tests setNumCaisseSpectacle()
      *
      * @return void
      */
@@ -717,7 +717,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumCertificationSociale() method.
+     * Tests setNumCertificationSociale()
      *
      * @return void
      */
@@ -730,7 +730,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumIdccEmployeur() method.
+     * Tests setNumIdccEmployeur()
      *
      * @return void
      */
@@ -743,7 +743,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumIdccPrestationTravail() method.
+     * Tests setNumIdccPrestationTravail()
      *
      * @return void
      */
@@ -756,7 +756,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumObjet() method.
+     * Tests setNumObjet()
      *
      * @return void
      */
@@ -769,7 +769,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroAemInitiale() method.
+     * Tests setNumeroAemInitiale()
      *
      * @return void
      */
@@ -782,7 +782,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroAttestation() method.
+     * Tests setNumeroAttestation()
      *
      * @return void
      */
@@ -795,7 +795,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -808,7 +808,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroLabel() method.
+     * Tests setNumeroLabel()
      *
      * @return void
      */
@@ -821,7 +821,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroLicence() method.
+     * Tests setNumeroLicence()
      *
      * @return void
      */
@@ -834,7 +834,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOrganisateurSpectacle() method.
+     * Tests setOrganisateurSpectacle()
      *
      * @return void
      */
@@ -847,7 +847,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOrganismeAssedic() method.
+     * Tests setOrganismeAssedic()
      *
      * @return void
      */
@@ -860,7 +860,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOrganismeRetraite() method.
+     * Tests setOrganismeRetraite()
      *
      * @return void
      */
@@ -873,7 +873,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeAttest() method.
+     * Tests setPeriodeAttest()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -890,7 +890,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrenom() method.
+     * Tests setPrenom()
      *
      * @return void
      */
@@ -903,7 +903,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSignatureDate() method.
+     * Tests setSignatureDate()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -920,7 +920,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSignatureNom() method.
+     * Tests setSignatureNom()
      *
      * @return void
      */
@@ -933,7 +933,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSignaturePrenom() method.
+     * Tests setSignaturePrenom()
      *
      * @return void
      */
@@ -946,7 +946,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSignatureQualite() method.
+     * Tests setSignatureQualite()
      *
      * @return void
      */
@@ -959,7 +959,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSignatureQualiteCode() method.
+     * Tests setSignatureQualiteCode()
      *
      * @return void
      */
@@ -972,7 +972,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSignatureVille() method.
+     * Tests setSignatureVille()
      *
      * @return void
      */
@@ -985,7 +985,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSiret() method.
+     * Tests setSiret()
      *
      * @return void
      */
@@ -998,7 +998,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setStatutCadre() method.
+     * Tests setStatutCadre()
      *
      * @return void
      */
@@ -1011,7 +1011,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxCotis() method.
+     * Tests setTauxCotis()
      *
      * @return void
      */
@@ -1024,7 +1024,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTelContact() method.
+     * Tests setTelContact()
      *
      * @return void
      */
@@ -1037,7 +1037,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeAem() method.
+     * Tests setTypeAem()
      *
      * @return void
      */
@@ -1050,7 +1050,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeLienParente() method.
+     * Tests setTypeLienParente()
      *
      * @return void
      */
@@ -1063,7 +1063,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeNationalite() method.
+     * Tests setTypeNationalite()
      *
      * @return void
      */
@@ -1076,7 +1076,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class CentralisateurTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeJournal() method.
+     * Tests setCodeJournal()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class CentralisateurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCreditClasse15() method.
+     * Tests setCreditClasse15()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class CentralisateurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCreditClasse67() method.
+     * Tests setCreditClasse67()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class CentralisateurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCreditClient() method.
+     * Tests setCreditClient()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class CentralisateurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCreditFournisseur() method.
+     * Tests setCreditFournisseur()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class CentralisateurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDebitClasse15() method.
+     * Tests setDebitClasse15()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class CentralisateurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDebitClasse67() method.
+     * Tests setDebitClasse67()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class CentralisateurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDebitClient() method.
+     * Tests setDebitClient()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class CentralisateurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDebitFournisseur() method.
+     * Tests setDebitFournisseur()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class CentralisateurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFolio() method.
+     * Tests setFolio()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class CentralisateurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbLigneFolio() method.
+     * Tests setNbLigneFolio()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class CentralisateurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriode() method.
+     * Tests setPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -185,7 +185,7 @@ class CentralisateurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProchaineLigne() method.
+     * Tests setProchaineLigne()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class CentralisateurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

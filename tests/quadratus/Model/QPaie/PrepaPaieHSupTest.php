@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class PrepaPaieHSupTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeLibHs() method.
+     * Tests setCodeLibHs()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class PrepaPaieHSupTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHSup() method.
+     * Tests setNbHSup()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class PrepaPaieHSupTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class PrepaPaieHSupTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriode() method.
+     * Tests setPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class PrepaPaieHSupTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPourcentHSup() method.
+     * Tests setPourcentHSup()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class PrepaPaieHSupTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSemaine() method.
+     * Tests setSemaine()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class PrepaPaieHSupTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

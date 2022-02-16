@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ForfaitsTest extends AbstractTestCase {
 
     /**
-     * Tests the setAou() method.
+     * Tests setAou()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class ForfaitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAvr() method.
+     * Tests setAvr()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class ForfaitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAffaire() method.
+     * Tests setCodeAffaire()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class ForfaitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeChantier() method.
+     * Tests setCodeChantier()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class ForfaitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class ForfaitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEmploye() method.
+     * Tests setCodeEmploye()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class ForfaitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePrime() method.
+     * Tests setCodePrime()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class ForfaitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTacheType() method.
+     * Tests setCodeTacheType()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class ForfaitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateDebut() method.
+     * Tests setDateDebut()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -146,7 +146,7 @@ class ForfaitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateFin() method.
+     * Tests setDateFin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -163,7 +163,7 @@ class ForfaitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDec() method.
+     * Tests setDec()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class ForfaitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFev() method.
+     * Tests setFev()
      *
      * @return void
      */
@@ -189,7 +189,7 @@ class ForfaitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJan() method.
+     * Tests setJan()
      *
      * @return void
      */
@@ -202,7 +202,7 @@ class ForfaitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJuil() method.
+     * Tests setJuil()
      *
      * @return void
      */
@@ -215,7 +215,7 @@ class ForfaitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJuin() method.
+     * Tests setJuin()
      *
      * @return void
      */
@@ -228,7 +228,7 @@ class ForfaitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMai() method.
+     * Tests setMai()
      *
      * @return void
      */
@@ -241,7 +241,7 @@ class ForfaitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMar() method.
+     * Tests setMar()
      *
      * @return void
      */
@@ -254,7 +254,7 @@ class ForfaitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontant() method.
+     * Tests setMontant()
      *
      * @return void
      */
@@ -267,7 +267,7 @@ class ForfaitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNov() method.
+     * Tests setNov()
      *
      * @return void
      */
@@ -280,7 +280,7 @@ class ForfaitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumForfait() method.
+     * Tests setNumForfait()
      *
      * @return void
      */
@@ -293,7 +293,7 @@ class ForfaitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOct() method.
+     * Tests setOct()
      *
      * @return void
      */
@@ -306,7 +306,7 @@ class ForfaitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSep() method.
+     * Tests setSep()
      *
      * @return void
      */
@@ -319,7 +319,7 @@ class ForfaitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeCodePrime() method.
+     * Tests setTypeCodePrime()
      *
      * @return void
      */
@@ -332,7 +332,7 @@ class ForfaitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

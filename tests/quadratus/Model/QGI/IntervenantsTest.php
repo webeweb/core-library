@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class IntervenantsTest extends AbstractTestCase {
 
     /**
-     * Tests the setAdresseSiteClient() method.
+     * Tests setAdresseSiteClient()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdresseTranspac() method.
+     * Tests setAdresseTranspac()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAge() method.
+     * Tests setAge()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAutoriserAccesInternet() method.
+     * Tests setAutoriserAccesInternet()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBic() method.
+     * Tests setBic()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBtq() method.
+     * Tests setBtq()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBtq2() method.
+     * Tests setBtq2()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBureauDistributeur() method.
+     * Tests setBureauDistributeur()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBureauDistributeur2() method.
+     * Tests setBureauDistributeur2()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCapital() method.
+     * Tests setCapital()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCapitalMonnaie() method.
+     * Tests setCapitalMonnaie()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCategorieJuridique() method.
+     * Tests setCategorieJuridique()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCivilite() method.
+     * Tests setCivilite()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCode() method.
+     * Tests setCode()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEpoux() method.
+     * Tests setCodeEpoux()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeInsee() method.
+     * Tests setCodeInsee()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeNaf() method.
+     * Tests setCodeNaf()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeNaf2008() method.
+     * Tests setCodeNaf2008()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeOfficielCommune() method.
+     * Tests setCodeOfficielCommune()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeOfficielCommune2() method.
+     * Tests setCodeOfficielCommune2()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePaysIso() method.
+     * Tests setCodePaysIso()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePaysIsoNaiss() method.
+     * Tests setCodePaysIsoNaiss()
      *
      * @return void
      */
@@ -311,7 +311,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePostal() method.
+     * Tests setCodePostal()
      *
      * @return void
      */
@@ -324,7 +324,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePostal2() method.
+     * Tests setCodePostal2()
      *
      * @return void
      */
@@ -337,7 +337,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePostalMariage() method.
+     * Tests setCodePostalMariage()
      *
      * @return void
      */
@@ -350,7 +350,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePostalNaissance() method.
+     * Tests setCodePostalNaissance()
      *
      * @return void
      */
@@ -363,7 +363,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePostalRc() method.
+     * Tests setCodePostalRc()
      *
      * @return void
      */
@@ -376,7 +376,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePostalRm() method.
+     * Tests setCodePostalRm()
      *
      * @return void
      */
@@ -389,7 +389,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeResponsable() method.
+     * Tests setCodeResponsable()
      *
      * @return void
      */
@@ -402,7 +402,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setComplement() method.
+     * Tests setComplement()
      *
      * @return void
      */
@@ -415,7 +415,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setComplement2() method.
+     * Tests setComplement2()
      *
      * @return void
      */
@@ -428,7 +428,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setComplementSuite() method.
+     * Tests setComplementSuite()
      *
      * @return void
      */
@@ -441,7 +441,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteurLiens() method.
+     * Tests setCompteurLiens()
      *
      * @return void
      */
@@ -454,7 +454,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setContact() method.
+     * Tests setContact()
      *
      * @return void
      */
@@ -467,7 +467,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCreationSociete() method.
+     * Tests setCreationSociete()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -484,7 +484,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateCreat() method.
+     * Tests setDateCreat()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -501,7 +501,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateDebActivite() method.
+     * Tests setDateDebActivite()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -518,7 +518,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateDivorce() method.
+     * Tests setDateDivorce()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -535,7 +535,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateInstallation() method.
+     * Tests setDateInstallation()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -552,7 +552,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateMariage() method.
+     * Tests setDateMariage()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -569,7 +569,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateModif() method.
+     * Tests setDateModif()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -586,7 +586,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateNaissance() method.
+     * Tests setDateNaissance()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -603,7 +603,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDonneesAppel() method.
+     * Tests setDonneesAppel()
      *
      * @return void
      */
@@ -616,7 +616,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDroitCollabVisuDocuments() method.
+     * Tests setDroitCollabVisuDocuments()
      *
      * @return void
      */
@@ -629,7 +629,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDureeSociete() method.
+     * Tests setDureeSociete()
      *
      * @return void
      */
@@ -642,7 +642,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmail() method.
+     * Tests setEmail()
      *
      * @return void
      */
@@ -655,7 +655,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmail2() method.
+     * Tests setEmail2()
      *
      * @return void
      */
@@ -668,7 +668,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEnseigne() method.
+     * Tests setEnseigne()
      *
      * @return void
      */
@@ -681,7 +681,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFax() method.
+     * Tests setFax()
      *
      * @return void
      */
@@ -694,7 +694,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFax2() method.
+     * Tests setFax2()
      *
      * @return void
      */
@@ -707,7 +707,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFrpCle() method.
+     * Tests setFrpCle()
      *
      * @return void
      */
@@ -720,7 +720,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFrpDossier() method.
+     * Tests setFrpDossier()
      *
      * @return void
      */
@@ -733,7 +733,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFrpRecette() method.
+     * Tests setFrpRecette()
      *
      * @return void
      */
@@ -746,7 +746,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestJuri() method.
+     * Tests setGestJuri()
      *
      * @return void
      */
@@ -759,7 +759,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIban() method.
+     * Tests setIban()
      *
      * @return void
      */
@@ -772,7 +772,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIdentTva() method.
+     * Tests setIdentTva()
      *
      * @return void
      */
@@ -785,7 +785,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIdentifiant() method.
+     * Tests setIdentifiant()
      *
      * @return void
      */
@@ -798,7 +798,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIdentifiantInternet() method.
+     * Tests setIdentifiantInternet()
      *
      * @return void
      */
@@ -811,7 +811,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setInscriptionRc() method.
+     * Tests setInscriptionRc()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -828,7 +828,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setInscriptionRm() method.
+     * Tests setInscriptionRm()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -845,7 +845,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIsClient() method.
+     * Tests setIsClient()
      *
      * @return void
      */
@@ -858,7 +858,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIsFournisseur() method.
+     * Tests setIsFournisseur()
      *
      * @return void
      */
@@ -871,7 +871,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMdpInternet() method.
+     * Tests setMdpInternet()
      *
      * @return void
      */
@@ -884,7 +884,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMissionPrincipale() method.
+     * Tests setMissionPrincipale()
      *
      * @return void
      */
@@ -897,7 +897,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNationalite() method.
+     * Tests setNationalite()
      *
      * @return void
      */
@@ -910,7 +910,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbEnfants() method.
+     * Tests setNbEnfants()
      *
      * @return void
      */
@@ -923,7 +923,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbKm() method.
+     * Tests setNbKm()
      *
      * @return void
      */
@@ -936,7 +936,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNie1() method.
+     * Tests setNie1()
      *
      * @return void
      */
@@ -949,7 +949,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNie2() method.
+     * Tests setNie2()
      *
      * @return void
      */
@@ -962,7 +962,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNir() method.
+     * Tests setNir()
      *
      * @return void
      */
@@ -975,7 +975,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNom() method.
+     * Tests setNom()
      *
      * @return void
      */
@@ -988,7 +988,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomMarital() method.
+     * Tests setNomMarital()
      *
      * @return void
      */
@@ -1001,7 +1001,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomMere() method.
+     * Tests setNomMere()
      *
      * @return void
      */
@@ -1014,7 +1014,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomPere() method.
+     * Tests setNomPere()
      *
      * @return void
      */
@@ -1027,7 +1027,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomSuite() method.
+     * Tests setNomSuite()
      *
      * @return void
      */
@@ -1040,7 +1040,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomVille() method.
+     * Tests setNomVille()
      *
      * @return void
      */
@@ -1053,7 +1053,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomVille2() method.
+     * Tests setNomVille2()
      *
      * @return void
      */
@@ -1066,7 +1066,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomVoie() method.
+     * Tests setNomVoie()
      *
      * @return void
      */
@@ -1079,7 +1079,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomVoie2() method.
+     * Tests setNomVoie2()
      *
      * @return void
      */
@@ -1092,7 +1092,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNombreActions() method.
+     * Tests setNombreActions()
      *
      * @return void
      */
@@ -1105,7 +1105,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumAgrementCga() method.
+     * Tests setNumAgrementCga()
      *
      * @return void
      */
@@ -1118,7 +1118,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumVoie() method.
+     * Tests setNumVoie()
      *
      * @return void
      */
@@ -1131,7 +1131,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumVoie2() method.
+     * Tests setNumVoie2()
      *
      * @return void
      */
@@ -1144,7 +1144,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPays() method.
+     * Tests setPays()
      *
      * @return void
      */
@@ -1157,7 +1157,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPaysNaissance() method.
+     * Tests setPaysNaissance()
      *
      * @return void
      */
@@ -1170,7 +1170,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPersonnePhysique() method.
+     * Tests setPersonnePhysique()
      *
      * @return void
      */
@@ -1183,7 +1183,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPortable1() method.
+     * Tests setPortable1()
      *
      * @return void
      */
@@ -1196,7 +1196,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPortable12() method.
+     * Tests setPortable12()
      *
      * @return void
      */
@@ -1209,7 +1209,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPortable2() method.
+     * Tests setPortable2()
      *
      * @return void
      */
@@ -1222,7 +1222,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPortable22() method.
+     * Tests setPortable22()
      *
      * @return void
      */
@@ -1235,7 +1235,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrenom() method.
+     * Tests setPrenom()
      *
      * @return void
      */
@@ -1248,7 +1248,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQualite() method.
+     * Tests setQualite()
      *
      * @return void
      */
@@ -1261,7 +1261,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRc() method.
+     * Tests setRc()
      *
      * @return void
      */
@@ -1274,7 +1274,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRcCode() method.
+     * Tests setRcCode()
      *
      * @return void
      */
@@ -1287,7 +1287,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRegimeMatrimonial() method.
+     * Tests setRegimeMatrimonial()
      *
      * @return void
      */
@@ -1300,7 +1300,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRegimeMatrimoniale() method.
+     * Tests setRegimeMatrimoniale()
      *
      * @return void
      */
@@ -1313,7 +1313,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRib() method.
+     * Tests setRib()
      *
      * @return void
      */
@@ -1326,7 +1326,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRm() method.
+     * Tests setRm()
      *
      * @return void
      */
@@ -1339,7 +1339,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRmCode() method.
+     * Tests setRmCode()
      *
      * @return void
      */
@@ -1352,7 +1352,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSalarieIndependant() method.
+     * Tests setSalarieIndependant()
      *
      * @return void
      */
@@ -1365,7 +1365,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSiret() method.
+     * Tests setSiret()
      *
      * @return void
      */
@@ -1378,7 +1378,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSituationFam() method.
+     * Tests setSituationFam()
      *
      * @return void
      */
@@ -1391,7 +1391,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTel1() method.
+     * Tests setTel1()
      *
      * @return void
      */
@@ -1404,7 +1404,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTel12() method.
+     * Tests setTel12()
      *
      * @return void
      */
@@ -1417,7 +1417,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTel2() method.
+     * Tests setTel2()
      *
      * @return void
      */
@@ -1430,7 +1430,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTel22() method.
+     * Tests setTel22()
      *
      * @return void
      */
@@ -1443,7 +1443,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTelVoiture() method.
+     * Tests setTelVoiture()
      *
      * @return void
      */
@@ -1456,7 +1456,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTelVoiture2() method.
+     * Tests setTelVoiture2()
      *
      * @return void
      */
@@ -1469,7 +1469,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTelex() method.
+     * Tests setTelex()
      *
      * @return void
      */
@@ -1482,7 +1482,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTelex2() method.
+     * Tests setTelex2()
      *
      * @return void
      */
@@ -1495,7 +1495,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTravailADomicile() method.
+     * Tests setTravailADomicile()
      *
      * @return void
      */
@@ -1508,7 +1508,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setType() method.
+     * Tests setType()
      *
      * @return void
      */
@@ -1521,7 +1521,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeSociete() method.
+     * Tests setTypeSociete()
      *
      * @return void
      */
@@ -1534,7 +1534,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setVilleMariage() method.
+     * Tests setVilleMariage()
      *
      * @return void
      */
@@ -1547,7 +1547,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setVilleNaissance() method.
+     * Tests setVilleNaissance()
      *
      * @return void
      */
@@ -1560,7 +1560,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setVilleRc() method.
+     * Tests setVilleRc()
      *
      * @return void
      */
@@ -1573,7 +1573,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setVilleRm() method.
+     * Tests setVilleRm()
      *
      * @return void
      */
@@ -1586,7 +1586,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setZipCode() method.
+     * Tests setZipCode()
      *
      * @return void
      */
@@ -1599,7 +1599,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

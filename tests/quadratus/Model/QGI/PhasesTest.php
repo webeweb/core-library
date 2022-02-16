@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class PhasesTest extends AbstractTestCase {
 
     /**
-     * Tests the setCode() method.
+     * Tests setCode()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class PhasesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRegroupement() method.
+     * Tests setCodeRegroupement()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class PhasesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle() method.
+     * Tests setLibelle()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class PhasesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumOrdre() method.
+     * Tests setNumOrdre()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class PhasesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSaisieFact() method.
+     * Tests setSaisieFact()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class PhasesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSaisieTemps() method.
+     * Tests setSaisieTemps()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class PhasesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

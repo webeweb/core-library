@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EcrituresEcoTest extends AbstractTestCase {
 
     /**
-     * Tests the setCentre() method.
+     * Tests setCentre()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class EcrituresEcoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeJournal() method.
+     * Tests setCodeJournal()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class EcrituresEcoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeLibelleAuto() method.
+     * Tests setCodeLibelleAuto()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class EcrituresEcoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFolio() method.
+     * Tests setFolio()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class EcrituresEcoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJourEcriture() method.
+     * Tests setJourEcriture()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class EcrituresEcoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLiaisonEcriture() method.
+     * Tests setLiaisonEcriture()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class EcrituresEcoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle() method.
+     * Tests setLibelle()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class EcrituresEcoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantTenuCredit() method.
+     * Tests setMontantTenuCredit()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class EcrituresEcoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantTenuDebit() method.
+     * Tests setMontantTenuDebit()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class EcrituresEcoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNature() method.
+     * Tests setNature()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class EcrituresEcoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNoLotTrace() method.
+     * Tests setNoLotTrace()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class EcrituresEcoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumEcrEco() method.
+     * Tests setNumEcrEco()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class EcrituresEcoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroCompte() method.
+     * Tests setNumeroCompte()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class EcrituresEcoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeEcriture() method.
+     * Tests setPeriodeEcriture()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -211,7 +211,7 @@ class EcrituresEcoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQuantite() method.
+     * Tests setQuantite()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class EcrituresEcoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQuantite2() method.
+     * Tests setQuantite2()
      *
      * @return void
      */
@@ -237,7 +237,7 @@ class EcrituresEcoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

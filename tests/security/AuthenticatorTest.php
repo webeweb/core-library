@@ -23,7 +23,7 @@ use WBW\Library\Security\PasswordAuthentication;
 class AuthenticatorTest extends AbstractTestCase {
 
     /**
-     * Tests the setPasswordAuthentication() method.
+     * Tests setPasswordAuthentication()
      *
      * @return void
      */
@@ -37,7 +37,7 @@ class AuthenticatorTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setScheme() method.
+     * Tests setScheme()
      *
      * @return void
      */
@@ -50,7 +50,7 @@ class AuthenticatorTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

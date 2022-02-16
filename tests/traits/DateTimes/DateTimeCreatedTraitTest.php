@@ -24,7 +24,7 @@ use WBW\Library\Traits\Tests\Fixtures\DateTimes\TestDateTimeCreatedTrait;
 class DateTimeCreatedTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setCreated() method.
+     * Tests setCreated()
      *
      * @return void
      */

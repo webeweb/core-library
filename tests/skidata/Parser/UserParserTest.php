@@ -26,7 +26,7 @@ use WBW\Library\SkiData\Tests\AbstractTestCase;
 class UserParserTest extends AbstractTestCase {
 
     /**
-     * Tests the parseEntity() method.
+     * Tests parseEntity()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -66,7 +66,7 @@ class UserParserTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the parseLine() method.
+     * Tests parseLine()
      *
      * @retrun void
      * @throws Exception Throws an exception if an error occurs.

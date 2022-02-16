@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class BulletinsTest extends AbstractTestCase {
 
     /**
-     * Tests the setAbatTheo() method.
+     * Tests setAbatTheo()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAbattementMax() method.
+     * Tests setAbattementMax()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAllegement() method.
+     * Tests setAllegement()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAllegementNonProratise() method.
+     * Tests setAllegementNonProratise()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAvantageNature() method.
+     * Tests setAvantageNature()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBaseGmp() method.
+     * Tests setBaseGmp()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBaseSecu() method.
+     * Tests setBaseSecu()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBaseSsPlafModif() method.
+     * Tests setBaseSsPlafModif()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBornePerModifie() method.
+     * Tests setBornePerModifie()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBrut() method.
+     * Tests setBrut()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBrutAl() method.
+     * Tests setBrutAl()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBrutAlLimiteSmic() method.
+     * Tests setBrutAlLimiteSmic()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBrutAlModifie() method.
+     * Tests setBrutAlModifie()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBrutAnl() method.
+     * Tests setBrutAnl()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBrutCaisse1() method.
+     * Tests setBrutCaisse1()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBrutCaisse2() method.
+     * Tests setBrutCaisse2()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBrutCaisse3() method.
+     * Tests setBrutCaisse3()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBrutCaisseCp() method.
+     * Tests setBrutCaisseCp()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBrutCp() method.
+     * Tests setBrutCp()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBrutCsg() method.
+     * Tests setBrutCsg()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBrutSoumisAbat() method.
+     * Tests setBrutSoumisAbat()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBrutSoumisCrds() method.
+     * Tests setBrutSoumisCrds()
      *
      * @return void
      */
@@ -311,7 +311,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBulletinPublie() method.
+     * Tests setBulletinPublie()
      *
      * @return void
      */
@@ -324,7 +324,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCategTds() method.
+     * Tests setCategTds()
      *
      * @return void
      */
@@ -337,7 +337,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setChequeEdite() method.
+     * Tests setChequeEdite()
      *
      * @return void
      */
@@ -350,7 +350,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setChomPartielCoeffIndem() method.
+     * Tests setChomPartielCoeffIndem()
      *
      * @return void
      */
@@ -363,7 +363,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setChomPartielCp() method.
+     * Tests setChomPartielCp()
      *
      * @return void
      */
@@ -376,7 +376,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setChomPartielMinIndem() method.
+     * Tests setChomPartielMinIndem()
      *
      * @return void
      */
@@ -389,7 +389,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAtPer() method.
+     * Tests setCodeAtPer()
      *
      * @return void
      */
@@ -402,7 +402,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCentreUrssaf() method.
+     * Tests setCodeCentreUrssaf()
      *
      * @return void
      */
@@ -415,7 +415,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEtablissement() method.
+     * Tests setCodeEtablissement()
      *
      * @return void
      */
@@ -428,7 +428,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTypeSal() method.
+     * Tests setCodeTypeSal()
      *
      * @return void
      */
@@ -441,7 +441,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCoeffIntemperie() method.
+     * Tests setCoeffIntemperie()
      *
      * @return void
      */
@@ -454,7 +454,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setContHSupReposComp() method.
+     * Tests setContHSupReposComp()
      *
      * @return void
      */
@@ -467,7 +467,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCoutGlobalMois() method.
+     * Tests setCoutGlobalMois()
      *
      * @return void
      */
@@ -480,7 +480,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCum30Ss() method.
+     * Tests setCum30Ss()
      *
      * @return void
      */
@@ -493,7 +493,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumAntHSup() method.
+     * Tests setCumAntHSup()
      *
      * @return void
      */
@@ -506,7 +506,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBaseGmp() method.
+     * Tests setCumBaseGmp()
      *
      * @return void
      */
@@ -519,7 +519,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBaseSs() method.
+     * Tests setCumBaseSs()
      *
      * @return void
      */
@@ -532,7 +532,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBrut() method.
+     * Tests setCumBrut()
      *
      * @return void
      */
@@ -545,7 +545,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBrutAl() method.
+     * Tests setCumBrutAl()
      *
      * @return void
      */
@@ -558,7 +558,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBrutAnl() method.
+     * Tests setCumBrutAnl()
      *
      * @return void
      */
@@ -571,7 +571,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBrutCaisse1() method.
+     * Tests setCumBrutCaisse1()
      *
      * @return void
      */
@@ -584,7 +584,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBrutCaisse2() method.
+     * Tests setCumBrutCaisse2()
      *
      * @return void
      */
@@ -597,7 +597,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumBrutCaisse3() method.
+     * Tests setCumBrutCaisse3()
      *
      * @return void
      */
@@ -610,7 +610,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumDifDus() method.
+     * Tests setCumDifDus()
      *
      * @return void
      */
@@ -623,7 +623,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumDifDus1() method.
+     * Tests setCumDifDus1()
      *
      * @return void
      */
@@ -636,7 +636,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumHBonifie() method.
+     * Tests setCumHBonifie()
      *
      * @return void
      */
@@ -649,7 +649,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumHReposComp() method.
+     * Tests setCumHReposComp()
      *
      * @return void
      */
@@ -662,7 +662,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumHReposRemplace() method.
+     * Tests setCumHReposRemplace()
      *
      * @return void
      */
@@ -675,7 +675,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumHService() method.
+     * Tests setCumHService()
      *
      * @return void
      */
@@ -688,7 +688,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumImpos() method.
+     * Tests setCumImpos()
      *
      * @return void
      */
@@ -701,7 +701,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumJReposRecup() method.
+     * Tests setCumJReposRecup()
      *
      * @return void
      */
@@ -714,7 +714,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumMtCpPris() method.
+     * Tests setCumMtCpPris()
      *
      * @return void
      */
@@ -727,7 +727,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumMtCpPris1() method.
+     * Tests setCumMtCpPris1()
      *
      * @return void
      */
@@ -740,7 +740,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumNetAPayer() method.
+     * Tests setCumNetAPayer()
      *
      * @return void
      */
@@ -753,7 +753,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumPlaf1Caisse1() method.
+     * Tests setCumPlaf1Caisse1()
      *
      * @return void
      */
@@ -766,7 +766,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumPlaf1Caisse2() method.
+     * Tests setCumPlaf1Caisse2()
      *
      * @return void
      */
@@ -779,7 +779,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumPlaf1Caisse3() method.
+     * Tests setCumPlaf1Caisse3()
      *
      * @return void
      */
@@ -792,7 +792,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumPlaf2Caisse1() method.
+     * Tests setCumPlaf2Caisse1()
      *
      * @return void
      */
@@ -805,7 +805,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumPlaf2Caisse2() method.
+     * Tests setCumPlaf2Caisse2()
      *
      * @return void
      */
@@ -818,7 +818,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumPlaf2Caisse3() method.
+     * Tests setCumPlaf2Caisse3()
      *
      * @return void
      */
@@ -831,7 +831,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumPlafondGmp() method.
+     * Tests setCumPlafondGmp()
      *
      * @return void
      */
@@ -844,7 +844,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumPss1() method.
+     * Tests setCumPss1()
      *
      * @return void
      */
@@ -857,7 +857,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumPss2() method.
+     * Tests setCumPss2()
      *
      * @return void
      */
@@ -870,7 +870,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumRttDus() method.
+     * Tests setCumRttDus()
      *
      * @return void
      */
@@ -883,7 +883,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumRttPris() method.
+     * Tests setCumRttPris()
      *
      * @return void
      */
@@ -896,7 +896,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumTrACaisse1() method.
+     * Tests setCumTrACaisse1()
      *
      * @return void
      */
@@ -909,7 +909,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumTrACaisse2() method.
+     * Tests setCumTrACaisse2()
      *
      * @return void
      */
@@ -922,7 +922,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumTrACaisse3() method.
+     * Tests setCumTrACaisse3()
      *
      * @return void
      */
@@ -935,7 +935,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumTrBCaisse1() method.
+     * Tests setCumTrBCaisse1()
      *
      * @return void
      */
@@ -948,7 +948,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumTrBCaisse2() method.
+     * Tests setCumTrBCaisse2()
      *
      * @return void
      */
@@ -961,7 +961,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumTrBCaisse3() method.
+     * Tests setCumTrBCaisse3()
      *
      * @return void
      */
@@ -974,7 +974,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumTrCCaisse1() method.
+     * Tests setCumTrCCaisse1()
      *
      * @return void
      */
@@ -987,7 +987,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumTrCCaisse2() method.
+     * Tests setCumTrCCaisse2()
      *
      * @return void
      */
@@ -1000,7 +1000,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumTrCCaisse3() method.
+     * Tests setCumTrCCaisse3()
      *
      * @return void
      */
@@ -1013,7 +1013,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumTranche2() method.
+     * Tests setCumTranche2()
      *
      * @return void
      */
@@ -1026,7 +1026,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumTrancheA() method.
+     * Tests setCumTrancheA()
      *
      * @return void
      */
@@ -1039,7 +1039,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumTrancheB() method.
+     * Tests setCumTrancheB()
      *
      * @return void
      */
@@ -1052,7 +1052,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumTrancheC() method.
+     * Tests setCumTrancheC()
      *
      * @return void
      */
@@ -1065,7 +1065,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDelta() method.
+     * Tests setDelta()
      *
      * @return void
      */
@@ -1078,7 +1078,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDroitCp() method.
+     * Tests setDroitCp()
      *
      * @return void
      */
@@ -1091,7 +1091,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDtDebutPeriode() method.
+     * Tests setDtDebutPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -1108,7 +1108,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDtFinPeriode() method.
+     * Tests setDtFinPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -1125,7 +1125,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEcartCumule() method.
+     * Tests setEcartCumule()
      *
      * @return void
      */
@@ -1138,7 +1138,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtatBul() method.
+     * Tests setEtatBul()
      *
      * @return void
      */
@@ -1151,7 +1151,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtatEdition() method.
+     * Tests setEtatEdition()
      *
      * @return void
      */
@@ -1164,7 +1164,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setForfaitJour() method.
+     * Tests setForfaitJour()
      *
      * @return void
      */
@@ -1177,7 +1177,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestCalcNetPaye() method.
+     * Tests setGestCalcNetPaye()
      *
      * @return void
      */
@@ -1190,7 +1190,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionCoeff() method.
+     * Tests setGestionCoeff()
      *
      * @return void
      */
@@ -1203,7 +1203,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHReelTrav() method.
+     * Tests setHReelTrav()
      *
      * @return void
      */
@@ -1216,7 +1216,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHTheoTrav() method.
+     * Tests setHTheoTrav()
      *
      * @return void
      */
@@ -1229,7 +1229,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHeureAbsence() method.
+     * Tests setHeureAbsence()
      *
      * @return void
      */
@@ -1242,7 +1242,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndicePeriode() method.
+     * Tests setIndicePeriode()
      *
      * @return void
      */
@@ -1255,7 +1255,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle() method.
+     * Tests setLibelle()
      *
      * @return void
      */
@@ -1268,7 +1268,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLienDocument() method.
+     * Tests setLienDocument()
      *
      * @return void
      */
@@ -1281,7 +1281,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLienJustificatif() method.
+     * Tests setLienJustificatif()
      *
      * @return void
      */
@@ -1294,7 +1294,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMaxAbat() method.
+     * Tests setMaxAbat()
      *
      * @return void
      */
@@ -1307,7 +1307,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMensuelJournalier() method.
+     * Tests setMensuelJournalier()
      *
      * @return void
      */
@@ -1320,7 +1320,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMethodeIndemCp() method.
+     * Tests setMethodeIndemCp()
      *
      * @return void
      */
@@ -1333,7 +1333,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMig() method.
+     * Tests setMig()
      *
      * @return void
      */
@@ -1346,7 +1346,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontant1() method.
+     * Tests setMontant1()
      *
      * @return void
      */
@@ -1359,7 +1359,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontant2() method.
+     * Tests setMontant2()
      *
      * @return void
      */
@@ -1372,7 +1372,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontant3() method.
+     * Tests setMontant3()
      *
      * @return void
      */
@@ -1385,7 +1385,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontant4() method.
+     * Tests setMontant4()
      *
      * @return void
      */
@@ -1398,7 +1398,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontant5() method.
+     * Tests setMontant5()
      *
      * @return void
      */
@@ -1411,7 +1411,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtHSupBonif() method.
+     * Tests setMtHSupBonif()
      *
      * @return void
      */
@@ -1424,7 +1424,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtICpCp() method.
+     * Tests setMtICpCp()
      *
      * @return void
      */
@@ -1437,7 +1437,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtICpt() method.
+     * Tests setMtICpt()
      *
      * @return void
      */
@@ -1450,7 +1450,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtIInt() method.
+     * Tests setMtIInt()
      *
      * @return void
      */
@@ -1463,7 +1463,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtJcpArbitrage() method.
+     * Tests setMtJcpArbitrage()
      *
      * @return void
      */
@@ -1476,7 +1476,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtJourneeCp() method.
+     * Tests setMtJourneeCp()
      *
      * @return void
      */
@@ -1489,7 +1489,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtNetPayeTheo() method.
+     * Tests setMtNetPayeTheo()
      *
      * @return void
      */
@@ -1502,7 +1502,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtTauxLigSalBase() method.
+     * Tests setMtTauxLigSalBase()
      *
      * @return void
      */
@@ -1515,7 +1515,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNb30() method.
+     * Tests setNb30()
      *
      * @return void
      */
@@ -1528,7 +1528,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHAbCp() method.
+     * Tests setNbHAbCp()
      *
      * @return void
      */
@@ -1541,7 +1541,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHAbsenceIntemp() method.
+     * Tests setNbHAbsenceIntemp()
      *
      * @return void
      */
@@ -1554,7 +1554,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHAttente() method.
+     * Tests setNbHAttente()
      *
      * @return void
      */
@@ -1567,7 +1567,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHBonifieDues() method.
+     * Tests setNbHBonifieDues()
      *
      * @return void
      */
@@ -1580,7 +1580,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHBonifiePrises() method.
+     * Tests setNbHBonifiePrises()
      *
      * @return void
      */
@@ -1593,7 +1593,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHCarenceIntemp() method.
+     * Tests setNbHCarenceIntemp()
      *
      * @return void
      */
@@ -1606,7 +1606,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHChomPartCp() method.
+     * Tests setNbHChomPartCp()
      *
      * @return void
      */
@@ -1619,7 +1619,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHChomPartTech() method.
+     * Tests setNbHChomPartTech()
      *
      * @return void
      */
@@ -1632,7 +1632,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHConduite() method.
+     * Tests setNbHConduite()
      *
      * @return void
      */
@@ -1645,7 +1645,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHConting() method.
+     * Tests setNbHConting()
      *
      * @return void
      */
@@ -1658,7 +1658,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHDble() method.
+     * Tests setNbHDble()
      *
      * @return void
      */
@@ -1671,7 +1671,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHDifDus() method.
+     * Tests setNbHDifDus()
      *
      * @return void
      */
@@ -1684,7 +1684,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHIntempIndem() method.
+     * Tests setNbHIntempIndem()
      *
      * @return void
      */
@@ -1697,7 +1697,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHLigSalBase() method.
+     * Tests setNbHLigSalBase()
      *
      * @return void
      */
@@ -1710,7 +1710,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHNormal() method.
+     * Tests setNbHNormal()
      *
      * @return void
      */
@@ -1723,7 +1723,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHPasDroitFillon() method.
+     * Tests setNbHPasDroitFillon()
      *
      * @return void
      */
@@ -1736,7 +1736,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHRemplace() method.
+     * Tests setNbHRemplace()
      *
      * @return void
      */
@@ -1749,7 +1749,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHRepoCompDues() method.
+     * Tests setNbHRepoCompDues()
      *
      * @return void
      */
@@ -1762,7 +1762,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHRepoCompPrises() method.
+     * Tests setNbHRepoCompPrises()
      *
      * @return void
      */
@@ -1775,7 +1775,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHRepoRDues() method.
+     * Tests setNbHRepoRDues()
      *
      * @return void
      */
@@ -1788,7 +1788,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHRepoRPrises() method.
+     * Tests setNbHRepoRPrises()
      *
      * @return void
      */
@@ -1801,7 +1801,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHSup1() method.
+     * Tests setNbHSup1()
      *
      * @return void
      */
@@ -1814,7 +1814,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHSup2() method.
+     * Tests setNbHSup2()
      *
      * @return void
      */
@@ -1827,7 +1827,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHSup3() method.
+     * Tests setNbHSup3()
      *
      * @return void
      */
@@ -1840,7 +1840,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHSup4() method.
+     * Tests setNbHSup4()
      *
      * @return void
      */
@@ -1853,7 +1853,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHSup5() method.
+     * Tests setNbHSup5()
      *
      * @return void
      */
@@ -1866,7 +1866,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHSupBonif() method.
+     * Tests setNbHSupBonif()
      *
      * @return void
      */
@@ -1879,7 +1879,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHSupBonifAbs() method.
+     * Tests setNbHSupBonifAbs()
      *
      * @return void
      */
@@ -1892,7 +1892,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHTrav() method.
+     * Tests setNbHTrav()
      *
      * @return void
      */
@@ -1905,7 +1905,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHTravail() method.
+     * Tests setNbHTravail()
      *
      * @return void
      */
@@ -1918,7 +1918,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHeurePaye() method.
+     * Tests setNbHeurePaye()
      *
      * @return void
      */
@@ -1931,7 +1931,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHeureSup() method.
+     * Tests setNbHeureSup()
      *
      * @return void
      */
@@ -1944,7 +1944,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHeureTrav() method.
+     * Tests setNbHeureTrav()
      *
      * @return void
      */
@@ -1957,7 +1957,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHeureTravMois() method.
+     * Tests setNbHeureTravMois()
      *
      * @return void
      */
@@ -1970,7 +1970,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJChomPartCp() method.
+     * Tests setNbJChomPartCp()
      *
      * @return void
      */
@@ -1983,7 +1983,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJDus() method.
+     * Tests setNbJDus()
      *
      * @return void
      */
@@ -1996,7 +1996,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJDus1() method.
+     * Tests setNbJDus1()
      *
      * @return void
      */
@@ -2009,7 +2009,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJPris() method.
+     * Tests setNbJPris()
      *
      * @return void
      */
@@ -2022,7 +2022,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJPris1() method.
+     * Tests setNbJPris1()
      *
      * @return void
      */
@@ -2035,7 +2035,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJRepoRecupDus() method.
+     * Tests setNbJRepoRecupDus()
      *
      * @return void
      */
@@ -2048,7 +2048,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJRepoRecupPris() method.
+     * Tests setNbJRepoRecupPris()
      *
      * @return void
      */
@@ -2061,7 +2061,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJTravForce() method.
+     * Tests setNbJTravForce()
      *
      * @return void
      */
@@ -2074,7 +2074,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJTravMoisEs() method.
+     * Tests setNbJTravMoisEs()
      *
      * @return void
      */
@@ -2087,7 +2087,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJourBase() method.
+     * Tests setNbJourBase()
      *
      * @return void
      */
@@ -2100,7 +2100,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJourBaseCp() method.
+     * Tests setNbJourBaseCp()
      *
      * @return void
      */
@@ -2113,7 +2113,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJourCpAcquis() method.
+     * Tests setNbJourCpAcquis()
      *
      * @return void
      */
@@ -2126,7 +2126,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJourCpPris() method.
+     * Tests setNbJourCpPris()
      *
      * @return void
      */
@@ -2139,7 +2139,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJourNormaux() method.
+     * Tests setNbJourNormaux()
      *
      * @return void
      */
@@ -2152,7 +2152,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJourTrav() method.
+     * Tests setNbJourTrav()
      *
      * @return void
      */
@@ -2165,7 +2165,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJrttDus() method.
+     * Tests setNbJrttDus()
      *
      * @return void
      */
@@ -2178,7 +2178,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJrttPris() method.
+     * Tests setNbJrttPris()
      *
      * @return void
      */
@@ -2191,7 +2191,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNetAPayer() method.
+     * Tests setNetAPayer()
      *
      * @return void
      */
@@ -2204,7 +2204,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNetImpos() method.
+     * Tests setNetImpos()
      *
      * @return void
      */
@@ -2217,7 +2217,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNote1() method.
+     * Tests setNote1()
      *
      * @return void
      */
@@ -2230,7 +2230,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNote2() method.
+     * Tests setNote2()
      *
      * @return void
      */
@@ -2243,7 +2243,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNote3() method.
+     * Tests setNote3()
      *
      * @return void
      */
@@ -2256,7 +2256,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -2269,7 +2269,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPaieEuro() method.
+     * Tests setPaieEuro()
      *
      * @return void
      */
@@ -2282,7 +2282,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPaiementCpNonPris() method.
+     * Tests setPaiementCpNonPris()
      *
      * @return void
      */
@@ -2295,7 +2295,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriode() method.
+     * Tests setPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -2312,7 +2312,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodicite() method.
+     * Tests setPeriodicite()
      *
      * @return void
      */
@@ -2325,7 +2325,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodiciteModifie() method.
+     * Tests setPeriodiciteModifie()
      *
      * @return void
      */
@@ -2338,7 +2338,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPlafond1Caisse1() method.
+     * Tests setPlafond1Caisse1()
      *
      * @return void
      */
@@ -2351,7 +2351,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPlafond1Caisse2() method.
+     * Tests setPlafond1Caisse2()
      *
      * @return void
      */
@@ -2364,7 +2364,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPlafond1Caisse3() method.
+     * Tests setPlafond1Caisse3()
      *
      * @return void
      */
@@ -2377,7 +2377,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPlafond2Caisse1() method.
+     * Tests setPlafond2Caisse1()
      *
      * @return void
      */
@@ -2390,7 +2390,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPlafond2Caisse2() method.
+     * Tests setPlafond2Caisse2()
      *
      * @return void
      */
@@ -2403,7 +2403,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPlafond2Caisse3() method.
+     * Tests setPlafond2Caisse3()
      *
      * @return void
      */
@@ -2416,7 +2416,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPlafondGmp() method.
+     * Tests setPlafondGmp()
      *
      * @return void
      */
@@ -2429,7 +2429,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPlafondGmpModifie() method.
+     * Tests setPlafondGmpModifie()
      *
      * @return void
      */
@@ -2442,7 +2442,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPlafondHeure() method.
+     * Tests setPlafondHeure()
      *
      * @return void
      */
@@ -2455,7 +2455,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPlafondJour() method.
+     * Tests setPlafondJour()
      *
      * @return void
      */
@@ -2468,7 +2468,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPlafondSemaine() method.
+     * Tests setPlafondSemaine()
      *
      * @return void
      */
@@ -2481,7 +2481,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPourcentAbat() method.
+     * Tests setPourcentAbat()
      *
      * @return void
      */
@@ -2494,7 +2494,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPourcentActForce() method.
+     * Tests setPourcentActForce()
      *
      * @return void
      */
@@ -2507,7 +2507,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPourcentActivite() method.
+     * Tests setPourcentActivite()
      *
      * @return void
      */
@@ -2520,7 +2520,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPourcentRemuHor() method.
+     * Tests setPourcentRemuHor()
      *
      * @return void
      */
@@ -2533,7 +2533,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPpSoumisTaxe() method.
+     * Tests setPpSoumisTaxe()
      *
      * @return void
      */
@@ -2546,7 +2546,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProvCp() method.
+     * Tests setProvCp()
      *
      * @return void
      */
@@ -2559,7 +2559,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProvCp1() method.
+     * Tests setProvCp1()
      *
      * @return void
      */
@@ -2572,7 +2572,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPss1() method.
+     * Tests setPss1()
      *
      * @return void
      */
@@ -2585,7 +2585,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPss2() method.
+     * Tests setPss2()
      *
      * @return void
      */
@@ -2598,7 +2598,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPss30() method.
+     * Tests setPss30()
      *
      * @return void
      */
@@ -2611,7 +2611,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPssMod() method.
+     * Tests setPssMod()
      *
      * @return void
      */
@@ -2624,7 +2624,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemunMens() method.
+     * Tests setRemunMens()
      *
      * @return void
      */
@@ -2637,7 +2637,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSBase() method.
+     * Tests setSBase()
      *
      * @return void
      */
@@ -2650,7 +2650,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSmic1() method.
+     * Tests setSmic1()
      *
      * @return void
      */
@@ -2663,7 +2663,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSmicH() method.
+     * Tests setSmicH()
      *
      * @return void
      */
@@ -2676,7 +2676,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSmicH35() method.
+     * Tests setSmicH35()
      *
      * @return void
      */
@@ -2689,7 +2689,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSmicH39() method.
+     * Tests setSmicH39()
      *
      * @return void
      */
@@ -2702,7 +2702,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSmicM() method.
+     * Tests setSmicM()
      *
      * @return void
      */
@@ -2715,7 +2715,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSmicM35() method.
+     * Tests setSmicM35()
      *
      * @return void
      */
@@ -2728,7 +2728,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSmicM39() method.
+     * Tests setSmicM39()
      *
      * @return void
      */
@@ -2741,7 +2741,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSortieMois() method.
+     * Tests setSortieMois()
      *
      * @return void
      */
@@ -2754,7 +2754,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxHAbCp() method.
+     * Tests setTauxHAbCp()
      *
      * @return void
      */
@@ -2767,7 +2767,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxHAbsence() method.
+     * Tests setTauxHAbsence()
      *
      * @return void
      */
@@ -2780,7 +2780,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxHNormal() method.
+     * Tests setTauxHNormal()
      *
      * @return void
      */
@@ -2793,7 +2793,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxJournalier() method.
+     * Tests setTauxJournalier()
      *
      * @return void
      */
@@ -2806,7 +2806,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTotAcompte() method.
+     * Tests setTotAcompte()
      *
      * @return void
      */
@@ -2819,7 +2819,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTotAcompteCp() method.
+     * Tests setTotAcompteCp()
      *
      * @return void
      */
@@ -2832,7 +2832,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTotCotisPatron() method.
+     * Tests setTotCotisPatron()
      *
      * @return void
      */
@@ -2845,7 +2845,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTotPrimeNi() method.
+     * Tests setTotPrimeNi()
      *
      * @return void
      */
@@ -2858,7 +2858,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTotPrimeNs() method.
+     * Tests setTotPrimeNs()
      *
      * @return void
      */
@@ -2871,7 +2871,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTotRetenue() method.
+     * Tests setTotRetenue()
      *
      * @return void
      */
@@ -2884,7 +2884,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrACaisse1() method.
+     * Tests setTrACaisse1()
      *
      * @return void
      */
@@ -2897,7 +2897,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrACaisse2() method.
+     * Tests setTrACaisse2()
      *
      * @return void
      */
@@ -2910,7 +2910,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrACaisse3() method.
+     * Tests setTrACaisse3()
      *
      * @return void
      */
@@ -2923,7 +2923,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrBCaisse1() method.
+     * Tests setTrBCaisse1()
      *
      * @return void
      */
@@ -2936,7 +2936,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrBCaisse2() method.
+     * Tests setTrBCaisse2()
      *
      * @return void
      */
@@ -2949,7 +2949,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrBCaisse3() method.
+     * Tests setTrBCaisse3()
      *
      * @return void
      */
@@ -2962,7 +2962,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrCCaisse1() method.
+     * Tests setTrCCaisse1()
      *
      * @return void
      */
@@ -2975,7 +2975,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrCCaisse2() method.
+     * Tests setTrCCaisse2()
      *
      * @return void
      */
@@ -2988,7 +2988,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrCCaisse3() method.
+     * Tests setTrCCaisse3()
      *
      * @return void
      */
@@ -3001,7 +3001,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTranche2() method.
+     * Tests setTranche2()
      *
      * @return void
      */
@@ -3014,7 +3014,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrancheA() method.
+     * Tests setTrancheA()
      *
      * @return void
      */
@@ -3027,7 +3027,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrancheAbal() method.
+     * Tests setTrancheAbal()
      *
      * @return void
      */
@@ -3040,7 +3040,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrancheAbanl() method.
+     * Tests setTrancheAbanl()
      *
      * @return void
      */
@@ -3053,7 +3053,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrancheAbna() method.
+     * Tests setTrancheAbna()
      *
      * @return void
      */
@@ -3066,7 +3066,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrancheB() method.
+     * Tests setTrancheB()
      *
      * @return void
      */
@@ -3079,7 +3079,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrancheBbal() method.
+     * Tests setTrancheBbal()
      *
      * @return void
      */
@@ -3092,7 +3092,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrancheBbanl() method.
+     * Tests setTrancheBbanl()
      *
      * @return void
      */
@@ -3105,7 +3105,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrancheBbna() method.
+     * Tests setTrancheBbna()
      *
      * @return void
      */
@@ -3118,7 +3118,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrancheC() method.
+     * Tests setTrancheC()
      *
      * @return void
      */
@@ -3131,7 +3131,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrancheCPlaf() method.
+     * Tests setTrancheCPlaf()
      *
      * @return void
      */
@@ -3144,7 +3144,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrancheCbal() method.
+     * Tests setTrancheCbal()
      *
      * @return void
      */
@@ -3157,7 +3157,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrancheCbanl() method.
+     * Tests setTrancheCbanl()
      *
      * @return void
      */
@@ -3170,7 +3170,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrancheCbna() method.
+     * Tests setTrancheCbna()
      *
      * @return void
      */
@@ -3183,7 +3183,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTxtNoteRtf() method.
+     * Tests setTxtNoteRtf()
      *
      * @return void
      */
@@ -3196,7 +3196,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeBaseCaisse1() method.
+     * Tests setTypeBaseCaisse1()
      *
      * @return void
      */
@@ -3209,7 +3209,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeBaseCaisse2() method.
+     * Tests setTypeBaseCaisse2()
      *
      * @return void
      */
@@ -3222,7 +3222,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeBaseCaisse3() method.
+     * Tests setTypeBaseCaisse3()
      *
      * @return void
      */
@@ -3235,7 +3235,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeGestionBal() method.
+     * Tests setTypeGestionBal()
      *
      * @return void
      */
@@ -3248,7 +3248,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypePaiementBul() method.
+     * Tests setTypePaiementBul()
      *
      * @return void
      */
@@ -3261,7 +3261,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypePaimentModifie() method.
+     * Tests setTypePaimentModifie()
      *
      * @return void
      */
@@ -3274,7 +3274,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeSaisieAbs() method.
+     * Tests setTypeSaisieAbs()
      *
      * @return void
      */
@@ -3287,7 +3287,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeSaisieAbsence() method.
+     * Tests setTypeSaisieAbsence()
      *
      * @return void
      */
@@ -3300,7 +3300,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setValoriseCp() method.
+     * Tests setValoriseCp()
      *
      * @return void
      */
@@ -3313,7 +3313,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

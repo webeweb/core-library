@@ -19,7 +19,7 @@ use WBW\Library\Bill\Tests\Fixtures\Model\TestBillableDetail;
 class BillableDetailFactoryTest extends AbstractTestCase {
 
     /**
-     * Tests the copy() method.
+     * Tests copy()
      *
      * @return void
      */

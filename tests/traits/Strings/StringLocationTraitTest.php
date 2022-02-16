@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringLocationTrait;
 class StringLocationTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setLocation() method.
+     * Tests setLocation()
      *
      * @return void
      */

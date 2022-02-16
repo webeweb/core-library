@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeAffaire() method.
+     * Tests setCodeAffaire()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeChantier() method.
+     * Tests setCodeChantier()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaboValid() method.
+     * Tests setCodeCollaboValid()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaborateur() method.
+     * Tests setCodeCollaborateur()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCommentaire() method.
+     * Tests setCommentaire()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDatePrevue() method.
+     * Tests setDatePrevue()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateReelle() method.
+     * Tests setDateReelle()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -137,7 +137,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateValidationSynchro() method.
+     * Tests setDateValidationSynchro()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -154,7 +154,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtat() method.
+     * Tests setEtat()
      *
      * @return void
      */
@@ -167,7 +167,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNoteGlobale() method.
+     * Tests setNoteGlobale()
      *
      * @return void
      */
@@ -180,7 +180,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroReclam() method.
+     * Tests setNumeroReclam()
      *
      * @return void
      */
@@ -193,7 +193,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRealiseParFcq() method.
+     * Tests setRealiseParFcq()
      *
      * @return void
      */
@@ -206,7 +206,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeControle() method.
+     * Tests setTypeControle()
      *
      * @return void
      */
@@ -219,7 +219,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniqIdNoeud() method.
+     * Tests setUniqIdNoeud()
      *
      * @return void
      */
@@ -232,7 +232,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniqIdSynchro() method.
+     * Tests setUniqIdSynchro()
      *
      * @return void
      */
@@ -245,7 +245,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

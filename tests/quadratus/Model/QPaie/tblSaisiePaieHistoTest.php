@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class tblSaisiePaieHistoTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeLibelle() method.
+     * Tests setCodeLibelle()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class tblSaisiePaieHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeUser() method.
+     * Tests setCodeUser()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class tblSaisiePaieHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateAdded() method.
+     * Tests setDateAdded()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class tblSaisiePaieHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFlag() method.
+     * Tests setFlag()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class tblSaisiePaieHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setId() method.
+     * Tests setId()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class tblSaisiePaieHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndicePeriode() method.
+     * Tests setIndicePeriode()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class tblSaisiePaieHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule() method.
+     * Tests setIntitule()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class tblSaisiePaieHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule2() method.
+     * Tests setIntitule2()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class tblSaisiePaieHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMoisDebFixe() method.
+     * Tests setMoisDebFixe()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class tblSaisiePaieHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMoisFinFixe() method.
+     * Tests setMoisFinFixe()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class tblSaisiePaieHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class tblSaisiePaieHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriode() method.
+     * Tests setPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -189,7 +189,7 @@ class tblSaisiePaieHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeRappel() method.
+     * Tests setPeriodeRappel()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -206,7 +206,7 @@ class tblSaisiePaieHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPosit() method.
+     * Tests setPosit()
      *
      * @return void
      */
@@ -219,7 +219,7 @@ class tblSaisiePaieHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeLigne() method.
+     * Tests setTypeLigne()
      *
      * @return void
      */
@@ -232,7 +232,7 @@ class tblSaisiePaieHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setValeur1() method.
+     * Tests setValeur1()
      *
      * @return void
      */
@@ -245,7 +245,7 @@ class tblSaisiePaieHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setValeur2() method.
+     * Tests setValeur2()
      *
      * @return void
      */
@@ -258,7 +258,7 @@ class tblSaisiePaieHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

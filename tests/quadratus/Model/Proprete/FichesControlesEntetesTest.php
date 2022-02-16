@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class FichesControlesEntetesTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeAffaire() method.
+     * Tests setCodeAffaire()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeChantier() method.
+     * Tests setCodeChantier()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaborateur() method.
+     * Tests setCodeCollaborateur()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCommentaire() method.
+     * Tests setCommentaire()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setControleur() method.
+     * Tests setControleur()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateControle() method.
+     * Tests setDateControle()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateCtrlPrevue() method.
+     * Tests setDateCtrlPrevue()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -137,7 +137,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateTransfert() method.
+     * Tests setDateTransfert()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -154,7 +154,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFicheContradictoire() method.
+     * Tests setFicheContradictoire()
      *
      * @return void
      */
@@ -167,7 +167,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFicheSignee() method.
+     * Tests setFicheSignee()
      *
      * @return void
      */
@@ -180,7 +180,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHeureDebut() method.
+     * Tests setHeureDebut()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -197,7 +197,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHeureFin() method.
+     * Tests setHeureFin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -214,7 +214,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle() method.
+     * Tests setLibelle()
      *
      * @return void
      */
@@ -227,7 +227,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLienDocument() method.
+     * Tests setLienDocument()
      *
      * @return void
      */
@@ -240,7 +240,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLocal() method.
+     * Tests setLocal()
      *
      * @return void
      */
@@ -253,7 +253,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLocalPere() method.
+     * Tests setLocalPere()
      *
      * @return void
      */
@@ -266,7 +266,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNoteGlobale() method.
+     * Tests setNoteGlobale()
      *
      * @return void
      */
@@ -279,7 +279,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNoteObjectif() method.
+     * Tests setNoteObjectif()
      *
      * @return void
      */
@@ -292,7 +292,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroFiche() method.
+     * Tests setNumeroFiche()
      *
      * @return void
      */
@@ -305,7 +305,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroNoeudLocal() method.
+     * Tests setNumeroNoeudLocal()
      *
      * @return void
      */
@@ -318,7 +318,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSatisfactionGenerale() method.
+     * Tests setSatisfactionGenerale()
      *
      * @return void
      */
@@ -331,7 +331,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeControle() method.
+     * Tests setTypeControle()
      *
      * @return void
      */
@@ -344,7 +344,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniqIdBlocage() method.
+     * Tests setUniqIdBlocage()
      *
      * @return void
      */
@@ -357,7 +357,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniqIdNoeud() method.
+     * Tests setUniqIdNoeud()
      *
      * @return void
      */
@@ -370,7 +370,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

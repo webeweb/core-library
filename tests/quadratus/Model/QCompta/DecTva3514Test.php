@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DecTva3514Test extends AbstractTestCase {
 
     /**
-     * Tests the set02BaseHt196() method.
+     * Tests set02BaseHt196()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the set02TaxeDue196() method.
+     * Tests set02TaxeDue196()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the set03BaseHt55() method.
+     * Tests set03BaseHt55()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the set03TaxeDue55() method.
+     * Tests set03TaxeDue55()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the set04BaseHt85() method.
+     * Tests set04BaseHt85()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the set04TaxeDue85() method.
+     * Tests set04TaxeDue85()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the set05BaseHt21() method.
+     * Tests set05BaseHt21()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the set05TaxeDue21() method.
+     * Tests set05TaxeDue21()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the set06BaseHtAncTaux() method.
+     * Tests set06BaseHtAncTaux()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the set06TaxeDueAncTaux() method.
+     * Tests set06TaxeDueAncTaux()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the set07BaseHtTauxPart() method.
+     * Tests set07BaseHtTauxPart()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the set07TaxeDueTauxPart() method.
+     * Tests set07TaxeDueTauxPart()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the set08BaseHttvAaReverser() method.
+     * Tests set08BaseHttvAaReverser()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the set08TaxeDueTvAaReverser() method.
+     * Tests set08TaxeDueTvAaReverser()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the set09TotalTvaBrute() method.
+     * Tests set09TotalTvaBrute()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the set10BiensImmos() method.
+     * Tests set10BiensImmos()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the set11AutresBiens() method.
+     * Tests set11AutresBiens()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the set12Omission() method.
+     * Tests set12Omission()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the set13TotalTvaDeduc() method.
+     * Tests set13TotalTvaDeduc()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the set14A() method.
+     * Tests set14A()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the set15B() method.
+     * Tests set15B()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the set16RemboursTva() method.
+     * Tests set16RemboursTva()
      *
      * @return void
      */
@@ -311,7 +311,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the set18CreditTvaca12() method.
+     * Tests set18CreditTvaca12()
      *
      * @return void
      */
@@ -324,7 +324,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the set1MttAugmentation() method.
+     * Tests set1MttAugmentation()
      *
      * @return void
      */
@@ -337,7 +337,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the set20AcompteTa1() method.
+     * Tests set20AcompteTa1()
      *
      * @return void
      */
@@ -350,7 +350,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the set20AcompteTa2() method.
+     * Tests set20AcompteTa2()
      *
      * @return void
      */
@@ -363,7 +363,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the set21AcompteTot1() method.
+     * Tests set21AcompteTot1()
      *
      * @return void
      */
@@ -376,7 +376,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the set21AcompteTot2() method.
+     * Tests set21AcompteTot2()
      *
      * @return void
      */
@@ -389,7 +389,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the set2BBaseHt7() method.
+     * Tests set2BBaseHt7()
      *
      * @return void
      */
@@ -402,7 +402,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the set2BTaxeDue7() method.
+     * Tests set2BTaxeDue7()
      *
      * @return void
      */
@@ -415,7 +415,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the set2MttCreditPrec() method.
+     * Tests set2MttCreditPrec()
      *
      * @return void
      */
@@ -428,7 +428,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the set2MttDiminution() method.
+     * Tests set2MttDiminution()
      *
      * @return void
      */
@@ -441,7 +441,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the set3MttDiminution() method.
+     * Tests set3MttDiminution()
      *
      * @return void
      */
@@ -454,7 +454,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the set3Suspension() method.
+     * Tests set3Suspension()
      *
      * @return void
      */
@@ -467,7 +467,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the set4HasDiminution() method.
+     * Tests set4HasDiminution()
      *
      * @return void
      */
@@ -480,7 +480,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the set4MttDiminution() method.
+     * Tests set4MttDiminution()
      *
      * @return void
      */
@@ -493,7 +493,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAcompteDu() method.
+     * Tests setAcompteDu()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -510,7 +510,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateDec() method.
+     * Tests setDateDec()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -527,7 +527,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateLimiteDec() method.
+     * Tests setDateLimiteDec()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -544,7 +544,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDetCodeTa() method.
+     * Tests setDetCodeTa()
      *
      * @return void
      */
@@ -557,7 +557,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDetTa1() method.
+     * Tests setDetTa1()
      *
      * @return void
      */
@@ -570,7 +570,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDetTa2() method.
+     * Tests setDetTa2()
      *
      * @return void
      */
@@ -583,7 +583,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDetTa3() method.
+     * Tests setDetTa3()
      *
      * @return void
      */
@@ -596,7 +596,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDetTa4() method.
+     * Tests setDetTa4()
      *
      * @return void
      */
@@ -609,7 +609,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setExigibleLe() method.
+     * Tests setExigibleLe()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -626,7 +626,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMttAPayer() method.
+     * Tests setMttAPayer()
      *
      * @return void
      */
@@ -639,7 +639,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMttDetTa1() method.
+     * Tests setMttDetTa1()
      *
      * @return void
      */
@@ -652,7 +652,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMttDetTa2() method.
+     * Tests setMttDetTa2()
      *
      * @return void
      */
@@ -665,7 +665,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMttDetTa3() method.
+     * Tests setMttDetTa3()
      *
      * @return void
      */
@@ -678,7 +678,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMttDetTa4() method.
+     * Tests setMttDetTa4()
      *
      * @return void
      */
@@ -691,7 +691,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMttDontTaxesAssim() method.
+     * Tests setMttDontTaxesAssim()
      *
      * @return void
      */
@@ -704,7 +704,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMttDontTva() method.
+     * Tests setMttDontTva()
      *
      * @return void
      */
@@ -717,7 +717,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriode() method.
+     * Tests setPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -734,7 +734,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz0151() method.
+     * Tests setz0151()
      *
      * @return void
      */
@@ -747,7 +747,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setz0207() method.
+     * Tests setz0207()
      *
      * @return void
      */
@@ -760,7 +760,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setzHa() method.
+     * Tests setzHa()
      *
      * @return void
      */
@@ -773,7 +773,7 @@ class DecTva3514Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

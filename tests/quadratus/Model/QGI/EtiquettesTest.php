@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EtiquettesTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeArticle() method.
+     * Tests setCodeArticle()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeBarre() method.
+     * Tests setCodeBarre()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCliFour() method.
+     * Tests setCodeCliFour()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeModele() method.
+     * Tests setCodeModele()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtiqPlus() method.
+     * Tests setEtiqPlus()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setImprimante() method.
+     * Tests setImprimante()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrixVente() method.
+     * Tests setPrixVente()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setType() method.
+     * Tests setType()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setZone1() method.
+     * Tests setZone1()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setZone10() method.
+     * Tests setZone10()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setZone11() method.
+     * Tests setZone11()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setZone12() method.
+     * Tests setZone12()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setZone13() method.
+     * Tests setZone13()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setZone14() method.
+     * Tests setZone14()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setZone15() method.
+     * Tests setZone15()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setZone2() method.
+     * Tests setZone2()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setZone3() method.
+     * Tests setZone3()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setZone4() method.
+     * Tests setZone4()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setZone5() method.
+     * Tests setZone5()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setZone6() method.
+     * Tests setZone6()
      *
      * @return void
      */
@@ -283,7 +283,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setZone7() method.
+     * Tests setZone7()
      *
      * @return void
      */
@@ -296,7 +296,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setZone8() method.
+     * Tests setZone8()
      *
      * @return void
      */
@@ -309,7 +309,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setZone9() method.
+     * Tests setZone9()
      *
      * @return void
      */
@@ -322,7 +322,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

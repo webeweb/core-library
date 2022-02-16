@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class BonTravPrevTest extends AbstractTestCase {
 
     /**
-     * Tests the setAdBtBureauDistributeur() method.
+     * Tests setAdBtBureauDistributeur()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdBtCivilite() method.
+     * Tests setAdBtCivilite()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdBtCodePays() method.
+     * Tests setAdBtCodePays()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdBtCodePostal() method.
+     * Tests setAdBtCodePostal()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdBtComplement() method.
+     * Tests setAdBtComplement()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdBtNom() method.
+     * Tests setAdBtNom()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdBtNomSuite() method.
+     * Tests setAdBtNomSuite()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdBtNomVoie() method.
+     * Tests setAdBtNomVoie()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdBtNumVoie() method.
+     * Tests setAdBtNumVoie()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdBtbtq() method.
+     * Tests setAdBtbtq()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdFBureauDistributeur() method.
+     * Tests setAdFBureauDistributeur()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdFCivilite() method.
+     * Tests setAdFCivilite()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdFCodePays() method.
+     * Tests setAdFCodePays()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdFCodePostal() method.
+     * Tests setAdFCodePostal()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdFComplement() method.
+     * Tests setAdFComplement()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdFNom() method.
+     * Tests setAdFNom()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdFNomSuite() method.
+     * Tests setAdFNomSuite()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdFNomSuite2() method.
+     * Tests setAdFNomSuite2()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdFNomSuite3() method.
+     * Tests setAdFNomSuite3()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdFNomVoie() method.
+     * Tests setAdFNomVoie()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdFNumVoie() method.
+     * Tests setAdFNumVoie()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdFbtq() method.
+     * Tests setAdFbtq()
      *
      * @return void
      */
@@ -311,7 +311,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdresseBtSaisie() method.
+     * Tests setAdresseBtSaisie()
      *
      * @return void
      */
@@ -324,7 +324,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdresseFacturationSaisie() method.
+     * Tests setAdresseFacturationSaisie()
      *
      * @return void
      */
@@ -337,7 +337,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBtCopie() method.
+     * Tests setBtCopie()
      *
      * @return void
      */
@@ -350,7 +350,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBtDevisDejaFacture() method.
+     * Tests setBtDevisDejaFacture()
      *
      * @return void
      */
@@ -363,7 +363,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBtValide() method.
+     * Tests setBtValide()
      *
      * @return void
      */
@@ -376,7 +376,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAffaire() method.
+     * Tests setCodeAffaire()
      *
      * @return void
      */
@@ -389,7 +389,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeChantier() method.
+     * Tests setCodeChantier()
      *
      * @return void
      */
@@ -402,7 +402,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -415,7 +415,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaborateur() method.
+     * Tests setCodeCollaborateur()
      *
      * @return void
      */
@@ -428,7 +428,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEquipe() method.
+     * Tests setCodeEquipe()
      *
      * @return void
      */
@@ -441,7 +441,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRegroupementDevis() method.
+     * Tests setCodeRegroupementDevis()
      *
      * @return void
      */
@@ -454,7 +454,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTacheType() method.
+     * Tests setCodeTacheType()
      *
      * @return void
      */
@@ -467,7 +467,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTournee() method.
+     * Tests setCodeTournee()
      *
      * @return void
      */
@@ -480,7 +480,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCritereBool1() method.
+     * Tests setCritereBool1()
      *
      * @return void
      */
@@ -493,7 +493,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCritereBool2() method.
+     * Tests setCritereBool2()
      *
      * @return void
      */
@@ -506,7 +506,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCritereByte1() method.
+     * Tests setCritereByte1()
      *
      * @return void
      */
@@ -519,7 +519,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCritereListe1() method.
+     * Tests setCritereListe1()
      *
      * @return void
      */
@@ -532,7 +532,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCritereListe2() method.
+     * Tests setCritereListe2()
      *
      * @return void
      */
@@ -545,7 +545,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCritereNumerique1() method.
+     * Tests setCritereNumerique1()
      *
      * @return void
      */
@@ -558,7 +558,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCritereNumerique2() method.
+     * Tests setCritereNumerique2()
      *
      * @return void
      */
@@ -571,7 +571,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCritereTexte1() method.
+     * Tests setCritereTexte1()
      *
      * @return void
      */
@@ -584,7 +584,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCritereTexte2() method.
+     * Tests setCritereTexte2()
      *
      * @return void
      */
@@ -597,7 +597,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDatePassage() method.
+     * Tests setDatePassage()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -614,7 +614,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDatePremierPassage() method.
+     * Tests setDatePremierPassage()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -631,7 +631,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateTransfert() method.
+     * Tests setDateTransfert()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -648,7 +648,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDescription() method.
+     * Tests setDescription()
      *
      * @return void
      */
@@ -661,7 +661,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDureePointee() method.
+     * Tests setDureePointee()
      *
      * @return void
      */
@@ -674,7 +674,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDureePrevue() method.
+     * Tests setDureePrevue()
      *
      * @return void
      */
@@ -687,7 +687,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDureeValidee() method.
+     * Tests setDureeValidee()
      *
      * @return void
      */
@@ -700,7 +700,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmployeSigneMob() method.
+     * Tests setEmployeSigneMob()
      *
      * @return void
      */
@@ -713,7 +713,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionPlanning() method.
+     * Tests setGestionPlanning()
      *
      * @return void
      */
@@ -726,7 +726,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGuidMob() method.
+     * Tests setGuidMob()
      *
      * @return void
      */
@@ -739,7 +739,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHeureDeb() method.
+     * Tests setHeureDeb()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -756,7 +756,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLatitude() method.
+     * Tests setLatitude()
      *
      * @return void
      */
@@ -769,7 +769,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle() method.
+     * Tests setLibelle()
      *
      * @return void
      */
@@ -782,7 +782,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLienDocument() method.
+     * Tests setLienDocument()
      *
      * @return void
      */
@@ -795,7 +795,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLongitude() method.
+     * Tests setLongitude()
      *
      * @return void
      */
@@ -808,7 +808,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantHtDevis() method.
+     * Tests setMontantHtDevis()
      *
      * @return void
      */
@@ -821,7 +821,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJoursPointes() method.
+     * Tests setNbJoursPointes()
      *
      * @return void
      */
@@ -834,7 +834,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJoursPrevus() method.
+     * Tests setNbJoursPrevus()
      *
      * @return void
      */
@@ -847,7 +847,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNombreEmployes() method.
+     * Tests setNombreEmployes()
      *
      * @return void
      */
@@ -860,7 +860,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNonTraite() method.
+     * Tests setNonTraite()
      *
      * @return void
      */
@@ -873,7 +873,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumBt() method.
+     * Tests setNumBt()
      *
      * @return void
      */
@@ -886,7 +886,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroDevis() method.
+     * Tests setNumeroDevis()
      *
      * @return void
      */
@@ -899,7 +899,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroFacture() method.
+     * Tests setNumeroFacture()
      *
      * @return void
      */
@@ -912,7 +912,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroPj() method.
+     * Tests setNumeroPj()
      *
      * @return void
      */
@@ -925,7 +925,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setObservationClient() method.
+     * Tests setObservationClient()
      *
      * @return void
      */
@@ -938,7 +938,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setObservationInterne() method.
+     * Tests setObservationInterne()
      *
      * @return void
      */
@@ -951,7 +951,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOccasionnel() method.
+     * Tests setOccasionnel()
      *
      * @return void
      */
@@ -964,7 +964,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPlusieursJours() method.
+     * Tests setPlusieursJours()
      *
      * @return void
      */
@@ -977,7 +977,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPlusieursMois() method.
+     * Tests setPlusieursMois()
      *
      * @return void
      */
@@ -990,7 +990,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPosteRent() method.
+     * Tests setPosteRent()
      *
      * @return void
      */
@@ -1003,7 +1003,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProratise() method.
+     * Tests setProratise()
      *
      * @return void
      */
@@ -1016,7 +1016,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSignataire() method.
+     * Tests setSignataire()
      *
      * @return void
      */
@@ -1029,7 +1029,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSigne() method.
+     * Tests setSigne()
      *
      * @return void
      */
@@ -1042,7 +1042,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setStartMob() method.
+     * Tests setStartMob()
      *
      * @return void
      */
@@ -1055,7 +1055,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeBt() method.
+     * Tests setTypeBt()
      *
      * @return void
      */
@@ -1068,7 +1068,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeBtSaisi() method.
+     * Tests setTypeBtSaisi()
      *
      * @return void
      */
@@ -1081,7 +1081,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniqIdBlocage() method.
+     * Tests setUniqIdBlocage()
      *
      * @return void
      */
@@ -1094,7 +1094,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setVia() method.
+     * Tests setVia()
      *
      * @return void
      */
@@ -1107,7 +1107,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setreference1Devis() method.
+     * Tests setreference1Devis()
      *
      * @return void
      */
@@ -1120,7 +1120,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setreference2Devis() method.
+     * Tests setreference2Devis()
      *
      * @return void
      */
@@ -1133,7 +1133,7 @@ class BonTravPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

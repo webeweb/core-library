@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class CaissesRetraiteMetierTest extends AbstractTestCase {
 
     /**
-     * Tests the setCategSalarie() method.
+     * Tests setCategSalarie()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCategSalarieEquiv() method.
+     * Tests setCategSalarieEquiv()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeActivite() method.
+     * Tests setCodeActivite()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeMetier() method.
+     * Tests setCodeMetier()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeOrganismeAgirc() method.
+     * Tests setCodeOrganismeAgirc()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeOrganismeArrco() method.
+     * Tests setCodeOrganismeArrco()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeOrganismeCcca() method.
+     * Tests setCodeOrganismeCcca()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeOrganismeFraisSante() method.
+     * Tests setCodeOrganismeFraisSante()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeOrganismePrev() method.
+     * Tests setCodeOrganismePrev()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeOrganismePrevComp() method.
+     * Tests setCodeOrganismePrevComp()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIdInstitutionAgirc() method.
+     * Tests setIdInstitutionAgirc()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIdInstitutionArrco() method.
+     * Tests setIdInstitutionArrco()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIdInstitutionCcca() method.
+     * Tests setIdInstitutionCcca()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIdInstitutionFraisSante() method.
+     * Tests setIdInstitutionFraisSante()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIdInstitutionPrev() method.
+     * Tests setIdInstitutionPrev()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIdInstitutionPrevComp() method.
+     * Tests setIdInstitutionPrevComp()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndiceCateg() method.
+     * Tests setIndiceCateg()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule() method.
+     * Tests setIntitule()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPasActive() method.
+     * Tests setPasActive()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

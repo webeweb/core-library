@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AvenantsContratsTest extends AbstractTestCase {
 
     /**
-     * Tests the setChrono() method.
+     * Tests setChrono()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AvenantsContratsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEmploye() method.
+     * Tests setCodeEmploye()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AvenantsContratsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateAvenant() method.
+     * Tests setDateAvenant()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class AvenantsContratsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLienDocument() method.
+     * Tests setLienDocument()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class AvenantsContratsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumAvenantSaisi() method.
+     * Tests setNumAvenantSaisi()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class AvenantsContratsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroAvenant() method.
+     * Tests setNumeroAvenant()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class AvenantsContratsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setObservation() method.
+     * Tests setObservation()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class AvenantsContratsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeAvenant() method.
+     * Tests setPeriodeAvenant()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -137,7 +137,7 @@ class AvenantsContratsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSignatureEmploye() method.
+     * Tests setSignatureEmploye()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class AvenantsContratsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeAvenant() method.
+     * Tests setTypeAvenant()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class AvenantsContratsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeDocument() method.
+     * Tests setTypeDocument()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class AvenantsContratsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

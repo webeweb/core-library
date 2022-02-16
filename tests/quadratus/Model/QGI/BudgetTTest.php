@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class BudgetTTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeAssistantJuridique() method.
+     * Tests setCodeAssistantJuridique()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAssistantSocial() method.
+     * Tests setCodeAssistantSocial()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAutre1() method.
+     * Tests setCodeAutre1()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAutre2() method.
+     * Tests setCodeAutre2()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaborateur() method.
+     * Tests setCodeCollaborateur()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeExpert() method.
+     * Tests setCodeExpert()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeMission() method.
+     * Tests setCodeMission()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePortefeuille() method.
+     * Tests setCodePortefeuille()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCollabAuteur() method.
+     * Tests setCollabAuteur()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCollabValideur() method.
+     * Tests setCollabValideur()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setComment1() method.
+     * Tests setComment1()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setComment2() method.
+     * Tests setComment2()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setComment3() method.
+     * Tests setComment3()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setComment4() method.
+     * Tests setComment4()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setComment5() method.
+     * Tests setComment5()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setComment6() method.
+     * Tests setComment6()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setComment7() method.
+     * Tests setComment7()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateDebut() method.
+     * Tests setDateDebut()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -276,7 +276,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateValid() method.
+     * Tests setDateValid()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -293,7 +293,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtat() method.
+     * Tests setEtat()
      *
      * @return void
      */
@@ -306,7 +306,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHonoPrev() method.
+     * Tests setHonoPrev()
      *
      * @return void
      */
@@ -319,7 +319,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle1() method.
+     * Tests setLibelle1()
      *
      * @return void
      */
@@ -332,7 +332,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle2() method.
+     * Tests setLibelle2()
      *
      * @return void
      */
@@ -345,7 +345,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle3() method.
+     * Tests setLibelle3()
      *
      * @return void
      */
@@ -358,7 +358,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle4() method.
+     * Tests setLibelle4()
      *
      * @return void
      */
@@ -371,7 +371,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle5() method.
+     * Tests setLibelle5()
      *
      * @return void
      */
@@ -384,7 +384,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle6() method.
+     * Tests setLibelle6()
      *
      * @return void
      */
@@ -397,7 +397,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle7() method.
+     * Tests setLibelle7()
      *
      * @return void
      */
@@ -410,7 +410,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbrBulletins() method.
+     * Tests setNbrBulletins()
      *
      * @return void
      */
@@ -423,7 +423,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbrEcritures() method.
+     * Tests setNbrEcritures()
      *
      * @return void
      */
@@ -436,7 +436,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbrHeures() method.
+     * Tests setNbrHeures()
      *
      * @return void
      */
@@ -449,7 +449,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrix1() method.
+     * Tests setPrix1()
      *
      * @return void
      */
@@ -462,7 +462,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrix2() method.
+     * Tests setPrix2()
      *
      * @return void
      */
@@ -475,7 +475,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrix3() method.
+     * Tests setPrix3()
      *
      * @return void
      */
@@ -488,7 +488,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrix4() method.
+     * Tests setPrix4()
      *
      * @return void
      */
@@ -501,7 +501,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrix5() method.
+     * Tests setPrix5()
      *
      * @return void
      */
@@ -514,7 +514,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrix6() method.
+     * Tests setPrix6()
      *
      * @return void
      */
@@ -527,7 +527,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrix7() method.
+     * Tests setPrix7()
      *
      * @return void
      */
@@ -540,7 +540,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSaisieTache() method.
+     * Tests setSaisieTache()
      *
      * @return void
      */
@@ -553,7 +553,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeSuivi() method.
+     * Tests setTypeSuivi()
      *
      * @return void
      */
@@ -566,7 +566,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setValoRecap() method.
+     * Tests setValoRecap()
      *
      * @return void
      */
@@ -579,7 +579,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

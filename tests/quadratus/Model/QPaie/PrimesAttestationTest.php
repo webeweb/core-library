@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class PrimesAttestationTest extends AbstractTestCase {
 
     /**
-     * Tests the setEuroOuFranc() method.
+     * Tests setEuroOuFranc()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class PrimesAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontant() method.
+     * Tests setMontant()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class PrimesAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNature() method.
+     * Tests setNature()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class PrimesAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLigne() method.
+     * Tests setNumLigne()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class PrimesAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroAttestation() method.
+     * Tests setNumeroAttestation()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class PrimesAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPayeLe() method.
+     * Tests setPayeLe()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -107,7 +107,7 @@ class PrimesAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeDeb() method.
+     * Tests setPeriodeDeb()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -124,7 +124,7 @@ class PrimesAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeFin() method.
+     * Tests setPeriodeFin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -141,7 +141,7 @@ class PrimesAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

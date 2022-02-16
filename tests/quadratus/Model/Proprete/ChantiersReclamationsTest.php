@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ChantiersReclamationsTest extends AbstractTestCase {
 
     /**
-     * Tests the setAlerte() method.
+     * Tests setAlerte()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class ChantiersReclamationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setArchivee() method.
+     * Tests setArchivee()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class ChantiersReclamationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAffaire() method.
+     * Tests setCodeAffaire()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class ChantiersReclamationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeChantier() method.
+     * Tests setCodeChantier()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class ChantiersReclamationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class ChantiersReclamationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaborateur() method.
+     * Tests setCodeCollaborateur()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class ChantiersReclamationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCritereListe1() method.
+     * Tests setCritereListe1()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class ChantiersReclamationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCritereListe2() method.
+     * Tests setCritereListe2()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class ChantiersReclamationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateDebutDoc() method.
+     * Tests setDateDebutDoc()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -146,7 +146,7 @@ class ChantiersReclamationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateFinDoc() method.
+     * Tests setDateFinDoc()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -163,7 +163,7 @@ class ChantiersReclamationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateReclam() method.
+     * Tests setDateReclam()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -180,7 +180,7 @@ class ChantiersReclamationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateTraitement() method.
+     * Tests setDateTraitement()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -197,7 +197,7 @@ class ChantiersReclamationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNiveau() method.
+     * Tests setNiveau()
      *
      * @return void
      */
@@ -210,7 +210,7 @@ class ChantiersReclamationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNiveauReclam() method.
+     * Tests setNiveauReclam()
      *
      * @return void
      */
@@ -223,7 +223,7 @@ class ChantiersReclamationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroPj() method.
+     * Tests setNumeroPj()
      *
      * @return void
      */
@@ -236,7 +236,7 @@ class ChantiersReclamationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroReclam() method.
+     * Tests setNumeroReclam()
      *
      * @return void
      */
@@ -249,7 +249,7 @@ class ChantiersReclamationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setReclamation() method.
+     * Tests setReclamation()
      *
      * @return void
      */
@@ -262,7 +262,7 @@ class ChantiersReclamationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setResultat() method.
+     * Tests setResultat()
      *
      * @return void
      */
@@ -275,7 +275,7 @@ class ChantiersReclamationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeReclam() method.
+     * Tests setTypeReclam()
      *
      * @return void
      */
@@ -288,7 +288,7 @@ class ChantiersReclamationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

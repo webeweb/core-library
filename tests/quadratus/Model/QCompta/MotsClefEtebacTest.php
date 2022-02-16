@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class MotsClefEtebacTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeJournal() method.
+     * Tests setCodeJournal()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class MotsClefEtebacTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle() method.
+     * Tests setLibelle()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class MotsClefEtebacTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setListeComptes() method.
+     * Tests setListeComptes()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class MotsClefEtebacTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMot() method.
+     * Tests setMot()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class MotsClefEtebacTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroCompteDepense() method.
+     * Tests setNumeroCompteDepense()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class MotsClefEtebacTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroCompteRecette() method.
+     * Tests setNumeroCompteRecette()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class MotsClefEtebacTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRegle() method.
+     * Tests setRegle()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class MotsClefEtebacTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

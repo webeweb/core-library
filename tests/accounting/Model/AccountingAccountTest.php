@@ -26,7 +26,7 @@ use WBW\Library\Accounting\Tests\AbstractTestCase;
 class AccountingAccountTest extends AbstractTestCase {
 
     /**
-     * Tests the jsonSerialize() method.
+     * Tests jsonSerialize()
      *
      * @return void
      */
@@ -48,7 +48,7 @@ class AccountingAccountTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

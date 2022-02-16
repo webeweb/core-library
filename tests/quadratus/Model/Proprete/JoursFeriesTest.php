@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class JoursFeriesTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodePays() method.
+     * Tests setCodePays()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class JoursFeriesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJour() method.
+     * Tests setJour()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -55,7 +55,7 @@ class JoursFeriesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroJf() method.
+     * Tests setNumeroJf()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class JoursFeriesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

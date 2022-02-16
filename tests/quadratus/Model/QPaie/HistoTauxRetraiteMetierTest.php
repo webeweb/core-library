@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class HistoTauxRetraiteMetierTest extends AbstractTestCase {
 
     /**
-     * Tests the setAPartirDe() method.
+     * Tests setAPartirDe()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -42,7 +42,7 @@ class HistoTauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCategSalarie() method.
+     * Tests setCategSalarie()
      *
      * @return void
      */
@@ -55,7 +55,7 @@ class HistoTauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeActivite() method.
+     * Tests setCodeActivite()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class HistoTauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeLibelle() method.
+     * Tests setCodeLibelle()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class HistoTauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeMetier() method.
+     * Tests setCodeMetier()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class HistoTauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFormatNonEtendu() method.
+     * Tests setFormatNonEtendu()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class HistoTauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndiceCateg() method.
+     * Tests setIndiceCateg()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class HistoTauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontant() method.
+     * Tests setMontant()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class HistoTauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxPatronal() method.
+     * Tests setTauxPatronal()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class HistoTauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxSalarial() method.
+     * Tests setTauxSalarial()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class HistoTauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

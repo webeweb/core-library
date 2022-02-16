@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Booleans\TestBooleanIncomeTrait;
 class BooleanIncomeTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setIncome() method.
+     * Tests setIncome()
      *
      * @return void
      */

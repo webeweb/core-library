@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class JournauxTest extends AbstractTestCase {
 
     /**
-     * Tests the setBic() method.
+     * Tests setBic()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCentraliseGdLivre() method.
+     * Tests setCentraliseGdLivre()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCleAcces() method.
+     * Tests setCleAcces()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCode() method.
+     * Tests setCode()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCentre() method.
+     * Tests setCodeCentre()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEntree() method.
+     * Tests setCodeEntree()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteContrepartie() method.
+     * Tests setCompteContrepartie()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteContrepartieAamm() method.
+     * Tests setCompteContrepartieAamm()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setContrepartie() method.
+     * Tests setContrepartie()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDomBanque() method.
+     * Tests setDomBanque()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEquilibreAuto() method.
+     * Tests setEquilibreAuto()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtebacSkipTva() method.
+     * Tests setEtebacSkipTva()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtebacXFerDetaillerBq() method.
+     * Tests setEtebacXFerDetaillerBq()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtebacXFerDoPrefixCodeOp() method.
+     * Tests setEtebacXFerDoPrefixCodeOp()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtebacXFerIndLibelle() method.
+     * Tests setEtebacXFerIndLibelle()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtebacXFerLignesComp() method.
+     * Tests setEtebacXFerLignesComp()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFamille() method.
+     * Tests setFamille()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestNumPieceJrn() method.
+     * Tests setGestNumPieceJrn()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionFolio() method.
+     * Tests setGestionFolio()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionNumPiece() method.
+     * Tests setGestionNumPiece()
      *
      * @return void
      */
@@ -283,7 +283,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIban() method.
+     * Tests setIban()
      *
      * @return void
      */
@@ -296,7 +296,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIbanIdClient() method.
+     * Tests setIbanIdClient()
      *
      * @return void
      */
@@ -309,7 +309,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle() method.
+     * Tests setLibelle()
      *
      * @return void
      */
@@ -322,7 +322,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantNegatif() method.
+     * Tests setMontantNegatif()
      *
      * @return void
      */
@@ -335,7 +335,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNiveauDroit() method.
+     * Tests setNiveauDroit()
      *
      * @return void
      */
@@ -348,7 +348,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumEmetteur() method.
+     * Tests setNumEmetteur()
      *
      * @return void
      */
@@ -361,7 +361,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProchainNumPiece() method.
+     * Tests setProchainNumPiece()
      *
      * @return void
      */
@@ -374,7 +374,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPropoLibelle() method.
+     * Tests setPropoLibelle()
      *
      * @return void
      */
@@ -387,7 +387,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRib() method.
+     * Tests setRib()
      *
      * @return void
      */
@@ -400,7 +400,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSaisieBordereau() method.
+     * Tests setSaisieBordereau()
      *
      * @return void
      */
@@ -413,7 +413,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeJournal() method.
+     * Tests setTypeJournal()
      *
      * @return void
      */
@@ -426,7 +426,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypePieceGlobal() method.
+     * Tests setTypePieceGlobal()
      *
      * @return void
      */
@@ -439,7 +439,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

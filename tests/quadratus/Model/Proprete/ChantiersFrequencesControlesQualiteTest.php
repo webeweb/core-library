@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ChantiersFrequencesControlesQualiteTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeAffaire() method.
+     * Tests setCodeAffaire()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ChantiersFrequencesControlesQualiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeChantier() method.
+     * Tests setCodeChantier()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ChantiersFrequencesControlesQualiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ChantiersFrequencesControlesQualiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJour() method.
+     * Tests setJour()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ChantiersFrequencesControlesQualiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMois() method.
+     * Tests setMois()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ChantiersFrequencesControlesQualiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroFreq() method.
+     * Tests setNumeroFreq()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class ChantiersFrequencesControlesQualiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQuePremiereAnnee() method.
+     * Tests setQuePremiereAnnee()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class ChantiersFrequencesControlesQualiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeControle() method.
+     * Tests setTypeControle()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class ChantiersFrequencesControlesQualiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

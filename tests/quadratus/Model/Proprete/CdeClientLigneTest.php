@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class CdeClientLigneTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeAffaire() method.
+     * Tests setCodeAffaire()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class CdeClientLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeArticle() method.
+     * Tests setCodeArticle()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class CdeClientLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeChantier() method.
+     * Tests setCodeChantier()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class CdeClientLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class CdeClientLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeDepot() method.
+     * Tests setCodeDepot()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class CdeClientLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRegroupement() method.
+     * Tests setCodeRegroupement()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class CdeClientLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTva() method.
+     * Tests setCodeTva()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class CdeClientLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeUnite() method.
+     * Tests setCodeUnite()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class CdeClientLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeVariante() method.
+     * Tests setCodeVariante()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class CdeClientLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeVentilVente() method.
+     * Tests setCodeVentilVente()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class CdeClientLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCommandeRecue() method.
+     * Tests setCommandeRecue()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class CdeClientLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateReceptionPrevue() method.
+     * Tests setDateReceptionPrevue()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -185,7 +185,7 @@ class CdeClientLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDesignation() method.
+     * Tests setDesignation()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class CdeClientLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDesignation2() method.
+     * Tests setDesignation2()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class CdeClientLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDesignation3() method.
+     * Tests setDesignation3()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class CdeClientLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndiceLigne() method.
+     * Tests setIndiceLigne()
      *
      * @return void
      */
@@ -237,7 +237,7 @@ class CdeClientLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNoBl() method.
+     * Tests setNoBl()
      *
      * @return void
      */
@@ -250,7 +250,7 @@ class CdeClientLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNoLigneBl() method.
+     * Tests setNoLigneBl()
      *
      * @return void
      */
@@ -263,7 +263,7 @@ class CdeClientLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNoPiece() method.
+     * Tests setNoPiece()
      *
      * @return void
      */
@@ -276,7 +276,7 @@ class CdeClientLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroFacture() method.
+     * Tests setNumeroFacture()
      *
      * @return void
      */
@@ -289,7 +289,7 @@ class CdeClientLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroLigne() method.
+     * Tests setNumeroLigne()
      *
      * @return void
      */
@@ -302,7 +302,7 @@ class CdeClientLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrixAchat() method.
+     * Tests setPrixAchat()
      *
      * @return void
      */
@@ -315,7 +315,7 @@ class CdeClientLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrixbloque() method.
+     * Tests setPrixbloque()
      *
      * @return void
      */
@@ -328,7 +328,7 @@ class CdeClientLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPuBrut() method.
+     * Tests setPuBrut()
      *
      * @return void
      */
@@ -341,7 +341,7 @@ class CdeClientLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQteOrigine() method.
+     * Tests setQteOrigine()
      *
      * @return void
      */
@@ -354,7 +354,7 @@ class CdeClientLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQuantite() method.
+     * Tests setQuantite()
      *
      * @return void
      */
@@ -367,7 +367,7 @@ class CdeClientLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemiseLigne1() method.
+     * Tests setRemiseLigne1()
      *
      * @return void
      */
@@ -380,7 +380,7 @@ class CdeClientLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemiseLigne2() method.
+     * Tests setRemiseLigne2()
      *
      * @return void
      */
@@ -393,7 +393,7 @@ class CdeClientLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemiseLigne3() method.
+     * Tests setRemiseLigne3()
      *
      * @return void
      */
@@ -406,7 +406,7 @@ class CdeClientLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxCommission() method.
+     * Tests setTauxCommission()
      *
      * @return void
      */
@@ -419,7 +419,7 @@ class CdeClientLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxTva() method.
+     * Tests setTauxTva()
      *
      * @return void
      */
@@ -432,7 +432,7 @@ class CdeClientLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeLigne() method.
+     * Tests setTypeLigne()
      *
      * @return void
      */
@@ -445,7 +445,7 @@ class CdeClientLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

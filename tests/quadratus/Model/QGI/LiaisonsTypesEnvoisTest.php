@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LiaisonsTypesEnvoisTest extends AbstractTestCase {
 
     /**
-     * Tests the setABloquer() method.
+     * Tests setABloquer()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class LiaisonsTypesEnvoisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAEmettre() method.
+     * Tests setAEmettre()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class LiaisonsTypesEnvoisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAccepteDepuisQBureau() method.
+     * Tests setAccepteDepuisQBureau()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class LiaisonsTypesEnvoisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAccepteDepuisQc() method.
+     * Tests setAccepteDepuisQc()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class LiaisonsTypesEnvoisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAccepteDepuisQp() method.
+     * Tests setAccepteDepuisQp()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class LiaisonsTypesEnvoisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCode() method.
+     * Tests setCode()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class LiaisonsTypesEnvoisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule() method.
+     * Tests setIntitule()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class LiaisonsTypesEnvoisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setModifiable() method.
+     * Tests setModifiable()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class LiaisonsTypesEnvoisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSansImages() method.
+     * Tests setSansImages()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class LiaisonsTypesEnvoisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

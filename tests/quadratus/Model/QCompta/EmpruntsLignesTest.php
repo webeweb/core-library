@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EmpruntsLignesTest extends AbstractTestCase {
 
     /**
-     * Tests the setDateRemboursement() method.
+     * Tests setDateRemboursement()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -42,7 +42,7 @@ class EmpruntsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDontAssurance() method.
+     * Tests setDontAssurance()
      *
      * @return void
      */
@@ -55,7 +55,7 @@ class EmpruntsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDontCapital() method.
+     * Tests setDontCapital()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class EmpruntsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDontInteret() method.
+     * Tests setDontInteret()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class EmpruntsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantRembour() method.
+     * Tests setMontantRembour()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class EmpruntsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLigne() method.
+     * Tests setNumLigne()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class EmpruntsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumero() method.
+     * Tests setNumero()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class EmpruntsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRestantDuAvant() method.
+     * Tests setRestantDuAvant()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class EmpruntsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxLigne() method.
+     * Tests setTauxLigne()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class EmpruntsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

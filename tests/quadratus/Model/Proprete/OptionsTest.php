@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class OptionsTest extends AbstractTestCase {
 
     /**
-     * Tests the setBooleen() method.
+     * Tests setBooleen()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class OptionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateHeure() method.
+     * Tests setDateHeure()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -55,7 +55,7 @@ class OptionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDescriptif() method.
+     * Tests setDescriptif()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class OptionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumerique() method.
+     * Tests setNumerique()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class OptionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setString() method.
+     * Tests setString()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class OptionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

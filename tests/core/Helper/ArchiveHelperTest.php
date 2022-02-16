@@ -43,7 +43,7 @@ class ArchiveHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the zip() method.
+     * Tests zip()
      *
      * @return void
      */
@@ -58,7 +58,7 @@ class ArchiveHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the zip() method.
+     * Tests zip()
      *
      * @return void
      */
@@ -73,7 +73,7 @@ class ArchiveHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the zip() method.
+     * Tests zip()
      *
      * @return void
      */

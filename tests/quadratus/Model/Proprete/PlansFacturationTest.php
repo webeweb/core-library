@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class PlansFacturationTest extends AbstractTestCase {
 
     /**
-     * Tests the setAou() method.
+     * Tests setAou()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAvr() method.
+     * Tests setAvr()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAffaire() method.
+     * Tests setCodeAffaire()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeArticle() method.
+     * Tests setCodeArticle()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeChantier() method.
+     * Tests setCodeChantier()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRegroupement() method.
+     * Tests setCodeRegroupement()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCoefficient() method.
+     * Tests setCoefficient()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateFinValidite() method.
+     * Tests setDateFinValidite()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -146,7 +146,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDec() method.
+     * Tests setDec()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDesignation() method.
+     * Tests setDesignation()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDesignation2() method.
+     * Tests setDesignation2()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDesignation3() method.
+     * Tests setDesignation3()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDesignationBis() method.
+     * Tests setDesignationBis()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDesignationBis2() method.
+     * Tests setDesignationBis2()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDesignationBis3() method.
+     * Tests setDesignationBis3()
      *
      * @return void
      */
@@ -237,7 +237,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDesignationRtf() method.
+     * Tests setDesignationRtf()
      *
      * @return void
      */
@@ -250,7 +250,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDuree() method.
+     * Tests setDuree()
      *
      * @return void
      */
@@ -263,7 +263,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFev() method.
+     * Tests setFev()
      *
      * @return void
      */
@@ -276,7 +276,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFinPeriodeTarif() method.
+     * Tests setFinPeriodeTarif()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -293,7 +293,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndice() method.
+     * Tests setIndice()
      *
      * @return void
      */
@@ -306,7 +306,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJan() method.
+     * Tests setJan()
      *
      * @return void
      */
@@ -319,7 +319,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJui() method.
+     * Tests setJui()
      *
      * @return void
      */
@@ -332,7 +332,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJuin() method.
+     * Tests setJuin()
      *
      * @return void
      */
@@ -345,7 +345,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMai() method.
+     * Tests setMai()
      *
      * @return void
      */
@@ -358,7 +358,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMar() method.
+     * Tests setMar()
      *
      * @return void
      */
@@ -371,7 +371,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNov() method.
+     * Tests setNov()
      *
      * @return void
      */
@@ -384,7 +384,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumBt() method.
+     * Tests setNumBt()
      *
      * @return void
      */
@@ -397,7 +397,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroDevis() method.
+     * Tests setNumeroDevis()
      *
      * @return void
      */
@@ -410,7 +410,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroHistorique() method.
+     * Tests setNumeroHistorique()
      *
      * @return void
      */
@@ -423,7 +423,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOct() method.
+     * Tests setOct()
      *
      * @return void
      */
@@ -436,7 +436,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeTarif() method.
+     * Tests setPeriodeTarif()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -453,7 +453,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPosteRent() method.
+     * Tests setPosteRent()
      *
      * @return void
      */
@@ -466,7 +466,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrixAchat() method.
+     * Tests setPrixAchat()
      *
      * @return void
      */
@@ -479,7 +479,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrixVente() method.
+     * Tests setPrixVente()
      *
      * @return void
      */
@@ -492,7 +492,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPxFacture() method.
+     * Tests setPxFacture()
      *
      * @return void
      */
@@ -505,7 +505,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQuantite() method.
+     * Tests setQuantite()
      *
      * @return void
      */
@@ -518,7 +518,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRefArticle() method.
+     * Tests setRefArticle()
      *
      * @return void
      */
@@ -531,7 +531,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRefPosteCdeWebFt() method.
+     * Tests setRefPosteCdeWebFt()
      *
      * @return void
      */
@@ -544,7 +544,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSep() method.
+     * Tests setSep()
      *
      * @return void
      */
@@ -557,7 +557,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTaux() method.
+     * Tests setTaux()
      *
      * @return void
      */
@@ -570,7 +570,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setVentilMarge() method.
+     * Tests setVentilMarge()
      *
      * @return void
      */
@@ -583,7 +583,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

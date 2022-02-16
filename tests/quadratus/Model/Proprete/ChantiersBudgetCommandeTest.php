@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ChantiersBudgetCommandeTest extends AbstractTestCase {
 
     /**
-     * Tests the setBudgetCommande1() method.
+     * Tests setBudgetCommande1()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class ChantiersBudgetCommandeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBudgetCommande10() method.
+     * Tests setBudgetCommande10()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class ChantiersBudgetCommandeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBudgetCommande11() method.
+     * Tests setBudgetCommande11()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class ChantiersBudgetCommandeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBudgetCommande12() method.
+     * Tests setBudgetCommande12()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class ChantiersBudgetCommandeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBudgetCommande2() method.
+     * Tests setBudgetCommande2()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class ChantiersBudgetCommandeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBudgetCommande3() method.
+     * Tests setBudgetCommande3()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class ChantiersBudgetCommandeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBudgetCommande4() method.
+     * Tests setBudgetCommande4()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class ChantiersBudgetCommandeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBudgetCommande5() method.
+     * Tests setBudgetCommande5()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class ChantiersBudgetCommandeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBudgetCommande6() method.
+     * Tests setBudgetCommande6()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class ChantiersBudgetCommandeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBudgetCommande7() method.
+     * Tests setBudgetCommande7()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class ChantiersBudgetCommandeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBudgetCommande8() method.
+     * Tests setBudgetCommande8()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class ChantiersBudgetCommandeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBudgetCommande9() method.
+     * Tests setBudgetCommande9()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class ChantiersBudgetCommandeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAffaire() method.
+     * Tests setCodeAffaire()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class ChantiersBudgetCommandeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeChantier() method.
+     * Tests setCodeChantier()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class ChantiersBudgetCommandeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class ChantiersBudgetCommandeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriode() method.
+     * Tests setPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -237,7 +237,7 @@ class ChantiersBudgetCommandeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

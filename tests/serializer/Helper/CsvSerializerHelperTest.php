@@ -24,7 +24,7 @@ use WBW\Library\Serializer\Tests\Fixtures\Model\TestCsvSerializable;
 class CsvSerializerHelperTest extends AbstractTestCase {
 
     /**
-     * Tests the serializeArray() method.
+     * Tests serializeArray()
      *
      * @return void
      */

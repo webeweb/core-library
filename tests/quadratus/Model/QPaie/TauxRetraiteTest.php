@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class TauxRetraiteTest extends AbstractTestCase {
 
     /**
-     * Tests the setCategCadre() method.
+     * Tests setCategCadre()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class TauxRetraiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCentre() method.
+     * Tests setCodeCentre()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class TauxRetraiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEtablissement() method.
+     * Tests setCodeEtablissement()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class TauxRetraiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeOrganisme() method.
+     * Tests setCodeOrganisme()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class TauxRetraiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndiceContrat() method.
+     * Tests setIndiceContrat()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class TauxRetraiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelleBul() method.
+     * Tests setLibelleBul()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class TauxRetraiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumDossier() method.
+     * Tests setNumDossier()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class TauxRetraiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSousDossier() method.
+     * Tests setSousDossier()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class TauxRetraiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxPatTrA() method.
+     * Tests setTauxPatTrA()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class TauxRetraiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxPatTrB() method.
+     * Tests setTauxPatTrB()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class TauxRetraiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxPatTrC() method.
+     * Tests setTauxPatTrC()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class TauxRetraiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxSalTrA() method.
+     * Tests setTauxSalTrA()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class TauxRetraiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxSalTrB() method.
+     * Tests setTauxSalTrB()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class TauxRetraiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxSalTrC() method.
+     * Tests setTauxSalTrC()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class TauxRetraiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

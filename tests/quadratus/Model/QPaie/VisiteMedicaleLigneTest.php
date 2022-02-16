@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class VisiteMedicaleLigneTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeMedecineTravail() method.
+     * Tests setCodeMedecineTravail()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class VisiteMedicaleLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeSession() method.
+     * Tests setCodeSession()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class VisiteMedicaleLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCommentaire() method.
+     * Tests setCommentaire()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class VisiteMedicaleLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateVisite() method.
+     * Tests setDateVisite()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class VisiteMedicaleLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDureeVisite() method.
+     * Tests setDureeVisite()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class VisiteMedicaleLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtatVisite() method.
+     * Tests setEtatVisite()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class VisiteMedicaleLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHeureVisite() method.
+     * Tests setHeureVisite()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -124,7 +124,7 @@ class VisiteMedicaleLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLienDocument() method.
+     * Tests setLienDocument()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class VisiteMedicaleLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class VisiteMedicaleLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTel1() method.
+     * Tests setTel1()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class VisiteMedicaleLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeLigne() method.
+     * Tests setTypeLigne()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class VisiteMedicaleLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeVisite() method.
+     * Tests setTypeVisite()
      *
      * @return void
      */
@@ -189,7 +189,7 @@ class VisiteMedicaleLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

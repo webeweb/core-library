@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ProspectsTest extends AbstractTestCase {
 
     /**
-     * Tests the setBtq() method.
+     * Tests setBtq()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ProspectsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBureauDistributeur() method.
+     * Tests setBureauDistributeur()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ProspectsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePostal() method.
+     * Tests setCodePostal()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ProspectsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeProspect() method.
+     * Tests setCodeProspect()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ProspectsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setComplement() method.
+     * Tests setComplement()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ProspectsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNom() method.
+     * Tests setNom()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class ProspectsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomSuite() method.
+     * Tests setNomSuite()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class ProspectsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomSuite2() method.
+     * Tests setNomSuite2()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class ProspectsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomSuite3() method.
+     * Tests setNomSuite3()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class ProspectsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomVoie() method.
+     * Tests setNomVoie()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class ProspectsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumVoie() method.
+     * Tests setNumVoie()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class ProspectsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

@@ -24,7 +24,7 @@ use WBW\Library\OcrLad\Tests\Fixtures\Model\Attribute\TestArrayWordsTrait;
 class ArrayWordsTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the addWord() method.
+     * Tests addWord()
      *
      * @return void
      */

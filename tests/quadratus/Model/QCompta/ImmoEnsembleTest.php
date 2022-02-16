@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ImmoEnsembleTest extends AbstractTestCase {
 
     /**
-     * Tests the setLibelle() method.
+     * Tests setLibelle()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ImmoEnsembleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroCompte() method.
+     * Tests setNumeroCompte()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ImmoEnsembleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEnsemble() method.
+     * Tests setNumeroEnsemble()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ImmoEnsembleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

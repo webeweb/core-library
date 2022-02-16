@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EnfantsTest extends AbstractTestCase {
 
     /**
-     * Tests the setACharge() method.
+     * Tests setACharge()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class EnfantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateNaissance() method.
+     * Tests setDateNaissance()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -55,7 +55,7 @@ class EnfantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNom() method.
+     * Tests setNom()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class EnfantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLigne() method.
+     * Tests setNumLigne()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class EnfantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class EnfantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrenom() method.
+     * Tests setPrenom()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class EnfantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSexe() method.
+     * Tests setSexe()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class EnfantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

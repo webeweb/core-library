@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class TempsPassesTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaborateur() method.
+     * Tests setCodeCollaborateur()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeMission() method.
+     * Tests setCodeMission()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePhase() method.
+     * Tests setCodePhase()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTache() method.
+     * Tests setCodeTache()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeVehicule() method.
+     * Tests setCodeVehicule()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCoutKm() method.
+     * Tests setCoutKm()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateSaisie() method.
+     * Tests setDateSaisie()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -133,7 +133,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateSysSaisie() method.
+     * Tests setDateSysSaisie()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -150,7 +150,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtat() method.
+     * Tests setEtat()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFacturable() method.
+     * Tests setFacturable()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGUniqId() method.
+     * Tests setGUniqId()
      *
      * @return void
      */
@@ -189,7 +189,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHeureDebut() method.
+     * Tests setHeureDebut()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -206,7 +206,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHeureFin() method.
+     * Tests setHeureFin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -223,7 +223,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIdTps() method.
+     * Tests setIdTps()
      *
      * @return void
      */
@@ -236,7 +236,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIsTransf() method.
+     * Tests setIsTransf()
      *
      * @return void
      */
@@ -249,7 +249,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle() method.
+     * Tests setLibelle()
      *
      * @return void
      */
@@ -262,7 +262,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMonnaie() method.
+     * Tests setMonnaie()
      *
      * @return void
      */
@@ -275,7 +275,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantCrt() method.
+     * Tests setMontantCrt()
      *
      * @return void
      */
@@ -288,7 +288,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantTva() method.
+     * Tests setMontantTva()
      *
      * @return void
      */
@@ -301,7 +301,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbKm() method.
+     * Tests setNbKm()
      *
      * @return void
      */
@@ -314,7 +314,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbUo() method.
+     * Tests setNbUo()
      *
      * @return void
      */
@@ -327,7 +327,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeEditionNdF() method.
+     * Tests setPeriodeEditionNdF()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -344,7 +344,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPu() method.
+     * Tests setPu()
      *
      * @return void
      */
@@ -357,7 +357,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPv1() method.
+     * Tests setPv1()
      *
      * @return void
      */
@@ -370,7 +370,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPv2() method.
+     * Tests setPv2()
      *
      * @return void
      */
@@ -383,7 +383,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPv3() method.
+     * Tests setPv3()
      *
      * @return void
      */
@@ -396,7 +396,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQte() method.
+     * Tests setQte()
      *
      * @return void
      */
@@ -409,7 +409,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxRemise() method.
+     * Tests setTauxRemise()
      *
      * @return void
      */
@@ -422,7 +422,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxRemiseIci() method.
+     * Tests setTauxRemiseIci()
      *
      * @return void
      */
@@ -435,7 +435,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniqIdFacture() method.
+     * Tests setUniqIdFacture()
      *
      * @return void
      */
@@ -448,7 +448,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setValide() method.
+     * Tests setValide()
      *
      * @return void
      */
@@ -461,7 +461,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setValideCollab() method.
+     * Tests setValideCollab()
      *
      * @return void
      */
@@ -474,7 +474,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setValideDate() method.
+     * Tests setValideDate()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -491,7 +491,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

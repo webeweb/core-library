@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class BonsTravauxInterventionsTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeAffaire() method.
+     * Tests setCodeAffaire()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeChantier() method.
+     * Tests setCodeChantier()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDimanche() method.
+     * Tests setDimanche()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJeudi() method.
+     * Tests setJeudi()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLundi() method.
+     * Tests setLundi()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMardi() method.
+     * Tests setMardi()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMercredi() method.
+     * Tests setMercredi()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumBt() method.
+     * Tests setNumBt()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumSem() method.
+     * Tests setNumSem()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSamedi() method.
+     * Tests setSamedi()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setVendredi() method.
+     * Tests setVendredi()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

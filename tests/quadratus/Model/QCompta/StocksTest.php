@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class StocksTest extends AbstractTestCase {
 
     /**
-     * Tests the setAnnee() method.
+     * Tests setAnnee()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class StocksTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCentre() method.
+     * Tests setCentre()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class StocksTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelleEcriture() method.
+     * Tests setLibelleEcriture()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class StocksTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontant() method.
+     * Tests setMontant()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class StocksTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNature() method.
+     * Tests setNature()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class StocksTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLigne() method.
+     * Tests setNumLigne()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class StocksTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroCompte() method.
+     * Tests setNumeroCompte()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class StocksTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriode() method.
+     * Tests setPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -133,7 +133,7 @@ class StocksTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrixU() method.
+     * Tests setPrixU()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class StocksTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrixU2() method.
+     * Tests setPrixU2()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class StocksTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQuantite() method.
+     * Tests setQuantite()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class StocksTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQuantite2() method.
+     * Tests setQuantite2()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class StocksTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRefEcrCodeJournal() method.
+     * Tests setRefEcrCodeJournal()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class StocksTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRefEcrFolio() method.
+     * Tests setRefEcrFolio()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class StocksTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRefEcrLigneFolio() method.
+     * Tests setRefEcrLigneFolio()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class StocksTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRefEcrNumLigne() method.
+     * Tests setRefEcrNumLigne()
      *
      * @return void
      */
@@ -237,7 +237,7 @@ class StocksTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRefEcrPeriodeEcriture() method.
+     * Tests setRefEcrPeriodeEcriture()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -254,7 +254,7 @@ class StocksTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class SaisiePrepaEnteteTest extends AbstractTestCase {
 
     /**
-     * Tests the setCode() method.
+     * Tests setCode()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class SaisiePrepaEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDesactive() method.
+     * Tests setDesactive()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class SaisiePrepaEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule() method.
+     * Tests setIntitule()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class SaisiePrepaEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSaisieAbsCp() method.
+     * Tests setSaisieAbsCp()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class SaisiePrepaEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSaisieAcompte() method.
+     * Tests setSaisieAcompte()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class SaisiePrepaEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setWidthBord() method.
+     * Tests setWidthBord()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class SaisiePrepaEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

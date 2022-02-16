@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class TramesLignesTest extends AbstractTestCase {
 
     /**
-     * Tests the setCode() method.
+     * Tests setCode()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class TramesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAffaire() method.
+     * Tests setCodeAffaire()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class TramesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeLibAuto() method.
+     * Tests setCodeLibAuto()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class TramesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompte() method.
+     * Tests setCompte()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class TramesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteContrepartie() method.
+     * Tests setCompteContrepartie()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class TramesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCredit() method.
+     * Tests setCredit()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class TramesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateEcheance() method.
+     * Tests setDateEcheance()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class TramesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDebit() method.
+     * Tests setDebit()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class TramesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIsDebit() method.
+     * Tests setIsDebit()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class TramesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle() method.
+     * Tests setLibelle()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class TramesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLigne() method.
+     * Tests setNumLigne()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class TramesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

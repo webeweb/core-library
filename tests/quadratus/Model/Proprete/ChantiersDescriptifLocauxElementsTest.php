@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ChantiersDescriptifLocauxElementsTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeAffaire() method.
+     * Tests setCodeAffaire()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ChantiersDescriptifLocauxElementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeChantier() method.
+     * Tests setCodeChantier()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ChantiersDescriptifLocauxElementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ChantiersDescriptifLocauxElementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeElement() method.
+     * Tests setCodeElement()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ChantiersDescriptifLocauxElementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCoefficient() method.
+     * Tests setCoefficient()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ChantiersDescriptifLocauxElementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNiveauNoeud() method.
+     * Tests setNiveauNoeud()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class ChantiersDescriptifLocauxElementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroNoeud() method.
+     * Tests setNumeroNoeud()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class ChantiersDescriptifLocauxElementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeElement() method.
+     * Tests setTypeElement()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class ChantiersDescriptifLocauxElementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniqIdLocal() method.
+     * Tests setUniqIdLocal()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class ChantiersDescriptifLocauxElementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

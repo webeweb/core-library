@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringColorTrait;
 class StringColorTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setColor() method.
+     * Tests setColor()
      *
      * @return void
      */

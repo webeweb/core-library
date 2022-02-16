@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LignesHsmsaEmployeTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeEtablissement() method.
+     * Tests setCodeEtablissement()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class LignesHsmsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeUnite() method.
+     * Tests setCodeUnite()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class LignesHsmsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtHs() method.
+     * Tests setMtHs()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class LignesHsmsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHs() method.
+     * Tests setNbHs()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class LignesHsmsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLigne() method.
+     * Tests setNumLigne()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class LignesHsmsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class LignesHsmsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye2() method.
+     * Tests setNumeroEmploye2()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class LignesHsmsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPerDeb() method.
+     * Tests setPerDeb()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -133,7 +133,7 @@ class LignesHsmsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeDecla() method.
+     * Tests setPeriodeDecla()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -150,7 +150,7 @@ class LignesHsmsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxHs() method.
+     * Tests setTauxHs()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class LignesHsmsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeRemunHs() method.
+     * Tests setTypeRemunHs()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class LignesHsmsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

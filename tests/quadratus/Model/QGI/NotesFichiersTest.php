@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class NotesFichiersTest extends AbstractTestCase {
 
     /**
-     * Tests the setDateCreation() method.
+     * Tests setDateCreation()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -42,7 +42,7 @@ class NotesFichiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomFichier() method.
+     * Tests setNomFichier()
      *
      * @return void
      */
@@ -55,7 +55,7 @@ class NotesFichiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumNote() method.
+     * Tests setNumNote()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class NotesFichiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOrigineFichier() method.
+     * Tests setOrigineFichier()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class NotesFichiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTitre() method.
+     * Tests setTitre()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class NotesFichiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

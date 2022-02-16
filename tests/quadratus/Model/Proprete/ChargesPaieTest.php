@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ChargesPaieTest extends AbstractTestCase {
 
     /**
-     * Tests the setArbitrage() method.
+     * Tests setArbitrage()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBrut() method.
+     * Tests setBrut()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBrutAl() method.
+     * Tests setBrutAl()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBrutAnl() method.
+     * Tests setBrutAnl()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setChargesPatronales() method.
+     * Tests setChargesPatronales()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEmploye() method.
+     * Tests setCodeEmploye()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEuro() method.
+     * Tests setEuro()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHeuresSup() method.
+     * Tests setHeuresSup()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setImpos() method.
+     * Tests setImpos()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndemniteCp() method.
+     * Tests setIndemniteCp()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndemnitePrecarite() method.
+     * Tests setIndemnitePrecarite()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setInteressement() method.
+     * Tests setInteressement()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtNetPayeTheo() method.
+     * Tests setMtNetPayeTheo()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHAbs() method.
+     * Tests setNbHAbs()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHBase() method.
+     * Tests setNbHBase()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHRc() method.
+     * Tests setNbHRc()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHSup1() method.
+     * Tests setNbHSup1()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHSup2() method.
+     * Tests setNbHSup2()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHSup3() method.
+     * Tests setNbHSup3()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHn() method.
+     * Tests setNbHn()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHt() method.
+     * Tests setNbHt()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setParticipation() method.
+     * Tests setParticipation()
      *
      * @return void
      */
@@ -311,7 +311,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriode() method.
+     * Tests setPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -328,7 +328,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProvisionCp() method.
+     * Tests setProvisionCp()
      *
      * @return void
      */
@@ -341,7 +341,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSBase() method.
+     * Tests setSBase()
      *
      * @return void
      */
@@ -354,7 +354,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSalaire() method.
+     * Tests setSalaire()
      *
      * @return void
      */
@@ -367,7 +367,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTotRet() method.
+     * Tests setTotRet()
      *
      * @return void
      */
@@ -380,7 +380,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrA() method.
+     * Tests setTrA()
      *
      * @return void
      */
@@ -393,7 +393,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrB() method.
+     * Tests setTrB()
      *
      * @return void
      */
@@ -406,7 +406,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTrC() method.
+     * Tests setTrC()
      *
      * @return void
      */
@@ -419,7 +419,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTxHn() method.
+     * Tests setTxHn()
      *
      * @return void
      */
@@ -432,7 +432,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

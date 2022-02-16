@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AnnexeTerTest extends AbstractTestCase {
 
     /**
-     * Tests the setBoolean1() method.
+     * Tests setBoolean1()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBoolean2() method.
+     * Tests setBoolean2()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBoolean3() method.
+     * Tests setBoolean3()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBoolean4() method.
+     * Tests setBoolean4()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBoolean5() method.
+     * Tests setBoolean5()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBoolean6() method.
+     * Tests setBoolean6()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBoolean7() method.
+     * Tests setBoolean7()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCode1() method.
+     * Tests setCode1()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCode2() method.
+     * Tests setCode2()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDate1() method.
+     * Tests setDate1()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -159,7 +159,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDate2() method.
+     * Tests setDate2()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -176,7 +176,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDate3() method.
+     * Tests setDate3()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -193,7 +193,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDate4() method.
+     * Tests setDate4()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -210,7 +210,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDate5() method.
+     * Tests setDate5()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -227,7 +227,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDate6() method.
+     * Tests setDate6()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -244,7 +244,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDate7() method.
+     * Tests setDate7()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -261,7 +261,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDouble1() method.
+     * Tests setDouble1()
      *
      * @return void
      */
@@ -274,7 +274,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDouble2() method.
+     * Tests setDouble2()
      *
      * @return void
      */
@@ -287,7 +287,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDouble3() method.
+     * Tests setDouble3()
      *
      * @return void
      */
@@ -300,7 +300,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDouble4() method.
+     * Tests setDouble4()
      *
      * @return void
      */
@@ -313,7 +313,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDouble5() method.
+     * Tests setDouble5()
      *
      * @return void
      */
@@ -326,7 +326,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDouble6() method.
+     * Tests setDouble6()
      *
      * @return void
      */
@@ -339,7 +339,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDouble7() method.
+     * Tests setDouble7()
      *
      * @return void
      */
@@ -352,7 +352,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLong1() method.
+     * Tests setLong1()
      *
      * @return void
      */
@@ -365,7 +365,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLong2() method.
+     * Tests setLong2()
      *
      * @return void
      */
@@ -378,7 +378,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLong3() method.
+     * Tests setLong3()
      *
      * @return void
      */
@@ -391,7 +391,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLong4() method.
+     * Tests setLong4()
      *
      * @return void
      */
@@ -404,7 +404,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLong5() method.
+     * Tests setLong5()
      *
      * @return void
      */
@@ -417,7 +417,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLong6() method.
+     * Tests setLong6()
      *
      * @return void
      */
@@ -430,7 +430,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLong7() method.
+     * Tests setLong7()
      *
      * @return void
      */
@@ -443,7 +443,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMemo1() method.
+     * Tests setMemo1()
      *
      * @return void
      */
@@ -456,7 +456,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMemo2() method.
+     * Tests setMemo2()
      *
      * @return void
      */
@@ -469,7 +469,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumero() method.
+     * Tests setNumero()
      *
      * @return void
      */
@@ -482,7 +482,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setText1() method.
+     * Tests setText1()
      *
      * @return void
      */
@@ -495,7 +495,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setText2() method.
+     * Tests setText2()
      *
      * @return void
      */
@@ -508,7 +508,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setText3() method.
+     * Tests setText3()
      *
      * @return void
      */
@@ -521,7 +521,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setText4() method.
+     * Tests setText4()
      *
      * @return void
      */
@@ -534,7 +534,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setText5() method.
+     * Tests setText5()
      *
      * @return void
      */
@@ -547,7 +547,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setText6() method.
+     * Tests setText6()
      *
      * @return void
      */
@@ -560,7 +560,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setText7() method.
+     * Tests setText7()
      *
      * @return void
      */
@@ -573,7 +573,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setType() method.
+     * Tests setType()
      *
      * @return void
      */
@@ -586,7 +586,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EmployesPointagesTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeCollaboValid() method.
+     * Tests setCodeCollaboValid()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class EmployesPointagesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaborateur() method.
+     * Tests setCodeCollaborateur()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class EmployesPointagesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEmploye() method.
+     * Tests setCodeEmploye()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class EmployesPointagesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateValidationSynchro() method.
+     * Tests setDateValidationSynchro()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class EmployesPointagesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtat() method.
+     * Tests setEtat()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class EmployesPointagesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodePointageCloturee() method.
+     * Tests setPeriodePointageCloturee()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -111,7 +111,7 @@ class EmployesPointagesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodePrevisionnelGeneree() method.
+     * Tests setPeriodePrevisionnelGeneree()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -128,7 +128,7 @@ class EmployesPointagesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniqIdSynchro() method.
+     * Tests setUniqIdSynchro()
      *
      * @return void
      */
@@ -141,7 +141,7 @@ class EmployesPointagesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

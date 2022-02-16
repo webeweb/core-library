@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LignesBulletinTest extends AbstractTestCase {
 
     /**
-     * Tests the setAnalDiff() method.
+     * Tests setAnalDiff()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class LignesBulletinTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAvantageNature() method.
+     * Tests setAvantageNature()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class LignesBulletinTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBaseSansReintegration() method.
+     * Tests setBaseSansReintegration()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class LignesBulletinTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCleLigBul() method.
+     * Tests setCleLigBul()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class LignesBulletinTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCode() method.
+     * Tests setCode()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class LignesBulletinTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCalcul() method.
+     * Tests setCodeCalcul()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class LignesBulletinTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setConditionSpec() method.
+     * Tests setConditionSpec()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class LignesBulletinTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCongePaye() method.
+     * Tests setCongePaye()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class LignesBulletinTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCumulCoutGlob() method.
+     * Tests setCumulCoutGlob()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class LignesBulletinTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEditionBase() method.
+     * Tests setEditionBase()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class LignesBulletinTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEditionCotPatronale() method.
+     * Tests setEditionCotPatronale()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class LignesBulletinTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEditionResultat() method.
+     * Tests setEditionResultat()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class LignesBulletinTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEditionTauxSal() method.
+     * Tests setEditionTauxSal()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class LignesBulletinTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFlagForce() method.
+     * Tests setFlagForce()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class LignesBulletinTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndicePeriode() method.
+     * Tests setIndicePeriode()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class LignesBulletinTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntegNetPaye() method.
+     * Tests setIntegNetPaye()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class LignesBulletinTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntervientBrutAl() method.
+     * Tests setIntervientBrutAl()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class LignesBulletinTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntervientIndemPreca() method.
+     * Tests setIntervientIndemPreca()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class LignesBulletinTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntervientTauxHAbCp() method.
+     * Tests setIntervientTauxHAbCp()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class LignesBulletinTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle() method.
+     * Tests setLibelle()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class LignesBulletinTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLien() method.
+     * Tests setLien()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class LignesBulletinTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontant1() method.
+     * Tests setMontant1()
      *
      * @return void
      */
@@ -311,7 +311,7 @@ class LignesBulletinTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontant2() method.
+     * Tests setMontant2()
      *
      * @return void
      */
@@ -324,7 +324,7 @@ class LignesBulletinTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontant3() method.
+     * Tests setMontant3()
      *
      * @return void
      */
@@ -337,7 +337,7 @@ class LignesBulletinTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontant4() method.
+     * Tests setMontant4()
      *
      * @return void
      */
@@ -350,7 +350,7 @@ class LignesBulletinTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantGlobal() method.
+     * Tests setMontantGlobal()
      *
      * @return void
      */
@@ -363,7 +363,7 @@ class LignesBulletinTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantSalarial() method.
+     * Tests setMontantSalarial()
      *
      * @return void
      */
@@ -376,7 +376,7 @@ class LignesBulletinTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNeutre() method.
+     * Tests setNeutre()
      *
      * @return void
      */
@@ -389,7 +389,7 @@ class LignesBulletinTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumCumulBulletin() method.
+     * Tests setNumCumulBulletin()
      *
      * @return void
      */
@@ -402,7 +402,7 @@ class LignesBulletinTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumCumulPatron() method.
+     * Tests setNumCumulPatron()
      *
      * @return void
      */
@@ -415,7 +415,7 @@ class LignesBulletinTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLigneBulletin() method.
+     * Tests setNumLigneBulletin()
      *
      * @return void
      */
@@ -428,7 +428,7 @@ class LignesBulletinTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -441,7 +441,7 @@ class LignesBulletinTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPasEditer() method.
+     * Tests setPasEditer()
      *
      * @return void
      */
@@ -454,7 +454,7 @@ class LignesBulletinTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriode() method.
+     * Tests setPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -471,7 +471,7 @@ class LignesBulletinTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPpSoumisTaxe() method.
+     * Tests setPpSoumisTaxe()
      *
      * @return void
      */
@@ -484,7 +484,7 @@ class LignesBulletinTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrimeNonProratisee() method.
+     * Tests setPrimeNonProratisee()
      *
      * @return void
      */
@@ -497,7 +497,7 @@ class LignesBulletinTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRegleCalcul() method.
+     * Tests setRegleCalcul()
      *
      * @return void
      */
@@ -510,7 +510,7 @@ class LignesBulletinTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRegleTaux() method.
+     * Tests setRegleTaux()
      *
      * @return void
      */
@@ -523,7 +523,7 @@ class LignesBulletinTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSoumisAbattement() method.
+     * Tests setSoumisAbattement()
      *
      * @return void
      */
@@ -536,7 +536,7 @@ class LignesBulletinTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSoumisCrds() method.
+     * Tests setSoumisCrds()
      *
      * @return void
      */
@@ -549,7 +549,7 @@ class LignesBulletinTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSoumisCsg() method.
+     * Tests setSoumisCsg()
      *
      * @return void
      */
@@ -562,7 +562,7 @@ class LignesBulletinTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeAbsence() method.
+     * Tests setTypeAbsence()
      *
      * @return void
      */
@@ -575,7 +575,7 @@ class LignesBulletinTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeAcompte() method.
+     * Tests setTypeAcompte()
      *
      * @return void
      */
@@ -588,7 +588,7 @@ class LignesBulletinTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

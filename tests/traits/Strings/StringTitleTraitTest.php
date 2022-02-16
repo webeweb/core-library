@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringTitleTrait;
 class StringTitleTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setTitle() method.
+     * Tests setTitle()
      *
      * @return void
      */

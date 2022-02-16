@@ -25,7 +25,7 @@ use WBW\Library\SkiData\Tests\Fixtures\Traits\TestCardTrait;
 class CardTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setBlocked() method.
+     * Tests setBlocked()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class CardTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBlockedDate() method.
+     * Tests setBlockedDate()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.

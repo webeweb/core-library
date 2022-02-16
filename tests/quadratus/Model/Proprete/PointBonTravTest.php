@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class PointBonTravTest extends AbstractTestCase {
 
     /**
-     * Tests the setAvenantSigne() method.
+     * Tests setAvenantSigne()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class PointBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEmploye() method.
+     * Tests setCodeEmploye()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class PointBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEquipe() method.
+     * Tests setCodeEquipe()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class PointBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTacheType() method.
+     * Tests setCodeTacheType()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class PointBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDatePassage() method.
+     * Tests setDatePassage()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -94,7 +94,7 @@ class PointBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateRefBt() method.
+     * Tests setDateRefBt()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -111,7 +111,7 @@ class PointBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtat() method.
+     * Tests setEtat()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class PointBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFromGenBt() method.
+     * Tests setFromGenBt()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class PointBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHeureDeb() method.
+     * Tests setHeureDeb()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -154,7 +154,7 @@ class PointBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHeureDebMob() method.
+     * Tests setHeureDebMob()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -171,7 +171,7 @@ class PointBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHeureFinMob() method.
+     * Tests setHeureFinMob()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -188,7 +188,7 @@ class PointBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHeuresJour() method.
+     * Tests setHeuresJour()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -205,7 +205,7 @@ class PointBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHeuresNuit() method.
+     * Tests setHeuresNuit()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -222,7 +222,7 @@ class PointBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontant() method.
+     * Tests setMontant()
      *
      * @return void
      */
@@ -235,7 +235,7 @@ class PointBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomPrenom() method.
+     * Tests setNomPrenom()
      *
      * @return void
      */
@@ -248,7 +248,7 @@ class PointBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumBt() method.
+     * Tests setNumBt()
      *
      * @return void
      */
@@ -261,7 +261,7 @@ class PointBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumChrono() method.
+     * Tests setNumChrono()
      *
      * @return void
      */
@@ -274,7 +274,7 @@ class PointBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroAvenant() method.
+     * Tests setNumeroAvenant()
      *
      * @return void
      */
@@ -287,7 +287,7 @@ class PointBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPaniers() method.
+     * Tests setPaniers()
      *
      * @return void
      */
@@ -300,7 +300,7 @@ class PointBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrime1() method.
+     * Tests setPrime1()
      *
      * @return void
      */
@@ -313,7 +313,7 @@ class PointBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrime2() method.
+     * Tests setPrime2()
      *
      * @return void
      */
@@ -326,7 +326,7 @@ class PointBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrime3() method.
+     * Tests setPrime3()
      *
      * @return void
      */
@@ -339,7 +339,7 @@ class PointBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQualification() method.
+     * Tests setQualification()
      *
      * @return void
      */
@@ -352,7 +352,7 @@ class PointBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTransfertPaie() method.
+     * Tests setTransfertPaie()
      *
      * @return void
      */
@@ -365,7 +365,7 @@ class PointBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniqId() method.
+     * Tests setUniqId()
      *
      * @return void
      */
@@ -378,7 +378,7 @@ class PointBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setValideMob() method.
+     * Tests setValideMob()
      *
      * @return void
      */
@@ -391,7 +391,7 @@ class PointBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

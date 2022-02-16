@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Floats\TestFloatQuantityTrait;
 class FloatQuantityTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setQuantity() method.
+     * Tests setQuantity()
      *
      * @return void
      */

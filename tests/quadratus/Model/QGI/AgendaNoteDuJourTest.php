@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AgendaNoteDuJourTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeCollaborateur() method.
+     * Tests setCodeCollaborateur()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AgendaNoteDuJourTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCommentaire() method.
+     * Tests setCommentaire()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AgendaNoteDuJourTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateModif() method.
+     * Tests setDateModif()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class AgendaNoteDuJourTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJour() method.
+     * Tests setJour()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -85,7 +85,7 @@ class AgendaNoteDuJourTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMaJExterne() method.
+     * Tests setMaJExterne()
      *
      * @return void
      */
@@ -98,7 +98,7 @@ class AgendaNoteDuJourTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

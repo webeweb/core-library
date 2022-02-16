@@ -25,7 +25,7 @@ use WBW\Library\SkiData\Tests\AbstractTestCase;
 class CustomerTest extends AbstractTestCase {
 
     /**
-     * Tests the setAccountingNumber() method.
+     * Tests setAccountingNumber()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class CustomerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBeginDate() method.
+     * Tests setBeginDate()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -52,7 +52,7 @@ class CustomerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCity() method.
+     * Tests setCity()
      *
      * @return void
      */
@@ -65,7 +65,7 @@ class CustomerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCountingNeutralCards() method.
+     * Tests setCountingNeutralCards()
      *
      * @return void
      */
@@ -78,7 +78,7 @@ class CustomerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCountry() method.
+     * Tests setCountry()
      *
      * @return void
      */
@@ -91,7 +91,7 @@ class CustomerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDeposit() method.
+     * Tests setDeposit()
      *
      * @return void
      */
@@ -104,7 +104,7 @@ class CustomerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEntryMaxLevelAllowed() method.
+     * Tests setEntryMaxLevelAllowed()
      *
      * @return void
      */
@@ -117,7 +117,7 @@ class CustomerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIdDocumentNo() method.
+     * Tests setIdDocumentNo()
      *
      * @return void
      */
@@ -130,7 +130,7 @@ class CustomerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMaxLevelCarPark() method.
+     * Tests setMaxLevelCarPark()
      *
      * @return void
      */
@@ -143,7 +143,7 @@ class CustomerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMaximumLevel() method.
+     * Tests setMaximumLevel()
      *
      * @return void
      */
@@ -156,7 +156,7 @@ class CustomerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNationality() method.
+     * Tests setNationality()
      *
      * @return void
      */
@@ -169,7 +169,7 @@ class CustomerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPCode() method.
+     * Tests setPCode()
      *
      * @return void
      */
@@ -182,7 +182,7 @@ class CustomerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRentalAgreementNo() method.
+     * Tests setRentalAgreementNo()
      *
      * @return void
      */
@@ -195,7 +195,7 @@ class CustomerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setStreet() method.
+     * Tests setStreet()
      *
      * @return void
      */
@@ -208,7 +208,7 @@ class CustomerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTaxCode() method.
+     * Tests setTaxCode()
      *
      * @return void
      */
@@ -221,7 +221,7 @@ class CustomerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTelephone() method.
+     * Tests setTelephone()
      *
      * @return void
      */
@@ -234,7 +234,7 @@ class CustomerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTerminationDate() method.
+     * Tests setTerminationDate()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -248,7 +248,7 @@ class CustomerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTicketReturnAllowed() method.
+     * Tests setTicketReturnAllowed()
      *
      * @return void
      */
@@ -261,7 +261,7 @@ class CustomerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

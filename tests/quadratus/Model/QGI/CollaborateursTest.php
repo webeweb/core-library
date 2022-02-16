@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class CollaborateursTest extends AbstractTestCase {
 
     /**
-     * Tests the setAccesAutoriseBonsTravaux() method.
+     * Tests setAccesAutoriseBonsTravaux()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAccesAutorisePlanFacturation() method.
+     * Tests setAccesAutorisePlanFacturation()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAccesAutorisePlanTache() method.
+     * Tests setAccesAutorisePlanTache()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAccesCurDossOnly() method.
+     * Tests setAccesCurDossOnly()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAccesDocsCab() method.
+     * Tests setAccesDocsCab()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAccesDossierCpta() method.
+     * Tests setAccesDossierCpta()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAccesDossierPaie() method.
+     * Tests setAccesDossierPaie()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAccesGestionaireStatsCroisees() method.
+     * Tests setAccesGestionaireStatsCroisees()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAccesRepCommun() method.
+     * Tests setAccesRepCommun()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAccesStatCab() method.
+     * Tests setAccesStatCab()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAnnulationAffaire() method.
+     * Tests setAnnulationAffaire()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAnnulationArticle() method.
+     * Tests setAnnulationArticle()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAnnulationBonsTravaux() method.
+     * Tests setAnnulationBonsTravaux()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAnnulationChantier() method.
+     * Tests setAnnulationChantier()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAnnulationClient() method.
+     * Tests setAnnulationClient()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAnnulationCommission() method.
+     * Tests setAnnulationCommission()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAnnulationDossierCpta() method.
+     * Tests setAnnulationDossierCpta()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAnnulationDossierFact() method.
+     * Tests setAnnulationDossierFact()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAnnulationDossierPaie() method.
+     * Tests setAnnulationDossierPaie()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAnnulationFournisseur() method.
+     * Tests setAnnulationFournisseur()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAnnulationPlanFacturation() method.
+     * Tests setAnnulationPlanFacturation()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAnnulationPlanTache() method.
+     * Tests setAnnulationPlanTache()
      *
      * @return void
      */
@@ -311,7 +311,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAnnulationTache() method.
+     * Tests setAnnulationTache()
      *
      * @return void
      */
@@ -324,7 +324,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAnnulationTarif() method.
+     * Tests setAnnulationTarif()
      *
      * @return void
      */
@@ -337,7 +337,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setArticlesLstPersoAccesGestionModifiables() method.
+     * Tests setArticlesLstPersoAccesGestionModifiables()
      *
      * @return void
      */
@@ -350,7 +350,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setArticlesLstPersoAccesGestionnaire() method.
+     * Tests setArticlesLstPersoAccesGestionnaire()
      *
      * @return void
      */
@@ -363,7 +363,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setArticlesLstPersoChampsModif() method.
+     * Tests setArticlesLstPersoChampsModif()
      *
      * @return void
      */
@@ -376,7 +376,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setArticlesLstPersoCopieColonne() method.
+     * Tests setArticlesLstPersoCopieColonne()
      *
      * @return void
      */
@@ -389,7 +389,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setArticlesLstPersoInterdireCreat() method.
+     * Tests setArticlesLstPersoInterdireCreat()
      *
      * @return void
      */
@@ -402,7 +402,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAutoriseSaisieTpsColonnes() method.
+     * Tests setAutoriseSaisieTpsColonnes()
      *
      * @return void
      */
@@ -415,7 +415,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBic() method.
+     * Tests setBic()
      *
      * @return void
      */
@@ -428,7 +428,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBlocageEdCli() method.
+     * Tests setBlocageEdCli()
      *
      * @return void
      */
@@ -441,7 +441,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBtq() method.
+     * Tests setBtq()
      *
      * @return void
      */
@@ -454,7 +454,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBureauDistributeur() method.
+     * Tests setBureauDistributeur()
      *
      * @return void
      */
@@ -467,7 +467,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCategoriePrixKm() method.
+     * Tests setCategoriePrixKm()
      *
      * @return void
      */
@@ -480,7 +480,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCategorieTicketResto() method.
+     * Tests setCategorieTicketResto()
      *
      * @return void
      */
@@ -493,7 +493,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setChargesMensuelles() method.
+     * Tests setChargesMensuelles()
      *
      * @return void
      */
@@ -506,7 +506,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCleCcnPaie() method.
+     * Tests setCleCcnPaie()
      *
      * @return void
      */
@@ -519,7 +519,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCode() method.
+     * Tests setCode()
      *
      * @return void
      */
@@ -532,7 +532,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCentre() method.
+     * Tests setCodeCentre()
      *
      * @return void
      */
@@ -545,7 +545,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeChef1() method.
+     * Tests setCodeChef1()
      *
      * @return void
      */
@@ -558,7 +558,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeChef2() method.
+     * Tests setCodeChef2()
      *
      * @return void
      */
@@ -571,7 +571,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeDepot() method.
+     * Tests setCodeDepot()
      *
      * @return void
      */
@@ -584,7 +584,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeFamille() method.
+     * Tests setCodeFamille()
      *
      * @return void
      */
@@ -597,7 +597,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeFamilleFrn() method.
+     * Tests setCodeFamilleFrn()
      *
      * @return void
      */
@@ -610,7 +610,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeGroupe() method.
+     * Tests setCodeGroupe()
      *
      * @return void
      */
@@ -623,7 +623,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeGroupeVisuMsg() method.
+     * Tests setCodeGroupeVisuMsg()
      *
      * @return void
      */
@@ -636,7 +636,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeLangue() method.
+     * Tests setCodeLangue()
      *
      * @return void
      */
@@ -649,7 +649,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeLiaisonDest() method.
+     * Tests setCodeLiaisonDest()
      *
      * @return void
      */
@@ -662,7 +662,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeOfficielCommune() method.
+     * Tests setCodeOfficielCommune()
      *
      * @return void
      */
@@ -675,7 +675,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePostal() method.
+     * Tests setCodePostal()
      *
      * @return void
      */
@@ -688,7 +688,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeVehicule() method.
+     * Tests setCodeVehicule()
      *
      * @return void
      */
@@ -701,7 +701,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeVentilCompta() method.
+     * Tests setCodeVentilCompta()
      *
      * @return void
      */
@@ -714,7 +714,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setComplement() method.
+     * Tests setComplement()
      *
      * @return void
      */
@@ -727,7 +727,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteComptable() method.
+     * Tests setCompteComptable()
      *
      * @return void
      */
@@ -740,7 +740,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteDeTiers() method.
+     * Tests setCompteDeTiers()
      *
      * @return void
      */
@@ -753,7 +753,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setControleSaisieTp() method.
+     * Tests setControleSaisieTp()
      *
      * @return void
      */
@@ -766,7 +766,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCreationAffaire() method.
+     * Tests setCreationAffaire()
      *
      * @return void
      */
@@ -779,7 +779,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCreationArticle() method.
+     * Tests setCreationArticle()
      *
      * @return void
      */
@@ -792,7 +792,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCreationBonsTravaux() method.
+     * Tests setCreationBonsTravaux()
      *
      * @return void
      */
@@ -805,7 +805,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCreationChantier() method.
+     * Tests setCreationChantier()
      *
      * @return void
      */
@@ -818,7 +818,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCreationClient() method.
+     * Tests setCreationClient()
      *
      * @return void
      */
@@ -831,7 +831,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCreationCommission() method.
+     * Tests setCreationCommission()
      *
      * @return void
      */
@@ -844,7 +844,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCreationDossierCpta() method.
+     * Tests setCreationDossierCpta()
      *
      * @return void
      */
@@ -857,7 +857,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCreationDossierFact() method.
+     * Tests setCreationDossierFact()
      *
      * @return void
      */
@@ -870,7 +870,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCreationDossierPaie() method.
+     * Tests setCreationDossierPaie()
      *
      * @return void
      */
@@ -883,7 +883,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCreationFournisseur() method.
+     * Tests setCreationFournisseur()
      *
      * @return void
      */
@@ -896,7 +896,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCreationPlanFacturation() method.
+     * Tests setCreationPlanFacturation()
      *
      * @return void
      */
@@ -909,7 +909,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCreationPlanTache() method.
+     * Tests setCreationPlanTache()
      *
      * @return void
      */
@@ -922,7 +922,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCreationTache() method.
+     * Tests setCreationTache()
      *
      * @return void
      */
@@ -935,7 +935,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCreationTarif() method.
+     * Tests setCreationTarif()
      *
      * @return void
      */
@@ -948,7 +948,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateEntree() method.
+     * Tests setDateEntree()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -965,7 +965,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateSortie() method.
+     * Tests setDateSortie()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -982,7 +982,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateValidationBudget() method.
+     * Tests setDateValidationBudget()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -999,7 +999,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateValidationNdF() method.
+     * Tests setDateValidationNdF()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -1016,7 +1016,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateValidationTp() method.
+     * Tests setDateValidationTp()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -1033,7 +1033,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDesactiverFiltreMsg() method.
+     * Tests setDesactiverFiltreMsg()
      *
      * @return void
      */
@@ -1046,7 +1046,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDisponible() method.
+     * Tests setDisponible()
      *
      * @return void
      */
@@ -1059,7 +1059,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDomBanque() method.
+     * Tests setDomBanque()
      *
      * @return void
      */
@@ -1072,7 +1072,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDossierPaie() method.
+     * Tests setDossierPaie()
      *
      * @return void
      */
@@ -1085,7 +1085,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDroitParamEmailsConfidentiels() method.
+     * Tests setDroitParamEmailsConfidentiels()
      *
      * @return void
      */
@@ -1098,7 +1098,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDroitSyncPort() method.
+     * Tests setDroitSyncPort()
      *
      * @return void
      */
@@ -1111,7 +1111,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDroitSyncQProp() method.
+     * Tests setDroitSyncQProp()
      *
      * @return void
      */
@@ -1124,7 +1124,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmail() method.
+     * Tests setEmail()
      *
      * @return void
      */
@@ -1137,7 +1137,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmailActiverAideSaisie() method.
+     * Tests setEmailActiverAideSaisie()
      *
      * @return void
      */
@@ -1150,7 +1150,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmailAgendaDmdConfirm() method.
+     * Tests setEmailAgendaDmdConfirm()
      *
      * @return void
      */
@@ -1163,7 +1163,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmailAutoClotureImap() method.
+     * Tests setEmailAutoClotureImap()
      *
      * @return void
      */
@@ -1176,7 +1176,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmailLstAdrChoixElem() method.
+     * Tests setEmailLstAdrChoixElem()
      *
      * @return void
      */
@@ -1189,7 +1189,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmailModeSignature() method.
+     * Tests setEmailModeSignature()
      *
      * @return void
      */
@@ -1202,7 +1202,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmailNbJAgMini() method.
+     * Tests setEmailNbJAgMini()
      *
      * @return void
      */
@@ -1215,7 +1215,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmailObjetDefaut() method.
+     * Tests setEmailObjetDefaut()
      *
      * @return void
      */
@@ -1228,7 +1228,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmailPied() method.
+     * Tests setEmailPied()
      *
      * @return void
      */
@@ -1241,7 +1241,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmailRedirAuto() method.
+     * Tests setEmailRedirAuto()
      *
      * @return void
      */
@@ -1254,7 +1254,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmailRedirAutoCollab() method.
+     * Tests setEmailRedirAutoCollab()
      *
      * @return void
      */
@@ -1267,7 +1267,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmailRedirection() method.
+     * Tests setEmailRedirection()
      *
      * @return void
      */
@@ -1280,7 +1280,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmailReponseAuto() method.
+     * Tests setEmailReponseAuto()
      *
      * @return void
      */
@@ -1293,7 +1293,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmailReponseAutoText() method.
+     * Tests setEmailReponseAutoText()
      *
      * @return void
      */
@@ -1306,7 +1306,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmailRrActive() method.
+     * Tests setEmailRrActive()
      *
      * @return void
      */
@@ -1319,7 +1319,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmailStartMode() method.
+     * Tests setEmailStartMode()
      *
      * @return void
      */
@@ -1332,7 +1332,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmailSurServeur() method.
+     * Tests setEmailSurServeur()
      *
      * @return void
      */
@@ -1345,7 +1345,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmailTete() method.
+     * Tests setEmailTete()
      *
      * @return void
      */
@@ -1358,7 +1358,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEstAcheteur() method.
+     * Tests setEstAcheteur()
      *
      * @return void
      */
@@ -1371,7 +1371,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtabConfidentialiteQp() method.
+     * Tests setEtabConfidentialiteQp()
      *
      * @return void
      */
@@ -1384,7 +1384,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFictif() method.
+     * Tests setFictif()
      *
      * @return void
      */
@@ -1397,7 +1397,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFonction() method.
+     * Tests setFonction()
      *
      * @return void
      */
@@ -1410,7 +1410,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIban() method.
+     * Tests setIban()
      *
      * @return void
      */
@@ -1423,7 +1423,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setInterdictionPwd() method.
+     * Tests setInterdictionPwd()
      *
      * @return void
      */
@@ -1436,7 +1436,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setInterdictionVueFacturation() method.
+     * Tests setInterdictionVueFacturation()
      *
      * @return void
      */
@@ -1449,7 +1449,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setInterdireAccesArchivesCpta() method.
+     * Tests setInterdireAccesArchivesCpta()
      *
      * @return void
      */
@@ -1462,7 +1462,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setInterdireAccesArchivesPaie() method.
+     * Tests setInterdireAccesArchivesPaie()
      *
      * @return void
      */
@@ -1475,7 +1475,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setInterdireAccesEditionBalance() method.
+     * Tests setInterdireAccesEditionBalance()
      *
      * @return void
      */
@@ -1488,7 +1488,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setInterdireAccesEntete() method.
+     * Tests setInterdireAccesEntete()
      *
      * @return void
      */
@@ -1501,7 +1501,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setInterdireAccesSuppDocArch() method.
+     * Tests setInterdireAccesSuppDocArch()
      *
      * @return void
      */
@@ -1514,7 +1514,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setInterdireEditionValoriseJrnTemps() method.
+     * Tests setInterdireEditionValoriseJrnTemps()
      *
      * @return void
      */
@@ -1527,7 +1527,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setInterdireEnvoiPostit() method.
+     * Tests setInterdireEnvoiPostit()
      *
      * @return void
      */
@@ -1540,7 +1540,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setInterdireModifAffCli() method.
+     * Tests setInterdireModifAffCli()
      *
      * @return void
      */
@@ -1553,7 +1553,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setInterdireModifDepot() method.
+     * Tests setInterdireModifDepot()
      *
      * @return void
      */
@@ -1566,7 +1566,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setInterdirePubliDocWeb() method.
+     * Tests setInterdirePubliDocWeb()
      *
      * @return void
      */
@@ -1579,7 +1579,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setInterim() method.
+     * Tests setInterim()
      *
      * @return void
      */
@@ -1592,7 +1592,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIsGroupe() method.
+     * Tests setIsGroupe()
      *
      * @return void
      */
@@ -1605,7 +1605,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIsProfilMessages() method.
+     * Tests setIsProfilMessages()
      *
      * @return void
      */
@@ -1618,7 +1618,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLimiterVisuAgenda() method.
+     * Tests setLimiterVisuAgenda()
      *
      * @return void
      */
@@ -1631,7 +1631,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMasquerFournisseurs() method.
+     * Tests setMasquerFournisseurs()
      *
      * @return void
      */
@@ -1644,7 +1644,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMessagesConfidentiels() method.
+     * Tests setMessagesConfidentiels()
      *
      * @return void
      */
@@ -1657,7 +1657,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setModifAffaire() method.
+     * Tests setModifAffaire()
      *
      * @return void
      */
@@ -1670,7 +1670,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setModifArticle() method.
+     * Tests setModifArticle()
      *
      * @return void
      */
@@ -1683,7 +1683,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setModifBonsTravaux() method.
+     * Tests setModifBonsTravaux()
      *
      * @return void
      */
@@ -1696,7 +1696,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setModifChantier() method.
+     * Tests setModifChantier()
      *
      * @return void
      */
@@ -1709,7 +1709,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setModifClient() method.
+     * Tests setModifClient()
      *
      * @return void
      */
@@ -1722,7 +1722,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setModifCommission() method.
+     * Tests setModifCommission()
      *
      * @return void
      */
@@ -1735,7 +1735,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setModifDossierFact() method.
+     * Tests setModifDossierFact()
      *
      * @return void
      */
@@ -1748,7 +1748,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setModifDroitsAsp() method.
+     * Tests setModifDroitsAsp()
      *
      * @return void
      */
@@ -1761,7 +1761,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setModifEnVue() method.
+     * Tests setModifEnVue()
      *
      * @return void
      */
@@ -1774,7 +1774,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setModifFournisseur() method.
+     * Tests setModifFournisseur()
      *
      * @return void
      */
@@ -1787,7 +1787,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setModifPlanFacturation() method.
+     * Tests setModifPlanFacturation()
      *
      * @return void
      */
@@ -1800,7 +1800,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setModifPlanTache() method.
+     * Tests setModifPlanTache()
      *
      * @return void
      */
@@ -1813,7 +1813,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setModifTache() method.
+     * Tests setModifTache()
      *
      * @return void
      */
@@ -1826,7 +1826,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setModifTarif() method.
+     * Tests setModifTarif()
      *
      * @return void
      */
@@ -1839,7 +1839,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMotDePasse() method.
+     * Tests setMotDePasse()
      *
      * @return void
      */
@@ -1852,7 +1852,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMsgRedirAuto() method.
+     * Tests setMsgRedirAuto()
      *
      * @return void
      */
@@ -1865,7 +1865,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNivConfEmpPropreteRestreint() method.
+     * Tests setNivConfEmpPropreteRestreint()
      *
      * @return void
      */
@@ -1878,7 +1878,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNiveau() method.
+     * Tests setNiveau()
      *
      * @return void
      */
@@ -1891,7 +1891,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNiveauConfidentialiteQp() method.
+     * Tests setNiveauConfidentialiteQp()
      *
      * @return void
      */
@@ -1904,7 +1904,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNom() method.
+     * Tests setNom()
      *
      * @return void
      */
@@ -1917,7 +1917,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomVille() method.
+     * Tests setNomVille()
      *
      * @return void
      */
@@ -1930,7 +1930,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomVoie() method.
+     * Tests setNomVoie()
      *
      * @return void
      */
@@ -1943,7 +1943,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumVoie() method.
+     * Tests setNumVoie()
      *
      * @return void
      */
@@ -1956,7 +1956,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumero() method.
+     * Tests setNumero()
      *
      * @return void
      */
@@ -1969,7 +1969,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPaInvisible() method.
+     * Tests setPaInvisible()
      *
      * @return void
      */
@@ -1982,7 +1982,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setParcCodeRemorque() method.
+     * Tests setParcCodeRemorque()
      *
      * @return void
      */
@@ -1995,7 +1995,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setParcCodeVehicule() method.
+     * Tests setParcCodeVehicule()
      *
      * @return void
      */
@@ -2008,7 +2008,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPasAccesQws() method.
+     * Tests setPasAccesQws()
      *
      * @return void
      */
@@ -2021,7 +2021,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPasSaisieDesTemps() method.
+     * Tests setPasSaisieDesTemps()
      *
      * @return void
      */
@@ -2034,7 +2034,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPasSaisieDesTempsAuto() method.
+     * Tests setPasSaisieDesTempsAuto()
      *
      * @return void
      */
@@ -2047,7 +2047,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPortablePerso() method.
+     * Tests setPortablePerso()
      *
      * @return void
      */
@@ -2060,7 +2060,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPresent() method.
+     * Tests setPresent()
      *
      * @return void
      */
@@ -2073,7 +2073,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrevenuNouveauCd() method.
+     * Tests setPrevenuNouveauCd()
      *
      * @return void
      */
@@ -2086,7 +2086,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrixKm() method.
+     * Tests setPrixKm()
      *
      * @return void
      */
@@ -2099,7 +2099,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrixVente() method.
+     * Tests setPrixVente()
      *
      * @return void
      */
@@ -2112,7 +2112,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrixVente2() method.
+     * Tests setPrixVente2()
      *
      * @return void
      */
@@ -2125,7 +2125,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrixVente3() method.
+     * Tests setPrixVente3()
      *
      * @return void
      */
@@ -2138,7 +2138,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRestrictAccesPieces() method.
+     * Tests setRestrictAccesPieces()
      *
      * @return void
      */
@@ -2151,7 +2151,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRestrictAccesStats() method.
+     * Tests setRestrictAccesStats()
      *
      * @return void
      */
@@ -2164,7 +2164,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRib() method.
+     * Tests setRib()
      *
      * @return void
      */
@@ -2177,7 +2177,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSaisiePvInterdite() method.
+     * Tests setSaisiePvInterdite()
      *
      * @return void
      */
@@ -2190,7 +2190,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSalaireMensuel() method.
+     * Tests setSalaireMensuel()
      *
      * @return void
      */
@@ -2203,7 +2203,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSelArtCollab() method.
+     * Tests setSelArtCollab()
      *
      * @return void
      */
@@ -2216,7 +2216,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSelAvLstPersoAccesGestionModifiables() method.
+     * Tests setSelAvLstPersoAccesGestionModifiables()
      *
      * @return void
      */
@@ -2229,7 +2229,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSelAvLstPersoAccesGestionnaire() method.
+     * Tests setSelAvLstPersoAccesGestionnaire()
      *
      * @return void
      */
@@ -2242,7 +2242,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSelAvLstPersoChampsModif() method.
+     * Tests setSelAvLstPersoChampsModif()
      *
      * @return void
      */
@@ -2255,7 +2255,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSelAvLstPersoCopieColonne() method.
+     * Tests setSelAvLstPersoCopieColonne()
      *
      * @return void
      */
@@ -2268,7 +2268,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSelAvLstPersoInterdireCreat() method.
+     * Tests setSelAvLstPersoInterdireCreat()
      *
      * @return void
      */
@@ -2281,7 +2281,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSelCliCollab() method.
+     * Tests setSelCliCollab()
      *
      * @return void
      */
@@ -2294,7 +2294,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSelFrnCollab() method.
+     * Tests setSelFrnCollab()
      *
      * @return void
      */
@@ -2307,7 +2307,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSelectionArticle() method.
+     * Tests setSelectionArticle()
      *
      * @return void
      */
@@ -2320,7 +2320,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSelectionClient() method.
+     * Tests setSelectionClient()
      *
      * @return void
      */
@@ -2333,7 +2333,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSelectionFournisseur() method.
+     * Tests setSelectionFournisseur()
      *
      * @return void
      */
@@ -2346,7 +2346,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSuiviMessages() method.
+     * Tests setSuiviMessages()
      *
      * @return void
      */
@@ -2359,7 +2359,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSuperviseur() method.
+     * Tests setSuperviseur()
      *
      * @return void
      */
@@ -2372,7 +2372,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSyncMso() method.
+     * Tests setSyncMso()
      *
      * @return void
      */
@@ -2385,7 +2385,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTachesGroupe() method.
+     * Tests setTachesGroupe()
      *
      * @return void
      */
@@ -2398,7 +2398,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxCommission() method.
+     * Tests setTauxCommission()
      *
      * @return void
      */
@@ -2411,7 +2411,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTelDirect() method.
+     * Tests setTelDirect()
      *
      * @return void
      */
@@ -2424,7 +2424,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTelPerso() method.
+     * Tests setTelPerso()
      *
      * @return void
      */
@@ -2437,7 +2437,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTelPortable1() method.
+     * Tests setTelPortable1()
      *
      * @return void
      */
@@ -2450,7 +2450,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTelPortable2() method.
+     * Tests setTelPortable2()
      *
      * @return void
      */
@@ -2463,7 +2463,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTelPoste() method.
+     * Tests setTelPoste()
      *
      * @return void
      */
@@ -2476,7 +2476,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTpPasControler() method.
+     * Tests setTpPasControler()
      *
      * @return void
      */
@@ -2489,7 +2489,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTpPasJournalTemps() method.
+     * Tests setTpPasJournalTemps()
      *
      * @return void
      */
@@ -2502,7 +2502,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTpPasNotesDeFrais() method.
+     * Tests setTpPasNotesDeFrais()
      *
      * @return void
      */
@@ -2515,7 +2515,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTpPasTpsValide() method.
+     * Tests setTpPasTpsValide()
      *
      * @return void
      */
@@ -2528,7 +2528,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTpPourcentageNonOperationnel() method.
+     * Tests setTpPourcentageNonOperationnel()
      *
      * @return void
      */
@@ -2541,7 +2541,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTpsNiveauBlocage() method.
+     * Tests setTpsNiveauBlocage()
      *
      * @return void
      */
@@ -2554,7 +2554,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTxComInvisible() method.
+     * Tests setTxComInvisible()
      *
      * @return void
      */
@@ -2567,7 +2567,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeConf2CmavCli() method.
+     * Tests setTypeConf2CmavCli()
      *
      * @return void
      */
@@ -2580,7 +2580,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeConfCmavCli() method.
+     * Tests setTypeConfCmavCli()
      *
      * @return void
      */
@@ -2593,7 +2593,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeVisuAppels() method.
+     * Tests setTypeVisuAppels()
      *
      * @return void
      */
@@ -2606,7 +2606,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeVisuTaches() method.
+     * Tests setTypeVisuTaches()
      *
      * @return void
      */
@@ -2619,7 +2619,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUseMailGeneric() method.
+     * Tests setUseMailGeneric()
      *
      * @return void
      */
@@ -2632,7 +2632,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setVisualisationFicheCabinet() method.
+     * Tests setVisualisationFicheCabinet()
      *
      * @return void
      */
@@ -2645,7 +2645,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setVueComDroitReaffect() method.
+     * Tests setVueComDroitReaffect()
      *
      * @return void
      */
@@ -2658,7 +2658,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setVueDevisDroitReaffect() method.
+     * Tests setVueDevisDroitReaffect()
      *
      * @return void
      */
@@ -2671,7 +2671,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setVueDevisDroitSuppr() method.
+     * Tests setVueDevisDroitSuppr()
      *
      * @return void
      */
@@ -2684,7 +2684,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setVueDevisDroitValid() method.
+     * Tests setVueDevisDroitValid()
      *
      * @return void
      */
@@ -2697,7 +2697,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setYaDroitsCollab() method.
+     * Tests setYaDroitsCollab()
      *
      * @return void
      */
@@ -2710,7 +2710,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the seteWsMdp() method.
+     * Tests seteWsMdp()
      *
      * @return void
      */
@@ -2723,7 +2723,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

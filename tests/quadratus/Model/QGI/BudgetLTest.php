@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class BudgetLTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class BudgetLTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollab() method.
+     * Tests setCodeCollab()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class BudgetLTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeMission() method.
+     * Tests setCodeMission()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class BudgetLTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTravail() method.
+     * Tests setCodeTravail()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class BudgetLTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTva() method.
+     * Tests setCodeTva()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class BudgetLTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHSoldees() method.
+     * Tests setHSoldees()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class BudgetLTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbrHeures() method.
+     * Tests setNbrHeures()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class BudgetLTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNiveau() method.
+     * Tests setNiveau()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class BudgetLTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomTravail() method.
+     * Tests setNomTravail()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class BudgetLTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLigne() method.
+     * Tests setNumLigne()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class BudgetLTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumUniq() method.
+     * Tests setNumUniq()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class BudgetLTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriode() method.
+     * Tests setPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -185,7 +185,7 @@ class BudgetLTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrixHeure() method.
+     * Tests setPrixHeure()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class BudgetLTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQuantite() method.
+     * Tests setQuantite()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class BudgetLTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeAffectation() method.
+     * Tests setTypeAffectation()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class BudgetLTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniqIdLm() method.
+     * Tests setUniqIdLm()
      *
      * @return void
      */
@@ -237,7 +237,7 @@ class BudgetLTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

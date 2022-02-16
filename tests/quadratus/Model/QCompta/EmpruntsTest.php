@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EmpruntsTest extends AbstractTestCase {
 
     /**
-     * Tests the setAEchoirEchu() method.
+     * Tests setAEchoirEchu()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class EmpruntsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCategorie() method.
+     * Tests setCategorie()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class EmpruntsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCentreAnalytique() method.
+     * Tests setCentreAnalytique()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class EmpruntsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeJournal() method.
+     * Tests setCodeJournal()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class EmpruntsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCptAssuranceEmprunt() method.
+     * Tests setCptAssuranceEmprunt()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class EmpruntsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCptEmprunt() method.
+     * Tests setCptEmprunt()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class EmpruntsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCptInteretEmprunt() method.
+     * Tests setCptInteretEmprunt()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class EmpruntsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateOuverture() method.
+     * Tests setDateOuverture()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -133,7 +133,7 @@ class EmpruntsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDatePremiereEcheance() method.
+     * Tests setDatePremiereEcheance()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -150,7 +150,7 @@ class EmpruntsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDiffere() method.
+     * Tests setDiffere()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class EmpruntsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDuree() method.
+     * Tests setDuree()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class EmpruntsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmpruntEnFrancs() method.
+     * Tests setEmpruntEnFrancs()
      *
      * @return void
      */
@@ -189,7 +189,7 @@ class EmpruntsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIdentification() method.
+     * Tests setIdentification()
      *
      * @return void
      */
@@ -202,7 +202,7 @@ class EmpruntsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMoisAnnee() method.
+     * Tests setMoisAnnee()
      *
      * @return void
      */
@@ -215,7 +215,7 @@ class EmpruntsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantAssurance() method.
+     * Tests setMontantAssurance()
      *
      * @return void
      */
@@ -228,7 +228,7 @@ class EmpruntsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantEmprunte() method.
+     * Tests setMontantEmprunte()
      *
      * @return void
      */
@@ -241,7 +241,7 @@ class EmpruntsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtCapitalFixeRemb() method.
+     * Tests setMtCapitalFixeRemb()
      *
      * @return void
      */
@@ -254,7 +254,7 @@ class EmpruntsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNature() method.
+     * Tests setNature()
      *
      * @return void
      */
@@ -267,7 +267,7 @@ class EmpruntsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNatureAnalytique() method.
+     * Tests setNatureAnalytique()
      *
      * @return void
      */
@@ -280,7 +280,7 @@ class EmpruntsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumero() method.
+     * Tests setNumero()
      *
      * @return void
      */
@@ -293,7 +293,7 @@ class EmpruntsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroPj() method.
+     * Tests setNumeroPj()
      *
      * @return void
      */
@@ -306,7 +306,7 @@ class EmpruntsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOrganisme() method.
+     * Tests setOrganisme()
      *
      * @return void
      */
@@ -319,7 +319,7 @@ class EmpruntsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodicite() method.
+     * Tests setPeriodicite()
      *
      * @return void
      */
@@ -332,7 +332,7 @@ class EmpruntsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxAssurance() method.
+     * Tests setTauxAssurance()
      *
      * @return void
      */
@@ -345,7 +345,7 @@ class EmpruntsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxInteret() method.
+     * Tests setTauxInteret()
      *
      * @return void
      */
@@ -358,7 +358,7 @@ class EmpruntsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeInFine() method.
+     * Tests setTypeInFine()
      *
      * @return void
      */
@@ -371,7 +371,7 @@ class EmpruntsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

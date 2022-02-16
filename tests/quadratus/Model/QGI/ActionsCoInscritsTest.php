@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ActionsCoInscritsTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeAction() method.
+     * Tests setCodeAction()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ActionsCoInscritsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ActionsCoInscritsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeManif() method.
+     * Tests setCodeManif()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ActionsCoInscritsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setConfirme() method.
+     * Tests setConfirme()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ActionsCoInscritsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmail() method.
+     * Tests setEmail()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ActionsCoInscritsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFax() method.
+     * Tests setFax()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class ActionsCoInscritsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNom() method.
+     * Tests setNom()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class ActionsCoInscritsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumInterlocuteur() method.
+     * Tests setNumInterlocuteur()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class ActionsCoInscritsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumSeance() method.
+     * Tests setNumSeance()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class ActionsCoInscritsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumero() method.
+     * Tests setNumero()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class ActionsCoInscritsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrenom() method.
+     * Tests setPrenom()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class ActionsCoInscritsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPresent() method.
+     * Tests setPresent()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class ActionsCoInscritsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTelephone() method.
+     * Tests setTelephone()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class ActionsCoInscritsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeInvite() method.
+     * Tests setTypeInvite()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class ActionsCoInscritsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

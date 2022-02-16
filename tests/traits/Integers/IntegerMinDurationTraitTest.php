@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Integers\TestIntegerMinDurationTrait;
 class IntegerMinDurationTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setMinDuration() method.
+     * Tests setMinDuration()
      *
      * @return void
      */

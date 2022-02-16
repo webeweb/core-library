@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AlertesHistoriqueTest extends AbstractTestCase {
 
     /**
-     * Tests the setArEnvoye() method.
+     * Tests setArEnvoye()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AlertesHistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AlertesHistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollabDst() method.
+     * Tests setCodeCollabDst()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AlertesHistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollabOrg() method.
+     * Tests setCodeCollabOrg()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class AlertesHistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateCreation() method.
+     * Tests setDateCreation()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -94,7 +94,7 @@ class AlertesHistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateDeclenchement() method.
+     * Tests setDateDeclenchement()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -111,7 +111,7 @@ class AlertesHistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateReponse() method.
+     * Tests setDateReponse()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -128,7 +128,7 @@ class AlertesHistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIdAlerteHisto() method.
+     * Tests setIdAlerteHisto()
      *
      * @return void
      */
@@ -141,7 +141,7 @@ class AlertesHistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTexteAlerte() method.
+     * Tests setTexteAlerte()
      *
      * @return void
      */
@@ -154,7 +154,7 @@ class AlertesHistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTexteReponse() method.
+     * Tests setTexteReponse()
      *
      * @return void
      */
@@ -167,7 +167,7 @@ class AlertesHistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

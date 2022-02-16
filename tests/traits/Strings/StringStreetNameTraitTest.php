@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringStreetNameTrait;
 class StringStreetNameTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setStreetName() method.
+     * Tests setStreetName()
      *
      * @return void
      */

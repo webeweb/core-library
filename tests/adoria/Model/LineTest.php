@@ -25,7 +25,7 @@ use WBW\Library\Adoria\Tests\AbstractTestCase;
 class LineTest extends AbstractTestCase {
 
     /**
-     * Tests the setAmount() method.
+     * Tests setAmount()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class LineTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAmountSign() method.
+     * Tests setAmountSign()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class LineTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAnalyticCode() method.
+     * Tests setAnalyticCode()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class LineTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBookingJournalCode() method.
+     * Tests setBookingJournalCode()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class LineTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCurrency() method.
+     * Tests setCurrency()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class LineTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFreeField() method.
+     * Tests setFreeField()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class LineTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setInvoiceDate() method.
+     * Tests setInvoiceDate()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class LineTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setInvoiceDueDate() method.
+     * Tests setInvoiceDueDate()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -137,7 +137,7 @@ class LineTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setInvoiceNumber() method.
+     * Tests setInvoiceNumber()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class LineTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSubledgerAccount() method.
+     * Tests setSubledgerAccount()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class LineTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

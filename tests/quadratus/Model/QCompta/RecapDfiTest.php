@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class RecapDfiTest extends AbstractTestCase {
 
     /**
-     * Tests the setAnneeDed() method.
+     * Tests setAnneeDed()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class RecapDfiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAnneeUtilisation() method.
+     * Tests setAnneeUtilisation()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class RecapDfiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setImmobilisations() method.
+     * Tests setImmobilisations()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class RecapDfiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMttAnnee() method.
+     * Tests setMttAnnee()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class RecapDfiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPartsSociales() method.
+     * Tests setPartsSociales()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class RecapDfiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setReintAnticipee() method.
+     * Tests setReintAnticipee()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class RecapDfiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setStocks() method.
+     * Tests setStocks()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class RecapDfiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

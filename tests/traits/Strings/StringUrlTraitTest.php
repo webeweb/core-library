@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringUrlTrait;
 class StringUrlTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setUrl() method.
+     * Tests setUrl()
      *
      * @return void
      */

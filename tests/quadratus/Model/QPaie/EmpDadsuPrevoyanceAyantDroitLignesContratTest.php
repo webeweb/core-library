@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EmpDadsuPrevoyanceAyantDroitLignesContratTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeOption() method.
+     * Tests setCodeOption()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class EmpDadsuPrevoyanceAyantDroitLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeOrganisme() method.
+     * Tests setCodeOrganisme()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class EmpDadsuPrevoyanceAyantDroitLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePopulation() method.
+     * Tests setCodePopulation()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class EmpDadsuPrevoyanceAyantDroitLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDebutPeriode() method.
+     * Tests setDebutPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class EmpDadsuPrevoyanceAyantDroitLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFinPeriode() method.
+     * Tests setFinPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -98,7 +98,7 @@ class EmpDadsuPrevoyanceAyantDroitLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroAyantDroit() method.
+     * Tests setNumeroAyantDroit()
      *
      * @return void
      */
@@ -111,7 +111,7 @@ class EmpDadsuPrevoyanceAyantDroitLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class EmpDadsuPrevoyanceAyantDroitLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRefContrat() method.
+     * Tests setRefContrat()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class EmpDadsuPrevoyanceAyantDroitLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

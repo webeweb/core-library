@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LignesGrillesAncTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeGrille() method.
+     * Tests setCodeGrille()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class LignesGrillesAncTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbMoisEcoules() method.
+     * Tests setNbMoisEcoules()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class LignesGrillesAncTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setValeur() method.
+     * Tests setValeur()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class LignesGrillesAncTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

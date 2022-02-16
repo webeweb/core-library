@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class TypeIntervenantsTest extends AbstractTestCase {
 
     /**
-     * Tests the setAccesLibre() method.
+     * Tests setAccesLibre()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class TypeIntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCode() method.
+     * Tests setCode()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class TypeIntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIncrementAuto() method.
+     * Tests setIncrementAuto()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class TypeIntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle() method.
+     * Tests setLibelle()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class TypeIntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrefixe() method.
+     * Tests setPrefixe()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class TypeIntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProchainNumero() method.
+     * Tests setProchainNumero()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class TypeIntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

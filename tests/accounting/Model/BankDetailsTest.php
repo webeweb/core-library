@@ -26,7 +26,7 @@ use WBW\Library\Accounting\Tests\AbstractTestCase;
 class BankDetailsTest extends AbstractTestCase {
 
     /**
-     * Tests the jsonSerialize() method.
+     * Tests jsonSerialize()
      *
      * @return void
      */
@@ -54,7 +54,7 @@ class BankDetailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAccountNumber() method.
+     * Tests setAccountNumber()
      *
      * @return void
      */
@@ -67,7 +67,7 @@ class BankDetailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBankCode() method.
+     * Tests setBankCode()
      *
      * @return void
      */
@@ -80,7 +80,7 @@ class BankDetailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBankDomiciliation() method.
+     * Tests setBankDomiciliation()
      *
      * @return void
      */
@@ -93,7 +93,7 @@ class BankDetailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBankName() method.
+     * Tests setBankName()
      *
      * @return void
      */
@@ -106,7 +106,7 @@ class BankDetailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBic() method.
+     * Tests setBic()
      *
      * @return void
      */
@@ -119,7 +119,7 @@ class BankDetailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBranchCode() method.
+     * Tests setBranchCode()
      *
      * @return void
      */
@@ -132,7 +132,7 @@ class BankDetailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIban() method.
+     * Tests setIban()
      *
      * @return void
      */
@@ -145,7 +145,7 @@ class BankDetailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOwner() method.
+     * Tests setOwner()
      *
      * @return void
      */
@@ -158,7 +158,7 @@ class BankDetailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRibKey() method.
+     * Tests setRibKey()
      *
      * @return void
      */
@@ -171,7 +171,7 @@ class BankDetailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

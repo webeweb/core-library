@@ -24,7 +24,7 @@ use WBW\Library\OcrLad\Tests\Fixtures\Serializer\TestDerDeserializer;
 class DerDeserializerTest extends AbstractTestCase {
 
     /**
-     * Tests the deserializeDocument() method.
+     * Tests deserializeDocument()
      *
      * @return void
      */
@@ -48,7 +48,7 @@ class DerDeserializerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the deserializePage() method.
+     * Tests deserializePage()
      *
      * @return void
      */
@@ -66,7 +66,7 @@ class DerDeserializerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the deserializePage() method.
+     * Tests deserializePage()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class DerDeserializerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the deserializeWord() method.
+     * Tests deserializeWord()
      *
      * @return void
      */
@@ -98,7 +98,7 @@ class DerDeserializerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the deserializeWord() method.
+     * Tests deserializeWord()
      *
      * @return void
      */
@@ -109,7 +109,7 @@ class DerDeserializerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the spliHeader() method.
+     * Tests spliHeader()
      *
      * @return void
      */
@@ -131,7 +131,7 @@ class DerDeserializerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      */
     public function test__construct(): void {
 

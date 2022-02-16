@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LignesAtaTest extends AbstractTestCase {
 
     /**
-     * Tests the setAvantagesEuroOuFranc() method.
+     * Tests setAvantagesEuroOuFranc()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class LignesAtaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCsEuroOuFranc() method.
+     * Tests setCsEuroOuFranc()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class LignesAtaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateEcheance() method.
+     * Tests setDateEcheance()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class LignesAtaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFraisProSoumis() method.
+     * Tests setFraisProSoumis()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class LignesAtaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFraisPsEuroOuFranc() method.
+     * Tests setFraisPsEuroOuFranc()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class LignesAtaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndemnitesEuroOuFranc() method.
+     * Tests setIndemnitesEuroOuFranc()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class LignesAtaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontant() method.
+     * Tests setMontant()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class LignesAtaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantAvantages() method.
+     * Tests setMontantAvantages()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class LignesAtaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantCotis() method.
+     * Tests setMontantCotis()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class LignesAtaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantEuroOuFranc() method.
+     * Tests setMontantEuroOuFranc()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class LignesAtaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantIndemnites() method.
+     * Tests setMontantIndemnites()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class LignesAtaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHTrav() method.
+     * Tests setNbHTrav()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class LignesAtaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLigne() method.
+     * Tests setNumLigne()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class LignesAtaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroAttestation() method.
+     * Tests setNumeroAttestation()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class LignesAtaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeDeb() method.
+     * Tests setPeriodeDeb()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -228,7 +228,7 @@ class LignesAtaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeFin() method.
+     * Tests setPeriodeFin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -245,7 +245,7 @@ class LignesAtaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxDedSup() method.
+     * Tests setTauxDedSup()
      *
      * @return void
      */
@@ -258,7 +258,7 @@ class LignesAtaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

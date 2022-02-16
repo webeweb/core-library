@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class PaiementsEdiTest extends AbstractTestCase {
 
     /**
-     * Tests the setBic() method.
+     * Tests setBic()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class PaiementsEdiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEtablissement() method.
+     * Tests setCodeEtablissement()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class PaiementsEdiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeOrganisme() method.
+     * Tests setCodeOrganisme()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class PaiementsEdiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDomBanque() method.
+     * Tests setDomBanque()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class PaiementsEdiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGenererCouponPaiement() method.
+     * Tests setGenererCouponPaiement()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class PaiementsEdiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIban() method.
+     * Tests setIban()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class PaiementsEdiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontant() method.
+     * Tests setMontant()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class PaiementsEdiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantDucsAnnuelle() method.
+     * Tests setMontantDucsAnnuelle()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class PaiementsEdiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMoyenPaiement() method.
+     * Tests setMoyenPaiement()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class PaiementsEdiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRib() method.
+     * Tests setRib()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class PaiementsEdiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

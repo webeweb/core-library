@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EmpDadsuPrevoyanceLignesContratTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeOption() method.
+     * Tests setCodeOption()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class EmpDadsuPrevoyanceLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeOrganisme() method.
+     * Tests setCodeOrganisme()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class EmpDadsuPrevoyanceLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePopulation() method.
+     * Tests setCodePopulation()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class EmpDadsuPrevoyanceLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbEnfants() method.
+     * Tests setNbEnfants()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class EmpDadsuPrevoyanceLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class EmpDadsuPrevoyanceLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRefContrat() method.
+     * Tests setRefContrat()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class EmpDadsuPrevoyanceLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ProfilsActionsTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeProfil() method.
+     * Tests setCodeProfil()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ProfilsActionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule() method.
+     * Tests setIntitule()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ProfilsActionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

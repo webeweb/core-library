@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class TarifsTranchesTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeArticle() method.
+     * Tests setCodeArticle()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class TarifsTranchesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class TarifsTranchesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeDevise() method.
+     * Tests setCodeDevise()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class TarifsTranchesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeNature() method.
+     * Tests setCodeNature()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class TarifsTranchesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCoeff() method.
+     * Tests setCoeff()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class TarifsTranchesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateDebut() method.
+     * Tests setDateDebut()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -107,7 +107,7 @@ class TarifsTranchesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateFin() method.
+     * Tests setDateFin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -124,7 +124,7 @@ class TarifsTranchesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumTranche() method.
+     * Tests setNumTranche()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class TarifsTranchesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrixNet() method.
+     * Tests setPrixNet()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class TarifsTranchesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrixUnit() method.
+     * Tests setPrixUnit()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class TarifsTranchesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQteMini() method.
+     * Tests setQteMini()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class TarifsTranchesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeCodeArticle() method.
+     * Tests setTypeCodeArticle()
      *
      * @return void
      */
@@ -189,7 +189,7 @@ class TarifsTranchesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeCodeClient() method.
+     * Tests setTypeCodeClient()
      *
      * @return void
      */
@@ -202,7 +202,7 @@ class TarifsTranchesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

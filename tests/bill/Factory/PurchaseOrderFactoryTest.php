@@ -27,7 +27,7 @@ use WBW\Library\Bill\Tests\AbstractTestCase;
 class PurchaseOrderFactoryTest extends AbstractTestCase {
 
     /**
-     * Tests the copy() method.
+     * Tests copy()
      *
      * @return void
      */

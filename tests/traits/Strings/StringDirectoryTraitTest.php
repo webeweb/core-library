@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringDirectoryTrait;
 class StringDirectoryTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setDirectory() method.
+     * Tests setDirectory()
      *
      * @return void
      */

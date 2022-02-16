@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LiaisonsDestinatairesTypesEnvoisTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeDestinataire() method.
+     * Tests setCodeDestinataire()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class LiaisonsDestinatairesTypesEnvoisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTypeEnvoi() method.
+     * Tests setCodeTypeEnvoi()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class LiaisonsDestinatairesTypesEnvoisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

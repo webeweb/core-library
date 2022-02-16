@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class TableauxPaiementsTest extends AbstractTestCase {
 
     /**
-     * Tests the setAssurance() method.
+     * Tests setAssurance()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class TableauxPaiementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTva() method.
+     * Tests setCodeTva()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class TableauxPaiementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDate() method.
+     * Tests setDate()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class TableauxPaiementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEntretien() method.
+     * Tests setEntretien()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class TableauxPaiementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLoyerHt() method.
+     * Tests setLoyerHt()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class TableauxPaiementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLigne() method.
+     * Tests setNumLigne()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class TableauxPaiementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroCb() method.
+     * Tests setNumeroCb()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class TableauxPaiementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroCompte() method.
+     * Tests setNumeroCompte()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class TableauxPaiementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroDeuxCb() method.
+     * Tests setNumeroDeuxCb()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class TableauxPaiementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setValeurRachat() method.
+     * Tests setValeurRachat()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class TableauxPaiementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

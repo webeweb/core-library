@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DadsuPrevTest extends AbstractTestCase {
 
     /**
-     * Tests the setBasePrev() method.
+     * Tests setBasePrev()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class DadsuPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEtablissement() method.
+     * Tests setCodeEtablissement()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class DadsuPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeOrganisme() method.
+     * Tests setCodeOrganisme()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class DadsuPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeOrganismeGestionnaire() method.
+     * Tests setCodeOrganismeGestionnaire()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class DadsuPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePopul() method.
+     * Tests setCodePopul()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class DadsuPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTypePrev() method.
+     * Tests setCodeTypePrev()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class DadsuPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDebutPeriode() method.
+     * Tests setDebutPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class DadsuPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEvenContrat() method.
+     * Tests setEvenContrat()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class DadsuPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFinPeriode() method.
+     * Tests setFinPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -150,7 +150,7 @@ class DadsuPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIdInstitution() method.
+     * Tests setIdInstitution()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class DadsuPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndiceDadsu() method.
+     * Tests setIndiceDadsu()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class DadsuPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNoAffiliation() method.
+     * Tests setNoAffiliation()
      *
      * @return void
      */
@@ -189,7 +189,7 @@ class DadsuPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumero() method.
+     * Tests setNumero()
      *
      * @return void
      */
@@ -202,7 +202,7 @@ class DadsuPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroOrdre() method.
+     * Tests setNumeroOrdre()
      *
      * @return void
      */
@@ -215,7 +215,7 @@ class DadsuPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

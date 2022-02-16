@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EcrituresDecTvaTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeTva() method.
+     * Tests setCodeTva()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class EcrituresDecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateDecTva() method.
+     * Tests setDateDecTva()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -55,7 +55,7 @@ class EcrituresDecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJourEcriture() method.
+     * Tests setJourEcriture()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class EcrituresDecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle() method.
+     * Tests setLibelle()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class EcrituresDecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantHt() method.
+     * Tests setMontantHt()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class EcrituresDecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumUniq() method.
+     * Tests setNumUniq()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class EcrituresDecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroCompte() method.
+     * Tests setNumeroCompte()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class EcrituresDecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeEcriture() method.
+     * Tests setPeriodeEcriture()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -137,7 +137,7 @@ class EcrituresDecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeCdi() method.
+     * Tests setTypeCdi()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class EcrituresDecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

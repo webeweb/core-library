@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class FichesControlesSupprimeesTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeAffaire() method.
+     * Tests setCodeAffaire()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class FichesControlesSupprimeesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeChantier() method.
+     * Tests setCodeChantier()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class FichesControlesSupprimeesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class FichesControlesSupprimeesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaborateur() method.
+     * Tests setCodeCollaborateur()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class FichesControlesSupprimeesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateTransfert() method.
+     * Tests setDateTransfert()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -94,7 +94,7 @@ class FichesControlesSupprimeesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroFiche() method.
+     * Tests setNumeroFiche()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class FichesControlesSupprimeesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniqIdBlocage() method.
+     * Tests setUniqIdBlocage()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class FichesControlesSupprimeesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

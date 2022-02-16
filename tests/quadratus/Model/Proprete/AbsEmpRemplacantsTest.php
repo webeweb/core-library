@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AbsEmpRemplacantsTest extends AbstractTestCase {
 
     /**
-     * Tests the setAjouterEnHCompl() method.
+     * Tests setAjouterEnHCompl()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAvenantHRempl() method.
+     * Tests setAvenantHRempl()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAffaire() method.
+     * Tests setCodeAffaire()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAffaireRempl() method.
+     * Tests setCodeAffaireRempl()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeChantier() method.
+     * Tests setCodeChantier()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeChantierRempl() method.
+     * Tests setCodeChantierRempl()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClientRempl() method.
+     * Tests setCodeClientRempl()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaboValid() method.
+     * Tests setCodeCollaboValid()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaborateur() method.
+     * Tests setCodeCollaborateur()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEmploye() method.
+     * Tests setCodeEmploye()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRemplacant() method.
+     * Tests setCodeRemplacant()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTache() method.
+     * Tests setCodeTache()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTacheRempl() method.
+     * Tests setCodeTacheRempl()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateAbsDecalee() method.
+     * Tests setDateAbsDecalee()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -224,7 +224,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateDebutAbs() method.
+     * Tests setDateDebutAbs()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -241,7 +241,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateDebutRempl() method.
+     * Tests setDateDebutRempl()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -258,7 +258,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateFinRempl() method.
+     * Tests setDateFinRempl()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -275,7 +275,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateValidationSynchro() method.
+     * Tests setDateValidationSynchro()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -292,7 +292,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDureeRemplacement() method.
+     * Tests setDureeRemplacement()
      *
      * @return void
      */
@@ -305,7 +305,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtat() method.
+     * Tests setEtat()
      *
      * @return void
      */
@@ -318,7 +318,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumBt() method.
+     * Tests setNumBt()
      *
      * @return void
      */
@@ -331,7 +331,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumBtRempl() method.
+     * Tests setNumBtRempl()
      *
      * @return void
      */
@@ -344,7 +344,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumRempl() method.
+     * Tests setNumRempl()
      *
      * @return void
      */
@@ -357,7 +357,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroAvenant() method.
+     * Tests setNumeroAvenant()
      *
      * @return void
      */
@@ -370,7 +370,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemplacantTravailleJf() method.
+     * Tests setRemplacantTravailleJf()
      *
      * @return void
      */
@@ -383,7 +383,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemplacementComplet() method.
+     * Tests setRemplacementComplet()
      *
      * @return void
      */
@@ -396,7 +396,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemplacementModifie() method.
+     * Tests setRemplacementModifie()
      *
      * @return void
      */
@@ -409,7 +409,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniqIdSynchro() method.
+     * Tests setUniqIdSynchro()
      *
      * @return void
      */
@@ -422,7 +422,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ArticlesEanTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeArticle() method.
+     * Tests setCodeArticle()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ArticlesEanTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEan() method.
+     * Tests setEan()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ArticlesEanTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGamme() method.
+     * Tests setGamme()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ArticlesEanTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setVariante() method.
+     * Tests setVariante()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ArticlesEanTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

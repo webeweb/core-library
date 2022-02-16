@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ProvisionsCpTest extends AbstractTestCase {
 
     /**
-     * Tests the setCentre() method.
+     * Tests setCentre()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ProvisionsCpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setColPourSalRef() method.
+     * Tests setColPourSalRef()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ProvisionsCpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDernierSalaire() method.
+     * Tests setDernierSalaire()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ProvisionsCpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMoyenneSalaires() method.
+     * Tests setMoyenneSalaires()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ProvisionsCpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNature() method.
+     * Tests setNature()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ProvisionsCpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomCompletEmp() method.
+     * Tests setNomCompletEmp()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class ProvisionsCpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmp() method.
+     * Tests setNumeroEmp()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class ProvisionsCpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProvisionTotale() method.
+     * Tests setProvisionTotale()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class ProvisionsCpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSalaireRef() method.
+     * Tests setSalaireRef()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class ProvisionsCpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSoldeJoursN() method.
+     * Tests setSoldeJoursN()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class ProvisionsCpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSoldeJoursN1() method.
+     * Tests setSoldeJoursN1()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class ProvisionsCpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTxChargesSoc() method.
+     * Tests setTxChargesSoc()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class ProvisionsCpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

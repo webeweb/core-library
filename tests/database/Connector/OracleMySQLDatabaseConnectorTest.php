@@ -25,7 +25,7 @@ use WBW\Library\Database\Tests\AbstractTestCase;
 class OracleMySQLDatabaseConnectorTest extends AbstractTestCase {
 
     /**
-     * Tests the getConnection() method.
+     * Tests getConnection()
      *
      * @return void
      */

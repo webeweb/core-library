@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringLangTrait;
 class StringLangTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setLang() method.
+     * Tests setLang()
      *
      * @return void
      */

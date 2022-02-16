@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ClientsTest extends AbstractTestCase {
 
     /**
-     * Tests the setActif() method.
+     * Tests setActif()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setActiviteNouvelle() method.
+     * Tests setActiviteNouvelle()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setActiviteSaiso() method.
+     * Tests setActiviteSaiso()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdresseSiteClient() method.
+     * Tests setAdresseSiteClient()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setArticlePort1() method.
+     * Tests setArticlePort1()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setArticlePort2() method.
+     * Tests setArticlePort2()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAssurance() method.
+     * Tests setAssurance()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBibliothequeNovaxel() method.
+     * Tests setBibliothequeNovaxel()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBlChiffre() method.
+     * Tests setBlChiffre()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBloque() method.
+     * Tests setBloque()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCdeAutoManu() method.
+     * Tests setCdeAutoManu()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCga() method.
+     * Tests setCga()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCharges() method.
+     * Tests setCharges()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setChiffreAffaire() method.
+     * Tests setChiffreAffaire()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCleAlpha() method.
+     * Tests setCleAlpha()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCode() method.
+     * Tests setCode()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeActivite() method.
+     * Tests setCodeActivite()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAgence() method.
+     * Tests setCodeAgence()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeArticleCotisation() method.
+     * Tests setCodeArticleCotisation()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeArticleDroitFixe() method.
+     * Tests setCodeArticleDroitFixe()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeArticleFraisFixe() method.
+     * Tests setCodeArticleFraisFixe()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAssistantJuridique() method.
+     * Tests setCodeAssistantJuridique()
      *
      * @return void
      */
@@ -311,7 +311,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAssistantSocial() method.
+     * Tests setCodeAssistantSocial()
      *
      * @return void
      */
@@ -324,7 +324,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAutre1() method.
+     * Tests setCodeAutre1()
      *
      * @return void
      */
@@ -337,7 +337,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAutre2() method.
+     * Tests setCodeAutre2()
      *
      * @return void
      */
@@ -350,7 +350,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAvocat() method.
+     * Tests setCodeAvocat()
      *
      * @return void
      */
@@ -363,7 +363,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeBarre() method.
+     * Tests setCodeBarre()
      *
      * @return void
      */
@@ -376,7 +376,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCategorieClient() method.
+     * Tests setCodeCategorieClient()
      *
      * @return void
      */
@@ -389,7 +389,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClientFact() method.
+     * Tests setCodeClientFact()
      *
      * @return void
      */
@@ -402,7 +402,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClientLivr() method.
+     * Tests setCodeClientLivr()
      *
      * @return void
      */
@@ -415,7 +415,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaborateur() method.
+     * Tests setCodeCollaborateur()
      *
      * @return void
      */
@@ -428,7 +428,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeDepot() method.
+     * Tests setCodeDepot()
      *
      * @return void
      */
@@ -441,7 +441,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeDevise() method.
+     * Tests setCodeDevise()
      *
      * @return void
      */
@@ -454,7 +454,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEditionFact() method.
+     * Tests setCodeEditionFact()
      *
      * @return void
      */
@@ -467,7 +467,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeExc() method.
+     * Tests setCodeExc()
      *
      * @return void
      */
@@ -480,7 +480,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeExpert() method.
+     * Tests setCodeExpert()
      *
      * @return void
      */
@@ -493,7 +493,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeFactor() method.
+     * Tests setCodeFactor()
      *
      * @return void
      */
@@ -506,7 +506,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeFamille() method.
+     * Tests setCodeFamille()
      *
      * @return void
      */
@@ -519,7 +519,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeGeo() method.
+     * Tests setCodeGeo()
      *
      * @return void
      */
@@ -532,7 +532,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeImputationAnalytique() method.
+     * Tests setCodeImputationAnalytique()
      *
      * @return void
      */
@@ -545,7 +545,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeLangueDesignationArticle() method.
+     * Tests setCodeLangueDesignationArticle()
      *
      * @return void
      */
@@ -558,7 +558,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeMissionFraisFixe() method.
+     * Tests setCodeMissionFraisFixe()
      *
      * @return void
      */
@@ -571,7 +571,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeOrigine() method.
+     * Tests setCodeOrigine()
      *
      * @return void
      */
@@ -584,7 +584,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePaysCorres() method.
+     * Tests setCodePaysCorres()
      *
      * @return void
      */
@@ -597,7 +597,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePaysFact() method.
+     * Tests setCodePaysFact()
      *
      * @return void
      */
@@ -610,7 +610,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePortefeuille() method.
+     * Tests setCodePortefeuille()
      *
      * @return void
      */
@@ -623,7 +623,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRecetteImpots() method.
+     * Tests setCodeRecetteImpots()
      *
      * @return void
      */
@@ -636,7 +636,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeReglement() method.
+     * Tests setCodeReglement()
      *
      * @return void
      */
@@ -649,7 +649,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRegroupement() method.
+     * Tests setCodeRegroupement()
      *
      * @return void
      */
@@ -662,7 +662,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRepresentant() method.
+     * Tests setCodeRepresentant()
      *
      * @return void
      */
@@ -675,7 +675,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRevision() method.
+     * Tests setCodeRevision()
      *
      * @return void
      */
@@ -688,7 +688,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeSousFamille() method.
+     * Tests setCodeSousFamille()
      *
      * @return void
      */
@@ -701,7 +701,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeSousTournee() method.
+     * Tests setCodeSousTournee()
      *
      * @return void
      */
@@ -714,7 +714,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTarif() method.
+     * Tests setCodeTarif()
      *
      * @return void
      */
@@ -727,7 +727,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTournee() method.
+     * Tests setCodeTournee()
      *
      * @return void
      */
@@ -740,7 +740,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTransporteur() method.
+     * Tests setCodeTransporteur()
      *
      * @return void
      */
@@ -753,7 +753,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTva() method.
+     * Tests setCodeTva()
      *
      * @return void
      */
@@ -766,7 +766,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeVentilCompta() method.
+     * Tests setCodeVentilCompta()
      *
      * @return void
      */
@@ -779,7 +779,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCoefSurPv() method.
+     * Tests setCoefSurPv()
      *
      * @return void
      */
@@ -792,7 +792,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCoeffPvClient() method.
+     * Tests setCoeffPvClient()
      *
      * @return void
      */
@@ -805,7 +805,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCollectif() method.
+     * Tests setCollectif()
      *
      * @return void
      */
@@ -818,7 +818,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setConjoint() method.
+     * Tests setConjoint()
      *
      * @return void
      */
@@ -831,7 +831,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setContactRecetteImpots() method.
+     * Tests setContactRecetteImpots()
      *
      * @return void
      */
@@ -844,7 +844,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateAttribEncours() method.
+     * Tests setDateAttribEncours()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -861,7 +861,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateCreation() method.
+     * Tests setDateCreation()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -878,7 +878,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateDebActivite() method.
+     * Tests setDateDebActivite()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -895,7 +895,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateDebProf() method.
+     * Tests setDateDebProf()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -912,7 +912,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateDerniereVente() method.
+     * Tests setDateDerniereVente()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -929,7 +929,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateEntree() method.
+     * Tests setDateEntree()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -946,7 +946,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateFinActivite() method.
+     * Tests setDateFinActivite()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -963,7 +963,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateModification() method.
+     * Tests setDateModification()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -980,7 +980,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateReprise() method.
+     * Tests setDateReprise()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -997,7 +997,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateSortie() method.
+     * Tests setDateSortie()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -1014,7 +1014,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDelaiTarif() method.
+     * Tests setDelaiTarif()
      *
      * @return void
      */
@@ -1027,7 +1027,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDomiciliationBancaire1() method.
+     * Tests setDomiciliationBancaire1()
      *
      * @return void
      */
@@ -1040,7 +1040,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDomiciliationBancaire2() method.
+     * Tests setDomiciliationBancaire2()
      *
      * @return void
      */
@@ -1053,7 +1053,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDossierComptable() method.
+     * Tests setDossierComptable()
      *
      * @return void
      */
@@ -1066,7 +1066,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDossierPaie() method.
+     * Tests setDossierPaie()
      *
      * @return void
      */
@@ -1079,7 +1079,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDsCodeCollab() method.
+     * Tests setDsCodeCollab()
      *
      * @return void
      */
@@ -1092,7 +1092,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDsDateRetour() method.
+     * Tests setDsDateRetour()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -1109,7 +1109,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDsDateSortie() method.
+     * Tests setDsDateSortie()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -1126,7 +1126,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDuClient() method.
+     * Tests setDuClient()
      *
      * @return void
      */
@@ -1139,7 +1139,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDureeEcheances() method.
+     * Tests setDureeEcheances()
      *
      * @return void
      */
@@ -1152,7 +1152,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEffectifEtp() method.
+     * Tests setEffectifEtp()
      *
      * @return void
      */
@@ -1165,7 +1165,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setElectionCe() method.
+     * Tests setElectionCe()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -1182,7 +1182,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setElectionDeleguePersonnel() method.
+     * Tests setElectionDeleguePersonnel()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -1199,7 +1199,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEquipInfo() method.
+     * Tests setEquipInfo()
      *
      * @return void
      */
@@ -1212,7 +1212,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtat1() method.
+     * Tests setEtat1()
      *
      * @return void
      */
@@ -1225,7 +1225,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtat2() method.
+     * Tests setEtat2()
      *
      * @return void
      */
@@ -1238,7 +1238,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtat3() method.
+     * Tests setEtat3()
      *
      * @return void
      */
@@ -1251,7 +1251,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtat4() method.
+     * Tests setEtat4()
      *
      * @return void
      */
@@ -1264,7 +1264,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtat5() method.
+     * Tests setEtat5()
      *
      * @return void
      */
@@ -1277,7 +1277,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtiquettes() method.
+     * Tests setEtiquettes()
      *
      * @return void
      */
@@ -1290,7 +1290,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFactBtq() method.
+     * Tests setFactBtq()
      *
      * @return void
      */
@@ -1303,7 +1303,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFactBureauDistributeur() method.
+     * Tests setFactBureauDistributeur()
      *
      * @return void
      */
@@ -1316,7 +1316,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFactCodeOfficielCommune() method.
+     * Tests setFactCodeOfficielCommune()
      *
      * @return void
      */
@@ -1329,7 +1329,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFactCodePostal() method.
+     * Tests setFactCodePostal()
      *
      * @return void
      */
@@ -1342,7 +1342,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFactComplement() method.
+     * Tests setFactComplement()
      *
      * @return void
      */
@@ -1355,7 +1355,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFactNomRs() method.
+     * Tests setFactNomRs()
      *
      * @return void
      */
@@ -1368,7 +1368,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFactNomVille() method.
+     * Tests setFactNomVille()
      *
      * @return void
      */
@@ -1381,7 +1381,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFactNomVoie() method.
+     * Tests setFactNomVoie()
      *
      * @return void
      */
@@ -1394,7 +1394,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFactNumVoie() method.
+     * Tests setFactNumVoie()
      *
      * @return void
      */
@@ -1407,7 +1407,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFacturationCompta() method.
+     * Tests setFacturationCompta()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -1424,7 +1424,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFacturationComptaPrec() method.
+     * Tests setFacturationComptaPrec()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -1441,7 +1441,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFacturationCotisation() method.
+     * Tests setFacturationCotisation()
      *
      * @return void
      */
@@ -1454,7 +1454,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFacturationDroitFixe() method.
+     * Tests setFacturationDroitFixe()
      *
      * @return void
      */
@@ -1467,7 +1467,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFacturationFraisFixe() method.
+     * Tests setFacturationFraisFixe()
      *
      * @return void
      */
@@ -1480,7 +1480,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFacturationPaie() method.
+     * Tests setFacturationPaie()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -1497,7 +1497,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFacturationPaiePrec() method.
+     * Tests setFacturationPaiePrec()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -1514,7 +1514,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFactureEuros() method.
+     * Tests setFactureEuros()
      *
      * @return void
      */
@@ -1527,7 +1527,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFactureIsolee() method.
+     * Tests setFactureIsolee()
      *
      * @return void
      */
@@ -1540,7 +1540,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFactureTempsPasses() method.
+     * Tests setFactureTempsPasses()
      *
      * @return void
      */
@@ -1553,7 +1553,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFacturesMail() method.
+     * Tests setFacturesMail()
      *
      * @return void
      */
@@ -1566,7 +1566,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFortementImpose() method.
+     * Tests setFortementImpose()
      *
      * @return void
      */
@@ -1579,7 +1579,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFraisFixes1() method.
+     * Tests setFraisFixes1()
      *
      * @return void
      */
@@ -1592,7 +1592,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFraisFixes2() method.
+     * Tests setFraisFixes2()
      *
      * @return void
      */
@@ -1605,7 +1605,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFrancoPort1() method.
+     * Tests setFrancoPort1()
      *
      * @return void
      */
@@ -1618,7 +1618,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFrancoPort2() method.
+     * Tests setFrancoPort2()
      *
      * @return void
      */
@@ -1631,7 +1631,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHeureAppel() method.
+     * Tests setHeureAppel()
      *
      * @return void
      */
@@ -1644,7 +1644,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIdentifiantTva() method.
+     * Tests setIdentifiantTva()
      *
      * @return void
      */
@@ -1657,7 +1657,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndiceFacturesMail() method.
+     * Tests setIndiceFacturesMail()
      *
      * @return void
      */
@@ -1670,7 +1670,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setInsp() method.
+     * Tests setInsp()
      *
      * @return void
      */
@@ -1683,7 +1683,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setInteresseGestion() method.
+     * Tests setInteresseGestion()
      *
      * @return void
      */
@@ -1696,7 +1696,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMensualisationActif() method.
+     * Tests setMensualisationActif()
      *
      * @return void
      */
@@ -1709,7 +1709,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMensualisationAu() method.
+     * Tests setMensualisationAu()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -1726,7 +1726,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMensualisationDu() method.
+     * Tests setMensualisationDu()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -1743,7 +1743,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMensualisationFrequence() method.
+     * Tests setMensualisationFrequence()
      *
      * @return void
      */
@@ -1756,7 +1756,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMensualisationMontant() method.
+     * Tests setMensualisationMontant()
      *
      * @return void
      */
@@ -1769,7 +1769,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMissionSurDossier() method.
+     * Tests setMissionSurDossier()
      *
      * @return void
      */
@@ -1782,7 +1782,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setModeleBl() method.
+     * Tests setModeleBl()
      *
      * @return void
      */
@@ -1795,7 +1795,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setModeleCommande() method.
+     * Tests setModeleCommande()
      *
      * @return void
      */
@@ -1808,7 +1808,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setModeleFacture() method.
+     * Tests setModeleFacture()
      *
      * @return void
      */
@@ -1821,7 +1821,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setModeleProformas() method.
+     * Tests setModeleProformas()
      *
      * @return void
      */
@@ -1834,7 +1834,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setModeleReleve() method.
+     * Tests setModeleReleve()
      *
      * @return void
      */
@@ -1847,7 +1847,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMoisCloture() method.
+     * Tests setMoisCloture()
      *
      * @return void
      */
@@ -1860,7 +1860,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMoisCotisation() method.
+     * Tests setMoisCotisation()
      *
      * @return void
      */
@@ -1873,7 +1873,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMoisDroitFixe() method.
+     * Tests setMoisDroitFixe()
      *
      * @return void
      */
@@ -1886,7 +1886,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtCmdNonFact() method.
+     * Tests setMtCmdNonFact()
      *
      * @return void
      */
@@ -1899,7 +1899,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtEncours() method.
+     * Tests setMtEncours()
      *
      * @return void
      */
@@ -1912,7 +1912,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtEncoursAutorise() method.
+     * Tests setMtEncoursAutorise()
      *
      * @return void
      */
@@ -1925,7 +1925,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbAppelsEnCours() method.
+     * Tests setNbAppelsEnCours()
      *
      * @return void
      */
@@ -1938,7 +1938,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbBl() method.
+     * Tests setNbBl()
      *
      * @return void
      */
@@ -1951,7 +1951,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbBlNonChiffres() method.
+     * Tests setNbBlNonChiffres()
      *
      * @return void
      */
@@ -1964,7 +1964,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbCommande() method.
+     * Tests setNbCommande()
      *
      * @return void
      */
@@ -1977,7 +1977,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbDevis() method.
+     * Tests setNbDevis()
      *
      * @return void
      */
@@ -1990,7 +1990,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbFacture() method.
+     * Tests setNbFacture()
      *
      * @return void
      */
@@ -2003,7 +2003,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJourInterval() method.
+     * Tests setNbJourInterval()
      *
      * @return void
      */
@@ -2016,7 +2016,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbMaxBl() method.
+     * Tests setNbMaxBl()
      *
      * @return void
      */
@@ -2029,7 +2029,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbReleve() method.
+     * Tests setNbReleve()
      *
      * @return void
      */
@@ -2042,7 +2042,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNombreEcheances() method.
+     * Tests setNombreEcheances()
      *
      * @return void
      */
@@ -2055,7 +2055,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNombreMoisExercice() method.
+     * Tests setNombreMoisExercice()
      *
      * @return void
      */
@@ -2068,7 +2068,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNotoriete() method.
+     * Tests setNotoriete()
      *
      * @return void
      */
@@ -2081,7 +2081,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumWebAdherent() method.
+     * Tests setNumWebAdherent()
      *
      * @return void
      */
@@ -2094,7 +2094,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroCompte() method.
+     * Tests setNumeroCompte()
      *
      * @return void
      */
@@ -2107,7 +2107,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setObservation1() method.
+     * Tests setObservation1()
      *
      * @return void
      */
@@ -2120,7 +2120,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setObservation2() method.
+     * Tests setObservation2()
      *
      * @return void
      */
@@ -2133,7 +2133,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setObservation3() method.
+     * Tests setObservation3()
      *
      * @return void
      */
@@ -2146,7 +2146,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOccasionnel() method.
+     * Tests setOccasionnel()
      *
      * @return void
      */
@@ -2159,7 +2159,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOrganisationAdm() method.
+     * Tests setOrganisationAdm()
      *
      * @return void
      */
@@ -2172,7 +2172,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPaiementDepartLe() method.
+     * Tests setPaiementDepartLe()
      *
      * @return void
      */
@@ -2185,7 +2185,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPaiementLe() method.
+     * Tests setPaiementLe()
      *
      * @return void
      */
@@ -2198,7 +2198,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPaiementNombreDeJours() method.
+     * Tests setPaiementNombreDeJours()
      *
      * @return void
      */
@@ -2211,7 +2211,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPasProductif() method.
+     * Tests setPasProductif()
      *
      * @return void
      */
@@ -2224,7 +2224,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPasTachesOperationnelles() method.
+     * Tests setPasTachesOperationnelles()
      *
      * @return void
      */
@@ -2237,7 +2237,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPatrimoine() method.
+     * Tests setPatrimoine()
      *
      * @return void
      */
@@ -2250,7 +2250,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrelevementsPerso() method.
+     * Tests setPrelevementsPerso()
      *
      * @return void
      */
@@ -2263,7 +2263,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrescripteur() method.
+     * Tests setPrescripteur()
      *
      * @return void
      */
@@ -2276,7 +2276,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrevisionnel() method.
+     * Tests setPrevisionnel()
      *
      * @return void
      */
@@ -2289,7 +2289,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrioritaire() method.
+     * Tests setPrioritaire()
      *
      * @return void
      */
@@ -2302,7 +2302,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProfilDirAnxieux() method.
+     * Tests setProfilDirAnxieux()
      *
      * @return void
      */
@@ -2315,7 +2315,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProfilDirCommercial() method.
+     * Tests setProfilDirCommercial()
      *
      * @return void
      */
@@ -2328,7 +2328,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProfilDirGestionnaire() method.
+     * Tests setProfilDirGestionnaire()
      *
      * @return void
      */
@@ -2341,7 +2341,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProfilDirSomnolent() method.
+     * Tests setProfilDirSomnolent()
      *
      * @return void
      */
@@ -2354,7 +2354,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProfilDirTechnicien() method.
+     * Tests setProfilDirTechnicien()
      *
      * @return void
      */
@@ -2367,7 +2367,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProfilEnt() method.
+     * Tests setProfilEnt()
      *
      * @return void
      */
@@ -2380,7 +2380,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProspect() method.
+     * Tests setProspect()
      *
      * @return void
      */
@@ -2393,7 +2393,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQualitePaiement() method.
+     * Tests setQualitePaiement()
      *
      * @return void
      */
@@ -2406,7 +2406,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRaisonFinActivite() method.
+     * Tests setRaisonFinActivite()
      *
      * @return void
      */
@@ -2419,7 +2419,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRaisonMvPaiement() method.
+     * Tests setRaisonMvPaiement()
      *
      * @return void
      */
@@ -2432,7 +2432,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRegime() method.
+     * Tests setRegime()
      *
      * @return void
      */
@@ -2445,7 +2445,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRegroupementFact() method.
+     * Tests setRegroupementFact()
      *
      * @return void
      */
@@ -2458,7 +2458,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRelationCabinet() method.
+     * Tests setRelationCabinet()
      *
      * @return void
      */
@@ -2471,7 +2471,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setReleveFacture() method.
+     * Tests setReleveFacture()
      *
      * @return void
      */
@@ -2484,7 +2484,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemiseLigne1() method.
+     * Tests setRemiseLigne1()
      *
      * @return void
      */
@@ -2497,7 +2497,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemiseLigne2() method.
+     * Tests setRemiseLigne2()
      *
      * @return void
      */
@@ -2510,7 +2510,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemiseLigne3() method.
+     * Tests setRemiseLigne3()
      *
      * @return void
      */
@@ -2523,7 +2523,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemisePied() method.
+     * Tests setRemisePied()
      *
      * @return void
      */
@@ -2536,7 +2536,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemisePied2() method.
+     * Tests setRemisePied2()
      *
      * @return void
      */
@@ -2549,7 +2549,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemisePied3() method.
+     * Tests setRemisePied3()
      *
      * @return void
      */
@@ -2562,7 +2562,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setResultat() method.
+     * Tests setResultat()
      *
      * @return void
      */
@@ -2575,7 +2575,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRib() method.
+     * Tests setRib()
      *
      * @return void
      */
@@ -2588,7 +2588,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSanteFinanciere() method.
+     * Tests setSanteFinanciere()
      *
      * @return void
      */
@@ -2601,7 +2601,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setServiceCpta() method.
+     * Tests setServiceCpta()
      *
      * @return void
      */
@@ -2614,7 +2614,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSiegeGroupe() method.
+     * Tests setSiegeGroupe()
      *
      * @return void
      */
@@ -2627,7 +2627,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSocial() method.
+     * Tests setSocial()
      *
      * @return void
      */
@@ -2640,7 +2640,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSocialBtq() method.
+     * Tests setSocialBtq()
      *
      * @return void
      */
@@ -2653,7 +2653,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSocialBureauDistributeur() method.
+     * Tests setSocialBureauDistributeur()
      *
      * @return void
      */
@@ -2666,7 +2666,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSocialCodeOfficielCommune() method.
+     * Tests setSocialCodeOfficielCommune()
      *
      * @return void
      */
@@ -2679,7 +2679,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSocialCodePostal() method.
+     * Tests setSocialCodePostal()
      *
      * @return void
      */
@@ -2692,7 +2692,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSocialComplement() method.
+     * Tests setSocialComplement()
      *
      * @return void
      */
@@ -2705,7 +2705,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSocialNomRs() method.
+     * Tests setSocialNomRs()
      *
      * @return void
      */
@@ -2718,7 +2718,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSocialNomVille() method.
+     * Tests setSocialNomVille()
      *
      * @return void
      */
@@ -2731,7 +2731,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSocialNomVoie() method.
+     * Tests setSocialNomVoie()
      *
      * @return void
      */
@@ -2744,7 +2744,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSocialNumVoie() method.
+     * Tests setSocialNumVoie()
      *
      * @return void
      */
@@ -2757,7 +2757,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSoumisEscompte() method.
+     * Tests setSoumisEscompte()
      *
      * @return void
      */
@@ -2770,7 +2770,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSoumisPort1() method.
+     * Tests setSoumisPort1()
      *
      * @return void
      */
@@ -2783,7 +2783,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSoumisPort2() method.
+     * Tests setSoumisPort2()
      *
      * @return void
      */
@@ -2796,7 +2796,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSoumisTaxe1() method.
+     * Tests setSoumisTaxe1()
      *
      * @return void
      */
@@ -2809,7 +2809,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSoumisTaxe2() method.
+     * Tests setSoumisTaxe2()
      *
      * @return void
      */
@@ -2822,7 +2822,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSoumisTaxe3() method.
+     * Tests setSoumisTaxe3()
      *
      * @return void
      */
@@ -2835,7 +2835,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSoumisTaxe4() method.
+     * Tests setSoumisTaxe4()
      *
      * @return void
      */
@@ -2848,7 +2848,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSoumisTaxe5() method.
+     * Tests setSoumisTaxe5()
      *
      * @return void
      */
@@ -2861,7 +2861,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSoumisTva() method.
+     * Tests setSoumisTva()
      *
      * @return void
      */
@@ -2874,7 +2874,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTableauDeBord() method.
+     * Tests setTableauDeBord()
      *
      * @return void
      */
@@ -2887,7 +2887,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setToutesActivites() method.
+     * Tests setToutesActivites()
      *
      * @return void
      */
@@ -2900,7 +2900,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTransporteur() method.
+     * Tests setTransporteur()
      *
      * @return void
      */
@@ -2913,7 +2913,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTresorerie() method.
+     * Tests setTresorerie()
      *
      * @return void
      */
@@ -2926,7 +2926,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaRegime() method.
+     * Tests setTvaRegime()
      *
      * @return void
      */
@@ -2939,7 +2939,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTxEscompteVente() method.
+     * Tests setTxEscompteVente()
      *
      * @return void
      */
@@ -2952,7 +2952,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeClient() method.
+     * Tests setTypeClient()
      *
      * @return void
      */
@@ -2965,7 +2965,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeEditBl() method.
+     * Tests setTypeEditBl()
      *
      * @return void
      */
@@ -2978,7 +2978,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeFacture() method.
+     * Tests setTypeFacture()
      *
      * @return void
      */
@@ -2991,7 +2991,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeGestionEtebac() method.
+     * Tests setTypeGestionEtebac()
      *
      * @return void
      */
@@ -3004,7 +3004,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUseAdresseFact() method.
+     * Tests setUseAdresseFact()
      *
      * @return void
      */
@@ -3017,7 +3017,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUseCorresSociale() method.
+     * Tests setUseCorresSociale()
      *
      * @return void
      */
@@ -3030,7 +3030,7 @@ class ClientsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

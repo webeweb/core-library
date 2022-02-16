@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class FiscalTest extends AbstractTestCase {
 
     /**
-     * Tests the setAbattementCga() method.
+     * Tests setAbattementCga()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAssuranceControle() method.
+     * Tests setAssuranceControle()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCdAssiette() method.
+     * Tests setCdAssiette()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCdi() method.
+     * Tests setCdi()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCga() method.
+     * Tests setCga()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCentreImpot() method.
+     * Tests setCodeCentreImpot()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCga() method.
+     * Tests setCodeCga()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeImpotDirect() method.
+     * Tests setCodeImpotDirect()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRecetteImpots() method.
+     * Tests setCodeRecetteImpots()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRegimeTva() method.
+     * Tests setCodeRegimeTva()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setContactCentreImpots() method.
+     * Tests setContactCentreImpots()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setContactCga() method.
+     * Tests setContactCga()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setContactRecetteImpots() method.
+     * Tests setContactRecetteImpots()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateAdhesionCga() method.
+     * Tests setDateAdhesionCga()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -224,7 +224,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateEffetAdhesionCga() method.
+     * Tests setDateEffetAdhesionCga()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -241,7 +241,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateEffetRadiationCga() method.
+     * Tests setDateEffetRadiationCga()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -258,7 +258,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateRadiationCga() method.
+     * Tests setDateRadiationCga()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -275,7 +275,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDeclarationSur() method.
+     * Tests setDeclarationSur()
      *
      * @return void
      */
@@ -288,7 +288,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDureeExercice() method.
+     * Tests setDureeExercice()
      *
      * @return void
      */
@@ -301,7 +301,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEdiTdfcBdF() method.
+     * Tests setEdiTdfcBdF()
      *
      * @return void
      */
@@ -314,7 +314,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFrpCle() method.
+     * Tests setFrpCle()
      *
      * @return void
      */
@@ -327,7 +327,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFrpDossier() method.
+     * Tests setFrpDossier()
      *
      * @return void
      */
@@ -340,7 +340,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFrpRecette() method.
+     * Tests setFrpRecette()
      *
      * @return void
      */
@@ -353,7 +353,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIdImpotsGouvFr() method.
+     * Tests setIdImpotsGouvFr()
      *
      * @return void
      */
@@ -366,7 +366,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setImpot() method.
+     * Tests setImpot()
      *
      * @return void
      */
@@ -379,7 +379,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setInsp() method.
+     * Tests setInsp()
      *
      * @return void
      */
@@ -392,7 +392,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJourDeclaration() method.
+     * Tests setJourDeclaration()
      *
      * @return void
      */
@@ -405,7 +405,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMandatDateDebutDads() method.
+     * Tests setMandatDateDebutDads()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -422,7 +422,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMandatDateDebutDucsedi() method.
+     * Tests setMandatDateDebutDucsedi()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -439,7 +439,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMandatDateDebutEditva() method.
+     * Tests setMandatDateDebutEditva()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -456,7 +456,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMandatDateDebutEtebac() method.
+     * Tests setMandatDateDebutEtebac()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -473,7 +473,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMandatDateDebutPedi() method.
+     * Tests setMandatDateDebutPedi()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -490,7 +490,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMandatDateDebutReq() method.
+     * Tests setMandatDateDebutReq()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -507,7 +507,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMandatDateDebutTdfc() method.
+     * Tests setMandatDateDebutTdfc()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -524,7 +524,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMandatDureeDads() method.
+     * Tests setMandatDureeDads()
      *
      * @return void
      */
@@ -537,7 +537,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMandatDureeDucsedi() method.
+     * Tests setMandatDureeDucsedi()
      *
      * @return void
      */
@@ -550,7 +550,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMandatDureeEditva() method.
+     * Tests setMandatDureeEditva()
      *
      * @return void
      */
@@ -563,7 +563,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMandatDureeEtebac() method.
+     * Tests setMandatDureeEtebac()
      *
      * @return void
      */
@@ -576,7 +576,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMandatDureePedi() method.
+     * Tests setMandatDureePedi()
      *
      * @return void
      */
@@ -589,7 +589,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMandatDureeReq() method.
+     * Tests setMandatDureeReq()
      *
      * @return void
      */
@@ -602,7 +602,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMandatDureeTdfc() method.
+     * Tests setMandatDureeTdfc()
      *
      * @return void
      */
@@ -615,7 +615,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMandatPieceJointeDads() method.
+     * Tests setMandatPieceJointeDads()
      *
      * @return void
      */
@@ -628,7 +628,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMandatPieceJointeDucsedi() method.
+     * Tests setMandatPieceJointeDucsedi()
      *
      * @return void
      */
@@ -641,7 +641,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMandatPieceJointeEditva() method.
+     * Tests setMandatPieceJointeEditva()
      *
      * @return void
      */
@@ -654,7 +654,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMandatPieceJointeEtebac() method.
+     * Tests setMandatPieceJointeEtebac()
      *
      * @return void
      */
@@ -667,7 +667,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMandatPieceJointePedi() method.
+     * Tests setMandatPieceJointePedi()
      *
      * @return void
      */
@@ -680,7 +680,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMandatPieceJointeReq() method.
+     * Tests setMandatPieceJointeReq()
      *
      * @return void
      */
@@ -693,7 +693,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMandatPieceJointeTdfc() method.
+     * Tests setMandatPieceJointeTdfc()
      *
      * @return void
      */
@@ -706,7 +706,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMandatSuiviDads() method.
+     * Tests setMandatSuiviDads()
      *
      * @return void
      */
@@ -719,7 +719,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMandatSuiviDucsedi() method.
+     * Tests setMandatSuiviDucsedi()
      *
      * @return void
      */
@@ -732,7 +732,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMandatSuiviEditva() method.
+     * Tests setMandatSuiviEditva()
      *
      * @return void
      */
@@ -745,7 +745,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMandatSuiviEtebac() method.
+     * Tests setMandatSuiviEtebac()
      *
      * @return void
      */
@@ -758,7 +758,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMandatSuiviPedi() method.
+     * Tests setMandatSuiviPedi()
      *
      * @return void
      */
@@ -771,7 +771,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMandatSuiviReq() method.
+     * Tests setMandatSuiviReq()
      *
      * @return void
      */
@@ -784,7 +784,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMandatSuiviTdfc() method.
+     * Tests setMandatSuiviTdfc()
      *
      * @return void
      */
@@ -797,7 +797,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMdpImpotsGouvFr() method.
+     * Tests setMdpImpotsGouvFr()
      *
      * @return void
      */
@@ -810,7 +810,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMethodeCalcul() method.
+     * Tests setMethodeCalcul()
      *
      * @return void
      */
@@ -823,7 +823,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMotifRadiationCga() method.
+     * Tests setMotifRadiationCga()
      *
      * @return void
      */
@@ -836,7 +836,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroRegistre() method.
+     * Tests setNumeroRegistre()
      *
      * @return void
      */
@@ -849,7 +849,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodiciteTva() method.
+     * Tests setPeriodiciteTva()
      *
      * @return void
      */
@@ -862,7 +862,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPmeCommunautaire() method.
+     * Tests setPmeCommunautaire()
      *
      * @return void
      */
@@ -875,7 +875,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPoleEnregistrement() method.
+     * Tests setPoleEnregistrement()
      *
      * @return void
      */
@@ -888,7 +888,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRefObligFisc() method.
+     * Tests setRefObligFisc()
      *
      * @return void
      */
@@ -901,7 +901,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRefPaiementDgi() method.
+     * Tests setRefPaiementDgi()
      *
      * @return void
      */
@@ -914,7 +914,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRegime() method.
+     * Tests setRegime()
      *
      * @return void
      */
@@ -927,7 +927,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRegimeAgricole() method.
+     * Tests setRegimeAgricole()
      *
      * @return void
      */
@@ -940,7 +940,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRegimeGroupe() method.
+     * Tests setRegimeGroupe()
      *
      * @return void
      */
@@ -953,7 +953,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRofCfe() method.
+     * Tests setRofCfe()
      *
      * @return void
      */
@@ -966,7 +966,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRofCvae() method.
+     * Tests setRofCvae()
      *
      * @return void
      */
@@ -979,7 +979,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRofCvaep() method.
+     * Tests setRofCvaep()
      *
      * @return void
      */
@@ -992,7 +992,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRofIs() method.
+     * Tests setRofIs()
      *
      * @return void
      */
@@ -1005,7 +1005,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRofRcm() method.
+     * Tests setRofRcm()
      *
      * @return void
      */
@@ -1018,7 +1018,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRofTdfcGroup() method.
+     * Tests setRofTdfcGroup()
      *
      * @return void
      */
@@ -1031,7 +1031,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRofTs() method.
+     * Tests setRofTs()
      *
      * @return void
      */
@@ -1044,7 +1044,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRofTva() method.
+     * Tests setRofTva()
      *
      * @return void
      */
@@ -1057,7 +1057,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSocieteMere() method.
+     * Tests setSocieteMere()
      *
      * @return void
      */
@@ -1070,7 +1070,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTresorerie() method.
+     * Tests setTresorerie()
      *
      * @return void
      */
@@ -1083,7 +1083,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTresorerieIs() method.
+     * Tests setTresorerieIs()
      *
      * @return void
      */
@@ -1096,7 +1096,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaCa12Ae() method.
+     * Tests setTvaCa12Ae()
      *
      * @return void
      */
@@ -1109,7 +1109,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaDecaissements() method.
+     * Tests setTvaDecaissements()
      *
      * @return void
      */
@@ -1122,7 +1122,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaEtabBtq() method.
+     * Tests setTvaEtabBtq()
      *
      * @return void
      */
@@ -1135,7 +1135,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaEtabBureauDistributeur() method.
+     * Tests setTvaEtabBureauDistributeur()
      *
      * @return void
      */
@@ -1148,7 +1148,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaEtabCodePostal() method.
+     * Tests setTvaEtabCodePostal()
      *
      * @return void
      */
@@ -1161,7 +1161,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaEtabComplement() method.
+     * Tests setTvaEtabComplement()
      *
      * @return void
      */
@@ -1174,7 +1174,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaEtabNomRs() method.
+     * Tests setTvaEtabNomRs()
      *
      * @return void
      */
@@ -1187,7 +1187,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaEtabNomVoie() method.
+     * Tests setTvaEtabNomVoie()
      *
      * @return void
      */
@@ -1200,7 +1200,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaEtabNumVoie() method.
+     * Tests setTvaEtabNumVoie()
      *
      * @return void
      */
@@ -1213,7 +1213,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaFaiteParClient() method.
+     * Tests setTvaFaiteParClient()
      *
      * @return void
      */
@@ -1226,7 +1226,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaNomVir() method.
+     * Tests setTvaNomVir()
      *
      * @return void
      */
@@ -1239,7 +1239,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaribVir() method.
+     * Tests setTvaribVir()
      *
      * @return void
      */
@@ -1252,7 +1252,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setViseurConventionne() method.
+     * Tests setViseurConventionne()
      *
      * @return void
      */
@@ -1265,7 +1265,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setViseurDtAttest() method.
+     * Tests setViseurDtAttest()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -1282,7 +1282,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setViseurNumAttest() method.
+     * Tests setViseurNumAttest()
      *
      * @return void
      */
@@ -1295,7 +1295,7 @@ class FiscalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

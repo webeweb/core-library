@@ -64,7 +64,7 @@ class TimeSlotTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the getDuration() method.
+     * Tests getDuration()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -82,7 +82,7 @@ class TimeSlotTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the leftJoinWithout() method.
+     * Tests leftJoinWithout()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -161,7 +161,7 @@ class TimeSlotTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the removeTimeSlot() method.
+     * Tests removeTimeSlot()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -185,7 +185,7 @@ class TimeSlotTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -200,7 +200,7 @@ class TimeSlotTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

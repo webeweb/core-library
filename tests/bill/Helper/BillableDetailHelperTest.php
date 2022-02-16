@@ -25,7 +25,7 @@ use WBW\Library\Bill\Tests\Fixtures\Model\TestBillableDetail;
 class BillableDetailHelperTest extends AbstractTestCase {
 
     /**
-     * Tests the calcDiscountTotal() method.
+     * Tests calcDiscountTotal()
      *
      * @return void
      */
@@ -41,7 +41,7 @@ class BillableDetailHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the calcIncludingVatTotal() method.
+     * Tests calcIncludingVatTotal()
      *
      * @return void
      */
@@ -61,7 +61,7 @@ class BillableDetailHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the calcIncludingVatTotal() method.
+     * Tests calcIncludingVatTotal()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class BillableDetailHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the calcVatTotal() method.
+     * Tests calcVatTotal()
      *
      * @return void
      */
@@ -93,7 +93,7 @@ class BillableDetailHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the getQuantity() method.
+     * Tests getQuantity()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringPictureTrait;
 class StringPictureTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setPicture() method.
+     * Tests setPicture()
      *
      * @return void
      */

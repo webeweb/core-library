@@ -23,7 +23,7 @@ use WBW\Library\Bill\Tests\Fixtures\Model\TestSendingAddressTrait;
 class SendingAddressTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the jsonSerialize() method.
+     * Tests jsonSerialize()
      *
      * @return void
      */
@@ -48,7 +48,7 @@ class SendingAddressTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSendingAddressAddressee() method.
+     * Tests setSendingAddressAddressee()
      *
      * @return void
      */
@@ -61,7 +61,7 @@ class SendingAddressTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSendingAddressCountry() method.
+     * Tests setSendingAddressCountry()
      *
      * @return void
      */
@@ -74,7 +74,7 @@ class SendingAddressTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSendingAddressHouseNumber() method.
+     * Tests setSendingAddressHouseNumber()
      *
      * @return void
      */
@@ -87,7 +87,7 @@ class SendingAddressTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSendingAddressLocation() method.
+     * Tests setSendingAddressLocation()
      *
      * @return void
      */
@@ -100,7 +100,7 @@ class SendingAddressTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSendingAddressPostalCode() method.
+     * Tests setSendingAddressPostalCode()
      *
      * @return void
      */
@@ -113,7 +113,7 @@ class SendingAddressTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSendingAddressStreetName() method.
+     * Tests setSendingAddressStreetName()
      *
      * @return void
      */

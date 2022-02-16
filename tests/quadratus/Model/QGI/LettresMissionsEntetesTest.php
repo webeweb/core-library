@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LettresMissionsEntetesTest extends AbstractTestCase {
 
     /**
-     * Tests the setCa() method.
+     * Tests setCa()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRegroupement() method.
+     * Tests setCodeRegroupement()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setComment1() method.
+     * Tests setComment1()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setComment2() method.
+     * Tests setComment2()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setComment3() method.
+     * Tests setComment3()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setComment4() method.
+     * Tests setComment4()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setComment5() method.
+     * Tests setComment5()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setComment6() method.
+     * Tests setComment6()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setComment7() method.
+     * Tests setComment7()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateEntretien() method.
+     * Tests setDateEntretien()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -172,7 +172,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateSignature() method.
+     * Tests setDateSignature()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -189,7 +189,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDebutMission() method.
+     * Tests setDebutMission()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -206,7 +206,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtat() method.
+     * Tests setEtat()
      *
      * @return void
      */
@@ -219,7 +219,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setExerciceCourant() method.
+     * Tests setExerciceCourant()
      *
      * @return void
      */
@@ -232,7 +232,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFinMission() method.
+     * Tests setFinMission()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -249,7 +249,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHonoPrev() method.
+     * Tests setHonoPrev()
      *
      * @return void
      */
@@ -262,7 +262,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle1() method.
+     * Tests setLibelle1()
      *
      * @return void
      */
@@ -275,7 +275,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle2() method.
+     * Tests setLibelle2()
      *
      * @return void
      */
@@ -288,7 +288,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle3() method.
+     * Tests setLibelle3()
      *
      * @return void
      */
@@ -301,7 +301,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle4() method.
+     * Tests setLibelle4()
      *
      * @return void
      */
@@ -314,7 +314,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle5() method.
+     * Tests setLibelle5()
      *
      * @return void
      */
@@ -327,7 +327,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle6() method.
+     * Tests setLibelle6()
      *
      * @return void
      */
@@ -340,7 +340,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle7() method.
+     * Tests setLibelle7()
      *
      * @return void
      */
@@ -353,7 +353,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbDeplacements() method.
+     * Tests setNbDeplacements()
      *
      * @return void
      */
@@ -366,7 +366,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbrActes() method.
+     * Tests setNbrActes()
      *
      * @return void
      */
@@ -379,7 +379,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbrBulletins() method.
+     * Tests setNbrBulletins()
      *
      * @return void
      */
@@ -392,7 +392,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbrEcrituresBq() method.
+     * Tests setNbrEcrituresBq()
      *
      * @return void
      */
@@ -405,7 +405,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbrEcrituresDepenses() method.
+     * Tests setNbrEcrituresDepenses()
      *
      * @return void
      */
@@ -418,7 +418,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbrEcrituresOd() method.
+     * Tests setNbrEcrituresOd()
      *
      * @return void
      */
@@ -431,7 +431,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbrEcrituresRecettes() method.
+     * Tests setNbrEcrituresRecettes()
      *
      * @return void
      */
@@ -444,7 +444,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbrEmployes() method.
+     * Tests setNbrEmployes()
      *
      * @return void
      */
@@ -457,7 +457,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroLettre() method.
+     * Tests setNumeroLettre()
      *
      * @return void
      */
@@ -470,7 +470,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPolice1() method.
+     * Tests setPolice1()
      *
      * @return void
      */
@@ -483,7 +483,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPolice2() method.
+     * Tests setPolice2()
      *
      * @return void
      */
@@ -496,7 +496,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPolice3() method.
+     * Tests setPolice3()
      *
      * @return void
      */
@@ -509,7 +509,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPremierExercice() method.
+     * Tests setPremierExercice()
      *
      * @return void
      */
@@ -522,7 +522,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrix1() method.
+     * Tests setPrix1()
      *
      * @return void
      */
@@ -535,7 +535,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrix2() method.
+     * Tests setPrix2()
      *
      * @return void
      */
@@ -548,7 +548,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrix3() method.
+     * Tests setPrix3()
      *
      * @return void
      */
@@ -561,7 +561,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrix4() method.
+     * Tests setPrix4()
      *
      * @return void
      */
@@ -574,7 +574,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrix5() method.
+     * Tests setPrix5()
      *
      * @return void
      */
@@ -587,7 +587,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrix6() method.
+     * Tests setPrix6()
      *
      * @return void
      */
@@ -600,7 +600,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrix7() method.
+     * Tests setPrix7()
      *
      * @return void
      */
@@ -613,7 +613,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeActionnairesAssocies() method.
+     * Tests setTypeActionnairesAssocies()
      *
      * @return void
      */
@@ -626,7 +626,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeCa() method.
+     * Tests setTypeCa()
      *
      * @return void
      */
@@ -639,7 +639,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeMission() method.
+     * Tests setTypeMission()
      *
      * @return void
      */
@@ -652,7 +652,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeSystemeInfo() method.
+     * Tests setTypeSystemeInfo()
      *
      * @return void
      */
@@ -665,7 +665,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeVolume() method.
+     * Tests setTypeVolume()
      *
      * @return void
      */
@@ -678,7 +678,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

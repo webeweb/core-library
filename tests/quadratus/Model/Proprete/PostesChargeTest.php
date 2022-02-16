@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class PostesChargeTest extends AbstractTestCase {
 
     /**
-     * Tests the setActif() method.
+     * Tests setActif()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class PostesChargeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCharge() method.
+     * Tests setCodeCharge()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class PostesChargeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDernPosteAffecte() method.
+     * Tests setDernPosteAffecte()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class PostesChargeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDescription() method.
+     * Tests setDescription()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class PostesChargeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPosteRent() method.
+     * Tests setPosteRent()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class PostesChargeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeProrata() method.
+     * Tests setTypeProrata()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class PostesChargeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

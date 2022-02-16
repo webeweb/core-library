@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class BulletinsNavigoTest extends AbstractTestCase {
 
     /**
-     * Tests the setIndicePeriode() method.
+     * Tests setIndicePeriode()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class BulletinsNavigoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbSemaine() method.
+     * Tests setNbSemaine()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class BulletinsNavigoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class BulletinsNavigoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriode() method.
+     * Tests setPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class BulletinsNavigoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRbtNonProratise() method.
+     * Tests setRbtNonProratise()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class BulletinsNavigoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeAbonnement() method.
+     * Tests setTypeAbonnement()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class BulletinsNavigoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setZone() method.
+     * Tests setZone()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class BulletinsNavigoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

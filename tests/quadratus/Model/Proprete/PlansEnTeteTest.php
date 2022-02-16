@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class PlansEnTeteTest extends AbstractTestCase {
 
     /**
-     * Tests the setBtq() method.
+     * Tests setBtq()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class PlansEnTeteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBureauDistributeur() method.
+     * Tests setBureauDistributeur()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class PlansEnTeteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCivilite() method.
+     * Tests setCivilite()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class PlansEnTeteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAffaire() method.
+     * Tests setCodeAffaire()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class PlansEnTeteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeChantier() method.
+     * Tests setCodeChantier()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class PlansEnTeteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class PlansEnTeteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePays() method.
+     * Tests setCodePays()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class PlansEnTeteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePostal() method.
+     * Tests setCodePostal()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class PlansEnTeteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRegroupement() method.
+     * Tests setCodeRegroupement()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class PlansEnTeteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setComplement() method.
+     * Tests setComplement()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class PlansEnTeteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateRevision() method.
+     * Tests setDateRevision()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -172,7 +172,7 @@ class PlansEnTeteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDtAvantDernPrepa() method.
+     * Tests setDtAvantDernPrepa()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -189,7 +189,7 @@ class PlansEnTeteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDtDernPrepa() method.
+     * Tests setDtDernPrepa()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -206,7 +206,7 @@ class PlansEnTeteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDtValiditeFactDeb() method.
+     * Tests setDtValiditeFactDeb()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -223,7 +223,7 @@ class PlansEnTeteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDtValiditeFactDebDebMois() method.
+     * Tests setDtValiditeFactDebDebMois()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -240,7 +240,7 @@ class PlansEnTeteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDtValiditeFactFin() method.
+     * Tests setDtValiditeFactFin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -257,7 +257,7 @@ class PlansEnTeteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDtValiditeFactFinFinMois() method.
+     * Tests setDtValiditeFactFinFinMois()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -274,7 +274,7 @@ class PlansEnTeteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJourFact() method.
+     * Tests setJourFact()
      *
      * @return void
      */
@@ -287,7 +287,7 @@ class PlansEnTeteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantHtpx() method.
+     * Tests setMontantHtpx()
      *
      * @return void
      */
@@ -300,7 +300,7 @@ class PlansEnTeteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantHtvm() method.
+     * Tests setMontantHtvm()
      *
      * @return void
      */
@@ -313,7 +313,7 @@ class PlansEnTeteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomClient() method.
+     * Tests setNomClient()
      *
      * @return void
      */
@@ -326,7 +326,7 @@ class PlansEnTeteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomSuite() method.
+     * Tests setNomSuite()
      *
      * @return void
      */
@@ -339,7 +339,7 @@ class PlansEnTeteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomSuite2() method.
+     * Tests setNomSuite2()
      *
      * @return void
      */
@@ -352,7 +352,7 @@ class PlansEnTeteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomSuite3() method.
+     * Tests setNomSuite3()
      *
      * @return void
      */
@@ -365,7 +365,7 @@ class PlansEnTeteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomVoie() method.
+     * Tests setNomVoie()
      *
      * @return void
      */
@@ -378,7 +378,7 @@ class PlansEnTeteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumBt() method.
+     * Tests setNumBt()
      *
      * @return void
      */
@@ -391,7 +391,7 @@ class PlansEnTeteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumVoie() method.
+     * Tests setNumVoie()
      *
      * @return void
      */
@@ -404,7 +404,7 @@ class PlansEnTeteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroCommandeWebFt() method.
+     * Tests setNumeroCommandeWebFt()
      *
      * @return void
      */
@@ -417,7 +417,7 @@ class PlansEnTeteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroDevis() method.
+     * Tests setNumeroDevis()
      *
      * @return void
      */
@@ -430,7 +430,7 @@ class PlansEnTeteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setReferenceFacture() method.
+     * Tests setReferenceFacture()
      *
      * @return void
      */
@@ -443,7 +443,7 @@ class PlansEnTeteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setReferenceFacture2() method.
+     * Tests setReferenceFacture2()
      *
      * @return void
      */
@@ -456,7 +456,7 @@ class PlansEnTeteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRevisionAnnuelle() method.
+     * Tests setRevisionAnnuelle()
      *
      * @return void
      */
@@ -469,7 +469,7 @@ class PlansEnTeteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeAdresse() method.
+     * Tests setTypeAdresse()
      *
      * @return void
      */
@@ -482,7 +482,7 @@ class PlansEnTeteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

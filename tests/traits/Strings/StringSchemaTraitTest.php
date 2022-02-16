@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringSchemaTrait;
 class StringSchemaTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setSchema() method.
+     * Tests setSchema()
      *
      * @return void
      */

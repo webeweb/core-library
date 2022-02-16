@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class HistoPaiePrimesTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeEmploye() method.
+     * Tests setCodeEmploye()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class HistoPaiePrimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePrime() method.
+     * Tests setCodePrime()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class HistoPaiePrimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNombrePrime() method.
+     * Tests setNombrePrime()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class HistoPaiePrimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroPrime() method.
+     * Tests setNumeroPrime()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class HistoPaiePrimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriode() method.
+     * Tests setPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -94,7 +94,7 @@ class HistoPaiePrimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeRappel() method.
+     * Tests setPeriodeRappel()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -111,7 +111,7 @@ class HistoPaiePrimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxPrime() method.
+     * Tests setTauxPrime()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class HistoPaiePrimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypePrime() method.
+     * Tests setTypePrime()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class HistoPaiePrimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

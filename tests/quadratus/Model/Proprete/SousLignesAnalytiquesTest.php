@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class SousLignesAnalytiquesTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeAffaire() method.
+     * Tests setCodeAffaire()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class SousLignesAnalytiquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCentre() method.
+     * Tests setCodeCentre()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class SousLignesAnalytiquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeChantier() method.
+     * Tests setCodeChantier()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class SousLignesAnalytiquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class SousLignesAnalytiquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeNature() method.
+     * Tests setCodeNature()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class SousLignesAnalytiquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRegroupement() method.
+     * Tests setCodeRegroupement()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class SousLignesAnalytiquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontant() method.
+     * Tests setMontant()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class SousLignesAnalytiquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroDocument() method.
+     * Tests setNumeroDocument()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class SousLignesAnalytiquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroLigne() method.
+     * Tests setNumeroLigne()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class SousLignesAnalytiquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroLigneAnal() method.
+     * Tests setNumeroLigneAnal()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class SousLignesAnalytiquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroSousLigneCptHt() method.
+     * Tests setNumeroSousLigneCptHt()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class SousLignesAnalytiquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeDocument() method.
+     * Tests setTypeDocument()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class SousLignesAnalytiquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ActionsCoDocsTest extends AbstractTestCase {
 
     /**
-     * Tests the setAuteur() method.
+     * Tests setAuteur()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class ActionsCoDocsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAction() method.
+     * Tests setCodeAction()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class ActionsCoDocsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class ActionsCoDocsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeDoc() method.
+     * Tests setCodeDoc()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class ActionsCoDocsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeManif() method.
+     * Tests setCodeManif()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class ActionsCoDocsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateCreation() method.
+     * Tests setDateCreation()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -107,7 +107,7 @@ class ActionsCoDocsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateModification() method.
+     * Tests setDateModification()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -124,7 +124,7 @@ class ActionsCoDocsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmplacementFichier() method.
+     * Tests setEmplacementFichier()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class ActionsCoDocsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle() method.
+     * Tests setLibelle()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class ActionsCoDocsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumero() method.
+     * Tests setNumero()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class ActionsCoDocsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

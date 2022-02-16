@@ -58,7 +58,7 @@ class PostRequestTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the clearPostData() method.
+     * Tests clearPostData()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.

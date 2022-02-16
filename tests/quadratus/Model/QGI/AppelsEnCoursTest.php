@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AppelsEnCoursTest extends AbstractTestCase {
 
     /**
-     * Tests the setAvecMiseEnSomm() method.
+     * Tests setAvecMiseEnSomm()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaborateurDest() method.
+     * Tests setCodeCollaborateurDest()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaborateurEntrant() method.
+     * Tests setCodeCollaborateurEntrant()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaborateurRedir() method.
+     * Tests setCodeCollaborateurRedir()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeProduit() method.
+     * Tests setCodeProduit()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteurTemps() method.
+     * Tests setCompteurTemps()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setConfidentiel() method.
+     * Tests setConfidentiel()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setConsequence() method.
+     * Tests setConsequence()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateCreationClient() method.
+     * Tests setDateCreationClient()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -159,7 +159,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateEntree() method.
+     * Tests setDateEntree()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -176,7 +176,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateMessageLu() method.
+     * Tests setDateMessageLu()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -193,7 +193,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateRedir() method.
+     * Tests setDateRedir()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -210,7 +210,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDemandeAr() method.
+     * Tests setDemandeAr()
      *
      * @return void
      */
@@ -223,7 +223,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDestinatairesA() method.
+     * Tests setDestinatairesA()
      *
      * @return void
      */
@@ -236,7 +236,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDestinatairesCc() method.
+     * Tests setDestinatairesCc()
      *
      * @return void
      */
@@ -249,7 +249,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmailAuteur() method.
+     * Tests setEmailAuteur()
      *
      * @return void
      */
@@ -262,7 +262,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGroupeQualifiant() method.
+     * Tests setGroupeQualifiant()
      *
      * @return void
      */
@@ -275,7 +275,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIdAppel() method.
+     * Tests setIdAppel()
      *
      * @return void
      */
@@ -288,7 +288,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule() method.
+     * Tests setIntitule()
      *
      * @return void
      */
@@ -301,7 +301,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMessageLu() method.
+     * Tests setMessageLu()
      *
      * @return void
      */
@@ -314,7 +314,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMiseEnSommDateHeure() method.
+     * Tests setMiseEnSommDateHeure()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -331,7 +331,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNature() method.
+     * Tests setNature()
      *
      * @return void
      */
@@ -344,7 +344,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbAppelsEnCours() method.
+     * Tests setNbAppelsEnCours()
      *
      * @return void
      */
@@ -357,7 +357,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomClient() method.
+     * Tests setNomClient()
      *
      * @return void
      */
@@ -370,7 +370,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOrigine() method.
+     * Tests setOrigine()
      *
      * @return void
      */
@@ -383,7 +383,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPieceJointe() method.
+     * Tests setPieceJointe()
      *
      * @return void
      */
@@ -396,7 +396,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setReponse() method.
+     * Tests setReponse()
      *
      * @return void
      */
@@ -409,7 +409,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSousRepRefGuid() method.
+     * Tests setSousRepRefGuid()
      *
      * @return void
      */
@@ -422,7 +422,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSpecial() method.
+     * Tests setSpecial()
      *
      * @return void
      */
@@ -435,7 +435,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTel() method.
+     * Tests setTel()
      *
      * @return void
      */
@@ -448,7 +448,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeMessage() method.
+     * Tests setTypeMessage()
      *
      * @return void
      */
@@ -461,7 +461,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniqId() method.
+     * Tests setUniqId()
      *
      * @return void
      */
@@ -474,7 +474,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUrgent() method.
+     * Tests setUrgent()
      *
      * @return void
      */
@@ -487,7 +487,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

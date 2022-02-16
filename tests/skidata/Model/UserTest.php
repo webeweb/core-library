@@ -25,7 +25,7 @@ use WBW\Library\SkiData\Tests\AbstractTestCase;
 class UserTest extends AbstractTestCase {
 
     /**
-     * Tests the setCheckLicensePlate() method.
+     * Tests setCheckLicensePlate()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class UserTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCreditCardNumber() method.
+     * Tests setCreditCardNumber()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class UserTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateBirth() method.
+     * Tests setDateBirth()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -65,7 +65,7 @@ class UserTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setETicketAuthentication() method.
+     * Tests setETicketAuthentication()
      *
      * @return void
      */
@@ -78,7 +78,7 @@ class UserTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setETicketEmailTelephone() method.
+     * Tests setETicketEmailTelephone()
      *
      * @return void
      */
@@ -91,7 +91,7 @@ class UserTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setETicketServiceArt() method.
+     * Tests setETicketServiceArt()
      *
      * @return void
      */
@@ -104,7 +104,7 @@ class UserTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setETicketServiceTyp() method.
+     * Tests setETicketServiceTyp()
      *
      * @return void
      */
@@ -117,7 +117,7 @@ class UserTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setETicketTypeP() method.
+     * Tests setETicketTypeP()
      *
      * @return void
      */
@@ -130,7 +130,7 @@ class UserTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setExcessTimesCreditCard() method.
+     * Tests setExcessTimesCreditCard()
      *
      * @return void
      */
@@ -143,7 +143,7 @@ class UserTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setExpiryDate() method.
+     * Tests setExpiryDate()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -157,7 +157,7 @@ class UserTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIdentificationNumber() method.
+     * Tests setIdentificationNumber()
      *
      * @return void
      */
@@ -170,7 +170,7 @@ class UserTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setParkingSpace() method.
+     * Tests setParkingSpace()
      *
      * @return void
      */
@@ -183,7 +183,7 @@ class UserTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPassageLicensePlatePermitted() method.
+     * Tests setPassageLicensePlatePermitted()
      *
      * @return void
      */
@@ -196,7 +196,7 @@ class UserTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUserNumber() method.
+     * Tests setUserNumber()
      *
      * @return void
      */
@@ -209,7 +209,7 @@ class UserTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

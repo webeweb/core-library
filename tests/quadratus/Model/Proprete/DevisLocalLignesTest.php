@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DevisLocalLignesTest extends AbstractTestCase {
 
     /**
-     * Tests the setAou() method.
+     * Tests setAou()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAvr() method.
+     * Tests setAvr()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAffaire() method.
+     * Tests setCodeAffaire()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeChantier() method.
+     * Tests setCodeChantier()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeProgramme() method.
+     * Tests setCodeProgramme()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDec() method.
+     * Tests setDec()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDesignation() method.
+     * Tests setDesignation()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDimanche() method.
+     * Tests setDimanche()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFev() method.
+     * Tests setFev()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJan() method.
+     * Tests setJan()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJeudi() method.
+     * Tests setJeudi()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJuil() method.
+     * Tests setJuil()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJuin() method.
+     * Tests setJuin()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLundi() method.
+     * Tests setLundi()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMai() method.
+     * Tests setMai()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMar() method.
+     * Tests setMar()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMardi() method.
+     * Tests setMardi()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMercredi() method.
+     * Tests setMercredi()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNov() method.
+     * Tests setNov()
      *
      * @return void
      */
@@ -283,7 +283,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumDevis() method.
+     * Tests setNumDevis()
      *
      * @return void
      */
@@ -296,7 +296,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLigne() method.
+     * Tests setNumLigne()
      *
      * @return void
      */
@@ -309,7 +309,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLigneLocal() method.
+     * Tests setNumLigneLocal()
      *
      * @return void
      */
@@ -322,7 +322,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOccurrence() method.
+     * Tests setOccurrence()
      *
      * @return void
      */
@@ -335,7 +335,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOct() method.
+     * Tests setOct()
      *
      * @return void
      */
@@ -348,7 +348,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodicite() method.
+     * Tests setPeriodicite()
      *
      * @return void
      */
@@ -361,7 +361,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSamedi() method.
+     * Tests setSamedi()
      *
      * @return void
      */
@@ -374,7 +374,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSep() method.
+     * Tests setSep()
      *
      * @return void
      */
@@ -387,7 +387,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setVendredi() method.
+     * Tests setVendredi()
      *
      * @return void
      */
@@ -400,7 +400,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

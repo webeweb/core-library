@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class FormationsTest extends AbstractTestCase {
 
     /**
-     * Tests the setActive() method.
+     * Tests setActive()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class FormationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDescription() method.
+     * Tests setDescription()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class FormationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setId() method.
+     * Tests setId()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class FormationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLienDocument() method.
+     * Tests setLienDocument()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class FormationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLieu() method.
+     * Tests setLieu()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class FormationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHFormation() method.
+     * Tests setNbHFormation()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class FormationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbhDiFPrisW() method.
+     * Tests setNbhDiFPrisW()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class FormationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbhDifPrisHorsW() method.
+     * Tests setNbhDifPrisHorsW()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class FormationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class FormationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOrganisme() method.
+     * Tests setOrganisme()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class FormationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeDeb() method.
+     * Tests setPeriodeDeb()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -172,7 +172,7 @@ class FormationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeFin() method.
+     * Tests setPeriodeFin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -189,7 +189,7 @@ class FormationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeFormation() method.
+     * Tests setTypeFormation()
      *
      * @return void
      */
@@ -202,7 +202,7 @@ class FormationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

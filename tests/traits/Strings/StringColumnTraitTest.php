@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringColumnTrait;
 class StringColumnTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setColumn() method.
+     * Tests setColumn()
      *
      * @return void
      */

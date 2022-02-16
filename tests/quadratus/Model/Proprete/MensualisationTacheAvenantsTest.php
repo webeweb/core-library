@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class MensualisationTacheAvenantsTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeAffaire() method.
+     * Tests setCodeAffaire()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class MensualisationTacheAvenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeChantier() method.
+     * Tests setCodeChantier()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class MensualisationTacheAvenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class MensualisationTacheAvenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEmploye() method.
+     * Tests setCodeEmploye()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class MensualisationTacheAvenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTache() method.
+     * Tests setCodeTache()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class MensualisationTacheAvenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHistoMensSaisi() method.
+     * Tests setHistoMensSaisi()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class MensualisationTacheAvenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMensualisationCalculee() method.
+     * Tests setMensualisationCalculee()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class MensualisationTacheAvenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMensualisationSaisie() method.
+     * Tests setMensualisationSaisie()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class MensualisationTacheAvenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumBt() method.
+     * Tests setNumBt()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class MensualisationTacheAvenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroAvenant() method.
+     * Tests setNumeroAvenant()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class MensualisationTacheAvenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeDebutValidite() method.
+     * Tests setPeriodeDebutValidite()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -172,7 +172,7 @@ class MensualisationTacheAvenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

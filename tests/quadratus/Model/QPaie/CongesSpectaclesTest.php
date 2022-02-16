@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class CongesSpectaclesTest extends AbstractTestCase {
 
     /**
-     * Tests the setBaseConges() method.
+     * Tests setBaseConges()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBrut() method.
+     * Tests setBrut()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCeInitial() method.
+     * Tests setCeInitial()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEmploi() method.
+     * Tests setCodeEmploi()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEtablissement() method.
+     * Tests setCodeEtablissement()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setContact() method.
+     * Tests setContact()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setContratEnCours() method.
+     * Tests setContratEnCours()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateCertificatEmploi() method.
+     * Tests setDateCertificatEmploi()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -133,7 +133,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateEmbauche() method.
+     * Tests setDateEmbauche()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -150,7 +150,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateFinContrat() method.
+     * Tests setDateFinContrat()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -167,7 +167,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateNaissance() method.
+     * Tests setDateNaissance()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -184,7 +184,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDatePaiement() method.
+     * Tests setDatePaiement()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -201,7 +201,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDebutPeriodeAttest() method.
+     * Tests setDebutPeriodeAttest()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -218,7 +218,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDeptNaissance() method.
+     * Tests setDeptNaissance()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDisquette() method.
+     * Tests setDisquette()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEdite() method.
+     * Tests setEdite()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmpAdresse1() method.
+     * Tests setEmpAdresse1()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmpAdresse2() method.
+     * Tests setEmpAdresse2()
      *
      * @return void
      */
@@ -283,7 +283,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmpCodePostal() method.
+     * Tests setEmpCodePostal()
      *
      * @return void
      */
@@ -296,7 +296,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmpCommune() method.
+     * Tests setEmpCommune()
      *
      * @return void
      */
@@ -309,7 +309,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmploi() method.
+     * Tests setEmploi()
      *
      * @return void
      */
@@ -322,7 +322,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtblAdresse1() method.
+     * Tests setEtblAdresse1()
      *
      * @return void
      */
@@ -335,7 +335,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtblAdresse2() method.
+     * Tests setEtblAdresse2()
      *
      * @return void
      */
@@ -348,7 +348,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtblCodePostal() method.
+     * Tests setEtblCodePostal()
      *
      * @return void
      */
@@ -361,7 +361,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtblCommune() method.
+     * Tests setEtblCommune()
      *
      * @return void
      */
@@ -374,7 +374,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtblRaisonSociale() method.
+     * Tests setEtblRaisonSociale()
      *
      * @return void
      */
@@ -387,7 +387,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtblTel() method.
+     * Tests setEtblTel()
      *
      * @return void
      */
@@ -400,7 +400,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndiceCe() method.
+     * Tests setIndiceCe()
      *
      * @return void
      */
@@ -413,7 +413,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLienDocument() method.
+     * Tests setLienDocument()
      *
      * @return void
      */
@@ -426,7 +426,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLieuCertificatEmploi() method.
+     * Tests setLieuCertificatEmploi()
      *
      * @return void
      */
@@ -439,7 +439,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLieuNaissance() method.
+     * Tests setLieuNaissance()
      *
      * @return void
      */
@@ -452,7 +452,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJourTrav() method.
+     * Tests setNbJourTrav()
      *
      * @return void
      */
@@ -465,7 +465,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNir() method.
+     * Tests setNir()
      *
      * @return void
      */
@@ -478,7 +478,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomEmploye() method.
+     * Tests setNomEmploye()
      *
      * @return void
      */
@@ -491,7 +491,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomNaissance() method.
+     * Tests setNomNaissance()
      *
      * @return void
      */
@@ -504,7 +504,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNombreCachets() method.
+     * Tests setNombreCachets()
      *
      * @return void
      */
@@ -517,7 +517,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNouvelleAttest() method.
+     * Tests setNouvelleAttest()
      *
      * @return void
      */
@@ -530,7 +530,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumCaisseSpectacle() method.
+     * Tests setNumCaisseSpectacle()
      *
      * @return void
      */
@@ -543,7 +543,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroAttestation() method.
+     * Tests setNumeroAttestation()
      *
      * @return void
      */
@@ -556,7 +556,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroCeInitial() method.
+     * Tests setNumeroCeInitial()
      *
      * @return void
      */
@@ -569,7 +569,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroCongesSpectacle() method.
+     * Tests setNumeroCongesSpectacle()
      *
      * @return void
      */
@@ -582,7 +582,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -595,7 +595,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setObservations() method.
+     * Tests setObservations()
      *
      * @return void
      */
@@ -608,7 +608,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeAttest() method.
+     * Tests setPeriodeAttest()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -625,7 +625,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrenom() method.
+     * Tests setPrenom()
      *
      * @return void
      */
@@ -638,7 +638,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPseudonyme() method.
+     * Tests setPseudonyme()
      *
      * @return void
      */
@@ -651,7 +651,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSexe() method.
+     * Tests setSexe()
      *
      * @return void
      */
@@ -664,7 +664,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSignataireCertificatEmploi() method.
+     * Tests setSignataireCertificatEmploi()
      *
      * @return void
      */
@@ -677,7 +677,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSiret() method.
+     * Tests setSiret()
      *
      * @return void
      */
@@ -690,7 +690,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setStatutCadre() method.
+     * Tests setStatutCadre()
      *
      * @return void
      */
@@ -703,7 +703,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTelContact() method.
+     * Tests setTelContact()
      *
      * @return void
      */
@@ -716,7 +716,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTitre() method.
+     * Tests setTitre()
      *
      * @return void
      */
@@ -729,7 +729,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeCe() method.
+     * Tests setTypeCe()
      *
      * @return void
      */
@@ -742,7 +742,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

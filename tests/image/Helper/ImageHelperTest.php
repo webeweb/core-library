@@ -42,7 +42,7 @@ class ImageHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the newDimensions() method.
+     * Tests newDimensions()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ImageHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the newInputStream() method.
+     * Tests newInputStream()
      *
      * @return void
      */
@@ -76,7 +76,7 @@ class ImageHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the newOutputStream() method.
+     * Tests newOutputStream()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class ImageHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the saveOutputStream() method.
+     * Tests saveOutputStream()
      *
      * @return void
      */

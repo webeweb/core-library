@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AgendaFichiersTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AgendaFichiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateAjout() method.
+     * Tests setDateAjout()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -55,7 +55,7 @@ class AgendaFichiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomFichier() method.
+     * Tests setNomFichier()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class AgendaFichiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOrigineFichier() method.
+     * Tests setOrigineFichier()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class AgendaFichiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRefGuid() method.
+     * Tests setRefGuid()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class AgendaFichiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTitre() method.
+     * Tests setTitre()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class AgendaFichiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

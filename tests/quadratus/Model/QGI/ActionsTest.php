@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ActionsTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeAction() method.
+     * Tests setCodeAction()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ActionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCalcul() method.
+     * Tests setCodeCalcul()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ActionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDescriptifCourt() method.
+     * Tests setDescriptifCourt()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ActionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDescriptifLong() method.
+     * Tests setDescriptifLong()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ActionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setObligationLiee() method.
+     * Tests setObligationLiee()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ActionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQuantiteHeure() method.
+     * Tests setQuantiteHeure()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class ActionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRelationQh() method.
+     * Tests setRelationQh()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class ActionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

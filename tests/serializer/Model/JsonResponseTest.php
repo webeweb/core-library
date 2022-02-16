@@ -24,7 +24,7 @@ use WBW\Library\Serializer\Tests\AbstractTestCase;
 class JsonResponseTest extends AbstractTestCase {
 
     /**
-     * Tests the jsonSerialize() method.
+     * Tests jsonSerialize()
      *
      * @return void
      */
@@ -47,7 +47,7 @@ class JsonResponseTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setData() method.
+     * Tests setData()
      *
      * @return void
      */
@@ -60,7 +60,7 @@ class JsonResponseTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setErrors() method.
+     * Tests setErrors()
      *
      * @return void
      */
@@ -73,7 +73,7 @@ class JsonResponseTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMessage() method.
+     * Tests setMessage()
      *
      * @return void
      */
@@ -86,7 +86,7 @@ class JsonResponseTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSuccess() method.
+     * Tests setSuccess()
      *
      * @return void
      */
@@ -99,7 +99,7 @@ class JsonResponseTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

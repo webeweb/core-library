@@ -25,7 +25,7 @@ use WBW\Library\Traits\Tests\Fixtures\DateTimes\TestDateTimeDateTrait;
 class DateTimeDateTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setDate() method.
+     * Tests setDate()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.

@@ -25,7 +25,7 @@ use WBW\Library\Traits\Tests\Fixtures\DateTimes\TestDateTimeEndedAtTrait;
 class DateTimeEndedAtTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setEndedAt() method.
+     * Tests setEndedAt()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.

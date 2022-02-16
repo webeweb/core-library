@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class BordPrepVarTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeModele() method.
+     * Tests setCodeModele()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class BordPrepVarTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFlagForce() method.
+     * Tests setFlagForce()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class BordPrepVarTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndicePeriode() method.
+     * Tests setIndicePeriode()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class BordPrepVarTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule() method.
+     * Tests setIntitule()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class BordPrepVarTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumCol() method.
+     * Tests setNumCol()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class BordPrepVarTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class BordPrepVarTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriode() method.
+     * Tests setPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class BordPrepVarTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setValeur() method.
+     * Tests setValeur()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class BordPrepVarTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

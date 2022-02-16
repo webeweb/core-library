@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class GroupesClientTest extends AbstractTestCase {
 
     /**
-     * Tests the setActif() method.
+     * Tests setActif()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class GroupesClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBloque() method.
+     * Tests setBloque()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class GroupesClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCleAlpha() method.
+     * Tests setCleAlpha()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class GroupesClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setClientPerdu() method.
+     * Tests setClientPerdu()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class GroupesClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAnalytique() method.
+     * Tests setCodeAnalytique()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class GroupesClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class GroupesClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClientFact() method.
+     * Tests setCodeClientFact()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class GroupesClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeDevise() method.
+     * Tests setCodeDevise()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class GroupesClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeLangueDesignationArticle() method.
+     * Tests setCodeLangueDesignationArticle()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class GroupesClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeReglement() method.
+     * Tests setCodeReglement()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class GroupesClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTva() method.
+     * Tests setCodeTva()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class GroupesClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeVentilCompta() method.
+     * Tests setCodeVentilCompta()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class GroupesClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCollectif() method.
+     * Tests setCollectif()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class GroupesClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateEntree() method.
+     * Tests setDateEntree()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -211,7 +211,7 @@ class GroupesClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateSortie() method.
+     * Tests setDateSortie()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -228,7 +228,7 @@ class GroupesClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDomiciliationBancaire1() method.
+     * Tests setDomiciliationBancaire1()
      *
      * @return void
      */
@@ -241,7 +241,7 @@ class GroupesClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDomiciliationBancaire2() method.
+     * Tests setDomiciliationBancaire2()
      *
      * @return void
      */
@@ -254,7 +254,7 @@ class GroupesClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEcheanceFinDecade() method.
+     * Tests setEcheanceFinDecade()
      *
      * @return void
      */
@@ -267,7 +267,7 @@ class GroupesClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFactureEuros() method.
+     * Tests setFactureEuros()
      *
      * @return void
      */
@@ -280,7 +280,7 @@ class GroupesClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGroupe() method.
+     * Tests setGroupe()
      *
      * @return void
      */
@@ -293,7 +293,7 @@ class GroupesClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbBl() method.
+     * Tests setNbBl()
      *
      * @return void
      */
@@ -306,7 +306,7 @@ class GroupesClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbFacture() method.
+     * Tests setNbFacture()
      *
      * @return void
      */
@@ -319,7 +319,7 @@ class GroupesClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNombreEcheances() method.
+     * Tests setNombreEcheances()
      *
      * @return void
      */
@@ -332,7 +332,7 @@ class GroupesClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroCompte() method.
+     * Tests setNumeroCompte()
      *
      * @return void
      */
@@ -345,7 +345,7 @@ class GroupesClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPaiementDepartLe() method.
+     * Tests setPaiementDepartLe()
      *
      * @return void
      */
@@ -358,7 +358,7 @@ class GroupesClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPaiementLe() method.
+     * Tests setPaiementLe()
      *
      * @return void
      */
@@ -371,7 +371,7 @@ class GroupesClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPaiementNombreDeJours() method.
+     * Tests setPaiementNombreDeJours()
      *
      * @return void
      */
@@ -384,7 +384,7 @@ class GroupesClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemiseLigne1() method.
+     * Tests setRemiseLigne1()
      *
      * @return void
      */
@@ -397,7 +397,7 @@ class GroupesClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemiseLigne2() method.
+     * Tests setRemiseLigne2()
      *
      * @return void
      */
@@ -410,7 +410,7 @@ class GroupesClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemiseLigne3() method.
+     * Tests setRemiseLigne3()
      *
      * @return void
      */
@@ -423,7 +423,7 @@ class GroupesClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemisePied() method.
+     * Tests setRemisePied()
      *
      * @return void
      */
@@ -436,7 +436,7 @@ class GroupesClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemisePied2() method.
+     * Tests setRemisePied2()
      *
      * @return void
      */
@@ -449,7 +449,7 @@ class GroupesClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemisePied3() method.
+     * Tests setRemisePied3()
      *
      * @return void
      */
@@ -462,7 +462,7 @@ class GroupesClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRib() method.
+     * Tests setRib()
      *
      * @return void
      */
@@ -475,7 +475,7 @@ class GroupesClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSoumisEscompte() method.
+     * Tests setSoumisEscompte()
      *
      * @return void
      */
@@ -488,7 +488,7 @@ class GroupesClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxEscompte() method.
+     * Tests setTauxEscompte()
      *
      * @return void
      */
@@ -501,7 +501,7 @@ class GroupesClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeFacture() method.
+     * Tests setTypeFacture()
      *
      * @return void
      */
@@ -514,7 +514,7 @@ class GroupesClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

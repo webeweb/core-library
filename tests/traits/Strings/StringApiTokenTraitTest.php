@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringApiTokenTrait;
 class StringApiTokenTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setApiToken() method.
+     * Tests setApiToken()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EtablissementsTest extends AbstractTestCase {
 
     /**
-     * Tests the setAbattementMax() method.
+     * Tests setAbattementMax()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAllegParticulier() method.
+     * Tests setAllegParticulier()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAtBureau1() method.
+     * Tests setAtBureau1()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAtBureau2() method.
+     * Tests setAtBureau2()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAtBureau3() method.
+     * Tests setAtBureau3()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAtBureau4() method.
+     * Tests setAtBureau4()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAtBureau5() method.
+     * Tests setAtBureau5()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAtEtab1() method.
+     * Tests setAtEtab1()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAtEtab2() method.
+     * Tests setAtEtab2()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAtEtab3() method.
+     * Tests setAtEtab3()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAtEtab4() method.
+     * Tests setAtEtab4()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAtEtab5() method.
+     * Tests setAtEtab5()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAtRisque1() method.
+     * Tests setAtRisque1()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAtRisque2() method.
+     * Tests setAtRisque2()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAtRisque3() method.
+     * Tests setAtRisque3()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAtRisque4() method.
+     * Tests setAtRisque4()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAtRisque5() method.
+     * Tests setAtRisque5()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAtTaux1() method.
+     * Tests setAtTaux1()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAtTaux2() method.
+     * Tests setAtTaux2()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAtTaux3() method.
+     * Tests setAtTaux3()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAtTaux4() method.
+     * Tests setAtTaux4()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAtTaux5() method.
+     * Tests setAtTaux5()
      *
      * @return void
      */
@@ -311,7 +311,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAtTauxBul1() method.
+     * Tests setAtTauxBul1()
      *
      * @return void
      */
@@ -324,7 +324,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAtTauxBul2() method.
+     * Tests setAtTauxBul2()
      *
      * @return void
      */
@@ -337,7 +337,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAtTauxBul3() method.
+     * Tests setAtTauxBul3()
      *
      * @return void
      */
@@ -350,7 +350,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAtTauxBul4() method.
+     * Tests setAtTauxBul4()
      *
      * @return void
      */
@@ -363,7 +363,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAtTauxBul5() method.
+     * Tests setAtTauxBul5()
      *
      * @return void
      */
@@ -376,7 +376,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAubry1Modifie() method.
+     * Tests setAubry1Modifie()
      *
      * @return void
      */
@@ -389,7 +389,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAutreAlleg() method.
+     * Tests setAutreAlleg()
      *
      * @return void
      */
@@ -402,7 +402,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBanque1() method.
+     * Tests setBanque1()
      *
      * @return void
      */
@@ -415,7 +415,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBanque2() method.
+     * Tests setBanque2()
      *
      * @return void
      */
@@ -428,7 +428,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBanque3() method.
+     * Tests setBanque3()
      *
      * @return void
      */
@@ -441,7 +441,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBic1() method.
+     * Tests setBic1()
      *
      * @return void
      */
@@ -454,7 +454,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBonusCospar() method.
+     * Tests setBonusCospar()
      *
      * @return void
      */
@@ -467,7 +467,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBtq() method.
+     * Tests setBtq()
      *
      * @return void
      */
@@ -480,7 +480,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBureauDistributeur() method.
+     * Tests setBureauDistributeur()
      *
      * @return void
      */
@@ -493,7 +493,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCColect11() method.
+     * Tests setCColect11()
      *
      * @return void
      */
@@ -506,7 +506,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCColect12() method.
+     * Tests setCColect12()
      *
      * @return void
      */
@@ -519,7 +519,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCColect21() method.
+     * Tests setCColect21()
      *
      * @return void
      */
@@ -532,7 +532,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCColect22() method.
+     * Tests setCColect22()
      *
      * @return void
      */
@@ -545,7 +545,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCColect31() method.
+     * Tests setCColect31()
      *
      * @return void
      */
@@ -558,7 +558,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCColect32() method.
+     * Tests setCColect32()
      *
      * @return void
      */
@@ -571,7 +571,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCColect41() method.
+     * Tests setCColect41()
      *
      * @return void
      */
@@ -584,7 +584,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCColect42() method.
+     * Tests setCColect42()
      *
      * @return void
      */
@@ -597,7 +597,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCColect51() method.
+     * Tests setCColect51()
      *
      * @return void
      */
@@ -610,7 +610,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCColect52() method.
+     * Tests setCColect52()
      *
      * @return void
      */
@@ -623,7 +623,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCColect61() method.
+     * Tests setCColect61()
      *
      * @return void
      */
@@ -636,7 +636,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCColect62() method.
+     * Tests setCColect62()
      *
      * @return void
      */
@@ -649,7 +649,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCaisseCp() method.
+     * Tests setCaisseCp()
      *
      * @return void
      */
@@ -662,7 +662,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCentreAnalytique() method.
+     * Tests setCentreAnalytique()
      *
      * @return void
      */
@@ -675,7 +675,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCivilite() method.
+     * Tests setCivilite()
      *
      * @return void
      */
@@ -688,7 +688,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAdherent() method.
+     * Tests setCodeAdherent()
      *
      * @return void
      */
@@ -701,7 +701,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCColect1() method.
+     * Tests setCodeCColect1()
      *
      * @return void
      */
@@ -714,7 +714,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCColect2() method.
+     * Tests setCodeCColect2()
      *
      * @return void
      */
@@ -727,7 +727,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCColect3() method.
+     * Tests setCodeCColect3()
      *
      * @return void
      */
@@ -740,7 +740,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCColect4() method.
+     * Tests setCodeCColect4()
      *
      * @return void
      */
@@ -753,7 +753,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCColect5() method.
+     * Tests setCodeCColect5()
      *
      * @return void
      */
@@ -766,7 +766,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCColect6() method.
+     * Tests setCodeCColect6()
      *
      * @return void
      */
@@ -779,7 +779,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCentreImpot() method.
+     * Tests setCodeCentreImpot()
      *
      * @return void
      */
@@ -792,7 +792,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeDucsSpecif() method.
+     * Tests setCodeDucsSpecif()
      *
      * @return void
      */
@@ -805,7 +805,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEtablissement() method.
+     * Tests setCodeEtablissement()
      *
      * @return void
      */
@@ -818,7 +818,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeInsee() method.
+     * Tests setCodeInsee()
      *
      * @return void
      */
@@ -831,7 +831,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeJournalBanque() method.
+     * Tests setCodeJournalBanque()
      *
      * @return void
      */
@@ -844,7 +844,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeJournalPaie() method.
+     * Tests setCodeJournalPaie()
      *
      * @return void
      */
@@ -857,7 +857,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeMetierRetraite() method.
+     * Tests setCodeMetierRetraite()
      *
      * @return void
      */
@@ -870,7 +870,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeNaf() method.
+     * Tests setCodeNaf()
      *
      * @return void
      */
@@ -883,7 +883,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeNaf2() method.
+     * Tests setCodeNaf2()
      *
      * @return void
      */
@@ -896,7 +896,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeNaf2008() method.
+     * Tests setCodeNaf2008()
      *
      * @return void
      */
@@ -909,7 +909,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeNaf22008() method.
+     * Tests setCodeNaf22008()
      *
      * @return void
      */
@@ -922,7 +922,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeNaf3() method.
+     * Tests setCodeNaf3()
      *
      * @return void
      */
@@ -935,7 +935,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeNaf32008() method.
+     * Tests setCodeNaf32008()
      *
      * @return void
      */
@@ -948,7 +948,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeOfficielCommune() method.
+     * Tests setCodeOfficielCommune()
      *
      * @return void
      */
@@ -961,7 +961,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePays() method.
+     * Tests setCodePays()
      *
      * @return void
      */
@@ -974,7 +974,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePaysResidence() method.
+     * Tests setCodePaysResidence()
      *
      * @return void
      */
@@ -987,7 +987,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePostal() method.
+     * Tests setCodePostal()
      *
      * @return void
      */
@@ -1000,7 +1000,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCoeffAubry2() method.
+     * Tests setCoeffAubry2()
      *
      * @return void
      */
@@ -1013,7 +1013,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setComplement() method.
+     * Tests setComplement()
      *
      * @return void
      */
@@ -1026,7 +1026,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteAcompteEmploye() method.
+     * Tests setCompteAcompteEmploye()
      *
      * @return void
      */
@@ -1039,7 +1039,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteCharge1() method.
+     * Tests setCompteCharge1()
      *
      * @return void
      */
@@ -1052,7 +1052,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteCharge10() method.
+     * Tests setCompteCharge10()
      *
      * @return void
      */
@@ -1065,7 +1065,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteCharge11() method.
+     * Tests setCompteCharge11()
      *
      * @return void
      */
@@ -1078,7 +1078,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteCharge2() method.
+     * Tests setCompteCharge2()
      *
      * @return void
      */
@@ -1091,7 +1091,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteCharge3() method.
+     * Tests setCompteCharge3()
      *
      * @return void
      */
@@ -1104,7 +1104,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteCharge4() method.
+     * Tests setCompteCharge4()
      *
      * @return void
      */
@@ -1117,7 +1117,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteCharge5() method.
+     * Tests setCompteCharge5()
      *
      * @return void
      */
@@ -1130,7 +1130,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteCharge6() method.
+     * Tests setCompteCharge6()
      *
      * @return void
      */
@@ -1143,7 +1143,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteCharge7() method.
+     * Tests setCompteCharge7()
      *
      * @return void
      */
@@ -1156,7 +1156,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteCharge8() method.
+     * Tests setCompteCharge8()
      *
      * @return void
      */
@@ -1169,7 +1169,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteCharge9() method.
+     * Tests setCompteCharge9()
      *
      * @return void
      */
@@ -1182,7 +1182,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteChargeAen() method.
+     * Tests setCompteChargeAen()
      *
      * @return void
      */
@@ -1195,7 +1195,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteChargeFc() method.
+     * Tests setCompteChargeFc()
      *
      * @return void
      */
@@ -1208,7 +1208,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteChargeIjss() method.
+     * Tests setCompteChargeIjss()
      *
      * @return void
      */
@@ -1221,7 +1221,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteChargeIndemCp() method.
+     * Tests setCompteChargeIndemCp()
      *
      * @return void
      */
@@ -1234,7 +1234,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteSaisieArret() method.
+     * Tests setCompteSaisieArret()
      *
      * @return void
      */
@@ -1247,7 +1247,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteTiers1() method.
+     * Tests setCompteTiers1()
      *
      * @return void
      */
@@ -1260,7 +1260,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteTiers2() method.
+     * Tests setCompteTiers2()
      *
      * @return void
      */
@@ -1273,7 +1273,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDadsuCodeCColect1() method.
+     * Tests setDadsuCodeCColect1()
      *
      * @return void
      */
@@ -1286,7 +1286,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDadsuCodeCColect2() method.
+     * Tests setDadsuCodeCColect2()
      *
      * @return void
      */
@@ -1299,7 +1299,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDadsuCodeCColect3() method.
+     * Tests setDadsuCodeCColect3()
      *
      * @return void
      */
@@ -1312,7 +1312,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDadsuCodeCColect4() method.
+     * Tests setDadsuCodeCColect4()
      *
      * @return void
      */
@@ -1325,7 +1325,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDadsuCodeCColect5() method.
+     * Tests setDadsuCodeCColect5()
      *
      * @return void
      */
@@ -1338,7 +1338,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDadsuCodeCColect6() method.
+     * Tests setDadsuCodeCColect6()
      *
      * @return void
      */
@@ -1351,7 +1351,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateAllegement() method.
+     * Tests setDateAllegement()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -1368,7 +1368,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateDucs() method.
+     * Tests setDateDucs()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -1385,7 +1385,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateFinCospar() method.
+     * Tests setDateFinCospar()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -1402,7 +1402,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateFinCp() method.
+     * Tests setDateFinCp()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -1419,7 +1419,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateModification() method.
+     * Tests setDateModification()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -1436,7 +1436,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDatePublication() method.
+     * Tests setDatePublication()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -1453,7 +1453,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDebutEnvoi() method.
+     * Tests setDebutEnvoi()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -1470,7 +1470,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDetailSalarie() method.
+     * Tests setDetailSalarie()
      *
      * @return void
      */
@@ -1483,7 +1483,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDomaineActivite() method.
+     * Tests setDomaineActivite()
      *
      * @return void
      */
@@ -1496,7 +1496,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDossierComptable() method.
+     * Tests setDossierComptable()
      *
      * @return void
      */
@@ -1509,7 +1509,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEditionDif() method.
+     * Tests setEditionDif()
      *
      * @return void
      */
@@ -1522,7 +1522,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEditionDifBul() method.
+     * Tests setEditionDifBul()
      *
      * @return void
      */
@@ -1535,7 +1535,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmetteur1() method.
+     * Tests setEmetteur1()
      *
      * @return void
      */
@@ -1548,7 +1548,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmetteur2() method.
+     * Tests setEmetteur2()
      *
      * @return void
      */
@@ -1561,7 +1561,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmetteur3() method.
+     * Tests setEmetteur3()
      *
      * @return void
      */
@@ -1574,7 +1574,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEnseigne() method.
+     * Tests setEnseigne()
      *
      * @return void
      */
@@ -1587,7 +1587,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtabDeclDadsu() method.
+     * Tests setEtabDeclDadsu()
      *
      * @return void
      */
@@ -1600,7 +1600,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setExclureDadsu() method.
+     * Tests setExclureDadsu()
      *
      * @return void
      */
@@ -1613,7 +1613,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setExoLodeomRenforcee() method.
+     * Tests setExoLodeomRenforcee()
      *
      * @return void
      */
@@ -1626,7 +1626,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFax() method.
+     * Tests setFax()
      *
      * @return void
      */
@@ -1639,7 +1639,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFinEnvoi() method.
+     * Tests setFinEnvoi()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -1656,7 +1656,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGereFractionEtab() method.
+     * Tests setGereFractionEtab()
      *
      * @return void
      */
@@ -1669,7 +1669,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionContingent() method.
+     * Tests setGestionContingent()
      *
      * @return void
      */
@@ -1682,7 +1682,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionDucs1() method.
+     * Tests setGestionDucs1()
      *
      * @return void
      */
@@ -1695,7 +1695,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionDucs2() method.
+     * Tests setGestionDucs2()
      *
      * @return void
      */
@@ -1708,7 +1708,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionJourFerieEtab() method.
+     * Tests setGestionJourFerieEtab()
      *
      * @return void
      */
@@ -1721,7 +1721,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionReposComp() method.
+     * Tests setGestionReposComp()
      *
      * @return void
      */
@@ -1734,7 +1734,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionReposRecup() method.
+     * Tests setGestionReposRecup()
      *
      * @return void
      */
@@ -1747,7 +1747,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionReposRemplace() method.
+     * Tests setGestionReposRemplace()
      *
      * @return void
      */
@@ -1760,7 +1760,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionRtt() method.
+     * Tests setGestionRtt()
      *
      * @return void
      */
@@ -1773,7 +1773,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionSemType() method.
+     * Tests setGestionSemType()
      *
      * @return void
      */
@@ -1786,7 +1786,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIban1() method.
+     * Tests setIban1()
      *
      * @return void
      */
@@ -1799,7 +1799,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIbanIdClient1() method.
+     * Tests setIbanIdClient1()
      *
      * @return void
      */
@@ -1812,7 +1812,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setInscritRepMetier() method.
+     * Tests setInscritRepMetier()
      *
      * @return void
      */
@@ -1825,7 +1825,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJourVerseSalaire() method.
+     * Tests setJourVerseSalaire()
      *
      * @return void
      */
@@ -1838,7 +1838,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMaintienIntervientCp() method.
+     * Tests setMaintienIntervientCp()
      *
      * @return void
      */
@@ -1851,7 +1851,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMaintienSalaire() method.
+     * Tests setMaintienSalaire()
      *
      * @return void
      */
@@ -1864,7 +1864,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMaintienSpecifique() method.
+     * Tests setMaintienSpecifique()
      *
      * @return void
      */
@@ -1877,7 +1877,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMasqueServiceEmploye() method.
+     * Tests setMasqueServiceEmploye()
      *
      * @return void
      */
@@ -1890,7 +1890,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMethodeCp() method.
+     * Tests setMethodeCp()
      *
      * @return void
      */
@@ -1903,7 +1903,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMoisClotureCp() method.
+     * Tests setMoisClotureCp()
      *
      * @return void
      */
@@ -1916,7 +1916,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMoisClotureDif() method.
+     * Tests setMoisClotureDif()
      *
      * @return void
      */
@@ -1929,7 +1929,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMoisClotureRtt() method.
+     * Tests setMoisClotureRtt()
      *
      * @return void
      */
@@ -1942,7 +1942,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontant1() method.
+     * Tests setMontant1()
      *
      * @return void
      */
@@ -1955,7 +1955,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontant2() method.
+     * Tests setMontant2()
      *
      * @return void
      */
@@ -1968,7 +1968,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontant3() method.
+     * Tests setMontant3()
      *
      * @return void
      */
@@ -1981,7 +1981,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontant4() method.
+     * Tests setMontant4()
      *
      * @return void
      */
@@ -1994,7 +1994,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontant5() method.
+     * Tests setMontant5()
      *
      * @return void
      */
@@ -2007,7 +2007,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantAllegement() method.
+     * Tests setMontantAllegement()
      *
      * @return void
      */
@@ -2020,7 +2020,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNatureAnalytique() method.
+     * Tests setNatureAnalytique()
      *
      * @return void
      */
@@ -2033,7 +2033,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHJour1() method.
+     * Tests setNbHJour1()
      *
      * @return void
      */
@@ -2046,7 +2046,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHJour2() method.
+     * Tests setNbHJour2()
      *
      * @return void
      */
@@ -2059,7 +2059,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHJour3() method.
+     * Tests setNbHJour3()
      *
      * @return void
      */
@@ -2072,7 +2072,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHJour4() method.
+     * Tests setNbHJour4()
      *
      * @return void
      */
@@ -2085,7 +2085,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHJour5() method.
+     * Tests setNbHJour5()
      *
      * @return void
      */
@@ -2098,7 +2098,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHJour6() method.
+     * Tests setNbHJour6()
      *
      * @return void
      */
@@ -2111,7 +2111,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHJour7() method.
+     * Tests setNbHJour7()
      *
      * @return void
      */
@@ -2124,7 +2124,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHdifAn() method.
+     * Tests setNbHdifAn()
      *
      * @return void
      */
@@ -2137,7 +2137,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHeureTravMois() method.
+     * Tests setNbHeureTravMois()
      *
      * @return void
      */
@@ -2150,7 +2150,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJourBase() method.
+     * Tests setNbJourBase()
      *
      * @return void
      */
@@ -2163,7 +2163,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJourBaseCp() method.
+     * Tests setNbJourBaseCp()
      *
      * @return void
      */
@@ -2176,7 +2176,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJourCpAcquis() method.
+     * Tests setNbJourCpAcquis()
      *
      * @return void
      */
@@ -2189,7 +2189,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbMAjoutPer() method.
+     * Tests setNbMAjoutPer()
      *
      * @return void
      */
@@ -2202,7 +2202,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbMoisAubry1() method.
+     * Tests setNbMoisAubry1()
      *
      * @return void
      */
@@ -2215,7 +2215,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbhJourRtt() method.
+     * Tests setNbhJourRtt()
      *
      * @return void
      */
@@ -2228,7 +2228,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNePasActiverLoiFillon2003() method.
+     * Tests setNePasActiverLoiFillon2003()
      *
      * @return void
      */
@@ -2241,7 +2241,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomVille() method.
+     * Tests setNomVille()
      *
      * @return void
      */
@@ -2254,7 +2254,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomVilleInsee() method.
+     * Tests setNomVilleInsee()
      *
      * @return void
      */
@@ -2267,7 +2267,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomVoie() method.
+     * Tests setNomVoie()
      *
      * @return void
      */
@@ -2280,7 +2280,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumVoie() method.
+     * Tests setNumVoie()
      *
      * @return void
      */
@@ -2293,7 +2293,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOpcaDif() method.
+     * Tests setOpcaDif()
      *
      * @return void
      */
@@ -2306,7 +2306,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPLafondExo() method.
+     * Tests setPLafondExo()
      *
      * @return void
      */
@@ -2319,7 +2319,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPaieDecalee() method.
+     * Tests setPaieDecalee()
      *
      * @return void
      */
@@ -2332,7 +2332,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPlafond1Caisse1() method.
+     * Tests setPlafond1Caisse1()
      *
      * @return void
      */
@@ -2345,7 +2345,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPlafond1Caisse2() method.
+     * Tests setPlafond1Caisse2()
      *
      * @return void
      */
@@ -2358,7 +2358,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPlafond1Caisse3() method.
+     * Tests setPlafond1Caisse3()
      *
      * @return void
      */
@@ -2371,7 +2371,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPlafond2Caisse1() method.
+     * Tests setPlafond2Caisse1()
      *
      * @return void
      */
@@ -2384,7 +2384,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPlafond2Caisse2() method.
+     * Tests setPlafond2Caisse2()
      *
      * @return void
      */
@@ -2397,7 +2397,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPlafond2Caisse3() method.
+     * Tests setPlafond2Caisse3()
      *
      * @return void
      */
@@ -2410,7 +2410,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPourcentBonif() method.
+     * Tests setPourcentBonif()
      *
      * @return void
      */
@@ -2423,7 +2423,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPourcentExo() method.
+     * Tests setPourcentExo()
      *
      * @return void
      */
@@ -2436,7 +2436,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPourcentTransport() method.
+     * Tests setPourcentTransport()
      *
      * @return void
      */
@@ -2449,7 +2449,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPourcentageImp() method.
+     * Tests setPourcentageImp()
      *
      * @return void
      */
@@ -2462,7 +2462,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProfSpectacle() method.
+     * Tests setProfSpectacle()
      *
      * @return void
      */
@@ -2475,7 +2475,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProfession() method.
+     * Tests setProfession()
      *
      * @return void
      */
@@ -2488,7 +2488,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrudType() method.
+     * Tests setPrudType()
      *
      * @return void
      */
@@ -2501,7 +2501,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrudTypeDadsu() method.
+     * Tests setPrudTypeDadsu()
      *
      * @return void
      */
@@ -2514,7 +2514,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPublication() method.
+     * Tests setPublication()
      *
      * @return void
      */
@@ -2527,7 +2527,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQualite() method.
+     * Tests setQualite()
      *
      * @return void
      */
@@ -2540,7 +2540,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRaisonSociale() method.
+     * Tests setRaisonSociale()
      *
      * @return void
      */
@@ -2553,7 +2553,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setReductionFillon() method.
+     * Tests setReductionFillon()
      *
      * @return void
      */
@@ -2566,7 +2566,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setResponsable() method.
+     * Tests setResponsable()
      *
      * @return void
      */
@@ -2579,7 +2579,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRib1() method.
+     * Tests setRib1()
      *
      * @return void
      */
@@ -2592,7 +2592,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRib2() method.
+     * Tests setRib2()
      *
      * @return void
      */
@@ -2605,7 +2605,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRib3() method.
+     * Tests setRib3()
      *
      * @return void
      */
@@ -2618,7 +2618,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRtt1() method.
+     * Tests setRtt1()
      *
      * @return void
      */
@@ -2631,7 +2631,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRtt10() method.
+     * Tests setRtt10()
      *
      * @return void
      */
@@ -2644,7 +2644,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRtt11() method.
+     * Tests setRtt11()
      *
      * @return void
      */
@@ -2657,7 +2657,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRtt12() method.
+     * Tests setRtt12()
      *
      * @return void
      */
@@ -2670,7 +2670,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRtt2() method.
+     * Tests setRtt2()
      *
      * @return void
      */
@@ -2683,7 +2683,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRtt3() method.
+     * Tests setRtt3()
      *
      * @return void
      */
@@ -2696,7 +2696,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRtt4() method.
+     * Tests setRtt4()
      *
      * @return void
      */
@@ -2709,7 +2709,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRtt5() method.
+     * Tests setRtt5()
      *
      * @return void
      */
@@ -2722,7 +2722,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRtt6() method.
+     * Tests setRtt6()
      *
      * @return void
      */
@@ -2735,7 +2735,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRtt7() method.
+     * Tests setRtt7()
      *
      * @return void
      */
@@ -2748,7 +2748,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRtt8() method.
+     * Tests setRtt8()
      *
      * @return void
      */
@@ -2761,7 +2761,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRtt9() method.
+     * Tests setRtt9()
      *
      * @return void
      */
@@ -2774,7 +2774,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSiegeDadsu() method.
+     * Tests setSiegeDadsu()
      *
      * @return void
      */
@@ -2787,7 +2787,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSiret() method.
+     * Tests setSiret()
      *
      * @return void
      */
@@ -2800,7 +2800,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSituationGeo() method.
+     * Tests setSituationGeo()
      *
      * @return void
      */
@@ -2813,7 +2813,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSubrogation() method.
+     * Tests setSubrogation()
      *
      * @return void
      */
@@ -2826,7 +2826,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSuiviAnalytique() method.
+     * Tests setSuiviAnalytique()
      *
      * @return void
      */
@@ -2839,7 +2839,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxActionsociale() method.
+     * Tests setTauxActionsociale()
      *
      * @return void
      */
@@ -2852,7 +2852,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxConstruction() method.
+     * Tests setTauxConstruction()
      *
      * @return void
      */
@@ -2865,7 +2865,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxFormation() method.
+     * Tests setTauxFormation()
      *
      * @return void
      */
@@ -2878,7 +2878,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxHSup1() method.
+     * Tests setTauxHSup1()
      *
      * @return void
      */
@@ -2891,7 +2891,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxHSup2() method.
+     * Tests setTauxHSup2()
      *
      * @return void
      */
@@ -2904,7 +2904,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxHSup3() method.
+     * Tests setTauxHSup3()
      *
      * @return void
      */
@@ -2917,7 +2917,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxHSup4() method.
+     * Tests setTauxHSup4()
      *
      * @return void
      */
@@ -2930,7 +2930,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxHSup5() method.
+     * Tests setTauxHSup5()
      *
      * @return void
      */
@@ -2943,7 +2943,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxRetTr2Pp() method.
+     * Tests setTauxRetTr2Pp()
      *
      * @return void
      */
@@ -2956,7 +2956,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxRetTr2Ps() method.
+     * Tests setTauxRetTr2Ps()
      *
      * @return void
      */
@@ -2969,7 +2969,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxRetTrApp() method.
+     * Tests setTauxRetTrApp()
      *
      * @return void
      */
@@ -2982,7 +2982,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxRetTrAps() method.
+     * Tests setTauxRetTrAps()
      *
      * @return void
      */
@@ -2995,7 +2995,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxRetTrBpp() method.
+     * Tests setTauxRetTrBpp()
      *
      * @return void
      */
@@ -3008,7 +3008,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxRetTrBps() method.
+     * Tests setTauxRetTrBps()
      *
      * @return void
      */
@@ -3021,7 +3021,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxRetTrCpp() method.
+     * Tests setTauxRetTrCpp()
      *
      * @return void
      */
@@ -3034,7 +3034,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxRetTrCps() method.
+     * Tests setTauxRetTrCps()
      *
      * @return void
      */
@@ -3047,7 +3047,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxRetTrDpp() method.
+     * Tests setTauxRetTrDpp()
      *
      * @return void
      */
@@ -3060,7 +3060,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxRetTrDps() method.
+     * Tests setTauxRetTrDps()
      *
      * @return void
      */
@@ -3073,7 +3073,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxSupFormation() method.
+     * Tests setTauxSupFormation()
      *
      * @return void
      */
@@ -3086,7 +3086,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxTaxeApprenti() method.
+     * Tests setTauxTaxeApprenti()
      *
      * @return void
      */
@@ -3099,7 +3099,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxTransport() method.
+     * Tests setTauxTransport()
      *
      * @return void
      */
@@ -3112,7 +3112,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds128() method.
+     * Tests setTds128()
      *
      * @return void
      */
@@ -3125,7 +3125,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds19() method.
+     * Tests setTds19()
      *
      * @return void
      */
@@ -3138,7 +3138,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTds47() method.
+     * Tests setTds47()
      *
      * @return void
      */
@@ -3151,7 +3151,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTel() method.
+     * Tests setTel()
      *
      * @return void
      */
@@ -3164,7 +3164,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTxSalDecote() method.
+     * Tests setTxSalDecote()
      *
      * @return void
      */
@@ -3177,7 +3177,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeBaseCaisse1() method.
+     * Tests setTypeBaseCaisse1()
      *
      * @return void
      */
@@ -3190,7 +3190,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeBaseCaisse2() method.
+     * Tests setTypeBaseCaisse2()
      *
      * @return void
      */
@@ -3203,7 +3203,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeBaseCaisse3() method.
+     * Tests setTypeBaseCaisse3()
      *
      * @return void
      */
@@ -3216,7 +3216,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeBonif() method.
+     * Tests setTypeBonif()
      *
      * @return void
      */
@@ -3229,7 +3229,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeDomiciliationBanque1() method.
+     * Tests setTypeDomiciliationBanque1()
      *
      * @return void
      */
@@ -3242,7 +3242,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeDomiciliationBanque2() method.
+     * Tests setTypeDomiciliationBanque2()
      *
      * @return void
      */
@@ -3255,7 +3255,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeDomiciliationBanque3() method.
+     * Tests setTypeDomiciliationBanque3()
      *
      * @return void
      */
@@ -3268,7 +3268,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeEffectif() method.
+     * Tests setTypeEffectif()
      *
      * @return void
      */
@@ -3281,7 +3281,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeMaintienSalaire() method.
+     * Tests setTypeMaintienSalaire()
      *
      * @return void
      */
@@ -3294,7 +3294,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypePublication() method.
+     * Tests setTypePublication()
      *
      * @return void
      */
@@ -3307,7 +3307,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeSaisieAbCp() method.
+     * Tests setTypeSaisieAbCp()
      *
      * @return void
      */
@@ -3320,7 +3320,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeSmic() method.
+     * Tests setTypeSmic()
      *
      * @return void
      */
@@ -3333,7 +3333,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUrssafAlsace() method.
+     * Tests setUrssafAlsace()
      *
      * @return void
      */
@@ -3346,7 +3346,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setZoneSpecif() method.
+     * Tests setZoneSpecif()
      *
      * @return void
      */
@@ -3359,7 +3359,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

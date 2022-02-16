@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Integers\TestIntegerMinWidthTrait;
 class IntegerMinWidthTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setMinWidth() method.
+     * Tests setMinWidth()
      *
      * @return void
      */

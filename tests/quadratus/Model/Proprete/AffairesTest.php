@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AffairesTest extends AbstractTestCase {
 
     /**
-     * Tests the setBtq() method.
+     * Tests setBtq()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBureauDistributeur() method.
+     * Tests setBureauDistributeur()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCaStatAnnuel() method.
+     * Tests setCaStatAnnuel()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAffaire() method.
+     * Tests setCodeAffaire()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAnalytique() method.
+     * Tests setCodeAnalytique()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCommercial() method.
+     * Tests setCodeCommercial()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeFactor() method.
+     * Tests setCodeFactor()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePays() method.
+     * Tests setCodePays()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePostal() method.
+     * Tests setCodePostal()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRegMarge() method.
+     * Tests setCodeRegMarge()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTva() method.
+     * Tests setCodeTva()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeVentilCompta() method.
+     * Tests setCodeVentilCompta()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setComplement() method.
+     * Tests setComplement()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateCreat() method.
+     * Tests setDateCreat()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -224,7 +224,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateDebAffaire() method.
+     * Tests setDateDebAffaire()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -241,7 +241,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateDebAffaireDebMois() method.
+     * Tests setDateDebAffaireDebMois()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -258,7 +258,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateFinAffaire() method.
+     * Tests setDateFinAffaire()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -275,7 +275,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateFinAffaireFinMois() method.
+     * Tests setDateFinAffaireFinMois()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -292,7 +292,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateModif() method.
+     * Tests setDateModif()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -309,7 +309,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateVente() method.
+     * Tests setDateVente()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -326,7 +326,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFactureIsolee() method.
+     * Tests setFactureIsolee()
      *
      * @return void
      */
@@ -339,7 +339,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGroupeSousTraite() method.
+     * Tests setGroupeSousTraite()
      *
      * @return void
      */
@@ -352,7 +352,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomAdresse() method.
+     * Tests setNomAdresse()
      *
      * @return void
      */
@@ -365,7 +365,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomAffaire() method.
+     * Tests setNomAffaire()
      *
      * @return void
      */
@@ -378,7 +378,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomSuite() method.
+     * Tests setNomSuite()
      *
      * @return void
      */
@@ -391,7 +391,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomVoie() method.
+     * Tests setNomVoie()
      *
      * @return void
      */
@@ -404,7 +404,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumVoie() method.
+     * Tests setNumVoie()
      *
      * @return void
      */
@@ -417,7 +417,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setReferenceFacture() method.
+     * Tests setReferenceFacture()
      *
      * @return void
      */
@@ -430,7 +430,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setReferenceFacture2() method.
+     * Tests setReferenceFacture2()
      *
      * @return void
      */
@@ -443,7 +443,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

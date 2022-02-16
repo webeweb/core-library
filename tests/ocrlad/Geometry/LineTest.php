@@ -25,7 +25,7 @@ use WBW\Library\OcrLad\Tests\AbstractTestCase;
 class LineTest extends AbstractTestCase {
 
     /**
-     * Tests the d() method.
+     * Tests d()
      *
      * @return void
      */
@@ -37,7 +37,7 @@ class LineTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the deg() method.
+     * Tests deg()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class LineTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the m() method.
+     * Tests m()
      *
      * @return void
      */
@@ -61,7 +61,7 @@ class LineTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the originallyAbscissa() method.
+     * Tests originallyAbscissa()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class LineTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the originallyOrdered() method.
+     * Tests originallyOrdered()
      *
      * @return void
      */
@@ -89,7 +89,7 @@ class LineTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the rad() method.
+     * Tests rad()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class LineTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the rotate() method.
+     * Tests rotate()
      *
      * @return void
      */
@@ -117,7 +117,7 @@ class LineTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setA() method.
+     * Tests setA()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class LineTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setB() method.
+     * Tests setB()
      *
      * @return void
      */
@@ -149,7 +149,7 @@ class LineTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ClientsLstPersoIndiceCollabTest extends AbstractTestCase {
 
     /**
-     * Tests the setChapitre() method.
+     * Tests setChapitre()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ClientsLstPersoIndiceCollabTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaborateur() method.
+     * Tests setCodeCollaborateur()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ClientsLstPersoIndiceCollabTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndice() method.
+     * Tests setIndice()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ClientsLstPersoIndiceCollabTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOrigine() method.
+     * Tests setOrigine()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ClientsLstPersoIndiceCollabTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRefGuid() method.
+     * Tests setRefGuid()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ClientsLstPersoIndiceCollabTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

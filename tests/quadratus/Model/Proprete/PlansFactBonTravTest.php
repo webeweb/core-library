@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class PlansFactBonTravTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeAffaire() method.
+     * Tests setCodeAffaire()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeArticle() method.
+     * Tests setCodeArticle()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeChantier() method.
+     * Tests setCodeChantier()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRegroupement() method.
+     * Tests setCodeRegroupement()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCoefficient() method.
+     * Tests setCoefficient()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateBt() method.
+     * Tests setDateBt()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDesignation() method.
+     * Tests setDesignation()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDesignation2() method.
+     * Tests setDesignation2()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDesignation3() method.
+     * Tests setDesignation3()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDuree() method.
+     * Tests setDuree()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndice() method.
+     * Tests setIndice()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumBt() method.
+     * Tests setNumBt()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPosteRent() method.
+     * Tests setPosteRent()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrixAchat() method.
+     * Tests setPrixAchat()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPxFacture() method.
+     * Tests setPxFacture()
      *
      * @return void
      */
@@ -237,7 +237,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTaux() method.
+     * Tests setTaux()
      *
      * @return void
      */
@@ -250,7 +250,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setVentilMarge() method.
+     * Tests setVentilMarge()
      *
      * @return void
      */
@@ -263,7 +263,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

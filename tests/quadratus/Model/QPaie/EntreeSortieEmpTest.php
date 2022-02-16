@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EntreeSortieEmpTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeCollaborateur() method.
+     * Tests setCodeCollaborateur()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class EntreeSortieEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeMotifRupture() method.
+     * Tests setCodeMotifRupture()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class EntreeSortieEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateEs() method.
+     * Tests setDateEs()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class EntreeSortieEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateFinPeriodeEssai() method.
+     * Tests setDateFinPeriodeEssai()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -85,7 +85,7 @@ class EntreeSortieEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateModification() method.
+     * Tests setDateModification()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -102,7 +102,7 @@ class EntreeSortieEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateNotification() method.
+     * Tests setDateNotification()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -119,7 +119,7 @@ class EntreeSortieEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateRenouvCdd1() method.
+     * Tests setDateRenouvCdd1()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -136,7 +136,7 @@ class EntreeSortieEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateRenouvCdd2() method.
+     * Tests setDateRenouvCdd2()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -153,7 +153,7 @@ class EntreeSortieEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEntrepriseTravailTemp() method.
+     * Tests setEntrepriseTravailTemp()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class EntreeSortieEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class EntreeSortieEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTransfertEs() method.
+     * Tests setTransfertEs()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class EntreeSortieEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTravailTemp() method.
+     * Tests setTravailTemp()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class EntreeSortieEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeEs() method.
+     * Tests setTypeEs()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class EntreeSortieEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

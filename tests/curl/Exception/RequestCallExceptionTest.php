@@ -24,7 +24,7 @@ use WBW\Library\Curl\Tests\AbstractTestCase;
 class RequestCallExceptionTest extends AbstractTestCase {
 
     /**
-     * Tests the __constructor() method.
+     * Tests __constructor()
      *
      * @return void
      */

@@ -28,7 +28,7 @@ use WBW\Library\Accounting\Tests\AbstractTestCase;
 class VatRateTest extends AbstractTestCase {
 
     /**
-     * Tests the jsonSerialize() method.
+     * Tests jsonSerialize()
      *
      * @return void
      */
@@ -59,7 +59,7 @@ class VatRateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPurchasesAccountingAccount() method.
+     * Tests setPurchasesAccountingAccount()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class VatRateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSalesAccountingAccount() method.
+     * Tests setSalesAccountingAccount()
      *
      * @return void
      */
@@ -91,7 +91,7 @@ class VatRateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

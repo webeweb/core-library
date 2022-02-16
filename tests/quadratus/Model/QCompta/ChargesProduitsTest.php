@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ChargesProduitsTest extends AbstractTestCase {
 
     /**
-     * Tests the setCentre() method.
+     * Tests setCentre()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ChargesProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeFeuille() method.
+     * Tests setCodeFeuille()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ChargesProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCommentaires() method.
+     * Tests setCommentaires()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ChargesProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setContrePartie() method.
+     * Tests setContrePartie()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ChargesProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtatLigne() method.
+     * Tests setEtatLigne()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ChargesProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibEcriture() method.
+     * Tests setLibEcriture()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class ChargesProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMoisRevision() method.
+     * Tests setMoisRevision()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class ChargesProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtHt() method.
+     * Tests setMtHt()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class ChargesProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtN1() method.
+     * Tests setMtN1()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class ChargesProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNature() method.
+     * Tests setNature()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class ChargesProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLigne() method.
+     * Tests setNumLigne()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class ChargesProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLotEcriture() method.
+     * Tests setNumLotEcriture()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class ChargesProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLotPeriodicite() method.
+     * Tests setNumLotPeriodicite()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class ChargesProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroCompte() method.
+     * Tests setNumeroCompte()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class ChargesProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRefImage() method.
+     * Tests setRefImage()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class ChargesProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSens() method.
+     * Tests setSens()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class ChargesProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTxTva() method.
+     * Tests setTxTva()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class ChargesProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

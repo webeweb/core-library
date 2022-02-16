@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ConstTabVentilAchatTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeVentilArticle() method.
+     * Tests setCodeVentilArticle()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ConstTabVentilAchatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeVentilFourn() method.
+     * Tests setCodeVentilFourn()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ConstTabVentilAchatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteVentil() method.
+     * Tests setCompteVentil()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ConstTabVentilAchatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle() method.
+     * Tests setLibelle()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ConstTabVentilAchatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

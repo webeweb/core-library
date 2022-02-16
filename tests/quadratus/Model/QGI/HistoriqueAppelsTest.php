@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class HistoriqueAppelsTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaborateurClot() method.
+     * Tests setCodeCollaborateurClot()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaborateurDest() method.
+     * Tests setCodeCollaborateurDest()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaborateurEntrant() method.
+     * Tests setCodeCollaborateurEntrant()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeProduit() method.
+     * Tests setCodeProduit()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setConfidentiel() method.
+     * Tests setConfidentiel()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setConsequence() method.
+     * Tests setConsequence()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateEntree() method.
+     * Tests setDateEntree()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -133,7 +133,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateSortie() method.
+     * Tests setDateSortie()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -150,7 +150,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmailAuteur() method.
+     * Tests setEmailAuteur()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGroupeQualifiant() method.
+     * Tests setGroupeQualifiant()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIdHistorique() method.
+     * Tests setIdHistorique()
      *
      * @return void
      */
@@ -189,7 +189,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule() method.
+     * Tests setIntitule()
      *
      * @return void
      */
@@ -202,7 +202,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNature() method.
+     * Tests setNature()
      *
      * @return void
      */
@@ -215,7 +215,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomClient() method.
+     * Tests setNomClient()
      *
      * @return void
      */
@@ -228,7 +228,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOrigine() method.
+     * Tests setOrigine()
      *
      * @return void
      */
@@ -241,7 +241,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPieceJointe() method.
+     * Tests setPieceJointe()
      *
      * @return void
      */
@@ -254,7 +254,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setReponse() method.
+     * Tests setReponse()
      *
      * @return void
      */
@@ -267,7 +267,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSpecial() method.
+     * Tests setSpecial()
      *
      * @return void
      */
@@ -280,7 +280,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTel() method.
+     * Tests setTel()
      *
      * @return void
      */
@@ -293,7 +293,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeMessage() method.
+     * Tests setTypeMessage()
      *
      * @return void
      */
@@ -306,7 +306,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

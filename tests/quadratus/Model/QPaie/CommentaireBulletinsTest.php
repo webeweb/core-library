@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class CommentaireBulletinsTest extends AbstractTestCase {
 
     /**
-     * Tests the setCommentaire1() method.
+     * Tests setCommentaire1()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class CommentaireBulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCommentaire2() method.
+     * Tests setCommentaire2()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class CommentaireBulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCommentaire3() method.
+     * Tests setCommentaire3()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class CommentaireBulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCommentaire4() method.
+     * Tests setCommentaire4()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class CommentaireBulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCommentaire5() method.
+     * Tests setCommentaire5()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class CommentaireBulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndicePeriode() method.
+     * Tests setIndicePeriode()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class CommentaireBulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class CommentaireBulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriode() method.
+     * Tests setPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -133,7 +133,7 @@ class CommentaireBulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTxtCommentaireRtf() method.
+     * Tests setTxtCommentaireRtf()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class CommentaireBulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTxtCommentaireSaisi() method.
+     * Tests setTxtCommentaireSaisi()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class CommentaireBulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

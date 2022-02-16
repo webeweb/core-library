@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Floats\TestFloatLonTrait;
 class FloatLonTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setLon() method.
+     * Tests setLon()
      *
      * @return void
      */

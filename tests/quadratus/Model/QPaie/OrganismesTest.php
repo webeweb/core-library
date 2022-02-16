@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class OrganismesTest extends AbstractTestCase {
 
     /**
-     * Tests the setCentrePayeur() method.
+     * Tests setCentrePayeur()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCatCadre() method.
+     * Tests setCodeCatCadre()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCentre() method.
+     * Tests setCodeCentre()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEtablissement() method.
+     * Tests setCodeEtablissement()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeNonCadre() method.
+     * Tests setCodeNonCadre()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeOrganisme() method.
+     * Tests setCodeOrganisme()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteCharge() method.
+     * Tests setCompteCharge()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteTiers() method.
+     * Tests setCompteTiers()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCotAssedicParUrssaf() method.
+     * Tests setCotAssedicParUrssaf()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCotitel() method.
+     * Tests setCotitel()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDossCadre() method.
+     * Tests setDossCadre()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDossNonCadre() method.
+     * Tests setDossNonCadre()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEditionDucs() method.
+     * Tests setEditionDucs()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionPaieDecaleeOc() method.
+     * Tests setGestionPaieDecaleeOc()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGroupeInterne() method.
+     * Tests setGroupeInterne()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIdIntervenant() method.
+     * Tests setIdIntervenant()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJourExigible() method.
+     * Tests setJourExigible()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJourLimiteDepot() method.
+     * Tests setJourLimiteDepot()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJourReglement() method.
+     * Tests setJourReglement()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMensTrim() method.
+     * Tests setMensTrim()
      *
      * @return void
      */
@@ -283,7 +283,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNoAffiliation() method.
+     * Tests setNoAffiliation()
      *
      * @return void
      */
@@ -296,7 +296,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOptiqueDucs() method.
+     * Tests setOptiqueDucs()
      *
      * @return void
      */
@@ -309,7 +309,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPaiementEdiVlu() method.
+     * Tests setPaiementEdiVlu()
      *
      * @return void
      */
@@ -322,7 +322,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPasTraiterEdi() method.
+     * Tests setPasTraiterEdi()
      *
      * @return void
      */
@@ -335,7 +335,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRib() method.
+     * Tests setRib()
      *
      * @return void
      */
@@ -348,7 +348,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTelepaiement() method.
+     * Tests setTelepaiement()
      *
      * @return void
      */
@@ -361,7 +361,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

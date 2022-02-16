@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class SousLignesComptaGeneTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeAffaire() method.
+     * Tests setCodeAffaire()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class SousLignesComptaGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeChantier() method.
+     * Tests setCodeChantier()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class SousLignesComptaGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class SousLignesComptaGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRegroupement() method.
+     * Tests setCodeRegroupement()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class SousLignesComptaGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntituleCompte() method.
+     * Tests setIntituleCompte()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class SousLignesComptaGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontant() method.
+     * Tests setMontant()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class SousLignesComptaGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroCompte() method.
+     * Tests setNumeroCompte()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class SousLignesComptaGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroDocument() method.
+     * Tests setNumeroDocument()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class SousLignesComptaGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroLigne() method.
+     * Tests setNumeroLigne()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class SousLignesComptaGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroSousLigne() method.
+     * Tests setNumeroSousLigne()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class SousLignesComptaGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeDocument() method.
+     * Tests setTypeDocument()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class SousLignesComptaGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

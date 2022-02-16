@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EmpRecapLodeomTest extends AbstractTestCase {
 
     /**
-     * Tests the setBrut() method.
+     * Tests setBrut()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class EmpRecapLodeomTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCentre() method.
+     * Tests setCodeCentre()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class EmpRecapLodeomTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEtablissement() method.
+     * Tests setCodeEtablissement()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class EmpRecapLodeomTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeOrganisme() method.
+     * Tests setCodeOrganisme()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class EmpRecapLodeomTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDifference() method.
+     * Tests setDifference()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class EmpRecapLodeomTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndicePeriode() method.
+     * Tests setIndicePeriode()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class EmpRecapLodeomTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbhr() method.
+     * Tests setNbhr()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class EmpRecapLodeomTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomEmploye() method.
+     * Tests setNomEmploye()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class EmpRecapLodeomTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class EmpRecapLodeomTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriode() method.
+     * Tests setPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -159,7 +159,7 @@ class EmpRecapLodeomTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setReducBul() method.
+     * Tests setReducBul()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class EmpRecapLodeomTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setReducRecalc() method.
+     * Tests setReducRecalc()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class EmpRecapLodeomTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setShb() method.
+     * Tests setShb()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class EmpRecapLodeomTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

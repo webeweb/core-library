@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class RegulTvaTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeTva() method.
+     * Tests setCodeTva()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class RegulTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHt() method.
+     * Tests setHt()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class RegulTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle() method.
+     * Tests setLibelle()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class RegulTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLigne() method.
+     * Tests setLigne()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class RegulTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriode() method.
+     * Tests setPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -94,7 +94,7 @@ class RegulTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTtc() method.
+     * Tests setTtc()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class RegulTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTva() method.
+     * Tests setTva()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class RegulTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setType() method.
+     * Tests setType()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class RegulTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

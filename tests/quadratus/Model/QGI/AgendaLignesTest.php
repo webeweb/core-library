@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AgendaLignesTest extends AbstractTestCase {
 
     /**
-     * Tests the setBudgetNumUniq() method.
+     * Tests setBudgetNumUniq()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaborateur() method.
+     * Tests setCodeCollaborateur()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeMission() method.
+     * Tests setCodeMission()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTache() method.
+     * Tests setCodeTache()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCollCreation() method.
+     * Tests setCollCreation()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCollModif() method.
+     * Tests setCollModif()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setConfirme() method.
+     * Tests setConfirme()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCritereLibre() method.
+     * Tests setCritereLibre()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateCreation() method.
+     * Tests setDateCreation()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -159,7 +159,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateModif() method.
+     * Tests setDateModif()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -176,7 +176,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHeureDebut() method.
+     * Tests setHeureDebut()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -193,7 +193,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHeureFin() method.
+     * Tests setHeureFin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -210,7 +210,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setInterlocuteur() method.
+     * Tests setInterlocuteur()
      *
      * @return void
      */
@@ -223,7 +223,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIsTacheTp() method.
+     * Tests setIsTacheTp()
      *
      * @return void
      */
@@ -236,7 +236,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIsTransf() method.
+     * Tests setIsTransf()
      *
      * @return void
      */
@@ -249,7 +249,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJour() method.
+     * Tests setJour()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -266,7 +266,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMemoPlus() method.
+     * Tests setMemoPlus()
      *
      * @return void
      */
@@ -279,7 +279,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMessage() method.
+     * Tests setMessage()
      *
      * @return void
      */
@@ -292,7 +292,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumOrdreMission() method.
+     * Tests setNumOrdreMission()
      *
      * @return void
      */
@@ -305,7 +305,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumUniq() method.
+     * Tests setNumUniq()
      *
      * @return void
      */
@@ -318,7 +318,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumUniq2() method.
+     * Tests setNumUniq2()
      *
      * @return void
      */
@@ -331,7 +331,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPieceJointe() method.
+     * Tests setPieceJointe()
      *
      * @return void
      */
@@ -344,7 +344,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrive() method.
+     * Tests setPrive()
      *
      * @return void
      */
@@ -357,7 +357,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRecurrence() method.
+     * Tests setRecurrence()
      *
      * @return void
      */
@@ -370,7 +370,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeActivite() method.
+     * Tests setTypeActivite()
      *
      * @return void
      */
@@ -383,7 +383,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

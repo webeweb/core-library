@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class iComptaDroitsTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeCollabMessages() method.
+     * Tests setCodeCollabMessages()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeUser() method.
+     * Tests setCodeUser()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateLimiteVisu() method.
+     * Tests setDateLimiteVisu()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDroitClients() method.
+     * Tests setDroitClients()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDroitFournisseurs() method.
+     * Tests setDroitFournisseurs()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDroitGeneraux() method.
+     * Tests setDroitGeneraux()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDroitModifCompte() method.
+     * Tests setDroitModifCompte()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEspaceClient() method.
+     * Tests setEspaceClient()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFctBalanceClient() method.
+     * Tests setFctBalanceClient()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFctBalanceFournisseur() method.
+     * Tests setFctBalanceFournisseur()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFctBalanceGenerale() method.
+     * Tests setFctBalanceGenerale()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFctConsultDa() method.
+     * Tests setFctConsultDa()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFctConsultDc() method.
+     * Tests setFctConsultDc()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFctDeclareTva() method.
+     * Tests setFctDeclareTva()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFctDelettrage() method.
+     * Tests setFctDelettrage()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFctEditionJournaux() method.
+     * Tests setFctEditionJournaux()
      *
      * @return void
      */
@@ -237,7 +237,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFctInterrogationCpt() method.
+     * Tests setFctInterrogationCpt()
      *
      * @return void
      */
@@ -250,7 +250,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFctLettrage() method.
+     * Tests setFctLettrage()
      *
      * @return void
      */
@@ -263,7 +263,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFctModifEcriture() method.
+     * Tests setFctModifEcriture()
      *
      * @return void
      */
@@ -276,7 +276,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFctRapprochBanq() method.
+     * Tests setFctRapprochBanq()
      *
      * @return void
      */
@@ -289,7 +289,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFctSaisieAchats() method.
+     * Tests setFctSaisieAchats()
      *
      * @return void
      */
@@ -302,7 +302,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFctSaisieBanques() method.
+     * Tests setFctSaisieBanques()
      *
      * @return void
      */
@@ -315,7 +315,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFctSaisieCaisseOrientee() method.
+     * Tests setFctSaisieCaisseOrientee()
      *
      * @return void
      */
@@ -328,7 +328,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFctSaisieEtebac() method.
+     * Tests setFctSaisieEtebac()
      *
      * @return void
      */
@@ -341,7 +341,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFctSaisieStandard() method.
+     * Tests setFctSaisieStandard()
      *
      * @return void
      */
@@ -354,7 +354,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFctSaisieTrame() method.
+     * Tests setFctSaisieTrame()
      *
      * @return void
      */
@@ -367,7 +367,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFctSaisieVentes() method.
+     * Tests setFctSaisieVentes()
      *
      * @return void
      */
@@ -380,7 +380,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFctSupprEcriture() method.
+     * Tests setFctSupprEcriture()
      *
      * @return void
      */
@@ -393,7 +393,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFctTableBord() method.
+     * Tests setFctTableBord()
      *
      * @return void
      */
@@ -406,7 +406,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFlag() method.
+     * Tests setFlag()
      *
      * @return void
      */
@@ -419,7 +419,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNiveauDroitClients() method.
+     * Tests setNiveauDroitClients()
      *
      * @return void
      */
@@ -432,7 +432,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNiveauDroitFournisseurs() method.
+     * Tests setNiveauDroitFournisseurs()
      *
      * @return void
      */
@@ -445,7 +445,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNiveauDroitGeneraux() method.
+     * Tests setNiveauDroitGeneraux()
      *
      * @return void
      */
@@ -458,7 +458,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNoDossCpta() method.
+     * Tests setNoDossCpta()
      *
      * @return void
      */
@@ -471,7 +471,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomUser() method.
+     * Tests setNomUser()
      *
      * @return void
      */
@@ -484,7 +484,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumiKey() method.
+     * Tests setNumiKey()
      *
      * @return void
      */
@@ -497,7 +497,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPassword() method.
+     * Tests setPassword()
      *
      * @return void
      */
@@ -510,7 +510,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeSaisieDeb() method.
+     * Tests setPeriodeSaisieDeb()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -527,7 +527,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeSaisieFin() method.
+     * Tests setPeriodeSaisieFin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -544,7 +544,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

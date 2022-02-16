@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DevisEntetesTest extends AbstractTestCase {
 
     /**
-     * Tests the setBtq() method.
+     * Tests setBtq()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCivilite() method.
+     * Tests setCivilite()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setClientProspect() method.
+     * Tests setClientProspect()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCommercial() method.
+     * Tests setCodeCommercial()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePays() method.
+     * Tests setCodePays()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePostal() method.
+     * Tests setCodePostal()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setComplement() method.
+     * Tests setComplement()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateCreation() method.
+     * Tests setDateCreation()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -146,7 +146,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateDevis() method.
+     * Tests setDateDevis()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -163,7 +163,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateModification() method.
+     * Tests setDateModification()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -180,7 +180,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtat() method.
+     * Tests setEtat()
      *
      * @return void
      */
@@ -193,7 +193,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle() method.
+     * Tests setLibelle()
      *
      * @return void
      */
@@ -206,7 +206,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLienDocument() method.
+     * Tests setLienDocument()
      *
      * @return void
      */
@@ -219,7 +219,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantHt() method.
+     * Tests setMontantHt()
      *
      * @return void
      */
@@ -232,7 +232,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomAdresse() method.
+     * Tests setNomAdresse()
      *
      * @return void
      */
@@ -245,7 +245,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomSuite() method.
+     * Tests setNomSuite()
      *
      * @return void
      */
@@ -258,7 +258,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomSuite2() method.
+     * Tests setNomSuite2()
      *
      * @return void
      */
@@ -271,7 +271,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomSuite3() method.
+     * Tests setNomSuite3()
      *
      * @return void
      */
@@ -284,7 +284,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomVille() method.
+     * Tests setNomVille()
      *
      * @return void
      */
@@ -297,7 +297,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomVoie() method.
+     * Tests setNomVoie()
      *
      * @return void
      */
@@ -310,7 +310,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumDevis() method.
+     * Tests setNumDevis()
      *
      * @return void
      */
@@ -323,7 +323,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumVoie() method.
+     * Tests setNumVoie()
      *
      * @return void
      */
@@ -336,7 +336,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroPj() method.
+     * Tests setNumeroPj()
      *
      * @return void
      */
@@ -349,7 +349,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setReference1() method.
+     * Tests setReference1()
      *
      * @return void
      */
@@ -362,7 +362,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setReference2() method.
+     * Tests setReference2()
      *
      * @return void
      */
@@ -375,7 +375,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setReference3() method.
+     * Tests setReference3()
      *
      * @return void
      */
@@ -388,7 +388,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setReference4() method.
+     * Tests setReference4()
      *
      * @return void
      */
@@ -401,7 +401,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxTva() method.
+     * Tests setTauxTva()
      *
      * @return void
      */
@@ -414,7 +414,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

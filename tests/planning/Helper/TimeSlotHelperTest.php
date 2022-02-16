@@ -44,7 +44,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the contains() method.
+     * Tests contains()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the equals() method.
+     * Tests equals()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -101,7 +101,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the fullJoin() method.
+     * Tests fullJoin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -133,7 +133,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the fullJoinWithout() method.
+     * Tests fullJoinWithout()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -189,7 +189,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the getDuration() method.
+     * Tests getDuration()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -207,7 +207,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the hasFullJoin() method.
+     * Tests hasFullJoin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -231,7 +231,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the hasInnerJoin() method.
+     * Tests hasInnerJoin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -255,7 +255,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the innerJoin() method.
+     * Tests innerJoin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -287,7 +287,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the leftJoin() method.
+     * Tests leftJoin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -319,7 +319,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the leftJoinWithout() method.
+     * Tests leftJoinWithout()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -361,7 +361,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the merge() method.
+     * Tests merge()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -402,7 +402,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the rightJoin() method.
+     * Tests rightJoin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -434,7 +434,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the rightJoinWithout() method.
+     * Tests rightJoinWithout()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.

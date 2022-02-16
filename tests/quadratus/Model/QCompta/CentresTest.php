@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class CentresTest extends AbstractTestCase {
 
     /**
-     * Tests the setAdresseRue1() method.
+     * Tests setAdresseRue1()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class CentresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdresseRue2() method.
+     * Tests setAdresseRue2()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class CentresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdresseVille() method.
+     * Tests setAdresseVille()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class CentresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCentreInactif() method.
+     * Tests setCentreInactif()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class CentresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCleRepartition() method.
+     * Tests setCleRepartition()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class CentresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCode() method.
+     * Tests setCode()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class CentresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateCreation() method.
+     * Tests setDateCreation()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class CentresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateDevis() method.
+     * Tests setDateDevis()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -137,7 +137,7 @@ class CentresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDescription() method.
+     * Tests setDescription()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class CentresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule() method.
+     * Tests setIntitule()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class CentresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMargeDirecte() method.
+     * Tests setMargeDirecte()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class CentresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNiveauRepartition() method.
+     * Tests setNiveauRepartition()
      *
      * @return void
      */
@@ -189,7 +189,7 @@ class CentresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOrdreEdition() method.
+     * Tests setOrdreEdition()
      *
      * @return void
      */
@@ -202,7 +202,7 @@ class CentresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRepartitionAna() method.
+     * Tests setRepartitionAna()
      *
      * @return void
      */
@@ -215,7 +215,7 @@ class CentresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRepartitionAuto() method.
+     * Tests setRepartitionAuto()
      *
      * @return void
      */
@@ -228,7 +228,7 @@ class CentresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setResponsable() method.
+     * Tests setResponsable()
      *
      * @return void
      */
@@ -241,7 +241,7 @@ class CentresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRestrictions() method.
+     * Tests setRestrictions()
      *
      * @return void
      */
@@ -254,7 +254,7 @@ class CentresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSuiviAnneeRecolte() method.
+     * Tests setSuiviAnneeRecolte()
      *
      * @return void
      */
@@ -267,7 +267,7 @@ class CentresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSuperficie() method.
+     * Tests setSuperficie()
      *
      * @return void
      */
@@ -280,7 +280,7 @@ class CentresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeCentre() method.
+     * Tests setTypeCentre()
      *
      * @return void
      */
@@ -293,7 +293,7 @@ class CentresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeSuivi() method.
+     * Tests setTypeSuivi()
      *
      * @return void
      */
@@ -306,7 +306,7 @@ class CentresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeSuiviAutreTexte() method.
+     * Tests setTypeSuiviAutreTexte()
      *
      * @return void
      */
@@ -319,7 +319,7 @@ class CentresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeSuiviAutreValeur() method.
+     * Tests setTypeSuiviAutreValeur()
      *
      * @return void
      */
@@ -332,7 +332,7 @@ class CentresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class PointageSynchroSupprimeTest extends AbstractTestCase {
 
     /**
-     * Tests the setCleEnreg() method.
+     * Tests setCleEnreg()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class PointageSynchroSupprimeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCreeParGenPrev() method.
+     * Tests setCreeParGenPrev()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class PointageSynchroSupprimeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomTable() method.
+     * Tests setNomTable()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class PointageSynchroSupprimeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTimeSuppression() method.
+     * Tests setTimeSuppression()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class PointageSynchroSupprimeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniqIdSynchro() method.
+     * Tests setUniqIdSynchro()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class PointageSynchroSupprimeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

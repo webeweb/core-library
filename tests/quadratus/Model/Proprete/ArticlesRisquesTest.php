@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ArticlesRisquesTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeArticle() method.
+     * Tests setCodeArticle()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ArticlesRisquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRisque() method.
+     * Tests setCodeRisque()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ArticlesRisquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

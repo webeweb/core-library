@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AffectationMaterielTest extends AbstractTestCase {
 
     /**
-     * Tests the setBudgetDepenseEuro() method.
+     * Tests setBudgetDepenseEuro()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AffectationMaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBudgetDepenseFrf() method.
+     * Tests setBudgetDepenseFrf()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AffectationMaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAffaire() method.
+     * Tests setCodeAffaire()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AffectationMaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeChantier() method.
+     * Tests setCodeChantier()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class AffectationMaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class AffectationMaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeMateriel() method.
+     * Tests setCodeMateriel()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class AffectationMaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTache() method.
+     * Tests setCodeTache()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class AffectationMaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDebutAffect() method.
+     * Tests setDebutAffect()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -133,7 +133,7 @@ class AffectationMaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFinAffect() method.
+     * Tests setFinAffect()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -150,7 +150,7 @@ class AffectationMaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPourcentUtilise() method.
+     * Tests setPourcentUtilise()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class AffectationMaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

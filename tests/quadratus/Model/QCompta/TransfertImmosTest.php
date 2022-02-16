@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class TransfertImmosTest extends AbstractTestCase {
 
     /**
-     * Tests the setCptDerCap() method.
+     * Tests setCptDerCap()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class TransfertImmosTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCptDerDot() method.
+     * Tests setCptDerDot()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class TransfertImmosTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCptDerMaj() method.
+     * Tests setCptDerMaj()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class TransfertImmosTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCptDerRep() method.
+     * Tests setCptDerRep()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class TransfertImmosTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCptDotCor() method.
+     * Tests setCptDotCor()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class TransfertImmosTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCptDotExc() method.
+     * Tests setCptDotExc()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class TransfertImmosTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCptDotFin() method.
+     * Tests setCptDotFin()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class TransfertImmosTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCptDotInc() method.
+     * Tests setCptDotInc()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class TransfertImmosTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCptValCor() method.
+     * Tests setCptValCor()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class TransfertImmosTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCptValExc() method.
+     * Tests setCptValExc()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class TransfertImmosTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCptValFin() method.
+     * Tests setCptValFin()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class TransfertImmosTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCptValInc() method.
+     * Tests setCptValInc()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class TransfertImmosTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

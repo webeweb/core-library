@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class Fillon2012Test extends AbstractTestCase {
 
     /**
-     * Tests the setCoeff() method.
+     * Tests setCoeff()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class Fillon2012Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setForce() method.
+     * Tests setForce()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class Fillon2012Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndicePeriode() method.
+     * Tests setIndicePeriode()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class Fillon2012Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHSupFillon() method.
+     * Tests setNbHSupFillon()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class Fillon2012Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class Fillon2012Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriode() method.
+     * Tests setPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -107,7 +107,7 @@ class Fillon2012Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setReducFillon() method.
+     * Tests setReducFillon()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class Fillon2012Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setReducFillonMajoHe() method.
+     * Tests setReducFillonMajoHe()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class Fillon2012Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRmb() method.
+     * Tests setRmb()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class Fillon2012Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRmbMajoHe() method.
+     * Tests setRmbMajoHe()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class Fillon2012Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSmicM() method.
+     * Tests setSmicM()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class Fillon2012Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

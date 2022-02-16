@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class RepertoireColTest extends AbstractTestCase {
 
     /**
-     * Tests the setAdresse1() method.
+     * Tests setAdresse1()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class RepertoireColTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdresse2() method.
+     * Tests setAdresse2()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class RepertoireColTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdresse3() method.
+     * Tests setAdresse3()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class RepertoireColTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCode() method.
+     * Tests setCode()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class RepertoireColTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaborateur() method.
+     * Tests setCodeCollaborateur()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class RepertoireColTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeComp() method.
+     * Tests setCodeComp()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class RepertoireColTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCollModif() method.
+     * Tests setCollModif()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class RepertoireColTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCommentaire() method.
+     * Tests setCommentaire()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class RepertoireColTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateModif() method.
+     * Tests setDateModif()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -146,7 +146,7 @@ class RepertoireColTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmail() method.
+     * Tests setEmail()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class RepertoireColTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmail2() method.
+     * Tests setEmail2()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class RepertoireColTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFlagTel() method.
+     * Tests setFlagTel()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class RepertoireColTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFlagTel2() method.
+     * Tests setFlagTel2()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class RepertoireColTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFlagTel3() method.
+     * Tests setFlagTel3()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class RepertoireColTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFlagTel4() method.
+     * Tests setFlagTel4()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class RepertoireColTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLdapAdsPath() method.
+     * Tests setLdapAdsPath()
      *
      * @return void
      */
@@ -237,7 +237,7 @@ class RepertoireColTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNom() method.
+     * Tests setNom()
      *
      * @return void
      */
@@ -250,7 +250,7 @@ class RepertoireColTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumSousRep() method.
+     * Tests setNumSousRep()
      *
      * @return void
      */
@@ -263,7 +263,7 @@ class RepertoireColTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumUniq() method.
+     * Tests setNumUniq()
      *
      * @return void
      */
@@ -276,7 +276,7 @@ class RepertoireColTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrenom() method.
+     * Tests setPrenom()
      *
      * @return void
      */
@@ -289,7 +289,7 @@ class RepertoireColTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTel() method.
+     * Tests setTel()
      *
      * @return void
      */
@@ -302,7 +302,7 @@ class RepertoireColTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTel2() method.
+     * Tests setTel2()
      *
      * @return void
      */
@@ -315,7 +315,7 @@ class RepertoireColTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTel3() method.
+     * Tests setTel3()
      *
      * @return void
      */
@@ -328,7 +328,7 @@ class RepertoireColTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTel4() method.
+     * Tests setTel4()
      *
      * @return void
      */
@@ -341,7 +341,7 @@ class RepertoireColTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniqId() method.
+     * Tests setUniqId()
      *
      * @return void
      */
@@ -354,7 +354,7 @@ class RepertoireColTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

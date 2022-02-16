@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ActionsCoTest extends AbstractTestCase {
 
     /**
-     * Tests the setCode() method.
+     * Tests setCode()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class ActionsCoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateCreation() method.
+     * Tests setDateCreation()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -55,7 +55,7 @@ class ActionsCoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateFinVie() method.
+     * Tests setDateFinVie()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -72,7 +72,7 @@ class ActionsCoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateModification() method.
+     * Tests setDateModification()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -89,7 +89,7 @@ class ActionsCoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle() method.
+     * Tests setLibelle()
      *
      * @return void
      */
@@ -102,7 +102,7 @@ class ActionsCoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelleMemo() method.
+     * Tests setLibelleMemo()
      *
      * @return void
      */
@@ -115,7 +115,7 @@ class ActionsCoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOpConfirmation() method.
+     * Tests setOpConfirmation()
      *
      * @return void
      */
@@ -128,7 +128,7 @@ class ActionsCoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOpContratSigne() method.
+     * Tests setOpContratSigne()
      *
      * @return void
      */
@@ -141,7 +141,7 @@ class ActionsCoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOpExplication() method.
+     * Tests setOpExplication()
      *
      * @return void
      */
@@ -154,7 +154,7 @@ class ActionsCoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOpInvitationIndiv() method.
+     * Tests setOpInvitationIndiv()
      *
      * @return void
      */
@@ -167,7 +167,7 @@ class ActionsCoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOpInvitationMasse() method.
+     * Tests setOpInvitationMasse()
      *
      * @return void
      */
@@ -180,7 +180,7 @@ class ActionsCoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOpPresence() method.
+     * Tests setOpPresence()
      *
      * @return void
      */
@@ -193,7 +193,7 @@ class ActionsCoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOpPriseRdv() method.
+     * Tests setOpPriseRdv()
      *
      * @return void
      */
@@ -206,7 +206,7 @@ class ActionsCoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOpRelance() method.
+     * Tests setOpRelance()
      *
      * @return void
      */
@@ -219,7 +219,7 @@ class ActionsCoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOpReponseInscrip() method.
+     * Tests setOpReponseInscrip()
      *
      * @return void
      */
@@ -232,7 +232,7 @@ class ActionsCoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOpReponseNegative() method.
+     * Tests setOpReponseNegative()
      *
      * @return void
      */
@@ -245,7 +245,7 @@ class ActionsCoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOpReservation() method.
+     * Tests setOpReservation()
      *
      * @return void
      */
@@ -258,7 +258,7 @@ class ActionsCoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

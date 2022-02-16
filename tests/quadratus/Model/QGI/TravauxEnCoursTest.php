@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class TravauxEnCoursTest extends AbstractTestCase {
 
     /**
-     * Tests the setCataloguee() method.
+     * Tests setCataloguee()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaborateurDest() method.
+     * Tests setCodeCollaborateurDest()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaborateurEntrant() method.
+     * Tests setCodeCollaborateurEntrant()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateAlerte() method.
+     * Tests setDateAlerte()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -94,7 +94,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateButoir() method.
+     * Tests setDateButoir()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -111,7 +111,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateEntree() method.
+     * Tests setDateEntree()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -128,7 +128,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateModif() method.
+     * Tests setDateModif()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -145,7 +145,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDemandeur() method.
+     * Tests setDemandeur()
      *
      * @return void
      */
@@ -158,7 +158,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEnvoiPostIt() method.
+     * Tests setEnvoiPostIt()
      *
      * @return void
      */
@@ -171,7 +171,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIdTravail() method.
+     * Tests setIdTravail()
      *
      * @return void
      */
@@ -184,7 +184,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule() method.
+     * Tests setIntitule()
      *
      * @return void
      */
@@ -197,7 +197,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomClient() method.
+     * Tests setNomClient()
      *
      * @return void
      */
@@ -210,7 +210,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPieceJointe() method.
+     * Tests setPieceJointe()
      *
      * @return void
      */
@@ -223,7 +223,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTravailFait() method.
+     * Tests setTravailFait()
      *
      * @return void
      */
@@ -236,7 +236,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

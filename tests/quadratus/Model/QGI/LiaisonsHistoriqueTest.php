@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LiaisonsHistoriqueTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeCollab() method.
+     * Tests setCodeCollab()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class LiaisonsHistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateLiaison() method.
+     * Tests setDateLiaison()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -55,7 +55,7 @@ class LiaisonsHistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateRetourPrevue() method.
+     * Tests setDateRetourPrevue()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -72,7 +72,7 @@ class LiaisonsHistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDestinataire() method.
+     * Tests setDestinataire()
      *
      * @return void
      */
@@ -85,7 +85,7 @@ class LiaisonsHistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setModules() method.
+     * Tests setModules()
      *
      * @return void
      */
@@ -98,7 +98,7 @@ class LiaisonsHistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setModulesBloques() method.
+     * Tests setModulesBloques()
      *
      * @return void
      */
@@ -111,7 +111,7 @@ class LiaisonsHistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumUniq() method.
+     * Tests setNumUniq()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class LiaisonsHistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroDossier() method.
+     * Tests setNumeroDossier()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class LiaisonsHistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSens() method.
+     * Tests setSens()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class LiaisonsHistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeLiaison() method.
+     * Tests setTypeLiaison()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class LiaisonsHistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

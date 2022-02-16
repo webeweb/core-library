@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DevisProgEntetesTest extends AbstractTestCase {
 
     /**
-     * Tests the setDesignation() method.
+     * Tests setDesignation()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class DevisProgEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumDevis() method.
+     * Tests setNumDevis()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class DevisProgEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumProgramme() method.
+     * Tests setNumProgramme()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class DevisProgEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

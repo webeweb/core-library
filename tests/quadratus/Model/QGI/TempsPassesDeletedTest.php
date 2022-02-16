@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class TempsPassesDeletedTest extends AbstractTestCase {
 
     /**
-     * Tests the setContexte() method.
+     * Tests setContexte()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class TempsPassesDeletedTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateSuppression() method.
+     * Tests setDateSuppression()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -55,7 +55,7 @@ class TempsPassesDeletedTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGUniqId() method.
+     * Tests setGUniqId()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class TempsPassesDeletedTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUser() method.
+     * Tests setUser()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class TempsPassesDeletedTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

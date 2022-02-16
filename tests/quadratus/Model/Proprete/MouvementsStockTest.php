@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class MouvementsStockTest extends AbstractTestCase {
 
     /**
-     * Tests the setBonSortie() method.
+     * Tests setBonSortie()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class MouvementsStockTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAffaire() method.
+     * Tests setCodeAffaire()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class MouvementsStockTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeArticle() method.
+     * Tests setCodeArticle()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class MouvementsStockTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeChantier() method.
+     * Tests setCodeChantier()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class MouvementsStockTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class MouvementsStockTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeDepot() method.
+     * Tests setCodeDepot()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class MouvementsStockTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeDevise() method.
+     * Tests setCodeDevise()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class MouvementsStockTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeFournisseur() method.
+     * Tests setCodeFournisseur()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class MouvementsStockTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTache() method.
+     * Tests setCodeTache()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class MouvementsStockTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeVariante() method.
+     * Tests setCodeVariante()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class MouvementsStockTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCommentaire() method.
+     * Tests setCommentaire()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class MouvementsStockTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDate() method.
+     * Tests setDate()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -185,7 +185,7 @@ class MouvementsStockTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEuro() method.
+     * Tests setEuro()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class MouvementsStockTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndex() method.
+     * Tests setIndex()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class MouvementsStockTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMouvementGenere() method.
+     * Tests setMouvementGenere()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class MouvementsStockTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPosteRent() method.
+     * Tests setPosteRent()
      *
      * @return void
      */
@@ -237,7 +237,7 @@ class MouvementsStockTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrixU() method.
+     * Tests setPrixU()
      *
      * @return void
      */
@@ -250,7 +250,7 @@ class MouvementsStockTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQuantite() method.
+     * Tests setQuantite()
      *
      * @return void
      */
@@ -263,7 +263,7 @@ class MouvementsStockTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQuantiteVoulue() method.
+     * Tests setQuantiteVoulue()
      *
      * @return void
      */
@@ -276,7 +276,7 @@ class MouvementsStockTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemiseLigne1() method.
+     * Tests setRemiseLigne1()
      *
      * @return void
      */
@@ -289,7 +289,7 @@ class MouvementsStockTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemiseLigne2() method.
+     * Tests setRemiseLigne2()
      *
      * @return void
      */
@@ -302,7 +302,7 @@ class MouvementsStockTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemiseLigne3() method.
+     * Tests setRemiseLigne3()
      *
      * @return void
      */
@@ -315,7 +315,7 @@ class MouvementsStockTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setType() method.
+     * Tests setType()
      *
      * @return void
      */
@@ -328,7 +328,7 @@ class MouvementsStockTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeGestion() method.
+     * Tests setTypeGestion()
      *
      * @return void
      */
@@ -341,7 +341,7 @@ class MouvementsStockTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeLigne() method.
+     * Tests setTypeLigne()
      *
      * @return void
      */
@@ -354,7 +354,7 @@ class MouvementsStockTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

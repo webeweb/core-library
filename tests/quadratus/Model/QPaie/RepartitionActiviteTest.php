@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class RepartitionActiviteTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeService() method.
+     * Tests setCodeService()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class RepartitionActiviteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class RepartitionActiviteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxVentilation() method.
+     * Tests setTauxVentilation()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class RepartitionActiviteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

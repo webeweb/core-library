@@ -52,7 +52,7 @@ class FtpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the cdup() method.
+     * Tests cdup()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -71,7 +71,7 @@ class FtpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the chdir() method.
+     * Tests chdir()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -101,7 +101,7 @@ class FtpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the chmod() method.
+     * Tests chmod()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -133,7 +133,7 @@ class FtpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the connect() method.
+     * Tests connect()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -163,7 +163,7 @@ class FtpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the delete() method.
+     * Tests delete()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -195,7 +195,7 @@ class FtpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the fget() method.
+     * Tests fget()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -218,7 +218,7 @@ class FtpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the fget() method.
+     * Tests fget()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -255,7 +255,7 @@ class FtpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the fput() method.
+     * Tests fput()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -290,7 +290,7 @@ class FtpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the get() method.
+     * Tests get()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -308,7 +308,7 @@ class FtpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the get() method.
+     * Tests get()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -340,7 +340,7 @@ class FtpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the login() method.
+     * Tests login()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -371,7 +371,7 @@ class FtpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the mdtm() method.
+     * Tests mdtm()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -389,7 +389,7 @@ class FtpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the mdtm() method.
+     * Tests mdtm()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -419,7 +419,7 @@ class FtpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the mkdir() method.
+     * Tests mkdir()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -449,7 +449,7 @@ class FtpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the nbFget() method.
+     * Tests nbFget()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -472,7 +472,7 @@ class FtpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the nbFput() method.
+     * Tests nbFput()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -495,7 +495,7 @@ class FtpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the nbGet() method.
+     * Tests nbGet()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -513,7 +513,7 @@ class FtpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the nbPut() method.
+     * Tests nbPut()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -531,7 +531,7 @@ class FtpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the nlist() method.
+     * Tests nlist()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -549,7 +549,7 @@ class FtpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the nlist() method.
+     * Tests nlist()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -579,7 +579,7 @@ class FtpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the put() method.
+     * Tests put()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -611,7 +611,7 @@ class FtpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the pwd() method.
+     * Tests pwd()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -629,7 +629,7 @@ class FtpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the rawList() method.
+     * Tests rawList()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -659,7 +659,7 @@ class FtpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the rawList() method.
+     * Tests rawList()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -677,7 +677,7 @@ class FtpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the rename() method.
+     * Tests rename()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -709,7 +709,7 @@ class FtpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the rmdir() method.
+     * Tests rmdir()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -741,7 +741,7 @@ class FtpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the size() method.
+     * Tests size()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -759,7 +759,7 @@ class FtpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the size() method.
+     * Tests size()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -789,7 +789,7 @@ class FtpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the systype() method.
+     * Tests systype()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -807,7 +807,7 @@ class FtpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

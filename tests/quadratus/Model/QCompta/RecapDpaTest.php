@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class RecapDpaTest extends AbstractTestCase {
 
     /**
-     * Tests the setAleasClimat() method.
+     * Tests setAleasClimat()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class RecapDpaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAleasEco() method.
+     * Tests setAleasEco()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class RecapDpaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAnneeDed() method.
+     * Tests setAnneeDed()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class RecapDpaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAnneeUtilisation() method.
+     * Tests setAnneeUtilisation()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class RecapDpaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAutres() method.
+     * Tests setAutres()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class RecapDpaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFranchDommages() method.
+     * Tests setFranchDommages()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class RecapDpaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMttAnnee() method.
+     * Tests setMttAnnee()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class RecapDpaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrimesFranch() method.
+     * Tests setPrimesFranch()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class RecapDpaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

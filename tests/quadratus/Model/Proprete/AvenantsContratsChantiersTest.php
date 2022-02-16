@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AvenantsContratsChantiersTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeAbsence() method.
+     * Tests setCodeAbsence()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AvenantsContratsChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAffaire() method.
+     * Tests setCodeAffaire()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AvenantsContratsChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeChantier() method.
+     * Tests setCodeChantier()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AvenantsContratsChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class AvenantsContratsChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEmploye() method.
+     * Tests setCodeEmploye()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class AvenantsContratsChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTitulaire() method.
+     * Tests setCodeTitulaire()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class AvenantsContratsChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroAvenant() method.
+     * Tests setNumeroAvenant()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class AvenantsContratsChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroLigne() method.
+     * Tests setNumeroLigne()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class AvenantsContratsChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemplaceAu() method.
+     * Tests setRemplaceAu()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -146,7 +146,7 @@ class AvenantsContratsChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemplaceDu() method.
+     * Tests setRemplaceDu()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -163,7 +163,7 @@ class AvenantsContratsChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeDocument() method.
+     * Tests setTypeDocument()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class AvenantsContratsChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

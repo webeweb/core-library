@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DeclarationCafatTest extends AbstractTestCase {
 
     /**
-     * Tests the setAdresse1() method.
+     * Tests setAdresse1()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdresse2() method.
+     * Tests setAdresse2()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdresse3() method.
+     * Tests setAdresse3()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCotis() method.
+     * Tests setCodeCotis()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEtablissement() method.
+     * Tests setCodeEtablissement()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateDeclaration() method.
+     * Tests setDateDeclaration()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -107,7 +107,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLienDocument() method.
+     * Tests setLienDocument()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtAutreDeduction() method.
+     * Tests setMtAutreDeduction()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtDeductionAcompte() method.
+     * Tests setMtDeductionAcompte()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtDeductionAcompte1() method.
+     * Tests setMtDeductionAcompte1()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtDeductionAcompte2() method.
+     * Tests setMtDeductionAcompte2()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbSalaries() method.
+     * Tests setNbSalaries()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNoCotisant() method.
+     * Tests setNoCotisant()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOrganisme() method.
+     * Tests setOrganisme()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPasDePersonnel() method.
+     * Tests setPasDePersonnel()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPasDeReembauche() method.
+     * Tests setPasDeReembauche()
      *
      * @return void
      */
@@ -237,7 +237,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeDecla() method.
+     * Tests setPeriodeDecla()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -254,7 +254,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPlafond1RuammTr2() method.
+     * Tests setPlafond1RuammTr2()
      *
      * @return void
      */
@@ -267,7 +267,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPlafond2RuammTr2() method.
+     * Tests setPlafond2RuammTr2()
      *
      * @return void
      */
@@ -280,7 +280,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPlafondAutreRegime() method.
+     * Tests setPlafondAutreRegime()
      *
      * @return void
      */
@@ -293,7 +293,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPlafondFsh() method.
+     * Tests setPlafondFsh()
      *
      * @return void
      */
@@ -306,7 +306,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPlafondMaladie() method.
+     * Tests setPlafondMaladie()
      *
      * @return void
      */
@@ -319,7 +319,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPlafondSalaire() method.
+     * Tests setPlafondSalaire()
      *
      * @return void
      */
@@ -332,7 +332,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRaisonSociale() method.
+     * Tests setRaisonSociale()
      *
      * @return void
      */
@@ -345,7 +345,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRid() method.
+     * Tests setRid()
      *
      * @return void
      */
@@ -358,7 +358,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSecteur() method.
+     * Tests setSecteur()
      *
      * @return void
      */
@@ -371,7 +371,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxAt() method.
+     * Tests setTauxAt()
      *
      * @return void
      */
@@ -384,7 +384,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxAutreRegime() method.
+     * Tests setTauxAutreRegime()
      *
      * @return void
      */
@@ -397,7 +397,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxCcs() method.
+     * Tests setTauxCcs()
      *
      * @return void
      */
@@ -410,7 +410,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxFsh() method.
+     * Tests setTauxFsh()
      *
      * @return void
      */
@@ -423,7 +423,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxMaladie() method.
+     * Tests setTauxMaladie()
      *
      * @return void
      */
@@ -436,7 +436,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxRuammTr2() method.
+     * Tests setTauxRuammTr2()
      *
      * @return void
      */
@@ -449,7 +449,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTotalCotisAutreRegime() method.
+     * Tests setTotalCotisAutreRegime()
      *
      * @return void
      */
@@ -462,7 +462,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTotalCotisCcs() method.
+     * Tests setTotalCotisCcs()
      *
      * @return void
      */
@@ -475,7 +475,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTotalCotisFsh() method.
+     * Tests setTotalCotisFsh()
      *
      * @return void
      */
@@ -488,7 +488,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTotalCotisMaladie() method.
+     * Tests setTotalCotisMaladie()
      *
      * @return void
      */
@@ -501,7 +501,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTotalCotisRuammTr2() method.
+     * Tests setTotalCotisRuammTr2()
      *
      * @return void
      */
@@ -514,7 +514,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTotalRemuneration() method.
+     * Tests setTotalRemuneration()
      *
      * @return void
      */
@@ -527,7 +527,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTotalRuammTr2() method.
+     * Tests setTotalRuammTr2()
      *
      * @return void
      */
@@ -540,7 +540,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTotalSalaireAutreRegime() method.
+     * Tests setTotalSalaireAutreRegime()
      *
      * @return void
      */
@@ -553,7 +553,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTotalSalaireCcs() method.
+     * Tests setTotalSalaireCcs()
      *
      * @return void
      */
@@ -566,7 +566,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTotalSalaireFsh() method.
+     * Tests setTotalSalaireFsh()
      *
      * @return void
      */
@@ -579,7 +579,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTotalSalaireMaladie() method.
+     * Tests setTotalSalaireMaladie()
      *
      * @return void
      */
@@ -592,7 +592,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

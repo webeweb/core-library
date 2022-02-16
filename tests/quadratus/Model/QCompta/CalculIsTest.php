@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class CalculIsTest extends AbstractTestCase {
 
     /**
-     * Tests the setCorrespondance() method.
+     * Tests setCorrespondance()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class CalculIsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle() method.
+     * Tests setLibelle()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class CalculIsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontant() method.
+     * Tests setMontant()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class CalculIsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantN1() method.
+     * Tests setMontantN1()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class CalculIsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumUniq() method.
+     * Tests setNumUniq()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class CalculIsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeLigne() method.
+     * Tests setTypeLigne()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class CalculIsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

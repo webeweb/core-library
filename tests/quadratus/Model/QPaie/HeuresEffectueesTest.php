@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class HeuresEffectueesTest extends AbstractTestCase {
 
     /**
-     * Tests the setDateJour() method.
+     * Tests setDateJour()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -42,7 +42,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHDebAm() method.
+     * Tests setHDebAm()
      *
      * @return void
      */
@@ -55,7 +55,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHDebPm() method.
+     * Tests setHDebPm()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHFinAm() method.
+     * Tests setHFinAm()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHFinPm() method.
+     * Tests setHFinPm()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHAbsenceCp() method.
+     * Tests setNbHAbsenceCp()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHMajo() method.
+     * Tests setNbHMajo()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHNuit() method.
+     * Tests setNbHNuit()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHReposCompPris() method.
+     * Tests setNbHReposCompPris()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHReposRemplacePris() method.
+     * Tests setNbHReposRemplacePris()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHTravailReel() method.
+     * Tests setNbHTravailReel()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHjfnt() method.
+     * Tests setNbHjfnt()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJReposRecupPris() method.
+     * Tests setNbJReposRecupPris()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJourCpPris() method.
+     * Tests setNbJourCpPris()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

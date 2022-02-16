@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DadsubtpTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeEtablissement() method.
+     * Tests setCodeEtablissement()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class DadsubtpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeOrganisme() method.
+     * Tests setCodeOrganisme()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class DadsubtpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTempsArret() method.
+     * Tests setCodeTempsArret()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class DadsubtpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDebutPeriode() method.
+     * Tests setDebutPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class DadsubtpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFinPeriode() method.
+     * Tests setFinPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -98,7 +98,7 @@ class DadsubtpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantEmployeur() method.
+     * Tests setMontantEmployeur()
      *
      * @return void
      */
@@ -111,7 +111,7 @@ class DadsubtpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumero() method.
+     * Tests setNumero()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class DadsubtpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroOrdre() method.
+     * Tests setNumeroOrdre()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class DadsubtpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQualifUniteTemps() method.
+     * Tests setQualifUniteTemps()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class DadsubtpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTempsArret() method.
+     * Tests setTempsArret()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class DadsubtpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeArret() method.
+     * Tests setTypeArret()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class DadsubtpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

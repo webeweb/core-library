@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AffectationAna3Test extends AbstractTestCase {
 
     /**
-     * Tests the setAnneeRecolte() method.
+     * Tests setAnneeRecolte()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class AffectationAna3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCentre() method.
+     * Tests setCodeCentre()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class AffectationAna3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeNature() method.
+     * Tests setCodeNature()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class AffectationAna3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontant() method.
+     * Tests setMontant()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class AffectationAna3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumCompte() method.
+     * Tests setNumCompte()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class AffectationAna3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPourcentage() method.
+     * Tests setPourcentage()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class AffectationAna3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQuantite1() method.
+     * Tests setQuantite1()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class AffectationAna3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQuantite2() method.
+     * Tests setQuantite2()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class AffectationAna3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSens() method.
+     * Tests setSens()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class AffectationAna3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

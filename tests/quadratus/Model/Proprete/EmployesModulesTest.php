@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EmployesModulesTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeEmploye() method.
+     * Tests setCodeEmploye()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class EmployesModulesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDebutModulation() method.
+     * Tests setDebutModulation()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -55,7 +55,7 @@ class EmployesModulesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEcartCumuleInit() method.
+     * Tests setEcartCumuleInit()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class EmployesModulesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFinModulation() method.
+     * Tests setFinModulation()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -85,7 +85,7 @@ class EmployesModulesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeEcartCumule() method.
+     * Tests setPeriodeEcartCumule()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -102,7 +102,7 @@ class EmployesModulesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

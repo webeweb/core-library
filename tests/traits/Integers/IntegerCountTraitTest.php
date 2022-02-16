@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Integers\TestIntegerCountTrait;
 class IntegerCountTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setCount() method.
+     * Tests setCount()
      *
      * @return void
      */

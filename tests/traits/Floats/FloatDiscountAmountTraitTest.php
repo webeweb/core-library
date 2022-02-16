@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Floats\TestFloatDiscountAmountTrait;
 class FloatDiscountAmountTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setDiscountAmount() method.
+     * Tests setDiscountAmount()
      *
      * @return void
      */

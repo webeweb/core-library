@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringKeyTrait;
 class StringKeyTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setKey() method.
+     * Tests setKey()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ControleSalairesTest extends AbstractTestCase {
 
     /**
-     * Tests the setBrut() method.
+     * Tests setBrut()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class ControleSalairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCotisPatronales() method.
+     * Tests setCotisPatronales()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class ControleSalairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCotisSalariales() method.
+     * Tests setCotisSalariales()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class ControleSalairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHeures() method.
+     * Tests setHeures()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class ControleSalairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriode() method.
+     * Tests setPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -94,7 +94,7 @@ class ControleSalairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPlafond() method.
+     * Tests setPlafond()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class ControleSalairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

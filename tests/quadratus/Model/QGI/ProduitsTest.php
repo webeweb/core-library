@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ProduitsTest extends AbstractTestCase {
 
     /**
-     * Tests the setCode() method.
+     * Tests setCode()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteur() method.
+     * Tests setCompteur()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCptMaj() method.
+     * Tests setCptMaj()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDernierNumero() method.
+     * Tests setDernierNumero()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFichierLicence() method.
+     * Tests setFichierLicence()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGammeWindows() method.
+     * Tests setGammeWindows()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class ProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule() method.
+     * Tests setIntitule()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class ProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLettreLicence() method.
+     * Tests setLettreLicence()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class ProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNom() method.
+     * Tests setNom()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class ProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomProdLicence() method.
+     * Tests setNomProdLicence()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class ProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

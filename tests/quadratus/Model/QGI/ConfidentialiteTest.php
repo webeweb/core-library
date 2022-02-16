@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ConfidentialiteTest extends AbstractTestCase {
 
     /**
-     * Tests the setActivationLstRestriArt() method.
+     * Tests setActivationLstRestriArt()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ConfidentialiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setActivationLstRestriCli() method.
+     * Tests setActivationLstRestriCli()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ConfidentialiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setActivationLstRestriFrn() method.
+     * Tests setActivationLstRestriFrn()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ConfidentialiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setActiveConfMenusQb() method.
+     * Tests setActiveConfMenusQb()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ConfidentialiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setActiveConfMenusQb2() method.
+     * Tests setActiveConfMenusQb2()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ConfidentialiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setActiveConfMenusQc() method.
+     * Tests setActiveConfMenusQc()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class ConfidentialiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setActiveConfMenusQfact() method.
+     * Tests setActiveConfMenusQfact()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class ConfidentialiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setActiveConfMenusQgi() method.
+     * Tests setActiveConfMenusQgi()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class ConfidentialiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setActiveConfMenusQp() method.
+     * Tests setActiveConfMenusQp()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class ConfidentialiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setActiveConfMenusQprop() method.
+     * Tests setActiveConfMenusQprop()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class ConfidentialiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setActiveConfMenusQtrs() method.
+     * Tests setActiveConfMenusQtrs()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class ConfidentialiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMasquerBaseAccess() method.
+     * Tests setMasquerBaseAccess()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class ConfidentialiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSelLstRestriArtDef() method.
+     * Tests setSelLstRestriArtDef()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class ConfidentialiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSelLstRestriCliDef() method.
+     * Tests setSelLstRestriCliDef()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class ConfidentialiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSelLstRestriFrnDef() method.
+     * Tests setSelLstRestriFrnDef()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class ConfidentialiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

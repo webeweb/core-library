@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AttestationAtTest extends AbstractTestCase {
 
     /**
-     * Tests the setAccident() method.
+     * Tests setAccident()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAccidentMoisEmbauche() method.
+     * Tests setAccidentMoisEmbauche()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdresse1() method.
+     * Tests setAdresse1()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdresse3() method.
+     * Tests setAdresse3()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAnciennete() method.
+     * Tests setAnciennete()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAutreVivtime() method.
+     * Tests setAutreVivtime()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCasPart() method.
+     * Tests setCasPart()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEtablissement() method.
+     * Tests setCodeEtablissement()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateAccident() method.
+     * Tests setDateAccident()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -146,7 +146,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateContrat() method.
+     * Tests setDateContrat()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -163,7 +163,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateNaissance() method.
+     * Tests setDateNaissance()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -180,7 +180,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDernHeure() method.
+     * Tests setDernHeure()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -197,7 +197,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDernJ() method.
+     * Tests setDernJ()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -214,7 +214,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmbauche() method.
+     * Tests setEmbauche()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -231,7 +231,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmploi() method.
+     * Tests setEmploi()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtblAAdresse1() method.
+     * Tests setEtblAAdresse1()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtblAAdresse2() method.
+     * Tests setEtblAAdresse2()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtblAAdresse3() method.
+     * Tests setEtblAAdresse3()
      *
      * @return void
      */
@@ -283,7 +283,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtblATel() method.
+     * Tests setEtblATel()
      *
      * @return void
      */
@@ -296,7 +296,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtblAdresse1() method.
+     * Tests setEtblAdresse1()
      *
      * @return void
      */
@@ -309,7 +309,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtblAdresse2() method.
+     * Tests setEtblAdresse2()
      *
      * @return void
      */
@@ -322,7 +322,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtblAdresse3() method.
+     * Tests setEtblAdresse3()
      *
      * @return void
      */
@@ -335,7 +335,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtblNatureActivite() method.
+     * Tests setEtblNatureActivite()
      *
      * @return void
      */
@@ -348,7 +348,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtblNoAdherent() method.
+     * Tests setEtblNoAdherent()
      *
      * @return void
      */
@@ -361,7 +361,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtblNomPrenom() method.
+     * Tests setEtblNomPrenom()
      *
      * @return void
      */
@@ -374,7 +374,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtblRaisonSociale() method.
+     * Tests setEtblRaisonSociale()
      *
      * @return void
      */
@@ -387,7 +387,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtblTel() method.
+     * Tests setEtblTel()
      *
      * @return void
      */
@@ -400,7 +400,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIban() method.
+     * Tests setIban()
      *
      * @return void
      */
@@ -413,7 +413,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntegral() method.
+     * Tests setIntegral()
      *
      * @return void
      */
@@ -426,7 +426,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntituleCompte() method.
+     * Tests setIntituleCompte()
      *
      * @return void
      */
@@ -439,7 +439,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLienDocument() method.
+     * Tests setLienDocument()
      *
      * @return void
      */
@@ -452,7 +452,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLieuNaissance() method.
+     * Tests setLieuNaissance()
      *
      * @return void
      */
@@ -465,7 +465,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMaintien() method.
+     * Tests setMaintien()
      *
      * @return void
      */
@@ -478,7 +478,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMaladiePro() method.
+     * Tests setMaladiePro()
      *
      * @return void
      */
@@ -491,7 +491,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMedecin() method.
+     * Tests setMedecin()
      *
      * @return void
      */
@@ -504,7 +504,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantCotisTheo() method.
+     * Tests setMontantCotisTheo()
      *
      * @return void
      */
@@ -517,7 +517,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantSalTheo() method.
+     * Tests setMontantSalTheo()
      *
      * @return void
      */
@@ -530,7 +530,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNationaliteAutre() method.
+     * Tests setNationaliteAutre()
      *
      * @return void
      */
@@ -543,7 +543,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNationaliteCee() method.
+     * Tests setNationaliteCee()
      *
      * @return void
      */
@@ -556,7 +556,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNationaliteFr() method.
+     * Tests setNationaliteFr()
      *
      * @return void
      */
@@ -569,7 +569,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNir() method.
+     * Tests setNir()
      *
      * @return void
      */
@@ -582,7 +582,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomEmploye() method.
+     * Tests setNomEmploye()
      *
      * @return void
      */
@@ -595,7 +595,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomMarital() method.
+     * Tests setNomMarital()
      *
      * @return void
      */
@@ -608,7 +608,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNonRepris() method.
+     * Tests setNonRepris()
      *
      * @return void
      */
@@ -621,7 +621,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumContrat() method.
+     * Tests setNumContrat()
      *
      * @return void
      */
@@ -634,7 +634,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroAttestation() method.
+     * Tests setNumeroAttestation()
      *
      * @return void
      */
@@ -647,7 +647,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -660,7 +660,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPartiel() method.
+     * Tests setPartiel()
      *
      * @return void
      */
@@ -673,7 +673,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPerReferenceAu() method.
+     * Tests setPerReferenceAu()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -690,7 +690,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPerReferenceCotisations() method.
+     * Tests setPerReferenceCotisations()
      *
      * @return void
      */
@@ -703,7 +703,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPerReferenceDu() method.
+     * Tests setPerReferenceDu()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -720,7 +720,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPerReferenceMontant() method.
+     * Tests setPerReferenceMontant()
      *
      * @return void
      */
@@ -733,7 +733,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPerReferenceNbHeures() method.
+     * Tests setPerReferenceNbHeures()
      *
      * @return void
      */
@@ -746,7 +746,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPerReferenceSalaires() method.
+     * Tests setPerReferenceSalaires()
      *
      * @return void
      */
@@ -759,7 +759,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeSubrAu() method.
+     * Tests setPeriodeSubrAu()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -776,7 +776,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeSubrDu() method.
+     * Tests setPeriodeSubrDu()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -793,7 +793,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrenomEmploye() method.
+     * Tests setPrenomEmploye()
      *
      * @return void
      */
@@ -806,7 +806,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQualification() method.
+     * Tests setQualification()
      *
      * @return void
      */
@@ -819,7 +819,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setReprise() method.
+     * Tests setReprise()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -836,7 +836,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRisqueAt() method.
+     * Tests setRisqueAt()
      *
      * @return void
      */
@@ -849,7 +849,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSalaireMini() method.
+     * Tests setSalaireMini()
      *
      * @return void
      */
@@ -862,7 +862,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSexe() method.
+     * Tests setSexe()
      *
      * @return void
      */
@@ -875,7 +875,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSignatureDate() method.
+     * Tests setSignatureDate()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -892,7 +892,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSignatureNom() method.
+     * Tests setSignatureNom()
      *
      * @return void
      */
@@ -905,7 +905,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSignatureQualite() method.
+     * Tests setSignatureQualite()
      *
      * @return void
      */
@@ -918,7 +918,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSignatureVille() method.
+     * Tests setSignatureVille()
      *
      * @return void
      */
@@ -931,7 +931,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSiret() method.
+     * Tests setSiret()
      *
      * @return void
      */
@@ -944,7 +944,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSubIntegral() method.
+     * Tests setSubIntegral()
      *
      * @return void
      */
@@ -957,7 +957,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSubPartiel() method.
+     * Tests setSubPartiel()
      *
      * @return void
      */
@@ -970,7 +970,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSubrogationDureeMax() method.
+     * Tests setSubrogationDureeMax()
      *
      * @return void
      */
@@ -983,7 +983,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSubrogationMontant() method.
+     * Tests setSubrogationMontant()
      *
      * @return void
      */
@@ -996,7 +996,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeAttestation() method.
+     * Tests setTypeAttestation()
      *
      * @return void
      */
@@ -1009,7 +1009,7 @@ class AttestationAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

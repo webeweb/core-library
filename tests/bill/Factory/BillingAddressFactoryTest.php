@@ -24,7 +24,7 @@ use WBW\Library\Bill\Tests\Fixtures\Model\TestBillingAddressTrait;
 class BillingAddressFactoryTest extends AbstractTestCase {
 
     /**
-     * Tests the copy() method.
+     * Tests copy()
      *
      * @return void
      */

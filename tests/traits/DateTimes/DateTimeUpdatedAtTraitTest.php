@@ -25,7 +25,7 @@ use WBW\Library\Traits\Tests\Fixtures\DateTimes\TestDateTimeUpdatedAtTrait;
 class DateTimeUpdatedAtTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setUpdatedAt() method.
+     * Tests setUpdatedAt()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.

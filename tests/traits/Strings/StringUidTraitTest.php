@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringUidTrait;
 class StringUidTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setUid() method.
+     * Tests setUid()
      *
      * @return void
      */

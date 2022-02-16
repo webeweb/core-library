@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ProgTypeEntetesTest extends AbstractTestCase {
 
     /**
-     * Tests the setDesignation() method.
+     * Tests setDesignation()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ProgTypeEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumProgramme() method.
+     * Tests setNumProgramme()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ProgTypeEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

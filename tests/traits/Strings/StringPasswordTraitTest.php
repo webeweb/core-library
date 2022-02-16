@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringPasswordTrait;
 class StringPasswordTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setPassword() method.
+     * Tests setPassword()
      *
      * @return void
      */

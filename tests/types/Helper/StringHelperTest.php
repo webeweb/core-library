@@ -24,7 +24,7 @@ use WBW\Library\Types\Tests\AbstractTestCase;
 class StringHelperTest extends AbstractTestCase {
 
     /**
-     * Tests the canonicalize() method.
+     * Tests canonicalize()
      *
      * @return void
      */
@@ -35,7 +35,7 @@ class StringHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the domNode() method.
+     * Tests domNode()
      *
      * @return void
      */
@@ -47,7 +47,7 @@ class StringHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the domNode() method.
+     * Tests domNode()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class StringHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the fileSize() method.
+     * Tests fileSize()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class StringHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the format() method.
+     * Tests format()
      *
      * @return void
      */
@@ -121,7 +121,7 @@ class StringHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the parseArray() method.
+     * Tests parseArray()
      *
      * @return void
      */
@@ -141,7 +141,7 @@ class StringHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the parseBoolean() method.
+     * Tests parseBoolean()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class StringHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the removeAccents() method.
+     * Tests removeAccents()
      *
      * @return void
      */
@@ -294,7 +294,7 @@ class StringHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the ucfirst() method.
+     * Tests ucfirst()
      *
      * @return void
      */
@@ -308,7 +308,7 @@ class StringHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the ucwords() method.
+     * Tests ucwords()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Image\Tests\AbstractTestCase;
 class ImageInterfaceTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

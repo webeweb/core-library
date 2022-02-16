@@ -23,7 +23,7 @@ use WBW\Library\Accounting\Tests\AbstractTestCase;
 class SerializerKeysTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @var string
      */

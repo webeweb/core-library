@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class SousLignesAnalAchatsTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeCentre() method.
+     * Tests setCodeCentre()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class SousLignesAnalAchatsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeFournisseur() method.
+     * Tests setCodeFournisseur()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class SousLignesAnalAchatsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeNature() method.
+     * Tests setCodeNature()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class SousLignesAnalAchatsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndiceLigne() method.
+     * Tests setIndiceLigne()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class SousLignesAnalAchatsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontant() method.
+     * Tests setMontant()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class SousLignesAnalAchatsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNoPiece() method.
+     * Tests setNoPiece()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class SousLignesAnalAchatsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroLigne() method.
+     * Tests setNumeroLigne()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class SousLignesAnalAchatsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroLigneAnal() method.
+     * Tests setNumeroLigneAnal()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class SousLignesAnalAchatsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

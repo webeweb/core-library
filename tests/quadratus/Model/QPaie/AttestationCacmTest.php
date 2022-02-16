@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AttestationCacmTest extends AbstractTestCase {
 
     /**
-     * Tests the setAdresseEmploye() method.
+     * Tests setAdresseEmploye()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAutreContrat() method.
+     * Tests setAutreContrat()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAutreStatut() method.
+     * Tests setAutreStatut()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEtablissement() method.
+     * Tests setCodeEtablissement()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeMotifRupture() method.
+     * Tests setCodeMotifRupture()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePostal() method.
+     * Tests setCodePostal()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateNaissance() method.
+     * Tests setDateNaissance()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateNotification() method.
+     * Tests setDateNotification()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -137,7 +137,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDatePaiement() method.
+     * Tests setDatePaiement()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -154,7 +154,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDernLieuTravail() method.
+     * Tests setDernLieuTravail()
      *
      * @return void
      */
@@ -167,7 +167,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDernierEmploi() method.
+     * Tests setDernierEmploi()
      *
      * @return void
      */
@@ -180,7 +180,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDtDebPreavisEffectue() method.
+     * Tests setDtDebPreavisEffectue()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -197,7 +197,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDtDebPreavisNonEffectue() method.
+     * Tests setDtDebPreavisNonEffectue()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -214,7 +214,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDtDebutEmploi() method.
+     * Tests setDtDebutEmploi()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -231,7 +231,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDtDernJourTrav() method.
+     * Tests setDtDernJourTrav()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -248,7 +248,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDtFinEmploi() method.
+     * Tests setDtFinEmploi()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -265,7 +265,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDtFinPreavisEffectue() method.
+     * Tests setDtFinPreavisEffectue()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -282,7 +282,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDtFinPreavisNonEffectue() method.
+     * Tests setDtFinPreavisNonEffectue()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -299,7 +299,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtblAdr() method.
+     * Tests setEtblAdr()
      *
      * @return void
      */
@@ -312,7 +312,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtblCacm() method.
+     * Tests setEtblCacm()
      *
      * @return void
      */
@@ -325,7 +325,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtblEffectif() method.
+     * Tests setEtblEffectif()
      *
      * @return void
      */
@@ -338,7 +338,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtblFax() method.
+     * Tests setEtblFax()
      *
      * @return void
      */
@@ -351,7 +351,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtblMail() method.
+     * Tests setEtblMail()
      *
      * @return void
      */
@@ -364,7 +364,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtblNaf() method.
+     * Tests setEtblNaf()
      *
      * @return void
      */
@@ -377,7 +377,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtblSiret() method.
+     * Tests setEtblSiret()
      *
      * @return void
      */
@@ -390,7 +390,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtblTel() method.
+     * Tests setEtblTel()
      *
      * @return void
      */
@@ -403,7 +403,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndemnAutre() method.
+     * Tests setIndemnAutre()
      *
      * @return void
      */
@@ -416,7 +416,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndemnLegale() method.
+     * Tests setIndemnLegale()
      *
      * @return void
      */
@@ -429,7 +429,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndemnLic() method.
+     * Tests setIndemnLic()
      *
      * @return void
      */
@@ -442,7 +442,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndemnSupp() method.
+     * Tests setIndemnSupp()
      *
      * @return void
      */
@@ -455,7 +455,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLienDocument() method.
+     * Tests setLienDocument()
      *
      * @return void
      */
@@ -468,7 +468,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLienParente() method.
+     * Tests setLienParente()
      *
      * @return void
      */
@@ -481,7 +481,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMotifPreavisNonPaye() method.
+     * Tests setMotifPreavisNonPaye()
      *
      * @return void
      */
@@ -494,7 +494,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMotifRupture() method.
+     * Tests setMotifRupture()
      *
      * @return void
      */
@@ -507,7 +507,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtIndemnAutre() method.
+     * Tests setMtIndemnAutre()
      *
      * @return void
      */
@@ -520,7 +520,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtIndemnLegale() method.
+     * Tests setMtIndemnLegale()
      *
      * @return void
      */
@@ -533,7 +533,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtIndemnLic() method.
+     * Tests setMtIndemnLic()
      *
      * @return void
      */
@@ -546,7 +546,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtIndemnSupp() method.
+     * Tests setMtIndemnSupp()
      *
      * @return void
      */
@@ -559,7 +559,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtSalaireBrut() method.
+     * Tests setMtSalaireBrut()
      *
      * @return void
      */
@@ -572,7 +572,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHeureMens() method.
+     * Tests setNbHeureMens()
      *
      * @return void
      */
@@ -585,7 +585,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNiveauQualif() method.
+     * Tests setNiveauQualif()
      *
      * @return void
      */
@@ -598,7 +598,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNoCacm() method.
+     * Tests setNoCacm()
      *
      * @return void
      */
@@ -611,7 +611,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNoCssm() method.
+     * Tests setNoCssm()
      *
      * @return void
      */
@@ -624,7 +624,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomMarital() method.
+     * Tests setNomMarital()
      *
      * @return void
      */
@@ -637,7 +637,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomNaissance() method.
+     * Tests setNomNaissance()
      *
      * @return void
      */
@@ -650,7 +650,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroAttestation() method.
+     * Tests setNumeroAttestation()
      *
      * @return void
      */
@@ -663,7 +663,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -676,7 +676,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOrganismeCacm() method.
+     * Tests setOrganismeCacm()
      *
      * @return void
      */
@@ -689,7 +689,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeEmploiDeb() method.
+     * Tests setPeriodeEmploiDeb()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -706,7 +706,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeEmploiFin() method.
+     * Tests setPeriodeEmploiFin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -723,7 +723,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPreavisNonEffectuePaye() method.
+     * Tests setPreavisNonEffectuePaye()
      *
      * @return void
      */
@@ -736,7 +736,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrenom() method.
+     * Tests setPrenom()
      *
      * @return void
      */
@@ -749,7 +749,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSignAutre() method.
+     * Tests setSignAutre()
      *
      * @return void
      */
@@ -762,7 +762,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSignDate() method.
+     * Tests setSignDate()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -779,7 +779,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSignFormJuridique() method.
+     * Tests setSignFormJuridique()
      *
      * @return void
      */
@@ -792,7 +792,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSignMotifRupture() method.
+     * Tests setSignMotifRupture()
      *
      * @return void
      */
@@ -805,7 +805,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSignNom() method.
+     * Tests setSignNom()
      *
      * @return void
      */
@@ -818,7 +818,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSignPrenom() method.
+     * Tests setSignPrenom()
      *
      * @return void
      */
@@ -831,7 +831,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSignQualite() method.
+     * Tests setSignQualite()
      *
      * @return void
      */
@@ -844,7 +844,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSignRaisonSociale() method.
+     * Tests setSignRaisonSociale()
      *
      * @return void
      */
@@ -857,7 +857,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setStatutCadre() method.
+     * Tests setStatutCadre()
      *
      * @return void
      */
@@ -870,7 +870,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setStatutJuridique() method.
+     * Tests setStatutJuridique()
      *
      * @return void
      */
@@ -883,7 +883,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setStatutParticulier() method.
+     * Tests setStatutParticulier()
      *
      * @return void
      */
@@ -896,7 +896,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTitre() method.
+     * Tests setTitre()
      *
      * @return void
      */
@@ -909,7 +909,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTitreLienParente() method.
+     * Tests setTitreLienParente()
      *
      * @return void
      */
@@ -922,7 +922,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeContrat() method.
+     * Tests setTypeContrat()
      *
      * @return void
      */
@@ -935,7 +935,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeHoraire() method.
+     * Tests setTypeHoraire()
      *
      * @return void
      */
@@ -948,7 +948,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

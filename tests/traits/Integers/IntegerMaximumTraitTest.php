@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Integers\TestIntegerMaximumTrait;
 class IntegerMaximumTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setMaximum() method.
+     * Tests setMaximum()
      *
      * @return void
      */

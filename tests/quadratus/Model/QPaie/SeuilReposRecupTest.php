@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class SeuilReposRecupTest extends AbstractTestCase {
 
     /**
-     * Tests the setDateApplication() method.
+     * Tests setDateApplication()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -42,7 +42,7 @@ class SeuilReposRecupTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJourReposRecup() method.
+     * Tests setNbJourReposRecup()
      *
      * @return void
      */
@@ -55,7 +55,7 @@ class SeuilReposRecupTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroGrilleType() method.
+     * Tests setNumeroGrilleType()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class SeuilReposRecupTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSeuilDeclenche() method.
+     * Tests setSeuilDeclenche()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class SeuilReposRecupTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EmpRecapCiceTest extends AbstractTestCase {
 
     /**
-     * Tests the setCaisseCp() method.
+     * Tests setCaisseCp()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class EmpRecapCiceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCentre() method.
+     * Tests setCodeCentre()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class EmpRecapCiceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEtablissement() method.
+     * Tests setCodeEtablissement()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class EmpRecapCiceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeOrganisme() method.
+     * Tests setCodeOrganisme()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class EmpRecapCiceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFractionEtab() method.
+     * Tests setFractionEtab()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class EmpRecapCiceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndicePeriode() method.
+     * Tests setIndicePeriode()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class EmpRecapCiceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomEmploye() method.
+     * Tests setNomEmploye()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class EmpRecapCiceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class EmpRecapCiceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriode() method.
+     * Tests setPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -146,7 +146,7 @@ class EmpRecapCiceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemunAssietteCice() method.
+     * Tests setRemunAssietteCice()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class EmpRecapCiceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemunBrutCice() method.
+     * Tests setRemunBrutCice()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class EmpRecapCiceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSmicMcice() method.
+     * Tests setSmicMcice()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class EmpRecapCiceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSortieMois() method.
+     * Tests setSortieMois()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class EmpRecapCiceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

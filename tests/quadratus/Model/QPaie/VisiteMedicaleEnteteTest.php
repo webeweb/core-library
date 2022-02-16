@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class VisiteMedicaleEnteteTest extends AbstractTestCase {
 
     /**
-     * Tests the setAdresseMt() method.
+     * Tests setAdresseMt()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCode() method.
+     * Tests setCode()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeMedecineTravail() method.
+     * Tests setCodeMedecineTravail()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePostalMt() method.
+     * Tests setCodePostalMt()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDebut1() method.
+     * Tests setDebut1()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -94,7 +94,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDebut2() method.
+     * Tests setDebut2()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -111,7 +111,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDebutSession() method.
+     * Tests setDebutSession()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -128,7 +128,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDescription() method.
+     * Tests setDescription()
      *
      * @return void
      */
@@ -141,7 +141,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDureeVisite() method.
+     * Tests setDureeVisite()
      *
      * @return void
      */
@@ -154,7 +154,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFin1() method.
+     * Tests setFin1()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -171,7 +171,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFin2() method.
+     * Tests setFin2()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -188,7 +188,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFinSession() method.
+     * Tests setFinSession()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -205,7 +205,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLientDocument() method.
+     * Tests setLientDocument()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMedecinResponsable() method.
+     * Tests setMedecinResponsable()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomMt() method.
+     * Tests setNomMt()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRdvJour1() method.
+     * Tests setRdvJour1()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRdvJour2() method.
+     * Tests setRdvJour2()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRdvJour3() method.
+     * Tests setRdvJour3()
      *
      * @return void
      */
@@ -283,7 +283,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRdvJour4() method.
+     * Tests setRdvJour4()
      *
      * @return void
      */
@@ -296,7 +296,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRdvJour5() method.
+     * Tests setRdvJour5()
      *
      * @return void
      */
@@ -309,7 +309,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRdvJour6() method.
+     * Tests setRdvJour6()
      *
      * @return void
      */
@@ -322,7 +322,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRdvJour7() method.
+     * Tests setRdvJour7()
      *
      * @return void
      */
@@ -335,7 +335,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTel1() method.
+     * Tests setTel1()
      *
      * @return void
      */
@@ -348,7 +348,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setVilleMt() method.
+     * Tests setVilleMt()
      *
      * @return void
      */
@@ -361,7 +361,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

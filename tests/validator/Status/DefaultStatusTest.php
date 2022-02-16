@@ -23,7 +23,7 @@ use WBW\Library\Validator\Tests\AbstractTestCase;
 class DefaultStatusTest extends AbstractTestCase {
 
     /**
-     * Tests the jsonSerialize() method.
+     * Tests jsonSerialize()
      *
      * @return void
      */
@@ -78,7 +78,7 @@ class DefaultStatusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

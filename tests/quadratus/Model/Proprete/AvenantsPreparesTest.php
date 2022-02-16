@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AvenantsPreparesTest extends AbstractTestCase {
 
     /**
-     * Tests the setChrono() method.
+     * Tests setChrono()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AvenantsPreparesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEmploye() method.
+     * Tests setCodeEmploye()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AvenantsPreparesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setContinuerVerif() method.
+     * Tests setContinuerVerif()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AvenantsPreparesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNom() method.
+     * Tests setNom()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class AvenantsPreparesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriode() method.
+     * Tests setPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -94,7 +94,7 @@ class AvenantsPreparesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrenom() method.
+     * Tests setPrenom()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class AvenantsPreparesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeDocument() method.
+     * Tests setTypeDocument()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class AvenantsPreparesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

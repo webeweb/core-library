@@ -26,7 +26,7 @@ use WBW\Library\Bill\Tests\Fixtures\Model\TestBillableDetail;
 class BillableDetailTest extends AbstractTestCase {
 
     /**
-     * Tests the jsonSerialize() method.
+     * Tests jsonSerialize()
      *
      * @return void
      */
@@ -60,7 +60,7 @@ class BillableDetailTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the onSubmit() method.
+     * Tests onSubmit()
      *
      * @return void
      */
@@ -93,7 +93,7 @@ class BillableDetailTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBillable() method.
+     * Tests setBillable()
      *
      * @return void
      */
@@ -109,7 +109,7 @@ class BillableDetailTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

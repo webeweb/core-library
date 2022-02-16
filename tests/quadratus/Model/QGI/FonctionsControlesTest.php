@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class FonctionsControlesTest extends AbstractTestCase {
 
     /**
-     * Tests the setIntitule() method.
+     * Tests setIntitule()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class FonctionsControlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMotControle() method.
+     * Tests setMotControle()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class FonctionsControlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setType() method.
+     * Tests setType()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class FonctionsControlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

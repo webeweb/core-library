@@ -25,7 +25,7 @@ use WBW\Library\Traits\Tests\Fixtures\DateTimes\TestDateTimeStartedAtTrait;
 class DateTimeStartedAtTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setStartedAt() method.
+     * Tests setStartedAt()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.

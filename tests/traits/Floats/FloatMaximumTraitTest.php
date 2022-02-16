@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Floats\TestFloatMaximumTrait;
 class FloatMaximumTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setMaximum() method.
+     * Tests setMaximum()
      *
      * @return void
      */

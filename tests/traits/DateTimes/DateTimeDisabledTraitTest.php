@@ -24,7 +24,7 @@ use WBW\Library\Traits\Tests\Fixtures\DateTimes\TestDateTimeDisabledTrait;
 class DateTimeDisabledTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setDisabled() method.
+     * Tests setDisabled()
      *
      * @return void
      */

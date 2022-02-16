@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DevisZbeTest extends AbstractTestCase {
 
     /**
-     * Tests the setBatiment() method.
+     * Tests setBatiment()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class DevisZbeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtage() method.
+     * Tests setEtage()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class DevisZbeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumDevis() method.
+     * Tests setNumDevis()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class DevisZbeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setZoneGeographique() method.
+     * Tests setZoneGeographique()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class DevisZbeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ChantiersDescriptifLocauxTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeAffaire() method.
+     * Tests setCodeAffaire()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class ChantiersDescriptifLocauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeChantier() method.
+     * Tests setCodeChantier()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class ChantiersDescriptifLocauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class ChantiersDescriptifLocauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaborateur() method.
+     * Tests setCodeCollaborateur()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class ChantiersDescriptifLocauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCritere1() method.
+     * Tests setCodeCritere1()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class ChantiersDescriptifLocauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCoefficient() method.
+     * Tests setCoefficient()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class ChantiersDescriptifLocauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateTransfert() method.
+     * Tests setDateTransfert()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class ChantiersDescriptifLocauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFamilleElements() method.
+     * Tests setFamilleElements()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class ChantiersDescriptifLocauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle() method.
+     * Tests setLibelle()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class ChantiersDescriptifLocauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelleCritere1() method.
+     * Tests setLibelleCritere1()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class ChantiersDescriptifLocauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNiveauNoeud() method.
+     * Tests setNiveauNoeud()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class ChantiersDescriptifLocauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNoeudLocal() method.
+     * Tests setNoeudLocal()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class ChantiersDescriptifLocauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNoteObjectif() method.
+     * Tests setNoteObjectif()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class ChantiersDescriptifLocauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroNoeud() method.
+     * Tests setNumeroNoeud()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class ChantiersDescriptifLocauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPoste() method.
+     * Tests setPoste()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class ChantiersDescriptifLocauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniqIdBlocage() method.
+     * Tests setUniqIdBlocage()
      *
      * @return void
      */
@@ -237,7 +237,7 @@ class ChantiersDescriptifLocauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniqIdNoeud() method.
+     * Tests setUniqIdNoeud()
      *
      * @return void
      */
@@ -250,7 +250,7 @@ class ChantiersDescriptifLocauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

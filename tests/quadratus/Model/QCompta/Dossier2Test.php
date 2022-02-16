@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class Dossier2Test extends AbstractTestCase {
 
     /**
-     * Tests the setAnneeRecolte() method.
+     * Tests setAnneeRecolte()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAppliquerRegroupement() method.
+     * Tests setAppliquerRegroupement()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCcaMemo() method.
+     * Tests setCcaMemo()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setClasse4ClientDebut() method.
+     * Tests setClasse4ClientDebut()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setClasse4ClientFin() method.
+     * Tests setClasse4ClientFin()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setClasse4FrnDebut() method.
+     * Tests setClasse4FrnDebut()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setClasse4FrnFin() method.
+     * Tests setClasse4FrnFin()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodifClasse0() method.
+     * Tests setCodifClasse0()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodifClasse0Seule() method.
+     * Tests setCodifClasse0Seule()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodifClasse9() method.
+     * Tests setCodifClasse9()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodifClasse9Seule() method.
+     * Tests setCodifClasse9Seule()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCollectifClientDebut() method.
+     * Tests setCollectifClientDebut()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCollectifClientDefaut() method.
+     * Tests setCollectifClientDefaut()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCollectifClientFin() method.
+     * Tests setCollectifClientFin()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCollectifFrnDebut() method.
+     * Tests setCollectifFrnDebut()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCollectifFrnDefaut() method.
+     * Tests setCollectifFrnDefaut()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCollectifFrnFin() method.
+     * Tests setCollectifFrnFin()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCollectifSocDebut() method.
+     * Tests setCollectifSocDebut()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCollectifSocFin() method.
+     * Tests setCollectifSocFin()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCombiLettrageAuto() method.
+     * Tests setCombiLettrageAuto()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCommentaireDossier() method.
+     * Tests setCommentaireDossier()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setControlSalaireCptEx() method.
+     * Tests setControlSalaireCptEx()
      *
      * @return void
      */
@@ -311,7 +311,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setControlSalaireObs() method.
+     * Tests setControlSalaireObs()
      *
      * @return void
      */
@@ -324,7 +324,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDads1LivrePaie() method.
+     * Tests setDads1LivrePaie()
      *
      * @return void
      */
@@ -337,7 +337,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDads1Paie() method.
+     * Tests setDads1Paie()
      *
      * @return void
      */
@@ -350,7 +350,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDads1RemuMoins() method.
+     * Tests setDads1RemuMoins()
      *
      * @return void
      */
@@ -363,7 +363,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDads1RemuPlus() method.
+     * Tests setDads1RemuPlus()
      *
      * @return void
      */
@@ -376,7 +376,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateCalculProvCp() method.
+     * Tests setDateCalculProvCp()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -393,7 +393,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDatePublication() method.
+     * Tests setDatePublication()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -410,7 +410,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateRazEcritures() method.
+     * Tests setDateRazEcritures()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -427,7 +427,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDernierCompteClient() method.
+     * Tests setDernierCompteClient()
      *
      * @return void
      */
@@ -440,7 +440,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDernierCompteFrn() method.
+     * Tests setDernierCompteFrn()
      *
      * @return void
      */
@@ -453,7 +453,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDiffLettrageCodeJournal() method.
+     * Tests setDiffLettrageCodeJournal()
      *
      * @return void
      */
@@ -466,7 +466,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDiffLettrageCodeLibelle() method.
+     * Tests setDiffLettrageCodeLibelle()
      *
      * @return void
      */
@@ -479,7 +479,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDiffLettrageFolio() method.
+     * Tests setDiffLettrageFolio()
      *
      * @return void
      */
@@ -492,7 +492,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDiffLettrageGains() method.
+     * Tests setDiffLettrageGains()
      *
      * @return void
      */
@@ -505,7 +505,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDiffLettrageLibelle() method.
+     * Tests setDiffLettrageLibelle()
      *
      * @return void
      */
@@ -518,7 +518,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDiffLettragePertes() method.
+     * Tests setDiffLettragePertes()
      *
      * @return void
      */
@@ -531,7 +531,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDsCodeCollab() method.
+     * Tests setDsCodeCollab()
      *
      * @return void
      */
@@ -544,7 +544,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDsDateRetour() method.
+     * Tests setDsDateRetour()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -561,7 +561,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDsDateSortie() method.
+     * Tests setDsDateSortie()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -578,7 +578,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEcartMaxiLettrageAuto() method.
+     * Tests setEcartMaxiLettrageAuto()
      *
      * @return void
      */
@@ -591,7 +591,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEcartMiniCtrlTva() method.
+     * Tests setEcartMiniCtrlTva()
      *
      * @return void
      */
@@ -604,7 +604,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEditerEnCfa() method.
+     * Tests setEditerEnCfa()
      *
      * @return void
      */
@@ -617,7 +617,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtatProvCpObs() method.
+     * Tests setEtatProvCpObs()
      *
      * @return void
      */
@@ -630,7 +630,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFaireControleLettrage() method.
+     * Tests setFaireControleLettrage()
      *
      * @return void
      */
@@ -643,7 +643,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIncrementCompteAuto() method.
+     * Tests setIncrementCompteAuto()
      *
      * @return void
      */
@@ -656,7 +656,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibellePlusDe30Carac() method.
+     * Tests setLibellePlusDe30Carac()
      *
      * @return void
      */
@@ -669,7 +669,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLienSaiImmos() method.
+     * Tests setLienSaiImmos()
      *
      * @return void
      */
@@ -682,7 +682,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLongueurPieceLettrage() method.
+     * Tests setLongueurPieceLettrage()
      *
      * @return void
      */
@@ -695,7 +695,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbComptesRaz() method.
+     * Tests setNbComptesRaz()
      *
      * @return void
      */
@@ -708,7 +708,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbDecimalesMt() method.
+     * Tests setNbDecimalesMt()
      *
      * @return void
      */
@@ -721,7 +721,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbEcrAFacturerCloture() method.
+     * Tests setNbEcrAFacturerCloture()
      *
      * @return void
      */
@@ -734,7 +734,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbEcrituresRaz() method.
+     * Tests setNbEcrituresRaz()
      *
      * @return void
      */
@@ -747,7 +747,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJourBaseCp() method.
+     * Tests setNbJourBaseCp()
      *
      * @return void
      */
@@ -760,7 +760,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNivRuptClasse0() method.
+     * Tests setNivRuptClasse0()
      *
      * @return void
      */
@@ -773,7 +773,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNivRuptClasse1() method.
+     * Tests setNivRuptClasse1()
      *
      * @return void
      */
@@ -786,7 +786,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNivRuptClasse2() method.
+     * Tests setNivRuptClasse2()
      *
      * @return void
      */
@@ -799,7 +799,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNivRuptClasse3() method.
+     * Tests setNivRuptClasse3()
      *
      * @return void
      */
@@ -812,7 +812,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNivRuptClasse4() method.
+     * Tests setNivRuptClasse4()
      *
      * @return void
      */
@@ -825,7 +825,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNivRuptClasse5() method.
+     * Tests setNivRuptClasse5()
      *
      * @return void
      */
@@ -838,7 +838,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNivRuptClasse6() method.
+     * Tests setNivRuptClasse6()
      *
      * @return void
      */
@@ -851,7 +851,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNivRuptClasse7() method.
+     * Tests setNivRuptClasse7()
      *
      * @return void
      */
@@ -864,7 +864,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNivRuptClasse8() method.
+     * Tests setNivRuptClasse8()
      *
      * @return void
      */
@@ -877,7 +877,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNivRuptClasse9() method.
+     * Tests setNivRuptClasse9()
      *
      * @return void
      */
@@ -890,7 +890,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPositionPieceLettrage() method.
+     * Tests setPositionPieceLettrage()
      *
      * @return void
      */
@@ -903,7 +903,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProchainLotEcrit() method.
+     * Tests setProchainLotEcrit()
      *
      * @return void
      */
@@ -916,7 +916,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProchainLotFactor() method.
+     * Tests setProchainLotFactor()
      *
      * @return void
      */
@@ -929,7 +929,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProchainNumEcrEco() method.
+     * Tests setProchainNumEcrEco()
      *
      * @return void
      */
@@ -942,7 +942,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProchainNumLotVmp() method.
+     * Tests setProchainNumLotVmp()
      *
      * @return void
      */
@@ -955,7 +955,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProvCpCptBrut() method.
+     * Tests setProvCpCptBrut()
      *
      * @return void
      */
@@ -968,7 +968,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProvCpCptCapCh() method.
+     * Tests setProvCpCptCapCh()
      *
      * @return void
      */
@@ -981,7 +981,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProvCpCptCapcp() method.
+     * Tests setProvCpCptCapcp()
      *
      * @return void
      */
@@ -994,7 +994,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProvCpCptCharges() method.
+     * Tests setProvCpCptCharges()
      *
      * @return void
      */
@@ -1007,7 +1007,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProvMini() method.
+     * Tests setProvMini()
      *
      * @return void
      */
@@ -1020,7 +1020,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPublication() method.
+     * Tests setPublication()
      *
      * @return void
      */
@@ -1033,7 +1033,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQimg2CptEncours() method.
+     * Tests setQimg2CptEncours()
      *
      * @return void
      */
@@ -1046,7 +1046,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQimg2CptEnvoi() method.
+     * Tests setQimg2CptEnvoi()
      *
      * @return void
      */
@@ -1059,7 +1059,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRappDads1Obs() method.
+     * Tests setRappDads1Obs()
      *
      * @return void
      */
@@ -1072,7 +1072,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRelanceAdresseCpt() method.
+     * Tests setRelanceAdresseCpt()
      *
      * @return void
      */
@@ -1085,7 +1085,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRffCptExploitant() method.
+     * Tests setRffCptExploitant()
      *
      * @return void
      */
@@ -1098,7 +1098,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRffCptInterets() method.
+     * Tests setRffCptInterets()
      *
      * @return void
      */
@@ -1111,7 +1111,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRffCptRegul() method.
+     * Tests setRffCptRegul()
      *
      * @return void
      */
@@ -1124,7 +1124,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRffDateLotEcr() method.
+     * Tests setRffDateLotEcr()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -1141,7 +1141,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRffDecouvertsAvances() method.
+     * Tests setRffDecouvertsAvances()
      *
      * @return void
      */
@@ -1154,7 +1154,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRffInteretsEmprunts() method.
+     * Tests setRffInteretsEmprunts()
      *
      * @return void
      */
@@ -1167,7 +1167,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRffLimite() method.
+     * Tests setRffLimite()
      *
      * @return void
      */
@@ -1180,7 +1180,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRffMttRegul() method.
+     * Tests setRffMttRegul()
      *
      * @return void
      */
@@ -1193,7 +1193,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRffMttRff() method.
+     * Tests setRffMttRff()
      *
      * @return void
      */
@@ -1206,7 +1206,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRffNumLotEcr() method.
+     * Tests setRffNumLotEcr()
      *
      * @return void
      */
@@ -1219,7 +1219,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRffType() method.
+     * Tests setRffType()
      *
      * @return void
      */
@@ -1232,7 +1232,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTexteRelance0() method.
+     * Tests setTexteRelance0()
      *
      * @return void
      */
@@ -1245,7 +1245,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTexteRelance1() method.
+     * Tests setTexteRelance1()
      *
      * @return void
      */
@@ -1258,7 +1258,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTexteRelance2() method.
+     * Tests setTexteRelance2()
      *
      * @return void
      */
@@ -1271,7 +1271,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTexteRelance3() method.
+     * Tests setTexteRelance3()
      *
      * @return void
      */
@@ -1284,7 +1284,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTexteRelance4() method.
+     * Tests setTexteRelance4()
      *
      * @return void
      */
@@ -1297,7 +1297,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTresoComptesAExclure() method.
+     * Tests setTresoComptesAExclure()
      *
      * @return void
      */
@@ -1310,7 +1310,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUtiliseQuantite2() method.
+     * Tests setUtiliseQuantite2()
      *
      * @return void
      */
@@ -1323,7 +1323,7 @@ class Dossier2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

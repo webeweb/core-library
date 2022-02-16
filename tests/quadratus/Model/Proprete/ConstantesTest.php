@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ConstantesTest extends AbstractTestCase {
 
     /**
-     * Tests the set35Heures() method.
+     * Tests set35Heures()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -42,7 +42,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAlertesPaieDansPointage() method.
+     * Tests setAlertesPaieDansPointage()
      *
      * @return void
      */
@@ -55,7 +55,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAlertesPaieDansReclam() method.
+     * Tests setAlertesPaieDansReclam()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAnalytiqueNatureAgence() method.
+     * Tests setAnalytiqueNatureAgence()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAnalytiqueParChantier() method.
+     * Tests setAnalytiqueParChantier()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setArchiverDevis() method.
+     * Tests setArchiverDevis()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setArchiverFacture() method.
+     * Tests setArchiverFacture()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setArrondiSurPu() method.
+     * Tests setArrondiSurPu()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAutoriserDaSansMajStock() method.
+     * Tests setAutoriserDaSansMajStock()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAutoriserDepBudChaCdeType() method.
+     * Tests setAutoriserDepBudChaCdeType()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAutoriserMensuTacheVide() method.
+     * Tests setAutoriserMensuTacheVide()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBlNumFact() method.
+     * Tests setBlNumFact()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBlPrefixe() method.
+     * Tests setBlPrefixe()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBrNumFact() method.
+     * Tests setBrNumFact()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBrPrefixe() method.
+     * Tests setBrPrefixe()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBsNumFact() method.
+     * Tests setBsNumFact()
      *
      * @return void
      */
@@ -237,7 +237,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBsPrefixe() method.
+     * Tests setBsPrefixe()
      *
      * @return void
      */
@@ -250,7 +250,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCddMensuTotalHeures() method.
+     * Tests setCddMensuTotalHeures()
      *
      * @return void
      */
@@ -263,7 +263,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCdeClientNumFact() method.
+     * Tests setCdeClientNumFact()
      *
      * @return void
      */
@@ -276,7 +276,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCdeClientPrefixe() method.
+     * Tests setCdeClientPrefixe()
      *
      * @return void
      */
@@ -289,7 +289,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCdeFrnNumFact() method.
+     * Tests setCdeFrnNumFact()
      *
      * @return void
      */
@@ -302,7 +302,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCdeFrnPrefixe() method.
+     * Tests setCdeFrnPrefixe()
      *
      * @return void
      */
@@ -315,7 +315,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCentralisationVente() method.
+     * Tests setCentralisationVente()
      *
      * @return void
      */
@@ -328,7 +328,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setChargeMensuelleSansTache() method.
+     * Tests setChargeMensuelleSansTache()
      *
      * @return void
      */
@@ -341,7 +341,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCheminDossCompta() method.
+     * Tests setCheminDossCompta()
      *
      * @return void
      */
@@ -354,7 +354,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCleDebloquerPeriodeCloturee() method.
+     * Tests setCleDebloquerPeriodeCloturee()
      *
      * @return void
      */
@@ -367,7 +367,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAbsCpSansSolde() method.
+     * Tests setCodeAbsCpSansSolde()
      *
      * @return void
      */
@@ -380,7 +380,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAbsDefJf() method.
+     * Tests setCodeAbsDefJf()
      *
      * @return void
      */
@@ -393,7 +393,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAbsDefJfMoins3() method.
+     * Tests setCodeAbsDefJfMoins3()
      *
      * @return void
      */
@@ -406,7 +406,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAbsFermetureChantier() method.
+     * Tests setCodeAbsFermetureChantier()
      *
      * @return void
      */
@@ -419,7 +419,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAbsPointageDefaut() method.
+     * Tests setCodeAbsPointageDefaut()
      *
      * @return void
      */
@@ -432,7 +432,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaboValid() method.
+     * Tests setCodeCollaboValid()
      *
      * @return void
      */
@@ -445,7 +445,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaborateur() method.
+     * Tests setCodeCollaborateur()
      *
      * @return void
      */
@@ -458,7 +458,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeDepotParDefaut() method.
+     * Tests setCodeDepotParDefaut()
      *
      * @return void
      */
@@ -471,7 +471,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeIcs() method.
+     * Tests setCodeIcs()
      *
      * @return void
      */
@@ -484,7 +484,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeJa() method.
+     * Tests setCodeJa()
      *
      * @return void
      */
@@ -497,7 +497,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeJvNegoce() method.
+     * Tests setCodeJvNegoce()
      *
      * @return void
      */
@@ -510,7 +510,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeJvPrestation() method.
+     * Tests setCodeJvPrestation()
      *
      * @return void
      */
@@ -523,7 +523,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeLivParDefaut() method.
+     * Tests setCodeLivParDefaut()
      *
      * @return void
      */
@@ -536,7 +536,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePrimeChantier1() method.
+     * Tests setCodePrimeChantier1()
      *
      * @return void
      */
@@ -549,7 +549,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePrimeChantier2() method.
+     * Tests setCodePrimeChantier2()
      *
      * @return void
      */
@@ -562,7 +562,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePrimeChantier3() method.
+     * Tests setCodePrimeChantier3()
      *
      * @return void
      */
@@ -575,7 +575,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePrimeDimanche1() method.
+     * Tests setCodePrimeDimanche1()
      *
      * @return void
      */
@@ -588,7 +588,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePrimeDimanche1Type2() method.
+     * Tests setCodePrimeDimanche1Type2()
      *
      * @return void
      */
@@ -601,7 +601,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePrimeDimanche2() method.
+     * Tests setCodePrimeDimanche2()
      *
      * @return void
      */
@@ -614,7 +614,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePrimeForfait() method.
+     * Tests setCodePrimeForfait()
      *
      * @return void
      */
@@ -627,7 +627,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePrimeHCompl() method.
+     * Tests setCodePrimeHCompl()
      *
      * @return void
      */
@@ -640,7 +640,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePrimeHCompl2() method.
+     * Tests setCodePrimeHCompl2()
      *
      * @return void
      */
@@ -653,7 +653,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePrimeJf1() method.
+     * Tests setCodePrimeJf1()
      *
      * @return void
      */
@@ -666,7 +666,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePrimeJf1Type2() method.
+     * Tests setCodePrimeJf1Type2()
      *
      * @return void
      */
@@ -679,7 +679,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePrimeJf2() method.
+     * Tests setCodePrimeJf2()
      *
      * @return void
      */
@@ -692,7 +692,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePrimeJfMai() method.
+     * Tests setCodePrimeJfMai()
      *
      * @return void
      */
@@ -705,7 +705,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePrimeNuit1() method.
+     * Tests setCodePrimeNuit1()
      *
      * @return void
      */
@@ -718,7 +718,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePrimeNuit1Type2() method.
+     * Tests setCodePrimeNuit1Type2()
      *
      * @return void
      */
@@ -731,7 +731,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePrimeNuit2() method.
+     * Tests setCodePrimeNuit2()
      *
      * @return void
      */
@@ -744,7 +744,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePrimePaniers() method.
+     * Tests setCodePrimePaniers()
      *
      * @return void
      */
@@ -757,7 +757,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePrimeRs() method.
+     * Tests setCodePrimeRs()
      *
      * @return void
      */
@@ -770,7 +770,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePrimeTp() method.
+     * Tests setCodePrimeTp()
      *
      * @return void
      */
@@ -783,7 +783,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRegJvNegDebut() method.
+     * Tests setCodeRegJvNegDebut()
      *
      * @return void
      */
@@ -796,7 +796,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRegJvNegFin() method.
+     * Tests setCodeRegJvNegFin()
      *
      * @return void
      */
@@ -809,7 +809,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRegJvPrestDebut() method.
+     * Tests setCodeRegJvPrestDebut()
      *
      * @return void
      */
@@ -822,7 +822,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRegJvPrestFin() method.
+     * Tests setCodeRegJvPrestFin()
      *
      * @return void
      */
@@ -835,7 +835,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTacheDefaut() method.
+     * Tests setCodeTacheDefaut()
      *
      * @return void
      */
@@ -848,7 +848,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCollectifDef() method.
+     * Tests setCollectifDef()
      *
      * @return void
      */
@@ -861,7 +861,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCollectifDefFournisseur() method.
+     * Tests setCollectifDefFournisseur()
      *
      * @return void
      */
@@ -874,7 +874,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCommentaireJourneeSolidarite() method.
+     * Tests setCommentaireJourneeSolidarite()
      *
      * @return void
      */
@@ -887,7 +887,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteCollectifAchat() method.
+     * Tests setCompteCollectifAchat()
      *
      * @return void
      */
@@ -900,7 +900,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteCollectifVente() method.
+     * Tests setCompteCollectifVente()
      *
      * @return void
      */
@@ -913,7 +913,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteEscompteCaExonere() method.
+     * Tests setCompteEscompteCaExonere()
      *
      * @return void
      */
@@ -926,7 +926,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteEscompteSoumisTva() method.
+     * Tests setCompteEscompteSoumisTva()
      *
      * @return void
      */
@@ -939,7 +939,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteTvaAchat() method.
+     * Tests setCompteTvaAchat()
      *
      * @return void
      */
@@ -952,7 +952,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteTvaTaxeDeee() method.
+     * Tests setCompteTvaTaxeDeee()
      *
      * @return void
      */
@@ -965,7 +965,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteTvaVente() method.
+     * Tests setCompteTvaVente()
      *
      * @return void
      */
@@ -978,7 +978,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteVentilTaxeDeee() method.
+     * Tests setCompteVentilTaxeDeee()
      *
      * @return void
      */
@@ -991,7 +991,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompterSamediTfCpPaie() method.
+     * Tests setCompterSamediTfCpPaie()
      *
      * @return void
      */
@@ -1004,7 +1004,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setControlerCdeFrn() method.
+     * Tests setControlerCdeFrn()
      *
      * @return void
      */
@@ -1017,7 +1017,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setControlerChargesMensuelles() method.
+     * Tests setControlerChargesMensuelles()
      *
      * @return void
      */
@@ -1030,7 +1030,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setControlerCodeReg() method.
+     * Tests setControlerCodeReg()
      *
      * @return void
      */
@@ -1043,7 +1043,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setControlerDepHcMax() method.
+     * Tests setControlerDepHcMax()
      *
      * @return void
      */
@@ -1056,7 +1056,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setControlerDepHcPlusMois() method.
+     * Tests setControlerDepHcPlusMois()
      *
      * @return void
      */
@@ -1069,7 +1069,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCpSansProvisions() method.
+     * Tests setCpSansProvisions()
      *
      * @return void
      */
@@ -1082,7 +1082,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCreerAlertePaieDefEnPaie() method.
+     * Tests setCreerAlertePaieDefEnPaie()
      *
      * @return void
      */
@@ -1095,7 +1095,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCtrlAutoCp() method.
+     * Tests setCtrlAutoCp()
      *
      * @return void
      */
@@ -1108,7 +1108,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCtrlAutoCpAvecAnticipation() method.
+     * Tests setCtrlAutoCpAvecAnticipation()
      *
      * @return void
      */
@@ -1121,7 +1121,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateAppliGestionHeuresEnPlus() method.
+     * Tests setDateAppliGestionHeuresEnPlus()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -1138,7 +1138,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateJourneeSolidarite() method.
+     * Tests setDateJourneeSolidarite()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -1155,7 +1155,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateValidationSynchro() method.
+     * Tests setDateValidationSynchro()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -1172,7 +1172,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDecMoisPrepFact() method.
+     * Tests setDecMoisPrepFact()
      *
      * @return void
      */
@@ -1185,7 +1185,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDernierCompteClient() method.
+     * Tests setDernierCompteClient()
      *
      * @return void
      */
@@ -1198,7 +1198,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDernierCompteFrn() method.
+     * Tests setDernierCompteFrn()
      *
      * @return void
      */
@@ -1211,7 +1211,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDiscr() method.
+     * Tests setDiscr()
      *
      * @return void
      */
@@ -1224,7 +1224,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDossCompta() method.
+     * Tests setDossCompta()
      *
      * @return void
      */
@@ -1237,7 +1237,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDossPaie() method.
+     * Tests setDossPaie()
      *
      * @return void
      */
@@ -1250,7 +1250,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEsCodeAbsEntree() method.
+     * Tests setEsCodeAbsEntree()
      *
      * @return void
      */
@@ -1263,7 +1263,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEsCodeAbsSortie() method.
+     * Tests setEsCodeAbsSortie()
      *
      * @return void
      */
@@ -1276,7 +1276,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEsHeuresReelles() method.
+     * Tests setEsHeuresReelles()
      *
      * @return void
      */
@@ -1289,7 +1289,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtablissementsPaie() method.
+     * Tests setEtablissementsPaie()
      *
      * @return void
      */
@@ -1302,7 +1302,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtat() method.
+     * Tests setEtat()
      *
      * @return void
      */
@@ -1315,7 +1315,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEuro() method.
+     * Tests setEuro()
      *
      * @return void
      */
@@ -1328,7 +1328,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFacturationProrataHeures() method.
+     * Tests setFacturationProrataHeures()
      *
      * @return void
      */
@@ -1341,7 +1341,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFolioJa() method.
+     * Tests setFolioJa()
      *
      * @return void
      */
@@ -1354,7 +1354,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFolioJvNegoce() method.
+     * Tests setFolioJvNegoce()
      *
      * @return void
      */
@@ -1367,7 +1367,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFolioJvPrestation() method.
+     * Tests setFolioJvPrestation()
      *
      * @return void
      */
@@ -1380,7 +1380,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGererNumCptChantier() method.
+     * Tests setGererNumCptChantier()
      *
      * @return void
      */
@@ -1393,7 +1393,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionHCompl() method.
+     * Tests setGestionHCompl()
      *
      * @return void
      */
@@ -1406,7 +1406,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionHSupMens() method.
+     * Tests setGestionHSupMens()
      *
      * @return void
      */
@@ -1419,7 +1419,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionHSupMensuelle() method.
+     * Tests setGestionHSupMensuelle()
      *
      * @return void
      */
@@ -1432,7 +1432,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionMajDim() method.
+     * Tests setGestionMajDim()
      *
      * @return void
      */
@@ -1445,7 +1445,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionMajJf() method.
+     * Tests setGestionMajJf()
      *
      * @return void
      */
@@ -1458,7 +1458,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionMajNuit() method.
+     * Tests setGestionMajNuit()
      *
      * @return void
      */
@@ -1471,7 +1471,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionMultiDepot() method.
+     * Tests setGestionMultiDepot()
      *
      * @return void
      */
@@ -1484,7 +1484,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionQuotas() method.
+     * Tests setGestionQuotas()
      *
      * @return void
      */
@@ -1497,7 +1497,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionSpecifJf() method.
+     * Tests setGestionSpecifJf()
      *
      * @return void
      */
@@ -1510,7 +1510,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionSpecifMajoJf() method.
+     * Tests setGestionSpecifMajoJf()
      *
      * @return void
      */
@@ -1523,7 +1523,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHDebNuit() method.
+     * Tests setHDebNuit()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -1540,7 +1540,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHDebNuitTravNuit() method.
+     * Tests setHDebNuitTravNuit()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -1557,7 +1557,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHFinNuit() method.
+     * Tests setHFinNuit()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -1574,7 +1574,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHFinNuitTravNuit() method.
+     * Tests setHFinNuitTravNuit()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -1591,7 +1591,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHeuresAbsenceMensualise() method.
+     * Tests setHeuresAbsenceMensualise()
      *
      * @return void
      */
@@ -1604,7 +1604,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHeuresRemplEgalesMensTitulaire() method.
+     * Tests setHeuresRemplEgalesMensTitulaire()
      *
      * @return void
      */
@@ -1617,7 +1617,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIncrementCompteAuto() method.
+     * Tests setIncrementCompteAuto()
      *
      * @return void
      */
@@ -1630,7 +1630,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLiaisonComptaWin() method.
+     * Tests setLiaisonComptaWin()
      *
      * @return void
      */
@@ -1643,7 +1643,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibCritereBool1() method.
+     * Tests setLibCritereBool1()
      *
      * @return void
      */
@@ -1656,7 +1656,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibCritereBool2() method.
+     * Tests setLibCritereBool2()
      *
      * @return void
      */
@@ -1669,7 +1669,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibCritereByte1() method.
+     * Tests setLibCritereByte1()
      *
      * @return void
      */
@@ -1682,7 +1682,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibCritereNum1() method.
+     * Tests setLibCritereNum1()
      *
      * @return void
      */
@@ -1695,7 +1695,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibCritereNum2() method.
+     * Tests setLibCritereNum2()
      *
      * @return void
      */
@@ -1708,7 +1708,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibCritereNum3() method.
+     * Tests setLibCritereNum3()
      *
      * @return void
      */
@@ -1721,7 +1721,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibCritereNum4() method.
+     * Tests setLibCritereNum4()
      *
      * @return void
      */
@@ -1734,7 +1734,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibCritereNum5() method.
+     * Tests setLibCritereNum5()
      *
      * @return void
      */
@@ -1747,7 +1747,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibCritereTab1() method.
+     * Tests setLibCritereTab1()
      *
      * @return void
      */
@@ -1760,7 +1760,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibCritereTab2() method.
+     * Tests setLibCritereTab2()
      *
      * @return void
      */
@@ -1773,7 +1773,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibCritereTab3() method.
+     * Tests setLibCritereTab3()
      *
      * @return void
      */
@@ -1786,7 +1786,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibCritereTab4() method.
+     * Tests setLibCritereTab4()
      *
      * @return void
      */
@@ -1799,7 +1799,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibCritereTab5() method.
+     * Tests setLibCritereTab5()
      *
      * @return void
      */
@@ -1812,7 +1812,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibCritereTxt1() method.
+     * Tests setLibCritereTxt1()
      *
      * @return void
      */
@@ -1825,7 +1825,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibCritereTxt2() method.
+     * Tests setLibCritereTxt2()
      *
      * @return void
      */
@@ -1838,7 +1838,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibCritereTxt3() method.
+     * Tests setLibCritereTxt3()
      *
      * @return void
      */
@@ -1851,7 +1851,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibCritereTxt4() method.
+     * Tests setLibCritereTxt4()
      *
      * @return void
      */
@@ -1864,7 +1864,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibCritereTxt5() method.
+     * Tests setLibCritereTxt5()
      *
      * @return void
      */
@@ -1877,7 +1877,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelleAutoAvoir() method.
+     * Tests setLibelleAutoAvoir()
      *
      * @return void
      */
@@ -1890,7 +1890,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelleAutoFacture() method.
+     * Tests setLibelleAutoFacture()
      *
      * @return void
      */
@@ -1903,7 +1903,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelleHeuresSurcroit() method.
+     * Tests setLibelleHeuresSurcroit()
      *
      * @return void
      */
@@ -1916,7 +1916,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelleTransfert() method.
+     * Tests setLibelleTransfert()
      *
      * @return void
      */
@@ -1929,7 +1929,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelleTransfertAchat() method.
+     * Tests setLibelleTransfertAchat()
      *
      * @return void
      */
@@ -1942,7 +1942,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLivCdeFrnDepotUnique() method.
+     * Tests setLivCdeFrnDepotUnique()
      *
      * @return void
      */
@@ -1955,7 +1955,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMailAttestations() method.
+     * Tests setMailAttestations()
      *
      * @return void
      */
@@ -1968,7 +1968,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMailFactures() method.
+     * Tests setMailFactures()
      *
      * @return void
      */
@@ -1981,7 +1981,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMajDernierPassageBt() method.
+     * Tests setMajDernierPassageBt()
      *
      * @return void
      */
@@ -1994,7 +1994,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMajDernierPrixAchat() method.
+     * Tests setMajDernierPrixAchat()
      *
      * @return void
      */
@@ -2007,7 +2007,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMajPamp() method.
+     * Tests setMajPamp()
      *
      * @return void
      */
@@ -2020,7 +2020,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMajorationCascade() method.
+     * Tests setMajorationCascade()
      *
      * @return void
      */
@@ -2033,7 +2033,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMajorationHPlus() method.
+     * Tests setMajorationHPlus()
      *
      * @return void
      */
@@ -2046,7 +2046,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMargeNiveauEdition() method.
+     * Tests setMargeNiveauEdition()
      *
      * @return void
      */
@@ -2059,7 +2059,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMargePourcentCharge() method.
+     * Tests setMargePourcentCharge()
      *
      * @return void
      */
@@ -2072,7 +2072,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMargeSalInspProrataCa() method.
+     * Tests setMargeSalInspProrataCa()
      *
      * @return void
      */
@@ -2085,7 +2085,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMensualisationTache() method.
+     * Tests setMensualisationTache()
      *
      * @return void
      */
@@ -2098,7 +2098,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setModeCalculPropositionCde() method.
+     * Tests setModeCalculPropositionCde()
      *
      * @return void
      */
@@ -2111,7 +2111,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setModeleDevis() method.
+     * Tests setModeleDevis()
      *
      * @return void
      */
@@ -2124,7 +2124,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setModeleDevisTech() method.
+     * Tests setModeleDevisTech()
      *
      * @return void
      */
@@ -2137,7 +2137,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setModeleFacture() method.
+     * Tests setModeleFacture()
      *
      * @return void
      */
@@ -2150,7 +2150,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtCptaNegatif() method.
+     * Tests setMtCptaNegatif()
      *
      * @return void
      */
@@ -2163,7 +2163,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNDerDocument() method.
+     * Tests setNDerDocument()
      *
      * @return void
      */
@@ -2176,7 +2176,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbCaracteresLigneFact() method.
+     * Tests setNbCaracteresLigneFact()
      *
      * @return void
      */
@@ -2189,7 +2189,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbDecimalesPrixUnitaire() method.
+     * Tests setNbDecimalesPrixUnitaire()
      *
      * @return void
      */
@@ -2202,7 +2202,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbDecimalesQuantite() method.
+     * Tests setNbDecimalesQuantite()
      *
      * @return void
      */
@@ -2215,7 +2215,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbEntiersPrixUnitaire() method.
+     * Tests setNbEntiersPrixUnitaire()
      *
      * @return void
      */
@@ -2228,7 +2228,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbEntiersQuantite() method.
+     * Tests setNbEntiersQuantite()
      *
      * @return void
      */
@@ -2241,7 +2241,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJourCpAcquis() method.
+     * Tests setNbJourCpAcquis()
      *
      * @return void
      */
@@ -2254,7 +2254,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbJoursAbsProratisationDcp() method.
+     * Tests setNbJoursAbsProratisationDcp()
      *
      * @return void
      */
@@ -2267,7 +2267,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbMoisConsecutifs() method.
+     * Tests setNbMoisConsecutifs()
      *
      * @return void
      */
@@ -2280,7 +2280,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomFactNbLignes() method.
+     * Tests setNomFactNbLignes()
      *
      * @return void
      */
@@ -2293,7 +2293,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomFichierAsciiAchat() method.
+     * Tests setNomFichierAsciiAchat()
      *
      * @return void
      */
@@ -2306,7 +2306,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomFichierAsciiVente() method.
+     * Tests setNomFichierAsciiVente()
      *
      * @return void
      */
@@ -2319,7 +2319,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNote0NonConforme() method.
+     * Tests setNote0NonConforme()
      *
      * @return void
      */
@@ -2332,7 +2332,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumBt() method.
+     * Tests setNumBt()
      *
      * @return void
      */
@@ -2345,7 +2345,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumCritereBtNum1() method.
+     * Tests setNumCritereBtNum1()
      *
      * @return void
      */
@@ -2358,7 +2358,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumCritereBtNum2() method.
+     * Tests setNumCritereBtNum2()
      *
      * @return void
      */
@@ -2371,7 +2371,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumCritereChantierFiltre1() method.
+     * Tests setNumCritereChantierFiltre1()
      *
      * @return void
      */
@@ -2384,7 +2384,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumDevis() method.
+     * Tests setNumDevis()
      *
      * @return void
      */
@@ -2397,7 +2397,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumFact() method.
+     * Tests setNumFact()
      *
      * @return void
      */
@@ -2410,7 +2410,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumFactVm() method.
+     * Tests setNumFactVm()
      *
      * @return void
      */
@@ -2423,7 +2423,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroFicheControle() method.
+     * Tests setNumeroFicheControle()
      *
      * @return void
      */
@@ -2436,7 +2436,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPaParFournisseur() method.
+     * Tests setPaParFournisseur()
      *
      * @return void
      */
@@ -2449,7 +2449,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPasNumCptParDossier() method.
+     * Tests setPasNumCptParDossier()
      *
      * @return void
      */
@@ -2462,7 +2462,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPdfBtCoefficient() method.
+     * Tests setPdfBtCoefficient()
      *
      * @return void
      */
@@ -2475,7 +2475,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPdfBtDatePassage() method.
+     * Tests setPdfBtDatePassage()
      *
      * @return void
      */
@@ -2488,7 +2488,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPdfBtDescriptif() method.
+     * Tests setPdfBtDescriptif()
      *
      * @return void
      */
@@ -2501,7 +2501,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPdfBtEmployesCorps() method.
+     * Tests setPdfBtEmployesCorps()
      *
      * @return void
      */
@@ -2514,7 +2514,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPdfBtEmployesRef() method.
+     * Tests setPdfBtEmployesRef()
      *
      * @return void
      */
@@ -2527,7 +2527,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPdfBtFacturerAlaValidation() method.
+     * Tests setPdfBtFacturerAlaValidation()
      *
      * @return void
      */
@@ -2540,7 +2540,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPdfBtFormatSaisieQtePu() method.
+     * Tests setPdfBtFormatSaisieQtePu()
      *
      * @return void
      */
@@ -2553,7 +2553,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPdfBtLibelleDate() method.
+     * Tests setPdfBtLibelleDate()
      *
      * @return void
      */
@@ -2566,7 +2566,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPdfBtNomChantier() method.
+     * Tests setPdfBtNomChantier()
      *
      * @return void
      */
@@ -2579,7 +2579,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPdfBtPeriodeValidite() method.
+     * Tests setPdfBtPeriodeValidite()
      *
      * @return void
      */
@@ -2592,7 +2592,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPdfBtPrixAchat() method.
+     * Tests setPdfBtPrixAchat()
      *
      * @return void
      */
@@ -2605,7 +2605,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPdfBtReprendreLibelleDate() method.
+     * Tests setPdfBtReprendreLibelleDate()
      *
      * @return void
      */
@@ -2618,7 +2618,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPdfBtTauxHoraire() method.
+     * Tests setPdfBtTauxHoraire()
      *
      * @return void
      */
@@ -2631,7 +2631,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPjEnvoiMail() method.
+     * Tests setPjEnvoiMail()
      *
      * @return void
      */
@@ -2644,7 +2644,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPjEnvoiMailAttestation() method.
+     * Tests setPjEnvoiMailAttestation()
      *
      * @return void
      */
@@ -2657,7 +2657,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPointBtEmployesSortis() method.
+     * Tests setPointBtEmployesSortis()
      *
      * @return void
      */
@@ -2670,7 +2670,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPoste1() method.
+     * Tests setPoste1()
      *
      * @return void
      */
@@ -2683,7 +2683,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPoste2() method.
+     * Tests setPoste2()
      *
      * @return void
      */
@@ -2696,7 +2696,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPoste3() method.
+     * Tests setPoste3()
      *
      * @return void
      */
@@ -2709,7 +2709,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPoste4() method.
+     * Tests setPoste4()
      *
      * @return void
      */
@@ -2722,7 +2722,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPoste5() method.
+     * Tests setPoste5()
      *
      * @return void
      */
@@ -2735,7 +2735,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPourcMajHCompl() method.
+     * Tests setPourcMajHCompl()
      *
      * @return void
      */
@@ -2748,7 +2748,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPourcMajHCompl2() method.
+     * Tests setPourcMajHCompl2()
      *
      * @return void
      */
@@ -2761,7 +2761,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPourcentDepHcMax() method.
+     * Tests setPourcentDepHcMax()
      *
      * @return void
      */
@@ -2774,7 +2774,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPourcentDepHcPlusMois() method.
+     * Tests setPourcentDepHcPlusMois()
      *
      * @return void
      */
@@ -2787,7 +2787,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPourcentageReposRemplacement() method.
+     * Tests setPourcentageReposRemplacement()
      *
      * @return void
      */
@@ -2800,7 +2800,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrefixe() method.
+     * Tests setPrefixe()
      *
      * @return void
      */
@@ -2813,7 +2813,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrefixeDevis() method.
+     * Tests setPrefixeDevis()
      *
      * @return void
      */
@@ -2826,7 +2826,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPreparerChantierPretOnly() method.
+     * Tests setPreparerChantierPretOnly()
      *
      * @return void
      */
@@ -2839,7 +2839,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrixDefautAchat() method.
+     * Tests setPrixDefautAchat()
      *
      * @return void
      */
@@ -2852,7 +2852,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrixDefautEntreeDirecte() method.
+     * Tests setPrixDefautEntreeDirecte()
      *
      * @return void
      */
@@ -2865,7 +2865,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrixDefautInventaire() method.
+     * Tests setPrixDefautInventaire()
      *
      * @return void
      */
@@ -2878,7 +2878,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrixDefautSortieDirecte() method.
+     * Tests setPrixDefautSortieDirecte()
      *
      * @return void
      */
@@ -2891,7 +2891,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrixDefautVente() method.
+     * Tests setPrixDefautVente()
      *
      * @return void
      */
@@ -2904,7 +2904,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProchainNumeroPj() method.
+     * Tests setProchainNumeroPj()
      *
      * @return void
      */
@@ -2917,7 +2917,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProrataHeuresCreerLigne() method.
+     * Tests setProrataHeuresCreerLigne()
      *
      * @return void
      */
@@ -2930,7 +2930,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProrataHeuresDesignationMoins() method.
+     * Tests setProrataHeuresDesignationMoins()
      *
      * @return void
      */
@@ -2943,7 +2943,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProrataHeuresDesignationPlus() method.
+     * Tests setProrataHeuresDesignationPlus()
      *
      * @return void
      */
@@ -2956,7 +2956,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProrataHeuresOption() method.
+     * Tests setProrataHeuresOption()
      *
      * @return void
      */
@@ -2969,7 +2969,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProvCpInfosEmp() method.
+     * Tests setProvCpInfosEmp()
      *
      * @return void
      */
@@ -2982,7 +2982,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProvisionsCp() method.
+     * Tests setProvisionsCp()
      *
      * @return void
      */
@@ -2995,7 +2995,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQualiteNbCriteres() method.
+     * Tests setQualiteNbCriteres()
      *
      * @return void
      */
@@ -3008,7 +3008,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQualiteNbNotes() method.
+     * Tests setQualiteNbNotes()
      *
      * @return void
      */
@@ -3021,7 +3021,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQualiteSatisfactionGenerale() method.
+     * Tests setQualiteSatisfactionGenerale()
      *
      * @return void
      */
@@ -3034,7 +3034,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setReferenceMensuContratProprete() method.
+     * Tests setReferenceMensuContratProprete()
      *
      * @return void
      */
@@ -3047,7 +3047,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemplacantAbsJfPasAuto() method.
+     * Tests setRemplacantAbsJfPasAuto()
      *
      * @return void
      */
@@ -3060,7 +3060,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemplacantTravaillePasJf() method.
+     * Tests setRemplacantTravaillePasJf()
      *
      * @return void
      */
@@ -3073,7 +3073,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemplacementHcjf() method.
+     * Tests setRemplacementHcjf()
      *
      * @return void
      */
@@ -3086,7 +3086,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setReposCompensateurPourTravailleurNuit() method.
+     * Tests setReposCompensateurPourTravailleurNuit()
      *
      * @return void
      */
@@ -3099,7 +3099,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRtFdansFactDev() method.
+     * Tests setRtFdansFactDev()
      *
      * @return void
      */
@@ -3112,7 +3112,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSaisirAbsencesSurHc() method.
+     * Tests setSaisirAbsencesSurHc()
      *
      * @return void
      */
@@ -3125,7 +3125,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSaisirCodeChantierAchat() method.
+     * Tests setSaisirCodeChantierAchat()
      *
      * @return void
      */
@@ -3138,7 +3138,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSaisirNumBt() method.
+     * Tests setSaisirNumBt()
      *
      * @return void
      */
@@ -3151,7 +3151,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setServicesPaie() method.
+     * Tests setServicesPaie()
      *
      * @return void
      */
@@ -3164,7 +3164,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSeuilMajoHCompl() method.
+     * Tests setSeuilMajoHCompl()
      *
      * @return void
      */
@@ -3177,7 +3177,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxEscompte() method.
+     * Tests setTauxEscompte()
      *
      * @return void
      */
@@ -3190,7 +3190,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxMajoHc33() method.
+     * Tests setTauxMajoHc33()
      *
      * @return void
      */
@@ -3203,7 +3203,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxMajorationHCompl() method.
+     * Tests setTauxMajorationHCompl()
      *
      * @return void
      */
@@ -3216,7 +3216,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxTvaAchat() method.
+     * Tests setTauxTvaAchat()
      *
      * @return void
      */
@@ -3229,7 +3229,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxTvaTaxeDeee() method.
+     * Tests setTauxTvaTaxeDeee()
      *
      * @return void
      */
@@ -3242,7 +3242,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxTvaVente() method.
+     * Tests setTauxTvaVente()
      *
      * @return void
      */
@@ -3255,7 +3255,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeRemplDefaut() method.
+     * Tests setTypeRemplDefaut()
      *
      * @return void
      */
@@ -3268,7 +3268,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeTransfertVente() method.
+     * Tests setTypeTransfertVente()
      *
      * @return void
      */
@@ -3281,7 +3281,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniqIdSynchro() method.
+     * Tests setUniqIdSynchro()
      *
      * @return void
      */
@@ -3294,7 +3294,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUtiliserStockMini() method.
+     * Tests setUtiliserStockMini()
      *
      * @return void
      */
@@ -3307,7 +3307,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setVisualiserPointageBtValides() method.
+     * Tests setVisualiserPointageBtValides()
      *
      * @return void
      */
@@ -3320,7 +3320,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

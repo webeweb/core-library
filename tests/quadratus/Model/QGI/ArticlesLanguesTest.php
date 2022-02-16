@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ArticlesLanguesTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeArticle() method.
+     * Tests setCodeArticle()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ArticlesLanguesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeLangue() method.
+     * Tests setCodeLangue()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ArticlesLanguesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDesignationApres() method.
+     * Tests setDesignationApres()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ArticlesLanguesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDesignationAvant() method.
+     * Tests setDesignationAvant()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ArticlesLanguesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule1() method.
+     * Tests setIntitule1()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ArticlesLanguesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule2() method.
+     * Tests setIntitule2()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class ArticlesLanguesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule3() method.
+     * Tests setIntitule3()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class ArticlesLanguesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule4() method.
+     * Tests setIntitule4()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class ArticlesLanguesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

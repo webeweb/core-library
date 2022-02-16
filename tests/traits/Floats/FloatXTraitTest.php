@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Floats\TestFloatXTrait;
 class FloatXTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setX() method.
+     * Tests setX()
      *
      * @return void
      */

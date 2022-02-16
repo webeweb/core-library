@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class TachesSemaineTest extends AbstractTestCase {
 
     /**
-     * Tests the setAutoIncr() method.
+     * Tests setAutoIncr()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class TachesSemaineTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeSemaineTache() method.
+     * Tests setCodeSemaineTache()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class TachesSemaineTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDiscrTache() method.
+     * Tests setDiscrTache()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class TachesSemaineTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

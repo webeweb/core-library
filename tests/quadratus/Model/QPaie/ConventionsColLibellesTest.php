@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ConventionsColLibellesTest extends AbstractTestCase {
 
     /**
-     * Tests the setActive() method.
+     * Tests setActive()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ConventionsColLibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCategSalarie() method.
+     * Tests setCategSalarie()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ConventionsColLibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeConvention() method.
+     * Tests setCodeConvention()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ConventionsColLibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeLibelle() method.
+     * Tests setCodeLibelle()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ConventionsColLibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFraisSanteAm() method.
+     * Tests setFraisSanteAm()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ConventionsColLibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndiceCateg() method.
+     * Tests setIndiceCateg()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class ConventionsColLibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule() method.
+     * Tests setIntitule()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class ConventionsColLibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPosition() method.
+     * Tests setPosition()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class ConventionsColLibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

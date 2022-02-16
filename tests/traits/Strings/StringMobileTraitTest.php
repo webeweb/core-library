@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringMobileTrait;
 class StringMobileTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setMobile() method.
+     * Tests setMobile()
      *
      * @return void
      */

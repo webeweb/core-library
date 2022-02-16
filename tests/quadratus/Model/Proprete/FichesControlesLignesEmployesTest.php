@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class FichesControlesLignesEmployesTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeAffaire() method.
+     * Tests setCodeAffaire()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class FichesControlesLignesEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeChantier() method.
+     * Tests setCodeChantier()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class FichesControlesLignesEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class FichesControlesLignesEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEmploye() method.
+     * Tests setCodeEmploye()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class FichesControlesLignesEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRemplacant() method.
+     * Tests setCodeRemplacant()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class FichesControlesLignesEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroFiche() method.
+     * Tests setNumeroFiche()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class FichesControlesLignesEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPoste() method.
+     * Tests setPoste()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class FichesControlesLignesEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemarque() method.
+     * Tests setRemarque()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class FichesControlesLignesEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

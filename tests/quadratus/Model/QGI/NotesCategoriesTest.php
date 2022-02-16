@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class NotesCategoriesTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeCategorie() method.
+     * Tests setCodeCategorie()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class NotesCategoriesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaborateur() method.
+     * Tests setCodeCollaborateur()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class NotesCategoriesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomCategorie() method.
+     * Tests setNomCategorie()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class NotesCategoriesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPosition() method.
+     * Tests setPosition()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class NotesCategoriesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

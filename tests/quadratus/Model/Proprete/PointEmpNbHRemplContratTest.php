@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class PointEmpNbHRemplContratTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeAffaire() method.
+     * Tests setCodeAffaire()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeChantier() method.
+     * Tests setCodeChantier()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaboValid() method.
+     * Tests setCodeCollaboValid()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollaborateur() method.
+     * Tests setCodeCollaborateur()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEmploye() method.
+     * Tests setCodeEmploye()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeRemplacant() method.
+     * Tests setCodeRemplacant()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTache() method.
+     * Tests setCodeTache()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateValidationSynchro() method.
+     * Tests setDateValidationSynchro()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -146,7 +146,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtat() method.
+     * Tests setEtat()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMensualisation() method.
+     * Tests setMensualisation()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHeures() method.
+     * Tests setNbHeures()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumBt() method.
+     * Tests setNumBt()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriode() method.
+     * Tests setPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -215,7 +215,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniqIdSynchro() method.
+     * Tests setUniqIdSynchro()
      *
      * @return void
      */
@@ -228,7 +228,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

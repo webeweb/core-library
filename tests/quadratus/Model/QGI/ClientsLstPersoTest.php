@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ClientsLstPersoTest extends AbstractTestCase {
 
     /**
-     * Tests the setChapitre() method.
+     * Tests setChapitre()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCollCreat() method.
+     * Tests setCollCreat()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCollModif() method.
+     * Tests setCollModif()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateCreat() method.
+     * Tests setDateCreat()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateModif() method.
+     * Tests setDateModif()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -98,7 +98,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDescription() method.
+     * Tests setDescription()
      *
      * @return void
      */
@@ -111,7 +111,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGUniqId() method.
+     * Tests setGUniqId()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndice() method.
+     * Tests setIndice()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLstCollab() method.
+     * Tests setLstCollab()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOptionVisu() method.
+     * Tests setOptionVisu()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOrigine() method.
+     * Tests setOrigine()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeDeb() method.
+     * Tests setPeriodeDeb()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -193,7 +193,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeFin() method.
+     * Tests setPeriodeFin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -210,7 +210,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeSaisie() method.
+     * Tests setTypeSaisie()
      *
      * @return void
      */
@@ -223,7 +223,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeSel() method.
+     * Tests setTypeSel()
      *
      * @return void
      */
@@ -236,7 +236,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LignesCafatTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeCommune() method.
+     * Tests setCodeCommune()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class LignesCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEtablissement() method.
+     * Tests setCodeEtablissement()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class LignesCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateDebauchage() method.
+     * Tests setDateDebauchage()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class LignesCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateEmbauchage() method.
+     * Tests setDateEmbauchage()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -85,7 +85,7 @@ class LignesCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHTrav() method.
+     * Tests setNbHTrav()
      *
      * @return void
      */
@@ -98,7 +98,7 @@ class LignesCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNoEt() method.
+     * Tests setNoEt()
      *
      * @return void
      */
@@ -111,7 +111,7 @@ class LignesCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomEmploye() method.
+     * Tests setNomEmploye()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class LignesCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLigne() method.
+     * Tests setNumLigne()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class LignesCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroAssure() method.
+     * Tests setNumeroAssure()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class LignesCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class LignesCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOrganisme() method.
+     * Tests setOrganisme()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class LignesCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeDecla() method.
+     * Tests setPeriodeDecla()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -193,7 +193,7 @@ class LignesCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSalaireBrut() method.
+     * Tests setSalaireBrut()
      *
      * @return void
      */
@@ -206,7 +206,7 @@ class LignesCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxAt() method.
+     * Tests setTauxAt()
      *
      * @return void
      */
@@ -219,7 +219,7 @@ class LignesCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

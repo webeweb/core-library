@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class VmpTest extends AbstractTestCase {
 
     /**
-     * Tests the setCode() method.
+     * Tests setCode()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class VmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeJournal() method.
+     * Tests setCodeJournal()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class VmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCommentaire() method.
+     * Tests setCommentaire()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class VmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteComm() method.
+     * Tests setCompteComm()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class VmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteCoupons() method.
+     * Tests setCompteCoupons()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class VmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteFrais() method.
+     * Tests setCompteFrais()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class VmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIdentifiant() method.
+     * Tests setIdentifiant()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class VmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle() method.
+     * Tests setLibelle()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class VmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbLignesMvt() method.
+     * Tests setNbLignesMvt()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class VmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumCompte() method.
+     * Tests setNumCompte()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class VmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

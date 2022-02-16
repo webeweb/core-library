@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ObligationsLieesTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeAction() method.
+     * Tests setCodeAction()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ObligationsLieesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeObligation() method.
+     * Tests setCodeObligation()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ObligationsLieesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

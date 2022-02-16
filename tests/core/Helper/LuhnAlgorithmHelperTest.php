@@ -23,7 +23,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 class LuhnAlgorithmHelperTest extends AbstractTestCase {
 
     /**
-     * Tests the check() method.
+     * Tests check()
      *
      * @return void
      */

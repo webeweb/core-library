@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LignesBulletinComplTest extends AbstractTestCase {
 
     /**
-     * Tests the setDateDebut() method.
+     * Tests setDateDebut()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -42,7 +42,7 @@ class LignesBulletinComplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateFin() method.
+     * Tests setDateFin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -59,7 +59,7 @@ class LignesBulletinComplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndicePeriode() method.
+     * Tests setIndicePeriode()
      *
      * @return void
      */
@@ -72,7 +72,7 @@ class LignesBulletinComplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLigneBulletin() method.
+     * Tests setNumLigneBulletin()
      *
      * @return void
      */
@@ -85,7 +85,7 @@ class LignesBulletinComplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -98,7 +98,7 @@ class LignesBulletinComplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriode() method.
+     * Tests setPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -115,7 +115,7 @@ class LignesBulletinComplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodicite() method.
+     * Tests setPeriodicite()
      *
      * @return void
      */
@@ -128,7 +128,7 @@ class LignesBulletinComplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeRegul() method.
+     * Tests setTypeRegul()
      *
      * @return void
      */
@@ -141,7 +141,7 @@ class LignesBulletinComplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

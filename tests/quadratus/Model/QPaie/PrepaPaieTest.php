@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class PrepaPaieTest extends AbstractTestCase {
 
     /**
-     * Tests the setCpPris() method.
+     * Tests setCpPris()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class PrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHMajoAcquis() method.
+     * Tests setHMajoAcquis()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class PrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHMajoPris() method.
+     * Tests setHMajoPris()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class PrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHSupAComptabiliserRc() method.
+     * Tests setHSupAComptabiliserRc()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class PrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHSupAComptabiliserRcit() method.
+     * Tests setHSupAComptabiliserRcit()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class PrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHSupBonif() method.
+     * Tests setHSupBonif()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class PrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHorairePrevu() method.
+     * Tests setHorairePrevu()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class PrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHComp() method.
+     * Tests setNbHComp()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class PrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHNuit() method.
+     * Tests setNbHNuit()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class PrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class PrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriode() method.
+     * Tests setPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -172,7 +172,7 @@ class PrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPourcentHBonif() method.
+     * Tests setPourcentHBonif()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class PrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRRecupAcquis() method.
+     * Tests setRRecupAcquis()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class PrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRRecupPris() method.
+     * Tests setRRecupPris()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class PrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRcAcquis() method.
+     * Tests setRcAcquis()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class PrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRcPris() method.
+     * Tests setRcPris()
      *
      * @return void
      */
@@ -237,7 +237,7 @@ class PrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRrAcquis() method.
+     * Tests setRrAcquis()
      *
      * @return void
      */
@@ -250,7 +250,7 @@ class PrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRrPris() method.
+     * Tests setRrPris()
      *
      * @return void
      */
@@ -263,7 +263,7 @@ class PrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSemaine() method.
+     * Tests setSemaine()
      *
      * @return void
      */
@@ -276,7 +276,7 @@ class PrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTotRealise() method.
+     * Tests setTotRealise()
      *
      * @return void
      */
@@ -289,7 +289,7 @@ class PrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTravailEffectif() method.
+     * Tests setTravailEffectif()
      *
      * @return void
      */
@@ -302,7 +302,7 @@ class PrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

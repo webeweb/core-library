@@ -213,7 +213,7 @@ class GetRequestTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the clearHeader() method.
+     * Tests clearHeader()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -230,7 +230,7 @@ class GetRequestTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the clearQueryData() method.
+     * Tests clearQueryData()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.

@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ClientsSelAvanceTest extends AbstractTestCase {
 
     /**
-     * Tests the setCode() method.
+     * Tests setCode()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCol() method.
+     * Tests setCodeCol()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle() method.
+     * Tests setLibelle()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomReq1() method.
+     * Tests setNomReq1()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomReq10() method.
+     * Tests setNomReq10()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomReq11() method.
+     * Tests setNomReq11()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomReq12() method.
+     * Tests setNomReq12()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomReq2() method.
+     * Tests setNomReq2()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomReq3() method.
+     * Tests setNomReq3()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomReq4() method.
+     * Tests setNomReq4()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomReq5() method.
+     * Tests setNomReq5()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomReq6() method.
+     * Tests setNomReq6()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomReq7() method.
+     * Tests setNomReq7()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomReq8() method.
+     * Tests setNomReq8()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomReq9() method.
+     * Tests setNomReq9()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRequete1() method.
+     * Tests setRequete1()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRequete10() method.
+     * Tests setRequete10()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRequete11() method.
+     * Tests setRequete11()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRequete12() method.
+     * Tests setRequete12()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRequete2() method.
+     * Tests setRequete2()
      *
      * @return void
      */
@@ -283,7 +283,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRequete3() method.
+     * Tests setRequete3()
      *
      * @return void
      */
@@ -296,7 +296,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRequete4() method.
+     * Tests setRequete4()
      *
      * @return void
      */
@@ -309,7 +309,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRequete5() method.
+     * Tests setRequete5()
      *
      * @return void
      */
@@ -322,7 +322,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRequete6() method.
+     * Tests setRequete6()
      *
      * @return void
      */
@@ -335,7 +335,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRequete7() method.
+     * Tests setRequete7()
      *
      * @return void
      */
@@ -348,7 +348,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRequete8() method.
+     * Tests setRequete8()
      *
      * @return void
      */
@@ -361,7 +361,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRequete9() method.
+     * Tests setRequete9()
      *
      * @return void
      */
@@ -374,7 +374,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

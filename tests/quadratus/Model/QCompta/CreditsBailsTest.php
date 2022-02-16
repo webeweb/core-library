@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class CreditsBailsTest extends AbstractTestCase {
 
     /**
-     * Tests the setAdAmortAnterieur() method.
+     * Tests setAdAmortAnterieur()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdAmortAnterieur2() method.
+     * Tests setAdAmortAnterieur2()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdAnneesAmort() method.
+     * Tests setAdAnneesAmort()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdCoeffDegressif() method.
+     * Tests setAdCoeffDegressif()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdDotation() method.
+     * Tests setAdDotation()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdDotation2() method.
+     * Tests setAdDotation2()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdDotationExcept() method.
+     * Tests setAdDotationExcept()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdDuree() method.
+     * Tests setAdDuree()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdTauxLineaire() method.
+     * Tests setAdTauxLineaire()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAdType() method.
+     * Tests setAdType()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAfAmortAnterieur() method.
+     * Tests setAfAmortAnterieur()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAfAnneesAmort() method.
+     * Tests setAfAnneesAmort()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAfCoeffDegressif() method.
+     * Tests setAfCoeffDegressif()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAfDotation() method.
+     * Tests setAfDotation()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAfDuree() method.
+     * Tests setAfDuree()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAfTauxExcept() method.
+     * Tests setAfTauxExcept()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAfTauxLineaire() method.
+     * Tests setAfTauxLineaire()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAfType() method.
+     * Tests setAfType()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAfsii() method.
+     * Tests setAfsii()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBaseTaxePro() method.
+     * Tests setBaseTaxePro()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setBureau() method.
+     * Tests setBureau()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCbEnFrancs() method.
+     * Tests setCbEnFrancs()
      *
      * @return void
      */
@@ -311,7 +311,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCentreAnalytique() method.
+     * Tests setCentreAnalytique()
      *
      * @return void
      */
@@ -324,7 +324,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeJournalEcheance() method.
+     * Tests setCodeJournalEcheance()
      *
      * @return void
      */
@@ -337,7 +337,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeJournalPaiement() method.
+     * Tests setCodeJournalPaiement()
      *
      * @return void
      */
@@ -350,7 +350,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTva() method.
+     * Tests setCodeTva()
      *
      * @return void
      */
@@ -363,7 +363,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteFrn() method.
+     * Tests setCompteFrn()
      *
      * @return void
      */
@@ -376,7 +376,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCptAssurance() method.
+     * Tests setCptAssurance()
      *
      * @return void
      */
@@ -389,7 +389,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCptCharge() method.
+     * Tests setCptCharge()
      *
      * @return void
      */
@@ -402,7 +402,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCptEntretien() method.
+     * Tests setCptEntretien()
      *
      * @return void
      */
@@ -415,7 +415,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCptTva() method.
+     * Tests setCptTva()
      *
      * @return void
      */
@@ -428,7 +428,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCptTvaAssu() method.
+     * Tests setCptTvaAssu()
      *
      * @return void
      */
@@ -441,7 +441,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCrValeurEuros() method.
+     * Tests setCrValeurEuros()
      *
      * @return void
      */
@@ -454,7 +454,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCrrDate() method.
+     * Tests setCrrDate()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -471,7 +471,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCrrPxCessionHt() method.
+     * Tests setCrrPxCessionHt()
      *
      * @return void
      */
@@ -484,7 +484,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCrrQteVendue() method.
+     * Tests setCrrQteVendue()
      *
      * @return void
      */
@@ -497,7 +497,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCrrSupplAmort() method.
+     * Tests setCrrSupplAmort()
      *
      * @return void
      */
@@ -510,7 +510,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCrrSupplValeur() method.
+     * Tests setCrrSupplValeur()
      *
      * @return void
      */
@@ -523,7 +523,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCrrType() method.
+     * Tests setCrrType()
      *
      * @return void
      */
@@ -536,7 +536,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCrrpmValueCt() method.
+     * Tests setCrrpmValueCt()
      *
      * @return void
      */
@@ -549,7 +549,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCrrpmValueLt() method.
+     * Tests setCrrpmValueLt()
      *
      * @return void
      */
@@ -562,7 +562,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateAcquisition() method.
+     * Tests setDateAcquisition()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -579,7 +579,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateMiseService() method.
+     * Tests setDateMiseService()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -596,7 +596,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDin() method.
+     * Tests setDin()
      *
      * @return void
      */
@@ -609,7 +609,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtat() method.
+     * Tests setEtat()
      *
      * @return void
      */
@@ -622,7 +622,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGuidVehicule() method.
+     * Tests setGuidVehicule()
      *
      * @return void
      */
@@ -635,7 +635,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelle() method.
+     * Tests setLibelle()
      *
      * @return void
      */
@@ -648,7 +648,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelleFrn() method.
+     * Tests setLibelleFrn()
      *
      * @return void
      */
@@ -661,7 +661,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLimiteAmort() method.
+     * Tests setLimiteAmort()
      *
      * @return void
      */
@@ -674,7 +674,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMateriauxAgricole() method.
+     * Tests setMateriauxAgricole()
      *
      * @return void
      */
@@ -687,7 +687,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantTva() method.
+     * Tests setMontantTva()
      *
      * @return void
      */
@@ -700,7 +700,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNatureAnalytique() method.
+     * Tests setNatureAnalytique()
      *
      * @return void
      */
@@ -713,7 +713,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumDeuxImmoRachat() method.
+     * Tests setNumDeuxImmoRachat()
      *
      * @return void
      */
@@ -726,7 +726,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumImmoRachat() method.
+     * Tests setNumImmoRachat()
      *
      * @return void
      */
@@ -739,7 +739,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumero() method.
+     * Tests setNumero()
      *
      * @return void
      */
@@ -752,7 +752,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroCompte() method.
+     * Tests setNumeroCompte()
      *
      * @return void
      */
@@ -765,7 +765,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroDeux() method.
+     * Tests setNumeroDeux()
      *
      * @return void
      */
@@ -778,7 +778,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroPj() method.
+     * Tests setNumeroPj()
      *
      * @return void
      */
@@ -791,7 +791,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQuantite() method.
+     * Tests setQuantite()
      *
      * @return void
      */
@@ -804,7 +804,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setService() method.
+     * Tests setService()
      *
      * @return void
      */
@@ -817,7 +817,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTaxeFonciere() method.
+     * Tests setTaxeFonciere()
      *
      * @return void
      */
@@ -830,7 +830,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTaxePro() method.
+     * Tests setTaxePro()
      *
      * @return void
      */
@@ -843,7 +843,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTpDuree() method.
+     * Tests setTpDuree()
      *
      * @return void
      */
@@ -856,7 +856,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTpEchoirEchu() method.
+     * Tests setTpEchoirEchu()
      *
      * @return void
      */
@@ -869,7 +869,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTpMoisAnnee() method.
+     * Tests setTpMoisAnnee()
      *
      * @return void
      */
@@ -882,7 +882,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTpMonttDepot() method.
+     * Tests setTpMonttDepot()
      *
      * @return void
      */
@@ -895,7 +895,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTpPeriodicite() method.
+     * Tests setTpPeriodicite()
      *
      * @return void
      */
@@ -908,7 +908,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTpPremierPaiement() method.
+     * Tests setTpPremierPaiement()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -925,7 +925,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setValeurEuros() method.
+     * Tests setValeurEuros()
      *
      * @return void
      */
@@ -938,7 +938,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setValeurHt() method.
+     * Tests setValeurHt()
      *
      * @return void
      */
@@ -951,7 +951,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

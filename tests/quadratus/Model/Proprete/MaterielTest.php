@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class MaterielTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeBarre() method.
+     * Tests setCodeBarre()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class MaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeMateriel() method.
+     * Tests setCodeMateriel()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class MaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateAchat() method.
+     * Tests setDateAchat()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class MaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateDebutAmortissement() method.
+     * Tests setDateDebutAmortissement()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -85,7 +85,7 @@ class MaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateFinAmortissement() method.
+     * Tests setDateFinAmortissement()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -102,7 +102,7 @@ class MaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateFinService() method.
+     * Tests setDateFinService()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -119,7 +119,7 @@ class MaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateMiseEnService() method.
+     * Tests setDateMiseEnService()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -136,7 +136,7 @@ class MaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDesignation1() method.
+     * Tests setDesignation1()
      *
      * @return void
      */
@@ -149,7 +149,7 @@ class MaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDesignation2() method.
+     * Tests setDesignation2()
      *
      * @return void
      */
@@ -162,7 +162,7 @@ class MaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDesignation3() method.
+     * Tests setDesignation3()
      *
      * @return void
      */
@@ -175,7 +175,7 @@ class MaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDesignation4() method.
+     * Tests setDesignation4()
      *
      * @return void
      */
@@ -188,7 +188,7 @@ class MaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDesignation5() method.
+     * Tests setDesignation5()
      *
      * @return void
      */
@@ -201,7 +201,7 @@ class MaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantAmortissement() method.
+     * Tests setMontantAmortissement()
      *
      * @return void
      */
@@ -214,7 +214,7 @@ class MaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroSerie() method.
+     * Tests setNumeroSerie()
      *
      * @return void
      */
@@ -227,7 +227,7 @@ class MaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setValAchatEuro() method.
+     * Tests setValAchatEuro()
      *
      * @return void
      */
@@ -240,7 +240,7 @@ class MaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setValAchatFrf() method.
+     * Tests setValAchatFrf()
      *
      * @return void
      */
@@ -253,7 +253,7 @@ class MaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

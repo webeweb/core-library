@@ -25,7 +25,7 @@ use WBW\Library\Traits\Tests\Fixtures\DateTimes\TestDateTimeBeginsOnTrait;
 class DateTimeBeginsOnTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setBeginsOn() method.
+     * Tests setBeginsOn()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EmpDadsuPrevoyanceTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeAffilSecu() method.
+     * Tests setCodeAffilSecu()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class EmpDadsuPrevoyanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateAncienBranche() method.
+     * Tests setDateAncienBranche()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -55,7 +55,7 @@ class EmpDadsuPrevoyanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateAncienCollege() method.
+     * Tests setDateAncienCollege()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -72,7 +72,7 @@ class EmpDadsuPrevoyanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateAncienPoste() method.
+     * Tests setDateAncienPoste()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -89,7 +89,7 @@ class EmpDadsuPrevoyanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbEnfants() method.
+     * Tests setNbEnfants()
      *
      * @return void
      */
@@ -102,7 +102,7 @@ class EmpDadsuPrevoyanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -115,7 +115,7 @@ class EmpDadsuPrevoyanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPremDateEntree() method.
+     * Tests setPremDateEntree()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -132,7 +132,7 @@ class EmpDadsuPrevoyanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRangNaissance() method.
+     * Tests setRangNaissance()
      *
      * @return void
      */
@@ -145,7 +145,7 @@ class EmpDadsuPrevoyanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

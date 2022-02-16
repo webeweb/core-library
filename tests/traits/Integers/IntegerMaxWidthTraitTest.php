@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Integers\TestIntegerMaxWidthTrait;
 class IntegerMaxWidthTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setMaxWidth() method.
+     * Tests setMaxWidth()
      *
      * @return void
      */

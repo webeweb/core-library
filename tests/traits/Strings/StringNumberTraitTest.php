@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringNumberTrait;
 class StringNumberTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setNumber() method.
+     * Tests setNumber()
      *
      * @return void
      */

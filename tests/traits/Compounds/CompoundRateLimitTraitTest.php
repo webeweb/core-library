@@ -25,7 +25,7 @@ use WBW\Library\Traits\Tests\Fixtures\Compounds\TestCompoundRateLimitTrait;
 class CompoundRateLimitTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setLimit() method.
+     * Tests setLimit()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class CompoundRateLimitTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemaining() method.
+     * Tests setRemaining()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class CompoundRateLimitTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setReset() method.
+     * Tests setReset()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.

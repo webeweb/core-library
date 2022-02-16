@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringMentionTrait;
 class StringMentionTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setMention() method.
+     * Tests setMention()
      *
      * @return void
      */

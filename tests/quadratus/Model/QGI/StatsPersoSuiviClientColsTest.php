@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class StatsPersoSuiviClientColsTest extends AbstractTestCase {
 
     /**
-     * Tests the setAnN() method.
+     * Tests setAnN()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class StatsPersoSuiviClientColsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCode() method.
+     * Tests setCode()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class StatsPersoSuiviClientColsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIndice() method.
+     * Tests setIndice()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class StatsPersoSuiviClientColsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule() method.
+     * Tests setIntitule()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class StatsPersoSuiviClientColsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRegleAutres() method.
+     * Tests setRegleAutres()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class StatsPersoSuiviClientColsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRegleBarn() method.
+     * Tests setRegleBarn()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class StatsPersoSuiviClientColsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRegleBars() method.
+     * Tests setRegleBars()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class StatsPersoSuiviClientColsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRegleBicrn() method.
+     * Tests setRegleBicrn()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class StatsPersoSuiviClientColsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRegleBicrs() method.
+     * Tests setRegleBicrs()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class StatsPersoSuiviClientColsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRegleBnc() method.
+     * Tests setRegleBnc()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class StatsPersoSuiviClientColsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRegleSci() method.
+     * Tests setRegleSci()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class StatsPersoSuiviClientColsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRegleScm() method.
+     * Tests setRegleScm()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class StatsPersoSuiviClientColsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRegleTous() method.
+     * Tests setRegleTous()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class StatsPersoSuiviClientColsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

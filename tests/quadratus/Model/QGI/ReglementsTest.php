@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ReglementsTest extends AbstractTestCase {
 
     /**
-     * Tests the setBic() method.
+     * Tests setBic()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCode() method.
+     * Tests setCode()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeBanque() method.
+     * Tests setCodeBanque()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeComptable() method.
+     * Tests setCodeComptable()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteCaisse() method.
+     * Tests setCompteCaisse()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCptPortefeuille() method.
+     * Tests setCptPortefeuille()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateEcheanceCpta() method.
+     * Tests setDateEcheanceCpta()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDefinitionPaiement() method.
+     * Tests setDefinitionPaiement()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDefinitionRemise() method.
+     * Tests setDefinitionRemise()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDetailEcheanceCpta() method.
+     * Tests setDetailEcheanceCpta()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDetailEffetCpta() method.
+     * Tests setDetailEffetCpta()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDeviseCaisse() method.
+     * Tests setDeviseCaisse()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDomiciliationBancaire1() method.
+     * Tests setDomiciliationBancaire1()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDomiciliationBancaire2() method.
+     * Tests setDomiciliationBancaire2()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDureeEcheances() method.
+     * Tests setDureeEcheances()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEcheanceFinDecade() method.
+     * Tests setEcheanceFinDecade()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEcheanceFinQuinzaine() method.
+     * Tests setEcheanceFinQuinzaine()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEditDateEcheance() method.
+     * Tests setEditDateEcheance()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEditerCheque() method.
+     * Tests setEditerCheque()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEspecesCaisse() method.
+     * Tests setEspecesCaisse()
      *
      * @return void
      */
@@ -283,7 +283,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setGestionPaiements() method.
+     * Tests setGestionPaiements()
      *
      * @return void
      */
@@ -296,7 +296,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIban() method.
+     * Tests setIban()
      *
      * @return void
      */
@@ -309,7 +309,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule() method.
+     * Tests setIntitule()
      *
      * @return void
      */
@@ -322,7 +322,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule2() method.
+     * Tests setIntitule2()
      *
      * @return void
      */
@@ -335,7 +335,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule3() method.
+     * Tests setIntitule3()
      *
      * @return void
      */
@@ -348,7 +348,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLcr() method.
+     * Tests setLcr()
      *
      * @return void
      */
@@ -361,7 +361,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibEcrCaisse() method.
+     * Tests setLibEcrCaisse()
      *
      * @return void
      */
@@ -374,7 +374,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNombreEcheances() method.
+     * Tests setNombreEcheances()
      *
      * @return void
      */
@@ -387,7 +387,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPaiementDepartLe() method.
+     * Tests setPaiementDepartLe()
      *
      * @return void
      */
@@ -400,7 +400,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPaiementLe() method.
+     * Tests setPaiementLe()
      *
      * @return void
      */
@@ -413,7 +413,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPaiementNombreDeJours() method.
+     * Tests setPaiementNombreDeJours()
      *
      * @return void
      */
@@ -426,7 +426,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPasDeTiroirCaisse() method.
+     * Tests setPasDeTiroirCaisse()
      *
      * @return void
      */
@@ -439,7 +439,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPasEffetAvoir() method.
+     * Tests setPasEffetAvoir()
      *
      * @return void
      */
@@ -452,7 +452,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemisePied() method.
+     * Tests setRemisePied()
      *
      * @return void
      */
@@ -465,7 +465,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRib() method.
+     * Tests setRib()
      *
      * @return void
      */
@@ -478,7 +478,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTraiteEditer() method.
+     * Tests setTraiteEditer()
      *
      * @return void
      */
@@ -491,7 +491,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeAcceptation() method.
+     * Tests setTypeAcceptation()
      *
      * @return void
      */
@@ -504,7 +504,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

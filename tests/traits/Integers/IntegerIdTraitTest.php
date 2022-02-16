@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Integers\TestIntegerIdTrait;
 class IntegerIdTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setId() method.
+     * Tests setId()
      *
      * @return void
      */

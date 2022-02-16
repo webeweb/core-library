@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class Constantes2Test extends AbstractTestCase {
 
     /**
-     * Tests the setFormatDuree() method.
+     * Tests setFormatDuree()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class Constantes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJoursCpaDeduire() method.
+     * Tests setJoursCpaDeduire()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class Constantes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbDecimalesDuree() method.
+     * Tests setNbDecimalesDuree()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class Constantes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumCritereBtBool1() method.
+     * Tests setNumCritereBtBool1()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class Constantes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumCritereBtBool2() method.
+     * Tests setNumCritereBtBool2()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class Constantes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumCritereBtByte1() method.
+     * Tests setNumCritereBtByte1()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class Constantes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumCritereBtLst1() method.
+     * Tests setNumCritereBtLst1()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class Constantes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumCritereBtLst2() method.
+     * Tests setNumCritereBtLst2()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class Constantes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumCritereBtTxt1() method.
+     * Tests setNumCritereBtTxt1()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class Constantes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumCritereBtTxt2() method.
+     * Tests setNumCritereBtTxt2()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class Constantes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumCritereCouleurBt() method.
+     * Tests setNumCritereCouleurBt()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class Constantes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumCritereDaTxt1() method.
+     * Tests setNumCritereDaTxt1()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class Constantes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumCritereReclaLst1() method.
+     * Tests setNumCritereReclaLst1()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class Constantes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumCritereReclaLst2() method.
+     * Tests setNumCritereReclaLst2()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class Constantes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPublierPhotoWeb() method.
+     * Tests setPublierPhotoWeb()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class Constantes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeCritereCouleurBt() method.
+     * Tests setTypeCritereCouleurBt()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class Constantes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class HAbsPrepaPaieTest extends AbstractTestCase {
 
     /**
-     * Tests the setNbHNonEffectue() method.
+     * Tests setNbHNonEffectue()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class HAbsPrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class HAbsPrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriode() method.
+     * Tests setPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class HAbsPrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSemaine() method.
+     * Tests setSemaine()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class HAbsPrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeAbsence() method.
+     * Tests setTypeAbsence()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class HAbsPrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

@@ -24,7 +24,7 @@ use WBW\Library\Traits\Tests\Fixtures\DateTimes\TestDateTimeTimestampTrait;
 class DateTimeTimestampTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setTimestamp() method.
+     * Tests setTimestamp()
      *
      * @return void
      */

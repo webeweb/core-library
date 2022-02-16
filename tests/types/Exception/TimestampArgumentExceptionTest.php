@@ -23,7 +23,7 @@ use WBW\Library\Types\Tests\AbstractTestCase;
 class TimestampArgumentExceptionTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

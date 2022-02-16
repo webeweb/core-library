@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LignesIjssTest extends AbstractTestCase {
 
     /**
-     * Tests the setMontant() method.
+     * Tests setMontant()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class LignesIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontant2() method.
+     * Tests setMontant2()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class LignesIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantEuroOuFranc() method.
+     * Tests setMontantEuroOuFranc()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class LignesIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMotif() method.
+     * Tests setMotif()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class LignesIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtBrutPerteSalaire() method.
+     * Tests setMtBrutPerteSalaire()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class LignesIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbC() method.
+     * Tests setNbC()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class LignesIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbE() method.
+     * Tests setNbE()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class LignesIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLigne() method.
+     * Tests setNumLigne()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class LignesIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroAttestation() method.
+     * Tests setNumeroAttestation()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class LignesIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeDeb() method.
+     * Tests setPeriodeDeb()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -159,7 +159,7 @@ class LignesIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeFin() method.
+     * Tests setPeriodeFin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -176,7 +176,7 @@ class LignesIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSalRetEuroOuFranc() method.
+     * Tests setSalRetEuroOuFranc()
      *
      * @return void
      */
@@ -189,7 +189,7 @@ class LignesIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSalaireRet() method.
+     * Tests setSalaireRet()
      *
      * @return void
      */
@@ -202,7 +202,7 @@ class LignesIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSommeRegul1() method.
+     * Tests setSommeRegul1()
      *
      * @return void
      */
@@ -215,7 +215,7 @@ class LignesIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSommeRegul2() method.
+     * Tests setSommeRegul2()
      *
      * @return void
      */
@@ -228,7 +228,7 @@ class LignesIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

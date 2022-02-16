@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class NaturesTest extends AbstractTestCase {
 
     /**
-     * Tests the setChapitreAffect() method.
+     * Tests setChapitreAffect()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class NaturesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCode() method.
+     * Tests setCode()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class NaturesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule() method.
+     * Tests setIntitule()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class NaturesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setModeCalculRepart() method.
+     * Tests setModeCalculRepart()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class NaturesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNatureInactive() method.
+     * Tests setNatureInactive()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class NaturesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setOrdreEdition() method.
+     * Tests setOrdreEdition()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class NaturesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSuiviAnneeRecolte() method.
+     * Tests setSuiviAnneeRecolte()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class NaturesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSuiviQuantite() method.
+     * Tests setSuiviQuantite()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class NaturesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeNature() method.
+     * Tests setTypeNature()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class NaturesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DecTvaUltTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeJournal() method.
+     * Tests setCodeJournal()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class DecTvaUltTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTva() method.
+     * Tests setCodeTva()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class DecTvaUltTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCompteur() method.
+     * Tests setCompteur()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class DecTvaUltTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFolio() method.
+     * Tests setFolio()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class DecTvaUltTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelleEcr() method.
+     * Tests setLibelleEcr()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class DecTvaUltTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLigneFolio() method.
+     * Tests setLigneFolio()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class DecTvaUltTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantHt() method.
+     * Tests setMontantHt()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class DecTvaUltTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantTva() method.
+     * Tests setMontantTva()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class DecTvaUltTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumLigne() method.
+     * Tests setNumLigne()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class DecTvaUltTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumUniqEcr() method.
+     * Tests setNumUniqEcr()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class DecTvaUltTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPerDec() method.
+     * Tests setPerDec()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -172,7 +172,7 @@ class DecTvaUltTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPerDecUlt() method.
+     * Tests setPerDecUlt()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -189,7 +189,7 @@ class DecTvaUltTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeEcriture() method.
+     * Tests setPeriodeEcriture()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -206,7 +206,7 @@ class DecTvaUltTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class RgCorrespondancesTest extends AbstractTestCase {
 
     /**
-     * Tests the setFichiersPublierWeb() method.
+     * Tests setFichiersPublierWeb()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class RgCorrespondancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIgnorer() method.
+     * Tests setIgnorer()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class RgCorrespondancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNiveau() method.
+     * Tests setNiveau()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class RgCorrespondancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeDonnees() method.
+     * Tests setTypeDonnees()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class RgCorrespondancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniqId() method.
+     * Tests setUniqId()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class RgCorrespondancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setValeur() method.
+     * Tests setValeur()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class RgCorrespondancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setValeurOrigine() method.
+     * Tests setValeurOrigine()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class RgCorrespondancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

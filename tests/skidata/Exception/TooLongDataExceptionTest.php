@@ -23,7 +23,7 @@ use WBW\Library\SkiData\Tests\AbstractTestCase;
 class TooLongDataExceptionTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DosRevCommentairesTest extends AbstractTestCase {
 
     /**
-     * Tests the setBloquant() method.
+     * Tests setBloquant()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollModifQuestion() method.
+     * Tests setCodeCollModifQuestion()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollModifReponse() method.
+     * Tests setCodeCollModifReponse()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollQuestion() method.
+     * Tests setCodeCollQuestion()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeCollReponse() method.
+     * Tests setCodeCollReponse()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCptComment() method.
+     * Tests setCptComment()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDtCreationQuestion() method.
+     * Tests setDtCreationQuestion()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDtCreationReponse() method.
+     * Tests setDtCreationReponse()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -137,7 +137,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDtModifQuestion() method.
+     * Tests setDtModifQuestion()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -154,7 +154,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDtModifReponse() method.
+     * Tests setDtModifReponse()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -171,7 +171,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDtTransfertDa() method.
+     * Tests setDtTransfertDa()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -188,7 +188,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEnAttenteReponse() method.
+     * Tests setEnAttenteReponse()
      *
      * @return void
      */
@@ -201,7 +201,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNeedAnswer() method.
+     * Tests setNeedAnswer()
      *
      * @return void
      */
@@ -214,7 +214,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNiveau() method.
+     * Tests setNiveau()
      *
      * @return void
      */
@@ -227,7 +227,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeRev() method.
+     * Tests setPeriodeRev()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -244,7 +244,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPermanent() method.
+     * Tests setPermanent()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTxtQuestion() method.
+     * Tests setTxtQuestion()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTxtReponse() method.
+     * Tests setTxtReponse()
      *
      * @return void
      */
@@ -283,7 +283,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setType() method.
+     * Tests setType()
      *
      * @return void
      */
@@ -296,7 +296,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ArticlesTest extends AbstractTestCase {
 
     /**
-     * Tests the setAchatParColis() method.
+     * Tests setAchatParColis()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setActif() method.
+     * Tests setActif()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAlleeCasier() method.
+     * Tests setAlleeCasier()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setArticleFrais() method.
+     * Tests setArticleFrais()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setArticleRattache() method.
+     * Tests setArticleRattache()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setArticleRegroupement() method.
+     * Tests setArticleRegroupement()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setArticleRemplacement() method.
+     * Tests setArticleRemplacement()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setArticleTaxe1() method.
+     * Tests setArticleTaxe1()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setArticleTaxe2() method.
+     * Tests setArticleTaxe2()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setArticleTaxe3() method.
+     * Tests setArticleTaxe3()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setArticleTaxe4() method.
+     * Tests setArticleTaxe4()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setArticleTaxe5() method.
+     * Tests setArticleTaxe5()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCalculCoeffPaPv() method.
+     * Tests setCalculCoeffPaPv()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeArticle() method.
+     * Tests setCodeArticle()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeArticle2() method.
+     * Tests setCodeArticle2()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeDeviseAchat() method.
+     * Tests setCodeDeviseAchat()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeFamille() method.
+     * Tests setCodeFamille()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeFournisseur() method.
+     * Tests setCodeFournisseur()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeGamme() method.
+     * Tests setCodeGamme()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeGrilleGamme() method.
+     * Tests setCodeGrilleGamme()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeHonoraire() method.
+     * Tests setCodeHonoraire()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeImputationAnalytique() method.
+     * Tests setCodeImputationAnalytique()
      *
      * @return void
      */
@@ -311,7 +311,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePresentation() method.
+     * Tests setCodePresentation()
      *
      * @return void
      */
@@ -324,7 +324,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeSsFamille() method.
+     * Tests setCodeSsFamille()
      *
      * @return void
      */
@@ -337,7 +337,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTache() method.
+     * Tests setCodeTache()
      *
      * @return void
      */
@@ -350,7 +350,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTarifArt() method.
+     * Tests setCodeTarifArt()
      *
      * @return void
      */
@@ -363,7 +363,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTaxe() method.
+     * Tests setCodeTaxe()
      *
      * @return void
      */
@@ -376,7 +376,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTvaAchat() method.
+     * Tests setCodeTvaAchat()
      *
      * @return void
      */
@@ -389,7 +389,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTvaVente() method.
+     * Tests setCodeTvaVente()
      *
      * @return void
      */
@@ -402,7 +402,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeTvaVente2() method.
+     * Tests setCodeTvaVente2()
      *
      * @return void
      */
@@ -415,7 +415,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeUnite() method.
+     * Tests setCodeUnite()
      *
      * @return void
      */
@@ -428,7 +428,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeVentilAchat() method.
+     * Tests setCodeVentilAchat()
      *
      * @return void
      */
@@ -441,7 +441,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeVentilVente() method.
+     * Tests setCodeVentilVente()
      *
      * @return void
      */
@@ -454,7 +454,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeVentilVente2() method.
+     * Tests setCodeVentilVente2()
      *
      * @return void
      */
@@ -467,7 +467,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCoeffPvPa() method.
+     * Tests setCoeffPvPa()
      *
      * @return void
      */
@@ -480,7 +480,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCoeffSurPxAchat() method.
+     * Tests setCoeffSurPxAchat()
      *
      * @return void
      */
@@ -493,7 +493,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCoeffSurPxAchatBrut() method.
+     * Tests setCoeffSurPxAchatBrut()
      *
      * @return void
      */
@@ -506,7 +506,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setColisageAchat() method.
+     * Tests setColisageAchat()
      *
      * @return void
      */
@@ -519,7 +519,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setColisagePxAchat() method.
+     * Tests setColisagePxAchat()
      *
      * @return void
      */
@@ -532,7 +532,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setColisagePxVente() method.
+     * Tests setColisagePxVente()
      *
      * @return void
      */
@@ -545,7 +545,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setColisageVente() method.
+     * Tests setColisageVente()
      *
      * @return void
      */
@@ -558,7 +558,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCommissionUnique() method.
+     * Tests setCommissionUnique()
      *
      * @return void
      */
@@ -571,7 +571,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setComplement() method.
+     * Tests setComplement()
      *
      * @return void
      */
@@ -584,7 +584,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setConditionnement1() method.
+     * Tests setConditionnement1()
      *
      * @return void
      */
@@ -597,7 +597,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setConditionnement2() method.
+     * Tests setConditionnement2()
      *
      * @return void
      */
@@ -610,7 +610,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setConditionnement3() method.
+     * Tests setConditionnement3()
      *
      * @return void
      */
@@ -623,7 +623,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setContremarqueInterdite() method.
+     * Tests setContremarqueInterdite()
      *
      * @return void
      */
@@ -636,7 +636,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCoutSupp() method.
+     * Tests setCoutSupp()
      *
      * @return void
      */
@@ -649,7 +649,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateCreation() method.
+     * Tests setDateCreation()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -666,7 +666,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateModification() method.
+     * Tests setDateModification()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -683,7 +683,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDebour() method.
+     * Tests setDebour()
      *
      * @return void
      */
@@ -696,7 +696,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDernierPxAchat() method.
+     * Tests setDernierPxAchat()
      *
      * @return void
      */
@@ -709,7 +709,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDesignationApres() method.
+     * Tests setDesignationApres()
      *
      * @return void
      */
@@ -722,7 +722,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDesignationAvant() method.
+     * Tests setDesignationAvant()
      *
      * @return void
      */
@@ -735,7 +735,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEditerArticleRattache() method.
+     * Tests setEditerArticleRattache()
      *
      * @return void
      */
@@ -748,7 +748,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEditerArticleRemplacement() method.
+     * Tests setEditerArticleRemplacement()
      *
      * @return void
      */
@@ -761,7 +761,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEnsemble() method.
+     * Tests setEnsemble()
      *
      * @return void
      */
@@ -774,7 +774,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEstMultiTva() method.
+     * Tests setEstMultiTva()
      *
      * @return void
      */
@@ -787,7 +787,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEstOccasion() method.
+     * Tests setEstOccasion()
      *
      * @return void
      */
@@ -800,7 +800,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFacturationTtc() method.
+     * Tests setFacturationTtc()
      *
      * @return void
      */
@@ -813,7 +813,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFamilleAchat() method.
+     * Tests setFamilleAchat()
      *
      * @return void
      */
@@ -826,7 +826,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFrais1() method.
+     * Tests setFrais1()
      *
      * @return void
      */
@@ -839,7 +839,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFrais2() method.
+     * Tests setFrais2()
      *
      * @return void
      */
@@ -852,7 +852,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFrais3() method.
+     * Tests setFrais3()
      *
      * @return void
      */
@@ -865,7 +865,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHaCoeffPvPa() method.
+     * Tests setHaCoeffPvPa()
      *
      * @return void
      */
@@ -878,7 +878,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHaCoeffSurPxAchat() method.
+     * Tests setHaCoeffSurPxAchat()
      *
      * @return void
      */
@@ -891,7 +891,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHaDatePa() method.
+     * Tests setHaDatePa()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -908,7 +908,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHaDatePv() method.
+     * Tests setHaDatePv()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -925,7 +925,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHaDernierPxAchat() method.
+     * Tests setHaDernierPxAchat()
      *
      * @return void
      */
@@ -938,7 +938,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHaPrixRevient() method.
+     * Tests setHaPrixRevient()
      *
      * @return void
      */
@@ -951,7 +951,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHaPrixRevientNet() method.
+     * Tests setHaPrixRevientNet()
      *
      * @return void
      */
@@ -964,7 +964,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHaPrixVente() method.
+     * Tests setHaPrixVente()
      *
      * @return void
      */
@@ -977,7 +977,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHaPxAchatBrut() method.
+     * Tests setHaPxAchatBrut()
      *
      * @return void
      */
@@ -990,7 +990,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHaRemiseAchat1() method.
+     * Tests setHaRemiseAchat1()
      *
      * @return void
      */
@@ -1003,7 +1003,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHaRemiseAchat2() method.
+     * Tests setHaRemiseAchat2()
      *
      * @return void
      */
@@ -1016,7 +1016,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHaRemiseAchat3() method.
+     * Tests setHaRemiseAchat3()
      *
      * @return void
      */
@@ -1029,7 +1029,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHaRemiseSupAchat1() method.
+     * Tests setHaRemiseSupAchat1()
      *
      * @return void
      */
@@ -1042,7 +1042,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHaRemiseSupAchat2() method.
+     * Tests setHaRemiseSupAchat2()
      *
      * @return void
      */
@@ -1055,7 +1055,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHaRemiseSupAchat3() method.
+     * Tests setHaRemiseSupAchat3()
      *
      * @return void
      */
@@ -1068,7 +1068,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHauteur() method.
+     * Tests setHauteur()
      *
      * @return void
      */
@@ -1081,7 +1081,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHonoraires() method.
+     * Tests setHonoraires()
      *
      * @return void
      */
@@ -1094,7 +1094,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHonorairesUniquement() method.
+     * Tests setHonorairesUniquement()
      *
      * @return void
      */
@@ -1107,7 +1107,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setHorsStock() method.
+     * Tests setHorsStock()
      *
      * @return void
      */
@@ -1120,7 +1120,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule1() method.
+     * Tests setIntitule1()
      *
      * @return void
      */
@@ -1133,7 +1133,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule2() method.
+     * Tests setIntitule2()
      *
      * @return void
      */
@@ -1146,7 +1146,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule3() method.
+     * Tests setIntitule3()
      *
      * @return void
      */
@@ -1159,7 +1159,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule4() method.
+     * Tests setIntitule4()
      *
      * @return void
      */
@@ -1172,7 +1172,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLargeur() method.
+     * Tests setLargeur()
      *
      * @return void
      */
@@ -1185,7 +1185,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLibelleInterne() method.
+     * Tests setLibelleInterne()
      *
      * @return void
      */
@@ -1198,7 +1198,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLongueur() method.
+     * Tests setLongueur()
      *
      * @return void
      */
@@ -1211,7 +1211,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLotSerieAutre() method.
+     * Tests setLotSerieAutre()
      *
      * @return void
      */
@@ -1224,7 +1224,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMargeMini() method.
+     * Tests setMargeMini()
      *
      * @return void
      */
@@ -1237,7 +1237,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMiniFacturable() method.
+     * Tests setMiniFacturable()
      *
      * @return void
      */
@@ -1250,7 +1250,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setModeleCodeBarre() method.
+     * Tests setModeleCodeBarre()
      *
      * @return void
      */
@@ -1263,7 +1263,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setModeleCodeBarreF() method.
+     * Tests setModeleCodeBarreF()
      *
      * @return void
      */
@@ -1276,7 +1276,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtSoumisTva2() method.
+     * Tests setMtSoumisTva2()
      *
      * @return void
      */
@@ -1289,7 +1289,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMtTare() method.
+     * Tests setMtTare()
      *
      * @return void
      */
@@ -1302,7 +1302,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMultiTvaAvecRemises() method.
+     * Tests setMultiTvaAvecRemises()
      *
      * @return void
      */
@@ -1315,7 +1315,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNatureProduit() method.
+     * Tests setNatureProduit()
      *
      * @return void
      */
@@ -1328,7 +1328,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHeures() method.
+     * Tests setNbHeures()
      *
      * @return void
      */
@@ -1341,7 +1341,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNePasCumulerStats() method.
+     * Tests setNePasCumulerStats()
      *
      * @return void
      */
@@ -1354,7 +1354,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNePasEditer() method.
+     * Tests setNePasEditer()
      *
      * @return void
      */
@@ -1367,7 +1367,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNePlusCommander() method.
+     * Tests setNePlusCommander()
      *
      * @return void
      */
@@ -1380,7 +1380,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNeutre() method.
+     * Tests setNeutre()
      *
      * @return void
      */
@@ -1393,7 +1393,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNiveauApparition() method.
+     * Tests setNiveauApparition()
      *
      * @return void
      */
@@ -1406,7 +1406,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNiveauTotalisation() method.
+     * Tests setNiveauTotalisation()
      *
      * @return void
      */
@@ -1419,7 +1419,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomenclatureEnsemble() method.
+     * Tests setNomenclatureEnsemble()
      *
      * @return void
      */
@@ -1432,7 +1432,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomenclatureEurope() method.
+     * Tests setNomenclatureEurope()
      *
      * @return void
      */
@@ -1445,7 +1445,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumCompteAchat() method.
+     * Tests setNumCompteAchat()
      *
      * @return void
      */
@@ -1458,7 +1458,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumCompteVente() method.
+     * Tests setNumCompteVente()
      *
      * @return void
      */
@@ -1471,7 +1471,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroPj() method.
+     * Tests setNumeroPj()
      *
      * @return void
      */
@@ -1484,7 +1484,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPamp() method.
+     * Tests setPamp()
      *
      * @return void
      */
@@ -1497,7 +1497,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setParamCde() method.
+     * Tests setParamCde()
      *
      * @return void
      */
@@ -1510,7 +1510,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPoidsUnitaire() method.
+     * Tests setPoidsUnitaire()
      *
      * @return void
      */
@@ -1523,7 +1523,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrixAchatCkp() method.
+     * Tests setPrixAchatCkp()
      *
      * @return void
      */
@@ -1536,7 +1536,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrixFixe() method.
+     * Tests setPrixFixe()
      *
      * @return void
      */
@@ -1549,7 +1549,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrixMini() method.
+     * Tests setPrixMini()
      *
      * @return void
      */
@@ -1562,7 +1562,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrixNet() method.
+     * Tests setPrixNet()
      *
      * @return void
      */
@@ -1575,7 +1575,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrixRevient() method.
+     * Tests setPrixRevient()
      *
      * @return void
      */
@@ -1588,7 +1588,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrixRevientNet() method.
+     * Tests setPrixRevientNet()
      *
      * @return void
      */
@@ -1601,7 +1601,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrixVenteCkp() method.
+     * Tests setPrixVenteCkp()
      *
      * @return void
      */
@@ -1614,7 +1614,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrmp() method.
+     * Tests setPrmp()
      *
      * @return void
      */
@@ -1627,7 +1627,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setProvenance() method.
+     * Tests setProvenance()
      *
      * @return void
      */
@@ -1640,7 +1640,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPxAchatBrut() method.
+     * Tests setPxAchatBrut()
      *
      * @return void
      */
@@ -1653,7 +1653,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPxAchatColis() method.
+     * Tests setPxAchatColis()
      *
      * @return void
      */
@@ -1666,7 +1666,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPxAchatEnDevise() method.
+     * Tests setPxAchatEnDevise()
      *
      * @return void
      */
@@ -1679,7 +1679,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPxUnitAEditer() method.
+     * Tests setPxUnitAEditer()
      *
      * @return void
      */
@@ -1692,7 +1692,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPxVenteColis() method.
+     * Tests setPxVenteColis()
      *
      * @return void
      */
@@ -1705,7 +1705,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPxVenteHtEuro() method.
+     * Tests setPxVenteHtEuro()
      *
      * @return void
      */
@@ -1718,7 +1718,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPxVenteHtFrf() method.
+     * Tests setPxVenteHtFrf()
      *
      * @return void
      */
@@ -1731,7 +1731,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPxVenteTtcEuro() method.
+     * Tests setPxVenteTtcEuro()
      *
      * @return void
      */
@@ -1744,7 +1744,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPxVenteTtcFrf() method.
+     * Tests setPxVenteTtcFrf()
      *
      * @return void
      */
@@ -1757,7 +1757,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQteAEditer() method.
+     * Tests setQteAEditer()
      *
      * @return void
      */
@@ -1770,7 +1770,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQteEcoCommande() method.
+     * Tests setQteEcoCommande()
      *
      * @return void
      */
@@ -1783,7 +1783,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQteHabCommande() method.
+     * Tests setQteHabCommande()
      *
      * @return void
      */
@@ -1796,7 +1796,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQteMaxFacture() method.
+     * Tests setQteMaxFacture()
      *
      * @return void
      */
@@ -1809,7 +1809,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQteMinCommande() method.
+     * Tests setQteMinCommande()
      *
      * @return void
      */
@@ -1822,7 +1822,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRegroupFact() method.
+     * Tests setRegroupFact()
      *
      * @return void
      */
@@ -1835,7 +1835,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRegroupFactTp() method.
+     * Tests setRegroupFactTp()
      *
      * @return void
      */
@@ -1848,7 +1848,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemise1enMontant() method.
+     * Tests setRemise1enMontant()
      *
      * @return void
      */
@@ -1861,7 +1861,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemise2enMontant() method.
+     * Tests setRemise2enMontant()
      *
      * @return void
      */
@@ -1874,7 +1874,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemiseAchat1() method.
+     * Tests setRemiseAchat1()
      *
      * @return void
      */
@@ -1887,7 +1887,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemiseAchat2() method.
+     * Tests setRemiseAchat2()
      *
      * @return void
      */
@@ -1900,7 +1900,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemiseAchat3() method.
+     * Tests setRemiseAchat3()
      *
      * @return void
      */
@@ -1913,7 +1913,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemiseSupAchat1() method.
+     * Tests setRemiseSupAchat1()
      *
      * @return void
      */
@@ -1926,7 +1926,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemiseSupAchat1EnMontant() method.
+     * Tests setRemiseSupAchat1EnMontant()
      *
      * @return void
      */
@@ -1939,7 +1939,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemiseSupAchat2() method.
+     * Tests setRemiseSupAchat2()
      *
      * @return void
      */
@@ -1952,7 +1952,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemiseSupAchat2EnMontant() method.
+     * Tests setRemiseSupAchat2EnMontant()
      *
      * @return void
      */
@@ -1965,7 +1965,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemiseSupAchat3() method.
+     * Tests setRemiseSupAchat3()
      *
      * @return void
      */
@@ -1978,7 +1978,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemiseSupAchat3EnMontant() method.
+     * Tests setRemiseSupAchat3EnMontant()
      *
      * @return void
      */
@@ -1991,7 +1991,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setRemisesInterdites() method.
+     * Tests setRemisesInterdites()
      *
      * @return void
      */
@@ -2004,7 +2004,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSoumisCertif() method.
+     * Tests setSoumisCertif()
      *
      * @return void
      */
@@ -2017,7 +2017,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSsFamilleAchat() method.
+     * Tests setSsFamilleAchat()
      *
      * @return void
      */
@@ -2030,7 +2030,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSuiviStock() method.
+     * Tests setSuiviStock()
      *
      * @return void
      */
@@ -2043,7 +2043,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTareVat() method.
+     * Tests setTareVat()
      *
      * @return void
      */
@@ -2056,7 +2056,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxAlcool() method.
+     * Tests setTauxAlcool()
      *
      * @return void
      */
@@ -2069,7 +2069,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTauxDeviseAchat() method.
+     * Tests setTauxDeviseAchat()
      *
      * @return void
      */
@@ -2082,7 +2082,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTvaEncaissement() method.
+     * Tests setTvaEncaissement()
      *
      * @return void
      */
@@ -2095,7 +2095,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTxCommission() method.
+     * Tests setTxCommission()
      *
      * @return void
      */
@@ -2108,7 +2108,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeArrondi() method.
+     * Tests setTypeArrondi()
      *
      * @return void
      */
@@ -2121,7 +2121,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeHeure() method.
+     * Tests setTypeHeure()
      *
      * @return void
      */
@@ -2134,7 +2134,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeUnite() method.
+     * Tests setTypeUnite()
      *
      * @return void
      */
@@ -2147,7 +2147,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setUniteActivite() method.
+     * Tests setUniteActivite()
      *
      * @return void
      */
@@ -2160,7 +2160,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setVariante() method.
+     * Tests setVariante()
      *
      * @return void
      */
@@ -2173,7 +2173,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setVenteParColis() method.
+     * Tests setVenteParColis()
      *
      * @return void
      */
@@ -2186,7 +2186,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setVolume() method.
+     * Tests setVolume()
      *
      * @return void
      */
@@ -2199,7 +2199,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

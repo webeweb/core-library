@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AttestationExtrasTest extends AbstractTestCase {
 
     /**
-     * Tests the setAncienAssedic() method.
+     * Tests setAncienAssedic()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setAncienGarp() method.
+     * Tests setAncienGarp()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeEtablissement() method.
+     * Tests setCodeEtablissement()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeMotifRupture() method.
+     * Tests setCodeMotifRupture()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeNaf() method.
+     * Tests setCodeNaf()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEffectif() method.
+     * Tests setEffectif()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEmploi() method.
+     * Tests setEmploi()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtblAdresse() method.
+     * Tests setEtblAdresse()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtblRaisonSociale() method.
+     * Tests setEtblRaisonSociale()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtblTel() method.
+     * Tests setEtblTel()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLienDocument() method.
+     * Tests setLienDocument()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNir() method.
+     * Tests setNir()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomEmploye() method.
+     * Tests setNomEmploye()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomPoleEmploi() method.
+     * Tests setNomPoleEmploi()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNomRegimeRetraite() method.
+     * Tests setNomRegimeRetraite()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroAffiliation() method.
+     * Tests setNumeroAffiliation()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroAttestation() method.
+     * Tests setNumeroAttestation()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeEmploiDeb() method.
+     * Tests setPeriodeEmploiDeb()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -276,7 +276,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeEmploiFin() method.
+     * Tests setPeriodeEmploiFin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -293,7 +293,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPrenom() method.
+     * Tests setPrenom()
      *
      * @return void
      */
@@ -306,7 +306,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSignatureDate() method.
+     * Tests setSignatureDate()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -323,7 +323,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSignatureNom() method.
+     * Tests setSignatureNom()
      *
      * @return void
      */
@@ -336,7 +336,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSignatureQualite() method.
+     * Tests setSignatureQualite()
      *
      * @return void
      */
@@ -349,7 +349,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSignatureVille() method.
+     * Tests setSignatureVille()
      *
      * @return void
      */
@@ -362,7 +362,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setSiret() method.
+     * Tests setSiret()
      *
      * @return void
      */
@@ -375,7 +375,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

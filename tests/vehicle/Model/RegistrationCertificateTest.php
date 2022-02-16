@@ -28,7 +28,7 @@ use WBW\Library\Vehicle\Tests\AbstractTestCase;
 class RegistrationCertificateTest extends AbstractTestCase {
 
     /**
-     * Tests the jsonSerialize() method.
+     * Tests jsonSerialize()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -101,7 +101,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setA() method.
+     * Tests setA()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setA1() method.
+     * Tests setA1()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setB() method.
+     * Tests setB()
      *
      * @return void
      */
@@ -143,7 +143,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setC1() method.
+     * Tests setC1()
      *
      * @return void
      */
@@ -156,7 +156,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setC3() method.
+     * Tests setC3()
      *
      * @return void
      */
@@ -169,7 +169,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setC41() method.
+     * Tests setC41()
      *
      * @return void
      */
@@ -182,7 +182,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setC4a() method.
+     * Tests setC4a()
      *
      * @return void
      */
@@ -195,7 +195,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setD1() method.
+     * Tests setD1()
      *
      * @return void
      */
@@ -208,7 +208,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setD2() method.
+     * Tests setD2()
      *
      * @return void
      */
@@ -221,7 +221,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setD21() method.
+     * Tests setD21()
      *
      * @return void
      */
@@ -234,7 +234,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setD3() method.
+     * Tests setD3()
      *
      * @return void
      */
@@ -247,7 +247,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setE() method.
+     * Tests setE()
      *
      * @return void
      */
@@ -260,7 +260,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setF1() method.
+     * Tests setF1()
      *
      * @return void
      */
@@ -273,7 +273,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setF2() method.
+     * Tests setF2()
      *
      * @return void
      */
@@ -286,7 +286,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setF3() method.
+     * Tests setF3()
      *
      * @return void
      */
@@ -299,7 +299,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setG() method.
+     * Tests setG()
      *
      * @return void
      */
@@ -312,7 +312,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setG1() method.
+     * Tests setG1()
      *
      * @return void
      */
@@ -325,7 +325,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setH() method.
+     * Tests setH()
      *
      * @return void
      */
@@ -338,7 +338,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setI() method.
+     * Tests setI()
      *
      * @return void
      */
@@ -354,7 +354,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setI1() method.
+     * Tests setI1()
      *
      * @return void
      */
@@ -370,7 +370,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJ() method.
+     * Tests setJ()
      *
      * @return void
      */
@@ -383,7 +383,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJ1() method.
+     * Tests setJ1()
      *
      * @return void
      */
@@ -396,7 +396,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJ2() method.
+     * Tests setJ2()
      *
      * @return void
      */
@@ -409,7 +409,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setJ3() method.
+     * Tests setJ3()
      *
      * @return void
      */
@@ -422,7 +422,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setK() method.
+     * Tests setK()
      *
      * @return void
      */
@@ -435,7 +435,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setP1() method.
+     * Tests setP1()
      *
      * @return void
      */
@@ -448,7 +448,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setP2() method.
+     * Tests setP2()
      *
      * @return void
      */
@@ -461,7 +461,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setP3() method.
+     * Tests setP3()
      *
      * @return void
      */
@@ -474,7 +474,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setP6() method.
+     * Tests setP6()
      *
      * @return void
      */
@@ -487,7 +487,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setQ() method.
+     * Tests setQ()
      *
      * @return void
      */
@@ -500,7 +500,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setS1() method.
+     * Tests setS1()
      *
      * @return void
      */
@@ -513,7 +513,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setS2() method.
+     * Tests setS2()
      *
      * @return void
      */
@@ -526,7 +526,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setU1() method.
+     * Tests setU1()
      *
      * @return void
      */
@@ -539,7 +539,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setU2() method.
+     * Tests setU2()
      *
      * @return void
      */
@@ -552,7 +552,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setV7() method.
+     * Tests setV7()
      *
      * @return void
      */
@@ -565,7 +565,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setV9() method.
+     * Tests setV9()
      *
      * @return void
      */
@@ -578,7 +578,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setX1() method.
+     * Tests setX1()
      *
      * @return void
      */
@@ -594,7 +594,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setY1() method.
+     * Tests setY1()
      *
      * @return void
      */
@@ -607,7 +607,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setY2() method.
+     * Tests setY2()
      *
      * @return void
      */
@@ -620,7 +620,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setY3() method.
+     * Tests setY3()
      *
      * @return void
      */
@@ -633,7 +633,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setY4() method.
+     * Tests setY4()
      *
      * @return void
      */
@@ -646,7 +646,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setY5() method.
+     * Tests setY5()
      *
      * @return void
      */
@@ -659,7 +659,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setY6() method.
+     * Tests setY6()
      *
      * @return void
      */
@@ -672,7 +672,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setZ1() method.
+     * Tests setZ1()
      *
      * @return void
      */
@@ -685,7 +685,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setZ2() method.
+     * Tests setZ2()
      *
      * @return void
      */
@@ -698,7 +698,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setZ3() method.
+     * Tests setZ3()
      *
      * @return void
      */
@@ -711,7 +711,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setZ4() method.
+     * Tests setZ4()
      *
      * @return void
      */
@@ -724,7 +724,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

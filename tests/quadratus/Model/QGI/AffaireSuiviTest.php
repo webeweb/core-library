@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AffaireSuiviTest extends AbstractTestCase {
 
     /**
-     * Tests the setAvancement() method.
+     * Tests setAvancement()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AffaireSuiviTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeAffaire() method.
+     * Tests setCodeAffaire()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AffaireSuiviTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodePhase() method.
+     * Tests setCodePhase()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AffaireSuiviTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCommentaire() method.
+     * Tests setCommentaire()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class AffaireSuiviTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateBilan() method.
+     * Tests setDateBilan()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -94,7 +94,7 @@ class AffaireSuiviTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setListeCollab() method.
+     * Tests setListeCollab()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class AffaireSuiviTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbHeuresPrevisionnel() method.
+     * Tests setNbHeuresPrevisionnel()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class AffaireSuiviTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

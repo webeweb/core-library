@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AttestationFiscaleTest extends AbstractTestCase {
 
     /**
-     * Tests the setAnnee() method.
+     * Tests setAnnee()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeArticle1() method.
+     * Tests setCodeArticle1()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeArticle10() method.
+     * Tests setCodeArticle10()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeArticle2() method.
+     * Tests setCodeArticle2()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeArticle3() method.
+     * Tests setCodeArticle3()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeArticle4() method.
+     * Tests setCodeArticle4()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeArticle5() method.
+     * Tests setCodeArticle5()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeArticle6() method.
+     * Tests setCodeArticle6()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeArticle7() method.
+     * Tests setCodeArticle7()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeArticle8() method.
+     * Tests setCodeArticle8()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeArticle9() method.
+     * Tests setCodeArticle9()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeClient() method.
+     * Tests setCodeClient()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDureeAnnuelle() method.
+     * Tests setDureeAnnuelle()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEtat() method.
+     * Tests setEtat()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFamille1() method.
+     * Tests setFamille1()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFamille10() method.
+     * Tests setFamille10()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFamille2() method.
+     * Tests setFamille2()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFamille3() method.
+     * Tests setFamille3()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFamille4() method.
+     * Tests setFamille4()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFamille5() method.
+     * Tests setFamille5()
      *
      * @return void
      */
@@ -283,7 +283,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFamille6() method.
+     * Tests setFamille6()
      *
      * @return void
      */
@@ -296,7 +296,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFamille7() method.
+     * Tests setFamille7()
      *
      * @return void
      */
@@ -309,7 +309,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFamille8() method.
+     * Tests setFamille8()
      *
      * @return void
      */
@@ -322,7 +322,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setFamille9() method.
+     * Tests setFamille9()
      *
      * @return void
      */
@@ -335,7 +335,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setLienDocument() method.
+     * Tests setLienDocument()
      *
      * @return void
      */
@@ -348,7 +348,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setModeReglement() method.
+     * Tests setModeReglement()
      *
      * @return void
      */
@@ -361,7 +361,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantTes() method.
+     * Tests setMontantTes()
      *
      * @return void
      */
@@ -374,7 +374,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontantTtc() method.
+     * Tests setMontantTtc()
      *
      * @return void
      */
@@ -387,7 +387,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AcomptesTest extends AbstractTestCase {
 
     /**
-     * Tests the setCodeCollaborateur() method.
+     * Tests setCodeCollaborateur()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AcomptesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCodeUser() method.
+     * Tests setCodeUser()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AcomptesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setCongesPayes() method.
+     * Tests setCongesPayes()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AcomptesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDate() method.
+     * Tests setDate()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class AcomptesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateAdded() method.
+     * Tests setDateAdded()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -98,7 +98,7 @@ class AcomptesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDateAddedColl() method.
+     * Tests setDateAddedColl()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -115,7 +115,7 @@ class AcomptesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setEnEuro() method.
+     * Tests setEnEuro()
      *
      * @return void
      */
@@ -128,7 +128,7 @@ class AcomptesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setInBul() method.
+     * Tests setInBul()
      *
      * @return void
      */
@@ -141,7 +141,7 @@ class AcomptesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setIntitule() method.
+     * Tests setIntitule()
      *
      * @return void
      */
@@ -154,7 +154,7 @@ class AcomptesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setMontant() method.
+     * Tests setMontant()
      *
      * @return void
      */
@@ -167,7 +167,7 @@ class AcomptesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumUniq() method.
+     * Tests setNumUniq()
      *
      * @return void
      */
@@ -180,7 +180,7 @@ class AcomptesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -193,7 +193,7 @@ class AcomptesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPaye() method.
+     * Tests setPaye()
      *
      * @return void
      */
@@ -206,7 +206,7 @@ class AcomptesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypePaiement() method.
+     * Tests setTypePaiement()
      *
      * @return void
      */
@@ -219,7 +219,7 @@ class AcomptesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

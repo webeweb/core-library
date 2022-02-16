@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class BordPrepAbsencesTest extends AbstractTestCase {
 
     /**
-     * Tests the setId() method.
+     * Tests setId()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class BordPrepAbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbhSais() method.
+     * Tests setNbhSais()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class BordPrepAbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNbjSais() method.
+     * Tests setNbjSais()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class BordPrepAbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNumeroEmploye() method.
+     * Tests setNumeroEmploye()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class BordPrepAbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriode() method.
+     * Tests setPeriode()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -94,7 +94,7 @@ class BordPrepAbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeDeb() method.
+     * Tests setPeriodeDeb()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -111,7 +111,7 @@ class BordPrepAbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPeriodeFin() method.
+     * Tests setPeriodeFin()
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
@@ -128,7 +128,7 @@ class BordPrepAbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setTypeAbsCp() method.
+     * Tests setTypeAbsCp()
      *
      * @return void
      */
@@ -141,7 +141,7 @@ class BordPrepAbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct() method.
+     * Tests __construct()
      *
      * @return void
      */

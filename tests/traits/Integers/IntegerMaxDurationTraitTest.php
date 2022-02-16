@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Integers\TestIntegerMaxDurationTrait;
 class IntegerMaxDurationTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setMaxDuration() method.
+     * Tests setMaxDuration()
      *
      * @return void
      */
