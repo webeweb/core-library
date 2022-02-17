@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [8.28.0](https://github.com/webeweb/core-library/tree/v8.28.0) (2022-02-17)
+
+- Improve JSON serializable inheritance
+
 ### [8.27.0](https://github.com/webeweb/core-library/tree/v8.27.0) (2022-01-17)
 
 - Add integer quantity trait
