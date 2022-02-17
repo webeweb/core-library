@@ -71,6 +71,7 @@ class SalesBillTest extends AbstractTestCase {
 
         $obj = new SalesBill();
 
+        $this->assertInstanceOf(\JsonSerializable::class, $obj);
         $this->assertInstanceOf(BillableInterface::class, $obj);
         $this->assertInstanceOf(SalesBillInterface::class, $obj);
     }

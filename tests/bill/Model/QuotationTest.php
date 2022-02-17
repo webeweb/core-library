@@ -89,9 +89,9 @@ class QuotationTest extends AbstractTestCase {
 
         $obj = new Quotation();
 
-        $this->assertInstanceOf(QuotationInterface::class, $obj);
-        $this->assertInstanceOf(BillableInterface::class, $obj);
         $this->assertInstanceOf(JsonSerializable::class, $obj);
+        $this->assertInstanceOf(BillableInterface::class, $obj);
+        $this->assertInstanceOf(QuotationInterface::class, $obj);
 
         $this->assertNull($obj->getExpirationDate());
     }

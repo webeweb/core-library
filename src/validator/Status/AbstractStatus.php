@@ -11,7 +11,6 @@
 
 namespace WBW\Library\Validator\Status;
 
-use JsonSerializable;
 use WBW\Library\Validator\Api\StatusInterface;
 
 /**
@@ -21,7 +20,7 @@ use WBW\Library\Validator\Api\StatusInterface;
  * @package WBW\Library\Validator\Status
  * @abstract
  */
-abstract class AbstractStatus implements StatusInterface, JsonSerializable {
+abstract class AbstractStatus implements StatusInterface {
 
     /**
      * Get the code.

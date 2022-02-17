@@ -11,7 +11,6 @@
 
 namespace WBW\Library\Accounting\Model;
 
-use JsonSerializable;
 use WBW\Library\Accounting\Serializer\JsonSerializer;
 use WBW\Library\Traits\Strings\StringLabelTrait;
 
@@ -21,7 +20,7 @@ use WBW\Library\Traits\Strings\StringLabelTrait;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Accounting\Model
  */
-class PaymentChoice implements PaymentChoiceInterface, JsonSerializable {
+class PaymentChoice implements PaymentChoiceInterface {
 
     use StringLabelTrait;
 

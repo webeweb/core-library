@@ -72,8 +72,8 @@ class PurchaseOrderTest extends AbstractTestCase {
 
         $obj = new PurchaseOrder();
 
-        $this->assertInstanceOf(PurchaseOrderInterface::class, $obj);
-        $this->assertInstanceOf(BillableInterface::class, $obj);
         $this->assertInstanceOf(JsonSerializable::class, $obj);
+        $this->assertInstanceOf(BillableInterface::class, $obj);
+        $this->assertInstanceOf(PurchaseOrderInterface::class, $obj);
     }
 }

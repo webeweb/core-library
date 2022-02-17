@@ -12,7 +12,6 @@
 namespace WBW\Library\Vehicle\Model;
 
 use DateTime;
-use JsonSerializable;
 use WBW\Library\Vehicle\Serializer\JsonSerializer;
 
 /**
@@ -21,7 +20,7 @@ use WBW\Library\Vehicle\Serializer\JsonSerializer;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Vehicle\Model
  */
-class RegistrationCertificate implements RegistrationCertificateInterface, JsonSerializable {
+class RegistrationCertificate implements RegistrationCertificateInterface {
 
     /**
      * A.

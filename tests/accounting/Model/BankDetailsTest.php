@@ -179,8 +179,8 @@ class BankDetailsTest extends AbstractTestCase {
 
         $obj = new BankDetails();
 
-        $this->assertInstanceOf(BankDetailsInterface::class, $obj);
         $this->assertInstanceOf(JsonSerializable::class, $obj);
+        $this->assertInstanceOf(BankDetailsInterface::class, $obj);
 
         $this->assertNull($obj->getAccountNumber());
         $this->assertNull($obj->getBankCode());

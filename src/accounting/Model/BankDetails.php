@@ -11,7 +11,6 @@
 
 namespace WBW\Library\Accounting\Model;
 
-use JsonSerializable;
 use WBW\Library\Accounting\Serializer\JsonSerializer;
 
 /**
@@ -20,7 +19,7 @@ use WBW\Library\Accounting\Serializer\JsonSerializer;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Accounting\Model
  */
-class BankDetails implements BankDetailsInterface, JsonSerializable {
+class BankDetails implements BankDetailsInterface {
 
     /**
      * Account number.

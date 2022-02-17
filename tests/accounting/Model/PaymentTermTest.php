@@ -55,8 +55,8 @@ class PaymentTermTest extends AbstractTestCase {
 
         $obj = new PaymentTerm();
 
-        $this->assertInstanceOf(PaymentTermInterface::class, $obj);
         $this->assertInstanceOf(JsonSerializable::class, $obj);
+        $this->assertInstanceOf(PaymentTermInterface::class, $obj);
 
         $this->assertNull($obj->getCode());
         $this->assertNull($obj->getLabel());

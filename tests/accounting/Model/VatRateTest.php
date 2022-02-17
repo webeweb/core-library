@@ -99,8 +99,8 @@ class VatRateTest extends AbstractTestCase {
 
         $obj = new VatRate();
 
-        $this->assertInstanceOf(VatRateInterface::class, $obj);
         $this->assertInstanceOf(JsonSerializable::class, $obj);
+        $this->assertInstanceOf(VatRateInterface::class, $obj);
 
         $this->assertNull($obj->getLabel());
         $this->assertNull($obj->getRate());

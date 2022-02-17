@@ -82,8 +82,8 @@ class TaxableTest extends AbstractTestCase {
 
         $obj = new TestTaxable();
 
-        $this->assertInstanceOf(TaxableInterface::class, $obj);
         $this->assertInstanceOf(JsonSerializable::class, $obj);
+        $this->assertInstanceOf(TaxableInterface::class, $obj);
 
         $this->assertNull($obj->getDiscountAmount());
         $this->assertNull($obj->getDiscountRate());

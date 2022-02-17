@@ -56,8 +56,8 @@ class AccountingAccountTest extends AbstractTestCase {
 
         $obj = new AccountingAccount();
 
-        $this->assertInstanceOf(AccountingAccountInterface::class, $obj);
         $this->assertInstanceOf(JsonSerializable::class, $obj);
+        $this->assertInstanceOf(AccountingAccountInterface::class, $obj);
 
         $this->assertNull($obj->getLabel());
         $this->assertNull($obj->getNumber());

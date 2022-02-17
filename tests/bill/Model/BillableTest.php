@@ -137,8 +137,8 @@ class BillableTest extends AbstractTestCase {
 
         $obj = new TestBillable();
 
-        $this->assertInstanceOf(BillableInterface::class, $obj);
         $this->assertInstanceOf(JsonSerializable::class, $obj);
+        $this->assertInstanceOf(BillableInterface::class, $obj);
 
         $this->assertNull($obj->getComment());
         $this->assertNull($obj->getCreatedAt());

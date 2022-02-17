@@ -73,9 +73,9 @@ class PurchaseBillTest extends AbstractTestCase {
 
         $obj = new PurchaseBill();
 
-        $this->assertInstanceOf(PurchaseBillInterface::class, $obj);
-        $this->assertInstanceOf(BillableInterface::class, $obj);
         $this->assertInstanceOf(JsonSerializable::class, $obj);
+        $this->assertInstanceOf(BillableInterface::class, $obj);
+        $this->assertInstanceOf(PurchaseBillInterface::class, $obj);
 
         $this->assertNull($obj->getPaymentDate());
     }

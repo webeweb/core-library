@@ -54,8 +54,8 @@ class PaymentChoiceTest extends AbstractTestCase {
 
         $obj = new PaymentChoice();
 
-        $this->assertInstanceOf(PaymentChoiceInterface::class, $obj);
         $this->assertInstanceOf(JsonSerializable::class, $obj);
+        $this->assertInstanceOf(PaymentChoiceInterface::class, $obj);
 
         $this->assertNull($obj->getLabel());
     }
