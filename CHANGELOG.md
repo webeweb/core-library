@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [8.29.0](https://github.com/webeweb/core-library/tree/v8.29.0) (2022-02-21)
+
+- Add boolean ready trait
+
 ### [8.28.0](https://github.com/webeweb/core-library/tree/v8.28.0) (2022-02-17)
 
 - Improve JSON serializable inheritance
