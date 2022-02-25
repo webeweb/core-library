@@ -17,7 +17,7 @@ use WBW\Library\Types\Helper\DateTimeHelper;
 /**
  * Workspace.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  */
 class Workspace {
 
@@ -500,7 +500,7 @@ EOT;
             return;
         }
 
-        $shf = __DIR__ . "/workspace.sanitize.sh";
+        $shf = __DIR__ . "/sanitize-git.sh";
 
         $cmd = $this->executeCommand("tail -n1 $shf")[0];
 
