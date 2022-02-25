@@ -19,7 +19,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 /**
  * Plans fact bon trav test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Quadratus\Tests\Model\Proprete
  */
 class PlansFactBonTravTest extends AbstractTestCase {

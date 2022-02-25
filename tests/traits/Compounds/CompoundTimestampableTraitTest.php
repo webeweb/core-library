@@ -17,7 +17,7 @@ use WBW\Library\Traits\Tests\Fixtures\Compounds\TestCompoundTimestampableTrait;
 /**
  * Compound timestampable trait test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Traits\Tests\Compounds
  */
 class CompoundTimestampableTraitTest extends AbstractTestCase {

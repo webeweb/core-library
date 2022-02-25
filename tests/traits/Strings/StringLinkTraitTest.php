@@ -17,7 +17,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringLinkTrait;
 /**
  * String link trait test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Traits\Tests\Strings
  */
 class StringLinkTraitTest extends AbstractTestCase {

@@ -19,7 +19,7 @@ use WBW\Library\Validator\Status\DefaultStatus;
 /**
  * Test rule.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Validator\Tests\Fixtures\Rule
  */
 class TestRule extends AbstractRule {

@@ -17,7 +17,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 /**
  * Annexe suite test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Quadratus\Tests\Model\QGI
  */
 class AnnexeSuiteTest extends AbstractTestCase {

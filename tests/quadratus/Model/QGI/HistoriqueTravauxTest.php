@@ -19,7 +19,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 /**
  * Historique travaux test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Quadratus\Tests\Model\QGI
  */
 class HistoriqueTravauxTest extends AbstractTestCase {

@@ -19,7 +19,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 /**
  * Cde fournisseur mensu test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Quadratus\Tests\Model\Proprete
  */
 class CdeFournisseurMensuTest extends AbstractTestCase {

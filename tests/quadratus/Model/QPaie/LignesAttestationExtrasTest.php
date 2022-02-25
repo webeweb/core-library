@@ -19,7 +19,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 /**
  * Lignes attestation extras test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Quadratus\Tests\Model\QPaie
  */
 class LignesAttestationExtrasTest extends AbstractTestCase {

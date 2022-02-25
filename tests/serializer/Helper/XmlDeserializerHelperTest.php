@@ -18,7 +18,7 @@ use WBW\Library\Serializer\Tests\AbstractTestCase;
 /**
  * XML deserializer helper test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Serializer\Tests\Helper
  */
 class XmlDeserializerHelperTest extends AbstractTestCase {

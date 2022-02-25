@@ -20,7 +20,7 @@ use WBW\Library\Types\Tests\AbstractTestCase;
 /**
  * Float helper test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Types\Tests\Helper
  */
 class FloatHelperTest extends AbstractTestCase {

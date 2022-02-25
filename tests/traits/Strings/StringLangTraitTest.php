@@ -17,7 +17,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringLangTrait;
 /**
  * String lang trait test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Traits\Tests\Strings
  */
 class StringLangTraitTest extends AbstractTestCase {

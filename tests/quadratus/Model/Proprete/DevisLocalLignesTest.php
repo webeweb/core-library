@@ -17,7 +17,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 /**
  * Devis local lignes test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Quadratus\Tests\Model\Proprete
  */
 class DevisLocalLignesTest extends AbstractTestCase {

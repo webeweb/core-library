@@ -19,7 +19,7 @@ use WBW\Library\SkiData\Tests\AbstractTestCase;
 /**
  * Customer test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Core\Tests\SkiData\Model
  */
 class CustomerTest extends AbstractTestCase {

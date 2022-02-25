@@ -17,7 +17,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 /**
  * Luhn algorithm helper test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Core\Tests\Helper
  */
 class LuhnAlgorithmHelperTest extends AbstractTestCase {

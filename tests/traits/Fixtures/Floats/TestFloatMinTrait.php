@@ -16,7 +16,7 @@ use WBW\Library\Traits\Floats\FloatMinTrait;
 /**
  * Test float min trait.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Traits\Tests\Fixtures\Floats
  */
 class TestFloatMinTrait {

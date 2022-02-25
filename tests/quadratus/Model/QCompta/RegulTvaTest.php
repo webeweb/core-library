@@ -19,7 +19,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 /**
  * Regul tva test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Quadratus\Tests\Model\QCompta
  */
 class RegulTvaTest extends AbstractTestCase {

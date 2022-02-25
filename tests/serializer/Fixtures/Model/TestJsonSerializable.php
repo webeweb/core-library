@@ -16,7 +16,7 @@ use JsonSerializable;
 /**
  * Test JSON serializable.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Serializer\Tests\Fixtures\Model
  */
 class TestJsonSerializable implements JsonSerializable {

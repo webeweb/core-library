@@ -28,7 +28,7 @@ use WBW\Library\Curl\Tests\AbstractTestCase;
 /**
  * cURL factory test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Curl\Tests\Factory
  */
 class CurlFactoryTest extends AbstractTestCase {

@@ -17,7 +17,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 /**
  * Agenda groupes compos2 test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Quadratus\Tests\Model\QGI
  */
 class AgendaGroupesCompos2Test extends AbstractTestCase {

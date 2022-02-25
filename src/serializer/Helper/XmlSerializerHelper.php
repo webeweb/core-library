@@ -16,7 +16,7 @@ use WBW\Library\Serializer\Model\XmlSerializable;
 /**
  * XML serializer helper.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Serializer\Helper
  */
 class XmlSerializerHelper extends SerializerHelper {

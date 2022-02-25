@@ -20,7 +20,7 @@ use WBW\Library\Curl\Tests\AbstractTestCase;
 /**
  * GET request test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Curl\Tests\Request
  */
 class GetRequestTest extends AbstractTestCase {

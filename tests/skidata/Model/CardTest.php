@@ -19,7 +19,7 @@ use WBW\Library\SkiData\Tests\AbstractTestCase;
 /**
  * Card test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\SkiData\Tests\Model
  */
 class CardTest extends AbstractTestCase {

@@ -16,7 +16,7 @@ use WBW\Library\Traits\Strings\StringMessageTrait;
 /**
  * Test string message trait.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Traits\Tests\Fixtures\Strings
  */
 class TestStringMessageTrait {

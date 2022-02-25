@@ -17,7 +17,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringHashMd5Trait;
 /**
  * String hash "MD5" trait test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Traits\Tests\Strings
  */
 class StringHashMd5TraitTest extends AbstractTestCase {

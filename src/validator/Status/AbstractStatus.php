@@ -16,7 +16,7 @@ use WBW\Library\Validator\Api\StatusInterface;
 /**
  * Abstract status.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Validator\Status
  * @abstract
  */

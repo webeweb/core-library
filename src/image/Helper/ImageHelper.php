@@ -17,7 +17,7 @@ use WBW\Library\Image\Model\ImageInterface;
 /**
  * Image helper.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Image\Helper
  */
 class ImageHelper {

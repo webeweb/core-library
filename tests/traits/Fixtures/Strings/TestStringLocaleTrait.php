@@ -16,7 +16,7 @@ use WBW\Library\Traits\Strings\StringLocaleTrait;
 /**
  * Test string locale trait.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Traits\Tests\Fixtures\Strings
  */
 class TestStringLocaleTrait {

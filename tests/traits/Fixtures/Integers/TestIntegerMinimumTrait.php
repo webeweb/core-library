@@ -16,7 +16,7 @@ use WBW\Library\Traits\Integers\IntegerMinimumTrait;
 /**
  * Test integer minimum trait.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Traits\Tests\Fixtures\Integers
  */
 class TestIntegerMinimumTrait {

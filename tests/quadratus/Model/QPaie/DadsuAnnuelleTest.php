@@ -17,7 +17,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 /**
  * Dadsu annuelle test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Quadratus\Tests\Model\QPaie
  */
 class DadsuAnnuelleTest extends AbstractTestCase {

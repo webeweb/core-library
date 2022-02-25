@@ -17,7 +17,7 @@ use WBW\Library\Sorter\Model\AlphabeticalTreeNodeInterface;
 /**
  * Alphabetical tree sort.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Sorter
  */
 class AlphabeticalTreeSort {

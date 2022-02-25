@@ -21,7 +21,7 @@ use WBW\Library\Types\Exception\DateArgumentException;
 /**
  * Date/time helper.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Types\Helper
  */
 class DateTimeHelper {

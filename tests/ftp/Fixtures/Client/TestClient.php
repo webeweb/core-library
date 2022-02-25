@@ -18,7 +18,7 @@ use WBW\Library\Security\Authenticator;
 /**
  * Test client.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Ftp\Tests\Fixtures\Client
  */
 class TestClient extends AbstractClient {

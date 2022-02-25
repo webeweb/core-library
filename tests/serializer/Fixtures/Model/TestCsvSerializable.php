@@ -16,7 +16,7 @@ use WBW\Library\Serializer\Model\CsvSerializable;
 /**
  * Test CSV serializable.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Serializer\Tests\Fixtures\Model
  */
 class TestCsvSerializable implements CsvSerializable {

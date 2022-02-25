@@ -17,7 +17,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 /**
  * Natures test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Quadratus\Tests\Model\QCompta
  */
 class NaturesTest extends AbstractTestCase {

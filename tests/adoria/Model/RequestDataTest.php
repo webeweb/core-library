@@ -19,7 +19,7 @@ use WBW\Library\Adoria\Tests\AbstractTestCase;
 /**
  * Request data test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Adoria\Tests\Model
  */
 class RequestDataTest extends AbstractTestCase {

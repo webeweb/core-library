@@ -17,7 +17,7 @@ use WBW\Library\Validator\Tests\AbstractTestCase;
 /**
  * Default status test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Validator\Tests\Status
  */
 class DefaultStatusTest extends AbstractTestCase {

@@ -20,7 +20,7 @@ use WBW\Library\Database\Tests\AbstractTestCase;
 /**
  * Microsoft Access database connector test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Database\Tests\Connector
  */
 class MicrosoftAccessDatabaseConnectorTest extends AbstractTestCase {

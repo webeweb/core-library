@@ -18,7 +18,7 @@ use WBW\Library\Ftp\Tests\Fixtures\Client\TestClient;
 /**
  * Abstract client test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Ftp\Tests\Client
  */
 class AbstractClientTest extends AbstractTestCase {

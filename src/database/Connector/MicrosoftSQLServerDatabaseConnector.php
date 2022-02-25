@@ -17,7 +17,7 @@ use WBW\Library\Security\Authenticator;
 /**
  * Microsoft SQL Server database connector.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Database\Connector
  */
 class MicrosoftSQLServerDatabaseConnector extends AbstractDatabaseConnector {

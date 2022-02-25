@@ -16,7 +16,7 @@ use WBW\Library\Traits\Strings\StringApiTokenTrait;
 /**
  * Test string API token trait.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Traits\Tests\Fixtures\Strings
  */
 class TestStringApiTokenTrait {

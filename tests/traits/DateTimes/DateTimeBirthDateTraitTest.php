@@ -19,7 +19,7 @@ use WBW\Library\Traits\Tests\Fixtures\DateTimes\TestDateTimeBirthDateTrait;
 /**
  * Date/time birth date trait test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Traits\Tests\DateTimes
  */
 class DateTimeBirthDateTraitTest extends AbstractTestCase {

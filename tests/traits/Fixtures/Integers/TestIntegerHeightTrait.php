@@ -16,7 +16,7 @@ use WBW\Library\Traits\Integers\IntegerHeightTrait;
 /**
  * Test integer height trait.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Traits\Tests\Fixtures\Integers
  */
 class TestIntegerHeightTrait {

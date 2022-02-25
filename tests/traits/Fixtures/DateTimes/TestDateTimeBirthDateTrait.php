@@ -16,7 +16,7 @@ use WBW\Library\Traits\DateTimes\DateTimeBirthDateTrait;
 /**
  * Test date/time birth date trait.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Traits\Tests\Fixtures\DateTimes
  */
 class TestDateTimeBirthDateTrait {

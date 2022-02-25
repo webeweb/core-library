@@ -16,7 +16,7 @@ use WBW\Library\Curl\Api\ResponseInterface;
 /**
  * Response.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Curl\Response
  */
 class Response implements ResponseInterface {

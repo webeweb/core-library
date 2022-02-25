@@ -17,7 +17,7 @@ use WBW\Library\Adoria\Tests\AbstractTestCase;
 /**
  * API provider interface test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Adoria\Tests\Api
  */
 class ApiProviderInterfaceTest extends AbstractTestCase {

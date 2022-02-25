@@ -18,7 +18,7 @@ use WBW\Library\Sorter\Tests\Fixtures\TestFixtures;
 /**
  * Alphabetical tree sort test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Sorter\Tests
  */
 class AlphabeticalTreeSortTest extends AbstractTestCase {

@@ -17,7 +17,7 @@ use WBW\Library\Security\Authenticator;
 /**
  * Oracle MySQL database connector.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Database\Connector
  */
 class OracleMySQLDatabaseConnector extends AbstractDatabaseConnector {

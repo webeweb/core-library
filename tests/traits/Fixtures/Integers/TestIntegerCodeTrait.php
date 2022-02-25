@@ -16,7 +16,7 @@ use WBW\Library\Traits\Integers\IntegerCodeTrait;
 /**
  * Test integer code trait.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Traits\Tests\Fixtures\Integers
  */
 class TestIntegerCodeTrait {

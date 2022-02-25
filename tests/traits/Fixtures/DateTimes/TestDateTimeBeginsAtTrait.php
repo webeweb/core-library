@@ -16,7 +16,7 @@ use WBW\Library\Traits\DateTimes\DateTimeBeginsAtTrait;
 /**
  * Test date/time begins at trait.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Traits\Tests\Fixtures\DateTimes
  */
 class TestDateTimeBeginsAtTrait {

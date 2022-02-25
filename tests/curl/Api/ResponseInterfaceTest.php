@@ -17,7 +17,7 @@ use WBW\Library\Curl\Tests\AbstractTestCase;
 /**
  * Response interface test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Curl\Tests\Api
  */
 class ResponseInterfaceTest extends AbstractTestCase {

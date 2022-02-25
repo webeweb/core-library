@@ -20,7 +20,7 @@ use WBW\Library\SkiData\Tests\AbstractTestCase;
 /**
  * User parser test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\SkiData\Tests\Parser
  */
 class UserParserTest extends AbstractTestCase {

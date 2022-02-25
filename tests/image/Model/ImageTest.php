@@ -20,7 +20,7 @@ use WBW\Library\Image\Tests\Fixtures\TestFixtures;
 /**
  * Image test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Image\Tests\Model
  */
 class ImageTest extends AbstractTestCase {

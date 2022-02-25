@@ -17,7 +17,7 @@ use WBW\Library\Curl\Tests\AbstractTestCase;
 /**
  * Invalid argument exception test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Curl\Tests\Exception
  */
 class InvalidArgumentExceptionTest extends AbstractTestCase {

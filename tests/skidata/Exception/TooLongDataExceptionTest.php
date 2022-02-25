@@ -17,7 +17,7 @@ use WBW\Library\SkiData\Tests\AbstractTestCase;
 /**
  * Too long data exception test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\SkiData\Tests\Exception
  */
 class TooLongDataExceptionTest extends AbstractTestCase {

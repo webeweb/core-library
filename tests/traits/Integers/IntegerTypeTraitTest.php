@@ -17,7 +17,7 @@ use WBW\Library\Traits\Tests\Fixtures\Integers\TestIntegerTypeTrait;
 /**
  * Integer type trait test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Traits\Tests\Integers
  */
 class IntegerTypeTraitTest extends AbstractTestCase {

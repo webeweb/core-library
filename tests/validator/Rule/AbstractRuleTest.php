@@ -17,7 +17,7 @@ use WBW\Library\Validator\Tests\Fixtures\Rule\TestRule;
 /**
  * Abstract rule test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Validator\Tests\Rule
  */
 class AbstractRuleTest extends AbstractTestCase {

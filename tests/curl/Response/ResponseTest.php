@@ -17,7 +17,7 @@ use WBW\Library\Curl\Tests\AbstractTestCase;
 /**
  * Response test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Curl\Tests\Response
  */
 class ResponseTest extends AbstractTestCase {

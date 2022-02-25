@@ -20,7 +20,7 @@ use WBW\Library\Adoria\Tests\AbstractTestCase;
 /**
  * Response deserializer test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Adoria\Tests\Serializer
  */
 class ResponseDeserializerTest extends AbstractTestCase {

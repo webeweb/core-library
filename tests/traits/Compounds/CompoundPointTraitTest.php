@@ -17,7 +17,7 @@ use WBW\Library\Traits\Tests\Fixtures\Compounds\TestCompoundPointTrait;
 /**
  * Compound point trait test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Traits\Tests\Compounds
  */
 class CompoundPointTraitTest extends AbstractTestCase {

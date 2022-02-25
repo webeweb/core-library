@@ -21,7 +21,7 @@ use WBW\Library\Planning\Tests\Fixtures\TestFixtures;
 /**
  * Time slot helper test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Planning\Tests\Helper
  */
 class TimeSlotHelperTest extends AbstractTestCase {

@@ -18,7 +18,7 @@ use WBW\Library\Curl\Tests\AbstractTestCase;
 /**
  * DELETE request test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Curl\Tests\Request
  */
 class DeleteRequestTest extends AbstractTestCase {

@@ -16,7 +16,7 @@ use WBW\Library\Traits\Strings\StringAccessTokenTrait;
 /**
  * Test string access token trait.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Traits\Tests\Fixtures\Strings
  */
 class TestStringAccessTokenTrait {

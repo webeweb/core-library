@@ -17,7 +17,7 @@ use WBW\Library\Traits\Tests\Fixtures\Floats\TestFloatQuantityTrait;
 /**
  * Float quantity trait test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Traits\Tests\Floats
  */
 class FloatQuantityTraitTest extends AbstractTestCase {

@@ -17,7 +17,7 @@ use WBW\Library\Security\PasswordAuthentication;
 /**
  * Authenticator test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Security\Tests
  */
 class AuthenticatorTest extends AbstractTestCase {

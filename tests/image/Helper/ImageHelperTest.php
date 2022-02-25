@@ -19,7 +19,7 @@ use WBW\Library\Image\Tests\Fixtures\TestFixtures;
 /**
  * Image helper test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Image\Tests\Helper
  */
 class ImageHelperTest extends AbstractTestCase {

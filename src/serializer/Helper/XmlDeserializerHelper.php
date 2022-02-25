@@ -17,7 +17,7 @@ use DOMNodeList;
 /**
  * XML deserializer helper.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Serializer\Helper
  */
 class XmlDeserializerHelper extends SerializerHelper {

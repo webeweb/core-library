@@ -16,7 +16,7 @@ use WBW\Library\Serializer\Model\XmlSerializable;
 /**
  * Test XML serializable.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Serializer\Tests\Fixtures\Model
  */
 class TestXmlSerializable implements XmlSerializable {

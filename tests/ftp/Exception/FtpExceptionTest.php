@@ -17,7 +17,7 @@ use WBW\Library\Ftp\Tests\AbstractTestCase;
 /**
  * FTP exception test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Ftp\Tests\Exception
  */
 class FtpExceptionTest extends AbstractTestCase {

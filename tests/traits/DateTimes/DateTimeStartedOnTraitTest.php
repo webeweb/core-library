@@ -19,7 +19,7 @@ use WBW\Library\Traits\Tests\Fixtures\DateTimes\TestDateTimeStartedOnTrait;
 /**
  * Date/time started on trait test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Traits\Tests\DateTimes
  */
 class DateTimeStartedOnTraitTest extends AbstractTestCase {

@@ -16,7 +16,7 @@ use WBW\Library\Traits\Floats\FloatExcludingVatTotalTrait;
 /**
  * Test float excluding VAT total trait.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Traits\Tests\Fixtures\Floats
  */
 class TestFloatExcludingVatTotalTrait {

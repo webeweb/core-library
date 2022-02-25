@@ -17,7 +17,7 @@ use WBW\Library\Types\Tests\AbstractTestCase;
 /**
  * Array helper test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Types\Tests\Helper
  */
 class ArrayHelperTest extends AbstractTestCase {

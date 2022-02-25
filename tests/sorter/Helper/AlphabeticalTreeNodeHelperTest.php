@@ -20,7 +20,7 @@ use WBW\Library\Sorter\Tests\Fixtures\TestFixtures;
 /**
  * Alphabetical tree node helper test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Sorter\Helper
  */
 class AlphabeticalTreeNodeHelperTest extends AbstractTestCase {

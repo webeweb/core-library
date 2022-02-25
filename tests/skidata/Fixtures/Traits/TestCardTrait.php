@@ -16,7 +16,7 @@ use WBW\Library\SkiData\Traits\CardTrait;
 /**
  * Test card trait.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\SkiData\Tests\Fixtures\Traits
  */
 class TestCardTrait {

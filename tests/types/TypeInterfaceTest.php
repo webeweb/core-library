@@ -16,7 +16,7 @@ use WBW\Library\Types\TypeInterface;
 /**
  * Type interface test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Types\Tests
  */
 class TypeInterfaceTest extends AbstractTestCase {

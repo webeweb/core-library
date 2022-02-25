@@ -16,7 +16,7 @@ use WBW\Library\Traits\Strings\StringIconTrait;
 /**
  * Test string icon trait.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Traits\Tests\Fixtures\Strings
  */
 class TestStringIconTrait {

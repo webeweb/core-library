@@ -17,7 +17,7 @@ use WBW\Library\Traits\Tests\Fixtures\Floats\TestFloatMaxTrait;
 /**
  * Float max trait test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Traits\Tests\Floats
  */
 class FloatMaxTraitTest extends AbstractTestCase {

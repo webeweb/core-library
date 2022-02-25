@@ -19,7 +19,7 @@ use WBW\Library\Traits\Tests\Fixtures\DateTimes\TestDateTimeUpdatedAtTrait;
 /**
  * Date/time updated at trait test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Traits\Tests\DateTimes
  */
 class DateTimeUpdatedAtTraitTest extends AbstractTestCase {

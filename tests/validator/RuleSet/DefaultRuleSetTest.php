@@ -19,7 +19,7 @@ use WBW\Library\Validator\Tests\Fixtures\Rule\TestRule;
 /**
  * Default rule set test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Validator\Tests\Validator\RuleSet
  */
 class DefaultRuleSetTest extends AbstractTestCase {

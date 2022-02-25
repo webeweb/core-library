@@ -19,7 +19,7 @@ use WBW\Library\Ftp\Tests\AbstractTestCase;
 /**
  * FTPs client test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Ftp\Tests\Client
  */
 class FtpsClientTest extends AbstractTestCase {

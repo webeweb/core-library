@@ -17,7 +17,7 @@ use Exception;
 /**
  * Test fixtures.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Planning\Tests\Fixtures
  */
 class TestFixtures {

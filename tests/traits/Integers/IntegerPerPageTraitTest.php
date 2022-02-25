@@ -17,7 +17,7 @@ use WBW\Library\Traits\Tests\Fixtures\Integers\TestIntegerPerPageTrait;
 /**
  * Integer per page trait test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Traits\Tests\Integers
  */
 class IntegerPerPageTraitTest extends AbstractTestCase {

@@ -16,7 +16,7 @@ use WBW\Library\Traits\Strings\StringFromTrait;
 /**
  * Test string from trait.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Traits\Tests\Fixtures\Strings
  */
 class TestStringFromTrait {

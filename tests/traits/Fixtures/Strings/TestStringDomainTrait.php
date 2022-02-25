@@ -16,7 +16,7 @@ use WBW\Library\Traits\Strings\StringDomainTrait;
 /**
  * Test string domain trait.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Traits\Tests\Fixtures\Strings
  */
 class TestStringDomainTrait {

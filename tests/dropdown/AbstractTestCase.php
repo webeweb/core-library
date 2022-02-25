@@ -16,7 +16,7 @@ use WBW\Library\Core\Tests\AbstractTestCase as BaseTestCase;
 /**
  * Abstract test case.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Dropdown\Tests
  * @abstract
  */

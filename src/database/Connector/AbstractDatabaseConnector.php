@@ -18,7 +18,7 @@ use WBW\Library\Security\Authenticator;
 /**
  * Abstract database connector.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Database\Connector
  */
 abstract class AbstractDatabaseConnector {

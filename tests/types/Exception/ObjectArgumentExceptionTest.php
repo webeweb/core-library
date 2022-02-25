@@ -17,7 +17,7 @@ use WBW\Library\Types\Tests\AbstractTestCase;
 /**
  * Object argument exception test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Types\Tests\Exception
  */
 class ObjectArgumentExceptionTest extends AbstractTestCase {

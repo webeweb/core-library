@@ -16,7 +16,7 @@ use WBW\Library\Traits\Strings\StringCategoryTrait;
 /**
  * Test string category trait.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Traits\Tests\Fixtures\Strings
  */
 class TestStringCategoryTrait {

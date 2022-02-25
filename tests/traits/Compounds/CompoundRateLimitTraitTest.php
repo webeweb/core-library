@@ -19,7 +19,7 @@ use WBW\Library\Traits\Tests\Fixtures\Compounds\TestCompoundRateLimitTrait;
 /**
  * Compound rate limit trait test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Traits\Tests\Compounds
  */
 class CompoundRateLimitTraitTest extends AbstractTestCase {

@@ -18,7 +18,7 @@ use WBW\Library\Curl\Tests\AbstractTestCase;
 /**
  * Request call exception test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Curl\Tests\Exception
  */
 class RequestCallExceptionTest extends AbstractTestCase {

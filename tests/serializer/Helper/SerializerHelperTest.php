@@ -18,7 +18,7 @@ use WBW\Library\Serializer\Tests\AbstractTestCase;
 /**
  * Serializer helper test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Serializer\Tests\Helper
  */
 class SerializerHelperTest extends AbstractTestCase {

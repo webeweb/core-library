@@ -19,7 +19,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 /**
  * Archive helper test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Core\Tests\Helper
  */
 class ArchiveHelperTest extends AbstractTestCase {

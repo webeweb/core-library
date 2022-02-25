@@ -17,7 +17,7 @@ use WBW\Library\Curl\Tests\AbstractTestCase;
 /**
  * Method not allowed exception test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Curl\Tests\Exception
  */
 class MethodNotAllowedExceptionTest extends AbstractTestCase {

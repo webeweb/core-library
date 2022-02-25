@@ -16,7 +16,7 @@ use WBW\Library\Traits\Strings\StringHostnameTrait;
 /**
  * Test string hostname trait.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Traits\Tests\Fixtures\Strings
  */
 class TestStringHostnameTrait {

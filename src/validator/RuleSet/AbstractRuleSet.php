@@ -17,7 +17,7 @@ use WBW\Library\Validator\Api\RuleSetInterface;
 /**
  * Abstract rule set.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Validator\RuleSet
  * @abstract
  */

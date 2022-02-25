@@ -20,7 +20,7 @@ use WBW\Library\Validator\Tests\Fixtures\Rule\TestRule;
 /**
  * Default validator test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Validator\Tests
  */
 class DefaultValidatorTest extends AbstractTestCase {

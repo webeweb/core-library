@@ -16,7 +16,7 @@ use WBW\Library\Traits\Floats\FloatVatTotalTrait;
 /**
  * Test float VAT total trait.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Traits\Tests\Fixtures\Floats
  */
 class TestFloatVatTotalTrait {

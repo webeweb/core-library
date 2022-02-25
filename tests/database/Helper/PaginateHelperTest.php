@@ -17,7 +17,7 @@ use WBW\Library\Database\Tests\AbstractTestCase;
 /**
  * Paginate helper test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Database\Tests\Helper
  */
 class PaginateHelperTest extends AbstractTestCase {

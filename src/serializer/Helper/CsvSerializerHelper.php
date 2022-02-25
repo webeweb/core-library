@@ -16,7 +16,7 @@ use WBW\Library\Serializer\Model\CsvSerializable;
 /**
  * CSV serializer helper.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Serializer\Helper
  */
 class CsvSerializerHelper extends SerializerHelper {

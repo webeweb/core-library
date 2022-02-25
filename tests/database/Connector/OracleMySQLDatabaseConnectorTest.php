@@ -19,7 +19,7 @@ use WBW\Library\Database\Tests\AbstractTestCase;
 /**
  * Microsoft SQL Server database connector test.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Database\Tests\Connector
  */
 class OracleMySQLDatabaseConnectorTest extends AbstractTestCase {

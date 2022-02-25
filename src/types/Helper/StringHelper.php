@@ -17,7 +17,7 @@ use WBW\Library\Types\Exception\StringArgumentException;
 /**
  * String helper.
  *
- * @author webeweb <https://github.com/webeweb/>
+ * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Types\Helper
  */
 class StringHelper {
