@@ -1,6 +1,12 @@
 CHANGELOG
 =========
 
+### [8.30.0](https://github.com/webeweb/core-library/tree/v8.30.0) (2022-02-28)
+
+- Add Fibonacci helper
+- Add string salt trait
+- Improve PHPDoc
+
 ### [8.29.0](https://github.com/webeweb/core-library/tree/v8.29.0) (2022-02-21)
 
 - Add boolean ready trait
