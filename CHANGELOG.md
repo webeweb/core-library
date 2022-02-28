@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [8.31.0](https://github.com/webeweb/core-library/tree/v8.31.0) (2022-02-28)
+
+- Fix dependencies
+
 ### [8.30.1](https://github.com/webeweb/core-library/tree/v8.30.1) (2022-02-28)
 
 - Update dependencies
