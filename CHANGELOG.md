@@ -1,6 +1,14 @@
 CHANGELOG
 =========
 
+### master
+
+> IMPORTANT NOTICE: The following packages has been moved
+> - WBW\Library\Bill
+
+> IMPORTANT NOTICE: The following classes has been moved
+> - WBW\Library\Core\Helper\LuhnAlgorithm
+
 ### [8.31.0](https://github.com/webeweb/core-library/tree/v8.31.0) (2022-02-28)
 
 - Fix dependencies
