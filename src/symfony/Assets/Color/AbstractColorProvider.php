@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Symfony\Assets\Color;
 
+use JsonSerializable;
 use WBW\Library\Serializer\SerializerKeys;
 use WBW\Library\Symfony\Provider\Assets\ColorProviderInterface;
 use WBW\Library\Traits\Strings\StringDomainTrait;
@@ -22,7 +23,7 @@ use WBW\Library\Traits\Strings\StringDomainTrait;
  * @package WBW\Library\Symfony\Assets\Color
  * @abstract
  */
-abstract class AbstractColorProvider implements ColorProviderInterface, \JsonSerializable {
+abstract class AbstractColorProvider implements ColorProviderInterface, JsonSerializable {
 
     use StringDomainTrait {
         setDomain as protected;
