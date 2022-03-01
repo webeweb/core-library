@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Billing\Tests\Model;
 
+use JsonSerializable;
 use WBW\Library\Billing\Model\BillableDetailInterface;
 use WBW\Library\Billing\Model\BillableInterface;
 use WBW\Library\Billing\Model\TaxableInterface;
@@ -117,7 +118,7 @@ class BillableDetailTest extends AbstractTestCase {
 
         $obj = new TestBillableDetail();
 
-        $this->assertInstanceOf(\JsonSerializable::class, $obj);
+        $this->assertInstanceOf(JsonSerializable::class, $obj);
         $this->assertInstanceOf(BillableDetailInterface::class, $obj);
         $this->assertInstanceOf(TaxableInterface::class, $obj);
 

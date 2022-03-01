@@ -81,7 +81,7 @@ class AbstractManager implements ManagerInterface {
         for ($i = count($this->providers) - 1; 0 <= $i; --$i) {
 
             if ($provider === $this->providers[$i]) {
-            return $i;
+                return $i;
             }
         }
 

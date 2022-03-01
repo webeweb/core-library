@@ -14,6 +14,7 @@ namespace WBW\Library\Billing\Tests\Model;
 use DateTime;
 use DateTimeZone;
 use Exception;
+use JsonSerializable;
 use WBW\Library\Billing\Model\BillableInterface;
 use WBW\Library\Billing\Model\SalesBill;
 use WBW\Library\Billing\Model\SalesBillInterface;
@@ -71,7 +72,7 @@ class SalesBillTest extends AbstractTestCase {
 
         $obj = new SalesBill();
 
-        $this->assertInstanceOf(\JsonSerializable::class, $obj);
+        $this->assertInstanceOf(JsonSerializable::class, $obj);
         $this->assertInstanceOf(BillableInterface::class, $obj);
         $this->assertInstanceOf(SalesBillInterface::class, $obj);
     }
