@@ -7,6 +7,7 @@
         "core",
         "curl",
         "database",
+        "entity",
         "ftp",
         "image",
         "library",
@@ -61,7 +62,7 @@
         "psr-4": {
             "WBW\\Library\\Accounting\\": "src/accounting/",
             "WBW\\Library\\Adoria\\": "src/adoria/",
-            "WBW\\Library\\Bill\\": "src/bill/",
+            "WBW\\Library\\Billing\\": "src/billing/",
             "WBW\\Library\\Core\\": "src/core/",
             "WBW\\Library\\Curl\\": "src/curl/",
             "WBW\\Library\\Database\\": "src/database/",
@@ -88,7 +89,7 @@
         "psr-4": {
             "WBW\\Library\\Accounting\\Tests\\": "tests/accounting/",
             "WBW\\Library\\Adoria\\Tests\\": "tests/adoria/",
-            "WBW\\Library\\Bill\\Tests\\": "tests/bill/",
+            "WBW\\Library\\Billing\\Tests\\": "tests/billing/",
             "WBW\\Library\\Core\\Tests\\": "tests/core/",
             "WBW\\Library\\Curl\\Tests\\": "tests/curl/",
             "WBW\\Library\\Database\\Tests\\": "tests/database/",
