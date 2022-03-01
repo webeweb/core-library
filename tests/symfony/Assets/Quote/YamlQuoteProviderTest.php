@@ -15,7 +15,9 @@ use DateInterval;
 use DateTime;
 use Exception;
 use InvalidArgumentException;
+use WBW\Library\Symfony\Assets\Quote\WorldsWisdomQuoteProvider;
 use WBW\Library\Symfony\Assets\Quote\YamlQuoteProvider;
+use WBW\Library\Symfony\Provider\Assets\QuoteProviderInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 
 /**
@@ -39,7 +41,7 @@ class YamlQuoteProviderTest extends AbstractTestCase {
     protected function setUp(): void {
         parent::setUp();
 
-        $this->filename = realpath(__DIR__ . "/../../../../src/symfony/Resources/assets/quote/WorldsWisdom.fr.yml");
+        $this->filename = realpath(WorldsWisdomQuoteProvider::RESOURCE_PATH);
     }
 
     /**
@@ -83,6 +85,8 @@ class YamlQuoteProviderTest extends AbstractTestCase {
     public function test__construct(): void {
 
         $obj = new YamlQuoteProvider($this->filename);
+
+        $this->assertInstanceOf(QuoteProviderInterface::class, $obj);
 
         $this->assertEquals($this->filename, $obj->getFilename());
         $this->assertEquals([], $obj->getAuthors());
