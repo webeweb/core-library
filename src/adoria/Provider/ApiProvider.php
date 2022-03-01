@@ -46,7 +46,7 @@ class ApiProvider extends AbstractProvider implements ApiProviderInterface {
      * @param string $resourcePath The resource path.
      * @param array $postData The post data.
      * @return string Returns the response.
-     * @throws ApiException Throws an API exception exception if an error occurs.
+     * @throws ApiException Throws an API exception if an error occurs.
      */
     protected function callApi(string $resourcePath, array $postData): string {
 
