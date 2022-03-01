@@ -89,11 +89,10 @@ class OrangeColorProviderTest extends AbstractTestCase {
 
         $obj = new OrangeColorProvider();
 
-        $this->assertInstanceOf(ColorProviderInterface::class, $obj);
         $this->assertInstanceOf(JsonSerializable::class, $obj);
-
-        $this->assertInstanceOf(MaterialDesignColorPaletteInterface::class, $obj);
+        $this->assertInstanceOf(ColorProviderInterface::class, $obj);
         $this->assertInstanceOf(OrangeColorProviderInterface::class, $obj);
+        $this->assertInstanceOf(MaterialDesignColorPaletteInterface::class, $obj);
 
         $this->assertEquals(MaterialDesignColorPaletteInterface::COLOR_DOMAIN, $obj->getDomain());
     }

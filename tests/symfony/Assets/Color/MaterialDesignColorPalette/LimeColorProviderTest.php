@@ -89,11 +89,10 @@ class LimeColorProviderTest extends AbstractTestCase {
 
         $obj = new LimeColorProvider();
 
-        $this->assertInstanceOf(ColorProviderInterface::class, $obj);
         $this->assertInstanceOf(JsonSerializable::class, $obj);
-
-        $this->assertInstanceOf(MaterialDesignColorPaletteInterface::class, $obj);
+        $this->assertInstanceOf(ColorProviderInterface::class, $obj);
         $this->assertInstanceOf(LimeColorProviderInterface::class, $obj);
+        $this->assertInstanceOf(MaterialDesignColorPaletteInterface::class, $obj);
 
         $this->assertEquals(MaterialDesignColorPaletteInterface::COLOR_DOMAIN, $obj->getDomain());
     }

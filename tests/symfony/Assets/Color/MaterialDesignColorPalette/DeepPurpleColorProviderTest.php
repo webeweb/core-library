@@ -89,11 +89,10 @@ class DeepPurpleColorProviderTest extends AbstractTestCase {
 
         $obj = new DeepPurpleColorProvider();
 
-        $this->assertInstanceOf(ColorProviderInterface::class, $obj);
         $this->assertInstanceOf(JsonSerializable::class, $obj);
-
-        $this->assertInstanceOf(MaterialDesignColorPaletteInterface::class, $obj);
+        $this->assertInstanceOf(ColorProviderInterface::class, $obj);
         $this->assertInstanceOf(DeepPurpleColorProviderInterface::class, $obj);
+        $this->assertInstanceOf(MaterialDesignColorPaletteInterface::class, $obj);
 
         $this->assertEquals(MaterialDesignColorPaletteInterface::COLOR_DOMAIN, $obj->getDomain());
     }
