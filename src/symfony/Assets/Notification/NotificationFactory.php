@@ -41,7 +41,7 @@ class NotificationFactory {
     }
 
     /**
-     * Creates a info notification.
+     * Creates an info notification.
      *
      * @param string $content The content.
      * @return NotificationInterface Returns the info notification.

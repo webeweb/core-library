@@ -41,7 +41,7 @@ class ToastFactory {
     }
 
     /**
-     * Creates a info toast.
+     * Creates an info toast.
      *
      * @param string $content The content.
      * @return ToastInterface Returns the info toast.
