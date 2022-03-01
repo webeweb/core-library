@@ -38,9 +38,9 @@ interface ColorProviderInterface extends ProviderInterface {
     /**
      * Get the domain.
      *
-     * @return string Returns the domain.
+     * @return string|null Returns the domain.
      */
-    public function getDomain(): string;
+    public function getDomain(): ?string;
 
     /**
      * Get the name.
