@@ -21,7 +21,7 @@ use WBW\Library\Symfony\Provider\Assets\Color\TealColorProviderInterface;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Symfony\Assets\Color\MaterialDesignColorPalette
  */
-class TealColorProvider extends AbstractColorProvider implements MaterialDesignColorPaletteInterface, TealColorProviderInterface {
+class TealColorProvider extends AbstractColorProvider implements TealColorProviderInterface, MaterialDesignColorPaletteInterface {
 
     /**
      * Service name.

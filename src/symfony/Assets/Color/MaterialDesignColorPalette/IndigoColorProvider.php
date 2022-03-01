@@ -21,7 +21,7 @@ use WBW\Library\Symfony\Provider\Assets\Color\IndigoColorProviderInterface;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Symfony\Assets\Color\MaterialDesignColorPalette
  */
-class IndigoColorProvider extends AbstractColorProvider implements MaterialDesignColorPaletteInterface, IndigoColorProviderInterface {
+class IndigoColorProvider extends AbstractColorProvider implements IndigoColorProviderInterface, MaterialDesignColorPaletteInterface {
 
     /**
      * Service name.

@@ -21,7 +21,7 @@ use WBW\Library\Symfony\Provider\Assets\Color\YellowColorProviderInterface;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Symfony\Assets\Color\MaterialDesignColorPalette
  */
-class YellowColorProvider extends AbstractColorProvider implements MaterialDesignColorPaletteInterface, YellowColorProviderInterface {
+class YellowColorProvider extends AbstractColorProvider implements YellowColorProviderInterface, MaterialDesignColorPaletteInterface {
 
     /**
      * Service name.

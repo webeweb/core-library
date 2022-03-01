@@ -21,7 +21,7 @@ use WBW\Library\Symfony\Provider\Assets\Color\RedColorProviderInterface;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Symfony\Assets\Color\MaterialDesignColorPalette
  */
-class RedColorProvider extends AbstractColorProvider implements MaterialDesignColorPaletteInterface, RedColorProviderInterface {
+class RedColorProvider extends AbstractColorProvider implements RedColorProviderInterface, MaterialDesignColorPaletteInterface {
 
     /**
      * Service name.

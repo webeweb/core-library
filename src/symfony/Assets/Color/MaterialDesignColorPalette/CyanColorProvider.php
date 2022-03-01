@@ -21,7 +21,7 @@ use WBW\Library\Symfony\Provider\Assets\Color\CyanColorProviderInterface;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Symfony\Assets\Color\MaterialDesignColorPalette
  */
-class CyanColorProvider extends AbstractColorProvider implements MaterialDesignColorPaletteInterface, CyanColorProviderInterface {
+class CyanColorProvider extends AbstractColorProvider implements CyanColorProviderInterface, MaterialDesignColorPaletteInterface {
 
     /**
      * Service name.

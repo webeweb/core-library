@@ -21,7 +21,7 @@ use WBW\Library\Symfony\Provider\Assets\Color\DeepOrangeColorProviderInterface;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Symfony\Assets\Color\MaterialDesignColorPalette
  */
-class DeepOrangeColorProvider extends AbstractColorProvider implements MaterialDesignColorPaletteInterface, DeepOrangeColorProviderInterface {
+class DeepOrangeColorProvider extends AbstractColorProvider implements DeepOrangeColorProviderInterface, MaterialDesignColorPaletteInterface {
 
     /**
      * Service name.

@@ -21,7 +21,7 @@ use WBW\Library\Symfony\Provider\Assets\Color\PinkColorProviderInterface;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Symfony\Assets\Color\MaterialDesignColorPalette
  */
-class PinkColorProvider extends AbstractColorProvider implements MaterialDesignColorPaletteInterface, PinkColorProviderInterface {
+class PinkColorProvider extends AbstractColorProvider implements PinkColorProviderInterface, MaterialDesignColorPaletteInterface {
 
     /**
      * Service name.

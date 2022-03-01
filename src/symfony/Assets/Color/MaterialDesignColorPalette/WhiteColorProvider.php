@@ -21,7 +21,7 @@ use WBW\Library\Symfony\Provider\Assets\Color\WhiteColorProviderInterface;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Symfony\Assets\Color\MaterialDesignColorPalette
  */
-class WhiteColorProvider extends AbstractColorProvider implements MaterialDesignColorPaletteInterface, WhiteColorProviderInterface {
+class WhiteColorProvider extends AbstractColorProvider implements WhiteColorProviderInterface, MaterialDesignColorPaletteInterface {
 
     /**
      * Service name.

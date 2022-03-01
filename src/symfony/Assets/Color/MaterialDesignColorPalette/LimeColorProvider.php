@@ -21,7 +21,7 @@ use WBW\Library\Symfony\Provider\Assets\Color\LimeColorProviderInterface;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Symfony\Assets\Color\MaterialDesignColorPalette
  */
-class LimeColorProvider extends AbstractColorProvider implements MaterialDesignColorPaletteInterface, LimeColorProviderInterface {
+class LimeColorProvider extends AbstractColorProvider implements LimeColorProviderInterface, MaterialDesignColorPaletteInterface {
 
     /**
      * Service name.

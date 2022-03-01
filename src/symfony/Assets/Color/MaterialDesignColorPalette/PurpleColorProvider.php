@@ -21,7 +21,7 @@ use WBW\Library\Symfony\Provider\Assets\Color\PurpleColorProviderInterface;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Symfony\Assets\Color\MaterialDesignColorPalette
  */
-class PurpleColorProvider extends AbstractColorProvider implements MaterialDesignColorPaletteInterface, PurpleColorProviderInterface {
+class PurpleColorProvider extends AbstractColorProvider implements PurpleColorProviderInterface, MaterialDesignColorPaletteInterface {
 
     /**
      * Service name.

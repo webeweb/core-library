@@ -21,7 +21,7 @@ use WBW\Library\Symfony\Provider\Assets\Color\LightGreenColorProviderInterface;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Symfony\Assets\Color\MaterialDesignColorPalette
  */
-class LightGreenColorProvider extends AbstractColorProvider implements MaterialDesignColorPaletteInterface, LightGreenColorProviderInterface {
+class LightGreenColorProvider extends AbstractColorProvider implements LightGreenColorProviderInterface, MaterialDesignColorPaletteInterface {
 
     /**
      * Service name.

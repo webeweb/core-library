@@ -21,7 +21,7 @@ use WBW\Library\Symfony\Provider\Assets\Color\GreyColorProviderInterface;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Symfony\Assets\Color\MaterialDesignColorPalette
  */
-class GreyColorProvider extends AbstractColorProvider implements MaterialDesignColorPaletteInterface, GreyColorProviderInterface {
+class GreyColorProvider extends AbstractColorProvider implements GreyColorProviderInterface, MaterialDesignColorPaletteInterface {
 
     /**
      * Service name.
