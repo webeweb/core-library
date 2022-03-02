@@ -88,12 +88,17 @@ class AlphabeticalTreeNodeHelper {
      * @return void
      */
     public static function removeOrphan(array &$nodes = []): void {
+
         do {
+
             $found = false;
+
             foreach ($nodes as $k => $v) {
+
                 if (false === ($v instanceof AlphabeticalTreeNodeInterface) || null === $v->getAlphabeticalTreeNodeParent() || true === in_array($v->getAlphabeticalTreeNodeParent(), $nodes)) {
                     continue;
                 }
+
                 unset($nodes[$k]);
                 $found = true;
             }

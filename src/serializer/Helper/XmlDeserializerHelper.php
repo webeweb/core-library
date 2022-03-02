@@ -92,11 +92,9 @@ class XmlDeserializerHelper extends SerializerHelper {
         /** @var DOMNode $current */
         foreach ($domNodeList as $current) {
 
-            if ($nodeName !== $current->nodeName) {
-                continue;
+            if ($nodeName === $current->nodeName) {
+                $domNodes[] = $current;
             }
-
-            $domNodes[] = $current;
         }
 
         return $domNodes;
@@ -123,7 +121,7 @@ class XmlDeserializerHelper extends SerializerHelper {
 
         /** @var DOMNode $current */
         foreach ($domNode->childNodes as $current) {
-            $context["_chilNodes"][] = $current->nodeName;
+            $context["_childNodes"][] = $current->nodeName;
         }
 
         static::$logger->debug(sprintf('Deserialize a DOM node with name "%s"', $domNode->nodeName), $context);

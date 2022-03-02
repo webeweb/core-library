@@ -34,11 +34,9 @@ class JsonSerializerHelper {
         foreach ($models as $current) {
 
             $array = static::jsonSerializeModel($current);
-            if (null === $array) {
-                continue;
+            if (null !== $array) {
+                $output[] = $array;
             }
-
-            $output[] = $array;
         }
 
         return $output;

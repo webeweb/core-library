@@ -44,10 +44,10 @@ abstract class AbstractQuoteProvider implements QuoteProviderInterface {
         $authors = [];
 
         foreach ($this->quotes as $current) {
-            if (true === in_array($current->getAuthor(), $authors)) {
-                continue;
+
+            if (false === in_array($current->getAuthor(), $authors)) {
+                $authors[] = $current->getAuthor();
             }
-            $authors[] = $current->getAuthor();
         }
 
         asort($authors);

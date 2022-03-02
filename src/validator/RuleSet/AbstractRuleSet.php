@@ -59,11 +59,9 @@ abstract class AbstractRuleSet implements RuleSetInterface {
 
         for ($i = count($this->rules) - 1; 0 <= $i; --$i) {
 
-            if ($rule !== $this->rules[$i]) {
-                continue;
+            if ($rule === $this->rules[$i]) {
+                unset($this->rules[$i]);
             }
-
-            unset($this->rules[$i]);
         }
 
         return $this;

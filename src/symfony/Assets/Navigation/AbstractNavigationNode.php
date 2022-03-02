@@ -274,11 +274,9 @@ abstract class AbstractNavigationNode implements NavigationInterface, Alphabetic
         foreach ($this->getNodes() as $current) {
 
             $found = $current->getNodeById($id, true);
-            if (null === $found) {
-                continue;
+            if (null !== $found) {
+                return $found;
             }
-
-            return $found;
         }
 
         return null;
@@ -341,10 +339,10 @@ abstract class AbstractNavigationNode implements NavigationInterface, Alphabetic
         }
 
         foreach ($this->getNodes() as $current) {
-            if (false === $current->isDisplayable()) {
-                continue;
+
+            if (true === $current->isDisplayable()) {
+                return true;
             }
-            return true;
         }
 
         return false;

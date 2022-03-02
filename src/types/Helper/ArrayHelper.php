@@ -66,12 +66,14 @@ class ArrayHelper {
      * @return void
      */
     public static function set(array &$array, string $key, $value, array $tests = []): void {
+
         foreach ($tests as $current) {
-            if ($current !== $value) {
-                continue;
+
+            if ($current === $value) {
+                return;
             }
-            return;
         }
+
         $array[$key] = $value;
     }
 }

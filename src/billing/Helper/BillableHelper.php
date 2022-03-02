@@ -64,12 +64,11 @@ class BillableHelper {
 
         foreach ($billable->getDetails() as $current) {
 
-            if (false === method_exists($current, $method)) {
-                continue;
-            }
+            if (true === method_exists($current, $method)) {
 
-            $current->onSubmit();
-            $result += $current->$method();
+                $current->onSubmit();
+                $result += $current->$method();
+            }
         }
 
         return $result;

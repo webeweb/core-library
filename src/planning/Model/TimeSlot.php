@@ -158,11 +158,9 @@ class TimeSlot {
 
         for ($i = count($this->timeSlots) - 1; 0 <= $i; --$i) {
 
-            if (true !== TimeSlotHelper::equals($timeSlot, $this->timeSlots[$i])) {
-                continue;
+            if (true === TimeSlotHelper::equals($timeSlot, $this->timeSlots[$i])) {
+                unset($this->timeSlots[$i]);
             }
-
-            unset($this->timeSlots[$i]);
         }
 
         return $this;

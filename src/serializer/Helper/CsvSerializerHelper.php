@@ -34,11 +34,9 @@ class CsvSerializerHelper extends SerializerHelper {
         foreach ($models as $current) {
 
             $result = static::csvSerializeModel($current);
-            if (null === $result) {
-                continue;
+            if (null !== $result) {
+                $output[] = $result;
             }
-
-            $output[] = $result;
         }
 
         return implode("\n", $output);

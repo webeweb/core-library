@@ -34,11 +34,9 @@ class XmlSerializerHelper extends SerializerHelper {
         foreach ($models as $current) {
 
             $result = static::xmlSerializeModel($current);
-            if (null === $result) {
-                continue;
+            if (null !== $result) {
+                $output[] = $result;
             }
-
-            $output[] = $result;
         }
 
         return implode("", $output);
