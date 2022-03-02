@@ -9,7 +9,7 @@ CHANGELOG
 > IMPORTANT NOTICE: The following classes has been moved
 > - WBW\Library\Core\Helper\LuhnAlgorithm
 
-> IMPORTANT NOTICE: The following packages has been copied from [core-bundle](https://github.com/webeweb/core-library) 
+> IMPORTANT NOTICE: The following packages has been copied from [core-bundle](https://github.com/webeweb/core-library)
 > - WBW\Library\Symfony\Assets\Color
 > - WBW\Library\Symfony\Assets\Icon
 > - WBW\Library\Symfony\Assets\Navigation
