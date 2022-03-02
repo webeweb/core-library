@@ -26,7 +26,7 @@ interface ColorProviderInterface extends ProviderInterface {
      *
      * @var string
      */
-    const COLOR_TAG_NAME = "wbw.core.provider.color";
+    const COLOR_PROVIDER_TAG_NAME = "wbw.core.provider.assets.color";
 
     /**
      * Get the colors.
