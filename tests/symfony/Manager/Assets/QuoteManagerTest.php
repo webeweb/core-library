@@ -118,6 +118,21 @@ class QuoteManagerTest extends AbstractTestCase {
     }
 
     /**
+     * Tests getProvider()
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testGetProvider(): void {
+
+        $obj = new QuoteManager($this->logger);
+        $obj->addProvider($this->quoteProvider);
+
+        $this->assertSame($this->quoteProvider, $obj->getProvider("domain"));
+        $this->assertNull($obj->getProvider("github"));
+    }
+
+    /**
      * Tests __construct()
      *
      * @return void
