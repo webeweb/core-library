@@ -15,13 +15,13 @@ projects.
 Provides:
 
 - Accounting models
-- Algorithm helpers (Luhn, etc.)
-- Bill models
+- Billing models
 - cURL wrapper
 - Database connectors (Access, SQL Server, MySQL, etc.)
 - FTP clients (FTP, FTPS, SFTP, etc.)
 - Image utilities
 - Logger models
+- Maths helpers (Fibonacci, Luhn, etc.)
 - Planning utilities (time slots, etc.)
 - Quadratus models
 - Security classes (authenticator, password authentication, token generator, etc.)
