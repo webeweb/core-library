@@ -25,7 +25,7 @@ class BillableDetailHelper extends TaxableHelper {
      * Calculates a discount total.
      *
      * @param BillableDetailInterface $billableDetail The billable detail.
-     * @return float Returns the VAT total.
+     * @return float Returns the discount total.
      */
     public static function calcDiscountTotal(BillableDetailInterface $billableDetail): float {
         return TaxableHelper::calcDiscountAmount($billableDetail) * static::getQuantity($billableDetail);
