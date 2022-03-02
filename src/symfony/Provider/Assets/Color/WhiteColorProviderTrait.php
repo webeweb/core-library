@@ -22,7 +22,7 @@ trait WhiteColorProviderTrait {
     /**
      * White color provider.
      *
-     * @var WhiteColorProvider
+     * @var WhiteColorProviderInterface|null
      */
     private $whiteColorProvider;
 

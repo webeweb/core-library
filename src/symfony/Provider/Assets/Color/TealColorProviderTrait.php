@@ -22,7 +22,7 @@ trait TealColorProviderTrait {
     /**
      * Teal color provider.
      *
-     * @var TealColorProvider
+     * @var TealColorProviderInterface|null
      */
     private $tealColorProvider;
 

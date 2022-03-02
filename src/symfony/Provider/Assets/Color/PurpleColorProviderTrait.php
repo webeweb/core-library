@@ -22,7 +22,7 @@ trait PurpleColorProviderTrait {
     /**
      * Purple color provider.
      *
-     * @var PurpleColorProvider
+     * @var PurpleColorProviderInterface|null
      */
     private $purpleColorProvider;
 

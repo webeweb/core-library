@@ -99,6 +99,7 @@ class ImageHelper {
         switch ($image->init()->getMimeType()) {
 
             case ImageInterface::MIME_TYPE_PNG:
+
                 if (false !== $stream) {
                     imagealphablending($stream, false);
                     imagesavealpha($stream, true);
