@@ -1,0 +1,133 @@
+<?php
+
+/*
+ * This file is part of the core-library package.
+ *
+ * (c) 2019 WEBEWEB
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace WBW\Library\Symfony\Tests\Manager\Assets;
+
+use Exception;
+use InvalidArgumentException;
+use WBW\Library\Symfony\Exception\AlreadyRegisteredProviderException;
+use WBW\Library\Symfony\Manager\Assets\QuoteManager;
+use WBW\Library\Symfony\Provider\Assets\ColorProviderInterface;
+use WBW\Library\Symfony\Provider\Assets\QuoteProviderInterface;
+use WBW\Library\Symfony\Tests\AbstractTestCase;
+
+/**
+ * Quote manager test.
+ *
+ * @author webeweb <https://github.com/webeweb>
+ * @package WBW\Library\Symfony\Tests\Manager\Assets
+ */
+class QuoteManagerTest extends AbstractTestCase {
+
+    /**
+     * Quote provider.
+     *
+     * @var QuoteProviderInterface
+     */
+    private $quoteProvider;
+
+    /**
+     * {@inheritDoc}
+     */
+    protected function setUp(): void {
+        parent::setUp();
+
+        // Set a Quote provider mock.
+        $this->quoteProvider = $this->getMockBuilder(QuoteProviderInterface::class)->getMock();
+        $this->quoteProvider->expects($this->any())->method("getDomain")->willReturn("domain");
+    }
+
+    /**
+     * Tests addProvider()
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testAddProvider(): void {
+
+        $obj = new QuoteManager($this->logger);
+
+        $obj->addProvider($this->quoteProvider);
+        $this->assertSame($this->quoteProvider, $obj->getProviders()[0]);
+    }
+
+    /**
+     * Tests addProvider()
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testAddProviderWithAlreadyRegisteredException(): void {
+
+        $obj = new QuoteManager($this->logger);
+        $obj->addProvider($this->quoteProvider);
+
+        try {
+
+            $obj->addProvider($this->quoteProvider);
+        } catch (Exception $ex) {
+
+            $this->assertInstanceOf(AlreadyRegisteredProviderException::class, $ex);
+        }
+    }
+
+    /**
+     * Tests contains()
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testContains(): void {
+
+        $obj = new QuoteManager($this->logger);
+
+        $this->assertFalse($obj->contains($this->quoteProvider));
+
+        $obj->addProvider($this->quoteProvider);
+        $this->assertTrue($obj->contains($this->quoteProvider));
+    }
+
+    /**
+     * Tests contains()
+     *
+     * @return void
+     */
+    public function testContainsWithInvalidArgumentException(): void {
+
+        // Set a Quote provider mock.
+        $quoteProvider = $this->getMockBuilder(ColorProviderInterface::class)->getMock();
+
+        $obj = new QuoteManager($this->logger);
+
+        try {
+
+            $obj->contains($quoteProvider);
+        } catch (Exception $ex) {
+
+            $this->assertInstanceOf(InvalidArgumentException::class, $ex);
+            $this->assertEquals("The provider must implements QuoteProviderInterface", $ex->getMessage());
+        }
+    }
+
+    /**
+     * Tests __construct()
+     *
+     * @return void
+     */
+    public function test__construct(): void {
+
+        $this->assertEquals("wbw.core.manager.assets.quote", QuoteManager::SERVICE_NAME);
+
+        $obj = new QuoteManager($this->logger);
+
+        $this->assertEquals([], $obj->getProviders());
+    }
+}
