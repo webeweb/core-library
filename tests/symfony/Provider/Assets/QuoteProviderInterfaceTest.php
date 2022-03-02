@@ -28,6 +28,6 @@ class QuoteProviderInterfaceTest {
      */
     public function test__construct(): void {
 
-        $this->assertEquals("wbw.core.provider.quote", QuoteProviderInterface::QUOTE_TAG_NAME);
+        $this->assertEquals("wbw.core.provider.assets.quote", QuoteProviderInterface::QUOTE_PROVIDER_TAG_NAME);
     }
 }

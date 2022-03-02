@@ -27,7 +27,7 @@ interface QuoteProviderInterface extends ProviderInterface {
      *
      * @var string
      */
-    const QUOTE_TAG_NAME = "wbw.core.provider.quote";
+    const QUOTE_PROVIDER_TAG_NAME = "wbw.core.provider.assets.quote";
 
     /**
      * Get the authors.
