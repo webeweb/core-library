@@ -9,6 +9,16 @@ CHANGELOG
 > IMPORTANT NOTICE: The following classes has been moved
 > - WBW\Library\Core\Helper\LuhnAlgorithm
 
+> IMPORTANT NOTICE: The following packages has been copied from [core-bundle](https://github.com/webeweb/core-library) 
+> - WBW\Library\Symfony\Assets\Color
+> - WBW\Library\Symfony\Assets\Icon
+> - WBW\Library\Symfony\Assets\Navigation
+> - WBW\Library\Symfony\Assets\Notification
+> - WBW\Library\Symfony\Assets\Quote
+> - WBW\Library\Symfony\Assets\Toasts
+> - WBW\Library\Symfony\Manager
+> - WBW\Library\Symfony\Provider
+
 ### [8.31.0](https://github.com/webeweb/core-library/tree/v8.31.0) (2022-02-28)
 
 - Fix dependencies
