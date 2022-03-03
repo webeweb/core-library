@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Assets\Quote;
+namespace WBW\Library\Symfony\Tests\Provider;
 
 use WBW\Library\Symfony\Tests\AbstractTestCase;
-use WBW\Library\Symfony\Tests\Fixtures\Assets\Quote\TestQuoteProvider;
+use WBW\Library\Symfony\Tests\Fixtures\Provider\TestQuoteProvider;
 
 /**
  * Abstract quote provider test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Assets\Quote
+ * @package WBW\Library\Symfony\Tests\Provider
  */
 class AbstractQuoteProviderTest extends AbstractTestCase {
 

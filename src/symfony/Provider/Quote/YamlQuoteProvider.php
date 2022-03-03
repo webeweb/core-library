@@ -9,12 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Assets\Quote;
+namespace WBW\Library\Symfony\Provider\Quote;
 
 use DateTime;
 use InvalidArgumentException;
 use Symfony\Component\Yaml\Yaml;
 use WBW\Library\Symfony\Model\Quote;
+use WBW\Library\Symfony\Provider\AbstractQuoteProvider;
 use WBW\Library\Symfony\Provider\QuoteProviderInterface;
 use WBW\Library\Traits\Strings\StringFilenameTrait;
 use WBW\Library\Types\Helper\ArrayHelper;
@@ -23,7 +24,7 @@ use WBW\Library\Types\Helper\ArrayHelper;
  * YAML quote provider.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Assets\Quote
+ * @package WBW\Library\Symfony\Provider\Quote
  */
 class YamlQuoteProvider extends AbstractQuoteProvider {
 

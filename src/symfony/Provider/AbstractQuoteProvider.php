@@ -9,16 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Assets\Quote;
+namespace WBW\Library\Symfony\Provider;
 
 use WBW\Library\Symfony\Model\QuoteInterface;
-use WBW\Library\Symfony\Provider\QuoteProviderInterface;
 
 /**
  * Abstract quote provider.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Assets\Quote
+ * @package WBW\Library\Symfony\Provider
  * @abstract
  */
 abstract class AbstractQuoteProvider implements QuoteProviderInterface {

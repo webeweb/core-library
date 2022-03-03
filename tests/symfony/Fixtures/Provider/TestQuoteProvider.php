@@ -9,15 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Fixtures\Assets\Quote;
+namespace WBW\Library\Symfony\Tests\Fixtures\Provider;
 
-use WBW\Library\Symfony\Assets\Quote\AbstractQuoteProvider;
+use WBW\Library\Symfony\Provider\AbstractQuoteProvider;
 
 /**
  * Test quote provider.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Fixtures\Assets\Quote
+ * @package WBW\Library\Symfony\Tests\Fixtures\Provider
  */
 class TestQuoteProvider extends AbstractQuoteProvider {
 

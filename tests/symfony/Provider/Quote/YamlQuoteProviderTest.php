@@ -9,14 +9,14 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Assets\Quote;
+namespace WBW\Library\Symfony\Tests\Provider\Quote;
 
 use DateInterval;
 use DateTime;
 use Exception;
 use InvalidArgumentException;
-use WBW\Library\Symfony\Assets\Quote\WorldsWisdomQuoteProvider;
-use WBW\Library\Symfony\Assets\Quote\YamlQuoteProvider;
+use WBW\Library\Symfony\Provider\Quote\WorldsWisdomQuoteProvider;
+use WBW\Library\Symfony\Provider\Quote\YamlQuoteProvider;
 use WBW\Library\Symfony\Provider\QuoteProviderInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 
@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Tests\AbstractTestCase;
  * YAML quote provider test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Assets\Quote
+ * @package WBW\Library\Symfony\Tests\Provider\Quote
  */
 class YamlQuoteProviderTest extends AbstractTestCase {
 

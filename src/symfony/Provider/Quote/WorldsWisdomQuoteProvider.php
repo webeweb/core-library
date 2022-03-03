@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Assets\Quote;
+namespace WBW\Library\Symfony\Provider\Quote;
 
 /**
  * World's wisdom quote provider.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Assets\Quote
+ * @package WBW\Library\Symfony\Provider\Quote
  */
 class WorldsWisdomQuoteProvider extends YamlQuoteProvider {
 
