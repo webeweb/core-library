@@ -51,6 +51,56 @@ class ArrayRolesTraitTest extends AbstractTestCase {
     }
 
     /**
+     * Tests hasRoleContains()
+     *
+     * @return void
+     */
+    public function testHasRoleContains(): void {
+
+        $obj = new TestArrayRolesTrait();
+        $obj->addRole("ROLE_SUPER_ADMIN");
+
+        $this->assertTrue($obj->hasRoleContains("ROLE"));
+        $this->assertTrue($obj->hasRoleContains("role"));
+        $this->assertTrue($obj->hasRoleContains("SUPER"));
+        $this->assertTrue($obj->hasRoleContains("super"));
+        $this->assertTrue($obj->hasRoleContains("ADMIN"));
+        $this->assertTrue($obj->hasRoleContains("admin"));
+    }
+
+    /**
+     * Tests hasRoleEndsWith()
+     *
+     * @return void
+     */
+    public function testHasRoleEndsWith(): void {
+
+        $obj = new TestArrayRolesTrait();
+        $obj->addRole("ROLE_SUPER_ADMIN");
+
+        $this->assertTrue($obj->hasRoleEndsWith("ADMIN"));
+        $this->assertTrue($obj->hasRoleEndsWith("admin"));
+        $this->assertFalse($obj->hasRoleEndsWith("SUPER"));
+        $this->assertFalse($obj->hasRoleEndsWith("ROLE"));
+    }
+
+    /**
+     * Tests hasRoleStartsWith()
+     *
+     * @return void
+     */
+    public function testHasRoleStartsWith(): void {
+
+        $obj = new TestArrayRolesTrait();
+        $obj->addRole("ROLE_SUPER_ADMIN");
+
+        $this->assertTrue($obj->hasRoleStartsWith("ROLE"));
+        $this->assertTrue($obj->hasRoleStartsWith("role"));
+        $this->assertFalse($obj->hasRoleStartsWith("SUPER"));
+        $this->assertFalse($obj->hasRoleStartsWith("ADMIN"));
+    }
+
+    /**
      * Tests removeRole()
      *
      * @return void

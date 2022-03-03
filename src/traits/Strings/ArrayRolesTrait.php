@@ -51,13 +51,64 @@ trait ArrayRolesTrait {
     }
 
     /**
-     * Determines if this group has role.
+     * Determines if the roles contains a role.
      *
-     * @param string $role A role.
+     * @param string $role The role.
      * @return bool Returns true in case of success, false otherwise.
      */
     public function hasRole(string $role): bool {
         return in_array(strtoupper($role), $this->roles, true);
+    }
+
+    /**
+     * Determines if the roles contains a role starts with.
+     *
+     * @param string $role The role.
+     * @return bool Returns true in case of success, false otherwise.
+     */
+    public function hasRoleEndsWith(string $role): bool {
+        $pattern = "/" . strtoupper($role) . "$/";
+        return $this->hasRoleMatchesWith($pattern);
+    }
+
+    /**
+     * Determines if the roles contains a role containing.
+     *
+     * @param string $role The role.
+     * @return bool Returns true in case of success, false otherwise.
+     */
+    public function hasRoleContains(string $role): bool {
+        $pattern = "/" . strtoupper($role) . "/";
+        return $this->hasRoleMatchesWith($pattern);
+    }
+
+    /**
+     * Determines if the roles matches a pattern.
+     *
+     * @param string $pattern The pattern.
+     * @return bool Returns true in case of success, false otherwise.
+     */
+    protected function hasRoleMatchesWith(string $pattern): bool {
+
+        foreach ($this->roles as $current) {
+
+            if (1 === preg_match($pattern, $current)) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    /**
+     * Determines if the roles contains a role starts with.
+     *
+     * @param string $role The role.
+     * @return bool Returns true in case of success, false otherwise.
+     */
+    public function hasRoleStartsWith(string $role): bool {
+        $pattern = "/^" . strtoupper($role) . "/";
+        return $this->hasRoleMatchesWith($pattern);
     }
 
     /**
