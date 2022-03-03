@@ -9,12 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Manager\Assets;
+namespace WBW\Library\Symfony\Manager;
 
 use InvalidArgumentException;
 use WBW\Library\Symfony\Exception\AlreadyRegisteredProviderException;
-use WBW\Library\Symfony\Manager\AbstractManager;
-use WBW\Library\Symfony\Manager\ManagerInterface;
 use WBW\Library\Symfony\Provider\ProviderInterface;
 use WBW\Library\Symfony\Provider\QuoteProviderInterface;
 
@@ -22,7 +20,7 @@ use WBW\Library\Symfony\Provider\QuoteProviderInterface;
  * Quote manager.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Manager\Assets
+ * @package WBW\Library\Symfony\Manager
  */
 class QuoteManager extends AbstractManager {
 
@@ -31,7 +29,7 @@ class QuoteManager extends AbstractManager {
      *
      * @var string
      */
-    const SERVICE_NAME = "wbw.core.manager.assets.quote";
+    const SERVICE_NAME = "wbw.core.manager.quote";
 
     /**
      * {@inheritDoc}

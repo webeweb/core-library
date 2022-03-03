@@ -9,17 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Manager\Assets;
+namespace WBW\Library\Symfony\Tests\Manager;
 
-use WBW\Library\Symfony\Manager\Assets\QuoteManager;
+use WBW\Library\Symfony\Manager\QuoteManager;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
-use WBW\Library\Symfony\Tests\Fixtures\Manager\Assets\TestQuoteManagerTrait;
+use WBW\Library\Symfony\Tests\Fixtures\Manager\TestQuoteManagerTrait;
 
 /**
  * Quote manager trait test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Manager\Assets
+ * @package WBW\Library\Symfony\Tests\Manager
  */
 class QuoteManagerTraitTest extends AbstractTestCase {
 

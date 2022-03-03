@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Manager\Assets;
+namespace WBW\Library\Symfony\Manager;
 
 /**
  * Quote manager trait.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Manager\Assets
+ * @package WBW\Library\Symfony\Manager
  */
 trait QuoteManagerTrait {
 
