@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Assets\ProgressBar;
+namespace WBW\Library\Symfony\Model;
 
 /**
  * Progress bar interface.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Assets\ProgressBar
+ * @package WBW\Library\Symfony\Model
  */
 interface ProgressBarInterface {
 

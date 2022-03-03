@@ -9,15 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Fixtures\Assets\ProgressBar;
+namespace WBW\Library\Symfony\Tests\Fixtures\Model;
 
-use WBW\Library\Symfony\Assets\ProgressBar\ProgressBarTrait;
+use WBW\Library\Symfony\Model\ProgressBarTrait;
 
 /**
  * Test progress bar trait.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Fixtures\Assets\ProgressBar
+ * @package WBW\Library\Symfony\Tests\Fixtures\Model
  */
 class TestProgressBarTrait {
 

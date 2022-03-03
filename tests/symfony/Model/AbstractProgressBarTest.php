@@ -9,17 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Assets\ProgressBar;
+namespace WBW\Library\Symfony\Tests\Model;
 
-use WBW\Library\Symfony\Assets\ProgressBar\ProgressBarInterface;
+use WBW\Library\Symfony\Model\ProgressBarInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
-use WBW\Library\Symfony\Tests\Fixtures\Assets\ProgressBar\TestProgressBar;
+use WBW\Library\Symfony\Tests\Fixtures\Model\TestProgressBar;
 
 /**
  * Abstract progress bar test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Assets\ProgressBar
+ * @package WBW\Library\Symfony\Tests\Model
  */
 class AbstractProgressBarTest extends AbstractTestCase {
 
