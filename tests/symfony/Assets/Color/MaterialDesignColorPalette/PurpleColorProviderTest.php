@@ -15,7 +15,7 @@ use JsonSerializable;
 use WBW\Library\Symfony\Assets\Color\MaterialDesignColorPalette\PurpleColorProvider;
 use WBW\Library\Symfony\Assets\Color\MaterialDesignColorPaletteInterface;
 use WBW\Library\Symfony\Provider\Assets\Color\PurpleColorProviderInterface;
-use WBW\Library\Symfony\Provider\Assets\ColorProviderInterface;
+use WBW\Library\Symfony\Provider\ColorProviderInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 
 /**

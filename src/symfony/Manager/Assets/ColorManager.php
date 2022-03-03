@@ -16,7 +16,7 @@ use WBW\Library\Symfony\Assets\Color\ColorHelper;
 use WBW\Library\Symfony\Exception\AlreadyRegisteredProviderException;
 use WBW\Library\Symfony\Manager\AbstractManager;
 use WBW\Library\Symfony\Manager\ManagerInterface;
-use WBW\Library\Symfony\Provider\Assets\ColorProviderInterface;
+use WBW\Library\Symfony\Provider\ColorProviderInterface;
 use WBW\Library\Symfony\Provider\ProviderInterface;
 
 /**

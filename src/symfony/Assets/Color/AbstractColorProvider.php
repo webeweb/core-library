@@ -13,7 +13,7 @@ namespace WBW\Library\Symfony\Assets\Color;
 
 use JsonSerializable;
 use WBW\Library\Serializer\SerializerKeys;
-use WBW\Library\Symfony\Provider\Assets\ColorProviderInterface;
+use WBW\Library\Symfony\Provider\ColorProviderInterface;
 use WBW\Library\Traits\Strings\StringDomainTrait;
 
 /**

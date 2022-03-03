@@ -15,7 +15,7 @@ use JsonSerializable;
 use WBW\Library\Symfony\Assets\Color\MaterialDesignColorPalette\LimeColorProvider;
 use WBW\Library\Symfony\Assets\Color\MaterialDesignColorPaletteInterface;
 use WBW\Library\Symfony\Provider\Assets\Color\LimeColorProviderInterface;
-use WBW\Library\Symfony\Provider\Assets\ColorProviderInterface;
+use WBW\Library\Symfony\Provider\ColorProviderInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 
 /**

@@ -9,17 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Provider\Assets;
+namespace WBW\Library\Symfony\Tests\Provider;
 
-use WBW\Library\Symfony\Provider\Assets\ColorProviderInterface;
+use WBW\Library\Symfony\Provider\ColorProviderInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
-use WBW\Library\Symfony\Tests\Fixtures\Provider\Assets\TestColorProviderTrait;
+use WBW\Library\Symfony\Tests\Fixtures\Provider\TestColorProviderTrait;
 
 /**
  * Color provider trait test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Provider\Assets
+ * @package WBW\Library\Symfony\Tests\Provider
  */
 class ColorProviderTraitTest extends AbstractTestCase {
 

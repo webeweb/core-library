@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Symfony\Assets\Color;
 
-use WBW\Library\Symfony\Provider\Assets\ColorProviderInterface;
+use WBW\Library\Symfony\Provider\ColorProviderInterface;
 
 /**
  * Color helper.

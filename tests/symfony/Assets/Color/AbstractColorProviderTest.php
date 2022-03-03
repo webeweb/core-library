@@ -12,7 +12,7 @@
 namespace WBW\Library\Symfony\Tests\Assets\Color;
 
 use JsonSerializable;
-use WBW\Library\Symfony\Provider\Assets\ColorProviderInterface;
+use WBW\Library\Symfony\Provider\ColorProviderInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 use WBW\Library\Symfony\Tests\Fixtures\Assets\Color\TestColorProvider;
 

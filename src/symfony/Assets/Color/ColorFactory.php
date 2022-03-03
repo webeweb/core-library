@@ -32,7 +32,7 @@ use WBW\Library\Symfony\Assets\Color\MaterialDesignColorPalette\RedColorProvider
 use WBW\Library\Symfony\Assets\Color\MaterialDesignColorPalette\TealColorProvider;
 use WBW\Library\Symfony\Assets\Color\MaterialDesignColorPalette\WhiteColorProvider;
 use WBW\Library\Symfony\Assets\Color\MaterialDesignColorPalette\YellowColorProvider;
-use WBW\Library\Symfony\Provider\Assets\ColorProviderInterface;
+use WBW\Library\Symfony\Provider\ColorProviderInterface;
 
 /**
  * Color factory.

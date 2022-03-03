@@ -9,15 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Provider\Assets;
-
-use WBW\Library\Symfony\Provider\ProviderInterface;
+namespace WBW\Library\Symfony\Provider;
 
 /**
  * Color provider interface.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Provider\Assets
+ * @package WBW\Library\Symfony\Provider
  */
 interface ColorProviderInterface extends ProviderInterface {
 
@@ -26,7 +24,7 @@ interface ColorProviderInterface extends ProviderInterface {
      *
      * @var string
      */
-    const COLOR_PROVIDER_TAG_NAME = "wbw.core.provider.assets.color";
+    const COLOR_PROVIDER_TAG_NAME = "wbw.core.provider.color";
 
     /**
      * Get the colors.

@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Provider\Assets;
+namespace WBW\Library\Symfony\Tests\Provider;
 
-use WBW\Library\Symfony\Provider\Assets\ColorProviderInterface;
+use WBW\Library\Symfony\Provider\ColorProviderInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 
 /**
  * Color provider interface test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Provider\Assets
+ * @package WBW\Library\Symfony\Tests\Provider
  */
 class ColorProviderInterfaceTest extends AbstractTestCase {
 
@@ -29,6 +29,6 @@ class ColorProviderInterfaceTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $this->assertEquals("wbw.core.provider.assets.color", ColorProviderInterface::COLOR_PROVIDER_TAG_NAME);
+        $this->assertEquals("wbw.core.provider.color", ColorProviderInterface::COLOR_PROVIDER_TAG_NAME);
     }
 }

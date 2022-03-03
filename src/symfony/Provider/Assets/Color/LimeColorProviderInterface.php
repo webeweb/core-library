@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Symfony\Provider\Assets\Color;
 
-use WBW\Library\Symfony\Provider\Assets\ColorProviderInterface;
+use WBW\Library\Symfony\Provider\ColorProviderInterface;
 
 /**
  * Lime color provider interface.
