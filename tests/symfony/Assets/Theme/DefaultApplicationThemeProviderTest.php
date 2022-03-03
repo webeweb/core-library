@@ -13,7 +13,7 @@ namespace WBW\Library\Symfony\Tests\Assets\Theme;
 
 use DateTime;
 use WBW\Library\Symfony\Assets\Theme\DefaultApplicationThemeProvider;
-use WBW\Library\Symfony\Provider\Assets\Theme\ApplicationThemeProviderInterface;
+use WBW\Library\Symfony\Provider\Theme\ApplicationThemeProviderInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 
 /**

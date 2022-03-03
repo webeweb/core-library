@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Symfony\Assets\Theme;
 
-use WBW\Library\Symfony\Provider\Assets\Theme\BreadcrumbsThemeProviderInterface;
+use WBW\Library\Symfony\Provider\Theme\BreadcrumbsThemeProviderInterface;
 
 /**
  * Default breadcrumbs theme provider.

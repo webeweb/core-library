@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Symfony\Assets\Theme;
 
-use WBW\Library\Symfony\Provider\Assets\Theme\ApplicationThemeProviderInterface;
+use WBW\Library\Symfony\Provider\Theme\ApplicationThemeProviderInterface;
 
 /**
  * Default application theme provider.

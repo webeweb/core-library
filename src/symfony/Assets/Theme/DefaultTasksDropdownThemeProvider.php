@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Symfony\Assets\Theme;
 
-use WBW\Library\Symfony\Provider\Assets\Theme\TasksDropdownThemeProviderInterface;
+use WBW\Library\Symfony\Provider\Theme\TasksDropdownThemeProviderInterface;
 
 /**
  * Default tasks dropdown theme provider.

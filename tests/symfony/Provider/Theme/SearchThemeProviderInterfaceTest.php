@@ -9,19 +9,18 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Assets\Theme;
+namespace WBW\Library\Symfony\Tests\Provider\Theme;
 
-use WBW\Library\Symfony\Assets\Theme\DefaultSearchThemeProvider;
 use WBW\Library\Symfony\Provider\Theme\SearchThemeProviderInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 
 /**
- * Default search theme provider test.
+ * Search theme provider interface test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Assets\Theme
+ * @package WBW\Library\Symfony\Tests\Provider\Theme
  */
-class DefaultSearchThemeProviderTest extends AbstractTestCase {
+class SearchThemeProviderInterfaceTest extends AbstractTestCase {
 
     /**
      * Tests __construct()
@@ -30,8 +29,6 @@ class DefaultSearchThemeProviderTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $obj = new DefaultSearchThemeProvider();
-
-        $this->assertInstanceOf(SearchThemeProviderInterface::class, $obj);
+        $this->assertEquals("wbw.core.provider.theme.search", SearchThemeProviderInterface::SERVICE_NAME);
     }
 }

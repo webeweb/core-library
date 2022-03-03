@@ -9,19 +9,18 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Assets\Theme;
+namespace WBW\Library\Symfony\Tests\Provider\Theme;
 
-use WBW\Library\Symfony\Assets\Theme\DefaultFooterThemeProvider;
 use WBW\Library\Symfony\Provider\Theme\FooterThemeProviderInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 
 /**
- * Default footer theme provider test.
+ * Footer theme provider interface test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Assets\Theme
+ * @package WBW\Library\Symfony\Tests\Provider\Theme
  */
-class DefaultFooterThemeProviderTest extends AbstractTestCase {
+class FooterThemeProviderInterfaceTest extends AbstractTestCase {
 
     /**
      * Tests __construct()
@@ -30,8 +29,6 @@ class DefaultFooterThemeProviderTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $obj = new DefaultFooterThemeProvider();
-
-        $this->assertInstanceOf(FooterThemeProviderInterface::class, $obj);
+        $this->assertEquals("wbw.core.provider.theme.footer", FooterThemeProviderInterface::SERVICE_NAME);
     }
 }

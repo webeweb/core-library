@@ -13,7 +13,7 @@ namespace WBW\Library\Symfony\Tests\Assets\Theme;
 
 use WBW\Library\Symfony\Assets\Theme\DefaultNavigationThemeProvider;
 use WBW\Library\Symfony\Model\Navigation\NavigationTree;
-use WBW\Library\Symfony\Provider\Assets\Theme\NavigationThemeProviderInterface;
+use WBW\Library\Symfony\Provider\Theme\NavigationThemeProviderInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 
 /**

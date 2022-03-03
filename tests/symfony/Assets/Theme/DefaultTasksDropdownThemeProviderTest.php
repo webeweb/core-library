@@ -12,7 +12,7 @@
 namespace WBW\Library\Symfony\Tests\Assets\Theme;
 
 use WBW\Library\Symfony\Assets\Theme\DefaultTasksDropdownThemeProvider;
-use WBW\Library\Symfony\Provider\Assets\Theme\TasksDropdownThemeProviderInterface;
+use WBW\Library\Symfony\Provider\Theme\TasksDropdownThemeProviderInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 
 /**

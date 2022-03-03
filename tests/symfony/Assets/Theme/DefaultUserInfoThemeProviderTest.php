@@ -12,7 +12,7 @@
 namespace WBW\Library\Symfony\Tests\Assets\Theme;
 
 use WBW\Library\Symfony\Assets\Theme\DefaultUserInfoThemeProvider;
-use WBW\Library\Symfony\Provider\Assets\Theme\UserInfoThemeProviderInterface;
+use WBW\Library\Symfony\Provider\Theme\UserInfoThemeProviderInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 
 /**

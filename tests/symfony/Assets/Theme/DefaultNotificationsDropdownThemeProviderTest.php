@@ -12,7 +12,7 @@
 namespace WBW\Library\Symfony\Tests\Assets\Theme;
 
 use WBW\Library\Symfony\Assets\Theme\DefaultNotificationsDropdownThemeProvider;
-use WBW\Library\Symfony\Provider\Assets\Theme\NotificationsDropdownThemeProviderInterface;
+use WBW\Library\Symfony\Provider\Theme\NotificationsDropdownThemeProviderInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 
 /**

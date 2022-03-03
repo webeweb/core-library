@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Symfony\Assets\Theme;
 
-use WBW\Library\Symfony\Provider\Assets\Theme\UserInfoThemeProviderInterface;
+use WBW\Library\Symfony\Provider\Theme\UserInfoThemeProviderInterface;
 
 /**
  * Default user info theme provider.

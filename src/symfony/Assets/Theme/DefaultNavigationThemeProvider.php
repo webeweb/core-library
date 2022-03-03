@@ -12,7 +12,7 @@
 namespace WBW\Library\Symfony\Assets\Theme;
 
 use WBW\Library\Symfony\Model\Navigation\NavigationTree;
-use WBW\Library\Symfony\Provider\Assets\Theme\NavigationThemeProviderInterface;
+use WBW\Library\Symfony\Provider\Theme\NavigationThemeProviderInterface;
 
 /**
  * Default navigation theme provider.

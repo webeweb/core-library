@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Symfony\Assets\Theme;
 
-use WBW\Library\Symfony\Provider\Assets\Theme\HookDropdownThemeProviderInterface;
+use WBW\Library\Symfony\Provider\Theme\HookDropdownThemeProviderInterface;
 
 /**
  * Default hook dropdown theme provider.

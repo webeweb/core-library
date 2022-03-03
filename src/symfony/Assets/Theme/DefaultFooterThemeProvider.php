@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Symfony\Assets\Theme;
 
-use WBW\Library\Symfony\Provider\Assets\Theme\FooterThemeProviderInterface;
+use WBW\Library\Symfony\Provider\Theme\FooterThemeProviderInterface;
 
 /**
  * Default footer theme provider.

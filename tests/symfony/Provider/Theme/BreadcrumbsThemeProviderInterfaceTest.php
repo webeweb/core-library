@@ -9,19 +9,18 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Assets\Theme;
+namespace WBW\Library\Symfony\Tests\Provider\Theme;
 
-use WBW\Library\Symfony\Assets\Theme\DefaultBreadcrumbsThemeProvider;
 use WBW\Library\Symfony\Provider\Theme\BreadcrumbsThemeProviderInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 
 /**
- * Default breadcrumbs theme provider test.
+ * Breadcrumbs theme provider interface test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Assets\Theme
+ * @package WBW\Library\Symfony\Tests\Provider\Theme
  */
-class DefaultBreadcrumbsThemeProviderTest extends AbstractTestCase {
+class BreadcrumbsThemeProviderInterfaceTest extends AbstractTestCase {
 
     /**
      * Tests __construct()
@@ -30,8 +29,6 @@ class DefaultBreadcrumbsThemeProviderTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $obj = new DefaultBreadcrumbsThemeProvider();
-
-        $this->assertInstanceOf(BreadcrumbsThemeProviderInterface::class, $obj);
+        $this->assertEquals("wbw.core.provider.theme.breadcrumbs", BreadcrumbsThemeProviderInterface::SERVICE_NAME);
     }
 }

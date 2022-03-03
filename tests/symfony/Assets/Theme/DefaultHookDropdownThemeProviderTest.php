@@ -12,7 +12,7 @@
 namespace WBW\Library\Symfony\Tests\Assets\Theme;
 
 use WBW\Library\Symfony\Assets\Theme\DefaultHookDropdownThemeProvider;
-use WBW\Library\Symfony\Provider\Assets\Theme\HookDropdownThemeProviderInterface;
+use WBW\Library\Symfony\Provider\Theme\HookDropdownThemeProviderInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 
 /**

@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Symfony\Assets\Theme;
 
-use WBW\Library\Symfony\Provider\Assets\Theme\SearchThemeProviderInterface;
+use WBW\Library\Symfony\Provider\Theme\SearchThemeProviderInterface;
 
 /**
  * Default search theme provider.

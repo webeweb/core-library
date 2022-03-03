@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Symfony\Assets\Theme;
 
-use WBW\Library\Symfony\Provider\Assets\Theme\NotificationsDropdownThemeProviderInterface;
+use WBW\Library\Symfony\Provider\Theme\NotificationsDropdownThemeProviderInterface;
 
 /**
  * Default notifications dropdown theme provider.
