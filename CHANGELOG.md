@@ -29,6 +29,7 @@ CHANGELOG
 - Add string redirect URL trait
 - Add Operating System helper
 - Add Uploaded file service
+- Update Serializer keys
 
 ### [8.31.0](https://github.com/webeweb/core-library/tree/v8.31.0) (2022-02-28)
 
