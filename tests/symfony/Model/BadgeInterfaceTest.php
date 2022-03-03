@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Assets\Badge;
+namespace WBW\Library\Symfony\Tests\Model;
 
-use WBW\Library\Symfony\Assets\Badge\BadgeInterface;
+use WBW\Library\Symfony\Model\BadgeInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 
 /**
  * Badge interface test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Assets\Badge
+ * @package WBW\Library\Symfony\Tests\Model
  */
 class BadgeInterfaceTest extends AbstractTestCase {
 

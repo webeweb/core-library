@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Assets\Badge;
+namespace WBW\Library\Symfony\Model;
 
 /**
  * Badge trait.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Assets\Badge
+ * @package WBW\Library\Symfony\Model
  */
 trait BadgeTrait {
 

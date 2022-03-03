@@ -9,15 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Fixtures\Assets\Badge;
+namespace WBW\Library\Symfony\Tests\Fixtures\Model;
 
-use WBW\Library\Symfony\Assets\Badge\AbstractBadge;
+use WBW\Library\Symfony\Model\AbstractBadge;
 
 /**
  * Test badge.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Fixtures\Assets\Badge
+ * @package WBW\Library\Symfony\Tests\Fixtures\Model
  */
 class TestBadge extends AbstractBadge {
 

@@ -9,17 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Assets\Badge;
+namespace WBW\Library\Symfony\Tests\Model;
 
-use WBW\Library\Symfony\Assets\Badge\BadgeInterface;
+use WBW\Library\Symfony\Model\BadgeInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
-use WBW\Library\Symfony\Tests\Fixtures\Assets\Badge\TestBadgeTrait;
+use WBW\Library\Symfony\Tests\Fixtures\Model\TestBadgeTrait;
 
 /**
  * Badge trait test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Assets\Badge
+ * @package WBW\Library\Symfony\Tests\Model
  */
 class BadgeTraitTest extends AbstractTestCase {
 
