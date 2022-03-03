@@ -9,13 +9,20 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Assets\Toast;
+namespace WBW\Library\Symfony\Factory;
+
+use WBW\Library\Symfony\Model\Toast\DangerToast;
+use WBW\Library\Symfony\Model\Toast\DefaultToast;
+use WBW\Library\Symfony\Model\Toast\InfoToast;
+use WBW\Library\Symfony\Model\Toast\SuccessToast;
+use WBW\Library\Symfony\Model\Toast\WarningToast;
+use WBW\Library\Symfony\Model\ToastInterface;
 
 /**
  * Toast factory.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Assets\Toast
+ * @package WBW\Library\Symfony\Factory
  */
 class ToastFactory {
 

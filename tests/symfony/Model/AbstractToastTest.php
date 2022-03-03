@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Assets\Toast;
+namespace WBW\Library\Symfony\Tests\Model;
 
 use WBW\Library\Symfony\Tests\AbstractTestCase;
-use WBW\Library\Symfony\Tests\Fixtures\Assets\Toast\TestToast;
+use WBW\Library\Symfony\Tests\Fixtures\Model\TestToast;
 
 /**
  * Abstract toast test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Assets\Toast
+ * @package WBW\Library\Symfony\Tests\Model
  */
 class AbstractToastTest extends AbstractTestCase {
 

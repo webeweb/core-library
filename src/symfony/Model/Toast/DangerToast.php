@@ -9,15 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Assets\Toast;
+namespace WBW\Library\Symfony\Model\Toast;
+
+use WBW\Library\Symfony\Model\AbstractToast;
 
 /**
- * Success toast.
+ * Danger toast.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Assets\Toast
+ * @package WBW\Library\Symfony\Model\Toast
  */
-class SuccessToast extends AbstractToast {
+class DangerToast extends AbstractToast {
 
     /**
      * Constructor.
@@ -25,6 +27,6 @@ class SuccessToast extends AbstractToast {
      * @param string $content The content.
      */
     public function __construct(string $content) {
-        parent::__construct(self::TOAST_SUCCESS, $content);
+        parent::__construct(self::TOAST_DANGER, $content);
     }
 }

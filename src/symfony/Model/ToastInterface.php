@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Assets\Toast;
+namespace WBW\Library\Symfony\Model;
 
 /**
  * Toast interface.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Assets\Toast
+ * @package WBW\Library\Symfony\Model
  */
 interface ToastInterface {
 

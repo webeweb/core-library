@@ -9,17 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Assets\Toast;
+namespace WBW\Library\Symfony\Tests\Factory;
 
-use WBW\Library\Symfony\Assets\Toast\ToastFactory;
-use WBW\Library\Symfony\Assets\Toast\ToastInterface;
+use WBW\Library\Symfony\Factory\ToastFactory;
+use WBW\Library\Symfony\Model\ToastInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 
 /**
  * Toast factory test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Assets\Toast
+ * @package WBW\Library\Symfony\Tests\Factory
  */
 class ToastFactoryTest extends AbstractTestCase {
 

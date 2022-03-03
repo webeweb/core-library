@@ -9,13 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Assets\Toast;
+namespace WBW\Library\Symfony\Model\Toast;
+
+use WBW\Library\Symfony\Model\AbstractToast;
 
 /**
  * Info toast.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Assets\Toast
+ * @package WBW\Library\Symfony\Model\Toast
  */
 class InfoToast extends AbstractToast {
 

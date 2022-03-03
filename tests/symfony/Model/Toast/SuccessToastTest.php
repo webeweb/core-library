@@ -9,17 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Assets\Toast;
+namespace WBW\Library\Symfony\Tests\Model\Toast;
 
-use WBW\Library\Symfony\Assets\Toast\SuccessToast;
-use WBW\Library\Symfony\Assets\Toast\ToastInterface;
+use WBW\Library\Symfony\Model\Toast\SuccessToast;
+use WBW\Library\Symfony\Model\ToastInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 
 /**
  * Success toast test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Assets\Toast
+ * @package WBW\Library\Symfony\Tests\Model\Toast
  */
 class SuccessToastTest extends AbstractTestCase {
 

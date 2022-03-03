@@ -9,19 +9,19 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Assets\Toast;
+namespace WBW\Library\Symfony\Tests\Model\Toast;
 
-use WBW\Library\Symfony\Assets\Toast\DangerToast;
-use WBW\Library\Symfony\Assets\Toast\ToastInterface;
+use WBW\Library\Symfony\Model\Toast\InfoToast;
+use WBW\Library\Symfony\Model\ToastInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 
 /**
- * Danger toast test.
+ * Info toast test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Assets\Toast
+ * @package WBW\Library\Symfony\Tests\Model\Toast
  */
-class DangerToastTest extends AbstractTestCase {
+class InfoToastTest extends AbstractTestCase {
 
     /**
      * Tests __construct()
@@ -30,9 +30,9 @@ class DangerToastTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $obj = new DangerToast("danger");
+        $obj = new InfoToast("info");
 
-        $this->assertEquals(ToastInterface::TOAST_DANGER, $obj->getType());
-        $this->assertEquals("danger", $obj->getContent());
+        $this->assertEquals(ToastInterface::TOAST_INFO, $obj->getType());
+        $this->assertEquals("info", $obj->getContent());
     }
 }
