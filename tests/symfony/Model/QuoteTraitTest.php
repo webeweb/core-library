@@ -9,17 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Assets\Quote;
+namespace WBW\Library\Symfony\Tests\Model;
 
-use WBW\Library\Symfony\Assets\Quote\QuoteInterface;
+use WBW\Library\Symfony\Model\QuoteInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
-use WBW\Library\Symfony\Tests\Fixtures\Assets\Quote\TestQuoteTrait;
+use WBW\Library\Symfony\Tests\Fixtures\Model\TestQuoteTrait;
 
 /**
  * Quote trait test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Assets\Quote
+ * @package WBW\Library\Symfony\Tests\Model
  */
 class QuoteTraitTest extends AbstractTestCase {
 

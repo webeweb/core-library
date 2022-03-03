@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Assets\Quote;
+namespace WBW\Library\Symfony\Model;
 
 use WBW\Library\Traits\DateTimes\DateTimeDateTrait;
 use WBW\Library\Traits\Strings\StringContentTrait;
@@ -18,7 +18,7 @@ use WBW\Library\Traits\Strings\StringContentTrait;
  * Quote.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Assets\Quote
+ * @package WBW\Library\Symfony\Model
  */
 class Quote implements QuoteInterface {
 

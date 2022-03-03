@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Assets\Quote;
+namespace WBW\Library\Symfony\Model;
 
 /**
  * Quote trait.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Assets\Quote
+ * @package WBW\Library\Symfony\Model
  */
 trait QuoteTrait {
 

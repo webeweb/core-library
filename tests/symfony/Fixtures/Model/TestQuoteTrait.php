@@ -9,15 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Fixtures\Assets\Quote;
+namespace WBW\Library\Symfony\Tests\Fixtures\Model;
 
-use WBW\Library\Symfony\Assets\Quote\QuoteTrait;
+use WBW\Library\Symfony\Model\QuoteTrait;
 
 /**
  * Test quote trait.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Fixtures\Assets\Quote
+ * @package WBW\Library\Symfony\Tests\Fixtures\Model
  */
 class TestQuoteTrait {
 

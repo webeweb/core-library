@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Symfony\Provider\Assets;
 
-use WBW\Library\Symfony\Assets\Quote\QuoteInterface;
+use WBW\Library\Symfony\Model\QuoteInterface;
 use WBW\Library\Symfony\Provider\ProviderInterface;
 
 /**

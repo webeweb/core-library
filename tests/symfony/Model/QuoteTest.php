@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Assets\Quote;
+namespace WBW\Library\Symfony\Tests\Model;
 
-use WBW\Library\Symfony\Assets\Quote\Quote;
+use WBW\Library\Symfony\Model\Quote;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 
 /**
  * Quote test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Assets\Quote
+ * @package WBW\Library\Symfony\Tests\Model
  */
 class QuoteTest extends AbstractTestCase {
 
