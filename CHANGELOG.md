@@ -23,6 +23,7 @@ CHANGELOG
 
 - Add Logger trait
 - Add string environment trait
+- Add string identifier trait
 - Add string origin URL trait
 - Add string redirect URL trait
 - Add Operating System helper
