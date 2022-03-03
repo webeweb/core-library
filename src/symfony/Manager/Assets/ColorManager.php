@@ -12,8 +12,8 @@
 namespace WBW\Library\Symfony\Manager\Assets;
 
 use InvalidArgumentException;
-use WBW\Library\Symfony\Assets\Color\ColorHelper;
 use WBW\Library\Symfony\Exception\AlreadyRegisteredProviderException;
+use WBW\Library\Symfony\Helper\ColorHelper;
 use WBW\Library\Symfony\Manager\AbstractManager;
 use WBW\Library\Symfony\Manager\ManagerInterface;
 use WBW\Library\Symfony\Provider\ColorProviderInterface;
