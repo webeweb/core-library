@@ -9,17 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Assets\Icon;
+namespace WBW\Library\Symfony\Tests\Renderer\Assets;
 
-use WBW\Library\Symfony\Assets\Icon\IconRenderer;
 use WBW\Library\Symfony\Component\IconInterface;
+use WBW\Library\Symfony\Renderer\Assets\IconRenderer;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 
 /**
  * Icon renderer test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Assets\Icon
+ * @package WBW\Library\Symfony\Tests\Renderer\Assets
  */
 class IconRendererTest extends AbstractTestCase {
 

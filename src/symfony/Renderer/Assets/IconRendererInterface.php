@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Assets\Icon;
+namespace WBW\Library\Symfony\Renderer\Assets;
 
 /**
  * Icon renderer interface.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Assets\Icon
+ * @package WBW\Library\Symfony\Renderer\Assets
  */
 interface IconRendererInterface {
 
