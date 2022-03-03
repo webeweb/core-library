@@ -41,6 +41,13 @@ interface SerializerKeys {
     const ACCOUNTING_CODE = "accountingCode";
 
     /**
+     * Serializer key "active".
+     *
+     * @var string
+     */
+    const ACTIVE = "active";
+
+    /**
      * Serializer key "addressee".
      *
      * @var string
@@ -265,6 +272,13 @@ interface SerializerKeys {
     const EMAIL = "email";
 
     /**
+     * Serializer key "enable".
+     *
+     * @var string
+     */
+    const ENABLE = "enable";
+
+    /**
      * Serializer key "enabled".
      *
      * @var string
@@ -284,6 +298,13 @@ interface SerializerKeys {
      * @var string
      */
     const ENDED_ON = "endedOn";
+
+    /**
+     * Serializer key "environment".
+     *
+     * @var string
+     */
+    const ENVIRONMENT = "environment";
 
     /**
      * Serializer key "error".
@@ -424,6 +445,13 @@ interface SerializerKeys {
      * @var string
      */
     const ID = "id";
+
+    /**
+     * Serializer key "enable".
+     *
+     * @var string
+     */
+    const IDENTIFIER = "identifier";
 
     /**
      * Serializer key "including VAT price".
@@ -699,6 +727,13 @@ interface SerializerKeys {
     const ORIENTATION = "orientation";
 
     /**
+     * Serializer key "origin URL".
+     *
+     * @var string
+     */
+    const ORIGIN_URL = "originUrl";
+
+    /**
      * Serializer key "page".
      *
      * @var string
@@ -804,6 +839,20 @@ interface SerializerKeys {
     const RAW_RESPONSE = "rawResponse";
 
     /**
+     * Serializer key "ready".
+     *
+     * @var string
+     */
+    const READY = "ready";
+
+    /**
+     * Serializer key "redirect URL".
+     *
+     * @var string
+     */
+    const REDIRECT_URL = "redirectUrl";
+
+    /**
      * Serializer key "reference".
      *
      * @var string
@@ -823,6 +872,27 @@ interface SerializerKeys {
      * @var string
      */
     const RESET = "reset";
+
+    /**
+     * Serializer key "role".
+     *
+     * @var string
+     */
+    const ROLE = "role";
+
+    /**
+     * Serializer key "roles".
+     *
+     * @var string
+     */
+    const ROLES = "roles";
+
+    /**
+     * Serializer key "salt".
+     *
+     * @var string
+     */
+    const SALT = "salt";
 
     /**
      * Serializer key "schema".
@@ -1040,6 +1110,13 @@ interface SerializerKeys {
      * @var string
      */
     const VERBOSE = "verbose";
+
+    /**
+     * Serializer key "visible".
+     *
+     * @var string
+     */
+    const VISIBLE = "visible";
 
     /**
      * Serializer key "width".
