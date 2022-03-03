@@ -9,17 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Manager\Assets;
+namespace WBW\Library\Symfony\Tests\Manager;
 
-use WBW\Library\Symfony\Manager\Assets\ColorManager;
+use WBW\Library\Symfony\Manager\ColorManager;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
-use WBW\Library\Symfony\Tests\Fixtures\Manager\Assets\TestColorManagerTrait;
+use WBW\Library\Symfony\Tests\Fixtures\Manager\TestColorManagerTrait;
 
 /**
  * Color manager trait test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Manager\Assets
+ * @package WBW\Library\Symfony\Tests\Manager
  */
 class ColorManagerTraitTest extends AbstractTestCase {
 

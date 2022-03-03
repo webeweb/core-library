@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Manager\Assets;
+namespace WBW\Library\Symfony\Tests\Manager;
 
 use Exception;
 use InvalidArgumentException;
 use WBW\Library\Symfony\Exception\AlreadyRegisteredProviderException;
-use WBW\Library\Symfony\Manager\Assets\ColorManager;
+use WBW\Library\Symfony\Manager\ColorManager;
 use WBW\Library\Symfony\Provider\ColorProviderInterface;
 use WBW\Library\Symfony\Provider\QuoteProviderInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
@@ -23,7 +23,7 @@ use WBW\Library\Symfony\Tests\AbstractTestCase;
  * Color manager test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Manager\Assets
+ * @package WBW\Library\Symfony\Tests\Manager
  */
 class ColorManagerTest extends AbstractTestCase {
 
@@ -125,7 +125,7 @@ class ColorManagerTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $this->assertEquals("wbw.core.manager.assets.color", ColorManager::SERVICE_NAME);
+        $this->assertEquals("wbw.core.manager.color", ColorManager::SERVICE_NAME);
 
         $obj = new ColorManager($this->logger);
 
