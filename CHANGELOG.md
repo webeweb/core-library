@@ -9,15 +9,24 @@ CHANGELOG
 > IMPORTANT NOTICE: The following classes has been moved
 > - WBW\Library\Core\Helper\LuhnAlgorithm
 
-> IMPORTANT NOTICE: The following packages has been copied from [core-bundle](https://github.com/webeweb/core-library)
-> - WBW\Library\Symfony\Assets\Color
-> - WBW\Library\Symfony\Assets\Icon
-> - WBW\Library\Symfony\Assets\Navigation
-> - WBW\Library\Symfony\Assets\Notification
-> - WBW\Library\Symfony\Assets\Quote
-> - WBW\Library\Symfony\Assets\Toasts
+> IMPORTANT NOTICE: The following packages come from [core-bundle](https://github.com/webeweb/core-library)
+> - WBW\Library\Symfony\Color
+> - WBW\Library\Symfony\Component
+> - WBW\Library\Symfony\Exception
+> - WBW\Library\Symfony\Factory
+> - WBW\Library\Symfony\Helper
 > - WBW\Library\Symfony\Manager
+> - WBW\Library\Symfony\Model
 > - WBW\Library\Symfony\Provider
+> - WBW\Library\Symfony\Resources
+> - WBW\Library\Symfony\Theme
+
+- Add Logger trait
+- Add string environment trait
+- Add string origin URL trait
+- Add string redirect URL trait
+- Add Operating System helper
+- Add Uploaded file service
 
 ### [8.31.0](https://github.com/webeweb/core-library/tree/v8.31.0) (2022-02-28)
 
