@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Assets\Notification;
+namespace WBW\Library\Symfony\Model;
 
 /**
  * Notification trait.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Assets\Notification
+ * @package WBW\Library\Symfony\Model
  */
 trait NotificationTrait {
 

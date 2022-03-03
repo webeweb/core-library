@@ -9,17 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Assets\Notification;
+namespace WBW\Library\Symfony\Tests\Model;
 
-use WBW\Library\Symfony\Assets\Notification\NotificationInterface;
+use WBW\Library\Symfony\Model\NotificationInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
-use WBW\Library\Symfony\Tests\Fixtures\Assets\Notification\TestNotificationTrait;
+use WBW\Library\Symfony\Tests\Fixtures\Model\TestNotificationTrait;
 
 /**
  * Notification trait test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Assets\Notification
+ * @package WBW\Library\Symfony\Tests\Model
  */
 class NotificationTraitTest extends AbstractTestCase {
 

@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Assets\Notification;
+namespace WBW\Library\Symfony\Tests\Model\Notification;
 
-use WBW\Library\Symfony\Assets\Notification\DefaultNotification;
+use WBW\Library\Symfony\Model\Notification\DefaultNotification;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 
 /**
  * Default notification test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Assets\Notification
+ * @package WBW\Library\Symfony\Tests\Model\Notification
  */
 class DefaultNotificationTest extends AbstractTestCase {
 

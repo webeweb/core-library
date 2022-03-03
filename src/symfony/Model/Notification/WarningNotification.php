@@ -9,15 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Assets\Notification;
+namespace WBW\Library\Symfony\Model\Notification;
+
+use WBW\Library\Symfony\Model\AbstractNotification;
 
 /**
- * Info notification.
+ * Warning notification.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Assets\Notification
+ * @package WBW\Library\Symfony\Model\Notification
  */
-class InfoNotification extends AbstractNotification {
+class WarningNotification extends AbstractNotification {
 
     /**
      * Constructor.
@@ -25,6 +27,6 @@ class InfoNotification extends AbstractNotification {
      * @param string $content The content.
      */
     public function __construct(string $content) {
-        parent::__construct(self::NOTIFICATION_INFO, $content);
+        parent::__construct(self::NOTIFICATION_WARNING, $content);
     }
 }

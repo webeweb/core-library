@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Assets\Notification;
+namespace WBW\Library\Symfony\Tests\Model;
 
-use WBW\Library\Symfony\Assets\Notification\NotificationInterface;
+use WBW\Library\Symfony\Model\NotificationInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 
 /**
  * Notification interface test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Assets\Notification
+ * @package WBW\Library\Symfony\Tests\Model
  */
 class NotificationInterfaceTest extends AbstractTestCase {
 

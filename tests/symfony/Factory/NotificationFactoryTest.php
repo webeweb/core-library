@@ -9,17 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Assets\Notification;
+namespace WBW\Library\Symfony\Tests\Factory;
 
-use WBW\Library\Symfony\Assets\Notification\NotificationFactory;
-use WBW\Library\Symfony\Assets\Notification\NotificationInterface;
+use WBW\Library\Symfony\Factory\NotificationFactory;
+use WBW\Library\Symfony\Model\NotificationInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 
 /**
  * Notification factory test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Assets\Notification
+ * @package WBW\Library\Symfony\Tests\Factory
  */
 class NotificationFactoryTest extends AbstractTestCase {
 

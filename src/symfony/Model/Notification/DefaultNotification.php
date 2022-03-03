@@ -9,13 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Assets\Notification;
+namespace WBW\Library\Symfony\Model\Notification;
+
+use WBW\Library\Symfony\Model\AbstractNotification;
 
 /**
  * Default notification.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Assets\Notification
+ * @package WBW\Library\Symfony\Model\Notification
  */
 class DefaultNotification extends AbstractNotification {
 

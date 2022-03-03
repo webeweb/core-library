@@ -9,13 +9,20 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Assets\Notification;
+namespace WBW\Library\Symfony\Factory;
+
+use WBW\Library\Symfony\Model\Notification\DangerNotification;
+use WBW\Library\Symfony\Model\Notification\DefaultNotification;
+use WBW\Library\Symfony\Model\Notification\InfoNotification;
+use WBW\Library\Symfony\Model\Notification\SuccessNotification;
+use WBW\Library\Symfony\Model\Notification\WarningNotification;
+use WBW\Library\Symfony\Model\NotificationInterface;
 
 /**
  * Notification factory.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Assets\Notification
+ * @package WBW\Library\Symfony\Factory
  */
 class NotificationFactory {
 

@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Fixtures\Assets\Notification;
+namespace WBW\Library\Symfony\Tests\Fixtures\Model;
 
-use WBW\Library\Symfony\Assets\Notification\AbstractNotification;
-use WBW\Library\Symfony\Assets\Notification\NotificationInterface;
+use WBW\Library\Symfony\Model\AbstractNotification;
+use WBW\Library\Symfony\Model\NotificationInterface;
 
 /**
  * Test notification.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Fixtures\Assets\Notification
+ * @package WBW\Library\Symfony\Tests\Fixtures\Model
  */
 class TestNotification extends AbstractNotification {
 
