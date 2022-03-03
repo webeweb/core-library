@@ -20,25 +20,18 @@ namespace WBW\Library\Symfony\Model;
 interface RepositoryReportInterface {
 
     /**
-     * Get the average.
-     *
-     * @return float|null Returns the average.
-     */
-    public function getAverage(): ?float;
-
-    /**
-     * Get the minimum.
-     *
-     * @return int|null Returns the minimum.
-     */
-    public function getMinimum(): ?int;
-
-    /**
      * Get the available.
      *
      * @return int|null Returns the available.
      */
     public function getAvailable(): ?int;
+
+    /**
+     * Get the average.
+     *
+     * @return float|null Returns the average.
+     */
+    public function getAverage(): ?float;
 
     /**
      * Get the column.
@@ -60,6 +53,13 @@ interface RepositoryReportInterface {
      * @return string|null Returns the field.
      */
     public function getField(): ?string;
+
+    /**
+     * Get the minimum.
+     *
+     * @return int|null Returns the minimum.
+     */
+    public function getMinimum(): ?int;
 
     /**
      * Get the table.
