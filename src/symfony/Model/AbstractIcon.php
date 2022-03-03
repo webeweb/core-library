@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Assets\Icon;
+namespace WBW\Library\Symfony\Model;
 
 use WBW\Library\Traits\Strings\StringNameTrait;
 
@@ -17,7 +17,7 @@ use WBW\Library\Traits\Strings\StringNameTrait;
  * Abstract icon.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Assets\Icon
+ * @package WBW\Library\Symfony\Model
  * @abstract
  */
 abstract class AbstractIcon implements IconInterface {

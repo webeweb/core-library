@@ -9,15 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Fixtures\Assets\Icon;
+namespace WBW\Library\Symfony\Tests\Fixtures\Model;
 
-use WBW\Library\Symfony\Assets\Icon\IconTrait;
+use WBW\Library\Symfony\Model\IconTrait;
 
 /**
  * Test icon trait.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Fixtures\Assets\Icon
+ * @package WBW\Library\Symfony\Tests\Fixtures\Model
  */
 class TestIconTrait {
 

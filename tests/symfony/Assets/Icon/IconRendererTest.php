@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Symfony\Tests\Assets\Icon;
 
-use WBW\Library\Symfony\Assets\Icon\IconInterface;
 use WBW\Library\Symfony\Assets\Icon\IconRenderer;
+use WBW\Library\Symfony\Model\IconInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 
 /**
