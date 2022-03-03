@@ -9,15 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Fixtures\Assets\Alert;
+namespace WBW\Library\Symfony\Tests\Fixtures\Model;
 
-use WBW\Library\Symfony\Assets\Alert\AbstractAlert;
+use WBW\Library\Symfony\Model\AbstractAlert;
 
 /**
  * Test alert.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Fixtures\Assets\Alert
+ * @package WBW\Library\Symfony\Tests\Fixtures\Model
  */
 class TestAlert extends AbstractAlert {
 

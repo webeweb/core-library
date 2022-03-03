@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Assets\Alert;
+namespace WBW\Library\Symfony\Tests\Model;
 
-use WBW\Library\Symfony\Assets\Alert\AlertInterface;
+use WBW\Library\Symfony\Model\AlertInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 
 /**
  * Alert interface test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Assets\Alert
+ * @package WBW\Library\Symfony\Tests\Model
  */
 class AlertInterfaceTest extends AbstractTestCase {
 

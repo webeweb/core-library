@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Assets\Alert;
+namespace WBW\Library\Symfony\Model;
 
 use WBW\Library\Traits\Strings\StringContentTrait;
 
@@ -17,7 +17,7 @@ use WBW\Library\Traits\Strings\StringContentTrait;
  * Abstract alert.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Assets\Alert
+ * @package WBW\Library\Symfony\Model
  * @abstract
  */
 abstract class AbstractAlert implements AlertInterface {
