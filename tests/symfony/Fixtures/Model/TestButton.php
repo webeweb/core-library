@@ -9,15 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Fixtures\Assets\Button;
+namespace WBW\Library\Symfony\Tests\Fixtures\Model;
 
-use WBW\Library\Symfony\Assets\Button\AbstractButton;
+use WBW\Library\Symfony\Model\AbstractButton;
 
 /**
  * Test button.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Fixtures\Assets\Button
+ * @package WBW\Library\Symfony\Tests\Fixtures\Model
  */
 class TestButton extends AbstractButton {
 

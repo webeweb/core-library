@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Assets\Button;
+namespace WBW\Library\Symfony\Tests\Model;
 
-use WBW\Library\Symfony\Assets\Button\ButtonInterface;
+use WBW\Library\Symfony\Model\ButtonInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 
 /**
  * Button interface test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Assets\Button
+ * @package WBW\Library\Symfony\Tests\Model
  */
 class ButtonInterfaceTest extends AbstractTestCase {
 

@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Assets\Button;
+namespace WBW\Library\Symfony\Model;
 
 /**
  * Button trait.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Assets\Button
+ * @package WBW\Library\Symfony\Model
  */
 trait ButtonTrait {
 
