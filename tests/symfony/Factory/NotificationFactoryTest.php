@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Symfony\Tests\Factory;
 
+use WBW\Library\Symfony\Component\NotificationInterface;
 use WBW\Library\Symfony\Factory\NotificationFactory;
-use WBW\Library\Symfony\Model\NotificationInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 
 /**

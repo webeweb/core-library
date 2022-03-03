@@ -3,37 +3,39 @@
 /*
  * This file is part of the core-library package.
  *
- * (c) 2019 WEBEWEB
+ * (c) 2022 WEBEWEB
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Assets\Icon;
+namespace WBW\Library\Symfony\Tests\Component;
 
-use WBW\Library\Symfony\Assets\Icon\IconRenderer;
 use WBW\Library\Symfony\Component\IconInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
+use WBW\Library\Symfony\Tests\Fixtures\Component\TestIconTrait;
 
 /**
- * Icon renderer test.
+ * Icon trait test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Assets\Icon
+ * @package WBW\Library\Symfony\Tests\Component
  */
-class IconRendererTest extends AbstractTestCase {
+class IconTraitTest extends AbstractTestCase {
 
     /**
-     * Tests renderStyle()
+     * Tests setIcon()
      *
      * @return void
      */
-    public function testRenderStyle(): void {
+    public function testSetIcon(): void {
 
         // Set an Icon mock.
         $icon = $this->getMockBuilder(IconInterface::class)->getMock();
-        $icon->expects($this->any())->method("getStyle")->willReturn("color: #000000;");
 
-        $this->assertEquals("color: #000000;", IconRenderer::renderStyle($icon));
+        $obj = new TestIconTrait();
+
+        $obj->setIcon($icon);
+        $this->assertSame($icon, $obj->getIcon());
     }
 }

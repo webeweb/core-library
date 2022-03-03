@@ -11,12 +11,12 @@
 
 namespace WBW\Library\Symfony\Factory;
 
-use WBW\Library\Symfony\Model\Notification\DangerNotification;
-use WBW\Library\Symfony\Model\Notification\DefaultNotification;
-use WBW\Library\Symfony\Model\Notification\InfoNotification;
-use WBW\Library\Symfony\Model\Notification\SuccessNotification;
-use WBW\Library\Symfony\Model\Notification\WarningNotification;
-use WBW\Library\Symfony\Model\NotificationInterface;
+use WBW\Library\Symfony\Component\Notification\DangerNotification;
+use WBW\Library\Symfony\Component\Notification\DefaultNotification;
+use WBW\Library\Symfony\Component\Notification\InfoNotification;
+use WBW\Library\Symfony\Component\Notification\SuccessNotification;
+use WBW\Library\Symfony\Component\Notification\WarningNotification;
+use WBW\Library\Symfony\Component\NotificationInterface;
 
 /**
  * Notification factory.

@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Symfony\Assets\Icon;
 
-use WBW\Library\Symfony\Model\IconInterface;
+use WBW\Library\Symfony\Component\IconInterface;
 
 /**
  * Icon renderer.

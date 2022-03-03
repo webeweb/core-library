@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Symfony\Tests\Factory;
 
+use WBW\Library\Symfony\Component\ToastInterface;
 use WBW\Library\Symfony\Factory\ToastFactory;
-use WBW\Library\Symfony\Model\ToastInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 
 /**
