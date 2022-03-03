@@ -11,8 +11,9 @@
 
 namespace WBW\Library\Symfony\Tests\Component;
 
+use WBW\Library\Sorter\Model\AlphabeticalTreeNodeInterface;
 use WBW\Library\Symfony\Component\Navigation\NavigationNode;
-use WBW\Library\Symfony\Component\NavigationInterface;
+use WBW\Library\Symfony\Component\NavigationNodeInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 use WBW\Library\Symfony\Tests\Fixtures\Component\TestNavigationNode;
 
@@ -177,45 +178,6 @@ class AbstractNavigationNodeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setActive()
-     *
-     * @return void
-     */
-    public function testSetActive(): void {
-
-        $obj = new TestNavigationNode("id");
-
-        $obj->setActive(true);
-        $this->assertTrue($obj->getActive());
-    }
-
-    /**
-     * Tests setEnable()
-     *
-     * @return void
-     */
-    public function testSetEnable(): void {
-
-        $obj = new TestNavigationNode("id");
-
-        $obj->setEnable(true);
-        $this->assertTrue($obj->getEnable());
-    }
-
-    /**
-     * Tests setIcon()
-     *
-     * @return void
-     */
-    public function testSetIcon(): void {
-
-        $obj = new TestNavigationNode("id");
-
-        $obj->setIcon("icon");
-        $this->assertEquals("icon", $obj->getIcon());
-    }
-
-    /**
      * Tests setMatcher()
      *
      * @return void
@@ -224,8 +186,8 @@ class AbstractNavigationNodeTest extends AbstractTestCase {
 
         $obj = new TestNavigationNode("id");
 
-        $obj->setMatcher(NavigationInterface::NAVIGATION_MATCHER_ROUTER);
-        $this->assertEquals(NavigationInterface::NAVIGATION_MATCHER_ROUTER, $obj->getMatcher());
+        $obj->setMatcher(NavigationNodeInterface::MATCHER_ROUTER);
+        $this->assertEquals(NavigationNodeInterface::MATCHER_ROUTER, $obj->getMatcher());
     }
 
     /**
@@ -281,20 +243,24 @@ class AbstractNavigationNodeTest extends AbstractTestCase {
 
         $obj = new TestNavigationNode("id");
 
+        $this->assertInstanceOf(AlphabeticalTreeNodeInterface::class, $obj);
+        $this->assertInstanceOf(NavigationNodeInterface::class, $obj);
+
         $this->assertFalse($obj->getActive());
-        $this->assertNotEquals("", $obj->getAlphabeticalTreeNodeLabel());
-        $this->assertNull($obj->getAlphabeticalTreeNodeParent());
         $this->assertFalse($obj->getEnable());
-        $this->assertNull($obj->getFirstNode());
         $this->assertNull($obj->getIcon());
         $this->assertNotEquals("", $obj->getId());
         $this->assertEquals("id", $obj->getLabel());
+        $this->assertTrue($obj->getVisible());
+
+        $this->assertNotEquals("", $obj->getAlphabeticalTreeNodeLabel());
+        $this->assertNull($obj->getAlphabeticalTreeNodeParent());
+        $this->assertNull($obj->getFirstNode());
         $this->assertNull($obj->getLastNode());
-        $this->assertEquals(NavigationInterface::NAVIGATION_MATCHER_URL, $obj->getMatcher());
+        $this->assertEquals(NavigationNodeInterface::MATCHER_URL, $obj->getMatcher());
         $this->assertEquals([], $obj->getNodes());
         $this->assertNull($obj->getParent());
         $this->assertNull($obj->getTarget());
         $this->assertNull($obj->getUri());
-        $this->assertTrue($obj->getVisible());
     }
 }

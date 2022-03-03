@@ -12,7 +12,7 @@
 namespace WBW\Library\Symfony\Tests\Component\Navigation;
 
 use WBW\Library\Symfony\Component\Navigation\NavigationNode;
-use WBW\Library\Symfony\Component\NavigationInterface;
+use WBW\Library\Symfony\Component\NavigationNodeInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 
 /**
@@ -35,7 +35,7 @@ class NavigationNodeTest extends AbstractTestCase {
         $this->assertFalse($obj->getActive());
         $this->assertFalse($obj->getEnable());
         $this->assertNull($obj->getIcon());
-        $this->assertEquals(NavigationInterface::NAVIGATION_MATCHER_URL, $obj->getMatcher());
+        $this->assertEquals(NavigationNodeInterface::MATCHER_URL, $obj->getMatcher());
         $this->assertNull($obj->getTarget());
         $this->assertNull($obj->getUri());
         $this->assertTrue($obj->getVisible());

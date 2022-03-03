@@ -12,6 +12,7 @@
 namespace WBW\Library\Symfony\Component\Navigation;
 
 use WBW\Library\Symfony\Component\AbstractNavigationNode;
+use WBW\Library\Symfony\Component\NavigationNodeInterface;
 
 /**
  * Divider node.
@@ -36,7 +37,7 @@ class DividerNode extends AbstractNavigationNode {
     /**
      * {@inheritDoc}
      */
-    public function addNode(AbstractNavigationNode $node): AbstractNavigationNode {
+    public function addNode(NavigationNodeInterface $node): NavigationNodeInterface {
         return $this;
     }
 }
