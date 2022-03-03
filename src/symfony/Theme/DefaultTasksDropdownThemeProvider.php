@@ -9,22 +9,29 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Assets\Theme;
+namespace WBW\Library\Symfony\Theme;
 
-use WBW\Library\Symfony\Provider\Theme\FooterThemeProviderInterface;
+use WBW\Library\Symfony\Provider\Theme\TasksDropdownThemeProviderInterface;
 
 /**
- * Default footer theme provider.
+ * Default tasks dropdown theme provider.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Assets\Theme
+ * @package WBW\Library\Symfony\Theme
  */
-class DefaultFooterThemeProvider implements FooterThemeProviderInterface {
+class DefaultTasksDropdownThemeProvider implements TasksDropdownThemeProviderInterface {
 
     /**
      * Constructor.
      */
     public function __construct() {
         // NOTHING TO DO
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getTasks(): array {
+        return [];
     }
 }

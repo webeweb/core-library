@@ -9,18 +9,18 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Assets\Theme;
+namespace WBW\Library\Symfony\Tests\Theme;
 
 use DateTime;
-use WBW\Library\Symfony\Assets\Theme\DefaultApplicationThemeProvider;
 use WBW\Library\Symfony\Provider\Theme\ApplicationThemeProviderInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
+use WBW\Library\Symfony\Theme\DefaultApplicationThemeProvider;
 
 /**
  * Default application theme provider test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Assets\Theme
+ * @package WBW\Library\Symfony\Tests\Theme
  */
 class DefaultApplicationThemeProviderTest extends AbstractTestCase {
 

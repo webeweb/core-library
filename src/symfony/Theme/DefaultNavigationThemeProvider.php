@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Assets\Theme;
+namespace WBW\Library\Symfony\Theme;
 
-use WBW\Library\Symfony\Model\Navigation\NavigationTree;
+use WBW\Library\Symfony\Component\Navigation\NavigationTree;
 use WBW\Library\Symfony\Provider\Theme\NavigationThemeProviderInterface;
 
 /**
  * Default navigation theme provider.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Assets\Theme
+ * @package WBW\Library\Symfony\Theme
  */
 class DefaultNavigationThemeProvider implements NavigationThemeProviderInterface {
 

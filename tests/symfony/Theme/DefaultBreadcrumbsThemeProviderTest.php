@@ -9,17 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Assets\Theme;
+namespace WBW\Library\Symfony\Tests\Theme;
 
-use WBW\Library\Symfony\Assets\Theme\DefaultBreadcrumbsThemeProvider;
 use WBW\Library\Symfony\Provider\Theme\BreadcrumbsThemeProviderInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
+use WBW\Library\Symfony\Theme\DefaultBreadcrumbsThemeProvider;
 
 /**
  * Default breadcrumbs theme provider test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Assets\Theme
+ * @package WBW\Library\Symfony\Tests\Theme
  */
 class DefaultBreadcrumbsThemeProviderTest extends AbstractTestCase {
 

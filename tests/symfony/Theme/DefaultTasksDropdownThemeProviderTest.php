@@ -9,17 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Assets\Theme;
+namespace WBW\Library\Symfony\Tests\Theme;
 
-use WBW\Library\Symfony\Assets\Theme\DefaultTasksDropdownThemeProvider;
 use WBW\Library\Symfony\Provider\Theme\TasksDropdownThemeProviderInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
+use WBW\Library\Symfony\Theme\DefaultTasksDropdownThemeProvider;
 
 /**
  * Default tasks dropdown theme provider test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Assets\Theme
+ * @package WBW\Library\Symfony\Tests\Theme
  */
 class DefaultTasksDropdownThemeProviderTest extends AbstractTestCase {
 

@@ -9,17 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Assets\Theme;
+namespace WBW\Library\Symfony\Theme;
 
-use WBW\Library\Symfony\Provider\Theme\NotificationsDropdownThemeProviderInterface;
+use WBW\Library\Symfony\Provider\Theme\HookDropdownThemeProviderInterface;
 
 /**
- * Default notifications dropdown theme provider.
+ * Default hook dropdown theme provider.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Assets\Theme
+ * @package WBW\Library\Symfony\Theme
  */
-class DefaultNotificationsDropdownThemeProvider implements NotificationsDropdownThemeProviderInterface {
+class DefaultHookDropdownThemeProvider implements HookDropdownThemeProviderInterface {
 
     /**
      * Constructor.
@@ -31,7 +31,7 @@ class DefaultNotificationsDropdownThemeProvider implements NotificationsDropdown
     /**
      * {@inheritDoc}
      */
-    public function getNotifications(): array {
+    public function getItems(): array {
         return [];
     }
 }

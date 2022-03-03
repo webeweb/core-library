@@ -9,17 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Assets\Theme;
+namespace WBW\Library\Symfony\Theme;
 
-use WBW\Library\Symfony\Provider\Theme\SearchThemeProviderInterface;
+use WBW\Library\Symfony\Provider\Theme\BreadcrumbsThemeProviderInterface;
 
 /**
- * Default search theme provider.
+ * Default breadcrumbs theme provider.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Assets\Theme
+ * @package WBW\Library\Symfony\Theme
  */
-class DefaultSearchThemeProvider implements SearchThemeProviderInterface {
+class DefaultBreadcrumbsThemeProvider implements BreadcrumbsThemeProviderInterface {
 
     /**
      * Constructor.

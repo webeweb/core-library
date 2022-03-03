@@ -9,18 +9,18 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Assets\Theme;
+namespace WBW\Library\Symfony\Tests\Theme;
 
-use WBW\Library\Symfony\Assets\Theme\DefaultNavigationThemeProvider;
-use WBW\Library\Symfony\Model\Navigation\NavigationTree;
+use WBW\Library\Symfony\Component\Navigation\NavigationTree;
 use WBW\Library\Symfony\Provider\Theme\NavigationThemeProviderInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
+use WBW\Library\Symfony\Theme\DefaultNavigationThemeProvider;
 
 /**
  * Default navigation theme provider test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Assets\Theme
+ * @package WBW\Library\Symfony\Tests\Theme
  */
 class DefaultNavigationThemeProviderTest extends AbstractTestCase {
 
