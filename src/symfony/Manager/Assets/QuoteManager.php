@@ -15,8 +15,8 @@ use InvalidArgumentException;
 use WBW\Library\Symfony\Exception\AlreadyRegisteredProviderException;
 use WBW\Library\Symfony\Manager\AbstractManager;
 use WBW\Library\Symfony\Manager\ManagerInterface;
-use WBW\Library\Symfony\Provider\Assets\QuoteProviderInterface;
 use WBW\Library\Symfony\Provider\ProviderInterface;
+use WBW\Library\Symfony\Provider\QuoteProviderInterface;
 
 /**
  * Quote manager.

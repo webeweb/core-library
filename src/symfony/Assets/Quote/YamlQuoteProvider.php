@@ -15,7 +15,7 @@ use DateTime;
 use InvalidArgumentException;
 use Symfony\Component\Yaml\Yaml;
 use WBW\Library\Symfony\Model\Quote;
-use WBW\Library\Symfony\Provider\Assets\QuoteProviderInterface;
+use WBW\Library\Symfony\Provider\QuoteProviderInterface;
 use WBW\Library\Traits\Strings\StringFilenameTrait;
 use WBW\Library\Types\Helper\ArrayHelper;
 

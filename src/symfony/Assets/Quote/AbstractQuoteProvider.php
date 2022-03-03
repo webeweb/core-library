@@ -12,7 +12,7 @@
 namespace WBW\Library\Symfony\Assets\Quote;
 
 use WBW\Library\Symfony\Model\QuoteInterface;
-use WBW\Library\Symfony\Provider\Assets\QuoteProviderInterface;
+use WBW\Library\Symfony\Provider\QuoteProviderInterface;
 
 /**
  * Abstract quote provider.

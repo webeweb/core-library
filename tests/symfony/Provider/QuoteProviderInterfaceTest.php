@@ -9,15 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Provider\Assets;
+namespace WBW\Library\Symfony\Tests\Provider;
 
-use WBW\Library\Symfony\Provider\Assets\QuoteProviderInterface;
+use WBW\Library\Symfony\Provider\QuoteProviderInterface;
 
 /**
  * Quote provider interface test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Provider\Assets
+ * @package WBW\Library\Symfony\Tests\Provider
  */
 class QuoteProviderInterfaceTest {
 
@@ -28,6 +28,6 @@ class QuoteProviderInterfaceTest {
      */
     public function test__construct(): void {
 
-        $this->assertEquals("wbw.core.provider.assets.quote", QuoteProviderInterface::QUOTE_PROVIDER_TAG_NAME);
+        $this->assertEquals("wbw.core.provider.quote", QuoteProviderInterface::QUOTE_PROVIDER_TAG_NAME);
     }
 }

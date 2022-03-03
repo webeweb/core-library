@@ -17,7 +17,7 @@ use Exception;
 use InvalidArgumentException;
 use WBW\Library\Symfony\Assets\Quote\WorldsWisdomQuoteProvider;
 use WBW\Library\Symfony\Assets\Quote\YamlQuoteProvider;
-use WBW\Library\Symfony\Provider\Assets\QuoteProviderInterface;
+use WBW\Library\Symfony\Provider\QuoteProviderInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 
 /**

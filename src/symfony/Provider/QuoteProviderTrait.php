@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Provider\Assets;
+namespace WBW\Library\Symfony\Provider;
 
 /**
  * Quote provider trait.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Provider\Assets
+ * @package WBW\Library\Symfony\Provider
  */
 trait QuoteProviderTrait {
 

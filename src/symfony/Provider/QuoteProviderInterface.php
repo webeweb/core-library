@@ -9,16 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Provider\Assets;
+namespace WBW\Library\Symfony\Provider;
 
 use WBW\Library\Symfony\Model\QuoteInterface;
-use WBW\Library\Symfony\Provider\ProviderInterface;
 
 /**
  * Quote provider interface.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Provider\Assets
+ * @package WBW\Library\Symfony\Provider
  */
 interface QuoteProviderInterface extends ProviderInterface {
 
@@ -27,7 +26,7 @@ interface QuoteProviderInterface extends ProviderInterface {
      *
      * @var string
      */
-    const QUOTE_PROVIDER_TAG_NAME = "wbw.core.provider.assets.quote";
+    const QUOTE_PROVIDER_TAG_NAME = "wbw.core.provider.quote";
 
     /**
      * Get the authors.
