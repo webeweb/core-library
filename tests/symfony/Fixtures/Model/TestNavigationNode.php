@@ -9,15 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Fixtures\Assets\Navigation;
+namespace WBW\Library\Symfony\Tests\Fixtures\Model;
 
-use WBW\Library\Symfony\Assets\Navigation\AbstractNavigationNode;
+use WBW\Library\Symfony\Model\AbstractNavigationNode;
 
 /**
  * Test navigation node.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Fixtures\Assets\Navigation
+ * @package WBW\Library\Symfony\Tests\Fixtures\Model
  */
 class TestNavigationNode extends AbstractNavigationNode {
 

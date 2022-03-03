@@ -9,19 +9,19 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Assets\Navigation;
+namespace WBW\Library\Symfony\Tests\Model\Navigation;
 
-use WBW\Library\Symfony\Assets\Navigation\BreadcrumbNode;
-use WBW\Library\Symfony\Assets\Navigation\NavigationInterface;
+use WBW\Library\Symfony\Model\Navigation\NavigationNode;
+use WBW\Library\Symfony\Model\NavigationInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 
 /**
- * Breadcrumb node test.
+ * Navigation node test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Assets\Navigation
+ * @package WBW\Library\Symfony\Tests\Model\Navigation
  */
-class BreadcrumbNodeTest extends AbstractTestCase {
+class NavigationNodeTest extends AbstractTestCase {
 
     /**
      * Tests __construct()
@@ -30,13 +30,14 @@ class BreadcrumbNodeTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $obj = new BreadcrumbNode("id");
+        $obj = new NavigationNode("id");
 
         $this->assertFalse($obj->getActive());
         $this->assertFalse($obj->getEnable());
         $this->assertNull($obj->getIcon());
         $this->assertEquals(NavigationInterface::NAVIGATION_MATCHER_URL, $obj->getMatcher());
+        $this->assertNull($obj->getTarget());
         $this->assertNull($obj->getUri());
-        $this->assertFalse($obj->getVisible());
+        $this->assertTrue($obj->getVisible());
     }
 }

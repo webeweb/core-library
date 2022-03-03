@@ -9,15 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Assets\Navigation;
+namespace WBW\Library\Symfony\Model\Navigation;
+
+use WBW\Library\Symfony\Model\AbstractNavigationNode;
 
 /**
- * Divider node.
+ * Header node.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Assets\Navigation
+ * @package WBW\Library\Symfony\Model\Navigation
  */
-class DividerNode extends AbstractNavigationNode {
+class HeaderNode extends AbstractNavigationNode {
 
     /**
      * Constructor.

@@ -9,17 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Assets\Navigation;
+namespace WBW\Library\Symfony\Tests\Model\Navigation;
 
-use WBW\Library\Symfony\Assets\Navigation\DividerNode;
+use WBW\Library\Symfony\Model\Navigation\DividerNode;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
-use WBW\Library\Symfony\Tests\Fixtures\Assets\Navigation\TestNavigationNode;
+use WBW\Library\Symfony\Tests\Fixtures\Model\TestNavigationNode;
 
 /**
  * Divider node test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Assets\Navigation
+ * @package WBW\Library\Symfony\Tests\Model\Navigation
  */
 class DividerNodeTest extends AbstractTestCase {
 

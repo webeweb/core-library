@@ -9,18 +9,18 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Assets\Navigation;
+namespace WBW\Library\Symfony\Tests\Model;
 
-use WBW\Library\Symfony\Assets\Navigation\NavigationInterface;
-use WBW\Library\Symfony\Assets\Navigation\NavigationNode;
+use WBW\Library\Symfony\Model\Navigation\NavigationNode;
+use WBW\Library\Symfony\Model\NavigationInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
-use WBW\Library\Symfony\Tests\Fixtures\Assets\Navigation\TestNavigationNode;
+use WBW\Library\Symfony\Tests\Fixtures\Model\TestNavigationNode;
 
 /**
  * Abstract navigation node test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Assets\Navigation
+ * @package WBW\Library\Symfony\Tests\Model
  */
 class AbstractNavigationNodeTest extends AbstractTestCase {
 

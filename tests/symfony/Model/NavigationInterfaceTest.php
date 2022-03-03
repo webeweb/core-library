@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Assets\Navigation;
+namespace WBW\Library\Symfony\Tests\Model;
 
-use WBW\Library\Symfony\Assets\Navigation\NavigationInterface;
+use WBW\Library\Symfony\Model\NavigationInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 
 /**
  * Navigation interface test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Assets\Navigation
+ * @package WBW\Library\Symfony\Tests\Model
  */
 class NavigationInterfaceTest extends AbstractTestCase {
 

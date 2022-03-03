@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Assets\Navigation;
+namespace WBW\Library\Symfony\Model;
 
 use WBW\Library\Sorter\Model\AlphabeticalTreeNodeInterface;
 
@@ -17,7 +17,7 @@ use WBW\Library\Sorter\Model\AlphabeticalTreeNodeInterface;
  * Abstract navigation node.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Assets\Navigation
+ * @package WBW\Library\Symfony\Model
  * @abstract
  */
 abstract class AbstractNavigationNode implements NavigationInterface, AlphabeticalTreeNodeInterface {
