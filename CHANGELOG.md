@@ -22,6 +22,7 @@ CHANGELOG
 > - WBW\Library\Symfony\Theme
 
 - Add Logger trait
+- Add array roles trait
 - Add string environment trait
 - Add string identifier trait
 - Add string origin URL trait
