@@ -1,0 +1,23 @@
+{
+    "id": "id",
+    "groupId": "groupId",
+    "allDay": true,
+    "start": "2021-11-29T10:50:00",
+    "end": "2021-11-29T11:00:00",
+    "startStr": "2021-11-29 10:50",
+    "endStr": "2021-11-29 11:00",
+    "title": "title",
+    "url": "url",
+    "classNames": [
+        "className"
+    ],
+    "editable": false,
+    "startEditable": true,
+    "durationEditable": false,
+    "resourceEditable": true,
+    "display": "none",
+    "backgroundColor": "backgroundColor",
+    "borderColor": "borderColor",
+    "textColor": "textColor",
+    "extraParams": []
+}
