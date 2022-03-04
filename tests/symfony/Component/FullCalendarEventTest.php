@@ -9,19 +9,19 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Model;
+namespace WBW\Library\Symfony\Tests\Component;
 
 use DateTime;
 use JsonSerializable;
-use WBW\Library\Symfony\Model\FullCalendarEvent;
-use WBW\Library\Symfony\Model\FullCalendarEventInterface;
+use WBW\Library\Symfony\Component\FullCalendarEvent;
+use WBW\Library\Symfony\Component\FullCalendarEventInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 
 /**
  * Full Calendar event test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Model
+ * @package WBW\Library\Symfony\Tests\Component
  */
 class FullCalendarEventTest extends AbstractTestCase {
 

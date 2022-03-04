@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Model;
+namespace WBW\Library\Symfony\Component;
 
 use DateTime;
 use WBW\Library\Symfony\Serializer\JsonSerializer;
@@ -21,7 +21,7 @@ use WBW\Library\Traits\Strings\StringUrlTrait;
  * Full Calendar event.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Model
+ * @package WBW\Library\Symfony\Component
  */
 class FullCalendarEvent implements FullCalendarEventInterface {
 

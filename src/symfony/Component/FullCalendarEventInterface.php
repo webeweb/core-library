@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Model;
+namespace WBW\Library\Symfony\Component;
 
 use DateTime;
 use JsonSerializable;
@@ -18,7 +18,7 @@ use JsonSerializable;
  * Full calendar event.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Model
+ * @package WBW\Library\Symfony\Component
  */
 interface FullCalendarEventInterface extends JsonSerializable {
 

@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Symfony\Serializer;
 
-use WBW\Library\Symfony\Model\FullCalendarEventInterface;
+use WBW\Library\Symfony\Component\FullCalendarEventInterface;
 use WBW\Library\Types\Helper\ArrayHelper;
 
 /**
