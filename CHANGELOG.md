@@ -28,6 +28,7 @@ CHANGELOG
 - Add string origin URL trait
 - Add string redirect URL trait
 - Add Operating System helper
+- Add ROT13 helper
 - Add Uploaded file service
 - Update Serializer keys
 
