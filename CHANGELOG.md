@@ -23,6 +23,7 @@ CHANGELOG
 
 - Add Logger trait
 - Add array roles trait
+- Add Full Calendar event
 - Add string environment trait
 - Add string identifier trait
 - Add string origin URL trait
