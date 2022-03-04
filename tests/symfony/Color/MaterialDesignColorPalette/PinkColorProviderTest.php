@@ -85,7 +85,7 @@ class PinkColorProviderTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $this->assertEquals("wbw.core.assets.color.material_design_color_palette.pink", PinkColorProvider::SERVICE_NAME);
+        $this->assertEquals("wbw.core.color.material_design_color_palette.pink", PinkColorProvider::SERVICE_NAME);
 
         $obj = new PinkColorProvider();
 

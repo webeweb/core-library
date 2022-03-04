@@ -85,7 +85,7 @@ class RedColorProviderTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $this->assertEquals("wbw.core.assets.color.material_design_color_palette.red", RedColorProvider::SERVICE_NAME);
+        $this->assertEquals("wbw.core.color.material_design_color_palette.red", RedColorProvider::SERVICE_NAME);
 
         $obj = new RedColorProvider();
 

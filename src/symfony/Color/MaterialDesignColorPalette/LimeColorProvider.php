@@ -28,7 +28,7 @@ class LimeColorProvider extends AbstractColorProvider implements LimeColorProvid
      *
      * @var string
      */
-    const SERVICE_NAME = "wbw.core.assets.color.material_design_color_palette.lime";
+    const SERVICE_NAME = "wbw.core.color.material_design_color_palette.lime";
 
     /**
      * Constructor.

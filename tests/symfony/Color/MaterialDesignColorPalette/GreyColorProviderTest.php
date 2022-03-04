@@ -77,7 +77,7 @@ class GreyColorProviderTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $this->assertEquals("wbw.core.assets.color.material_design_color_palette.grey", GreyColorProvider::SERVICE_NAME);
+        $this->assertEquals("wbw.core.color.material_design_color_palette.grey", GreyColorProvider::SERVICE_NAME);
 
         $obj = new GreyColorProvider();
 

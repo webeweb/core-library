@@ -28,7 +28,7 @@ class AmberColorProvider extends AbstractColorProvider implements AmberColorProv
      *
      * @var string
      */
-    const SERVICE_NAME = "wbw.core.assets.color.material_design_color_palette.amber";
+    const SERVICE_NAME = "wbw.core.color.material_design_color_palette.amber";
 
     /**
      * Constructor.

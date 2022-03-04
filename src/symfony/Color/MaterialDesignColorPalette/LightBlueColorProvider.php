@@ -28,7 +28,7 @@ class LightBlueColorProvider extends AbstractColorProvider implements LightBlueC
      *
      * @var string
      */
-    const SERVICE_NAME = "wbw.core.assets.color.material_design_color_palette.light_blue";
+    const SERVICE_NAME = "wbw.core.color.material_design_color_palette.light_blue";
 
     /**
      * Constructor.
