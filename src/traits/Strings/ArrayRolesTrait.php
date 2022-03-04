@@ -61,17 +61,6 @@ trait ArrayRolesTrait {
     }
 
     /**
-     * Determines if the roles contains a role starts with.
-     *
-     * @param string $role The role.
-     * @return bool Returns true in case of success, false otherwise.
-     */
-    public function hasRoleEndsWith(string $role): bool {
-        $pattern = "/" . strtoupper($role) . "$/";
-        return $this->hasRoleMatchesWith($pattern);
-    }
-
-    /**
      * Determines if the roles contains a role containing.
      *
      * @param string $role The role.
@@ -79,6 +68,17 @@ trait ArrayRolesTrait {
      */
     public function hasRoleContains(string $role): bool {
         $pattern = "/" . strtoupper($role) . "/";
+        return $this->hasRoleMatchesWith($pattern);
+    }
+
+    /**
+     * Determines if the roles contains a role starts with.
+     *
+     * @param string $role The role.
+     * @return bool Returns true in case of success, false otherwise.
+     */
+    public function hasRoleEndsWith(string $role): bool {
+        $pattern = "/" . strtoupper($role) . "$/";
         return $this->hasRoleMatchesWith($pattern);
     }
 

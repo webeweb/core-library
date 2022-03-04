@@ -330,9 +330,11 @@ abstract class AbstractRequest implements RequestInterface {
      * {@inheritDoc}
      */
     public function removeHeader(string $name): RequestInterface {
+
         if (true === array_key_exists($name, $this->headers)) {
             unset($this->headers[$name]);
         }
+
         return $this;
     }
 
@@ -340,9 +342,11 @@ abstract class AbstractRequest implements RequestInterface {
      * {@inheritDoc}
      */
     public function removePostData(string $name): RequestInterface {
+
         if (true === array_key_exists($name, $this->postData)) {
             unset($this->postData[$name]);
         }
+
         return $this;
     }
 
@@ -350,9 +354,11 @@ abstract class AbstractRequest implements RequestInterface {
      * {@inheritDoc}
      */
     public function removeQueryData(string $name): RequestInterface {
+
         if (true === array_key_exists($name, $this->queryData)) {
             unset($this->queryData[$name]);
         }
+
         return $this;
     }
 

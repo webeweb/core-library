@@ -195,9 +195,11 @@ class StringHelper {
      * @return string|null Returns the string without accents.
      */
     public static function removeAccents(?string $string): ?string {
+
         if (null === $string) {
             return null;
         }
+
         return Transliterator::create("NFD; [:Nonspacing Mark:] Remove; NFC;")->transliterate($string);
     }
 

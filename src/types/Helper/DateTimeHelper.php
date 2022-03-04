@@ -463,9 +463,11 @@ class DateTimeHelper {
      * @return string|null Returns the converted date/time.
      */
     public static function toString(?DateTime $dateTime, string $format = self::DATETIME_FORMAT): ?string {
+
         if (null === $dateTime) {
             return null;
         }
+
         return $dateTime->format($format);
     }
 
