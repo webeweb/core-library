@@ -23,7 +23,7 @@ CHANGELOG
 
 - Add Logger trait
 - Add array roles trait
-- Add Full Calendar event
+- Add Full Calendar event component
 - Add string environment trait
 - Add string identifier trait
 - Add string origin URL trait
@@ -31,6 +31,7 @@ CHANGELOG
 - Add Operating System helper
 - Add ROT13 helper
 - Add Uploaded file service
+- Add Uploaded file service trait
 - Update Serializer keys
 
 ### [8.31.0](https://github.com/webeweb/core-library/tree/v8.31.0) (2022-02-28)
