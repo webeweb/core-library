@@ -10,8 +10,8 @@ CHANGELOG
 > - WBW\Library\Core\Helper\LuhnAlgorithm
 
 > IMPORTANT NOTICE: The following packages come from [core-bundle](https://github.com/webeweb/core-library)
+> - WBW\Library\Symfony\Assets
 > - WBW\Library\Symfony\Color
-> - WBW\Library\Symfony\Component
 > - WBW\Library\Symfony\Exception
 > - WBW\Library\Symfony\Factory
 > - WBW\Library\Symfony\Helper
