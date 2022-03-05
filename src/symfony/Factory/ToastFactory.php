@@ -11,12 +11,12 @@
 
 namespace WBW\Library\Symfony\Factory;
 
-use WBW\Library\Symfony\Component\Toast\DangerToast;
-use WBW\Library\Symfony\Component\Toast\DefaultToast;
-use WBW\Library\Symfony\Component\Toast\InfoToast;
-use WBW\Library\Symfony\Component\Toast\SuccessToast;
-use WBW\Library\Symfony\Component\Toast\WarningToast;
-use WBW\Library\Symfony\Component\ToastInterface;
+use WBW\Library\Symfony\Assets\Toast\DangerToast;
+use WBW\Library\Symfony\Assets\Toast\DefaultToast;
+use WBW\Library\Symfony\Assets\Toast\InfoToast;
+use WBW\Library\Symfony\Assets\Toast\SuccessToast;
+use WBW\Library\Symfony\Assets\Toast\WarningToast;
+use WBW\Library\Symfony\Assets\ToastInterface;
 
 /**
  * Toast factory.

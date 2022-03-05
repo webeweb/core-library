@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Symfony\Tests\Renderer\Assets;
 
-use WBW\Library\Symfony\Component\IconInterface;
+use WBW\Library\Symfony\Assets\IconInterface;
 use WBW\Library\Symfony\Renderer\Assets\IconRenderer;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 

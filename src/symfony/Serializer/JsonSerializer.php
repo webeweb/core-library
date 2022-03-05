@@ -13,8 +13,8 @@ namespace WBW\Library\Symfony\Serializer;
 
 use InvalidArgumentException;
 use WBW\Library\Serializer\SerializerKeys;
-use WBW\Library\Symfony\Component\FullCalendarEventInterface;
-use WBW\Library\Symfony\Component\Select2OptionInterface;
+use WBW\Library\Symfony\Assets\FullCalendarEventInterface;
+use WBW\Library\Symfony\Assets\Select2OptionInterface;
 use WBW\Library\Types\Helper\ArrayHelper;
 
 /**
