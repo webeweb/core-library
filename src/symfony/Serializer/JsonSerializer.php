@@ -11,7 +11,10 @@
 
 namespace WBW\Library\Symfony\Serializer;
 
+use InvalidArgumentException;
+use WBW\Library\Serializer\SerializerKeys;
 use WBW\Library\Symfony\Component\FullCalendarEventInterface;
+use WBW\Library\Symfony\Component\Select2OptionInterface;
 use WBW\Library\Types\Helper\ArrayHelper;
 
 /**
@@ -60,5 +63,36 @@ class JsonSerializer {
         ArrayHelper::set($output, "extraParams", $model->getExtraParams());
 
         return $output;
+    }
+
+    /**
+     * Serialize a Select2 option.
+     *
+     * @param Select2OptionInterface $model The model.
+     * @return array Returns the serialized model.
+     */
+    public static function serializeSelect2Option(Select2OptionInterface $model): array {
+        return [
+            SerializerKeys::ID   => $model->getSelect2OptionId(),
+            SerializerKeys::TEXT => $model->getSelect2OptionText(),
+        ];
+    }
+
+    /**
+     * Serialize a Select2 options.
+     *
+     * @param Select2OptionInterface[] $models The models.
+     * @return array Returns the serialized models.
+     * @throws InvalidArgumentException Throws an invalid argument exception if an item does not implement Select2OptionInterface.
+     */
+    public static function serializeSelect2Options(array $models): array {
+
+        $result = [];
+
+        foreach ($models as $current) {
+            $result[] = static::serializeSelect2Option($current);
+        }
+
+        return $result;
     }
 }
