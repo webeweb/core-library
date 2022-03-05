@@ -35,9 +35,9 @@ class JsonSerializerTest extends AbstractTestCase {
         $json = json_decode($data, true);
 
         $models = [
-        new TestSelect2OptionInterface("1", "option1"),
-        new TestSelect2OptionInterface("2", "option2"),
-        new TestSelect2OptionInterface("3", "option3"),
+            new TestSelect2OptionInterface("1", "option1"),
+            new TestSelect2OptionInterface("2", "option2"),
+            new TestSelect2OptionInterface("3", "option3"),
         ];
 
         $res = JsonSerializer::serializeSelect2Options($models);
