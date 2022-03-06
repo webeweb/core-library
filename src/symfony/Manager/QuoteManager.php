@@ -40,6 +40,8 @@ class QuoteManager extends AbstractManager {
             throw new AlreadyRegisteredProviderException($provider);
         }
 
+        $provider->init();
+
         return parent::addProvider($provider);
     }
 
