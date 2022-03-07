@@ -11,11 +11,11 @@
 
 namespace WBW\Library\Symfony\Tests\Assets;
 
+use JsonSerializable;
 use WBW\Library\Serializer\SerializerKeys;
 use WBW\Library\Symfony\Assets\IconInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 use WBW\Library\Symfony\Tests\Fixtures\Assets\TestIcon;
-use WBW\Library\Symfony\Tests\Fixtures\Assets\TestNotification;
 
 /**
  * Abstract icon test.
@@ -68,7 +68,7 @@ class AbstractIconTest extends AbstractTestCase {
 
         $obj = new TestIcon();
 
-        $this->assertInstanceOf(\JsonSerializable::class, $obj);
+        $this->assertInstanceOf(JsonSerializable::class, $obj);
         $this->assertInstanceOf(IconInterface::class, $obj);
 
         $this->assertNull($obj->getName());
