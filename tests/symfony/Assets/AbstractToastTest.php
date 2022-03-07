@@ -11,6 +11,9 @@
 
 namespace WBW\Library\Symfony\Tests\Assets;
 
+use JsonSerializable;
+use WBW\Library\Serializer\SerializerKeys;
+use WBW\Library\Symfony\Assets\ToastInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 use WBW\Library\Symfony\Tests\Fixtures\Assets\TestToast;
 
@@ -21,6 +24,27 @@ use WBW\Library\Symfony\Tests\Fixtures\Assets\TestToast;
  * @package WBW\Library\Symfony\Tests\Assets
  */
 class AbstractToastTest extends AbstractTestCase {
+
+    /**
+     * Tests jsonSerialize()
+     *
+     * @return void
+     */
+    public function testJsonSerialize(): void {
+
+        // Set the expected data.
+        $data = file_get_contents(__DIR__ . "/AbstractToastTest.testJsonSerialize.json");
+        $json = json_decode($data, true);
+
+        $obj = new TestToast();
+        $obj->setContent(SerializerKeys::CONTENT);
+        $obj->setType(SerializerKeys::TYPE);
+
+        $res = $obj->jsonSerialize();
+        $this->assertCount(2, $res);
+
+        $this->assertEquals($json, $res);
+    }
 
     /**
      * Tests setContent()
@@ -56,6 +80,9 @@ class AbstractToastTest extends AbstractTestCase {
     public function test__construct(): void {
 
         $obj = new TestToast();
+
+        $this->assertInstanceOf(JsonSerializable::class, $obj);
+        $this->assertInstanceOf(ToastInterface::class, $obj);
 
         $this->assertEquals("t", $obj->getType());
         $this->assertEquals("c", $obj->getContent());

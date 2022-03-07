@@ -20,6 +20,7 @@ use WBW\Library\Symfony\Assets\FullCalendarEventInterface;
 use WBW\Library\Symfony\Assets\IconInterface;
 use WBW\Library\Symfony\Assets\NotificationInterface;
 use WBW\Library\Symfony\Assets\Select2OptionInterface;
+use WBW\Library\Symfony\Assets\ToastInterface;
 use WBW\Library\Types\Helper\ArrayHelper;
 
 /**
@@ -164,5 +165,18 @@ class JsonSerializer {
         }
 
         return $result;
+    }
+
+    /**
+     * Serializes a toast.
+     *
+     * @param ToastInterface $model The model.
+     * @return array Returns the serialized model.
+     */
+    public static function serializeToast(ToastInterface $model): array {
+        return [
+            SerializerKeys::CONTENT => $model->getContent(),
+            SerializerKeys::TYPE    => $model->getType(),
+        ];
     }
 }

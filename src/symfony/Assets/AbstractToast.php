@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Symfony\Assets;
 
+use WBW\Library\Symfony\Serializer\JsonSerializer;
+
 /**
  * Abstract toast.
  *
@@ -57,6 +59,13 @@ abstract class AbstractToast implements ToastInterface {
      */
     public function getType(): string {
         return $this->type;
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function jsonSerialize(): array {
+        return JsonSerializer::serializeToast($this);
     }
 
     /**

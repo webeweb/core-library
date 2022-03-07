@@ -11,13 +11,15 @@
 
 namespace WBW\Library\Symfony\Assets;
 
+use JsonSerializable;
+
 /**
  * Toast interface.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Symfony\Assets
  */
-interface ToastInterface {
+interface ToastInterface extends JsonSerializable {
 
     /**
      * Toast "danger".
