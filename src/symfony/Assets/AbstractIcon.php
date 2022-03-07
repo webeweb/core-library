@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Symfony\Assets;
 
+use WBW\Library\Symfony\Serializer\JsonSerializer;
 use WBW\Library\Traits\Strings\StringNameTrait;
 
 /**
@@ -43,6 +44,13 @@ abstract class AbstractIcon implements IconInterface {
      */
     public function getStyle(): ?string {
         return $this->style;
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function jsonSerialize(): array {
+        return JsonSerializer::serializeIcon($this);
     }
 
     /**

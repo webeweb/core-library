@@ -11,13 +11,15 @@
 
 namespace WBW\Library\Symfony\Assets;
 
+use JsonSerializable;
+
 /**
  * Icon interface.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Symfony\Assets
  */
-interface IconInterface {
+interface IconInterface extends JsonSerializable {
 
     /**
      * Get the name.

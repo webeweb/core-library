@@ -17,6 +17,7 @@ use WBW\Library\Symfony\Assets\AlertInterface;
 use WBW\Library\Symfony\Assets\BadgeInterface;
 use WBW\Library\Symfony\Assets\ButtonInterface;
 use WBW\Library\Symfony\Assets\FullCalendarEventInterface;
+use WBW\Library\Symfony\Assets\IconInterface;
 use WBW\Library\Symfony\Assets\NotificationInterface;
 use WBW\Library\Symfony\Assets\Select2OptionInterface;
 use WBW\Library\Types\Helper\ArrayHelper;
@@ -106,6 +107,19 @@ class JsonSerializer {
         ArrayHelper::set($output, "extraParams", $model->getExtraParams());
 
         return $output;
+    }
+
+    /**
+     * Serializes an icon.
+     *
+     * @param IconInterface $model The model.
+     * @return array Returns the serialized model.
+     */
+    public static function serializeIcon(IconInterface $model): array {
+        return [
+            SerializerKeys::NAME => $model->getName(),
+            "style"              => $model->getStyle(),
+        ];
     }
 
     /**
