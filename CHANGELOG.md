@@ -28,6 +28,9 @@ CHANGELOG
 - Add string identifier trait
 - Add string origin URL trait
 - Add string redirect URL trait
+- Add string style trait
+- Add string target trait
+- Add string URI trait
 - Add Operating System helper
 - Add ROT13 helper
 - Add Uploaded file service
