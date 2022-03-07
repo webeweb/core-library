@@ -11,13 +11,15 @@
 
 namespace WBW\Library\Symfony\Assets;
 
+use JsonSerializable;
+
 /**
  * Button interface.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Symfony\Assets
  */
-interface ButtonInterface {
+interface ButtonInterface extends JsonSerializable {
 
     /**
      * Button "danger".

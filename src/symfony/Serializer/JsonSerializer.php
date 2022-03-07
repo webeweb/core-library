@@ -15,6 +15,7 @@ use InvalidArgumentException;
 use WBW\Library\Serializer\SerializerKeys;
 use WBW\Library\Symfony\Assets\AlertInterface;
 use WBW\Library\Symfony\Assets\BadgeInterface;
+use WBW\Library\Symfony\Assets\ButtonInterface;
 use WBW\Library\Symfony\Assets\FullCalendarEventInterface;
 use WBW\Library\Symfony\Assets\Select2OptionInterface;
 use WBW\Library\Types\Helper\ArrayHelper;
@@ -47,6 +48,19 @@ class JsonSerializer {
      * @return array Returns the serialized model.
      */
     public static function serializeBadge(BadgeInterface $model): array {
+        return [
+            SerializerKeys::CONTENT => $model->getContent(),
+            SerializerKeys::TYPE    => $model->getType(),
+        ];
+    }
+
+    /**
+     * Serializes a button.
+     *
+     * @param ButtonInterface $model The model.
+     * @return array Returns the serialized model.
+     */
+    public static function serializeButton(ButtonInterface $model): array {
         return [
             SerializerKeys::CONTENT => $model->getContent(),
             SerializerKeys::TYPE    => $model->getType(),
