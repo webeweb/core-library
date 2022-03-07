@@ -127,13 +127,6 @@ interface SerializerKeys extends BaseSerializerKeys {
     const EXPIRATION_DATE = "expirationDate";
 
     /**
-     * Serializer key "parent".
-     *
-     * @var string
-     */
-    const PARENT = "parent";
-
-    /**
      * Serializer key "sending address addressee".
      *
      * @var string

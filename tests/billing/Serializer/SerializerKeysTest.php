@@ -44,7 +44,6 @@ class SerializerKeysTest extends AbstractTestCase {
         $this->assertEquals("deliveryAddressStreetName", SerializerKeys::DELIVERY_ADDRESS_STREET_NAME);
         $this->assertEquals("details", SerializerKeys::DETAILS);
         $this->assertEquals("expirationDate", SerializerKeys::EXPIRATION_DATE);
-        $this->assertEquals("parent", SerializerKeys::PARENT);
         $this->assertEquals("sendingAddressAddressee", SerializerKeys::SENDING_ADDRESS_ADDRESSEE);
         $this->assertEquals("sendingAddressCountry", SerializerKeys::SENDING_ADDRESS_COUNTRY);
         $this->assertEquals("sendingAddressHouseNumber", SerializerKeys::SENDING_ADDRESS_HOUSE_NUMBER);
