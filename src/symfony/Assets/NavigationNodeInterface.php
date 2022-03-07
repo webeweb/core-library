@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Symfony\Assets;
 
+use JsonSerializable;
 use WBW\Library\Sorter\Model\AlphabeticalTreeNodeInterface;
 
 /**
@@ -20,7 +21,7 @@ use WBW\Library\Sorter\Model\AlphabeticalTreeNodeInterface;
  * @package WBW\Library\Symfony\Assets
  * @abstract
  */
-interface NavigationNodeInterface extends AlphabeticalTreeNodeInterface {
+interface NavigationNodeInterface extends AlphabeticalTreeNodeInterface, JsonSerializable {
 
     /**
      * Default HREF.
@@ -234,7 +235,7 @@ interface NavigationNodeInterface extends AlphabeticalTreeNodeInterface {
      * @param string|null $target The target.
      * @return NavigationNodeInterface Returns this navigation node.
      */
-    public function setTarget(?string $target): NavigationNodeInterface;
+    public function setTarget(?string $target);
 
     /**
      * Set the URI.
@@ -242,7 +243,7 @@ interface NavigationNodeInterface extends AlphabeticalTreeNodeInterface {
      * @param string|null $uri The URI.
      * @return NavigationNodeInterface Returns this navigation node.
      */
-    public function setUri(?string $uri): NavigationNodeInterface;
+    public function setUri(?string $uri);
 
     /**
      * Size.

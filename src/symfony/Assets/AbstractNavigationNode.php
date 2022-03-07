@@ -12,12 +12,15 @@
 namespace WBW\Library\Symfony\Assets;
 
 use WBW\Library\Sorter\Model\AlphabeticalTreeNodeInterface;
+use WBW\Library\Symfony\Serializer\JsonSerializer;
 use WBW\Library\Traits\Booleans\BooleanActiveTrait;
 use WBW\Library\Traits\Booleans\BooleanEnableTrait;
 use WBW\Library\Traits\Booleans\BooleanVisibleTrait;
 use WBW\Library\Traits\Strings\StringIconTrait;
 use WBW\Library\Traits\Strings\StringIdTrait;
 use WBW\Library\Traits\Strings\StringLabelTrait;
+use WBW\Library\Traits\Strings\StringTargetTrait;
+use WBW\Library\Traits\Strings\StringUriTrait;
 
 /**
  * Abstract navigation node.
@@ -38,6 +41,8 @@ abstract class AbstractNavigationNode implements NavigationNodeInterface {
         setId as protected;
     }
     use StringLabelTrait;
+    use StringTargetTrait;
+    use StringUriTrait;
 
     /**
      * Index.
@@ -66,20 +71,6 @@ abstract class AbstractNavigationNode implements NavigationNodeInterface {
      * @var AbstractNavigationNode|null
      */
     private $parent;
-
-    /**
-     * Target.
-     *
-     * @var string|null
-     */
-    private $target;
-
-    /**
-     * URI.
-     *
-     * @var string|null
-     */
-    private $uri;
 
     /**
      * Constructor.
@@ -241,6 +232,13 @@ abstract class AbstractNavigationNode implements NavigationNodeInterface {
         }
 
         return false;
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function jsonSerialize(): array {
+        return JsonSerializer::serializeNavigationNode($this);
     }
 
     /**

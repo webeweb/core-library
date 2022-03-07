@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Symfony\Tests\Assets;
 
+use JsonSerializable;
+use WBW\Library\Serializer\SerializerKeys;
 use WBW\Library\Sorter\Model\AlphabeticalTreeNodeInterface;
 use WBW\Library\Symfony\Assets\Navigation\NavigationNode;
 use WBW\Library\Symfony\Assets\NavigationNodeInterface;
@@ -157,6 +159,39 @@ class AbstractNavigationNodeTest extends AbstractTestCase {
     }
 
     /**
+     * Tests jsonSerialize()
+     *
+     * @return void
+     */
+    public function testJsonSerialize(): void {
+
+        // Set a parent mock.
+        $parent = new TestNavigationNode("parent");
+
+        // Set the expected data.
+        $data = file_get_contents(__DIR__ . "/AbstractNavigationNodeTest.testJsonSerialize.json");
+        $json = json_decode($data, true);
+
+        $obj = new TestNavigationNode(SerializerKeys::LABEL);
+        $obj->setActive(true);
+        $obj->setEnable(true);
+        $obj->setIcon(SerializerKeys::ICON);
+        $obj->setTarget(SerializerKeys::TARGET);
+        $obj->setUri(SerializerKeys::URI);
+
+        $parent->addNode($obj);
+
+        $res = $obj->jsonSerialize();
+        $this->assertCount(10, $res);
+
+        // Because id is an unique id.
+        $json["id"]           = $obj->getId();
+        $json["parent"]["id"] = $parent->getId();
+
+        $this->assertEquals($json, $res);
+    }
+
+    /**
      * Tests removeNode()
      *
      * @return void
@@ -191,32 +226,6 @@ class AbstractNavigationNodeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTarget()
-     *
-     * @return void
-     */
-    public function testSetTarget(): void {
-
-        $obj = new TestNavigationNode("id");
-
-        $obj->setTarget("_blank");
-        $this->assertEquals("_blank", $obj->getTarget());
-    }
-
-    /**
-     * Tests setUri()
-     *
-     * @return void
-     */
-    public function testSetUri(): void {
-
-        $obj = new TestNavigationNode("id");
-
-        $obj->setURI("route");
-        $this->assertEquals("route", $obj->getUri());
-    }
-
-    /**
      * Tests size()
      *
      * @return void
@@ -243,6 +252,7 @@ class AbstractNavigationNodeTest extends AbstractTestCase {
 
         $obj = new TestNavigationNode("id");
 
+        $this->assertInstanceOf(JsonSerializable::class, $obj);
         $this->assertInstanceOf(AlphabeticalTreeNodeInterface::class, $obj);
         $this->assertInstanceOf(NavigationNodeInterface::class, $obj);
 
@@ -251,6 +261,8 @@ class AbstractNavigationNodeTest extends AbstractTestCase {
         $this->assertNull($obj->getIcon());
         $this->assertNotEquals("", $obj->getId());
         $this->assertEquals("id", $obj->getLabel());
+        $this->assertNull($obj->getTarget());
+        $this->assertNull($obj->getUri());
         $this->assertTrue($obj->getVisible());
 
         $this->assertNotEquals("", $obj->getAlphabeticalTreeNodeLabel());
@@ -260,7 +272,5 @@ class AbstractNavigationNodeTest extends AbstractTestCase {
         $this->assertEquals(NavigationNodeInterface::MATCHER_URL, $obj->getMatcher());
         $this->assertEquals([], $obj->getNodes());
         $this->assertNull($obj->getParent());
-        $this->assertNull($obj->getTarget());
-        $this->assertNull($obj->getUri());
     }
 }

@@ -1,0 +1,23 @@
+{
+    "id": null,
+    "active": true,
+    "enable": true,
+    "icon": "icon",
+    "label": "label",
+    "matcher": "url",
+    "parent": {
+        "id": null,
+        "active": false,
+        "enable": false,
+        "icon": null,
+        "label": "parent",
+        "matcher": "url",
+        "parent": null,
+        "target": null,
+        "uri": null,
+        "visible": true
+    },
+    "target": "target",
+    "uri": "uri",
+    "visible": true
+}

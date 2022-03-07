@@ -12,12 +12,14 @@
 namespace WBW\Library\Symfony\Serializer;
 
 use InvalidArgumentException;
+use WBW\Library\Serializer\Helper\JsonSerializerHelper;
 use WBW\Library\Serializer\SerializerKeys;
 use WBW\Library\Symfony\Assets\AlertInterface;
 use WBW\Library\Symfony\Assets\BadgeInterface;
 use WBW\Library\Symfony\Assets\ButtonInterface;
 use WBW\Library\Symfony\Assets\FullCalendarEventInterface;
 use WBW\Library\Symfony\Assets\IconInterface;
+use WBW\Library\Symfony\Assets\NavigationNodeInterface;
 use WBW\Library\Symfony\Assets\NotificationInterface;
 use WBW\Library\Symfony\Assets\ProgressBarInterface;
 use WBW\Library\Symfony\Assets\Select2OptionInterface;
@@ -119,8 +121,30 @@ class JsonSerializer {
      */
     public static function serializeIcon(IconInterface $model): array {
         return [
-            SerializerKeys::NAME => $model->getName(),
-            "style"              => $model->getStyle(),
+            SerializerKeys::NAME  => $model->getName(),
+            SerializerKeys::STYLE => $model->getStyle(),
+        ];
+    }
+
+    /**
+     * Serializes a navigation node.
+     *
+     * @param NavigationNodeInterface $model The model.
+     * @return array Returns the serialized model.
+     */
+    public static function serializeNavigationNode(NavigationNodeInterface $model): array {
+
+        return [
+            SerializerKeys::ID      => $model->getId(),
+            SerializerKeys::ACTIVE  => $model->getActive(),
+            SerializerKeys::ENABLE  => $model->getEnable(),
+            SerializerKeys::ICON    => $model->getIcon(),
+            SerializerKeys::LABEL   => $model->getLabel(),
+            "matcher"               => $model->getMatcher(),
+            SerializerKeys::PARENT  => JsonSerializerHelper::jsonSerializeModel($model->getParent()),
+            SerializerKeys::TARGET  => $model->getTarget(),
+            SerializerKeys::URI     => $model->getUri(),
+            SerializerKeys::VISIBLE => $model->getVisible(),
         ];
     }
 
