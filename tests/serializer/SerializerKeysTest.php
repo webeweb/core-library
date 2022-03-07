@@ -161,8 +161,10 @@ class SerializerKeysTest extends AbstractTestCase {
         $this->assertEquals("startedOn", SerializerKeys::STARTED_ON);
         $this->assertEquals("state", SerializerKeys::STATE);
         $this->assertEquals("streetName", SerializerKeys::STREET_NAME);
+        $this->assertEquals("style", SerializerKeys::STYLE);
         $this->assertEquals("subject", SerializerKeys::SUBJECT);
         $this->assertEquals("table", SerializerKeys::TABLE);
+        $this->assertEquals("target", SerializerKeys::TARGET);
         $this->assertEquals("text", SerializerKeys::TEXT);
         $this->assertEquals("title", SerializerKeys::TITLE);
         $this->assertEquals("to", SerializerKeys::TO);
@@ -175,6 +177,7 @@ class SerializerKeysTest extends AbstractTestCase {
         $this->assertEquals("unitPrice", SerializerKeys::UNIT_PRICE);
         $this->assertEquals("unitValue", SerializerKeys::UNIT_VALUE);
         $this->assertEquals("updatedAt", SerializerKeys::UPDATED_AT);
+        $this->assertEquals("uri", SerializerKeys::URI);
         $this->assertEquals("url", SerializerKeys::URL);
         $this->assertEquals("username", SerializerKeys::USERNAME);
         $this->assertEquals("value", SerializerKeys::VALUE);

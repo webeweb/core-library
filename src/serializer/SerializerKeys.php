@@ -958,6 +958,13 @@ interface SerializerKeys {
     const STREET_NAME = "streetName";
 
     /**
+     * Serializer key "style".
+     *
+     * @var string
+     */
+    const STYLE = "style";
+
+    /**
      * Serializer key "subject".
      *
      * @var string
@@ -970,6 +977,13 @@ interface SerializerKeys {
      * @var string
      */
     const TABLE = "table";
+
+    /**
+     * Serializer key "target".
+     *
+     * @var string
+     */
+    const TARGET = "target";
 
     /**
      * Serializer key "text".
@@ -1054,6 +1068,13 @@ interface SerializerKeys {
      * @var string
      */
     const UPDATED_AT = "updatedAt";
+
+    /**
+     * Serializer key "URI".
+     *
+     * @var string
+     */
+    const URI = "uri";
 
     /**
      * Serializer key "URL".
