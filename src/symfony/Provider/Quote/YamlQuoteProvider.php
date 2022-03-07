@@ -61,9 +61,11 @@ class YamlQuoteProvider extends AbstractQuoteProvider {
     }
 
     /**
-     * {@inheritDoc}
+     * Initializes.
+     *
+     * @return void
      */
-    public function init(): void {
+    protected function init(): void {
 
         $fileContent = file_get_contents($this->getFilename());
 

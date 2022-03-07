@@ -48,11 +48,4 @@ interface QuoteProviderInterface extends ProviderInterface {
      * @return QuoteInterface[] Returns the quotes.
      */
     public function getQuotes(): array;
-
-    /**
-     * Initializes.
-     *
-     * @return void
-     */
-    public function init(): void;
 }

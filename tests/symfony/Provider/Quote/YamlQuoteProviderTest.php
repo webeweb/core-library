@@ -19,6 +19,7 @@ use WBW\Library\Symfony\Provider\Quote\WorldsWisdomQuoteProvider;
 use WBW\Library\Symfony\Provider\Quote\YamlQuoteProvider;
 use WBW\Library\Symfony\Provider\QuoteProviderInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
+use WBW\Library\Symfony\Tests\Fixtures\Provider\Quote\TestYamlQuoteProvider;
 
 /**
  * YAML quote provider test.
@@ -55,7 +56,7 @@ class YamlQuoteProviderTest extends AbstractTestCase {
         // Set a Date mock.
         $date = new DateTime("2016-01-01");
 
-        $obj = new YamlQuoteProvider($this->filename);
+        $obj = new TestYamlQuoteProvider($this->filename);
 
         $obj->init();
         $this->assertCount(171, $obj->getAuthors());

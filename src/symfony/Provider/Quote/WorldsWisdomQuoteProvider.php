@@ -31,5 +31,7 @@ class WorldsWisdomQuoteProvider extends YamlQuoteProvider {
      */
     public function __construct() {
         parent::__construct(self::RESOURCE_PATH);
+
+        $this->init();
     }
 }
