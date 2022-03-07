@@ -17,6 +17,7 @@ use WBW\Library\Symfony\Assets\AlertInterface;
 use WBW\Library\Symfony\Assets\BadgeInterface;
 use WBW\Library\Symfony\Assets\ButtonInterface;
 use WBW\Library\Symfony\Assets\FullCalendarEventInterface;
+use WBW\Library\Symfony\Assets\NotificationInterface;
 use WBW\Library\Symfony\Assets\Select2OptionInterface;
 use WBW\Library\Types\Helper\ArrayHelper;
 
@@ -105,6 +106,19 @@ class JsonSerializer {
         ArrayHelper::set($output, "extraParams", $model->getExtraParams());
 
         return $output;
+    }
+
+    /**
+     * Serializes a notification.
+     *
+     * @param NotificationInterface $model The model.
+     * @return array Returns the serialized model.
+     */
+    public static function serializeNotification(NotificationInterface $model): array {
+        return [
+            SerializerKeys::CONTENT => $model->getContent(),
+            SerializerKeys::TYPE    => $model->getType(),
+        ];
     }
 
     /**

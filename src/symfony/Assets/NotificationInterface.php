@@ -11,13 +11,15 @@
 
 namespace WBW\Library\Symfony\Assets;
 
+use JsonSerializable;
+
 /**
  * Notification interface.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Symfony\Assets
  */
-interface NotificationInterface {
+interface NotificationInterface extends JsonSerializable {
 
     /**
      * Notification "danger".

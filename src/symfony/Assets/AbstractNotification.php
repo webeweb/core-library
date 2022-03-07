@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Symfony\Assets;
 
+use WBW\Library\Symfony\Serializer\JsonSerializer;
+
 /**
  * Abstract notification.
  *
@@ -57,6 +59,13 @@ abstract class AbstractNotification implements NotificationInterface {
      */
     public function getType(): string {
         return $this->type;
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function jsonSerialize(): array {
+        return JsonSerializer::serializeNotification($this);
     }
 
     /**
