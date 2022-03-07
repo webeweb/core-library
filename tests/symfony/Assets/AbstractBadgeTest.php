@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Symfony\Tests\Assets;
 
+use JsonSerializable;
+use WBW\Library\Serializer\SerializerKeys;
 use WBW\Library\Symfony\Assets\BadgeInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 use WBW\Library\Symfony\Tests\Fixtures\Assets\TestBadge;
@@ -24,6 +26,26 @@ use WBW\Library\Symfony\Tests\Fixtures\Assets\TestBadge;
 class AbstractBadgeTest extends AbstractTestCase {
 
     /**
+     * Tests jsonSerialize()
+     *
+     * @return void
+     */
+    public function testJsonSerialize(): void {
+
+        // Set the expected data.
+        $data = file_get_contents(__DIR__ . "/AbstractBadgeTest.testJsonSerialize.json");
+        $json = json_decode($data, true);
+
+        $obj = new TestBadge("type");
+        $obj->setContent(SerializerKeys::CONTENT);
+
+        $res = $obj->jsonSerialize();
+        $this->assertCount(2, $res);
+
+        $this->assertEquals($json, $res);
+    }
+
+    /**
      * Tests __construct()
      *
      * @return void
@@ -32,6 +54,7 @@ class AbstractBadgeTest extends AbstractTestCase {
 
         $obj = new TestBadge("danger");
 
+        $this->assertInstanceOf(JsonSerializable::class, $obj);
         $this->assertInstanceOf(BadgeInterface::class, $obj);
 
         $this->assertNull($obj->getContent());

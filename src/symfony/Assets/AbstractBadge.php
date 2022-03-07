@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Symfony\Assets;
 
+use WBW\Library\Symfony\Serializer\JsonSerializer;
 use WBW\Library\Traits\Strings\StringContentTrait;
 
 /**
@@ -49,6 +50,13 @@ abstract class AbstractBadge implements BadgeInterface {
         return $this->type;
     }
 
+
+    /**
+     * {@inheritDoc}
+     */
+    public function jsonSerialize(): array {
+        return JsonSerializer::serializeBadge($this);
+    }
     /**
      * Set the type.
      *

@@ -17,7 +17,7 @@ namespace WBW\Library\Symfony\Assets;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Symfony\Assets
  */
-interface BadgeInterface {
+interface BadgeInterface extends \JsonSerializable {
 
     /**
      * Badge "danger".

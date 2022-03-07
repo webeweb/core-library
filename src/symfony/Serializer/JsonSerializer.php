@@ -14,6 +14,7 @@ namespace WBW\Library\Symfony\Serializer;
 use InvalidArgumentException;
 use WBW\Library\Serializer\SerializerKeys;
 use WBW\Library\Symfony\Assets\AlertInterface;
+use WBW\Library\Symfony\Assets\BadgeInterface;
 use WBW\Library\Symfony\Assets\FullCalendarEventInterface;
 use WBW\Library\Symfony\Assets\Select2OptionInterface;
 use WBW\Library\Types\Helper\ArrayHelper;
@@ -35,7 +36,20 @@ class JsonSerializer {
     public static function serializeAlert(AlertInterface $model): array {
         return [
             SerializerKeys::CONTENT => $model->getContent(),
-            SerializerKeys::TYPE => $model->getType(),
+            SerializerKeys::TYPE    => $model->getType(),
+        ];
+    }
+
+    /**
+     * Serializes an badge.
+     *
+     * @param BadgeInterface $model The model.
+     * @return array Returns the serialized model.
+     */
+    public static function serializeBadge(BadgeInterface $model): array {
+        return [
+            SerializerKeys::CONTENT => $model->getContent(),
+            SerializerKeys::TYPE    => $model->getType(),
         ];
     }
 
