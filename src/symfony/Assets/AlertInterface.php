@@ -11,13 +11,15 @@
 
 namespace WBW\Library\Symfony\Assets;
 
+use JsonSerializable;
+
 /**
  * Alert interface.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Symfony\Assets
  */
-interface AlertInterface extends \JsonSerializable {
+interface AlertInterface extends JsonSerializable {
 
     /**
      * Alert "danger".

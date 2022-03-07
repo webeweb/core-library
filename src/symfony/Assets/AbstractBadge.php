@@ -50,13 +50,13 @@ abstract class AbstractBadge implements BadgeInterface {
         return $this->type;
     }
 
-
     /**
      * {@inheritDoc}
      */
     public function jsonSerialize(): array {
         return JsonSerializer::serializeBadge($this);
     }
+
     /**
      * Set the type.
      *
