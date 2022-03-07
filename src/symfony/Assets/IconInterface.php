@@ -49,5 +49,5 @@ interface IconInterface extends JsonSerializable {
      * @param string|null $style The style.
      * @return IconInterface Returns this icon.
      */
-    public function setStyle(?string $style): IconInterface;
+    public function setStyle(?string $style);
 }

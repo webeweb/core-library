@@ -47,19 +47,6 @@ class AbstractIconTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setStyle()
-     *
-     * @return void
-     */
-    public function testSetStyle(): void {
-
-        $obj = new TestIcon();
-
-        $obj->setStyle("style");
-        $this->assertEquals("style", $obj->getStyle());
-    }
-
-    /**
      * Tests __construct()
      *
      * @return void
@@ -72,7 +59,6 @@ class AbstractIconTest extends AbstractTestCase {
         $this->assertInstanceOf(IconInterface::class, $obj);
 
         $this->assertNull($obj->getName());
-
         $this->assertNull($obj->getStyle());
     }
 }
