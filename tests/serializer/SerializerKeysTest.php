@@ -130,6 +130,7 @@ class SerializerKeysTest extends AbstractTestCase {
         $this->assertEquals("orientation", SerializerKeys::ORIENTATION);
         $this->assertEquals("originUrl", SerializerKeys::ORIGIN_URL);
         $this->assertEquals("page", SerializerKeys::PAGE);
+        $this->assertEquals("parent", SerializerKeys::PARENT);
         $this->assertEquals("password", SerializerKeys::PASSWORD);
         $this->assertEquals("pathname", SerializerKeys::PATHNAME);
         $this->assertEquals("paymentDate", SerializerKeys::PAYMENT_DATE);

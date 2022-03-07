@@ -741,6 +741,13 @@ interface SerializerKeys {
     const PAGE = "page";
 
     /**
+     * Serializer key "parent".
+     *
+     * @var string
+     */
+    const PARENT = "parent";
+
+    /**
      * Serializer key "password".
      *
      * @var string
