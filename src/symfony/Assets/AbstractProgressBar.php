@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Symfony\Assets;
 
+use WBW\Library\Symfony\Serializer\JsonSerializer;
 use WBW\Library\Traits\Strings\StringContentTrait;
 
 /**
@@ -47,6 +48,13 @@ abstract class AbstractProgressBar implements ProgressBarInterface {
      */
     public function getType(): string {
         return $this->type;
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function jsonSerialize(): array {
+        return JsonSerializer::serializeProgressBar($this);
     }
 
     /**

@@ -19,6 +19,7 @@ use WBW\Library\Symfony\Assets\ButtonInterface;
 use WBW\Library\Symfony\Assets\FullCalendarEventInterface;
 use WBW\Library\Symfony\Assets\IconInterface;
 use WBW\Library\Symfony\Assets\NotificationInterface;
+use WBW\Library\Symfony\Assets\ProgressBarInterface;
 use WBW\Library\Symfony\Assets\Select2OptionInterface;
 use WBW\Library\Symfony\Assets\ToastInterface;
 use WBW\Library\Types\Helper\ArrayHelper;
@@ -130,6 +131,19 @@ class JsonSerializer {
      * @return array Returns the serialized model.
      */
     public static function serializeNotification(NotificationInterface $model): array {
+        return [
+            SerializerKeys::CONTENT => $model->getContent(),
+            SerializerKeys::TYPE    => $model->getType(),
+        ];
+    }
+
+    /**
+     * Serializes a progress bar.
+     *
+     * @param ProgressBarInterface $model The model.
+     * @return array Returns the serialized model.
+     */
+    public static function serializeProgressBar(ProgressBarInterface $model): array {
         return [
             SerializerKeys::CONTENT => $model->getContent(),
             SerializerKeys::TYPE    => $model->getType(),

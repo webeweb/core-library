@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Symfony\Tests\Assets;
 
+use JsonSerializable;
+use WBW\Library\Serializer\SerializerKeys;
 use WBW\Library\Symfony\Assets\ProgressBarInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 use WBW\Library\Symfony\Tests\Fixtures\Assets\TestProgressBar;
@@ -24,6 +26,26 @@ use WBW\Library\Symfony\Tests\Fixtures\Assets\TestProgressBar;
 class AbstractProgressBarTest extends AbstractTestCase {
 
     /**
+     * Tests jsonSerialize()
+     *
+     * @return void
+     */
+    public function testJsonSerialize(): void {
+
+        // Set the expected data.
+        $data = file_get_contents(__DIR__ . "/AbstractProgressBarTest.testJsonSerialize.json");
+        $json = json_decode($data, true);
+
+        $obj = new TestProgressBar("type");
+        $obj->setContent(SerializerKeys::CONTENT);
+
+        $res = $obj->jsonSerialize();
+        $this->assertCount(2, $res);
+
+        $this->assertEquals($json, $res);
+    }
+
+    /**
      * Tests __construct()
      *
      * @return void
@@ -32,6 +54,7 @@ class AbstractProgressBarTest extends AbstractTestCase {
 
         $obj = new TestProgressBar("danger");
 
+        $this->assertInstanceOf(JsonSerializable::class, $obj);
         $this->assertInstanceOf(ProgressBarInterface::class, $obj);
 
         $this->assertNull($obj->getContent());
