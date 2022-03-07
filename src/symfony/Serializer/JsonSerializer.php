@@ -13,6 +13,7 @@ namespace WBW\Library\Symfony\Serializer;
 
 use InvalidArgumentException;
 use WBW\Library\Serializer\SerializerKeys;
+use WBW\Library\Symfony\Assets\AlertInterface;
 use WBW\Library\Symfony\Assets\FullCalendarEventInterface;
 use WBW\Library\Symfony\Assets\Select2OptionInterface;
 use WBW\Library\Types\Helper\ArrayHelper;
@@ -24,6 +25,19 @@ use WBW\Library\Types\Helper\ArrayHelper;
  * @package WBW\Library\Symfony\Serializer
  */
 class JsonSerializer {
+
+    /**
+     * Serializes an alert.
+     *
+     * @param AlertInterface $model The model.
+     * @return array Returns the serialized model.
+     */
+    public static function serializeAlert(AlertInterface $model): array {
+        return [
+            SerializerKeys::CONTENT => $model->getContent(),
+            SerializerKeys::TYPE => $model->getType(),
+        ];
+    }
 
     /**
      * Serializes a Full Calendar event.
