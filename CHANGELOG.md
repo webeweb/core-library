@@ -23,6 +23,7 @@ CHANGELOG
 
 - Add Logger trait
 - Add array roles trait
+- Add date/times renderer trait
 - Add Full Calendar event component
 - Add string environment trait
 - Add string identifier trait
@@ -31,6 +32,7 @@ CHANGELOG
 - Add string style trait
 - Add string target trait
 - Add string URI trait
+- Add strings renderer trait
 - Add Operating System helper
 - Add ROT13 helper
 - Add Uploaded file service
