@@ -30,7 +30,7 @@ class AssetsHelper {
      * @return array Returns the assets.
      * @throws InvalidArgumentException Throw an invalid argument exception if the directory is not a directory.
      */
-    protected static function listAssets(string $directory): array {
+    public static function listAssets(string $directory): array {
 
         if (false === is_dir($directory)) {
             throw new InvalidArgumentException(sprintf('"%s" is not a directory', $directory));

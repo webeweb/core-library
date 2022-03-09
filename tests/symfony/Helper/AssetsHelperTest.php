@@ -13,7 +13,6 @@ namespace WBW\Library\Symfony\Tests\Helper;
 
 use Exception;
 use InvalidArgumentException;
-use WBW\Library\Symfony\Tests\Fixtures\Helper\TestAssetsHelper;
 use WBW\Library\Symfony\Helper\AssetsHelper;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 
@@ -66,7 +65,7 @@ class AssetsHelperTest extends AbstractTestCase {
      */
     public function testListAssets(): void {
 
-        $res = TestAssetsHelper::listAssets($this->srcDirectory);
+        $res = AssetsHelper::listAssets($this->srcDirectory);
         $this->assertCount(1, $res);
 
         $this->assertRegExp("/php\.zip$/", $res[0]);
@@ -81,7 +80,7 @@ class AssetsHelperTest extends AbstractTestCase {
 
         try {
 
-            TestAssetsHelper::listAssets($this->exDirectory);
+            AssetsHelper::listAssets($this->exDirectory);
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
