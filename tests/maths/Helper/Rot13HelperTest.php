@@ -42,8 +42,8 @@ class Rot13HelperTest extends AbstractTestCase {
 
         $this->assertNull(Rot13Helper::decode(null));
         $this->assertEquals("", Rot13Helper::decode(""));
-        $this->assertEquals("HELLO WORLD !", Rot13Helper::encode("URYYB JBEYQ !"));
-        $this->assertEquals("Hello world !", Rot13Helper::encode("Uryyb jbeyq !"));
+        $this->assertEquals("HELLO WORLD !", Rot13Helper::decode("URYYB JBEYQ !"));
+        $this->assertEquals("Hello world !", Rot13Helper::decode("Uryyb jbeyq !"));
     }
 
     /**
