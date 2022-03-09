@@ -36,4 +36,34 @@ class ColorHelperTest extends AbstractTestCase {
         $res = implode(":", ["MaterialDesignColorPalette", "red"]);
         $this->assertEquals($res, ColorHelper::getIdentifier($colorProvider));
     }
+
+    /**
+     * Tests hexToRgba()
+     *
+     * @return void
+     */
+    public function testHexToRgba(): void {
+
+        $this->assertNull(ColorHelper::hexToRgba(null));
+
+        $this->assertEquals("rgba(0, 0, 0, 0.00)", ColorHelper::hexToRgba("#000000", 0.00));
+        $this->assertEquals("rgba(0, 0, 0, 0.00)", ColorHelper::hexToRgba("000000", 0.00));
+        $this->assertEquals("rgba(0, 0, 0, 0.00)", ColorHelper::hexToRgba("#000", 0.00));
+        $this->assertEquals("rgba(0, 0, 0, 0.00)", ColorHelper::hexToRgba("000", 0.00));
+
+        $this->assertEquals("rgba(170, 170, 170, 0.50)", ColorHelper::hexToRgba("#AAAAAA", 0.50));
+        $this->assertEquals("rgba(170, 170, 170, 0.50)", ColorHelper::hexToRgba("AAAAAA", 0.50));
+        $this->assertEquals("rgba(170, 170, 170, 0.50)", ColorHelper::hexToRgba("#AAA", 0.50));
+        $this->assertEquals("rgba(170, 170, 170, 0.50)", ColorHelper::hexToRgba("AAA", 0.50));
+
+        $this->assertEquals("rgba(170, 170, 170, 0.50)", ColorHelper::hexToRgba("#aaaaaa", 0.50));
+        $this->assertEquals("rgba(170, 170, 170, 0.50)", ColorHelper::hexToRgba("aaaaaa", 0.50));
+        $this->assertEquals("rgba(170, 170, 170, 0.50)", ColorHelper::hexToRgba("#aaa", 0.50));
+        $this->assertEquals("rgba(170, 170, 170, 0.50)", ColorHelper::hexToRgba("aaa", 0.50));
+
+        $this->assertEquals("rgba(255, 255, 255, 1.00)", ColorHelper::hexToRgba("#FFFFFF", 1.00));
+        $this->assertEquals("rgba(255, 255, 255, 1.00)", ColorHelper::hexToRgba("FFFFFF", 1.00));
+        $this->assertEquals("rgba(255, 255, 255, 1.00)", ColorHelper::hexToRgba("#FFF", 1.00));
+        $this->assertEquals("rgba(255, 255, 255, 1.00)", ColorHelper::hexToRgba("FFF", 1.00));
+    }
 }
