@@ -1,7 +1,7 @@
 CHANGELOG
 =========
 
-### master
+### [8.32.0](https://github.com/webeweb/core-library/tree/v8.32.0) (2022-03-09)
 
 > IMPORTANT NOTICE: The following packages has been moved
 > - WBW\Library\Bill
@@ -35,6 +35,7 @@ CHANGELOG
 - Add strings renderer trait
 - Add Operating System helper
 - Add ROT13 helper
+- Add ROT47 helper
 - Add Uploaded file service
 - Add Uploaded file service trait
 - Update Serializer keys
