@@ -21,7 +21,7 @@ use WBW\Library\Symfony\Renderer\DateTimesRendererTrait;
  */
 class TestDateTimesRendererTrait {
 
-    use DateTimesRendererTrait{
+    use DateTimesRendererTrait {
         renderDate as public;
         renderDateTime as public;
         renderTime as public;
