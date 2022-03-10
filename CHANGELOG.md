@@ -1,6 +1,13 @@
 CHANGELOG
 =========
 
+### [8.32.3](https://github.com/webeweb/core-library/tree/v8.32.3) (2022-03-10)
+
+- Fix Alert interface
+- Fix Badge interface
+- Fix Button interface
+- Fix Progress bar interface
+
 ### [8.32.2](https://github.com/webeweb/core-library/tree/v8.32.2) (2022-03-10)
 
 - Fix Badge interface
