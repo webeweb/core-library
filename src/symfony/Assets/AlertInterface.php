@@ -59,9 +59,9 @@ interface AlertInterface extends JsonSerializable {
     /**
      * Get the type.
      *
-     * @return string Returns the type.
+     * @return string|null Returns the type.
      */
-    public function getType(): string;
+    public function getType(): ?string;
 
     /**
      * Set the content.
