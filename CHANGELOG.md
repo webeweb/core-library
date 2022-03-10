@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [8.32.2](https://github.com/webeweb/core-library/tree/v8.32.2) (2022-03-10)
+
+- Fix Badge interface
+
 ### [8.32.1](https://github.com/webeweb/core-library/tree/v8.32.1) (2022-03-10)
 
 - Fix constant names
