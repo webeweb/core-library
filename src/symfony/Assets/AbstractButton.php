@@ -13,6 +13,7 @@ namespace WBW\Library\Symfony\Assets;
 
 use WBW\Library\Symfony\Serializer\JsonSerializer;
 use WBW\Library\Traits\Strings\StringContentTrait;
+use WBW\Library\Traits\Strings\StringTypeTrait;
 
 /**
  * Abstract button.
@@ -24,21 +25,15 @@ use WBW\Library\Traits\Strings\StringContentTrait;
 abstract class AbstractButton implements ButtonInterface {
 
     use StringContentTrait;
-
-    /**
-     * Type.
-     *
-     * @var string
-     */
-    private $type;
+    use StringTypeTrait;
 
     /**
      * Constructor.
      *
-     * @param string $type The type.
+     * @param string|null $type The type.
      * @param string|null $content The content.
      */
-    protected function __construct(string $type, ?string $content = null) {
+    protected function __construct(?string $type, ?string $content = null) {
         $this->setContent($content);
         $this->setType($type);
     }
@@ -46,25 +41,7 @@ abstract class AbstractButton implements ButtonInterface {
     /**
      * {@inheritDoc}
      */
-    public function getType(): string {
-        return $this->type;
-    }
-
-    /**
-     * {@inheritDoc}
-     */
     public function jsonSerialize(): array {
         return JsonSerializer::serializeButton($this);
-    }
-
-    /**
-     * Set the type.
-     *
-     * @param string $type The type.
-     * @return ButtonInterface Returns this button.
-     */
-    protected function setType(string $type): ButtonInterface {
-        $this->type = $type;
-        return $this;
     }
 }
