@@ -22,32 +22,32 @@ use JsonSerializable;
 interface NotificationInterface extends JsonSerializable {
 
     /**
-     * Notification "danger".
+     * Notification type "danger".
      *
      * @var string
      */
-    const NOTIFICATION_DANGER = "danger";
+    const NOTIFICATION_TYPE_DANGER = "danger";
 
     /**
-     * Notification "info".
+     * Notification type "info".
      *
      * @var string
      */
-    const NOTIFICATION_INFO = "info";
+    const NOTIFICATION_TYPE_INFO = "info";
 
     /**
-     * Notification "success".
+     * Notification type "success".
      *
      * @var string
      */
-    const NOTIFICATION_SUCCESS = "success";
+    const NOTIFICATION_TYPE_SUCCESS = "success";
 
     /**
-     * Notification "warning".
+     * Notification type "warning".
      *
      * @var string
      */
-    const NOTIFICATION_WARNING = "warning";
+    const NOTIFICATION_TYPE_WARNING = "warning";
 
     /**
      * Get the content.

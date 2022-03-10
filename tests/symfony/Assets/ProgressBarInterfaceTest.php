@@ -29,9 +29,9 @@ class ProgressBarInterfaceTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $this->assertEquals("danger", ProgressBarInterface::PROGRESS_BAR_DANGER);
-        $this->assertEquals("info", ProgressBarInterface::PROGRESS_BAR_INFO);
-        $this->assertEquals("success", ProgressBarInterface::PROGRESS_BAR_SUCCESS);
-        $this->assertEquals("warning", ProgressBarInterface::PROGRESS_BAR_WARNING);
+        $this->assertEquals("danger", ProgressBarInterface::PROGRESS_BAR_TYPE_DANGER);
+        $this->assertEquals("info", ProgressBarInterface::PROGRESS_BAR_TYPE_INFO);
+        $this->assertEquals("success", ProgressBarInterface::PROGRESS_BAR_TYPE_SUCCESS);
+        $this->assertEquals("warning", ProgressBarInterface::PROGRESS_BAR_TYPE_WARNING);
     }
 }

@@ -32,7 +32,7 @@ class SuccessToastTest extends AbstractTestCase {
 
         $obj = new SuccessToast("success");
 
-        $this->assertEquals(ToastInterface::TOAST_SUCCESS, $obj->getType());
+        $this->assertEquals(ToastInterface::TOAST_TYPE_SUCCESS, $obj->getType());
         $this->assertEquals("success", $obj->getContent());
     }
 }

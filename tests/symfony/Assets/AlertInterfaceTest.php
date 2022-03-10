@@ -29,9 +29,9 @@ class AlertInterfaceTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $this->assertEquals("danger", AlertInterface::ALERT_DANGER);
-        $this->assertEquals("info", AlertInterface::ALERT_INFO);
-        $this->assertEquals("success", AlertInterface::ALERT_SUCCESS);
-        $this->assertEquals("warning", AlertInterface::ALERT_WARNING);
+        $this->assertEquals("danger", AlertInterface::ALERT_TYPE_DANGER);
+        $this->assertEquals("info", AlertInterface::ALERT_TYPE_INFO);
+        $this->assertEquals("success", AlertInterface::ALERT_TYPE_SUCCESS);
+        $this->assertEquals("warning", AlertInterface::ALERT_TYPE_WARNING);
     }
 }

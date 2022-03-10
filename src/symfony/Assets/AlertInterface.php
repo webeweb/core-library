@@ -22,32 +22,32 @@ use JsonSerializable;
 interface AlertInterface extends JsonSerializable {
 
     /**
-     * Alert "danger".
+     * Alert type "danger".
      *
      * @var string
      */
-    const ALERT_DANGER = "danger";
+    const ALERT_TYPE_DANGER = "danger";
 
     /**
-     * Alert "info".
+     * Alert type "info".
      *
      * @var string
      */
-    const ALERT_INFO = "info";
+    const ALERT_TYPE_INFO = "info";
 
     /**
-     * Alert "success".
+     * Alert type "success".
      *
      * @var string
      */
-    const ALERT_SUCCESS = "success";
+    const ALERT_TYPE_SUCCESS = "success";
 
     /**
-     * Alert "warning".
+     * Alert type "warning".
      *
      * @var string
      */
-    const ALERT_WARNING = "warning";
+    const ALERT_TYPE_WARNING = "warning";
 
     /**
      * Get the content.

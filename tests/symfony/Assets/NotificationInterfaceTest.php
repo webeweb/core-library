@@ -29,9 +29,9 @@ class NotificationInterfaceTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $this->assertEquals("danger", NotificationInterface::NOTIFICATION_DANGER);
-        $this->assertEquals("info", NotificationInterface::NOTIFICATION_INFO);
-        $this->assertEquals("success", NotificationInterface::NOTIFICATION_SUCCESS);
-        $this->assertEquals("warning", NotificationInterface::NOTIFICATION_WARNING);
+        $this->assertEquals("danger", NotificationInterface::NOTIFICATION_TYPE_DANGER);
+        $this->assertEquals("info", NotificationInterface::NOTIFICATION_TYPE_INFO);
+        $this->assertEquals("success", NotificationInterface::NOTIFICATION_TYPE_SUCCESS);
+        $this->assertEquals("warning", NotificationInterface::NOTIFICATION_TYPE_WARNING);
     }
 }

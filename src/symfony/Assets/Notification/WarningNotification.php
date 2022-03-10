@@ -27,6 +27,6 @@ class WarningNotification extends AbstractNotification {
      * @param string $content The content.
      */
     public function __construct(string $content) {
-        parent::__construct(self::NOTIFICATION_WARNING, $content);
+        parent::__construct(self::NOTIFICATION_TYPE_WARNING, $content);
     }
 }

@@ -27,6 +27,6 @@ class InfoToast extends AbstractToast {
      * @param string $content The content.
      */
     public function __construct(string $content) {
-        parent::__construct(self::TOAST_INFO, $content);
+        parent::__construct(self::TOAST_TYPE_INFO, $content);
     }
 }

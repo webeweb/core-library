@@ -27,6 +27,6 @@ class WarningToast extends AbstractToast {
      * @param string $content The content.
      */
     public function __construct(string $content) {
-        parent::__construct(self::TOAST_WARNING, $content);
+        parent::__construct(self::TOAST_TYPE_WARNING, $content);
     }
 }

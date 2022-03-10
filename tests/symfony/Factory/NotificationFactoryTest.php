@@ -34,7 +34,7 @@ class NotificationFactoryTest extends AbstractTestCase {
 
         $this->assertInstanceOf(NotificationInterface::class, $obj);
         $this->assertEquals("content", $obj->getContent());
-        $this->assertEquals(NotificationInterface::NOTIFICATION_DANGER, $obj->getType());
+        $this->assertEquals(NotificationInterface::NOTIFICATION_TYPE_DANGER, $obj->getType());
     }
 
     /**
@@ -62,7 +62,7 @@ class NotificationFactoryTest extends AbstractTestCase {
 
         $this->assertInstanceOf(NotificationInterface::class, $obj);
         $this->assertEquals("content", $obj->getContent());
-        $this->assertEquals(NotificationInterface::NOTIFICATION_INFO, $obj->getType());
+        $this->assertEquals(NotificationInterface::NOTIFICATION_TYPE_INFO, $obj->getType());
     }
 
     /**
@@ -76,7 +76,7 @@ class NotificationFactoryTest extends AbstractTestCase {
 
         $this->assertInstanceOf(NotificationInterface::class, $obj);
         $this->assertEquals("content", $obj->getContent());
-        $this->assertEquals(NotificationInterface::NOTIFICATION_SUCCESS, $obj->getType());
+        $this->assertEquals(NotificationInterface::NOTIFICATION_TYPE_SUCCESS, $obj->getType());
     }
 
     /**
@@ -90,6 +90,6 @@ class NotificationFactoryTest extends AbstractTestCase {
 
         $this->assertInstanceOf(NotificationInterface::class, $obj);
         $this->assertEquals("content", $obj->getContent());
-        $this->assertEquals(NotificationInterface::NOTIFICATION_WARNING, $obj->getType());
+        $this->assertEquals(NotificationInterface::NOTIFICATION_TYPE_WARNING, $obj->getType());
     }
 }

@@ -32,7 +32,7 @@ class WarningNotificationTest extends AbstractTestCase {
 
         $obj = new WarningNotification("warning");
 
-        $this->assertEquals(NotificationInterface::NOTIFICATION_WARNING, $obj->getType());
+        $this->assertEquals(NotificationInterface::NOTIFICATION_TYPE_WARNING, $obj->getType());
         $this->assertEquals("warning", $obj->getContent());
     }
 }

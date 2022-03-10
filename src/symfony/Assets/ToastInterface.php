@@ -22,32 +22,32 @@ use JsonSerializable;
 interface ToastInterface extends JsonSerializable {
 
     /**
-     * Toast "danger".
+     * Toast type "danger".
      *
      * @var string
      */
-    const TOAST_DANGER = "danger";
+    const TOAST_TYPE_DANGER = "danger";
 
     /**
-     * Toast "info".
+     * Toast type "info".
      *
      * @var string
      */
-    const TOAST_INFO = "info";
+    const TOAST_TYPE_INFO = "info";
 
     /**
-     * Toast "success".
+     * Toast type "success".
      *
      * @var string
      */
-    const TOAST_SUCCESS = "success";
+    const TOAST_TYPE_SUCCESS = "success";
 
     /**
-     * Toast "warning".
+     * Toast type "warning".
      *
      * @var string
      */
-    const TOAST_WARNING = "warning";
+    const TOAST_TYPE_WARNING = "warning";
 
     /**
      * Get the content.

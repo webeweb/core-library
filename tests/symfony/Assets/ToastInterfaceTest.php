@@ -29,9 +29,9 @@ class ToastInterfaceTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $this->assertEquals("danger", ToastInterface::TOAST_DANGER);
-        $this->assertEquals("info", ToastInterface::TOAST_INFO);
-        $this->assertEquals("success", ToastInterface::TOAST_SUCCESS);
-        $this->assertEquals("warning", ToastInterface::TOAST_WARNING);
+        $this->assertEquals("danger", ToastInterface::TOAST_TYPE_DANGER);
+        $this->assertEquals("info", ToastInterface::TOAST_TYPE_INFO);
+        $this->assertEquals("success", ToastInterface::TOAST_TYPE_SUCCESS);
+        $this->assertEquals("warning", ToastInterface::TOAST_TYPE_WARNING);
     }
 }

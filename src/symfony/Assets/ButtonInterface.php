@@ -22,32 +22,32 @@ use JsonSerializable;
 interface ButtonInterface extends JsonSerializable {
 
     /**
-     * Button "danger".
+     * Button type "danger".
      *
      * @var string
      */
-    const BUTTON_DANGER = "danger";
+    const BUTTON_TYPE_DANGER = "danger";
 
     /**
-     * Button "info".
+     * Button type "info".
      *
      * @var string
      */
-    const BUTTON_INFO = "info";
+    const BUTTON_TYPE_INFO = "info";
 
     /**
-     * Button "success".
+     * Button type "success".
      *
      * @var string
      */
-    const BUTTON_SUCCESS = "success";
+    const BUTTON_TYPE_SUCCESS = "success";
 
     /**
-     * Button "warning".
+     * Button type "warning".
      *
      * @var string
      */
-    const BUTTON_WARNING = "warning";
+    const BUTTON_TYPE_WARNING = "warning";
 
     /**
      * Get the content.

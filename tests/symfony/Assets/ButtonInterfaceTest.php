@@ -29,9 +29,9 @@ class ButtonInterfaceTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $this->assertEquals("danger", ButtonInterface::BUTTON_DANGER);
-        $this->assertEquals("info", ButtonInterface::BUTTON_INFO);
-        $this->assertEquals("success", ButtonInterface::BUTTON_SUCCESS);
-        $this->assertEquals("warning", ButtonInterface::BUTTON_WARNING);
+        $this->assertEquals("danger", ButtonInterface::BUTTON_TYPE_DANGER);
+        $this->assertEquals("info", ButtonInterface::BUTTON_TYPE_INFO);
+        $this->assertEquals("success", ButtonInterface::BUTTON_TYPE_SUCCESS);
+        $this->assertEquals("warning", ButtonInterface::BUTTON_TYPE_WARNING);
     }
 }

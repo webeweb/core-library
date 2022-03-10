@@ -32,7 +32,7 @@ class InfoToastTest extends AbstractTestCase {
 
         $obj = new InfoToast("info");
 
-        $this->assertEquals(ToastInterface::TOAST_INFO, $obj->getType());
+        $this->assertEquals(ToastInterface::TOAST_TYPE_INFO, $obj->getType());
         $this->assertEquals("info", $obj->getContent());
     }
 }

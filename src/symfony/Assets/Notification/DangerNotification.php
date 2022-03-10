@@ -27,6 +27,6 @@ class DangerNotification extends AbstractNotification {
      * @param string $content The content.
      */
     public function __construct(string $content) {
-        parent::__construct(self::NOTIFICATION_DANGER, $content);
+        parent::__construct(self::NOTIFICATION_TYPE_DANGER, $content);
     }
 }

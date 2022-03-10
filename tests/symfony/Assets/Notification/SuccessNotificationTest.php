@@ -32,7 +32,7 @@ class SuccessNotificationTest extends AbstractTestCase {
 
         $obj = new SuccessNotification("success");
 
-        $this->assertEquals(NotificationInterface::NOTIFICATION_SUCCESS, $obj->getType());
+        $this->assertEquals(NotificationInterface::NOTIFICATION_TYPE_SUCCESS, $obj->getType());
         $this->assertEquals("success", $obj->getContent());
     }
 }

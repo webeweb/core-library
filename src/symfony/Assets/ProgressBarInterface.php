@@ -22,32 +22,32 @@ use JsonSerializable;
 interface ProgressBarInterface extends JsonSerializable {
 
     /**
-     * Progress bar "danger".
+     * Progress bar type "danger".
      *
      * @var string
      */
-    const PROGRESS_BAR_DANGER = "danger";
+    const PROGRESS_BAR_TYPE_DANGER = "danger";
 
     /**
-     * Progress bar "info".
+     * Progress bar type "info".
      *
      * @var string
      */
-    const PROGRESS_BAR_INFO = "info";
+    const PROGRESS_BAR_TYPE_INFO = "info";
 
     /**
-     * Progress bar "success".
+     * Progress bar type "success".
      *
      * @var string
      */
-    const PROGRESS_BAR_SUCCESS = "success";
+    const PROGRESS_BAR_TYPE_SUCCESS = "success";
 
     /**
-     * Progress bar "warning".
+     * Progress bar type "warning".
      *
      * @var string
      */
-    const PROGRESS_BAR_WARNING = "warning";
+    const PROGRESS_BAR_TYPE_WARNING = "warning";
 
     /**
      * Get the content.

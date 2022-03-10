@@ -32,7 +32,7 @@ class DangerNotificationTest extends AbstractTestCase {
 
         $obj = new DangerNotification("danger");
 
-        $this->assertEquals(NotificationInterface::NOTIFICATION_DANGER, $obj->getType());
+        $this->assertEquals(NotificationInterface::NOTIFICATION_TYPE_DANGER, $obj->getType());
         $this->assertEquals("danger", $obj->getContent());
     }
 }

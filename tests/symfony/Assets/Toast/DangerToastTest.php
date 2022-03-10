@@ -32,7 +32,7 @@ class DangerToastTest extends AbstractTestCase {
 
         $obj = new DangerToast("danger");
 
-        $this->assertEquals(ToastInterface::TOAST_DANGER, $obj->getType());
+        $this->assertEquals(ToastInterface::TOAST_TYPE_DANGER, $obj->getType());
         $this->assertEquals("danger", $obj->getContent());
     }
 }

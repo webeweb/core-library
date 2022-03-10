@@ -22,32 +22,32 @@ use JsonSerializable;
 interface BadgeInterface extends JsonSerializable {
 
     /**
-     * Badge "danger".
+     * Badge type "danger".
      *
      * @var string
      */
-    const BADGE_DANGER = "danger";
+    const BADGE_TYPE_DANGER = "danger";
 
     /**
-     * Badge "info".
+     * Badge type "info".
      *
      * @var string
      */
-    const BADGE_INFO = "info";
+    const BADGE_TYPE_INFO = "info";
 
     /**
-     * Badge "success".
+     * Badge type "success".
      *
      * @var string
      */
-    const BADGE_SUCCESS = "success";
+    const BADGE_TYPE_SUCCESS = "success";
 
     /**
-     * Badge "warning".
+     * Badge type "warning".
      *
      * @var string
      */
-    const BADGE_WARNING = "warning";
+    const BADGE_TYPE_WARNING = "warning";
 
     /**
      * Get the content.

@@ -32,7 +32,7 @@ class InfoNotificationTest extends AbstractTestCase {
 
         $obj = new InfoNotification("info");
 
-        $this->assertEquals(NotificationInterface::NOTIFICATION_INFO, $obj->getType());
+        $this->assertEquals(NotificationInterface::NOTIFICATION_TYPE_INFO, $obj->getType());
         $this->assertEquals("info", $obj->getContent());
     }
 }

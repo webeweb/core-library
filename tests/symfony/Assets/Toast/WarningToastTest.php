@@ -32,7 +32,7 @@ class WarningToastTest extends AbstractTestCase {
 
         $obj = new WarningToast("warning");
 
-        $this->assertEquals(ToastInterface::TOAST_WARNING, $obj->getType());
+        $this->assertEquals(ToastInterface::TOAST_TYPE_WARNING, $obj->getType());
         $this->assertEquals("warning", $obj->getContent());
     }
 }

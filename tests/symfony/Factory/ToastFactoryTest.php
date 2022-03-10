@@ -34,7 +34,7 @@ class ToastFactoryTest extends AbstractTestCase {
 
         $this->assertInstanceOf(ToastInterface::class, $obj);
         $this->assertEquals("content", $obj->getContent());
-        $this->assertEquals(ToastInterface::TOAST_DANGER, $obj->getType());
+        $this->assertEquals(ToastInterface::TOAST_TYPE_DANGER, $obj->getType());
     }
 
     /**
@@ -62,7 +62,7 @@ class ToastFactoryTest extends AbstractTestCase {
 
         $this->assertInstanceOf(ToastInterface::class, $obj);
         $this->assertEquals("content", $obj->getContent());
-        $this->assertEquals(ToastInterface::TOAST_INFO, $obj->getType());
+        $this->assertEquals(ToastInterface::TOAST_TYPE_INFO, $obj->getType());
     }
 
     /**
@@ -76,7 +76,7 @@ class ToastFactoryTest extends AbstractTestCase {
 
         $this->assertInstanceOf(ToastInterface::class, $obj);
         $this->assertEquals("content", $obj->getContent());
-        $this->assertEquals(ToastInterface::TOAST_SUCCESS, $obj->getType());
+        $this->assertEquals(ToastInterface::TOAST_TYPE_SUCCESS, $obj->getType());
     }
 
     /**
@@ -90,6 +90,6 @@ class ToastFactoryTest extends AbstractTestCase {
 
         $this->assertInstanceOf(ToastInterface::class, $obj);
         $this->assertEquals("content", $obj->getContent());
-        $this->assertEquals(ToastInterface::TOAST_WARNING, $obj->getType());
+        $this->assertEquals(ToastInterface::TOAST_TYPE_WARNING, $obj->getType());
     }
 }
