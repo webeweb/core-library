@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [8.32.1](https://github.com/webeweb/core-library/tree/v8.32.1) (2022-03-10)
+
+- Fix constant names
+
 ### [8.32.0](https://github.com/webeweb/core-library/tree/v8.32.0) (2022-03-09)
 
 > IMPORTANT NOTICE: The following packages has been moved
@@ -9,7 +13,7 @@ CHANGELOG
 > IMPORTANT NOTICE: The following classes has been moved
 > - WBW\Library\Core\Helper\LuhnAlgorithm
 
-> IMPORTANT NOTICE: The following packages come from [core-bundle](https://github.com/webeweb/core-library)
+> IMPORTANT NOTICE: The following packages come from [core-bundle](https://github.com/webeweb/core-bundle)
 > - WBW\Library\Symfony\Assets
 > - WBW\Library\Symfony\Color
 > - WBW\Library\Symfony\Exception
