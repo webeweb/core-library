@@ -9,6 +9,8 @@ CHANGELOG
 - Add boolean disabled trait
 - Add boolean dismissible trait
 - Add boolean striped trait
+- Add Default JSON response data
+- Add Simple JSON response data
 
 ### [8.32.3](https://github.com/webeweb/core-library/tree/v8.32.3) (2022-03-10)
 
