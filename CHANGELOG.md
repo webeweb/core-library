@@ -5,7 +5,10 @@ CHANGELOG
 
 - Add array data trait
 - Add array errors trait
+- Add boolean animated trait
 - Add boolean disabled trait
+- Add boolean dismissible trait
+- Add boolean striped trait
 
 ### [8.32.3](https://github.com/webeweb/core-library/tree/v8.32.3) (2022-03-10)
 
