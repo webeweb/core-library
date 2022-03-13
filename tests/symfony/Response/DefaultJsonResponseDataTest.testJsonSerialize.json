@@ -1,0 +1,10 @@
+{
+    "data": [
+        "data"
+    ],
+    "errors": [
+        "error"
+    ],
+    "message": "message",
+    "success": true
+}
