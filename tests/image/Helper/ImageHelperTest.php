@@ -55,6 +55,8 @@ class ImageHelperTest extends AbstractTestCase {
 
         $res = file_get_contents(__DIR__ . "/ImageHelperTest.testBase64Encode.txt");
         $this->assertEquals($res, ImageHelper::base64Encode($src));
+
+        $this->assertNull(ImageHelper::base64Encode(null));
     }
 
     /**
