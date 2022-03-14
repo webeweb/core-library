@@ -1,6 +1,12 @@
 CHANGELOG
 =========
 
+### [8.34.0](https://github.com/webeweb/core-library/tree/v8.34.0) (2022-03-14)
+
+- Add Image factory
+- Improve Image helper
+- Improve Image model
+
 ### [8.33.0](https://github.com/webeweb/core-library/tree/v8.33.0) (2022-03-14)
 
 - Add array data trait
