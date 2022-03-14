@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### master
+
+- Add Label interface
+
 ### [8.34.0](https://github.com/webeweb/core-library/tree/v8.34.0) (2022-03-14)
 
 - Add Image factory
