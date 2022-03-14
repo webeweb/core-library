@@ -19,6 +19,7 @@ use WBW\Library\Symfony\Assets\BadgeInterface;
 use WBW\Library\Symfony\Assets\ButtonInterface;
 use WBW\Library\Symfony\Assets\FullCalendarEventInterface;
 use WBW\Library\Symfony\Assets\IconInterface;
+use WBW\Library\Symfony\Assets\LabelInterface;
 use WBW\Library\Symfony\Assets\NavigationNodeInterface;
 use WBW\Library\Symfony\Assets\NotificationInterface;
 use WBW\Library\Symfony\Assets\ProgressBarInterface;
@@ -123,6 +124,19 @@ class JsonSerializer {
         return [
             SerializerKeys::NAME  => $model->getName(),
             SerializerKeys::STYLE => $model->getStyle(),
+        ];
+    }
+
+    /**
+     * Serializes a label.
+     *
+     * @param LabelInterface $model The model.
+     * @return array Returns the serialized model.
+     */
+    public static function serializeLabel(LabelInterface $model): array {
+        return [
+            SerializerKeys::CONTENT => $model->getContent(),
+            SerializerKeys::TYPE    => $model->getType(),
         ];
     }
 
