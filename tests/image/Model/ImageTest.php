@@ -43,6 +43,19 @@ class ImageTest extends AbstractTestCase {
     }
 
     /**
+     * Tests base64Encode()
+     *
+     * @return void
+     */
+    public function testBase64Encode(): void {
+
+        $obj = new Image($this->images[0]);
+
+        $res = file_get_contents(__DIR__ . "/../Helper/ImageHelperTest.testBase64Encode.txt");
+        $this->assertEquals($res, $obj->base64Encode());
+    }
+
+    /**
      * Tests init()
      *
      * @return void
@@ -78,8 +91,7 @@ class ImageTest extends AbstractTestCase {
 
         $obj = new Image($this->images[0]);
 
-        $res = $obj->resize(1000, 500, $pathname);
-        $this->assertTrue($res);
+        $this->assertTrue($obj->resize(1000, 500, $pathname));
     }
 
     /**
