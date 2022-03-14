@@ -11,9 +11,11 @@
 
 namespace WBW\Library\Image\Tests\Helper;
 
+use WBW\Library\Image\Factory\ImageFactory;
 use WBW\Library\Image\Helper\ImageHelper;
 use WBW\Library\Image\Model\Image;
 use WBW\Library\Image\Tests\AbstractTestCase;
+use WBW\Library\Image\Tests\Fixtures\Helper\TestImageHelper;
 use WBW\Library\Image\Tests\Fixtures\TestFixtures;
 
 /**
@@ -37,56 +39,41 @@ class ImageHelperTest extends AbstractTestCase {
     protected function setUp(): void {
         parent::setUp();
 
-        // Set the images mock.
+        // Set the Image mocks.
         $this->images = TestFixtures::getImages();
     }
 
     /**
-     * Tests newDimensions()
+     * Tests base64Encode()
      *
      * @return void
      */
-    public function testNewDimensions(): void {
+    public function testBase64Encode(): void {
 
-        $hImage = new Image($this->images[1]); // Horizontal image
-        $sImage = new Image($this->images[2]); // Square image
-        $vImage = new Image($this->images[3]); // Vertical image
+        // Set the mocks.
+        $src = realpath($this->images[0]);
 
-        $this->assertEquals([1920, 1037], ImageHelper::newDimensions($hImage, 2000, 1100));
-        $this->assertEquals([1000, 540], ImageHelper::newDimensions($hImage, 1000, 900));
-
-        $this->assertEquals([1600, 1600], ImageHelper::newDimensions($sImage, 1600, 1200));
-        $this->assertEquals([1600, 1600], ImageHelper::newDimensions($sImage, 1200, 1600));
-
-        $this->assertEquals([540, 1000], ImageHelper::newDimensions($vImage, 900, 1000));
+        $res = file_get_contents(__DIR__ . "/ImageHelperTest.testBase64Encode.txt");
+        $this->assertEquals($res, ImageHelper::base64Encode($src));
     }
 
     /**
-     * Tests newInputStream()
+     * Tests resize()
      *
      * @return void
      */
-    public function testNewInputStream(): void {
+    public function testResize(): void {
 
-        $jpg = new Image($this->images[0]);
-        $png = new Image($this->images[1]);
+        // Set a pathname mock.
+        $pathname = str_replace(".jpg", "_thumb.jpg", $this->images[0]);
+        if (true === file_exists($pathname)) {
+            unlink($pathname);
+        }
 
-        $this->assertNotNull(ImageHelper::newInputStream($jpg));
-        $this->assertNotNull(ImageHelper::newInputStream($png));
-    }
+        // Set an Image mock.
+        $image = new Image($this->images[0]);
 
-    /**
-     * Tests newOutputStream()
-     *
-     * @return void
-     */
-    public function testNewOutputStream(): void {
-
-        $jpg = new Image($this->images[0]);
-        $png = new Image($this->images[1]);
-
-        $this->assertNotNull(ImageHelper::newOutputStream($jpg, 1920, 1080));
-        $this->assertNotNull(ImageHelper::newOutputStream($png, 1920, 1080));
+        $this->assertTrue(ImageHelper::resize($image, 1000, 500, $pathname));
     }
 
     /**
@@ -105,11 +92,11 @@ class ImageHelperTest extends AbstractTestCase {
         $jpg = new Image($this->images[0]);
         $png = new Image($this->images[1]);
 
-        $outJpg = ImageHelper::newOutputStream($jpg, 100, 100);
-        $this->assertTrue(ImageHelper::saveOutputStream($jpg, $outJpg, $paths[0]));
+        $outJpg = ImageFactory::newOutputStream($jpg, 100, 100);
+        $this->assertTrue(TestImageHelper::saveOutputStream($jpg, $outJpg, $paths[0]));
 
-        $outPng = ImageHelper::newOutputStream($png, 100, 100);
-        $this->assertTrue(ImageHelper::saveOutputStream($png, $outPng, $paths[1]));
+        $outPng = ImageFactory::newOutputStream($png, 100, 100);
+        $this->assertTrue(TestImageHelper::saveOutputStream($png, $outPng, $paths[1]));
 
         // Clean up
         foreach ($paths as $current) {

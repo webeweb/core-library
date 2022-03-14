@@ -11,6 +11,9 @@
 
 namespace WBW\Library\Image\Helper;
 
+use RuntimeException;
+use SplFileObject;
+use WBW\Library\Image\Factory\ImageFactory;
 use WBW\Library\Image\Model\Image;
 use WBW\Library\Image\Model\ImageInterface;
 
@@ -23,91 +26,52 @@ use WBW\Library\Image\Model\ImageInterface;
 class ImageHelper {
 
     /**
-     * Creates new dimensions.
+     * Encode an image into base 64.
      *
-     * @param Image $image The image.
-     * @param int $maxWidth The maximum width.
-     * @param int $maxHeight The maximum height.
-     * @return int[] Returns the dimensions.
+     * @param string|null $uri The URI.
+     * @return string|null Returns the image encoded into base 64.
      */
-    public static function newDimensions(Image $image, int $maxWidth, int $maxHeight): array {
+    public static function base64Encode(?string $uri): ?string {
 
-        $image->init();
-
-        if ($image->getWidth() < $maxWidth || $image->getHeight() < $maxHeight) {
-            return [$image->getWidth(), $image->getHeight()];
+        if (null === $uri) {
+            return null;
         }
 
-        if (null === $image->getOrientation()) {
-            $max = max($maxWidth, $maxHeight);
-            return [$max, $max];
+        $data = "";
+
+        $splFileObject = new SplFileObject($uri);
+        while (false === $splFileObject->eof()) {
+            $data .= $splFileObject->fgets();
         }
 
-        $ratio = $image->getWidth() / $image->getHeight();
-
-        $width  = $maxWidth;
-        $height = $maxHeight;
-
-        if (ImageInterface::ORIENTATION_HORIZONTAL === $image->getOrientation()) {
-            $height = intval($width / $ratio);
-        } else {
-            $width = intval($height * $ratio);
-        }
-
-        return [$width, $height];
+        return sprintf("data:%s;base64,%s", mime_content_type($uri), base64_encode($data));
     }
 
     /**
-     * Create an input stream.
+     * Resize.
      *
-     * @param Image $image The image.
-     * @return resource|null Returns the input stream in case of success, null otherwise.
+     * @param int $newWidth The new width.
+     * @param int $newHeight The new height.
+     * @param string $pathname The pathname.
+     * @return bool Returns true in case of success, false otherwise.
+     * @throws RuntimeException Throws a runtime exception if the re-sampled copy failed.
      */
-    public static function newInputStream(Image $image) {
+    public static function resize(Image $image, int $newWidth, int $newHeight, string $pathname): bool {
 
-        $stream = null;
+        [$w, $h] = ImageFactory::newDimensions($image, $newWidth, $newHeight);
 
-        switch ($image->init()->getMimeType()) {
-
-            case ImageInterface::MIME_TYPE_JPEG:
-                $stream = imagecreatefromjpeg($image->getPathname());
-                break;
-
-            case ImageInterface::MIME_TYPE_PNG:
-                $stream = imagecreatefrompng($image->getPathname());
-                if (false !== $stream) {
-                    imagealphablending($stream, true);
-                }
-                break;
+        $input  = ImageFactory::newInputStream($image);
+        $output = ImageFactory::newOutputStream($image, $w, $h);
+        if (null === $output) {
+            throw new RuntimeException("Failed to create true color image");
         }
 
-        return false !== $stream ? $stream : null;
-    }
-
-    /**
-     * Create an output stream.
-     *
-     * @param Image $image the image.
-     * @param int $width The width.
-     * @param int $height The height.
-     * @return resource|null Returns the output stream in case of success, null otherwise.
-     */
-    public static function newOutputStream(Image $image, int $width, int $height) {
-
-        $stream = imagecreatetruecolor($width, $height);
-
-        switch ($image->init()->getMimeType()) {
-
-            case ImageInterface::MIME_TYPE_PNG:
-
-                if (false !== $stream) {
-                    imagealphablending($stream, false);
-                    imagesavealpha($stream, true);
-                }
-                break;
+        $result = imagecopyresampled($output, $input, 0, 0, 0, 0, $w, $h, $image->getWidth(), $image->getHeight());
+        if (false === $result) {
+            throw new RuntimeException("Failed to copy re-sampled image");
         }
 
-        return false !== $stream ? $stream : null;
+        return ImageHelper::saveOutputStream($image, $output, $pathname);
     }
 
     /**
@@ -118,7 +82,7 @@ class ImageHelper {
      * @param string $pathname The pathname.
      * @return bool Returns true in case of success, false otherwise.
      */
-    public static function saveOutputStream(Image $image, $outputStream, string $pathname): bool {
+    protected static function saveOutputStream(Image $image, $outputStream, string $pathname): bool {
 
         switch ($image->init()->getMimeType()) {
 
