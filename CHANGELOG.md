@@ -1,9 +1,10 @@
 CHANGELOG
 =========
 
-### master
+### [8.35.0](https://github.com/webeweb/core-library/tree/v8.35.0) (2022-03-16)
 
 - Add Label interface
+- Add wordWrap() into String helper
 
 ### [8.34.0](https://github.com/webeweb/core-library/tree/v8.34.0) (2022-03-14)
 
