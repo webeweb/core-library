@@ -308,6 +308,25 @@ class StringHelperTest extends AbstractTestCase {
     }
 
     /**
+     * Tests wordWrap()
+     *
+     * @return void
+     */
+    public function testWordWrap() : void {
+
+        $this->assertEquals(null, StringHelper::wordWrap(null));
+
+        $this->assertEquals("Hello world !", StringHelper::wordWrap("Hello world !")); // $length = -1
+        $this->assertEquals("Hello world !", StringHelper::wordWrap("Hello world !", 20)); // strlen($string) < $length
+        $this->assertEquals("Helloworld!", StringHelper::wordWrap("Helloworld!", 20)); // 0 === count($words)
+
+        $this->assertEquals("Hello world\n!", StringHelper::wordWrap("Hello world !", 10));
+        $this->assertEquals("Hello\nworld !", StringHelper::wordWrap("Hello world !", 10, 0));
+        $this->assertEquals("Hello\nworld\n!", StringHelper::wordWrap("Hello world !", 5, 0));
+        $this->assertEquals("Hello<br/>world !", StringHelper::wordWrap("Hello world !", 10, 0, "<br/>"));
+    }
+
+    /**
      * Tests ucwords()
      *
      * @return void

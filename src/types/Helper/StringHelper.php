@@ -306,4 +306,47 @@ class StringHelper {
     public static function ucwords(?string $string, string $separators = " \t\r\n\f\v-"): ?string {
         return ucwords(strtolower($string), $separators);
     }
+
+    /**
+     * Word wrap.
+     *
+     * @param string|null $string The string.
+     * @param int $length The length.
+     * @param int $precision The precision.
+     * @param string $separator The separator.
+     * @return string|null Returns the word wrapped string.
+     */
+    public static function wordWrap(?string $string, int $length = -1, int $precision = 3, string $separator = "\n"): ?string {
+
+        if (null === $string) {
+            return null;
+        }
+
+        $needle = " ";
+        $words  = explode($needle, $string);
+        $count  = count($words);
+
+        if (-1 === $length || strlen($string) < $length || 0 === $count) {
+            return $string;
+        }
+
+        $output = [
+            $words[0],
+        ];
+
+        for ($i = 1; $i < $count; ++$i) {
+
+            $word = $words[$i];
+            $last = count($output) - 1;
+
+            $buffer = implode($needle, array_merge([$output[$last]], [$word]));
+            if (strlen($buffer) < $length + $precision) {
+                $output[$last] .= "$needle$word";
+            } else {
+                $output[] = $word;
+            }
+        }
+
+        return implode($separator, $output);
+    }
 }
