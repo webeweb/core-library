@@ -67,10 +67,10 @@ class UploadedFileService {
      *
      * @param SplFileInfo $uploadedFile The uploaded file.
      * @param string $subdirectory The subdirectory.
-     * @param string $basename The basename.
+     * @param string $filename The filename.
      * @return string|null Returns the uploaded file path.
      */
-    public function save(SplFileInfo $uploadedFile, string $subdirectory, string $basename): ?string {
+    public function save(SplFileInfo $uploadedFile, string $subdirectory, string $filename): ?string {
 
         // Directory
         $dir = implode("", [
@@ -79,16 +79,10 @@ class UploadedFileService {
             $subdirectory,
         ]);
 
-        // Filename
-        $new = implode(".", [
-            $basename,
-            $uploadedFile->getExtension(),
-        ]);
-
         // Destination
         $dst = implode(DIRECTORY_SEPARATOR, [
             $dir,
-            $new,
+            $filename,
         ]);
 
         if (false === $this->mkdir($dir) || false === rename($uploadedFile->getPathname(), $dst)) {

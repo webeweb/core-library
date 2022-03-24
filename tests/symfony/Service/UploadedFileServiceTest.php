@@ -72,7 +72,7 @@ class UploadedFileServiceTest extends AbstractTestCase {
 
         $obj = new UploadedFileService($this->directory);
 
-        $res = $obj->save($uploadedFile, "/subdirectory", "basename");
+        $res = $obj->save($uploadedFile, "/subdirectory", "basename.bak");
         $this->assertEquals("/uploads/subdirectory/basename.bak", $res);
 
         $this->assertFileExists("$dir/basename.bak");
