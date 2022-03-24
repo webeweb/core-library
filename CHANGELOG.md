@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+### [8.36.0](https://github.com/webeweb/core-library/tree/v8.36.0) (2022-03-24)
+
+- Fix Uploaded file service save method
+- Improve World's wisdom quote provider
+
 ### [8.35.0](https://github.com/webeweb/core-library/tree/v8.35.0) (2022-03-16)
 
 - Add Label interface
