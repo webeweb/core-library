@@ -67,10 +67,10 @@ class UploadedFileService {
      *
      * @param SplFileInfo $uploadedFile The uploaded file.
      * @param string $subdirectory The subdirectory.
-     * @param string $filename The filename.
+     * @param string|null $filename The filename.
      * @return string|null Returns the uploaded file path.
      */
-    public function save(SplFileInfo $uploadedFile, string $subdirectory, string $filename): ?string {
+    public function save(SplFileInfo $uploadedFile, string $subdirectory, string $filename = null): ?string {
 
         // Directory
         $dir = implode("", [
@@ -82,7 +82,7 @@ class UploadedFileService {
         // Destination
         $dst = implode(DIRECTORY_SEPARATOR, [
             $dir,
-            $filename,
+            null !== $filename ? $filename : $uploadedFile->getFilename(),
         ]);
 
         if (false === $this->mkdir($dir) || false === rename($uploadedFile->getPathname(), $dst)) {
@@ -90,5 +90,25 @@ class UploadedFileService {
         }
 
         return str_replace($this->getDirectory(), "", $dst);
+    }
+
+    /**
+     * Unlink.
+     *
+     * @param string $filename The filename.
+     * @return bool|null Returns true in case of success, false otherwise.
+     */
+    public function unlink(string $filename): ?bool {
+
+        $pathname = implode(DIRECTORY_SEPARATOR, [
+            $this->getDirectory(),
+            $filename,
+        ]);
+
+        if (true === file_exists($pathname)) {
+            return unlink($pathname);
+        }
+
+        return null;
     }
 }

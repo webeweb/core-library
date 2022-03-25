@@ -79,6 +79,19 @@ class UploadedFileServiceTest extends AbstractTestCase {
     }
 
     /**
+     * Tests unlink()
+     *
+     * @return void
+     */
+    public function testUnlink(): void {
+
+        $obj = new UploadedFileService($this->directory);
+
+        $this->assertNull($obj->unlink("exception"));
+        $this->assertTrue($obj->unlink("/uploads/subdirectory/basename.bak"));
+    }
+
+    /**
      * Tests __construct()
      *
      * @return void
