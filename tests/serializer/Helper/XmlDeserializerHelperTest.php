@@ -31,22 +31,15 @@ class XmlDeserializerHelperTest extends AbstractTestCase {
     private $document;
 
     /**
-     * Filename.
-     *
-     * @var string
-     */
-    private $filename;
-
-    /**
      * {@inheritDoc}
      */
     protected function setUp(): void {
         parent::setUp();
 
         // Set a filename mock.
-        $this->filename = realpath(__DIR__ . "/XmlSerializerHelperTest.xml");
+        $filename = realpath(__DIR__ . "/XmlSerializerHelperTest.xml");
 
-        $content = XmlDeserializerHelper::xmlEntities($this->filename);
+        $content = XmlDeserializerHelper::xmlEntities($filename);
 
         // Set a DOM document mock.
         $this->document = new DOMDocument();

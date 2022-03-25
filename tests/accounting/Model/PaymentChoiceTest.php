@@ -14,8 +14,8 @@ namespace WBW\Library\Accounting\Tests\Model;
 use JsonSerializable;
 use WBW\Library\Accounting\Model\PaymentChoice;
 use WBW\Library\Accounting\Model\PaymentChoiceInterface;
-use WBW\Library\Accounting\Serializer\SerializerKeys;
 use WBW\Library\Accounting\Tests\AbstractTestCase;
+use WBW\Library\Serializer\SerializerKeys as BaseSerializerKeys;
 
 /**
  * Payment choice test.
@@ -37,7 +37,7 @@ class PaymentChoiceTest extends AbstractTestCase {
         $json = json_decode($data, true);
 
         $obj = new PaymentChoice();
-        $obj->setLabel(SerializerKeys::LABEL);
+        $obj->setLabel(BaseSerializerKeys::LABEL);
 
         $res = $obj->jsonSerialize();
         $this->assertCount(1, $res);

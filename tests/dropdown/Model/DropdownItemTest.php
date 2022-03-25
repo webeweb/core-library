@@ -14,8 +14,8 @@ namespace WBW\Library\Dropdown\Tests\Model;
 use JsonSerializable;
 use WBW\Library\Dropdown\Model\DropdownItem;
 use WBW\Library\Dropdown\Model\DropdownItemInterface;
-use WBW\Library\Dropdown\Serializer\SerializerKeys;
 use WBW\Library\Dropdown\Tests\AbstractTestCase;
+use WBW\Library\Serializer\SerializerKeys as BaseSerializerKeys;
 
 /**
  * Dropdown item test.
@@ -37,7 +37,7 @@ class DropdownItemTest extends AbstractTestCase {
 
         $obj = new DropdownItem();
         $obj->setByDefault(true);
-        $obj->setLabel(SerializerKeys::LABEL);
+        $obj->setLabel(BaseSerializerKeys::LABEL);
         $obj->setPosition(0);
 
         $res = $obj->jsonSerialize();

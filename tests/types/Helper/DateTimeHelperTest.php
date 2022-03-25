@@ -541,6 +541,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      * Tests range()
      *
      * @return void
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testRange(): void {
 

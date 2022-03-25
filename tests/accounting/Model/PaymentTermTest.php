@@ -14,8 +14,8 @@ namespace WBW\Library\Accounting\Tests\Model;
 use JsonSerializable;
 use WBW\Library\Accounting\Model\PaymentTerm;
 use WBW\Library\Accounting\Model\PaymentTermInterface;
-use WBW\Library\Accounting\Serializer\SerializerKeys;
 use WBW\Library\Accounting\Tests\AbstractTestCase;
+use WBW\Library\Serializer\SerializerKeys as BaseSerializerKeys;
 
 /**
  * Payment term test.
@@ -37,8 +37,8 @@ class PaymentTermTest extends AbstractTestCase {
         $json = json_decode($data, true);
 
         $obj = new PaymentTerm();
-        $obj->setCode(SerializerKeys::CODE);
-        $obj->setLabel(SerializerKeys::LABEL);
+        $obj->setCode(BaseSerializerKeys::CODE);
+        $obj->setLabel(BaseSerializerKeys::LABEL);
 
         $res = $obj->jsonSerialize();
         $this->assertCount(2, $res);

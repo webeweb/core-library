@@ -50,7 +50,7 @@ class IOFileTest extends AbstractTestCase {
 
         $obj = new IOFile($this->filename);
 
-        $this->assertEquals("{$md5}.der", $obj->getUniqFilenameDer());
+        $this->assertEquals("$md5.der", $obj->getUniqFilenameDer());
     }
 
     /**
@@ -64,7 +64,7 @@ class IOFileTest extends AbstractTestCase {
 
         $obj = new IOFile($this->filename);
 
-        $this->assertEquals("{$md5}.pdf", $obj->getUniqFilenamePdf());
+        $this->assertEquals("$md5.pdf", $obj->getUniqFilenamePdf());
     }
 
     /**
@@ -78,7 +78,7 @@ class IOFileTest extends AbstractTestCase {
 
         $obj = new IOFile($this->filename);
 
-        $this->assertEquals("~{$md5}.tif", $obj->getUniqFilenameTif());
+        $this->assertEquals("~$md5.tif", $obj->getUniqFilenameTif());
     }
 
     /**
@@ -92,7 +92,7 @@ class IOFileTest extends AbstractTestCase {
 
         $obj = new IOFile($this->filename);
 
-        $this->assertEquals("{$md5}.xml", $obj->getUniqFilenameXml());
+        $this->assertEquals("$md5.xml", $obj->getUniqFilenameXml());
     }
 
     /**

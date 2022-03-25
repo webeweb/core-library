@@ -35,7 +35,7 @@ foreach (new DirectoryIterator($working) as $current) {
 
     $filename = strtolower($current->getFilename());
 
-    $rootFile = preg_match("/^DataTables\-[0-9\.]+$/", $current->getFilename());
+    $rootFile = preg_match("/^DataTables-[0-9.]+$/", $current->getFilename());
     if (0 === $rootFile) {
         $filename = "datatables-$filename";
     }

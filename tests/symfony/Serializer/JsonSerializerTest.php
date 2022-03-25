@@ -11,7 +11,6 @@
 
 namespace WBW\Library\Symfony\Tests\Serializer;
 
-use WBW\Bundle\CoreBundle\Tests\Fixtures\Asset\Select\Select2\TestSelect2Option;
 use WBW\Library\Symfony\Serializer\JsonSerializer;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 use WBW\Library\Symfony\Tests\Fixtures\Assets\TestSelect2OptionInterface;

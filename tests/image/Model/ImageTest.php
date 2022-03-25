@@ -14,6 +14,7 @@ namespace WBW\Library\Image\Tests\Model;
 use Exception;
 use InvalidArgumentException;
 use WBW\Library\Image\Model\Image;
+use WBW\Library\Image\Model\ImageInterface;
 use WBW\Library\Image\Tests\AbstractTestCase;
 use WBW\Library\Image\Tests\Fixtures\TestFixtures;
 
@@ -71,7 +72,7 @@ class ImageTest extends AbstractTestCase {
         $this->assertEquals("TestImage_1920x1037.png", $obj->getFilename());
         $this->assertEquals(1037, $obj->getHeight());
         $this->assertEquals("image/png", $obj->getMimeType());
-        $this->assertEquals(Image::ORIENTATION_HORIZONTAL, $obj->getOrientation());
+        $this->assertEquals(ImageInterface::ORIENTATION_HORIZONTAL, $obj->getOrientation());
         $this->assertEquals(127373, $obj->getSize());
         $this->assertEquals(1920, $obj->getWidth());
     }
@@ -132,7 +133,7 @@ class ImageTest extends AbstractTestCase {
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
-            $this->assertEquals("The image \"{$pathname}\" was not found", $ex->getMessage());
+            $this->assertEquals("The image \"$pathname\" was not found", $ex->getMessage());
         }
     }
 }

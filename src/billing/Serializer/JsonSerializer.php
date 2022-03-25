@@ -23,6 +23,7 @@ use WBW\Library\Billing\Model\SalesBillInterface;
 use WBW\Library\Billing\Model\SendingAddressInterface;
 use WBW\Library\Billing\Model\TaxableInterface;
 use WBW\Library\Serializer\Helper\JsonSerializerHelper;
+use WBW\Library\Serializer\SerializerKeys as BaseSerializerKeys;
 
 /**
  * JSON serializer.
@@ -40,19 +41,19 @@ class JsonSerializer {
      */
     public static function serializeBillable(BillableInterface $model): array {
         return [
-            SerializerKeys::COMMENT             => $model->getComment(),
-            SerializerKeys::CREATED_AT          => $model->getCreatedAt(),
-            SerializerKeys::DATE                => $model->getDate(),
-            SerializerKeys::DETAILS             => JsonSerializerHelper::jsonSerializeArray($model->getDetails()),
-            SerializerKeys::DISCOUNT_RATE       => $model->getDiscountRate(),
-            SerializerKeys::DISCOUNT_TOTAL      => $model->getDiscountTotal(),
-            SerializerKeys::EXCLUDING_VAT_TOTAL => $model->getExcludingVatTotal(),
-            SerializerKeys::INCLUDING_VAT_TOTAL => $model->getIncludingVatTotal(),
-            SerializerKeys::NUMBER              => $model->getNumber(),
-            SerializerKeys::PARENT              => JsonSerializerHelper::jsonSerializeModel($model->getParent()),
-            SerializerKeys::REFERENCE           => $model->getReference(),
-            SerializerKeys::UPDATED_AT          => $model->getUpdatedAt(),
-            SerializerKeys::VAT_TOTAL           => $model->getVatTotal(),
+            BaseSerializerKeys::COMMENT             => $model->getComment(),
+            BaseSerializerKeys::CREATED_AT          => $model->getCreatedAt(),
+            BaseSerializerKeys::DATE                => $model->getDate(),
+            SerializerKeys::DETAILS                 => JsonSerializerHelper::jsonSerializeArray($model->getDetails()),
+            BaseSerializerKeys::DISCOUNT_RATE       => $model->getDiscountRate(),
+            BaseSerializerKeys::DISCOUNT_TOTAL      => $model->getDiscountTotal(),
+            BaseSerializerKeys::EXCLUDING_VAT_TOTAL => $model->getExcludingVatTotal(),
+            BaseSerializerKeys::INCLUDING_VAT_TOTAL => $model->getIncludingVatTotal(),
+            BaseSerializerKeys::NUMBER              => $model->getNumber(),
+            BaseSerializerKeys::PARENT              => JsonSerializerHelper::jsonSerializeModel($model->getParent()),
+            BaseSerializerKeys::REFERENCE           => $model->getReference(),
+            BaseSerializerKeys::UPDATED_AT          => $model->getUpdatedAt(),
+            BaseSerializerKeys::VAT_TOTAL           => $model->getVatTotal(),
         ];
     }
 
@@ -67,14 +68,14 @@ class JsonSerializer {
         $result = static::serializeTaxable($model);
 
         return array_merge($result, [
-            SerializerKeys::COMMENT             => $model->getComment(),
-            SerializerKeys::DISCOUNT_TOTAL      => $model->getDiscountTotal(),
-            SerializerKeys::EXCLUDING_VAT_TOTAL => $model->getExcludingVatTotal(),
-            SerializerKeys::INCLUDING_VAT_TOTAL => $model->getIncludingVatTotal(),
-            SerializerKeys::LABEL               => $model->getLabel(),
-            SerializerKeys::QUANTITY            => $model->getQuantity(),
-            SerializerKeys::REFERENCE           => $model->getReference(),
-            SerializerKeys::VAT_TOTAL           => $model->getVatTotal(),
+            BaseSerializerKeys::COMMENT             => $model->getComment(),
+            BaseSerializerKeys::DISCOUNT_TOTAL      => $model->getDiscountTotal(),
+            BaseSerializerKeys::EXCLUDING_VAT_TOTAL => $model->getExcludingVatTotal(),
+            BaseSerializerKeys::INCLUDING_VAT_TOTAL => $model->getIncludingVatTotal(),
+            BaseSerializerKeys::LABEL               => $model->getLabel(),
+            BaseSerializerKeys::QUANTITY            => $model->getQuantity(),
+            BaseSerializerKeys::REFERENCE           => $model->getReference(),
+            BaseSerializerKeys::VAT_TOTAL           => $model->getVatTotal(),
         ]);
     }
 
@@ -133,7 +134,7 @@ class JsonSerializer {
         $result = static::serializeBillable($model);
 
         return array_merge($result, [
-            SerializerKeys::PAYMENT_DATE => $model->getPaymentDate(),
+            BaseSerializerKeys::PAYMENT_DATE => $model->getPaymentDate(),
         ]);
     }
 
@@ -197,12 +198,12 @@ class JsonSerializer {
      */
     public static function serializeTaxable(TaxableInterface $model): array {
         return [
-            SerializerKeys::DISCOUNT_AMOUNT     => $model->getDiscountAmount(),
-            SerializerKeys::DISCOUNT_RATE       => $model->getDiscountRate(),
-            SerializerKeys::EXCLUDING_VAT_PRICE => $model->getExcludingVatPrice(),
-            SerializerKeys::INCLUDING_VAT_PRICE => $model->getIncludingVatPrice(),
-            SerializerKeys::VAT_AMOUNT          => $model->getVatAmount(),
-            SerializerKeys::VAT_RATE            => $model->getVatRate(),
+            BaseSerializerKeys::DISCOUNT_AMOUNT     => $model->getDiscountAmount(),
+            BaseSerializerKeys::DISCOUNT_RATE       => $model->getDiscountRate(),
+            BaseSerializerKeys::EXCLUDING_VAT_PRICE => $model->getExcludingVatPrice(),
+            BaseSerializerKeys::INCLUDING_VAT_PRICE => $model->getIncludingVatPrice(),
+            BaseSerializerKeys::VAT_AMOUNT          => $model->getVatAmount(),
+            BaseSerializerKeys::VAT_RATE            => $model->getVatRate(),
         ];
     }
 }

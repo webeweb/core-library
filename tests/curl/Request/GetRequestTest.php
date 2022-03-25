@@ -12,6 +12,7 @@
 namespace WBW\Library\Curl\Tests\Request;
 
 use Exception;
+use WBW\Library\Curl\Api\RequestInterface;
 use WBW\Library\Curl\Exception\RequestCallException;
 use WBW\Library\Curl\Helper\CurlHelper;
 use WBW\Library\Curl\Request\GetRequest;
@@ -37,7 +38,7 @@ class GetRequestTest extends AbstractTestCase {
         $obj->getConfiguration()->setAllowEncoding(true);
 
         $res = $obj->call();
-        $this->assertEquals(GetRequest::METHOD_GET, json_decode($res->getResponseBody(), true)["method"]);
+        $this->assertEquals(RequestInterface::METHOD_GET, json_decode($res->getResponseBody(), true)["method"]);
         $this->assertEquals(200, $res->getResponseInfo()["http_code"]);
     }
 
@@ -53,7 +54,7 @@ class GetRequestTest extends AbstractTestCase {
         $obj->getConfiguration()->setConnectTimeout(30);
 
         $res = $obj->call();
-        $this->assertEquals(GetRequest::METHOD_GET, json_decode($res->getResponseBody(), true)["method"]);
+        $this->assertEquals(RequestInterface::METHOD_GET, json_decode($res->getResponseBody(), true)["method"]);
         $this->assertEquals(200, $res->getResponseInfo()["http_code"]);
     }
 
@@ -69,7 +70,7 @@ class GetRequestTest extends AbstractTestCase {
         $obj->getConfiguration()->setDebug(true);
 
         $res = $obj->call();
-        $this->assertEquals(GetRequest::METHOD_GET, json_decode($res->getResponseBody(), true)["method"]);
+        $this->assertEquals(RequestInterface::METHOD_GET, json_decode($res->getResponseBody(), true)["method"]);
         $this->assertEquals(200, $res->getResponseInfo()["http_code"]);
     }
 
@@ -117,7 +118,7 @@ class GetRequestTest extends AbstractTestCase {
 
         $res = $obj->call();
         $this->assertEquals("h: v", $res->getRequestHeader()[0]);
-        $this->assertEquals(GetRequest::METHOD_GET, json_decode($res->getResponseBody(), true)["method"]);
+        $this->assertEquals(RequestInterface::METHOD_GET, json_decode($res->getResponseBody(), true)["method"]);
         $this->assertEquals(200, $res->getResponseInfo()["http_code"]);
     }
 
@@ -151,7 +152,7 @@ class GetRequestTest extends AbstractTestCase {
         $obj->getConfiguration()->setRequestTimeout(30);
 
         $res = $obj->call();
-        $this->assertEquals(GetRequest::METHOD_GET, json_decode($res->getResponseBody(), true)["method"]);
+        $this->assertEquals(RequestInterface::METHOD_GET, json_decode($res->getResponseBody(), true)["method"]);
         $this->assertEquals(200, $res->getResponseInfo()["http_code"]);
     }
 
@@ -192,7 +193,7 @@ class GetRequestTest extends AbstractTestCase {
         $obj->getConfiguration()->setSslVerification(false);
 
         $res = $obj->call();
-        $this->assertEquals(GetRequest::METHOD_GET, json_decode($res->getResponseBody(), true)["method"]);
+        $this->assertEquals(RequestInterface::METHOD_GET, json_decode($res->getResponseBody(), true)["method"]);
         $this->assertEquals(200, $res->getResponseInfo()["http_code"]);
     }
 
@@ -208,7 +209,7 @@ class GetRequestTest extends AbstractTestCase {
         $obj->getConfiguration()->setVerbose(true);
 
         $res = $obj->call();
-        $this->assertEquals(GetRequest::METHOD_GET, json_decode($res->getResponseBody(), true)["method"]);
+        $this->assertEquals(RequestInterface::METHOD_GET, json_decode($res->getResponseBody(), true)["method"]);
         $this->assertEquals(200, $res->getResponseInfo()["http_code"]);
     }
 
@@ -298,7 +299,7 @@ class GetRequestTest extends AbstractTestCase {
 
         $this->assertSame($this->curlConfiguration, $obj->getConfiguration());
         $this->assertEquals([], $obj->getHeaders());
-        $this->assertEquals(GetRequest::METHOD_GET, $obj->getMethod());
+        $this->assertEquals(RequestInterface::METHOD_GET, $obj->getMethod());
         $this->assertEquals([], $obj->getPostData());
         $this->assertEquals([], $obj->getQueryData());
         $this->assertEquals($this->curlResourcePath, $obj->getResourcePath());

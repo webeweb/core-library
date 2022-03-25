@@ -98,12 +98,12 @@ class StringHelperTest extends AbstractTestCase {
         $this->assertEquals("", StringHelper::fileSize(-1));
         $this->assertEquals("", StringHelper::fileSize(1, -1));
 
-        $this->assertRegExp("/^1[\.,]00 Kio$/", StringHelper::fileSize(1024));
-        $this->assertRegExp("/^1[\.,]00 Mio$/", StringHelper::fileSize(1048576));
-        $this->assertRegExp("/^1[\.,]00 Gio$/", StringHelper::fileSize(1073741842));
-        $this->assertRegExp("/^1[\.,]00 Tio$/", StringHelper::fileSize(1099511627776));
+        $this->assertRegExp("/^1[.,]00 Kio$/", StringHelper::fileSize(1024));
+        $this->assertRegExp("/^1[.,]00 Mio$/", StringHelper::fileSize(1048576));
+        $this->assertRegExp("/^1[.,]00 Gio$/", StringHelper::fileSize(1073741842));
+        $this->assertRegExp("/^1[.,]00 Tio$/", StringHelper::fileSize(1099511627776));
 
-        $this->assertRegExp("/^1[\.,]000 Tio$/", StringHelper::fileSize(1099511627776, 3));
+        $this->assertRegExp("/^1[.,]000 Tio$/", StringHelper::fileSize(1099511627776, 3));
     }
 
     /**
@@ -308,25 +308,6 @@ class StringHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests wordWrap()
-     *
-     * @return void
-     */
-    public function testWordWrap() : void {
-
-        $this->assertEquals(null, StringHelper::wordWrap(null));
-
-        $this->assertEquals("Hello world !", StringHelper::wordWrap("Hello world !")); // $length = -1
-        $this->assertEquals("Hello world !", StringHelper::wordWrap("Hello world !", 20)); // strlen($string) < $length
-        $this->assertEquals("Helloworld!", StringHelper::wordWrap("Helloworld!", 20)); // 0 === count($words)
-
-        $this->assertEquals("Hello world\n!", StringHelper::wordWrap("Hello world !", 10));
-        $this->assertEquals("Hello\nworld !", StringHelper::wordWrap("Hello world !", 10, 0));
-        $this->assertEquals("Hello\nworld\n!", StringHelper::wordWrap("Hello world !", 5, 0));
-        $this->assertEquals("Hello<br/>world !", StringHelper::wordWrap("Hello world !", 10, 0, "<br/>"));
-    }
-
-    /**
      * Tests ucwords()
      *
      * @return void
@@ -345,5 +326,24 @@ class StringHelperTest extends AbstractTestCase {
         $this->assertEquals("String\fString", StringHelper::ucwords("sTRING\fsTRING"));
         $this->assertEquals("String\vString", StringHelper::ucwords("sTrInG\vsTrInG"));
         $this->assertEquals("String-String", StringHelper::ucwords("StRiNg-StRiNg"));
+    }
+
+    /**
+     * Tests wordWrap()
+     *
+     * @return void
+     */
+    public function testWordWrap(): void {
+
+        $this->assertEquals(null, StringHelper::wordWrap(null));
+
+        $this->assertEquals("Hello world !", StringHelper::wordWrap("Hello world !")); // $length = -1
+        $this->assertEquals("Hello world !", StringHelper::wordWrap("Hello world !", 20)); // strlen($string) < $length
+        $this->assertEquals("Helloworld!", StringHelper::wordWrap("Helloworld!", 20)); // 0 === count($words)
+
+        $this->assertEquals("Hello world\n!", StringHelper::wordWrap("Hello world !", 10));
+        $this->assertEquals("Hello\nworld !", StringHelper::wordWrap("Hello world !", 10, 0));
+        $this->assertEquals("Hello\nworld\n!", StringHelper::wordWrap("Hello world !", 5, 0));
+        $this->assertEquals("Hello<br/>world !", StringHelper::wordWrap("Hello world !", 10, 0, "<br/>"));
     }
 }

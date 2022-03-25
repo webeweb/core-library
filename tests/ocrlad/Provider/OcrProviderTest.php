@@ -41,18 +41,18 @@ class OcrProviderTest extends AbstractTestCase {
         $md5 = md5($file->getPathname());
 
         $exp = [
-            "upload" => "/Avant/{$md5}.pdf",
+            "upload" => "/Avant/$md5.pdf",
             "remote" => [
-                "/remoteDirectoryAfter/{$md5}.der",
-                "/remoteDirectoryAfter/{$md5}.pdf",
-                "/remoteDirectoryAfter/{$md5}.xml",
-                "/remoteDirectoryAfter/~{$md5}.tif",
+                "/remoteDirectoryAfter/$md5.der",
+                "/remoteDirectoryAfter/$md5.pdf",
+                "/remoteDirectoryAfter/$md5.xml",
+                "/remoteDirectoryAfter/~$md5.tif",
             ],
             "local"  => [
-                "/localDirectoryAfter/{$md5}.der",
-                "/localDirectoryAfter/{$md5}.pdf",
-                "/localDirectoryAfter/{$md5}.xml",
-                "/localDirectoryAfter/~{$md5}.tif",
+                "/localDirectoryAfter/$md5.der",
+                "/localDirectoryAfter/$md5.pdf",
+                "/localDirectoryAfter/$md5.xml",
+                "/localDirectoryAfter/~$md5.tif",
             ],
         ];
         $res = $obj->buildFilePaths($file);

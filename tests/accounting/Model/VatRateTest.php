@@ -16,8 +16,8 @@ use WBW\Library\Accounting\Model\AccountingAccount;
 use WBW\Library\Accounting\Model\AccountingAccountInterface;
 use WBW\Library\Accounting\Model\VatRate;
 use WBW\Library\Accounting\Model\VatRateInterface;
-use WBW\Library\Accounting\Serializer\SerializerKeys;
 use WBW\Library\Accounting\Tests\AbstractTestCase;
+use WBW\Library\Serializer\SerializerKeys as BaseSerializerKeys;
 
 /**
  * VAT rate test.
@@ -39,7 +39,7 @@ class VatRateTest extends AbstractTestCase {
         $json = json_decode($data, true);
 
         $obj = new VatRate();
-        $obj->setLabel(SerializerKeys::LABEL);
+        $obj->setLabel(BaseSerializerKeys::LABEL);
         $obj->setRate(0.123456789);
 
         $obj->setPurchasesAccountingAccount(new AccountingAccount());

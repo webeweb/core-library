@@ -14,8 +14,8 @@ namespace WBW\Library\Accounting\Tests\Model;
 use JsonSerializable;
 use WBW\Library\Accounting\Model\AccountingAccount;
 use WBW\Library\Accounting\Model\AccountingAccountInterface;
-use WBW\Library\Accounting\Serializer\SerializerKeys;
 use WBW\Library\Accounting\Tests\AbstractTestCase;
+use WBW\Library\Serializer\SerializerKeys as BaseSerializerKeys;
 
 /**
  * Accounting account test.
@@ -37,9 +37,9 @@ class AccountingAccountTest extends AbstractTestCase {
         $json = json_decode($data, true);
 
         $obj = new AccountingAccount();
-        $obj->setLabel(SerializerKeys::LABEL);
-        $obj->setNumber(SerializerKeys::NUMBER);
-        $obj->setType(SerializerKeys::TYPE);
+        $obj->setLabel(BaseSerializerKeys::LABEL);
+        $obj->setNumber(BaseSerializerKeys::NUMBER);
+        $obj->setType(BaseSerializerKeys::TYPE);
 
         $res = $obj->jsonSerialize();
         $this->assertCount(3, $res);

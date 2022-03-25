@@ -12,6 +12,7 @@
 namespace WBW\Library\Curl\Tests\Request;
 
 use Exception;
+use WBW\Library\Curl\Api\RequestInterface;
 use WBW\Library\Curl\Request\HeadRequest;
 use WBW\Library\Curl\Tests\AbstractTestCase;
 
@@ -54,7 +55,7 @@ class HeadRequestTest extends AbstractTestCase {
 
         $this->assertSame($this->curlConfiguration, $obj->getConfiguration());
         $this->assertEquals([], $obj->getHeaders());
-        $this->assertEquals(HeadRequest::METHOD_HEAD, $obj->getMethod());
+        $this->assertEquals(RequestInterface::METHOD_HEAD, $obj->getMethod());
         $this->assertEquals([], $obj->getPostData());
         $this->assertEquals([], $obj->getQueryData());
         $this->assertEquals($this->curlResourcePath, $obj->getResourcePath());

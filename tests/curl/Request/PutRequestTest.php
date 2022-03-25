@@ -12,6 +12,7 @@
 namespace WBW\Library\Curl\Tests\Request;
 
 use Exception;
+use WBW\Library\Curl\Api\RequestInterface;
 use WBW\Library\Curl\Request\PutRequest;
 use WBW\Library\Curl\Tests\AbstractTestCase;
 
@@ -38,7 +39,7 @@ class PutRequestTest extends AbstractTestCase {
         $res = $obj->call();
         $this->assertEquals("header: header", $res->getRequestHeader()[0]);
         $this->assertStringContainsString("queryData=queryData", $res->getRequestUrl());
-        $this->assertEquals(PutRequest::METHOD_PUT, json_decode($res->getResponseBody(), true)["method"]);
+        $this->assertEquals(RequestInterface::METHOD_PUT, json_decode($res->getResponseBody(), true)["method"]);
         $this->assertEquals(200, $res->getResponseInfo()["http_code"]);
     }
 
@@ -54,7 +55,7 @@ class PutRequestTest extends AbstractTestCase {
 
         $this->assertSame($this->curlConfiguration, $obj->getConfiguration());
         $this->assertEquals([], $obj->getHeaders());
-        $this->assertEquals(PutRequest::METHOD_PUT, $obj->getMethod());
+        $this->assertEquals(RequestInterface::METHOD_PUT, $obj->getMethod());
         $this->assertEquals([], $obj->getPostData());
         $this->assertEquals([], $obj->getQueryData());
         $this->assertEquals($this->curlResourcePath, $obj->getResourcePath());

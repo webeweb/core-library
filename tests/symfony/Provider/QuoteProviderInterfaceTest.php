@@ -12,6 +12,7 @@
 namespace WBW\Library\Symfony\Tests\Provider;
 
 use WBW\Library\Symfony\Provider\QuoteProviderInterface;
+use WBW\Library\Symfony\Tests\AbstractTestCase;
 
 /**
  * Quote provider interface test.
@@ -19,7 +20,7 @@ use WBW\Library\Symfony\Provider\QuoteProviderInterface;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Symfony\Tests\Provider
  */
-class QuoteProviderInterfaceTest {
+class QuoteProviderInterfaceTest extends AbstractTestCase {
 
     /**
      * Tests __construct()
