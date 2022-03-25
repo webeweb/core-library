@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### master
+
+- Improve code quality
+
 ### [8.37.0](https://github.com/webeweb/core-library/tree/v8.37.0) (2022-03-25)
 
 - Add unlink() into Uploaded file service
