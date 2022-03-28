@@ -34,6 +34,30 @@ class ArrayHelper {
     }
 
     /**
+     * Insert a value.
+     *
+     * @param array $array The array.
+     * @param int $offset The offset.
+     * @param mixed $value The value.
+     * @return array Returns the array.
+     */
+    public static function insert(array $array, int $offset, $value): array {
+
+        if ($offset <= 0) {
+            return array_merge([$value], $array);
+        }
+
+        if (count($array) <= $offset) {
+            return array_merge($array, [$value]);
+        }
+
+        $slice1 = array_slice($array, 0, $offset);
+        $slice2 = array_slice($array, $offset);
+
+        return array_merge($slice1, [$value], $slice2);
+    }
+
+    /**
      * Determines if a value is an array.
      *
      * @param mixed $value The value.

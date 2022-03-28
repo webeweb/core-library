@@ -54,6 +54,18 @@ class ArrayHelperTest extends AbstractTestCase {
     }
 
     /**
+     * Tests insert()
+     *
+     * @return void
+     */
+    public function testInsert(): void {
+
+        $this->assertEquals([3, 1, 2], ArrayHelper::insert([1, 2], 0, 3));
+        $this->assertEquals([1, 2, 3], ArrayHelper::insert([1, 2], 9, 3));
+        $this->assertEquals([1, 3, 2], ArrayHelper::insert([1, 2], 1, 3));
+    }
+
+    /**
      * Tests isObject()
      *
      * @return void
