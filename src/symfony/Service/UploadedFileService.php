@@ -22,7 +22,9 @@ use WBW\Library\Traits\Strings\StringDirectoryTrait;
  */
 class UploadedFileService {
 
-    use StringDirectoryTrait;
+    use StringDirectoryTrait {
+        setDirectory as protected;
+    }
 
     /**
      * Service name.

@@ -14,7 +14,7 @@ namespace WBW\Library\Symfony\Tests\Fixtures\Service;
 use WBW\Library\Symfony\Service\UploadedFileServiceTrait;
 
 /**
- * Test Uploaded file service trait.
+ * Test uploaded file service trait.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Symfony\Tests\Fixtures\Service
