@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [8.39.0](https://github.com/webeweb/core-library/tree/v8.39.0) (2022-03-28)
+
+- Add insert() into Array helper
+
 ### [8.38.0](https://github.com/webeweb/core-library/tree/v8.38.0) (2022-03-28)
 
 - Add NIR helper
