@@ -1,8 +1,11 @@
 CHANGELOG
 =========
 
-### master
+### [8.38.0](https://github.com/webeweb/core-library/tree/v8.38.0) (2022-03-28)
 
+- Add NIR helper
+- Add Token generator service
+- Add Token generator service trait
 - Improve code quality
 
 ### [8.37.0](https://github.com/webeweb/core-library/tree/v8.37.0) (2022-03-25)
