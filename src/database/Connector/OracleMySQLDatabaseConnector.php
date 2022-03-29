@@ -23,7 +23,7 @@ use WBW\Library\Security\Authenticator;
 class OracleMySQLDatabaseConnector extends AbstractDatabaseConnector {
 
     /**
-     * Microsoft SQL Server DSN.
+     * Oracle MySQL DSN.
      *
      * @var string
      */
