@@ -30,9 +30,11 @@ class NirHelperTest extends AbstractTestCase {
     public function testCheck(): void {
 
         $this->assertNull(NirHelper::check(null));
-        $this->assertNull(NirHelper::check("1621345044056"));
-        $this->assertFalse(NirHelper::check("162134504405657"));
-        $this->assertTrue(NirHelper::check("162134504405658"));
+        $this->assertNull(NirHelper::check("1700101001001"));
+        $this->assertNull(NirHelper::check("370010100100164")); // Sex
+        $this->assertNull(NirHelper::check("170130100100165")); // Month
+        $this->assertFalse(NirHelper::check("170010100100166"));
+        $this->assertTrue(NirHelper::check("170010100100167"));
     }
 
     /**
@@ -43,7 +45,7 @@ class NirHelperTest extends AbstractTestCase {
     public function testKey(): void {
 
         $this->assertNull(NirHelper::key(null));
-        $this->assertNull(NirHelper::key("162134504405"));
-        $this->assertEquals("58", NirHelper::key("1621345044056"));
+        $this->assertNull(NirHelper::key("170010100100"));
+        $this->assertEquals("67", NirHelper::key("1700101001001"));
     }
 }

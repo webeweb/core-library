@@ -31,6 +31,13 @@ class NirHelper {
             return null;
         }
 
+        $sex = intval(substr($nir, 0, 1));
+        $mth = intval(substr($nir, 3, 2));
+
+        if (false === in_array($sex, [1, 2]) || $mth < 1 || 12 < $mth) {
+            return null;
+        }
+
         $nbr = substr($nir, 0, 13);
         $key = substr($nir, 13, 2);
 
