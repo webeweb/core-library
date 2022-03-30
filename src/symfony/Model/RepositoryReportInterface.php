@@ -41,6 +41,13 @@ interface RepositoryReportInterface {
     public function getColumn(): ?string;
 
     /**
+     * Get the count.
+     *
+     * @return int|null Returns the count.
+     */
+    public function getCount(): ?int;
+
+    /**
      * Get the entity.
      *
      * @return string|null Returns the entity.
