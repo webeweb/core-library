@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [8.40.1](https://github.com/webeweb/core-library/tree/v8.40.1) (2022-03-30)
+
+- Fix Repository report interface
+
 ### [8.40.0](https://github.com/webeweb/core-library/tree/v8.40.0) (2022-03-29)
 
 - Add integer inserted rows
