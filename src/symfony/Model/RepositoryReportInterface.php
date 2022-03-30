@@ -55,6 +55,13 @@ interface RepositoryReportInterface {
     public function getField(): ?string;
 
     /**
+     * Get the maximum.
+     *
+     * @return int|null Returns the maximum.
+     */
+    public function getMaximum(): ?int;
+
+    /**
      * Get the minimum.
      *
      * @return int|null Returns the minimum.
