@@ -30,10 +30,11 @@ class SerializerKeysTest extends AbstractTestCase {
         $this->assertEquals("accessToken", SerializerKeys::ACCESS_TOKEN);
         $this->assertEquals("account", SerializerKeys::ACCOUNT);
         $this->assertEquals("accountingCode", SerializerKeys::ACCOUNTING_CODE);
+        $this->assertEquals("active", SerializerKeys::ACTIVE);
         $this->assertEquals("addressee", SerializerKeys::ADDRESSEE);
         $this->assertEquals("addresseeDescription", SerializerKeys::ADDRESSEE_DESCRIPTION);
         $this->assertEquals("apiToken", SerializerKeys::API_TOKEN);
-        $this->assertEquals("active", SerializerKeys::ACTIVE);
+        $this->assertEquals("avatar", SerializerKeys::AVATAR);
         $this->assertEquals("average", SerializerKeys::AVERAGE);
         $this->assertEquals("beginsAt", SerializerKeys::BEGINS_AT);
         $this->assertEquals("beginsOn", SerializerKeys::BEGINS_ON);
