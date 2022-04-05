@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [8.41.1](https://github.com/webeweb/core-library/tree/v8.41.1) (2022-04-05)
+
+- Fix serializer keys
+
 ### [8.41.0](https://github.com/webeweb/core-library/tree/v8.41.0) (2022-04-05)
 
 - Add string avatar trait
