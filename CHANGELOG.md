@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [8.41.0](https://github.com/webeweb/core-library/tree/v8.41.0) (2022-04-05)
+
+- Add string avatar trait
+
 ### [8.40.1](https://github.com/webeweb/core-library/tree/v8.40.1) (2022-03-30)
 
 - Fix Repository report interface
