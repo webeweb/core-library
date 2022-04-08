@@ -3,6 +3,6 @@
 /composer.lock
 
 /tests/image/Fixtures/*thumb*
-!/tests/symfony/Fixtures/app/public/.gitkeep
+!/tests/symfony/Fixtures/app/public/.gitignore
 /tests/symfony/Fixtures/app/public/*
 !/tests/symfony/Service/UploadServiceTest.bak
