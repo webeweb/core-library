@@ -11,8 +11,10 @@
 
 namespace WBW\Library\Symfony\Service;
 
+use Exception;
 use SplFileInfo;
 use WBW\Library\Traits\Strings\StringDirectoryTrait;
+use WBW\Library\Types\Helper\StringHelper;
 
 /**
  * Uploaded file service.
@@ -50,6 +52,16 @@ class UploadedFileService {
     }
 
     /**
+     * Determines if a filename exists.
+     *
+     * @param string $filename The filename.
+     * @return bool Returns true in case of success, false otherwise.
+     */
+    public function exists(string $filename): bool {
+        return file_exists($this->path($filename));
+    }
+
+    /**
      * Creates a directory.
      *
      * @param string $directory The directory.
@@ -62,6 +74,19 @@ class UploadedFileService {
         }
 
         return mkdir($directory, 0755, true);
+    }
+
+    /**
+     * Path.
+     *
+     * @param string $filename The filename.
+     * @return string Returns the path.
+     */
+    public function path(string $filename): string {
+        return implode(DIRECTORY_SEPARATOR, [
+            $this->getDirectory(),
+            $filename,
+        ]);
     }
 
     /**
@@ -95,6 +120,20 @@ class UploadedFileService {
     }
 
     /**
+     * Unique id.
+     *
+     * @return string Returns the unique id.
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function uniqid(): string {
+
+        $random  = random_bytes(32);
+        $bin2hex = bin2hex($random);
+
+        return StringHelper::format($bin2hex, "________-____-____-____-____________");
+    }
+
+    /**
      * Unlink.
      *
      * @param string $filename The filename.
@@ -102,15 +141,10 @@ class UploadedFileService {
      */
     public function unlink(string $filename): ?bool {
 
-        $pathname = implode(DIRECTORY_SEPARATOR, [
-            $this->getDirectory(),
-            $filename,
-        ]);
-
-        if (true === file_exists($pathname)) {
-            return unlink($pathname);
+        if (false === $this->exists($filename)) {
+            return null;
         }
 
-        return null;
+        return unlink($this->path($filename));
     }
 }

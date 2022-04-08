@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Symfony\Tests\Service;
 
+use Exception;
 use SplFileInfo;
 use WBW\Library\Symfony\Service\UploadedFileService;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
@@ -38,6 +39,32 @@ class UploadedFileServiceTest extends AbstractTestCase {
 
         // Set a directory mock.
         $this->directory = realpath(__DIR__ . "/../Fixtures/app/public");
+    }
+
+    /**
+     * Tests exists()
+     *
+     * @return void
+     */
+    public function testExists(): void {
+
+        $obj = new UploadedFileService($this->directory);
+
+        $this->assertFalse($obj->exists("basename.bak"));
+    }
+
+    /**
+     * Tests path()
+     *
+     * @return void
+     */
+    public function testPath(): void {
+
+        $dir = $this->directory;
+
+        $obj = new UploadedFileService($this->directory);
+
+        $this->assertEquals("$dir/basename.bak", $obj->path("basename.bak"));
     }
 
     /**
@@ -76,6 +103,19 @@ class UploadedFileServiceTest extends AbstractTestCase {
         $this->assertEquals("/uploads/subdirectory/basename.bak", $res);
 
         $this->assertFileExists("$dir/basename.bak");
+    }
+
+    /**
+     * Tests uniqid()
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testUniqid(): void {
+
+        $obj = new UploadedFileService($this->directory);
+
+        $this->assertRegExp("/^[a-z0-9]{8}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{12}$/", $obj->uniqid());
     }
 
     /**
