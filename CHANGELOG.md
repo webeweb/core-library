@@ -1,6 +1,12 @@
 CHANGELOG
 =========
 
+### [8.42.0](https://github.com/webeweb/core-library/tree/v8.42.0) (2022-04-08)
+
+- Add exists() into Uploaded file service
+- Add path() into Uploaded file service
+- Add uniqid() into Uploaded file service
+
 ### [8.41.1](https://github.com/webeweb/core-library/tree/v8.41.1) (2022-04-05)
 
 - Fix serializer keys
