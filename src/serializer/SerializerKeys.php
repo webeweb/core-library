@@ -69,6 +69,13 @@ interface SerializerKeys {
     const API_TOKEN = "apiToken";
 
     /**
+     * Serializer key "avatar".
+     *
+     * @var string
+     */
+    const AVATAR = "avatar";
+
+    /**
      * Serializer key "average".
      *
      * @var string
