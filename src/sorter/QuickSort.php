@@ -140,6 +140,7 @@ class QuickSort {
      * @return void
      */
     private function swap(int $a, int $b): void {
+
         $value = $this->getValues()[$a];
 
         $this->values[$a] = $this->getValues()[$b];
