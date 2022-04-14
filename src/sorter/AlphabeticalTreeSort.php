@@ -44,9 +44,9 @@ class AlphabeticalTreeSort {
      * @param AlphabeticalTreeNodeInterface $a The node A.
      * @param AlphabeticalTreeNodeInterface $b The node B.
      * @return int Returns
-     *  < O: if the node A is lesser than node B
-     *  > 0: if the node A is gerater than node B
-     *  = 0: if the two nodes are equals
+     *  < O if the node A is lesser than node B
+     *  > 0 if the node A is greater than node B
+     *  = 0 if the two nodes are equals
      */
     protected function compare(AlphabeticalTreeNodeInterface $a, AlphabeticalTreeNodeInterface $b): int {
 
