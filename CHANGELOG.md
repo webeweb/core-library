@@ -1,6 +1,12 @@
 CHANGELOG
 =========
 
+### [8.43.0](https://github.com/webeweb/core-library/tree/v8.43.0) (2022-04-14)
+
+- Add sort() into Alphabetical tree node helper
+- Improve code quality
+- Improve PHPDoc
+
 ### [8.42.0](https://github.com/webeweb/core-library/tree/v8.42.0) (2022-04-08)
 
 - Add exists() into Uploaded file service
