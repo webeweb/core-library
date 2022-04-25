@@ -12,7 +12,6 @@
 namespace WBW\Library\Image\Helper;
 
 use RuntimeException;
-use SplFileObject;
 use WBW\Library\Image\Factory\ImageFactory;
 use WBW\Library\Image\Model\Image;
 use WBW\Library\Image\Model\ImageInterface;
@@ -37,14 +36,16 @@ class ImageHelper {
             return null;
         }
 
-        $data = "";
+        $data = file_get_contents($uri);
 
-        $splFileObject = new SplFileObject($uri);
-        while (false === $splFileObject->eof()) {
-            $data .= $splFileObject->fgets();
-        }
+        $stream = fopen("php://memory", "w+b");
+        fwrite($stream, $data);
 
-        return sprintf("data:%s;base64,%s", mime_content_type($uri), base64_encode($data));
+        $mime = mime_content_type($stream);
+
+        fclose($stream);
+
+        return sprintf("data:%s;base64,%s", $mime, base64_encode($data));
     }
 
     /**

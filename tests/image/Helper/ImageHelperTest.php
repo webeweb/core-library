@@ -51,10 +51,12 @@ class ImageHelperTest extends AbstractTestCase {
     public function testBase64Encode(): void {
 
         // Set the mocks.
-        $src = realpath($this->images[0]);
+        $uri = realpath($this->images[0]);
+        $url = "https://raw.githubusercontent.com/webeweb/core-library/master/tests/image/Fixtures/TestImage_1920x1037.jpg";
 
         $res = file_get_contents(__DIR__ . "/ImageHelperTest.testBase64Encode.txt");
-        $this->assertEquals($res, ImageHelper::base64Encode($src));
+        $this->assertEquals($res, ImageHelper::base64Encode($uri));
+        $this->assertEquals($res, ImageHelper::base64Encode($url));
 
         $this->assertNull(ImageHelper::base64Encode(null));
     }
