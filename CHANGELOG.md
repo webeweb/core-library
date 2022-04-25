@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [8.44.0](https://github.com/webeweb/core-library/tree/v8.44.0) (2022-04-25)
+
+- Improve base64Encode() to support http(s) resources
+
 ### [8.43.0](https://github.com/webeweb/core-library/tree/v8.43.0) (2022-04-14)
 
 - Add sort() into Alphabetical tree node helper
