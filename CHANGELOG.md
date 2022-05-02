@@ -1,9 +1,10 @@
 CHANGELOG
 =========
 
-### master
+### [8.45.0](https://github.com/webeweb/core-library/tree/v8.45.0) (2022-05-02)
 
 - Add coalesce() into Object helper
+- Add string raw data trait
 
 ### [8.44.0](https://github.com/webeweb/core-library/tree/v8.44.0) (2022-04-25)
 
