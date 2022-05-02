@@ -22,6 +22,23 @@ use WBW\Library\Types\Exception\ObjectArgumentException;
 class ObjectHelper {
 
     /**
+     * Coalesce.
+     *
+     * @param array $values The values.
+     * @return mixed|null Returns the first non-null value.
+     */
+    public static function coalesce(...$values) {
+
+        foreach ($values as $current) {
+            if (null !== $current) {
+                return $current;
+            }
+        }
+
+        return null;
+    }
+
+    /**
      * Compare two objects.
      *
      * @param mixed|null $a The object A.

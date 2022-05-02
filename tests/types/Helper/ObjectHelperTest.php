@@ -24,6 +24,19 @@ use WBW\Library\Types\Tests\AbstractTestCase;
 class ObjectHelperTest extends AbstractTestCase {
 
     /**
+     * Tests coalesce()
+     *
+     * @return void
+     */
+    public function testCoalesce(): void {
+
+        $this->assertSame($this, ObjectHelper::coalesce($this, null));
+        $this->assertSame($this, ObjectHelper::coalesce(null, $this));
+
+        $this->assertNull(ObjectHelper::coalesce(null, null));
+    }
+
+    /**
      * Tests compare()
      *
      * @return void
