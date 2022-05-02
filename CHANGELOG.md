@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### master
+
+- Add coalesce() into Object helper
+
 ### [8.44.0](https://github.com/webeweb/core-library/tree/v8.44.0) (2022-04-25)
 
 - Improve base64Encode() to support http(s) resources
