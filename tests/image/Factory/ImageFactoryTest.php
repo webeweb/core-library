@@ -48,17 +48,17 @@ class ImageFactoryTest extends AbstractTestCase {
      */
     public function testNewDimensions(): void {
 
-        $hImage = new Image($this->images[1]); // Horizontal image
-        $sImage = new Image($this->images[2]); // Square image
-        $vImage = new Image($this->images[3]); // Vertical image
+        $hImage = new Image($this->images[1]); // Landscape image
+        $sImage = new Image($this->images[2]); // Squarish image
+        $vImage = new Image($this->images[3]); // Portrait image
 
         $this->assertEquals([1920, 1037], ImageFactory::newDimensions($hImage, 2000, 1100));
-        $this->assertEquals([1000, 540], ImageFactory::newDimensions($hImage, 1000, 900));
+        $this->assertEquals([1000, 900], ImageFactory::newDimensions($hImage, 1000, 900));
 
         $this->assertEquals([1600, 1600], ImageFactory::newDimensions($sImage, 1600, 1200));
         $this->assertEquals([1600, 1600], ImageFactory::newDimensions($sImage, 1200, 1600));
 
-        $this->assertEquals([540, 1000], ImageFactory::newDimensions($vImage, 900, 1000));
+        $this->assertEquals([900, 1000], ImageFactory::newDimensions($vImage, 900, 1000));
     }
 
     /**

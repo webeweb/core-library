@@ -13,6 +13,7 @@ namespace WBW\Library\Image\Factory;
 
 use WBW\Library\Image\Model\Image;
 use WBW\Library\Image\Model\ImageInterface;
+use WBW\Library\Image\Utility\ImageUtility;
 
 /**
  * Image factory.
@@ -34,27 +35,7 @@ class ImageFactory {
 
         $image->init();
 
-        if ($image->getWidth() < $maxWidth || $image->getHeight() < $maxHeight) {
-            return [$image->getWidth(), $image->getHeight()];
-        }
-
-        if (null === $image->getOrientation()) {
-            $max = max($maxWidth, $maxHeight);
-            return [$max, $max];
-        }
-
-        $ratio = $image->getWidth() / $image->getHeight();
-
-        $width  = $maxWidth;
-        $height = $maxHeight;
-
-        if (ImageInterface::ORIENTATION_HORIZONTAL === $image->getOrientation()) {
-            $height = intval($width / $ratio);
-        } else {
-            $width = intval($height * $ratio);
-        }
-
-        return [$width, $height];
+        return ImageUtility::getDimensions($image->getWidth(), $image->getHeight(), $maxWidth, $maxHeight);
     }
 
     /**
