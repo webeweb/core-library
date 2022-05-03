@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [8.46.0](https://github.com/webeweb/core-library/tree/v8.46.0) (2022-05-03)
+
+- Add Image utility
+
 ### [8.45.0](https://github.com/webeweb/core-library/tree/v8.45.0) (2022-05-02)
 
 - Add coalesce() into Object helper
