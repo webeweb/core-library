@@ -5,7 +5,6 @@ core-library
 [![Coverage Status](https://img.shields.io/coveralls/github/webeweb/core-library/master.svg?style=flat-square)](https://coveralls.io/github/webeweb/core-library?branch=master)
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/quality/g/webeweb/core-library/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/webeweb/core-library/?branch=master)
 [![Latest Stable Version](https://img.shields.io/packagist/v/webeweb/core-library.svg?style=flat-square)](https://packagist.org/packages/webeweb/core-library)
-[![Latest Unstable Version](https://img.shields.io/packagist/vpre/webeweb/core-library.svg?style=flat-square)](https://packagist.org/packages/webeweb/core-library)
 [![License](https://img.shields.io/packagist/l/webeweb/core-library.svg?style=flat-square)](https://packagist.org/packages/webeweb/core-library)
 [![composer.lock](https://img.shields.io/badge/.lock-uncommited-important.svg?style=flat-square)](https://packagist.org/packages/webeweb/core-library)
 
