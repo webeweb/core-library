@@ -26,7 +26,7 @@ class TestBillingAddressTrait implements BillingAddressInterface {
     use BillingAddressTrait;
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function jsonSerialize(): array {
         return JsonSerializer::serializeBillingAddress($this);

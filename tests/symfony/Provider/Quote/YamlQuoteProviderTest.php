@@ -37,7 +37,7 @@ class YamlQuoteProviderTest extends AbstractTestCase {
     private $filename;
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     protected function setUp(): void {
         parent::setUp();

@@ -26,7 +26,7 @@ class TestDeliveryAddressTrait implements DeliveryAddressInterface {
     use DeliveryAddressTrait;
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function jsonSerialize(): array {
         return JsonSerializer::serializeDeliveryAddress($this);

@@ -22,7 +22,7 @@ use WBW\Library\Maths\Helper\Rot13Helper;
 class TestRot13Helper extends Rot13Helper {
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public static function alphabet(): array {
         return parent::alphabet();

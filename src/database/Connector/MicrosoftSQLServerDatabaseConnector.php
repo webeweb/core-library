@@ -46,7 +46,7 @@ class MicrosoftSQLServerDatabaseConnector extends AbstractDatabaseConnector {
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     protected function connect(): PDO {
 

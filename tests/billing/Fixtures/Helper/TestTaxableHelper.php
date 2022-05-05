@@ -22,14 +22,14 @@ use WBW\Library\Billing\Helper\TaxableHelper;
 class TestTaxableHelper extends TaxableHelper {
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public static function getDiscountRatio(?float $discountRate, bool $minusOne = false): float {
         return parent::getDiscountRatio($discountRate, $minusOne);
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public static function getVatRatio(?float $vatRate, bool $plusOne = false): float {
         return parent::getVatRatio($vatRate, $plusOne);

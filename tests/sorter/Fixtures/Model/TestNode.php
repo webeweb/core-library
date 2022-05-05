@@ -23,14 +23,14 @@ use WBW\Library\Sorter\Model\AlphabeticalTreeNodeInterface;
 class TestNode extends BaseNode implements AlphabeticalTreeNodeInterface {
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getAlphabeticalTreeNodeLabel(): ?string {
         return $this->getId();
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getAlphabeticalTreeNodeParent(): ?AlphabeticalTreeNodeInterface {
         return $this->getParent();

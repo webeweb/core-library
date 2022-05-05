@@ -32,7 +32,7 @@ class SftpClientTest extends AbstractTestCase {
     private $message;
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     protected function setUp(): void {
         parent::setUp();

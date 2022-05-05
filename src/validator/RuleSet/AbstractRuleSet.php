@@ -38,7 +38,7 @@ abstract class AbstractRuleSet implements RuleSetInterface {
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function addRule(RuleInterface $rule): RuleSetInterface {
         $this->rules[] = $rule;
@@ -46,14 +46,14 @@ abstract class AbstractRuleSet implements RuleSetInterface {
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getRules(): array {
         return $this->rules;
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function removeRule(RuleInterface $rule): RuleSetInterface {
 
@@ -79,7 +79,7 @@ abstract class AbstractRuleSet implements RuleSetInterface {
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function validate($object): array {
 

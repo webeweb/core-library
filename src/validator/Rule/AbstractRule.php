@@ -39,7 +39,7 @@ abstract class AbstractRule implements RuleInterface {
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getName(): ?string {
         return $this->name;

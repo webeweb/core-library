@@ -32,7 +32,7 @@ class VehicleBrand implements VehicleBrandInterface {
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function jsonSerialize(): array {
         return JsonSerializer::serializeVehicleBrand($this);

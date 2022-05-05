@@ -43,7 +43,7 @@ class MicrosoftAccessDatabaseConnector extends AbstractDatabaseConnector {
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     protected function connect(): PDO {
 

@@ -55,28 +55,28 @@ abstract class AbstractStatus implements StatusInterface {
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getCode(): ?int {
         return $this->code;
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getMessage(): ?string {
         return $this->message;
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getRuleName(): ?string {
         return $this->ruleName;
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function jsonSerialize(): array {
         return [
@@ -109,7 +109,7 @@ abstract class AbstractStatus implements StatusInterface {
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function setRuleName(?string $ruleName): StatusInterface {
         $this->ruleName = $ruleName;

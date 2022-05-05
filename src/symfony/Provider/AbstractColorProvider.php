@@ -38,7 +38,7 @@ abstract class AbstractColorProvider implements ColorProviderInterface, JsonSeri
     }
 
     /**
-     *{@inheritDoc}
+     *{@inheritdoc}
      */
     public function jsonSerialize(): array {
         return [

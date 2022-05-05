@@ -47,14 +47,14 @@ class Quote implements QuoteInterface {
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getAuthor(): ?string {
         return $this->author;
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getSaint(): ?string {
         return $this->saint;

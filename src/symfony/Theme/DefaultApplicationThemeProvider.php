@@ -29,49 +29,49 @@ class DefaultApplicationThemeProvider implements ApplicationThemeProviderInterfa
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getDescription(): ?string {
         return "Core library";
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getHome(): ?string {
         return "/";
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getName(): ?string {
         return "Core<b>library</b>";
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getRoute(): ?string {
         return "/";
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getTitle(): ?string {
         return "Core library";
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getVersion(): ?string {
         return "dev-master";
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getYear(string $startYear = null): ?string {
 

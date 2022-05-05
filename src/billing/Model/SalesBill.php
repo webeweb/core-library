@@ -29,7 +29,7 @@ class SalesBill extends Billable implements SalesBillInterface {
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function jsonSerialize(): array {
         return JsonSerializer::serializeSalesBill($this);

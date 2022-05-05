@@ -44,14 +44,14 @@ abstract class Taxable implements TaxableInterface {
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function jsonSerialize(): array {
         return JsonSerializer::serializeTaxable($this);
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function onSubmit(): void {
 

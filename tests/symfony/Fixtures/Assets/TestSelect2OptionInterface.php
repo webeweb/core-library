@@ -38,14 +38,14 @@ class TestSelect2OptionInterface extends AbstractNode implements Select2OptionIn
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getSelect2OptionId(): ?string {
         return $this->getId();
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getSelect2OptionText(): ?string {
         return $this->getName();

@@ -32,7 +32,7 @@ class PurchaseBill extends Billable implements PurchaseBillInterface {
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function jsonSerialize(): array {
         return JsonSerializer::serializePurchaseBill($this);

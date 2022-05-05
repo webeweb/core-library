@@ -36,7 +36,7 @@ class AccountingAccount implements AccountingAccountInterface {
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function jsonSerialize(): array {
         return JsonSerializer::serializeAccountingAccount($this);

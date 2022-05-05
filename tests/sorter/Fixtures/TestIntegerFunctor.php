@@ -22,7 +22,7 @@ use WBW\Library\Sorter\FunctorInterface;
 class TestIntegerFunctor implements FunctorInterface {
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function compare($a, $b): bool {
         return $a < $b;

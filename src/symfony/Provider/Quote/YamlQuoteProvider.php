@@ -45,7 +45,7 @@ class YamlQuoteProvider extends AbstractQuoteProvider {
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getDomain(): string {
         return basename($this->getFilename(), ".yml");

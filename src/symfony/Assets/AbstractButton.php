@@ -39,7 +39,7 @@ abstract class AbstractButton implements ButtonInterface {
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function jsonSerialize(): array {
         return JsonSerializer::serializeButton($this);

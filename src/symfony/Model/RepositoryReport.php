@@ -72,35 +72,35 @@ class RepositoryReport implements RepositoryReportInterface {
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getAvailable(): ?int {
         return $this->available;
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getColumn(): ?string {
         return $this->column;
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getEntity(): ?string {
         return $this->entity;
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getField(): ?string {
         return $this->field;
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getTable(): ?string {
         return $this->table;

@@ -38,7 +38,7 @@ class WhiteColorProvider extends AbstractColorProvider implements WhiteColorProv
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getColors(): array {
         return [
@@ -58,7 +58,7 @@ class WhiteColorProvider extends AbstractColorProvider implements WhiteColorProv
     }
 
     /**
-     *{@inheritDoc}
+     *{@inheritdoc}
      */
     public function getName(): string {
         return self::WHITE_COLOR_NAME;

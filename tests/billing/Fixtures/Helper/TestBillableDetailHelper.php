@@ -23,7 +23,7 @@ use WBW\Library\Billing\Model\BillableDetailInterface;
 class TestBillableDetailHelper extends BillableDetailHelper {
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public static function getQuantity(BillableDetailInterface $billableDetail): float {
         return parent::getQuantity($billableDetail);

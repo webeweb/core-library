@@ -96,7 +96,7 @@ abstract class AbstractNavigationNode implements NavigationNodeInterface {
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function addNode(NavigationNodeInterface $node): NavigationNodeInterface {
         $this->index[$node->getId()] = $this->size();
@@ -105,7 +105,7 @@ abstract class AbstractNavigationNode implements NavigationNodeInterface {
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function clearNodes(): NavigationNodeInterface {
 
@@ -117,42 +117,42 @@ abstract class AbstractNavigationNode implements NavigationNodeInterface {
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getAlphabeticalTreeNodeLabel(): string {
         return $this->getId();
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getAlphabeticalTreeNodeParent(): ?AlphabeticalTreeNodeInterface {
         return $this->getParent();
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getFirstNode(): ?NavigationNodeInterface {
         return $this->getNodeAt(0);
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getLastNode(): ?NavigationNodeInterface {
         return $this->getNodeAt($this->size() - 1);
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getMatcher(): ?string {
         return $this->matcher;
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getNodeAt(int $position): ?NavigationNodeInterface {
 
@@ -164,7 +164,7 @@ abstract class AbstractNavigationNode implements NavigationNodeInterface {
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getNodeById(string $id, bool $recursively = false): ?NavigationNodeInterface {
 
@@ -188,35 +188,35 @@ abstract class AbstractNavigationNode implements NavigationNodeInterface {
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getNodes(): array {
         return $this->nodes;
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getParent(): ?NavigationNodeInterface {
         return $this->parent;
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getTarget(): ?string {
         return $this->target;
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getUri(): ?string {
         return $this->uri;
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function isDisplayable(): bool {
 
@@ -235,14 +235,14 @@ abstract class AbstractNavigationNode implements NavigationNodeInterface {
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function jsonSerialize(): array {
         return JsonSerializer::serializeNavigationNode($this);
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function removeNode(NavigationNodeInterface $node): NavigationNodeInterface {
 
@@ -268,7 +268,7 @@ abstract class AbstractNavigationNode implements NavigationNodeInterface {
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function setMatcher(?string $matcher): NavigationNodeInterface {
         $this->matcher = $matcher;
@@ -298,7 +298,7 @@ abstract class AbstractNavigationNode implements NavigationNodeInterface {
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function setTarget(?string $target): NavigationNodeInterface {
         $this->target = $target;
@@ -306,7 +306,7 @@ abstract class AbstractNavigationNode implements NavigationNodeInterface {
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function setUri(?string $uri): NavigationNodeInterface {
         $this->uri = $uri;
@@ -325,7 +325,7 @@ abstract class AbstractNavigationNode implements NavigationNodeInterface {
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function size(): int {
         return count($this->getNodes());

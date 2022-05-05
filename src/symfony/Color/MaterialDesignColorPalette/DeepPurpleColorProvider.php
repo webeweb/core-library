@@ -38,7 +38,7 @@ class DeepPurpleColorProvider extends AbstractColorProvider implements DeepPurpl
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getColors(): array {
         return [
@@ -58,7 +58,7 @@ class DeepPurpleColorProvider extends AbstractColorProvider implements DeepPurpl
     }
 
     /**
-     *{@inheritDoc}
+     *{@inheritdoc}
      */
     public function getName(): string {
         return self::DEEP_PURPLE_COLOR_NAME;

@@ -70,7 +70,7 @@ abstract class Billable implements BillableInterface {
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function addDetail(BillableDetailInterface $detail): BillableInterface {
         $this->details->add($detail);
@@ -79,28 +79,28 @@ abstract class Billable implements BillableInterface {
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getDetails(): array {
         return $this->details->toArray();
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getParent(): ?BillableInterface {
         return $this->parent;
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function jsonSerialize(): array {
         return JsonSerializer::serializeBillable($this);
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function onSubmit(): void {
 
@@ -111,7 +111,7 @@ abstract class Billable implements BillableInterface {
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function removeDetail(BillableDetailInterface $detail): BillableInterface {
         $this->details->removeElement($detail);
@@ -131,7 +131,7 @@ abstract class Billable implements BillableInterface {
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function setParent(?BillableInterface $parent): BillableInterface {
         $this->parent = $parent;

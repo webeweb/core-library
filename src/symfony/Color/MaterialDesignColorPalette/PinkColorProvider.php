@@ -38,7 +38,7 @@ class PinkColorProvider extends AbstractColorProvider implements PinkColorProvid
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getColors(): array {
         return [
@@ -58,7 +58,7 @@ class PinkColorProvider extends AbstractColorProvider implements PinkColorProvid
     }
 
     /**
-     *{@inheritDoc}
+     *{@inheritdoc}
      */
     public function getName(): string {
         return self::PINK_COLOR_NAME;

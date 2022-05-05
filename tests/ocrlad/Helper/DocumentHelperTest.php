@@ -33,7 +33,7 @@ class DocumentHelperTest extends AbstractTestCase {
     private $document;
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     protected function setUp(): void {
         parent::setUp();

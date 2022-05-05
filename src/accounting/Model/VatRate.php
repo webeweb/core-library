@@ -48,28 +48,28 @@ class VatRate implements VatRateInterface {
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getPurchasesAccountingAccount(): ?AccountingAccountInterface {
         return $this->purchasesAccountingAccount;
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getSalesAccountingAccount(): ?AccountingAccountInterface {
         return $this->salesAccountingAccount;
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function jsonSerialize(): array {
         return JsonSerializer::serializeVatRate($this);
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function setPurchasesAccountingAccount(?AccountingAccountInterface $purchasesAccountingAccount): VatRateInterface {
         $this->purchasesAccountingAccount = $purchasesAccountingAccount;
@@ -77,7 +77,7 @@ class VatRate implements VatRateInterface {
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function setSalesAccountingAccount(?AccountingAccountInterface $salesAccountingAccount): VatRateInterface {
         $this->salesAccountingAccount = $salesAccountingAccount;

@@ -48,7 +48,7 @@ class TimeSlotTest extends AbstractTestCase {
     private $startDate;
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     protected function setUp(): void {
         parent::setUp();

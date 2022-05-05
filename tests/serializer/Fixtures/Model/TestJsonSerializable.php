@@ -22,7 +22,7 @@ use JsonSerializable;
 class TestJsonSerializable implements JsonSerializable {
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function jsonSerialize(): array {
         return [];

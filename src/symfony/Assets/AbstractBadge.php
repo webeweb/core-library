@@ -39,7 +39,7 @@ abstract class AbstractBadge implements BadgeInterface {
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function jsonSerialize(): array {
         return JsonSerializer::serializeBadge($this);

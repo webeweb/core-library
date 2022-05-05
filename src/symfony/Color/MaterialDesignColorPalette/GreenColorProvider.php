@@ -38,7 +38,7 @@ class GreenColorProvider extends AbstractColorProvider implements GreenColorProv
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getColors(): array {
         return [
@@ -58,7 +58,7 @@ class GreenColorProvider extends AbstractColorProvider implements GreenColorProv
     }
 
     /**
-     *{@inheritDoc}
+     *{@inheritdoc}
      */
     public function getName(): string {
         return self::GREEN_COLOR_NAME;

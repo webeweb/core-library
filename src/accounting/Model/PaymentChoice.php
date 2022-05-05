@@ -32,7 +32,7 @@ class PaymentChoice implements PaymentChoiceInterface {
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function jsonSerialize(): array {
         return JsonSerializer::serializePaymentChoice($this);

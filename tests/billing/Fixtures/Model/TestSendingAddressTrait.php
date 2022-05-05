@@ -26,7 +26,7 @@ class TestSendingAddressTrait implements SendingAddressInterface {
     use SendingAddressTrait;
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function jsonSerialize(): array {
         return JsonSerializer::serializeSendingAddress($this);

@@ -35,7 +35,7 @@ abstract class AbstractIcon implements IconInterface {
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function jsonSerialize(): array {
         return JsonSerializer::serializeIcon($this);

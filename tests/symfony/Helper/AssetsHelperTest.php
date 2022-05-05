@@ -46,7 +46,7 @@ class AssetsHelperTest extends AbstractTestCase {
     private $srcDirectory;
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     protected function setUp(): void {
         parent::setUp();

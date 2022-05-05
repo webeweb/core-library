@@ -38,7 +38,7 @@ class QuickSortTest extends AbstractTestCase {
     private $values;
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     protected function setUp(): void {
         parent::setUp();

@@ -32,14 +32,14 @@ class TestRule extends AbstractRule {
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function setName(?string $name): RuleInterface {
         return parent::setName($name);
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function validate($object): StatusInterface {
 

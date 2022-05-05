@@ -22,7 +22,7 @@ use WBW\Library\Symfony\Provider\Quote\YamlQuoteProvider;
 class TestYamlQuoteProvider extends YamlQuoteProvider {
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function init(): void {
         parent::init();

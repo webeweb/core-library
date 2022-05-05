@@ -48,21 +48,21 @@ abstract class AbstractNotification implements NotificationInterface {
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getContent(): string {
         return $this->content;
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getType(): string {
         return $this->type;
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function jsonSerialize(): array {
         return JsonSerializer::serializeNotification($this);

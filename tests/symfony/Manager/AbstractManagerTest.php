@@ -31,7 +31,7 @@ class AbstractManagerTest extends AbstractTestCase {
     private $provider;
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     protected function setUp(): void {
         parent::setUp();

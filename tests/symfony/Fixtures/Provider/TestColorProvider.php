@@ -29,14 +29,14 @@ class TestColorProvider extends AbstractColorProvider {
     }
 
     /**
-     *{@inheritDoc}
+     *{@inheritdoc}
      */
     public function getColors(): array {
         return [];
     }
 
     /**
-     *{@inheritDoc}
+     *{@inheritdoc}
      */
     public function getName(): string {
         return "test";

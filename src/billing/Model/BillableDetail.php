@@ -55,21 +55,21 @@ abstract class BillableDetail extends Taxable implements BillableDetailInterface
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getBillable(): ?BillableInterface {
         return $this->billable;
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function jsonSerialize(): array {
         return JsonSerializer::serializeBillableDetail($this);
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function onSubmit(): void {
         parent::onSubmit();
@@ -81,7 +81,7 @@ abstract class BillableDetail extends Taxable implements BillableDetailInterface
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function setBillable(?BillableInterface $billable): BillableDetailInterface {
         $this->billable = $billable;
