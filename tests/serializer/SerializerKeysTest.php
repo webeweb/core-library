@@ -145,6 +145,7 @@ class SerializerKeysTest extends AbstractTestCase {
         $this->assertEquals("quantity", SerializerKeys::QUANTITY);
         $this->assertEquals("query", SerializerKeys::QUERY);
         $this->assertEquals("rate", SerializerKeys::RATE);
+        $this->assertEquals("rawData", SerializerKeys::RAW_DATA);
         $this->assertEquals("rawResponse", SerializerKeys::RAW_RESPONSE);
         $this->assertEquals("ready", SerializerKeys::READY);
         $this->assertEquals("reference", SerializerKeys::REFERENCE);

@@ -846,6 +846,13 @@ interface SerializerKeys {
     const RATE = "rate";
 
     /**
+     * Serializer key "raw data".
+     *
+     * @var string
+     */
+    const RAW_DATA = "rawData";
+
+    /**
      * Serializer key "raw response".
      *
      * @var string
