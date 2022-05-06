@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [8.46.2](https://github.com/webeweb/core-library/tree/v8.46.2) (2022-05-06)
+
+- Fix Serializer keys inheritance
+
 ### [8.46.1](https://github.com/webeweb/core-library/tree/v8.46.1) (2022-05-06)
 
 - Add raw data serializer key
