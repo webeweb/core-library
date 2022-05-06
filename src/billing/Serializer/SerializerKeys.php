@@ -11,15 +11,13 @@
 
 namespace WBW\Library\Billing\Serializer;
 
-use WBW\Library\Serializer\SerializerKeys as BaseSerializerKeys;
-
 /**
  * Serializer keys.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Billing\Serializer
  */
-interface SerializerKeys extends BaseSerializerKeys {
+interface SerializerKeys {
 
     /**
      * Serializer key "billable".
