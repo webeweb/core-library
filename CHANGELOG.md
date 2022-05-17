@@ -1,6 +1,13 @@
 CHANGELOG
 =========
 
+### [8.47.0](https://github.com/webeweb/core-library/tree/v8.47.0) (2022-05-17)
+
+- Add CPU model
+- Add Memory model
+- Add getCpu() into OS helper
+- Add getMemory() into OS helper
+
 ### [8.46.2](https://github.com/webeweb/core-library/tree/v8.46.2) (2022-05-06)
 
 - Fix Serializer keys inheritance
