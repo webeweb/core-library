@@ -33,10 +33,9 @@ class OSHelper {
             return null;
         }
 
-        $grep = "%Cpu(s):";
-        exec("top -b -n 1 |grep '$grep'", $output);
+        exec("top -b -n 1 |grep '%Cpu(s):'", $output);
 
-        preg_match_all("/[0-9.]+/", $output[0], $values);
+        preg_match_all("/[\d.]+/", $output[0], $values);
 
         $cpu = new Cpu();
         $cpu->setUs(floatval(trim($values[0][0])));
