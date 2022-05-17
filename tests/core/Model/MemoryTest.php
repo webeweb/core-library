@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Core\Tests\Model;
 
+use JsonSerializable;
 use WBW\Library\Core\Model\Memory;
 use WBW\Library\Core\Tests\AbstractTestCase;
 
@@ -134,11 +135,13 @@ class MemoryTest extends AbstractTestCase {
 
         $obj = new Memory();
 
-        $this->assertNull($obj->getAvailable());
-        $this->assertNull($obj->getBuffCache());
-        $this->assertNull($obj->getFree());
-        $this->assertNull($obj->getShared());
+        $this->assertInstanceOf(JsonSerializable::class, $obj);
+
         $this->assertNull($obj->getTotal());
         $this->assertNull($obj->getUsed());
+        $this->assertNull($obj->getFree());
+        $this->assertNull($obj->getShared());
+        $this->assertNull($obj->getBuffCache());
+        $this->assertNull($obj->getAvailable());
     }
 }
