@@ -23,6 +23,40 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 class OSHelperTest extends AbstractTestCase {
 
     /**
+     * Tests getMemory()
+     *
+     * @return void
+     */
+    public function testGetMemory(): void {
+
+        $obj = OSHelper::getMemory();
+
+        $this->assertGreaterThanOrEqual(0, $obj->getTotal());
+        $this->assertGreaterThanOrEqual(0, $obj->getUsed());
+        $this->assertGreaterThanOrEqual(0, $obj->getFree());
+        $this->assertGreaterThanOrEqual(0, $obj->getShared());
+        $this->assertGreaterThanOrEqual(0, $obj->getBuffCache());
+        $this->assertGreaterThanOrEqual(0, $obj->getAvailable());
+    }
+
+    /**
+     * Tests getMemory()
+     *
+     * @return void
+     */
+    public function testGetMemoryWithSwap(): void {
+
+        $obj = OSHelper::getMemory(true);
+
+        $this->assertGreaterThanOrEqual(0, $obj->getTotal());
+        $this->assertGreaterThanOrEqual(0, $obj->getUsed());
+        $this->assertGreaterThanOrEqual(0, $obj->getFree());
+        $this->assertNull($obj->getShared());
+        $this->assertNull($obj->getBuffCache());
+        $this->assertNull($obj->getAvailable());
+    }
+
+    /**
      * Tests isLinux()
      *
      * @return void
