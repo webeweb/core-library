@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Core\Helper;
 
+use WBW\Library\Core\Model\Cpu;
 use WBW\Library\Core\Model\Memory;
 
 /**
@@ -20,6 +21,35 @@ use WBW\Library\Core\Model\Memory;
  * @package WBW\Library\Core\Helper
  */
 class OSHelper {
+
+    /**
+     * Get the CPU.
+     *
+     * @return Cpu|null Returns the CPU.
+     */
+    public static function getCpu(): ?Cpu {
+
+        if (true === static::isWindows()) {
+            return null;
+        }
+
+        $grep = "%Cpu(s):";
+        exec("top -b -n 1 |grep '$grep'", $output);
+
+        preg_match_all("/[0-9.]+/", $output[0], $values);
+
+        $cpu = new Cpu();
+        $cpu->setUs(floatval(trim($values[0][0])));
+        $cpu->setSy(floatval(trim($values[0][1])));
+        $cpu->setNi(floatval(trim($values[0][2])));
+        $cpu->setId(floatval(trim($values[0][3])));
+        $cpu->setWa(floatval(trim($values[0][4])));
+        $cpu->setHi(floatval(trim($values[0][5])));
+        $cpu->setSi(floatval(trim($values[0][6])));
+        $cpu->setSt(floatval(trim($values[0][7])));
+
+        return $cpu;
+    }
 
     /**
      * Get the memory.

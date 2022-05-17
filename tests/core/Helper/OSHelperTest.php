@@ -23,6 +23,25 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 class OSHelperTest extends AbstractTestCase {
 
     /**
+     * Tests getCpu()
+     *
+     * @return void
+     */
+    public function testGetCpu(): void {
+
+        $obj = OSHelper::getCpu();
+
+        $this->assertGreaterThanOrEqual(0, $obj->getUs());
+        $this->assertGreaterThanOrEqual(0, $obj->getSy());
+        $this->assertGreaterThanOrEqual(0, $obj->getNi());
+        $this->assertGreaterThanOrEqual(0, $obj->getId());
+        $this->assertGreaterThanOrEqual(0, $obj->getWa());
+        $this->assertGreaterThanOrEqual(0, $obj->getHi());
+        $this->assertGreaterThanOrEqual(0, $obj->getSi());
+        $this->assertGreaterThanOrEqual(0, $obj->getST());
+    }
+
+    /**
      * Tests getMemory()
      *
      * @return void
