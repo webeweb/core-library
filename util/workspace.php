@@ -56,16 +56,6 @@ EOT;
     }
 
     /**
-     * Executes a command "composer update".
-     *
-     * @return void
-     * @throws Exception Throws an exception if an error occurs.
-     */
-    public function composerUpdate(): void {
-        $this->executeCommandComposer("update");
-    }
-
-    /**
      * Executes a command.
      *
      * @param string $command The command.
@@ -140,17 +130,20 @@ EOT;
      */
     public static function getAvailableMethods(): array {
         return [
-            "--composer-update"     => "composerUpdate",
-            "--git-config-usermail" => "gitConfigUserEmail",
-            "--git-config-username" => "gitConfigUserName",
-            "--git-fetch"           => "gitFetch",
-            "--git-pull-origin"     => "gitPullOrigin",
-            "--git-push-origin"     => "gitPushOrigin",
-            "--git-push-upstream"   => "gitPushUpstream",
-            "--git-status"          => "gitStatus",
-            "--phpunit"             => "phpunit",
-            "--license-update"      => "licenseUpdate",
-            "--sanitize"            => "sanitize",
+            "--composer-update"     => "runComposerUpdate",
+            "--git-config-usermail" => "runGitConfigUserEmail",
+            "--git-config-username" => "runGitConfigUserName",
+            "--git-fetch"           => "runGitFetch",
+            "--git-pull-origin"     => "runGitPullOrigin",
+            "--git-push-origin"     => "runGitPushOrigin",
+            "--git-push-upstream"   => "runGitPushUpstream",
+            "--git-status"          => "runGitStatus",
+            "--phpunit"             => "runPhpunit",
+            "--license-update"      => "runLicenseUpdate",
+            "--phpcoveralls-update" => "runPhpCoverallsUpdate",
+            "--phpmetrics-update"   => "runPhpMetricsUpdate",
+            "--phpstan-update"      => "runPhpStanUpdate",
+            "--sanitize"            => "runSanitize",
         ];
     }
 
@@ -171,6 +164,9 @@ EOT;
             "--git-status"          => "Execute 'git status'",
             "--phpunit"             => "Execute 'vendor/bin/phpunit",
             "--license-update"      => "Update LICENSE",
+            "--phpcoveralls-update" => "Update PhpCoveralls <version>",
+            "--phpmetrics-update"   => "Update PhpMetrics <version>",
+            "--phpstan-update"      => "Update PhpStan <version>",
             "--sanitize"            => "",
         ];
     }
@@ -212,82 +208,33 @@ EOT;
     }
 
     /**
-     * Executes a command "git config user.email".
+     * Determines if this directory has GitHub workflows.
      *
-     * @param string $value The value.
-     * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @return bool Returns true in case of success, false otherwise.
      */
-    public function gitConfigUserEmail(string $value): void {
-        $this->executeCommandGit(sprintf("config user.email '%s'", $value));
-    }
+    private function hasGitHubWorkflows(): bool {
 
-    /**
-     * Executes a command "git config user.name".
-     *
-     * @param string $value The value.
-     * @return void
-     * @throws Exception Throws an exception if an error occurs.
-     */
-    public function gitConfigUserName(string $value): void {
-        $this->executeCommandGit(sprintf("config user.name '%s'", $value));
-    }
+        $build = file_exists(implode(DIRECTORY_SEPARATOR, [
+            $this->getDirectory(),
+            ".github",
+            "workflows",
+            "build.yml",
+        ]));
 
-    /**
-     * Executes a command "git fetch --prune --prune-tag".
-     *
-     * @return void
-     * @throws Exception Throws an exception if an error occurs.
-     */
-    public function gitFetch(): void {
-        $this->executeCommandGit("fetch --prune --prune-tag");
-    }
+        $metrics = file_exists(implode(DIRECTORY_SEPARATOR, [
+            $this->getDirectory(),
+            ".github",
+            "workflows",
+            "metrics.yml",
+        ]));
 
-    /**
-     * Executes a command "git pull origin".
-     *
-     * @return void
-     * @throws Exception Throws an exception if an error occurs.
-     */
-    public function gitPullOrigin(): void {
-        $this->executeCommandGit("pull --ff-only origin");
-    }
-
-    /**
-     * Executes a command "git push origin".
-     *
-     * @return void
-     * @throws Exception Throws an exception if an error occurs.
-     */
-    public function gitPushOrigin(): void {
-        $this->executeCommandGit("push origin");
-    }
-
-    /**
-     * Executes a command "git push upstream".
-     *
-     * @return void
-     * @throws Exception Throws an exception if an error occurs.
-     */
-    public function gitPushUpstream(): void {
-        $this->executeCommandGit("push upstream --all --tag");
-    }
-
-    /**
-     * Executes a command "git status".
-     *
-     * @return void
-     * @throws Exception Throws an exception if an error occurs.
-     */
-    public function gitStatus(): void {
-        $this->executeCommandGit("status");
+        return $build && $metrics;
     }
 
     /**
      * Determines if this directory has a LICENSE.
      *
      * @return bool Returns true in case of success, false otherwise.
-     * @throws Exception Throws an exception if an error occurs.
      */
     private function hasLicense(): bool {
         return file_exists(implode(DIRECTORY_SEPARATOR, [
@@ -308,6 +255,7 @@ EOT;
             $this->getDirectory(),
             "phpunit.xml.dist",
         ]));
+
         $php = file_exists(implode(DIRECTORY_SEPARATOR, [
             $this->getDirectory(),
             "vendor",
@@ -316,16 +264,6 @@ EOT;
         ]));
 
         return $xml && $php;
-    }
-
-    /**
-     * Executes a command "hostname".
-     *
-     * @return string Returns the hostname.
-     * @throws Exception Throws an exception if an error occurs.
-     */
-    private function hostname(): string {
-        return $this->executeCommand("hostname")[0];
     }
 
     /**
@@ -355,26 +293,6 @@ EOT;
     }
 
     /**
-     * Update a LICENSE.
-     *
-     * @return void
-     * @throws Exception Throws an exception if an error occurs.
-     */
-    public function licenseUpdate(): void {
-
-        if (false === $this->hasLicense()) {
-            return;
-        }
-
-        $year = DateTimeHelper::getYearNumber(new DateTime());
-
-        $cmd = "sed -i 's/[0-9]\{4\}\ WEBEWEB/$year WEBEWEB/' LICENSE";
-
-        $this->logCommand($cmd);
-        $this->executeCommand($this->chainCommand($cmd), true);
-    }
-
-    /**
      * Log a command.
      *
      * @param string $command The command.
@@ -385,7 +303,7 @@ EOT;
 
         $home = $this->executeCommand("echo \$HOME");
         $pwd  = str_replace($home, "", $this->getDirectory());
-        $log  = sprintf(self::LOG_COMMAND_FORMAT, $this->getDirectory(), $this->whoami(), $this->hostname(), $pwd, $command);
+        $log  = sprintf(self::LOG_COMMAND_FORMAT, $this->getDirectory(), $this->runWhoami(), $this->runHostname(), $pwd, $command);
 
         passthru(sprintf("echo '%s'", $log));
     }
@@ -444,12 +362,203 @@ EOT;
     }
 
     /**
+     * Print help.
+     *
+     * @param string $script The script.
+     * @return void
+     */
+    public static function printHelp(string $script): void {
+
+        echo sprintf("Usage:\n%s %s [options] /path/to/directory\n\n", PHP_BINARY, $script);
+
+        echo "Options:\n";
+        foreach (self::getAvailableOptions() as $k => $v) {
+            echo sprintf("%-23s %s\n", $k, $v);
+        }
+        echo "\n";
+
+        echo "Sample:\n";
+        echo sprintf("%s %s --git-config-username=John\ Doe /path/to/directory\n", PHP_BINARY, $script);
+        echo sprintf("%s %s --git-config-usermail=john.doe@gmail.com /path/to/directory\n", PHP_BINARY, $script);
+        echo sprintf("%s %s --phpcoveralls-update=2.5.2 /path/to/directory\n", PHP_BINARY, $script);
+        echo sprintf("%s %s --phpmetrics-update=2.8.1 /path/to/directory\n", PHP_BINARY, $script);
+        echo sprintf("%s %s --phpstan-update=0.12.99 /path/to/directory\n", PHP_BINARY, $script);
+        echo "\n";
+    }
+
+    /**
+     * Executes a command "composer update".
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function runComposerUpdate(): void {
+        $this->executeCommandComposer("update");
+    }
+
+    /**
+     * Executes a command "git config user.email".
+     *
+     * @param string $value The value.
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function runGitConfigUserEmail(string $value): void {
+        $this->executeCommandGit(sprintf("config user.email '%s'", $value));
+    }
+
+    /**
+     * Executes a command "git config user.name".
+     *
+     * @param string $value The value.
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function runGitConfigUserName(string $value): void {
+        $this->executeCommandGit(sprintf("config user.name '%s'", $value));
+    }
+
+    /**
+     * Executes a command "git fetch --prune --prune-tag".
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function runGitFetch(): void {
+        $this->executeCommandGit("fetch --prune --prune-tag");
+    }
+
+    /**
+     * Executes a command "git pull origin".
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function runGitPullOrigin(): void {
+        $this->executeCommandGit("pull --ff-only origin");
+    }
+
+    /**
+     * Executes a command "git push origin".
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function runGitPushOrigin(): void {
+        $this->executeCommandGit("push origin");
+    }
+
+    /**
+     * Executes a command "git push upstream".
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function runGitPushUpstream(): void {
+        $this->executeCommandGit("push upstream --all --tag");
+    }
+
+    /**
+     * Executes a command "git status".
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function runGitStatus(): void {
+        $this->executeCommandGit("status");
+    }
+
+    /**
+     * Executes a command "hostname".
+     *
+     * @return string Returns the hostname.
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    private function runHostname(): string {
+        return $this->executeCommand("hostname")[0];
+    }
+
+    /**
+     * Updates a LICENSE.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function runLicenseUpdate(): void {
+
+        if (false === $this->hasLicense()) {
+            return;
+        }
+
+        $year = DateTimeHelper::getYearNumber(new DateTime());
+
+        $cmd = "sed -i 's/[0-9]\{4\}\ WEBEWEB/$year WEBEWEB/' LICENSE";
+
+        $this->logCommand($cmd);
+        $this->executeCommand($this->chainCommand($cmd), true);
+    }
+
+    /**
+     * Updates a PhpMetrics.
+     *
+     * @param string $version The version.
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function runPhpCoverallsUpdate(string $version): void {
+
+        if (false === $this->hasGitHubWorkflows()) {
+            return;
+        }
+
+        $cmd = "sed -i 's/v[0-9\.]*\/php-coveralls\.phar/v$version\/php-coveralls.phar/' .github/workflows/build.yml";
+
+        $this->logCommand($cmd);
+        $this->executeCommand($this->chainCommand($cmd), true);
+    }
+
+    /**
+     * Updates a PhpMetrics.
+     *
+     * @param string $version The version.
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function runPhpMetricsUpdate(string $version): void {
+
+        if (false === $this->hasGitHubWorkflows()) {
+            return;
+        }
+
+        $cmd = "sed -i 's/v[0-9\.]*\/phpmetrics\.phar/v$version\/phpmetrics.phar/' .github/workflows/metrics.yml";
+
+        $this->logCommand($cmd);
+        $this->executeCommand($this->chainCommand($cmd), true);
+    }
+
+    /**
+     * Updates a PhpStan.
+     *
+     * @param string $version The version.
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function runPhpStanUpdate(string $version): void {
+
+        if (false === $this->hasGitHubWorkflows()) {
+            return;
+        }
+
+        $cmd = "sed -i 's/[0-9\.]*\/phpstan\.phar/$version\/phpstan.phar/' .github/workflows/analysis.yml";
+
+        $this->logCommand($cmd);
+        $this->executeCommand($this->chainCommand($cmd), true);
+    }
+
+    /**
      * Executes a command "phpunit".
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function phpunit(): void {
+    public function runPhpunit(): void {
 
         if (false === $this->hasPhpUnitConfiguration()) {
             return;
@@ -467,34 +576,12 @@ EOT;
     }
 
     /**
-     * Print help.
-     *
-     * @param string $script The script.
-     * @return void
-     */
-    public static function printHelp(string $script): void {
-
-        echo sprintf("Usage:\n%s [options] directory\n\n", $script);
-
-        echo "Options:\n";
-        foreach (self::getAvailableOptions() as $k => $v) {
-            echo sprintf("%-23s %s\n", $k, $v);
-        }
-        echo "\n";
-
-        echo "Sample:\n";
-        echo sprintf("%s --git-config-username=John\ Doe\n", $script);
-        echo sprintf("%s --git-config-usermail=john.doe@gmail.com\n", $script);
-        echo "\n";
-    }
-
-    /**
-     * Sanitize.
+     * Executes a command "sanitize".
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function sanitize(): void {
+    public function runSanitize(): void {
 
         if (false === $this->isGitRepository()) {
             return;
@@ -514,7 +601,7 @@ EOT;
      * @return string Returns the command "whoami" result.
      * @throws Exception Throws an exception if an error occurs.
      */
-    private function whoami(): string {
+    private function runWhoami(): string {
         return $this->executeCommand("whoami")[0];
     }
 }
