@@ -79,7 +79,7 @@ EOT;
     }
 
     /**
-     * Executes a command "composer".
+     * Executes a command "composer [command_name]".
      *
      * @param string $arguments The arguments.
      * @return void
@@ -105,7 +105,7 @@ EOT;
     }
 
     /**
-     * Executes a command "git".
+     * Executes a command "git <command>".
      *
      * @param string $arguments The arguments.
      * @return void
@@ -214,6 +214,13 @@ EOT;
      */
     private function hasGitHubWorkflows(): bool {
 
+        $analysis = file_exists(implode(DIRECTORY_SEPARATOR, [
+            $this->getDirectory(),
+            ".github",
+            "workflows",
+            "analysis.yml",
+        ]));
+
         $build = file_exists(implode(DIRECTORY_SEPARATOR, [
             $this->getDirectory(),
             ".github",
@@ -228,7 +235,7 @@ EOT;
             "metrics.yml",
         ]));
 
-        return $build && $metrics;
+        return $analysis && $build && $metrics;
     }
 
     /**
@@ -377,7 +384,7 @@ EOT;
         }
         echo "\n";
 
-        echo "Sample:\n";
+        echo "Samples:\n";
         echo sprintf("%s %s --git-config-username=John\ Doe /path/to/directory\n", PHP_BINARY, $script);
         echo sprintf("%s %s --git-config-usermail=john.doe@gmail.com /path/to/directory\n", PHP_BINARY, $script);
         echo sprintf("%s %s --phpcoveralls-update=2.5.2 /path/to/directory\n", PHP_BINARY, $script);
@@ -397,7 +404,7 @@ EOT;
     }
 
     /**
-     * Executes a command "git config user.email".
+     * Executes a command "git config user.email 'email'".
      *
      * @param string $value The value.
      * @return void
@@ -408,7 +415,7 @@ EOT;
     }
 
     /**
-     * Executes a command "git config user.name".
+     * Executes a command "git config user.name 'name'".
      *
      * @param string $value The value.
      * @return void
@@ -499,57 +506,53 @@ EOT;
     }
 
     /**
-     * Updates a PhpMetrics.
+     * Update a PHP archive.
+     *
+     * @param string $phar The PHP archive.
+     * @param string $version The version.
+     * @param string $filename The filename.
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    private function runPharUpdate(string $phar, string $version, string $filename): void {
+
+        if (false === $this->hasGitHubWorkflows()) {
+            return;
+        }
+
+        $cmd = "sed -i 's/[0-9\.]*\/$phar\.phar/$version\/$phar.phar/' .github/workflows/$filename.yml";
+
+        $this->logCommand($cmd);
+        $this->executeCommand($this->chainCommand($cmd), true);
+    }
+
+    /**
+     * Updates the PhpCoveralls version.
      *
      * @param string $version The version.
      * @throws Exception Throws an exception if an error occurs.
      */
     public function runPhpCoverallsUpdate(string $version): void {
-
-        if (false === $this->hasGitHubWorkflows()) {
-            return;
-        }
-
-        $cmd = "sed -i 's/v[0-9\.]*\/php-coveralls\.phar/v$version\/php-coveralls.phar/' .github/workflows/build.yml";
-
-        $this->logCommand($cmd);
-        $this->executeCommand($this->chainCommand($cmd), true);
+        $this->runPharUpdate("php-coveralls", $version, "build");
     }
 
     /**
-     * Updates a PhpMetrics.
+     * Updates the PhpMetrics version.
      *
      * @param string $version The version.
      * @throws Exception Throws an exception if an error occurs.
      */
     public function runPhpMetricsUpdate(string $version): void {
-
-        if (false === $this->hasGitHubWorkflows()) {
-            return;
-        }
-
-        $cmd = "sed -i 's/v[0-9\.]*\/phpmetrics\.phar/v$version\/phpmetrics.phar/' .github/workflows/metrics.yml";
-
-        $this->logCommand($cmd);
-        $this->executeCommand($this->chainCommand($cmd), true);
+        $this->runPharUpdate("phpmetrics", $version, "metrics");
     }
 
     /**
-     * Updates a PhpStan.
+     * Updates the PhpStan version.
      *
      * @param string $version The version.
      * @throws Exception Throws an exception if an error occurs.
      */
     public function runPhpStanUpdate(string $version): void {
-
-        if (false === $this->hasGitHubWorkflows()) {
-            return;
-        }
-
-        $cmd = "sed -i 's/[0-9\.]*\/phpstan\.phar/$version\/phpstan.phar/' .github/workflows/analysis.yml";
-
-        $this->logCommand($cmd);
-        $this->executeCommand($this->chainCommand($cmd), true);
+        $this->runPharUpdate("phpstan", $version, "analysis");
     }
 
     /**
