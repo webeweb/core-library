@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [8.48.0](https://github.com/webeweb/core-library/tree/v8.48.0) (2022-06-22)
+
+- Add moreThan() into String helper
+
 ### [8.47.0](https://github.com/webeweb/core-library/tree/v8.47.0) (2022-05-17)
 
 - Add CPU model
