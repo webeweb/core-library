@@ -149,6 +149,26 @@ class StringHelper {
     }
 
     /**
+     * More than.
+     *
+     * @param float|null $value The value.
+     * @return string|null Returns the more than.
+     */
+    public static function moreThan(?float $value): ?string {
+
+        if (null === $value) {
+            return null;
+        }
+
+        $output = sprintf("%d", $value);
+        if ($value < 10) {
+            return $output;
+        }
+
+        return preg_replace("/\d$/", "0", $output);
+    }
+
+    /**
      * Parse an array.
      *
      * @param array $values The array.

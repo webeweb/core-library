@@ -121,6 +121,19 @@ class StringHelperTest extends AbstractTestCase {
     }
 
     /**
+     * Tests moreThan()
+     *
+     * @return void
+     */
+    public function testMoreThan(): void {
+
+        $this->assertEquals(null, StringHelper::moreThan(null));
+        $this->assertEquals("5", StringHelper::moreThan(5.1));
+        $this->assertEquals("10", StringHelper::moreThan(10.1));
+        $this->assertEquals("10", StringHelper::moreThan(15.1));
+    }
+
+    /**
      * Tests parseArray()
      *
      * @return void
