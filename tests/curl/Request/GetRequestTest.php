@@ -80,7 +80,7 @@ class GetRequestTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testCallWithHTTPCodes(): void {
+    public function testCallWithHttpCodes(): void {
 
         $obj = new GetRequest($this->curlConfiguration, $this->curlResourcePath);
 
