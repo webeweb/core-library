@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### master
+
+- Add string short label trait
+
 ### [8.48.0](https://github.com/webeweb/core-library/tree/v8.48.0) (2022-06-22)
 
 - Add moreThan() into String helper
