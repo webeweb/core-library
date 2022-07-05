@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Types\Helper;
 
+use Closure;
 use Transliterator;
 use WBW\Library\Types\Exception\StringArgumentException;
 
@@ -325,6 +326,51 @@ class StringHelper {
      */
     public static function ucwords(?string $string, string $separators = " \t\r\n\f\v-"): ?string {
         return ucwords(strtolower($string), $separators);
+    }
+
+    /**
+     * User sort closure.
+     *
+     * @param string|null $method The method.
+     * @param bool $asc ASC ?
+     * @return Closure Returns the usort closure.
+     */
+    public static function usortClosure(?string $method = null, bool $asc = true): Closure {
+
+        /**
+         * Get the string.
+         *
+         * @param object|null $object The object.
+         * @param string|null $method The method.
+         * @return string|null Returns the string.
+         */
+        $callback = function($object, ?string $method): ?string {
+
+            $value = null;
+            if (true === is_object($object) && null !== $method && method_exists($object, $method)) {
+                $value = $object->$method();
+            } else {
+                $value = $object;
+            }
+
+            if (true === is_string($value)) {
+                return $value;
+            }
+
+            return null;
+        };
+
+        return function($object1, $object2) use ($method, $asc, $callback) {
+
+            $string1 = $callback($object1, $method);
+            $string2 = $callback($object2, $method);
+
+            if (false === $asc) {
+                return strcmp($string2, $string1);
+            }
+
+            return strcmp($string1, $string2);
+        };
     }
 
     /**

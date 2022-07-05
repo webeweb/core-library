@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Types\Tests\Helper;
 
+use Closure;
 use Exception;
 use WBW\Library\Types\Helper\StringHelper;
 use WBW\Library\Types\Tests\AbstractTestCase;
@@ -339,6 +340,66 @@ class StringHelperTest extends AbstractTestCase {
         $this->assertEquals("String\fString", StringHelper::ucwords("sTRING\fsTRING"));
         $this->assertEquals("String\vString", StringHelper::ucwords("sTrInG\vsTrInG"));
         $this->assertEquals("String-String", StringHelper::ucwords("StRiNg-StRiNg"));
+    }
+
+    /**
+     * Tests usortClosure()
+     *
+     * @return void
+     */
+    public function testUsortClosure(): void {
+
+        $obj = StringHelper::usortClosure();
+        $this->assertInstanceOf(Closure::class, $obj);
+
+        $this->assertEquals(-1, $obj("a", "b"));
+        $this->assertEquals(0, $obj("b", "b"));
+        $this->assertEquals(1, $obj("b", "a"));
+
+        $this->assertEquals(-1, $obj(null, "b"));
+        $this->assertEquals(0, $obj(null, null));
+        $this->assertEquals(1, $obj("b", null));
+    }
+
+    /**
+     * Tests usortClosure()
+     *
+     * @return void
+     */
+    public function testUsortClosureWithAsc(): void {
+
+        $obj = StringHelper::usortClosure(null, false);
+        $this->assertInstanceOf(Closure::class, $obj);
+
+        $this->assertEquals(1, $obj("a", "b"));
+        $this->assertEquals(0, $obj("b", "b"));
+        $this->assertEquals(-1, $obj("b", "a"));
+
+        $this->assertEquals(1, $obj(null, "b"));
+        $this->assertEquals(0, $obj(null, null));
+        $this->assertEquals(-1, $obj("b", null));
+    }
+
+    /**
+     * Tests usortClosure()
+     *
+     * @return void
+     */
+    public function testUsortClosureWithMethod(): void {
+
+        $a = new Exception("a");
+        $b = new Exception("b");
+
+        $obj = StringHelper::usortClosure("getMessage");
+        $this->assertInstanceOf(Closure::class, $obj);
+
+        $this->assertEquals(-1, $obj($a, $b));
+        $this->assertEquals(0, $obj($b, $b));
+        $this->assertEquals(1, $obj($b, $a));
+
+        $this->assertEquals(-1, $obj(null, $b));
+        $this->assertEquals(0, $obj(null, null));
+        $this->assertEquals(1, $obj($b, null));
     }
 
     /**
