@@ -97,13 +97,11 @@ class ObjectHelper {
          */
         $callback = function($object, string $method) {
 
-            $value = null;
-
             if (true === is_object($object) && true === method_exists($object, $method)) {
-                $value = $object->$method();
+                return $object->$method();
             }
 
-            return $value;
+            return null;
         };
 
         return function($object1, $object2) use ($method, $callback, $closure): int {
