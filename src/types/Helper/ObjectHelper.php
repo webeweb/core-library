@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Types\Helper;
 
+use Closure;
 use WBW\Library\Types\Exception\ObjectArgumentException;
 
 /**
@@ -76,5 +77,97 @@ class ObjectHelper {
         if (false === is_object($value)) {
             throw new ObjectArgumentException($value);
         }
+    }
+
+    /**
+     * Usort closure by string.
+     *
+     * @param string $method The method.
+     * @param Closure $closure the closure.
+     * @return Closure Returns the usort closure.
+     */
+    protected static function usortClosure(string $method, Closure $closure): Closure {
+
+        /**
+         * Get the value.
+         *
+         * @param object $object The object.
+         * @param string $method The method.
+         * @return mixed|null Returns the value.
+         */
+        $callback = function($object, string $method) {
+
+            $value = null;
+
+            if (true === is_object($object) && true === method_exists($object, $method)) {
+                $value = $object->$method();
+            }
+
+            return $value;
+        };
+
+        return function($object1, $object2) use ($method, $callback, $closure): int {
+
+            $value1 = $callback($object1, $method);
+            $value2 = $callback($object2, $method);
+
+            return $closure($value1, $value2);
+        };
+    }
+
+    /**
+     * Usort closure by boolean.
+     *
+     * @param string $method The method.
+     * @param bool $asc ASC ?
+     * @return Closure Returns the usort closure.
+     */
+    public static function usortClosureByBoolean(string $method, bool $asc = true): Closure {
+
+        $closure = BooleanHelper::usortClosure($asc);
+
+        return static::usortClosure($method, $closure);
+    }
+
+    /**
+     * Usort closure by float.
+     *
+     * @param string $method The method.
+     * @param bool $asc ASC ?
+     * @return Closure Returns the usort closure.
+     */
+    public static function usortClosureByFloat(string $method, bool $asc = true): Closure {
+
+        $closure = FloatHelper::usortClosure($asc);
+
+        return static::usortClosure($method, $closure);
+    }
+
+    /**
+     * Usort closure by integer.
+     *
+     * @param string $method The method.
+     * @param bool $asc ASC ?
+     * @return Closure Returns the usort closure.
+     */
+    public static function usortClosureByInteger(string $method, bool $asc = true): Closure {
+
+        $closure = IntegerHelper::usortClosure($asc);
+
+        return static::usortClosure($method, $closure);
+    }
+
+    /**
+     * Usort closure by string.
+     *
+     * @param string $method The method.
+     * @param bool $asc ASC ?
+     * @return Closure Returns the usort closure.
+     */
+    public static function usortClosureByString(string $method, bool $asc = true): Closure {
+
+        $closure = StringHelper::usortClosure($asc);
+
+        return static::usortClosure($method, $closure);
     }
 }
