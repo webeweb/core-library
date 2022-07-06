@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Types\Tests\Helper;
 
+use Closure;
 use Exception;
 use WBW\Library\Types\Exception\IntegerArgumentException;
 use WBW\Library\Types\Helper\IntegerHelper;
@@ -63,5 +64,43 @@ class IntegerHelperTest extends AbstractTestCase {
             $this->assertInstanceOf(IntegerArgumentException::class, $ex);
             $this->assertEquals('The argument "1.0" is not an integer', $ex->getMessage());
         }
+    }
+
+    /**
+     * Tests usortClosure()
+     *
+     * @return void
+     */
+    public function testUsortClosure(): void {
+
+        $obj = IntegerHelper::usortClosure();
+        $this->assertInstanceOf(Closure::class, $obj);
+
+        $this->assertEquals(-1, $obj(1, 2));
+        $this->assertEquals(0, $obj(2, 2));
+        $this->assertEquals(1, $obj(2, 1));
+
+        $this->assertEquals(-1, $obj(null, 2));
+        $this->assertEquals(0, $obj(null, null));
+        $this->assertEquals(1, $obj(2, null));
+    }
+
+    /**
+     * Tests usortClosure()
+     *
+     * @return void
+     */
+    public function testUsortClosureWithAsc(): void {
+
+        $obj = IntegerHelper::usortClosure(false);
+        $this->assertInstanceOf(Closure::class, $obj);
+
+        $this->assertEquals(1, $obj(1, 2));
+        $this->assertEquals(0, $obj(2, 2));
+        $this->assertEquals(-1, $obj(2, 1));
+
+        $this->assertEquals(1, $obj(null, 2));
+        $this->assertEquals(0, $obj(null, null));
+        $this->assertEquals(-1, $obj(2, null));
     }
 }
