@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Types\Helper;
 
+use Closure;
 use DateInterval;
 use DateTime;
 use Exception;
@@ -494,5 +495,31 @@ class DateTimeHelper {
         $translations = Yaml::parse(file_get_contents(realpath($filename)));
 
         return str_ireplace(array_keys($translations["weekdays"]), array_values($translations["weekdays"]), $date);
+    }
+
+    /**
+     * Usort closure.
+     *
+     * @param bool $asc ASC ?
+     * @return Closure Returns the usort closure.
+     */
+    public static function usortClosure(bool $asc = true): Closure {
+
+        return function(?DateTime $dateTime1, ?DateTime $dateTime2) use ($asc): int {
+
+            $result = 0;
+
+            if ($dateTime1 < $dateTime2) {
+                $result = -1;
+            }
+            if ($dateTime1 === $dateTime2) {
+                $result = 0;
+            }
+            if ($dateTime1 > $dateTime2) {
+                $result = 1;
+            }
+
+            return true === $asc ? $result : -$result;
+        };
     }
 }

@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Types\Tests\Helper;
 
+use Closure;
 use DateTime;
 use DateTimeZone;
 use Exception;
@@ -695,6 +696,52 @@ class DateTimeHelperTest extends AbstractTestCase {
             // With DE locale => no translation.
             $this->assertEquals($arg[$i]->format("l, Y-m-d"), DateTimeHelper::translateWeekDay($arg[$i]->format("l, Y-m-d"), "de"));
         }
+    }
+
+    /**
+     * Tests usortClosure()
+     *
+     * @return void
+     */
+    public function testUsortClosure(): void {
+
+        // Set the date/time mocks.
+        $a = new DateTime("2022-07-06 11:00");
+        $b = new DateTime("2022-07-06 12:00");
+
+        $obj = DateTimeHelper::usortClosure();
+        $this->assertInstanceOf(Closure::class, $obj);
+
+        $this->assertEquals(-1, $obj($a, $b));
+        $this->assertEquals(0, $obj($b, $b));
+        $this->assertEquals(1, $obj($b, $a));
+
+        $this->assertEquals(-1, $obj(null, $b));
+        $this->assertEquals(0, $obj(null, null));
+        $this->assertEquals(1, $obj($b, null));
+    }
+
+    /**
+     * Tests usortClosure()
+     *
+     * @return void
+     */
+    public function testUsortClosureWithAsc(): void {
+
+        // Set the date/time mocks.
+        $a = new DateTime("2022-07-06 11:00");
+        $b = new DateTime("2022-07-06 12:00");
+
+        $obj = DateTimeHelper::usortClosure(false);
+        $this->assertInstanceOf(Closure::class, $obj);
+
+        $this->assertEquals(1, $obj($a, $b));
+        $this->assertEquals(0, $obj($b, $b));
+        $this->assertEquals(-1, $obj($b, $a));
+
+        $this->assertEquals(1, $obj(null, $b));
+        $this->assertEquals(0, $obj(null, null));
+        $this->assertEquals(-1, $obj($b, null));
     }
 
     /**
