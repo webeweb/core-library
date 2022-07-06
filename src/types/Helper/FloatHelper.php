@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Types\Helper;
 
+use Closure;
 use InvalidArgumentException;
 use WBW\Library\Types\Exception\FloatArgumentException;
 
@@ -70,5 +71,31 @@ class FloatHelper {
         }
 
         return floatval($value);
+    }
+
+    /**
+     * Usort closure.
+     *
+     * @param bool $asc ASC ?
+     * @return Closure Returns the usort closure.
+     */
+    public static function usortClosure(bool $asc = true): Closure {
+
+        return function(?float $float1, ?float $float2) use ($asc): int {
+
+            $result = 0;
+
+            if ($float1 < $float2) {
+                $result = -1;
+            }
+            if ($float1 === $float2) {
+                $result = 0;
+            }
+            if ($float1 > $float2) {
+                $result = 1;
+            }
+
+            return true === $asc ? $result : -$result;
+        };
     }
 }

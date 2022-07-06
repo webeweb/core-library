@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Types\Tests\Helper;
 
+use Closure;
 use Exception;
 use InvalidArgumentException;
 use WBW\Library\Types\Exception\FloatArgumentException;
@@ -88,5 +89,43 @@ class FloatHelperTest extends AbstractTestCase {
             $this->assertInstanceOf(FloatArgumentException::class, $ex);
             $this->assertEquals('The argument "1A" is not a float', $ex->getMessage());
         }
+    }
+
+    /**
+     * Tests usortClosure()
+     *
+     * @return void
+     */
+    public function testUsortClosure(): void {
+
+        $obj = FloatHelper::usortClosure();
+        $this->assertInstanceOf(Closure::class, $obj);
+
+        $this->assertEquals(-1, $obj(0.1, 0.2));
+        $this->assertEquals(0, $obj(0.2, 0.2));
+        $this->assertEquals(1, $obj(0.2, 0.1));
+
+        $this->assertEquals(-1, $obj(null, 0.2));
+        $this->assertEquals(0, $obj(null, null));
+        $this->assertEquals(1, $obj(0.2, null));
+    }
+
+    /**
+     * Tests usortClosure()
+     *
+     * @return void
+     */
+    public function testUsortClosureWithAsc(): void {
+
+        $obj = FloatHelper::usortClosure(false);
+        $this->assertInstanceOf(Closure::class, $obj);
+
+        $this->assertEquals(1, $obj(0.1, 0.2));
+        $this->assertEquals(0, $obj(0.2, 0.2));
+        $this->assertEquals(-1, $obj(0.2, 0.1));
+
+        $this->assertEquals(1, $obj(null, 0.2));
+        $this->assertEquals(0, $obj(null, null));
+        $this->assertEquals(-1, $obj(0.2, null));
     }
 }
