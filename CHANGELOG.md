@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [8.49.1](https://github.com/webeweb/core-library/tree/v8.49.1) (2022-07-06)
+
+- Improve code quality
+
 ### [8.49.0](https://github.com/webeweb/core-library/tree/v8.49.0) (2022-07-06)
 
 - Add string short label trait
