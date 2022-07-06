@@ -204,7 +204,7 @@ class OcrProvider extends AbstractProvider {
          * @throws FtpException Throws a FTP exception if an error occurs.
          * @var Closure $downloadClosure
          */
-        $downloadClosure = function(string $local, string $remote) use ($provider) {
+        $downloadClosure = function(string $local, string $remote) use ($provider): void {
             $provider->getLogger()->info("OCR provider downloads a file  from the FTP server", ["_local" => $local, "_remote" => $remote]);
             $provider->getFtpClient()->get($local, $remote);
         };

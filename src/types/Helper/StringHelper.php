@@ -236,7 +236,7 @@ class StringHelper {
             return null;
         }
 
-        $callback = function($m) {
+        $callback = function($m): string {
             $join = implode("", [" ", $m[1], $m[2]]);
             return strtolower($join);
         };
@@ -261,7 +261,7 @@ class StringHelper {
             return null;
         }
 
-        $callback = function($m) {
+        $callback = function($m): string {
             return count($m) < 5 ? strtolower($m[2]) . $m[3] : strtolower($m[5]) . $m[6];
         };
 

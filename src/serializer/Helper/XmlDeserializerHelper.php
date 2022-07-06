@@ -138,7 +138,7 @@ class XmlDeserializerHelper extends SerializerHelper {
 
         $pattern  = "/(<[A-Za-z_]*>)(.*)(<\/[A-Za-z_]*>)/";
         $content  = file_get_contents($filename);
-        $callback = function($matches) use ($encoding) {
+        $callback = function($matches) use ($encoding): string {
 
             $output = [
                 $matches[1],
