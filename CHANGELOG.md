@@ -5,6 +5,7 @@ CHANGELOG
 
 - Add string short label trait
 - Add usortClosure() into Boolean helper
+- Add usortClosure() into Date/time helper
 - Add usortClosure() into Float helper
 - Add usortClosure() into Integer helper
 - Add usortClosure() into String helper
