@@ -23,6 +23,31 @@ use WBW\Library\Types\Tests\AbstractTestCase;
 class ArrayHelperTest extends AbstractTestCase {
 
     /**
+     * Tests filterBy()
+     *
+     * @return void
+     */
+    public function testFilterBy(): void {
+
+        $filters = [
+            function(string $str): bool {
+                return 1 === preg_match("/^1/", $str);
+            },
+            function(string $str): bool {
+                return 1 === preg_match("/3$/", $str);
+            },
+        ];
+
+        $arg = ["123", "124", "193"];
+
+        $res = ArrayHelper::filterBy($arg, $filters);
+        $this->assertCount(2, $res);
+
+        $this->assertEquals("123", $res[0]);
+        $this->assertEquals("193", $res[1]);
+    }
+
+    /**
      * Tests get()
      *
      * @return void
