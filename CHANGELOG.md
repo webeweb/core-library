@@ -1,10 +1,17 @@
 CHANGELOG
 =========
 
-### [8.49.0](https://github.com/webeweb/core-library/tree/v8.49.0) (2022-07-05)
+### [8.49.0](https://github.com/webeweb/core-library/tree/v8.49.0) (2022-07-06)
 
 - Add string short label trait
+- Add usortClosure() into Boolean helper
+- Add usortClosure() into Float helper
+- Add usortClosure() into Integer helper
 - Add usortClosure() into String helper
+- Add usortClosureByBoolean into Object helper
+- Add usortClosureByFloat into Object helper
+- Add usortClosureByInteger into Object helper
+- Add usortClosureByString into Object helper
 
 ### [8.48.0](https://github.com/webeweb/core-library/tree/v8.48.0) (2022-06-22)
 
