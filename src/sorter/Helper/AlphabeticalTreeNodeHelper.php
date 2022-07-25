@@ -99,7 +99,6 @@ class AlphabeticalTreeNodeHelper {
                     unset($nodes[$k]);
                     $found = true;
                 }
-
             }
         } while (true === $found);
     }
