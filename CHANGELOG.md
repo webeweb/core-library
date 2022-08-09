@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [8.51.1](https://github.com/webeweb/core-library/tree/v8.51.1) (2022-08-09)
+
+- Improve code quality
+
 ### [8.51.0](https://github.com/webeweb/core-library/tree/v8.51.0) (2022-08-09)
 
 - Fix undefined offset into getMemory()
