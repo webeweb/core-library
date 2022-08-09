@@ -82,10 +82,10 @@ class ObjectHelper {
      * Usort callback by string.
      *
      * @param string $method The method.
-     * @param callable $closure The closure.
+     * @param callable $callback The callback.
      * @return callable Returns the usort callback.
      */
-    protected static function usortCallback(string $method, callable $closure): callable {
+    protected static function usortCallback(string $method, callable $callback): callable {
 
         /**
          * Get the value.
@@ -94,7 +94,7 @@ class ObjectHelper {
          * @param string $method The method.
          * @return mixed|null Returns the value.
          */
-        $callback = function($object, string $method) {
+        $getValue = function($object, string $method) {
 
             if (true === is_object($object) && true === method_exists($object, $method)) {
                 return $object->$method();
@@ -103,12 +103,12 @@ class ObjectHelper {
             return null;
         };
 
-        return function($object1, $object2) use ($method, $callback, $closure): int {
+        return function($object1, $object2) use ($method, $getValue, $callback): int {
 
-            $value1 = $callback($object1, $method);
-            $value2 = $callback($object2, $method);
+            $value1 = $getValue($object1, $method);
+            $value2 = $getValue($object2, $method);
 
-            return $closure($value1, $value2);
+            return $callback($value1, $value2);
         };
     }
 
@@ -121,9 +121,9 @@ class ObjectHelper {
      */
     public static function usortCallbackByBoolean(string $method, bool $asc = true): callable {
 
-        $closure = BooleanHelper::usortCallback($asc);
+        $callback = BooleanHelper::usortCallback($asc);
 
-        return static::usortCallback($method, $closure);
+        return static::usortCallback($method, $callback);
     }
 
     /**
@@ -135,9 +135,9 @@ class ObjectHelper {
      */
     public static function usortCallbackByFloat(string $method, bool $asc = true): callable {
 
-        $closure = FloatHelper::usortCallback($asc);
+        $callback = FloatHelper::usortCallback($asc);
 
-        return static::usortCallback($method, $closure);
+        return static::usortCallback($method, $callback);
     }
 
     /**
@@ -149,9 +149,9 @@ class ObjectHelper {
      */
     public static function usortCallbackByInteger(string $method, bool $asc = true): callable {
 
-        $closure = IntegerHelper::usortCallback($asc);
+        $callback = IntegerHelper::usortCallback($asc);
 
-        return static::usortCallback($method, $closure);
+        return static::usortCallback($method, $callback);
     }
 
     /**
@@ -163,8 +163,8 @@ class ObjectHelper {
      */
     public static function usortCallbackByString(string $method, bool $asc = true): callable {
 
-        $closure = StringHelper::usortCallback($asc);
+        $callback = StringHelper::usortCallback($asc);
 
-        return static::usortCallback($method, $closure);
+        return static::usortCallback($method, $callback);
     }
 }
