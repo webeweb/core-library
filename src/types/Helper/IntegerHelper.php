@@ -65,12 +65,12 @@ class IntegerHelper {
     }
 
     /**
-     * Usort callable.
+     * Usort callback.
      *
      * @param bool $asc ASC ?
-     * @return callable Returns the usort callable.
+     * @return callable Returns the usort callback.
      */
-    public static function usortCallable(bool $asc = true): callable {
+    public static function usortCallback(bool $asc = true): callable {
 
         return function(?int $int1, ?int $int2) use ($asc): int {
 

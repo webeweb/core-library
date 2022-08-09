@@ -342,13 +342,13 @@ class StringHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortCallable()
+     * Tests usortCallback()
      *
      * @return void
      */
     public function testUsortCallable(): void {
 
-        $obj = StringHelper::usortCallable();
+        $obj = StringHelper::usortCallback();
         $this->assertIsCallable($obj);
 
         $this->assertEquals(-1, $obj("a", "b"));
@@ -361,13 +361,13 @@ class StringHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortCallable()
+     * Tests usortCallback()
      *
      * @return void
      */
     public function testUsortCallableWithAsc(): void {
 
-        $obj = StringHelper::usortCallable(false);
+        $obj = StringHelper::usortCallback(false);
         $this->assertIsCallable($obj);
 
         $this->assertEquals(1, $obj("a", "b"));

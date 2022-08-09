@@ -77,7 +77,7 @@ class ObjectHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortCallableByBoolean()
+     * Tests usortCallbackByBoolean()
      *
      * @return void
      */
@@ -86,7 +86,7 @@ class ObjectHelperTest extends AbstractTestCase {
         $a = $this->object1;
         $b = $this->object2;
 
-        $obj = ObjectHelper::usortCallableByBoolean("getBool");
+        $obj = ObjectHelper::usortCallbackByBoolean("getBool");
         $this->assertIsCallable($obj);
 
         $this->assertEquals(-1, $obj($a, $b));
@@ -99,7 +99,7 @@ class ObjectHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortCallableByBoolean()
+     * Tests usortCallbackByBoolean()
      *
      * @return void
      */
@@ -108,7 +108,7 @@ class ObjectHelperTest extends AbstractTestCase {
         $a = $this->object1;
         $b = $this->object2;
 
-        $obj = ObjectHelper::usortCallableByBoolean("getBool", false);
+        $obj = ObjectHelper::usortCallbackByBoolean("getBool", false);
         $this->assertIsCallable($obj);
 
         $this->assertEquals(1, $obj($a, $b));
@@ -121,7 +121,7 @@ class ObjectHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortCallableByFloat()
+     * Tests usortCallbackByFloat()
      *
      * @return void
      */
@@ -130,7 +130,7 @@ class ObjectHelperTest extends AbstractTestCase {
         $a = $this->object1;
         $b = $this->object2;
 
-        $obj = ObjectHelper::usortCallableByFloat("getFloat");
+        $obj = ObjectHelper::usortCallbackByFloat("getFloat");
         $this->assertIsCallable($obj);
 
         $this->assertEquals(-1, $obj($a, $b));
@@ -143,7 +143,7 @@ class ObjectHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortCallableByFloat()
+     * Tests usortCallbackByFloat()
      *
      * @return void
      */
@@ -152,7 +152,7 @@ class ObjectHelperTest extends AbstractTestCase {
         $a = $this->object1;
         $b = $this->object2;
 
-        $obj = ObjectHelper::usortCallableByFloat("getFloat", false);
+        $obj = ObjectHelper::usortCallbackByFloat("getFloat", false);
         $this->assertIsCallable($obj);
 
         $this->assertEquals(1, $obj($a, $b));
@@ -165,7 +165,7 @@ class ObjectHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortCallableByInteger()
+     * Tests usortCallbackByInteger()
      *
      * @return void
      */
@@ -174,7 +174,7 @@ class ObjectHelperTest extends AbstractTestCase {
         $a = $this->object1;
         $b = $this->object2;
 
-        $obj = ObjectHelper::usortCallableByInteger("getInt");
+        $obj = ObjectHelper::usortCallbackByInteger("getInt");
         $this->assertIsCallable($obj);
 
         $this->assertEquals(-1, $obj($a, $b));
@@ -187,7 +187,7 @@ class ObjectHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortCallableByInteger()
+     * Tests usortCallbackByInteger()
      *
      * @return void
      */
@@ -196,7 +196,7 @@ class ObjectHelperTest extends AbstractTestCase {
         $a = $this->object1;
         $b = $this->object2;
 
-        $obj = ObjectHelper::usortCallableByInteger("getInt", false);
+        $obj = ObjectHelper::usortCallbackByInteger("getInt", false);
         $this->assertIsCallable($obj);
 
         $this->assertEquals(1, $obj($a, $b));
@@ -209,7 +209,7 @@ class ObjectHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortCallableByString()
+     * Tests usortCallbackByString()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class ObjectHelperTest extends AbstractTestCase {
         $a = $this->object1;
         $b = $this->object2;
 
-        $obj = ObjectHelper::usortCallableByString("getString");
+        $obj = ObjectHelper::usortCallbackByString("getString");
         $this->assertIsCallable($obj);
 
         $this->assertEquals(-1, $obj($a, $b));
@@ -231,7 +231,7 @@ class ObjectHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortCallableByString()
+     * Tests usortCallbackByString()
      *
      * @return void
      */
@@ -240,7 +240,7 @@ class ObjectHelperTest extends AbstractTestCase {
         $a = $this->object1;
         $b = $this->object2;
 
-        $obj = ObjectHelper::usortCallableByString("getString", false);
+        $obj = ObjectHelper::usortCallbackByString("getString", false);
         $this->assertIsCallable($obj);
 
         $this->assertEquals(1, $obj($a, $b));

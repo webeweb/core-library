@@ -59,13 +59,13 @@ class BooleanHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortCallable()
+     * Tests usortCallback()
      *
      * @return void
      */
     public function testUsortCallable(): void {
 
-        $obj = BooleanHelper::usortCallable();
+        $obj = BooleanHelper::usortCallback();
         $this->assertIsCallable($obj);
 
         $this->assertEquals(-1, $obj(false, true));
@@ -78,13 +78,13 @@ class BooleanHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortCallable()
+     * Tests usortCallback()
      *
      * @return void
      */
     public function testUsortCallableWithAsc(): void {
 
-        $obj = BooleanHelper::usortCallable(false);
+        $obj = BooleanHelper::usortCallback(false);
         $this->assertIsCallable($obj);
 
         $this->assertEquals(1, $obj(false, true));

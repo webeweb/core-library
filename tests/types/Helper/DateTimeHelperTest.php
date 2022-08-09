@@ -698,7 +698,7 @@ class DateTimeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortCallable()
+     * Tests usortCallback()
      *
      * @return void
      */
@@ -708,7 +708,7 @@ class DateTimeHelperTest extends AbstractTestCase {
         $a = new DateTime("2022-07-06 11:00");
         $b = new DateTime("2022-07-06 12:00");
 
-        $obj = DateTimeHelper::usortCallable();
+        $obj = DateTimeHelper::usortCallback();
         $this->assertIsCallable($obj);
 
         $this->assertEquals(-1, $obj($a, $b));
@@ -721,7 +721,7 @@ class DateTimeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortCallable()
+     * Tests usortCallback()
      *
      * @return void
      */
@@ -731,7 +731,7 @@ class DateTimeHelperTest extends AbstractTestCase {
         $a = new DateTime("2022-07-06 11:00");
         $b = new DateTime("2022-07-06 12:00");
 
-        $obj = DateTimeHelper::usortCallable(false);
+        $obj = DateTimeHelper::usortCallback(false);
         $this->assertIsCallable($obj);
 
         $this->assertEquals(1, $obj($a, $b));

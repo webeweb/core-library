@@ -91,13 +91,13 @@ class FloatHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortCallable()
+     * Tests usortCallback()
      *
      * @return void
      */
     public function testUsortCallable(): void {
 
-        $obj = FloatHelper::usortCallable();
+        $obj = FloatHelper::usortCallback();
         $this->assertIsCallable($obj);
 
         $this->assertEquals(-1, $obj(0.1, 0.2));
@@ -110,13 +110,13 @@ class FloatHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortCallable()
+     * Tests usortCallback()
      *
      * @return void
      */
     public function testUsortCallableWithAsc(): void {
 
-        $obj = FloatHelper::usortCallable(false);
+        $obj = FloatHelper::usortCallback(false);
         $this->assertIsCallable($obj);
 
         $this->assertEquals(1, $obj(0.1, 0.2));

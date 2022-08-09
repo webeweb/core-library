@@ -76,12 +76,12 @@ class BooleanHelper {
     }
 
     /**
-     * Usort callable.
+     * Usort callback.
      *
      * @param bool $asc ASC ?
-     * @return callable Returns the usort callable.
+     * @return callable Returns the usort callback.
      */
-    public static function usortCallable(bool $asc = true): callable {
+    public static function usortCallback(bool $asc = true): callable {
 
         return function(?bool $bool1, ?bool $bool2) use ($asc): int {
 

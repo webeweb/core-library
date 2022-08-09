@@ -497,12 +497,12 @@ class DateTimeHelper {
     }
 
     /**
-     * Usort callable.
+     * Usort callback.
      *
      * @param bool $asc ASC ?
-     * @return callable Returns the usort callable.
+     * @return callable Returns the usort callback.
      */
-    public static function usortCallable(bool $asc = true): callable {
+    public static function usortCallback(bool $asc = true): callable {
 
         return function(?DateTime $dateTime1, ?DateTime $dateTime2) use ($asc): int {
 

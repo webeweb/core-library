@@ -66,13 +66,13 @@ class IntegerHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortCallable()
+     * Tests usortCallback()
      *
      * @return void
      */
     public function testUsortCallable(): void {
 
-        $obj = IntegerHelper::usortCallable();
+        $obj = IntegerHelper::usortCallback();
         $this->assertIsCallable($obj);
 
         $this->assertEquals(-1, $obj(1, 2));
@@ -85,13 +85,13 @@ class IntegerHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortCallable()
+     * Tests usortCallback()
      *
      * @return void
      */
     public function testUsortCallableWithAsc(): void {
 
-        $obj = IntegerHelper::usortCallable(false);
+        $obj = IntegerHelper::usortCallback(false);
         $this->assertIsCallable($obj);
 
         $this->assertEquals(1, $obj(1, 2));
