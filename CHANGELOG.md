@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+### [8.51.0](https://github.com/webeweb/core-library/tree/v8.51.0) (2022-08-09)
+
+- Fix undefined offset into getMemory()
+- Rename usortClosure() methods
+
 ### [8.50.0](https://github.com/webeweb/core-library/tree/v8.50.0) (2022-07-06)
 
 - Add filterBy() into Array helper
