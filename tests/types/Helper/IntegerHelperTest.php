@@ -11,7 +11,6 @@
 
 namespace WBW\Library\Types\Tests\Helper;
 
-use Closure;
 use Exception;
 use WBW\Library\Types\Exception\IntegerArgumentException;
 use WBW\Library\Types\Helper\IntegerHelper;
@@ -67,14 +66,14 @@ class IntegerHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortClosure()
+     * Tests usortCallable()
      *
      * @return void
      */
-    public function testUsortClosure(): void {
+    public function testUsortCallable(): void {
 
-        $obj = IntegerHelper::usortClosure();
-        $this->assertInstanceOf(Closure::class, $obj);
+        $obj = IntegerHelper::usortCallable();
+        $this->assertIsCallable($obj);
 
         $this->assertEquals(-1, $obj(1, 2));
         $this->assertEquals(0, $obj(2, 2));
@@ -86,14 +85,14 @@ class IntegerHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortClosure()
+     * Tests usortCallable()
      *
      * @return void
      */
-    public function testUsortClosureWithAsc(): void {
+    public function testUsortCallableWithAsc(): void {
 
-        $obj = IntegerHelper::usortClosure(false);
-        $this->assertInstanceOf(Closure::class, $obj);
+        $obj = IntegerHelper::usortCallable(false);
+        $this->assertIsCallable($obj);
 
         $this->assertEquals(1, $obj(1, 2));
         $this->assertEquals(0, $obj(2, 2));

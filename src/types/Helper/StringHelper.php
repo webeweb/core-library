@@ -11,7 +11,6 @@
 
 namespace WBW\Library\Types\Helper;
 
-use Closure;
 use Transliterator;
 use WBW\Library\Types\Exception\StringArgumentException;
 
@@ -329,12 +328,12 @@ class StringHelper {
     }
 
     /**
-     * User sort closure.
+     * Usort closure.
      *
      * @param bool $asc ASC ?
-     * @return Closure Returns the usort closure.
+     * @return callable Returns the usort callable.
      */
-    public static function usortClosure(bool $asc = true): Closure {
+    public static function usortCallable(bool $asc = true): callable {
 
         return function(?string $string1, ?string $string2) use ($asc): int {
 

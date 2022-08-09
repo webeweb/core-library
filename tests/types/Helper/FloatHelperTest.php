@@ -11,7 +11,6 @@
 
 namespace WBW\Library\Types\Tests\Helper;
 
-use Closure;
 use Exception;
 use InvalidArgumentException;
 use WBW\Library\Types\Exception\FloatArgumentException;
@@ -92,14 +91,14 @@ class FloatHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortClosure()
+     * Tests usortCallable()
      *
      * @return void
      */
-    public function testUsortClosure(): void {
+    public function testUsortCallable(): void {
 
-        $obj = FloatHelper::usortClosure();
-        $this->assertInstanceOf(Closure::class, $obj);
+        $obj = FloatHelper::usortCallable();
+        $this->assertIsCallable($obj);
 
         $this->assertEquals(-1, $obj(0.1, 0.2));
         $this->assertEquals(0, $obj(0.2, 0.2));
@@ -111,14 +110,14 @@ class FloatHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortClosure()
+     * Tests usortCallable()
      *
      * @return void
      */
-    public function testUsortClosureWithAsc(): void {
+    public function testUsortCallableWithAsc(): void {
 
-        $obj = FloatHelper::usortClosure(false);
-        $this->assertInstanceOf(Closure::class, $obj);
+        $obj = FloatHelper::usortCallable(false);
+        $this->assertIsCallable($obj);
 
         $this->assertEquals(1, $obj(0.1, 0.2));
         $this->assertEquals(0, $obj(0.2, 0.2));

@@ -11,7 +11,6 @@
 
 namespace WBW\Library\Types\Helper;
 
-use Closure;
 use DateInterval;
 use DateTime;
 use Exception;
@@ -498,12 +497,12 @@ class DateTimeHelper {
     }
 
     /**
-     * Usort closure.
+     * Usort callable.
      *
      * @param bool $asc ASC ?
-     * @return Closure Returns the usort closure.
+     * @return callable Returns the usort callable.
      */
-    public static function usortClosure(bool $asc = true): Closure {
+    public static function usortCallable(bool $asc = true): callable {
 
         return function(?DateTime $dateTime1, ?DateTime $dateTime2) use ($asc): int {
 

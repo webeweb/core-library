@@ -11,7 +11,6 @@
 
 namespace WBW\Library\Types\Tests\Helper;
 
-use Closure;
 use WBW\Library\Types\Helper\BooleanHelper;
 use WBW\Library\Types\Tests\AbstractTestCase;
 
@@ -59,16 +58,15 @@ class BooleanHelperTest extends AbstractTestCase {
         $this->assertTrue(BooleanHelper::parseString("yes"));
     }
 
-
     /**
-     * Tests usortClosure()
+     * Tests usortCallable()
      *
      * @return void
      */
-    public function testUsortClosure(): void {
+    public function testUsortCallable(): void {
 
-        $obj = BooleanHelper::usortClosure();
-        $this->assertInstanceOf(Closure::class, $obj);
+        $obj = BooleanHelper::usortCallable();
+        $this->assertIsCallable($obj);
 
         $this->assertEquals(-1, $obj(false, true));
         $this->assertEquals(0, $obj(true, true));
@@ -80,14 +78,14 @@ class BooleanHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortClosure()
+     * Tests usortCallable()
      *
      * @return void
      */
-    public function testUsortClosureWithAsc(): void {
+    public function testUsortCallableWithAsc(): void {
 
-        $obj = BooleanHelper::usortClosure(false);
-        $this->assertInstanceOf(Closure::class, $obj);
+        $obj = BooleanHelper::usortCallable(false);
+        $this->assertIsCallable($obj);
 
         $this->assertEquals(1, $obj(false, true));
         $this->assertEquals(0, $obj(true, true));

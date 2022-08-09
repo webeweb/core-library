@@ -11,7 +11,6 @@
 
 namespace WBW\Library\Types\Tests\Helper;
 
-use Closure;
 use DateTime;
 use WBW\Library\Types\Helper\ObjectHelper;
 use WBW\Library\Types\Tests\AbstractTestCase;
@@ -78,17 +77,17 @@ class ObjectHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortClosureByBoolean()
+     * Tests usortCallableByBoolean()
      *
      * @return void
      */
-    public function testUsortClosureByBoolean(): void {
+    public function testUsortCallableByBoolean(): void {
 
         $a = $this->object1;
         $b = $this->object2;
 
-        $obj = ObjectHelper::usortClosureByBoolean("getBool");
-        $this->assertInstanceOf(Closure::class, $obj);
+        $obj = ObjectHelper::usortCallableByBoolean("getBool");
+        $this->assertIsCallable($obj);
 
         $this->assertEquals(-1, $obj($a, $b));
         $this->assertEquals(0, $obj($b, $b));
@@ -100,17 +99,17 @@ class ObjectHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortClosureByBoolean()
+     * Tests usortCallableByBoolean()
      *
      * @return void
      */
-    public function testUsortClosureByBooleanWithAsc(): void {
+    public function testUsortCallableByBooleanWithAsc(): void {
 
         $a = $this->object1;
         $b = $this->object2;
 
-        $obj = ObjectHelper::usortClosureByBoolean("getBool", false);
-        $this->assertInstanceOf(Closure::class, $obj);
+        $obj = ObjectHelper::usortCallableByBoolean("getBool", false);
+        $this->assertIsCallable($obj);
 
         $this->assertEquals(1, $obj($a, $b));
         $this->assertEquals(0, $obj($b, $b));
@@ -122,17 +121,17 @@ class ObjectHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortClosureByFloat()
+     * Tests usortCallableByFloat()
      *
      * @return void
      */
-    public function testUsortClosureByFloat(): void {
+    public function testUsortCallableByFloat(): void {
 
         $a = $this->object1;
         $b = $this->object2;
 
-        $obj = ObjectHelper::usortClosureByFloat("getFloat");
-        $this->assertInstanceOf(Closure::class, $obj);
+        $obj = ObjectHelper::usortCallableByFloat("getFloat");
+        $this->assertIsCallable($obj);
 
         $this->assertEquals(-1, $obj($a, $b));
         $this->assertEquals(0, $obj($b, $b));
@@ -144,17 +143,17 @@ class ObjectHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortClosureByFloat()
+     * Tests usortCallableByFloat()
      *
      * @return void
      */
-    public function testUsortClosureByFloatWithAsc(): void {
+    public function testUsortCallableByFloatWithAsc(): void {
 
         $a = $this->object1;
         $b = $this->object2;
 
-        $obj = ObjectHelper::usortClosureByFloat("getFloat", false);
-        $this->assertInstanceOf(Closure::class, $obj);
+        $obj = ObjectHelper::usortCallableByFloat("getFloat", false);
+        $this->assertIsCallable($obj);
 
         $this->assertEquals(1, $obj($a, $b));
         $this->assertEquals(0, $obj($b, $b));
@@ -166,17 +165,17 @@ class ObjectHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortClosureByInteger()
+     * Tests usortCallableByInteger()
      *
      * @return void
      */
-    public function testUsortClosureByInteger(): void {
+    public function testUsortCallableByInteger(): void {
 
         $a = $this->object1;
         $b = $this->object2;
 
-        $obj = ObjectHelper::usortClosureByInteger("getInt");
-        $this->assertInstanceOf(Closure::class, $obj);
+        $obj = ObjectHelper::usortCallableByInteger("getInt");
+        $this->assertIsCallable($obj);
 
         $this->assertEquals(-1, $obj($a, $b));
         $this->assertEquals(0, $obj($b, $b));
@@ -188,17 +187,17 @@ class ObjectHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortClosureByInteger()
+     * Tests usortCallableByInteger()
      *
      * @return void
      */
-    public function testUsortClosureByIntegerWithAsc(): void {
+    public function testUsortCallableByIntegerWithAsc(): void {
 
         $a = $this->object1;
         $b = $this->object2;
 
-        $obj = ObjectHelper::usortClosureByInteger("getInt", false);
-        $this->assertInstanceOf(Closure::class, $obj);
+        $obj = ObjectHelper::usortCallableByInteger("getInt", false);
+        $this->assertIsCallable($obj);
 
         $this->assertEquals(1, $obj($a, $b));
         $this->assertEquals(0, $obj($b, $b));
@@ -210,17 +209,17 @@ class ObjectHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortClosureByString()
+     * Tests usortCallableByString()
      *
      * @return void
      */
-    public function testUsortClosureByString(): void {
+    public function testUsortCallableByString(): void {
 
         $a = $this->object1;
         $b = $this->object2;
 
-        $obj = ObjectHelper::usortClosureByString("getString");
-        $this->assertInstanceOf(Closure::class, $obj);
+        $obj = ObjectHelper::usortCallableByString("getString");
+        $this->assertIsCallable($obj);
 
         $this->assertEquals(-1, $obj($a, $b));
         $this->assertEquals(0, $obj($b, $b));
@@ -232,17 +231,17 @@ class ObjectHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortClosureByString()
+     * Tests usortCallableByString()
      *
      * @return void
      */
-    public function testUsortClosureByStringWithAsc(): void {
+    public function testUsortCallableByStringWithAsc(): void {
 
         $a = $this->object1;
         $b = $this->object2;
 
-        $obj = ObjectHelper::usortClosureByString("getString", false);
-        $this->assertInstanceOf(Closure::class, $obj);
+        $obj = ObjectHelper::usortCallableByString("getString", false);
+        $this->assertIsCallable($obj);
 
         $this->assertEquals(1, $obj($a, $b));
         $this->assertEquals(0, $obj($b, $b));

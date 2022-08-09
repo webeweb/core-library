@@ -11,7 +11,6 @@
 
 namespace WBW\Library\Types\Tests\Helper;
 
-use Closure;
 use Exception;
 use WBW\Library\Types\Helper\StringHelper;
 use WBW\Library\Types\Tests\AbstractTestCase;
@@ -343,14 +342,14 @@ class StringHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortClosure()
+     * Tests usortCallable()
      *
      * @return void
      */
-    public function testUsortClosure(): void {
+    public function testUsortCallable(): void {
 
-        $obj = StringHelper::usortClosure();
-        $this->assertInstanceOf(Closure::class, $obj);
+        $obj = StringHelper::usortCallable();
+        $this->assertIsCallable($obj);
 
         $this->assertEquals(-1, $obj("a", "b"));
         $this->assertEquals(0, $obj("b", "b"));
@@ -362,14 +361,14 @@ class StringHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortClosure()
+     * Tests usortCallable()
      *
      * @return void
      */
-    public function testUsortClosureWithAsc(): void {
+    public function testUsortCallableWithAsc(): void {
 
-        $obj = StringHelper::usortClosure(false);
-        $this->assertInstanceOf(Closure::class, $obj);
+        $obj = StringHelper::usortCallable(false);
+        $this->assertIsCallable($obj);
 
         $this->assertEquals(1, $obj("a", "b"));
         $this->assertEquals(0, $obj("b", "b"));

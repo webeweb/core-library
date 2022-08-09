@@ -11,7 +11,6 @@
 
 namespace WBW\Library\Types\Tests\Helper;
 
-use Closure;
 use DateTime;
 use DateTimeZone;
 use Exception;
@@ -699,18 +698,18 @@ class DateTimeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortClosure()
+     * Tests usortCallable()
      *
      * @return void
      */
-    public function testUsortClosure(): void {
+    public function testUsortCallable(): void {
 
         // Set the date/time mocks.
         $a = new DateTime("2022-07-06 11:00");
         $b = new DateTime("2022-07-06 12:00");
 
-        $obj = DateTimeHelper::usortClosure();
-        $this->assertInstanceOf(Closure::class, $obj);
+        $obj = DateTimeHelper::usortCallable();
+        $this->assertIsCallable($obj);
 
         $this->assertEquals(-1, $obj($a, $b));
         $this->assertEquals(0, $obj($b, $b));
@@ -722,18 +721,18 @@ class DateTimeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortClosure()
+     * Tests usortCallable()
      *
      * @return void
      */
-    public function testUsortClosureWithAsc(): void {
+    public function testUsortCallableWithAsc(): void {
 
         // Set the date/time mocks.
         $a = new DateTime("2022-07-06 11:00");
         $b = new DateTime("2022-07-06 12:00");
 
-        $obj = DateTimeHelper::usortClosure(false);
-        $this->assertInstanceOf(Closure::class, $obj);
+        $obj = DateTimeHelper::usortCallable(false);
+        $this->assertIsCallable($obj);
 
         $this->assertEquals(1, $obj($a, $b));
         $this->assertEquals(0, $obj($b, $b));

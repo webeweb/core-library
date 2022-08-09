@@ -11,7 +11,6 @@
 
 namespace WBW\Library\Types\Helper;
 
-use Closure;
 use WBW\Library\Types\Exception\ArrayArgumentException;
 
 /**
@@ -26,7 +25,7 @@ class ArrayHelper {
      * Filter by.
      *
      * @param array $array The array.
-     * @param Closure[] $filters The filters.
+     * @param callable[] $filters The filters.
      * @return array Returns the filtered array.
      */
     public static function filterBy(array $array, array $filters): array {

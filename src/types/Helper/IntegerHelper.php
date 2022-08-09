@@ -11,7 +11,6 @@
 
 namespace WBW\Library\Types\Helper;
 
-use Closure;
 use WBW\Library\Types\Exception\IntegerArgumentException;
 
 /**
@@ -66,12 +65,12 @@ class IntegerHelper {
     }
 
     /**
-     * Usort closure.
+     * Usort callable.
      *
      * @param bool $asc ASC ?
-     * @return Closure Returns the usort closure.
+     * @return callable Returns the usort callable.
      */
-    public static function usortClosure(bool $asc = true): Closure {
+    public static function usortCallable(bool $asc = true): callable {
 
         return function(?int $int1, ?int $int2) use ($asc): int {
 
