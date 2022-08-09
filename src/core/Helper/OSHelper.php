@@ -72,7 +72,7 @@ class OSHelper {
         $memory->setTotal(intval(trim($values[1])));
         $memory->setUsed(intval(trim($values[2])));
         $memory->setFree(intval(trim($values[3])));
-        if (5 <= count($values)) {
+        if (7 === count($values)) {
             $memory->setShared(intval(trim($values[4])));
             $memory->setBuffCache(intval(trim($values[5])));
             $memory->setAvailable(intval(trim($values[6])));
