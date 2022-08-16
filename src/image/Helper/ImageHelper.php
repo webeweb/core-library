@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Image\Helper;
 
+use Imagick;
+use ImagickException;
 use RuntimeException;
 use WBW\Library\Image\Factory\ImageFactory;
 use WBW\Library\Image\Model\Image;
@@ -72,7 +74,7 @@ class ImageHelper {
             throw new RuntimeException("Failed to copy re-sampled image");
         }
 
-        return ImageHelper::saveOutputStream($image, $output, $pathname);
+        return static::saveOutputStream($image, $output, $pathname);
     }
 
     /**
@@ -95,5 +97,31 @@ class ImageHelper {
         }
 
         return false;
+    }
+
+    /**
+     * SVG to PNG.
+     *
+     * @param string $filename The filename.
+     * @param int|null $width The width.
+     * @param int|null $height The height.
+     * @return string|null Returns the SVG converted into PNG.
+     * @throws ImagickException Throws an Imagick exception if an error occurs.
+     */
+    public static function svg2png(string $filename, int $width = null, int $height = null): ?string {
+
+        $image = new Imagick();
+        $image->setBackgroundColor("transparent");
+        $image->readImage($filename);
+        $image->setImageFormat("png");
+
+        if (null !== $width && null !== $height) {
+            $image->resizeImage($width, $height, Imagick::FILTER_LANCZOS, 1);
+        }
+
+        $png = $image->getImageBlob();
+        $image->clear();
+
+        return $png;
     }
 }

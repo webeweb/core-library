@@ -30,6 +30,7 @@ class TestFixtures {
             realpath(__DIR__ . "/TestImage_1920x1037.png"),
             realpath(__DIR__ . "/TestImage_1920x1920.png"),
             realpath(__DIR__ . "/TestImage_1920x3554.png"),
+            realpath(__DIR__ . "/TestImage_640x512.svg"),
         ];
     }
 }

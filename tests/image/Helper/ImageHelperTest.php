@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Image\Tests\Helper;
 
+use Exception;
 use WBW\Library\Image\Factory\ImageFactory;
 use WBW\Library\Image\Helper\ImageHelper;
 use WBW\Library\Image\Model\Image;
@@ -54,9 +55,9 @@ class ImageHelperTest extends AbstractTestCase {
         $uri = realpath($this->images[0]);
         $url = "https://raw.githubusercontent.com/webeweb/core-library/master/tests/image/Fixtures/TestImage_1920x1037.jpg";
 
-        $res = file_get_contents(__DIR__ . "/ImageHelperTest.testBase64Encode.txt");
-        $this->assertEquals($res, ImageHelper::base64Encode($uri));
-        $this->assertEquals($res, ImageHelper::base64Encode($url));
+        $exp = file_get_contents(__DIR__ . "/ImageHelperTest.testBase64Encode.txt");
+        $this->assertEquals($exp, ImageHelper::base64Encode($uri));
+        $this->assertEquals($exp, ImageHelper::base64Encode($url));
 
         $this->assertNull(ImageHelper::base64Encode(null));
     }
@@ -93,14 +94,14 @@ class ImageHelperTest extends AbstractTestCase {
             getcwd() . "/out.png",
         ];
 
-        $jpg = new Image($this->images[0]);
-        $png = new Image($this->images[1]);
+        $imageJpg = new Image($this->images[0]);
+        $imagePng = new Image($this->images[1]);
 
-        $outJpg = ImageFactory::newOutputStream($jpg, 100, 100);
-        $this->assertTrue(TestImageHelper::saveOutputStream($jpg, $outJpg, $paths[0]));
+        $streamJpg = ImageFactory::newOutputStream($imageJpg, 100, 100);
+        $this->assertTrue(TestImageHelper::saveOutputStream($imageJpg, $streamJpg, $paths[0]));
 
-        $outPng = ImageFactory::newOutputStream($png, 100, 100);
-        $this->assertTrue(TestImageHelper::saveOutputStream($png, $outPng, $paths[1]));
+        $outPng = ImageFactory::newOutputStream($imagePng, 100, 100);
+        $this->assertTrue(TestImageHelper::saveOutputStream($imagePng, $outPng, $paths[1]));
 
         // Clean up
         foreach ($paths as $current) {
@@ -108,5 +109,17 @@ class ImageHelperTest extends AbstractTestCase {
                 unlink($current);
             }
         }
+    }
+
+    /**
+     * Tests svg2png()
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSvg2png(): void {
+
+        $res = ImageHelper::svg2png($this->images[4]);
+        $this->assertNotEmpty($res);
     }
 }
