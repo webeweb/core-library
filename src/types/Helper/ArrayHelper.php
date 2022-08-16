@@ -38,7 +38,7 @@ class ArrayHelper {
 
             foreach ($filters as $callback) {
 
-                if (false === $callback($current)) {
+                if (true === is_callable($callback) && false === $callback($current)) {
 
                     $include = false;
                     break;
