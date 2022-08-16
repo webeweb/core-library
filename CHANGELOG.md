@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+### [8.52.0](https://github.com/webeweb/core-library/tree/v8.52.0) (2022-08-16)
+
+- Add svg2png() into Image helper
+- Improve filterBy() into Array helper
+
 ### [8.51.1](https://github.com/webeweb/core-library/tree/v8.51.1) (2022-08-09)
 
 - Improve code quality
