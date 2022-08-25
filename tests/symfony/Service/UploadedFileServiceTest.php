@@ -14,6 +14,7 @@ namespace WBW\Library\Symfony\Tests\Service;
 use Exception;
 use SplFileInfo;
 use WBW\Library\Symfony\Service\UploadedFileService;
+use WBW\Library\Symfony\Service\UploadedFileServiceInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 
 /**
@@ -138,10 +139,11 @@ class UploadedFileServiceTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $this->assertEquals("wbw.core.service.uploaded_file", UploadedFileService::SERVICE_NAME);
         $this->assertEquals("/uploads", UploadedFileService::UPLOAD_DIRECTORY);
 
         $obj = new UploadedFileService($this->directory);
+
+        $this->assertInstanceOf(UploadedFileServiceInterface::class, $obj);
 
         $this->assertEquals($this->directory, $obj->getDirectory());
     }

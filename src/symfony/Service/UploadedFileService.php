@@ -22,18 +22,11 @@ use WBW\Library\Types\Helper\StringHelper;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Symfony\Service
  */
-class UploadedFileService {
+class UploadedFileService implements UploadedFileServiceInterface {
 
     use StringDirectoryTrait {
         setDirectory as protected;
     }
-
-    /**
-     * Service name.
-     *
-     * @var string
-     */
-    const SERVICE_NAME = "wbw.core.service.uploaded_file";
 
     /**
      * Upload directory.
