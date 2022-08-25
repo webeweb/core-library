@@ -80,37 +80,6 @@ class GetRequestTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testCallWithHttpCodes(): void {
-
-        $obj = new GetRequest($this->curlConfiguration, $this->curlResourcePath);
-
-        foreach (CurlHelper::enumCodes() as $code) {
-
-            try {
-
-                $obj->addQueryData("code", $code);
-
-                $res = $obj->call();
-                $this->assertEquals($code, $res->getResponseInfo()["http_code"]);
-                $this->assertGreaterThanOrEqual(200, $res->getResponseInfo()["http_code"]);
-                $this->assertLessThanOrEqual(299, $res->getResponseInfo()["http_code"]);
-            } catch (Exception $ex) {
-
-                $this->assertInstanceOf(RequestCallException::class, $ex);
-
-                /** @var RequestCallException $ex */
-                $this->assertEquals($code, $ex->getCode());
-                $this->assertEquals($code, $ex->getResponse()->getResponseInfo()["http_code"]);
-            }
-        }
-    }
-
-    /**
-     * Tests call() method.
-     *
-     * @return void
-     * @throws Exception Throws an exception if an error occurs.
-     */
     public function testCallWithHeader(): void {
 
         $obj = new GetRequest($this->curlConfiguration, $this->curlResourcePath);
@@ -138,6 +107,37 @@ class GetRequestTest extends AbstractTestCase {
         $this->assertEquals("Content-Type: application/json", $res->getRequestHeader()[0]);
         $this->assertStringContainsString('{"name":"value"}', $res->getRequestBody());
         $this->assertEquals(200, $res->getResponseInfo()["http_code"]);
+    }
+
+    /**
+     * Tests call() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testCallWithHttpCodes(): void {
+
+        $obj = new GetRequest($this->curlConfiguration, $this->curlResourcePath);
+
+        foreach (CurlHelper::enumCodes() as $code) {
+
+            try {
+
+                $obj->addQueryData("code", $code);
+
+                $res = $obj->call();
+                $this->assertEquals($code, $res->getResponseInfo()["http_code"]);
+                $this->assertGreaterThanOrEqual(200, $res->getResponseInfo()["http_code"]);
+                $this->assertLessThanOrEqual(299, $res->getResponseInfo()["http_code"]);
+            } catch (Exception $ex) {
+
+                $this->assertInstanceOf(RequestCallException::class, $ex);
+
+                /** @var RequestCallException $ex */
+                $this->assertEquals($code, $ex->getCode());
+                $this->assertEquals($code, $ex->getResponse()->getResponseInfo()["http_code"]);
+            }
+        }
     }
 
     /**

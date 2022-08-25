@@ -11,10 +11,9 @@
 
 namespace WBW\Library\Core\Tests\Model;
 
+use JsonSerializable;
 use WBW\Library\Core\Model\Cpu;
 use WBW\Library\Core\Tests\AbstractTestCase;
-
-use JsonSerializable;
 
 /**
  * CPU test.

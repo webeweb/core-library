@@ -11,7 +11,6 @@
 
 namespace WBW\Library\Symfony\Tests\Service;
 
-use WBW\Library\Symfony\Service\TokenGeneratorService;
 use WBW\Library\Symfony\Service\TokenGeneratorServiceInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 use WBW\Library\Symfony\Tests\Fixtures\Service\TestTokenGeneratorServiceTrait;

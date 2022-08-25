@@ -98,7 +98,6 @@ class AlphabeticalTreeNodeHelperTest extends AbstractTestCase {
         $this->assertCount(7, $this->nodes);
     }
 
-
     /**
      * Tests sort()
      *

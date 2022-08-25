@@ -30,19 +30,19 @@ interface UploadedFileServiceInterface {
     const SERVICE_NAME = "wbw.core.service.uploaded_file";
 
     /**
-     * Get the directory.
-     *
-     * @return string|null Returns the directory.
-     */
-    public function getDirectory(): ?string;
-
-    /**
      * Determines if a filename exists.
      *
      * @param string $filename The filename.
      * @return bool Returns true in case of success, false otherwise.
      */
     public function exists(string $filename): bool;
+
+    /**
+     * Get the directory.
+     *
+     * @return string|null Returns the directory.
+     */
+    public function getDirectory(): ?string;
 
     /**
      * Path.
