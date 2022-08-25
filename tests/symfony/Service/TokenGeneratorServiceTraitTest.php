@@ -12,6 +12,7 @@
 namespace WBW\Library\Symfony\Tests\Service;
 
 use WBW\Library\Symfony\Service\TokenGeneratorService;
+use WBW\Library\Symfony\Service\TokenGeneratorServiceInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 use WBW\Library\Symfony\Tests\Fixtures\Service\TestTokenGeneratorServiceTrait;
 
@@ -31,7 +32,7 @@ class TokenGeneratorServiceTraitTest extends AbstractTestCase {
     public function testSetTokenGeneratorService(): void {
 
         // Set a Token generator service mock.
-        $tokenGeneratorService = $this->getMockBuilder(TokenGeneratorService::class)->disableOriginalConstructor()->getMock();
+        $tokenGeneratorService = $this->getMockBuilder(TokenGeneratorServiceInterface::class)->getMock();
 
         $obj = new TestTokenGeneratorServiceTrait();
 

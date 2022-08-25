@@ -16,12 +16,12 @@ use WBW\Library\Symfony\Service\TokenGeneratorServiceInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 
 /**
- * Token generator service test.
+ * Token generator service interface test.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Symfony\Tests\Service
  */
-class TokenGeneratorServiceTest extends AbstractTestCase {
+class TokenGeneratorServiceInterfaceTest extends AbstractTestCase {
 
     /**
      * Tests __construct()
@@ -30,8 +30,6 @@ class TokenGeneratorServiceTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $obj = new TokenGeneratorService();
-
-        $this->assertInstanceOf(TokenGeneratorServiceInterface::class, $obj);
+        $this->assertEquals("wbw.core.service.token_generator", TokenGeneratorServiceInterface::SERVICE_NAME);
     }
 }

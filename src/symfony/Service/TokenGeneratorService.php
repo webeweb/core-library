@@ -19,12 +19,6 @@ use WBW\Library\Security\TokenGenerator;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Symfony\Service
  */
-class TokenGeneratorService extends TokenGenerator {
+class TokenGeneratorService extends TokenGenerator implements TokenGeneratorServiceInterface {
 
-    /**
-     * Service name.
-     *
-     * @var string
-     */
-    const SERVICE_NAME = "wbw.core.service.token_generator";
 }
