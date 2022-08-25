@@ -1,6 +1,12 @@
 CHANGELOG
 =========
 
+### [8.53.0](https://github.com/webeweb/core-library/tree/v8.53.0) (2022-08-25)
+
+- Add Token generator service interface
+- Add Uploaded file service interface
+- Improve code quality
+
 ### [8.52.0](https://github.com/webeweb/core-library/tree/v8.52.0) (2022-08-16)
 
 - Add svg2png() into Image helper
