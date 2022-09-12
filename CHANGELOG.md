@@ -1,6 +1,21 @@
 CHANGELOG
 =========
 
+### [8.54.0](https://github.com/webeweb/core-library/tree/v8.54.0) (2022-09-12)
+
+- Add boolean on post delete trait
+- Add boolean on post disable trait
+- Add boolean on post edit trait
+- Add boolean on post enable trait
+- Add boolean on post new trait
+- Add boolean on post show trait
+- Add boolean on pre delete trait
+- Add boolean on pre disable trait
+- Add boolean on pre edit trait
+- Add boolean on pre enable trait
+- Add boolean on pre new trait
+- Add boolean on pre show trait
+
 ### [8.53.0](https://github.com/webeweb/core-library/tree/v8.53.0) (2022-08-25)
 
 - Add Token generator service interface
