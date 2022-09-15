@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [8.55.0](https://github.com/webeweb/core-library/tree/v8.55.0) (2022-09-15)
+
+- Add date/time deadline trait
+
 ### [8.54.0](https://github.com/webeweb/core-library/tree/v8.54.0) (2022-09-12)
 
 - Add boolean on post delete trait
