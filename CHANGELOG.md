@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [8.56.0](https://github.com/webeweb/core-library/tree/v8.56.0) (2022-09-21)
+
+- Add integer status trait
+
 ### [8.55.0](https://github.com/webeweb/core-library/tree/v8.55.0) (2022-09-15)
 
 - Add date/time deadline trait
