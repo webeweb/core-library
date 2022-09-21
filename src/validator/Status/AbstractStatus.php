@@ -79,6 +79,7 @@ abstract class AbstractStatus implements StatusInterface {
      * {@inheritdoc}
      */
     public function jsonSerialize(): array {
+
         return [
             "code"     => $this->getCode(),
             "message"  => $this->getMessage(),

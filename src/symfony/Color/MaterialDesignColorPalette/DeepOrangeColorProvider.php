@@ -41,6 +41,7 @@ class DeepOrangeColorProvider extends AbstractColorProvider implements DeepOrang
      * {@inheritdoc}
      */
     public function getColors(): array {
+
         return [
             self::COLOR_50   => self::DEEP_ORANGE_COLOR_50,
             self::COLOR_100  => self::DEEP_ORANGE_COLOR_100,

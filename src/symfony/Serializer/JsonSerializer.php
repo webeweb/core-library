@@ -42,6 +42,7 @@ class JsonSerializer {
      * @return array Returns the serialized model.
      */
     public static function serializeAlert(AlertInterface $model): array {
+
         return [
             SerializerKeys::CONTENT => $model->getContent(),
             SerializerKeys::TYPE    => $model->getType(),
@@ -55,6 +56,7 @@ class JsonSerializer {
      * @return array Returns the serialized model.
      */
     public static function serializeBadge(BadgeInterface $model): array {
+
         return [
             SerializerKeys::CONTENT => $model->getContent(),
             SerializerKeys::TYPE    => $model->getType(),
@@ -68,6 +70,7 @@ class JsonSerializer {
      * @return array Returns the serialized model.
      */
     public static function serializeButton(ButtonInterface $model): array {
+
         return [
             SerializerKeys::CONTENT => $model->getContent(),
             SerializerKeys::TYPE    => $model->getType(),
@@ -121,6 +124,7 @@ class JsonSerializer {
      * @return array Returns the serialized model.
      */
     public static function serializeIcon(IconInterface $model): array {
+
         return [
             SerializerKeys::NAME  => $model->getName(),
             SerializerKeys::STYLE => $model->getStyle(),
@@ -134,6 +138,7 @@ class JsonSerializer {
      * @return array Returns the serialized model.
      */
     public static function serializeLabel(LabelInterface $model): array {
+
         return [
             SerializerKeys::CONTENT => $model->getContent(),
             SerializerKeys::TYPE    => $model->getType(),
@@ -169,6 +174,7 @@ class JsonSerializer {
      * @return array Returns the serialized model.
      */
     public static function serializeNotification(NotificationInterface $model): array {
+
         return [
             SerializerKeys::CONTENT => $model->getContent(),
             SerializerKeys::TYPE    => $model->getType(),
@@ -182,6 +188,7 @@ class JsonSerializer {
      * @return array Returns the serialized model.
      */
     public static function serializeProgressBar(ProgressBarInterface $model): array {
+
         return [
             SerializerKeys::CONTENT => $model->getContent(),
             SerializerKeys::TYPE    => $model->getType(),
@@ -195,6 +202,7 @@ class JsonSerializer {
      * @return array Returns the serialized model.
      */
     public static function serializeSelect2Option(Select2OptionInterface $model): array {
+
         return [
             SerializerKeys::ID   => $model->getSelect2OptionId(),
             SerializerKeys::TEXT => $model->getSelect2OptionText(),
@@ -226,6 +234,7 @@ class JsonSerializer {
      * @return array Returns the serialized model.
      */
     public static function serializeToast(ToastInterface $model): array {
+
         return [
             SerializerKeys::CONTENT => $model->getContent(),
             SerializerKeys::TYPE    => $model->getType(),

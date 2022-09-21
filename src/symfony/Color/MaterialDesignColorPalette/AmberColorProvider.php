@@ -41,6 +41,7 @@ class AmberColorProvider extends AbstractColorProvider implements AmberColorProv
      * {@inheritdoc}
      */
     public function getColors(): array {
+
         return [
             self::COLOR_50   => self::AMBER_COLOR_50,
             self::COLOR_100  => self::AMBER_COLOR_100,

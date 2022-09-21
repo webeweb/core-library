@@ -41,6 +41,7 @@ class BlueColorProvider extends AbstractColorProvider implements BlueColorProvid
      * {@inheritdoc}
      */
     public function getColors(): array {
+
         return [
             self::COLOR_50   => self::BLUE_COLOR_50,
             self::COLOR_100  => self::BLUE_COLOR_100,

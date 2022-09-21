@@ -52,6 +52,7 @@ class DefaultJsonResponseData implements DefaultJsonResponseDataInterface {
      * {@inheritdoc}
      */
     public function jsonSerialize(): array {
+
         return [
             "success" => $this->getSuccess(),
             "data"    => $this->getData(),

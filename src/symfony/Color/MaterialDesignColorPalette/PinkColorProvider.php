@@ -41,6 +41,7 @@ class PinkColorProvider extends AbstractColorProvider implements PinkColorProvid
      * {@inheritdoc}
      */
     public function getColors(): array {
+
         return [
             self::COLOR_50   => self::PINK_COLOR_50,
             self::COLOR_100  => self::PINK_COLOR_100,

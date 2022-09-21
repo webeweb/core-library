@@ -25,6 +25,7 @@ class TestFixtures {
      * @return string[] Returns the images.
      */
     public static function getImages(): array {
+
         return [
             realpath(__DIR__ . "/TestImage_1920x1037.jpg"),
             realpath(__DIR__ . "/TestImage_1920x1037.png"),

@@ -41,6 +41,7 @@ class BrownColorProvider extends AbstractColorProvider implements BrownColorProv
      * {@inheritdoc}
      */
     public function getColors(): array {
+
         return [
             self::COLOR_50  => self::BROWN_COLOR_50,
             self::COLOR_100 => self::BROWN_COLOR_100,

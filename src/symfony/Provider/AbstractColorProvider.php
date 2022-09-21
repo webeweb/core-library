@@ -41,6 +41,7 @@ abstract class AbstractColorProvider implements ColorProviderInterface, JsonSeri
      *{@inheritdoc}
      */
     public function jsonSerialize(): array {
+
         return [
             SerializerKeys::DOMAIN      => $this->getDomain(),
             SerializerKeys::NAME        => $this->getName(),

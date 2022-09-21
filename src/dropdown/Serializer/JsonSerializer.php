@@ -29,6 +29,7 @@ class JsonSerializer {
      * @return array Returns the serialized model.
      */
     public static function serializeDropdownItem(DropdownItemInterface $model): array {
+
         return [
             SerializerKeys::BY_DEFAULT   => $model->getByDefault(),
             BaseSerializerKeys::LABEL    => $model->getLabel(),

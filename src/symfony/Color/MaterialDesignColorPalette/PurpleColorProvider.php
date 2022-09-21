@@ -41,6 +41,7 @@ class PurpleColorProvider extends AbstractColorProvider implements PurpleColorPr
      * {@inheritdoc}
      */
     public function getColors(): array {
+
         return [
             self::COLOR_50   => self::PURPLE_COLOR_50,
             self::COLOR_100  => self::PURPLE_COLOR_100,

@@ -64,7 +64,11 @@ class Image implements ImageInterface {
      * @return int[] Returns the dimensions.
      */
     public function getDimensions(): array {
-        return [$this->getWidth(), $this->getHeight()];
+
+        return [
+            $this->getWidth(),
+            $this->getHeight(),
+        ];
     }
 
     /**

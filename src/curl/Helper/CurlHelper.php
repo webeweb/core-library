@@ -31,6 +31,7 @@ class CurlHelper {
      * @return int[] Returns the codes enumeration.
      */
     public static function enumCodes(): array {
+
         return [
             ResponseInterface::CODE_CONTINUE,
             ResponseInterface::CODE_SWITCHING_PROTOCOLS,
@@ -98,6 +99,7 @@ class CurlHelper {
      * @return string[] Returns the methods enumeration.
      */
     public static function enumMethods(): array {
+
         return [
             RequestInterface::METHOD_DELETE,
             RequestInterface::METHOD_GET,

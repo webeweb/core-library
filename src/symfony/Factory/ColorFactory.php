@@ -48,6 +48,7 @@ class ColorFactory {
      * @return ColorProviderInterface[] Returns the Material Design Color Palette.
      */
     public static function newMaterialDesignColorPalette(): array {
+
         return [
             new RedColorProvider(),
             new PinkColorProvider(),

@@ -129,6 +129,7 @@ EOT;
      * @return string[] Returns the available methods.
      */
     public static function getAvailableMethods(): array {
+
         return [
             "--composer-update"     => "runComposerUpdate",
             "--git-config-usermail" => "runGitConfigUserEmail",
@@ -153,6 +154,7 @@ EOT;
      * @return string[] Returns the available options.
      */
     public static function getAvailableOptions(): array {
+
         return [
             "--composer-update"     => "Execute 'composer update'",
             "--git-config-usermail" => "Execute 'git config user.email <usermail>'",

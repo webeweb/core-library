@@ -41,6 +41,7 @@ class LightGreenColorProvider extends AbstractColorProvider implements LightGree
      * {@inheritdoc}
      */
     public function getColors(): array {
+
         return [
             self::COLOR_50   => self::LIGHT_GREEN_COLOR_50,
             self::COLOR_100  => self::LIGHT_GREEN_COLOR_100,

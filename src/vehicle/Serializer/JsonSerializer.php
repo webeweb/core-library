@@ -30,6 +30,7 @@ class JsonSerializer {
      * @return array Returns the serialized registration certificate.
      */
     public static function serializeRegistrationCertificate(RegistrationCertificateInterface $model): array {
+
         return [
             SerializerKeys::A     => $model->getA(),
             SerializerKeys::A1    => $model->getA1(),
@@ -88,6 +89,7 @@ class JsonSerializer {
      * @return array Returns the serialized model.
      */
     public static function serializeVehicleBrand(VehicleBrandInterface $model): array {
+
         return [
             BaseSerializerKeys::LABEL => $model->getLabel(),
         ];

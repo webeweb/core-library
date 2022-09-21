@@ -41,6 +41,7 @@ class BlackColorProvider extends AbstractColorProvider implements BlackColorProv
      * {@inheritdoc}
      */
     public function getColors(): array {
+
         return [
             self::COLOR_50   => self::BLACK_COLOR_500,
             self::COLOR_100  => self::BLACK_COLOR_500,

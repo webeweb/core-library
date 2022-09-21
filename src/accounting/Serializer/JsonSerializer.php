@@ -34,6 +34,7 @@ class JsonSerializer {
      * @return array Returns the serialized model.
      */
     public static function serializeAccountingAccount(AccountingAccountInterface $model): array {
+
         return [
             BaseSerializerKeys::LABEL  => $model->getLabel(),
             BaseSerializerKeys::NUMBER => $model->getNumber(),
@@ -48,6 +49,7 @@ class JsonSerializer {
      * @return array Returns the serialized model.
      */
     public static function serializeBankDetails(BankDetailsInterface $model): array {
+
         return [
             SerializerKeys::ACCOUNT_NUMBER     => $model->getAccountNumber(),
             SerializerKeys::BANK_CODE          => $model->getBankCode(),
@@ -68,6 +70,7 @@ class JsonSerializer {
      * @return array Returns the serialized model.
      */
     public static function serializePaymentChoice(PaymentChoiceInterface $model): array {
+
         return [
             BaseSerializerKeys::LABEL => $model->getLabel(),
         ];
@@ -80,6 +83,7 @@ class JsonSerializer {
      * @return array Returns the serialized model.
      */
     public static function serializePaymentTerm(PaymentTermInterface $model): array {
+
         return [
             BaseSerializerKeys::CODE  => $model->getCode(),
             BaseSerializerKeys::LABEL => $model->getLabel(),
@@ -93,6 +97,7 @@ class JsonSerializer {
      * @return array Returns the serialized model.
      */
     public static function serializeVatRate(VatRateInterface $model): array {
+
         return [
             BaseSerializerKeys::LABEL                    => $model->getLabel(),
             SerializerKeys::PURCHASES_ACCOUNTING_ACCOUNT => JsonSerializerHelper::jsonSerializeModel($model->getPurchasesAccountingAccount()),

@@ -41,6 +41,7 @@ class RedColorProvider extends AbstractColorProvider implements RedColorProvider
      * {@inheritdoc}
      */
     public function getColors(): array {
+
         return [
             self::COLOR_50   => self::RED_COLOR_50,
             self::COLOR_100  => self::RED_COLOR_100,

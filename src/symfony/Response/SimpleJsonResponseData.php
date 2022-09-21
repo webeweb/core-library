@@ -62,6 +62,7 @@ class SimpleJsonResponseData implements SimpleJsonResponseDataInterface {
      * {@inheritdoc}
      */
     public function jsonSerialize(): array {
+
         return [
             "status" => $this->getStatus(),
             "notify" => $this->getNotify(),

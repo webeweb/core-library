@@ -36,6 +36,7 @@ class TestSubstituableRequest extends AbstractRequest implements SubstituableReq
      * {@inheritdoc}
      */
     public function getSubstituables(): array {
+
         return [
             "{id}" => $this->getId(),
         ];

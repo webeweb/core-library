@@ -41,6 +41,7 @@ class IndigoColorProvider extends AbstractColorProvider implements IndigoColorPr
      * {@inheritdoc}
      */
     public function getColors(): array {
+
         return [
             self::COLOR_50   => self::INDIGO_COLOR_50,
             self::COLOR_100  => self::INDIGO_COLOR_100,

@@ -29,6 +29,7 @@ class TestFixtures {
      * @throws Exception Throws an exception if an error occurs.
      */
     public static function getDateTimes(): array {
+
         return [
             new DateTime("2018-08-22 08:00:00"),
             new DateTime("2018-08-22 11:00:00"),
