@@ -3,6 +3,7 @@ CHANGELOG
 
 ### master
 
+- Fix a possible issue with accents into String helper methods
 - Improve code quality
 
 ### [8.56.0](https://github.com/webeweb/core-library/tree/v8.56.0) (2022-09-21)
