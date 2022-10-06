@@ -50,7 +50,7 @@ class ColorManager extends AbstractManager {
     public function contains(ProviderInterface $provider): bool {
 
         if (false === ($provider instanceof ColorProviderInterface)) {
-            throw new InvalidArgumentException("The provider must implements ColorProviderInterface");
+            throw new InvalidArgumentException("The provider must implements " . ColorProviderInterface::class);
         }
 
         $identifier = ColorHelper::getIdentifier($provider);

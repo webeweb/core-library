@@ -114,7 +114,7 @@ class ColorManagerTest extends AbstractTestCase {
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
-            $this->assertEquals("The provider must implements ColorProviderInterface", $ex->getMessage());
+            $this->assertEquals("The provider must implements " . ColorProviderInterface::class, $ex->getMessage());
         }
     }
 
