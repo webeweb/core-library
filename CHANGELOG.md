@@ -3,11 +3,15 @@ CHANGELOG
 
 ### master
 
+- Add Color manager interface
 - Add Javascript manager
+- Add Javascript manager interface
 - Add Javascript manager trait
 - Add Javascript provider interface
 - Add Javascript provider trait
+- Add Quote manager interface
 - Add Stylesheet manager
+- Add Stylesheet manager interface
 - Add Stylesheet manager trait
 - Add Stylesheet provider interface
 - Add Stylesheet provider trait
