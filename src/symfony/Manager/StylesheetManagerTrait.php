@@ -22,26 +22,26 @@ trait StylesheetManagerTrait {
     /**
      * Stylesheet manager.
      *
-     * @var StylesheetManager|null
+     * @var StylesheetManagerInterface|null
      */
     private $stylesheetManager;
 
     /**
      * Get the stylesheet manager.
      *
-     * @return StylesheetManager|null Returns the stylesheet manager.
+     * @return StylesheetManagerInterface|null Returns the stylesheet manager.
      */
-    public function getStylesheetManager(): ?StylesheetManager {
+    public function getStylesheetManager(): ?StylesheetManagerInterface {
         return $this->stylesheetManager;
     }
 
     /**
      * Set the stylesheet manager.
      *
-     * @param StylesheetManager|null $stylesheetManager The stylesheet manager.
+     * @param StylesheetManagerInterface|null $stylesheetManager The stylesheet manager.
      * @return self Returns this instance.
      */
-    protected function setStylesheetManager(?StylesheetManager $stylesheetManager): self {
+    protected function setStylesheetManager(?StylesheetManagerInterface $stylesheetManager): self {
         $this->stylesheetManager = $stylesheetManager;
         return $this;
     }

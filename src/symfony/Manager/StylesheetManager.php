@@ -22,7 +22,7 @@ use WBW\Library\Symfony\Provider\StylesheetProviderInterface;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Symfony\Manager
  */
-class StylesheetManager extends AbstractManager {
+class StylesheetManager extends AbstractManager implements StylesheetManagerInterface {
 
     /**
      * Service name.
@@ -56,9 +56,7 @@ class StylesheetManager extends AbstractManager {
     }
 
     /**
-     * Get the stylesheets.
-     *
-     * @return array Returns the stylesheets.
+     * {@inheritdoc}
      */
     public function getStylesheets(): array {
 

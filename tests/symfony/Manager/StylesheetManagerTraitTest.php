@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Symfony\Tests\Manager;
 
-use WBW\Library\Symfony\Manager\StylesheetManager;
+use WBW\Library\Symfony\Manager\StylesheetManagerInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 use WBW\Library\Symfony\Tests\Fixtures\Manager\TestStylesheetManagerTrait;
 
@@ -31,7 +31,7 @@ class StylesheetManagerTraitTest extends AbstractTestCase {
     public function testSetStylesheetManager(): void {
 
         // Set a Stylesheet manager mock.
-        $stylesheetManager = $this->getMockBuilder(StylesheetManager::class)->getMock();
+        $stylesheetManager = $this->getMockBuilder(StylesheetManagerInterface::class)->getMock();
 
         $obj = new TestStylesheetManagerTrait();
 
