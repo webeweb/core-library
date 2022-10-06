@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Symfony\Tests\Manager;
 
-use WBW\Library\Symfony\Manager\ColorManager;
+use WBW\Library\Symfony\Manager\ColorManagerInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 use WBW\Library\Symfony\Tests\Fixtures\Manager\TestColorManagerTrait;
 
@@ -31,7 +31,7 @@ class ColorManagerTraitTest extends AbstractTestCase {
     public function testSetColorManager(): void {
 
         // Set a Color manager mock.
-        $colorManager = $this->getMockBuilder(ColorManager::class)->getMock();
+        $colorManager = $this->getMockBuilder(ColorManagerInterface::class)->getMock();
 
         $obj = new TestColorManagerTrait();
 

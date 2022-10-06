@@ -23,7 +23,7 @@ use WBW\Library\Symfony\Provider\ProviderInterface;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Symfony\Manager
  */
-class ColorManager extends AbstractManager {
+class ColorManager extends AbstractManager implements ColorManagerInterface {
 
     /**
      * Service name.
