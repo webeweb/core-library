@@ -3,8 +3,17 @@ CHANGELOG
 
 ### master
 
+- Add Javascript manager
+- Add Javascript manager trait
+- Add Javascript provider interface
+- Add Javascript provider trait
+- Add Stylesheet manager
+- Add Stylesheet manager trait
+- Add Stylesheet provider interface
+- Add Stylesheet provider trait
 - Fix a possible issue with accents into String helper methods
 - Improve code quality
+- Improve unit tests
 
 ### [8.56.0](https://github.com/webeweb/core-library/tree/v8.56.0) (2022-09-21)
 
