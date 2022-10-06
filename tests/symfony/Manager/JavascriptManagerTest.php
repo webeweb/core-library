@@ -42,6 +42,7 @@ class JavascriptManagerTest extends AbstractTestCase {
 
         // Set a Javascript provider mock.
         $this->javascriptProvider = $this->getMockBuilder(JavascriptProviderInterface::class)->getMock();
+        $this->javascriptProvider->expects($this->any())->method("getJavascripts")->willReturn([]);
     }
 
     /**
@@ -114,6 +115,20 @@ class JavascriptManagerTest extends AbstractTestCase {
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
             $this->assertEquals("The provider must implements " . JavascriptProviderInterface::class, $ex->getMessage());
         }
+    }
+
+    /**
+     * Tests getJavascripts()
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testGetJavascripts(): void {
+
+        $obj = new JavascriptManager($this->logger);
+
+        $obj->addProvider($this->javascriptProvider);
+        $this->assertEquals([], $obj->getJavascripts());
     }
 
     /**

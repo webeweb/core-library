@@ -42,6 +42,7 @@ class StylesheetManagerTest extends AbstractTestCase {
 
         // Set a Stylesheet provider mock.
         $this->stylesheetProvider = $this->getMockBuilder(StylesheetProviderInterface::class)->getMock();
+        $this->stylesheetProvider->expects($this->any())->method("getStylesheets")->willReturn([]);
     }
 
     /**
@@ -114,6 +115,20 @@ class StylesheetManagerTest extends AbstractTestCase {
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
             $this->assertEquals("The provider must implements " . StylesheetProviderInterface::class, $ex->getMessage());
         }
+    }
+
+    /**
+     * Tests getStylesheets()
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testGetStylesheets(): void {
+
+        $obj = new StylesheetManager($this->logger);
+
+        $obj->addProvider($this->stylesheetProvider);
+        $this->assertEquals([], $obj->getStylesheets());
     }
 
     /**
