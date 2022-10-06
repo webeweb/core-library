@@ -49,9 +49,10 @@ class QuoteManager extends AbstractManager {
     public function contains(ProviderInterface $provider): bool {
 
         if (false === ($provider instanceof QuoteProviderInterface)) {
-            throw new InvalidArgumentException("The provider must implements QuoteProviderInterface");
+            throw new InvalidArgumentException("The provider must implements " . QuoteProviderInterface::class);
         }
 
+        /** @var QuoteProviderInterface $current */
         foreach ($this->getProviders() as $current) {
 
             if ($provider->getDomain() === $current->getDomain()) {
@@ -70,6 +71,7 @@ class QuoteManager extends AbstractManager {
      */
     public function getProvider(string $domain): ?ProviderInterface {
 
+        /** @var QuoteProviderInterface $current */
         foreach ($this->getProviders() as $current) {
 
             if ($domain === $current->getDomain()) {

@@ -113,7 +113,7 @@ class QuoteManagerTest extends AbstractTestCase {
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
-            $this->assertEquals("The provider must implements QuoteProviderInterface", $ex->getMessage());
+            $this->assertEquals("The provider must implements " . QuoteProviderInterface::class, $ex->getMessage());
         }
     }
 
