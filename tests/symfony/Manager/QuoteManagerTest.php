@@ -15,7 +15,7 @@ use Exception;
 use InvalidArgumentException;
 use WBW\Library\Symfony\Exception\AlreadyRegisteredProviderException;
 use WBW\Library\Symfony\Manager\QuoteManager;
-use WBW\Library\Symfony\Provider\ColorProviderInterface;
+use WBW\Library\Symfony\Provider\ProviderInterface;
 use WBW\Library\Symfony\Provider\QuoteProviderInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 
@@ -102,14 +102,14 @@ class QuoteManagerTest extends AbstractTestCase {
      */
     public function testContainsWithInvalidArgumentException(): void {
 
-        // Set a Quote provider mock.
-        $quoteProvider = $this->getMockBuilder(ColorProviderInterface::class)->getMock();
+        // Set a Provider mock.
+        $provider = $this->getMockBuilder(ProviderInterface::class)->getMock();
 
         $obj = new QuoteManager($this->logger);
 
         try {
 
-            $obj->contains($quoteProvider);
+            $obj->contains($provider);
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
