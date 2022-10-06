@@ -22,26 +22,26 @@ trait JavascriptManagerTrait {
     /**
      * Javascript manager.
      *
-     * @var JavascriptManager|null
+     * @var JavascriptManagerInterface|null
      */
     private $javascriptManager;
 
     /**
      * Get the javascript manager.
      *
-     * @return JavascriptManager|null Returns the javascript manager.
+     * @return JavascriptManagerInterface|null Returns the javascript manager.
      */
-    public function getJavascriptManager(): ?JavascriptManager {
+    public function getJavascriptManager(): ?JavascriptManagerInterface {
         return $this->javascriptManager;
     }
 
     /**
      * Set the javascript manager.
      *
-     * @param JavascriptManager|null $javascriptManager The javascript manager.
+     * @param JavascriptManagerInterface|null $javascriptManager The javascript manager.
      * @return self Returns this instance.
      */
-    protected function setJavascriptManager(?JavascriptManager $javascriptManager): self {
+    protected function setJavascriptManager(?JavascriptManagerInterface $javascriptManager): self {
         $this->javascriptManager = $javascriptManager;
         return $this;
     }

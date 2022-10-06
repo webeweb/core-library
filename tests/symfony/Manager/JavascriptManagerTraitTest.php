@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Symfony\Tests\Manager;
 
-use WBW\Library\Symfony\Manager\JavascriptManager;
+use WBW\Library\Symfony\Manager\JavascriptManagerInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 use WBW\Library\Symfony\Tests\Fixtures\Manager\TestJavascriptManagerTrait;
 
@@ -31,7 +31,7 @@ class JavascriptManagerTraitTest extends AbstractTestCase {
     public function testSetJavascriptManager(): void {
 
         // Set a Javascript manager mock.
-        $javascriptManager = $this->getMockBuilder(JavascriptManager::class)->getMock();
+        $javascriptManager = $this->getMockBuilder(JavascriptManagerInterface::class)->getMock();
 
         $obj = new TestJavascriptManagerTrait();
 

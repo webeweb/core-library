@@ -22,7 +22,7 @@ use WBW\Library\Symfony\Provider\ProviderInterface;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Symfony\Manager
  */
-class JavascriptManager extends AbstractManager {
+class JavascriptManager extends AbstractManager implements JavascriptManagerInterface {
 
     /**
      * Service name.
@@ -56,9 +56,7 @@ class JavascriptManager extends AbstractManager {
     }
 
     /**
-     * Get the javascripts.
-     *
-     * @return array Returns the javascripts.
+     * {@inheritdoc}
      */
     public function getJavascripts(): array {
 
