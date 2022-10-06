@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Symfony\Manager;
 
+use InvalidArgumentException;
+use WBW\Library\Symfony\Exception\AlreadyRegisteredProviderException;
 use WBW\Library\Symfony\Provider\ProviderInterface;
 
 /**
@@ -26,6 +28,7 @@ interface ManagerInterface {
      *
      * @param ProviderInterface $provider The provider.
      * @return ManagerInterface Returns this manager.
+     * @throws AlreadyRegisteredProviderException Throws an already registered provider exception.
      */
     public function addProvider(ProviderInterface $provider): ManagerInterface;
 
@@ -34,6 +37,7 @@ interface ManagerInterface {
      *
      * @param ProviderInterface $provider The provider.
      * @return bool Returns true in case of success, false otherwise.
+     * @throws InvalidArgumentException Throws an invalid argument exception.
      */
     public function contains(ProviderInterface $provider): bool;
 
@@ -53,9 +57,9 @@ interface ManagerInterface {
     public function indexOf(ProviderInterface $provider): int;
 
     /**
-     * Size.
+     * Count.
      *
-     * @return int Returns the providers count
+     * @return int Returns the providers count.
      */
     public function size(): int;
 }
