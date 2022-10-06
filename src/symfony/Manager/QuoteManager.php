@@ -22,7 +22,7 @@ use WBW\Library\Symfony\Provider\QuoteProviderInterface;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Symfony\Manager
  */
-class QuoteManager extends AbstractManager {
+class QuoteManager extends AbstractManager implements QuoteManagerInterface {
 
     /**
      * Service name.

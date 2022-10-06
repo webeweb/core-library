@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Symfony\Tests\Manager;
 
-use WBW\Library\Symfony\Manager\QuoteManager;
+use WBW\Library\Symfony\Manager\QuoteManagerInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 use WBW\Library\Symfony\Tests\Fixtures\Manager\TestQuoteManagerTrait;
 
@@ -31,7 +31,7 @@ class QuoteManagerTraitTest extends AbstractTestCase {
     public function testSetQuoteManager(): void {
 
         // Set a Quote manager mock.
-        $quoteManager = $this->getMockBuilder(QuoteManager::class)->getMock();
+        $quoteManager = $this->getMockBuilder(QuoteManagerInterface::class)->getMock();
 
         $obj = new TestQuoteManagerTrait();
 
