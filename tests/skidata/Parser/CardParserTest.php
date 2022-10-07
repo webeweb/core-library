@@ -65,6 +65,7 @@ class CardParserTest extends AbstractTestCase {
         $obj->setProductionFacilityNumber(1234567);
 
         $exp = '"ticketNumber";987654321;321;20170920;20170921;1;;2;0;3412;0;0;1;1;0;1;"displayText1";"displayText2";9876;123456789012;"serialNumberKeyCard";"3.0";3;"ticke";"serialNo";;20170922;1;1234567';
+
         $this->assertEquals($exp, (new CardParser())->parseEntity($obj));
     }
 

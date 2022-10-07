@@ -70,6 +70,7 @@ class FibonacciHelperTest extends AbstractTestCase {
     public function testSequence(): void {
 
         $exp = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55];
+
         $this->assertEquals($exp, FibonacciHelper::sequence(10));
     }
 
@@ -81,6 +82,7 @@ class FibonacciHelperTest extends AbstractTestCase {
     public function testSequenceWithNegative(): void {
 
         $exp = [0, 1, -1, 2, -3, 5, -8, 13, -21, 34, -55];
+
         $this->assertEquals($exp, FibonacciHelper::sequence(-10));
     }
 }

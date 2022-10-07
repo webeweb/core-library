@@ -46,6 +46,7 @@ class RequestSerializerTest extends AbstractTestCase {
             "BuyDateMax"        => "2019-01-22",
             "IdentificationKey" => "identificationKey",
         ];
+
         $this->assertEquals($exp, $obj);
     }
 

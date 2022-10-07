@@ -42,6 +42,7 @@ class StartRecordFormatParserTest extends AbstractTestCase {
         $obj->setCurrency("EUR");
 
         $exp = '190000;0202747;20170921;00018;"EUR"';
+
         $this->assertEquals($exp, (new StartRecordFormatParser())->parseEntity($obj));
     }
 

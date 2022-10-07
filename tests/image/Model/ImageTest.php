@@ -53,6 +53,7 @@ class ImageTest extends AbstractTestCase {
         $obj = new Image($this->images[0]);
 
         $exp = file_get_contents(__DIR__ . "/../Helper/ImageHelperTest.testBase64Encode.txt");
+
         $this->assertEquals($exp, $obj->base64Encode());
     }
 

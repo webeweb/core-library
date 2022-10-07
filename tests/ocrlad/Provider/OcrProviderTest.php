@@ -55,6 +55,7 @@ class OcrProviderTest extends AbstractTestCase {
                 "/localDirectoryAfter/~$md5.tif",
             ],
         ];
+
         $res = $obj->buildFilePaths($file);
         $this->assertEquals($exp, $res);
     }

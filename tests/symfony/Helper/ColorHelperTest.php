@@ -34,6 +34,7 @@ class ColorHelperTest extends AbstractTestCase {
         $colorProvider = new RedColorProvider();
 
         $exp = implode(":", ["MaterialDesignColorPalette", "red"]);
+
         $this->assertEquals($exp, ColorHelper::getIdentifier($colorProvider));
     }
 

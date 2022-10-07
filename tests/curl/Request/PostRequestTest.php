@@ -36,6 +36,7 @@ class PostRequestTest extends AbstractTestCase {
         $obj->addPostData("name", "value");
 
         $exp = ["name" => "value"];
+
         $this->assertEquals($exp, $obj->getPostData());
     }
 

@@ -72,6 +72,7 @@ class PhantomJSServiceTest extends AbstractTestCase {
         if ("\\" === DIRECTORY_SEPARATOR) {
             $exp .= ".exe";
         }
+
         $this->assertEquals($exp, $obj->getCommand());
     }
 

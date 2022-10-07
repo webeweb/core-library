@@ -62,6 +62,7 @@ class QuickSortTest extends AbstractTestCase {
         $obj->sort();
 
         $exp = [12, 21, 23, 32, 34, 43, 45, 54, 56, 65, 67, 76, 78, 87, 89, 98];
+
         $this->assertEquals($exp, $obj->getValues());
     }
 
