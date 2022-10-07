@@ -1,7 +1,7 @@
 CHANGELOG
 =========
 
-### master
+### [8.57.0](https://github.com/webeweb/core-library/tree/v8.57.0) (2022-10-07)
 
 - Add Color manager interface
 - Add Javascript manager
