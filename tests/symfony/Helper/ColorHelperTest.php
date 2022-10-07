@@ -33,8 +33,8 @@ class ColorHelperTest extends AbstractTestCase {
         // Set a Color provider mock.
         $colorProvider = new RedColorProvider();
 
-        $res = implode(":", ["MaterialDesignColorPalette", "red"]);
-        $this->assertEquals($res, ColorHelper::getIdentifier($colorProvider));
+        $exp = implode(":", ["MaterialDesignColorPalette", "red"]);
+        $this->assertEquals($exp, ColorHelper::getIdentifier($colorProvider));
     }
 
     /**

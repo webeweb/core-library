@@ -201,9 +201,9 @@ class TimeSlotHelperTest extends AbstractTestCase {
             new TimeSlot($this->dateTimes[1], $this->dateTimes[2]),
             new TimeSlot($this->dateTimes[2], $this->dateTimes[3]),
         ];
+        $exp = 36000;
 
-        $res = 36000;
-        $this->assertEquals($res, TimeSlotHelper::getDuration($arg));
+        $this->assertEquals($exp, TimeSlotHelper::getDuration($arg));
     }
 
     /**

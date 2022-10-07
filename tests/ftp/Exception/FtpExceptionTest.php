@@ -31,7 +31,6 @@ class FtpExceptionTest extends AbstractTestCase {
 
         $obj = new FtpException("exception");
 
-        $res = "exception";
-        $this->assertEquals($res, $obj->getMessage());
+        $this->assertEquals("exception", $obj->getMessage());
     }
 }

@@ -68,11 +68,11 @@ class PhantomJSServiceTest extends AbstractTestCase {
 
         $obj = new PhantomJSService($this->binaryPath, $this->scriptsPath, $this->outputPath);
 
-        $res = $this->binaryPath;
+        $exp = $this->binaryPath;
         if ("\\" === DIRECTORY_SEPARATOR) {
-            $res .= ".exe";
+            $exp .= ".exe";
         }
-        $this->assertEquals($res, $obj->getCommand());
+        $this->assertEquals($exp, $obj->getCommand());
     }
 
     /**

@@ -31,7 +31,6 @@ class TooLongDataExceptionTest extends AbstractTestCase {
 
         $ex = new TooLongDataException("", 0);
 
-        $res = 'The data "" exceeds the length "0" allowed';
-        $this->assertEquals($res, $ex->getMessage());
+        $this->assertEquals('The data "" exceeds the length "0" allowed', $ex->getMessage());
     }
 }

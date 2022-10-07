@@ -61,8 +61,8 @@ class UserParserTest extends AbstractTestCase {
         $obj->setETicketServiceTyp(3);
         $obj->setETicketServiceArt(2);
 
-        $res = '987654321;123456789;"title";"surname";"firstname";20170920;"12345";"remarks";20170921 115500;0;"identificationNumber";0;1;1;"creditCardNumber";;"remarks2";"remarks3";"division";"email";1;1;"eTicketEmailTelephone";1;3;2';
-        $this->assertEquals($res, (new UserParser())->parseEntity($obj));
+        $exp = '987654321;123456789;"title";"surname";"firstname";20170920;"12345";"remarks";20170921 115500;0;"identificationNumber";0;1;1;"creditCardNumber";;"remarks2";"remarks3";"division";"email";1;1;"eTicketEmailTelephone";1;3;2';
+        $this->assertEquals($exp, (new UserParser())->parseEntity($obj));
     }
 
     /**

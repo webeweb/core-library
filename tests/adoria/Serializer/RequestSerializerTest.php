@@ -41,12 +41,12 @@ class RequestSerializerTest extends AbstractTestCase {
 
         $obj = RequestSerializer::serializeRequestData($requestData);
 
-        $res = [
+        $exp = [
             "AnalyticCode"      => "analyticCode",
             "BuyDateMax"        => "2019-01-22",
             "IdentificationKey" => "identificationKey",
         ];
-        $this->assertEquals($res, $obj);
+        $this->assertEquals($exp, $obj);
     }
 
     /**

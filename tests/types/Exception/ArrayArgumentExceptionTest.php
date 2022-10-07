@@ -31,7 +31,6 @@ class ArrayArgumentExceptionTest extends AbstractTestCase {
 
         $ex = new ArrayArgumentException("exception");
 
-        $res = 'The argument "exception" is not an array';
-        $this->assertEquals($res, $ex->getMessage());
+        $this->assertEquals('The argument "exception" is not an array', $ex->getMessage());
     }
 }

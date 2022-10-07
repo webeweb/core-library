@@ -31,7 +31,6 @@ class MissingStartRecordFormatExceptionTest extends AbstractTestCase {
 
         $ex = new MissingStartRecordFormatException();
 
-        $res = "The start record format is missing";
-        $this->assertEquals($res, $ex->getMessage());
+        $this->assertEquals("The start record format is missing", $ex->getMessage());
     }
 }

@@ -33,10 +33,10 @@ class PostRequestTest extends AbstractTestCase {
     public function testAddPostData(): void {
 
         $obj = new PostRequest($this->curlConfiguration, $this->curlResourcePath);
-
         $obj->addPostData("name", "value");
-        $res = ["name" => "value"];
-        $this->assertEquals($res, $obj->getPostData());
+
+        $exp = ["name" => "value"];
+        $this->assertEquals($exp, $obj->getPostData());
     }
 
     /**

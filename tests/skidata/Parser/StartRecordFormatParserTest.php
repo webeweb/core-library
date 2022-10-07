@@ -41,8 +41,8 @@ class StartRecordFormatParserTest extends AbstractTestCase {
         $obj->setNumberRecords(18);
         $obj->setCurrency("EUR");
 
-        $res = '190000;0202747;20170921;00018;"EUR"';
-        $this->assertEquals($res, (new StartRecordFormatParser())->parseEntity($obj));
+        $exp = '190000;0202747;20170921;00018;"EUR"';
+        $this->assertEquals($exp, (new StartRecordFormatParser())->parseEntity($obj));
     }
 
     /**
@@ -90,9 +90,9 @@ class StartRecordFormatParserTest extends AbstractTestCase {
      */
     public function testParseLine(): void {
 
-        $res = '190000;0202747;20170921;00018;"EUR"';
+        $arg = '190000;0202747;20170921;00018;"EUR"';
 
-        $obj = (new StartRecordFormatParser())->parseLine($res);
+        $obj = (new StartRecordFormatParser())->parseLine($arg);
         $this->assertEquals(190000, $obj->getVersionRecordStructure());
         $this->assertEquals(202747, $obj->getFacilityNumber());
         $this->assertEquals(new DateTime("2017-09-21 00:00:00"), $obj->getDateFile());
@@ -107,12 +107,14 @@ class StartRecordFormatParserTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
+        // Set a Start record format mock.
+        $startRecordFormat = new StartRecordFormat();
+
         $obj = new StartRecordFormatParser();
 
         $this->assertNull($obj->getStartRecordFormat());
 
-        $res = new StartRecordFormat();
-        $obj->setStartRecordFormat($res);
-        $this->assertEquals($res, $obj->getStartRecordFormat());
+        $obj->setStartRecordFormat($startRecordFormat);
+        $this->assertEquals($startRecordFormat, $obj->getStartRecordFormat());
     }
 }

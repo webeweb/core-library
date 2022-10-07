@@ -67,8 +67,8 @@ class CustomerParserTest extends AbstractTestCase {
         $obj->setNationality("abc");
         $obj->setAccountingNumber("accountingNumber");
 
-        $res = '123456789;"title";"surname";"firstname";"street";"pCode";"city";"abc";"taxCode";"idDocumentNo";"telephone";"rentalAgreementNo";20170921;20170930;000000123456;1234;"remarks";20170921 103500;0;;0;1;1;0;1;"remarks2";"remarks3";"division";"email";0;"abc";"accountingNumber"';
-        $this->assertEquals($res, (new CustomerParser())->parseEntity($obj));
+        $exp = '123456789;"title";"surname";"firstname";"street";"pCode";"city";"abc";"taxCode";"idDocumentNo";"telephone";"rentalAgreementNo";20170921;20170930;000000123456;1234;"remarks";20170921 103500;0;;0;1;1;0;1;"remarks2";"remarks3";"division";"email";0;"abc";"accountingNumber"';
+        $this->assertEquals($exp, (new CustomerParser())->parseEntity($obj));
     }
 
     /**

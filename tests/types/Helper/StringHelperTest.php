@@ -42,8 +42,9 @@ class StringHelperTest extends AbstractTestCase {
     public function testDomNode(): void {
 
         $arg = ["type" => "text/javascript"];
-        $res = file_get_contents(__DIR__ . "/StringHelperTest.testDomNode.html.txt");
-        $this->assertEquals($res, StringHelper::domNode("script", "\n    $(document).ready(function() {});\n", $arg) . "\n");
+        $exp = file_get_contents(__DIR__ . "/StringHelperTest.testDomNode.html.txt");
+
+        $this->assertEquals($exp, StringHelper::domNode("script", "\n    $(document).ready(function() {});\n", $arg) . "\n");
     }
 
     /**
@@ -54,8 +55,9 @@ class StringHelperTest extends AbstractTestCase {
     public function testDomNodeWithShortTag(): void {
 
         $arg = ["type" => "text/javascript"];
-        $res = '<script type="text/javascript"/>';
-        $this->assertEquals($res, StringHelper::domNode("script", null, $arg, true));
+        $exp = '<script type="text/javascript"/>';
+
+        $this->assertEquals($exp, StringHelper::domNode("script", null, $arg, true));
     }
 
     /**

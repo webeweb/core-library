@@ -31,7 +31,6 @@ class ResourceArgumentExceptionTest extends AbstractTestCase {
 
         $ex = new ResourceArgumentException("exception");
 
-        $res = 'The argument "exception" is not a resource';
-        $this->assertEquals($res, $ex->getMessage());
+        $this->assertEquals('The argument "exception" is not a resource', $ex->getMessage());
     }
 }

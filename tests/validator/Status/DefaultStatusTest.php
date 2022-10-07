@@ -34,8 +34,8 @@ class DefaultStatusTest extends AbstractTestCase {
         $obj->setMessage("message");
         $obj->setRuleName("ruleName");
 
-        $res = ["code" => 200, "message" => "message", "ruleName" => "ruleName"];
-        $this->assertEquals($res, $obj->jsonSerialize());
+        $exp = ["code" => 200, "message" => "message", "ruleName" => "ruleName"];
+        $this->assertEquals($exp, $obj->jsonSerialize());
     }
 
     /**
