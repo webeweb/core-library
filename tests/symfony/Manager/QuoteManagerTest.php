@@ -14,7 +14,9 @@ namespace WBW\Library\Symfony\Tests\Manager;
 use Exception;
 use InvalidArgumentException;
 use WBW\Library\Symfony\Exception\AlreadyRegisteredProviderException;
+use WBW\Library\Symfony\Manager\ManagerInterface;
 use WBW\Library\Symfony\Manager\QuoteManager;
+use WBW\Library\Symfony\Manager\QuoteManagerInterface;
 use WBW\Library\Symfony\Provider\ProviderInterface;
 use WBW\Library\Symfony\Provider\QuoteProviderInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
@@ -142,6 +144,9 @@ class QuoteManagerTest extends AbstractTestCase {
         $this->assertEquals("wbw.core.manager.quote", QuoteManager::SERVICE_NAME);
 
         $obj = new QuoteManager($this->logger);
+
+        $this->assertInstanceOf(ManagerInterface::class, $obj);
+        $this->assertInstanceOf(QuoteManagerInterface::class, $obj);
 
         $this->assertEquals([], $obj->getProviders());
     }

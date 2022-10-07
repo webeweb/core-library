@@ -15,6 +15,8 @@ use Exception;
 use InvalidArgumentException;
 use WBW\Library\Symfony\Exception\AlreadyRegisteredProviderException;
 use WBW\Library\Symfony\Manager\JavascriptManager;
+use WBW\Library\Symfony\Manager\JavascriptManagerInterface;
+use WBW\Library\Symfony\Manager\ManagerInterface;
 use WBW\Library\Symfony\Provider\JavascriptProviderInterface;
 use WBW\Library\Symfony\Provider\ProviderInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
@@ -141,6 +143,9 @@ class JavascriptManagerTest extends AbstractTestCase {
         $this->assertEquals("wbw.core.manager.javascript", JavascriptManager::SERVICE_NAME);
 
         $obj = new JavascriptManager($this->logger);
+
+        $this->assertInstanceOf(ManagerInterface::class, $obj);
+        $this->assertInstanceOf(JavascriptManagerInterface::class, $obj);
 
         $this->assertEquals([], $obj->getProviders());
     }

@@ -15,6 +15,8 @@ use Exception;
 use InvalidArgumentException;
 use WBW\Library\Symfony\Exception\AlreadyRegisteredProviderException;
 use WBW\Library\Symfony\Manager\ColorManager;
+use WBW\Library\Symfony\Manager\ColorManagerInterface;
+use WBW\Library\Symfony\Manager\ManagerInterface;
 use WBW\Library\Symfony\Provider\ColorProviderInterface;
 use WBW\Library\Symfony\Provider\ProviderInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
@@ -128,6 +130,9 @@ class ColorManagerTest extends AbstractTestCase {
         $this->assertEquals("wbw.core.manager.color", ColorManager::SERVICE_NAME);
 
         $obj = new ColorManager($this->logger);
+
+        $this->assertInstanceOf(ManagerInterface::class, $obj);
+        $this->assertInstanceOf(ColorManagerInterface::class, $obj);
 
         $this->assertEquals([], $obj->getProviders());
     }

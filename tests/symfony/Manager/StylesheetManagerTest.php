@@ -14,7 +14,9 @@ namespace WBW\Library\Symfony\Tests\Manager;
 use Exception;
 use InvalidArgumentException;
 use WBW\Library\Symfony\Exception\AlreadyRegisteredProviderException;
+use WBW\Library\Symfony\Manager\ManagerInterface;
 use WBW\Library\Symfony\Manager\StylesheetManager;
+use WBW\Library\Symfony\Manager\StylesheetManagerInterface;
 use WBW\Library\Symfony\Provider\ProviderInterface;
 use WBW\Library\Symfony\Provider\StylesheetProviderInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
@@ -141,6 +143,9 @@ class StylesheetManagerTest extends AbstractTestCase {
         $this->assertEquals("wbw.core.manager.stylesheet", StylesheetManager::SERVICE_NAME);
 
         $obj = new StylesheetManager($this->logger);
+
+        $this->assertInstanceOf(ManagerInterface::class, $obj);
+        $this->assertInstanceOf(StylesheetManagerInterface::class, $obj);
 
         $this->assertEquals([], $obj->getProviders());
     }
