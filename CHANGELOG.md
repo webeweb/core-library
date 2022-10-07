@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [8.57.1](https://github.com/webeweb/core-library/tree/v8.57.1) (2022-10-07)
+
+- Improve unit tests
+
 ### [8.57.0](https://github.com/webeweb/core-library/tree/v8.57.0) (2022-10-07)
 
 - Add Color manager interface
