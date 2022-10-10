@@ -20,6 +20,20 @@ namespace WBW\Library\Symfony\Provider;
 interface JavascriptProviderInterface extends ProviderInterface {
 
     /**
+     * Content-type.
+     *
+     * @var string
+     */
+    const JAVASCRIPT_PROVIDER_CONTENT_TYPE = "application/javascript";
+
+    /**
+     * Extension.
+     *
+     * @var string
+     */
+    const JAVASCRIPT_PROVIDER_EXTENSION = "js";
+
+    /**
      * Tag name.
      *
      * @var string
