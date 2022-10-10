@@ -1,6 +1,13 @@
 CHANGELOG
 =========
 
+### [8.58.0](https://github.com/webeweb/core-library/tree/v8.58.0) (2022-10-10)
+
+- Add JAVASCRIPT_PROVIDER_CONTENT_TYPE constant
+- Add JAVASCRIPT_PROVIDER_EXTENSION constant
+- Add STYLESHEET_PROVIDER_CONTENT_TYPE constant
+- Add STYLESHEET_PROVIDER_EXTENSION constant
+
 ### [8.57.2](https://github.com/webeweb/core-library/tree/v8.57.2) (2022-10-07)
 
 - Improve unit tests
