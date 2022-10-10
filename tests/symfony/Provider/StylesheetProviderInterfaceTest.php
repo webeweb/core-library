@@ -29,6 +29,8 @@ class StylesheetProviderInterfaceTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
+        $this->assertEquals("text/css; charset=utf-8", StylesheetProviderInterface::STYLESHEET_PROVIDER_CONTENT_TYPE);
+        $this->assertEquals("css", StylesheetProviderInterface::STYLESHEET_PROVIDER_EXTENSION);
         $this->assertEquals("wbw.core.provider.stylesheet", StylesheetProviderInterface::STYLESHEET_PROVIDER_TAG_NAME);
     }
 }

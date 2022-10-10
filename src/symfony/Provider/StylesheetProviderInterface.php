@@ -20,6 +20,20 @@ namespace WBW\Library\Symfony\Provider;
 interface StylesheetProviderInterface extends ProviderInterface {
 
     /**
+     * Content-type.
+     *
+     * @var string
+     */
+    const STYLESHEET_PROVIDER_CONTENT_TYPE = "text/css; charset=utf-8";
+
+    /**
+     * Extension.
+     *
+     * @var string
+     */
+    const STYLESHEET_PROVIDER_EXTENSION = "css";
+
+    /**
      * Tag name.
      *
      * @var string
