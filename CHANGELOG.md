@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [8.59.0](https://github.com/webeweb/core-library/tree/v8.59.0) (2022-10-27)
+
+- Add getFirstLastDateMonth() into Date/time helper
+
 ### [8.58.0](https://github.com/webeweb/core-library/tree/v8.58.0) (2022-10-10)
 
 - Add JAVASCRIPT_PROVIDER_CONTENT_TYPE constant
