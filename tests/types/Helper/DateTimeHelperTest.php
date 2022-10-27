@@ -212,6 +212,22 @@ class DateTimeHelperTest extends AbstractTestCase {
     }
 
     /**
+     * Tests getFirstLastDateMonth()
+     *
+     * @return void
+     */
+    public function testGetFirstLastDateMonth(): void {
+
+        // Set a date/time mock.
+        $date = new DateTime("2022-10-27");
+
+        $res = DateTimeHelper::getFirstLastDateMonth($date);
+
+        $this->assertEquals("2022-10-01", $res[0]->format("Y-m-d"));
+        $this->assertEquals("2022-10-31", $res[1]->format("Y-m-d"));
+    }
+
+    /**
      * Tests getGreater()
      *
      * @return void.

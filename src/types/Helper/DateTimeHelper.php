@@ -194,6 +194,20 @@ class DateTimeHelper {
     }
 
     /**
+     * Get the first and last date of month.
+     *
+     * @param DateTime $date The date.
+     * @return DateTime[] Returns the dates.
+     */
+    public static function getFirstLastDateMonth(DateTime $date): array {
+
+        return [
+            (clone $date)->modify("first day of this month"),
+            (clone $date)->modify("last day of this month"),
+        ];
+    }
+
+    /**
      * Get the greater date/time.
      *
      * @param DateTime $a The date/time A.
