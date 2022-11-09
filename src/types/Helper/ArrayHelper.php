@@ -66,6 +66,34 @@ class ArrayHelper {
     }
 
     /**
+     * Hash by.
+     *
+     * @param array $array The array.
+     * @param callable $valueCallback The value callback.
+     * @param callable $keyCallback The key callback.
+     * @return array Returns the hashed by.
+     */
+    public static function hashBy(array $array, callable $valueCallback, callable $keyCallback): array {
+
+        $index = [];
+
+        foreach ($array as $current) {
+
+            $v = $valueCallback($current);
+            if (null === $v) {
+                continue;
+            }
+
+            $k = $keyCallback($v);
+            if (false === array_key_exists($k, $index)) {
+                $index[$k] = $current;
+            }
+        }
+
+        return $index;
+    }
+
+    /**
      * Indexes by.
      *
      * @param array $array The array.

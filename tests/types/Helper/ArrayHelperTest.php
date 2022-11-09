@@ -79,6 +79,43 @@ class ArrayHelperTest extends AbstractTestCase {
     }
 
     /**
+     * Tests hashBy()
+     *
+     * @return void
+     */
+    public function testHashBy(): void {
+
+        $arg = [
+            null,
+        ];
+
+        for ($i = 1; $i <= 10; ++$i) {
+            $arg[] = $i;
+        }
+
+        $val = function(?int $item): ?int {
+            return $item;
+        };
+
+        $key = function(int $item): string {
+            return "start_by_" . substr($item, 0, 1);
+        };
+
+        $res = ArrayHelper::hashBy($arg, $val, $key);
+        $this->assertCount(9, $res);
+
+        $this->assertEquals(1, $res["start_by_1"]);
+        $this->assertEquals(2, $res["start_by_2"]);
+        $this->assertEquals(3, $res["start_by_3"]);
+        $this->assertEquals(4, $res["start_by_4"]);
+        $this->assertEquals(5, $res["start_by_5"]);
+        $this->assertEquals(6, $res["start_by_6"]);
+        $this->assertEquals(7, $res["start_by_7"]);
+        $this->assertEquals(8, $res["start_by_8"]);
+        $this->assertEquals(9, $res["start_by_9"]);
+    }
+
+    /**
      * Tests indexBy()
      *
      * @return void
