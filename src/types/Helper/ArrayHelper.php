@@ -69,22 +69,20 @@ class ArrayHelper {
      * Hash by.
      *
      * @param array $array The array.
-     * @param callable $valueCallback The value callback.
-     * @param callable $keyCallback The key callback.
+     * @param callable $callback The key callback.
      * @return array Returns the hashed by.
      */
-    public static function hashBy(array $array, callable $valueCallback, callable $keyCallback): array {
+    public static function hashBy(array $array, callable $callback): array {
 
         $index = [];
 
         foreach ($array as $current) {
 
-            $v = $valueCallback($current);
-            if (null === $v) {
+            if (null === $current) {
                 continue;
             }
 
-            $k = $keyCallback($v);
+            $k = $callback($current);
             if (false === array_key_exists($k, $index)) {
                 $index[$k] = $current;
             }
@@ -97,22 +95,20 @@ class ArrayHelper {
      * Indexes by.
      *
      * @param array $array The array.
-     * @param callable $valueCallback The value callback.
-     * @param callable $keyCallback The key callback.
+     * @param callable $callback The key callback.
      * @return array Returns the indexed by.
      */
-    public static function indexBy(array $array, callable $valueCallback, callable $keyCallback): array {
+    public static function indexBy(array $array, callable $callback): array {
 
         $index = [];
 
         foreach ($array as $current) {
 
-            $v = $valueCallback($current);
-            if (null === $v) {
+            if (null === $current) {
                 continue;
             }
 
-            $k = $keyCallback($v);
+            $k = $callback($current);
             if (false === array_key_exists($k, $index)) {
                 $index[$k] = [];
             }

@@ -93,15 +93,11 @@ class ArrayHelperTest extends AbstractTestCase {
             $arg[] = $i;
         }
 
-        $val = function(?int $item): ?int {
-            return $item;
-        };
-
         $key = function(int $item): string {
             return "start_by_" . substr($item, 0, 1);
         };
 
-        $res = ArrayHelper::hashBy($arg, $val, $key);
+        $res = ArrayHelper::hashBy($arg, $key);
         $this->assertCount(9, $res);
 
         $this->assertEquals(1, $res["start_by_1"]);
@@ -130,15 +126,11 @@ class ArrayHelperTest extends AbstractTestCase {
             $arg[] = $i;
         }
 
-        $val = function(?int $item): ?int {
-            return $item;
-        };
-
         $key = function(int $item): string {
             return "start_by_" . substr($item, 0, 1);
         };
 
-        $res = ArrayHelper::indexBy($arg, $val, $key);
+        $res = ArrayHelper::indexBy($arg, $key);
         $this->assertCount(9, $res);
 
         $this->assertEquals([1, 10], $res["start_by_1"]);
