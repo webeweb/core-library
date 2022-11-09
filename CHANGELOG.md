@@ -4,6 +4,7 @@ CHANGELOG
 ### [8.60.0](https://github.com/webeweb/core-library/tree/v8.60.0) (2022-11-09)
 
 - Add indexBy() into Array helper
+- Add hashBy() into Array helper
 
 ### [8.59.0](https://github.com/webeweb/core-library/tree/v8.59.0) (2022-10-27)
 
