@@ -66,6 +66,36 @@ class ArrayHelper {
     }
 
     /**
+     * Indexes by.
+     *
+     * @param array $array The array.
+     * @param callable $valueCallback The value callback.
+     * @param callable $keyCallback The key callback.
+     * @return array Returns the indexed by.
+     */
+    public static function indexBy(array $array, callable $valueCallback, callable $keyCallback): array {
+
+        $index = [];
+
+        foreach ($array as $current) {
+
+            $v = $valueCallback($current);
+            if (null === $v) {
+                continue;
+            }
+
+            $k = $keyCallback($v);
+            if (false === array_key_exists($k, $index)) {
+                $index[$k] = [];
+            }
+
+            $index[$k][] = $current;
+        }
+
+        return $index;
+    }
+
+    /**
      * Insert a value.
      *
      * @param array $array The array.
