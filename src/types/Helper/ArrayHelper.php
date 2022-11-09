@@ -78,11 +78,10 @@ class ArrayHelper {
 
         foreach ($array as $current) {
 
-            if (null === $current) {
+            if (null === $current || null === ($k = $callback($current))) {
                 continue;
             }
 
-            $k = $callback($current);
             if (false === array_key_exists($k, $index)) {
                 $index[$k] = $current;
             }
@@ -104,11 +103,10 @@ class ArrayHelper {
 
         foreach ($array as $current) {
 
-            if (null === $current) {
+            if (null === $current || null === ($k = $callback($current))) {
                 continue;
             }
 
-            $k = $callback($current);
             if (false === array_key_exists($k, $index)) {
                 $index[$k] = [];
             }
