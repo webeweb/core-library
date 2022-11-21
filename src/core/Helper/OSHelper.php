@@ -33,7 +33,7 @@ class OSHelper {
             return null;
         }
 
-        exec("top -b -n 1 |grep '%Cpu(s):'", $output);
+        exec("top -b -n 1 | grep '%Cpu(s):'", $output);
 
         preg_match_all("/[\d.]+/", $output[0], $values);
 
