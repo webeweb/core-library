@@ -9,8 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\System\Factory;
+namespace WBW\Library\System\Helper;
 
+use WBW\Library\System\Exception\UnsupportedSystemException;
 use WBW\Library\System\Model\HardDisk;
 use WBW\Library\System\Model\HardDiskInterface;
 use WBW\Library\System\Model\Memory;
@@ -25,19 +26,40 @@ use WBW\Library\System\Model\Processor;
 use WBW\Library\System\Model\ProcessorInterface;
 
 /**
- * System factory.
+ * System helper.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\System\Factory
+ * @package WBW\Library\System\Helper
  */
-class SystemFactory {
+class SystemHelper {
 
     /**
-     * Creates the hard disks.
+     * Determines if the operating system is Unix.
+     *
+     * @return bool Returns true in case of success, false otherwise.
+     */
+    public static function isUnix(): bool {
+        return !static::isWindows();
+    }
+
+    /**
+     * Determines if the operating system is Windows.
+     *
+     * @return bool Returns true in case of success, false otherwise.
+     */
+    public static function isWindows(): bool {
+        return "\\" === DIRECTORY_SEPARATOR;
+    }
+
+    /**
+     * Retrieves the hard disks.
      *
      * @return HardDiskInterface[] Returns the hard disks.
+     * @throws UnsupportedSystemException Throws an unsupported system exception.
      */
-    public static function newHardDisks(): array {
+    public static function retrieveHardDisks(): array {
+
+        static::supported();
 
         $models = [];
 
@@ -70,11 +92,14 @@ class SystemFactory {
     }
 
     /**
-     * Creates a memory.
+     * Retrieves the memory.
      *
      * @return MemoryInterface Returns the memory.
+     * @throws UnsupportedSystemException Throws an unsupported system exception.
      */
-    public static function newMemory(): MemoryInterface {
+    public static function retrieveMemory(): MemoryInterface {
+
+        static::supported();
 
         $values = [];
 
@@ -99,11 +124,14 @@ class SystemFactory {
     }
 
     /**
-     * Creates a network.
+     * Retrieves the network.
      *
      * @return NetworkInterface Returns the network.
+     * @throws UnsupportedSystemException Throws an unsupported system exception.
      */
-    public static function newNetwork(): NetworkInterface {
+    public static function retrieveNetwork(): NetworkInterface {
+
+        static::supported();
 
         $gw  = shell_exec("ip route | awk '/default/ { print $3 }'");
         $dns = shell_exec("cat /etc/resolv.conf | grep -i '^nameserver' | head -n1 |cut -d ' ' -f2");
@@ -117,12 +145,15 @@ class SystemFactory {
     }
 
     /**
-     * Creates a network card.
+     * Retrieves a network card.
      *
      * @param string $name The name.
      * @return NetworkCardInterface Returns the network card.
+     * @throws UnsupportedSystemException Throws an unsupported system exception.
      */
-    public static function newNetworkCard(string $name): NetworkCardInterface {
+    public static function retrieveNetworkCard(string $name): NetworkCardInterface {
+
+        static::supported();
 
         $ipv4 = shell_exec("ip addr show dev $name | grep 'inet ' | cut -d ' ' -f 6 | cut -f 1 -d '/'");
         $ipv6 = shell_exec("ip -o -6 addr show $name | sed -e 's/^.*inet6 \([^ ]\+\).*/\1/'");
@@ -152,29 +183,35 @@ class SystemFactory {
     }
 
     /**
-     * Creates the network cards.
+     * Retrieves the network cards.
      *
      * @return NetworkCardInterface[] Returns the network cards.
+     * @throws UnsupportedSystemException Throws an unsupported system exception.
      */
-    public static function newNetworkCards(): array {
+    public static function retrieveNetworkCards(): array {
+
+        static::supported();
 
         $models = [];
 
         $result = glob("/sys/class/net/*");
 
         foreach ($result as $current) {
-            $models[] = static::newNetworkCard(basename($current));
+            $models[] = static::retrieveNetworkCard(basename($current));
         }
 
         return $models;
     }
 
     /**
-     * Creates an operating system.
+     * Retrieves the operating system.
      *
      * @return OperatingSystemInterface Returns the operating system.
+     * @throws UnsupportedSystemException Throws an unsupported system exception.
      */
-    public static function newOperatingSystem(): OperatingSystemInterface {
+    public static function retrieveOperatingSystem(): OperatingSystemInterface {
+
+        static::supported();
 
         $codename    = shell_exec("lsb_release -c -s");
         $description = shell_exec("lsb_release -d -s");
@@ -191,11 +228,14 @@ class SystemFactory {
     }
 
     /**
-     * Creates a processors.
+     * Retrieves the processors.
      *
      * @return ProcessorInterface[] Returns the processors.
+     * @throws UnsupportedSystemException Throws an unsupported system exception.
      */
-    public static function newProcessors(): array {
+    public static function retrieveProcessors(): array {
+
+        static::supported();
 
         $models = [];
 
@@ -228,5 +268,17 @@ class SystemFactory {
         }
 
         return $models;
+    }
+
+    /**
+     * Supported.
+     *
+     * @throws UnsupportedSystemException Throws an unsupported system exception.
+     */
+    protected static function supported(): void {
+
+        if (false === static::isUnix()) {
+            throw new UnsupportedSystemException();
+        }
     }
 }
