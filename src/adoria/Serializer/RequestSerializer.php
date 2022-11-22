@@ -30,7 +30,7 @@ class RequestSerializer {
     const REQUEST_DATE_FORMAT = "Y-m-d";
 
     /**
-     * Serialize a request data.
+     * Serializes a request data.
      *
      * @param RequestData $request The request data.
      * @return array Returns the serialized request data.

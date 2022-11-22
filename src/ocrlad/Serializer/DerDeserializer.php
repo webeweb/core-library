@@ -31,7 +31,7 @@ class DerDeserializer {
     const DER_DELIMITER = ";";
 
     /**
-     * Deserialize a document.
+     * Deserializes a document.
      *
      * @param string $filename The filename.
      * @return Document|null Returns the document in case of success, null otherwise.
@@ -66,7 +66,7 @@ class DerDeserializer {
     }
 
     /**
-     * Deserialize a page.
+     * Deserializes a page.
      *
      * @param string $rawData The raw data.
      * @return Page|null Returns the page in case of success, null otherwise.
@@ -89,7 +89,7 @@ class DerDeserializer {
     }
 
     /**
-     * Deserialize a word.
+     * Deserializes a word.
      *
      * @param string $rawData The raw data.
      * @return Word|null Returns the word in case of success, null otherwise.

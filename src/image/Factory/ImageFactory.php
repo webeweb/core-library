@@ -39,7 +39,7 @@ class ImageFactory {
     }
 
     /**
-     * Create an input stream.
+     * Creates an input stream.
      *
      * @param Image $image The image.
      * @return resource|null Returns the input stream in case of success, null otherwise.
@@ -66,7 +66,7 @@ class ImageFactory {
     }
 
     /**
-     * Create an output stream.
+     * Creates an output stream.
      *
      * @param Image $image the image.
      * @param int $width The width.

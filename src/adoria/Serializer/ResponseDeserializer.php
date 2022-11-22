@@ -32,7 +32,7 @@ class ResponseDeserializer {
     const RESPONSE_DATE_FORMAT = RequestSerializer::REQUEST_DATE_FORMAT;
 
     /**
-     * Deserialize a line.
+     * Deserializes a line.
      *
      * @param string $rawResponse The raw response.
      * @return Line Returns the line.
@@ -63,7 +63,7 @@ class ResponseDeserializer {
     }
 
     /**
-     * Deserialize a result.
+     * Deserializes a result.
      *
      * @param string $rawResponse The raw response.
      * @return Result Returns the result.

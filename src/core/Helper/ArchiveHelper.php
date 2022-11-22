@@ -25,7 +25,7 @@ use ZipArchive;
 class ArchiveHelper {
 
     /**
-     * Create a ZIP archive.
+     * Creates a ZIP archive.
      *
      * @param string $src The source.
      * @param string $dst The destination.

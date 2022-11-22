@@ -196,7 +196,7 @@ class JsonSerializer {
     }
 
     /**
-     * Serialize a Select2 option.
+     * Serializes a Select2 option.
      *
      * @param Select2OptionInterface $model The model.
      * @return array Returns the serialized model.
@@ -210,7 +210,7 @@ class JsonSerializer {
     }
 
     /**
-     * Serialize a Select2 options.
+     * Serializes a Select2 options.
      *
      * @param Select2OptionInterface[] $models The models.
      * @return array Returns the serialized models.

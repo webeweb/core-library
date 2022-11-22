@@ -65,7 +65,7 @@ abstract class AbstractClient {
     }
 
     /**
-     * Create a new FTP exception.
+     * Creates a FTP exception.
      *
      * @param string $message The message.
      * @return FtpException Returns a new FTP exception.

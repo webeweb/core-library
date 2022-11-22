@@ -33,7 +33,7 @@ use WBW\Library\Curl\Response\Response;
 class CurlFactory {
 
     /**
-     * Create a request.
+     * Creates a request.
      *
      * @param string $method The method.
      * @param Configuration|null $configuration The configuration.
@@ -74,7 +74,7 @@ class CurlFactory {
     }
 
     /**
-     * Create a response.
+     * Creates a response.
      *
      * @return ResponseInterface Returns the response.
      */

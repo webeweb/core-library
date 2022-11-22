@@ -40,7 +40,7 @@ class StringHelper {
     }
 
     /**
-     * Create a DOM node.
+     * Creates a DOM node.
      *
      * @param string $name The name.
      * @param string|null $value The value.
