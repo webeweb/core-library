@@ -17,6 +17,7 @@ use WBW\Library\System\Model\MemoryInterface;
 use WBW\Library\System\Model\NetworkCardInterface;
 use WBW\Library\System\Model\NetworkInterface;
 use WBW\Library\System\Model\OperatingSystemInterface;
+use WBW\Library\System\Model\ProcessorInterface;
 
 /**
  * JSON serializer.
@@ -103,5 +104,15 @@ class JsonSerializer {
             BaseSerializerKeys::ID          => $model->getId(),
             SerializerKeys::RELEASE         => $model->getRelease(),
         ];
+    }
+
+    /**
+     * Serializes a processor.
+     *
+     * @param ProcessorInterface $model The model.
+     * @return array Returns the serialized model.
+     */
+    public static function serializeProcessor(ProcessorInterface $model): array {
+        return $model->getValues();
     }
 }
