@@ -132,6 +132,42 @@ class SystemTest extends AbstractTestCase {
     }
 
     /**
+     * Tests getUptime()
+     *
+     * @return void
+     */
+    public function testGetUptime(): void {
+
+        try {
+
+            $res = System::getUptime();
+
+            $this->assertNotNull($res);
+        } catch (Exception $ex) {
+
+            $this->assertInstanceOf(UnsupportedSystemException::class, $ex);
+        }
+    }
+
+    /**
+     * Tests getDate()
+     *
+     * @return void
+     */
+    public function testGetDate(): void {
+
+        try {
+
+            $res = System::getDate();
+
+            $this->assertNotNull($res);
+        } catch (Exception $ex) {
+
+            $this->assertInstanceOf(UnsupportedSystemException::class, $ex);
+        }
+    }
+
+    /**
      * Tests isUnix()
      *
      * @return void

@@ -29,6 +29,16 @@ use WBW\Library\System\Model\ProcessorInterface;
 class System {
 
     /**
+     * Get the date.
+     *
+     * @return string Returns the date.
+     * @throws UnsupportedSystemException Throws an unsupported system exception.
+     */
+    public static function getDate(): string {
+        return SystemHelper::retrieveDate();
+    }
+
+    /**
      * Get the hard disks.
      *
      * @return HardDiskInterface[] Returns the hard disks.
@@ -36,6 +46,16 @@ class System {
      */
     public static function getHardDisks(): array {
         return SystemHelper::retrieveHardDisks();
+    }
+
+    /**
+     * Get the hostname.
+     *
+     * @return string Returns the hostname.
+     * @throws UnsupportedSystemException Throws an unsupported system exception.
+     */
+    public static function getHostname(): string {
+        return SystemHelper::retrieveHostname();
     }
 
     /**
@@ -86,6 +106,16 @@ class System {
      */
     public static function getProcessors(): array {
         return SystemHelper::retrieveProcessors();
+    }
+
+    /**
+     * Get the uptime.
+     *
+     * @return string Returns the uptime.
+     * @throws UnsupportedSystemException Throws an unsupported system exception.
+     */
+    public static function getUptime(): string {
+        return SystemHelper::retrieveUptime();
     }
 
     /**
