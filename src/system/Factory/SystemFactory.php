@@ -11,6 +11,8 @@
 
 namespace WBW\Library\System\Factory;
 
+use WBW\Library\System\Model\Disk;
+use WBW\Library\System\Model\DiskInterface;
 use WBW\Library\System\Model\Memory;
 use WBW\Library\System\Model\MemoryInterface;
 use WBW\Library\System\Model\Network;
@@ -25,6 +27,42 @@ use WBW\Library\System\Model\NetworkInterface;
  * @package WBW\Library\System\Factory
  */
 class SystemFactory {
+
+    /**
+     * Creates the disks.
+     *
+     * @return DiskInterface[] Returns the disks.
+     */
+    public function newDisks(): array {
+
+        $models = [];
+
+        $ignored = ["", "Type", "tmpfs", "devtmpfs"];
+
+        $result = shell_exec("df -T");
+        $rows   = preg_split("/[\r\n]+/", $result);
+
+        foreach ($rows as $current) {
+
+            $columns = preg_split("/\s+/", trim($current));
+
+            if (false === isset($columns[1]) || true === in_array($columns[1], $ignored) || 7 < count($columns)) {
+                continue;
+            }
+
+            $model = new Disk();
+            $model->setName(trim($columns[0]));
+            $model->setFs(trim($columns[1]));
+            $model->setUsed(trim($columns[3]));
+            $model->setAvailable(trim($columns[4]));
+            $model->setPercent(trim($columns[5]));
+            $model->setMount(trim($columns[6]));
+
+            $models[] = $model;
+        }
+
+        return $models;
+    }
 
     /**
      * Creates a memory.
@@ -117,9 +155,9 @@ class SystemFactory {
 
         $models = [];
 
-        $names = glob("/sys/class/net/*");
+        $result = glob("/sys/class/net/*");
 
-        foreach ($names as $current) {
+        foreach ($result as $current) {
             $models[] = static::newNetworkCard(basename($current));
         }
 

@@ -23,6 +23,18 @@ use WBW\Library\System\Tests\AbstractTestCase;
 class SystemFactoryTest extends AbstractTestCase {
 
     /**
+     * Tests newDisks()
+     *
+     * @return void
+     */
+    public function testNewDisks(): void {
+
+        $res = SystemFactory::newDisks();
+
+        $this->assertGreaterThanOrEqual(1, count($res));
+    }
+
+    /**
      * Tests newMemory()
      *
      * @return void
@@ -59,7 +71,7 @@ class SystemFactoryTest extends AbstractTestCase {
      */
     public function testNewNetworkCard(): void {
 
-        $obj = SystemFactory::newNetworkCard("wlp3s0");
+        $obj = SystemFactory::newNetworkCard("lo");
 
         $this->assertNotNull($obj->getName());
         $this->assertNotNull($obj->getDuplex());
