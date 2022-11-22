@@ -29,6 +29,41 @@ interface MemoryInterface extends JsonSerializable {
     public function getKeys(): array;
 
     /**
+     * Get the memory "available".
+     *
+     * @return int|null Returns the memory "available".
+     */
+    public function getMemAvailable(): ?int;
+
+    /**
+     * Get the memory "free".
+     *
+     * @return int|null Returns the memory "free".
+     */
+    public function getMemFree(): ?int;
+
+    /**
+     * Get the memory "total".
+     *
+     * @return int|null Returns the memory "total".
+     */
+    public function getMemTotal(): ?int;
+
+    /**
+     * Get the swap "free".
+     *
+     * @return int|null Returns the swap "free".
+     */
+    public function getSwapFree(): ?int;
+
+    /**
+     * Get the swap "total".
+     *
+     * @return int|null Returns the swap "total".
+     */
+    public function getSwapTotal(): ?int;
+
+    /**
      * Get the value.
      *
      * @param string $key The key.

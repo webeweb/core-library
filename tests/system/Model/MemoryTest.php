@@ -74,5 +74,11 @@ class MemoryTest extends AbstractTestCase {
         $this->assertInstanceOf(MemoryInterface::class, $obj);
 
         $this->assertEquals([], $obj->getValues());
+
+        $this->assertNull($obj->getMemAvailable());
+        $this->assertNull($obj->getMemFree());
+        $this->assertNull($obj->getMemTotal());
+        $this->assertNull($obj->getSwapFree());
+        $this->assertNull($obj->getSwapTotal());
     }
 }

@@ -121,6 +121,12 @@ class SystemHelperTest extends AbstractTestCase {
             foreach ($obj->getValues() as $current) {
                 $this->assertGreaterThanOrEqual(0, $current);
             }
+
+            $this->assertGreaterThan(0, $obj->getMemAvailable());
+            $this->assertGreaterThan(0, $obj->getMemFree());
+            $this->assertGreaterThan(0, $obj->getMemTotal());
+            $this->assertGreaterThanOrEqual(0, $obj->getSwapFree());
+            $this->assertGreaterThanOrEqual(0, $obj->getSwapTotal());
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(RuntimeException::class, $ex);
