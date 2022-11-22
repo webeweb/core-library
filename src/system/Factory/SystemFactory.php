@@ -14,6 +14,8 @@ namespace WBW\Library\System\Factory;
 use WBW\Library\System\Model\Memory;
 use WBW\Library\System\Model\MemoryInterface;
 use WBW\Library\System\Model\Network;
+use WBW\Library\System\Model\NetworkCard;
+use WBW\Library\System\Model\NetworkCardInterface;
 use WBW\Library\System\Model\NetworkInterface;
 
 /**
@@ -69,5 +71,58 @@ class SystemFactory {
         $model->setDns(trim($dns));
 
         return $model;
+    }
+
+    /**
+     * Creates a network card.
+     *
+     * @param string $name The name.
+     * @return NetworkCardInterface Returns the network card.
+     */
+    public static function newNetworkCard(string $name): NetworkCardInterface {
+
+        $ipv4 = shell_exec("ip addr show dev $name | grep 'inet ' | cut -d ' ' -f 6 | cut -f 1 -d '/'");
+        $ipv6 = shell_exec("ip -o -6 addr show $name | sed -e 's/^.*inet6 \([^ ]\+\).*/\1/'");
+        $mac  = shell_exec("ip addr show dev $name | grep 'link/ether ' | cut -d ' ' -f 6 | cut -f 1 -d '/'");
+
+        $duplex = null;
+        $speed  = "unknown";
+        $status = "up";
+
+        if ("lo" !== $name) {
+
+            $duplex = shell_exec("cat /sys/class/net/$name/duplex 2> /dev/null");
+            $speed  = shell_exec("cat /sys/class/net/$name/speed 2> /dev/null");
+            $status = shell_exec("cat /sys/class/net/$name/operstate");
+        }
+
+        $model = new NetworkCard();
+        $model->setName($name);
+        $model->setDuplex(trim($duplex));
+        $model->setIpv4(trim($ipv4));
+        $model->setIpv6(trim($ipv6));
+        $model->setMac(trim($mac));
+        $model->setSpeed(trim($speed));
+        $model->setStatus(trim($status));
+
+        return $model;
+    }
+
+    /**
+     * Creates the network cards.
+     *
+     * @return NetworkCardInterface[] Returns the network cards.
+     */
+    public static function newNetworkCards(): array {
+
+        $models = [];
+
+        $names = glob("/sys/class/net/*");
+
+        foreach ($names as $current) {
+            $models[] = static::newNetworkCard(basename($current));
+        }
+
+        return $models;
     }
 }

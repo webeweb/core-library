@@ -51,4 +51,34 @@ class SystemFactoryTest extends AbstractTestCase {
         $this->assertNotNull($obj->getGateway());
         $this->assertNotNull($obj->getDns());
     }
+
+    /**
+     * Tests newNetworkCard()
+     *
+     * @return void
+     */
+    public function testNewNetworkCard(): void {
+
+        $obj = SystemFactory::newNetworkCard("wlp3s0");
+
+        $this->assertNotNull($obj->getName());
+        $this->assertNotNull($obj->getDuplex());
+        $this->assertNotNull($obj->getIpv4());
+        $this->assertNotNull($obj->getIpv6());
+        $this->assertNotNull($obj->getMac());
+        $this->assertNotNull($obj->getSpeed());
+        $this->assertNotNull($obj->getStatus());
+    }
+
+    /**
+     * Tests newNetworkCards()
+     *
+     * @return void
+     */
+    public function testNewNetworkCards(): void {
+
+        $res = SystemFactory::newNetworkCards();
+
+        $this->assertGreaterThan(1, count($res));
+    }
 }
