@@ -52,6 +52,19 @@ class SystemHelper {
     }
 
     /**
+     * Retrieves the date.
+     *
+     * @return string Returns the date.
+     * @throws UnsupportedSystemException Throws an unsupported system exception.
+     */
+    public static function retrieveDate(): string {
+
+        static::supported();
+
+        return shell_exec("date");
+    }
+
+    /**
      * Retrieves the hard disks.
      *
      * @return HardDiskInterface[] Returns the hard disks.
@@ -89,6 +102,19 @@ class SystemHelper {
         }
 
         return $models;
+    }
+
+    /**
+     * Retrieves the hostname.
+     *
+     * @return string Returns the hostname.
+     * @throws UnsupportedSystemException Throws an unsupported system exception.
+     */
+    public static function retrieveHostname(): string {
+
+        static::supported();
+
+        return shell_exec("hostname");
     }
 
     /**
@@ -268,6 +294,19 @@ class SystemHelper {
         }
 
         return $models;
+    }
+
+    /**
+     * Retrieves the uptime.
+     *
+     * @return string Returns the uptime.
+     * @throws UnsupportedSystemException Throws an unsupported system exception.
+     */
+    public static function retrieveUptime(): string {
+
+        static::supported();
+
+        return shell_exec("uptime -p");
     }
 
     /**

@@ -53,6 +53,22 @@ class SystemHelperTest extends AbstractTestCase {
     }
 
     /**
+     * Tests retrieveDate()
+     *
+     * @return void
+     */
+    public function testRetrieveDate(): void {
+
+        try {
+
+            $this->assertNotNull(SystemHelper::retrieveDate());
+        } catch (Exception $ex) {
+
+            $this->assertInstanceOf(UnsupportedSystemException::class, $ex);
+        }
+    }
+
+    /**
      * Tests retrieveHardDisks()
      *
      * @return void
@@ -64,6 +80,22 @@ class SystemHelperTest extends AbstractTestCase {
             $res = SystemHelper::retrieveHardDisks();
 
             $this->assertGreaterThanOrEqual(1, count($res));
+        } catch (Exception $ex) {
+
+            $this->assertInstanceOf(UnsupportedSystemException::class, $ex);
+        }
+    }
+
+    /**
+     * Tests retrieveHostname()
+     *
+     * @return void
+     */
+    public function testRetrieveHostname(): void {
+
+        try {
+
+            $this->assertNotNull(SystemHelper::retrieveHostname());
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(UnsupportedSystemException::class, $ex);
@@ -187,6 +219,22 @@ class SystemHelperTest extends AbstractTestCase {
             $res = SystemHelper::retrieveProcessors();
 
             $this->assertGreaterThanOrEqual(1, count($res));
+        } catch (Exception $ex) {
+
+            $this->assertInstanceOf(UnsupportedSystemException::class, $ex);
+        }
+    }
+
+    /**
+     * Tests retrieveUptime()
+     *
+     * @return void
+     */
+    public function testRetrieveUptime(): void {
+
+        try {
+
+            $this->assertNotNull(SystemHelper::retrieveUptime());
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(UnsupportedSystemException::class, $ex);
