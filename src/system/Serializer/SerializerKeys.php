@@ -27,9 +27,51 @@ interface SerializerKeys {
     const DNS = "dns";
 
     /**
+     * Serializer key "duplex".
+     *
+     * @var string
+     */
+    const DUPLEX = "duplex";
+
+    /**
      * Serializer key "gateway".
      *
      * @var string
      */
     const GATEWAY = "gateway";
+
+    /**
+     * Serializer key "ipv4".
+     *
+     * @var string
+     */
+    const IPV4 = "ipv4";
+
+    /**
+     * Serializer key "ipv6".
+     *
+     * @var string
+     */
+    const IPV6 = "ipv6";
+
+    /**
+     * Serializer key "mac".
+     *
+     * @var string
+     */
+    const MAC = "mac";
+
+    /**
+     * Serializer key "speed".
+     *
+     * @var string
+     */
+    const SPEED = "speed";
+
+    /**
+     * Serializer key "status".
+     *
+     * @var string
+     */
+    const STATUS = "status";
 }

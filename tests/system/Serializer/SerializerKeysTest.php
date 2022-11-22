@@ -30,6 +30,12 @@ class SerializerKeysTest extends AbstractTestCase {
     public function test__construct(): void {
 
         $this->assertEquals("dns", SerializerKeys::DNS);
+        $this->assertEquals("duplex", SerializerKeys::DUPLEX);
         $this->assertEquals("gateway", SerializerKeys::GATEWAY);
+        $this->assertEquals("ipv4", SerializerKeys::IPV4);
+        $this->assertEquals("ipv6", SerializerKeys::IPV6);
+        $this->assertEquals("mac", SerializerKeys::MAC);
+        $this->assertEquals("speed", SerializerKeys::SPEED);
+        $this->assertEquals("status", SerializerKeys::STATUS);
     }
 }
