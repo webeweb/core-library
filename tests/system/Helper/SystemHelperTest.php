@@ -12,7 +12,7 @@
 namespace WBW\Library\System\Tests\Helper;
 
 use Exception;
-use WBW\Library\System\Exception\UnsupportedSystemException;
+use RuntimeException;
 use WBW\Library\System\Helper\SystemHelper;
 use WBW\Library\System\Tests\AbstractTestCase;
 
@@ -64,7 +64,8 @@ class SystemHelperTest extends AbstractTestCase {
             $this->assertNotNull(SystemHelper::retrieveDate());
         } catch (Exception $ex) {
 
-            $this->assertInstanceOf(UnsupportedSystemException::class, $ex);
+            $this->assertInstanceOf(RuntimeException::class, $ex);
+            $this->assertEquals("This operating system is unsupported", $ex->getMessage());
         }
     }
 
@@ -82,7 +83,8 @@ class SystemHelperTest extends AbstractTestCase {
             $this->assertGreaterThanOrEqual(1, count($res));
         } catch (Exception $ex) {
 
-            $this->assertInstanceOf(UnsupportedSystemException::class, $ex);
+            $this->assertInstanceOf(RuntimeException::class, $ex);
+            $this->assertEquals("This operating system is unsupported", $ex->getMessage());
         }
     }
 
@@ -98,7 +100,8 @@ class SystemHelperTest extends AbstractTestCase {
             $this->assertNotNull(SystemHelper::retrieveHostname());
         } catch (Exception $ex) {
 
-            $this->assertInstanceOf(UnsupportedSystemException::class, $ex);
+            $this->assertInstanceOf(RuntimeException::class, $ex);
+            $this->assertEquals("This operating system is unsupported", $ex->getMessage());
         }
     }
 
@@ -120,7 +123,8 @@ class SystemHelperTest extends AbstractTestCase {
             }
         } catch (Exception $ex) {
 
-            $this->assertInstanceOf(UnsupportedSystemException::class, $ex);
+            $this->assertInstanceOf(RuntimeException::class, $ex);
+            $this->assertEquals("This operating system is unsupported", $ex->getMessage());
         }
     }
 
@@ -140,7 +144,8 @@ class SystemHelperTest extends AbstractTestCase {
             $this->assertNotNull($obj->getDns());
         } catch (Exception $ex) {
 
-            $this->assertInstanceOf(UnsupportedSystemException::class, $ex);
+            $this->assertInstanceOf(RuntimeException::class, $ex);
+            $this->assertEquals("This operating system is unsupported", $ex->getMessage());
         }
     }
 
@@ -164,7 +169,8 @@ class SystemHelperTest extends AbstractTestCase {
             $this->assertNotNull($obj->getStatus());
         } catch (Exception $ex) {
 
-            $this->assertInstanceOf(UnsupportedSystemException::class, $ex);
+            $this->assertInstanceOf(RuntimeException::class, $ex);
+            $this->assertEquals("This operating system is unsupported", $ex->getMessage());
         }
     }
 
@@ -182,7 +188,8 @@ class SystemHelperTest extends AbstractTestCase {
             $this->assertGreaterThan(1, count($res));
         } catch (Exception $ex) {
 
-            $this->assertInstanceOf(UnsupportedSystemException::class, $ex);
+            $this->assertInstanceOf(RuntimeException::class, $ex);
+            $this->assertEquals("This operating system is unsupported", $ex->getMessage());
         }
     }
 
@@ -203,7 +210,8 @@ class SystemHelperTest extends AbstractTestCase {
             $this->assertNotNull($obj->getRelease());
         } catch (Exception $ex) {
 
-            $this->assertInstanceOf(UnsupportedSystemException::class, $ex);
+            $this->assertInstanceOf(RuntimeException::class, $ex);
+            $this->assertEquals("This operating system is unsupported", $ex->getMessage());
         }
     }
 
@@ -221,7 +229,8 @@ class SystemHelperTest extends AbstractTestCase {
             $this->assertGreaterThanOrEqual(1, count($res));
         } catch (Exception $ex) {
 
-            $this->assertInstanceOf(UnsupportedSystemException::class, $ex);
+            $this->assertInstanceOf(RuntimeException::class, $ex);
+            $this->assertEquals("This operating system is unsupported", $ex->getMessage());
         }
     }
 
@@ -237,7 +246,8 @@ class SystemHelperTest extends AbstractTestCase {
             $this->assertNotNull(SystemHelper::retrieveUptime());
         } catch (Exception $ex) {
 
-            $this->assertInstanceOf(UnsupportedSystemException::class, $ex);
+            $this->assertInstanceOf(RuntimeException::class, $ex);
+            $this->assertEquals("This operating system is unsupported", $ex->getMessage());
         }
     }
 }

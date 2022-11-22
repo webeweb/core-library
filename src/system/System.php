@@ -11,7 +11,7 @@
 
 namespace WBW\Library\System;
 
-use WBW\Library\System\Exception\UnsupportedSystemException;
+use RuntimeException;
 use WBW\Library\System\Helper\SystemHelper;
 use WBW\Library\System\Model\HardDiskInterface;
 use WBW\Library\System\Model\MemoryInterface;
@@ -32,7 +32,7 @@ class System {
      * Get the date.
      *
      * @return string Returns the date.
-     * @throws UnsupportedSystemException Throws an unsupported system exception.
+     * @throws RuntimeException Throws a runtime exception.
      */
     public static function getDate(): string {
         return SystemHelper::retrieveDate();
@@ -42,7 +42,7 @@ class System {
      * Get the hard disks.
      *
      * @return HardDiskInterface[] Returns the hard disks.
-     * @throws UnsupportedSystemException Throws an unsupported system exception.
+     * @throws RuntimeException Throws a runtime exception.
      */
     public static function getHardDisks(): array {
         return SystemHelper::retrieveHardDisks();
@@ -52,7 +52,7 @@ class System {
      * Get the hostname.
      *
      * @return string Returns the hostname.
-     * @throws UnsupportedSystemException Throws an unsupported system exception.
+     * @throws RuntimeException Throws a runtime exception.
      */
     public static function getHostname(): string {
         return SystemHelper::retrieveHostname();
@@ -62,7 +62,7 @@ class System {
      * Get the memory.
      *
      * @return MemoryInterface Returns the memory.
-     * @throws UnsupportedSystemException Throws an unsupported system exception.
+     * @throws RuntimeException Throws a runtime exception.
      */
     public static function getMemory(): MemoryInterface {
         return SystemHelper::retrieveMemory();
@@ -72,7 +72,7 @@ class System {
      * Get the network.
      *
      * @return NetworkInterface Returns the network.
-     * @throws UnsupportedSystemException Throws an unsupported system exception.
+     * @throws RuntimeException Throws a runtime exception.
      */
     public static function getNetwork(): NetworkInterface {
         return SystemHelper::retrieveNetwork();
@@ -82,7 +82,7 @@ class System {
      * Get the network cards.
      *
      * @return NetworkCardInterface[] Returns the network cards.
-     * @throws UnsupportedSystemException Throws an unsupported system exception.
+     * @throws RuntimeException Throws a runtime exception.
      */
     public static function getNetworkCards(): array {
         return SystemHelper::retrieveNetworkCards();
@@ -92,7 +92,7 @@ class System {
      * Get the operating system.
      *
      * @return OperatingSystemInterface Returns the operating system.
-     * @throws UnsupportedSystemException Throws an unsupported system exception.
+     * @throws RuntimeException Throws a runtime exception.
      */
     public static function getOperatingSystem(): OperatingSystemInterface {
         return SystemHelper::retrieveOperatingSystem();
@@ -102,7 +102,7 @@ class System {
      * Get the processors.
      *
      * @return ProcessorInterface[] Returns the processors.
-     * @throws UnsupportedSystemException Throws an unsupported system exception.
+     * @throws RuntimeException Throws a runtime exception.
      */
     public static function getProcessors(): array {
         return SystemHelper::retrieveProcessors();
@@ -112,7 +112,7 @@ class System {
      * Get the uptime.
      *
      * @return string Returns the uptime.
-     * @throws UnsupportedSystemException Throws an unsupported system exception.
+     * @throws RuntimeException Throws a runtime exception.
      */
     public static function getUptime(): string {
         return SystemHelper::retrieveUptime();

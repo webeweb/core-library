@@ -12,7 +12,7 @@
 namespace WBW\Library\System\Tests;
 
 use Exception;
-use WBW\Library\System\Exception\UnsupportedSystemException;
+use RuntimeException;
 use WBW\Library\System\System;
 
 /**
@@ -22,6 +22,25 @@ use WBW\Library\System\System;
  * @package WBW\Library\System\Tests
  */
 class SystemTest extends AbstractTestCase {
+
+    /**
+     * Tests getDate()
+     *
+     * @return void
+     */
+    public function testGetDate(): void {
+
+        try {
+
+            $res = System::getDate();
+
+            $this->assertNotNull($res);
+        } catch (Exception $ex) {
+
+            $this->assertInstanceOf(RuntimeException::class, $ex);
+            $this->assertEquals("This operating system is unsupported", $ex->getMessage());
+        }
+    }
 
     /**
      * Tests getHardDisks()
@@ -37,7 +56,8 @@ class SystemTest extends AbstractTestCase {
             $this->assertNotCount(0, $res);
         } catch (Exception $ex) {
 
-            $this->assertInstanceOf(UnsupportedSystemException::class, $ex);
+            $this->assertInstanceOf(RuntimeException::class, $ex);
+            $this->assertEquals("This operating system is unsupported", $ex->getMessage());
         }
     }
 
@@ -55,7 +75,8 @@ class SystemTest extends AbstractTestCase {
             $this->assertNotNull($res);
         } catch (Exception $ex) {
 
-            $this->assertInstanceOf(UnsupportedSystemException::class, $ex);
+            $this->assertInstanceOf(RuntimeException::class, $ex);
+            $this->assertEquals("This operating system is unsupported", $ex->getMessage());
         }
     }
 
@@ -73,7 +94,8 @@ class SystemTest extends AbstractTestCase {
             $this->assertNotNull($res);
         } catch (Exception $ex) {
 
-            $this->assertInstanceOf(UnsupportedSystemException::class, $ex);
+            $this->assertInstanceOf(RuntimeException::class, $ex);
+            $this->assertEquals("This operating system is unsupported", $ex->getMessage());
         }
     }
 
@@ -91,7 +113,8 @@ class SystemTest extends AbstractTestCase {
             $this->assertNotCount(0, $res);
         } catch (Exception $ex) {
 
-            $this->assertInstanceOf(UnsupportedSystemException::class, $ex);
+            $this->assertInstanceOf(RuntimeException::class, $ex);
+            $this->assertEquals("This operating system is unsupported", $ex->getMessage());
         }
     }
 
@@ -109,7 +132,8 @@ class SystemTest extends AbstractTestCase {
             $this->assertNotNull($res);
         } catch (Exception $ex) {
 
-            $this->assertInstanceOf(UnsupportedSystemException::class, $ex);
+            $this->assertInstanceOf(RuntimeException::class, $ex);
+            $this->assertEquals("This operating system is unsupported", $ex->getMessage());
         }
     }
 
@@ -127,7 +151,8 @@ class SystemTest extends AbstractTestCase {
             $this->assertNotCount(0, $res);
         } catch (Exception $ex) {
 
-            $this->assertInstanceOf(UnsupportedSystemException::class, $ex);
+            $this->assertInstanceOf(RuntimeException::class, $ex);
+            $this->assertEquals("This operating system is unsupported", $ex->getMessage());
         }
     }
 
@@ -145,25 +170,8 @@ class SystemTest extends AbstractTestCase {
             $this->assertNotNull($res);
         } catch (Exception $ex) {
 
-            $this->assertInstanceOf(UnsupportedSystemException::class, $ex);
-        }
-    }
-
-    /**
-     * Tests getDate()
-     *
-     * @return void
-     */
-    public function testGetDate(): void {
-
-        try {
-
-            $res = System::getDate();
-
-            $this->assertNotNull($res);
-        } catch (Exception $ex) {
-
-            $this->assertInstanceOf(UnsupportedSystemException::class, $ex);
+            $this->assertInstanceOf(RuntimeException::class, $ex);
+            $this->assertEquals("This operating system is unsupported", $ex->getMessage());
         }
     }
 

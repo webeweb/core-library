@@ -11,7 +11,7 @@
 
 namespace WBW\Library\System\Helper;
 
-use WBW\Library\System\Exception\UnsupportedSystemException;
+use RuntimeException;
 use WBW\Library\System\Model\HardDisk;
 use WBW\Library\System\Model\HardDiskInterface;
 use WBW\Library\System\Model\Memory;
@@ -55,7 +55,7 @@ class SystemHelper {
      * Retrieves the date.
      *
      * @return string Returns the date.
-     * @throws UnsupportedSystemException Throws an unsupported system exception.
+     * @throws RuntimeException Throws a runtime exception.
      */
     public static function retrieveDate(): string {
 
@@ -68,7 +68,7 @@ class SystemHelper {
      * Retrieves the hard disks.
      *
      * @return HardDiskInterface[] Returns the hard disks.
-     * @throws UnsupportedSystemException Throws an unsupported system exception.
+     * @throws RuntimeException Throws a runtime exception.
      */
     public static function retrieveHardDisks(): array {
 
@@ -108,7 +108,7 @@ class SystemHelper {
      * Retrieves the hostname.
      *
      * @return string Returns the hostname.
-     * @throws UnsupportedSystemException Throws an unsupported system exception.
+     * @throws RuntimeException Throws a runtime exception.
      */
     public static function retrieveHostname(): string {
 
@@ -121,7 +121,7 @@ class SystemHelper {
      * Retrieves the memory.
      *
      * @return MemoryInterface Returns the memory.
-     * @throws UnsupportedSystemException Throws an unsupported system exception.
+     * @throws RuntimeException Throws a runtime exception.
      */
     public static function retrieveMemory(): MemoryInterface {
 
@@ -153,7 +153,7 @@ class SystemHelper {
      * Retrieves the network.
      *
      * @return NetworkInterface Returns the network.
-     * @throws UnsupportedSystemException Throws an unsupported system exception.
+     * @throws RuntimeException Throws a runtime exception.
      */
     public static function retrieveNetwork(): NetworkInterface {
 
@@ -175,7 +175,7 @@ class SystemHelper {
      *
      * @param string $name The name.
      * @return NetworkCardInterface Returns the network card.
-     * @throws UnsupportedSystemException Throws an unsupported system exception.
+     * @throws RuntimeException Throws a runtime exception.
      */
     public static function retrieveNetworkCard(string $name): NetworkCardInterface {
 
@@ -212,7 +212,7 @@ class SystemHelper {
      * Retrieves the network cards.
      *
      * @return NetworkCardInterface[] Returns the network cards.
-     * @throws UnsupportedSystemException Throws an unsupported system exception.
+     * @throws RuntimeException Throws a runtime exception.
      */
     public static function retrieveNetworkCards(): array {
 
@@ -233,7 +233,7 @@ class SystemHelper {
      * Retrieves the operating system.
      *
      * @return OperatingSystemInterface Returns the operating system.
-     * @throws UnsupportedSystemException Throws an unsupported system exception.
+     * @throws RuntimeException Throws a runtime exception.
      */
     public static function retrieveOperatingSystem(): OperatingSystemInterface {
 
@@ -257,7 +257,7 @@ class SystemHelper {
      * Retrieves the processors.
      *
      * @return ProcessorInterface[] Returns the processors.
-     * @throws UnsupportedSystemException Throws an unsupported system exception.
+     * @throws RuntimeException Throws a runtime exception.
      */
     public static function retrieveProcessors(): array {
 
@@ -300,7 +300,7 @@ class SystemHelper {
      * Retrieves the uptime.
      *
      * @return string Returns the uptime.
-     * @throws UnsupportedSystemException Throws an unsupported system exception.
+     * @throws RuntimeException Throws a runtime exception.
      */
     public static function retrieveUptime(): string {
 
@@ -312,12 +312,12 @@ class SystemHelper {
     /**
      * Supported.
      *
-     * @throws UnsupportedSystemException Throws an unsupported system exception.
+     * @throws RuntimeException Throws a runtime exception.
      */
     protected static function supported(): void {
 
         if (false === static::isUnix()) {
-            throw new UnsupportedSystemException();
+            throw new RuntimeException("This operating system is unsupported");
         }
     }
 }
