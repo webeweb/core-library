@@ -16,6 +16,7 @@ use WBW\Library\System\Model\DiskInterface;
 use WBW\Library\System\Model\MemoryInterface;
 use WBW\Library\System\Model\NetworkCardInterface;
 use WBW\Library\System\Model\NetworkInterface;
+use WBW\Library\System\Model\OperatingSystemInterface;
 
 /**
  * JSON serializer.
@@ -84,6 +85,22 @@ class JsonSerializer {
             BaseSerializerKeys::NAME => $model->getName(),
             SerializerKeys::SPEED    => $model->getSpeed(),
             SerializerKeys::STATUS   => $model->getStatus(),
+        ];
+    }
+
+    /**
+     * Serializes an operating system.
+     *
+     * @param OperatingSystemInterface $model The model.
+     * @return array Returns the serialized model.
+     */
+    public static function serializeOperatingSystem(OperatingSystemInterface $model): array {
+
+        return [
+            SerializerKeys::CODENAME        => $model->getCodename(),
+            BaseSerializerKeys::DESCRIPTION => $model->getDescription(),
+            BaseSerializerKeys::ID          => $model->getId(),
+            SerializerKeys::RELEASE         => $model->getRelease(),
         ];
     }
 }
