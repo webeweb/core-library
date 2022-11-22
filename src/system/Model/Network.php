@@ -73,7 +73,7 @@ class Network implements NetworkInterface {
     /**
      * {@inheritdoc}
      */
-    public function jsonSerialize() {
+    public function jsonSerialize(): array {
         return JsonSerializer::serializeNetwork($this);
     }
 

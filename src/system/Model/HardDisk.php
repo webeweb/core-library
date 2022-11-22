@@ -106,7 +106,7 @@ class HardDisk implements HardDiskInterface {
     /**
      * {@inheritdoc}
      */
-    public function jsonSerialize() {
+    public function jsonSerialize(): array {
         return JsonSerializer::serializeHardDisk($this);
     }
 

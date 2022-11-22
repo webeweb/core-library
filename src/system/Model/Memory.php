@@ -62,7 +62,7 @@ class Memory implements MemoryInterface {
     /**
      * {@inheritdoc}
      */
-    public function jsonSerialize() {
+    public function jsonSerialize(): array {
         return JsonSerializer::serializeMemory($this);
     }
 
