@@ -114,7 +114,6 @@ class DiskTest extends AbstractTestCase {
         $this->assertCount(6, $res);
 
         $this->assertEquals($json, $res);
-
     }
 
     /**
