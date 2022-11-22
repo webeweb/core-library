@@ -13,6 +13,7 @@ namespace WBW\Library\System\Serializer;
 
 use WBW\Library\Serializer\SerializerKeys as BaseSerializerKeys;
 use WBW\Library\System\Model\MemoryInterface;
+use WBW\Library\System\Model\NetworkCardInterface;
 use WBW\Library\System\Model\NetworkInterface;
 
 /**
@@ -45,6 +46,25 @@ class JsonSerializer {
             SerializerKeys::DNS          => $model->getDns(),
             SerializerKeys::GATEWAY      => $model->getGateway(),
             BaseSerializerKeys::HOSTNAME => $model->getHostname(),
+        ];
+    }
+
+    /**
+     * Serializes a network card.
+     *
+     * @param NetworkCardInterface $model The model.
+     * @return array Returns the serialized model.
+     */
+    public static function serializeNetworkCard(NetworkCardInterface $model): array {
+
+        return [
+            SerializerKeys::DUPLEX   => $model->getDuplex(),
+            SerializerKeys::IPV4     => $model->getIpv4(),
+            SerializerKeys::IPV6     => $model->getIpv6(),
+            SerializerKeys::MAC      => $model->getMac(),
+            BaseSerializerKeys::NAME => $model->getName(),
+            SerializerKeys::SPEED    => $model->getSpeed(),
+            SerializerKeys::STATUS   => $model->getStatus(),
         ];
     }
 }

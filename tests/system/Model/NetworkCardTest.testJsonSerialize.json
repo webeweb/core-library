@@ -1,0 +1,9 @@
+{
+    "duplex": "duplex",
+    "ipv4": "ipv4",
+    "ipv6": "ipv6",
+    "mac": "mac",
+    "name": "name",
+    "speed": "speed",
+    "status": "status"
+}
