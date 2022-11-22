@@ -30,6 +30,7 @@ class SerializerKeysTest extends AbstractTestCase {
     public function test__construct(): void {
 
         $this->assertEquals("available", SerializerKeys::AVAILABLE);
+        $this->assertEquals("codename", SerializerKeys::CODENAME);
         $this->assertEquals("dns", SerializerKeys::DNS);
         $this->assertEquals("duplex", SerializerKeys::DUPLEX);
         $this->assertEquals("fs", SerializerKeys::FS);
@@ -39,6 +40,7 @@ class SerializerKeysTest extends AbstractTestCase {
         $this->assertEquals("mac", SerializerKeys::MAC);
         $this->assertEquals("mount", SerializerKeys::MOUNT);
         $this->assertEquals("percent", SerializerKeys::PERCENT);
+        $this->assertEquals("release", SerializerKeys::RELEASE);
         $this->assertEquals("speed", SerializerKeys::SPEED);
         $this->assertEquals("status", SerializerKeys::STATUS);
         $this->assertEquals("used", SerializerKeys::USED);

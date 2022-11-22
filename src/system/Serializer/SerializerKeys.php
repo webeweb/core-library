@@ -27,6 +27,13 @@ interface SerializerKeys {
     const AVAILABLE = "available";
 
     /**
+     * Serializer key "codename".
+     *
+     * @var string
+     */
+    const CODENAME = "codename";
+
+    /**
      * Serializer key "dns".
      *
      * @var string
@@ -88,6 +95,13 @@ interface SerializerKeys {
      * @var string
      */
     const PERCENT = "percent";
+
+    /**
+     * Serializer key "release".
+     *
+     * @var string
+     */
+    const RELEASE = "release";
 
     /**
      * Serializer key "speed".
