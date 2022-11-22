@@ -43,6 +43,13 @@ interface DiskInterface extends JsonSerializable {
     public function getMount(): ?string;
 
     /**
+     * Get the name.
+     *
+     * @return string|null Returns the name.
+     */
+    public function getName(): ?string;
+
+    /**
      * Get the percent.
      *
      * @return string|null Returns the percent.

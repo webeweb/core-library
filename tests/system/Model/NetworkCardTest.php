@@ -142,11 +142,12 @@ class NetworkCardTest extends AbstractTestCase {
         $this->assertInstanceOf(JsonSerializable::class, $obj);
         $this->assertInstanceOf(NetworkCardInterface::class, $obj);
 
+        $this->assertNull($obj->getName());
+
         $this->assertNull($obj->getDuplex());
         $this->assertNull($obj->getIpv4());
         $this->assertNull($obj->getIpv6());
         $this->assertNull($obj->getMac());
-        $this->assertNull($obj->getName());
         $this->assertNull($obj->getSpeed());
         $this->assertNull($obj->getStatus());
     }

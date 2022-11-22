@@ -11,6 +11,7 @@
 
 namespace WBW\Library\System\Tests\Model;
 
+use JsonSerializable;
 use WBW\Library\Serializer\SerializerKeys as BaseSerializerKeys;
 use WBW\Library\System\Model\Network;
 use WBW\Library\System\Model\NetworkInterface;
@@ -95,6 +96,7 @@ class NetworkTest extends AbstractTestCase {
 
         $obj = new Network();
 
+        $this->assertInstanceOf(JsonSerializable::class, $obj);
         $this->assertInstanceOf(NetworkInterface::class, $obj);
 
         $this->assertNull($obj->getHostname());
