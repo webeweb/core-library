@@ -93,4 +93,19 @@ class SystemFactoryTest extends AbstractTestCase {
 
         $this->assertGreaterThan(1, count($res));
     }
+
+    /**
+     * Tests newOperatingSystem()
+     *
+     * @return void
+     */
+    public function testNewOperatingSystem(): void {
+
+        $obj = SystemFactory::newOperatingSystem();
+
+        $this->assertNotNull($obj->getCodename());
+        $this->assertNotNull($obj->getDescription());
+        $this->assertNotNull($obj->getId());
+        $this->assertNotNull($obj->getRelease());
+    }
 }

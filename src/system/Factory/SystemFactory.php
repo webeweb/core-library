@@ -19,6 +19,8 @@ use WBW\Library\System\Model\Network;
 use WBW\Library\System\Model\NetworkCard;
 use WBW\Library\System\Model\NetworkCardInterface;
 use WBW\Library\System\Model\NetworkInterface;
+use WBW\Library\System\Model\OperatingSystem;
+use WBW\Library\System\Model\OperatingSystemInterface;
 
 /**
  * System factory.
@@ -162,5 +164,26 @@ class SystemFactory {
         }
 
         return $models;
+    }
+
+    /**
+     * Creates an operating system.
+     *
+     * @return OperatingSystemInterface Returns the operating system.
+     */
+    public static function newOperatingSystem(): OperatingSystemInterface {
+
+        $codename    = shell_exec("lsb_release -c -s");
+        $description = shell_exec("lsb_release -d -s");
+        $id          = shell_exec("lsb_release -i -s");
+        $release     = shell_exec("lsb_release -r -s");
+
+        $model = new OperatingSystem();
+        $model->setCodename(trim($codename));
+        $model->setDescription(trim($description));
+        $model->setId(trim($id));
+        $model->setRelease(trim($release));
+
+        return $model;
     }
 }
