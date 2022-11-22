@@ -11,11 +11,11 @@
 
 namespace WBW\Library\System\Tests\Model;
 
+use WBW\Library\Serializer\SerializerKeys as BaseSerializerKeys;
 use WBW\Library\System\Model\Network;
 use WBW\Library\System\Model\NetworkInterface;
 use WBW\Library\System\Serializer\SerializerKeys;
 use WBW\Library\System\Tests\AbstractTestCase;
-use WBW\Library\Serializer\SerializerKeys as BaseSerializerKeys;
 
 /**
  * Network test.

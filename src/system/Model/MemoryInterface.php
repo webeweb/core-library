@@ -19,7 +19,7 @@ use JsonSerializable;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\System\Model
  */
-interface MemoryInterface  extends JsonSerializable{
+interface MemoryInterface extends JsonSerializable {
 
     /**
      * Get the keys.
