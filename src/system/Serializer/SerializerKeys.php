@@ -20,6 +20,13 @@ namespace WBW\Library\System\Serializer;
 interface SerializerKeys {
 
     /**
+     * Serializer key "available".
+     *
+     * @var string
+     */
+    const AVAILABLE = "available";
+
+    /**
      * Serializer key "dns".
      *
      * @var string
@@ -32,6 +39,13 @@ interface SerializerKeys {
      * @var string
      */
     const DUPLEX = "duplex";
+
+    /**
+     * Serializer key "fs".
+     *
+     * @var string
+     */
+    const FS = "fs";
 
     /**
      * Serializer key "gateway".
@@ -62,6 +76,20 @@ interface SerializerKeys {
     const MAC = "mac";
 
     /**
+     * Serializer key "mount".
+     *
+     * @var string
+     */
+    const MOUNT = "mount";
+
+    /**
+     * Serializer key "percent".
+     *
+     * @var string
+     */
+    const PERCENT = "percent";
+
+    /**
      * Serializer key "speed".
      *
      * @var string
@@ -74,4 +102,11 @@ interface SerializerKeys {
      * @var string
      */
     const STATUS = "status";
+
+    /**
+     * Serializer key "used".
+     *
+     * @var string
+     */
+    const USED = "used";
 }
