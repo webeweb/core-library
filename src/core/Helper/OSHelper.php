@@ -15,10 +15,11 @@ use WBW\Library\Core\Model\Cpu;
 use WBW\Library\Core\Model\Memory;
 
 /**
- * Operating System helper.
+ * Operating system helper.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Core\Helper
+ * @deprecated since 8.61.0 use {@see WBW\Library\System\System} instead
  */
 class OSHelper {
 

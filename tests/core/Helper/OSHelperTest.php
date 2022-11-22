@@ -15,7 +15,7 @@ use WBW\Library\Core\Helper\OSHelper;
 use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
- * Operating System helper.
+ * Operating system helper.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Core\Tests\Helper
