@@ -48,11 +48,11 @@ interface SerializerKeys {
     const DUPLEX = "duplex";
 
     /**
-     * Serializer key "fs".
+     * Serializer key "fileSystem".
      *
      * @var string
      */
-    const FS = "fs";
+    const FILE_SYSTEM = "fileSystem";
 
     /**
      * Serializer key "gateway".
@@ -90,13 +90,6 @@ interface SerializerKeys {
     const MOUNT = "mount";
 
     /**
-     * Serializer key "percent".
-     *
-     * @var string
-     */
-    const PERCENT = "percent";
-
-    /**
      * Serializer key "release".
      *
      * @var string
@@ -123,4 +116,11 @@ interface SerializerKeys {
      * @var string
      */
     const USED = "used";
+
+    /**
+     * Serializer key "usePercent".
+     *
+     * @var string
+     */
+    const USE_PERCENT = "usePercent";
 }

@@ -1,8 +1,9 @@
 {
     "available": "available",
-    "fs": "fs",
+    "fileSystem": "fileSystem",
     "mount": "mount",
     "name": "name",
-    "percent": "percent",
+    "type": "type",
+    "usePercent": "usePercent",
     "used": "used"
 }

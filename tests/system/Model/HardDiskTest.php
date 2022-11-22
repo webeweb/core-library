@@ -13,18 +13,18 @@ namespace WBW\Library\System\Tests\Model;
 
 use JsonSerializable;
 use WBW\Library\Serializer\SerializerKeys as BaseSerializerKeys;
-use WBW\Library\System\Model\Disk;
-use WBW\Library\System\Model\DiskInterface;
+use WBW\Library\System\Model\HardDisk;
+use WBW\Library\System\Model\HardDiskInterface;
 use WBW\Library\System\Serializer\SerializerKeys;
 use WBW\Library\System\Tests\AbstractTestCase;
 
 /**
- * Disk test.
+ * Hard disk test.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\System\Tests\Model
  */
-class DiskTest extends AbstractTestCase {
+class HardDiskTest extends AbstractTestCase {
 
     /**
      * Tests getAvailable()
@@ -33,7 +33,7 @@ class DiskTest extends AbstractTestCase {
      */
     public function testGetAvailable(): void {
 
-        $obj = new Disk();
+        $obj = new HardDisk();
 
         $obj->setAvailable("available");
         $this->assertEquals("available", $obj->getAvailable());
@@ -46,36 +46,36 @@ class DiskTest extends AbstractTestCase {
      */
     public function testGetFs(): void {
 
-        $obj = new Disk();
+        $obj = new HardDisk();
 
-        $obj->setFs("fs");
-        $this->assertEquals("fs", $obj->getFs());
+        $obj->setFileSystem("fileSystem");
+        $this->assertEquals("fileSystem", $obj->getFileSystem());
     }
 
     /**
-     * Tests getMount()
+     * Tests getMountedOn()
      *
      * @return void
      */
-    public function testGetMount(): void {
+    public function testGetMountedOn(): void {
 
-        $obj = new Disk();
+        $obj = new HardDisk();
 
-        $obj->setMount("mount");
-        $this->assertEquals("mount", $obj->getMount());
+        $obj->setMountedOn("mountedOn");
+        $this->assertEquals("mountedOn", $obj->getMountedOn());
     }
 
     /**
-     * Tests getPercent()
+     * Tests getUsePercent()
      *
      * @return void
      */
-    public function testGetPercent(): void {
+    public function testGetUsePercent(): void {
 
-        $obj = new Disk();
+        $obj = new HardDisk();
 
-        $obj->setPercent("percent");
-        $this->assertEquals("percent", $obj->getPercent());
+        $obj->setUsePercent("usePercent");
+        $this->assertEquals("usePercent", $obj->getUsePercent());
     }
 
     /**
@@ -85,7 +85,7 @@ class DiskTest extends AbstractTestCase {
      */
     public function testGetUsed(): void {
 
-        $obj = new Disk();
+        $obj = new HardDisk();
 
         $obj->setUsed("used");
         $this->assertEquals("used", $obj->getUsed());
@@ -99,19 +99,20 @@ class DiskTest extends AbstractTestCase {
     public function testJsonSerialize() {
 
         // Set the expected data.
-        $data = file_get_contents(__DIR__ . "/DiskTest.testJsonSerialize.json");
+        $data = file_get_contents(__DIR__ . "/HardDiskTest.testJsonSerialize.json");
         $json = json_decode($data, true);
 
-        $obj = new Disk();
+        $obj = new HardDisk();
         $obj->setAvailable(SerializerKeys::AVAILABLE);
-        $obj->setFs(SerializerKeys::FS);
-        $obj->setMount(SerializerKeys::MOUNT);
+        $obj->setFileSystem(SerializerKeys::FILE_SYSTEM);
+        $obj->setMountedOn(SerializerKeys::MOUNT);
         $obj->setName(BaseSerializerKeys::NAME);
-        $obj->setPercent(SerializerKeys::PERCENT);
+        $obj->setType(BaseSerializerKeys::TYPE);
         $obj->setUsed(SerializerKeys::USED);
+        $obj->setUsePercent(SerializerKeys::USE_PERCENT);
 
         $res = $obj->jsonSerialize();
-        $this->assertCount(6, $res);
+        $this->assertCount(7, $res);
 
         $this->assertEquals($json, $res);
     }
@@ -123,17 +124,18 @@ class DiskTest extends AbstractTestCase {
      */
     public function test__construct() {
 
-        $obj = new Disk();
+        $obj = new HardDisk();
 
         $this->assertInstanceOf(JsonSerializable::class, $obj);
-        $this->assertInstanceOf(DiskInterface::class, $obj);
+        $this->assertInstanceOf(HardDiskInterface::class, $obj);
 
         $this->assertNull($obj->getName());
+        $this->assertNull($obj->getType());
 
         $this->assertNull($obj->getAvailable());
-        $this->assertNull($obj->getFs());
-        $this->assertNull($obj->getMount());
-        $this->assertNull($obj->getPercent());
+        $this->assertNull($obj->getFileSystem());
+        $this->assertNull($obj->getMountedOn());
         $this->assertNull($obj->getUsed());
+        $this->assertNull($obj->getUsePercent());
     }
 }

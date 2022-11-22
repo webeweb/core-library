@@ -11,8 +11,8 @@
 
 namespace WBW\Library\System\Factory;
 
-use WBW\Library\System\Model\Disk;
-use WBW\Library\System\Model\DiskInterface;
+use WBW\Library\System\Model\HardDisk;
+use WBW\Library\System\Model\HardDiskInterface;
 use WBW\Library\System\Model\Memory;
 use WBW\Library\System\Model\MemoryInterface;
 use WBW\Library\System\Model\Network;
@@ -31,11 +31,11 @@ use WBW\Library\System\Model\OperatingSystemInterface;
 class SystemFactory {
 
     /**
-     * Creates the disks.
+     * Creates the hard disks.
      *
-     * @return DiskInterface[] Returns the disks.
+     * @return HardDiskInterface[] Returns the hard disks.
      */
-    public function newDisks(): array {
+    public static function newHardDisks(): array {
 
         $models = [];
 
@@ -52,13 +52,14 @@ class SystemFactory {
                 continue;
             }
 
-            $model = new Disk();
+            $model = new HardDisk();
             $model->setName(trim($columns[0]));
-            $model->setFs(trim($columns[1]));
+            $model->setFileSystem(trim($columns[0]));
+            $model->setType(trim($columns[1]));
             $model->setUsed(trim($columns[3]));
             $model->setAvailable(trim($columns[4]));
-            $model->setPercent(trim($columns[5]));
-            $model->setMount(trim($columns[6]));
+            $model->setUsePercent(trim($columns[5]));
+            $model->setMountedOn(trim($columns[6]));
 
             $models[] = $model;
         }

@@ -14,12 +14,12 @@ namespace WBW\Library\System\Model;
 use JsonSerializable;
 
 /**
- * Disk interface.
+ * Hard disk interface.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\System\Model
  */
-interface DiskInterface extends JsonSerializable {
+interface HardDiskInterface extends JsonSerializable {
 
     /**
      * Get the available.
@@ -33,14 +33,14 @@ interface DiskInterface extends JsonSerializable {
      *
      * @return string|null Returns the file system.
      */
-    public function getFs(): ?string;
+    public function getFileSystem(): ?string;
 
     /**
-     * Get the mount.
+     * Get the mounted on.
      *
-     * @return string|null Returns the mount.
+     * @return string|null Returns the mounted on.
      */
-    public function getMount(): ?string;
+    public function getMountedOn(): ?string;
 
     /**
      * Get the name.
@@ -50,11 +50,18 @@ interface DiskInterface extends JsonSerializable {
     public function getName(): ?string;
 
     /**
-     * Get the percent.
+     * Get the type.
      *
-     * @return string|null Returns the percent.
+     * @return string|null Returns the type.
      */
-    public function getPercent(): ?string;
+    public function getType(): ?string;
+
+    /**
+     * Get the use %.
+     *
+     * @return string|null Returns the use %.
+     */
+    public function getUsePercent(): ?string;
 
     /**
      * Get the used.

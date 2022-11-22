@@ -12,7 +12,7 @@
 namespace WBW\Library\System\Serializer;
 
 use WBW\Library\Serializer\SerializerKeys as BaseSerializerKeys;
-use WBW\Library\System\Model\DiskInterface;
+use WBW\Library\System\Model\HardDiskInterface;
 use WBW\Library\System\Model\MemoryInterface;
 use WBW\Library\System\Model\NetworkCardInterface;
 use WBW\Library\System\Model\NetworkInterface;
@@ -27,25 +27,26 @@ use WBW\Library\System\Model\OperatingSystemInterface;
 class JsonSerializer {
 
     /**
-     * Serializes a disk.
+     * Serializes a hard disk.
      *
-     * @param DiskInterface $model The model.
+     * @param HardDiskInterface $model The model.
      * @return array Returns the serialized model.
      */
-    public static function serializeDisk(DiskInterface $model): array {
+    public static function serializeHardDisk(HardDiskInterface $model): array {
 
         return [
-            SerializerKeys::AVAILABLE => $model->getAvailable(),
-            SerializerKeys::FS        => $model->getFs(),
-            SerializerKeys::MOUNT     => $model->getMount(),
-            BaseSerializerKeys::NAME  => $model->getName(),
-            SerializerKeys::PERCENT   => $model->getPercent(),
-            SerializerKeys::USED      => $model->getUsed(),
+            SerializerKeys::AVAILABLE   => $model->getAvailable(),
+            SerializerKeys::FILE_SYSTEM => $model->getFileSystem(),
+            SerializerKeys::MOUNT       => $model->getMountedOn(),
+            BaseSerializerKeys::NAME    => $model->getName(),
+            BaseSerializerKeys::TYPE    => $model->getType(),
+            SerializerKeys::USED        => $model->getUsed(),
+            SerializerKeys::USE_PERCENT => $model->getUsePercent(),
         ];
     }
 
     /**
-     * Serialize a memory.
+     * Serializes a memory.
      *
      * @param MemoryInterface $model The model.
      * @return array Returns the serialized model.

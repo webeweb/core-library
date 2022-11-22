@@ -13,16 +13,18 @@ namespace WBW\Library\System\Model;
 
 use WBW\Library\System\Serializer\JsonSerializer;
 use WBW\Library\Traits\Strings\StringNameTrait;
+use WBW\Library\Traits\Strings\StringTypeTrait;
 
 /**
- * Disk.
+ * Hard disk.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\System\Model
  */
-class Disk implements DiskInterface {
+class HardDisk implements HardDiskInterface {
 
     use StringNameTrait;
+    use StringTypeTrait;
 
     /**
      * Available.
@@ -36,7 +38,7 @@ class Disk implements DiskInterface {
      *
      * @var string|null
      */
-    protected $fs;
+    protected $fileSystem;
 
     /**
      * Mount.
@@ -46,11 +48,11 @@ class Disk implements DiskInterface {
     protected $mount;
 
     /**
-     * Percent.
+     * Use %.
      *
      * @var string|null
      */
-    protected $percent;
+    protected $usePercent;
 
     /**
      * Used.
@@ -76,22 +78,22 @@ class Disk implements DiskInterface {
     /**
      * {@inheritdoc}
      */
-    public function getFs(): ?string {
-        return $this->fs;
+    public function getFileSystem(): ?string {
+        return $this->fileSystem;
     }
 
     /**
      * {@inheritdoc}
      */
-    public function getMount(): ?string {
+    public function getMountedOn(): ?string {
         return $this->mount;
     }
 
     /**
      * {@inheritdoc}
      */
-    public function getPercent(): ?string {
-        return $this->percent;
+    public function getUsePercent(): ?string {
+        return $this->usePercent;
     }
 
     /**
@@ -105,16 +107,16 @@ class Disk implements DiskInterface {
      * {@inheritdoc}
      */
     public function jsonSerialize() {
-        return JsonSerializer::serializeDisk($this);
+        return JsonSerializer::serializeHardDisk($this);
     }
 
     /**
      * Set the available.
      *
      * @param string|null $available The available.
-     * @return DiskInterface Returns this disk.
+     * @return HardDiskInterface Returns this hard disk.
      */
-    public function setAvailable(?string $available): DiskInterface {
+    public function setAvailable(?string $available): HardDiskInterface {
         $this->available = $available;
         return $this;
     }
@@ -122,33 +124,33 @@ class Disk implements DiskInterface {
     /**
      * Set the file system.
      *
-     * @param string|null $fs The file system.
-     * @return DiskInterface Returns this disk.
+     * @param string|null $fileSystem The file system.
+     * @return HardDiskInterface Returns this hard disk.
      */
-    public function setFs(?string $fs): DiskInterface {
-        $this->fs = $fs;
+    public function setFileSystem(?string $fileSystem): HardDiskInterface {
+        $this->fileSystem = $fileSystem;
         return $this;
     }
 
     /**
-     * Set the mount.
+     * Set the mounted on.
      *
-     * @param string|null $mount The mount.
-     * @return DiskInterface Returns this disk.
+     * @param string|null $mountedOn The mounted on.
+     * @return HardDiskInterface Returns this hard disk.
      */
-    public function setMount(?string $mount): DiskInterface {
-        $this->mount = $mount;
+    public function setMountedOn(?string $mountedOn): HardDiskInterface {
+        $this->mount = $mountedOn;
         return $this;
     }
 
     /**
      * Set the percent.
      *
-     * @param string|null $percent The percent.
-     * @return DiskInterface Returns this disk.
+     * @param string|null $usePercent The percent.
+     * @return HardDiskInterface Returns this hard disk.
      */
-    public function setPercent(?string $percent): DiskInterface {
-        $this->percent = $percent;
+    public function setUsePercent(?string $usePercent): HardDiskInterface {
+        $this->usePercent = $usePercent;
         return $this;
     }
 
@@ -156,9 +158,9 @@ class Disk implements DiskInterface {
      * Set the used.
      *
      * @param string|null $used The used.
-     * @return DiskInterface Returns this disk.
+     * @return HardDiskInterface Returns this hard disk.
      */
-    public function setUsed(?string $used): DiskInterface {
+    public function setUsed(?string $used): HardDiskInterface {
         $this->used = $used;
         return $this;
     }

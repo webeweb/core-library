@@ -23,13 +23,13 @@ use WBW\Library\System\Tests\AbstractTestCase;
 class SystemFactoryTest extends AbstractTestCase {
 
     /**
-     * Tests newDisks()
+     * Tests newHardDisks()
      *
      * @return void
      */
-    public function testNewDisks(): void {
+    public function testNewHardDisks(): void {
 
-        $res = SystemFactory::newDisks();
+        $res = SystemFactory::newHardDisks();
 
         $this->assertGreaterThanOrEqual(1, count($res));
     }
