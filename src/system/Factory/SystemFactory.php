@@ -21,6 +21,8 @@ use WBW\Library\System\Model\NetworkCardInterface;
 use WBW\Library\System\Model\NetworkInterface;
 use WBW\Library\System\Model\OperatingSystem;
 use WBW\Library\System\Model\OperatingSystemInterface;
+use WBW\Library\System\Model\Processor;
+use WBW\Library\System\Model\ProcessorInterface;
 
 /**
  * System factory.
@@ -186,5 +188,45 @@ class SystemFactory {
         $model->setRelease(trim($release));
 
         return $model;
+    }
+
+    /**
+     * Creates a processors.
+     *
+     * @return ProcessorInterface[] Returns the processors.
+     */
+    public static function newProcessors(): array {
+
+        $models = [];
+
+        $result = shell_exec("cat /proc/cpuinfo");
+
+        $cores = explode(PHP_EOL . PHP_EOL, $result);
+
+        foreach ($cores as $core) {
+
+            if ("" === $core) {
+                continue;
+            }
+
+            $values = [];
+
+            $rows = explode(PHP_EOL, $core);
+
+            foreach ($rows as $current) {
+
+                if ("" === $current) {
+                    continue;
+                }
+
+                $columns = explode(":", $current);
+
+                $values[trim($columns[0])] = trim($columns[1]);
+            }
+
+            $models[] = new Processor($values);
+        }
+
+        return $models;
     }
 }

@@ -108,4 +108,16 @@ class SystemFactoryTest extends AbstractTestCase {
         $this->assertNotNull($obj->getId());
         $this->assertNotNull($obj->getRelease());
     }
+
+    /**
+     * Tests newProcessors()
+     *
+     * @return void
+     */
+    public function testNewProcessors(): void {
+
+        $res = SystemFactory::newProcessors();
+
+        $this->assertGreaterThanOrEqual(1, count($res));
+    }
 }
