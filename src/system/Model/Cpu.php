@@ -9,20 +9,27 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\System\Exception;
+namespace WBW\Library\System\Model;
 
 /**
- * Unsupported system exception.
+ * Current processor usage.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\System\Exception
+ * @package WBW\Library\System\Model
  */
-class UnsupportedSystemException extends AbstractException {
+class Cpu implements CpuInterface {
 
     /**
      * Constructor.
      */
     public function __construct() {
-        parent::__construct("This operating system is unsupported");
+        // NOTHING TO DO
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function jsonSerialize(): array {
+        return [];
     }
 }

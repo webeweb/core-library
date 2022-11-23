@@ -9,18 +9,20 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\System\Tests\Exception;
+namespace WBW\Library\System\Tests\Model;
 
-use WBW\Library\System\Exception\UnsupportedSystemException;
+use JsonSerializable;
+use WBW\Library\System\Model\Cpu;
+use WBW\Library\System\Model\CpuInterface;
 use WBW\Library\System\Tests\AbstractTestCase;
 
 /**
- * Unsupported system exception test.
+ * Current processor usage test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\System\Tests\Exception
+ * @package WBW\Library\System\Tests\Model
  */
-class UnsupportedSystemExceptionTest extends AbstractTestCase {
+class CpuTest extends AbstractTestCase {
 
     /**
      * Tests __construct()
@@ -29,8 +31,9 @@ class UnsupportedSystemExceptionTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $ex = new UnsupportedSystemException();
+        $obj = new Cpu();
 
-        $this->assertEquals("This operating system is unsupported", $ex->getMessage());
+        $this->assertInstanceOf(JsonSerializable::class, $obj);
+        $this->assertInstanceOf(CpuInterface::class, $obj);
     }
 }
