@@ -13,6 +13,7 @@ namespace WBW\Library\System\Tests;
 
 use Exception;
 use RuntimeException;
+use WBW\Library\System\Model\PropertyInterface;
 use WBW\Library\System\System;
 
 /**
@@ -154,6 +155,27 @@ class SystemTest extends AbstractTestCase {
             $this->assertInstanceOf(RuntimeException::class, $ex);
             $this->assertEquals("This operating system is unsupported", $ex->getMessage());
         }
+    }
+
+    /**
+     * Tests getProperties()
+     *
+     * @return void
+     */
+    public function testGetProperties(): void {
+
+        $this->assertIsArray(System::getProperties());
+    }
+
+    /**
+     * Tests getProperty()
+     *
+     * @return void
+     */
+    public function testGetProperty(): void {
+
+        $this->assertNotNull(System::getProperty(PropertyInterface::FILE_SEPARATOR));
+        $this->assertNull(System::getProperty(""));
     }
 
     /**

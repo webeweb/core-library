@@ -19,6 +19,7 @@ use WBW\Library\System\Model\NetworkCardInterface;
 use WBW\Library\System\Model\NetworkInterface;
 use WBW\Library\System\Model\OperatingSystemInterface;
 use WBW\Library\System\Model\ProcessorInterface;
+use WBW\Library\Types\Helper\ArrayHelper;
 
 /**
  * System.
@@ -106,6 +107,28 @@ class System {
      */
     public static function getProcessors(): array {
         return SystemHelper::retrieveProcessors();
+    }
+
+    /**
+     * Get the properties.
+     *
+     * @return string[] Returns the properties.
+     */
+    public static function getProperties(): array {
+        return SystemHelper::retrieveProperties();
+    }
+
+    /**
+     * Get a property.
+     *
+     * @param string $name The name.
+     * @return string|null Returns the property.
+     */
+    public static function getProperty(string $name): ?string {
+
+        $properties = SystemHelper::retrieveProperties();
+
+        return ArrayHelper::get($properties, $name);
     }
 
     /**
