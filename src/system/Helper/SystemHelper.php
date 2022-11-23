@@ -24,6 +24,7 @@ use WBW\Library\System\Model\OperatingSystem;
 use WBW\Library\System\Model\OperatingSystemInterface;
 use WBW\Library\System\Model\Processor;
 use WBW\Library\System\Model\ProcessorInterface;
+use WBW\Library\System\Model\PropertyInterface;
 
 /**
  * System helper.
@@ -294,6 +295,33 @@ class SystemHelper {
         }
 
         return $models;
+    }
+
+    /**
+     * Retrieves the properties.
+     *
+     * @return string[] Returns the properties.
+     */
+    public static function retrieveProperties(): array {
+
+        $user = posix_getpwuid(posix_geteuid());
+
+        return [
+            PropertyInterface::FILE_SEPARATOR => DIRECTORY_SEPARATOR,
+            PropertyInterface::PHP_CLASS_PATH => get_include_path(),
+            PropertyInterface::PHP_HOME       => dirname(PHP_BINARY),
+            PropertyInterface::PHP_VENDOR     => null,
+            PropertyInterface::PHP_VENDOR_URL => null,
+            PropertyInterface::PHP_VERSION    => phpversion(),
+            PropertyInterface::LINE_SEPARATOR => PHP_EOL,
+            PropertyInterface::OS_ARCH        => php_uname("m"),
+            PropertyInterface::OS_NAME        => php_uname("s"),
+            PropertyInterface::OS_VERSION     => php_uname("v"),
+            PropertyInterface::PATH_SEPARATOR => true === static::isUnix() ? ":" : ";",
+            PropertyInterface::USER_DIR       => getcwd(),
+            PropertyInterface::USER_HOME      => $user["dir"],
+            PropertyInterface::USER_NAME      => $user["name"],
+        ];
     }
 
     /**

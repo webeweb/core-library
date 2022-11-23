@@ -14,6 +14,7 @@ namespace WBW\Library\System\Tests\Helper;
 use Exception;
 use RuntimeException;
 use WBW\Library\System\Helper\SystemHelper;
+use WBW\Library\System\Model\PropertyInterface;
 use WBW\Library\System\Tests\AbstractTestCase;
 
 /**
@@ -238,6 +239,32 @@ class SystemHelperTest extends AbstractTestCase {
             $this->assertInstanceOf(RuntimeException::class, $ex);
             $this->assertEquals("This operating system is unsupported", $ex->getMessage());
         }
+    }
+
+    /**
+     * Tests retrieveProperties()
+     *
+     * @return void
+     */
+    public function testRetrieveProperties(): void {
+
+        $res = SystemHelper::retrieveProperties();
+        $this->assertCount(14, $res);
+
+        $this->assertArrayHasKey(PropertyInterface::FILE_SEPARATOR, $res);
+        $this->assertArrayHasKey(PropertyInterface::PHP_CLASS_PATH, $res);
+        $this->assertArrayHasKey(PropertyInterface::PHP_HOME, $res);
+        $this->assertArrayHasKey(PropertyInterface::PHP_VENDOR, $res);
+        $this->assertArrayHasKey(PropertyInterface::PHP_VENDOR_URL, $res);
+        $this->assertArrayHasKey(PropertyInterface::PHP_VERSION, $res);
+        $this->assertArrayHasKey(PropertyInterface::LINE_SEPARATOR, $res);
+        $this->assertArrayHasKey(PropertyInterface::OS_ARCH, $res);
+        $this->assertArrayHasKey(PropertyInterface::OS_NAME, $res);
+        $this->assertArrayHasKey(PropertyInterface::OS_VERSION, $res);
+        $this->assertArrayHasKey(PropertyInterface::PATH_SEPARATOR, $res);
+        $this->assertArrayHasKey(PropertyInterface::USER_DIR, $res);
+        $this->assertArrayHasKey(PropertyInterface::USER_HOME, $res);
+        $this->assertArrayHasKey(PropertyInterface::USER_NAME, $res);
     }
 
     /**
