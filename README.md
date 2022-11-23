@@ -27,6 +27,7 @@ Provides:
 - Serialization utilities
 - SkiData utilities (card, customer, user, etc.)
 - Sorting utilities (alphabetical tree sort, quick sort, etc.)
+- System utilities (hard disk, memory, network, operating system, processor, etc.)
 - Traits collection (array, boolean, double, float, integer, string, etc.)
 - Types utilities (array, boolean, double, float, integer, string, etc.)
 - Validation API (rule, rule set, validator, etc.)
