@@ -41,8 +41,43 @@ class Processor implements ProcessorInterface {
     /**
      * {@inheritdoc}
      */
+    public function getCoreId(): ?string {
+        return ArrayHelper::get($this->values, "core id");
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getCpuCores(): ?string {
+        return ArrayHelper::get($this->values, "cpu cores");
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getCpuMhz(): ?string {
+        return ArrayHelper::get($this->values, "cpu MHz");
+    }
+
+    /**
+     * {@inheritdoc}
+     */
     public function getKeys(): array {
         return array_keys($this->values);
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getModelName(): ?string {
+        return ArrayHelper::get($this->values, "model name");
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getProcessor(): ?string {
+        return ArrayHelper::get($this->values, "processor");
     }
 
     /**
@@ -57,6 +92,13 @@ class Processor implements ProcessorInterface {
      */
     public function getValues(): array {
         return $this->values;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getVendorId(): ?string {
+        return ArrayHelper::get($this->values, "vendor_id");
     }
 
     /**

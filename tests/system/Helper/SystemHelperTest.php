@@ -234,6 +234,15 @@ class SystemHelperTest extends AbstractTestCase {
             $res = SystemHelper::retrieveProcessors();
 
             $this->assertGreaterThanOrEqual(1, count($res));
+
+            $this->assertNotCount(0, $res[0]->getValues());
+
+            $this->assertNotNull($res[0]->getCoreId());
+            $this->assertNotNull($res[0]->getCpuCores());
+            $this->assertNotNull($res[0]->getCpuMhz());
+            $this->assertNotNull($res[0]->getModelName());
+            $this->assertNotNull($res[0]->getProcessor());
+            $this->assertNotNull($res[0]->getVendorId());
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(RuntimeException::class, $ex);

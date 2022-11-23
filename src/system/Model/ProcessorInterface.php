@@ -22,11 +22,46 @@ use JsonSerializable;
 interface ProcessorInterface extends JsonSerializable {
 
     /**
+     * Get the core id.
+     *
+     * @return string|null Returns the core id.
+     */
+    public function getCoreId(): ?string;
+
+    /**
+     * Get the CPU cores.
+     *
+     * @return string|null Returns the CPU cores.
+     */
+    public function getCpuCores(): ?string;
+
+    /**
+     * Get the CPU MHz.
+     *
+     * @return string|null Returns teh CPU MHz.
+     */
+    public function getCpuMhz(): ?string;
+
+    /**
      * Get the keys.
      *
      * @return string[] Returns the keys.
      */
     public function getKeys(): array;
+
+    /**
+     * Get the model name.
+     *
+     * @return string|null Returns the model name.
+     */
+    public function getModelName(): ?string;
+
+    /**
+     * Get the processor.
+     *
+     * @return string|null Returns the processor.
+     */
+    public function getProcessor(): ?string;
 
     /**
      * Get the value.
@@ -42,4 +77,11 @@ interface ProcessorInterface extends JsonSerializable {
      * @return int[] Returns the values.
      */
     public function getValues(): array;
+
+    /**
+     * Get the vendor id.
+     *
+     * @return string|null Returns the vendor id.
+     */
+    public function getVendorId(): ?string;
 }
