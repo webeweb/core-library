@@ -1,6 +1,26 @@
 CHANGELOG
 =========
 
+### master
+
+> IMPORTANT NOTICE: The following classes has been deprecated
+> - WBW\Library\Core\Helper\OSHelper
+
+- Add Hard disk
+- Add Hard disk interface
+- Add Memory
+- Add Memory interface
+- Add Network
+- Add Network interface
+- Add Network card
+- Add Network card interface
+- Add Operating system
+- Add Operating system interface
+- Add Processor
+- Add Processor interface
+- Add System
+- Add System helper
+
 ### [8.60.0](https://github.com/webeweb/core-library/tree/v8.60.0) (2022-11-09)
 
 - Add indexBy() into Array helper
