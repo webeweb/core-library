@@ -46,6 +46,7 @@
         "ext-json": "*",
         "ext-mbstring": "*",
         "ext-pdo": "*",
+        "ext-posix": "*",
         "ext-zip": "*",
         "doctrine/collections": "^1.5",
         "psr/log": "^1.0",
