@@ -1,4 +1,4 @@
-# .github/workflows/analysis.yml
+# .github/workflows/static_analysis.yml
 name: "Static analysis"
 
 on: [ push ]

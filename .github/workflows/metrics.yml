@@ -1,5 +1,5 @@
 # .github/workflows/metrics.yml
-name: "metrics"
+name: "Metrics"
 
 on: [ push ]
 
