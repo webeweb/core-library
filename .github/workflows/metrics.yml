@@ -7,7 +7,7 @@ jobs:
 
     build:
         name:    "PHP Metrics"
-        runs-on: ubuntu-18.04
+        runs-on: ubuntu-22.04
 
         steps:
             -   name: "Checkout"
@@ -44,7 +44,7 @@ jobs:
                       zip -r ../report.zip * -x junit.xml
 
             -   name: "Upload artifact"
-                uses: actions/upload-artifact@v2
+                uses: actions/upload-artifact@v3
                 with:
                     name: "metrics"
                     path: build/report.zip
