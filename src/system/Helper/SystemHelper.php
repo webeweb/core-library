@@ -224,7 +224,10 @@ class SystemHelper {
         $result = glob("/sys/class/net/*");
 
         foreach ($result as $current) {
-            $models[] = static::retrieveNetworkCard(basename($current));
+
+            if (true === is_dir($current)) {
+                $models[] = static::retrieveNetworkCard(basename($current));
+            }
         }
 
         return $models;
