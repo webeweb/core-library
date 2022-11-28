@@ -25,14 +25,14 @@ class Processor implements ProcessorInterface {
     /**
      * Values.
      *
-     * @var int[]
+     * @var string[]
      */
     protected $values;
 
     /**
      * Constructor.
      *
-     * @param int[] $values The values.
+     * @param string[] $values The values.
      */
     public function __construct(array $values) {
         $this->setValues($values);
@@ -83,7 +83,7 @@ class Processor implements ProcessorInterface {
     /**
      * {@inheritdoc}
      */
-    public function getValue(string $key): ?int {
+    public function getValue(string $key): ?string {
         return ArrayHelper::get($this->values, $key);
     }
 
@@ -111,7 +111,7 @@ class Processor implements ProcessorInterface {
     /**
      * Set the values.
      *
-     * @param int[] $values The values.
+     * @param string[] $values The values.
      * @return ProcessorInterface Returns this processor.
      */
     protected function setValues(array $values): ProcessorInterface {

@@ -67,14 +67,14 @@ interface ProcessorInterface extends JsonSerializable {
      * Get the value.
      *
      * @param string $key The key.
-     * @return int|null Returns the value.
+     * @return string|null Returns the value.
      */
-    public function getValue(string $key): ?int;
+    public function getValue(string $key): ?string;
 
     /**
      * Get the values.
      *
-     * @return int[] Returns the values.
+     * @return string[] Returns the values.
      */
     public function getValues(): array;
 
