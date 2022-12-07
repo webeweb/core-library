@@ -6,6 +6,8 @@ CHANGELOG
 > IMPORTANT NOTICE: The following classes has been deprecated
 > - WBW\Library\Core\Helper\OSHelper
 
+- Add CPU (*current processor usage*)
+- Add CPU (*current processor usage*) interface
 - Add Hard disk
 - Add Hard disk interface
 - Add Memory
