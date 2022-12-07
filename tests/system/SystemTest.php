@@ -25,6 +25,25 @@ use WBW\Library\System\System;
 class SystemTest extends AbstractTestCase {
 
     /**
+     * Tests getCpu()
+     *
+     * @return void
+     */
+    public function testGetCpu(): void {
+
+        try {
+
+            $res = System::getCpu();
+
+            $this->assertNotNull($res);
+        } catch (Exception $ex) {
+
+            $this->assertInstanceOf(RuntimeException::class, $ex);
+            $this->assertEquals("This operating system is unsupported", $ex->getMessage());
+        }
+    }
+
+    /**
      * Tests getDate()
      *
      * @return void

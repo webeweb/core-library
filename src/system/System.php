@@ -13,6 +13,7 @@ namespace WBW\Library\System;
 
 use RuntimeException;
 use WBW\Library\System\Helper\SystemHelper;
+use WBW\Library\System\Model\CpuInterface;
 use WBW\Library\System\Model\HardDiskInterface;
 use WBW\Library\System\Model\MemoryInterface;
 use WBW\Library\System\Model\NetworkCardInterface;
@@ -28,6 +29,16 @@ use WBW\Library\Types\Helper\ArrayHelper;
  * @package WBW\Library\System
  */
 class System {
+
+    /**
+     * Get the current processor usage.
+     *
+     * @return CpuInterface Returns the current processor usage.
+     * @throws RuntimeException Throws a runtime exception.
+     */
+    public static function getCpu(): CpuInterface {
+        return SystemHelper::retrieveCpu();
+    }
 
     /**
      * Get the date.
