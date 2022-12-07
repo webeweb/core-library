@@ -27,41 +27,6 @@ interface PropertyInterface {
     const FILE_SEPARATOR = "file.separator";
 
     /**
-     * PHP class path.
-     *
-     * @var string
-     */
-    const PHP_CLASS_PATH = "php.class.path";
-
-    /**
-     * PHP home.
-     *
-     * @var string
-     */
-    const PHP_HOME = "php.home";
-
-    /**
-     * PHP vendor.
-     *
-     * @var string
-     */
-    const PHP_VENDOR = "php.vendor";
-
-    /**
-     * PHP vendor URL.
-     *
-     * @var string
-     */
-    const PHP_VENDOR_URL = "php.vendor.url";
-
-    /**
-     * PHP version.
-     *
-     * @var string
-     */
-    const PHP_VERSION = "php.version";
-
-    /**
      * Line separator.
      *
      * @var string
@@ -95,6 +60,41 @@ interface PropertyInterface {
      * @var string
      */
     const PATH_SEPARATOR = "path.separator";
+
+    /**
+     * PHP class path.
+     *
+     * @var string
+     */
+    const PHP_CLASS_PATH = "php.class.path";
+
+    /**
+     * PHP home.
+     *
+     * @var string
+     */
+    const PHP_HOME = "php.home";
+
+    /**
+     * PHP vendor.
+     *
+     * @var string
+     */
+    const PHP_VENDOR = "php.vendor";
+
+    /**
+     * PHP vendor URL.
+     *
+     * @var string
+     */
+    const PHP_VENDOR_URL = "php.vendor.url";
+
+    /**
+     * PHP version.
+     *
+     * @var string
+     */
+    const PHP_VERSION = "php.version";
 
     /**
      * User dir.
