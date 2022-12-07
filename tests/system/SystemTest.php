@@ -82,6 +82,25 @@ class SystemTest extends AbstractTestCase {
     }
 
     /**
+     * Tests getHostname()
+     *
+     * @return void
+     */
+    public function testGetHostname(): void {
+
+        try {
+
+            $res = System::getHostname();
+
+            $this->assertNotNull($res);
+        } catch (Exception $ex) {
+
+            $this->assertInstanceOf(RuntimeException::class, $ex);
+            $this->assertEquals("This operating system is unsupported", $ex->getMessage());
+        }
+    }
+
+    /**
      * Tests getMemory()
      *
      * @return void
