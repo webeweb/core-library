@@ -62,6 +62,13 @@ interface SerializerKeys {
     const GATEWAY = "gateway";
 
     /**
+     * Serializer key "hi".
+     *
+     * @var string
+     */
+    const HI = "hi";
+
+    /**
      * Serializer key "ipv4".
      *
      * @var string
@@ -90,11 +97,25 @@ interface SerializerKeys {
     const MOUNT = "mount";
 
     /**
+     * Serializer key "ni".
+     *
+     * @var string
+     */
+    const NI = "ni";
+
+    /**
      * Serializer key "release".
      *
      * @var string
      */
     const RELEASE = "release";
+
+    /**
+     * Serializer key "si".
+     *
+     * @var string
+     */
+    const SI = "si";
 
     /**
      * Serializer key "speed".
@@ -104,11 +125,32 @@ interface SerializerKeys {
     const SPEED = "speed";
 
     /**
+     * Serializer key "st".
+     *
+     * @var string
+     */
+    const ST = "st";
+
+    /**
      * Serializer key "status".
      *
      * @var string
      */
     const STATUS = "status";
+
+    /**
+     * Serializer key "sy".
+     *
+     * @var string
+     */
+    const SY = "sy";
+
+    /**
+     * Serializer key "us".
+     *
+     * @var string
+     */
+    const US = "us";
 
     /**
      * Serializer key "used".
@@ -123,4 +165,11 @@ interface SerializerKeys {
      * @var string
      */
     const USE_PERCENT = "usePercent";
+
+    /**
+     * Serializer key "wa".
+     *
+     * @var string
+     */
+    const WA = "wa";
 }
