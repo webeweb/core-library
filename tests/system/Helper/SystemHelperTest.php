@@ -54,6 +54,32 @@ class SystemHelperTest extends AbstractTestCase {
     }
 
     /**
+     * Tests retrieveCpu()
+     *
+     * @return void
+     */
+    public function testRetrieveCpu(): void {
+
+        try {
+
+            $obj = SystemHelper::retrieveCpu();
+
+            $this->assertGreaterThanOrEqual(0, $obj->getUs());
+            $this->assertGreaterThanOrEqual(0, $obj->getSy());
+            $this->assertGreaterThanOrEqual(0, $obj->getNi());
+            $this->assertGreaterThanOrEqual(0, $obj->getId());
+            $this->assertGreaterThanOrEqual(0, $obj->getWa());
+            $this->assertGreaterThanOrEqual(0, $obj->getHi());
+            $this->assertGreaterThanOrEqual(0, $obj->getSi());
+            $this->assertGreaterThanOrEqual(0, $obj->getST());
+        } catch (Exception $ex) {
+
+            $this->assertInstanceOf(RuntimeException::class, $ex);
+            $this->assertEquals("This operating system is unsupported", $ex->getMessage());
+        }
+    }
+
+    /**
      * Tests retrieveDate()
      *
      * @return void

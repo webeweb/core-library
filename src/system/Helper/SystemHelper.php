@@ -12,6 +12,8 @@
 namespace WBW\Library\System\Helper;
 
 use RuntimeException;
+use WBW\Library\System\Model\Cpu;
+use WBW\Library\System\Model\CpuInterface;
 use WBW\Library\System\Model\HardDisk;
 use WBW\Library\System\Model\HardDiskInterface;
 use WBW\Library\System\Model\Memory;
@@ -35,6 +37,18 @@ use WBW\Library\System\Model\PropertyInterface;
 class SystemHelper {
 
     /**
+     * Determines if this system is supported.
+     *
+     * @throws RuntimeException Throws a runtime exception.
+     */
+    protected static function isSupported(): void {
+
+        if (false === static::isUnix()) {
+            throw new RuntimeException("This operating system is unsupported");
+        }
+    }
+
+    /**
      * Determines if the operating system is Unix.
      *
      * @return bool Returns true in case of success, false otherwise.
@@ -53,6 +67,32 @@ class SystemHelper {
     }
 
     /**
+     * Retrieves the current processor usage.
+     *
+     * @return CpuInterface Returns the current processor usage.
+     * @throws RuntimeException Throws a runtime exception.
+     */
+    public static function retrieveCpu(): CpuInterface {
+
+        static::isSupported();
+
+        $result = shell_exec("top -b -n 1 | grep '%Cpu(s):'");
+        preg_match_all("/[\d.]+/", $result, $values);
+
+        $model = new Cpu();
+        $model->setUs(floatval(trim($values[0][0])));
+        $model->setSy(floatval(trim($values[0][1])));
+        $model->setNi(floatval(trim($values[0][2])));
+        $model->setId(floatval(trim($values[0][3])));
+        $model->setWa(floatval(trim($values[0][4])));
+        $model->setHi(floatval(trim($values[0][5])));
+        $model->setSi(floatval(trim($values[0][6])));
+        $model->setSt(floatval(trim($values[0][7])));
+
+        return $model;
+    }
+
+    /**
      * Retrieves the date.
      *
      * @return string Returns the date.
@@ -60,7 +100,7 @@ class SystemHelper {
      */
     public static function retrieveDate(): string {
 
-        static::supported();
+        static::isSupported();
 
         return shell_exec("date");
     }
@@ -73,7 +113,7 @@ class SystemHelper {
      */
     public static function retrieveHardDisks(): array {
 
-        static::supported();
+        static::isSupported();
 
         $models = [];
 
@@ -113,7 +153,7 @@ class SystemHelper {
      */
     public static function retrieveHostname(): string {
 
-        static::supported();
+        static::isSupported();
 
         return shell_exec("hostname");
     }
@@ -126,7 +166,7 @@ class SystemHelper {
      */
     public static function retrieveMemory(): MemoryInterface {
 
-        static::supported();
+        static::isSupported();
 
         $values = [];
 
@@ -158,10 +198,10 @@ class SystemHelper {
      */
     public static function retrieveNetwork(): NetworkInterface {
 
-        static::supported();
+        static::isSupported();
 
-        $gw  = shell_exec("ip route | awk '/default/ { print $3 }'");
         $dns = shell_exec("cat /etc/resolv.conf | grep -i '^nameserver' | head -n1 |cut -d ' ' -f2");
+        $gw  = shell_exec("ip route | awk '/default/ { print $3 }'");
 
         $model = new Network();
         $model->setHostname(gethostname());
@@ -180,7 +220,7 @@ class SystemHelper {
      */
     public static function retrieveNetworkCard(string $name): NetworkCardInterface {
 
-        static::supported();
+        static::isSupported();
 
         $ipv4 = shell_exec("ip addr show dev $name | grep 'inet ' | cut -d ' ' -f 6 | cut -f 1 -d '/'");
         $ipv6 = shell_exec("ip -o -6 addr show $name | sed -e 's/^.*inet6 \([^ ]\+\).*/\1/'");
@@ -217,7 +257,7 @@ class SystemHelper {
      */
     public static function retrieveNetworkCards(): array {
 
-        static::supported();
+        static::isSupported();
 
         $models = [];
 
@@ -241,7 +281,7 @@ class SystemHelper {
      */
     public static function retrieveOperatingSystem(): OperatingSystemInterface {
 
-        static::supported();
+        static::isSupported();
 
         $codename    = shell_exec("lsb_release -c -s");
         $description = shell_exec("lsb_release -d -s");
@@ -265,7 +305,7 @@ class SystemHelper {
      */
     public static function retrieveProcessors(): array {
 
-        static::supported();
+        static::isSupported();
 
         $models = [];
 
@@ -335,20 +375,8 @@ class SystemHelper {
      */
     public static function retrieveUptime(): string {
 
-        static::supported();
+        static::isSupported();
 
         return shell_exec("uptime -p");
-    }
-
-    /**
-     * Supported.
-     *
-     * @throws RuntimeException Throws a runtime exception.
-     */
-    protected static function supported(): void {
-
-        if (false === static::isUnix()) {
-            throw new RuntimeException("This operating system is unsupported");
-        }
     }
 }
