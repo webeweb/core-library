@@ -12,6 +12,7 @@
 namespace WBW\Library\System\Serializer;
 
 use WBW\Library\Serializer\SerializerKeys as BaseSerializerKeys;
+use WBW\Library\System\Model\CpuInterface;
 use WBW\Library\System\Model\HardDiskInterface;
 use WBW\Library\System\Model\MemoryInterface;
 use WBW\Library\System\Model\NetworkCardInterface;
@@ -26,6 +27,26 @@ use WBW\Library\System\Model\ProcessorInterface;
  * @package WBW\Library\System\Serializer
  */
 class JsonSerializer {
+
+    /**
+     * Serializes a current processor usage.
+     *
+     * @param CpuInterface $model The model.
+     * @return array Returns the serialized model.
+     */
+    public static function serializeCpu(CpuInterface $model): array {
+
+        return [
+            SerializerKeys::US     => $model->getUs(),
+            SerializerKeys::SY     => $model->getSy(),
+            SerializerKeys::NI     => $model->getNi(),
+            BaseSerializerKeys::ID => $model->getId(),
+            SerializerKeys::WA     => $model->getWa(),
+            SerializerKeys::HI     => $model->getHi(),
+            SerializerKeys::SI     => $model->getSi(),
+            SerializerKeys::ST     => $model->getSt(),
+        ];
+    }
 
     /**
      * Serializes a hard disk.
