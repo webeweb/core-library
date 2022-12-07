@@ -1,25 +1,32 @@
 CHANGELOG
 =========
 
-### master
+### [8.61.0](https://github.com/webeweb/core-library/tree/v8.61.0) (2022-12-07)
 
 > IMPORTANT NOTICE: The following classes has been deprecated
 > - WBW\Library\Core\Helper\OSHelper
 
 - Add CPU (*current processor usage*)
 - Add CPU (*current processor usage*) interface
+- Add CPU (*current processor usage*) trait
 - Add Hard disk
 - Add Hard disk interface
+- Add Hard disk trait
 - Add Memory
 - Add Memory interface
+- Add Memory trait
 - Add Network
 - Add Network interface
+- Add Network trait
 - Add Network card
 - Add Network card interface
+- Add Network card trait
 - Add Operating system
 - Add Operating system interface
+- Add Operating system trait
 - Add Processor
 - Add Processor interface
+- Add Processor trait
 - Add System
 - Add System helper
 
