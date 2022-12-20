@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [8.62.0](https://github.com/webeweb/core-library/tree/v8.62.0) (2022-12-20)
+
+- Add PHP 8.2 support
+
 ### [8.61.0](https://github.com/webeweb/core-library/tree/v8.61.0) (2022-12-07)
 
 > IMPORTANT NOTICE: The following classes has been deprecated
