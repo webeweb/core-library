@@ -23,13 +23,6 @@ use SplFileInfo;
 interface UploadedFileServiceInterface {
 
     /**
-     * Service name.
-     *
-     * @var string
-     */
-    const SERVICE_NAME = "wbw.core.service.uploaded_file";
-
-    /**
      * Determines if a filename exists.
      *
      * @param string $filename The filename.

@@ -22,13 +22,6 @@ use Exception;
 interface TokenGeneratorServiceInterface {
 
     /**
-     * Service name.
-     *
-     * @var string
-     */
-    const SERVICE_NAME = "wbw.core.service.token_generator";
-
-    /**
      * Generate a token.
      *
      * @return string Returns the generated token.

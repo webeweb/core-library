@@ -21,4 +21,10 @@ use WBW\Library\Security\TokenGenerator;
  */
 class TokenGeneratorService extends TokenGenerator implements TokenGeneratorServiceInterface {
 
+    /**
+     * Service name.
+     *
+     * @var string
+     */
+    const SERVICE_NAME = "wbw.core.service.token_generator";
 }

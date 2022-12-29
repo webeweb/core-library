@@ -30,6 +30,8 @@ class TokenGeneratorServiceTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
+        $this->assertEquals("wbw.core.service.token_generator", TokenGeneratorService::SERVICE_NAME);
+
         $obj = new TokenGeneratorService();
 
         $this->assertInstanceOf(TokenGeneratorServiceInterface::class, $obj);

@@ -139,6 +139,7 @@ class UploadedFileServiceTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
+        $this->assertEquals("wbw.core.service.uploaded_file", UploadedFileService::SERVICE_NAME);
         $this->assertEquals("/uploads", UploadedFileService::UPLOAD_DIRECTORY);
 
         $obj = new UploadedFileService($this->directory);
