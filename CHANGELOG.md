@@ -1,9 +1,15 @@
 CHANGELOG
 =========
 
+### [8.63.0](https://github.com/webeweb/core-library/tree/v8.63.0) (2023-01-02)
+
+- Improve code quality
+- Improve PHPDoc
+- Update LICENSE
+
 ### [8.62.1](https://github.com/webeweb/core-library/tree/v8.62.1) (2022-12-29)
 
-- Fix SERVICE_NAME constants 
+- Fix SERVICE_NAME constants
 
 ### [8.62.0](https://github.com/webeweb/core-library/tree/v8.62.0) (2022-12-20)
 
