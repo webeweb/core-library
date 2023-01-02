@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QCompta;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QCompta\LocationsFi;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -171,7 +171,7 @@ class LocationsFiTest extends AbstractTestCase {
      * Tests setDateAcquisition()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateAcquisition(): void {
 
@@ -188,7 +188,7 @@ class LocationsFiTest extends AbstractTestCase {
      * Tests setDateFinContrat()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateFinContrat(): void {
 
@@ -205,7 +205,7 @@ class LocationsFiTest extends AbstractTestCase {
      * Tests setDateMiseService()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateMiseService(): void {
 
@@ -443,7 +443,7 @@ class LocationsFiTest extends AbstractTestCase {
      * Tests setTpPremierPaiement()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetTpPremierPaiement(): void {
 

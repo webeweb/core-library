@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QGI;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QGI\Collaborateurs;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -951,7 +951,7 @@ class CollaborateursTest extends AbstractTestCase {
      * Tests setDateEntree()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateEntree(): void {
 
@@ -968,7 +968,7 @@ class CollaborateursTest extends AbstractTestCase {
      * Tests setDateSortie()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateSortie(): void {
 
@@ -985,7 +985,7 @@ class CollaborateursTest extends AbstractTestCase {
      * Tests setDateValidationBudget()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateValidationBudget(): void {
 
@@ -1002,7 +1002,7 @@ class CollaborateursTest extends AbstractTestCase {
      * Tests setDateValidationNdF()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateValidationNdF(): void {
 
@@ -1019,7 +1019,7 @@ class CollaborateursTest extends AbstractTestCase {
      * Tests setDateValidationTp()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateValidationTp(): void {
 

@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QPaie;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QPaie\AttestationIjss;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -119,7 +119,7 @@ class AttestationIjssTest extends AbstractTestCase {
      * Tests setDateDebutPaternite()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateDebutPaternite(): void {
 
@@ -136,7 +136,7 @@ class AttestationIjssTest extends AbstractTestCase {
      * Tests setDateDernJMens()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateDernJMens(): void {
 
@@ -153,7 +153,7 @@ class AttestationIjssTest extends AbstractTestCase {
      * Tests setDateNaissanceEmploye()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateNaissanceEmploye(): void {
 
@@ -170,7 +170,7 @@ class AttestationIjssTest extends AbstractTestCase {
      * Tests setDateNaissanceEnfant()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateNaissanceEnfant(): void {
 
@@ -187,7 +187,7 @@ class AttestationIjssTest extends AbstractTestCase {
      * Tests setDernJ()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDernJ(): void {
 
@@ -607,7 +607,7 @@ class AttestationIjssTest extends AbstractTestCase {
      * Tests setPeriodeAu()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriodeAu(): void {
 
@@ -624,7 +624,7 @@ class AttestationIjssTest extends AbstractTestCase {
      * Tests setPeriodeDu()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriodeDu(): void {
 
@@ -641,7 +641,7 @@ class AttestationIjssTest extends AbstractTestCase {
      * Tests setPeriodeSubrAu()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriodeSubrAu(): void {
 
@@ -658,7 +658,7 @@ class AttestationIjssTest extends AbstractTestCase {
      * Tests setPeriodeSubrDu()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriodeSubrDu(): void {
 
@@ -727,7 +727,7 @@ class AttestationIjssTest extends AbstractTestCase {
      * Tests setReprise()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetReprise(): void {
 
@@ -770,7 +770,7 @@ class AttestationIjssTest extends AbstractTestCase {
      * Tests setSignatureDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetSignatureDate(): void {
 
@@ -891,7 +891,7 @@ class AttestationIjssTest extends AbstractTestCase {
      * Tests setSuspensionDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetSuspensionDate(): void {
 

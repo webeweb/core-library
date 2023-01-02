@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QGI;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QGI\GroupesClient;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -197,7 +197,7 @@ class GroupesClientTest extends AbstractTestCase {
      * Tests setDateEntree()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateEntree(): void {
 
@@ -214,7 +214,7 @@ class GroupesClientTest extends AbstractTestCase {
      * Tests setDateSortie()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateSortie(): void {
 

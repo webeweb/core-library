@@ -12,7 +12,7 @@
 namespace WBW\Library\Adoria\Tests\Model;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Adoria\Model\RequestData;
 use WBW\Library\Adoria\Tests\AbstractTestCase;
 
@@ -41,7 +41,7 @@ class RequestDataTest extends AbstractTestCase {
      * Tests setBuyDateMax()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetBuyDateMax(): void {
 

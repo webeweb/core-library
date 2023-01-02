@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QGI;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QGI\Banques;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -171,7 +171,7 @@ class BanquesTest extends AbstractTestCase {
      * Tests setMandatDateDebutEtebac()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetMandatDateDebutEtebac(): void {
 

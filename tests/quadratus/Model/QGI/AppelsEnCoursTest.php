@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QGI;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QGI\AppelsEnCours;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -145,7 +145,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
      * Tests setDateCreationClient()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateCreationClient(): void {
 
@@ -162,7 +162,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
      * Tests setDateEntree()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateEntree(): void {
 
@@ -179,7 +179,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
      * Tests setDateMessageLu()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateMessageLu(): void {
 
@@ -196,7 +196,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
      * Tests setDateRedir()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateRedir(): void {
 
@@ -317,7 +317,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
      * Tests setMiseEnSommDateHeure()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetMiseEnSommDateHeure(): void {
 

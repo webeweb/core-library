@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QGI;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QGI\Fiscal;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -210,7 +210,7 @@ class FiscalTest extends AbstractTestCase {
      * Tests setDateAdhesionCga()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateAdhesionCga(): void {
 
@@ -227,7 +227,7 @@ class FiscalTest extends AbstractTestCase {
      * Tests setDateEffetAdhesionCga()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateEffetAdhesionCga(): void {
 
@@ -244,7 +244,7 @@ class FiscalTest extends AbstractTestCase {
      * Tests setDateEffetRadiationCga()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateEffetRadiationCga(): void {
 
@@ -261,7 +261,7 @@ class FiscalTest extends AbstractTestCase {
      * Tests setDateRadiationCga()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateRadiationCga(): void {
 
@@ -408,7 +408,7 @@ class FiscalTest extends AbstractTestCase {
      * Tests setMandatDateDebutDads()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetMandatDateDebutDads(): void {
 
@@ -425,7 +425,7 @@ class FiscalTest extends AbstractTestCase {
      * Tests setMandatDateDebutDucsedi()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetMandatDateDebutDucsedi(): void {
 
@@ -442,7 +442,7 @@ class FiscalTest extends AbstractTestCase {
      * Tests setMandatDateDebutEditva()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetMandatDateDebutEditva(): void {
 
@@ -459,7 +459,7 @@ class FiscalTest extends AbstractTestCase {
      * Tests setMandatDateDebutEtebac()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetMandatDateDebutEtebac(): void {
 
@@ -476,7 +476,7 @@ class FiscalTest extends AbstractTestCase {
      * Tests setMandatDateDebutPedi()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetMandatDateDebutPedi(): void {
 
@@ -493,7 +493,7 @@ class FiscalTest extends AbstractTestCase {
      * Tests setMandatDateDebutReq()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetMandatDateDebutReq(): void {
 
@@ -510,7 +510,7 @@ class FiscalTest extends AbstractTestCase {
      * Tests setMandatDateDebutTdfc()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetMandatDateDebutTdfc(): void {
 
@@ -1268,7 +1268,7 @@ class FiscalTest extends AbstractTestCase {
      * Tests setViseurDtAttest()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetViseurDtAttest(): void {
 

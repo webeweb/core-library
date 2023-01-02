@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QCompta;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QCompta\EcrituresDecTva;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -41,7 +41,7 @@ class EcrituresDecTvaTest extends AbstractTestCase {
      * Tests setDateDecTva()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateDecTva(): void {
 
@@ -123,7 +123,7 @@ class EcrituresDecTvaTest extends AbstractTestCase {
      * Tests setPeriodeEcriture()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriodeEcriture(): void {
 

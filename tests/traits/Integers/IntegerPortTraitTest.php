@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Traits\Tests\Integers;
 
-use Exception;
 use InvalidArgumentException;
+use Throwable;
 use WBW\Library\Traits\Tests\AbstractTestCase;
 use WBW\Library\Traits\Tests\Fixtures\Integers\TestIntegerPortTrait;
 
@@ -28,7 +28,7 @@ class IntegerPortTraitTest extends AbstractTestCase {
      * Tests setPort()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPort(): void {
 
@@ -50,7 +50,7 @@ class IntegerPortTraitTest extends AbstractTestCase {
         try {
 
             $obj->setPort(65537);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
             $this->assertEquals("The port must be between 1 and 65536", $ex->getMessage());
@@ -69,7 +69,7 @@ class IntegerPortTraitTest extends AbstractTestCase {
         try {
 
             $obj->setPort(-1);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
             $this->assertEquals("The port must be between 1 and 65536", $ex->getMessage());

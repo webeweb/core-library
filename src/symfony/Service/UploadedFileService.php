@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Symfony\Service;
 
-use Exception;
 use SplFileInfo;
+use Throwable;
 use WBW\Library\Traits\Strings\StringDirectoryTrait;
 use WBW\Library\Types\Helper\StringHelper;
 
@@ -123,7 +123,7 @@ class UploadedFileService implements UploadedFileServiceInterface {
      * Unique id.
      *
      * @return string Returns the unique id.
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function uniqid(): string {
 

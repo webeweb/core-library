@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QGI;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QGI\Missions;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -93,7 +93,7 @@ class MissionsTest extends AbstractTestCase {
      * Tests setClotureDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetClotureDate(): void {
 
@@ -175,7 +175,7 @@ class MissionsTest extends AbstractTestCase {
      * Tests setDateCreation()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateCreation(): void {
 
@@ -192,7 +192,7 @@ class MissionsTest extends AbstractTestCase {
      * Tests setDateDebutTp()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateDebutTp(): void {
 
@@ -209,7 +209,7 @@ class MissionsTest extends AbstractTestCase {
      * Tests setDateFinTp()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateFinTp(): void {
 
@@ -226,7 +226,7 @@ class MissionsTest extends AbstractTestCase {
      * Tests setDateModification()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateModification(): void {
 
@@ -308,7 +308,7 @@ class MissionsTest extends AbstractTestCase {
      * Tests setDtFermetureAuto()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDtFermetureAuto(): void {
 
@@ -390,7 +390,7 @@ class MissionsTest extends AbstractTestCase {
      * Tests setOuvertureDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetOuvertureDate(): void {
 

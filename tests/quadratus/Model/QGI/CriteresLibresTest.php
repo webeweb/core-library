@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QGI;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QGI\CriteresLibres;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -691,7 +691,7 @@ class CriteresLibresTest extends AbstractTestCase {
      * Tests setDate1()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDate1(): void {
 
@@ -708,7 +708,7 @@ class CriteresLibresTest extends AbstractTestCase {
      * Tests setDate10()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDate10(): void {
 
@@ -725,7 +725,7 @@ class CriteresLibresTest extends AbstractTestCase {
      * Tests setDate11()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDate11(): void {
 
@@ -742,7 +742,7 @@ class CriteresLibresTest extends AbstractTestCase {
      * Tests setDate12()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDate12(): void {
 
@@ -759,7 +759,7 @@ class CriteresLibresTest extends AbstractTestCase {
      * Tests setDate13()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDate13(): void {
 
@@ -776,7 +776,7 @@ class CriteresLibresTest extends AbstractTestCase {
      * Tests setDate14()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDate14(): void {
 
@@ -793,7 +793,7 @@ class CriteresLibresTest extends AbstractTestCase {
      * Tests setDate15()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDate15(): void {
 
@@ -810,7 +810,7 @@ class CriteresLibresTest extends AbstractTestCase {
      * Tests setDate16()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDate16(): void {
 
@@ -827,7 +827,7 @@ class CriteresLibresTest extends AbstractTestCase {
      * Tests setDate17()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDate17(): void {
 
@@ -844,7 +844,7 @@ class CriteresLibresTest extends AbstractTestCase {
      * Tests setDate18()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDate18(): void {
 
@@ -861,7 +861,7 @@ class CriteresLibresTest extends AbstractTestCase {
      * Tests setDate19()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDate19(): void {
 
@@ -878,7 +878,7 @@ class CriteresLibresTest extends AbstractTestCase {
      * Tests setDate2()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDate2(): void {
 
@@ -895,7 +895,7 @@ class CriteresLibresTest extends AbstractTestCase {
      * Tests setDate20()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDate20(): void {
 
@@ -912,7 +912,7 @@ class CriteresLibresTest extends AbstractTestCase {
      * Tests setDate3()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDate3(): void {
 
@@ -929,7 +929,7 @@ class CriteresLibresTest extends AbstractTestCase {
      * Tests setDate4()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDate4(): void {
 
@@ -946,7 +946,7 @@ class CriteresLibresTest extends AbstractTestCase {
      * Tests setDate5()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDate5(): void {
 
@@ -963,7 +963,7 @@ class CriteresLibresTest extends AbstractTestCase {
      * Tests setDate6()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDate6(): void {
 
@@ -980,7 +980,7 @@ class CriteresLibresTest extends AbstractTestCase {
      * Tests setDate7()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDate7(): void {
 
@@ -997,7 +997,7 @@ class CriteresLibresTest extends AbstractTestCase {
      * Tests setDate8()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDate8(): void {
 
@@ -1014,7 +1014,7 @@ class CriteresLibresTest extends AbstractTestCase {
      * Tests setDate9()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDate9(): void {
 

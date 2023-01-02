@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QPaie;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QPaie\LignesBulletinCompl;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -28,7 +28,7 @@ class LignesBulletinComplTest extends AbstractTestCase {
      * Tests setDateDebut()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateDebut(): void {
 
@@ -45,7 +45,7 @@ class LignesBulletinComplTest extends AbstractTestCase {
      * Tests setDateFin()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateFin(): void {
 
@@ -101,7 +101,7 @@ class LignesBulletinComplTest extends AbstractTestCase {
      * Tests setPeriode()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriode(): void {
 

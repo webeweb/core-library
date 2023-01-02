@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\Proprete;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\Proprete\PointBonTrav;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -80,7 +80,7 @@ class PointBonTravTest extends AbstractTestCase {
      * Tests setDatePassage()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDatePassage(): void {
 
@@ -97,7 +97,7 @@ class PointBonTravTest extends AbstractTestCase {
      * Tests setDateRefBt()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateRefBt(): void {
 
@@ -140,7 +140,7 @@ class PointBonTravTest extends AbstractTestCase {
      * Tests setHeureDeb()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetHeureDeb(): void {
 
@@ -157,7 +157,7 @@ class PointBonTravTest extends AbstractTestCase {
      * Tests setHeureDebMob()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetHeureDebMob(): void {
 
@@ -174,7 +174,7 @@ class PointBonTravTest extends AbstractTestCase {
      * Tests setHeureFinMob()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetHeureFinMob(): void {
 
@@ -191,7 +191,7 @@ class PointBonTravTest extends AbstractTestCase {
      * Tests setHeuresJour()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetHeuresJour(): void {
 
@@ -208,7 +208,7 @@ class PointBonTravTest extends AbstractTestCase {
      * Tests setHeuresNuit()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetHeuresNuit(): void {
 

@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\Proprete;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\Proprete\EmpPrev;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -67,7 +67,7 @@ class EmpPrevTest extends AbstractTestCase {
      * Tests setDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDate(): void {
 
@@ -84,7 +84,7 @@ class EmpPrevTest extends AbstractTestCase {
      * Tests setDateAbsDecalee()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateAbsDecalee(): void {
 
@@ -101,7 +101,7 @@ class EmpPrevTest extends AbstractTestCase {
      * Tests setDateValidationSynchro()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateValidationSynchro(): void {
 
@@ -144,7 +144,7 @@ class EmpPrevTest extends AbstractTestCase {
      * Tests setDuree()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDuree(): void {
 
@@ -200,7 +200,7 @@ class EmpPrevTest extends AbstractTestCase {
      * Tests setHeureDeb()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetHeureDeb(): void {
 

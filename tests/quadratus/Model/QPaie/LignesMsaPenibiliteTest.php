@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QPaie;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QPaie\LignesMsaPenibilite;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -184,7 +184,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
      * Tests setDtDebPenibilite()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDtDebPenibilite(): void {
 
@@ -201,7 +201,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
      * Tests setDtDebPer()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDtDebPer(): void {
 
@@ -218,7 +218,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
      * Tests setDtFinPenibilite()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDtFinPenibilite(): void {
 
@@ -235,7 +235,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
      * Tests setDtFinPer()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDtFinPer(): void {
 
@@ -265,7 +265,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
      * Tests setPeriodeDecla()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriodeDecla(): void {
 

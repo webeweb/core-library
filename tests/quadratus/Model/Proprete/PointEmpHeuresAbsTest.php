@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\Proprete;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\Proprete\PointEmpHeuresAbs;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -106,7 +106,7 @@ class PointEmpHeuresAbsTest extends AbstractTestCase {
      * Tests setDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDate(): void {
 
@@ -123,7 +123,7 @@ class PointEmpHeuresAbsTest extends AbstractTestCase {
      * Tests setHeureAbs()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetHeureAbs(): void {
 
@@ -140,7 +140,7 @@ class PointEmpHeuresAbsTest extends AbstractTestCase {
      * Tests setHeureAbsNuit()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetHeureAbsNuit(): void {
 

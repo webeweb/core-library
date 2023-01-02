@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\Proprete;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\Proprete\ChantiersHistoRev;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -106,7 +106,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
      * Tests setDateRevision()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateRevision(): void {
 
@@ -175,7 +175,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
      * Tests setPeriodeRevisee()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriodeRevisee(): void {
 

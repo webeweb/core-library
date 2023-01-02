@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\Proprete;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\Proprete\PlansEnTeteBonTrav;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -158,7 +158,7 @@ class PlansEnTeteBonTravTest extends AbstractTestCase {
      * Tests setDtAvantDernPrepa()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDtAvantDernPrepa(): void {
 
@@ -175,7 +175,7 @@ class PlansEnTeteBonTravTest extends AbstractTestCase {
      * Tests setDtDernPrepa()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDtDernPrepa(): void {
 
@@ -192,7 +192,7 @@ class PlansEnTeteBonTravTest extends AbstractTestCase {
      * Tests setDtValiditeFactDeb()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDtValiditeFactDeb(): void {
 
@@ -209,7 +209,7 @@ class PlansEnTeteBonTravTest extends AbstractTestCase {
      * Tests setDtValiditeFactDebDebMois()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDtValiditeFactDebDebMois(): void {
 
@@ -226,7 +226,7 @@ class PlansEnTeteBonTravTest extends AbstractTestCase {
      * Tests setDtValiditeFactFin()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDtValiditeFactFin(): void {
 
@@ -243,7 +243,7 @@ class PlansEnTeteBonTravTest extends AbstractTestCase {
      * Tests setDtValiditeFactFinFinMois()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDtValiditeFactFinFinMois(): void {
 

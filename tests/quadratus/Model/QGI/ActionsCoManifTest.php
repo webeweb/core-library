@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QGI;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QGI\ActionsCoManif;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -67,7 +67,7 @@ class ActionsCoManifTest extends AbstractTestCase {
      * Tests setDateDeb()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateDeb(): void {
 
@@ -84,7 +84,7 @@ class ActionsCoManifTest extends AbstractTestCase {
      * Tests setDateFin()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateFin(): void {
 

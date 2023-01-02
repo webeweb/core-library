@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QPaie;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QPaie\AbsencesExcel;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -80,7 +80,7 @@ class AbsencesExcelTest extends AbstractTestCase {
      * Tests setPeriodeDeb()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriodeDeb(): void {
 
@@ -97,7 +97,7 @@ class AbsencesExcelTest extends AbstractTestCase {
      * Tests setPeriodeFin()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriodeFin(): void {
 

@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\Proprete;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\Proprete\CdeFournisseurEntete;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -236,7 +236,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
      * Tests setDateCreation()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateCreation(): void {
 
@@ -253,7 +253,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
      * Tests setDateEcheance()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateEcheance(): void {
 
@@ -270,7 +270,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
      * Tests setDateModification()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateModification(): void {
 
@@ -287,7 +287,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
      * Tests setDatePiece()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDatePiece(): void {
 
@@ -304,7 +304,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
      * Tests setDateReceptionPrevue()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateReceptionPrevue(): void {
 
@@ -581,7 +581,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
      * Tests setPeriodePreparation()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriodePreparation(): void {
 

@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QGI;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QGI\Materiels;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -93,7 +93,7 @@ class MaterielsTest extends AbstractTestCase {
      * Tests setDateAchat()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateAchat(): void {
 
@@ -110,7 +110,7 @@ class MaterielsTest extends AbstractTestCase {
      * Tests setDateFinUtil()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateFinUtil(): void {
 

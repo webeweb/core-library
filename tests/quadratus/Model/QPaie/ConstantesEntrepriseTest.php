@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QPaie;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QPaie\ConstantesEntreprise;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -457,7 +457,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      * Tests setDateDp()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateDp(): void {
 
@@ -474,7 +474,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      * Tests setDebutPeriodeDas()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDebutPeriodeDas(): void {
 
@@ -491,7 +491,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      * Tests setDebutPeriodeHistoDas()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDebutPeriodeHistoDas(): void {
 
@@ -612,7 +612,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      * Tests setDsDateRetour()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDsDateRetour(): void {
 
@@ -629,7 +629,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      * Tests setDsDateSortie()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDsDateSortie(): void {
 
@@ -672,7 +672,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      * Tests setDtDebutPeriode()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDtDebutPeriode(): void {
 
@@ -689,7 +689,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      * Tests setDtFinPeriode()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDtFinPeriode(): void {
 
@@ -1265,7 +1265,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      * Tests setFinPeriodeDas()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetFinPeriodeDas(): void {
 
@@ -1282,7 +1282,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      * Tests setFinPeriodeHistoDas()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetFinPeriodeHistoDas(): void {
 
@@ -2404,7 +2404,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      * Tests setPeriodeIPaie()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriodeIPaie(): void {
 
@@ -2421,7 +2421,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      * Tests setPeriodePaie()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriodePaie(): void {
 

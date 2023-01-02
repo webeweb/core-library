@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QPaie;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QPaie\EmpDadsuPrevoyance;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -41,7 +41,7 @@ class EmpDadsuPrevoyanceTest extends AbstractTestCase {
      * Tests setDateAncienBranche()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateAncienBranche(): void {
 
@@ -58,7 +58,7 @@ class EmpDadsuPrevoyanceTest extends AbstractTestCase {
      * Tests setDateAncienCollege()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateAncienCollege(): void {
 
@@ -75,7 +75,7 @@ class EmpDadsuPrevoyanceTest extends AbstractTestCase {
      * Tests setDateAncienPoste()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateAncienPoste(): void {
 
@@ -118,7 +118,7 @@ class EmpDadsuPrevoyanceTest extends AbstractTestCase {
      * Tests setPremDateEntree()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPremDateEntree(): void {
 

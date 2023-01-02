@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QGI;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QGI\Constantes;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -1328,7 +1328,7 @@ class ConstantesTest extends AbstractTestCase {
      * Tests setDateCloture()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateCloture(): void {
 
@@ -1345,7 +1345,7 @@ class ConstantesTest extends AbstractTestCase {
      * Tests setDtDernModifConfZone()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDtDernModifConfZone(): void {
 
@@ -2584,7 +2584,7 @@ class ConstantesTest extends AbstractTestCase {
      * Tests setProchainMoisOblig()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetProchainMoisOblig(): void {
 

@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Types\Tests\Helper;
 
-use Exception;
+use Throwable;
 use WBW\Library\Types\Helper\StringHelper;
 use WBW\Library\Types\Tests\AbstractTestCase;
 
@@ -64,7 +64,7 @@ class StringHelperTest extends AbstractTestCase {
      * Tests the extractUpperCase() method
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testExtractUpperCase(): void {
 
@@ -232,7 +232,7 @@ class StringHelperTest extends AbstractTestCase {
      * Tests the toHumanReadable() method
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testToHumanReadable(): void {
 
@@ -249,7 +249,7 @@ class StringHelperTest extends AbstractTestCase {
      * Tests the toLowerCamelCase() method
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testToLowerCamelCase(): void {
 
@@ -266,7 +266,7 @@ class StringHelperTest extends AbstractTestCase {
      * Tests the toSnakeCase() method
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testToSnakeCase(): void {
 
@@ -295,7 +295,7 @@ class StringHelperTest extends AbstractTestCase {
      * Tests the toUpperCamelCase() method
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testToUpperCamelCase(): void {
 

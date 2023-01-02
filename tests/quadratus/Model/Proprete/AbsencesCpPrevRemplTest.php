@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\Proprete;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\Proprete\AbsencesCpPrevRempl;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -54,7 +54,7 @@ class AbsencesCpPrevRemplTest extends AbstractTestCase {
      * Tests setDateDebutCp()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateDebutCp(): void {
 
@@ -71,7 +71,7 @@ class AbsencesCpPrevRemplTest extends AbstractTestCase {
      * Tests setDateDebutRempl()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateDebutRempl(): void {
 
@@ -88,7 +88,7 @@ class AbsencesCpPrevRemplTest extends AbstractTestCase {
      * Tests setDateFinRempl()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateFinRempl(): void {
 

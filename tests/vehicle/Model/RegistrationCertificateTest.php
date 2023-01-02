@@ -13,8 +13,8 @@ namespace WBW\Library\Vehicle\Tests\Model;
 
 use DateTime;
 use DateTimeZone;
-use Exception;
 use JsonSerializable;
+use Throwable;
 use WBW\Library\Vehicle\Model\RegistrationCertificate;
 use WBW\Library\Vehicle\Model\RegistrationCertificateInterface;
 use WBW\Library\Vehicle\Tests\AbstractTestCase;
@@ -31,7 +31,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
      * Tests jsonSerialize()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testJsonSerialize(): void {
 

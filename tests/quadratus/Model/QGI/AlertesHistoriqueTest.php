@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QGI;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QGI\AlertesHistorique;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -80,7 +80,7 @@ class AlertesHistoriqueTest extends AbstractTestCase {
      * Tests setDateCreation()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateCreation(): void {
 
@@ -97,7 +97,7 @@ class AlertesHistoriqueTest extends AbstractTestCase {
      * Tests setDateDeclenchement()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateDeclenchement(): void {
 
@@ -114,7 +114,7 @@ class AlertesHistoriqueTest extends AbstractTestCase {
      * Tests setDateReponse()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateReponse(): void {
 

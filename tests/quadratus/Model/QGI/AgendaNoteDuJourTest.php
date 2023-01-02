@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QGI;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QGI\AgendaNoteDuJour;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -54,7 +54,7 @@ class AgendaNoteDuJourTest extends AbstractTestCase {
      * Tests setDateModif()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateModif(): void {
 
@@ -71,7 +71,7 @@ class AgendaNoteDuJourTest extends AbstractTestCase {
      * Tests setJour()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetJour(): void {
 

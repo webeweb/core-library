@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\Proprete;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\Proprete\Employes;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -197,7 +197,7 @@ class EmployesTest extends AbstractTestCase {
      * Tests setDateAncien()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateAncien(): void {
 
@@ -214,7 +214,7 @@ class EmployesTest extends AbstractTestCase {
      * Tests setDateEntree1()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateEntree1(): void {
 
@@ -231,7 +231,7 @@ class EmployesTest extends AbstractTestCase {
      * Tests setDateEntree2()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateEntree2(): void {
 
@@ -248,7 +248,7 @@ class EmployesTest extends AbstractTestCase {
      * Tests setDateNaissance()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateNaissance(): void {
 
@@ -265,7 +265,7 @@ class EmployesTest extends AbstractTestCase {
      * Tests setDateSortie1()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateSortie1(): void {
 
@@ -282,7 +282,7 @@ class EmployesTest extends AbstractTestCase {
      * Tests setDateSortie2()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateSortie2(): void {
 
@@ -611,7 +611,7 @@ class EmployesTest extends AbstractTestCase {
      * Tests setPeriodePointageCloturee()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriodePointageCloturee(): void {
 

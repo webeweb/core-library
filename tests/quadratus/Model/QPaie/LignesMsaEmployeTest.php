@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QPaie;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QPaie\LignesMsaEmploye;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -249,7 +249,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      * Tests setDateEntree()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateEntree(): void {
 
@@ -266,7 +266,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      * Tests setDateEvo()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateEvo(): void {
 
@@ -283,7 +283,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      * Tests setDateSortie()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateSortie(): void {
 
@@ -300,7 +300,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      * Tests setDtDebAbs()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDtDebAbs(): void {
 
@@ -317,7 +317,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      * Tests setDtFinAbs()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDtFinAbs(): void {
 
@@ -1062,7 +1062,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      * Tests setPerDeb1()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPerDeb1(): void {
 
@@ -1079,7 +1079,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      * Tests setPerDeb2()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPerDeb2(): void {
 
@@ -1096,7 +1096,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      * Tests setPerDeb3()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPerDeb3(): void {
 
@@ -1113,7 +1113,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      * Tests setPerFin1()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPerFin1(): void {
 
@@ -1130,7 +1130,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      * Tests setPerFin2()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPerFin2(): void {
 
@@ -1147,7 +1147,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      * Tests setPerFin3()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPerFin3(): void {
 
@@ -1164,7 +1164,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      * Tests setPeriodeDecla()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriodeDecla(): void {
 

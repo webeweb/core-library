@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QGI;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QGI\TarifsTranches;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -93,7 +93,7 @@ class TarifsTranchesTest extends AbstractTestCase {
      * Tests setDateDebut()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateDebut(): void {
 
@@ -110,7 +110,7 @@ class TarifsTranchesTest extends AbstractTestCase {
      * Tests setDateFin()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateFin(): void {
 

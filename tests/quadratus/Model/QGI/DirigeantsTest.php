@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QGI;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QGI\Dirigeants;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -67,7 +67,7 @@ class DirigeantsTest extends AbstractTestCase {
      * Tests setDateNomination()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateNomination(): void {
 

@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QGI;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QGI\Devises;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -41,7 +41,7 @@ class DevisesTest extends AbstractTestCase {
      * Tests setDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDate(): void {
 

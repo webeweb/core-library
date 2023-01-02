@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QCompta;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QCompta\Emprunts;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -119,7 +119,7 @@ class EmpruntsTest extends AbstractTestCase {
      * Tests setDateOuverture()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateOuverture(): void {
 
@@ -136,7 +136,7 @@ class EmpruntsTest extends AbstractTestCase {
      * Tests setDatePremiereEcheance()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDatePremiereEcheance(): void {
 

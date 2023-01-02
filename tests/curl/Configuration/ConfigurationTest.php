@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Curl\Tests\Configuration;
 
-use Exception;
+use Throwable;
 use WBW\Library\Curl\Configuration\Configuration;
 use WBW\Library\Curl\Tests\AbstractTestCase;
 
@@ -27,7 +27,7 @@ class ConfigurationTest extends AbstractTestCase {
      * Tests clearHeader()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testClearHeaders(): void {
 
@@ -44,7 +44,7 @@ class ConfigurationTest extends AbstractTestCase {
      * Tests removeHeader()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testRemoveHeader(): void {
 

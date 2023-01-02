@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\Proprete;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\Proprete\Tarifs;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -171,7 +171,7 @@ class TarifsTest extends AbstractTestCase {
      * Tests setDateCreation()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateCreation(): void {
 
@@ -188,7 +188,7 @@ class TarifsTest extends AbstractTestCase {
      * Tests setDateDebut()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateDebut(): void {
 
@@ -205,7 +205,7 @@ class TarifsTest extends AbstractTestCase {
      * Tests setDateFin()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateFin(): void {
 
@@ -222,7 +222,7 @@ class TarifsTest extends AbstractTestCase {
      * Tests setDateModification()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateModification(): void {
 

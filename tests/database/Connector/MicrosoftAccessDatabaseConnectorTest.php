@@ -11,9 +11,9 @@
 
 namespace WBW\Library\Database\Tests\Connector;
 
-use Exception;
 use InvalidArgumentException;
 use PDOException;
+use Throwable;
 use WBW\Library\Database\Connector\MicrosoftAccessDatabaseConnector;
 use WBW\Library\Database\Tests\AbstractTestCase;
 
@@ -37,7 +37,7 @@ class MicrosoftAccessDatabaseConnectorTest extends AbstractTestCase {
         try {
 
             $obj->getConnection();
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
             $this->assertEquals('The database "exception" was not found', $ex->getMessage());
@@ -59,7 +59,7 @@ class MicrosoftAccessDatabaseConnectorTest extends AbstractTestCase {
         try {
 
             $obj->getConnection();
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(PDOException::class, $ex);
             $this->assertNotEmpty($ex->getMessage());

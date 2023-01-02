@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QCompta;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QCompta\Dossier1;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -561,7 +561,7 @@ class Dossier1Test extends AbstractTestCase {
      * Tests setDateLimiteSaisie()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateLimiteSaisie(): void {
 
@@ -578,7 +578,7 @@ class Dossier1Test extends AbstractTestCase {
      * Tests setDateSysChangtEx()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateSysChangtEx(): void {
 
@@ -595,7 +595,7 @@ class Dossier1Test extends AbstractTestCase {
      * Tests setDateSysCloturePeriode()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateSysCloturePeriode(): void {
 
@@ -612,7 +612,7 @@ class Dossier1Test extends AbstractTestCase {
      * Tests setDateSysCreation()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateSysCreation(): void {
 
@@ -629,7 +629,7 @@ class Dossier1Test extends AbstractTestCase {
      * Tests setDateTravail()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateTravail(): void {
 
@@ -646,7 +646,7 @@ class Dossier1Test extends AbstractTestCase {
      * Tests setDebutExercice()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDebutExercice(): void {
 
@@ -663,7 +663,7 @@ class Dossier1Test extends AbstractTestCase {
      * Tests setDebutExercice1()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDebutExercice1(): void {
 
@@ -1057,7 +1057,7 @@ class Dossier1Test extends AbstractTestCase {
      * Tests setFinExercice()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetFinExercice(): void {
 
@@ -1074,7 +1074,7 @@ class Dossier1Test extends AbstractTestCase {
      * Tests setFinExercice1()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetFinExercice1(): void {
 
@@ -1130,7 +1130,7 @@ class Dossier1Test extends AbstractTestCase {
      * Tests setLrPeriode()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetLrPeriode(): void {
 
@@ -1641,7 +1641,7 @@ class Dossier1Test extends AbstractTestCase {
      * Tests setPeriodeCloturee()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriodeCloturee(): void {
 
@@ -1658,7 +1658,7 @@ class Dossier1Test extends AbstractTestCase {
      * Tests setPeriodeValidee()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriodeValidee(): void {
 

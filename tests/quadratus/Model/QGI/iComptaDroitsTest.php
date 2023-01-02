@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QGI;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QGI\iComptaDroits;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -54,7 +54,7 @@ class iComptaDroitsTest extends AbstractTestCase {
      * Tests setDateLimiteVisu()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateLimiteVisu(): void {
 
@@ -513,7 +513,7 @@ class iComptaDroitsTest extends AbstractTestCase {
      * Tests setPeriodeSaisieDeb()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriodeSaisieDeb(): void {
 
@@ -530,7 +530,7 @@ class iComptaDroitsTest extends AbstractTestCase {
      * Tests setPeriodeSaisieFin()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriodeSaisieFin(): void {
 

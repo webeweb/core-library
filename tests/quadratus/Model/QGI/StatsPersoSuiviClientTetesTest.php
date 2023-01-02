@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QGI;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QGI\StatsPersoSuiviClientTetes;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -67,7 +67,7 @@ class StatsPersoSuiviClientTetesTest extends AbstractTestCase {
      * Tests setDateCreat()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateCreat(): void {
 
@@ -84,7 +84,7 @@ class StatsPersoSuiviClientTetesTest extends AbstractTestCase {
      * Tests setDateModif()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateModif(): void {
 

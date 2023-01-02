@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Symfony\Service;
 
-use Exception;
+use Throwable;
 
 /**
  * Token generator service interface.
@@ -25,7 +25,7 @@ interface TokenGeneratorServiceInterface {
      * Generate a token.
      *
      * @return string Returns the generated token.
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function generateToken(): string;
 }

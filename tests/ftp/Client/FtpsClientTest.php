@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Ftp\Tests\Client;
 
-use Exception;
+use Throwable;
 use WBW\Library\Ftp\Client\FtpsClient;
 use WBW\Library\Ftp\Exception\FtpException;
 use WBW\Library\Ftp\Tests\AbstractTestCase;
@@ -48,7 +48,7 @@ class FtpsClientTest extends AbstractTestCase {
      * Tests connect()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testConnect(): void {
 
@@ -63,7 +63,7 @@ class FtpsClientTest extends AbstractTestCase {
      * Tests connect()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testConnectWithFtpException(): void {
 
@@ -73,7 +73,7 @@ class FtpsClientTest extends AbstractTestCase {
         try {
 
             $obj->connect(3);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $msg = implode("", [
                 str_replace(":21", ":80", $this->message),

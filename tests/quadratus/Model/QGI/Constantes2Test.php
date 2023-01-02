@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QGI;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QGI\Constantes2;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -587,7 +587,7 @@ class Constantes2Test extends AbstractTestCase {
      * Tests setDateDha()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateDha(): void {
 
@@ -604,7 +604,7 @@ class Constantes2Test extends AbstractTestCase {
      * Tests setDateLastExeQpubWeb()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateLastExeQpubWeb(): void {
 
@@ -621,7 +621,7 @@ class Constantes2Test extends AbstractTestCase {
      * Tests setDatePha()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDatePha(): void {
 
@@ -2276,7 +2276,7 @@ class Constantes2Test extends AbstractTestCase {
      * Tests setTpPourcentageNonOperationnelDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetTpPourcentageNonOperationnelDate(): void {
 

@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Ftp\Tests\Client;
 
-use Exception;
+use Throwable;
 use WBW\Library\Ftp\Client\SftpClient;
 use WBW\Library\Ftp\Exception\FtpException;
 use WBW\Library\Ftp\Tests\AbstractTestCase;
@@ -45,7 +45,7 @@ class SftpClientTest extends AbstractTestCase {
      * Tests connect()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testConnectWithFtpException(): void {
 
@@ -61,7 +61,7 @@ class SftpClientTest extends AbstractTestCase {
         try {
 
             $obj->connect();
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $msg = implode("", [
                 str_replace(":22", ":80", $this->message),
@@ -81,7 +81,7 @@ class SftpClientTest extends AbstractTestCase {
      * Tests delete()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testDelete(): void {
 
@@ -98,7 +98,7 @@ class SftpClientTest extends AbstractTestCase {
         try {
 
             $obj->delete($this->remoteDir);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $msg = implode("", [
                 $this->message,
@@ -118,7 +118,7 @@ class SftpClientTest extends AbstractTestCase {
      * Tests get()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testGet(): void {
 
@@ -141,7 +141,7 @@ class SftpClientTest extends AbstractTestCase {
      * Tests login()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testLoginWithFtpException(): void {
 
@@ -158,7 +158,7 @@ class SftpClientTest extends AbstractTestCase {
         try {
 
             $obj->login();
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $msg = implode("", [
                 str_replace(":password", ":", $this->message),
@@ -176,7 +176,7 @@ class SftpClientTest extends AbstractTestCase {
      * Tests mkdir()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testMkdir(): void {
 
@@ -193,7 +193,7 @@ class SftpClientTest extends AbstractTestCase {
         try {
 
             $obj->mkdir("/mkdir");
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $msg = implode("", [
                 $this->message,
@@ -211,7 +211,7 @@ class SftpClientTest extends AbstractTestCase {
      * Tests put()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testPut(): void {
 
@@ -231,7 +231,7 @@ class SftpClientTest extends AbstractTestCase {
         try {
 
             $obj->put($myself, "/put");
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $msg = implode("", [
                 $this->message,
@@ -249,7 +249,7 @@ class SftpClientTest extends AbstractTestCase {
      * Tests rename()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testRename(): void {
 
@@ -266,7 +266,7 @@ class SftpClientTest extends AbstractTestCase {
         try {
 
             $obj->rename($this->remoteDir, "/rename");
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $msg = implode("", [
                 $this->message,
@@ -286,7 +286,7 @@ class SftpClientTest extends AbstractTestCase {
      * Tests rmdir()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testRmdir(): void {
 
@@ -303,7 +303,7 @@ class SftpClientTest extends AbstractTestCase {
         try {
 
             $obj->rmdir($this->remoteDir);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $msg = implode("", [
                 $this->message,

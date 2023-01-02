@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QGI;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QGI\TempsPasses;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -119,7 +119,7 @@ class TempsPassesTest extends AbstractTestCase {
      * Tests setDateSaisie()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateSaisie(): void {
 
@@ -136,7 +136,7 @@ class TempsPassesTest extends AbstractTestCase {
      * Tests setDateSysSaisie()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateSysSaisie(): void {
 
@@ -192,7 +192,7 @@ class TempsPassesTest extends AbstractTestCase {
      * Tests setHeureDebut()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetHeureDebut(): void {
 
@@ -209,7 +209,7 @@ class TempsPassesTest extends AbstractTestCase {
      * Tests setHeureFin()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetHeureFin(): void {
 
@@ -330,7 +330,7 @@ class TempsPassesTest extends AbstractTestCase {
      * Tests setPeriodeEditionNdF()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriodeEditionNdF(): void {
 
@@ -477,7 +477,7 @@ class TempsPassesTest extends AbstractTestCase {
      * Tests setValideDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetValideDate(): void {
 

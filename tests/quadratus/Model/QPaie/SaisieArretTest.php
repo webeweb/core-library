@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QPaie;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QPaie\SaisieArret;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -28,7 +28,7 @@ class SaisieArretTest extends AbstractTestCase {
      * Tests setDtCourrier()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDtCourrier(): void {
 
@@ -45,7 +45,7 @@ class SaisieArretTest extends AbstractTestCase {
      * Tests setDtDebutSaisie()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDtDebutSaisie(): void {
 
@@ -62,7 +62,7 @@ class SaisieArretTest extends AbstractTestCase {
      * Tests setDtFinSaisie()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDtFinSaisie(): void {
 

@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Provider\Tests;
 
-use Exception;
 use InvalidArgumentException;
+use Throwable;
 use WBW\Library\Provider\Tests\Fixtures\Request\TestRequest;
 use WBW\Library\Provider\Tests\Fixtures\Request\TestSubstituableRequest;
 use WBW\Library\Provider\Tests\Fixtures\TestProvider;
@@ -55,7 +55,7 @@ class AbstractProviderTest extends AbstractTestCase {
         try {
 
             $obj->buildResourcePath($request);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
             $this->assertEquals('The substituable value "{id}" is missing', $ex->getMessage());

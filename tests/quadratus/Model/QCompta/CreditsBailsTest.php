@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QCompta;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QCompta\CreditsBails;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -457,7 +457,7 @@ class CreditsBailsTest extends AbstractTestCase {
      * Tests setCrrDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetCrrDate(): void {
 
@@ -565,7 +565,7 @@ class CreditsBailsTest extends AbstractTestCase {
      * Tests setDateAcquisition()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateAcquisition(): void {
 
@@ -582,7 +582,7 @@ class CreditsBailsTest extends AbstractTestCase {
      * Tests setDateMiseService()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateMiseService(): void {
 
@@ -911,7 +911,7 @@ class CreditsBailsTest extends AbstractTestCase {
      * Tests setTpPremierPaiement()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetTpPremierPaiement(): void {
 

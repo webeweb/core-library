@@ -12,7 +12,7 @@
 namespace WBW\Library\Planning\Tests\Helper;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Planning\Helper\TimeSlotHelper;
 use WBW\Library\Planning\Model\TimeSlot;
 use WBW\Library\Planning\Tests\AbstractTestCase;
@@ -47,7 +47,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
      * Tests contains()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testContains(): void {
 
@@ -71,7 +71,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
      * Tests equals()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testEquals(): void {
 
@@ -104,7 +104,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
      * Tests fullJoin()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testFullJoin(): void {
 
@@ -136,7 +136,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
      * Tests fullJoinWithout()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testFullJoinWithout(): void {
 
@@ -192,7 +192,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
      * Tests getDuration()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testGetDuration(): void {
 
@@ -210,7 +210,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
      * Tests hasFullJoin()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testHasFullJoin(): void {
 
@@ -234,7 +234,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
      * Tests hasInnerJoin()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testHasInnerJoin(): void {
 
@@ -258,7 +258,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
      * Tests innerJoin()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testInnerJoin(): void {
 
@@ -290,7 +290,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
      * Tests leftJoin()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testLeftJoin(): void {
 
@@ -322,7 +322,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
      * Tests leftJoinWithout()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testLeftJoinWithout(): void {
 
@@ -364,7 +364,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
      * Tests merge()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testMerge(): void {
 
@@ -405,7 +405,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
      * Tests rightJoin()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testRightJoin(): void {
 
@@ -437,7 +437,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
      * Tests rightJoinWithout()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testRightJoinWithout(): void {
 

@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Curl\Tests\Request;
 
-use Exception;
+use Throwable;
 use WBW\Library\Curl\Api\RequestInterface;
 use WBW\Library\Curl\Request\PostRequest;
 use WBW\Library\Curl\Tests\AbstractTestCase;
@@ -28,7 +28,7 @@ class PostRequestTest extends AbstractTestCase {
      * Tests addPostData() method.
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testAddPostData(): void {
 
@@ -44,7 +44,7 @@ class PostRequestTest extends AbstractTestCase {
      * Tests call() method.
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testCall(): void {
 
@@ -63,7 +63,7 @@ class PostRequestTest extends AbstractTestCase {
      * Tests clearPostData()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testClearPostData(): void {
 
@@ -80,7 +80,7 @@ class PostRequestTest extends AbstractTestCase {
      * Tests removePostData() method.
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testRemovePostData(): void {
 
@@ -100,7 +100,7 @@ class PostRequestTest extends AbstractTestCase {
      * Tests __construct() method.
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function test__construct(): void {
 

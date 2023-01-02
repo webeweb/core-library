@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\Proprete;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\Proprete\AbsEmpRemplacants;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -210,7 +210,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
      * Tests setDateAbsDecalee()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateAbsDecalee(): void {
 
@@ -227,7 +227,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
      * Tests setDateDebutAbs()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateDebutAbs(): void {
 
@@ -244,7 +244,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
      * Tests setDateDebutRempl()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateDebutRempl(): void {
 
@@ -261,7 +261,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
      * Tests setDateFinRempl()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateFinRempl(): void {
 
@@ -278,7 +278,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
      * Tests setDateValidationSynchro()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateValidationSynchro(): void {
 

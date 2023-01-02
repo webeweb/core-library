@@ -12,7 +12,7 @@
 namespace WBW\Library\Traits\Tests\Compounds;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Traits\Tests\AbstractTestCase;
 use WBW\Library\Traits\Tests\Fixtures\Compounds\TestCompoundRateLimitTrait;
 
@@ -54,7 +54,7 @@ class CompoundRateLimitTraitTest extends AbstractTestCase {
      * Tests setReset()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetReset(): void {
 

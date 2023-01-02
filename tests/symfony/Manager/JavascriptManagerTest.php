@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Symfony\Tests\Manager;
 
-use Exception;
 use InvalidArgumentException;
+use Throwable;
 use WBW\Library\Symfony\Exception\AlreadyRegisteredProviderException;
 use WBW\Library\Symfony\Manager\JavascriptManager;
 use WBW\Library\Symfony\Manager\JavascriptManagerInterface;
@@ -51,7 +51,7 @@ class JavascriptManagerTest extends AbstractTestCase {
      * Tests addProvider()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testAddProvider(): void {
 
@@ -65,7 +65,7 @@ class JavascriptManagerTest extends AbstractTestCase {
      * Tests addProvider()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testAddProviderWithAlreadyRegisteredException(): void {
 
@@ -75,7 +75,7 @@ class JavascriptManagerTest extends AbstractTestCase {
         try {
 
             $obj->addProvider($this->javascriptProvider);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(AlreadyRegisteredProviderException::class, $ex);
         }
@@ -85,7 +85,7 @@ class JavascriptManagerTest extends AbstractTestCase {
      * Tests contains()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testContains(): void {
 
@@ -112,7 +112,7 @@ class JavascriptManagerTest extends AbstractTestCase {
         try {
 
             $obj->contains($provider);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
             $this->assertEquals("The provider must implements " . JavascriptProviderInterface::class, $ex->getMessage());
@@ -123,7 +123,7 @@ class JavascriptManagerTest extends AbstractTestCase {
      * Tests getJavascripts()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testGetJavascripts(): void {
 

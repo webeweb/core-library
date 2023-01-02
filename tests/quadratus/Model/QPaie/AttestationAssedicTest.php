@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QPaie;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QPaie\AttestationAssedic;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -301,7 +301,7 @@ class AttestationAssedicTest extends AbstractTestCase {
      * Tests setDateAdhesion()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateAdhesion(): void {
 
@@ -318,7 +318,7 @@ class AttestationAssedicTest extends AbstractTestCase {
      * Tests setDateConventionFne()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateConventionFne(): void {
 
@@ -335,7 +335,7 @@ class AttestationAssedicTest extends AbstractTestCase {
      * Tests setDateNaiss()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateNaiss(): void {
 
@@ -352,7 +352,7 @@ class AttestationAssedicTest extends AbstractTestCase {
      * Tests setDateNotification()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateNotification(): void {
 
@@ -369,7 +369,7 @@ class AttestationAssedicTest extends AbstractTestCase {
      * Tests setDatePaie()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDatePaie(): void {
 
@@ -386,7 +386,7 @@ class AttestationAssedicTest extends AbstractTestCase {
      * Tests setDatePaie2()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDatePaie2(): void {
 
@@ -403,7 +403,7 @@ class AttestationAssedicTest extends AbstractTestCase {
      * Tests setDatePlan()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDatePlan(): void {
 
@@ -420,7 +420,7 @@ class AttestationAssedicTest extends AbstractTestCase {
      * Tests setDemandeDdteDeb()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDemandeDdteDeb(): void {
 
@@ -437,7 +437,7 @@ class AttestationAssedicTest extends AbstractTestCase {
      * Tests setDemandeDdteFin()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDemandeDdteFin(): void {
 
@@ -454,7 +454,7 @@ class AttestationAssedicTest extends AbstractTestCase {
      * Tests setDemandeDdteReprise()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDemandeDdteReprise(): void {
 
@@ -484,7 +484,7 @@ class AttestationAssedicTest extends AbstractTestCase {
      * Tests setDernJourTrav()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDernJourTrav(): void {
 
@@ -527,7 +527,7 @@ class AttestationAssedicTest extends AbstractTestCase {
      * Tests setDureeEmploi1Deb()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDureeEmploi1Deb(): void {
 
@@ -544,7 +544,7 @@ class AttestationAssedicTest extends AbstractTestCase {
      * Tests setDureeEmploi1Fin()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDureeEmploi1Fin(): void {
 
@@ -561,7 +561,7 @@ class AttestationAssedicTest extends AbstractTestCase {
      * Tests setDureeEmploi2Deb()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDureeEmploi2Deb(): void {
 
@@ -578,7 +578,7 @@ class AttestationAssedicTest extends AbstractTestCase {
      * Tests setDureeEmploi2Fin()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDureeEmploi2Fin(): void {
 
@@ -1440,7 +1440,7 @@ class AttestationAssedicTest extends AbstractTestCase {
      * Tests setPreavisEffectueDeb()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPreavisEffectueDeb(): void {
 
@@ -1457,7 +1457,7 @@ class AttestationAssedicTest extends AbstractTestCase {
      * Tests setPreavisEffectueFin()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPreavisEffectueFin(): void {
 
@@ -1500,7 +1500,7 @@ class AttestationAssedicTest extends AbstractTestCase {
      * Tests setPreavisNonEffectueDeb()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPreavisNonEffectueDeb(): void {
 
@@ -1517,7 +1517,7 @@ class AttestationAssedicTest extends AbstractTestCase {
      * Tests setPreavisNonEffectueFin()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPreavisNonEffectueFin(): void {
 
@@ -1729,7 +1729,7 @@ class AttestationAssedicTest extends AbstractTestCase {
      * Tests setSignatureDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetSignatureDate(): void {
 
@@ -1837,7 +1837,7 @@ class AttestationAssedicTest extends AbstractTestCase {
      * Tests setSommesPeriodeDeb()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetSommesPeriodeDeb(): void {
 
@@ -1854,7 +1854,7 @@ class AttestationAssedicTest extends AbstractTestCase {
      * Tests setSommesPeriodeDeb2()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetSommesPeriodeDeb2(): void {
 
@@ -1871,7 +1871,7 @@ class AttestationAssedicTest extends AbstractTestCase {
      * Tests setSommesPeriodeFin()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetSommesPeriodeFin(): void {
 
@@ -1888,7 +1888,7 @@ class AttestationAssedicTest extends AbstractTestCase {
      * Tests setSommesPeriodeFin2()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetSommesPeriodeFin2(): void {
 
@@ -2048,7 +2048,7 @@ class AttestationAssedicTest extends AbstractTestCase {
      * Tests setValiditeConventionFne()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetValiditeConventionFne(): void {
 

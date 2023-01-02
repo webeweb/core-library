@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\Proprete;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\Proprete\CommentairesPaie;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -80,7 +80,7 @@ class CommentairesPaieTest extends AbstractTestCase {
      * Tests setDateComm()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateComm(): void {
 
@@ -97,7 +97,7 @@ class CommentairesPaieTest extends AbstractTestCase {
      * Tests setDateValidationSynchro()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateValidationSynchro(): void {
 
@@ -140,7 +140,7 @@ class CommentairesPaieTest extends AbstractTestCase {
      * Tests setPeriode()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriode(): void {
 

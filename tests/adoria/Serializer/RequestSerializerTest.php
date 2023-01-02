@@ -12,7 +12,7 @@
 namespace WBW\Library\Adoria\Tests\Serializer;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Adoria\Model\RequestData;
 use WBW\Library\Adoria\Serializer\RequestSerializer;
 use WBW\Library\Adoria\Tests\AbstractTestCase;
@@ -29,7 +29,7 @@ class RequestSerializerTest extends AbstractTestCase {
      * Tests serializeRequestData()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSerializeRequestData(): void {
 

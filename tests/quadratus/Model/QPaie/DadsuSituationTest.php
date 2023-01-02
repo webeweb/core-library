@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QPaie;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QPaie\DadsuSituation;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -67,7 +67,7 @@ class DadsuSituationTest extends AbstractTestCase {
      * Tests setDateCtrlNorme()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateCtrlNorme(): void {
 
@@ -84,7 +84,7 @@ class DadsuSituationTest extends AbstractTestCase {
      * Tests setDebutPeriode()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDebutPeriode(): void {
 
@@ -127,7 +127,7 @@ class DadsuSituationTest extends AbstractTestCase {
      * Tests setFinPeriode()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetFinPeriode(): void {
 

@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\Proprete;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\Proprete\FacturesEntetes;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -379,7 +379,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      * Tests setDateEcheance()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateEcheance(): void {
 
@@ -396,7 +396,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      * Tests setDateFacture()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateFacture(): void {
 
@@ -426,7 +426,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      * Tests setDateLimiteResiliation()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateLimiteResiliation(): void {
 

@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QPaie;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QPaie\InfosComplBul;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -860,7 +860,7 @@ class InfosComplBulTest extends AbstractTestCase {
      * Tests setDateAncienBranche()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateAncienBranche(): void {
 
@@ -877,7 +877,7 @@ class InfosComplBulTest extends AbstractTestCase {
      * Tests setDateAncienCollege()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateAncienCollege(): void {
 
@@ -894,7 +894,7 @@ class InfosComplBulTest extends AbstractTestCase {
      * Tests setDateAncienPoste()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateAncienPoste(): void {
 
@@ -911,7 +911,7 @@ class InfosComplBulTest extends AbstractTestCase {
      * Tests setDateDebutChomCdd()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateDebutChomCdd(): void {
 
@@ -928,7 +928,7 @@ class InfosComplBulTest extends AbstractTestCase {
      * Tests setDateDebutContrat()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateDebutContrat(): void {
 
@@ -945,7 +945,7 @@ class InfosComplBulTest extends AbstractTestCase {
      * Tests setDateEnvoiMail()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateEnvoiMail(): void {
 
@@ -962,7 +962,7 @@ class InfosComplBulTest extends AbstractTestCase {
      * Tests setDateFinChomCdd()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateFinChomCdd(): void {
 
@@ -979,7 +979,7 @@ class InfosComplBulTest extends AbstractTestCase {
      * Tests setDateFinContrat()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateFinContrat(): void {
 
@@ -996,7 +996,7 @@ class InfosComplBulTest extends AbstractTestCase {
      * Tests setDateFinPrev()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateFinPrev(): void {
 
@@ -1013,7 +1013,7 @@ class InfosComplBulTest extends AbstractTestCase {
      * Tests setDateRachat()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateRachat(): void {
 
@@ -1030,7 +1030,7 @@ class InfosComplBulTest extends AbstractTestCase {
      * Tests setDateRenouvCdd()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateRenouvCdd(): void {
 
@@ -1047,7 +1047,7 @@ class InfosComplBulTest extends AbstractTestCase {
      * Tests setDateRenouvCdd2()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateRenouvCdd2(): void {
 
@@ -2156,7 +2156,7 @@ class InfosComplBulTest extends AbstractTestCase {
      * Tests setPeriode()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriode(): void {
 
@@ -2212,7 +2212,7 @@ class InfosComplBulTest extends AbstractTestCase {
      * Tests setPremDateEntree()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPremDateEntree(): void {
 

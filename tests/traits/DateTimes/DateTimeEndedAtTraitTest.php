@@ -12,7 +12,7 @@
 namespace WBW\Library\Traits\Tests\DateTimes;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Traits\Tests\AbstractTestCase;
 use WBW\Library\Traits\Tests\Fixtures\DateTimes\TestDateTimeEndedAtTrait;
 
@@ -28,7 +28,7 @@ class DateTimeEndedAtTraitTest extends AbstractTestCase {
      * Tests setEndedAt()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetEndedAt(): void {
 

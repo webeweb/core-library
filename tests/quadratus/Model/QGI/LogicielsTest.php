@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QGI;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QGI\Logiciels;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -80,7 +80,7 @@ class LogicielsTest extends AbstractTestCase {
      * Tests setDateAchat()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateAchat(): void {
 
@@ -97,7 +97,7 @@ class LogicielsTest extends AbstractTestCase {
      * Tests setDateFinMaint()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateFinMaint(): void {
 

@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QGI;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QGI\Affaires;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -132,7 +132,7 @@ class AffairesTest extends AbstractTestCase {
      * Tests setDateCreation()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateCreation(): void {
 
@@ -149,7 +149,7 @@ class AffairesTest extends AbstractTestCase {
      * Tests setDateDebutPrevue()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateDebutPrevue(): void {
 
@@ -166,7 +166,7 @@ class AffairesTest extends AbstractTestCase {
      * Tests setDateDebutReelle()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateDebutReelle(): void {
 
@@ -183,7 +183,7 @@ class AffairesTest extends AbstractTestCase {
      * Tests setDateFinPrevue()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateFinPrevue(): void {
 
@@ -200,7 +200,7 @@ class AffairesTest extends AbstractTestCase {
      * Tests setDateFinReelle()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateFinReelle(): void {
 
@@ -217,7 +217,7 @@ class AffairesTest extends AbstractTestCase {
      * Tests setDateModification()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateModification(): void {
 

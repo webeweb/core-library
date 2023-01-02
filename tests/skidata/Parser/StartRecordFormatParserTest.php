@@ -13,6 +13,7 @@ namespace WBW\Library\SkiData\Tests\Parser;
 
 use DateTime;
 use Exception;
+use Throwable;
 use WBW\Library\SkiData\Exception\TooLongDataException;
 use WBW\Library\SkiData\Model\StartRecordFormat;
 use WBW\Library\SkiData\Parser\StartRecordFormatParser;
@@ -30,7 +31,7 @@ class StartRecordFormatParserTest extends AbstractTestCase {
      * Tests parseEntity()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testParseEntity(): void {
 
@@ -50,7 +51,7 @@ class StartRecordFormatParserTest extends AbstractTestCase {
      * Tests parseEntity()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testParseEntityWithSkiDataTooLongException(): void {
 
@@ -65,7 +66,7 @@ class StartRecordFormatParserTest extends AbstractTestCase {
 
             $obj->setVersionRecordStructure(2000000);
             (new StartRecordFormatParser())->parseEntity($obj);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(Exception::class, $ex);
             $this->assertEquals('The data "2000000" exceeds the length "6" allowed', $ex->getMessage());
@@ -76,7 +77,7 @@ class StartRecordFormatParserTest extends AbstractTestCase {
             $obj->setVersionRecordStructure(190000);
             $obj->setCurrency("Exception");
             (new StartRecordFormatParser())->parseEntity($obj);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(TooLongDataException::class, $ex);
             $this->assertEquals('The data "Exception" exceeds the length "6" allowed', $ex->getMessage());
@@ -87,7 +88,7 @@ class StartRecordFormatParserTest extends AbstractTestCase {
      * Tests parseLine()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testParseLine(): void {
 

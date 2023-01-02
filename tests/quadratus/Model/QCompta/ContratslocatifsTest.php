@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QCompta;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QCompta\Contratslocatifs;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -132,7 +132,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      * Tests setDateCaution()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateCaution(): void {
 
@@ -149,7 +149,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      * Tests setDateCaution2()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateCaution2(): void {
 
@@ -166,7 +166,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      * Tests setDateCaution3()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateCaution3(): void {
 
@@ -183,7 +183,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      * Tests setDateCaution4()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateCaution4(): void {
 
@@ -200,7 +200,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      * Tests setDateCaution5()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateCaution5(): void {
 
@@ -217,7 +217,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      * Tests setDateSignature()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateSignature(): void {
 
@@ -234,7 +234,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      * Tests setDateSignature2()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateSignature2(): void {
 
@@ -251,7 +251,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      * Tests setDateSignature3()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateSignature3(): void {
 
@@ -268,7 +268,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      * Tests setDateSignature4()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateSignature4(): void {
 
@@ -285,7 +285,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      * Tests setDateSignature5()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateSignature5(): void {
 

@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\Proprete;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\Proprete\PointEmpHeuresAbsComplRempl;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -145,7 +145,7 @@ class PointEmpHeuresAbsComplRemplTest extends AbstractTestCase {
      * Tests setDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDate(): void {
 
@@ -162,7 +162,7 @@ class PointEmpHeuresAbsComplRemplTest extends AbstractTestCase {
      * Tests setDateAbsDecalee()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateAbsDecalee(): void {
 
@@ -179,7 +179,7 @@ class PointEmpHeuresAbsComplRemplTest extends AbstractTestCase {
      * Tests setDateValidationSynchro()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateValidationSynchro(): void {
 
@@ -222,7 +222,7 @@ class PointEmpHeuresAbsComplRemplTest extends AbstractTestCase {
      * Tests setHeureDeb()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetHeureDeb(): void {
 
@@ -239,7 +239,7 @@ class PointEmpHeuresAbsComplRemplTest extends AbstractTestCase {
      * Tests setHeuresJour()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetHeuresJour(): void {
 
@@ -256,7 +256,7 @@ class PointEmpHeuresAbsComplRemplTest extends AbstractTestCase {
      * Tests setHeuresNuit()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetHeuresNuit(): void {
 

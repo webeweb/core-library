@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Types\Tests\Helper;
 
-use Exception;
+use Throwable;
 use WBW\Library\Types\Exception\IntegerArgumentException;
 use WBW\Library\Types\Helper\IntegerHelper;
 use WBW\Library\Types\Tests\AbstractTestCase;
@@ -58,7 +58,7 @@ class IntegerHelperTest extends AbstractTestCase {
         try {
 
             IntegerHelper::parseString("1.0");
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(IntegerArgumentException::class, $ex);
             $this->assertEquals('The argument "1.0" is not an integer', $ex->getMessage());

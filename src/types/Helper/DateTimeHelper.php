@@ -13,9 +13,9 @@ namespace WBW\Library\Types\Helper;
 
 use DateInterval;
 use DateTime;
-use Exception;
 use InvalidArgumentException;
 use Symfony\Component\Yaml\Yaml;
+use Throwable;
 use WBW\Library\Types\Exception\DateArgumentException;
 
 /**
@@ -40,7 +40,7 @@ class DateTimeHelper {
      * @param int $number The number.
      * @return DateTime Returns the date/time.
      * @throws InvalidArgumentException Throws an invalid argument exception if number is less than zero.
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public static function addDay(DateTime $dateTime, int $number): DateTime {
         static::isPositiveOrZero($number);
@@ -54,7 +54,7 @@ class DateTimeHelper {
      * @param int $number The number.
      * @return DateTime Returns the date/time.
      * @throws InvalidArgumentException Throws an invalid argument exception if number is less than zero.
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public static function addMonth(DateTime $dateTime, int $number): DateTime {
         static::isPositiveOrZero($number);
@@ -68,7 +68,7 @@ class DateTimeHelper {
      * @param int $number The number.
      * @return DateTime Returns the date/time.
      * @throws InvalidArgumentException Throws an invalid argument exception if number is less than zero.
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public static function addYear(DateTime $dateTime, int $number): DateTime {
         static::isPositiveOrZero($number);
@@ -83,7 +83,7 @@ class DateTimeHelper {
      * @param int $number The duration number.
      * @param string $unit The duration number.
      * @return DateTime Returns the date/time.
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     protected static function applyDuration(DateTime $dateTime, string $prefix, int $number, string $unit): DateTime {
 
@@ -153,7 +153,7 @@ class DateTimeHelper {
      * @param DateTime $birthdate The birthdate.
      * @param DateTime|null $refDate The reference date.
      * @return int Returns the age.
-     * @throws Exception Throws an exception if an errors occurs.
+     * @throws Throwable Throws an exception if an errors occurs.
      */
     public static function getAge(DateTime $birthdate, DateTime $refDate = null): int {
 
@@ -294,7 +294,7 @@ class DateTimeHelper {
      * @param DateTime|null $date The date.
      * @param bool $iso8601 ISO 8601 ?
      * @return DateTime[] Returns the week period.
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public static function getWeekPeriod(?DateTime $date, bool $iso8601 = true): array {
 
@@ -405,7 +405,7 @@ class DateTimeHelper {
      * @param DateTime $b The date/time B.
      * @return DateTime[]|null Returns the date/time range.
      * @throws InvalidArgumentException Throws an illegal argument exception if the two date/time does not have the same time zone.
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public static function range(DateTime $a, DateTime $b): ?array {
 
@@ -434,7 +434,7 @@ class DateTimeHelper {
      * @param int $number The number.
      * @return DateTime Returns the date/time.
      * @throws InvalidArgumentException Throws an invalid argument exception if number is less than zero.
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public static function subDay(DateTime $dateTime, int $number): DateTime {
         static::isPositiveOrZero($number);
@@ -448,7 +448,7 @@ class DateTimeHelper {
      * @param int $number The number.
      * @return DateTime Returns the date/time.
      * @throws InvalidArgumentException Throws an invalid argument exception if number is less than zero.
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public static function subMonth(DateTime $dateTime, int $number): DateTime {
         static::isPositiveOrZero($number);
@@ -462,7 +462,7 @@ class DateTimeHelper {
      * @param int $number The number.
      * @return DateTime Returns the date/time.
      * @throws InvalidArgumentException Throws an invalid argument exception if number is less than zero.
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public static function subYear(DateTime $dateTime, int $number): DateTime {
         static::isPositiveOrZero($number);

@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QGI;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QGI\Intervenants;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -470,7 +470,7 @@ class IntervenantsTest extends AbstractTestCase {
      * Tests setCreationSociete()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetCreationSociete(): void {
 
@@ -487,7 +487,7 @@ class IntervenantsTest extends AbstractTestCase {
      * Tests setDateCreat()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateCreat(): void {
 
@@ -504,7 +504,7 @@ class IntervenantsTest extends AbstractTestCase {
      * Tests setDateDebActivite()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateDebActivite(): void {
 
@@ -521,7 +521,7 @@ class IntervenantsTest extends AbstractTestCase {
      * Tests setDateDivorce()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateDivorce(): void {
 
@@ -538,7 +538,7 @@ class IntervenantsTest extends AbstractTestCase {
      * Tests setDateInstallation()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateInstallation(): void {
 
@@ -555,7 +555,7 @@ class IntervenantsTest extends AbstractTestCase {
      * Tests setDateMariage()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateMariage(): void {
 
@@ -572,7 +572,7 @@ class IntervenantsTest extends AbstractTestCase {
      * Tests setDateModif()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateModif(): void {
 
@@ -589,7 +589,7 @@ class IntervenantsTest extends AbstractTestCase {
      * Tests setDateNaissance()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateNaissance(): void {
 
@@ -814,7 +814,7 @@ class IntervenantsTest extends AbstractTestCase {
      * Tests setInscriptionRc()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetInscriptionRc(): void {
 
@@ -831,7 +831,7 @@ class IntervenantsTest extends AbstractTestCase {
      * Tests setInscriptionRm()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetInscriptionRm(): void {
 

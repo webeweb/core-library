@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QGI;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QGI\Clients2;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -158,7 +158,7 @@ class Clients2Test extends AbstractTestCase {
      * Tests setDateDebExePublication()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateDebExePublication(): void {
 
@@ -383,7 +383,7 @@ class Clients2Test extends AbstractTestCase {
      * Tests setLettreDeMissionDateSignature()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetLettreDeMissionDateSignature(): void {
 

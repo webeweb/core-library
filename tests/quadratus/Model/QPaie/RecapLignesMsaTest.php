@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QPaie;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QPaie\RecapLignesMsa;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -93,7 +93,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      * Tests setDateReglement()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateReglement(): void {
 
@@ -136,7 +136,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      * Tests setFaitLe()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetFaitLe(): void {
 
@@ -153,7 +153,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      * Tests setFinPer()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetFinPer(): void {
 
@@ -560,7 +560,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      * Tests setPerDebCice()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPerDebCice(): void {
 
@@ -577,7 +577,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      * Tests setPerFinCice()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPerFinCice(): void {
 
@@ -594,7 +594,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      * Tests setPeriodeDecla()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriodeDecla(): void {
 
@@ -624,7 +624,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      * Tests setPremMois()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPremMois(): void {
 

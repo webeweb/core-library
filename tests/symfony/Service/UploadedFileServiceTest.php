@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Symfony\Tests\Service;
 
-use Exception;
 use SplFileInfo;
+use Throwable;
 use WBW\Library\Symfony\Service\UploadedFileService;
 use WBW\Library\Symfony\Service\UploadedFileServiceInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
@@ -110,7 +110,7 @@ class UploadedFileServiceTest extends AbstractTestCase {
      * Tests uniqid()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testUniqid(): void {
 

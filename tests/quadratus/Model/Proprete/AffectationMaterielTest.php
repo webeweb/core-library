@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\Proprete;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\Proprete\AffectationMateriel;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -119,7 +119,7 @@ class AffectationMaterielTest extends AbstractTestCase {
      * Tests setDebutAffect()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDebutAffect(): void {
 
@@ -136,7 +136,7 @@ class AffectationMaterielTest extends AbstractTestCase {
      * Tests setFinAffect()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetFinAffect(): void {
 

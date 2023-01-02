@@ -12,7 +12,7 @@
 namespace WBW\Library\SkiData\Tests\Model;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\SkiData\Model\StartRecordFormat;
 use WBW\Library\SkiData\Tests\AbstractTestCase;
 
@@ -41,7 +41,7 @@ class StartRecordFormatTest extends AbstractTestCase {
      * Tests setDateFile()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateFile(): void {
 

@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QCompta;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QCompta\Assurances;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -93,7 +93,7 @@ class AssurancesTest extends AbstractTestCase {
      * Tests setDateInitiale()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateInitiale(): void {
 
@@ -110,7 +110,7 @@ class AssurancesTest extends AbstractTestCase {
      * Tests setDateSignature1()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateSignature1(): void {
 
@@ -127,7 +127,7 @@ class AssurancesTest extends AbstractTestCase {
      * Tests setDateSignature2()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateSignature2(): void {
 
@@ -144,7 +144,7 @@ class AssurancesTest extends AbstractTestCase {
      * Tests setDateSignature3()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateSignature3(): void {
 
@@ -161,7 +161,7 @@ class AssurancesTest extends AbstractTestCase {
      * Tests setDateSignature4()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateSignature4(): void {
 
@@ -178,7 +178,7 @@ class AssurancesTest extends AbstractTestCase {
      * Tests setDateSignature5()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateSignature5(): void {
 

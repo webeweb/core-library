@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QGI;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QGI\CompteurEcritures;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -41,7 +41,7 @@ class CompteurEcrituresTest extends AbstractTestCase {
      * Tests setDateComptage()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateComptage(): void {
 
@@ -110,7 +110,7 @@ class CompteurEcrituresTest extends AbstractTestCase {
      * Tests setPeriodePreparation()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriodePreparation(): void {
 

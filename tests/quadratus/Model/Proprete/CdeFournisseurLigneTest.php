@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\Proprete;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\Proprete\CdeFournisseurLigne;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -184,7 +184,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
      * Tests setDateReceptionPrevue()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateReceptionPrevue(): void {
 

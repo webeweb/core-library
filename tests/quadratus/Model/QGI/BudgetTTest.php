@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QGI;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QGI\BudgetT;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -262,7 +262,7 @@ class BudgetTTest extends AbstractTestCase {
      * Tests setDateDebut()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateDebut(): void {
 
@@ -279,7 +279,7 @@ class BudgetTTest extends AbstractTestCase {
      * Tests setDateValid()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateValid(): void {
 

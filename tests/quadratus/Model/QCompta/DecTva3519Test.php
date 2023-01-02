@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QCompta;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QCompta\DecTva3519;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -210,7 +210,7 @@ class DecTva3519Test extends AbstractTestCase {
      * Tests setDateCession()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateCession(): void {
 
@@ -227,7 +227,7 @@ class DecTva3519Test extends AbstractTestCase {
      * Tests setDateCreation()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateCreation(): void {
 
@@ -244,7 +244,7 @@ class DecTva3519Test extends AbstractTestCase {
      * Tests setDateDemande()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateDemande(): void {
 
@@ -534,7 +534,7 @@ class DecTva3519Test extends AbstractTestCase {
      * Tests setPeriode()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriode(): void {
 

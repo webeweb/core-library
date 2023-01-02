@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QGI;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QGI\AnnexeTer;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -145,7 +145,7 @@ class AnnexeTerTest extends AbstractTestCase {
      * Tests setDate1()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDate1(): void {
 
@@ -162,7 +162,7 @@ class AnnexeTerTest extends AbstractTestCase {
      * Tests setDate2()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDate2(): void {
 
@@ -179,7 +179,7 @@ class AnnexeTerTest extends AbstractTestCase {
      * Tests setDate3()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDate3(): void {
 
@@ -196,7 +196,7 @@ class AnnexeTerTest extends AbstractTestCase {
      * Tests setDate4()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDate4(): void {
 
@@ -213,7 +213,7 @@ class AnnexeTerTest extends AbstractTestCase {
      * Tests setDate5()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDate5(): void {
 
@@ -230,7 +230,7 @@ class AnnexeTerTest extends AbstractTestCase {
      * Tests setDate6()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDate6(): void {
 
@@ -247,7 +247,7 @@ class AnnexeTerTest extends AbstractTestCase {
      * Tests setDate7()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDate7(): void {
 

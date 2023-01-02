@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Security\Tests;
 
-use Exception;
+use Throwable;
 use WBW\Library\Security\TokenGenerator;
 
 /**
@@ -26,7 +26,7 @@ class TokenGeneratorTest extends AbstractTestCase {
      * Tests generateToken()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testGenerateToken(): void {
 

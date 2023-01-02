@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QCompta;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QCompta\Immobilisations;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -548,7 +548,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      * Tests setCrrDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetCrrDate(): void {
 
@@ -682,7 +682,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      * Tests setDateAcqForfait()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateAcqForfait(): void {
 
@@ -699,7 +699,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      * Tests setDateAcquisition()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateAcquisition(): void {
 
@@ -716,7 +716,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      * Tests setDateMiseService()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateMiseService(): void {
 
@@ -733,7 +733,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      * Tests setDateReeval()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateReeval(): void {
 
@@ -1114,7 +1114,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      * Tests setTpDateOrigine()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetTpDateOrigine(): void {
 
@@ -1131,7 +1131,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      * Tests setVDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetVDate(): void {
 

@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\Proprete;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\Proprete\Chantiers;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -574,7 +574,7 @@ class ChantiersTest extends AbstractTestCase {
      * Tests setDateCreat()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateCreat(): void {
 
@@ -591,7 +591,7 @@ class ChantiersTest extends AbstractTestCase {
      * Tests setDateDebut()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateDebut(): void {
 
@@ -608,7 +608,7 @@ class ChantiersTest extends AbstractTestCase {
      * Tests setDateEcheanceContrat()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateEcheanceContrat(): void {
 
@@ -625,7 +625,7 @@ class ChantiersTest extends AbstractTestCase {
      * Tests setDateFin()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateFin(): void {
 
@@ -642,7 +642,7 @@ class ChantiersTest extends AbstractTestCase {
      * Tests setDateModif()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateModif(): void {
 
@@ -659,7 +659,7 @@ class ChantiersTest extends AbstractTestCase {
      * Tests setDateRevision()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateRevision(): void {
 
@@ -689,7 +689,7 @@ class ChantiersTest extends AbstractTestCase {
      * Tests setDtAvantDernPrepa()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDtAvantDernPrepa(): void {
 
@@ -706,7 +706,7 @@ class ChantiersTest extends AbstractTestCase {
      * Tests setDtDernPrepa()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDtDernPrepa(): void {
 
@@ -723,7 +723,7 @@ class ChantiersTest extends AbstractTestCase {
      * Tests setDtValiditeFactDeb()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDtValiditeFactDeb(): void {
 
@@ -740,7 +740,7 @@ class ChantiersTest extends AbstractTestCase {
      * Tests setDtValiditeFactDebDebMois()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDtValiditeFactDebDebMois(): void {
 
@@ -757,7 +757,7 @@ class ChantiersTest extends AbstractTestCase {
      * Tests setDtValiditeFactFin()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDtValiditeFactFin(): void {
 
@@ -774,7 +774,7 @@ class ChantiersTest extends AbstractTestCase {
      * Tests setDtValiditeFactFinFinMois()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDtValiditeFactFinFinMois(): void {
 

@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Types\Tests\Helper;
 
-use Exception;
 use InvalidArgumentException;
+use Throwable;
 use WBW\Library\Types\Exception\FloatArgumentException;
 use WBW\Library\Types\Helper\FloatHelper;
 use WBW\Library\Types\Tests\AbstractTestCase;
@@ -50,7 +50,7 @@ class FloatHelperTest extends AbstractTestCase {
         try {
 
             FloatHelper::calcPercent(0, 0);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
             $this->assertEquals("The divider must be greater than zero", $ex->getMessage());
@@ -83,7 +83,7 @@ class FloatHelperTest extends AbstractTestCase {
         try {
 
             FloatHelper::parseString("1A");
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(FloatArgumentException::class, $ex);
             $this->assertEquals('The argument "1A" is not a float', $ex->getMessage());

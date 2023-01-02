@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\Proprete;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\Proprete\DevisCommercialEntetes;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -379,7 +379,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
      * Tests setDateAcceptation()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateAcceptation(): void {
 
@@ -396,7 +396,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
      * Tests setDateDevis()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateDevis(): void {
 
@@ -413,7 +413,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
      * Tests setDateEcheance()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateEcheance(): void {
 
@@ -430,7 +430,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
      * Tests setDateValidation()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateValidation(): void {
 

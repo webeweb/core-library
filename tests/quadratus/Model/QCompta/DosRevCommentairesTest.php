@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QCompta;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QCompta\DosRevCommentaires;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -106,7 +106,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
      * Tests setDtCreationQuestion()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDtCreationQuestion(): void {
 
@@ -123,7 +123,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
      * Tests setDtCreationReponse()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDtCreationReponse(): void {
 
@@ -140,7 +140,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
      * Tests setDtModifQuestion()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDtModifQuestion(): void {
 
@@ -157,7 +157,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
      * Tests setDtModifReponse()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDtModifReponse(): void {
 
@@ -174,7 +174,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
      * Tests setDtTransfertDa()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDtTransfertDa(): void {
 
@@ -230,7 +230,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
      * Tests setPeriodeRev()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriodeRev(): void {
 

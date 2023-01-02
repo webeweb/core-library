@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QGI;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QGI\LettresMissionsEntetes;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -158,7 +158,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      * Tests setDateEntretien()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateEntretien(): void {
 
@@ -175,7 +175,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      * Tests setDateSignature()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateSignature(): void {
 
@@ -192,7 +192,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      * Tests setDebutMission()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDebutMission(): void {
 
@@ -235,7 +235,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      * Tests setFinMission()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetFinMission(): void {
 

@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QCompta;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QCompta\Dossier2;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -379,7 +379,7 @@ class Dossier2Test extends AbstractTestCase {
      * Tests setDateCalculProvCp()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateCalculProvCp(): void {
 
@@ -396,7 +396,7 @@ class Dossier2Test extends AbstractTestCase {
      * Tests setDatePublication()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDatePublication(): void {
 
@@ -413,7 +413,7 @@ class Dossier2Test extends AbstractTestCase {
      * Tests setDateRazEcritures()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateRazEcritures(): void {
 
@@ -547,7 +547,7 @@ class Dossier2Test extends AbstractTestCase {
      * Tests setDsDateRetour()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDsDateRetour(): void {
 
@@ -564,7 +564,7 @@ class Dossier2Test extends AbstractTestCase {
      * Tests setDsDateSortie()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDsDateSortie(): void {
 
@@ -1127,7 +1127,7 @@ class Dossier2Test extends AbstractTestCase {
      * Tests setRffDateLotEcr()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetRffDateLotEcr(): void {
 

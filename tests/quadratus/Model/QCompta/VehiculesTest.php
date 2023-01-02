@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QCompta;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QCompta\Vehicules;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -41,7 +41,7 @@ class VehiculesTest extends AbstractTestCase {
      * Tests setDateCession()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateCession(): void {
 
@@ -58,7 +58,7 @@ class VehiculesTest extends AbstractTestCase {
      * Tests setDateImmat()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateImmat(): void {
 
@@ -75,7 +75,7 @@ class VehiculesTest extends AbstractTestCase {
      * Tests setDatePmec()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDatePmec(): void {
 

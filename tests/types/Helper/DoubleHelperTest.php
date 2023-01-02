@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Types\Tests\Helper;
 
-use Exception;
+use Throwable;
 use WBW\Library\Types\Exception\DoubleArgumentException;
 use WBW\Library\Types\Helper\DoubleHelper;
 use WBW\Library\Types\Tests\AbstractTestCase;
@@ -50,7 +50,7 @@ class DoubleHelperTest extends AbstractTestCase {
         try {
 
             DoubleHelper::parseString("1A");
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(DoubleArgumentException::class, $ex);
             $this->assertEquals('The argument "1A" is not a double', $ex->getMessage());

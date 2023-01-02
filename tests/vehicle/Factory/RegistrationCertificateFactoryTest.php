@@ -13,7 +13,7 @@ namespace WBW\Library\Vehicle\Tests\Factory;
 
 use DateTime;
 use DateTimeZone;
-use Exception;
+use Throwable;
 use WBW\Library\Vehicle\Factory\RegistrationCertificateFactory;
 use WBW\Library\Vehicle\Model\RegistrationCertificate;
 use WBW\Library\Vehicle\Tests\AbstractTestCase;
@@ -30,7 +30,7 @@ class RegistrationCertificateFactoryTest extends AbstractTestCase {
      * Tests copy()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testCopy(): void {
 

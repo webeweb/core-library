@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QPaie;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QPaie\LignesCafat;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -54,7 +54,7 @@ class LignesCafatTest extends AbstractTestCase {
      * Tests setDateDebauchage()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateDebauchage(): void {
 
@@ -71,7 +71,7 @@ class LignesCafatTest extends AbstractTestCase {
      * Tests setDateEmbauchage()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateEmbauchage(): void {
 
@@ -179,7 +179,7 @@ class LignesCafatTest extends AbstractTestCase {
      * Tests setPeriodeDecla()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriodeDecla(): void {
 

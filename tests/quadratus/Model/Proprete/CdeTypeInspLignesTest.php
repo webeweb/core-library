@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\Proprete;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\Proprete\CdeTypeInspLignes;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -158,7 +158,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
      * Tests setDateDebutValidite()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateDebutValidite(): void {
 
@@ -175,7 +175,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
      * Tests setDateFinValidite()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateFinValidite(): void {
 
@@ -192,7 +192,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
      * Tests setDateValidee()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateValidee(): void {
 

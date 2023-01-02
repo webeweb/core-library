@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\Proprete;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\Proprete\AffectationsCharge;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -353,7 +353,7 @@ class AffectationsChargeTest extends AbstractTestCase {
      * Tests setPeriodeDeb()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriodeDeb(): void {
 
@@ -370,7 +370,7 @@ class AffectationsChargeTest extends AbstractTestCase {
      * Tests setPeriodeFin()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriodeFin(): void {
 

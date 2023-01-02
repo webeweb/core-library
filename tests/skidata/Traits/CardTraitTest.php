@@ -12,7 +12,7 @@
 namespace WBW\Library\SkiData\Tests\Traits;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\SkiData\Tests\AbstractTestCase;
 use WBW\Library\SkiData\Tests\Fixtures\Traits\TestCardTrait;
 
@@ -41,7 +41,7 @@ class CardTraitTest extends AbstractTestCase {
      * Tests setBlockedDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetBlockedDate(): void {
 

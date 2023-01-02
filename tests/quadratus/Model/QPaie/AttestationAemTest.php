@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QPaie;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QPaie\AttestationAem;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -236,7 +236,7 @@ class AttestationAemTest extends AbstractTestCase {
      * Tests setDateEmbauche()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateEmbauche(): void {
 
@@ -253,7 +253,7 @@ class AttestationAemTest extends AbstractTestCase {
      * Tests setDateFinContrat()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateFinContrat(): void {
 
@@ -270,7 +270,7 @@ class AttestationAemTest extends AbstractTestCase {
      * Tests setDateFinContratInitiale()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateFinContratInitiale(): void {
 
@@ -287,7 +287,7 @@ class AttestationAemTest extends AbstractTestCase {
      * Tests setDateNaiss()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateNaiss(): void {
 
@@ -876,7 +876,7 @@ class AttestationAemTest extends AbstractTestCase {
      * Tests setPeriodeAttest()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriodeAttest(): void {
 
@@ -906,7 +906,7 @@ class AttestationAemTest extends AbstractTestCase {
      * Tests setSignatureDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetSignatureDate(): void {
 

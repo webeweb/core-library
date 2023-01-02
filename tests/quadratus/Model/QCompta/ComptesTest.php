@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QCompta;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QCompta\Comptes;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -353,7 +353,7 @@ class ComptesTest extends AbstractTestCase {
      * Tests setDateRevision()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateRevision(): void {
 
@@ -370,7 +370,7 @@ class ComptesTest extends AbstractTestCase {
      * Tests setDateSysCreation()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateSysCreation(): void {
 

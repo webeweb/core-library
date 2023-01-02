@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Image\Tests\Model;
 
-use Exception;
 use InvalidArgumentException;
+use Throwable;
 use WBW\Library\Image\Model\Image;
 use WBW\Library\Image\Model\ImageInterface;
 use WBW\Library\Image\Tests\AbstractTestCase;
@@ -131,7 +131,7 @@ class ImageTest extends AbstractTestCase {
         try {
 
             new Image($pathname);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
             $this->assertEquals("The image \"$pathname\" was not found", $ex->getMessage());

@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Database\Tests\Connector;
 
-use Exception;
 use PDOException;
+use Throwable;
 use WBW\Library\Database\Connector\MicrosoftSQLServerDatabaseConnector;
 use WBW\Library\Database\Tests\AbstractTestCase;
 
@@ -36,7 +36,7 @@ class MicrosoftSQLServerDatabaseConnectorTest extends AbstractTestCase {
         try {
 
             $obj->getConnection();
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(PDOException::class, $ex);
             $this->assertNotEmpty($ex->getMessage());

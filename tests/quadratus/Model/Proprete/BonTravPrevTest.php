@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\Proprete;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\Proprete\BonTravPrev;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -600,7 +600,7 @@ class BonTravPrevTest extends AbstractTestCase {
      * Tests setDatePassage()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDatePassage(): void {
 
@@ -617,7 +617,7 @@ class BonTravPrevTest extends AbstractTestCase {
      * Tests setDatePremierPassage()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDatePremierPassage(): void {
 
@@ -634,7 +634,7 @@ class BonTravPrevTest extends AbstractTestCase {
      * Tests setDateTransfert()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateTransfert(): void {
 
@@ -742,7 +742,7 @@ class BonTravPrevTest extends AbstractTestCase {
      * Tests setHeureDeb()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetHeureDeb(): void {
 

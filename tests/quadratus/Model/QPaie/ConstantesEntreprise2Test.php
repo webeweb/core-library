@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QPaie;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QPaie\ConstantesEntreprise2;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -28,7 +28,7 @@ class ConstantesEntreprise2Test extends AbstractTestCase {
      * Tests setDateApplicationForfaitSocial8()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateApplicationForfaitSocial8(): void {
 
@@ -45,7 +45,7 @@ class ConstantesEntreprise2Test extends AbstractTestCase {
      * Tests setDateApplicationFsLisse()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateApplicationFsLisse(): void {
 

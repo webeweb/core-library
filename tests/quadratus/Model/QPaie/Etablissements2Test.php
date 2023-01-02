@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QPaie;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QPaie\Etablissements2;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -275,7 +275,7 @@ class Etablissements2Test extends AbstractTestCase {
      * Tests setDateFinExclureLfr2012()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateFinExclureLfr2012(): void {
 

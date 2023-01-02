@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\Proprete;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\Proprete\AbsencesEmploye;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -145,7 +145,7 @@ class AbsencesEmployeTest extends AbstractTestCase {
      * Tests setDateDebutAbs()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateDebutAbs(): void {
 
@@ -162,7 +162,7 @@ class AbsencesEmployeTest extends AbstractTestCase {
      * Tests setDateFinAbs()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateFinAbs(): void {
 
@@ -179,7 +179,7 @@ class AbsencesEmployeTest extends AbstractTestCase {
      * Tests setDateValidationSynchro()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateValidationSynchro(): void {
 

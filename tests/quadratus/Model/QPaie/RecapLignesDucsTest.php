@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QPaie;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QPaie\RecapLignesDucs;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -106,7 +106,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
      * Tests setDateReglement()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateReglement(): void {
 
@@ -123,7 +123,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
      * Tests setDateVerseSalaire()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateVerseSalaire(): void {
 
@@ -179,7 +179,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
      * Tests setFinPer()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetFinPer(): void {
 
@@ -339,7 +339,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
      * Tests setPerDebCice()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPerDebCice(): void {
 
@@ -356,7 +356,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
      * Tests setPerFinCice()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPerFinCice(): void {
 
@@ -386,7 +386,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
      * Tests setPeriodeDecla()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriodeDecla(): void {
 
@@ -416,7 +416,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
      * Tests setPremMois()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPremMois(): void {
 

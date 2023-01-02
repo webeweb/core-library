@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QPaie;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QPaie\AbsencesExcelHisto;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -28,7 +28,7 @@ class AbsencesExcelHistoTest extends AbstractTestCase {
      * Tests setDateAdded()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateAdded(): void {
 
@@ -136,7 +136,7 @@ class AbsencesExcelHistoTest extends AbstractTestCase {
      * Tests setPerPaie()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPerPaie(): void {
 
@@ -153,7 +153,7 @@ class AbsencesExcelHistoTest extends AbstractTestCase {
      * Tests setPeriodeDeb()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriodeDeb(): void {
 
@@ -170,7 +170,7 @@ class AbsencesExcelHistoTest extends AbstractTestCase {
      * Tests setPeriodeDebCorr()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriodeDebCorr(): void {
 
@@ -187,7 +187,7 @@ class AbsencesExcelHistoTest extends AbstractTestCase {
      * Tests setPeriodeFin()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriodeFin(): void {
 
@@ -204,7 +204,7 @@ class AbsencesExcelHistoTest extends AbstractTestCase {
      * Tests setPeriodeFinCorr()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriodeFinCorr(): void {
 

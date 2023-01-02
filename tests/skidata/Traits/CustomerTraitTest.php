@@ -12,7 +12,7 @@
 namespace WBW\Library\SkiData\Tests\Traits;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\SkiData\Tests\AbstractTestCase;
 use WBW\Library\SkiData\Tests\Fixtures\Traits\TestCustomerTrait;
 
@@ -41,7 +41,7 @@ class CustomerTraitTest extends AbstractTestCase {
      * Tests setDatetimeLastModification()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDatetimeLastModification(): void {
 

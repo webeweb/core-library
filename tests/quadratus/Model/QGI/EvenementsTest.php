@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QGI;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QGI\Evenements;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -119,7 +119,7 @@ class EvenementsTest extends AbstractTestCase {
      * Tests setDateEvt()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateEvt(): void {
 
@@ -188,7 +188,7 @@ class EvenementsTest extends AbstractTestCase {
      * Tests setFsComptaDateAlerte()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetFsComptaDateAlerte(): void {
 
@@ -205,7 +205,7 @@ class EvenementsTest extends AbstractTestCase {
      * Tests setFsComptaDateArch()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetFsComptaDateArch(): void {
 
@@ -261,7 +261,7 @@ class EvenementsTest extends AbstractTestCase {
      * Tests setFsFiscalDateArch()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetFsFiscalDateArch(): void {
 
@@ -304,7 +304,7 @@ class EvenementsTest extends AbstractTestCase {
      * Tests setFsJuridiqueDateArch()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetFsJuridiqueDateArch(): void {
 
@@ -347,7 +347,7 @@ class EvenementsTest extends AbstractTestCase {
      * Tests setFsSocialDateAlerte()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetFsSocialDateAlerte(): void {
 
@@ -364,7 +364,7 @@ class EvenementsTest extends AbstractTestCase {
      * Tests setFsSocialDateArch()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetFsSocialDateArch(): void {
 
@@ -420,7 +420,7 @@ class EvenementsTest extends AbstractTestCase {
      * Tests setFsgiDateArch()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetFsgiDateArch(): void {
 

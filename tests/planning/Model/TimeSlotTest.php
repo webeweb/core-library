@@ -12,8 +12,8 @@
 namespace WBW\Library\Planning\Tests\Model;
 
 use DateTime;
-use Exception;
 use InvalidArgumentException;
+use Throwable;
 use WBW\Library\Planning\Model\TimeSlot;
 use WBW\Library\Planning\Tests\AbstractTestCase;
 use WBW\Library\Planning\Tests\Fixtures\TestFixtures;
@@ -67,7 +67,7 @@ class TimeSlotTest extends AbstractTestCase {
      * Tests getDuration()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testGetDuration(): void {
 
@@ -85,7 +85,7 @@ class TimeSlotTest extends AbstractTestCase {
      * Tests leftJoinWithout()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testLeftJoinWithout(): void {
 
@@ -164,7 +164,7 @@ class TimeSlotTest extends AbstractTestCase {
      * Tests removeTimeSlot()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testRemoveTimeSlot(): void {
 
@@ -188,7 +188,7 @@ class TimeSlotTest extends AbstractTestCase {
      * Tests __construct()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function test__construct(): void {
 
@@ -209,7 +209,7 @@ class TimeSlotTest extends AbstractTestCase {
         try {
 
             new TimeSlot($this->endDate, $this->startDate);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
             $this->assertEquals("The end date must be greater than start date", $ex->getMessage());

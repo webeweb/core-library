@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\Proprete;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\Proprete\QuadraDb;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -28,7 +28,7 @@ class QuadraDbTest extends AbstractTestCase {
      * Tests setDateEnvoiMessage()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateEnvoiMessage(): void {
 

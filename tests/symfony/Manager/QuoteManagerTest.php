@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Symfony\Tests\Manager;
 
-use Exception;
 use InvalidArgumentException;
+use Throwable;
 use WBW\Library\Symfony\Exception\AlreadyRegisteredProviderException;
 use WBW\Library\Symfony\Manager\ManagerInterface;
 use WBW\Library\Symfony\Manager\QuoteManager;
@@ -51,7 +51,7 @@ class QuoteManagerTest extends AbstractTestCase {
      * Tests addProvider()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testAddProvider(): void {
 
@@ -65,7 +65,7 @@ class QuoteManagerTest extends AbstractTestCase {
      * Tests addProvider()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testAddProviderWithAlreadyRegisteredException(): void {
 
@@ -75,7 +75,7 @@ class QuoteManagerTest extends AbstractTestCase {
         try {
 
             $obj->addProvider($this->quoteProvider);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(AlreadyRegisteredProviderException::class, $ex);
         }
@@ -85,7 +85,7 @@ class QuoteManagerTest extends AbstractTestCase {
      * Tests contains()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testContains(): void {
 
@@ -112,7 +112,7 @@ class QuoteManagerTest extends AbstractTestCase {
         try {
 
             $obj->contains($provider);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
             $this->assertEquals("The provider must implements " . QuoteProviderInterface::class, $ex->getMessage());
@@ -123,7 +123,7 @@ class QuoteManagerTest extends AbstractTestCase {
      * Tests getProvider()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testGetProvider(): void {
 

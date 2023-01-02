@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QCompta;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QCompta\DecTvaGroupe;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -1471,7 +1471,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
      * Tests setDebutExo()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDebutExo(): void {
 
@@ -1488,7 +1488,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
      * Tests setFinExo()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetFinExo(): void {
 
@@ -1583,7 +1583,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
      * Tests setPeriode()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriode(): void {
 

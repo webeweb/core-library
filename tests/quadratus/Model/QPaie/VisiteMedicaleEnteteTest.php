@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QPaie;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QPaie\VisiteMedicaleEntete;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -80,7 +80,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
      * Tests setDebut1()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDebut1(): void {
 
@@ -97,7 +97,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
      * Tests setDebut2()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDebut2(): void {
 
@@ -114,7 +114,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
      * Tests setDebutSession()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDebutSession(): void {
 
@@ -157,7 +157,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
      * Tests setFin1()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetFin1(): void {
 
@@ -174,7 +174,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
      * Tests setFin2()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetFin2(): void {
 
@@ -191,7 +191,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
      * Tests setFinSession()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetFinSession(): void {
 

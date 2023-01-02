@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QCompta;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QCompta\Dossier4;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -340,7 +340,7 @@ class Dossier4Test extends AbstractTestCase {
      * Tests setDatePlafondInterets()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDatePlafondInterets(): void {
 
@@ -357,7 +357,7 @@ class Dossier4Test extends AbstractTestCase {
      * Tests setDatePlafondInterets2()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDatePlafondInterets2(): void {
 
@@ -374,7 +374,7 @@ class Dossier4Test extends AbstractTestCase {
      * Tests setDateTransfLotCvae()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateTransfLotCvae(): void {
 
@@ -391,7 +391,7 @@ class Dossier4Test extends AbstractTestCase {
      * Tests setDateTransfLotIs()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateTransfLotIs(): void {
 
@@ -408,7 +408,7 @@ class Dossier4Test extends AbstractTestCase {
      * Tests setDateTransfertInterets()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateTransfertInterets(): void {
 
@@ -425,7 +425,7 @@ class Dossier4Test extends AbstractTestCase {
      * Tests setDateTransfertInterets2()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateTransfertInterets2(): void {
 
@@ -819,7 +819,7 @@ class Dossier4Test extends AbstractTestCase {
      * Tests setPeriodeTransfertStock()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriodeTransfertStock(): void {
 
@@ -940,7 +940,7 @@ class Dossier4Test extends AbstractTestCase {
      * Tests setTvaCadtm()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetTvaCadtm(): void {
 
@@ -1516,7 +1516,7 @@ class Dossier4Test extends AbstractTestCase {
      * Tests setTvaEnc3DerPerRechDa()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetTvaEnc3DerPerRechDa(): void {
 

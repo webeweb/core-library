@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QGI;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QGI\SuiviClient;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -28,7 +28,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setBilanCommentaireDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetBilanCommentaireDate(): void {
 
@@ -58,7 +58,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setBullCommentaireDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetBullCommentaireDate(): void {
 
@@ -101,7 +101,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setDadsUCommentaireDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDadsUCommentaireDate(): void {
 
@@ -131,7 +131,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setDas2CommentaireDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDas2CommentaireDate(): void {
 
@@ -161,7 +161,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setDateModif()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateModif(): void {
 
@@ -178,7 +178,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setDcrCommentaireDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDcrCommentaireDate(): void {
 
@@ -208,7 +208,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setDcrDateLimite()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDcrDateLimite(): void {
 
@@ -225,7 +225,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setDsiCommentaireDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDsiCommentaireDate(): void {
 
@@ -255,7 +255,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setDucsAssedicCommentaireDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDucsAssedicCommentaireDate(): void {
 
@@ -285,7 +285,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setDucsUrssafCommentaireDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDucsUrssafCommentaireDate(): void {
 
@@ -315,7 +315,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setFacturationCommentaireDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetFacturationCommentaireDate(): void {
 
@@ -696,7 +696,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setGeneric10CommentaireDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetGeneric10CommentaireDate(): void {
 
@@ -726,7 +726,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setGeneric10DateLimite()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetGeneric10DateLimite(): void {
 
@@ -743,7 +743,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setGeneric1CommentaireDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetGeneric1CommentaireDate(): void {
 
@@ -773,7 +773,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setGeneric1DateLimite()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetGeneric1DateLimite(): void {
 
@@ -790,7 +790,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setGeneric2CommentaireDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetGeneric2CommentaireDate(): void {
 
@@ -820,7 +820,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setGeneric2DateLimite()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetGeneric2DateLimite(): void {
 
@@ -837,7 +837,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setGeneric3CommentaireDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetGeneric3CommentaireDate(): void {
 
@@ -867,7 +867,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setGeneric3DateLimite()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetGeneric3DateLimite(): void {
 
@@ -884,7 +884,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setGeneric4CommentaireDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetGeneric4CommentaireDate(): void {
 
@@ -914,7 +914,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setGeneric4DateLimite()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetGeneric4DateLimite(): void {
 
@@ -931,7 +931,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setGeneric5CommentaireDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetGeneric5CommentaireDate(): void {
 
@@ -961,7 +961,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setGeneric5DateLimite()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetGeneric5DateLimite(): void {
 
@@ -978,7 +978,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setGeneric6CommentaireDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetGeneric6CommentaireDate(): void {
 
@@ -1008,7 +1008,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setGeneric6DateLimite()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetGeneric6DateLimite(): void {
 
@@ -1025,7 +1025,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setGeneric7CommentaireDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetGeneric7CommentaireDate(): void {
 
@@ -1055,7 +1055,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setGeneric7DateLimite()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetGeneric7DateLimite(): void {
 
@@ -1072,7 +1072,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setGeneric8CommentaireDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetGeneric8CommentaireDate(): void {
 
@@ -1102,7 +1102,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setGeneric8DateLimite()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetGeneric8DateLimite(): void {
 
@@ -1119,7 +1119,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setGeneric9CommentaireDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetGeneric9CommentaireDate(): void {
 
@@ -1149,7 +1149,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setGeneric9DateLimite()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetGeneric9DateLimite(): void {
 
@@ -1166,7 +1166,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setIfuCommentaireDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetIfuCommentaireDate(): void {
 
@@ -1196,7 +1196,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setImpotRevenuCommentaireDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetImpotRevenuCommentaireDate(): void {
 
@@ -1226,7 +1226,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setImpotRevenuDateLimite()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetImpotRevenuDateLimite(): void {
 
@@ -1243,7 +1243,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setIsaCommentaireDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetIsaCommentaireDate(): void {
 
@@ -1273,7 +1273,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setIsfCommentaireDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetIsfCommentaireDate(): void {
 
@@ -1303,7 +1303,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setIsfDateLimite()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetIsfDateLimite(): void {
 
@@ -1320,7 +1320,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setIsrCommentaireDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetIsrCommentaireDate(): void {
 
@@ -1350,7 +1350,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setIssCommentaireDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetIssCommentaireDate(): void {
 
@@ -1380,7 +1380,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setPeriode()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriode(): void {
 
@@ -1397,7 +1397,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setPlafTpCommentaireDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPlafTpCommentaireDate(): void {
 
@@ -1427,7 +1427,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setPreLibCommentaireDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPreLibCommentaireDate(): void {
 
@@ -1457,7 +1457,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setPreLibDateLimite()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPreLibDateLimite(): void {
 
@@ -1474,7 +1474,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setSituationCommentaireDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetSituationCommentaireDate(): void {
 
@@ -1504,7 +1504,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setSituationDateLimite()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetSituationDateLimite(): void {
 
@@ -1521,7 +1521,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setTabBordCommentaireDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetTabBordCommentaireDate(): void {
 
@@ -1551,7 +1551,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setTabBordDateLimite()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetTabBordDateLimite(): void {
 
@@ -1568,7 +1568,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setTpCommentaireDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetTpCommentaireDate(): void {
 
@@ -1598,7 +1598,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setTsaCommentaireDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetTsaCommentaireDate(): void {
 
@@ -1628,7 +1628,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setTssCommentaireDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetTssCommentaireDate(): void {
 
@@ -1658,7 +1658,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setTvaCommentaireDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetTvaCommentaireDate(): void {
 
@@ -1688,7 +1688,7 @@ class SuiviClientTest extends AbstractTestCase {
      * Tests setTvsCommentaireDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetTvsCommentaireDate(): void {
 

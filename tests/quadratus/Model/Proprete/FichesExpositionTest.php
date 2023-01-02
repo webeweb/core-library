@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\Proprete;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\Proprete\FichesExposition;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -67,7 +67,7 @@ class FichesExpositionTest extends AbstractTestCase {
      * Tests setDateCtrl()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateCtrl(): void {
 
@@ -84,7 +84,7 @@ class FichesExpositionTest extends AbstractTestCase {
      * Tests setDateDebExpo()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateDebExpo(): void {
 
@@ -101,7 +101,7 @@ class FichesExpositionTest extends AbstractTestCase {
      * Tests setDateFiche()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateFiche(): void {
 
@@ -118,7 +118,7 @@ class FichesExpositionTest extends AbstractTestCase {
      * Tests setDateFinExpo()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateFinExpo(): void {
 

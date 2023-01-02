@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QPaie;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QPaie\CongesSpectacles;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -119,7 +119,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      * Tests setDateCertificatEmploi()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateCertificatEmploi(): void {
 
@@ -136,7 +136,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      * Tests setDateEmbauche()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateEmbauche(): void {
 
@@ -153,7 +153,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      * Tests setDateFinContrat()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateFinContrat(): void {
 
@@ -170,7 +170,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      * Tests setDateNaissance()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateNaissance(): void {
 
@@ -187,7 +187,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      * Tests setDatePaiement()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDatePaiement(): void {
 
@@ -204,7 +204,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      * Tests setDebutPeriodeAttest()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDebutPeriodeAttest(): void {
 
@@ -611,7 +611,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      * Tests setPeriodeAttest()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriodeAttest(): void {
 

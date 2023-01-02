@@ -13,8 +13,8 @@ namespace WBW\Library\Symfony\Tests\Provider\Quote;
 
 use DateInterval;
 use DateTime;
-use Exception;
 use InvalidArgumentException;
+use Throwable;
 use WBW\Library\Symfony\Provider\Quote\WorldsWisdomQuoteProvider;
 use WBW\Library\Symfony\Provider\Quote\YamlQuoteProvider;
 use WBW\Library\Symfony\Provider\QuoteProviderInterface;
@@ -49,7 +49,7 @@ class YamlQuoteProviderTest extends AbstractTestCase {
      * Tests init()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testInit(): void {
 
@@ -105,7 +105,7 @@ class YamlQuoteProviderTest extends AbstractTestCase {
         try {
 
             new YamlQuoteProvider("exception");
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
             $this->assertEquals('The file "exception" was not found', $ex->getMessage());

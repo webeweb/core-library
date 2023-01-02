@@ -12,7 +12,7 @@
 namespace WBW\Library\SkiData\Tests\Parser;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\SkiData\Model\User;
 use WBW\Library\SkiData\Parser\UserParser;
 use WBW\Library\SkiData\Tests\AbstractTestCase;
@@ -29,7 +29,7 @@ class UserParserTest extends AbstractTestCase {
      * Tests parseEntity()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testParseEntity(): void {
 
@@ -70,7 +70,7 @@ class UserParserTest extends AbstractTestCase {
      * Tests parseLine()
      *
      * @retrun void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testParseLine(): void {
 

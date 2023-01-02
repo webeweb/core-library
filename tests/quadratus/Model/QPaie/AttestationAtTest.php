@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QPaie;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QPaie\AttestationAt;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -132,7 +132,7 @@ class AttestationAtTest extends AbstractTestCase {
      * Tests setDateAccident()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateAccident(): void {
 
@@ -149,7 +149,7 @@ class AttestationAtTest extends AbstractTestCase {
      * Tests setDateContrat()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateContrat(): void {
 
@@ -166,7 +166,7 @@ class AttestationAtTest extends AbstractTestCase {
      * Tests setDateNaissance()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateNaissance(): void {
 
@@ -183,7 +183,7 @@ class AttestationAtTest extends AbstractTestCase {
      * Tests setDernHeure()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDernHeure(): void {
 
@@ -200,7 +200,7 @@ class AttestationAtTest extends AbstractTestCase {
      * Tests setDernJ()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDernJ(): void {
 
@@ -217,7 +217,7 @@ class AttestationAtTest extends AbstractTestCase {
      * Tests setEmbauche()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetEmbauche(): void {
 
@@ -676,7 +676,7 @@ class AttestationAtTest extends AbstractTestCase {
      * Tests setPerReferenceAu()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPerReferenceAu(): void {
 
@@ -706,7 +706,7 @@ class AttestationAtTest extends AbstractTestCase {
      * Tests setPerReferenceDu()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPerReferenceDu(): void {
 
@@ -762,7 +762,7 @@ class AttestationAtTest extends AbstractTestCase {
      * Tests setPeriodeSubrAu()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriodeSubrAu(): void {
 
@@ -779,7 +779,7 @@ class AttestationAtTest extends AbstractTestCase {
      * Tests setPeriodeSubrDu()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriodeSubrDu(): void {
 
@@ -822,7 +822,7 @@ class AttestationAtTest extends AbstractTestCase {
      * Tests setReprise()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetReprise(): void {
 
@@ -878,7 +878,7 @@ class AttestationAtTest extends AbstractTestCase {
      * Tests setSignatureDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetSignatureDate(): void {
 

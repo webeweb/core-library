@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Security;
 
-use Exception;
+use Throwable;
 
 /**
  * Token generator.
@@ -25,7 +25,7 @@ class TokenGenerator {
      * Generate a token.
      *
      * @return string Returns the generated token.
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function generateToken(): string {
 

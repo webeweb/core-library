@@ -12,7 +12,7 @@
 namespace WBW\Library\SkiData\Tests\Model;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\SkiData\Model\User;
 use WBW\Library\SkiData\Tests\AbstractTestCase;
 
@@ -54,7 +54,7 @@ class UserTest extends AbstractTestCase {
      * Tests setDateBirth()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateBirth(): void {
 
@@ -146,7 +146,7 @@ class UserTest extends AbstractTestCase {
      * Tests setExpiryDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetExpiryDate(): void {
 

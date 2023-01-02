@@ -13,8 +13,8 @@ namespace WBW\Library\Billing\Tests\Model;
 
 use DateTime;
 use DateTimeZone;
-use Exception;
 use JsonSerializable;
+use Throwable;
 use WBW\Library\Billing\Model\BillableInterface;
 use WBW\Library\Billing\Model\SalesBill;
 use WBW\Library\Billing\Model\SalesBillInterface;
@@ -34,7 +34,7 @@ class SalesBillTest extends AbstractTestCase {
      * Tests jsonSerialize()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testJsonSerialize(): void {
 

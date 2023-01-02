@@ -12,8 +12,8 @@
 namespace WBW\Library\Types\Tests;
 
 use DateTime;
-use Exception;
 use InvalidArgumentException;
+use Throwable;
 use WBW\Library\Types\Exception\ArrayArgumentException;
 use WBW\Library\Types\Exception\BooleanArgumentException;
 use WBW\Library\Types\Exception\DateArgumentException;
@@ -68,7 +68,7 @@ class TypeHelperTest extends AbstractTestCase {
         try {
 
             TypeHelper::isTypeOf(null, TypeInterface::TYPE_ARRAY);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(ArrayArgumentException::class, $ex);
             $this->assertEquals('The argument "" is not an array', $ex->getMessage());
@@ -85,7 +85,7 @@ class TypeHelperTest extends AbstractTestCase {
         try {
 
             TypeHelper::isTypeOf(null, TypeInterface::TYPE_BOOLEAN);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(BooleanArgumentException::class, $ex);
             $this->assertEquals('The argument "" is not a boolean', $ex->getMessage());
@@ -102,7 +102,7 @@ class TypeHelperTest extends AbstractTestCase {
         try {
 
             TypeHelper::isTypeOf(null, TypeInterface::TYPE_DATE);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(DateArgumentException::class, $ex);
             $this->assertEquals('The argument "" is not a date', $ex->getMessage());
@@ -119,7 +119,7 @@ class TypeHelperTest extends AbstractTestCase {
         try {
 
             TypeHelper::isTypeOf(null, TypeInterface::TYPE_DOUBLE);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(DoubleArgumentException::class, $ex);
             $this->assertEquals('The argument "" is not a double', $ex->getMessage());
@@ -136,7 +136,7 @@ class TypeHelperTest extends AbstractTestCase {
         try {
 
             TypeHelper::isTypeOf(null, TypeInterface::TYPE_FLOAT);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(FloatArgumentException::class, $ex);
             $this->assertEquals('The argument "" is not a float', $ex->getMessage());
@@ -153,7 +153,7 @@ class TypeHelperTest extends AbstractTestCase {
         try {
 
             TypeHelper::isTypeOf(null, TypeInterface::TYPE_INTEGER);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(IntegerArgumentException::class, $ex);
             $this->assertEquals('The argument "" is not an integer', $ex->getMessage());
@@ -170,7 +170,7 @@ class TypeHelperTest extends AbstractTestCase {
         try {
 
             TypeHelper::isTypeOf(null, -1);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
             $this->assertEquals('The type "-1" is not implemented', $ex->getMessage());
@@ -187,7 +187,7 @@ class TypeHelperTest extends AbstractTestCase {
         try {
 
             TypeHelper::isTypeOf(null, TypeInterface::TYPE_NUMBER);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(NumberArgumentException::class, $ex);
             $this->assertEquals('The argument "" is not a number', $ex->getMessage());
@@ -204,7 +204,7 @@ class TypeHelperTest extends AbstractTestCase {
         try {
 
             TypeHelper::isTypeOf(null, TypeInterface::TYPE_OBJECT);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(ObjectArgumentException::class, $ex);
             $this->assertEquals('The argument "" is not an object', $ex->getMessage());
@@ -221,7 +221,7 @@ class TypeHelperTest extends AbstractTestCase {
         try {
 
             TypeHelper::isTypeOf(null, TypeInterface::TYPE_RESOURCE);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(ResourceArgumentException::class, $ex);
             $this->assertEquals('The argument "" is not a resource', $ex->getMessage());
@@ -238,7 +238,7 @@ class TypeHelperTest extends AbstractTestCase {
         try {
 
             TypeHelper::isTypeOf(null, TypeInterface::TYPE_STRING);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(StringArgumentException::class, $ex);
             $this->assertEquals('The argument "" is not a string', $ex->getMessage());
@@ -255,7 +255,7 @@ class TypeHelperTest extends AbstractTestCase {
         try {
 
             TypeHelper::isTypeOf(null, TypeInterface::TYPE_TIMESTAMP);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(TimestampArgumentException::class, $ex);
             $this->assertEquals('The argument "" is not a timestamp', $ex->getMessage());
@@ -288,7 +288,7 @@ class TypeHelperTest extends AbstractTestCase {
         try {
 
             TypeHelper::transform("exception", TypeInterface::TYPE_DATE, "Y-m-d");
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(DateArgumentException::class, $ex);
             $this->assertEquals('The argument "exception" is not a date', $ex->getMessage());
@@ -305,7 +305,7 @@ class TypeHelperTest extends AbstractTestCase {
         try {
 
             TypeHelper::transform(null, TypeInterface::TYPE_ARRAY);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
             $this->assertEquals('The type "220" is not implemented', $ex->getMessage());
@@ -322,7 +322,7 @@ class TypeHelperTest extends AbstractTestCase {
         try {
 
             TypeHelper::transform(null, TypeInterface::TYPE_RESOURCE);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
             $this->assertEquals('The type "419" is not implemented', $ex->getMessage());
@@ -339,7 +339,7 @@ class TypeHelperTest extends AbstractTestCase {
         try {
 
             TypeHelper::transform(null, TypeInterface::TYPE_TIMESTAMP);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
             $this->assertEquals("The date/time format is null", $ex->getMessage());
@@ -356,7 +356,7 @@ class TypeHelperTest extends AbstractTestCase {
         try {
 
             TypeHelper::transform(null, TypeInterface::TYPE_DATE);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
             $this->assertEquals("The date/time format is null", $ex->getMessage());
@@ -373,7 +373,7 @@ class TypeHelperTest extends AbstractTestCase {
         try {
 
             TypeHelper::transform(null, TypeInterface::TYPE_OBJECT);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
             $this->assertEquals('The type "204" is not implemented', $ex->getMessage());
@@ -390,7 +390,7 @@ class TypeHelperTest extends AbstractTestCase {
         try {
 
             TypeHelper::transform(null, TypeInterface::TYPE_NUMBER);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
             $this->assertEquals('The type "236" is not implemented', $ex->getMessage());
@@ -407,7 +407,7 @@ class TypeHelperTest extends AbstractTestCase {
         try {
 
             TypeHelper::transform("exception", TypeInterface::TYPE_TIMESTAMP, "Y-m-d H:m:s");
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(TimestampArgumentException::class, $ex);
             $this->assertEquals('The argument "exception" is not a timestamp', $ex->getMessage());

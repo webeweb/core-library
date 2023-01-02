@@ -12,7 +12,7 @@
 namespace WBW\Library\SkiData\Tests\Model;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\SkiData\Model\Card;
 use WBW\Library\SkiData\Tests\AbstractTestCase;
 
@@ -119,7 +119,7 @@ class CardTest extends AbstractTestCase {
      * Tests setExpires()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetExpires(): void {
 
@@ -276,7 +276,7 @@ class CardTest extends AbstractTestCase {
      * Tests setSuspendPeriodFrom()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetSuspendPeriodFrom(): void {
 
@@ -290,7 +290,7 @@ class CardTest extends AbstractTestCase {
      * Tests setSuspendPeriodUntil()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetSuspendPeriodUntil(): void {
 
@@ -369,7 +369,7 @@ class CardTest extends AbstractTestCase {
      * Tests setValidFrom()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetValidFrom(): void {
 

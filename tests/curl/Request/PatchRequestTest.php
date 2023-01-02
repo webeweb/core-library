@@ -12,7 +12,7 @@
 
 namespace WBW\Library\Curl\Tests\Request;
 
-use Exception;
+use Throwable;
 use WBW\Library\Curl\Request\PatchRequest;
 use WBW\Library\Curl\Tests\AbstractTestCase;
 
@@ -28,7 +28,7 @@ class PatchRequestTest extends AbstractTestCase {
      * Tests call() method.
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testCall(): void {
 
@@ -47,7 +47,7 @@ class PatchRequestTest extends AbstractTestCase {
      * Tests __construct() method.
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function test__construct(): void {
 

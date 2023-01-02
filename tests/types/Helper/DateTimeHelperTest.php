@@ -13,8 +13,8 @@ namespace WBW\Library\Types\Tests\Helper;
 
 use DateTime;
 use DateTimeZone;
-use Exception;
 use InvalidArgumentException;
+use Throwable;
 use WBW\Library\Types\Helper\DateTimeHelper;
 use WBW\Library\Types\Tests\AbstractTestCase;
 
@@ -30,7 +30,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      * Tests addDay()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testAddDay(): void {
 
@@ -45,7 +45,7 @@ class DateTimeHelperTest extends AbstractTestCase {
         try {
 
             DateTimeHelper::addDay($dateTime, -1);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
             $this->assertEquals("Number must be positive or equal to zero", $ex->getMessage());
@@ -56,7 +56,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      * Tests addMonth()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testAddMonth(): void {
 
@@ -71,7 +71,7 @@ class DateTimeHelperTest extends AbstractTestCase {
         try {
 
             DateTimeHelper::addMonth($dateTime, -1);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
             $this->assertEquals("Number must be positive or equal to zero", $ex->getMessage());
@@ -82,7 +82,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      * Tests addYear()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testAddYear(): void {
 
@@ -97,7 +97,7 @@ class DateTimeHelperTest extends AbstractTestCase {
         try {
 
             DateTimeHelper::addYear($dateTime, -1);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
             $this->assertEquals("Number must be positive or equal to zero", $ex->getMessage());
@@ -108,7 +108,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      * Tests compare()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testCompare(): void {
 
@@ -127,7 +127,7 @@ class DateTimeHelperTest extends AbstractTestCase {
         try {
 
             DateTimeHelper::compare(new DateTime("2018-08-22 14:05:00", new DateTimeZone("UTC")), new DateTime("2018-08-22 14:05:00", new DateTimeZone("Europe/Paris")));
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
             $this->assertEquals("The two date/times does not have the same time zone", $ex->getMessage());
@@ -138,7 +138,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      * Tests equals()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testEquals(): void {
 
@@ -151,7 +151,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      * Tests getAge()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testGetAge(): void {
 
@@ -169,7 +169,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      * Tests getDayNumber()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testGetDayNumber(): void {
 
@@ -186,7 +186,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      * Tests getDayNumber()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testGetDayNumberWithoutIso8601(): void {
 
@@ -203,7 +203,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      * Tests getDuration()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testGetDuration(): void {
 
@@ -231,7 +231,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      * Tests getGreater()
      *
      * @return void.
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testGetGreater(): void {
 
@@ -247,7 +247,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      * Tests getMonthNumber()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testGetMonthNumber(): void {
 
@@ -269,7 +269,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      * Tests getSmaller()
      *
      * @return void.
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testGetSmaller(): void {
 
@@ -285,7 +285,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      * Tests getWeekNumber()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testGetWeekNumber(): void {
 
@@ -304,7 +304,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      * Tests getWeekNumberToApply()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testGetWeekNumberToApply(): void {
 
@@ -379,7 +379,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      * Tests getWeekPeriod()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testGetWeekPeriod(): void {
 
@@ -437,7 +437,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      * Tests getWeekPeriod()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testGetWeekPeriodWithNull(): void {
 
@@ -449,7 +449,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      * Tests getWeekPeriod()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testGetWeekPeriodWithoutIso8601(): void {
 
@@ -507,7 +507,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      * Tests getYearNumber()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testGetYearNumber(): void {
 
@@ -521,7 +521,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      * Tests isBetween()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testIsBetween(): void {
 
@@ -533,7 +533,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      * Tests isGreaterThan()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testIsGreaterThan(): void {
 
@@ -545,7 +545,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      * Tests isLessThan()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testIsLessThan(): void {
 
@@ -557,7 +557,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      * Tests range()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testRange(): void {
 
@@ -578,7 +578,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      * Tests subDay()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSubDay(): void {
 
@@ -592,7 +592,7 @@ class DateTimeHelperTest extends AbstractTestCase {
         try {
 
             DateTimeHelper::subDay($dateTime, -1);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
             $this->assertEquals("Number must be positive or equal to zero", $ex->getMessage());
@@ -603,7 +603,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      * Tests subMonth()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSubMonth(): void {
 
@@ -617,7 +617,7 @@ class DateTimeHelperTest extends AbstractTestCase {
         try {
 
             DateTimeHelper::subMonth($dateTime, -1);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
             $this->assertEquals("Number must be positive or equal to zero", $ex->getMessage());
@@ -628,7 +628,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      * Tests subYear()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSubYear(): void {
 
@@ -642,7 +642,7 @@ class DateTimeHelperTest extends AbstractTestCase {
         try {
 
             DateTimeHelper::subYear($dateTime, -1);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
             $this->assertEquals("Number must be positive or equal to zero", $ex->getMessage());
@@ -653,7 +653,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      * Tests toString()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testToString(): void {
 
@@ -666,7 +666,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      * Tests translateWeekday()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testTranslateWeekday(): void {
 

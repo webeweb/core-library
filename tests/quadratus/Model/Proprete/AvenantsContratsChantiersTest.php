@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\Proprete;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\Proprete\AvenantsContratsChantiers;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -132,7 +132,7 @@ class AvenantsContratsChantiersTest extends AbstractTestCase {
      * Tests setRemplaceAu()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetRemplaceAu(): void {
 
@@ -149,7 +149,7 @@ class AvenantsContratsChantiersTest extends AbstractTestCase {
      * Tests setRemplaceDu()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetRemplaceDu(): void {
 

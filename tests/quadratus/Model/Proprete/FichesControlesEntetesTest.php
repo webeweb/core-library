@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\Proprete;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\Proprete\FichesControlesEntetes;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -106,7 +106,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
      * Tests setDateControle()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateControle(): void {
 
@@ -123,7 +123,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
      * Tests setDateCtrlPrevue()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateCtrlPrevue(): void {
 
@@ -140,7 +140,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
      * Tests setDateTransfert()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateTransfert(): void {
 
@@ -183,7 +183,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
      * Tests setHeureDebut()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetHeureDebut(): void {
 
@@ -200,7 +200,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
      * Tests setHeureFin()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetHeureFin(): void {
 

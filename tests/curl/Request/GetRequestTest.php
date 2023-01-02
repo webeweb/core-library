@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Curl\Tests\Request;
 
-use Exception;
+use Throwable;
 use WBW\Library\Curl\Api\RequestInterface;
 use WBW\Library\Curl\Exception\RequestCallException;
 use WBW\Library\Curl\Helper\CurlHelper;
@@ -30,7 +30,7 @@ class GetRequestTest extends AbstractTestCase {
      * Tests call() method.
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testCallWithAllowEncoding(): void {
 
@@ -46,7 +46,7 @@ class GetRequestTest extends AbstractTestCase {
      * Tests call() method.
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testCallWithConnectTimeout(): void {
 
@@ -62,7 +62,7 @@ class GetRequestTest extends AbstractTestCase {
      * Tests call() method.
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testCallWithDebug(): void {
 
@@ -78,7 +78,7 @@ class GetRequestTest extends AbstractTestCase {
      * Tests call() method.
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testCallWithHeader(): void {
 
@@ -95,7 +95,7 @@ class GetRequestTest extends AbstractTestCase {
      * Tests call() method.
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testCallWithHeaderApplicationJSON(): void {
 
@@ -113,7 +113,7 @@ class GetRequestTest extends AbstractTestCase {
      * Tests call() method.
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testCallWithHttpCodes(): void {
 
@@ -129,7 +129,7 @@ class GetRequestTest extends AbstractTestCase {
                 $this->assertEquals($code, $res->getResponseInfo()["http_code"]);
                 $this->assertGreaterThanOrEqual(200, $res->getResponseInfo()["http_code"]);
                 $this->assertLessThanOrEqual(299, $res->getResponseInfo()["http_code"]);
-            } catch (Exception $ex) {
+            } catch (Throwable $ex) {
 
                 $this->assertInstanceOf(RequestCallException::class, $ex);
 
@@ -144,7 +144,7 @@ class GetRequestTest extends AbstractTestCase {
      * Tests call() method.
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testCallWithRequestTimeout(): void {
 
@@ -160,7 +160,7 @@ class GetRequestTest extends AbstractTestCase {
      * Tests call() method.
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testCallWithRequestTimeoutException(): void {
 
@@ -171,7 +171,7 @@ class GetRequestTest extends AbstractTestCase {
         try {
 
             $obj->call();
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(RequestCallException::class, $ex);
 
@@ -185,7 +185,7 @@ class GetRequestTest extends AbstractTestCase {
      * Tests call() method.
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testCallWithSSLVerification(): void {
 
@@ -201,7 +201,7 @@ class GetRequestTest extends AbstractTestCase {
      * Tests call() method.
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testCallWithVerbose(): void {
 
@@ -217,7 +217,7 @@ class GetRequestTest extends AbstractTestCase {
      * Tests clearHeader()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testClearHeaders(): void {
 
@@ -234,7 +234,7 @@ class GetRequestTest extends AbstractTestCase {
      * Tests clearQueryData()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testClearQueryData(): void {
 
@@ -251,7 +251,7 @@ class GetRequestTest extends AbstractTestCase {
      * Tests removeHeader() method.
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testRemoveHeader(): void {
 
@@ -271,7 +271,7 @@ class GetRequestTest extends AbstractTestCase {
      * Tests removeQueryData() method.
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testRemoveQueryData(): void {
 
@@ -291,7 +291,7 @@ class GetRequestTest extends AbstractTestCase {
      * Tests __construct() method.
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function test__construct(): void {
 

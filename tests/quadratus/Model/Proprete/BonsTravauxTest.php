@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\Proprete;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\Proprete\BonsTravaux;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -496,7 +496,7 @@ class BonsTravauxTest extends AbstractTestCase {
      * Tests setDateDernierPassage()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateDernierPassage(): void {
 
@@ -513,7 +513,7 @@ class BonsTravauxTest extends AbstractTestCase {
      * Tests setDateFinValidite()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateFinValidite(): void {
 
@@ -530,7 +530,7 @@ class BonsTravauxTest extends AbstractTestCase {
      * Tests setDatePremierPassage()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDatePremierPassage(): void {
 
@@ -547,7 +547,7 @@ class BonsTravauxTest extends AbstractTestCase {
      * Tests setDateValidite()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateValidite(): void {
 
@@ -629,7 +629,7 @@ class BonsTravauxTest extends AbstractTestCase {
      * Tests setHeureDeb()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetHeureDeb(): void {
 

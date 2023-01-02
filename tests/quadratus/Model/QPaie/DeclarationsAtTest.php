@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QPaie;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QPaie\DeclarationsAt;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -106,7 +106,7 @@ class DeclarationsAtTest extends AbstractTestCase {
      * Tests setDateNaissance()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateNaissance(): void {
 
@@ -136,7 +136,7 @@ class DeclarationsAtTest extends AbstractTestCase {
      * Tests setDtAccouchement()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDtAccouchement(): void {
 
@@ -153,7 +153,7 @@ class DeclarationsAtTest extends AbstractTestCase {
      * Tests setDtDebAt()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDtDebAt(): void {
 
@@ -170,7 +170,7 @@ class DeclarationsAtTest extends AbstractTestCase {
      * Tests setDtDebConges()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDtDebConges(): void {
 
@@ -187,7 +187,7 @@ class DeclarationsAtTest extends AbstractTestCase {
      * Tests setDtEmbauche()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDtEmbauche(): void {
 
@@ -204,7 +204,7 @@ class DeclarationsAtTest extends AbstractTestCase {
      * Tests setDtFinConges()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDtFinConges(): void {
 
@@ -221,7 +221,7 @@ class DeclarationsAtTest extends AbstractTestCase {
      * Tests setDtFinContrat()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDtFinContrat(): void {
 
@@ -238,7 +238,7 @@ class DeclarationsAtTest extends AbstractTestCase {
      * Tests setDtFinPreavis()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDtFinPreavis(): void {
 
@@ -450,7 +450,7 @@ class DeclarationsAtTest extends AbstractTestCase {
      * Tests setSignDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetSignDate(): void {
 

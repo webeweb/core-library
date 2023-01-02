@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Symfony\Tests\Manager;
 
-use Exception;
 use InvalidArgumentException;
+use Throwable;
 use WBW\Library\Symfony\Exception\AlreadyRegisteredProviderException;
 use WBW\Library\Symfony\Manager\ColorManager;
 use WBW\Library\Symfony\Manager\ColorManagerInterface;
@@ -52,7 +52,7 @@ class ColorManagerTest extends AbstractTestCase {
      * Tests addProvider()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testAddProvider(): void {
 
@@ -66,7 +66,7 @@ class ColorManagerTest extends AbstractTestCase {
      * Tests addProvider()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testAddProviderWithAlreadyRegisteredException(): void {
 
@@ -76,7 +76,7 @@ class ColorManagerTest extends AbstractTestCase {
         try {
 
             $obj->addProvider($this->colorProvider);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(AlreadyRegisteredProviderException::class, $ex);
         }
@@ -86,7 +86,7 @@ class ColorManagerTest extends AbstractTestCase {
      * Tests contains()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testContains(): void {
 
@@ -113,7 +113,7 @@ class ColorManagerTest extends AbstractTestCase {
         try {
 
             $obj->contains($provider);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
             $this->assertEquals("The provider must implements " . ColorProviderInterface::class, $ex->getMessage());

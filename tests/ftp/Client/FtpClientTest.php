@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Ftp\Tests\Client;
 
-use Exception;
+use Throwable;
 use WBW\Library\Ftp\Client\FtpClient;
 use WBW\Library\Ftp\Exception\FtpException;
 use WBW\Library\Ftp\Tests\AbstractTestCase;
@@ -55,7 +55,7 @@ class FtpClientTest extends AbstractTestCase {
      * Tests cdup()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testCdup(): void {
 
@@ -74,7 +74,7 @@ class FtpClientTest extends AbstractTestCase {
      * Tests chdir()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testChdirWithFtpException(): void {
 
@@ -86,7 +86,7 @@ class FtpClientTest extends AbstractTestCase {
         try {
 
             $obj->chdir("/chdir");
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $msg = implode("", [
                 $this->message,
@@ -104,7 +104,7 @@ class FtpClientTest extends AbstractTestCase {
      * Tests chmod()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testChmod(): void {
 
@@ -116,7 +116,7 @@ class FtpClientTest extends AbstractTestCase {
         try {
 
             $obj->chmod(0644, $this->remoteFile);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $msg = implode("", [
                 $this->message,
@@ -136,7 +136,7 @@ class FtpClientTest extends AbstractTestCase {
      * Tests connect()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testConnectWithFtpException(): void {
 
@@ -146,7 +146,7 @@ class FtpClientTest extends AbstractTestCase {
         try {
 
             $obj->connect(3);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $msg = implode("", [
                 str_replace(":21", ":80", $this->message),
@@ -166,7 +166,7 @@ class FtpClientTest extends AbstractTestCase {
      * Tests delete()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testDelete(): void {
 
@@ -178,7 +178,7 @@ class FtpClientTest extends AbstractTestCase {
         try {
 
             $obj->delete($this->remoteFile);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $msg = implode("", [
                 $this->message,
@@ -198,7 +198,7 @@ class FtpClientTest extends AbstractTestCase {
      * Tests fget()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testFget(): void {
 
@@ -221,7 +221,7 @@ class FtpClientTest extends AbstractTestCase {
      * Tests fget()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testFgetWithFtpException(): void {
 
@@ -236,7 +236,7 @@ class FtpClientTest extends AbstractTestCase {
         try {
 
             $obj->fget($localStream, "/fget");
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $msg = implode("", [
                 $this->message,
@@ -258,7 +258,7 @@ class FtpClientTest extends AbstractTestCase {
      * Tests fput()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testFput(): void {
 
@@ -273,7 +273,7 @@ class FtpClientTest extends AbstractTestCase {
         try {
 
             $obj->fput("/fput", $localStream);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $msg = implode("", [
                 $this->message,
@@ -293,7 +293,7 @@ class FtpClientTest extends AbstractTestCase {
      * Tests get()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testGet(): void {
 
@@ -311,7 +311,7 @@ class FtpClientTest extends AbstractTestCase {
      * Tests get()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testGetWithFtpException(): void {
 
@@ -323,7 +323,7 @@ class FtpClientTest extends AbstractTestCase {
         try {
 
             $obj->get($this->localFile, "/get");
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $msg = implode("", [
                 $this->message,
@@ -343,7 +343,7 @@ class FtpClientTest extends AbstractTestCase {
      * Tests login()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testLoginWithFtpException(): void {
 
@@ -354,7 +354,7 @@ class FtpClientTest extends AbstractTestCase {
         try {
 
             $obj->login();
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $msg = implode("", [
                 str_replace(":password", ":", $this->message),
@@ -374,7 +374,7 @@ class FtpClientTest extends AbstractTestCase {
      * Tests mdtm()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testMdtm(): void {
 
@@ -392,7 +392,7 @@ class FtpClientTest extends AbstractTestCase {
      * Tests mdtm()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testMdtmWithFtpException(): void {
 
@@ -404,7 +404,7 @@ class FtpClientTest extends AbstractTestCase {
         try {
 
             $obj->mdtm("/mdtm");
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $msg = implode("", [
                 $this->message,
@@ -422,7 +422,7 @@ class FtpClientTest extends AbstractTestCase {
      * Tests mkdir()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testMkdir(): void {
 
@@ -434,7 +434,7 @@ class FtpClientTest extends AbstractTestCase {
         try {
 
             $obj->mkdir("/mkdir");
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $msg = implode("", [
                 $this->message,
@@ -452,7 +452,7 @@ class FtpClientTest extends AbstractTestCase {
      * Tests nbFget()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testNbFget(): void {
 
@@ -475,7 +475,7 @@ class FtpClientTest extends AbstractTestCase {
      * Tests nbFput()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testNbFput(): void {
 
@@ -498,7 +498,7 @@ class FtpClientTest extends AbstractTestCase {
      * Tests nbGet()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testNbGet(): void {
 
@@ -516,7 +516,7 @@ class FtpClientTest extends AbstractTestCase {
      * Tests nbPut()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testNbPut(): void {
 
@@ -534,7 +534,7 @@ class FtpClientTest extends AbstractTestCase {
      * Tests nlist()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testNlist(): void {
 
@@ -552,7 +552,7 @@ class FtpClientTest extends AbstractTestCase {
      * Tests nlist()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testNlistWithFtpException(): void {
 
@@ -564,7 +564,7 @@ class FtpClientTest extends AbstractTestCase {
         try {
 
             $obj->nlist("/nlist");
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $msg = implode("", [
                 $this->message,
@@ -582,7 +582,7 @@ class FtpClientTest extends AbstractTestCase {
      * Tests put()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testPut(): void {
 
@@ -594,7 +594,7 @@ class FtpClientTest extends AbstractTestCase {
         try {
 
             $obj->put($this->myself, "/put");
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $msg = implode("", [
                 $this->message,
@@ -614,7 +614,7 @@ class FtpClientTest extends AbstractTestCase {
      * Tests pwd()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testPwd(): void {
 
@@ -632,7 +632,7 @@ class FtpClientTest extends AbstractTestCase {
      * Tests rawList()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testRawListWithFtpException(): void {
 
@@ -644,7 +644,7 @@ class FtpClientTest extends AbstractTestCase {
         try {
 
             $obj->rawList("/rawList");
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $msg = implode("", [
                 $this->message,
@@ -662,7 +662,7 @@ class FtpClientTest extends AbstractTestCase {
      * Tests rawList()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testRawlist(): void {
 
@@ -680,7 +680,7 @@ class FtpClientTest extends AbstractTestCase {
      * Tests rename()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testRename(): void {
 
@@ -692,7 +692,7 @@ class FtpClientTest extends AbstractTestCase {
         try {
 
             $obj->rename($this->remoteDir, "/rename");
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $msg = implode("", [
                 $this->message,
@@ -712,7 +712,7 @@ class FtpClientTest extends AbstractTestCase {
      * Tests rmdir()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testRmdir(): void {
 
@@ -724,7 +724,7 @@ class FtpClientTest extends AbstractTestCase {
         try {
 
             $obj->rmdir($this->remoteDir);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $msg = implode("", [
                 $this->message,
@@ -744,7 +744,7 @@ class FtpClientTest extends AbstractTestCase {
      * Tests size()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSize(): void {
 
@@ -762,7 +762,7 @@ class FtpClientTest extends AbstractTestCase {
      * Tests size()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSizetWithFtpException(): void {
 
@@ -774,7 +774,7 @@ class FtpClientTest extends AbstractTestCase {
         try {
 
             $obj->size("/size");
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $msg = implode("", [
                 $this->message,
@@ -792,7 +792,7 @@ class FtpClientTest extends AbstractTestCase {
      * Tests systype()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSystype(): void {
 

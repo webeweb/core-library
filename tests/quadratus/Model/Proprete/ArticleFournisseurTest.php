@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\Proprete;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\Proprete\ArticleFournisseur;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -41,7 +41,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
      * Tests setAvtDerDateAchat()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetAvtDerDateAchat(): void {
 
@@ -240,7 +240,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
      * Tests setDerDateAchat()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDerDateAchat(): void {
 
@@ -348,7 +348,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
      * Tests setMiniDateAchat()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetMiniDateAchat(): void {
 

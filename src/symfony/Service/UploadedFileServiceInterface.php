@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Symfony\Service;
 
-use Exception;
 use SplFileInfo;
+use Throwable;
 
 /**
  * Uploaded file service interface.
@@ -59,7 +59,7 @@ interface UploadedFileServiceInterface {
      * Unique id.
      *
      * @return string Returns the unique id.
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function uniqid(): string;
 

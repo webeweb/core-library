@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QGI;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QGI\LiaisonsHistorique;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -41,7 +41,7 @@ class LiaisonsHistoriqueTest extends AbstractTestCase {
      * Tests setDateLiaison()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateLiaison(): void {
 
@@ -58,7 +58,7 @@ class LiaisonsHistoriqueTest extends AbstractTestCase {
      * Tests setDateRetourPrevue()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateRetourPrevue(): void {
 

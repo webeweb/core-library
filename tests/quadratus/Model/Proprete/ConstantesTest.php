@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\Proprete;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\Proprete\Constantes;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -28,7 +28,7 @@ class ConstantesTest extends AbstractTestCase {
      * Tests set35Heures()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSet35Heures(): void {
 
@@ -1124,7 +1124,7 @@ class ConstantesTest extends AbstractTestCase {
      * Tests setDateAppliGestionHeuresEnPlus()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateAppliGestionHeuresEnPlus(): void {
 
@@ -1141,7 +1141,7 @@ class ConstantesTest extends AbstractTestCase {
      * Tests setDateJourneeSolidarite()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateJourneeSolidarite(): void {
 
@@ -1158,7 +1158,7 @@ class ConstantesTest extends AbstractTestCase {
      * Tests setDateValidationSynchro()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateValidationSynchro(): void {
 
@@ -1526,7 +1526,7 @@ class ConstantesTest extends AbstractTestCase {
      * Tests setHDebNuit()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetHDebNuit(): void {
 
@@ -1543,7 +1543,7 @@ class ConstantesTest extends AbstractTestCase {
      * Tests setHDebNuitTravNuit()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetHDebNuitTravNuit(): void {
 
@@ -1560,7 +1560,7 @@ class ConstantesTest extends AbstractTestCase {
      * Tests setHFinNuit()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetHFinNuit(): void {
 
@@ -1577,7 +1577,7 @@ class ConstantesTest extends AbstractTestCase {
      * Tests setHFinNuitTravNuit()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetHFinNuitTravNuit(): void {
 

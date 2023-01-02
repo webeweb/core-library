@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QGI;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QGI\AccesWeb;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -275,7 +275,7 @@ class AccesWebTest extends AbstractTestCase {
      * Tests setDateActivation()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateActivation(): void {
 
@@ -292,7 +292,7 @@ class AccesWebTest extends AbstractTestCase {
      * Tests setDateFin()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateFin(): void {
 
@@ -309,7 +309,7 @@ class AccesWebTest extends AbstractTestCase {
      * Tests setDernTentative()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDernTentative(): void {
 

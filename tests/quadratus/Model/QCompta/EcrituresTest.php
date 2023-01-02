@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QCompta;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QCompta\Ecritures;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -223,7 +223,7 @@ class EcrituresTest extends AbstractTestCase {
      * Tests setDateDecTva()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateDecTva(): void {
 
@@ -240,7 +240,7 @@ class EcrituresTest extends AbstractTestCase {
      * Tests setDateEcheance()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateEcheance(): void {
 
@@ -257,7 +257,7 @@ class EcrituresTest extends AbstractTestCase {
      * Tests setDatePointageAux()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDatePointageAux(): void {
 
@@ -274,7 +274,7 @@ class EcrituresTest extends AbstractTestCase {
      * Tests setDateRapproBancaire()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateRapproBancaire(): void {
 
@@ -291,7 +291,7 @@ class EcrituresTest extends AbstractTestCase {
      * Tests setDateSysSaisie()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateSysSaisie(): void {
 
@@ -308,7 +308,7 @@ class EcrituresTest extends AbstractTestCase {
      * Tests setDateSysValidation()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateSysValidation(): void {
 
@@ -338,7 +338,7 @@ class EcrituresTest extends AbstractTestCase {
      * Tests setEcheanceSimple()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetEcheanceSimple(): void {
 
@@ -784,7 +784,7 @@ class EcrituresTest extends AbstractTestCase {
      * Tests setPeriodeEcriture()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriodeEcriture(): void {
 
@@ -801,7 +801,7 @@ class EcrituresTest extends AbstractTestCase {
      * Tests setPeriodiciteDebut()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriodiciteDebut(): void {
 
@@ -818,7 +818,7 @@ class EcrituresTest extends AbstractTestCase {
      * Tests setPeriodiciteFin()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriodiciteFin(): void {
 

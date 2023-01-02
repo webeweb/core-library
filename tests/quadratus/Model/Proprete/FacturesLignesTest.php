@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\Proprete;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\Proprete\FacturesLignes;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -184,7 +184,7 @@ class FacturesLignesTest extends AbstractTestCase {
      * Tests setDateBt()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateBt(): void {
 
@@ -201,7 +201,7 @@ class FacturesLignesTest extends AbstractTestCase {
      * Tests setDatePreparation()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDatePreparation(): void {
 
@@ -491,7 +491,7 @@ class FacturesLignesTest extends AbstractTestCase {
      * Tests setPeriodePreparation()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriodePreparation(): void {
 
@@ -508,7 +508,7 @@ class FacturesLignesTest extends AbstractTestCase {
      * Tests setPeriodeVentilMarge()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriodeVentilMarge(): void {
 

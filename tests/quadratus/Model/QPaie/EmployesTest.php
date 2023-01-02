@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QPaie;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QPaie\Employes;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -119,7 +119,7 @@ class EmployesTest extends AbstractTestCase {
      * Tests setCarteSejourDelivreeLe()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetCarteSejourDelivreeLe(): void {
 
@@ -136,7 +136,7 @@ class EmployesTest extends AbstractTestCase {
      * Tests setCarteSejourExpireLe()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetCarteSejourExpireLe(): void {
 
@@ -153,7 +153,7 @@ class EmployesTest extends AbstractTestCase {
      * Tests setCarteTravailDelivreeLe()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetCarteTravailDelivreeLe(): void {
 
@@ -170,7 +170,7 @@ class EmployesTest extends AbstractTestCase {
      * Tests setCarteTravailExpireLe()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetCarteTravailExpireLe(): void {
 
@@ -1084,7 +1084,7 @@ class EmployesTest extends AbstractTestCase {
      * Tests setDateAncien()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateAncien(): void {
 
@@ -1101,7 +1101,7 @@ class EmployesTest extends AbstractTestCase {
      * Tests setDateEmbauche()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateEmbauche(): void {
 
@@ -1118,7 +1118,7 @@ class EmployesTest extends AbstractTestCase {
      * Tests setDateEntree1()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateEntree1(): void {
 
@@ -1135,7 +1135,7 @@ class EmployesTest extends AbstractTestCase {
      * Tests setDateEntree2()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateEntree2(): void {
 
@@ -1152,7 +1152,7 @@ class EmployesTest extends AbstractTestCase {
      * Tests setDateLicenciement()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateLicenciement(): void {
 
@@ -1169,7 +1169,7 @@ class EmployesTest extends AbstractTestCase {
      * Tests setDateModification()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateModification(): void {
 
@@ -1186,7 +1186,7 @@ class EmployesTest extends AbstractTestCase {
      * Tests setDateNaissConjoint()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateNaissConjoint(): void {
 
@@ -1203,7 +1203,7 @@ class EmployesTest extends AbstractTestCase {
      * Tests setDateNaissance()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateNaissance(): void {
 
@@ -1220,7 +1220,7 @@ class EmployesTest extends AbstractTestCase {
      * Tests setDateSortie1()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateSortie1(): void {
 
@@ -1237,7 +1237,7 @@ class EmployesTest extends AbstractTestCase {
      * Tests setDateSortie2()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateSortie2(): void {
 
@@ -1254,7 +1254,7 @@ class EmployesTest extends AbstractTestCase {
      * Tests setDateVisiteMedicale()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateVisiteMedicale(): void {
 
@@ -1271,7 +1271,7 @@ class EmployesTest extends AbstractTestCase {
      * Tests setDateVisiteReprise()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateVisiteReprise(): void {
 
@@ -2042,7 +2042,7 @@ class EmployesTest extends AbstractTestCase {
      * Tests setPermisDelivreLe()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPermisDelivreLe(): void {
 
@@ -2072,7 +2072,7 @@ class EmployesTest extends AbstractTestCase {
      * Tests setPermisExpireLe()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPermisExpireLe(): void {
 

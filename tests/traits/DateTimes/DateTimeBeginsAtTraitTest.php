@@ -12,7 +12,7 @@
 namespace WBW\Library\Traits\Tests\DateTimes;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Traits\Tests\AbstractTestCase;
 use WBW\Library\Traits\Tests\Fixtures\DateTimes\TestDateTimeBeginsAtTrait;
 
@@ -28,7 +28,7 @@ class DateTimeBeginsAtTraitTest extends AbstractTestCase {
      * Tests setBeginsAt()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetBeginsAt(): void {
 

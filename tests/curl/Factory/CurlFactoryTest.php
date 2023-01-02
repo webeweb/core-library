@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Curl\Tests\Factory;
 
-use Exception;
 use InvalidArgumentException;
+use Throwable;
 use WBW\Library\Curl\Api\RequestInterface;
 use WBW\Library\Curl\Api\ResponseInterface;
 use WBW\Library\Curl\Factory\CurlFactory;
@@ -37,7 +37,7 @@ class CurlFactoryTest extends AbstractTestCase {
      * Tests newCurlRequest()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testNewCurlRequestWithDelete(): void {
 
@@ -50,7 +50,7 @@ class CurlFactoryTest extends AbstractTestCase {
      * Tests newCurlRequest()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testNewCurlRequestWithGet(): void {
 
@@ -63,7 +63,7 @@ class CurlFactoryTest extends AbstractTestCase {
      * Tests newCurlRequest()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testNewCurlRequestWithHead(): void {
 
@@ -76,14 +76,14 @@ class CurlFactoryTest extends AbstractTestCase {
      * Tests newCurlRequest()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testNewCurlRequestWithInvalidArgumentException(): void {
 
         try {
 
             CurlFactory::newCurlRequest("exception");
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
             $this->assertEquals('The HTTP method "exception" is invalid', $ex->getMessage());
@@ -94,7 +94,7 @@ class CurlFactoryTest extends AbstractTestCase {
      * Tests newCurlRequest()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testNewCurlRequestWithOptions(): void {
 
@@ -107,7 +107,7 @@ class CurlFactoryTest extends AbstractTestCase {
      * Tests newCurlRequest()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testNewCurlRequestWithPatch(): void {
 
@@ -120,7 +120,7 @@ class CurlFactoryTest extends AbstractTestCase {
      * Tests newCurlRequest()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testNewCurlRequestWithPost(): void {
 
@@ -133,7 +133,7 @@ class CurlFactoryTest extends AbstractTestCase {
      * Tests newCurlRequest()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testNewCurlRequestWithPut(): void {
 
@@ -146,7 +146,7 @@ class CurlFactoryTest extends AbstractTestCase {
      * Tests newCurlResponse()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testNewCurlResponse(): void {
 

@@ -12,7 +12,7 @@
 namespace WBW\Library\Planning\Tests\Fixtures;
 
 use DateTime;
-use Exception;
+use Throwable;
 
 /**
  * Test fixtures.
@@ -26,7 +26,7 @@ class TestFixtures {
      * Get the time slot date/times.
      *
      * @return DateTime[] Returns the time slot date/times.
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public static function getDateTimes(): array {
 

@@ -12,7 +12,7 @@
 namespace WBW\Library\Adoria\Tests\Model;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Adoria\Model\Line;
 use WBW\Library\Adoria\Tests\AbstractTestCase;
 
@@ -106,7 +106,7 @@ class LineTest extends AbstractTestCase {
      * Tests setInvoiceDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetInvoiceDate(): void {
 
@@ -123,7 +123,7 @@ class LineTest extends AbstractTestCase {
      * Tests setInvoiceDueDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetInvoiceDueDate(): void {
 

@@ -12,7 +12,7 @@
 namespace WBW\Library\SkiData\Tests\Model;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\SkiData\Model\Customer;
 use WBW\Library\SkiData\Tests\AbstractTestCase;
 
@@ -41,7 +41,7 @@ class CustomerTest extends AbstractTestCase {
      * Tests setBeginDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetBeginDate(): void {
 
@@ -237,7 +237,7 @@ class CustomerTest extends AbstractTestCase {
      * Tests setTerminationDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetTerminationDate(): void {
 

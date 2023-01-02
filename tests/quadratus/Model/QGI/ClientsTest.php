@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\QGI;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\QGI\Clients;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -847,7 +847,7 @@ class ClientsTest extends AbstractTestCase {
      * Tests setDateAttribEncours()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateAttribEncours(): void {
 
@@ -864,7 +864,7 @@ class ClientsTest extends AbstractTestCase {
      * Tests setDateCreation()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateCreation(): void {
 
@@ -881,7 +881,7 @@ class ClientsTest extends AbstractTestCase {
      * Tests setDateDebActivite()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateDebActivite(): void {
 
@@ -898,7 +898,7 @@ class ClientsTest extends AbstractTestCase {
      * Tests setDateDebProf()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateDebProf(): void {
 
@@ -915,7 +915,7 @@ class ClientsTest extends AbstractTestCase {
      * Tests setDateDerniereVente()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateDerniereVente(): void {
 
@@ -932,7 +932,7 @@ class ClientsTest extends AbstractTestCase {
      * Tests setDateEntree()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateEntree(): void {
 
@@ -949,7 +949,7 @@ class ClientsTest extends AbstractTestCase {
      * Tests setDateFinActivite()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateFinActivite(): void {
 
@@ -966,7 +966,7 @@ class ClientsTest extends AbstractTestCase {
      * Tests setDateModification()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateModification(): void {
 
@@ -983,7 +983,7 @@ class ClientsTest extends AbstractTestCase {
      * Tests setDateReprise()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateReprise(): void {
 
@@ -1000,7 +1000,7 @@ class ClientsTest extends AbstractTestCase {
      * Tests setDateSortie()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateSortie(): void {
 
@@ -1095,7 +1095,7 @@ class ClientsTest extends AbstractTestCase {
      * Tests setDsDateRetour()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDsDateRetour(): void {
 
@@ -1112,7 +1112,7 @@ class ClientsTest extends AbstractTestCase {
      * Tests setDsDateSortie()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDsDateSortie(): void {
 
@@ -1168,7 +1168,7 @@ class ClientsTest extends AbstractTestCase {
      * Tests setElectionCe()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetElectionCe(): void {
 
@@ -1185,7 +1185,7 @@ class ClientsTest extends AbstractTestCase {
      * Tests setElectionDeleguePersonnel()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetElectionDeleguePersonnel(): void {
 
@@ -1410,7 +1410,7 @@ class ClientsTest extends AbstractTestCase {
      * Tests setFacturationCompta()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetFacturationCompta(): void {
 
@@ -1427,7 +1427,7 @@ class ClientsTest extends AbstractTestCase {
      * Tests setFacturationComptaPrec()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetFacturationComptaPrec(): void {
 
@@ -1483,7 +1483,7 @@ class ClientsTest extends AbstractTestCase {
      * Tests setFacturationPaie()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetFacturationPaie(): void {
 
@@ -1500,7 +1500,7 @@ class ClientsTest extends AbstractTestCase {
      * Tests setFacturationPaiePrec()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetFacturationPaiePrec(): void {
 
@@ -1712,7 +1712,7 @@ class ClientsTest extends AbstractTestCase {
      * Tests setMensualisationAu()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetMensualisationAu(): void {
 
@@ -1729,7 +1729,7 @@ class ClientsTest extends AbstractTestCase {
      * Tests setMensualisationDu()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetMensualisationDu(): void {
 

@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Tests\Helper;
 
-use Exception;
 use InvalidArgumentException;
+use Throwable;
 use WBW\Library\Core\Helper\ArchiveHelper;
 use WBW\Library\Core\Tests\AbstractTestCase;
 
@@ -82,7 +82,7 @@ class ArchiveHelperTest extends AbstractTestCase {
         try {
 
             ArchiveHelper::zip("exception", "exception.zip");
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
             $this->assertEquals('The file "exception" was not found', $ex->getMessage());

@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Symfony\Tests\Helper;
 
-use Exception;
 use InvalidArgumentException;
+use Throwable;
 use WBW\Library\Symfony\Helper\AssetsHelper;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 
@@ -61,7 +61,7 @@ class AssetsHelperTest extends AbstractTestCase {
      * Tests listAssets()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testListAssets(): void {
 
@@ -81,7 +81,7 @@ class AssetsHelperTest extends AbstractTestCase {
         try {
 
             AssetsHelper::listAssets($this->exDirectory);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
             $this->assertEquals('"' . $this->exDirectory . '" is not a directory', $ex->getMessage());
@@ -92,7 +92,7 @@ class AssetsHelperTest extends AbstractTestCase {
      * Tests unzipAssets()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testUnzipAssets(): void {
 
@@ -115,7 +115,7 @@ class AssetsHelperTest extends AbstractTestCase {
         try {
 
             AssetsHelper::unzipAssets($this->srcDirectory, $this->exDirectory);
-        } catch (Exception $ex) {
+        } catch (Throwable $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
             $this->assertEquals('"' . $this->exDirectory . '" is not a directory', $ex->getMessage());

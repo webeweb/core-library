@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\Proprete;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\Proprete\Materiel;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -54,7 +54,7 @@ class MaterielTest extends AbstractTestCase {
      * Tests setDateAchat()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateAchat(): void {
 
@@ -71,7 +71,7 @@ class MaterielTest extends AbstractTestCase {
      * Tests setDateDebutAmortissement()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateDebutAmortissement(): void {
 
@@ -88,7 +88,7 @@ class MaterielTest extends AbstractTestCase {
      * Tests setDateFinAmortissement()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateFinAmortissement(): void {
 
@@ -105,7 +105,7 @@ class MaterielTest extends AbstractTestCase {
      * Tests setDateFinService()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateFinService(): void {
 
@@ -122,7 +122,7 @@ class MaterielTest extends AbstractTestCase {
      * Tests setDateMiseEnService()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateMiseEnService(): void {
 

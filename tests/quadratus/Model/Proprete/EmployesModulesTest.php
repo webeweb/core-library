@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\Proprete;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\Proprete\EmployesModules;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -41,7 +41,7 @@ class EmployesModulesTest extends AbstractTestCase {
      * Tests setDebutModulation()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDebutModulation(): void {
 
@@ -71,7 +71,7 @@ class EmployesModulesTest extends AbstractTestCase {
      * Tests setFinModulation()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetFinModulation(): void {
 
@@ -88,7 +88,7 @@ class EmployesModulesTest extends AbstractTestCase {
      * Tests setPeriodeEcartCumule()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetPeriodeEcartCumule(): void {
 

@@ -12,7 +12,7 @@
 namespace WBW\Library\Quadratus\Tests\Model\Proprete;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Quadratus\Model\Proprete\ChantiersReclamations;
 use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
@@ -132,7 +132,7 @@ class ChantiersReclamationsTest extends AbstractTestCase {
      * Tests setDateDebutDoc()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateDebutDoc(): void {
 
@@ -149,7 +149,7 @@ class ChantiersReclamationsTest extends AbstractTestCase {
      * Tests setDateFinDoc()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateFinDoc(): void {
 
@@ -166,7 +166,7 @@ class ChantiersReclamationsTest extends AbstractTestCase {
      * Tests setDateReclam()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateReclam(): void {
 
@@ -183,7 +183,7 @@ class ChantiersReclamationsTest extends AbstractTestCase {
      * Tests setDateTraitement()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testSetDateTraitement(): void {
 

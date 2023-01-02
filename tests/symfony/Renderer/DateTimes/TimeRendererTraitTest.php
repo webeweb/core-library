@@ -12,7 +12,7 @@
 namespace WBW\Library\Symfony\Tests\Renderer\DateTimes;
 
 use DateTime;
-use Exception;
+use Throwable;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 use WBW\Library\Symfony\Tests\Fixtures\Renderer\DateTimes\TestTimeRendererTrait;
 
@@ -28,7 +28,7 @@ class TimeRendererTraitTest extends AbstractTestCase {
      * Tests renderDate()
      *
      * @return void
-     * @throws Exception Throws an exception if an error occurs.
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testRenderDate(): void {
 
