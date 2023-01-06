@@ -59,7 +59,7 @@ class JsonSerializer {
         return [
             SerializerKeys::AVAILABLE   => $model->getAvailable(),
             SerializerKeys::FILE_SYSTEM => $model->getFileSystem(),
-            SerializerKeys::MOUNT       => $model->getMountedOn(),
+            SerializerKeys::MOUNTED_ON  => $model->getMountedOn(),
             BaseSerializerKeys::NAME    => $model->getName(),
             BaseSerializerKeys::TYPE    => $model->getType(),
             SerializerKeys::USED        => $model->getUsed(),

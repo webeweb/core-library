@@ -90,11 +90,11 @@ interface SerializerKeys {
     const MAC = "mac";
 
     /**
-     * Serializer key "mount".
+     * Serializer key "mounted on".
      *
      * @var string
      */
-    const MOUNT = "mount";
+    const MOUNTED_ON = "mountedOn";
 
     /**
      * Serializer key "ni".

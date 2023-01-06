@@ -105,7 +105,7 @@ class HardDiskTest extends AbstractTestCase {
         $obj = new HardDisk();
         $obj->setAvailable(SerializerKeys::AVAILABLE);
         $obj->setFileSystem(SerializerKeys::FILE_SYSTEM);
-        $obj->setMountedOn(SerializerKeys::MOUNT);
+        $obj->setMountedOn(SerializerKeys::MOUNTED_ON);
         $obj->setName(BaseSerializerKeys::NAME);
         $obj->setType(BaseSerializerKeys::TYPE);
         $obj->setUsed(SerializerKeys::USED);

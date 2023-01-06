@@ -1,7 +1,7 @@
 {
     "available": "available",
     "fileSystem": "fileSystem",
-    "mount": "mount",
+    "mountedOn": "mountedOn",
     "name": "name",
     "type": "type",
     "usePercent": "usePercent",

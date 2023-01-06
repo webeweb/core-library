@@ -39,7 +39,7 @@ class SerializerKeysTest extends AbstractTestCase {
         $this->assertEquals("ipv4", SerializerKeys::IPV4);
         $this->assertEquals("ipv6", SerializerKeys::IPV6);
         $this->assertEquals("mac", SerializerKeys::MAC);
-        $this->assertEquals("mount", SerializerKeys::MOUNT);
+        $this->assertEquals("mountedOn", SerializerKeys::MOUNTED_ON);
         $this->assertEquals("ni", SerializerKeys::NI);
         $this->assertEquals("release", SerializerKeys::RELEASE);
         $this->assertEquals("si", SerializerKeys::SI);
