@@ -3,6 +3,7 @@ CHANGELOG
 
 ### [8.63.1](https://github.com/webeweb/core-library/tree/v8.63.1) (2023-01-06)
 
+- Fix Hard disk JSON serialization
 - Improve unit tests
 
 ### [8.63.0](https://github.com/webeweb/core-library/tree/v8.63.0) (2023-01-02)
