@@ -12,7 +12,6 @@
 namespace WBW\Library\SkiData\Tests\Parser;
 
 use DateTime;
-use Exception;
 use Throwable;
 use WBW\Library\SkiData\Exception\TooLongDataException;
 use WBW\Library\SkiData\Model\StartRecordFormat;
@@ -68,7 +67,7 @@ class StartRecordFormatParserTest extends AbstractTestCase {
             (new StartRecordFormatParser())->parseEntity($obj);
         } catch (Throwable $ex) {
 
-            $this->assertInstanceOf(Exception::class, $ex);
+            $this->assertInstanceOf(Throwable::class, $ex);
             $this->assertEquals('The data "2000000" exceeds the length "6" allowed', $ex->getMessage());
         }
 

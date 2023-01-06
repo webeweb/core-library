@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Core\Tests\Exception;
 
-use Exception;
+use Throwable;
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\Tests\Fixtures\Exception\TestException;
 
@@ -30,8 +30,8 @@ class AbstractExceptionTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        // Set an Exception mock.
-        $throwable = new Exception();
+        // Set a Throwable mock.
+        $throwable = $this->getMockBuilder(Throwable::class)->getMock();
 
         $obj = new TestException("message", 500, $throwable);
 

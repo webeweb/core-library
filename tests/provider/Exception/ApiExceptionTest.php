@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Provider\Tests\Exception;
 
-use Exception;
+use Throwable;
 use WBW\Library\Provider\Exception\ApiException;
 use WBW\Library\Provider\Tests\AbstractTestCase;
 
@@ -30,8 +30,8 @@ class ApiExceptionTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        // Set an Exception mock.
-        $throwable = new Exception();
+        // Set a Throwable mock.
+        $throwable = $this->getMockBuilder(Throwable::class)->getMock();
 
         $obj = new ApiException("message", 500, $throwable);
 
