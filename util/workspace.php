@@ -615,12 +615,12 @@ try {
 
     $arguments = Workspace::parseArguments($argv);
     $instances = Workspace::getInstances($arguments["directory"]);
-
-    $methods = Workspace::getAvailableMethods();
+    $methods   = Workspace::getAvailableMethods();
 
     unset($arguments["directory"]);
 
     foreach ($arguments as $k => $v) {
+
         foreach ($instances as $d) {
             call_user_func([$d, $methods[$k]], $v);
         }
