@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Symfony\Tests\Model;
 
+use WBW\Library\Symfony\Model\RepositoryDetailInterface;
 use WBW\Library\Symfony\Model\RepositoryReport;
 use WBW\Library\Symfony\Model\RepositoryReportInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
@@ -24,42 +25,19 @@ use WBW\Library\Symfony\Tests\AbstractTestCase;
 class RepositoryReportTest extends AbstractTestCase {
 
     /**
-     * Tests setAvailable()
+     * Tests addDetail()
      *
      * @return void
      */
-    public function testSetAvailable(): void {
+    public function testAddDetail(): void {
+
+        // Set a Repository detail mock.
+        $detail = $this->getMockBuilder(RepositoryDetailInterface::class)->getMock();
 
         $obj = new RepositoryReport();
 
-        $obj->setAvailable(255);
-        $this->assertEquals(255, $obj->getAvailable());
-    }
-
-    /**
-     * Tests setAverage()
-     *
-     * @return void
-     */
-    public function testSetAverage(): void {
-
-        $obj = new RepositoryReport();
-
-        $obj->setAverage(0.1);
-        $this->assertEquals(0.1, $obj->getAverage());
-    }
-
-    /**
-     * Tests setColumn()
-     *
-     * @return void
-     */
-    public function testSetColumn(): void {
-
-        $obj = new RepositoryReport();
-
-        $obj->setColumn("column");
-        $this->assertEquals("column", $obj->getColumn());
+        $obj->addDetail($detail);
+        $this->assertSame($detail, $obj->getDetails()[0]);
     }
 
     /**
@@ -89,45 +67,6 @@ class RepositoryReportTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setField()
-     *
-     * @return void
-     */
-    public function testSetField(): void {
-
-        $obj = new RepositoryReport();
-
-        $obj->setField("field");
-        $this->assertEquals("field", $obj->getField());
-    }
-
-    /**
-     * Tests setMaximum()
-     *
-     * @return void
-     */
-    public function testSetMaximum(): void {
-
-        $obj = new RepositoryReport();
-
-        $obj->setMaximum(180);
-        $this->assertEquals(180, $obj->getMaximum());
-    }
-
-    /**
-     * Tests setMinimum()
-     *
-     * @return void
-     */
-    public function testSetMinimum(): void {
-
-        $obj = new RepositoryReport();
-
-        $obj->setMinimum(90);
-        $this->assertEquals(90, $obj->getMinimum());
-    }
-
-    /**
      * Tests setTable()
      *
      * @return void
@@ -151,15 +90,10 @@ class RepositoryReportTest extends AbstractTestCase {
 
         $this->assertInstanceOf(RepositoryReportInterface::class, $obj);
 
-        $this->assertNull($obj->getAverage());
         $this->assertNull($obj->getCount());
-        $this->assertNull($obj->getMaximum());
-        $this->assertNull($obj->getMinimum());
 
-        $this->assertNull($obj->getAvailable());
-        $this->assertNull($obj->getColumn());
+        $this->assertEquals([], $obj->getDetails());
         $this->assertNull($obj->getEntity());
-        $this->assertNull($obj->getField());
         $this->assertNull($obj->getTable());
     }
 }

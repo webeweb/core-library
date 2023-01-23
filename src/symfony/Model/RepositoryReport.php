@@ -11,10 +11,7 @@
 
 namespace WBW\Library\Symfony\Model;
 
-use WBW\Library\Traits\Floats\FloatAverageTrait;
 use WBW\Library\Traits\Integers\IntegerCountTrait;
-use WBW\Library\Traits\Integers\IntegerMaximumTrait;
-use WBW\Library\Traits\Integers\IntegerMinimumTrait;
 
 /**
  * Repository report.
@@ -24,65 +21,52 @@ use WBW\Library\Traits\Integers\IntegerMinimumTrait;
  */
 class RepositoryReport implements RepositoryReportInterface {
 
-    use FloatAverageTrait;
     use IntegerCountTrait;
-    use IntegerMaximumTrait;
-    use IntegerMinimumTrait;
 
     /**
-     * Available
+     * Details.
      *
-     * @var int|null
+     * @var RepositoryDetailInterface[]
      */
-    private $available;
-
-    /**
-     * Column.
-     *
-     * @var string|null
-     */
-    private $column;
+    protected $details;
 
     /**
      * Entity.
      *
      * @var string|null
      */
-    private $entity;
-
-    /**
-     * Field.
-     *
-     * @var string|null
-     */
-    private $field;
+    protected $entity;
 
     /**
      * Table.
      *
      * @var string|null
      */
-    private $table;
+    protected $table;
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO
+        $this->setDetails([]);
+    }
+
+    /**
+     * Add a detail.
+     *
+     * @param RepositoryDetailInterface $detail The detail.
+     * @return RepositoryReportInterface Returns this repository report.
+     */
+    public function addDetail(RepositoryDetailInterface $detail): RepositoryReportInterface {
+        $this->details[] = $detail;
+        return $this;
     }
 
     /**
      * {@inheritdoc}
      */
-    public function getAvailable(): ?int {
-        return $this->available;
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function getColumn(): ?string {
-        return $this->column;
+    public function getDetails(): array {
+        return $this->details;
     }
 
     /**
@@ -95,36 +79,18 @@ class RepositoryReport implements RepositoryReportInterface {
     /**
      * {@inheritdoc}
      */
-    public function getField(): ?string {
-        return $this->field;
-    }
-
-    /**
-     * {@inheritdoc}
-     */
     public function getTable(): ?string {
         return $this->table;
     }
 
     /**
-     * Set the available.
+     * Set the details.
      *
-     * @param int|null $available The available.
-     * @return RepositoryReport Returns this repository report.
+     * @param RepositoryDetailInterface[] $details The details.
+     * @return RepositoryReportInterface Returns this repository report.
      */
-    public function setAvailable(?int $available): RepositoryReport {
-        $this->available = $available;
-        return $this;
-    }
-
-    /**
-     * Set the column.
-     *
-     * @param string|null $column The column.
-     * @return RepositoryReport Returns this repository report.
-     */
-    public function setColumn(?string $column): RepositoryReport {
-        $this->column = $column;
+    protected function setDetails(array $details): RepositoryReportInterface {
+        $this->details = $details;
         return $this;
     }
 
@@ -136,17 +102,6 @@ class RepositoryReport implements RepositoryReportInterface {
      */
     public function setEntity(?string $entity): RepositoryReport {
         $this->entity = $entity;
-        return $this;
-    }
-
-    /**
-     * Set the field.
-     *
-     * @param string|null $field The field.
-     * @return RepositoryReport Returns this repository report.
-     */
-    public function setField(?string $field): RepositoryReport {
-        $this->field = $field;
         return $this;
     }
 
