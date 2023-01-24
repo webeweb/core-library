@@ -1,6 +1,14 @@
 CHANGELOG
 =========
 
+### [8.64.0](https://github.com/webeweb/core-library/tree/v8.64.0) (2023-01-24)
+
+- Add Repository detail 
+- Add Repository detail interface
+- Add Repository detail trait
+- Add Repository report trait
+- Improve Repository report
+
 ### [8.63.1](https://github.com/webeweb/core-library/tree/v8.63.1) (2023-01-06)
 
 - Fix Hard disk JSON serialization
