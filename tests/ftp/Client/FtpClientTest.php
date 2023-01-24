@@ -25,6 +25,13 @@ use WBW\Library\Ftp\Tests\AbstractTestCase;
 class FtpClientTest extends AbstractTestCase {
 
     /**
+     * Client.
+     *
+     * @var FtpClient
+     */
+    private $client;
+
+    /**
      * Message.
      *
      * @var string
@@ -49,6 +56,16 @@ class FtpClientTest extends AbstractTestCase {
 
         // Set a myself mock.
         $this->myself = realpath(__DIR__ . "/FtpClientTest.php");
+
+        try {
+
+            $this->client = new FtpClient($this->authenticator);
+            $this->client->connect();
+            $this->client->login();
+            $this->client->pasv(true);
+        } catch (Throwable $ex) {
+            $this->markTestSkipped($ex->getMessage());
+        }
     }
 
     /**
@@ -59,10 +76,7 @@ class FtpClientTest extends AbstractTestCase {
      */
     public function testCdup(): void {
 
-        $obj = new FtpClient($this->authenticator);
-        $obj->connect();
-        $obj->login();
-        $obj->pasv(true);
+        $obj = $this->client;
 
         $this->assertSame($obj, $obj->chdir($this->remoteDir));
         $this->assertSame($obj, $obj->cdup());
@@ -78,10 +92,7 @@ class FtpClientTest extends AbstractTestCase {
      */
     public function testChdirWithFtpException(): void {
 
-        $obj = new FtpClient($this->authenticator);
-        $obj->connect();
-        $obj->login();
-        $obj->pasv(true);
+        $obj = $this->client;
 
         try {
 
@@ -108,10 +119,7 @@ class FtpClientTest extends AbstractTestCase {
      */
     public function testChmod(): void {
 
-        $obj = new FtpClient($this->authenticator);
-        $obj->connect();
-        $obj->login();
-        $obj->pasv(true);
+        $obj = $this->client;
 
         try {
 
@@ -170,10 +178,7 @@ class FtpClientTest extends AbstractTestCase {
      */
     public function testDelete(): void {
 
-        $obj = new FtpClient($this->authenticator);
-        $obj->connect();
-        $obj->login();
-        $obj->pasv(true);
+        $obj = $this->client;
 
         try {
 
@@ -205,10 +210,7 @@ class FtpClientTest extends AbstractTestCase {
         // Set a local stream mock.
         $localStream = fopen($this->localFile, "w");
 
-        $obj = new FtpClient($this->authenticator);
-        $obj->connect();
-        $obj->login();
-        $obj->pasv(true);
+        $obj = $this->client;
 
         $this->assertSame($obj, $obj->fget($localStream, $this->remoteFile));
 
@@ -228,10 +230,7 @@ class FtpClientTest extends AbstractTestCase {
         // Set a local stream mock.
         $localStream = fopen($this->localFile, "w");
 
-        $obj = new FtpClient($this->authenticator);
-        $obj->connect();
-        $obj->login();
-        $obj->pasv(true);
+        $obj = $this->client;
 
         try {
 
@@ -265,10 +264,7 @@ class FtpClientTest extends AbstractTestCase {
         // Set a local stream mock.
         $localStream = fopen($this->myself, "r");
 
-        $obj = new FtpClient($this->authenticator);
-        $obj->connect();
-        $obj->login();
-        $obj->pasv(true);
+        $obj = $this->client;
 
         try {
 
@@ -297,10 +293,7 @@ class FtpClientTest extends AbstractTestCase {
      */
     public function testGet(): void {
 
-        $obj = new FtpClient($this->authenticator);
-        $obj->connect();
-        $obj->login();
-        $obj->pasv(true);
+        $obj = $this->client;
 
         $this->assertSame($obj, $obj->get($this->localFile, $this->remoteFile));
 
@@ -315,10 +308,7 @@ class FtpClientTest extends AbstractTestCase {
      */
     public function testGetWithFtpException(): void {
 
-        $obj = new FtpClient($this->authenticator);
-        $obj->connect();
-        $obj->login();
-        $obj->pasv(true);
+        $obj = $this->client;
 
         try {
 
@@ -378,10 +368,7 @@ class FtpClientTest extends AbstractTestCase {
      */
     public function testMdtm(): void {
 
-        $obj = new FtpClient($this->authenticator);
-        $obj->connect();
-        $obj->login();
-        $obj->pasv(true);
+        $obj = $this->client;
 
         $this->assertGreaterThanOrEqual(0, $obj->mdtm($this->remoteFile));
 
@@ -396,10 +383,7 @@ class FtpClientTest extends AbstractTestCase {
      */
     public function testMdtmWithFtpException(): void {
 
-        $obj = new FtpClient($this->authenticator);
-        $obj->connect();
-        $obj->login();
-        $obj->pasv(true);
+        $obj = $this->client;
 
         try {
 
@@ -426,10 +410,7 @@ class FtpClientTest extends AbstractTestCase {
      */
     public function testMkdir(): void {
 
-        $obj = new FtpClient($this->authenticator);
-        $obj->connect();
-        $obj->login();
-        $obj->pasv(true);
+        $obj = $this->client;
 
         try {
 
@@ -459,10 +440,7 @@ class FtpClientTest extends AbstractTestCase {
         // Set a local stream mock.
         $localStream = fopen($this->localFile, "w");
 
-        $obj = new FtpClient($this->authenticator);
-        $obj->connect();
-        $obj->login();
-        $obj->pasv(true);
+        $obj = $this->client;
 
         $this->assertGreaterThanOrEqual(FTP_FINISHED, $obj->nbFget($localStream, $this->remoteFile));
 
@@ -482,10 +460,7 @@ class FtpClientTest extends AbstractTestCase {
         // Set a local stream mock.
         $localStream = fopen($this->myself, "r");
 
-        $obj = new FtpClient($this->authenticator);
-        $obj->connect();
-        $obj->login();
-        $obj->pasv(true);
+        $obj = $this->client;
 
         $this->assertEquals(FTP_FAILED, $obj->nbFput("/nb_fput", $localStream));
 
@@ -502,10 +477,7 @@ class FtpClientTest extends AbstractTestCase {
      */
     public function testNbGet(): void {
 
-        $obj = new FtpClient($this->authenticator);
-        $obj->connect();
-        $obj->login();
-        $obj->pasv(true);
+        $obj = $this->client;
 
         $this->assertGreaterThanOrEqual(FTP_FINISHED, $obj->nbGet($this->localFile, $this->remoteFile));
 
@@ -520,10 +492,7 @@ class FtpClientTest extends AbstractTestCase {
      */
     public function testNbPut(): void {
 
-        $obj = new FtpClient($this->authenticator);
-        $obj->connect();
-        $obj->login();
-        $obj->pasv(true);
+        $obj = $this->client;
 
         $this->assertEquals(FTP_FAILED, $obj->nbPut("/nb_fput", $this->myself));
 
@@ -538,10 +507,7 @@ class FtpClientTest extends AbstractTestCase {
      */
     public function testNlist(): void {
 
-        $obj = new FtpClient($this->authenticator);
-        $obj->connect();
-        $obj->login();
-        $obj->pasv(true);
+        $obj = $this->client;
 
         $this->assertIsArray($obj->nlist($this->remoteDir));
 
@@ -556,10 +522,7 @@ class FtpClientTest extends AbstractTestCase {
      */
     public function testNlistWithFtpException(): void {
 
-        $obj = new FtpClient($this->authenticator);
-        $obj->connect();
-        $obj->login();
-        $obj->pasv(true);
+        $obj = $this->client;
 
         try {
 
@@ -586,10 +549,7 @@ class FtpClientTest extends AbstractTestCase {
      */
     public function testPut(): void {
 
-        $obj = new FtpClient($this->authenticator);
-        $obj->connect();
-        $obj->login();
-        $obj->pasv(true);
+        $obj = $this->client;
 
         try {
 
@@ -618,10 +578,7 @@ class FtpClientTest extends AbstractTestCase {
      */
     public function testPwd(): void {
 
-        $obj = new FtpClient($this->authenticator);
-        $obj->connect();
-        $obj->login();
-        $obj->pasv(true);
+        $obj = $this->client;
 
         $this->assertEquals("/", $obj->pwd());
 
@@ -636,10 +593,7 @@ class FtpClientTest extends AbstractTestCase {
      */
     public function testRawListWithFtpException(): void {
 
-        $obj = new FtpClient($this->authenticator);
-        $obj->connect();
-        $obj->login();
-        $obj->pasv(true);
+        $obj = $this->client;
 
         try {
 
@@ -666,10 +620,7 @@ class FtpClientTest extends AbstractTestCase {
      */
     public function testRawlist(): void {
 
-        $obj = new FtpClient($this->authenticator);
-        $obj->connect();
-        $obj->login();
-        $obj->pasv(true);
+        $obj = $this->client;
 
         $this->assertIsArray($obj->rawList($this->remoteDir));
 
@@ -684,10 +635,7 @@ class FtpClientTest extends AbstractTestCase {
      */
     public function testRename(): void {
 
-        $obj = new FtpClient($this->authenticator);
-        $obj->connect();
-        $obj->login();
-        $obj->pasv(true);
+        $obj = $this->client;
 
         try {
 
@@ -716,10 +664,7 @@ class FtpClientTest extends AbstractTestCase {
      */
     public function testRmdir(): void {
 
-        $obj = new FtpClient($this->authenticator);
-        $obj->connect();
-        $obj->login();
-        $obj->pasv(true);
+        $obj = $this->client;
 
         try {
 
@@ -748,10 +693,7 @@ class FtpClientTest extends AbstractTestCase {
      */
     public function testSize(): void {
 
-        $obj = new FtpClient($this->authenticator);
-        $obj->connect();
-        $obj->login();
-        $obj->pasv(true);
+        $obj = $this->client;
 
         $this->assertGreaterThanOrEqual(0, $obj->size($this->remoteFile));
 
@@ -766,10 +708,7 @@ class FtpClientTest extends AbstractTestCase {
      */
     public function testSizetWithFtpException(): void {
 
-        $obj = new FtpClient($this->authenticator);
-        $obj->connect();
-        $obj->login();
-        $obj->pasv(true);
+        $obj = $this->client;
 
         try {
 
@@ -796,10 +735,7 @@ class FtpClientTest extends AbstractTestCase {
      */
     public function testSystype(): void {
 
-        $obj = new FtpClient($this->authenticator);
-        $obj->connect();
-        $obj->login();
-        $obj->pasv(true);
+        $obj = $this->client;
 
         $this->assertNotEquals("", $obj->systype());
 

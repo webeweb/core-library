@@ -12,6 +12,7 @@
 namespace WBW\Library\Ftp\Tests\Client;
 
 use Throwable;
+use WBW\Library\Ftp\Client\FtpClient;
 use WBW\Library\Ftp\Client\SftpClient;
 use WBW\Library\Ftp\Exception\FtpException;
 use WBW\Library\Ftp\Tests\AbstractTestCase;
@@ -23,6 +24,13 @@ use WBW\Library\Ftp\Tests\AbstractTestCase;
  * @package WBW\Library\Ftp\Tests\Client
  */
 class SftpClientTest extends AbstractTestCase {
+
+    /**
+     * Client.
+     *
+     * @var SftpClient
+     */
+    private $client;
 
     /**
      * Message.
@@ -39,6 +47,20 @@ class SftpClientTest extends AbstractTestCase {
 
         // Set a message mock.
         $this->message = "sftp://demo:password@test.rebex.net:22 ";
+
+        // Some SSH methods doesn't exist
+        if (false === function_exists("ssh2_connect")) {
+            $this->markTestSkipped("ssh2_connect is not available");
+        }
+
+        try {
+
+            $this->client = new SftpClient($this->authenticator);
+            $this->client->connect();
+            $this->client->login();
+        } catch (Throwable $ex) {
+            $this->markTestSkipped($ex->getMessage());
+        }
     }
 
     /**
@@ -48,12 +70,6 @@ class SftpClientTest extends AbstractTestCase {
      * @throws Throwable Throws an exception if an error occurs.
      */
     public function testConnectWithFtpException(): void {
-
-        // Some SSH methods doesn't exist
-        if (false === function_exists("ssh2_connect")) {
-            $this->assertNull(null);
-            return;
-        }
 
         $obj = new SftpClient($this->authenticator);
         $obj->getAuthenticator()->setPort(80);
@@ -85,15 +101,7 @@ class SftpClientTest extends AbstractTestCase {
      */
     public function testDelete(): void {
 
-        // Some SSH methods doesn't exist
-        if (false === function_exists("ssh2_connect")) {
-            $this->assertNull(null);
-            return;
-        }
-
-        $obj = new SftpClient($this->authenticator);
-        $obj->connect();
-        $obj->login();
+        $obj = $this->client;
 
         try {
 
@@ -122,15 +130,7 @@ class SftpClientTest extends AbstractTestCase {
      */
     public function testGet(): void {
 
-        // Some SSH methods doesn't exist
-        if (false === function_exists("ssh2_connect")) {
-            $this->assertNull(null);
-            return;
-        }
-
-        $obj = new SftpClient($this->authenticator);
-        $obj->connect();
-        $obj->login();
+        $obj = $this->client;
 
         $this->assertSame($obj, $obj->get($this->localFile, $this->remoteFile));
 
@@ -144,12 +144,6 @@ class SftpClientTest extends AbstractTestCase {
      * @throws Throwable Throws an exception if an error occurs.
      */
     public function testLoginWithFtpException(): void {
-
-        // Some SSH methods doesn't exist
-        if (false === function_exists("ssh2_connect")) {
-            $this->assertNull(null);
-            return;
-        }
 
         $obj = new SftpClient($this->authenticator);
         $obj->getAuthenticator()->getPasswordAuthentication()->setPassword(null);
@@ -180,15 +174,7 @@ class SftpClientTest extends AbstractTestCase {
      */
     public function testMkdir(): void {
 
-        // Some SSH methods doesn't exist
-        if (false === function_exists("ssh2_connect")) {
-            $this->assertNull(null);
-            return;
-        }
-
-        $obj = new SftpClient($this->authenticator);
-        $obj->connect();
-        $obj->login();
+        $obj = $this->client;
 
         try {
 
@@ -215,18 +201,10 @@ class SftpClientTest extends AbstractTestCase {
      */
     public function testPut(): void {
 
-        // Some SSH methods doesn't exist
-        if (false === function_exists("ssh2_connect")) {
-            $this->assertNull(null);
-            return;
-        }
-
         // Set a local file mock.
         $myself = realpath(__DIR__ . "/SftpClientTest.php");
 
-        $obj = new SftpClient($this->authenticator);
-        $obj->connect();
-        $obj->login();
+        $obj = $this->client;
 
         try {
 
@@ -253,15 +231,7 @@ class SftpClientTest extends AbstractTestCase {
      */
     public function testRename(): void {
 
-        // Some SSH methods doesn't exist
-        if (false === function_exists("ssh2_connect")) {
-            $this->assertNull(null);
-            return;
-        }
-
-        $obj = new SftpClient($this->authenticator);
-        $obj->connect();
-        $obj->login();
+        $obj = $this->client;
 
         try {
 
@@ -290,15 +260,7 @@ class SftpClientTest extends AbstractTestCase {
      */
     public function testRmdir(): void {
 
-        // Some SSH methods doesn't exist
-        if (false === function_exists("ssh2_connect")) {
-            $this->assertNull(null);
-            return;
-        }
-
-        $obj = new SftpClient($this->authenticator);
-        $obj->connect();
-        $obj->login();
+        $obj = $this->client;
 
         try {
 
