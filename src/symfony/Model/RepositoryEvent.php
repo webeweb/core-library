@@ -15,8 +15,12 @@ use WBW\Library\Symfony\Serializer\JsonSerializer;
 use WBW\Library\Traits\DateTimes\DateTimeDateTrait;
 use WBW\Library\Traits\Integers\IntegerIdTrait;
 use WBW\Library\Traits\Strings\StringDataTrait;
+use WBW\Library\Traits\Strings\StringEntityTrait;
+use WBW\Library\Traits\Strings\StringIdentifierTrait;
 use WBW\Library\Traits\Strings\StringIpAddressTrait;
 use WBW\Library\Traits\Strings\StringQueryTrait;
+use WBW\Library\Traits\Strings\StringRequestTrait;
+use WBW\Library\Traits\Strings\StringRouteTrait;
 use WBW\Library\Traits\Strings\StringTypeTrait;
 use WBW\Library\Traits\Strings\StringUrlTrait;
 
@@ -31,38 +35,14 @@ class RepositoryEvent implements RepositoryEventInterface {
     use DateTimeDateTrait;
     use IntegerIdTrait;
     use StringDataTrait;
+    use StringEntityTrait;
     use StringIpAddressTrait;
+    use StringIdentifierTrait;
     use StringQueryTrait;
+    use StringRequestTrait;
+    use StringRouteTrait;
     use StringTypeTrait;
     use StringUrlTrait;
-
-    /**
-     * Entity.
-     *
-     * @var string|null
-     */
-    protected $entity;
-
-    /**
-     * Event.
-     *
-     * @var string|null
-     */
-    protected $event;
-
-    /**
-     * Request.
-     *
-     * @var string|null
-     */
-    protected $request;
-
-    /**
-     * Route.
-     *
-     * @var string|null
-     */
-    protected $route;
 
     /**
      * Constructor.
@@ -74,67 +54,7 @@ class RepositoryEvent implements RepositoryEventInterface {
     /**
      * {@inheritdoc}
      */
-    public function getEntity(): ?string {
-        return $this->entity;
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function getEvent(): ?string {
-        return $this->event;
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function getRequest(): ?string {
-        return $this->request;
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function getRoute(): ?string {
-        return $this->route;
-    }
-
-    /**
-     * {@inheritdoc}
-     */
     public function jsonSerialize(): array {
         return JsonSerializer::serializeRepositoryEvent($this);
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function setEntity(?string $entity): RepositoryEventInterface {
-        $this->entity = $entity;
-        return $this;
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function setEvent(?string $event): RepositoryEventInterface {
-        $this->event = $event;
-        return $this;
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function setRequest(?string $request): RepositoryEventInterface {
-        $this->request = $request;
-        return $this;
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function setRoute(?string $route): RepositoryEventInterface {
-        $this->route = $route;
-        return $this;
     }
 }

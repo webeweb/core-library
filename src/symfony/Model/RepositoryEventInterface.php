@@ -65,18 +65,18 @@ interface RepositoryEventInterface extends JsonSerializable {
     public function getEntity(): ?string;
 
     /**
-     * Get the event.
-     *
-     * @return string|null Returns the event.
-     */
-    public function getEvent(): ?string;
-
-    /**
      * Get the id.
      *
      * @return int|null Returns the id.
      */
     public function getId(): ?int;
+
+    /**
+     * Get the identifier.
+     *
+     * @return int|null Returns the identifier.
+     */
+    public function getIdentifier(): ?string;
 
     /**
      * Get the IP address.
@@ -142,15 +142,15 @@ interface RepositoryEventInterface extends JsonSerializable {
      * @param string|null $entity The entity.
      * @return RepositoryEventInterface Returns this repository event.
      */
-    public function setEntity(?string $entity): RepositoryEventInterface;
+    public function setEntity(?string $entity);
 
     /**
-     * Set the event.
+     * Set the identifier.
      *
-     * @param string|null $event The event.
+     * @param string|null $identifier The identifier.
      * @return RepositoryEventInterface Returns this repository event.
      */
-    public function setEvent(?string $event): RepositoryEventInterface;
+    public function setIdentifier(?string $identifier);
 
     /**
      * Set the IP address.
@@ -174,7 +174,7 @@ interface RepositoryEventInterface extends JsonSerializable {
      * @param string|null $request The request.
      * @return RepositoryEventInterface Returns this repository event.
      */
-    public function setRequest(?string $request): RepositoryEventInterface;
+    public function setRequest(?string $request);
 
     /**
      * Set the route.
@@ -182,7 +182,7 @@ interface RepositoryEventInterface extends JsonSerializable {
      * @param string|null $route The route.
      * @return RepositoryEventInterface Returns this repository event.
      */
-    public function setRoute(?string $route): RepositoryEventInterface;
+    public function setRoute(?string $route);
 
     /**
      * Set the type.

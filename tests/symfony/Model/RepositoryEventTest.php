@@ -43,9 +43,9 @@ class RepositoryEventTest extends AbstractTestCase {
         $obj = new RepositoryEvent();
         $obj->setData(BaseSerializerKeys::DATA);
         $obj->setDate($date);
-        $obj->setEvent(SerializerKeys::EVENT);
         $obj->setEntity(SerializerKeys::ENTITY);
         $obj->setIpAddress(BaseSerializerKeys::IP_ADDRESS);
+        $obj->setIdentifier(BaseSerializerKeys::IDENTIFIER);
         $obj->setQuery(BaseSerializerKeys::QUERY);
         $obj->setRequest(SerializerKeys::REQUEST);
         $obj->setRoute(SerializerKeys::ROUTE);
@@ -56,58 +56,6 @@ class RepositoryEventTest extends AbstractTestCase {
         $this->assertCount(11, $res);
 
         $this->assertEquals($data, json_encode($res, JSON_PRETTY_PRINT) . "\n");
-    }
-
-    /**
-     * Tests setEntity()
-     *
-     * @return void
-     */
-    public function testSetEntity(): void {
-
-        $obj = new RepositoryEvent();
-
-        $obj->setEntity("entity");
-        $this->assertEquals("entity", $obj->getEntity());
-    }
-
-    /**
-     * Tests setEvent()
-     *
-     * @return void
-     */
-    public function testSetEvent(): void {
-
-        $obj = new RepositoryEvent();
-
-        $obj->setEvent("event");
-        $this->assertEquals("event", $obj->getEvent());
-    }
-
-    /**
-     * Tests setRequest()
-     *
-     * @return void
-     */
-    public function testSetRequest(): void {
-
-        $obj = new RepositoryEvent();
-
-        $obj->setRequest("request");
-        $this->assertEquals("request", $obj->getRequest());
-    }
-
-    /**
-     * Tests setRoute()
-     *
-     * @return void
-     */
-    public function testSetRoute(): void {
-
-        $obj = new RepositoryEvent();
-
-        $obj->setRoute("route");
-        $this->assertEquals("route", $obj->getRoute());
     }
 
     /**
@@ -125,14 +73,13 @@ class RepositoryEventTest extends AbstractTestCase {
         $this->assertNull($obj->getId());
         $this->assertNull($obj->getData());
         $this->assertNull($obj->getDate());
-        $this->assertNull($obj->getIpAddress());
-        $this->assertNull($obj->getQuery());
-        $this->assertNull($obj->getType());
-        $this->assertNull($obj->getUrl());
-
         $this->assertNull($obj->getEntity());
-        $this->assertNull($obj->getEvent());
+        $this->assertNull($obj->getIpAddress());
+        $this->assertNull($obj->getIdentifier());
+        $this->assertNull($obj->getQuery());
         $this->assertNull($obj->getRequest());
         $this->assertNull($obj->getRoute());
+        $this->assertNull($obj->getType());
+        $this->assertNull($obj->getUrl());
     }
 }
