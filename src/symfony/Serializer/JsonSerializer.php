@@ -160,7 +160,7 @@ class JsonSerializer {
             BaseSerializerKeys::ENABLE  => $model->getEnable(),
             BaseSerializerKeys::ICON    => $model->getIcon(),
             BaseSerializerKeys::LABEL   => $model->getLabel(),
-            "matcher"                   => $model->getMatcher(),
+            SerializerKeys::MATCHER     => $model->getMatcher(),
             BaseSerializerKeys::PARENT  => JsonSerializerHelper::jsonSerializeModel($model->getParent()),
             BaseSerializerKeys::TARGET  => $model->getTarget(),
             BaseSerializerKeys::URI     => $model->getUri(),

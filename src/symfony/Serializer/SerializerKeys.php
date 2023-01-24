@@ -34,6 +34,13 @@ interface SerializerKeys {
     const EVENT = "event";
 
     /**
+     * Serializer key "matcher".
+     *
+     * @var string
+     */
+    const MATCHER = "matcher";
+
+    /**
      * Serializer key "request".
      *
      * @var string
