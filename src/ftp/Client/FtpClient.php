@@ -41,7 +41,7 @@ class FtpClient extends AbstractClient {
      * Changes to the parent directory.
      *
      * @return FtpClient Returns this FTP client.
-     * @throws FtpException Throws a FTP exception if an error occurs.
+     * @throws FtpException Throws an FTP exception if an error occurs.
      */
     public function cdup(): FtpClient {
 
@@ -57,7 +57,7 @@ class FtpClient extends AbstractClient {
      *
      * @param string $directory The directory.
      * @return FtpClient Returns this FTP client.
-     * @throws FtpException Throws a FTP exception if an error occurs.
+     * @throws FtpException Throws an FTP exception if an error occurs.
      */
     public function chdir(string $directory): FtpClient {
 
@@ -74,7 +74,7 @@ class FtpClient extends AbstractClient {
      * @param int $mode The mode.
      * @param string $filename The filename.
      * @return FtpClient Returns this FTP client.
-     * @throws FtpException Throws a FTP exception if an error occurs.
+     * @throws FtpException Throws an FTP exception if an error occurs.
      */
     public function chmod(int $mode, string $filename): FtpClient {
 
@@ -89,7 +89,7 @@ class FtpClient extends AbstractClient {
      * Closes an FTP connection.
      *
      * @return FtpClient Returns this FTP client.
-     * @throws FtpException Throws a FTP exception if an error occurs.
+     * @throws FtpException Throws an FTP exception if an error occurs.
      */
     public function close(): FtpClient {
 
@@ -109,7 +109,7 @@ class FtpClient extends AbstractClient {
      *
      * @param int $timeout The timeout.
      * @return FtpClient Returns this FTP client.
-     * @throws FtpException Throws a FTP exception if an error occurs.
+     * @throws FtpException Throws an FTP exception if an error occurs.
      */
     public function connect(int $timeout = 90): FtpClient {
 
@@ -129,7 +129,7 @@ class FtpClient extends AbstractClient {
      *
      * @param string $path The path.
      * @return FtpClient Returns this FTP client.
-     * @throws FtpException Throws a FTP exception if an error occurs.
+     * @throws FtpException Throws an FTP exception if an error occurs.
      */
     public function delete(string $path): FtpClient {
 
@@ -148,7 +148,7 @@ class FtpClient extends AbstractClient {
      * @param int $mode The mode.
      * @param int $resumePos The resume position.
      * @return FtpClient Returns this FTP client.
-     * @throws FtpException Throws a FTP exception if an error occurs.
+     * @throws FtpException Throws an FTP exception if an error occurs.
      */
     public function fget($localStream, string $remoteFile, int $mode = FTP_BINARY, int $resumePos = 0): FtpClient {
 
@@ -167,7 +167,7 @@ class FtpClient extends AbstractClient {
      * @param int $mode The mode.
      * @param int $startPos The start position.
      * @return FtpClient Returns this FTP client.
-     * @throws FtpException Throws a FTP exception if an error occurs.
+     * @throws FtpException Throws an FTP exception if an error occurs.
      */
     public function fput(string $remoteFile, $localStream, int $mode = FTP_BINARY, int $startPos = 0): FtpClient {
 
@@ -186,7 +186,7 @@ class FtpClient extends AbstractClient {
      * @param int $mode The mode.
      * @param int $resumePos The resume position.
      * @return FtpClient Returns this FTP client.
-     * @throws FtpException Throws a FTP exception if an error occurs.
+     * @throws FtpException Throws an FTP exception if an error occurs.
      */
     public function get(string $localFile, string $remoteFile, int $mode = FTP_BINARY, int $resumePos = 0): FtpClient {
 
@@ -201,7 +201,7 @@ class FtpClient extends AbstractClient {
      * Logs in to an FTP connection.
      *
      * @return FtpClient Returns this FTP client.
-     * @throws FtpException Throws a FTP exception if an error occurs.
+     * @throws FtpException Throws an FTP exception if an error occurs.
      */
     public function login(): FtpClient {
 
@@ -220,7 +220,7 @@ class FtpClient extends AbstractClient {
      *
      * @param string $remoteFile The remote file.
      * @return int Returns the last modified time of the given file.
-     * @throws FtpException Throws a FTP exception if an error occurs.
+     * @throws FtpException Throws an FTP exception if an error occurs.
      */
     public function mdtm(string $remoteFile): int {
 
@@ -237,7 +237,7 @@ class FtpClient extends AbstractClient {
      *
      * @param string $directory The directory.
      * @return FtpClient Returns this FTP client.
-     * @throws FtpException Throws a FTP exception if an error occurs.
+     * @throws FtpException Throws an FTP exception if an error occurs.
      */
     public function mkdir(string $directory): FtpClient {
 
@@ -305,7 +305,7 @@ class FtpClient extends AbstractClient {
      *
      * @param string $directory The directory.
      * @return string[] Returns a list of files in the given directory.
-     * @throws FtpException Throws a FTP exception if an error occurs.
+     * @throws FtpException Throws an FTP exception if an error occurs.
      */
     public function nlist(string $directory): array {
 
@@ -322,7 +322,7 @@ class FtpClient extends AbstractClient {
      *
      * @param bool $pasv The passive mode.
      * @return FtpClient Returns this FTP client.
-     * @throws FtpException Throws a FTP exception if an error occurs.
+     * @throws FtpException Throws an FTP exception if an error occurs.
      */
     public function pasv(bool $pasv): FtpClient {
 
@@ -341,7 +341,7 @@ class FtpClient extends AbstractClient {
      * @param int $mode The mode.
      * @param int $startPos The start position.
      * @return FtpClient Returns this FTP client.
-     * @throws FtpException Throws a FTP exception if an error occurs.
+     * @throws FtpException Throws an FTP exception if an error occurs.
      */
     public function put(string $localFile, string $remoteFile, int $mode = FTP_BINARY, int $startPos = 0): FtpClient {
 
@@ -356,7 +356,7 @@ class FtpClient extends AbstractClient {
      * Returns the current directory name.
      *
      * @return string Returns the current directory name.
-     * @throws FtpException Throws a FTP exception if an error occurs.
+     * @throws FtpException Throws an FTP exception if an error occurs.
      */
     public function pwd(): string {
 
@@ -374,7 +374,7 @@ class FtpClient extends AbstractClient {
      * @param string $directory The directory.
      * @param bool $recursive Recursive ?
      * @return array Returns a detailed list of files in the given directory.
-     * @throws FtpException Throws a FTP exception if an error occurs.
+     * @throws FtpException Throws an FTP exception if an error occurs.
      */
     public function rawList(string $directory, bool $recursive = false): array {
 
@@ -392,7 +392,7 @@ class FtpClient extends AbstractClient {
      * @param string $oldName The old name.
      * @param string $newName The new name.
      * @return FtpClient Returns this FTP client.
-     * @throws FtpException Throws a FTP exception if an error occurs.
+     * @throws FtpException Throws an FTP exception if an error occurs.
      */
     public function rename(string $oldName, string $newName): FtpClient {
 
@@ -408,7 +408,7 @@ class FtpClient extends AbstractClient {
      *
      * @param string $directory The directory.
      * @return FtpClient Returns this FTP client.
-     * @throws FtpException Throws a FTP exception if an error occurs.
+     * @throws FtpException Throws an FTP exception if an error occurs.
      */
     public function rmdir(string $directory): FtpClient {
 
@@ -424,7 +424,7 @@ class FtpClient extends AbstractClient {
      *
      * @param string $remoteFile The remote file.
      * @return int Returns the size of the given file.
-     * @throws FtpException Throws a FTP exception if an error occurs.
+     * @throws FtpException Throws an FTP exception if an error occurs.
      */
     public function size(string $remoteFile): int {
 
@@ -440,7 +440,7 @@ class FtpClient extends AbstractClient {
      * Returns the system type identifier of the remote FTP server.
      *
      * @return string Returns the system type identifier of the remote FTP server.
-     * @throws FtpException Throws a FTP exception if an error occurs.
+     * @throws FtpException Throws an FTP exception if an error occurs.
      */
     public function systype(): string {
 
