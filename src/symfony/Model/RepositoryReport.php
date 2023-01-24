@@ -12,6 +12,7 @@
 namespace WBW\Library\Symfony\Model;
 
 use WBW\Library\Traits\Integers\IntegerCountTrait;
+use WBW\Library\Traits\Strings\StringTableTrait;
 
 /**
  * Repository report.
@@ -22,6 +23,7 @@ use WBW\Library\Traits\Integers\IntegerCountTrait;
 class RepositoryReport implements RepositoryReportInterface {
 
     use IntegerCountTrait;
+    use StringTableTrait;
 
     /**
      * Details.
@@ -36,13 +38,6 @@ class RepositoryReport implements RepositoryReportInterface {
      * @var string|null
      */
     protected $entity;
-
-    /**
-     * Table.
-     *
-     * @var string|null
-     */
-    protected $table;
 
     /**
      * Constructor.
@@ -77,13 +72,6 @@ class RepositoryReport implements RepositoryReportInterface {
     }
 
     /**
-     * {@inheritdoc}
-     */
-    public function getTable(): ?string {
-        return $this->table;
-    }
-
-    /**
      * Set the details.
      *
      * @param RepositoryDetailInterface[] $details The details.
@@ -102,17 +90,6 @@ class RepositoryReport implements RepositoryReportInterface {
      */
     public function setEntity(?string $entity): RepositoryReport {
         $this->entity = $entity;
-        return $this;
-    }
-
-    /**
-     * Set the table.
-     *
-     * @param string|null $table The table.
-     * @return RepositoryReport Returns this repository report.
-     */
-    public function setTable(?string $table): RepositoryReport {
-        $this->table = $table;
         return $this;
     }
 }
