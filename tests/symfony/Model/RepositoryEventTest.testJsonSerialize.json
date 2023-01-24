@@ -1,0 +1,16 @@
+{
+    "id": null,
+    "data": "data",
+    "date": {
+        "date": "2023-01-24 09:50:00.000000",
+        "timezone_type": 3,
+        "timezone": "UTC"
+    },
+    "entity": "entity",
+    "event": "event",
+    "ipAddress": "ipAddress",
+    "query": "query",
+    "request": "request",
+    "route": "route",
+    "url": "url"
+}
