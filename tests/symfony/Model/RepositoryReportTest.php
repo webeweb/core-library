@@ -54,19 +54,6 @@ class RepositoryReportTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEntity()
-     *
-     * @return void
-     */
-    public function testSetEntity(): void {
-
-        $obj = new RepositoryReport();
-
-        $obj->setEntity("entity");
-        $this->assertEquals("entity", $obj->getEntity());
-    }
-
-    /**
      * Tests __construct()
      *
      * @return void
@@ -78,9 +65,9 @@ class RepositoryReportTest extends AbstractTestCase {
         $this->assertInstanceOf(RepositoryReportInterface::class, $obj);
 
         $this->assertNull($obj->getCount());
+        $this->assertNull($obj->getEntity());
         $this->assertNull($obj->getTable());
 
         $this->assertEquals([], $obj->getDetails());
-        $this->assertNull($obj->getEntity());
     }
 }
