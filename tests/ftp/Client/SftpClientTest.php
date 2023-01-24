@@ -12,7 +12,6 @@
 namespace WBW\Library\Ftp\Tests\Client;
 
 use Throwable;
-use WBW\Library\Ftp\Client\FtpClient;
 use WBW\Library\Ftp\Client\SftpClient;
 use WBW\Library\Ftp\Exception\FtpException;
 use WBW\Library\Ftp\Tests\AbstractTestCase;
