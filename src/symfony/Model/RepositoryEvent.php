@@ -17,6 +17,7 @@ use WBW\Library\Traits\Integers\IntegerIdTrait;
 use WBW\Library\Traits\Strings\StringDataTrait;
 use WBW\Library\Traits\Strings\StringIpAddressTrait;
 use WBW\Library\Traits\Strings\StringQueryTrait;
+use WBW\Library\Traits\Strings\StringTypeTrait;
 use WBW\Library\Traits\Strings\StringUrlTrait;
 
 /**
@@ -30,8 +31,9 @@ class RepositoryEvent implements RepositoryEventInterface {
     use DateTimeDateTrait;
     use IntegerIdTrait;
     use StringDataTrait;
-    use StringQueryTrait;
     use StringIpAddressTrait;
+    use StringQueryTrait;
+    use StringTypeTrait;
     use StringUrlTrait;
 
     /**

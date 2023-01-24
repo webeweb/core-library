@@ -214,6 +214,7 @@ class JsonSerializer {
             BaseSerializerKeys::QUERY      => $model->getQuery(),
             SerializerKeys::REQUEST        => $model->getRequest(),
             SerializerKeys::ROUTE          => $model->getRoute(),
+            BaseSerializerKeys::TYPE       => $model->getType(),
             BaseSerializerKeys::URL        => $model->getUrl(),
         ];
     }

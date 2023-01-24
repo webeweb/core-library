@@ -12,5 +12,6 @@
     "query": "query",
     "request": "request",
     "route": "route",
+    "type": "type",
     "url": "url"
 }

@@ -48,10 +48,11 @@ class RepositoryEventTest extends AbstractTestCase {
         $obj->setQuery(BaseSerializerKeys::QUERY);
         $obj->setRequest(SerializerKeys::REQUEST);
         $obj->setRoute(SerializerKeys::ROUTE);
+        $obj->setType(BaseSerializerKeys::TYPE);
         $obj->setUrl(BaseSerializerKeys::URL);
 
         $res = $obj->jsonSerialize();
-        $this->assertCount(10, $res);
+        $this->assertCount(11, $res);
 
         $this->assertEquals($data, json_encode($res, JSON_PRETTY_PRINT) . "\n");
     }
@@ -125,6 +126,7 @@ class RepositoryEventTest extends AbstractTestCase {
         $this->assertNull($obj->getDate());
         $this->assertNull($obj->getIpAddress());
         $this->assertNull($obj->getQuery());
+        $this->assertNull($obj->getType());
         $this->assertNull($obj->getUrl());
 
         $this->assertNull($obj->getEntity());

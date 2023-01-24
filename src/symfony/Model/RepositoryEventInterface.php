@@ -107,6 +107,13 @@ interface RepositoryEventInterface extends JsonSerializable {
     public function getRoute(): ?string;
 
     /**
+     * Get the type.
+     *
+     * @return string|null Returns the type.
+     */
+    public function getType(): ?string;
+
+    /**
      * Get the URL.
      *
      * @return string|null Returns the URL.
@@ -176,6 +183,14 @@ interface RepositoryEventInterface extends JsonSerializable {
      * @return RepositoryEventInterface Returns this repository event.
      */
     public function setRoute(?string $route): RepositoryEventInterface;
+
+    /**
+     * Set the type.
+     *
+     * @param string|null $type The type.
+     * @return RepositoryEventInterface Returns this repository event.
+     */
+    public function setType(?string $type);
 
     /**
      * Set the URL.
