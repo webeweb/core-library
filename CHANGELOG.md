@@ -7,6 +7,8 @@ CHANGELOG
 - Add Repository detail interface
 - Add Repository detail trait
 - Add Repository report trait
+- Improve code quality
+- Improve PHPDoc
 - Improve Repository report
 
 ### [8.63.1](https://github.com/webeweb/core-library/tree/v8.63.1) (2023-01-06)
