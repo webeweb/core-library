@@ -7,6 +7,9 @@ CHANGELOG
 - Add Repository event interface
 - Add Repository event trait
 - Add Serializer keys
+- Add string entity trait
+- Add string request trait
+- Add string route trait
 - Improve code quality
 
 ### [8.64.0](https://github.com/webeweb/core-library/tree/v8.64.0) (2023-01-24)
