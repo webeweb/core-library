@@ -37,6 +37,7 @@ class RepositoryEventTest extends AbstractTestCase {
         // Set the date/time mock.
         $date = new DateTime("2023-01-24 09:50:00");
 
+        // Set the expected data.
         $data = file_get_contents(__DIR__ . "/RepositoryEventTest.testJsonSerialize.json");
 
         $obj = new RepositoryEvent();

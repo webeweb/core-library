@@ -35,14 +35,14 @@ class RegistrationCertificateTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        // Set the expected data.
-        $data = file_get_contents(__DIR__ . "/RegistrationCertificateTest.testJsonSerialize.json");
-
         // Set the date/time mocks.
         $b  = new DateTime("2021-09-10 09:02:00.00000", new DateTimeZone("UTC"));
         $i  = new DateTime("2021-09-10 09:09:00.00000", new DateTimeZone("UTC"));
         $i1 = new DateTime("2021-09-10 09:09:01.00000", new DateTimeZone("UTC"));
         $x1 = new DateTime("2021-09-10 09:24:01.00000", new DateTimeZone("UTC"));
+
+        // Set the expected data.
+        $data = file_get_contents(__DIR__ . "/RegistrationCertificateTest.testJsonSerialize.json");
 
         $obj = new RegistrationCertificate();
 

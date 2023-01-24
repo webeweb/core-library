@@ -30,6 +30,7 @@ class JsonSerializerTest extends AbstractTestCase {
      */
     public function testSerializeSelect2Options(): void {
 
+        // Set the expected data.
         $data = file_get_contents(__DIR__ . "/JsonSerializerTest.testSerializeSelect2Options.json");
         $json = json_decode($data, true);
 

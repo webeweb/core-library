@@ -32,6 +32,7 @@ class DropdownItemTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
+        // Set the expected data.
         $data = file_get_contents(__DIR__ . "/DropdownItemTest.testJsonSerialize.json");
         $json = json_decode($data, true);
 
