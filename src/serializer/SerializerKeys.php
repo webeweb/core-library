@@ -307,6 +307,13 @@ interface SerializerKeys {
     const ENDED_ON = "endedOn";
 
     /**
+     * Serializer key "entity".
+     *
+     * @var string
+     */
+    const ENTITY = "entity";
+
+    /**
      * Serializer key "environment".
      *
      * @var string
@@ -888,11 +895,25 @@ interface SerializerKeys {
     const REMAINING = "remaining";
 
     /**
+     * Serializer key "request".
+     *
+     * @var string
+     */
+    const REQUEST = "request";
+
+    /**
      * Serializer key "reset".
      *
      * @var string
      */
     const RESET = "reset";
+
+    /**
+     * Serializer key "route".
+     *
+     * @var string
+     */
+    const ROUTE = "route";
 
     /**
      * Serializer key "role".
@@ -1152,6 +1173,13 @@ interface SerializerKeys {
      * @var string
      */
     const VERBOSE = "verbose";
+
+    /**
+     * Serializer key "version".
+     *
+     * @var string
+     */
+    const VERSION = "version";
 
     /**
      * Serializer key "visible".
