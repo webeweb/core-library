@@ -7,8 +7,8 @@
         "timezone": "UTC"
     },
     "entity": "entity",
-    "ipAddress": "ipAddress",
     "identifier": "identifier",
+    "ipAddress": "ipAddress",
     "query": "query",
     "request": "request",
     "route": "route",
