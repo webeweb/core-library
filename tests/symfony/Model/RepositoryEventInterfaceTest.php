@@ -29,8 +29,8 @@ class RepositoryEventInterfaceTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $this->assertEquals("delete", RepositoryEventInterface::EVENT_DELETE);
-        $this->assertEquals("insert", RepositoryEventInterface::EVENT_INSERT);
-        $this->assertEquals("update", RepositoryEventInterface::EVENT_UPDATE);
+        $this->assertEquals("delete", RepositoryEventInterface::TYPE_DELETE);
+        $this->assertEquals("insert", RepositoryEventInterface::TYPE_INSERT);
+        $this->assertEquals("update", RepositoryEventInterface::TYPE_UPDATE);
     }
 }

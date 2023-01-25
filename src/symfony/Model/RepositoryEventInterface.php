@@ -23,25 +23,25 @@ use JsonSerializable;
 interface RepositoryEventInterface extends JsonSerializable {
 
     /**
-     * Event "delete".
+     * Type "delete".
      *
      * @var string
      */
-    const EVENT_DELETE = "delete";
+    const TYPE_DELETE = "delete";
 
     /**
-     * Event "insert".
+     * Type "insert".
      *
      * @var string
      */
-    const EVENT_INSERT = "insert";
+    const TYPE_INSERT = "insert";
 
     /**
-     * Event "update".
+     * Type "update".
      *
      * @var string
      */
-    const EVENT_UPDATE = "update";
+    const TYPE_UPDATE = "update";
 
     /**
      * Get the date.
