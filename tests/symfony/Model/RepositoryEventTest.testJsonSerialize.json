@@ -1,17 +1,18 @@
 {
     "id": null,
-    "data": "data",
     "date": {
         "date": "2023-01-24 09:50:00.000000",
         "timezone_type": 3,
         "timezone": "UTC"
     },
     "entity": "entity",
-    "identifier": "identifier",
+    "entityData": "entityData",
+    "entityId": "entityId",
     "ipAddress": "ipAddress",
-    "query": "query",
-    "request": "request",
-    "route": "route",
-    "type": "type",
-    "url": "url"
+    "requestDataGet": "requestDataGet",
+    "requestDataPost": "requestDataPost",
+    "requestMethod": "requestMethod",
+    "requestRoute": "requestRoute",
+    "requestUrl": "requestUrl",
+    "type": "type"
 }

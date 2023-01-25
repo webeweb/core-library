@@ -41,21 +41,113 @@ class RepositoryEventTest extends AbstractTestCase {
         $data = file_get_contents(__DIR__ . "/RepositoryEventTest.testJsonSerialize.json");
 
         $obj = new RepositoryEvent();
-        $obj->setData(BaseSerializerKeys::DATA);
         $obj->setDate($date);
         $obj->setEntity(SerializerKeys::ENTITY);
+        $obj->setEntityData(SerializerKeys::ENTITY_DATA);
+        $obj->setEntityId(SerializerKeys::ENTITY_ID);
         $obj->setIpAddress(BaseSerializerKeys::IP_ADDRESS);
-        $obj->setIdentifier(BaseSerializerKeys::IDENTIFIER);
-        $obj->setQuery(BaseSerializerKeys::QUERY);
-        $obj->setRequest(SerializerKeys::REQUEST);
-        $obj->setRoute(SerializerKeys::ROUTE);
+        $obj->setRequestDataGet(SerializerKeys::REQUEST_DATA_GET);
+        $obj->setRequestDataPost(SerializerKeys::REQUEST_DATA_POST);
+        $obj->setRequestMethod(SerializerKeys::REQUEST_METHOD);
+        $obj->setRequestRoute(SerializerKeys::REQUEST_ROUTE);
+        $obj->setRequestUrl(SerializerKeys::REQUEST_URL);
         $obj->setType(BaseSerializerKeys::TYPE);
-        $obj->setUrl(BaseSerializerKeys::URL);
 
         $res = $obj->jsonSerialize();
-        $this->assertCount(11, $res);
+        $this->assertCount(12, $res);
 
         $this->assertEquals($data, json_encode($res, JSON_PRETTY_PRINT) . "\n");
+    }
+
+    /**
+     * Tests setEntityData()
+     *
+     * @return void
+     */
+    public function testSetEntityData(): void {
+
+        $obj = new RepositoryEvent();
+
+        $obj->setEntityData("entityData");
+        $this->assertEquals("entityData", $obj->getEntityData());
+    }
+
+    /**
+     * Tests setEntityId()
+     *
+     * @return void
+     */
+    public function testSetEntityId(): void {
+
+        $obj = new RepositoryEvent();
+
+        $obj->setEntityId("entityId");
+        $this->assertEquals("entityId", $obj->getEntityId());
+    }
+
+    /**
+     * Tests setRequestDataGet()
+     *
+     * @return void
+     */
+    public function testSetRequestDataGet(): void {
+
+        $obj = new RepositoryEvent();
+
+        $obj->setRequestDataGet("requestDataGet");
+        $this->assertEquals("requestDataGet", $obj->getRequestDataGet());
+    }
+
+    /**
+     * Tests setRequestDataPost()
+     *
+     * @return void
+     */
+    public function testSetRequestDataPost(): void {
+
+        $obj = new RepositoryEvent();
+
+        $obj->setRequestDataPost("requestDataPost");
+        $this->assertEquals("requestDataPost", $obj->getRequestDataPost());
+    }
+
+    /**
+     * Tests setRequestMethod()
+     *
+     * @return void
+     */
+    public function testSetRequestMethod(): void {
+
+        $obj = new RepositoryEvent();
+
+        $obj->setRequestMethod("requestMethod");
+        $this->assertEquals("requestMethod", $obj->getRequestMethod());
+    }
+
+    /**
+     * Tests setRequestRoute()
+     *
+     * @return void
+     */
+    public function testSetRequestRoute(): void {
+
+        $obj = new RepositoryEvent();
+
+        $obj->setRequestRoute("requestRoute");
+        $this->assertEquals("requestRoute", $obj->getRequestRoute());
+    }
+
+    /**
+     * Tests setRequestUrl()
+     *
+     * @return void
+     */
+    public function testSetRequestUrl(): void {
+
+        $obj = new RepositoryEvent();
+
+        $obj->setRequestUrl("requestUrl");
+        $this->assertEquals("requestUrl", $obj->getRequestUrl());
     }
 
     /**
@@ -71,15 +163,17 @@ class RepositoryEventTest extends AbstractTestCase {
         $this->assertInstanceOf(RepositoryEventInterface::class, $obj);
 
         $this->assertNull($obj->getId());
-        $this->assertNull($obj->getData());
         $this->assertNull($obj->getDate());
         $this->assertNull($obj->getEntity());
         $this->assertNull($obj->getIpAddress());
-        $this->assertNull($obj->getIdentifier());
-        $this->assertNull($obj->getQuery());
-        $this->assertNull($obj->getRequest());
-        $this->assertNull($obj->getRoute());
         $this->assertNull($obj->getType());
-        $this->assertNull($obj->getUrl());
+
+        $this->assertNull($obj->getEntityData());
+        $this->assertNull($obj->getEntityId());
+        $this->assertNull($obj->getRequestDataGet());
+        $this->assertNull($obj->getRequestDataPost());
+        $this->assertNull($obj->getRequestMethod());
+        $this->assertNull($obj->getRequestRoute());
+        $this->assertNull($obj->getRequestUrl());
     }
 }

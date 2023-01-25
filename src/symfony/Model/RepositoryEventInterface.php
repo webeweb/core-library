@@ -44,13 +44,6 @@ interface RepositoryEventInterface extends JsonSerializable {
     const EVENT_UPDATE = "update";
 
     /**
-     * Get the data.
-     *
-     * @return string|null Returns the data.
-     */
-    public function getData(): ?string;
-
-    /**
      * Get the date.
      *
      * @return DateTime|null Returns the date.
@@ -65,18 +58,25 @@ interface RepositoryEventInterface extends JsonSerializable {
     public function getEntity(): ?string;
 
     /**
+     * Get the entity data.
+     *
+     * @return string|null Returns the entity data.
+     */
+    public function getEntityData(): ?string;
+
+    /**
+     * Get the entity id.
+     *
+     * @return string|null Returns the entity id.
+     */
+    public function getEntityId(): ?string;
+
+    /**
      * Get the id.
      *
      * @return int|null Returns the id.
      */
     public function getId(): ?int;
-
-    /**
-     * Get the identifier.
-     *
-     * @return int|null Returns the identifier.
-     */
-    public function getIdentifier(): ?string;
 
     /**
      * Get the IP address.
@@ -86,25 +86,39 @@ interface RepositoryEventInterface extends JsonSerializable {
     public function getIpAddress(): ?string;
 
     /**
-     * Get the query.
+     * Get the request data "GET".
      *
-     * @return string|null Returns the query.
+     * @return string|null Returns the request data "GET".
      */
-    public function getQuery(): ?string;
+    public function getRequestDataGet(): ?string;
 
     /**
-     * Get the request.
+     * Get the request data "POST".
      *
-     * @return string|null Returns the request.
+     * @return string|null Returns the request data "POST".
      */
-    public function getRequest(): ?string;
+    public function getRequestDataPost(): ?string;
 
     /**
-     * Get the route.
+     * Get the request method.
      *
-     * @return string|null Returns the route.
+     * @return string|null Returns the request method.
      */
-    public function getRoute(): ?string;
+    public function getRequestMethod(): ?string;
+
+    /**
+     * Get the request route.
+     *
+     * @return string|null Returns the request route.
+     */
+    public function getRequestRoute(): ?string;
+
+    /**
+     * Get the request URL.
+     *
+     * @return string|null Returns the request URL.
+     */
+    public function getRequestUrl(): ?string;
 
     /**
      * Get the type.
@@ -112,21 +126,6 @@ interface RepositoryEventInterface extends JsonSerializable {
      * @return string|null Returns the type.
      */
     public function getType(): ?string;
-
-    /**
-     * Get the URL.
-     *
-     * @return string|null Returns the URL.
-     */
-    public function getUrl(): ?string;
-
-    /**
-     * Set the data.
-     *
-     * @param string|null $data The data.
-     * @return RepositoryEventInterface Returns this repository event.
-     */
-    public function setData(?string $data);
 
     /**
      * Set the date.
@@ -145,12 +144,20 @@ interface RepositoryEventInterface extends JsonSerializable {
     public function setEntity(?string $entity);
 
     /**
-     * Set the identifier.
+     * Set the entity data.
      *
-     * @param string|null $identifier The identifier.
-     * @return RepositoryEventInterface Returns this repository event.
+     * @param string|null $entityData The entity data.
+     * @return RepositoryEventInterface Returns the repository event.
      */
-    public function setIdentifier(?string $identifier);
+    public function setEntityData(?string $entityData): RepositoryEventInterface;
+
+    /**
+     * Set the entity id.
+     *
+     * @param string|null $entityId The entity id.
+     * @return RepositoryEventInterface Returns the repository event.
+     */
+    public function setEntityId(?string $entityId): RepositoryEventInterface;
 
     /**
      * Set the IP address.
@@ -161,28 +168,44 @@ interface RepositoryEventInterface extends JsonSerializable {
     public function setIpAddress(?string $ipAddress);
 
     /**
-     * Set the query.
+     * Set the request data "GET".
      *
-     * @param string|null $query The query.
-     * @return RepositoryEventInterface Returns this repository event.
+     * @param string|null $requestDataGet The request data "GET"
+     * @return RepositoryEventInterface Returns the repository event.
      */
-    public function setQuery(?string $query);
+    public function setRequestDataGet(?string $requestDataGet): RepositoryEventInterface;
 
     /**
-     * Set the request.
+     * Set the request data "POST".
      *
-     * @param string|null $request The request.
-     * @return RepositoryEventInterface Returns this repository event.
+     * @param string|null $requestDataPost The request data "POST".
+     * @return RepositoryEventInterface Returns the repository event.
      */
-    public function setRequest(?string $request);
+    public function setRequestDataPost(?string $requestDataPost): RepositoryEventInterface;
 
     /**
-     * Set the route.
+     * Set the request method.
      *
-     * @param string|null $route The route.
-     * @return RepositoryEventInterface Returns this repository event.
+     * @param string|null $requestMethod The request method.
+     * @return RepositoryEventInterface Returns the entity me.
      */
-    public function setRoute(?string $route);
+    public function setRequestMethod(?string $requestMethod): RepositoryEventInterface;
+
+    /**
+     * Set the request route.
+     *
+     * @param string|null $requestRoute The request route.
+     * @return RepositoryEventInterface Returns the repository event.
+     */
+    public function setRequestRoute(?string $requestRoute): RepositoryEventInterface;
+
+    /**
+     * Set the request URL.
+     *
+     * @param string|null $requestUrl The request URL.
+     * @return RepositoryEventInterface Returns the repository event.
+     */
+    public function setRequestUrl(?string $requestUrl): RepositoryEventInterface;
 
     /**
      * Set the type.
@@ -191,12 +214,4 @@ interface RepositoryEventInterface extends JsonSerializable {
      * @return RepositoryEventInterface Returns this repository event.
      */
     public function setType(?string $type);
-
-    /**
-     * Set the URL.
-     *
-     * @param string|null $url The URL.
-     * @return RepositoryEventInterface Returns this repository event.
-     */
-    public function setUrl(?string $url);
 }

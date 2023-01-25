@@ -30,9 +30,13 @@ class SerializerKeysTest extends AbstractTestCase {
     public function test__construct(): void {
 
         $this->assertEquals("entity", SerializerKeys::ENTITY);
-        $this->assertEquals("event", SerializerKeys::EVENT);
+        $this->assertEquals("entityData", SerializerKeys::ENTITY_DATA);
+        $this->assertEquals("entityId", SerializerKeys::ENTITY_ID);
         $this->assertEquals("matcher", SerializerKeys::MATCHER);
-        $this->assertEquals("request", SerializerKeys::REQUEST);
-        $this->assertEquals("route", SerializerKeys::ROUTE);
+        $this->assertEquals("requestDataGet", SerializerKeys::REQUEST_DATA_GET);
+        $this->assertEquals("requestDataPost", SerializerKeys::REQUEST_DATA_POST);
+        $this->assertEquals("requestMethod", SerializerKeys::REQUEST_METHOD);
+        $this->assertEquals("requestRoute", SerializerKeys::REQUEST_ROUTE);
+        $this->assertEquals("requestUrl", SerializerKeys::REQUEST_URL);
     }
 }

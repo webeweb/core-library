@@ -205,17 +205,18 @@ class JsonSerializer {
     public static function serializeRepositoryEvent(RepositoryEventInterface $model): array {
 
         return [
-            BaseSerializerKeys::ID         => $model->getId(),
-            BaseSerializerKeys::DATA       => $model->getData(),
-            BaseSerializerKeys::DATE       => $model->getDate(),
-            SerializerKeys::ENTITY         => $model->getEntity(),
-            BaseSerializerKeys::IDENTIFIER => $model->getIdentifier(),
-            BaseSerializerKeys::IP_ADDRESS => $model->getIpAddress(),
-            BaseSerializerKeys::QUERY      => $model->getQuery(),
-            SerializerKeys::REQUEST        => $model->getRequest(),
-            SerializerKeys::ROUTE          => $model->getRoute(),
-            BaseSerializerKeys::TYPE       => $model->getType(),
-            BaseSerializerKeys::URL        => $model->getUrl(),
+            BaseSerializerKeys::ID            => $model->getId(),
+            BaseSerializerKeys::DATE          => $model->getDate(),
+            SerializerKeys::ENTITY            => $model->getEntity(),
+            SerializerKeys::ENTITY_DATA       => $model->getEntityData(),
+            SerializerKeys::ENTITY_ID         => $model->getEntityId(),
+            BaseSerializerKeys::IP_ADDRESS    => $model->getIpAddress(),
+            SerializerKeys::REQUEST_DATA_GET  => $model->getRequestDataGet(),
+            SerializerKeys::REQUEST_DATA_POST => $model->getRequestDataPost(),
+            SerializerKeys::REQUEST_METHOD    => $model->getRequestMethod(),
+            SerializerKeys::REQUEST_ROUTE     => $model->getRequestRoute(),
+            SerializerKeys::REQUEST_URL       => $model->getRequestUrl(),
+            BaseSerializerKeys::TYPE          => $model->getType(),
         ];
     }
 

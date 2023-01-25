@@ -27,11 +27,18 @@ interface SerializerKeys {
     const ENTITY = "entity";
 
     /**
-     * Serializer key "event".
+     * Serializer key "entity data".
      *
      * @var string
      */
-    const EVENT = "event";
+    const ENTITY_DATA = "entityData";
+
+    /**
+     * Serializer key "entity id".
+     *
+     * @var string
+     */
+    const ENTITY_ID = "entityId";
 
     /**
      * Serializer key "matcher".
@@ -41,16 +48,37 @@ interface SerializerKeys {
     const MATCHER = "matcher";
 
     /**
-     * Serializer key "request".
+     * Serializer key "request data GET".
      *
      * @var string
      */
-    const REQUEST = "request";
+    const REQUEST_DATA_GET = "requestDataGet";
 
     /**
-     * Serializer key "route".
+     * Serializer key "request data POST".
      *
      * @var string
      */
-    const ROUTE = "route";
+    const REQUEST_DATA_POST = "requestDataPost";
+
+    /**
+     * Serializer key "request method".
+     *
+     * @var string
+     */
+    const REQUEST_METHOD = "requestMethod";
+
+    /**
+     * Serializer key "request route".
+     *
+     * @var string
+     */
+    const REQUEST_ROUTE = "requestRoute";
+
+    /**
+     * Serializer key "request URL".
+     *
+     * @var string
+     */
+    const REQUEST_URL = "requestUrl";
 }
