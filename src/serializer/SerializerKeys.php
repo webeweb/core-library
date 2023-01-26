@@ -650,6 +650,13 @@ interface SerializerKeys {
     const MESSAGE = "message";
 
     /**
+     * Serializer key "method".
+     *
+     * @var string
+     */
+    const METHOD = "method";
+
+    /**
      * Serializer key "mime type".
      *
      * @var string
