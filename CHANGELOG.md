@@ -6,8 +6,12 @@ CHANGELOG
 - Add Repository event
 - Add Repository event interface
 - Add Repository event trait
+- Add Request detail
+- Add Request detail interface
+- Add Request detail trait
 - Add Serializer keys
 - Add string entity trait
+- Add string method trait
 - Add string request trait
 - Add string route trait
 - Add string version trait
