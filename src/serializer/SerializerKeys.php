@@ -914,28 +914,24 @@ interface SerializerKeys {
      * @var string
      */
     const RESET = "reset";
-
-    /**
-     * Serializer key "route".
-     *
-     * @var string
-     */
-    const ROUTE = "route";
-
     /**
      * Serializer key "role".
      *
      * @var string
      */
     const ROLE = "role";
-
     /**
      * Serializer key "roles".
      *
      * @var string
      */
     const ROLES = "roles";
-
+    /**
+     * Serializer key "route".
+     *
+     * @var string
+     */
+    const ROUTE = "route";
     /**
      * Serializer key "salt".
      *
