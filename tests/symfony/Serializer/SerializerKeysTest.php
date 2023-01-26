@@ -29,6 +29,8 @@ class SerializerKeysTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
+        $this->assertEquals("dataGet", SerializerKeys::DATA_GET);
+        $this->assertEquals("dataPost", SerializerKeys::DATA_POST);
         $this->assertEquals("entity", SerializerKeys::ENTITY);
         $this->assertEquals("entityData", SerializerKeys::ENTITY_DATA);
         $this->assertEquals("entityId", SerializerKeys::ENTITY_ID);

@@ -20,6 +20,20 @@ namespace WBW\Library\Symfony\Serializer;
 interface SerializerKeys {
 
     /**
+     * Serializer key "data GET".
+     *
+     * @var string
+     */
+    const DATA_GET = "dataGet";
+
+    /**
+     * Serializer key "data POST".
+     *
+     * @var string
+     */
+    const DATA_POST = "dataPost";
+
+    /**
      * Serializer key "entity".
      *
      * @var string
