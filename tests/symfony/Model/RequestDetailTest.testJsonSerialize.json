@@ -1,0 +1,14 @@
+{
+    "id": null,
+    "dataGet": "dataGet",
+    "dataPost": "dataPost",
+    "date": {
+        "date": "2023-01-24 09:50:00.000000",
+        "timezone_type": 3,
+        "timezone": "UTC"
+    },
+    "ipAddress": "ipAddress",
+    "method": "method",
+    "route": "route",
+    "url": "url"
+}

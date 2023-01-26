@@ -26,6 +26,7 @@ use WBW\Library\Symfony\Assets\ProgressBarInterface;
 use WBW\Library\Symfony\Assets\Select2OptionInterface;
 use WBW\Library\Symfony\Assets\ToastInterface;
 use WBW\Library\Symfony\Model\RepositoryEventInterface;
+use WBW\Library\Symfony\Model\RequestDetailInterface;
 use WBW\Library\Types\Helper\ArrayHelper;
 
 /**
@@ -217,6 +218,26 @@ class JsonSerializer {
             SerializerKeys::REQUEST_ROUTE     => $model->getRequestRoute(),
             SerializerKeys::REQUEST_URL       => $model->getRequestUrl(),
             BaseSerializerKeys::TYPE          => $model->getType(),
+        ];
+    }
+
+    /**
+     * Serializes a request detail.
+     *
+     * @param RequestDetailInterface $model The model.
+     * @return array Returns the serialized model.
+     */
+    public static function serializeRequestDetail(RequestDetailInterface $model): array {
+
+        return [
+            BaseSerializerKeys::ID         => $model->getId(),
+            SerializerKeys::DATA_GET       => $model->getDataGet(),
+            SerializerKeys::DATA_POST      => $model->getDataPost(),
+            BaseSerializerKeys::DATE       => $model->getDate(),
+            BaseSerializerKeys::IP_ADDRESS => $model->getIpAddress(),
+            BaseSerializerKeys::METHOD     => $model->getMethod(),
+            BaseSerializerKeys::ROUTE      => $model->getRoute(),
+            BaseSerializerKeys::URL        => $model->getUrl(),
         ];
     }
 
