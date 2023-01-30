@@ -14,6 +14,7 @@ namespace WBW\Library\Symfony\Model;
 use WBW\Library\Traits\Floats\FloatAverageTrait;
 use WBW\Library\Traits\Integers\IntegerMaximumTrait;
 use WBW\Library\Traits\Integers\IntegerMinimumTrait;
+use WBW\Library\Traits\Strings\StringTypeTrait;
 
 /**
  * Repository detail.
@@ -29,6 +30,7 @@ class RepositoryDetail implements RepositoryDetailInterface {
     use RepositoryReportTrait {
         setRepositoryReport as public;
     }
+    use StringTypeTrait;
 
     /**
      * Available

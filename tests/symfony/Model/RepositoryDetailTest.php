@@ -105,6 +105,7 @@ class RepositoryDetailTest extends AbstractTestCase {
         $this->assertNull($obj->getMaximum());
         $this->assertNull($obj->getMinimum());
         $this->assertNull($obj->getRepositoryReport());
+        $this->assertNull($obj->getType());
 
         $this->assertNull($obj->getAvailable());
         $this->assertNull($obj->getColumn());

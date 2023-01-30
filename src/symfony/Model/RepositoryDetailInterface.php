@@ -74,4 +74,11 @@ interface RepositoryDetailInterface {
      * @return RepositoryReportInterface|null Returns the repository report.
      */
     public function getRepositoryReport(): ?RepositoryReportInterface;
+
+    /**
+     * Get the type.
+     *
+     * @return string|null Returns the type.
+     */
+    public function getType(): ?string;
 }
