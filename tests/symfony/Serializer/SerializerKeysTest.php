@@ -40,5 +40,6 @@ class SerializerKeysTest extends AbstractTestCase {
         $this->assertEquals("requestMethod", SerializerKeys::REQUEST_METHOD);
         $this->assertEquals("requestRoute", SerializerKeys::REQUEST_ROUTE);
         $this->assertEquals("requestUrl", SerializerKeys::REQUEST_URL);
+        $this->assertEquals("xmlHttp", SerializerKeys::XML_HTTP);
     }
 }

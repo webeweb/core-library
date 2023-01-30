@@ -95,4 +95,11 @@ interface SerializerKeys {
      * @var string
      */
     const REQUEST_URL = "requestUrl";
+
+    /**
+     * Serializer key "XML HTTP".
+     *
+     * @var string
+     */
+    const XML_HTTP = "xmlHttp";
 }
