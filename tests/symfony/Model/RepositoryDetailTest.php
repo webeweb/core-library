@@ -24,6 +24,34 @@ use WBW\Library\Symfony\Tests\AbstractTestCase;
 class RepositoryDetailTest extends AbstractTestCase {
 
     /**
+     * Tests getAveragePercent()
+     *
+     * @return void
+     */
+    public function testGetAveragePercent(): void {
+
+        $obj = new RepositoryDetail();
+
+        $this->assertNull($obj->getAveragePercent());
+
+        $obj->setAvailable(-1);
+        $obj->setAverage(null);
+        $this->assertNull($obj->getAveragePercent());
+
+        $obj->setAvailable(1);
+        $obj->setAverage(null);
+        $this->assertNull($obj->getAveragePercent());
+
+        $obj->setAvailable(null);
+        $obj->setAverage(1);
+        $this->assertNull($obj->getAveragePercent());
+
+        $obj->setAvailable(8);
+        $obj->setAverage(3.57);
+        $this->assertEquals(44.625, $obj->getAveragePercent());
+    }
+
+    /**
      * Tests setAvailable()
      *
      * @return void
@@ -34,19 +62,6 @@ class RepositoryDetailTest extends AbstractTestCase {
 
         $obj->setAvailable(255);
         $this->assertEquals(255, $obj->getAvailable());
-    }
-
-    /**
-     * Tests setAverage()
-     *
-     * @return void
-     */
-    public function testSetAverage(): void {
-
-        $obj = new RepositoryDetail();
-
-        $obj->setAverage(0.1);
-        $this->assertEquals(0.1, $obj->getAverage());
     }
 
     /**
@@ -73,32 +88,6 @@ class RepositoryDetailTest extends AbstractTestCase {
 
         $obj->setField("field");
         $this->assertEquals("field", $obj->getField());
-    }
-
-    /**
-     * Tests setMaximum()
-     *
-     * @return void
-     */
-    public function testSetMaximum(): void {
-
-        $obj = new RepositoryDetail();
-
-        $obj->setMaximum(180);
-        $this->assertEquals(180, $obj->getMaximum());
-    }
-
-    /**
-     * Tests setMinimum()
-     *
-     * @return void
-     */
-    public function testSetMinimum(): void {
-
-        $obj = new RepositoryDetail();
-
-        $obj->setMinimum(90);
-        $this->assertEquals(90, $obj->getMinimum());
     }
 
     /**

@@ -34,6 +34,13 @@ interface RepositoryDetailInterface {
     public function getAverage(): ?float;
 
     /**
+     * Get the average in percent.
+     *
+     * @return float|null Returns the average in percent.
+     */
+    public function getAveragePercent(): ?float;
+
+    /**
      * Get the column.
      *
      * @return string|null Returns the column.

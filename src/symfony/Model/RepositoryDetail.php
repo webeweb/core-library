@@ -68,6 +68,18 @@ class RepositoryDetail implements RepositoryDetailInterface {
     /**
      * {@inheritdoc}
      */
+    public function getAveragePercent(): ?float {
+
+        if (null === $this->getAvailable() || $this->getAvailable() <= 0 || null === $this->getAverage()) {
+            return null;
+        }
+
+        return ($this->getAverage() / $this->getAvailable()) * 100;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
     public function getColumn(): ?string {
         return $this->column;
     }
