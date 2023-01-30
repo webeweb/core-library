@@ -79,6 +79,13 @@ interface RequestDetailInterface extends JsonSerializable {
     public function getUrl(): ?string;
 
     /**
+     * Get the XML HTTP.
+     *
+     * @return bool|null Returns the XML HTTP.
+     */
+    public function getXmlHttp(): ?bool;
+
+    /**
      * Set the data "GET"
      *
      * @param string|null $dataGet The data "GET".
@@ -133,4 +140,12 @@ interface RequestDetailInterface extends JsonSerializable {
      * @return RequestDetailInterface Returns this request detail.
      */
     public function setUrl(?string $url);
+
+    /**
+     * Set the XML HTTP.
+     *
+     * @param bool|null $xmlHttp The XML HTTP.
+     * @return RequestDetailInterface Returns this request detail.
+     */
+    public function setXmlHttp(?bool $xmlHttp): RequestDetailInterface;
 }

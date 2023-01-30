@@ -49,6 +49,13 @@ class RequestDetail implements RequestDetailInterface {
     protected $dataPost;
 
     /**
+     * XML HTTP.
+     *
+     * @var bool|null
+     */
+    protected $xmlHttp;
+
+    /**
      * Constructor.
      */
     public function __construct() {
@@ -72,6 +79,13 @@ class RequestDetail implements RequestDetailInterface {
     /**
      * {@inheritdoc}
      */
+    public function getXmlHttp(): ?bool {
+        return $this->xmlHttp;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
     public function jsonSerialize(): array {
         return JsonSerializer::serializeRequestDetail($this);
     }
@@ -89,6 +103,14 @@ class RequestDetail implements RequestDetailInterface {
      */
     public function setDataPost(?string $dataPost): RequestDetailInterface {
         $this->dataPost = $dataPost;
+        return $this;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function setXmlHttp(?bool $xmlHttp): RequestDetailInterface {
+        $this->xmlHttp = $xmlHttp;
         return $this;
     }
 }

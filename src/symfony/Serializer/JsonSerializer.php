@@ -238,6 +238,7 @@ class JsonSerializer {
             BaseSerializerKeys::METHOD     => $model->getMethod(),
             BaseSerializerKeys::ROUTE      => $model->getRoute(),
             BaseSerializerKeys::URL        => $model->getUrl(),
+            SerializerKeys::XML_HTTP       => $model->getXmlHttp(),
         ];
     }
 

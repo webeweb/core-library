@@ -10,5 +10,6 @@
     "ipAddress": "ipAddress",
     "method": "method",
     "route": "route",
-    "url": "url"
+    "url": "url",
+    "xmlHttp": true
 }
