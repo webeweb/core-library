@@ -9,7 +9,7 @@ CHANGELOG
 - Add Request detail
 - Add Request detail interface
 - Add Request detail trait
-- Add Serializer keys
+- Add Symfony Serializer keys
 - Add string entity trait
 - Add string method trait
 - Add string request trait
