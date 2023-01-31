@@ -1,7 +1,7 @@
 CHANGELOG
 =========
 
-### master
+### [8.65.0](https://github.com/webeweb/core-library/tree/v8.65.0) (2023-01-31)
 
 - Add Repository event
 - Add Repository event interface
