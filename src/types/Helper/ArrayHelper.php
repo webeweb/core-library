@@ -207,7 +207,7 @@ class ArrayHelper {
      */
     public static function set(array &$array, string $key, $value, array $tests = []): void {
 
-        if (true === in_array($value, $tests)) {
+        if (true === in_array($value, $tests, true)) {
             return;
         }
 
