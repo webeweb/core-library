@@ -170,6 +170,31 @@ class ArrayHelperTest extends AbstractTestCase {
     }
 
     /**
+     * Tests obfuscate()
+     *
+     * @return void
+     */
+    public function testObfuscate(): void {
+
+        // Set the expected data.
+        $json = file_get_contents(__DIR__ . "/ArrayHelperTest.testObfuscate.json");
+        $data = json_decode($json, true);
+
+        $str = str_repeat("*", 8);
+
+        $val = [
+            "/^.*=>password$/"       => $str,
+            "/^.*=>plainPassword=>/" => $str,
+        ];
+
+        $res = ArrayHelper::obfuscate($data, $val);
+
+        $this->assertEquals($str, $res["user"]["password"]);
+        $this->assertEquals($str, $res["user"]["plainPassword"]["first"]);
+        $this->assertEquals($str, $res["user"]["plainPassword"]["second"]);
+    }
+
+    /**
      * Tests set()
      *
      * @return void

@@ -1,0 +1,14 @@
+{
+    "user": {
+        "firstName": "firstname",
+        "lastName": "lastanme",
+        "email": "email",
+        "mobile": "mobile",
+        "phone": "phone",
+        "plainPassword": {
+            "first": "password",
+            "second": "password"
+        },
+        "password": "password"
+    }
+}

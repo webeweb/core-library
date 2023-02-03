@@ -165,6 +165,39 @@ class ArrayHelper {
     }
 
     /**
+     * Obfuscates.
+     *
+     * @param array $array The array.
+     * @param array $values The values.
+     * @param string|null $path The path.
+     * @return array Returns the obfuscated array.
+     */
+    public static function obfuscate(array $array, array $values, string $path = null): array {
+
+        $result = $array;
+
+        $keys = array_keys($values);
+
+        foreach ($array as $k => $v) {
+
+            $p = implode("=>", [$path, $k]);
+
+            foreach ($keys as $key) {
+
+                if (1 === preg_match($key, $p)) {
+                    $result[$k] = $values[$key];
+                }
+            }
+
+            if (true === is_array($result[$k])) {
+                $result[$k] = static::obfuscate($result[$k], $values, $p);
+            }
+        }
+
+        return $result;
+    }
+
+    /**
      * Set a value.
      *
      * @param array $array The array.
