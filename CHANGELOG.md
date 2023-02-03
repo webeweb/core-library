@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+### master
+
+- Add obfuscate() method into Array helper
+- Improve set() into Array helper
+
 ### [8.65.0](https://github.com/webeweb/core-library/tree/v8.65.0) (2023-01-31)
 
 - Add Repository event
