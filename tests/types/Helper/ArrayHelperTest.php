@@ -201,49 +201,41 @@ class ArrayHelperTest extends AbstractTestCase {
      */
     public function testSet(): void {
 
-        $objN = [];
+        $null = [];
 
-        ArrayHelper::set($objN, "key", null, [null]);
-        $this->assertEquals([], $objN);
+        ArrayHelper::set($null, "key", null, [null]);
+        $this->assertEquals([], $null);
 
-        $objB1 = [];
+        $boolean = [];
 
-        ArrayHelper::set($objB1, "key", true, [null, false]);
-        $this->assertEquals(["key" => true], $objB1);
+        ArrayHelper::set($boolean, "key", false, [null, false]);
+        $this->assertEquals([], $boolean);
 
-        $objB2 = [];
+        ArrayHelper::set($boolean, "key", true, [null, false]);
+        $this->assertEquals(["key" => true], $boolean);
 
-        ArrayHelper::set($objB2, "key", false, [null, false]);
-        $this->assertEquals([], $objB2);
+        $float = [];
 
-        $objF1 = [];
+        ArrayHelper::set($float, "key", 0.0, [null, 0.0]);
+        $this->assertEquals([], $float);
 
-        ArrayHelper::set($objF1, "key", 1.0, [null, 0.0]);
-        $this->assertEquals(["key" => 1.0], $objF1);
+        ArrayHelper::set($float, "key", 1.0, [null, 0.0]);
+        $this->assertEquals(["key" => 1.0], $float);
 
-        $objF2 = [];
+        $integer = [];
 
-        ArrayHelper::set($objF2, "key", 0.0, [null, 0.0]);
-        $this->assertEquals([], $objF2);
+        ArrayHelper::set($integer, "key", 0, [null, 0]);
+        $this->assertEquals([], $integer);
 
-        $objI1 = [];
+        ArrayHelper::set($integer, "key", 1, [null, 0]);
+        $this->assertEquals(["key" => 1], $integer);
 
-        ArrayHelper::set($objI1, "key", 1, [null, 0]);
-        $this->assertEquals(["key" => 1], $objI1);
+        $string = [];
 
-        $objI2 = [];
+        ArrayHelper::set($string, "key", "false", [null, "false"]);
+        $this->assertEquals([], $string);
 
-        ArrayHelper::set($objI2, "key", 0, [null, 0]);
-        $this->assertEquals([], $objI2);
-
-        $objS1 = [];
-
-        ArrayHelper::set($objS1, "key", "true", [null, "false"]);
-        $this->assertEquals(["key" => "true"], $objS1);
-
-        $objS2 = [];
-
-        ArrayHelper::set($objS2, "key", "false", [null, "false"]);
-        $this->assertEquals([], $objS2);
+        ArrayHelper::set($string, "key", "true", [null, "false"]);
+        $this->assertEquals(["key" => "true"], $string);
     }
 }

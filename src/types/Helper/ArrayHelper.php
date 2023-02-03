@@ -175,22 +175,21 @@ class ArrayHelper {
     public static function obfuscate(array $array, array $values, string $path = null): array {
 
         $result = $array;
-
-        $keys = array_keys($values);
+        $paths  = array_keys($values);
 
         foreach ($array as $k => $v) {
 
-            $p = implode("=>", [$path, $k]);
+            $currentPath = implode("=>", [$path, $k]);
 
-            foreach ($keys as $key) {
+            foreach ($paths as $p) {
 
-                if (1 === preg_match($key, $p)) {
-                    $result[$k] = $values[$key];
+                if (1 === preg_match($p, $currentPath)) {
+                    $result[$k] = $values[$p];
                 }
             }
 
             if (true === is_array($result[$k])) {
-                $result[$k] = static::obfuscate($result[$k], $values, $p);
+                $result[$k] = static::obfuscate($result[$k], $values, $currentPath);
             }
         }
 
@@ -208,11 +207,8 @@ class ArrayHelper {
      */
     public static function set(array &$array, string $key, $value, array $tests = []): void {
 
-        foreach ($tests as $current) {
-
-            if ($current === $value) {
-                return;
-            }
+        if (true === in_array($value, $tests)) {
+            return;
         }
 
         $array[$key] = $value;
