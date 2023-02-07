@@ -54,6 +54,7 @@ abstract class AbstractProvider {
 
         $values = $request->getSubstituables();
         foreach ($values as $k => $v) {
+
             if (null === $v) {
                 throw new InvalidArgumentException(sprintf('The substituable value "%s" is missing', $k));
             }
