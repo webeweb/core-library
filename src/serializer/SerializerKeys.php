@@ -1140,6 +1140,13 @@ interface SerializerKeys {
     const USERNAME = "username";
 
     /**
+     * Serializer key "user agent".
+     *
+     * @var string
+     */
+    const USER_AGENT = "userAgent";
+
+    /**
      * Serializer key "value".
      *
      * @var string

@@ -207,6 +207,7 @@ class SerializerKeysTest extends AbstractTestCase {
         $this->assertEquals("uri", SerializerKeys::URI);
         $this->assertEquals("url", SerializerKeys::URL);
         $this->assertEquals("username", SerializerKeys::USERNAME);
+        $this->assertEquals("userAgent", SerializerKeys::USER_AGENT);
 
         $this->assertEquals("value", SerializerKeys::VALUE);
         $this->assertEquals("vatAmount", SerializerKeys::VAT_AMOUNT);
