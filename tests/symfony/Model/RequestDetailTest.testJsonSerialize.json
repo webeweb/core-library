@@ -11,5 +11,6 @@
     "method": "method",
     "route": "route",
     "url": "url",
+    "userAgent": "userAgent",
     "xmlHttp": true
 }

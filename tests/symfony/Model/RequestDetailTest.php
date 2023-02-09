@@ -48,10 +48,11 @@ class RequestDetailTest extends AbstractTestCase {
         $obj->setMethod(BaseSerializerKeys::METHOD);
         $obj->setRoute(BaseSerializerKeys::ROUTE);
         $obj->setUrl(BaseSerializerKeys::URL);
+        $obj->setUserAgent(BaseSerializerKeys::USER_AGENT);
         $obj->setXmlHttp(true);
 
         $res = $obj->jsonSerialize();
-        $this->assertCount(9, $res);
+        $this->assertCount(10, $res);
 
         $this->assertEquals($data, json_encode($res, JSON_PRETTY_PRINT) . "\n");
     }
@@ -100,6 +101,7 @@ class RequestDetailTest extends AbstractTestCase {
         $this->assertNull($obj->getMethod());
         $this->assertNull($obj->getRoute());
         $this->assertNull($obj->getUrl());
+        $this->assertNull($obj->getUserAgent());
 
         $this->assertNull($obj->getDataGet());
         $this->assertNull($obj->getDataPost());

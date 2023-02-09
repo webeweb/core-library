@@ -79,6 +79,13 @@ interface RequestDetailInterface extends JsonSerializable {
     public function getUrl(): ?string;
 
     /**
+     * Get the user agent.
+     *
+     * @return string|null Returns the user agent.
+     */
+    public function getUserAgent(): ?string;
+
+    /**
      * Get the XML HTTP.
      *
      * @return bool|null Returns the XML HTTP.
@@ -86,7 +93,7 @@ interface RequestDetailInterface extends JsonSerializable {
     public function getXmlHttp(): ?bool;
 
     /**
-     * Set the data "GET"
+     * Set the data "GET".
      *
      * @param string|null $dataGet The data "GET".
      * @return RequestDetailInterface Returns this request detail.
@@ -140,6 +147,14 @@ interface RequestDetailInterface extends JsonSerializable {
      * @return RequestDetailInterface Returns this request detail.
      */
     public function setUrl(?string $url);
+
+    /**
+     * Set the user agent.
+     *
+     * @param string|null $userAgent The user agent.
+     * @return RequestDetailInterface Returns this request detail.
+     */
+    public function setUserAgent(?string $userAgent);
 
     /**
      * Set the XML HTTP.

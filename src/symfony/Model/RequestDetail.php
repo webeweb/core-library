@@ -18,6 +18,7 @@ use WBW\Library\Traits\Strings\StringIpAddressTrait;
 use WBW\Library\Traits\Strings\StringMethodTrait;
 use WBW\Library\Traits\Strings\StringRouteTrait;
 use WBW\Library\Traits\Strings\StringUrlTrait;
+use WBW\Library\Traits\Strings\StringUserAgentTrait;
 
 /**
  * Request detail.
@@ -33,6 +34,7 @@ class RequestDetail implements RequestDetailInterface {
     use StringMethodTrait;
     use StringRouteTrait;
     use StringUrlTrait;
+    use StringUserAgentTrait;
 
     /**
      * Data "GET".
