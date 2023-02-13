@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### master
+
+- Add string image trait
+
 ### [8.67.0](https://github.com/webeweb/core-library/tree/v8.67.0) (2023-02-09)
 
 - Add string user agent trait
