@@ -5,6 +5,7 @@ CHANGELOG
 
 - Add string image trait
 - Improve Array helper
+- Update Serializer keys
 
 ### [8.67.0](https://github.com/webeweb/core-library/tree/v8.67.0) (2023-02-09)
 
