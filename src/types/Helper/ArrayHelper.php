@@ -62,7 +62,7 @@ class ArrayHelper {
      * @return mixed Returns the value in case of success, $default otherwise.
      */
     public static function get(array $array, $key, $default = null) {
-        return true === array_key_exists($key, $array) ? $array[$key] : $default;
+        return true === array_key_exists($key, $array) && null !== $array[$key] ? $array[$key] : $default;
     }
 
     /**
