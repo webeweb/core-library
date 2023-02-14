@@ -100,6 +100,7 @@ class SerializerKeysTest extends AbstractTestCase {
         $this->assertEquals("icon", SerializerKeys::ICON);
         $this->assertEquals("id", SerializerKeys::ID);
         $this->assertEquals("identifier", SerializerKeys::IDENTIFIER);
+        $this->assertEquals("image", SerializerKeys::IMAGE);
         $this->assertEquals("includingVatPrice", SerializerKeys::INCLUDING_VAT_PRICE);
         $this->assertEquals("includingVatTotal", SerializerKeys::INCLUDING_VAT_TOTAL);
         $this->assertEquals("income", SerializerKeys::INCOME);

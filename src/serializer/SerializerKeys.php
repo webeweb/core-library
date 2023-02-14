@@ -461,11 +461,18 @@ interface SerializerKeys {
     const ID = "id";
 
     /**
-     * Serializer key "enable".
+     * Serializer key "identifier".
      *
      * @var string
      */
     const IDENTIFIER = "identifier";
+
+    /**
+     * Serializer key "image".
+     *
+     * @var string
+     */
+    const IMAGE = "image";
 
     /**
      * Serializer key "including VAT price".
