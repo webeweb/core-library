@@ -60,7 +60,10 @@ abstract class AbstractProvider {
             }
         }
 
-        return str_replace(array_keys($values), array_values($values), $request->getResourcePath());
+        $searches = array_keys($values);
+        $replaces = array_values($values);
+
+        return str_replace($searches, $replaces, $request->getResourcePath());
     }
 
     /**
