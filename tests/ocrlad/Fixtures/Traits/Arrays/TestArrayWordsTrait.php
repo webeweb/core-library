@@ -9,15 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\OcrLad\Tests\Fixtures\Model\Attribute;
+namespace WBW\Library\OcrLad\Tests\Fixtures\Traits\Arrays;
 
-use WBW\Library\OcrLad\Model\Attribute\ArrayWordsTrait;
+use WBW\Library\OcrLad\Traits\Arrays\ArrayWordsTrait;
 
 /**
  * Test array words trait.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\OcrLad\Tests\Fixtures\Model\Attribute
+ * @package WBW\Library\OcrLad\Tests\Fixtures\Traits\Arrays
  */
 class TestArrayWordsTrait {
 

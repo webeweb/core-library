@@ -9,17 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\OcrLad\Tests\Model\Attribute;
+namespace WBW\Library\OcrLad\Tests\Traits\Arrays;
 
 use WBW\Library\OcrLad\Model\Word;
 use WBW\Library\OcrLad\Tests\AbstractTestCase;
-use WBW\Library\OcrLad\Tests\Fixtures\Model\Attribute\TestArrayWordsTrait;
+use WBW\Library\OcrLad\Tests\Fixtures\Traits\Arrays\TestArrayWordsTrait;
 
 /**
  * Array words trait test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\OcrLad\Tests\Model\Attribute
+ * @package WBW\Library\OcrLad\Tests\Traits\Arrays
  */
 class ArrayWordsTraitTest extends AbstractTestCase {
 

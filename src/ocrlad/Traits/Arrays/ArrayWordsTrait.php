@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\OcrLad\Model\Attribute;
+namespace WBW\Library\OcrLad\Traits\Arrays;
 
 use WBW\Library\OcrLad\Model\Word;
 
@@ -17,7 +17,7 @@ use WBW\Library\OcrLad\Model\Word;
  * Array words trait.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\OcrLad\Model\Attribute
+ * @package WBW\Library\OcrLad\Traits\Arrays
  */
 trait ArrayWordsTrait {
 
