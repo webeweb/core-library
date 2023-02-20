@@ -1,11 +1,12 @@
 CHANGELOG
 =========
 
-### master
+### [8.68.0](https://github.com/webeweb/core-library/tree/v8.68.0) (2023-02-20)
 
 - Add string image trait
 - Improve Array helper
 - Improve code quality
+- Reorganize internal traits
 - Update Serializer keys
 
 ### [8.67.0](https://github.com/webeweb/core-library/tree/v8.67.0) (2023-02-09)
