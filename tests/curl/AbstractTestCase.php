@@ -45,9 +45,9 @@ abstract class AbstractTestCase extends BaseTestCase {
 
         // Set a Configuration mock.
         $this->curlConfiguration = new Configuration();
-        $this->curlConfiguration->setHost("https://webeweb.dev/");
+        $this->curlConfiguration->setHost("https://webeweb.me/");
 
-        // Set a rresource path mock.
+        // Set a resource path mock.
         $this->curlResourcePath = "curl-library.php";
     }
 }
