@@ -41,7 +41,7 @@ abstract class AbstractProvider {
     }
 
     /**
-     * Build the resource path.
+     * Builds a resource path.
      *
      * @param AbstractRequest $request The request.
      * @return string Returns the resource path.
@@ -67,7 +67,7 @@ abstract class AbstractProvider {
     }
 
     /**
-     * Log an info.
+     * Logs an info.
      *
      * @param string $message The message.
      * @param array $context The context.
