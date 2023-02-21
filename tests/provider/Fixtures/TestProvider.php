@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Provider\Tests\Fixtures;
 
+use InvalidArgumentException;
 use Psr\Log\LoggerInterface;
 use WBW\Library\Provider\AbstractProvider;
 use WBW\Library\Provider\Request\AbstractRequest;
@@ -44,5 +45,12 @@ class TestProvider extends AbstractProvider {
      */
     public function logInfo(string $message, array $context): AbstractProvider {
         return parent::logInfo($message, $context);
+    }
+
+    /**
+     * {@inheritdDoc}
+     */
+    public function newMandatoryParameterException(string $parameter): InvalidArgumentException {
+        return parent::newMandatoryParameterException($parameter);
     }
 }

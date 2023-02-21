@@ -81,4 +81,14 @@ abstract class AbstractProvider {
 
         return $this;
     }
+
+    /**
+     * Creates a mandatory parameter exception.
+     *
+     * @param string $parameter The parameter.
+     * @return InvalidArgumentException Returns the mandatory parameter exception.
+     */
+    protected function newMandatoryParameterException(string $parameter): InvalidArgumentException {
+        return new InvalidArgumentException(sprintf('The mandatory parameter "%s" is missing', $parameter));
+    }
 }

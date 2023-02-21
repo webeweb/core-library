@@ -91,6 +91,19 @@ class AbstractProviderTest extends AbstractTestCase {
     }
 
     /**
+     * Tests newMandatoryParameterException()
+     *
+     * @return void
+     */
+    public function testNewMandatoryParameterException(): void {
+
+        $obj = new TestProvider($this->logger);
+
+        $res = $obj->newMandatoryParameterException("parameter");
+        $this->assertEquals('The mandatory parameter "parameter" is missing', $res->getMessage());
+    }
+
+    /**
      * Tests __construct()
      *
      * @return void
