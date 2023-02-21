@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [8.69.0](https://github.com/webeweb/core-library/tree/v8.69.0) (2023-02-21)
+
+- Add newMandatoryParameterException() into abstract provider
+
 ### [8.68.0](https://github.com/webeweb/core-library/tree/v8.68.0) (2023-02-20)
 
 - Add string image trait
