@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [8.70.0](https://github.com/webeweb/core-library/tree/v8.70.0) (2023-02-23)
+
+- Improve Symfony Manager interface
+
 ### [8.69.0](https://github.com/webeweb/core-library/tree/v8.69.0) (2023-02-21)
 
 - Add newMandatoryParameterException() into abstract provider
