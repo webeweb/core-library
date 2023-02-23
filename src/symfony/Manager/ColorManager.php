@@ -37,7 +37,7 @@ class ColorManager extends AbstractManager implements ColorManagerInterface {
      */
     public function addProvider(ProviderInterface $provider): ManagerInterface {
 
-        if (true === $this->contains($provider)) {
+        if (true === $this->containsProvider($provider)) {
             throw new AlreadyRegisteredProviderException($provider);
         }
 
@@ -47,7 +47,7 @@ class ColorManager extends AbstractManager implements ColorManagerInterface {
     /**
      * {@inheritdoc}
      */
-    public function contains(ProviderInterface $provider): bool {
+    public function containsProvider(ProviderInterface $provider): bool {
 
         if (false === ($provider instanceof ColorProviderInterface)) {
             throw new InvalidArgumentException("The provider must implements " . ColorProviderInterface::class);

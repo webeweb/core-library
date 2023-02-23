@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Symfony\Tests\Manager;
 
+use Throwable;
 use WBW\Library\Symfony\Provider\ProviderInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 use WBW\Library\Symfony\Tests\Fixtures\Manager\TestManager;
@@ -44,6 +45,7 @@ class AbstractManagerTest extends AbstractTestCase {
      * Tests addProvider()
      *
      * @return void
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testAddProvider(): void {
 
@@ -55,24 +57,26 @@ class AbstractManagerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests contains()
+     * Tests containsProvider()
      *
      * @return void
+     * @throws Throwable Throws an exception if an error occurs.
      */
-    public function testContains(): void {
+    public function testContainsProvider(): void {
 
         $obj = new TestManager($this->logger);
 
-        $this->assertFalse($obj->contains($this->provider));
+        $this->assertFalse($obj->containsProvider($this->provider));
 
         $obj->addProvider($this->provider);
-        $this->assertTrue($obj->contains($this->provider));
+        $this->assertTrue($obj->containsProvider($this->provider));
     }
 
     /**
      * Tests hasProviders()
      *
      * @return void
+     * @throws Throwable Throws an exception if an error occurs.
      */
     public function testHasProviders(): void {
 
@@ -85,11 +89,12 @@ class AbstractManagerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests indexOf()
+     * Tests indexOfProvider()
      *
      * @return void
+     * @throws Throwable Throws an exception if an error occurs.
      */
-    public function testIndexOf(): void {
+    public function testIndexOfProvider(): void {
 
         // Set a Provider mock.
         $provider = $this->getMockBuilder(ProviderInterface::class)->getMock();
@@ -97,10 +102,10 @@ class AbstractManagerTest extends AbstractTestCase {
         $obj = new TestManager($this->logger);
 
         $obj->addProvider($provider);
-        $this->assertEquals(-1, $obj->indexOf($this->provider));
+        $this->assertEquals(-1, $obj->indexOfProvider($this->provider));
 
         $obj->addProvider($this->provider);
-        $this->assertEquals(1, $obj->indexOf($this->provider));
+        $this->assertEquals(1, $obj->indexOfProvider($this->provider));
     }
 
     /**

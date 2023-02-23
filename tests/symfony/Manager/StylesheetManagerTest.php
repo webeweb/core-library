@@ -82,27 +82,27 @@ class StylesheetManagerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests contains()
+     * Tests containsProvider()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
      */
-    public function testContains(): void {
+    public function testContainsProvider(): void {
 
         $obj = new StylesheetManager($this->logger);
 
-        $this->assertFalse($obj->contains($this->stylesheetProvider));
+        $this->assertFalse($obj->containsProvider($this->stylesheetProvider));
 
         $obj->addProvider($this->stylesheetProvider);
-        $this->assertTrue($obj->contains($this->stylesheetProvider));
+        $this->assertTrue($obj->containsProvider($this->stylesheetProvider));
     }
 
     /**
-     * Tests contains()
+     * Tests containsProvider()
      *
      * @return void
      */
-    public function testContainsWithInvalidArgumentException(): void {
+    public function testContainsProviderWithInvalidArgumentException(): void {
 
         // Set a Provider mock.
         $provider = $this->getMockBuilder(ProviderInterface::class)->getMock();
@@ -111,7 +111,7 @@ class StylesheetManagerTest extends AbstractTestCase {
 
         try {
 
-            $obj->contains($provider);
+            $obj->containsProvider($provider);
         } catch (Throwable $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);

@@ -82,19 +82,19 @@ class QuoteManagerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests contains()
+     * Tests containsProvider()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
      */
-    public function testContains(): void {
+    public function testContainsProvider(): void {
 
         $obj = new QuoteManager($this->logger);
 
-        $this->assertFalse($obj->contains($this->quoteProvider));
+        $this->assertFalse($obj->containsProvider($this->quoteProvider));
 
         $obj->addProvider($this->quoteProvider);
-        $this->assertTrue($obj->contains($this->quoteProvider));
+        $this->assertTrue($obj->containsProvider($this->quoteProvider));
     }
 
     /**
@@ -111,7 +111,7 @@ class QuoteManagerTest extends AbstractTestCase {
 
         try {
 
-            $obj->contains($provider);
+            $obj->containsProvider($provider);
         } catch (Throwable $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);

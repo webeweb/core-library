@@ -39,7 +39,7 @@ interface ManagerInterface {
      * @return bool Returns true in case of success, false otherwise.
      * @throws InvalidArgumentException Throws an invalid argument exception.
      */
-    public function contains(ProviderInterface $provider): bool;
+    public function containsProvider(ProviderInterface $provider): bool;
 
     /**
      * Determines if this manager contains providers.
@@ -54,7 +54,7 @@ interface ManagerInterface {
      * @param ProviderInterface $provider The provider.
      * @return int Returns the index of in case of success, -1 otherwise.
      */
-    public function indexOf(ProviderInterface $provider): int;
+    public function indexOfProvider(ProviderInterface $provider): int;
 
     /**
      * Count.

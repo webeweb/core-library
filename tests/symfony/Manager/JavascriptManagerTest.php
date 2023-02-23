@@ -82,19 +82,19 @@ class JavascriptManagerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests contains()
+     * Tests containsProvider()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
      */
-    public function testContains(): void {
+    public function testContainsProvider(): void {
 
         $obj = new JavascriptManager($this->logger);
 
-        $this->assertFalse($obj->contains($this->javascriptProvider));
+        $this->assertFalse($obj->containsProvider($this->javascriptProvider));
 
         $obj->addProvider($this->javascriptProvider);
-        $this->assertTrue($obj->contains($this->javascriptProvider));
+        $this->assertTrue($obj->containsProvider($this->javascriptProvider));
     }
 
     /**
@@ -111,7 +111,7 @@ class JavascriptManagerTest extends AbstractTestCase {
 
         try {
 
-            $obj->contains($provider);
+            $obj->containsProvider($provider);
         } catch (Throwable $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);

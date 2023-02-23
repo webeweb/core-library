@@ -83,27 +83,27 @@ class ColorManagerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests contains()
+     * Tests containsProvider()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
      */
-    public function testContains(): void {
+    public function testContainsProvider(): void {
 
         $obj = new ColorManager($this->logger);
 
-        $this->assertFalse($obj->contains($this->colorProvider));
+        $this->assertFalse($obj->containsProvider($this->colorProvider));
 
         $obj->addProvider($this->colorProvider);
-        $this->assertTrue($obj->contains($this->colorProvider));
+        $this->assertTrue($obj->containsProvider($this->colorProvider));
     }
 
     /**
-     * Tests contains()
+     * Tests containsProvider()
      *
      * @return void
      */
-    public function testContainsWithInvalidArgumentException(): void {
+    public function testContainsProviderWithInvalidArgumentException(): void {
 
         // Set a Provider mock.
         $provider = $this->getMockBuilder(ProviderInterface::class)->getMock();
@@ -112,7 +112,7 @@ class ColorManagerTest extends AbstractTestCase {
 
         try {
 
-            $obj->contains($provider);
+            $obj->containsProvider($provider);
         } catch (Throwable $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);

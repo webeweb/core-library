@@ -36,7 +36,7 @@ class JavascriptManager extends AbstractManager implements JavascriptManagerInte
      */
     public function addProvider(ProviderInterface $provider): ManagerInterface {
 
-        if (true === $this->contains($provider)) {
+        if (true === $this->containsProvider($provider)) {
             throw new AlreadyRegisteredProviderException($provider);
         }
 
@@ -46,7 +46,7 @@ class JavascriptManager extends AbstractManager implements JavascriptManagerInte
     /**
      * {@inheritdoc}
      */
-    public function contains(ProviderInterface $provider): bool {
+    public function containsProvider(ProviderInterface $provider): bool {
 
         if (false === ($provider instanceof JavascriptProviderInterface)) {
             throw new InvalidArgumentException("The provider must implements " . JavascriptProviderInterface::class);

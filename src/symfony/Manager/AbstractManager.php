@@ -53,8 +53,8 @@ class AbstractManager implements ManagerInterface {
     /**
      * {@inheritdoc}
      */
-    public function contains(ProviderInterface $provider): bool {
-        return -1 !== $this->indexOf($provider);
+    public function containsProvider(ProviderInterface $provider): bool {
+        return -1 !== $this->indexOfProvider($provider);
     }
 
     /**
@@ -76,7 +76,7 @@ class AbstractManager implements ManagerInterface {
     /**
      * {@inheritdoc}
      */
-    public function indexOf(ProviderInterface $provider): int {
+    public function indexOfProvider(ProviderInterface $provider): int {
 
         for ($i = count($this->providers) - 1; 0 <= $i; --$i) {
 
