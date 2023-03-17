@@ -186,6 +186,7 @@ class SerializerKeysTest extends AbstractTestCase {
         $this->assertEquals("startedAt", SerializerKeys::STARTED_AT);
         $this->assertEquals("startedOn", SerializerKeys::STARTED_ON);
         $this->assertEquals("state", SerializerKeys::STATE);
+        $this->assertEquals("status", SerializerKeys::STATUS);
         $this->assertEquals("streetName", SerializerKeys::STREET_NAME);
         $this->assertEquals("style", SerializerKeys::STYLE);
         $this->assertEquals("subject", SerializerKeys::SUBJECT);

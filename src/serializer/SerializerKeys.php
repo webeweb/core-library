@@ -1007,6 +1007,13 @@ interface SerializerKeys {
     const STATE = "state";
 
     /**
+     * Serializer key "status".
+     *
+     * @var string
+     */
+    const STATUS = "status";
+
+    /**
      * Serializer key "street name".
      *
      * @var string
