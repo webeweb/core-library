@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### master
+
+- Add STATUS constant into Serializer keys
+
 ### [8.70.0](https://github.com/webeweb/core-library/tree/v8.70.0) (2023-02-23)
 
 - Improve Symfony Manager interface
