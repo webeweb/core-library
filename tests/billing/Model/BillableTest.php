@@ -30,6 +30,18 @@ use WBW\Library\Billing\Tests\Fixtures\Model\TestBillableDetail;
 class BillableTest extends AbstractTestCase {
 
     /**
+     * Tests hasDetails()
+     *
+     * @return void
+     */
+    public function testHasDetails(): void {
+
+        $obj = new TestBillable();
+
+        $this->assertFalse($obj->hasDetails());
+    }
+
+    /**
      * Tests jsonSerialize()
      *
      * @return void

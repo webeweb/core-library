@@ -83,4 +83,14 @@ class BillableHelper {
     public static function calcVatTotal(BillableInterface $billable): float {
         return static::calcTotal($billable, "getVatTotal");
     }
+
+    /**
+     * Determines if a billable has details.
+     *
+     * @param BillableInterface $billable The billable.
+     * @return bool Returns true in case of success, false otherwise.
+     */
+    public static function hasDetails(BillableInterface $billable): bool {
+        return 0 < count($billable->getDetails());
+    }
 }

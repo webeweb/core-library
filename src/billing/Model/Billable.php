@@ -95,6 +95,13 @@ abstract class Billable implements BillableInterface {
     /**
      * {@inheritdoc}
      */
+    public function hasDetails(): bool {
+        return BillableHelper::hasDetails($this);
+    }
+
+    /**
+     * {@inheritdoc}
+     */
     public function jsonSerialize(): array {
         return JsonSerializer::serializeBillable($this);
     }

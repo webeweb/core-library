@@ -119,4 +119,22 @@ class BillableHelperTest extends AbstractTestCase {
 
         $this->assertEquals(20, BillableHelper::calcVatTotal($obj));
     }
+
+    /**
+     * Tests hasDetails()
+     *
+     * @return void
+     */
+    public function testHasDetails(): void {
+
+        // Set the Billable detail mocks.
+        $detail = new TestBillableDetail();
+
+        $obj = new TestBillable();
+
+        $this->assertFalse(BillableHelper::hasDetails($obj));
+
+        $obj->addDetail($detail);
+        $this->assertTrue(BillableHelper::hasDetails($obj));
+    }
 }
