@@ -4,6 +4,7 @@ CHANGELOG
 ### master
 
 - Add STATUS constant into Serializer keys
+- Update Billable interface
 
 ### [8.70.0](https://github.com/webeweb/core-library/tree/v8.70.0) (2023-02-23)
 
