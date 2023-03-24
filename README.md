@@ -20,7 +20,7 @@ Provides:
 - FTP clients (FTP, FTPS, SFTP, etc.)
 - Image utilities
 - Logger models
-- Maths helpers (Fibonacci, Luhn, ROT 13, etc.)
+- Maths helpers (Fibonacci, Luhn, ROT13, ROT45, etc.)
 - Planning utilities (time slots, etc.)
 - Quadratus models
 - Security classes (authenticator, password authentication, token generator, etc.)
