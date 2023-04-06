@@ -132,6 +132,7 @@ EOT;
 
         return [
             "--composer-update"     => "runComposerUpdate",
+            "--git-branch"          => "runGitBranch",
             "--git-config-usermail" => "runGitConfigUserEmail",
             "--git-config-username" => "runGitConfigUserName",
             "--git-fetch"           => "runGitFetch",
@@ -157,6 +158,7 @@ EOT;
 
         return [
             "--composer-update"     => "Execute 'composer update'",
+            "--git-branch"          => "Execute 'git branch'",
             "--git-config-usermail" => "Execute 'git config user.email <usermail>'",
             "--git-config-username" => "Execute 'git config user.name <username>'",
             "--git-fetch"           => "Execute 'git fetch --prune --prune-tag'",
@@ -403,6 +405,16 @@ EOT;
      */
     public function runComposerUpdate(): void {
         $this->executeCommandComposer("update");
+    }
+
+    /**
+     * Executes a command "git branch".
+     *
+     * @return void
+     * @throws Throwable Throws an exception if an error occurs.
+     */
+    public function runGitBranch(): void {
+        $this->executeCommandGit("branch");
     }
 
     /**
