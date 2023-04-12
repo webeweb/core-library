@@ -172,7 +172,7 @@ class TempsPassesTest extends AbstractTestCase {
         $obj = new TempsPasses();
 
         $obj->setFacturable(true);
-        $this->assertEquals(true, $obj->getFacturable());
+        $this->assertTrue($obj->getFacturable());
     }
 
     /**
@@ -245,7 +245,7 @@ class TempsPassesTest extends AbstractTestCase {
         $obj = new TempsPasses();
 
         $obj->setIsTransf(true);
-        $this->assertEquals(true, $obj->getIsTransf());
+        $this->assertTrue($obj->getIsTransf());
     }
 
     /**
@@ -431,7 +431,7 @@ class TempsPassesTest extends AbstractTestCase {
         $obj = new TempsPasses();
 
         $obj->setTauxRemiseIci(true);
-        $this->assertEquals(true, $obj->getTauxRemiseIci());
+        $this->assertTrue($obj->getTauxRemiseIci());
     }
 
     /**
@@ -457,7 +457,7 @@ class TempsPassesTest extends AbstractTestCase {
         $obj = new TempsPasses();
 
         $obj->setValide(true);
-        $this->assertEquals(true, $obj->getValide());
+        $this->assertTrue($obj->getValide());
     }
 
     /**

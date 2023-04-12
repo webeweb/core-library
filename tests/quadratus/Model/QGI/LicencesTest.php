@@ -116,7 +116,7 @@ class LicencesTest extends AbstractTestCase {
         $obj = new Licences();
 
         $obj->setDemo(true);
-        $this->assertEquals(true, $obj->getDemo());
+        $this->assertTrue($obj->getDemo());
     }
 
     /**

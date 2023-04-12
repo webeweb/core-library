@@ -103,7 +103,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
         $obj = new EmpTdsCalcul();
 
         $obj->setDernierePeriodeAnnee(true);
-        $this->assertEquals(true, $obj->getDernierePeriodeAnnee());
+        $this->assertTrue($obj->getDernierePeriodeAnnee());
     }
 
     /**
@@ -237,7 +237,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
         $obj = new EmpTdsCalcul();
 
         $obj->setPremierePeriodeAnnee(true);
-        $this->assertEquals(true, $obj->getPremierePeriodeAnnee());
+        $this->assertTrue($obj->getPremierePeriodeAnnee());
     }
 
     /**
@@ -302,7 +302,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
         $obj = new EmpTdsCalcul();
 
         $obj->setTds107(true);
-        $this->assertEquals(true, $obj->getTds107());
+        $this->assertTrue($obj->getTds107());
     }
 
     /**
@@ -315,7 +315,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
         $obj = new EmpTdsCalcul();
 
         $obj->setTds108(true);
-        $this->assertEquals(true, $obj->getTds108());
+        $this->assertTrue($obj->getTds108());
     }
 
     /**
@@ -328,7 +328,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
         $obj = new EmpTdsCalcul();
 
         $obj->setTds109(true);
-        $this->assertEquals(true, $obj->getTds109());
+        $this->assertTrue($obj->getTds109());
     }
 
     /**
@@ -341,7 +341,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
         $obj = new EmpTdsCalcul();
 
         $obj->setTds110(true);
-        $this->assertEquals(true, $obj->getTds110());
+        $this->assertTrue($obj->getTds110());
     }
 
     /**
@@ -354,7 +354,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
         $obj = new EmpTdsCalcul();
 
         $obj->setTds111(true);
-        $this->assertEquals(true, $obj->getTds111());
+        $this->assertTrue($obj->getTds111());
     }
 
     /**
@@ -380,7 +380,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
         $obj = new EmpTdsCalcul();
 
         $obj->setTds113(true);
-        $this->assertEquals(true, $obj->getTds113());
+        $this->assertTrue($obj->getTds113());
     }
 
     /**
@@ -406,7 +406,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
         $obj = new EmpTdsCalcul();
 
         $obj->setTds119(true);
-        $this->assertEquals(true, $obj->getTds119());
+        $this->assertTrue($obj->getTds119());
     }
 
     /**
@@ -419,7 +419,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
         $obj = new EmpTdsCalcul();
 
         $obj->setTds120(true);
-        $this->assertEquals(true, $obj->getTds120());
+        $this->assertTrue($obj->getTds120());
     }
 
     /**
@@ -432,7 +432,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
         $obj = new EmpTdsCalcul();
 
         $obj->setTds121(true);
-        $this->assertEquals(true, $obj->getTds121());
+        $this->assertTrue($obj->getTds121());
     }
 
     /**
@@ -445,7 +445,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
         $obj = new EmpTdsCalcul();
 
         $obj->setTds122(true);
-        $this->assertEquals(true, $obj->getTds122());
+        $this->assertTrue($obj->getTds122());
     }
 
     /**
@@ -614,7 +614,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
         $obj = new EmpTdsCalcul();
 
         $obj->setTds142DejaCalcule(true);
-        $this->assertEquals(true, $obj->getTds142DejaCalcule());
+        $this->assertTrue($obj->getTds142DejaCalcule());
     }
 
     /**
@@ -653,7 +653,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
         $obj = new EmpTdsCalcul();
 
         $obj->setTds78(true);
-        $this->assertEquals(true, $obj->getTds78());
+        $this->assertTrue($obj->getTds78());
     }
 
     /**

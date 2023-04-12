@@ -34,7 +34,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
         $obj = new AppelsEnCours();
 
         $obj->setAvecMiseEnSomm(true);
-        $this->assertEquals(true, $obj->getAvecMiseEnSomm());
+        $this->assertTrue($obj->getAvecMiseEnSomm());
     }
 
     /**
@@ -125,7 +125,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
         $obj = new AppelsEnCours();
 
         $obj->setConfidentiel(true);
-        $this->assertEquals(true, $obj->getConfidentiel());
+        $this->assertTrue($obj->getConfidentiel());
     }
 
     /**
@@ -219,7 +219,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
         $obj = new AppelsEnCours();
 
         $obj->setDemandeAr(true);
-        $this->assertEquals(true, $obj->getDemandeAr());
+        $this->assertTrue($obj->getDemandeAr());
     }
 
     /**
@@ -310,7 +310,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
         $obj = new AppelsEnCours();
 
         $obj->setMessageLu(true);
-        $this->assertEquals(true, $obj->getMessageLu());
+        $this->assertTrue($obj->getMessageLu());
     }
 
     /**
@@ -483,7 +483,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
         $obj = new AppelsEnCours();
 
         $obj->setUrgent(true);
-        $this->assertEquals(true, $obj->getUrgent());
+        $this->assertTrue($obj->getUrgent());
     }
 
     /**

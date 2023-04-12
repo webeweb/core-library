@@ -111,7 +111,7 @@ class VehiculesTest extends AbstractTestCase {
         $obj = new Vehicules();
 
         $obj->setHybride(true);
-        $this->assertEquals(true, $obj->getHybride());
+        $this->assertTrue($obj->getHybride());
     }
 
     /**
@@ -150,7 +150,7 @@ class VehiculesTest extends AbstractTestCase {
         $obj = new Vehicules();
 
         $obj->setLienCompta(true);
-        $this->assertEquals(true, $obj->getLienCompta());
+        $this->assertTrue($obj->getLienCompta());
     }
 
     /**
@@ -163,7 +163,7 @@ class VehiculesTest extends AbstractTestCase {
         $obj = new Vehicules();
 
         $obj->setNonPolluant(true);
-        $this->assertEquals(true, $obj->getNonPolluant());
+        $this->assertTrue($obj->getNonPolluant());
     }
 
     /**
@@ -189,7 +189,7 @@ class VehiculesTest extends AbstractTestCase {
         $obj = new Vehicules();
 
         $obj->setSuperCarbu(true);
-        $this->assertEquals(true, $obj->getSuperCarbu());
+        $this->assertTrue($obj->getSuperCarbu());
     }
 
     /**
@@ -215,7 +215,7 @@ class VehiculesTest extends AbstractTestCase {
         $obj = new Vehicules();
 
         $obj->setUsageAgricole(true);
-        $this->assertEquals(true, $obj->getUsageAgricole());
+        $this->assertTrue($obj->getUsageAgricole());
     }
 
     /**

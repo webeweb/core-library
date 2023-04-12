@@ -58,7 +58,7 @@ class LibellesiPaieTest extends AbstractTestCase {
         $obj = new LibellesiPaie();
 
         $obj->setIntituleSpecifiPaie(true);
-        $this->assertEquals(true, $obj->getIntituleSpecifiPaie());
+        $this->assertTrue($obj->getIntituleSpecifiPaie());
     }
 
     /**

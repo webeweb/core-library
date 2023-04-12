@@ -97,7 +97,7 @@ class ProduitsTest extends AbstractTestCase {
         $obj = new Produits();
 
         $obj->setGammeWindows(true);
-        $this->assertEquals(true, $obj->getGammeWindows());
+        $this->assertTrue($obj->getGammeWindows());
     }
 
     /**

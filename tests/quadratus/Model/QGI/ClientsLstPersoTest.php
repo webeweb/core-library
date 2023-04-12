@@ -219,7 +219,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
         $obj = new ClientsLstPerso();
 
         $obj->setTypeSaisie(true);
-        $this->assertEquals(true, $obj->getTypeSaisie());
+        $this->assertTrue($obj->getTypeSaisie());
     }
 
     /**

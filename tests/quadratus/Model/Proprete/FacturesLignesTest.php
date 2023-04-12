@@ -224,7 +224,7 @@ class FacturesLignesTest extends AbstractTestCase {
         $obj = new FacturesLignes();
 
         $obj->setDepuisDebFac(true);
-        $this->assertEquals(true, $obj->getDepuisDebFac());
+        $this->assertTrue($obj->getDepuisDebFac());
     }
 
     /**
@@ -341,7 +341,7 @@ class FacturesLignesTest extends AbstractTestCase {
         $obj = new FacturesLignes();
 
         $obj->setFromPointageBt(true);
-        $this->assertEquals(true, $obj->getFromPointageBt());
+        $this->assertTrue($obj->getFromPointageBt());
     }
 
     /**
@@ -380,7 +380,7 @@ class FacturesLignesTest extends AbstractTestCase {
         $obj = new FacturesLignes();
 
         $obj->setImprimerDansPied(true);
-        $this->assertEquals(true, $obj->getImprimerDansPied());
+        $this->assertTrue($obj->getImprimerDansPied());
     }
 
     /**
@@ -596,7 +596,7 @@ class FacturesLignesTest extends AbstractTestCase {
         $obj = new FacturesLignes();
 
         $obj->setPxFacture(true);
-        $this->assertEquals(true, $obj->getPxFacture());
+        $this->assertTrue($obj->getPxFacture());
     }
 
     /**
@@ -726,7 +726,7 @@ class FacturesLignesTest extends AbstractTestCase {
         $obj = new FacturesLignes();
 
         $obj->setVentilMarge(true);
-        $this->assertEquals(true, $obj->getVentilMarge());
+        $this->assertTrue($obj->getVentilMarge());
     }
 
     /**

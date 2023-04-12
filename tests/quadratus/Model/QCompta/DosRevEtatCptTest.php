@@ -103,7 +103,7 @@ class DosRevEtatCptTest extends AbstractTestCase {
         $obj = new DosRevEtatCpt();
 
         $obj->setModifie(true);
-        $this->assertEquals(true, $obj->getModifie());
+        $this->assertTrue($obj->getModifie());
     }
 
     /**

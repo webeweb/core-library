@@ -344,7 +344,7 @@ class BrEnteteTest extends AbstractTestCase {
         $obj = new BrEntete();
 
         $obj->setEcheanceForcee(true);
-        $this->assertEquals(true, $obj->getEcheanceForcee());
+        $this->assertTrue($obj->getEcheanceForcee());
     }
 
     /**
@@ -370,7 +370,7 @@ class BrEnteteTest extends AbstractTestCase {
         $obj = new BrEntete();
 
         $obj->setFactureEuros(true);
-        $this->assertEquals(true, $obj->getFactureEuros());
+        $this->assertTrue($obj->getFactureEuros());
     }
 
     /**
@@ -721,7 +721,7 @@ class BrEnteteTest extends AbstractTestCase {
         $obj = new BrEntete();
 
         $obj->setSaisirAdresse(true);
-        $this->assertEquals(true, $obj->getSaisirAdresse());
+        $this->assertTrue($obj->getSaisirAdresse());
     }
 
     /**
@@ -734,7 +734,7 @@ class BrEnteteTest extends AbstractTestCase {
         $obj = new BrEntete();
 
         $obj->setSaisirAdresseLivraison(true);
-        $this->assertEquals(true, $obj->getSaisirAdresseLivraison());
+        $this->assertTrue($obj->getSaisirAdresseLivraison());
     }
 
     /**
@@ -747,7 +747,7 @@ class BrEnteteTest extends AbstractTestCase {
         $obj = new BrEntete();
 
         $obj->setSoumisEscompte(true);
-        $this->assertEquals(true, $obj->getSoumisEscompte());
+        $this->assertTrue($obj->getSoumisEscompte());
     }
 
     /**
@@ -760,7 +760,7 @@ class BrEnteteTest extends AbstractTestCase {
         $obj = new BrEntete();
 
         $obj->setSoumisTaxe1(true);
-        $this->assertEquals(true, $obj->getSoumisTaxe1());
+        $this->assertTrue($obj->getSoumisTaxe1());
     }
 
     /**
@@ -773,7 +773,7 @@ class BrEnteteTest extends AbstractTestCase {
         $obj = new BrEntete();
 
         $obj->setSoumisTaxe2(true);
-        $this->assertEquals(true, $obj->getSoumisTaxe2());
+        $this->assertTrue($obj->getSoumisTaxe2());
     }
 
     /**
@@ -786,7 +786,7 @@ class BrEnteteTest extends AbstractTestCase {
         $obj = new BrEntete();
 
         $obj->setSoumisTaxe3(true);
-        $this->assertEquals(true, $obj->getSoumisTaxe3());
+        $this->assertTrue($obj->getSoumisTaxe3());
     }
 
     /**

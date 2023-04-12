@@ -45,7 +45,7 @@ class FichesConfidentialitesControlesTest extends AbstractTestCase {
         $obj = new FichesConfidentialitesControles();
 
         $obj->setAutorise(true);
-        $this->assertEquals(true, $obj->getAutorise());
+        $this->assertTrue($obj->getAutorise());
     }
 
     /**

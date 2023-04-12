@@ -97,7 +97,7 @@ class ArticlesFrnTest extends AbstractTestCase {
         $obj = new ArticlesFrn();
 
         $obj->setDelaiLocal(true);
-        $this->assertEquals(true, $obj->getDelaiLocal());
+        $this->assertTrue($obj->getDelaiLocal());
     }
 
     /**

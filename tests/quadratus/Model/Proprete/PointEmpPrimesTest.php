@@ -185,7 +185,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
         $obj = new PointEmpPrimes();
 
         $obj->setDefaut(true);
-        $this->assertEquals(true, $obj->getDefaut());
+        $this->assertTrue($obj->getDefaut());
     }
 
     /**

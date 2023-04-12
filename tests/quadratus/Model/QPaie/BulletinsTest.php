@@ -125,7 +125,7 @@ class BulletinsTest extends AbstractTestCase {
         $obj = new Bulletins();
 
         $obj->setBaseSsPlafModif(true);
-        $this->assertEquals(true, $obj->getBaseSsPlafModif());
+        $this->assertTrue($obj->getBaseSsPlafModif());
     }
 
     /**
@@ -138,7 +138,7 @@ class BulletinsTest extends AbstractTestCase {
         $obj = new Bulletins();
 
         $obj->setBornePerModifie(true);
-        $this->assertEquals(true, $obj->getBornePerModifie());
+        $this->assertTrue($obj->getBornePerModifie());
     }
 
     /**
@@ -190,7 +190,7 @@ class BulletinsTest extends AbstractTestCase {
         $obj = new Bulletins();
 
         $obj->setBrutAlModifie(true);
-        $this->assertEquals(true, $obj->getBrutAlModifie());
+        $this->assertTrue($obj->getBrutAlModifie());
     }
 
     /**
@@ -320,7 +320,7 @@ class BulletinsTest extends AbstractTestCase {
         $obj = new Bulletins();
 
         $obj->setBulletinPublie(true);
-        $this->assertEquals(true, $obj->getBulletinPublie());
+        $this->assertTrue($obj->getBulletinPublie());
     }
 
     /**
@@ -346,7 +346,7 @@ class BulletinsTest extends AbstractTestCase {
         $obj = new Bulletins();
 
         $obj->setChequeEdite(true);
-        $this->assertEquals(true, $obj->getChequeEdite());
+        $this->assertTrue($obj->getChequeEdite());
     }
 
     /**
@@ -1173,7 +1173,7 @@ class BulletinsTest extends AbstractTestCase {
         $obj = new Bulletins();
 
         $obj->setForfaitJour(true);
-        $this->assertEquals(true, $obj->getForfaitJour());
+        $this->assertTrue($obj->getForfaitJour());
     }
 
     /**
@@ -1186,7 +1186,7 @@ class BulletinsTest extends AbstractTestCase {
         $obj = new Bulletins();
 
         $obj->setGestCalcNetPaye(true);
-        $this->assertEquals(true, $obj->getGestCalcNetPaye());
+        $this->assertTrue($obj->getGestCalcNetPaye());
     }
 
     /**
@@ -1199,7 +1199,7 @@ class BulletinsTest extends AbstractTestCase {
         $obj = new Bulletins();
 
         $obj->setGestionCoeff(true);
-        $this->assertEquals(true, $obj->getGestionCoeff());
+        $this->assertTrue($obj->getGestionCoeff());
     }
 
     /**
@@ -1316,7 +1316,7 @@ class BulletinsTest extends AbstractTestCase {
         $obj = new Bulletins();
 
         $obj->setMensuelJournalier(true);
-        $this->assertEquals(true, $obj->getMensuelJournalier());
+        $this->assertTrue($obj->getMensuelJournalier());
     }
 
     /**
@@ -1472,7 +1472,7 @@ class BulletinsTest extends AbstractTestCase {
         $obj = new Bulletins();
 
         $obj->setMtJcpArbitrage(true);
-        $this->assertEquals(true, $obj->getMtJcpArbitrage());
+        $this->assertTrue($obj->getMtJcpArbitrage());
     }
 
     /**
@@ -2070,7 +2070,7 @@ class BulletinsTest extends AbstractTestCase {
         $obj = new Bulletins();
 
         $obj->setNbJTravForce(true);
-        $this->assertEquals(true, $obj->getNbJTravForce());
+        $this->assertTrue($obj->getNbJTravForce());
     }
 
     /**
@@ -2278,7 +2278,7 @@ class BulletinsTest extends AbstractTestCase {
         $obj = new Bulletins();
 
         $obj->setPaieEuro(true);
-        $this->assertEquals(true, $obj->getPaieEuro());
+        $this->assertTrue($obj->getPaieEuro());
     }
 
     /**
@@ -2291,7 +2291,7 @@ class BulletinsTest extends AbstractTestCase {
         $obj = new Bulletins();
 
         $obj->setPaiementCpNonPris(true);
-        $this->assertEquals(true, $obj->getPaiementCpNonPris());
+        $this->assertTrue($obj->getPaiementCpNonPris());
     }
 
     /**
@@ -2334,7 +2334,7 @@ class BulletinsTest extends AbstractTestCase {
         $obj = new Bulletins();
 
         $obj->setPeriodiciteModifie(true);
-        $this->assertEquals(true, $obj->getPeriodiciteModifie());
+        $this->assertTrue($obj->getPeriodiciteModifie());
     }
 
     /**
@@ -2438,7 +2438,7 @@ class BulletinsTest extends AbstractTestCase {
         $obj = new Bulletins();
 
         $obj->setPlafondGmpModifie(true);
-        $this->assertEquals(true, $obj->getPlafondGmpModifie());
+        $this->assertTrue($obj->getPlafondGmpModifie());
     }
 
     /**
@@ -2607,7 +2607,7 @@ class BulletinsTest extends AbstractTestCase {
         $obj = new Bulletins();
 
         $obj->setPss30(true);
-        $this->assertEquals(true, $obj->getPss30());
+        $this->assertTrue($obj->getPss30());
     }
 
     /**
@@ -2620,7 +2620,7 @@ class BulletinsTest extends AbstractTestCase {
         $obj = new Bulletins();
 
         $obj->setPssMod(true);
-        $this->assertEquals(true, $obj->getPssMod());
+        $this->assertTrue($obj->getPssMod());
     }
 
     /**
@@ -2750,7 +2750,7 @@ class BulletinsTest extends AbstractTestCase {
         $obj = new Bulletins();
 
         $obj->setSortieMois(true);
-        $this->assertEquals(true, $obj->getSortieMois());
+        $this->assertTrue($obj->getSortieMois());
     }
 
     /**
@@ -3270,7 +3270,7 @@ class BulletinsTest extends AbstractTestCase {
         $obj = new Bulletins();
 
         $obj->setTypePaimentModifie(true);
-        $this->assertEquals(true, $obj->getTypePaimentModifie());
+        $this->assertTrue($obj->getTypePaimentModifie());
     }
 
     /**

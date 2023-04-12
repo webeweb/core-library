@@ -112,7 +112,7 @@ class ChargesPaieTest extends AbstractTestCase {
         $obj = new ChargesPaie();
 
         $obj->setEuro(true);
-        $this->assertEquals(true, $obj->getEuro());
+        $this->assertTrue($obj->getEuro());
     }
 
     /**

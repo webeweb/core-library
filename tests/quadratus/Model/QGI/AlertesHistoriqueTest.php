@@ -34,7 +34,7 @@ class AlertesHistoriqueTest extends AbstractTestCase {
         $obj = new AlertesHistorique();
 
         $obj->setArEnvoye(true);
-        $this->assertEquals(true, $obj->getArEnvoye());
+        $this->assertTrue($obj->getArEnvoye());
     }
 
     /**

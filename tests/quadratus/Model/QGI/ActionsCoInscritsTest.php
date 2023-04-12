@@ -71,7 +71,7 @@ class ActionsCoInscritsTest extends AbstractTestCase {
         $obj = new ActionsCoInscrits();
 
         $obj->setConfirme(true);
-        $this->assertEquals(true, $obj->getConfirme());
+        $this->assertTrue($obj->getConfirme());
     }
 
     /**
@@ -175,7 +175,7 @@ class ActionsCoInscritsTest extends AbstractTestCase {
         $obj = new ActionsCoInscrits();
 
         $obj->setPresent(true);
-        $this->assertEquals(true, $obj->getPresent());
+        $this->assertTrue($obj->getPresent());
     }
 
     /**

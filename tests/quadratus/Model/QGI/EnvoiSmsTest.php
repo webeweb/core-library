@@ -32,7 +32,7 @@ class EnvoiSmsTest extends AbstractTestCase {
         $obj = new EnvoiSms();
 
         $obj->setAccesCollaborateur(true);
-        $this->assertEquals(true, $obj->getAccesCollaborateur());
+        $this->assertTrue($obj->getAccesCollaborateur());
     }
 
     /**
@@ -45,7 +45,7 @@ class EnvoiSmsTest extends AbstractTestCase {
         $obj = new EnvoiSms();
 
         $obj->setAccesIntervenants(true);
-        $this->assertEquals(true, $obj->getAccesIntervenants());
+        $this->assertTrue($obj->getAccesIntervenants());
     }
 
     /**
@@ -58,7 +58,7 @@ class EnvoiSmsTest extends AbstractTestCase {
         $obj = new EnvoiSms();
 
         $obj->setAccesTotal(true);
-        $this->assertEquals(true, $obj->getAccesTotal());
+        $this->assertTrue($obj->getAccesTotal());
     }
 
     /**

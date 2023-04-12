@@ -34,7 +34,7 @@ class FiscalTest extends AbstractTestCase {
         $obj = new Fiscal();
 
         $obj->setAbattementCga(true);
-        $this->assertEquals(true, $obj->getAbattementCga());
+        $this->assertTrue($obj->getAbattementCga());
     }
 
     /**
@@ -47,7 +47,7 @@ class FiscalTest extends AbstractTestCase {
         $obj = new Fiscal();
 
         $obj->setAssuranceControle(true);
-        $this->assertEquals(true, $obj->getAssuranceControle());
+        $this->assertTrue($obj->getAssuranceControle());
     }
 
     /**
@@ -86,7 +86,7 @@ class FiscalTest extends AbstractTestCase {
         $obj = new Fiscal();
 
         $obj->setCga(true);
-        $this->assertEquals(true, $obj->getCga());
+        $this->assertTrue($obj->getCga());
     }
 
     /**
@@ -310,7 +310,7 @@ class FiscalTest extends AbstractTestCase {
         $obj = new Fiscal();
 
         $obj->setEdiTdfcBdF(true);
-        $this->assertEquals(true, $obj->getEdiTdfcBdF());
+        $this->assertTrue($obj->getEdiTdfcBdF());
     }
 
     /**
@@ -715,7 +715,7 @@ class FiscalTest extends AbstractTestCase {
         $obj = new Fiscal();
 
         $obj->setMandatSuiviDads(true);
-        $this->assertEquals(true, $obj->getMandatSuiviDads());
+        $this->assertTrue($obj->getMandatSuiviDads());
     }
 
     /**
@@ -728,7 +728,7 @@ class FiscalTest extends AbstractTestCase {
         $obj = new Fiscal();
 
         $obj->setMandatSuiviDucsedi(true);
-        $this->assertEquals(true, $obj->getMandatSuiviDucsedi());
+        $this->assertTrue($obj->getMandatSuiviDucsedi());
     }
 
     /**
@@ -741,7 +741,7 @@ class FiscalTest extends AbstractTestCase {
         $obj = new Fiscal();
 
         $obj->setMandatSuiviEditva(true);
-        $this->assertEquals(true, $obj->getMandatSuiviEditva());
+        $this->assertTrue($obj->getMandatSuiviEditva());
     }
 
     /**
@@ -754,7 +754,7 @@ class FiscalTest extends AbstractTestCase {
         $obj = new Fiscal();
 
         $obj->setMandatSuiviEtebac(true);
-        $this->assertEquals(true, $obj->getMandatSuiviEtebac());
+        $this->assertTrue($obj->getMandatSuiviEtebac());
     }
 
     /**
@@ -767,7 +767,7 @@ class FiscalTest extends AbstractTestCase {
         $obj = new Fiscal();
 
         $obj->setMandatSuiviPedi(true);
-        $this->assertEquals(true, $obj->getMandatSuiviPedi());
+        $this->assertTrue($obj->getMandatSuiviPedi());
     }
 
     /**
@@ -780,7 +780,7 @@ class FiscalTest extends AbstractTestCase {
         $obj = new Fiscal();
 
         $obj->setMandatSuiviReq(true);
-        $this->assertEquals(true, $obj->getMandatSuiviReq());
+        $this->assertTrue($obj->getMandatSuiviReq());
     }
 
     /**
@@ -793,7 +793,7 @@ class FiscalTest extends AbstractTestCase {
         $obj = new Fiscal();
 
         $obj->setMandatSuiviTdfc(true);
-        $this->assertEquals(true, $obj->getMandatSuiviTdfc());
+        $this->assertTrue($obj->getMandatSuiviTdfc());
     }
 
     /**
@@ -871,7 +871,7 @@ class FiscalTest extends AbstractTestCase {
         $obj = new Fiscal();
 
         $obj->setPmeCommunautaire(true);
-        $this->assertEquals(true, $obj->getPmeCommunautaire());
+        $this->assertTrue($obj->getPmeCommunautaire());
     }
 
     /**
@@ -936,7 +936,7 @@ class FiscalTest extends AbstractTestCase {
         $obj = new Fiscal();
 
         $obj->setRegimeAgricole(true);
-        $this->assertEquals(true, $obj->getRegimeAgricole());
+        $this->assertTrue($obj->getRegimeAgricole());
     }
 
     /**
@@ -949,7 +949,7 @@ class FiscalTest extends AbstractTestCase {
         $obj = new Fiscal();
 
         $obj->setRegimeGroupe(true);
-        $this->assertEquals(true, $obj->getRegimeGroupe());
+        $this->assertTrue($obj->getRegimeGroupe());
     }
 
     /**
@@ -1066,7 +1066,7 @@ class FiscalTest extends AbstractTestCase {
         $obj = new Fiscal();
 
         $obj->setSocieteMere(true);
-        $this->assertEquals(true, $obj->getSocieteMere());
+        $this->assertTrue($obj->getSocieteMere());
     }
 
     /**
@@ -1118,7 +1118,7 @@ class FiscalTest extends AbstractTestCase {
         $obj = new Fiscal();
 
         $obj->setTvaDecaissements(true);
-        $this->assertEquals(true, $obj->getTvaDecaissements());
+        $this->assertTrue($obj->getTvaDecaissements());
     }
 
     /**
@@ -1222,7 +1222,7 @@ class FiscalTest extends AbstractTestCase {
         $obj = new Fiscal();
 
         $obj->setTvaFaiteParClient(true);
-        $this->assertEquals(true, $obj->getTvaFaiteParClient());
+        $this->assertTrue($obj->getTvaFaiteParClient());
     }
 
     /**
@@ -1261,7 +1261,7 @@ class FiscalTest extends AbstractTestCase {
         $obj = new Fiscal();
 
         $obj->setViseurConventionne(true);
-        $this->assertEquals(true, $obj->getViseurConventionne());
+        $this->assertTrue($obj->getViseurConventionne());
     }
 
     /**

@@ -34,7 +34,7 @@ class ComptesTest extends AbstractTestCase {
         $obj = new Comptes();
 
         $obj->setALettrerAuto(true);
-        $this->assertEquals(true, $obj->getALettrerAuto());
+        $this->assertTrue($obj->getALettrerAuto());
     }
 
     /**
@@ -47,7 +47,7 @@ class ComptesTest extends AbstractTestCase {
         $obj = new Comptes();
 
         $obj->setActiverLotTrace(true);
-        $this->assertEquals(true, $obj->getActiverLotTrace());
+        $this->assertTrue($obj->getActiverLotTrace());
     }
 
     /**
@@ -60,7 +60,7 @@ class ComptesTest extends AbstractTestCase {
         $obj = new Comptes();
 
         $obj->setBonAPayer(true);
-        $this->assertEquals(true, $obj->getBonAPayer());
+        $this->assertTrue($obj->getBonAPayer());
     }
 
     /**
@@ -73,7 +73,7 @@ class ComptesTest extends AbstractTestCase {
         $obj = new Comptes();
 
         $obj->setCentraliseGdLivre(true);
-        $this->assertEquals(true, $obj->getCentraliseGdLivre());
+        $this->assertTrue($obj->getCentraliseGdLivre());
     }
 
     /**
@@ -242,7 +242,7 @@ class ComptesTest extends AbstractTestCase {
         $obj = new Comptes();
 
         $obj->setCompteInactif(true);
-        $this->assertEquals(true, $obj->getCompteInactif());
+        $this->assertTrue($obj->getCompteInactif());
     }
 
     /**
@@ -268,7 +268,7 @@ class ComptesTest extends AbstractTestCase {
         $obj = new Comptes();
 
         $obj->setCptParticulier(true);
-        $this->assertEquals(true, $obj->getCptParticulier());
+        $this->assertTrue($obj->getCptParticulier());
     }
 
     /**
@@ -346,7 +346,7 @@ class ComptesTest extends AbstractTestCase {
         $obj = new Comptes();
 
         $obj->setCumulPiedJournal(true);
-        $this->assertEquals(true, $obj->getCumulPiedJournal());
+        $this->assertTrue($obj->getCumulPiedJournal());
     }
 
     /**
@@ -445,7 +445,7 @@ class ComptesTest extends AbstractTestCase {
         $obj = new Comptes();
 
         $obj->setDetailCloture(true);
-        $this->assertEquals(true, $obj->getDetailCloture());
+        $this->assertTrue($obj->getDetailCloture());
     }
 
     /**
@@ -458,7 +458,7 @@ class ComptesTest extends AbstractTestCase {
         $obj = new Comptes();
 
         $obj->setEditM2(true);
-        $this->assertEquals(true, $obj->getEditM2());
+        $this->assertTrue($obj->getEditM2());
     }
 
     /**
@@ -497,7 +497,7 @@ class ComptesTest extends AbstractTestCase {
         $obj = new Comptes();
 
         $obj->setFranchise(true);
-        $this->assertEquals(true, $obj->getFranchise());
+        $this->assertTrue($obj->getFranchise());
     }
 
     /**
@@ -510,7 +510,7 @@ class ComptesTest extends AbstractTestCase {
         $obj = new Comptes();
 
         $obj->setGererIntCptCour(true);
-        $this->assertEquals(true, $obj->getGererIntCptCour());
+        $this->assertTrue($obj->getGererIntCptCour());
     }
 
     /**
@@ -601,7 +601,7 @@ class ComptesTest extends AbstractTestCase {
         $obj = new Comptes();
 
         $obj->setIntraCom(true);
-        $this->assertEquals(true, $obj->getIntraCom());
+        $this->assertTrue($obj->getIntraCom());
     }
 
     /**
@@ -744,7 +744,7 @@ class ComptesTest extends AbstractTestCase {
         $obj = new Comptes();
 
         $obj->setPeriodicite(true);
-        $this->assertEquals(true, $obj->getPeriodicite());
+        $this->assertTrue($obj->getPeriodicite());
     }
 
     /**
@@ -757,7 +757,7 @@ class ComptesTest extends AbstractTestCase {
         $obj = new Comptes();
 
         $obj->setPersonneMorale(true);
-        $this->assertEquals(true, $obj->getPersonneMorale());
+        $this->assertTrue($obj->getPersonneMorale());
     }
 
     /**
@@ -770,7 +770,7 @@ class ComptesTest extends AbstractTestCase {
         $obj = new Comptes();
 
         $obj->setPrestaTel(true);
-        $this->assertEquals(true, $obj->getPrestaTel());
+        $this->assertTrue($obj->getPrestaTel());
     }
 
     /**
@@ -991,7 +991,7 @@ class ComptesTest extends AbstractTestCase {
         $obj = new Comptes();
 
         $obj->setRepartitionAuto(true);
-        $this->assertEquals(true, $obj->getRepartitionAuto());
+        $this->assertTrue($obj->getRepartitionAuto());
     }
 
     /**
@@ -1030,7 +1030,7 @@ class ComptesTest extends AbstractTestCase {
         $obj = new Comptes();
 
         $obj->setSuiviDevises(true);
-        $this->assertEquals(true, $obj->getSuiviDevises());
+        $this->assertTrue($obj->getSuiviDevises());
     }
 
     /**
@@ -1043,7 +1043,7 @@ class ComptesTest extends AbstractTestCase {
         $obj = new Comptes();
 
         $obj->setSuiviQuantite(true);
-        $this->assertEquals(true, $obj->getSuiviQuantite());
+        $this->assertTrue($obj->getSuiviQuantite());
     }
 
     /**
@@ -1056,7 +1056,7 @@ class ComptesTest extends AbstractTestCase {
         $obj = new Comptes();
 
         $obj->setSuiviQuantite2(true);
-        $this->assertEquals(true, $obj->getSuiviQuantite2());
+        $this->assertTrue($obj->getSuiviQuantite2());
     }
 
     /**
@@ -1069,7 +1069,7 @@ class ComptesTest extends AbstractTestCase {
         $obj = new Comptes();
 
         $obj->setTvaAutresOpeImpos(true);
-        $this->assertEquals(true, $obj->getTvaAutresOpeImpos());
+        $this->assertTrue($obj->getTvaAutresOpeImpos());
     }
 
     /**
@@ -1082,7 +1082,7 @@ class ComptesTest extends AbstractTestCase {
         $obj = new Comptes();
 
         $obj->setTvaDom(true);
-        $this->assertEquals(true, $obj->getTvaDom());
+        $this->assertTrue($obj->getTvaDom());
     }
 
     /**
@@ -1095,7 +1095,7 @@ class ComptesTest extends AbstractTestCase {
         $obj = new Comptes();
 
         $obj->setTvaEncaissement(true);
-        $this->assertEquals(true, $obj->getTvaEncaissement());
+        $this->assertTrue($obj->getTvaEncaissement());
     }
 
     /**
@@ -1121,7 +1121,7 @@ class ComptesTest extends AbstractTestCase {
         $obj = new Comptes();
 
         $obj->setTypeCollectif(true);
-        $this->assertEquals(true, $obj->getTypeCollectif());
+        $this->assertTrue($obj->getTypeCollectif());
     }
 
     /**

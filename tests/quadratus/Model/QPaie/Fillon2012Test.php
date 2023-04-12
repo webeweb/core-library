@@ -47,7 +47,7 @@ class Fillon2012Test extends AbstractTestCase {
         $obj = new Fillon2012();
 
         $obj->setForce(true);
-        $this->assertEquals(true, $obj->getForce());
+        $this->assertTrue($obj->getForce());
     }
 
     /**

@@ -34,7 +34,7 @@ class FormationsTest extends AbstractTestCase {
         $obj = new Formations();
 
         $obj->setActive(true);
-        $this->assertEquals(true, $obj->getActive());
+        $this->assertTrue($obj->getActive());
     }
 
     /**

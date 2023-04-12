@@ -233,7 +233,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
         $obj = new PlansFactBonTrav();
 
         $obj->setPxFacture(true);
-        $this->assertEquals(true, $obj->getPxFacture());
+        $this->assertTrue($obj->getPxFacture());
     }
 
     /**
@@ -259,7 +259,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
         $obj = new PlansFactBonTrav();
 
         $obj->setVentilMarge(true);
-        $this->assertEquals(true, $obj->getVentilMarge());
+        $this->assertTrue($obj->getVentilMarge());
     }
 
     /**

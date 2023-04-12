@@ -34,7 +34,7 @@ class ArticlesTest extends AbstractTestCase {
         $obj = new Articles();
 
         $obj->setAchatParColis(true);
-        $this->assertEquals(true, $obj->getAchatParColis());
+        $this->assertTrue($obj->getAchatParColis());
     }
 
     /**
@@ -47,7 +47,7 @@ class ArticlesTest extends AbstractTestCase {
         $obj = new Articles();
 
         $obj->setActif(true);
-        $this->assertEquals(true, $obj->getActif());
+        $this->assertTrue($obj->getActif());
     }
 
     /**
@@ -73,7 +73,7 @@ class ArticlesTest extends AbstractTestCase {
         $obj = new Articles();
 
         $obj->setArticleFrais(true);
-        $this->assertEquals(true, $obj->getArticleFrais());
+        $this->assertTrue($obj->getArticleFrais());
     }
 
     /**
@@ -190,7 +190,7 @@ class ArticlesTest extends AbstractTestCase {
         $obj = new Articles();
 
         $obj->setCalculCoeffPaPv(true);
-        $this->assertEquals(true, $obj->getCalculCoeffPaPv());
+        $this->assertTrue($obj->getCalculCoeffPaPv());
     }
 
     /**
@@ -502,7 +502,7 @@ class ArticlesTest extends AbstractTestCase {
         $obj = new Articles();
 
         $obj->setCoeffSurPxAchatBrut(true);
-        $this->assertEquals(true, $obj->getCoeffSurPxAchatBrut());
+        $this->assertTrue($obj->getCoeffSurPxAchatBrut());
     }
 
     /**
@@ -567,7 +567,7 @@ class ArticlesTest extends AbstractTestCase {
         $obj = new Articles();
 
         $obj->setCommissionUnique(true);
-        $this->assertEquals(true, $obj->getCommissionUnique());
+        $this->assertTrue($obj->getCommissionUnique());
     }
 
     /**
@@ -632,7 +632,7 @@ class ArticlesTest extends AbstractTestCase {
         $obj = new Articles();
 
         $obj->setContremarqueInterdite(true);
-        $this->assertEquals(true, $obj->getContremarqueInterdite());
+        $this->assertTrue($obj->getContremarqueInterdite());
     }
 
     /**
@@ -692,7 +692,7 @@ class ArticlesTest extends AbstractTestCase {
         $obj = new Articles();
 
         $obj->setDebour(true);
-        $this->assertEquals(true, $obj->getDebour());
+        $this->assertTrue($obj->getDebour());
     }
 
     /**
@@ -744,7 +744,7 @@ class ArticlesTest extends AbstractTestCase {
         $obj = new Articles();
 
         $obj->setEditerArticleRattache(true);
-        $this->assertEquals(true, $obj->getEditerArticleRattache());
+        $this->assertTrue($obj->getEditerArticleRattache());
     }
 
     /**
@@ -757,7 +757,7 @@ class ArticlesTest extends AbstractTestCase {
         $obj = new Articles();
 
         $obj->setEditerArticleRemplacement(true);
-        $this->assertEquals(true, $obj->getEditerArticleRemplacement());
+        $this->assertTrue($obj->getEditerArticleRemplacement());
     }
 
     /**
@@ -770,7 +770,7 @@ class ArticlesTest extends AbstractTestCase {
         $obj = new Articles();
 
         $obj->setEnsemble(true);
-        $this->assertEquals(true, $obj->getEnsemble());
+        $this->assertTrue($obj->getEnsemble());
     }
 
     /**
@@ -783,7 +783,7 @@ class ArticlesTest extends AbstractTestCase {
         $obj = new Articles();
 
         $obj->setEstMultiTva(true);
-        $this->assertEquals(true, $obj->getEstMultiTva());
+        $this->assertTrue($obj->getEstMultiTva());
     }
 
     /**
@@ -796,7 +796,7 @@ class ArticlesTest extends AbstractTestCase {
         $obj = new Articles();
 
         $obj->setEstOccasion(true);
-        $this->assertEquals(true, $obj->getEstOccasion());
+        $this->assertTrue($obj->getEstOccasion());
     }
 
     /**
@@ -809,7 +809,7 @@ class ArticlesTest extends AbstractTestCase {
         $obj = new Articles();
 
         $obj->setFacturationTtc(true);
-        $this->assertEquals(true, $obj->getFacturationTtc());
+        $this->assertTrue($obj->getFacturationTtc());
     }
 
     /**
@@ -1090,7 +1090,7 @@ class ArticlesTest extends AbstractTestCase {
         $obj = new Articles();
 
         $obj->setHonoraires(true);
-        $this->assertEquals(true, $obj->getHonoraires());
+        $this->assertTrue($obj->getHonoraires());
     }
 
     /**
@@ -1103,7 +1103,7 @@ class ArticlesTest extends AbstractTestCase {
         $obj = new Articles();
 
         $obj->setHonorairesUniquement(true);
-        $this->assertEquals(true, $obj->getHonorairesUniquement());
+        $this->assertTrue($obj->getHonorairesUniquement());
     }
 
     /**
@@ -1116,7 +1116,7 @@ class ArticlesTest extends AbstractTestCase {
         $obj = new Articles();
 
         $obj->setHorsStock(true);
-        $this->assertEquals(true, $obj->getHorsStock());
+        $this->assertTrue($obj->getHorsStock());
     }
 
     /**
@@ -1220,7 +1220,7 @@ class ArticlesTest extends AbstractTestCase {
         $obj = new Articles();
 
         $obj->setLotSerieAutre(true);
-        $this->assertEquals(true, $obj->getLotSerieAutre());
+        $this->assertTrue($obj->getLotSerieAutre());
     }
 
     /**
@@ -1311,7 +1311,7 @@ class ArticlesTest extends AbstractTestCase {
         $obj = new Articles();
 
         $obj->setMultiTvaAvecRemises(true);
-        $this->assertEquals(true, $obj->getMultiTvaAvecRemises());
+        $this->assertTrue($obj->getMultiTvaAvecRemises());
     }
 
     /**
@@ -1350,7 +1350,7 @@ class ArticlesTest extends AbstractTestCase {
         $obj = new Articles();
 
         $obj->setNePasCumulerStats(true);
-        $this->assertEquals(true, $obj->getNePasCumulerStats());
+        $this->assertTrue($obj->getNePasCumulerStats());
     }
 
     /**
@@ -1363,7 +1363,7 @@ class ArticlesTest extends AbstractTestCase {
         $obj = new Articles();
 
         $obj->setNePasEditer(true);
-        $this->assertEquals(true, $obj->getNePasEditer());
+        $this->assertTrue($obj->getNePasEditer());
     }
 
     /**
@@ -1376,7 +1376,7 @@ class ArticlesTest extends AbstractTestCase {
         $obj = new Articles();
 
         $obj->setNePlusCommander(true);
-        $this->assertEquals(true, $obj->getNePlusCommander());
+        $this->assertTrue($obj->getNePlusCommander());
     }
 
     /**
@@ -1389,7 +1389,7 @@ class ArticlesTest extends AbstractTestCase {
         $obj = new Articles();
 
         $obj->setNeutre(true);
-        $this->assertEquals(true, $obj->getNeutre());
+        $this->assertTrue($obj->getNeutre());
     }
 
     /**
@@ -1428,7 +1428,7 @@ class ArticlesTest extends AbstractTestCase {
         $obj = new Articles();
 
         $obj->setNomenclatureEnsemble(true);
-        $this->assertEquals(true, $obj->getNomenclatureEnsemble());
+        $this->assertTrue($obj->getNomenclatureEnsemble());
     }
 
     /**
@@ -1545,7 +1545,7 @@ class ArticlesTest extends AbstractTestCase {
         $obj = new Articles();
 
         $obj->setPrixFixe(true);
-        $this->assertEquals(true, $obj->getPrixFixe());
+        $this->assertTrue($obj->getPrixFixe());
     }
 
     /**
@@ -1571,7 +1571,7 @@ class ArticlesTest extends AbstractTestCase {
         $obj = new Articles();
 
         $obj->setPrixNet(true);
-        $this->assertEquals(true, $obj->getPrixNet());
+        $this->assertTrue($obj->getPrixNet());
     }
 
     /**
@@ -1662,7 +1662,7 @@ class ArticlesTest extends AbstractTestCase {
         $obj = new Articles();
 
         $obj->setPxAchatColis(true);
-        $this->assertEquals(true, $obj->getPxAchatColis());
+        $this->assertTrue($obj->getPxAchatColis());
     }
 
     /**
@@ -1688,7 +1688,7 @@ class ArticlesTest extends AbstractTestCase {
         $obj = new Articles();
 
         $obj->setPxUnitAEditer(true);
-        $this->assertEquals(true, $obj->getPxUnitAEditer());
+        $this->assertTrue($obj->getPxUnitAEditer());
     }
 
     /**
@@ -1701,7 +1701,7 @@ class ArticlesTest extends AbstractTestCase {
         $obj = new Articles();
 
         $obj->setPxVenteColis(true);
-        $this->assertEquals(true, $obj->getPxVenteColis());
+        $this->assertTrue($obj->getPxVenteColis());
     }
 
     /**
@@ -1766,7 +1766,7 @@ class ArticlesTest extends AbstractTestCase {
         $obj = new Articles();
 
         $obj->setQteAEditer(true);
-        $this->assertEquals(true, $obj->getQteAEditer());
+        $this->assertTrue($obj->getQteAEditer());
     }
 
     /**
@@ -1857,7 +1857,7 @@ class ArticlesTest extends AbstractTestCase {
         $obj = new Articles();
 
         $obj->setRemise1enMontant(true);
-        $this->assertEquals(true, $obj->getRemise1enMontant());
+        $this->assertTrue($obj->getRemise1enMontant());
     }
 
     /**
@@ -1870,7 +1870,7 @@ class ArticlesTest extends AbstractTestCase {
         $obj = new Articles();
 
         $obj->setRemise2enMontant(true);
-        $this->assertEquals(true, $obj->getRemise2enMontant());
+        $this->assertTrue($obj->getRemise2enMontant());
     }
 
     /**
@@ -1935,7 +1935,7 @@ class ArticlesTest extends AbstractTestCase {
         $obj = new Articles();
 
         $obj->setRemiseSupAchat1EnMontant(true);
-        $this->assertEquals(true, $obj->getRemiseSupAchat1EnMontant());
+        $this->assertTrue($obj->getRemiseSupAchat1EnMontant());
     }
 
     /**
@@ -1961,7 +1961,7 @@ class ArticlesTest extends AbstractTestCase {
         $obj = new Articles();
 
         $obj->setRemiseSupAchat2EnMontant(true);
-        $this->assertEquals(true, $obj->getRemiseSupAchat2EnMontant());
+        $this->assertTrue($obj->getRemiseSupAchat2EnMontant());
     }
 
     /**
@@ -1987,7 +1987,7 @@ class ArticlesTest extends AbstractTestCase {
         $obj = new Articles();
 
         $obj->setRemiseSupAchat3EnMontant(true);
-        $this->assertEquals(true, $obj->getRemiseSupAchat3EnMontant());
+        $this->assertTrue($obj->getRemiseSupAchat3EnMontant());
     }
 
     /**
@@ -2000,7 +2000,7 @@ class ArticlesTest extends AbstractTestCase {
         $obj = new Articles();
 
         $obj->setRemisesInterdites(true);
-        $this->assertEquals(true, $obj->getRemisesInterdites());
+        $this->assertTrue($obj->getRemisesInterdites());
     }
 
     /**
@@ -2013,7 +2013,7 @@ class ArticlesTest extends AbstractTestCase {
         $obj = new Articles();
 
         $obj->setSoumisCertif(true);
-        $this->assertEquals(true, $obj->getSoumisCertif());
+        $this->assertTrue($obj->getSoumisCertif());
     }
 
     /**
@@ -2039,7 +2039,7 @@ class ArticlesTest extends AbstractTestCase {
         $obj = new Articles();
 
         $obj->setSuiviStock(true);
-        $this->assertEquals(true, $obj->getSuiviStock());
+        $this->assertTrue($obj->getSuiviStock());
     }
 
     /**
@@ -2091,7 +2091,7 @@ class ArticlesTest extends AbstractTestCase {
         $obj = new Articles();
 
         $obj->setTvaEncaissement(true);
-        $this->assertEquals(true, $obj->getTvaEncaissement());
+        $this->assertTrue($obj->getTvaEncaissement());
     }
 
     /**
@@ -2130,7 +2130,7 @@ class ArticlesTest extends AbstractTestCase {
         $obj = new Articles();
 
         $obj->setTypeHeure(true);
-        $this->assertEquals(true, $obj->getTypeHeure());
+        $this->assertTrue($obj->getTypeHeure());
     }
 
     /**
@@ -2156,7 +2156,7 @@ class ArticlesTest extends AbstractTestCase {
         $obj = new Articles();
 
         $obj->setUniteActivite(true);
-        $this->assertEquals(true, $obj->getUniteActivite());
+        $this->assertTrue($obj->getUniteActivite());
     }
 
     /**
@@ -2169,7 +2169,7 @@ class ArticlesTest extends AbstractTestCase {
         $obj = new Articles();
 
         $obj->setVariante(true);
-        $this->assertEquals(true, $obj->getVariante());
+        $this->assertTrue($obj->getVariante());
     }
 
     /**
@@ -2182,7 +2182,7 @@ class ArticlesTest extends AbstractTestCase {
         $obj = new Articles();
 
         $obj->setVenteParColis(true);
-        $this->assertEquals(true, $obj->getVenteParColis());
+        $this->assertTrue($obj->getVenteParColis());
     }
 
     /**

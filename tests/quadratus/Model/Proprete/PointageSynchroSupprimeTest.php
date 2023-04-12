@@ -47,7 +47,7 @@ class PointageSynchroSupprimeTest extends AbstractTestCase {
         $obj = new PointageSynchroSupprime();
 
         $obj->setCreeParGenPrev(true);
-        $this->assertEquals(true, $obj->getCreeParGenPrev());
+        $this->assertTrue($obj->getCreeParGenPrev());
     }
 
     /**

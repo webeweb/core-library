@@ -84,7 +84,7 @@ class ClientsLstPersoColonnesTest extends AbstractTestCase {
         $obj = new ClientsLstPersoColonnes();
 
         $obj->setIsFormule(true);
-        $this->assertEquals(true, $obj->getIsFormule());
+        $this->assertTrue($obj->getIsFormule());
     }
 
     /**
@@ -162,7 +162,7 @@ class ClientsLstPersoColonnesTest extends AbstractTestCase {
         $obj = new ClientsLstPersoColonnes();
 
         $obj->setSaisie(true);
-        $this->assertEquals(true, $obj->getSaisie());
+        $this->assertTrue($obj->getSaisie());
     }
 
     /**

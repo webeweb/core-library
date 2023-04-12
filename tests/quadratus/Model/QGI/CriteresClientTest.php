@@ -34,7 +34,7 @@ class CriteresClientTest extends AbstractTestCase {
         $obj = new CriteresClient();
 
         $obj->setBooleen1(true);
-        $this->assertEquals(true, $obj->getBooleen1());
+        $this->assertTrue($obj->getBooleen1());
     }
 
     /**
@@ -47,7 +47,7 @@ class CriteresClientTest extends AbstractTestCase {
         $obj = new CriteresClient();
 
         $obj->setBooleen10(true);
-        $this->assertEquals(true, $obj->getBooleen10());
+        $this->assertTrue($obj->getBooleen10());
     }
 
     /**
@@ -60,7 +60,7 @@ class CriteresClientTest extends AbstractTestCase {
         $obj = new CriteresClient();
 
         $obj->setBooleen2(true);
-        $this->assertEquals(true, $obj->getBooleen2());
+        $this->assertTrue($obj->getBooleen2());
     }
 
     /**
@@ -73,7 +73,7 @@ class CriteresClientTest extends AbstractTestCase {
         $obj = new CriteresClient();
 
         $obj->setBooleen3(true);
-        $this->assertEquals(true, $obj->getBooleen3());
+        $this->assertTrue($obj->getBooleen3());
     }
 
     /**
@@ -86,7 +86,7 @@ class CriteresClientTest extends AbstractTestCase {
         $obj = new CriteresClient();
 
         $obj->setBooleen4(true);
-        $this->assertEquals(true, $obj->getBooleen4());
+        $this->assertTrue($obj->getBooleen4());
     }
 
     /**
@@ -99,7 +99,7 @@ class CriteresClientTest extends AbstractTestCase {
         $obj = new CriteresClient();
 
         $obj->setBooleen5(true);
-        $this->assertEquals(true, $obj->getBooleen5());
+        $this->assertTrue($obj->getBooleen5());
     }
 
     /**
@@ -112,7 +112,7 @@ class CriteresClientTest extends AbstractTestCase {
         $obj = new CriteresClient();
 
         $obj->setBooleen6(true);
-        $this->assertEquals(true, $obj->getBooleen6());
+        $this->assertTrue($obj->getBooleen6());
     }
 
     /**
@@ -125,7 +125,7 @@ class CriteresClientTest extends AbstractTestCase {
         $obj = new CriteresClient();
 
         $obj->setBooleen7(true);
-        $this->assertEquals(true, $obj->getBooleen7());
+        $this->assertTrue($obj->getBooleen7());
     }
 
     /**
@@ -138,7 +138,7 @@ class CriteresClientTest extends AbstractTestCase {
         $obj = new CriteresClient();
 
         $obj->setBooleen8(true);
-        $this->assertEquals(true, $obj->getBooleen8());
+        $this->assertTrue($obj->getBooleen8());
     }
 
     /**
@@ -151,7 +151,7 @@ class CriteresClientTest extends AbstractTestCase {
         $obj = new CriteresClient();
 
         $obj->setBooleen9(true);
-        $this->assertEquals(true, $obj->getBooleen9());
+        $this->assertTrue($obj->getBooleen9());
     }
 
     /**

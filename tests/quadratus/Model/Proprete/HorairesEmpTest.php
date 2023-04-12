@@ -34,7 +34,7 @@ class HorairesEmpTest extends AbstractTestCase {
         $obj = new HorairesEmp();
 
         $obj->setAou(true);
-        $this->assertEquals(true, $obj->getAou());
+        $this->assertTrue($obj->getAou());
     }
 
     /**
@@ -47,7 +47,7 @@ class HorairesEmpTest extends AbstractTestCase {
         $obj = new HorairesEmp();
 
         $obj->setAvr(true);
-        $this->assertEquals(true, $obj->getAvr());
+        $this->assertTrue($obj->getAvr());
     }
 
     /**
@@ -150,7 +150,7 @@ class HorairesEmpTest extends AbstractTestCase {
         $obj = new HorairesEmp();
 
         $obj->setDec(true);
-        $this->assertEquals(true, $obj->getDec());
+        $this->assertTrue($obj->getDec());
     }
 
     /**
@@ -219,7 +219,7 @@ class HorairesEmpTest extends AbstractTestCase {
         $obj = new HorairesEmp();
 
         $obj->setFev(true);
-        $this->assertEquals(true, $obj->getFev());
+        $this->assertTrue($obj->getFev());
     }
 
     /**
@@ -262,7 +262,7 @@ class HorairesEmpTest extends AbstractTestCase {
         $obj = new HorairesEmp();
 
         $obj->setJan(true);
-        $this->assertEquals(true, $obj->getJan());
+        $this->assertTrue($obj->getJan());
     }
 
     /**
@@ -288,7 +288,7 @@ class HorairesEmpTest extends AbstractTestCase {
         $obj = new HorairesEmp();
 
         $obj->setJuil(true);
-        $this->assertEquals(true, $obj->getJuil());
+        $this->assertTrue($obj->getJuil());
     }
 
     /**
@@ -301,7 +301,7 @@ class HorairesEmpTest extends AbstractTestCase {
         $obj = new HorairesEmp();
 
         $obj->setJuin(true);
-        $this->assertEquals(true, $obj->getJuin());
+        $this->assertTrue($obj->getJuin());
     }
 
     /**
@@ -314,7 +314,7 @@ class HorairesEmpTest extends AbstractTestCase {
         $obj = new HorairesEmp();
 
         $obj->setMai(true);
-        $this->assertEquals(true, $obj->getMai());
+        $this->assertTrue($obj->getMai());
     }
 
     /**
@@ -327,7 +327,7 @@ class HorairesEmpTest extends AbstractTestCase {
         $obj = new HorairesEmp();
 
         $obj->setMar(true);
-        $this->assertEquals(true, $obj->getMar());
+        $this->assertTrue($obj->getMar());
     }
 
     /**
@@ -353,7 +353,7 @@ class HorairesEmpTest extends AbstractTestCase {
         $obj = new HorairesEmp();
 
         $obj->setNov(true);
-        $this->assertEquals(true, $obj->getNov());
+        $this->assertTrue($obj->getNov());
     }
 
     /**
@@ -418,7 +418,7 @@ class HorairesEmpTest extends AbstractTestCase {
         $obj = new HorairesEmp();
 
         $obj->setOct(true);
-        $this->assertEquals(true, $obj->getOct());
+        $this->assertTrue($obj->getOct());
     }
 
     /**
@@ -444,7 +444,7 @@ class HorairesEmpTest extends AbstractTestCase {
         $obj = new HorairesEmp();
 
         $obj->setSemaineComplete(true);
-        $this->assertEquals(true, $obj->getSemaineComplete());
+        $this->assertTrue($obj->getSemaineComplete());
     }
 
     /**
@@ -457,7 +457,7 @@ class HorairesEmpTest extends AbstractTestCase {
         $obj = new HorairesEmp();
 
         $obj->setSep(true);
-        $this->assertEquals(true, $obj->getSep());
+        $this->assertTrue($obj->getSep());
     }
 
     /**

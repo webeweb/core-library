@@ -60,7 +60,7 @@ class AcomptesTest extends AbstractTestCase {
         $obj = new Acomptes();
 
         $obj->setCongesPayes(true);
-        $this->assertEquals(true, $obj->getCongesPayes());
+        $this->assertTrue($obj->getCongesPayes());
     }
 
     /**
@@ -124,7 +124,7 @@ class AcomptesTest extends AbstractTestCase {
         $obj = new Acomptes();
 
         $obj->setEnEuro(true);
-        $this->assertEquals(true, $obj->getEnEuro());
+        $this->assertTrue($obj->getEnEuro());
     }
 
     /**
@@ -137,7 +137,7 @@ class AcomptesTest extends AbstractTestCase {
         $obj = new Acomptes();
 
         $obj->setInBul(true);
-        $this->assertEquals(true, $obj->getInBul());
+        $this->assertTrue($obj->getInBul());
     }
 
     /**
@@ -202,7 +202,7 @@ class AcomptesTest extends AbstractTestCase {
         $obj = new Acomptes();
 
         $obj->setPaye(true);
-        $this->assertEquals(true, $obj->getPaye());
+        $this->assertTrue($obj->getPaye());
     }
 
     /**

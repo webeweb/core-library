@@ -47,7 +47,7 @@ class BordPrepVarTest extends AbstractTestCase {
         $obj = new BordPrepVar();
 
         $obj->setFlagForce(true);
-        $this->assertEquals(true, $obj->getFlagForce());
+        $this->assertTrue($obj->getFlagForce());
     }
 
     /**

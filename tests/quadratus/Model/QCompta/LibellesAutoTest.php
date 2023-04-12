@@ -58,7 +58,7 @@ class LibellesAutoTest extends AbstractTestCase {
         $obj = new LibellesAuto();
 
         $obj->setSuiviDateEcheance(true);
-        $this->assertEquals(true, $obj->getSuiviDateEcheance());
+        $this->assertTrue($obj->getSuiviDateEcheance());
     }
 
     /**

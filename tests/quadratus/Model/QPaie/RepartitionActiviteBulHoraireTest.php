@@ -60,7 +60,7 @@ class RepartitionActiviteBulHoraireTest extends AbstractTestCase {
         $obj = new RepartitionActiviteBulHoraire();
 
         $obj->setInterimaire(true);
-        $this->assertEquals(true, $obj->getInterimaire());
+        $this->assertTrue($obj->getInterimaire());
     }
 
     /**

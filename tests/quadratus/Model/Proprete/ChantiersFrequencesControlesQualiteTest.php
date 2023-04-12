@@ -110,7 +110,7 @@ class ChantiersFrequencesControlesQualiteTest extends AbstractTestCase {
         $obj = new ChantiersFrequencesControlesQualite();
 
         $obj->setQuePremiereAnnee(true);
-        $this->assertEquals(true, $obj->getQuePremiereAnnee());
+        $this->assertTrue($obj->getQuePremiereAnnee());
     }
 
     /**

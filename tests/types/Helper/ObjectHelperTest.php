@@ -69,7 +69,7 @@ class ObjectHelperTest extends AbstractTestCase {
         // Set a Date/time mock.
         $arg = new DateTime();
 
-        $this->assertEquals(null, ObjectHelper::compare(null, null));
+        $this->assertNull(ObjectHelper::compare(null, null));
 
         $this->assertEquals(-1, ObjectHelper::compare($arg, null));
         $this->assertEquals(0, ObjectHelper::compare($arg, $arg));

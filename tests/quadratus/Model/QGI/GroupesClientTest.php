@@ -34,7 +34,7 @@ class GroupesClientTest extends AbstractTestCase {
         $obj = new GroupesClient();
 
         $obj->setActif(true);
-        $this->assertEquals(true, $obj->getActif());
+        $this->assertTrue($obj->getActif());
     }
 
     /**
@@ -47,7 +47,7 @@ class GroupesClientTest extends AbstractTestCase {
         $obj = new GroupesClient();
 
         $obj->setBloque(true);
-        $this->assertEquals(true, $obj->getBloque());
+        $this->assertTrue($obj->getBloque());
     }
 
     /**
@@ -73,7 +73,7 @@ class GroupesClientTest extends AbstractTestCase {
         $obj = new GroupesClient();
 
         $obj->setClientPerdu(true);
-        $this->assertEquals(true, $obj->getClientPerdu());
+        $this->assertTrue($obj->getClientPerdu());
     }
 
     /**
@@ -263,7 +263,7 @@ class GroupesClientTest extends AbstractTestCase {
         $obj = new GroupesClient();
 
         $obj->setEcheanceFinDecade(true);
-        $this->assertEquals(true, $obj->getEcheanceFinDecade());
+        $this->assertTrue($obj->getEcheanceFinDecade());
     }
 
     /**
@@ -276,7 +276,7 @@ class GroupesClientTest extends AbstractTestCase {
         $obj = new GroupesClient();
 
         $obj->setFactureEuros(true);
-        $this->assertEquals(true, $obj->getFactureEuros());
+        $this->assertTrue($obj->getFactureEuros());
     }
 
     /**
@@ -484,7 +484,7 @@ class GroupesClientTest extends AbstractTestCase {
         $obj = new GroupesClient();
 
         $obj->setSoumisEscompte(true);
-        $this->assertEquals(true, $obj->getSoumisEscompte());
+        $this->assertTrue($obj->getSoumisEscompte());
     }
 
     /**

@@ -259,7 +259,7 @@ class ClientsDouteuxTest extends AbstractTestCase {
         $obj = new ClientsDouteux();
 
         $obj->setTxTvaCreanceForce(true);
-        $this->assertEquals(true, $obj->getTxTvaCreanceForce());
+        $this->assertTrue($obj->getTxTvaCreanceForce());
     }
 
     /**

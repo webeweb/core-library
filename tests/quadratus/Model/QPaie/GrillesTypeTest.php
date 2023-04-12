@@ -211,7 +211,7 @@ class GrillesTypeTest extends AbstractTestCase {
         $obj = new GrillesType();
 
         $obj->setGestionHNuit(true);
-        $this->assertEquals(true, $obj->getGestionHNuit());
+        $this->assertTrue($obj->getGestionHNuit());
     }
 
     /**
@@ -224,7 +224,7 @@ class GrillesTypeTest extends AbstractTestCase {
         $obj = new GrillesType();
 
         $obj->setGestionJfnt(true);
-        $this->assertEquals(true, $obj->getGestionJfnt());
+        $this->assertTrue($obj->getGestionJfnt());
     }
 
     /**
@@ -237,7 +237,7 @@ class GrillesTypeTest extends AbstractTestCase {
         $obj = new GrillesType();
 
         $obj->setGestionPlagesHoraires(true);
-        $this->assertEquals(true, $obj->getGestionPlagesHoraires());
+        $this->assertTrue($obj->getGestionPlagesHoraires());
     }
 
     /**
@@ -302,7 +302,7 @@ class GrillesTypeTest extends AbstractTestCase {
         $obj = new GrillesType();
 
         $obj->setModulation(true);
-        $this->assertEquals(true, $obj->getModulation());
+        $this->assertTrue($obj->getModulation());
     }
 
     /**
@@ -432,7 +432,7 @@ class GrillesTypeTest extends AbstractTestCase {
         $obj = new GrillesType();
 
         $obj->setReposRecup(true);
-        $this->assertEquals(true, $obj->getReposRecup());
+        $this->assertTrue($obj->getReposRecup());
     }
 
     /**

@@ -45,7 +45,7 @@ class JournauxTest extends AbstractTestCase {
         $obj = new Journaux();
 
         $obj->setCentraliseGdLivre(true);
-        $this->assertEquals(true, $obj->getCentraliseGdLivre());
+        $this->assertTrue($obj->getCentraliseGdLivre());
     }
 
     /**
@@ -136,7 +136,7 @@ class JournauxTest extends AbstractTestCase {
         $obj = new Journaux();
 
         $obj->setContrepartie(true);
-        $this->assertEquals(true, $obj->getContrepartie());
+        $this->assertTrue($obj->getContrepartie());
     }
 
     /**
@@ -175,7 +175,7 @@ class JournauxTest extends AbstractTestCase {
         $obj = new Journaux();
 
         $obj->setEtebacSkipTva(true);
-        $this->assertEquals(true, $obj->getEtebacSkipTva());
+        $this->assertTrue($obj->getEtebacSkipTva());
     }
 
     /**
@@ -188,7 +188,7 @@ class JournauxTest extends AbstractTestCase {
         $obj = new Journaux();
 
         $obj->setEtebacXFerDetaillerBq(true);
-        $this->assertEquals(true, $obj->getEtebacXFerDetaillerBq());
+        $this->assertTrue($obj->getEtebacXFerDetaillerBq());
     }
 
     /**
@@ -201,7 +201,7 @@ class JournauxTest extends AbstractTestCase {
         $obj = new Journaux();
 
         $obj->setEtebacXFerDoPrefixCodeOp(true);
-        $this->assertEquals(true, $obj->getEtebacXFerDoPrefixCodeOp());
+        $this->assertTrue($obj->getEtebacXFerDoPrefixCodeOp());
     }
 
     /**
@@ -227,7 +227,7 @@ class JournauxTest extends AbstractTestCase {
         $obj = new Journaux();
 
         $obj->setEtebacXFerLignesComp(true);
-        $this->assertEquals(true, $obj->getEtebacXFerLignesComp());
+        $this->assertTrue($obj->getEtebacXFerLignesComp());
     }
 
     /**
@@ -253,7 +253,7 @@ class JournauxTest extends AbstractTestCase {
         $obj = new Journaux();
 
         $obj->setGestNumPieceJrn(true);
-        $this->assertEquals(true, $obj->getGestNumPieceJrn());
+        $this->assertTrue($obj->getGestNumPieceJrn());
     }
 
     /**
@@ -266,7 +266,7 @@ class JournauxTest extends AbstractTestCase {
         $obj = new Journaux();
 
         $obj->setGestionFolio(true);
-        $this->assertEquals(true, $obj->getGestionFolio());
+        $this->assertTrue($obj->getGestionFolio());
     }
 
     /**
@@ -331,7 +331,7 @@ class JournauxTest extends AbstractTestCase {
         $obj = new Journaux();
 
         $obj->setMontantNegatif(true);
-        $this->assertEquals(true, $obj->getMontantNegatif());
+        $this->assertTrue($obj->getMontantNegatif());
     }
 
     /**
@@ -409,7 +409,7 @@ class JournauxTest extends AbstractTestCase {
         $obj = new Journaux();
 
         $obj->setSaisieBordereau(true);
-        $this->assertEquals(true, $obj->getSaisieBordereau());
+        $this->assertTrue($obj->getSaisieBordereau());
     }
 
     /**
@@ -435,7 +435,7 @@ class JournauxTest extends AbstractTestCase {
         $obj = new Journaux();
 
         $obj->setTypePieceGlobal(true);
-        $this->assertEquals(true, $obj->getTypePieceGlobal());
+        $this->assertTrue($obj->getTypePieceGlobal());
     }
 
     /**

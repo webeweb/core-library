@@ -34,7 +34,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setActif(true);
-        $this->assertEquals(true, $obj->getActif());
+        $this->assertTrue($obj->getActif());
     }
 
     /**
@@ -47,7 +47,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setActiviteNouvelle(true);
-        $this->assertEquals(true, $obj->getActiviteNouvelle());
+        $this->assertTrue($obj->getActiviteNouvelle());
     }
 
     /**
@@ -60,7 +60,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setActiviteSaiso(true);
-        $this->assertEquals(true, $obj->getActiviteSaiso());
+        $this->assertTrue($obj->getActiviteSaiso());
     }
 
     /**
@@ -112,7 +112,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setAssurance(true);
-        $this->assertEquals(true, $obj->getAssurance());
+        $this->assertTrue($obj->getAssurance());
     }
 
     /**
@@ -138,7 +138,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setBlChiffre(true);
-        $this->assertEquals(true, $obj->getBlChiffre());
+        $this->assertTrue($obj->getBlChiffre());
     }
 
     /**
@@ -151,7 +151,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setBloque(true);
-        $this->assertEquals(true, $obj->getBloque());
+        $this->assertTrue($obj->getBloque());
     }
 
     /**
@@ -177,7 +177,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setCga(true);
-        $this->assertEquals(true, $obj->getCga());
+        $this->assertTrue($obj->getCga());
     }
 
     /**
@@ -372,7 +372,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setCodeBarre(true);
-        $this->assertEquals(true, $obj->getCodeBarre());
+        $this->assertTrue($obj->getCodeBarre());
     }
 
     /**
@@ -1286,7 +1286,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setEtiquettes(true);
-        $this->assertEquals(true, $obj->getEtiquettes());
+        $this->assertTrue($obj->getEtiquettes());
     }
 
     /**
@@ -1450,7 +1450,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setFacturationCotisation(true);
-        $this->assertEquals(true, $obj->getFacturationCotisation());
+        $this->assertTrue($obj->getFacturationCotisation());
     }
 
     /**
@@ -1463,7 +1463,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setFacturationDroitFixe(true);
-        $this->assertEquals(true, $obj->getFacturationDroitFixe());
+        $this->assertTrue($obj->getFacturationDroitFixe());
     }
 
     /**
@@ -1476,7 +1476,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setFacturationFraisFixe(true);
-        $this->assertEquals(true, $obj->getFacturationFraisFixe());
+        $this->assertTrue($obj->getFacturationFraisFixe());
     }
 
     /**
@@ -1523,7 +1523,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setFactureEuros(true);
-        $this->assertEquals(true, $obj->getFactureEuros());
+        $this->assertTrue($obj->getFactureEuros());
     }
 
     /**
@@ -1536,7 +1536,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setFactureIsolee(true);
-        $this->assertEquals(true, $obj->getFactureIsolee());
+        $this->assertTrue($obj->getFactureIsolee());
     }
 
     /**
@@ -1549,7 +1549,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setFactureTempsPasses(true);
-        $this->assertEquals(true, $obj->getFactureTempsPasses());
+        $this->assertTrue($obj->getFactureTempsPasses());
     }
 
     /**
@@ -1562,7 +1562,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setFacturesMail(true);
-        $this->assertEquals(true, $obj->getFacturesMail());
+        $this->assertTrue($obj->getFacturesMail());
     }
 
     /**
@@ -1588,7 +1588,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setFraisFixes1(true);
-        $this->assertEquals(true, $obj->getFraisFixes1());
+        $this->assertTrue($obj->getFraisFixes1());
     }
 
     /**
@@ -1601,7 +1601,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setFraisFixes2(true);
-        $this->assertEquals(true, $obj->getFraisFixes2());
+        $this->assertTrue($obj->getFraisFixes2());
     }
 
     /**
@@ -1705,7 +1705,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setMensualisationActif(true);
-        $this->assertEquals(true, $obj->getMensualisationActif());
+        $this->assertTrue($obj->getMensualisationActif());
     }
 
     /**
@@ -2155,7 +2155,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setOccasionnel(true);
-        $this->assertEquals(true, $obj->getOccasionnel());
+        $this->assertTrue($obj->getOccasionnel());
     }
 
     /**
@@ -2220,7 +2220,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setPasProductif(true);
-        $this->assertEquals(true, $obj->getPasProductif());
+        $this->assertTrue($obj->getPasProductif());
     }
 
     /**
@@ -2233,7 +2233,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setPasTachesOperationnelles(true);
-        $this->assertEquals(true, $obj->getPasTachesOperationnelles());
+        $this->assertTrue($obj->getPasTachesOperationnelles());
     }
 
     /**
@@ -2298,7 +2298,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setPrioritaire(true);
-        $this->assertEquals(true, $obj->getPrioritaire());
+        $this->assertTrue($obj->getPrioritaire());
     }
 
     /**
@@ -2311,7 +2311,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setProfilDirAnxieux(true);
-        $this->assertEquals(true, $obj->getProfilDirAnxieux());
+        $this->assertTrue($obj->getProfilDirAnxieux());
     }
 
     /**
@@ -2324,7 +2324,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setProfilDirCommercial(true);
-        $this->assertEquals(true, $obj->getProfilDirCommercial());
+        $this->assertTrue($obj->getProfilDirCommercial());
     }
 
     /**
@@ -2337,7 +2337,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setProfilDirGestionnaire(true);
-        $this->assertEquals(true, $obj->getProfilDirGestionnaire());
+        $this->assertTrue($obj->getProfilDirGestionnaire());
     }
 
     /**
@@ -2350,7 +2350,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setProfilDirSomnolent(true);
-        $this->assertEquals(true, $obj->getProfilDirSomnolent());
+        $this->assertTrue($obj->getProfilDirSomnolent());
     }
 
     /**
@@ -2363,7 +2363,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setProfilDirTechnicien(true);
-        $this->assertEquals(true, $obj->getProfilDirTechnicien());
+        $this->assertTrue($obj->getProfilDirTechnicien());
     }
 
     /**
@@ -2389,7 +2389,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setProspect(true);
-        $this->assertEquals(true, $obj->getProspect());
+        $this->assertTrue($obj->getProspect());
     }
 
     /**
@@ -2480,7 +2480,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setReleveFacture(true);
-        $this->assertEquals(true, $obj->getReleveFacture());
+        $this->assertTrue($obj->getReleveFacture());
     }
 
     /**
@@ -2610,7 +2610,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setServiceCpta(true);
-        $this->assertEquals(true, $obj->getServiceCpta());
+        $this->assertTrue($obj->getServiceCpta());
     }
 
     /**
@@ -2623,7 +2623,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setSiegeGroupe(true);
-        $this->assertEquals(true, $obj->getSiegeGroupe());
+        $this->assertTrue($obj->getSiegeGroupe());
     }
 
     /**
@@ -2636,7 +2636,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setSocial(true);
-        $this->assertEquals(true, $obj->getSocial());
+        $this->assertTrue($obj->getSocial());
     }
 
     /**
@@ -2766,7 +2766,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setSoumisEscompte(true);
-        $this->assertEquals(true, $obj->getSoumisEscompte());
+        $this->assertTrue($obj->getSoumisEscompte());
     }
 
     /**
@@ -2805,7 +2805,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setSoumisTaxe1(true);
-        $this->assertEquals(true, $obj->getSoumisTaxe1());
+        $this->assertTrue($obj->getSoumisTaxe1());
     }
 
     /**
@@ -2818,7 +2818,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setSoumisTaxe2(true);
-        $this->assertEquals(true, $obj->getSoumisTaxe2());
+        $this->assertTrue($obj->getSoumisTaxe2());
     }
 
     /**
@@ -2831,7 +2831,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setSoumisTaxe3(true);
-        $this->assertEquals(true, $obj->getSoumisTaxe3());
+        $this->assertTrue($obj->getSoumisTaxe3());
     }
 
     /**
@@ -2844,7 +2844,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setSoumisTaxe4(true);
-        $this->assertEquals(true, $obj->getSoumisTaxe4());
+        $this->assertTrue($obj->getSoumisTaxe4());
     }
 
     /**
@@ -2857,7 +2857,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setSoumisTaxe5(true);
-        $this->assertEquals(true, $obj->getSoumisTaxe5());
+        $this->assertTrue($obj->getSoumisTaxe5());
     }
 
     /**
@@ -2870,7 +2870,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setSoumisTva(true);
-        $this->assertEquals(true, $obj->getSoumisTva());
+        $this->assertTrue($obj->getSoumisTva());
     }
 
     /**
@@ -3013,7 +3013,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setUseAdresseFact(true);
-        $this->assertEquals(true, $obj->getUseAdresseFact());
+        $this->assertTrue($obj->getUseAdresseFact());
     }
 
     /**
@@ -3026,7 +3026,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setUseCorresSociale(true);
-        $this->assertEquals(true, $obj->getUseCorresSociale());
+        $this->assertTrue($obj->getUseCorresSociale());
     }
 
     /**

@@ -34,7 +34,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
         $obj = new AgendaCollabConst();
 
         $obj->setArtt(true);
-        $this->assertEquals(true, $obj->getArtt());
+        $this->assertTrue($obj->getArtt());
     }
 
     /**
@@ -73,7 +73,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
         $obj = new AgendaCollabConst();
 
         $obj->setConfidentiel(true);
-        $this->assertEquals(true, $obj->getConfidentiel());
+        $this->assertTrue($obj->getConfidentiel());
     }
 
     /**
@@ -171,7 +171,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
         $obj = new AgendaCollabConst();
 
         $obj->setInterdireRdVHorsTravail(true);
-        $this->assertEquals(true, $obj->getInterdireRdVHorsTravail());
+        $this->assertTrue($obj->getInterdireRdVHorsTravail());
     }
 
     /**
@@ -541,7 +541,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
         $obj = new AgendaCollabConst();
 
         $obj->setSuiviOrdreMission(true);
-        $this->assertEquals(true, $obj->getSuiviOrdreMission());
+        $this->assertTrue($obj->getSuiviOrdreMission());
     }
 
     /**

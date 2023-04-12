@@ -34,7 +34,7 @@ class Etablissements2Test extends AbstractTestCase {
         $obj = new Etablissements2();
 
         $obj->setAdherentSyndicat(true);
-        $this->assertEquals(true, $obj->getAdherentSyndicat());
+        $this->assertTrue($obj->getAdherentSyndicat());
     }
 
     /**
@@ -73,7 +73,7 @@ class Etablissements2Test extends AbstractTestCase {
         $obj = new Etablissements2();
 
         $obj->setAssujettiCvae(true);
-        $this->assertEquals(true, $obj->getAssujettiCvae());
+        $this->assertTrue($obj->getAssujettiCvae());
     }
 
     /**
@@ -125,7 +125,7 @@ class Etablissements2Test extends AbstractTestCase {
         $obj = new Etablissements2();
 
         $obj->setCaisseCpTransport(true);
-        $this->assertEquals(true, $obj->getCaisseCpTransport());
+        $this->assertTrue($obj->getCaisseCpTransport());
     }
 
     /**
@@ -190,7 +190,7 @@ class Etablissements2Test extends AbstractTestCase {
         $obj = new Etablissements2();
 
         $obj->setCoeffFillonMoins20(true);
-        $this->assertEquals(true, $obj->getCoeffFillonMoins20());
+        $this->assertTrue($obj->getCoeffFillonMoins20());
     }
 
     /**
@@ -298,7 +298,7 @@ class Etablissements2Test extends AbstractTestCase {
         $obj = new Etablissements2();
 
         $obj->setExclureLfr2012(true);
-        $this->assertEquals(true, $obj->getExclureLfr2012());
+        $this->assertTrue($obj->getExclureLfr2012());
     }
 
     /**
@@ -324,7 +324,7 @@ class Etablissements2Test extends AbstractTestCase {
         $obj = new Etablissements2();
 
         $obj->setGestionMaintienSalAuto(true);
-        $this->assertEquals(true, $obj->getGestionMaintienSalAuto());
+        $this->assertTrue($obj->getGestionMaintienSalAuto());
     }
 
     /**
@@ -402,7 +402,7 @@ class Etablissements2Test extends AbstractTestCase {
         $obj = new Etablissements2();
 
         $obj->setJfChargeEmp(true);
-        $this->assertEquals(true, $obj->getJfChargeEmp());
+        $this->assertTrue($obj->getJfChargeEmp());
     }
 
     /**
@@ -428,7 +428,7 @@ class Etablissements2Test extends AbstractTestCase {
         $obj = new Etablissements2();
 
         $obj->setMaintienNetDeducCsgijss(true);
-        $this->assertEquals(true, $obj->getMaintienNetDeducCsgijss());
+        $this->assertTrue($obj->getMaintienNetDeducCsgijss());
     }
 
     /**
@@ -506,7 +506,7 @@ class Etablissements2Test extends AbstractTestCase {
         $obj = new Etablissements2();
 
         $obj->setReductionMayotte(true);
-        $this->assertEquals(true, $obj->getReductionMayotte());
+        $this->assertTrue($obj->getReductionMayotte());
     }
 
     /**
@@ -532,7 +532,7 @@ class Etablissements2Test extends AbstractTestCase {
         $obj = new Etablissements2();
 
         $obj->setSiretCentralisateur(true);
-        $this->assertEquals(true, $obj->getSiretCentralisateur());
+        $this->assertTrue($obj->getSiretCentralisateur());
     }
 
     /**
@@ -545,7 +545,7 @@ class Etablissements2Test extends AbstractTestCase {
         $obj = new Etablissements2();
 
         $obj->setSmicMCourant(true);
-        $this->assertEquals(true, $obj->getSmicMCourant());
+        $this->assertTrue($obj->getSmicMCourant());
     }
 
     /**
@@ -558,7 +558,7 @@ class Etablissements2Test extends AbstractTestCase {
         $obj = new Etablissements2();
 
         $obj->setSocieteInterim(true);
-        $this->assertEquals(true, $obj->getSocieteInterim());
+        $this->assertTrue($obj->getSocieteInterim());
     }
 
     /**
@@ -636,7 +636,7 @@ class Etablissements2Test extends AbstractTestCase {
         $obj = new Etablissements2();
 
         $obj->setTepaMoins20(true);
-        $this->assertEquals(true, $obj->getTepaMoins20());
+        $this->assertTrue($obj->getTepaMoins20());
     }
 
     /**

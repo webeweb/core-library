@@ -99,7 +99,7 @@ class MensualisationTacheAvenantsTest extends AbstractTestCase {
         $obj = new MensualisationTacheAvenants();
 
         $obj->setHistoMensSaisi(true);
-        $this->assertEquals(true, $obj->getHistoMensSaisi());
+        $this->assertTrue($obj->getHistoMensSaisi());
     }
 
     /**

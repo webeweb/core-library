@@ -34,7 +34,7 @@ class HistoriqueTravauxTest extends AbstractTestCase {
         $obj = new HistoriqueTravaux();
 
         $obj->setCataloguee(true);
-        $this->assertEquals(true, $obj->getCataloguee());
+        $this->assertTrue($obj->getCataloguee());
     }
 
     /**
@@ -258,7 +258,7 @@ class HistoriqueTravauxTest extends AbstractTestCase {
         $obj = new HistoriqueTravaux();
 
         $obj->setTravailFait(true);
-        $this->assertEquals(true, $obj->getTravailFait());
+        $this->assertTrue($obj->getTravailFait());
     }
 
     /**

@@ -271,7 +271,7 @@ class TarifsTest extends AbstractTestCase {
         $obj = new Tarifs();
 
         $obj->setPrixNetTr1(true);
-        $this->assertEquals(true, $obj->getPrixNetTr1());
+        $this->assertTrue($obj->getPrixNetTr1());
     }
 
     /**
@@ -284,7 +284,7 @@ class TarifsTest extends AbstractTestCase {
         $obj = new Tarifs();
 
         $obj->setPrixNetTr2(true);
-        $this->assertEquals(true, $obj->getPrixNetTr2());
+        $this->assertTrue($obj->getPrixNetTr2());
     }
 
     /**
@@ -297,7 +297,7 @@ class TarifsTest extends AbstractTestCase {
         $obj = new Tarifs();
 
         $obj->setPrixNetTr3(true);
-        $this->assertEquals(true, $obj->getPrixNetTr3());
+        $this->assertTrue($obj->getPrixNetTr3());
     }
 
     /**
@@ -310,7 +310,7 @@ class TarifsTest extends AbstractTestCase {
         $obj = new Tarifs();
 
         $obj->setPrixNetTr4(true);
-        $this->assertEquals(true, $obj->getPrixNetTr4());
+        $this->assertTrue($obj->getPrixNetTr4());
     }
 
     /**
@@ -323,7 +323,7 @@ class TarifsTest extends AbstractTestCase {
         $obj = new Tarifs();
 
         $obj->setPrixNetTr5(true);
-        $this->assertEquals(true, $obj->getPrixNetTr5());
+        $this->assertTrue($obj->getPrixNetTr5());
     }
 
     /**
@@ -336,7 +336,7 @@ class TarifsTest extends AbstractTestCase {
         $obj = new Tarifs();
 
         $obj->setPuArticle(true);
-        $this->assertEquals(true, $obj->getPuArticle());
+        $this->assertTrue($obj->getPuArticle());
     }
 
     /**

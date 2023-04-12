@@ -84,7 +84,7 @@ class TarifsTest extends AbstractTestCase {
         $obj = new Tarifs();
 
         $obj->setComSurMargeBrute(true);
-        $this->assertEquals(true, $obj->getComSurMargeBrute());
+        $this->assertTrue($obj->getComSurMargeBrute());
     }
 
     /**
@@ -97,7 +97,7 @@ class TarifsTest extends AbstractTestCase {
         $obj = new Tarifs();
 
         $obj->setPrixTtc(true);
-        $this->assertEquals(true, $obj->getPrixTtc());
+        $this->assertTrue($obj->getPrixTtc());
     }
 
     /**

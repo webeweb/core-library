@@ -110,7 +110,7 @@ class ActionsTest extends AbstractTestCase {
         $obj = new Actions();
 
         $obj->setRelationQh(true);
-        $this->assertEquals(true, $obj->getRelationQh());
+        $this->assertTrue($obj->getRelationQh());
     }
 
     /**

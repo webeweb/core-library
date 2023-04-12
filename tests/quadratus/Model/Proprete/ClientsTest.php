@@ -34,7 +34,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setActif(true);
-        $this->assertEquals(true, $obj->getActif());
+        $this->assertTrue($obj->getActif());
     }
 
     /**
@@ -47,7 +47,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setBloque(true);
-        $this->assertEquals(true, $obj->getBloque());
+        $this->assertTrue($obj->getBloque());
     }
 
     /**
@@ -479,7 +479,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setFactureEuros(true);
-        $this->assertEquals(true, $obj->getFactureEuros());
+        $this->assertTrue($obj->getFactureEuros());
     }
 
     /**
@@ -583,7 +583,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setProspect(true);
-        $this->assertEquals(true, $obj->getProspect());
+        $this->assertTrue($obj->getProspect());
     }
 
     /**
@@ -687,7 +687,7 @@ class ClientsTest extends AbstractTestCase {
         $obj = new Clients();
 
         $obj->setSoumisEscompte(true);
-        $this->assertEquals(true, $obj->getSoumisEscompte());
+        $this->assertTrue($obj->getSoumisEscompte());
     }
 
     /**

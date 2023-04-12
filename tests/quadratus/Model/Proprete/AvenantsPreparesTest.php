@@ -60,7 +60,7 @@ class AvenantsPreparesTest extends AbstractTestCase {
         $obj = new AvenantsPrepares();
 
         $obj->setContinuerVerif(true);
-        $this->assertEquals(true, $obj->getContinuerVerif());
+        $this->assertTrue($obj->getContinuerVerif());
     }
 
     /**

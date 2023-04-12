@@ -71,7 +71,7 @@ class DevisChantiersTest extends AbstractTestCase {
         $obj = new DevisChantiers();
 
         $obj->setMajDescriptif(true);
-        $this->assertEquals(true, $obj->getMajDescriptif());
+        $this->assertTrue($obj->getMajDescriptif());
     }
 
     /**

@@ -32,7 +32,7 @@ class EmployesPropreteTest extends AbstractTestCase {
         $obj = new EmployesProprete();
 
         $obj->setControleur(true);
-        $this->assertEquals(true, $obj->getControleur());
+        $this->assertTrue($obj->getControleur());
     }
 
     /**
@@ -45,7 +45,7 @@ class EmployesPropreteTest extends AbstractTestCase {
         $obj = new EmployesProprete();
 
         $obj->setHotellerie(true);
-        $this->assertEquals(true, $obj->getHotellerie());
+        $this->assertTrue($obj->getHotellerie());
     }
 
     /**
@@ -58,7 +58,7 @@ class EmployesPropreteTest extends AbstractTestCase {
         $obj = new EmployesProprete();
 
         $obj->setLivreur(true);
-        $this->assertEquals(true, $obj->getLivreur());
+        $this->assertTrue($obj->getLivreur());
     }
 
     /**
@@ -71,7 +71,7 @@ class EmployesPropreteTest extends AbstractTestCase {
         $obj = new EmployesProprete();
 
         $obj->setModulation(true);
-        $this->assertEquals(true, $obj->getModulation());
+        $this->assertTrue($obj->getModulation());
     }
 
     /**
@@ -97,7 +97,7 @@ class EmployesPropreteTest extends AbstractTestCase {
         $obj = new EmployesProprete();
 
         $obj->setPolyvalent(true);
-        $this->assertEquals(true, $obj->getPolyvalent());
+        $this->assertTrue($obj->getPolyvalent());
     }
 
     /**

@@ -2023,7 +2023,7 @@ class DecTvaTest extends AbstractTestCase {
         $obj = new DecTva();
 
         $obj->setCreditCompte(true);
-        $this->assertEquals(true, $obj->getCreditCompte());
+        $this->assertTrue($obj->getCreditCompte());
     }
 
     /**
@@ -2036,7 +2036,7 @@ class DecTvaTest extends AbstractTestCase {
         $obj = new DecTva();
 
         $obj->setCreditImputer(true);
-        $this->assertEquals(true, $obj->getCreditImputer());
+        $this->assertTrue($obj->getCreditImputer());
     }
 
     /**
@@ -2062,7 +2062,7 @@ class DecTvaTest extends AbstractTestCase {
         $obj = new DecTva();
 
         $obj->setFlgAc(true);
-        $this->assertEquals(true, $obj->getFlgAc());
+        $this->assertTrue($obj->getFlgAc());
     }
 
     /**
@@ -2075,7 +2075,7 @@ class DecTvaTest extends AbstractTestCase {
         $obj = new DecTva();
 
         $obj->setGenAuto(true);
-        $this->assertEquals(true, $obj->getGenAuto());
+        $this->assertTrue($obj->getGenAuto());
     }
 
     /**
@@ -2179,7 +2179,7 @@ class DecTvaTest extends AbstractTestCase {
         $obj = new DecTva();
 
         $obj->setMentionExpresse(true);
-        $this->assertEquals(true, $obj->getMentionExpresse());
+        $this->assertTrue($obj->getMentionExpresse());
     }
 
     /**
@@ -2244,7 +2244,7 @@ class DecTvaTest extends AbstractTestCase {
         $obj = new DecTva();
 
         $obj->setPaiementImputation(true);
-        $this->assertEquals(true, $obj->getPaiementImputation());
+        $this->assertTrue($obj->getPaiementImputation());
     }
 
     /**
@@ -3054,7 +3054,7 @@ class DecTvaTest extends AbstractTestCase {
         $obj = new DecTva();
 
         $obj->setbGroupe(true);
-        $this->assertEquals(true, $obj->getbGroupe());
+        $this->assertTrue($obj->getbGroupe());
     }
 
     /**

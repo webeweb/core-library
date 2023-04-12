@@ -136,7 +136,7 @@ class HistoriquesEmployesColonnesTest extends AbstractTestCase {
         $obj = new HistoriquesEmployesColonnes();
 
         $obj->setSaisie(true);
-        $this->assertEquals(true, $obj->getSaisie());
+        $this->assertTrue($obj->getSaisie());
     }
 
     /**
@@ -188,7 +188,7 @@ class HistoriquesEmployesColonnesTest extends AbstractTestCase {
         $obj = new HistoriquesEmployesColonnes();
 
         $obj->setbEnGraph(true);
-        $this->assertEquals(true, $obj->getbEnGraph());
+        $this->assertTrue($obj->getbEnGraph());
     }
 
     /**

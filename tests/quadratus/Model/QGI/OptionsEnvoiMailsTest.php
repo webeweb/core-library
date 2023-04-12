@@ -32,7 +32,7 @@ class OptionsEnvoiMailsTest extends AbstractTestCase {
         $obj = new OptionsEnvoiMails();
 
         $obj->setAvecEntete(true);
-        $this->assertEquals(true, $obj->getAvecEntete());
+        $this->assertTrue($obj->getAvecEntete());
     }
 
     /**
@@ -45,7 +45,7 @@ class OptionsEnvoiMailsTest extends AbstractTestCase {
         $obj = new OptionsEnvoiMails();
 
         $obj->setAvecPied(true);
-        $this->assertEquals(true, $obj->getAvecPied());
+        $this->assertTrue($obj->getAvecPied());
     }
 
     /**

@@ -281,7 +281,7 @@ class ChantiersTest extends AbstractTestCase {
         $obj = new Chantiers();
 
         $obj->setChantierPonctuel(true);
-        $this->assertEquals(true, $obj->getChantierPonctuel());
+        $this->assertTrue($obj->getChantierPonctuel());
     }
 
     /**
@@ -541,7 +541,7 @@ class ChantiersTest extends AbstractTestCase {
         $obj = new Chantiers();
 
         $obj->setCommandeIsolee(true);
-        $this->assertEquals(true, $obj->getCommandeIsolee());
+        $this->assertTrue($obj->getCommandeIsolee());
     }
 
     /**
@@ -797,7 +797,7 @@ class ChantiersTest extends AbstractTestCase {
         $obj = new Chantiers();
 
         $obj->setEcheanceAnnuelle(true);
-        $this->assertEquals(true, $obj->getEcheanceAnnuelle());
+        $this->assertTrue($obj->getEcheanceAnnuelle());
     }
 
     /**
@@ -810,7 +810,7 @@ class ChantiersTest extends AbstractTestCase {
         $obj = new Chantiers();
 
         $obj->setFactNegoceIsolee(true);
-        $this->assertEquals(true, $obj->getFactNegoceIsolee());
+        $this->assertTrue($obj->getFactNegoceIsolee());
     }
 
     /**
@@ -823,7 +823,7 @@ class ChantiersTest extends AbstractTestCase {
         $obj = new Chantiers();
 
         $obj->setFactureIsolee(true);
-        $this->assertEquals(true, $obj->getFactureIsolee());
+        $this->assertTrue($obj->getFactureIsolee());
     }
 
     /**
@@ -862,7 +862,7 @@ class ChantiersTest extends AbstractTestCase {
         $obj = new Chantiers();
 
         $obj->setLoiChatelSurFacture(true);
-        $this->assertEquals(true, $obj->getLoiChatelSurFacture());
+        $this->assertTrue($obj->getLoiChatelSurFacture());
     }
 
     /**
@@ -888,7 +888,7 @@ class ChantiersTest extends AbstractTestCase {
         $obj = new Chantiers();
 
         $obj->setMajStockByDa(true);
-        $this->assertEquals(true, $obj->getMajStockByDa());
+        $this->assertTrue($obj->getMajStockByDa());
     }
 
     /**
@@ -1070,7 +1070,7 @@ class ChantiersTest extends AbstractTestCase {
         $obj = new Chantiers();
 
         $obj->setPlanFact(true);
-        $this->assertEquals(true, $obj->getPlanFact());
+        $this->assertTrue($obj->getPlanFact());
     }
 
     /**
@@ -1135,7 +1135,7 @@ class ChantiersTest extends AbstractTestCase {
         $obj = new Chantiers();
 
         $obj->setRuptDateLivraison(true);
-        $this->assertEquals(true, $obj->getRuptDateLivraison());
+        $this->assertTrue($obj->getRuptDateLivraison());
     }
 
     /**

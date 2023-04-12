@@ -32,7 +32,7 @@ class ParamEtiquettesTest extends AbstractTestCase {
         $obj = new ParamEtiquettes();
 
         $obj->setAvecCodeBarre(true);
-        $this->assertEquals(true, $obj->getAvecCodeBarre());
+        $this->assertTrue($obj->getAvecCodeBarre());
     }
 
     /**
@@ -45,7 +45,7 @@ class ParamEtiquettesTest extends AbstractTestCase {
         $obj = new ParamEtiquettes();
 
         $obj->setAvecPrixVente(true);
-        $this->assertEquals(true, $obj->getAvecPrixVente());
+        $this->assertTrue($obj->getAvecPrixVente());
     }
 
     /**
@@ -84,7 +84,7 @@ class ParamEtiquettesTest extends AbstractTestCase {
         $obj = new ParamEtiquettes();
 
         $obj->setEtiqMasque(true);
-        $this->assertEquals(true, $obj->getEtiqMasque());
+        $this->assertTrue($obj->getEtiqMasque());
     }
 
     /**
@@ -97,7 +97,7 @@ class ParamEtiquettesTest extends AbstractTestCase {
         $obj = new ParamEtiquettes();
 
         $obj->setEtiqPlus(true);
-        $this->assertEquals(true, $obj->getEtiqPlus());
+        $this->assertTrue($obj->getEtiqPlus());
     }
 
     /**
@@ -214,7 +214,7 @@ class ParamEtiquettesTest extends AbstractTestCase {
         $obj = new ParamEtiquettes();
 
         $obj->setQteEnt(true);
-        $this->assertEquals(true, $obj->getQteEnt());
+        $this->assertTrue($obj->getQteEnt());
     }
 
     /**

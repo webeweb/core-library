@@ -370,7 +370,7 @@ class SemaineTypeTest extends AbstractTestCase {
         $obj = new SemaineType();
 
         $obj->setTDimanche(true);
-        $this->assertEquals(true, $obj->getTDimanche());
+        $this->assertTrue($obj->getTDimanche());
     }
 
     /**
@@ -383,7 +383,7 @@ class SemaineTypeTest extends AbstractTestCase {
         $obj = new SemaineType();
 
         $obj->setTJeudi(true);
-        $this->assertEquals(true, $obj->getTJeudi());
+        $this->assertTrue($obj->getTJeudi());
     }
 
     /**
@@ -396,7 +396,7 @@ class SemaineTypeTest extends AbstractTestCase {
         $obj = new SemaineType();
 
         $obj->setTLundi(true);
-        $this->assertEquals(true, $obj->getTLundi());
+        $this->assertTrue($obj->getTLundi());
     }
 
     /**
@@ -409,7 +409,7 @@ class SemaineTypeTest extends AbstractTestCase {
         $obj = new SemaineType();
 
         $obj->setTMardi(true);
-        $this->assertEquals(true, $obj->getTMardi());
+        $this->assertTrue($obj->getTMardi());
     }
 
     /**
@@ -422,7 +422,7 @@ class SemaineTypeTest extends AbstractTestCase {
         $obj = new SemaineType();
 
         $obj->setTMercredi(true);
-        $this->assertEquals(true, $obj->getTMercredi());
+        $this->assertTrue($obj->getTMercredi());
     }
 
     /**
@@ -435,7 +435,7 @@ class SemaineTypeTest extends AbstractTestCase {
         $obj = new SemaineType();
 
         $obj->setTSamedi(true);
-        $this->assertEquals(true, $obj->getTSamedi());
+        $this->assertTrue($obj->getTSamedi());
     }
 
     /**
@@ -448,7 +448,7 @@ class SemaineTypeTest extends AbstractTestCase {
         $obj = new SemaineType();
 
         $obj->setTVendredi(true);
-        $this->assertEquals(true, $obj->getTVendredi());
+        $this->assertTrue($obj->getTVendredi());
     }
 
     /**

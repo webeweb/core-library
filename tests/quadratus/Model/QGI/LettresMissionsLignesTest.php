@@ -133,7 +133,7 @@ class LettresMissionsLignesTest extends AbstractTestCase {
         $obj = new LettresMissionsLignes();
 
         $obj->setDeclarationARediger(true);
-        $this->assertEquals(true, $obj->getDeclarationARediger());
+        $this->assertTrue($obj->getDeclarationARediger());
     }
 
     /**

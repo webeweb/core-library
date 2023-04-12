@@ -146,7 +146,7 @@ class AvenantsContratsTest extends AbstractTestCase {
         $obj = new AvenantsContrats();
 
         $obj->setSignatureEmploye(true);
-        $this->assertEquals(true, $obj->getSignatureEmploye());
+        $this->assertTrue($obj->getSignatureEmploye());
     }
 
     /**

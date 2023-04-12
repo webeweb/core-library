@@ -202,7 +202,7 @@ class DocumentsTest extends AbstractTestCase {
         $obj = new Documents();
 
         $obj->setPublierWeb(true);
-        $this->assertEquals(true, $obj->getPublierWeb());
+        $this->assertTrue($obj->getPublierWeb());
     }
 
     /**

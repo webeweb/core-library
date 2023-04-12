@@ -34,7 +34,7 @@ class FactFournEnteteTest extends AbstractTestCase {
         $obj = new FactFournEntete();
 
         $obj->setBoniMali(true);
-        $this->assertEquals(true, $obj->getBoniMali());
+        $this->assertTrue($obj->getBoniMali());
     }
 
     /**

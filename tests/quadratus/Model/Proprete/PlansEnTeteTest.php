@@ -465,7 +465,7 @@ class PlansEnTeteTest extends AbstractTestCase {
         $obj = new PlansEnTete();
 
         $obj->setRevisionAnnuelle(true);
-        $this->assertEquals(true, $obj->getRevisionAnnuelle());
+        $this->assertTrue($obj->getRevisionAnnuelle());
     }
 
     /**

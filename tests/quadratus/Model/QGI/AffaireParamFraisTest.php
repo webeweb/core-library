@@ -181,7 +181,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
         $obj = new AffaireParamFrais();
 
         $obj->setPourcentage(true);
-        $this->assertEquals(true, $obj->getPourcentage());
+        $this->assertTrue($obj->getPourcentage());
     }
 
     /**

@@ -84,7 +84,7 @@ class NaturesTest extends AbstractTestCase {
         $obj = new Natures();
 
         $obj->setNatureInactive(true);
-        $this->assertEquals(true, $obj->getNatureInactive());
+        $this->assertTrue($obj->getNatureInactive());
     }
 
     /**
@@ -110,7 +110,7 @@ class NaturesTest extends AbstractTestCase {
         $obj = new Natures();
 
         $obj->setSuiviAnneeRecolte(true);
-        $this->assertEquals(true, $obj->getSuiviAnneeRecolte());
+        $this->assertTrue($obj->getSuiviAnneeRecolte());
     }
 
     /**

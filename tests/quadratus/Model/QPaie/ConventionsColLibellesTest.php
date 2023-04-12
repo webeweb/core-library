@@ -32,7 +32,7 @@ class ConventionsColLibellesTest extends AbstractTestCase {
         $obj = new ConventionsColLibelles();
 
         $obj->setActive(true);
-        $this->assertEquals(true, $obj->getActive());
+        $this->assertTrue($obj->getActive());
     }
 
     /**
@@ -84,7 +84,7 @@ class ConventionsColLibellesTest extends AbstractTestCase {
         $obj = new ConventionsColLibelles();
 
         $obj->setFraisSanteAm(true);
-        $this->assertEquals(true, $obj->getFraisSanteAm());
+        $this->assertTrue($obj->getFraisSanteAm());
     }
 
     /**

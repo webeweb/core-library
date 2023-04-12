@@ -103,7 +103,7 @@ class HistoTauxRetraiteMetierTest extends AbstractTestCase {
         $obj = new HistoTauxRetraiteMetier();
 
         $obj->setFormatNonEtendu(true);
-        $this->assertEquals(true, $obj->getFormatNonEtendu());
+        $this->assertTrue($obj->getFormatNonEtendu());
     }
 
     /**

@@ -32,7 +32,7 @@ class RegroupementEdBulEnteteTest extends AbstractTestCase {
         $obj = new RegroupementEdBulEntete();
 
         $obj->setAfficher(true);
-        $this->assertEquals(true, $obj->getAfficher());
+        $this->assertTrue($obj->getAfficher());
     }
 
     /**
@@ -84,7 +84,7 @@ class RegroupementEdBulEnteteTest extends AbstractTestCase {
         $obj = new RegroupementEdBulEntete();
 
         $obj->setQuadra(true);
-        $this->assertEquals(true, $obj->getQuadra());
+        $this->assertTrue($obj->getQuadra());
     }
 
     /**

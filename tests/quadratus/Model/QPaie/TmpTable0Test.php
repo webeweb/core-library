@@ -164,7 +164,7 @@ class TmpTable0Test extends AbstractTestCase {
         $obj = new TmpTable0();
 
         $obj->setImputation(true);
-        $this->assertEquals(true, $obj->getImputation());
+        $this->assertTrue($obj->getImputation());
     }
 
     /**
@@ -190,7 +190,7 @@ class TmpTable0Test extends AbstractTestCase {
         $obj = new TmpTable0();
 
         $obj->setInverse(true);
-        $this->assertEquals(true, $obj->getInverse());
+        $this->assertTrue($obj->getInverse());
     }
 
     /**

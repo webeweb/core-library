@@ -60,7 +60,7 @@ class JournauxRapprochTest extends AbstractTestCase {
         $obj = new JournauxRapproch();
 
         $obj->setNePasSaisirSoldeFin(true);
-        $this->assertEquals(true, $obj->getNePasSaisirSoldeFin());
+        $this->assertTrue($obj->getNePasSaisirSoldeFin());
     }
 
     /**

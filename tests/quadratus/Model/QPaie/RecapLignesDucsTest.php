@@ -34,7 +34,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
         $obj = new RecapLignesDucs();
 
         $obj->setAEditerDucs(true);
-        $this->assertEquals(true, $obj->getAEditerDucs());
+        $this->assertTrue($obj->getAEditerDucs());
     }
 
     /**
@@ -146,7 +146,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
         $obj = new RecapLignesDucs();
 
         $obj->setDucsEuro(true);
-        $this->assertEquals(true, $obj->getDucsEuro());
+        $this->assertTrue($obj->getDucsEuro());
     }
 
     /**
@@ -202,7 +202,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
         $obj = new RecapLignesDucs();
 
         $obj->setGrandDecalage(true);
-        $this->assertEquals(true, $obj->getGrandDecalage());
+        $this->assertTrue($obj->getGrandDecalage());
     }
 
     /**
@@ -332,7 +332,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
         $obj = new RecapLignesDucs();
 
         $obj->setPaieDecalee(true);
-        $this->assertEquals(true, $obj->getPaieDecalee());
+        $this->assertTrue($obj->getPaieDecalee());
     }
 
     /**
@@ -409,7 +409,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
         $obj = new RecapLignesDucs();
 
         $obj->setPetitDecalage(true);
-        $this->assertEquals(true, $obj->getPetitDecalage());
+        $this->assertTrue($obj->getPetitDecalage());
     }
 
     /**
@@ -491,7 +491,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
         $obj = new RecapLignesDucs();
 
         $obj->setTraiterEdi(true);
-        $this->assertEquals(true, $obj->getTraiterEdi());
+        $this->assertTrue($obj->getTraiterEdi());
     }
 
     /**

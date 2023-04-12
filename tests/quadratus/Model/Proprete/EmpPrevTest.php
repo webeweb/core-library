@@ -275,7 +275,7 @@ class EmpPrevTest extends AbstractTestCase {
         $obj = new EmpPrev();
 
         $obj->setPointage(true);
-        $this->assertEquals(true, $obj->getPointage());
+        $this->assertTrue($obj->getPointage());
     }
 
     /**

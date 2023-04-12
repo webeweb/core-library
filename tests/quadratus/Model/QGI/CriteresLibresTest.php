@@ -34,7 +34,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase1(true);
-        $this->assertEquals(true, $obj->getCase1());
+        $this->assertTrue($obj->getCase1());
     }
 
     /**
@@ -47,7 +47,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase10(true);
-        $this->assertEquals(true, $obj->getCase10());
+        $this->assertTrue($obj->getCase10());
     }
 
     /**
@@ -60,7 +60,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase11(true);
-        $this->assertEquals(true, $obj->getCase11());
+        $this->assertTrue($obj->getCase11());
     }
 
     /**
@@ -73,7 +73,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase12(true);
-        $this->assertEquals(true, $obj->getCase12());
+        $this->assertTrue($obj->getCase12());
     }
 
     /**
@@ -86,7 +86,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase13(true);
-        $this->assertEquals(true, $obj->getCase13());
+        $this->assertTrue($obj->getCase13());
     }
 
     /**
@@ -99,7 +99,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase14(true);
-        $this->assertEquals(true, $obj->getCase14());
+        $this->assertTrue($obj->getCase14());
     }
 
     /**
@@ -112,7 +112,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase15(true);
-        $this->assertEquals(true, $obj->getCase15());
+        $this->assertTrue($obj->getCase15());
     }
 
     /**
@@ -125,7 +125,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase16(true);
-        $this->assertEquals(true, $obj->getCase16());
+        $this->assertTrue($obj->getCase16());
     }
 
     /**
@@ -138,7 +138,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase17(true);
-        $this->assertEquals(true, $obj->getCase17());
+        $this->assertTrue($obj->getCase17());
     }
 
     /**
@@ -151,7 +151,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase18(true);
-        $this->assertEquals(true, $obj->getCase18());
+        $this->assertTrue($obj->getCase18());
     }
 
     /**
@@ -164,7 +164,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase19(true);
-        $this->assertEquals(true, $obj->getCase19());
+        $this->assertTrue($obj->getCase19());
     }
 
     /**
@@ -177,7 +177,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase2(true);
-        $this->assertEquals(true, $obj->getCase2());
+        $this->assertTrue($obj->getCase2());
     }
 
     /**
@@ -190,7 +190,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase20(true);
-        $this->assertEquals(true, $obj->getCase20());
+        $this->assertTrue($obj->getCase20());
     }
 
     /**
@@ -203,7 +203,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase21(true);
-        $this->assertEquals(true, $obj->getCase21());
+        $this->assertTrue($obj->getCase21());
     }
 
     /**
@@ -216,7 +216,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase22(true);
-        $this->assertEquals(true, $obj->getCase22());
+        $this->assertTrue($obj->getCase22());
     }
 
     /**
@@ -229,7 +229,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase23(true);
-        $this->assertEquals(true, $obj->getCase23());
+        $this->assertTrue($obj->getCase23());
     }
 
     /**
@@ -242,7 +242,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase24(true);
-        $this->assertEquals(true, $obj->getCase24());
+        $this->assertTrue($obj->getCase24());
     }
 
     /**
@@ -255,7 +255,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase25(true);
-        $this->assertEquals(true, $obj->getCase25());
+        $this->assertTrue($obj->getCase25());
     }
 
     /**
@@ -268,7 +268,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase26(true);
-        $this->assertEquals(true, $obj->getCase26());
+        $this->assertTrue($obj->getCase26());
     }
 
     /**
@@ -281,7 +281,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase27(true);
-        $this->assertEquals(true, $obj->getCase27());
+        $this->assertTrue($obj->getCase27());
     }
 
     /**
@@ -294,7 +294,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase28(true);
-        $this->assertEquals(true, $obj->getCase28());
+        $this->assertTrue($obj->getCase28());
     }
 
     /**
@@ -307,7 +307,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase29(true);
-        $this->assertEquals(true, $obj->getCase29());
+        $this->assertTrue($obj->getCase29());
     }
 
     /**
@@ -320,7 +320,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase3(true);
-        $this->assertEquals(true, $obj->getCase3());
+        $this->assertTrue($obj->getCase3());
     }
 
     /**
@@ -333,7 +333,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase30(true);
-        $this->assertEquals(true, $obj->getCase30());
+        $this->assertTrue($obj->getCase30());
     }
 
     /**
@@ -346,7 +346,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase31(true);
-        $this->assertEquals(true, $obj->getCase31());
+        $this->assertTrue($obj->getCase31());
     }
 
     /**
@@ -359,7 +359,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase32(true);
-        $this->assertEquals(true, $obj->getCase32());
+        $this->assertTrue($obj->getCase32());
     }
 
     /**
@@ -372,7 +372,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase33(true);
-        $this->assertEquals(true, $obj->getCase33());
+        $this->assertTrue($obj->getCase33());
     }
 
     /**
@@ -385,7 +385,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase34(true);
-        $this->assertEquals(true, $obj->getCase34());
+        $this->assertTrue($obj->getCase34());
     }
 
     /**
@@ -398,7 +398,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase35(true);
-        $this->assertEquals(true, $obj->getCase35());
+        $this->assertTrue($obj->getCase35());
     }
 
     /**
@@ -411,7 +411,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase36(true);
-        $this->assertEquals(true, $obj->getCase36());
+        $this->assertTrue($obj->getCase36());
     }
 
     /**
@@ -424,7 +424,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase37(true);
-        $this->assertEquals(true, $obj->getCase37());
+        $this->assertTrue($obj->getCase37());
     }
 
     /**
@@ -437,7 +437,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase38(true);
-        $this->assertEquals(true, $obj->getCase38());
+        $this->assertTrue($obj->getCase38());
     }
 
     /**
@@ -450,7 +450,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase39(true);
-        $this->assertEquals(true, $obj->getCase39());
+        $this->assertTrue($obj->getCase39());
     }
 
     /**
@@ -463,7 +463,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase4(true);
-        $this->assertEquals(true, $obj->getCase4());
+        $this->assertTrue($obj->getCase4());
     }
 
     /**
@@ -476,7 +476,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase40(true);
-        $this->assertEquals(true, $obj->getCase40());
+        $this->assertTrue($obj->getCase40());
     }
 
     /**
@@ -489,7 +489,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase41(true);
-        $this->assertEquals(true, $obj->getCase41());
+        $this->assertTrue($obj->getCase41());
     }
 
     /**
@@ -502,7 +502,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase42(true);
-        $this->assertEquals(true, $obj->getCase42());
+        $this->assertTrue($obj->getCase42());
     }
 
     /**
@@ -515,7 +515,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase43(true);
-        $this->assertEquals(true, $obj->getCase43());
+        $this->assertTrue($obj->getCase43());
     }
 
     /**
@@ -528,7 +528,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase44(true);
-        $this->assertEquals(true, $obj->getCase44());
+        $this->assertTrue($obj->getCase44());
     }
 
     /**
@@ -541,7 +541,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase45(true);
-        $this->assertEquals(true, $obj->getCase45());
+        $this->assertTrue($obj->getCase45());
     }
 
     /**
@@ -554,7 +554,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase46(true);
-        $this->assertEquals(true, $obj->getCase46());
+        $this->assertTrue($obj->getCase46());
     }
 
     /**
@@ -567,7 +567,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase47(true);
-        $this->assertEquals(true, $obj->getCase47());
+        $this->assertTrue($obj->getCase47());
     }
 
     /**
@@ -580,7 +580,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase48(true);
-        $this->assertEquals(true, $obj->getCase48());
+        $this->assertTrue($obj->getCase48());
     }
 
     /**
@@ -593,7 +593,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase49(true);
-        $this->assertEquals(true, $obj->getCase49());
+        $this->assertTrue($obj->getCase49());
     }
 
     /**
@@ -606,7 +606,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase5(true);
-        $this->assertEquals(true, $obj->getCase5());
+        $this->assertTrue($obj->getCase5());
     }
 
     /**
@@ -619,7 +619,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase50(true);
-        $this->assertEquals(true, $obj->getCase50());
+        $this->assertTrue($obj->getCase50());
     }
 
     /**
@@ -632,7 +632,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase6(true);
-        $this->assertEquals(true, $obj->getCase6());
+        $this->assertTrue($obj->getCase6());
     }
 
     /**
@@ -645,7 +645,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase7(true);
-        $this->assertEquals(true, $obj->getCase7());
+        $this->assertTrue($obj->getCase7());
     }
 
     /**
@@ -658,7 +658,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase8(true);
-        $this->assertEquals(true, $obj->getCase8());
+        $this->assertTrue($obj->getCase8());
     }
 
     /**
@@ -671,7 +671,7 @@ class CriteresLibresTest extends AbstractTestCase {
         $obj = new CriteresLibres();
 
         $obj->setCase9(true);
-        $this->assertEquals(true, $obj->getCase9());
+        $this->assertTrue($obj->getCase9());
     }
 
     /**

@@ -227,7 +227,7 @@ class AbsencesExcelHistoTest extends AbstractTestCase {
         $obj = new AbsencesExcelHisto();
 
         $obj->setTransfertAbs(true);
-        $this->assertEquals(true, $obj->getTransfertAbs());
+        $this->assertTrue($obj->getTransfertAbs());
     }
 
     /**

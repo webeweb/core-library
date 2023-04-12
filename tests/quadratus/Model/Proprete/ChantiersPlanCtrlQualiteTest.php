@@ -202,7 +202,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
         $obj = new ChantiersPlanCtrlQualite();
 
         $obj->setRealiseParFcq(true);
-        $this->assertEquals(true, $obj->getRealiseParFcq());
+        $this->assertTrue($obj->getRealiseParFcq());
     }
 
     /**

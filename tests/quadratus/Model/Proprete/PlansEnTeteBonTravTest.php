@@ -422,7 +422,7 @@ class PlansEnTeteBonTravTest extends AbstractTestCase {
         $obj = new PlansEnTeteBonTrav();
 
         $obj->setRepriseDatesEmployes(true);
-        $this->assertEquals(true, $obj->getRepriseDatesEmployes());
+        $this->assertTrue($obj->getRepriseDatesEmployes());
     }
 
     /**

@@ -34,7 +34,7 @@ class AccesWebTest extends AbstractTestCase {
         $obj = new AccesWeb();
 
         $obj->setAccesAgenda(true);
-        $this->assertEquals(true, $obj->getAccesAgenda());
+        $this->assertTrue($obj->getAccesAgenda());
     }
 
     /**
@@ -47,7 +47,7 @@ class AccesWebTest extends AbstractTestCase {
         $obj = new AccesWeb();
 
         $obj->setAccesArticles(true);
-        $this->assertEquals(true, $obj->getAccesArticles());
+        $this->assertTrue($obj->getAccesArticles());
     }
 
     /**
@@ -60,7 +60,7 @@ class AccesWebTest extends AbstractTestCase {
         $obj = new AccesWeb();
 
         $obj->setAccesArticlesConsommes(true);
-        $this->assertEquals(true, $obj->getAccesArticlesConsommes());
+        $this->assertTrue($obj->getAccesArticlesConsommes());
     }
 
     /**
@@ -73,7 +73,7 @@ class AccesWebTest extends AbstractTestCase {
         $obj = new AccesWeb();
 
         $obj->setAccesClients(true);
-        $this->assertEquals(true, $obj->getAccesClients());
+        $this->assertTrue($obj->getAccesClients());
     }
 
     /**
@@ -86,7 +86,7 @@ class AccesWebTest extends AbstractTestCase {
         $obj = new AccesWeb();
 
         $obj->setAccesClientsFavoris(true);
-        $this->assertEquals(true, $obj->getAccesClientsFavoris());
+        $this->assertTrue($obj->getAccesClientsFavoris());
     }
 
     /**
@@ -99,7 +99,7 @@ class AccesWebTest extends AbstractTestCase {
         $obj = new AccesWeb();
 
         $obj->setAccesConsultation(true);
-        $this->assertEquals(true, $obj->getAccesConsultation());
+        $this->assertTrue($obj->getAccesConsultation());
     }
 
     /**
@@ -112,7 +112,7 @@ class AccesWebTest extends AbstractTestCase {
         $obj = new AccesWeb();
 
         $obj->setAccesDossierCabinet(true);
-        $this->assertEquals(true, $obj->getAccesDossierCabinet());
+        $this->assertTrue($obj->getAccesDossierCabinet());
     }
 
     /**
@@ -125,7 +125,7 @@ class AccesWebTest extends AbstractTestCase {
         $obj = new AccesWeb();
 
         $obj->setAccesFacture(true);
-        $this->assertEquals(true, $obj->getAccesFacture());
+        $this->assertTrue($obj->getAccesFacture());
     }
 
     /**
@@ -138,7 +138,7 @@ class AccesWebTest extends AbstractTestCase {
         $obj = new AccesWeb();
 
         $obj->setAccesIBureau(true);
-        $this->assertEquals(true, $obj->getAccesIBureau());
+        $this->assertTrue($obj->getAccesIBureau());
     }
 
     /**
@@ -151,7 +151,7 @@ class AccesWebTest extends AbstractTestCase {
         $obj = new AccesWeb();
 
         $obj->setAccesInterventions(true);
-        $this->assertEquals(true, $obj->getAccesInterventions());
+        $this->assertTrue($obj->getAccesInterventions());
     }
 
     /**
@@ -164,7 +164,7 @@ class AccesWebTest extends AbstractTestCase {
         $obj = new AccesWeb();
 
         $obj->setAccesListeCollab(true);
-        $this->assertEquals(true, $obj->getAccesListeCollab());
+        $this->assertTrue($obj->getAccesListeCollab());
     }
 
     /**
@@ -177,7 +177,7 @@ class AccesWebTest extends AbstractTestCase {
         $obj = new AccesWeb();
 
         $obj->setAccesMessages(true);
-        $this->assertEquals(true, $obj->getAccesMessages());
+        $this->assertTrue($obj->getAccesMessages());
     }
 
     /**
@@ -190,7 +190,7 @@ class AccesWebTest extends AbstractTestCase {
         $obj = new AccesWeb();
 
         $obj->setAccesNoteFrais(true);
-        $this->assertEquals(true, $obj->getAccesNoteFrais());
+        $this->assertTrue($obj->getAccesNoteFrais());
     }
 
     /**
@@ -203,7 +203,7 @@ class AccesWebTest extends AbstractTestCase {
         $obj = new AccesWeb();
 
         $obj->setAccesRepertoire(true);
-        $this->assertEquals(true, $obj->getAccesRepertoire());
+        $this->assertTrue($obj->getAccesRepertoire());
     }
 
     /**
@@ -216,7 +216,7 @@ class AccesWebTest extends AbstractTestCase {
         $obj = new AccesWeb();
 
         $obj->setAccesSaisieCommande(true);
-        $this->assertEquals(true, $obj->getAccesSaisieCommande());
+        $this->assertTrue($obj->getAccesSaisieCommande());
     }
 
     /**
@@ -229,7 +229,7 @@ class AccesWebTest extends AbstractTestCase {
         $obj = new AccesWeb();
 
         $obj->setAccesSaisieTp(true);
-        $this->assertEquals(true, $obj->getAccesSaisieTp());
+        $this->assertTrue($obj->getAccesSaisieTp());
     }
 
     /**
@@ -242,7 +242,7 @@ class AccesWebTest extends AbstractTestCase {
         $obj = new AccesWeb();
 
         $obj->setAccesSoldeCpta(true);
-        $this->assertEquals(true, $obj->getAccesSoldeCpta());
+        $this->assertTrue($obj->getAccesSoldeCpta());
     }
 
     /**
@@ -255,7 +255,7 @@ class AccesWebTest extends AbstractTestCase {
         $obj = new AccesWeb();
 
         $obj->setAccesTableauxBord(true);
-        $this->assertEquals(true, $obj->getAccesTableauxBord());
+        $this->assertTrue($obj->getAccesTableauxBord());
     }
 
     /**
@@ -371,7 +371,7 @@ class AccesWebTest extends AbstractTestCase {
         $obj = new AccesWeb();
 
         $obj->setDupliqueIntervention(true);
-        $this->assertEquals(true, $obj->getDupliqueIntervention());
+        $this->assertTrue($obj->getDupliqueIntervention());
     }
 
     /**
@@ -384,7 +384,7 @@ class AccesWebTest extends AbstractTestCase {
         $obj = new AccesWeb();
 
         $obj->setMemeMdpQueIBureau(true);
-        $this->assertEquals(true, $obj->getMemeMdpQueIBureau());
+        $this->assertTrue($obj->getMemeMdpQueIBureau());
     }
 
     /**

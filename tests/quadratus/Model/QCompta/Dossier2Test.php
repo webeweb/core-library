@@ -47,7 +47,7 @@ class Dossier2Test extends AbstractTestCase {
         $obj = new Dossier2();
 
         $obj->setAppliquerRegroupement(true);
-        $this->assertEquals(true, $obj->getAppliquerRegroupement());
+        $this->assertTrue($obj->getAppliquerRegroupement());
     }
 
     /**
@@ -613,7 +613,7 @@ class Dossier2Test extends AbstractTestCase {
         $obj = new Dossier2();
 
         $obj->setEditerEnCfa(true);
-        $this->assertEquals(true, $obj->getEditerEnCfa());
+        $this->assertTrue($obj->getEditerEnCfa());
     }
 
     /**
@@ -665,7 +665,7 @@ class Dossier2Test extends AbstractTestCase {
         $obj = new Dossier2();
 
         $obj->setLibellePlusDe30Carac(true);
-        $this->assertEquals(true, $obj->getLibellePlusDe30Carac());
+        $this->assertTrue($obj->getLibellePlusDe30Carac());
     }
 
     /**
@@ -678,7 +678,7 @@ class Dossier2Test extends AbstractTestCase {
         $obj = new Dossier2();
 
         $obj->setLienSaiImmos(true);
-        $this->assertEquals(true, $obj->getLienSaiImmos());
+        $this->assertTrue($obj->getLienSaiImmos());
     }
 
     /**
@@ -1029,7 +1029,7 @@ class Dossier2Test extends AbstractTestCase {
         $obj = new Dossier2();
 
         $obj->setPublication(true);
-        $this->assertEquals(true, $obj->getPublication());
+        $this->assertTrue($obj->getPublication());
     }
 
     /**
@@ -1081,7 +1081,7 @@ class Dossier2Test extends AbstractTestCase {
         $obj = new Dossier2();
 
         $obj->setRelanceAdresseCpt(true);
-        $this->assertEquals(true, $obj->getRelanceAdresseCpt());
+        $this->assertTrue($obj->getRelanceAdresseCpt());
     }
 
     /**
@@ -1319,7 +1319,7 @@ class Dossier2Test extends AbstractTestCase {
         $obj = new Dossier2();
 
         $obj->setUtiliseQuantite2(true);
-        $this->assertEquals(true, $obj->getUtiliseQuantite2());
+        $this->assertTrue($obj->getUtiliseQuantite2());
     }
 
     /**

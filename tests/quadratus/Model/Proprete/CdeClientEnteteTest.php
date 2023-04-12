@@ -366,7 +366,7 @@ class CdeClientEnteteTest extends AbstractTestCase {
         $obj = new CdeClientEntete();
 
         $obj->setEcheanceForcee(true);
-        $this->assertEquals(true, $obj->getEcheanceForcee());
+        $this->assertTrue($obj->getEcheanceForcee());
     }
 
     /**
@@ -392,7 +392,7 @@ class CdeClientEnteteTest extends AbstractTestCase {
         $obj = new CdeClientEntete();
 
         $obj->setFactureEuros(true);
-        $this->assertEquals(true, $obj->getFactureEuros());
+        $this->assertTrue($obj->getFactureEuros());
     }
 
     /**
@@ -743,7 +743,7 @@ class CdeClientEnteteTest extends AbstractTestCase {
         $obj = new CdeClientEntete();
 
         $obj->setSaisirAdresse(true);
-        $this->assertEquals(true, $obj->getSaisirAdresse());
+        $this->assertTrue($obj->getSaisirAdresse());
     }
 
     /**
@@ -756,7 +756,7 @@ class CdeClientEnteteTest extends AbstractTestCase {
         $obj = new CdeClientEntete();
 
         $obj->setSaisirAdresseLivraison(true);
-        $this->assertEquals(true, $obj->getSaisirAdresseLivraison());
+        $this->assertTrue($obj->getSaisirAdresseLivraison());
     }
 
     /**
@@ -769,7 +769,7 @@ class CdeClientEnteteTest extends AbstractTestCase {
         $obj = new CdeClientEntete();
 
         $obj->setSoumisEscompte(true);
-        $this->assertEquals(true, $obj->getSoumisEscompte());
+        $this->assertTrue($obj->getSoumisEscompte());
     }
 
     /**
@@ -782,7 +782,7 @@ class CdeClientEnteteTest extends AbstractTestCase {
         $obj = new CdeClientEntete();
 
         $obj->setSoumisTaxe1(true);
-        $this->assertEquals(true, $obj->getSoumisTaxe1());
+        $this->assertTrue($obj->getSoumisTaxe1());
     }
 
     /**
@@ -795,7 +795,7 @@ class CdeClientEnteteTest extends AbstractTestCase {
         $obj = new CdeClientEntete();
 
         $obj->setSoumisTaxe2(true);
-        $this->assertEquals(true, $obj->getSoumisTaxe2());
+        $this->assertTrue($obj->getSoumisTaxe2());
     }
 
     /**
@@ -808,7 +808,7 @@ class CdeClientEnteteTest extends AbstractTestCase {
         $obj = new CdeClientEntete();
 
         $obj->setSoumisTaxe3(true);
-        $this->assertEquals(true, $obj->getSoumisTaxe3());
+        $this->assertTrue($obj->getSoumisTaxe3());
     }
 
     /**

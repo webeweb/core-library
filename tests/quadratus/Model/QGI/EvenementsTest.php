@@ -34,7 +34,7 @@ class EvenementsTest extends AbstractTestCase {
         $obj = new Evenements();
 
         $obj->setArchive(true);
-        $this->assertEquals(true, $obj->getArchive());
+        $this->assertTrue($obj->getArchive());
     }
 
     /**
@@ -228,7 +228,7 @@ class EvenementsTest extends AbstractTestCase {
         $obj = new Evenements();
 
         $obj->setFsComptaYaAlerte(true);
-        $this->assertEquals(true, $obj->getFsComptaYaAlerte());
+        $this->assertTrue($obj->getFsComptaYaAlerte());
     }
 
     /**
@@ -387,7 +387,7 @@ class EvenementsTest extends AbstractTestCase {
         $obj = new Evenements();
 
         $obj->setFsSocialYaAlerte(true);
-        $this->assertEquals(true, $obj->getFsSocialYaAlerte());
+        $this->assertTrue($obj->getFsSocialYaAlerte());
     }
 
     /**
@@ -521,7 +521,7 @@ class EvenementsTest extends AbstractTestCase {
         $obj = new Evenements();
 
         $obj->setRegle(true);
-        $this->assertEquals(true, $obj->getRegle());
+        $this->assertTrue($obj->getRegle());
     }
 
     /**

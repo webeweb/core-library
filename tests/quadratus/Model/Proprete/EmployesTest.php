@@ -34,7 +34,7 @@ class EmployesTest extends AbstractTestCase {
         $obj = new Employes();
 
         $obj->setATransfererEnP(true);
-        $this->assertEquals(true, $obj->getATransfererEnP());
+        $this->assertTrue($obj->getATransfererEnP());
     }
 
     /**
@@ -47,7 +47,7 @@ class EmployesTest extends AbstractTestCase {
         $obj = new Employes();
 
         $obj->setAdministratif(true);
-        $this->assertEquals(true, $obj->getAdministratif());
+        $this->assertTrue($obj->getAdministratif());
     }
 
     /**
@@ -86,7 +86,7 @@ class EmployesTest extends AbstractTestCase {
         $obj = new Employes();
 
         $obj->setChefEquipe(true);
-        $this->assertEquals(true, $obj->getChefEquipe());
+        $this->assertTrue($obj->getChefEquipe());
     }
 
     /**
@@ -151,7 +151,7 @@ class EmployesTest extends AbstractTestCase {
         $obj = new Employes();
 
         $obj->setCommercial(true);
-        $this->assertEquals(true, $obj->getCommercial());
+        $this->assertTrue($obj->getCommercial());
     }
 
     /**
@@ -190,7 +190,7 @@ class EmployesTest extends AbstractTestCase {
         $obj = new Employes();
 
         $obj->setControleur(true);
-        $this->assertEquals(true, $obj->getControleur());
+        $this->assertTrue($obj->getControleur());
     }
 
     /**
@@ -331,7 +331,7 @@ class EmployesTest extends AbstractTestCase {
         $obj = new Employes();
 
         $obj->setDimType2(true);
-        $this->assertEquals(true, $obj->getDimType2());
+        $this->assertTrue($obj->getDimType2());
     }
 
     /**
@@ -344,7 +344,7 @@ class EmployesTest extends AbstractTestCase {
         $obj = new Employes();
 
         $obj->setFictif(true);
-        $this->assertEquals(true, $obj->getFictif());
+        $this->assertTrue($obj->getFictif());
     }
 
     /**
@@ -396,7 +396,7 @@ class EmployesTest extends AbstractTestCase {
         $obj = new Employes();
 
         $obj->setHNuitType2(true);
-        $this->assertEquals(true, $obj->getHNuitType2());
+        $this->assertTrue($obj->getHNuitType2());
     }
 
     /**
@@ -409,7 +409,7 @@ class EmployesTest extends AbstractTestCase {
         $obj = new Employes();
 
         $obj->setHandicape(true);
-        $this->assertEquals(true, $obj->getHandicape());
+        $this->assertTrue($obj->getHandicape());
     }
 
     /**
@@ -422,7 +422,7 @@ class EmployesTest extends AbstractTestCase {
         $obj = new Employes();
 
         $obj->setHotellerie(true);
-        $this->assertEquals(true, $obj->getHotellerie());
+        $this->assertTrue($obj->getHotellerie());
     }
 
     /**
@@ -435,7 +435,7 @@ class EmployesTest extends AbstractTestCase {
         $obj = new Employes();
 
         $obj->setInspecteur(true);
-        $this->assertEquals(true, $obj->getInspecteur());
+        $this->assertTrue($obj->getInspecteur());
     }
 
     /**
@@ -448,7 +448,7 @@ class EmployesTest extends AbstractTestCase {
         $obj = new Employes();
 
         $obj->setLivreur(true);
-        $this->assertEquals(true, $obj->getLivreur());
+        $this->assertTrue($obj->getLivreur());
     }
 
     /**
@@ -634,7 +634,7 @@ class EmployesTest extends AbstractTestCase {
         $obj = new Employes();
 
         $obj->setPolyvalent(true);
-        $this->assertEquals(true, $obj->getPolyvalent());
+        $this->assertTrue($obj->getPolyvalent());
     }
 
     /**
@@ -660,7 +660,7 @@ class EmployesTest extends AbstractTestCase {
         $obj = new Employes();
 
         $obj->setPrime(true);
-        $this->assertEquals(true, $obj->getPrime());
+        $this->assertTrue($obj->getPrime());
     }
 
     /**
@@ -725,7 +725,7 @@ class EmployesTest extends AbstractTestCase {
         $obj = new Employes();
 
         $obj->setTempsPasse(true);
-        $this->assertEquals(true, $obj->getTempsPasse());
+        $this->assertTrue($obj->getTempsPasse());
     }
 
     /**
@@ -751,7 +751,7 @@ class EmployesTest extends AbstractTestCase {
         $obj = new Employes();
 
         $obj->setTravailleJf(true);
-        $this->assertEquals(true, $obj->getTravailleJf());
+        $this->assertTrue($obj->getTravailleJf());
     }
 
     /**

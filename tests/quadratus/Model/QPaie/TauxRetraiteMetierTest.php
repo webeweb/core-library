@@ -32,7 +32,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
         $obj = new TauxRetraiteMetier();
 
         $obj->setActive(true);
-        $this->assertEquals(true, $obj->getActive());
+        $this->assertTrue($obj->getActive());
     }
 
     /**

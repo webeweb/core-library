@@ -71,7 +71,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
         $obj = new BonsTravauxInterventions();
 
         $obj->setDimanche(true);
-        $this->assertEquals(true, $obj->getDimanche());
+        $this->assertTrue($obj->getDimanche());
     }
 
     /**
@@ -84,7 +84,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
         $obj = new BonsTravauxInterventions();
 
         $obj->setJeudi(true);
-        $this->assertEquals(true, $obj->getJeudi());
+        $this->assertTrue($obj->getJeudi());
     }
 
     /**
@@ -97,7 +97,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
         $obj = new BonsTravauxInterventions();
 
         $obj->setLundi(true);
-        $this->assertEquals(true, $obj->getLundi());
+        $this->assertTrue($obj->getLundi());
     }
 
     /**
@@ -110,7 +110,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
         $obj = new BonsTravauxInterventions();
 
         $obj->setMardi(true);
-        $this->assertEquals(true, $obj->getMardi());
+        $this->assertTrue($obj->getMardi());
     }
 
     /**
@@ -123,7 +123,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
         $obj = new BonsTravauxInterventions();
 
         $obj->setMercredi(true);
-        $this->assertEquals(true, $obj->getMercredi());
+        $this->assertTrue($obj->getMercredi());
     }
 
     /**
@@ -162,7 +162,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
         $obj = new BonsTravauxInterventions();
 
         $obj->setSamedi(true);
-        $this->assertEquals(true, $obj->getSamedi());
+        $this->assertTrue($obj->getSamedi());
     }
 
     /**
@@ -175,7 +175,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
         $obj = new BonsTravauxInterventions();
 
         $obj->setVendredi(true);
-        $this->assertEquals(true, $obj->getVendredi());
+        $this->assertTrue($obj->getVendredi());
     }
 
     /**

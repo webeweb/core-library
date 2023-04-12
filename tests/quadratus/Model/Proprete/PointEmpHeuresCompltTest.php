@@ -34,7 +34,7 @@ class PointEmpHeuresCompltTest extends AbstractTestCase {
         $obj = new PointEmpHeuresComplt();
 
         $obj->setAFacturer(true);
-        $this->assertEquals(true, $obj->getAFacturer());
+        $this->assertTrue($obj->getAFacturer());
     }
 
     /**

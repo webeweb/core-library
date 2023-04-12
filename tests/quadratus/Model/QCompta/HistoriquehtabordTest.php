@@ -129,7 +129,7 @@ class HistoriquehtabordTest extends AbstractTestCase {
         $obj = new Historiquehtabord();
 
         $obj->setFlgAnN(true);
-        $this->assertEquals(true, $obj->getFlgAnN());
+        $this->assertTrue($obj->getFlgAnN());
     }
 
     /**
@@ -142,7 +142,7 @@ class HistoriquehtabordTest extends AbstractTestCase {
         $obj = new Historiquehtabord();
 
         $obj->setFlgAnN1(true);
-        $this->assertEquals(true, $obj->getFlgAnN1());
+        $this->assertTrue($obj->getFlgAnN1());
     }
 
     /**
@@ -155,7 +155,7 @@ class HistoriquehtabordTest extends AbstractTestCase {
         $obj = new Historiquehtabord();
 
         $obj->setFlgAnN2(true);
-        $this->assertEquals(true, $obj->getFlgAnN2());
+        $this->assertTrue($obj->getFlgAnN2());
     }
 
     /**
@@ -168,7 +168,7 @@ class HistoriquehtabordTest extends AbstractTestCase {
         $obj = new Historiquehtabord();
 
         $obj->setFlgBudget1(true);
-        $this->assertEquals(true, $obj->getFlgBudget1());
+        $this->assertTrue($obj->getFlgBudget1());
     }
 
     /**
@@ -181,7 +181,7 @@ class HistoriquehtabordTest extends AbstractTestCase {
         $obj = new Historiquehtabord();
 
         $obj->setFlgBudget2(true);
-        $this->assertEquals(true, $obj->getFlgBudget2());
+        $this->assertTrue($obj->getFlgBudget2());
     }
 
     /**
@@ -233,7 +233,7 @@ class HistoriquehtabordTest extends AbstractTestCase {
         $obj = new Historiquehtabord();
 
         $obj->setNoConvEuro(true);
-        $this->assertEquals(true, $obj->getNoConvEuro());
+        $this->assertTrue($obj->getNoConvEuro());
     }
 
     /**

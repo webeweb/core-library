@@ -34,7 +34,7 @@ class PhotosTest extends AbstractTestCase {
         $obj = new Photos();
 
         $obj->setAPublierEspaceClient(true);
-        $this->assertEquals(true, $obj->getAPublierEspaceClient());
+        $this->assertTrue($obj->getAPublierEspaceClient());
     }
 
     /**

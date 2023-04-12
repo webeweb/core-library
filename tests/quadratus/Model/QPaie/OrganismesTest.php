@@ -136,7 +136,7 @@ class OrganismesTest extends AbstractTestCase {
         $obj = new Organismes();
 
         $obj->setCotAssedicParUrssaf(true);
-        $this->assertEquals(true, $obj->getCotAssedicParUrssaf());
+        $this->assertTrue($obj->getCotAssedicParUrssaf());
     }
 
     /**
@@ -149,7 +149,7 @@ class OrganismesTest extends AbstractTestCase {
         $obj = new Organismes();
 
         $obj->setCotitel(true);
-        $this->assertEquals(true, $obj->getCotitel());
+        $this->assertTrue($obj->getCotitel());
     }
 
     /**
@@ -188,7 +188,7 @@ class OrganismesTest extends AbstractTestCase {
         $obj = new Organismes();
 
         $obj->setEditionDucs(true);
-        $this->assertEquals(true, $obj->getEditionDucs());
+        $this->assertTrue($obj->getEditionDucs());
     }
 
     /**
@@ -201,7 +201,7 @@ class OrganismesTest extends AbstractTestCase {
         $obj = new Organismes();
 
         $obj->setGestionPaieDecaleeOc(true);
-        $this->assertEquals(true, $obj->getGestionPaieDecaleeOc());
+        $this->assertTrue($obj->getGestionPaieDecaleeOc());
     }
 
     /**
@@ -318,7 +318,7 @@ class OrganismesTest extends AbstractTestCase {
         $obj = new Organismes();
 
         $obj->setPaiementEdiVlu(true);
-        $this->assertEquals(true, $obj->getPaiementEdiVlu());
+        $this->assertTrue($obj->getPaiementEdiVlu());
     }
 
     /**
@@ -331,7 +331,7 @@ class OrganismesTest extends AbstractTestCase {
         $obj = new Organismes();
 
         $obj->setPasTraiterEdi(true);
-        $this->assertEquals(true, $obj->getPasTraiterEdi());
+        $this->assertTrue($obj->getPasTraiterEdi());
     }
 
     /**
@@ -357,7 +357,7 @@ class OrganismesTest extends AbstractTestCase {
         $obj = new Organismes();
 
         $obj->setTelepaiement(true);
-        $this->assertEquals(true, $obj->getTelepaiement());
+        $this->assertTrue($obj->getTelepaiement());
     }
 
     /**

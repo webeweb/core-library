@@ -77,7 +77,7 @@ class VmpMouvementsTest extends AbstractTestCase {
         $obj = new VmpMouvements();
 
         $obj->setGratuit(true);
-        $this->assertEquals(true, $obj->getGratuit());
+        $this->assertTrue($obj->getGratuit());
     }
 
     /**

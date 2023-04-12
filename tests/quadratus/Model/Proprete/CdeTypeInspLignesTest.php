@@ -34,7 +34,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
         $obj = new CdeTypeInspLignes();
 
         $obj->setAou(true);
-        $this->assertEquals(true, $obj->getAou());
+        $this->assertTrue($obj->getAou());
     }
 
     /**
@@ -47,7 +47,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
         $obj = new CdeTypeInspLignes();
 
         $obj->setAvr(true);
-        $this->assertEquals(true, $obj->getAvr());
+        $this->assertTrue($obj->getAvr());
     }
 
     /**
@@ -151,7 +151,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
         $obj = new CdeTypeInspLignes();
 
         $obj->setCommandeIsolee(true);
-        $this->assertEquals(true, $obj->getCommandeIsolee());
+        $this->assertTrue($obj->getCommandeIsolee());
     }
 
     /**
@@ -215,7 +215,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
         $obj = new CdeTypeInspLignes();
 
         $obj->setDec(true);
-        $this->assertEquals(true, $obj->getDec());
+        $this->assertTrue($obj->getDec());
     }
 
     /**
@@ -267,7 +267,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
         $obj = new CdeTypeInspLignes();
 
         $obj->setFev(true);
-        $this->assertEquals(true, $obj->getFev());
+        $this->assertTrue($obj->getFev());
     }
 
     /**
@@ -280,7 +280,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
         $obj = new CdeTypeInspLignes();
 
         $obj->setJan(true);
-        $this->assertEquals(true, $obj->getJan());
+        $this->assertTrue($obj->getJan());
     }
 
     /**
@@ -306,7 +306,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
         $obj = new CdeTypeInspLignes();
 
         $obj->setJuil(true);
-        $this->assertEquals(true, $obj->getJuil());
+        $this->assertTrue($obj->getJuil());
     }
 
     /**
@@ -319,7 +319,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
         $obj = new CdeTypeInspLignes();
 
         $obj->setJuin(true);
-        $this->assertEquals(true, $obj->getJuin());
+        $this->assertTrue($obj->getJuin());
     }
 
     /**
@@ -332,7 +332,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
         $obj = new CdeTypeInspLignes();
 
         $obj->setMai(true);
-        $this->assertEquals(true, $obj->getMai());
+        $this->assertTrue($obj->getMai());
     }
 
     /**
@@ -345,7 +345,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
         $obj = new CdeTypeInspLignes();
 
         $obj->setMajStockByDa(true);
-        $this->assertEquals(true, $obj->getMajStockByDa());
+        $this->assertTrue($obj->getMajStockByDa());
     }
 
     /**
@@ -358,7 +358,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
         $obj = new CdeTypeInspLignes();
 
         $obj->setMar(true);
-        $this->assertEquals(true, $obj->getMar());
+        $this->assertTrue($obj->getMar());
     }
 
     /**
@@ -371,7 +371,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
         $obj = new CdeTypeInspLignes();
 
         $obj->setNov(true);
-        $this->assertEquals(true, $obj->getNov());
+        $this->assertTrue($obj->getNov());
     }
 
     /**
@@ -397,7 +397,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
         $obj = new CdeTypeInspLignes();
 
         $obj->setOct(true);
-        $this->assertEquals(true, $obj->getOct());
+        $this->assertTrue($obj->getOct());
     }
 
     /**
@@ -436,7 +436,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
         $obj = new CdeTypeInspLignes();
 
         $obj->setSaisirModaliteLiv(true);
-        $this->assertEquals(true, $obj->getSaisirModaliteLiv());
+        $this->assertTrue($obj->getSaisirModaliteLiv());
     }
 
     /**
@@ -449,7 +449,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
         $obj = new CdeTypeInspLignes();
 
         $obj->setSep(true);
-        $this->assertEquals(true, $obj->getSep());
+        $this->assertTrue($obj->getSep());
     }
 
     /**
@@ -475,7 +475,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
         $obj = new CdeTypeInspLignes();
 
         $obj->setValidee(true);
-        $this->assertEquals(true, $obj->getValidee());
+        $this->assertTrue($obj->getValidee());
     }
 
     /**

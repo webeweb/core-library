@@ -45,7 +45,7 @@ class SaisiePrepaEnteteTest extends AbstractTestCase {
         $obj = new SaisiePrepaEntete();
 
         $obj->setDesactive(true);
-        $this->assertEquals(true, $obj->getDesactive());
+        $this->assertTrue($obj->getDesactive());
     }
 
     /**
@@ -71,7 +71,7 @@ class SaisiePrepaEnteteTest extends AbstractTestCase {
         $obj = new SaisiePrepaEntete();
 
         $obj->setSaisieAbsCp(true);
-        $this->assertEquals(true, $obj->getSaisieAbsCp());
+        $this->assertTrue($obj->getSaisieAbsCp());
     }
 
     /**
@@ -84,7 +84,7 @@ class SaisiePrepaEnteteTest extends AbstractTestCase {
         $obj = new SaisiePrepaEntete();
 
         $obj->setSaisieAcompte(true);
-        $this->assertEquals(true, $obj->getSaisieAcompte());
+        $this->assertTrue($obj->getSaisieAcompte());
     }
 
     /**

@@ -84,7 +84,7 @@ class EtiquettesTest extends AbstractTestCase {
         $obj = new Etiquettes();
 
         $obj->setEtiqPlus(true);
-        $this->assertEquals(true, $obj->getEtiqPlus());
+        $this->assertTrue($obj->getEtiqPlus());
     }
 
     /**

@@ -32,7 +32,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setFormatDuree(true);
-        $this->assertEquals(true, $obj->getFormatDuree());
+        $this->assertTrue($obj->getFormatDuree());
     }
 
     /**
@@ -45,7 +45,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setJoursCpaDeduire(true);
-        $this->assertEquals(true, $obj->getJoursCpaDeduire());
+        $this->assertTrue($obj->getJoursCpaDeduire());
     }
 
     /**
@@ -214,7 +214,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setPublierPhotoWeb(true);
-        $this->assertEquals(true, $obj->getPublierPhotoWeb());
+        $this->assertTrue($obj->getPublierPhotoWeb());
     }
 
     /**

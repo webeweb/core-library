@@ -335,7 +335,7 @@ class AffairesTest extends AbstractTestCase {
         $obj = new Affaires();
 
         $obj->setFactureIsolee(true);
-        $this->assertEquals(true, $obj->getFactureIsolee());
+        $this->assertTrue($obj->getFactureIsolee());
     }
 
     /**

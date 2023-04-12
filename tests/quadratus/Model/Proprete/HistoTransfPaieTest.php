@@ -60,7 +60,7 @@ class HistoTransfPaieTest extends AbstractTestCase {
         $obj = new HistoTransfPaie();
 
         $obj->setHcrPayees(true);
-        $this->assertEquals(true, $obj->getHcrPayees());
+        $this->assertTrue($obj->getHcrPayees());
     }
 
     /**

@@ -34,7 +34,7 @@ class EmpRecapCiceTest extends AbstractTestCase {
         $obj = new EmpRecapCice();
 
         $obj->setCaisseCp(true);
-        $this->assertEquals(true, $obj->getCaisseCp());
+        $this->assertTrue($obj->getCaisseCp());
     }
 
     /**
@@ -194,7 +194,7 @@ class EmpRecapCiceTest extends AbstractTestCase {
         $obj = new EmpRecapCice();
 
         $obj->setSortieMois(true);
-        $this->assertEquals(true, $obj->getSortieMois());
+        $this->assertTrue($obj->getSortieMois());
     }
 
     /**

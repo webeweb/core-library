@@ -34,7 +34,7 @@ class PointBonTravTest extends AbstractTestCase {
         $obj = new PointBonTrav();
 
         $obj->setAvenantSigne(true);
-        $this->assertEquals(true, $obj->getAvenantSigne());
+        $this->assertTrue($obj->getAvenantSigne());
     }
 
     /**
@@ -133,7 +133,7 @@ class PointBonTravTest extends AbstractTestCase {
         $obj = new PointBonTrav();
 
         $obj->setFromGenBt(true);
-        $this->assertEquals(true, $obj->getFromGenBt());
+        $this->assertTrue($obj->getFromGenBt());
     }
 
     /**
@@ -387,7 +387,7 @@ class PointBonTravTest extends AbstractTestCase {
         $obj = new PointBonTrav();
 
         $obj->setValideMob(true);
-        $this->assertEquals(true, $obj->getValideMob());
+        $this->assertTrue($obj->getValideMob());
     }
 
     /**

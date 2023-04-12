@@ -34,7 +34,7 @@ class AttestationExtrasTest extends AbstractTestCase {
         $obj = new AttestationExtras();
 
         $obj->setAncienAssedic(true);
-        $this->assertEquals(true, $obj->getAncienAssedic());
+        $this->assertTrue($obj->getAncienAssedic());
     }
 
     /**
@@ -47,7 +47,7 @@ class AttestationExtrasTest extends AbstractTestCase {
         $obj = new AttestationExtras();
 
         $obj->setAncienGarp(true);
-        $this->assertEquals(true, $obj->getAncienGarp());
+        $this->assertTrue($obj->getAncienGarp());
     }
 
     /**

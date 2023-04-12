@@ -266,7 +266,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
         $obj = new CaissesRetraiteMetier();
 
         $obj->setPasActive(true);
-        $this->assertEquals(true, $obj->getPasActive());
+        $this->assertTrue($obj->getPasActive());
     }
 
     /**

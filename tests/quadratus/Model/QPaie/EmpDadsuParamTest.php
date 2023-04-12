@@ -1263,7 +1263,7 @@ class EmpDadsuParamTest extends AbstractTestCase {
         $obj = new EmpDadsuParam();
 
         $obj->setExoAgff(true);
-        $this->assertEquals(true, $obj->getExoAgff());
+        $this->assertTrue($obj->getExoAgff());
     }
 
     /**

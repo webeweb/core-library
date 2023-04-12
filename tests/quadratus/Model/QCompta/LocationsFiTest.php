@@ -228,7 +228,7 @@ class LocationsFiTest extends AbstractTestCase {
         $obj = new LocationsFi();
 
         $obj->setDin(true);
-        $this->assertEquals(true, $obj->getDin());
+        $this->assertTrue($obj->getDin());
     }
 
     /**
@@ -280,7 +280,7 @@ class LocationsFiTest extends AbstractTestCase {
         $obj = new LocationsFi();
 
         $obj->setMateriauxAgricole(true);
-        $this->assertEquals(true, $obj->getMateriauxAgricole());
+        $this->assertTrue($obj->getMateriauxAgricole());
     }
 
     /**
@@ -371,7 +371,7 @@ class LocationsFiTest extends AbstractTestCase {
         $obj = new LocationsFi();
 
         $obj->setTaxePro(true);
-        $this->assertEquals(true, $obj->getTaxePro());
+        $this->assertTrue($obj->getTaxePro());
     }
 
     /**

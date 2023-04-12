@@ -116,7 +116,7 @@ class CommissairesComptesTest extends AbstractTestCase {
         $obj = new CommissairesComptes();
 
         $obj->setTitulaire(true);
-        $this->assertEquals(true, $obj->getTitulaire());
+        $this->assertTrue($obj->getTitulaire());
     }
 
     /**

@@ -58,7 +58,7 @@ class MissionVisuTachesTest extends AbstractTestCase {
         $obj = new MissionVisuTaches();
 
         $obj->setIsRegroupement(true);
-        $this->assertEquals(true, $obj->getIsRegroupement());
+        $this->assertTrue($obj->getIsRegroupement());
     }
 
     /**

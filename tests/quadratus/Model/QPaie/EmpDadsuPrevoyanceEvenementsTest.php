@@ -34,7 +34,7 @@ class EmpDadsuPrevoyanceEvenementsTest extends AbstractTestCase {
         $obj = new EmpDadsuPrevoyanceEvenements();
 
         $obj->setADeclarerDsn(true);
-        $this->assertEquals(true, $obj->getADeclarerDsn());
+        $this->assertTrue($obj->getADeclarerDsn());
     }
 
     /**

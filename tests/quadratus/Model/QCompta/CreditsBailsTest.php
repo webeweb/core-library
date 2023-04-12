@@ -268,7 +268,7 @@ class CreditsBailsTest extends AbstractTestCase {
         $obj = new CreditsBails();
 
         $obj->setAfsii(true);
-        $this->assertEquals(true, $obj->getAfsii());
+        $this->assertTrue($obj->getAfsii());
     }
 
     /**
@@ -307,7 +307,7 @@ class CreditsBailsTest extends AbstractTestCase {
         $obj = new CreditsBails();
 
         $obj->setCbEnFrancs(true);
-        $this->assertEquals(true, $obj->getCbEnFrancs());
+        $this->assertTrue($obj->getCbEnFrancs());
     }
 
     /**
@@ -605,7 +605,7 @@ class CreditsBailsTest extends AbstractTestCase {
         $obj = new CreditsBails();
 
         $obj->setDin(true);
-        $this->assertEquals(true, $obj->getDin());
+        $this->assertTrue($obj->getDin());
     }
 
     /**
@@ -683,7 +683,7 @@ class CreditsBailsTest extends AbstractTestCase {
         $obj = new CreditsBails();
 
         $obj->setMateriauxAgricole(true);
-        $this->assertEquals(true, $obj->getMateriauxAgricole());
+        $this->assertTrue($obj->getMateriauxAgricole());
     }
 
     /**
@@ -826,7 +826,7 @@ class CreditsBailsTest extends AbstractTestCase {
         $obj = new CreditsBails();
 
         $obj->setTaxeFonciere(true);
-        $this->assertEquals(true, $obj->getTaxeFonciere());
+        $this->assertTrue($obj->getTaxeFonciere());
     }
 
     /**
@@ -839,7 +839,7 @@ class CreditsBailsTest extends AbstractTestCase {
         $obj = new CreditsBails();
 
         $obj->setTaxePro(true);
-        $this->assertEquals(true, $obj->getTaxePro());
+        $this->assertTrue($obj->getTaxePro());
     }
 
     /**

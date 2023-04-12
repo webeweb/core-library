@@ -164,7 +164,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
         $obj = new CdeFournisseurLigne();
 
         $obj->setCommandeRecue(true);
-        $this->assertEquals(true, $obj->getCommandeRecue());
+        $this->assertTrue($obj->getCommandeRecue());
     }
 
     /**

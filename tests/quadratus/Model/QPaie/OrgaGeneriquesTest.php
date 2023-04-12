@@ -32,7 +32,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
         $obj = new OrgaGeneriques();
 
         $obj->setADeclarerDsnNeant(true);
-        $this->assertEquals(true, $obj->getADeclarerDsnNeant());
+        $this->assertTrue($obj->getADeclarerDsnNeant());
     }
 
     /**
@@ -58,7 +58,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
         $obj = new OrgaGeneriques();
 
         $obj->setAppliquerCpn220(true);
-        $this->assertEquals(true, $obj->getAppliquerCpn220());
+        $this->assertTrue($obj->getAppliquerCpn220());
     }
 
     /**
@@ -97,7 +97,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
         $obj = new OrgaGeneriques();
 
         $obj->setAssietteSpecifAgff(true);
-        $this->assertEquals(true, $obj->getAssietteSpecifAgff());
+        $this->assertTrue($obj->getAssietteSpecifAgff());
     }
 
     /**
@@ -227,7 +227,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
         $obj = new OrgaGeneriques();
 
         $obj->setDetailArrco(true);
-        $this->assertEquals(true, $obj->getDetailArrco());
+        $this->assertTrue($obj->getDetailArrco());
     }
 
     /**
@@ -331,7 +331,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
         $obj = new OrgaGeneriques();
 
         $obj->setRegroupementSi(true);
-        $this->assertEquals(true, $obj->getRegroupementSi());
+        $this->assertTrue($obj->getRegroupementSi());
     }
 
     /**
@@ -344,7 +344,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
         $obj = new OrgaGeneriques();
 
         $obj->setSousTotalAgff(true);
-        $this->assertEquals(true, $obj->getSousTotalAgff());
+        $this->assertTrue($obj->getSousTotalAgff());
     }
 
     /**
@@ -357,7 +357,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
         $obj = new OrgaGeneriques();
 
         $obj->setSousTotalApec(true);
-        $this->assertEquals(true, $obj->getSousTotalApec());
+        $this->assertTrue($obj->getSousTotalApec());
     }
 
     /**
@@ -370,7 +370,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
         $obj = new OrgaGeneriques();
 
         $obj->setSousTotalCaisse(true);
-        $this->assertEquals(true, $obj->getSousTotalCaisse());
+        $this->assertTrue($obj->getSousTotalCaisse());
     }
 
     /**
@@ -383,7 +383,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
         $obj = new OrgaGeneriques();
 
         $obj->setTraitementDadsu(true);
-        $this->assertEquals(true, $obj->getTraitementDadsu());
+        $this->assertTrue($obj->getTraitementDadsu());
     }
 
     /**
@@ -422,7 +422,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
         $obj = new OrgaGeneriques();
 
         $obj->setUtilise(true);
-        $this->assertEquals(true, $obj->getUtilise());
+        $this->assertTrue($obj->getUtilise());
     }
 
     /**

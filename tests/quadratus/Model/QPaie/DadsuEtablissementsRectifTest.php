@@ -32,7 +32,7 @@ class DadsuEtablissementsRectifTest extends AbstractTestCase {
         $obj = new DadsuEtablissementsRectif();
 
         $obj->setActif(true);
-        $this->assertEquals(true, $obj->getActif());
+        $this->assertTrue($obj->getActif());
     }
 
     /**

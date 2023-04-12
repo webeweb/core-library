@@ -211,7 +211,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
         $obj = new GroupesFournisseur();
 
         $obj->setFactureEuros(true);
-        $this->assertEquals(true, $obj->getFactureEuros());
+        $this->assertTrue($obj->getFactureEuros());
     }
 
     /**
@@ -224,7 +224,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
         $obj = new GroupesFournisseur();
 
         $obj->setFournisseurPerdu(true);
-        $this->assertEquals(true, $obj->getFournisseurPerdu());
+        $this->assertTrue($obj->getFournisseurPerdu());
     }
 
     /**
@@ -419,7 +419,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
         $obj = new GroupesFournisseur();
 
         $obj->setSoumisEscompte(true);
-        $this->assertEquals(true, $obj->getSoumisEscompte());
+        $this->assertTrue($obj->getSoumisEscompte());
     }
 
     /**

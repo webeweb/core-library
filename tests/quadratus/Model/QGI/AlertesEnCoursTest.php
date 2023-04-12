@@ -34,7 +34,7 @@ class AlertesEnCoursTest extends AbstractTestCase {
         $obj = new AlertesEnCours();
 
         $obj->setArDemande(true);
-        $this->assertEquals(true, $obj->getArDemande());
+        $this->assertTrue($obj->getArDemande());
     }
 
     /**

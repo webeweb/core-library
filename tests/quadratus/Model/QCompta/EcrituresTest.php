@@ -34,7 +34,7 @@ class EcrituresTest extends AbstractTestCase {
         $obj = new Ecritures();
 
         $obj->setActif(true);
-        $this->assertEquals(true, $obj->getActif());
+        $this->assertTrue($obj->getActif());
     }
 
     /**
@@ -60,7 +60,7 @@ class EcrituresTest extends AbstractTestCase {
         $obj = new Ecritures();
 
         $obj->setBonsAPayer(true);
-        $this->assertEquals(true, $obj->getBonsAPayer());
+        $this->assertTrue($obj->getBonsAPayer());
     }
 
     /**
@@ -374,7 +374,7 @@ class EcrituresTest extends AbstractTestCase {
         $obj = new Ecritures();
 
         $obj->setEnLitige(true);
-        $this->assertEquals(true, $obj->getEnLitige());
+        $this->assertTrue($obj->getEnLitige());
     }
 
     /**
@@ -595,7 +595,7 @@ class EcrituresTest extends AbstractTestCase {
         $obj = new Ecritures();
 
         $obj->setMtDevForce(true);
-        $this->assertEquals(true, $obj->getMtDevForce());
+        $this->assertTrue($obj->getMtDevForce());
     }
 
     /**
@@ -893,7 +893,7 @@ class EcrituresTest extends AbstractTestCase {
         $obj = new Ecritures();
 
         $obj->setRapproBancaireOk(true);
-        $this->assertEquals(true, $obj->getRapproBancaireOk());
+        $this->assertTrue($obj->getRapproBancaireOk());
     }
 
     /**
@@ -1010,7 +1010,7 @@ class EcrituresTest extends AbstractTestCase {
         $obj = new Ecritures();
 
         $obj->setValidee(true);
-        $this->assertEquals(true, $obj->getValidee());
+        $this->assertTrue($obj->getValidee());
     }
 
     /**

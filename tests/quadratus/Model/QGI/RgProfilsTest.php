@@ -71,7 +71,7 @@ class RgProfilsTest extends AbstractTestCase {
         $obj = new RgProfils();
 
         $obj->setNiveauSupplementairelibelle(true);
-        $this->assertEquals(true, $obj->getNiveauSupplementairelibelle());
+        $this->assertTrue($obj->getNiveauSupplementairelibelle());
     }
 
     /**

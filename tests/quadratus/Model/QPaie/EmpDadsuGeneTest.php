@@ -51,7 +51,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
         $obj = new EmpDadsuGene();
 
         $obj->setAnnexe7Mutation(true);
-        $this->assertEquals(true, $obj->getAnnexe7Mutation());
+        $this->assertTrue($obj->getAnnexe7Mutation());
     }
 
     /**
@@ -64,7 +64,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
         $obj = new EmpDadsuGene();
 
         $obj->setApprentiEtam(true);
-        $this->assertEquals(true, $obj->getApprentiEtam());
+        $this->assertTrue($obj->getApprentiEtam());
     }
 
     /**

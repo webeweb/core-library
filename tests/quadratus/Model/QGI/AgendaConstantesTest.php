@@ -32,7 +32,7 @@ class AgendaConstantesTest extends AbstractTestCase {
         $obj = new AgendaConstantes();
 
         $obj->setArchivagePermanent(true);
-        $this->assertEquals(true, $obj->getArchivagePermanent());
+        $this->assertTrue($obj->getArchivagePermanent());
     }
 
     /**
@@ -253,7 +253,7 @@ class AgendaConstantesTest extends AbstractTestCase {
         $obj = new AgendaConstantes();
 
         $obj->setDisabledActivityLabelOnFirstRow(true);
-        $this->assertEquals(true, $obj->getDisabledActivityLabelOnFirstRow());
+        $this->assertTrue($obj->getDisabledActivityLabelOnFirstRow());
     }
 
     /**
@@ -344,7 +344,7 @@ class AgendaConstantesTest extends AbstractTestCase {
         $obj = new AgendaConstantes();
 
         $obj->setMultiDossiers(true);
-        $this->assertEquals(true, $obj->getMultiDossiers());
+        $this->assertTrue($obj->getMultiDossiers());
     }
 
     /**
@@ -513,7 +513,7 @@ class AgendaConstantesTest extends AbstractTestCase {
         $obj = new AgendaConstantes();
 
         $obj->setUseNewGpeParam(true);
-        $this->assertEquals(true, $obj->getUseNewGpeParam());
+        $this->assertTrue($obj->getUseNewGpeParam());
     }
 
     /**

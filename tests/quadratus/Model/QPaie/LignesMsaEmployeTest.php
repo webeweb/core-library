@@ -392,7 +392,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
         $obj = new LignesMsaEmploye();
 
         $obj->setEvoAgirc(true);
-        $this->assertEquals(true, $obj->getEvoAgirc());
+        $this->assertTrue($obj->getEvoAgirc());
     }
 
     /**
@@ -405,7 +405,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
         $obj = new LignesMsaEmploye();
 
         $obj->setEvoCadre(true);
-        $this->assertEquals(true, $obj->getEvoCadre());
+        $this->assertTrue($obj->getEvoCadre());
     }
 
     /**
@@ -418,7 +418,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
         $obj = new LignesMsaEmploye();
 
         $obj->setEvoCddcdi(true);
-        $this->assertEquals(true, $obj->getEvoCddcdi());
+        $this->assertTrue($obj->getEvoCddcdi());
     }
 
     /**
@@ -431,7 +431,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
         $obj = new LignesMsaEmploye();
 
         $obj->setEvoContrat(true);
-        $this->assertEquals(true, $obj->getEvoContrat());
+        $this->assertTrue($obj->getEvoContrat());
     }
 
     /**
@@ -444,7 +444,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
         $obj = new LignesMsaEmploye();
 
         $obj->setEvoCrcca36(true);
-        $this->assertEquals(true, $obj->getEvoCrcca36());
+        $this->assertTrue($obj->getEvoCrcca36());
     }
 
     /**
@@ -457,7 +457,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
         $obj = new LignesMsaEmploye();
 
         $obj->setEvoCrcca4Bis(true);
-        $this->assertEquals(true, $obj->getEvoCrcca4Bis());
+        $this->assertTrue($obj->getEvoCrcca4Bis());
     }
 
     /**
@@ -470,7 +470,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
         $obj = new LignesMsaEmploye();
 
         $obj->setEvoEmploi(true);
-        $this->assertEquals(true, $obj->getEvoEmploi());
+        $this->assertTrue($obj->getEvoEmploi());
     }
 
     /**
@@ -483,7 +483,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
         $obj = new LignesMsaEmploye();
 
         $obj->setEvoFisc(true);
-        $this->assertEquals(true, $obj->getEvoFisc());
+        $this->assertTrue($obj->getEvoFisc());
     }
 
     /**

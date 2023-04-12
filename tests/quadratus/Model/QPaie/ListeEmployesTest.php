@@ -141,7 +141,7 @@ class ListeEmployesTest extends AbstractTestCase {
         $obj = new ListeEmployes();
 
         $obj->setCddcdi(true);
-        $this->assertEquals(true, $obj->getCddcdi());
+        $this->assertTrue($obj->getCddcdi());
     }
 
     /**
@@ -784,7 +784,7 @@ class ListeEmployesTest extends AbstractTestCase {
         $obj = new ListeEmployes();
 
         $obj->setFictif(true);
-        $this->assertEquals(true, $obj->getFictif());
+        $this->assertTrue($obj->getFictif());
     }
 
     /**
@@ -797,7 +797,7 @@ class ListeEmployesTest extends AbstractTestCase {
         $obj = new ListeEmployes();
 
         $obj->setGestionMailBulletin(true);
-        $this->assertEquals(true, $obj->getGestionMailBulletin());
+        $this->assertTrue($obj->getGestionMailBulletin());
     }
 
     /**
@@ -810,7 +810,7 @@ class ListeEmployesTest extends AbstractTestCase {
         $obj = new ListeEmployes();
 
         $obj->setHandicape(true);
-        $this->assertEquals(true, $obj->getHandicape());
+        $this->assertTrue($obj->getHandicape());
     }
 
     /**
@@ -1070,7 +1070,7 @@ class ListeEmployesTest extends AbstractTestCase {
         $obj = new ListeEmployes();
 
         $obj->setOrphelin(true);
-        $this->assertEquals(true, $obj->getOrphelin());
+        $this->assertTrue($obj->getOrphelin());
     }
 
     /**
@@ -1083,7 +1083,7 @@ class ListeEmployesTest extends AbstractTestCase {
         $obj = new ListeEmployes();
 
         $obj->setPasGestionPdp(true);
-        $this->assertEquals(true, $obj->getPasGestionPdp());
+        $this->assertTrue($obj->getPasGestionPdp());
     }
 
     /**
@@ -1096,7 +1096,7 @@ class ListeEmployesTest extends AbstractTestCase {
         $obj = new ListeEmployes();
 
         $obj->setPension(true);
-        $this->assertEquals(true, $obj->getPension());
+        $this->assertTrue($obj->getPension());
     }
 
     /**
@@ -1325,7 +1325,7 @@ class ListeEmployesTest extends AbstractTestCase {
         $obj = new ListeEmployes();
 
         $obj->setTds60(true);
-        $this->assertEquals(true, $obj->getTds60());
+        $this->assertTrue($obj->getTds60());
     }
 
     /**
@@ -1429,7 +1429,7 @@ class ListeEmployesTest extends AbstractTestCase {
         $obj = new ListeEmployes();
 
         $obj->setTransfertEntree(true);
-        $this->assertEquals(true, $obj->getTransfertEntree());
+        $this->assertTrue($obj->getTransfertEntree());
     }
 
     /**
@@ -1442,7 +1442,7 @@ class ListeEmployesTest extends AbstractTestCase {
         $obj = new ListeEmployes();
 
         $obj->setTransfertSortie(true);
-        $this->assertEquals(true, $obj->getTransfertSortie());
+        $this->assertTrue($obj->getTransfertSortie());
     }
 
     /**

@@ -71,7 +71,7 @@ class RetraitesEmpTest extends AbstractTestCase {
         $obj = new RetraitesEmp();
 
         $obj->setNonGere(true);
-        $this->assertEquals(true, $obj->getNonGere());
+        $this->assertTrue($obj->getNonGere());
     }
 
     /**

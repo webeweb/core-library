@@ -32,7 +32,7 @@ class TypeEvenementsTest extends AbstractTestCase {
         $obj = new TypeEvenements();
 
         $obj->setAvecEtat(true);
-        $this->assertEquals(true, $obj->getAvecEtat());
+        $this->assertTrue($obj->getAvecEtat());
     }
 
     /**

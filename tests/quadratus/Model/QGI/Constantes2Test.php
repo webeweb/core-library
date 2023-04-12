@@ -34,7 +34,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setActivationConf2CmavCli(true);
-        $this->assertEquals(true, $obj->getActivationConf2CmavCli());
+        $this->assertTrue($obj->getActivationConf2CmavCli());
     }
 
     /**
@@ -47,7 +47,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setActiveConfConvCol(true);
-        $this->assertEquals(true, $obj->getActiveConfConvCol());
+        $this->assertTrue($obj->getActiveConfConvCol());
     }
 
     /**
@@ -60,7 +60,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setActiverSaisieRegl(true);
-        $this->assertEquals(true, $obj->getActiverSaisieRegl());
+        $this->assertTrue($obj->getActiverSaisieRegl());
     }
 
     /**
@@ -73,7 +73,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setAffectationsCliFrn(true);
-        $this->assertEquals(true, $obj->getAffectationsCliFrn());
+        $this->assertTrue($obj->getAffectationsCliFrn());
     }
 
     /**
@@ -86,7 +86,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setAnnulationAffaire(true);
-        $this->assertEquals(true, $obj->getAnnulationAffaire());
+        $this->assertTrue($obj->getAnnulationAffaire());
     }
 
     /**
@@ -99,7 +99,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setArticlesLstPersoAccesGestionModifiables(true);
-        $this->assertEquals(true, $obj->getArticlesLstPersoAccesGestionModifiables());
+        $this->assertTrue($obj->getArticlesLstPersoAccesGestionModifiables());
     }
 
     /**
@@ -112,7 +112,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setArticlesLstPersoAccesGestionnaire(true);
-        $this->assertEquals(true, $obj->getArticlesLstPersoAccesGestionnaire());
+        $this->assertTrue($obj->getArticlesLstPersoAccesGestionnaire());
     }
 
     /**
@@ -125,7 +125,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setArticlesLstPersoChampsModif(true);
-        $this->assertEquals(true, $obj->getArticlesLstPersoChampsModif());
+        $this->assertTrue($obj->getArticlesLstPersoChampsModif());
     }
 
     /**
@@ -138,7 +138,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setArticlesLstPersoCopieColonne(true);
-        $this->assertEquals(true, $obj->getArticlesLstPersoCopieColonne());
+        $this->assertTrue($obj->getArticlesLstPersoCopieColonne());
     }
 
     /**
@@ -151,7 +151,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setArticlesLstPersoInterdireCreat(true);
-        $this->assertEquals(true, $obj->getArticlesLstPersoInterdireCreat());
+        $this->assertTrue($obj->getArticlesLstPersoInterdireCreat());
     }
 
     /**
@@ -177,7 +177,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setAvecHeuresTheo(true);
-        $this->assertEquals(true, $obj->getAvecHeuresTheo());
+        $this->assertTrue($obj->getAvecHeuresTheo());
     }
 
     /**
@@ -190,7 +190,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setCalculNombreMessages(true);
-        $this->assertEquals(true, $obj->getCalculNombreMessages());
+        $this->assertTrue($obj->getCalculNombreMessages());
     }
 
     /**
@@ -502,7 +502,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setClotureArchivageAuto(true);
-        $this->assertEquals(true, $obj->getClotureArchivageAuto());
+        $this->assertTrue($obj->getClotureArchivageAuto());
     }
 
     /**
@@ -541,7 +541,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setConfidentialiteAffaire(true);
-        $this->assertEquals(true, $obj->getConfidentialiteAffaire());
+        $this->assertTrue($obj->getConfidentialiteAffaire());
     }
 
     /**
@@ -567,7 +567,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setCreateCli1FactParBl(true);
-        $this->assertEquals(true, $obj->getCreateCli1FactParBl());
+        $this->assertTrue($obj->getCreateCli1FactParBl());
     }
 
     /**
@@ -580,7 +580,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setCreationAffaire(true);
-        $this->assertEquals(true, $obj->getCreationAffaire());
+        $this->assertTrue($obj->getCreationAffaire());
     }
 
     /**
@@ -657,7 +657,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setDroitCollabVisuDocuments(true);
-        $this->assertEquals(true, $obj->getDroitCollabVisuDocuments());
+        $this->assertTrue($obj->getDroitCollabVisuDocuments());
     }
 
     /**
@@ -670,7 +670,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setEchDetailAff(true);
-        $this->assertEquals(true, $obj->getEchDetailAff());
+        $this->assertTrue($obj->getEchDetailAff());
     }
 
     /**
@@ -696,7 +696,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setFGsurAc(true);
-        $this->assertEquals(true, $obj->getFGsurAc());
+        $this->assertTrue($obj->getFGsurAc());
     }
 
     /**
@@ -709,7 +709,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setFGsurMonf(true);
-        $this->assertEquals(true, $obj->getFGsurMonf());
+        $this->assertTrue($obj->getFGsurMonf());
     }
 
     /**
@@ -722,7 +722,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setFamillesLiees(true);
-        $this->assertEquals(true, $obj->getFamillesLiees());
+        $this->assertTrue($obj->getFamillesLiees());
     }
 
     /**
@@ -735,7 +735,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setFgSurCdeFrn(true);
-        $this->assertEquals(true, $obj->getFgSurCdeFrn());
+        $this->assertTrue($obj->getFgSurCdeFrn());
     }
 
     /**
@@ -748,7 +748,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setFicheCliNePasProposerCreationDpdc(true);
-        $this->assertEquals(true, $obj->getFicheCliNePasProposerCreationDpdc());
+        $this->assertTrue($obj->getFicheCliNePasProposerCreationDpdc());
     }
 
     /**
@@ -761,7 +761,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setGestionGammes(true);
-        $this->assertEquals(true, $obj->getGestionGammes());
+        $this->assertTrue($obj->getGestionGammes());
     }
 
     /**
@@ -774,7 +774,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setGestionPointeuseQFact(true);
-        $this->assertEquals(true, $obj->getGestionPointeuseQFact());
+        $this->assertTrue($obj->getGestionPointeuseQFact());
     }
 
     /**
@@ -787,7 +787,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setGestionPointeuseQc(true);
-        $this->assertEquals(true, $obj->getGestionPointeuseQc());
+        $this->assertTrue($obj->getGestionPointeuseQc());
     }
 
     /**
@@ -800,7 +800,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setGestionPointeuseQgi(true);
-        $this->assertEquals(true, $obj->getGestionPointeuseQgi());
+        $this->assertTrue($obj->getGestionPointeuseQgi());
     }
 
     /**
@@ -813,7 +813,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setGestionPointeuseQp(true);
-        $this->assertEquals(true, $obj->getGestionPointeuseQp());
+        $this->assertTrue($obj->getGestionPointeuseQp());
     }
 
     /**
@@ -826,7 +826,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setGestionTarifsTransporteurs(true);
-        $this->assertEquals(true, $obj->getGestionTarifsTransporteurs());
+        $this->assertTrue($obj->getGestionTarifsTransporteurs());
     }
 
     /**
@@ -852,7 +852,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setGestionVariantes(true);
-        $this->assertEquals(true, $obj->getGestionVariantes());
+        $this->assertTrue($obj->getGestionVariantes());
     }
 
     /**
@@ -865,7 +865,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setHtAvecJoursFeries(true);
-        $this->assertEquals(true, $obj->getHtAvecJoursFeries());
+        $this->assertTrue($obj->getHtAvecJoursFeries());
     }
 
     /**
@@ -878,7 +878,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setHtAvecSaisieConges(true);
-        $this->assertEquals(true, $obj->getHtAvecSaisieConges());
+        $this->assertTrue($obj->getHtAvecSaisieConges());
     }
 
     /**
@@ -917,7 +917,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setIncremAutoArticle(true);
-        $this->assertEquals(true, $obj->getIncremAutoArticle());
+        $this->assertTrue($obj->getIncremAutoArticle());
     }
 
     /**
@@ -930,7 +930,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setInterdireAccesArchivesCpta(true);
-        $this->assertEquals(true, $obj->getInterdireAccesArchivesCpta());
+        $this->assertTrue($obj->getInterdireAccesArchivesCpta());
     }
 
     /**
@@ -943,7 +943,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setInterdireAccesArchivesPaie(true);
-        $this->assertEquals(true, $obj->getInterdireAccesArchivesPaie());
+        $this->assertTrue($obj->getInterdireAccesArchivesPaie());
     }
 
     /**
@@ -956,7 +956,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setInterdireAccesEditionBalance(true);
-        $this->assertEquals(true, $obj->getInterdireAccesEditionBalance());
+        $this->assertTrue($obj->getInterdireAccesEditionBalance());
     }
 
     /**
@@ -969,7 +969,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setInterdireAccesSuppDocArch(true);
-        $this->assertEquals(true, $obj->getInterdireAccesSuppDocArch());
+        $this->assertTrue($obj->getInterdireAccesSuppDocArch());
     }
 
     /**
@@ -982,7 +982,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setInterdirePubliDocWeb(true);
-        $this->assertEquals(true, $obj->getInterdirePubliDocWeb());
+        $this->assertTrue($obj->getInterdirePubliDocWeb());
     }
 
     /**
@@ -1008,7 +1008,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setLiaisonTda(true);
-        $this->assertEquals(true, $obj->getLiaisonTda());
+        $this->assertTrue($obj->getLiaisonTda());
     }
 
     /**
@@ -1463,7 +1463,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setMessAspod(true);
-        $this->assertEquals(true, $obj->getMessAspod());
+        $this->assertTrue($obj->getMessAspod());
     }
 
     /**
@@ -1489,7 +1489,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setModifDroitsAsp(true);
-        $this->assertEquals(true, $obj->getModifDroitsAsp());
+        $this->assertTrue($obj->getModifDroitsAsp());
     }
 
     /**
@@ -1515,7 +1515,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setNePasCreerCptCli(true);
-        $this->assertEquals(true, $obj->getNePasCreerCptCli());
+        $this->assertTrue($obj->getNePasCreerCptCli());
     }
 
     /**
@@ -1528,7 +1528,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setNePasCreerCptFrn(true);
-        $this->assertEquals(true, $obj->getNePasCreerCptFrn());
+        $this->assertTrue($obj->getNePasCreerCptFrn());
     }
 
     /**
@@ -1541,7 +1541,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setNewDbInfos(true);
-        $this->assertEquals(true, $obj->getNewDbInfos());
+        $this->assertTrue($obj->getNewDbInfos());
     }
 
     /**
@@ -1554,7 +1554,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setNewQBureau(true);
-        $this->assertEquals(true, $obj->getNewQBureau());
+        $this->assertTrue($obj->getNewQBureau());
     }
 
     /**
@@ -1580,7 +1580,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setPasDeLienComptabilite(true);
-        $this->assertEquals(true, $obj->getPasDeLienComptabilite());
+        $this->assertTrue($obj->getPasDeLienComptabilite());
     }
 
     /**
@@ -1632,7 +1632,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setProxyActif(true);
-        $this->assertEquals(true, $obj->getProxyActif());
+        $this->assertTrue($obj->getProxyActif());
     }
 
     /**
@@ -1710,7 +1710,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setQwsHttpSecurise(true);
-        $this->assertEquals(true, $obj->getQwsHttpSecurise());
+        $this->assertTrue($obj->getQwsHttpSecurise());
     }
 
     /**
@@ -1736,7 +1736,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setQwsUtiliserLogoCabinet(true);
-        $this->assertEquals(true, $obj->getQwsUtiliserLogoCabinet());
+        $this->assertTrue($obj->getQwsUtiliserLogoCabinet());
     }
 
     /**
@@ -1814,7 +1814,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setSaisieReglDirect(true);
-        $this->assertEquals(true, $obj->getSaisieReglDirect());
+        $this->assertTrue($obj->getSaisieReglDirect());
     }
 
     /**
@@ -1853,7 +1853,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setSaisieTpNePasAfficherDp(true);
-        $this->assertEquals(true, $obj->getSaisieTpNePasAfficherDp());
+        $this->assertTrue($obj->getSaisieTpNePasAfficherDp());
     }
 
     /**
@@ -1866,7 +1866,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setSaisieTpOngletUniqueDp(true);
-        $this->assertEquals(true, $obj->getSaisieTpOngletUniqueDp());
+        $this->assertTrue($obj->getSaisieTpOngletUniqueDp());
     }
 
     /**
@@ -1879,7 +1879,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setSaisieTpOngletUniqueTn(true);
-        $this->assertEquals(true, $obj->getSaisieTpOngletUniqueTn());
+        $this->assertTrue($obj->getSaisieTpOngletUniqueTn());
     }
 
     /**
@@ -1892,7 +1892,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setSaveHistoMemo2File(true);
-        $this->assertEquals(true, $obj->getSaveHistoMemo2File());
+        $this->assertTrue($obj->getSaveHistoMemo2File());
     }
 
     /**
@@ -1905,7 +1905,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setSelAvLstPersoAccesGestionModifiables(true);
-        $this->assertEquals(true, $obj->getSelAvLstPersoAccesGestionModifiables());
+        $this->assertTrue($obj->getSelAvLstPersoAccesGestionModifiables());
     }
 
     /**
@@ -1918,7 +1918,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setSelAvLstPersoAccesGestionnaire(true);
-        $this->assertEquals(true, $obj->getSelAvLstPersoAccesGestionnaire());
+        $this->assertTrue($obj->getSelAvLstPersoAccesGestionnaire());
     }
 
     /**
@@ -1931,7 +1931,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setSelAvLstPersoChampsModif(true);
-        $this->assertEquals(true, $obj->getSelAvLstPersoChampsModif());
+        $this->assertTrue($obj->getSelAvLstPersoChampsModif());
     }
 
     /**
@@ -1944,7 +1944,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setSelAvLstPersoCopieColonne(true);
-        $this->assertEquals(true, $obj->getSelAvLstPersoCopieColonne());
+        $this->assertTrue($obj->getSelAvLstPersoCopieColonne());
     }
 
     /**
@@ -1957,7 +1957,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setSelAvLstPersoInterdireCreat(true);
-        $this->assertEquals(true, $obj->getSelAvLstPersoInterdireCreat());
+        $this->assertTrue($obj->getSelAvLstPersoInterdireCreat());
     }
 
     /**
@@ -1983,7 +1983,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setSmsDroitAcces(true);
-        $this->assertEquals(true, $obj->getSmsDroitAcces());
+        $this->assertTrue($obj->getSmsDroitAcces());
     }
 
     /**
@@ -2061,7 +2061,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setSoldeCptaOd(true);
-        $this->assertEquals(true, $obj->getSoldeCptaOd());
+        $this->assertTrue($obj->getSoldeCptaOd());
     }
 
     /**
@@ -2204,7 +2204,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setTpAccesEncoursClient(true);
-        $this->assertEquals(true, $obj->getTpAccesEncoursClient());
+        $this->assertTrue($obj->getTpAccesEncoursClient());
     }
 
     /**
@@ -2217,7 +2217,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setTpAvancementALaLigne(true);
-        $this->assertEquals(true, $obj->getTpAvancementALaLigne());
+        $this->assertTrue($obj->getTpAvancementALaLigne());
     }
 
     /**
@@ -2230,7 +2230,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setTpInterditQte(true);
-        $this->assertEquals(true, $obj->getTpInterditQte());
+        $this->assertTrue($obj->getTpInterditQte());
     }
 
     /**
@@ -2243,7 +2243,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setTpLibelleMission(true);
-        $this->assertEquals(true, $obj->getTpLibelleMission());
+        $this->assertTrue($obj->getTpLibelleMission());
     }
 
     /**
@@ -2256,7 +2256,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setTpLimiteSaisieNonOperationnel(true);
-        $this->assertEquals(true, $obj->getTpLimiteSaisieNonOperationnel());
+        $this->assertTrue($obj->getTpLimiteSaisieNonOperationnel());
     }
 
     /**
@@ -2269,7 +2269,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setTpPasMoisCloture(true);
-        $this->assertEquals(true, $obj->getTpPasMoisCloture());
+        $this->assertTrue($obj->getTpPasMoisCloture());
     }
 
     /**
@@ -2299,7 +2299,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setTpQteInvisible(true);
-        $this->assertEquals(true, $obj->getTpQteInvisible());
+        $this->assertTrue($obj->getTpQteInvisible());
     }
 
     /**
@@ -2312,7 +2312,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setTpSaisieAvancement(true);
-        $this->assertEquals(true, $obj->getTpSaisieAvancement());
+        $this->assertTrue($obj->getTpSaisieAvancement());
     }
 
     /**
@@ -2325,7 +2325,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setTppupv123(true);
-        $this->assertEquals(true, $obj->getTppupv123());
+        $this->assertTrue($obj->getTppupv123());
     }
 
     /**
@@ -2351,7 +2351,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setTransVariantesFactgi(true);
-        $this->assertEquals(true, $obj->getTransVariantesFactgi());
+        $this->assertTrue($obj->getTransVariantesFactgi());
     }
 
     /**
@@ -2377,7 +2377,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setTypeFrais1(true);
-        $this->assertEquals(true, $obj->getTypeFrais1());
+        $this->assertTrue($obj->getTypeFrais1());
     }
 
     /**
@@ -2390,7 +2390,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setTypeFrais2(true);
-        $this->assertEquals(true, $obj->getTypeFrais2());
+        $this->assertTrue($obj->getTypeFrais2());
     }
 
     /**
@@ -2403,7 +2403,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setTypeFrais3(true);
-        $this->assertEquals(true, $obj->getTypeFrais3());
+        $this->assertTrue($obj->getTypeFrais3());
     }
 
     /**
@@ -2429,7 +2429,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setVEsurDepAff(true);
-        $this->assertEquals(true, $obj->getVEsurDepAff());
+        $this->assertTrue($obj->getVEsurDepAff());
     }
 
     /**
@@ -2442,7 +2442,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setValAutoTarifsTransporteurs(true);
-        $this->assertEquals(true, $obj->getValAutoTarifsTransporteurs());
+        $this->assertTrue($obj->getValAutoTarifsTransporteurs());
     }
 
     /**
@@ -2455,7 +2455,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setVisualisationFicheCabinet(true);
-        $this->assertEquals(true, $obj->getVisualisationFicheCabinet());
+        $this->assertTrue($obj->getVisualisationFicheCabinet());
     }
 
     /**
@@ -2468,7 +2468,7 @@ class Constantes2Test extends AbstractTestCase {
         $obj = new Constantes2();
 
         $obj->setWordAccesParQClient(true);
-        $this->assertEquals(true, $obj->getWordAccesParQClient());
+        $this->assertTrue($obj->getWordAccesParQClient());
     }
 
     /**

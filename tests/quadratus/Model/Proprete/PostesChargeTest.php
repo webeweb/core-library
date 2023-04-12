@@ -32,7 +32,7 @@ class PostesChargeTest extends AbstractTestCase {
         $obj = new PostesCharge();
 
         $obj->setActif(true);
-        $this->assertEquals(true, $obj->getActif());
+        $this->assertTrue($obj->getActif());
     }
 
     /**

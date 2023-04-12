@@ -159,7 +159,7 @@ class EmpruntsTest extends AbstractTestCase {
         $obj = new Emprunts();
 
         $obj->setDiffere(true);
-        $this->assertEquals(true, $obj->getDiffere());
+        $this->assertTrue($obj->getDiffere());
     }
 
     /**
@@ -185,7 +185,7 @@ class EmpruntsTest extends AbstractTestCase {
         $obj = new Emprunts();
 
         $obj->setEmpruntEnFrancs(true);
-        $this->assertEquals(true, $obj->getEmpruntEnFrancs());
+        $this->assertTrue($obj->getEmpruntEnFrancs());
     }
 
     /**
@@ -367,7 +367,7 @@ class EmpruntsTest extends AbstractTestCase {
         $obj = new Emprunts();
 
         $obj->setTypeInFine(true);
-        $this->assertEquals(true, $obj->getTypeInFine());
+        $this->assertTrue($obj->getTypeInFine());
     }
 
     /**

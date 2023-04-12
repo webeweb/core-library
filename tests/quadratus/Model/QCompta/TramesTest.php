@@ -45,7 +45,7 @@ class TramesTest extends AbstractTestCase {
         $obj = new Trames();
 
         $obj->setGardeMontants(true);
-        $this->assertEquals(true, $obj->getGardeMontants());
+        $this->assertTrue($obj->getGardeMontants());
     }
 
     /**

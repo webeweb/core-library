@@ -320,7 +320,7 @@ class BonTravPrevTest extends AbstractTestCase {
         $obj = new BonTravPrev();
 
         $obj->setAdresseBtSaisie(true);
-        $this->assertEquals(true, $obj->getAdresseBtSaisie());
+        $this->assertTrue($obj->getAdresseBtSaisie());
     }
 
     /**
@@ -333,7 +333,7 @@ class BonTravPrevTest extends AbstractTestCase {
         $obj = new BonTravPrev();
 
         $obj->setAdresseFacturationSaisie(true);
-        $this->assertEquals(true, $obj->getAdresseFacturationSaisie());
+        $this->assertTrue($obj->getAdresseFacturationSaisie());
     }
 
     /**
@@ -346,7 +346,7 @@ class BonTravPrevTest extends AbstractTestCase {
         $obj = new BonTravPrev();
 
         $obj->setBtCopie(true);
-        $this->assertEquals(true, $obj->getBtCopie());
+        $this->assertTrue($obj->getBtCopie());
     }
 
     /**
@@ -359,7 +359,7 @@ class BonTravPrevTest extends AbstractTestCase {
         $obj = new BonTravPrev();
 
         $obj->setBtDevisDejaFacture(true);
-        $this->assertEquals(true, $obj->getBtDevisDejaFacture());
+        $this->assertTrue($obj->getBtDevisDejaFacture());
     }
 
     /**
@@ -372,7 +372,7 @@ class BonTravPrevTest extends AbstractTestCase {
         $obj = new BonTravPrev();
 
         $obj->setBtValide(true);
-        $this->assertEquals(true, $obj->getBtValide());
+        $this->assertTrue($obj->getBtValide());
     }
 
     /**
@@ -489,7 +489,7 @@ class BonTravPrevTest extends AbstractTestCase {
         $obj = new BonTravPrev();
 
         $obj->setCritereBool1(true);
-        $this->assertEquals(true, $obj->getCritereBool1());
+        $this->assertTrue($obj->getCritereBool1());
     }
 
     /**
@@ -502,7 +502,7 @@ class BonTravPrevTest extends AbstractTestCase {
         $obj = new BonTravPrev();
 
         $obj->setCritereBool2(true);
-        $this->assertEquals(true, $obj->getCritereBool2());
+        $this->assertTrue($obj->getCritereBool2());
     }
 
     /**
@@ -722,7 +722,7 @@ class BonTravPrevTest extends AbstractTestCase {
         $obj = new BonTravPrev();
 
         $obj->setGestionPlanning(true);
-        $this->assertEquals(true, $obj->getGestionPlanning());
+        $this->assertTrue($obj->getGestionPlanning());
     }
 
     /**
@@ -869,7 +869,7 @@ class BonTravPrevTest extends AbstractTestCase {
         $obj = new BonTravPrev();
 
         $obj->setNonTraite(true);
-        $this->assertEquals(true, $obj->getNonTraite());
+        $this->assertTrue($obj->getNonTraite());
     }
 
     /**
@@ -960,7 +960,7 @@ class BonTravPrevTest extends AbstractTestCase {
         $obj = new BonTravPrev();
 
         $obj->setOccasionnel(true);
-        $this->assertEquals(true, $obj->getOccasionnel());
+        $this->assertTrue($obj->getOccasionnel());
     }
 
     /**
@@ -973,7 +973,7 @@ class BonTravPrevTest extends AbstractTestCase {
         $obj = new BonTravPrev();
 
         $obj->setPlusieursJours(true);
-        $this->assertEquals(true, $obj->getPlusieursJours());
+        $this->assertTrue($obj->getPlusieursJours());
     }
 
     /**
@@ -986,7 +986,7 @@ class BonTravPrevTest extends AbstractTestCase {
         $obj = new BonTravPrev();
 
         $obj->setPlusieursMois(true);
-        $this->assertEquals(true, $obj->getPlusieursMois());
+        $this->assertTrue($obj->getPlusieursMois());
     }
 
     /**
@@ -1012,7 +1012,7 @@ class BonTravPrevTest extends AbstractTestCase {
         $obj = new BonTravPrev();
 
         $obj->setProratise(true);
-        $this->assertEquals(true, $obj->getProratise());
+        $this->assertTrue($obj->getProratise());
     }
 
     /**
@@ -1038,7 +1038,7 @@ class BonTravPrevTest extends AbstractTestCase {
         $obj = new BonTravPrev();
 
         $obj->setSigne(true);
-        $this->assertEquals(true, $obj->getSigne());
+        $this->assertTrue($obj->getSigne());
     }
 
     /**

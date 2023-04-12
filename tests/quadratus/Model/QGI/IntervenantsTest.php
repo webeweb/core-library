@@ -73,7 +73,7 @@ class IntervenantsTest extends AbstractTestCase {
         $obj = new Intervenants();
 
         $obj->setAutoriserAccesInternet(true);
-        $this->assertEquals(true, $obj->getAutoriserAccesInternet());
+        $this->assertTrue($obj->getAutoriserAccesInternet());
     }
 
     /**
@@ -755,7 +755,7 @@ class IntervenantsTest extends AbstractTestCase {
         $obj = new Intervenants();
 
         $obj->setGestJuri(true);
-        $this->assertEquals(true, $obj->getGestJuri());
+        $this->assertTrue($obj->getGestJuri());
     }
 
     /**
@@ -1179,7 +1179,7 @@ class IntervenantsTest extends AbstractTestCase {
         $obj = new Intervenants();
 
         $obj->setPersonnePhysique(true);
-        $this->assertEquals(true, $obj->getPersonnePhysique());
+        $this->assertTrue($obj->getPersonnePhysique());
     }
 
     /**
@@ -1504,7 +1504,7 @@ class IntervenantsTest extends AbstractTestCase {
         $obj = new Intervenants();
 
         $obj->setTravailADomicile(true);
-        $this->assertEquals(true, $obj->getTravailADomicile());
+        $this->assertTrue($obj->getTravailADomicile());
     }
 
     /**

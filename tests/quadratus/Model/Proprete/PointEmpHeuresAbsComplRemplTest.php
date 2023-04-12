@@ -34,7 +34,7 @@ class PointEmpHeuresAbsComplRemplTest extends AbstractTestCase {
         $obj = new PointEmpHeuresAbsComplRempl();
 
         $obj->setAvenantSigne(true);
-        $this->assertEquals(true, $obj->getAvenantSigne());
+        $this->assertTrue($obj->getAvenantSigne());
     }
 
     /**

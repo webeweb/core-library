@@ -58,7 +58,7 @@ class iPaieDroitsTest extends AbstractTestCase {
         $obj = new iPaieDroits();
 
         $obj->setEspaceClient(true);
-        $this->assertEquals(true, $obj->getEspaceClient());
+        $this->assertTrue($obj->getEspaceClient());
     }
 
     /**
@@ -71,7 +71,7 @@ class iPaieDroitsTest extends AbstractTestCase {
         $obj = new iPaieDroits();
 
         $obj->setFctAbsencesCp(true);
-        $this->assertEquals(true, $obj->getFctAbsencesCp());
+        $this->assertTrue($obj->getFctAbsencesCp());
     }
 
     /**
@@ -84,7 +84,7 @@ class iPaieDroitsTest extends AbstractTestCase {
         $obj = new iPaieDroits();
 
         $obj->setFctAcomptes(true);
-        $this->assertEquals(true, $obj->getFctAcomptes());
+        $this->assertTrue($obj->getFctAcomptes());
     }
 
     /**
@@ -97,7 +97,7 @@ class iPaieDroitsTest extends AbstractTestCase {
         $obj = new iPaieDroits();
 
         $obj->setFctArchives(true);
-        $this->assertEquals(true, $obj->getFctArchives());
+        $this->assertTrue($obj->getFctArchives());
     }
 
     /**
@@ -110,7 +110,7 @@ class iPaieDroitsTest extends AbstractTestCase {
         $obj = new iPaieDroits();
 
         $obj->setFctBulletins(true);
-        $this->assertEquals(true, $obj->getFctBulletins());
+        $this->assertTrue($obj->getFctBulletins());
     }
 
     /**
@@ -123,7 +123,7 @@ class iPaieDroitsTest extends AbstractTestCase {
         $obj = new iPaieDroits();
 
         $obj->setFctDocuments(true);
-        $this->assertEquals(true, $obj->getFctDocuments());
+        $this->assertTrue($obj->getFctDocuments());
     }
 
     /**
@@ -136,7 +136,7 @@ class iPaieDroitsTest extends AbstractTestCase {
         $obj = new iPaieDroits();
 
         $obj->setFctDonneesV(true);
-        $this->assertEquals(true, $obj->getFctDonneesV());
+        $this->assertTrue($obj->getFctDonneesV());
     }
 
     /**
@@ -149,7 +149,7 @@ class iPaieDroitsTest extends AbstractTestCase {
         $obj = new iPaieDroits();
 
         $obj->setFctEtatCivil(true);
-        $this->assertEquals(true, $obj->getFctEtatCivil());
+        $this->assertTrue($obj->getFctEtatCivil());
     }
 
     /**
@@ -162,7 +162,7 @@ class iPaieDroitsTest extends AbstractTestCase {
         $obj = new iPaieDroits();
 
         $obj->setFctModifAbsencesCp(true);
-        $this->assertEquals(true, $obj->getFctModifAbsencesCp());
+        $this->assertTrue($obj->getFctModifAbsencesCp());
     }
 
     /**
@@ -175,7 +175,7 @@ class iPaieDroitsTest extends AbstractTestCase {
         $obj = new iPaieDroits();
 
         $obj->setFctModifAcomptes(true);
-        $this->assertEquals(true, $obj->getFctModifAcomptes());
+        $this->assertTrue($obj->getFctModifAcomptes());
     }
 
     /**
@@ -188,7 +188,7 @@ class iPaieDroitsTest extends AbstractTestCase {
         $obj = new iPaieDroits();
 
         $obj->setFctModifArchives(true);
-        $this->assertEquals(true, $obj->getFctModifArchives());
+        $this->assertTrue($obj->getFctModifArchives());
     }
 
     /**
@@ -201,7 +201,7 @@ class iPaieDroitsTest extends AbstractTestCase {
         $obj = new iPaieDroits();
 
         $obj->setFctModifBulletins(true);
-        $this->assertEquals(true, $obj->getFctModifBulletins());
+        $this->assertTrue($obj->getFctModifBulletins());
     }
 
     /**
@@ -214,7 +214,7 @@ class iPaieDroitsTest extends AbstractTestCase {
         $obj = new iPaieDroits();
 
         $obj->setFctModifDocuments(true);
-        $this->assertEquals(true, $obj->getFctModifDocuments());
+        $this->assertTrue($obj->getFctModifDocuments());
     }
 
     /**
@@ -227,7 +227,7 @@ class iPaieDroitsTest extends AbstractTestCase {
         $obj = new iPaieDroits();
 
         $obj->setFctModifDonneesV(true);
-        $this->assertEquals(true, $obj->getFctModifDonneesV());
+        $this->assertTrue($obj->getFctModifDonneesV());
     }
 
     /**
@@ -240,7 +240,7 @@ class iPaieDroitsTest extends AbstractTestCase {
         $obj = new iPaieDroits();
 
         $obj->setFctModifEtatCivil(true);
-        $this->assertEquals(true, $obj->getFctModifEtatCivil());
+        $this->assertTrue($obj->getFctModifEtatCivil());
     }
 
     /**
@@ -331,7 +331,7 @@ class iPaieDroitsTest extends AbstractTestCase {
         $obj = new iPaieDroits();
 
         $obj->setUserExpert(true);
-        $this->assertEquals(true, $obj->getUserExpert());
+        $this->assertTrue($obj->getUserExpert());
     }
 
     /**
@@ -344,7 +344,7 @@ class iPaieDroitsTest extends AbstractTestCase {
         $obj = new iPaieDroits();
 
         $obj->setVisuSalaires(true);
-        $this->assertEquals(true, $obj->getVisuSalaires());
+        $this->assertTrue($obj->getVisuSalaires());
     }
 
     /**

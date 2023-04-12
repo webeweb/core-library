@@ -657,7 +657,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      */
     public function testToString(): void {
 
-        $this->assertEquals(null, DateTimeHelper::toString(null));
+        $this->assertNull(DateTimeHelper::toString(null));
         $this->assertEquals("2018-01-14 17:00", DateTimeHelper::toString(new DateTime("2018-01-14 17:00")));
         $this->assertEquals("14/01/2018 17:00", DateTimeHelper::toString(new DateTime("2018-01-14 17:00"), "d/m/Y H:i"));
     }
@@ -697,7 +697,7 @@ class DateTimeHelperTest extends AbstractTestCase {
             ],
         ];
 
-        $this->assertEquals(null, DateTimeHelper::translateWeekDay(null));
+        $this->assertNull(DateTimeHelper::translateWeekDay(null));
 
         // Handle each date/time.
         for ($i = 0; $i < 7; ++$i) {

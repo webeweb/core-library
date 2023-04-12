@@ -64,7 +64,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
         $obj = new ArticleFournisseur();
 
         $obj->setAvtDerEuros(true);
-        $this->assertEquals(true, $obj->getAvtDerEuros());
+        $this->assertTrue($obj->getAvtDerEuros());
     }
 
     /**
@@ -263,7 +263,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
         $obj = new ArticleFournisseur();
 
         $obj->setDerEuros(true);
-        $this->assertEquals(true, $obj->getDerEuros());
+        $this->assertTrue($obj->getDerEuros());
     }
 
     /**
@@ -371,7 +371,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
         $obj = new ArticleFournisseur();
 
         $obj->setMiniEuros(true);
-        $this->assertEquals(true, $obj->getMiniEuros());
+        $this->assertTrue($obj->getMiniEuros());
     }
 
     /**

@@ -34,7 +34,7 @@ class PlansFacturationTest extends AbstractTestCase {
         $obj = new PlansFacturation();
 
         $obj->setAou(true);
-        $this->assertEquals(true, $obj->getAou());
+        $this->assertTrue($obj->getAou());
     }
 
     /**
@@ -47,7 +47,7 @@ class PlansFacturationTest extends AbstractTestCase {
         $obj = new PlansFacturation();
 
         $obj->setAvr(true);
-        $this->assertEquals(true, $obj->getAvr());
+        $this->assertTrue($obj->getAvr());
     }
 
     /**
@@ -155,7 +155,7 @@ class PlansFacturationTest extends AbstractTestCase {
         $obj = new PlansFacturation();
 
         $obj->setDec(true);
-        $this->assertEquals(true, $obj->getDec());
+        $this->assertTrue($obj->getDec());
     }
 
     /**
@@ -272,7 +272,7 @@ class PlansFacturationTest extends AbstractTestCase {
         $obj = new PlansFacturation();
 
         $obj->setFev(true);
-        $this->assertEquals(true, $obj->getFev());
+        $this->assertTrue($obj->getFev());
     }
 
     /**
@@ -315,7 +315,7 @@ class PlansFacturationTest extends AbstractTestCase {
         $obj = new PlansFacturation();
 
         $obj->setJan(true);
-        $this->assertEquals(true, $obj->getJan());
+        $this->assertTrue($obj->getJan());
     }
 
     /**
@@ -328,7 +328,7 @@ class PlansFacturationTest extends AbstractTestCase {
         $obj = new PlansFacturation();
 
         $obj->setJui(true);
-        $this->assertEquals(true, $obj->getJui());
+        $this->assertTrue($obj->getJui());
     }
 
     /**
@@ -341,7 +341,7 @@ class PlansFacturationTest extends AbstractTestCase {
         $obj = new PlansFacturation();
 
         $obj->setJuin(true);
-        $this->assertEquals(true, $obj->getJuin());
+        $this->assertTrue($obj->getJuin());
     }
 
     /**
@@ -354,7 +354,7 @@ class PlansFacturationTest extends AbstractTestCase {
         $obj = new PlansFacturation();
 
         $obj->setMai(true);
-        $this->assertEquals(true, $obj->getMai());
+        $this->assertTrue($obj->getMai());
     }
 
     /**
@@ -367,7 +367,7 @@ class PlansFacturationTest extends AbstractTestCase {
         $obj = new PlansFacturation();
 
         $obj->setMar(true);
-        $this->assertEquals(true, $obj->getMar());
+        $this->assertTrue($obj->getMar());
     }
 
     /**
@@ -380,7 +380,7 @@ class PlansFacturationTest extends AbstractTestCase {
         $obj = new PlansFacturation();
 
         $obj->setNov(true);
-        $this->assertEquals(true, $obj->getNov());
+        $this->assertTrue($obj->getNov());
     }
 
     /**
@@ -432,7 +432,7 @@ class PlansFacturationTest extends AbstractTestCase {
         $obj = new PlansFacturation();
 
         $obj->setOct(true);
-        $this->assertEquals(true, $obj->getOct());
+        $this->assertTrue($obj->getOct());
     }
 
     /**
@@ -501,7 +501,7 @@ class PlansFacturationTest extends AbstractTestCase {
         $obj = new PlansFacturation();
 
         $obj->setPxFacture(true);
-        $this->assertEquals(true, $obj->getPxFacture());
+        $this->assertTrue($obj->getPxFacture());
     }
 
     /**
@@ -527,7 +527,7 @@ class PlansFacturationTest extends AbstractTestCase {
         $obj = new PlansFacturation();
 
         $obj->setRefArticle(true);
-        $this->assertEquals(true, $obj->getRefArticle());
+        $this->assertTrue($obj->getRefArticle());
     }
 
     /**
@@ -553,7 +553,7 @@ class PlansFacturationTest extends AbstractTestCase {
         $obj = new PlansFacturation();
 
         $obj->setSep(true);
-        $this->assertEquals(true, $obj->getSep());
+        $this->assertTrue($obj->getSep());
     }
 
     /**
@@ -579,7 +579,7 @@ class PlansFacturationTest extends AbstractTestCase {
         $obj = new PlansFacturation();
 
         $obj->setVentilMarge(true);
-        $this->assertEquals(true, $obj->getVentilMarge());
+        $this->assertTrue($obj->getVentilMarge());
     }
 
     /**

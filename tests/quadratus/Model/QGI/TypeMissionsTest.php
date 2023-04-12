@@ -198,7 +198,7 @@ class TypeMissionsTest extends AbstractTestCase {
         $obj = new TypeMissions();
 
         $obj->setFermetureAuto(true);
-        $this->assertEquals(true, $obj->getFermetureAuto());
+        $this->assertTrue($obj->getFermetureAuto());
     }
 
     /**
@@ -250,7 +250,7 @@ class TypeMissionsTest extends AbstractTestCase {
         $obj = new TypeMissions();
 
         $obj->setRecurrente(true);
-        $this->assertEquals(true, $obj->getRecurrente());
+        $this->assertTrue($obj->getRecurrente());
     }
 
     /**
@@ -276,7 +276,7 @@ class TypeMissionsTest extends AbstractTestCase {
         $obj = new TypeMissions();
 
         $obj->setTransfertCentre(true);
-        $this->assertEquals(true, $obj->getTransfertCentre());
+        $this->assertTrue($obj->getTransfertCentre());
     }
 
     /**
@@ -302,7 +302,7 @@ class TypeMissionsTest extends AbstractTestCase {
         $obj = new TypeMissions();
 
         $obj->setTypeCompteur(true);
-        $this->assertEquals(true, $obj->getTypeCompteur());
+        $this->assertTrue($obj->getTypeCompteur());
     }
 
     /**

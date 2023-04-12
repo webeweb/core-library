@@ -34,7 +34,7 @@ class AttestationAtTest extends AbstractTestCase {
         $obj = new AttestationAt();
 
         $obj->setAccident(true);
-        $this->assertEquals(true, $obj->getAccident());
+        $this->assertTrue($obj->getAccident());
     }
 
     /**
@@ -47,7 +47,7 @@ class AttestationAtTest extends AbstractTestCase {
         $obj = new AttestationAt();
 
         $obj->setAccidentMoisEmbauche(true);
-        $this->assertEquals(true, $obj->getAccidentMoisEmbauche());
+        $this->assertTrue($obj->getAccidentMoisEmbauche());
     }
 
     /**
@@ -99,7 +99,7 @@ class AttestationAtTest extends AbstractTestCase {
         $obj = new AttestationAt();
 
         $obj->setAutreVivtime(true);
-        $this->assertEquals(true, $obj->getAutreVivtime());
+        $this->assertTrue($obj->getAutreVivtime());
     }
 
     /**
@@ -422,7 +422,7 @@ class AttestationAtTest extends AbstractTestCase {
         $obj = new AttestationAt();
 
         $obj->setIntegral(true);
-        $this->assertEquals(true, $obj->getIntegral());
+        $this->assertTrue($obj->getIntegral());
     }
 
     /**
@@ -474,7 +474,7 @@ class AttestationAtTest extends AbstractTestCase {
         $obj = new AttestationAt();
 
         $obj->setMaintien(true);
-        $this->assertEquals(true, $obj->getMaintien());
+        $this->assertTrue($obj->getMaintien());
     }
 
     /**
@@ -487,7 +487,7 @@ class AttestationAtTest extends AbstractTestCase {
         $obj = new AttestationAt();
 
         $obj->setMaladiePro(true);
-        $this->assertEquals(true, $obj->getMaladiePro());
+        $this->assertTrue($obj->getMaladiePro());
     }
 
     /**
@@ -539,7 +539,7 @@ class AttestationAtTest extends AbstractTestCase {
         $obj = new AttestationAt();
 
         $obj->setNationaliteAutre(true);
-        $this->assertEquals(true, $obj->getNationaliteAutre());
+        $this->assertTrue($obj->getNationaliteAutre());
     }
 
     /**
@@ -552,7 +552,7 @@ class AttestationAtTest extends AbstractTestCase {
         $obj = new AttestationAt();
 
         $obj->setNationaliteCee(true);
-        $this->assertEquals(true, $obj->getNationaliteCee());
+        $this->assertTrue($obj->getNationaliteCee());
     }
 
     /**
@@ -565,7 +565,7 @@ class AttestationAtTest extends AbstractTestCase {
         $obj = new AttestationAt();
 
         $obj->setNationaliteFr(true);
-        $this->assertEquals(true, $obj->getNationaliteFr());
+        $this->assertTrue($obj->getNationaliteFr());
     }
 
     /**
@@ -617,7 +617,7 @@ class AttestationAtTest extends AbstractTestCase {
         $obj = new AttestationAt();
 
         $obj->setNonRepris(true);
-        $this->assertEquals(true, $obj->getNonRepris());
+        $this->assertTrue($obj->getNonRepris());
     }
 
     /**
@@ -669,7 +669,7 @@ class AttestationAtTest extends AbstractTestCase {
         $obj = new AttestationAt();
 
         $obj->setPartiel(true);
-        $this->assertEquals(true, $obj->getPartiel());
+        $this->assertTrue($obj->getPartiel());
     }
 
     /**
@@ -953,7 +953,7 @@ class AttestationAtTest extends AbstractTestCase {
         $obj = new AttestationAt();
 
         $obj->setSubIntegral(true);
-        $this->assertEquals(true, $obj->getSubIntegral());
+        $this->assertTrue($obj->getSubIntegral());
     }
 
     /**
@@ -966,7 +966,7 @@ class AttestationAtTest extends AbstractTestCase {
         $obj = new AttestationAt();
 
         $obj->setSubPartiel(true);
-        $this->assertEquals(true, $obj->getSubPartiel());
+        $this->assertTrue($obj->getSubPartiel());
     }
 
     /**

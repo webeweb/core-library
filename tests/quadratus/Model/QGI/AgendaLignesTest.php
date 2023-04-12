@@ -125,7 +125,7 @@ class AgendaLignesTest extends AbstractTestCase {
         $obj = new AgendaLignes();
 
         $obj->setConfirme(true);
-        $this->assertEquals(true, $obj->getConfirme());
+        $this->assertTrue($obj->getConfirme());
     }
 
     /**
@@ -245,7 +245,7 @@ class AgendaLignesTest extends AbstractTestCase {
         $obj = new AgendaLignes();
 
         $obj->setIsTransf(true);
-        $this->assertEquals(true, $obj->getIsTransf());
+        $this->assertTrue($obj->getIsTransf());
     }
 
     /**
@@ -353,7 +353,7 @@ class AgendaLignesTest extends AbstractTestCase {
         $obj = new AgendaLignes();
 
         $obj->setPrive(true);
-        $this->assertEquals(true, $obj->getPrive());
+        $this->assertTrue($obj->getPrive());
     }
 
     /**

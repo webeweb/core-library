@@ -90,7 +90,7 @@ class SaisieApproChantierTest extends AbstractTestCase {
         $obj = new SaisieApproChantier();
 
         $obj->setPret(true);
-        $this->assertEquals(true, $obj->getPret());
+        $this->assertTrue($obj->getPret());
     }
 
     /**

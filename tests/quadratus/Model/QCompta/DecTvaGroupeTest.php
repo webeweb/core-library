@@ -1524,7 +1524,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
         $obj = new DecTvaGroupe();
 
         $obj->setMentionExpresse(true);
-        $this->assertEquals(true, $obj->getMentionExpresse());
+        $this->assertTrue($obj->getMentionExpresse());
     }
 
     /**
@@ -1576,7 +1576,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
         $obj = new DecTvaGroupe();
 
         $obj->setPaiementImputation(true);
-        $this->assertEquals(true, $obj->getPaiementImputation());
+        $this->assertTrue($obj->getPaiementImputation());
     }
 
     /**

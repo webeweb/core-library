@@ -246,7 +246,7 @@ class TachesTest extends AbstractTestCase {
         $obj = new Taches();
 
         $obj->setGestionHotellerie(true);
-        $this->assertEquals(true, $obj->getGestionHotellerie());
+        $this->assertTrue($obj->getGestionHotellerie());
     }
 
     /**
@@ -311,7 +311,7 @@ class TachesTest extends AbstractTestCase {
         $obj = new Taches();
 
         $obj->setNonOeuvrant(true);
-        $this->assertEquals(true, $obj->getNonOeuvrant());
+        $this->assertTrue($obj->getNonOeuvrant());
     }
 
     /**
@@ -337,7 +337,7 @@ class TachesTest extends AbstractTestCase {
         $obj = new Taches();
 
         $obj->setPlanningDernSemPrioritaire(true);
-        $this->assertEquals(true, $obj->getPlanningDernSemPrioritaire());
+        $this->assertTrue($obj->getPlanningDernSemPrioritaire());
     }
 
     /**
@@ -363,7 +363,7 @@ class TachesTest extends AbstractTestCase {
         $obj = new Taches();
 
         $obj->setSuiviHeures(true);
-        $this->assertEquals(true, $obj->getSuiviHeures());
+        $this->assertTrue($obj->getSuiviHeures());
     }
 
     /**

@@ -32,7 +32,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
         $obj = new EmpDadsuRectif();
 
         $obj->setActif(true);
-        $this->assertEquals(true, $obj->getActif());
+        $this->assertTrue($obj->getActif());
     }
 
     /**
@@ -760,7 +760,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
         $obj = new EmpDadsuRectif();
 
         $obj->setTds107(true);
-        $this->assertEquals(true, $obj->getTds107());
+        $this->assertTrue($obj->getTds107());
     }
 
     /**
@@ -773,7 +773,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
         $obj = new EmpDadsuRectif();
 
         $obj->setTds108(true);
-        $this->assertEquals(true, $obj->getTds108());
+        $this->assertTrue($obj->getTds108());
     }
 
     /**
@@ -786,7 +786,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
         $obj = new EmpDadsuRectif();
 
         $obj->setTds109(true);
-        $this->assertEquals(true, $obj->getTds109());
+        $this->assertTrue($obj->getTds109());
     }
 
     /**
@@ -799,7 +799,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
         $obj = new EmpDadsuRectif();
 
         $obj->setTds110(true);
-        $this->assertEquals(true, $obj->getTds110());
+        $this->assertTrue($obj->getTds110());
     }
 
     /**
@@ -812,7 +812,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
         $obj = new EmpDadsuRectif();
 
         $obj->setTds111(true);
-        $this->assertEquals(true, $obj->getTds111());
+        $this->assertTrue($obj->getTds111());
     }
 
     /**
@@ -838,7 +838,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
         $obj = new EmpDadsuRectif();
 
         $obj->setTds113(true);
-        $this->assertEquals(true, $obj->getTds113());
+        $this->assertTrue($obj->getTds113());
     }
 
     /**
@@ -864,7 +864,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
         $obj = new EmpDadsuRectif();
 
         $obj->setTds119(true);
-        $this->assertEquals(true, $obj->getTds119());
+        $this->assertTrue($obj->getTds119());
     }
 
     /**
@@ -877,7 +877,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
         $obj = new EmpDadsuRectif();
 
         $obj->setTds120(true);
-        $this->assertEquals(true, $obj->getTds120());
+        $this->assertTrue($obj->getTds120());
     }
 
     /**
@@ -890,7 +890,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
         $obj = new EmpDadsuRectif();
 
         $obj->setTds121(true);
-        $this->assertEquals(true, $obj->getTds121());
+        $this->assertTrue($obj->getTds121());
     }
 
     /**
@@ -903,7 +903,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
         $obj = new EmpDadsuRectif();
 
         $obj->setTds122(true);
-        $this->assertEquals(true, $obj->getTds122());
+        $this->assertTrue($obj->getTds122());
     }
 
     /**

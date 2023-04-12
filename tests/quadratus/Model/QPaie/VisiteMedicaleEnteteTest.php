@@ -253,7 +253,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
         $obj = new VisiteMedicaleEntete();
 
         $obj->setRdvJour1(true);
-        $this->assertEquals(true, $obj->getRdvJour1());
+        $this->assertTrue($obj->getRdvJour1());
     }
 
     /**
@@ -266,7 +266,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
         $obj = new VisiteMedicaleEntete();
 
         $obj->setRdvJour2(true);
-        $this->assertEquals(true, $obj->getRdvJour2());
+        $this->assertTrue($obj->getRdvJour2());
     }
 
     /**
@@ -279,7 +279,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
         $obj = new VisiteMedicaleEntete();
 
         $obj->setRdvJour3(true);
-        $this->assertEquals(true, $obj->getRdvJour3());
+        $this->assertTrue($obj->getRdvJour3());
     }
 
     /**
@@ -292,7 +292,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
         $obj = new VisiteMedicaleEntete();
 
         $obj->setRdvJour4(true);
-        $this->assertEquals(true, $obj->getRdvJour4());
+        $this->assertTrue($obj->getRdvJour4());
     }
 
     /**
@@ -305,7 +305,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
         $obj = new VisiteMedicaleEntete();
 
         $obj->setRdvJour5(true);
-        $this->assertEquals(true, $obj->getRdvJour5());
+        $this->assertTrue($obj->getRdvJour5());
     }
 
     /**
@@ -318,7 +318,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
         $obj = new VisiteMedicaleEntete();
 
         $obj->setRdvJour6(true);
-        $this->assertEquals(true, $obj->getRdvJour6());
+        $this->assertTrue($obj->getRdvJour6());
     }
 
     /**
@@ -331,7 +331,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
         $obj = new VisiteMedicaleEntete();
 
         $obj->setRdvJour7(true);
-        $this->assertEquals(true, $obj->getRdvJour7());
+        $this->assertTrue($obj->getRdvJour7());
     }
 
     /**

@@ -34,7 +34,7 @@ class BoniMaliTest extends AbstractTestCase {
         $obj = new BoniMali();
 
         $obj->setBmCalcule(true);
-        $this->assertEquals(true, $obj->getBmCalcule());
+        $this->assertTrue($obj->getBmCalcule());
     }
 
     /**

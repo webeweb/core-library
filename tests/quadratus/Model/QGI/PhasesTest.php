@@ -84,7 +84,7 @@ class PhasesTest extends AbstractTestCase {
         $obj = new Phases();
 
         $obj->setSaisieFact(true);
-        $this->assertEquals(true, $obj->getSaisieFact());
+        $this->assertTrue($obj->getSaisieFact());
     }
 
     /**
@@ -97,7 +97,7 @@ class PhasesTest extends AbstractTestCase {
         $obj = new Phases();
 
         $obj->setSaisieTemps(true);
-        $this->assertEquals(true, $obj->getSaisieTemps());
+        $this->assertTrue($obj->getSaisieTemps());
     }
 
     /**

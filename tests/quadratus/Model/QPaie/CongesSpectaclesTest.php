@@ -60,7 +60,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
         $obj = new CongesSpectacles();
 
         $obj->setCeInitial(true);
-        $this->assertEquals(true, $obj->getCeInitial());
+        $this->assertTrue($obj->getCeInitial());
     }
 
     /**
@@ -112,7 +112,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
         $obj = new CongesSpectacles();
 
         $obj->setContratEnCours(true);
-        $this->assertEquals(true, $obj->getContratEnCours());
+        $this->assertTrue($obj->getContratEnCours());
     }
 
     /**
@@ -240,7 +240,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
         $obj = new CongesSpectacles();
 
         $obj->setDisquette(true);
-        $this->assertEquals(true, $obj->getDisquette());
+        $this->assertTrue($obj->getDisquette());
     }
 
     /**
@@ -253,7 +253,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
         $obj = new CongesSpectacles();
 
         $obj->setEdite(true);
-        $this->assertEquals(true, $obj->getEdite());
+        $this->assertTrue($obj->getEdite());
     }
 
     /**
@@ -526,7 +526,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
         $obj = new CongesSpectacles();
 
         $obj->setNouvelleAttest(true);
-        $this->assertEquals(true, $obj->getNouvelleAttest());
+        $this->assertTrue($obj->getNouvelleAttest());
     }
 
     /**
@@ -699,7 +699,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
         $obj = new CongesSpectacles();
 
         $obj->setStatutCadre(true);
-        $this->assertEquals(true, $obj->getStatutCadre());
+        $this->assertTrue($obj->getStatutCadre());
     }
 
     /**

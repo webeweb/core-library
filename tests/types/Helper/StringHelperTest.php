@@ -68,7 +68,7 @@ class StringHelperTest extends AbstractTestCase {
      */
     public function testExtractUpperCase(): void {
 
-        $this->assertEquals(null, StringHelper::extractUpperCase(null));
+        $this->assertNull(StringHelper::extractUpperCase(null));
 
         $this->assertEquals("CB", StringHelper::extractUpperCase("CoreBundle"));
         $this->assertEquals("cb", StringHelper::extractUpperCase("CoreBundle", true));
@@ -115,8 +115,8 @@ class StringHelperTest extends AbstractTestCase {
      */
     public function testFormat(): void {
 
-        $this->assertEquals(null, StringHelper::format(null, "_____ _____ _"));
-        $this->assertEquals(null, StringHelper::format("Helloworld!", null));
+        $this->assertNull(StringHelper::format(null, "_____ _____ _"));
+        $this->assertNull(StringHelper::format("Helloworld!", null));
 
         $this->assertEquals("Hello world !", StringHelper::format("Helloworld!", "_____ _____ _"));
         $this->assertEquals("+33 6 12 34 56 78", StringHelper::format("612345678", "+33 _ __ __ __ __"));
@@ -129,7 +129,7 @@ class StringHelperTest extends AbstractTestCase {
      */
     public function testMoreThan(): void {
 
-        $this->assertEquals(null, StringHelper::moreThan(null));
+        $this->assertNull(StringHelper::moreThan(null));
         $this->assertEquals("5", StringHelper::moreThan(5.1));
         $this->assertEquals("10", StringHelper::moreThan(10.1));
         $this->assertEquals("10", StringHelper::moreThan(15.1));
@@ -174,7 +174,7 @@ class StringHelperTest extends AbstractTestCase {
      */
     public function testRemoveAccents(): void {
 
-        $this->assertEquals(null, StringHelper::removeAccents(null));
+        $this->assertNull(StringHelper::removeAccents(null));
         $this->assertEquals("a", StringHelper::removeAccents("à"));
         $this->assertEquals("a", StringHelper::removeAccents("á"));
         $this->assertEquals("a", StringHelper::removeAccents("â"));
@@ -236,7 +236,7 @@ class StringHelperTest extends AbstractTestCase {
      */
     public function testToHumanReadable(): void {
 
-        $this->assertEquals(null, StringHelper::toHumanReadable(null));
+        $this->assertNull(StringHelper::toHumanReadable(null));
         $this->assertEquals("Core bundle", StringHelper::toHumanReadable("CoreBundle"));
         $this->assertEquals("Bootstrap bundle", StringHelper::toHumanReadable("BootstrapBundle"));
         $this->assertEquals("J query data tables bundle", StringHelper::toHumanReadable("JQueryDataTablesBundle"));
@@ -253,7 +253,7 @@ class StringHelperTest extends AbstractTestCase {
      */
     public function testToLowerCamelCase(): void {
 
-        $this->assertEquals(null, StringHelper::toLowerCamelCase(null));
+        $this->assertNull(StringHelper::toLowerCamelCase(null));
         $this->assertEquals("coreBundle", StringHelper::toLowerCamelCase("CoreBundle"));
         $this->assertEquals("bootstrapBundle", StringHelper::toLowerCamelCase("BootstrapBundle"));
         $this->assertEquals("jQueryDataTablesBundle", StringHelper::toLowerCamelCase("JQueryDataTablesBundle"));
@@ -270,7 +270,7 @@ class StringHelperTest extends AbstractTestCase {
      */
     public function testToSnakeCase(): void {
 
-        $this->assertEquals(null, StringHelper::toSnakeCase(null));
+        $this->assertNull(StringHelper::toSnakeCase(null));
 
         $this->assertEquals("core_bundle", StringHelper::toSnakeCase("CoreBundle"));
         $this->assertEquals("core-bundle", StringHelper::toSnakeCase("CoreBundle", "-"));
@@ -299,7 +299,7 @@ class StringHelperTest extends AbstractTestCase {
      */
     public function testToUpperCamelCase(): void {
 
-        $this->assertEquals(null, StringHelper::toUpperCamelCase(null));
+        $this->assertNull(StringHelper::toUpperCamelCase(null));
         $this->assertEquals("CoreBundle", StringHelper::toUpperCamelCase("coreBundle"));
         $this->assertEquals("BootstrapBundle", StringHelper::toUpperCamelCase("bootstrapBundle"));
         $this->assertEquals("JQueryDataTablesBundle", StringHelper::toUpperCamelCase("jQueryDataTablesBundle"));
@@ -315,7 +315,7 @@ class StringHelperTest extends AbstractTestCase {
      */
     public function testUcfirst(): void {
 
-        $this->assertEquals(null, StringHelper::ucfirst(null));
+        $this->assertEquals("", StringHelper::ucfirst(null));
         $this->assertEquals("String", StringHelper::ucfirst("string"));
         $this->assertEquals("String", StringHelper::ucfirst("STRING"));
         $this->assertEquals("String", StringHelper::ucfirst("String"));
@@ -329,7 +329,7 @@ class StringHelperTest extends AbstractTestCase {
      */
     public function testUcwords(): void {
 
-        $this->assertEquals(null, StringHelper::ucwords(null));
+        $this->assertEquals("", StringHelper::ucwords(null));
         $this->assertEquals("String", StringHelper::ucwords("string"));
         $this->assertEquals("String", StringHelper::ucwords("STRING"));
         $this->assertEquals("String", StringHelper::ucwords("String"));
@@ -388,7 +388,7 @@ class StringHelperTest extends AbstractTestCase {
      */
     public function testWordWrap(): void {
 
-        $this->assertEquals(null, StringHelper::wordWrap(null));
+        $this->assertNull(StringHelper::wordWrap(null));
 
         $this->assertEquals("Hello world !", StringHelper::wordWrap("Hello world !")); // $length = -1
         $this->assertEquals("Hello world !", StringHelper::wordWrap("Hello world !", 20)); // strlen($string) < $length

@@ -68,7 +68,7 @@ class ConstantesEntreprise2Test extends AbstractTestCase {
         $obj = new ConstantesEntreprise2();
 
         $obj->setGereEvtFinContratLot(true);
-        $this->assertEquals(true, $obj->getGereEvtFinContratLot());
+        $this->assertTrue($obj->getGereEvtFinContratLot());
     }
 
     /**
@@ -81,7 +81,7 @@ class ConstantesEntreprise2Test extends AbstractTestCase {
         $obj = new ConstantesEntreprise2();
 
         $obj->setGerePrevNormeDsn(true);
-        $this->assertEquals(true, $obj->getGerePrevNormeDsn());
+        $this->assertTrue($obj->getGerePrevNormeDsn());
     }
 
     /**
@@ -94,7 +94,7 @@ class ConstantesEntreprise2Test extends AbstractTestCase {
         $obj = new ConstantesEntreprise2();
 
         $obj->setGestionDsn(true);
-        $this->assertEquals(true, $obj->getGestionDsn());
+        $this->assertTrue($obj->getGestionDsn());
     }
 
     /**
@@ -120,7 +120,7 @@ class ConstantesEntreprise2Test extends AbstractTestCase {
         $obj = new ConstantesEntreprise2();
 
         $obj->setNePasActiverPrimeAnnuelleProprete(true);
-        $this->assertEquals(true, $obj->getNePasActiverPrimeAnnuelleProprete());
+        $this->assertTrue($obj->getNePasActiverPrimeAnnuelleProprete());
     }
 
     /**
@@ -133,7 +133,7 @@ class ConstantesEntreprise2Test extends AbstractTestCase {
         $obj = new ConstantesEntreprise2();
 
         $obj->setRegimeMixteMsa(true);
-        $this->assertEquals(true, $obj->getRegimeMixteMsa());
+        $this->assertTrue($obj->getRegimeMixteMsa());
     }
 
     /**

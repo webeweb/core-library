@@ -136,7 +136,7 @@ class TachesTest extends AbstractTestCase {
         $obj = new Taches();
 
         $obj->setFacturable(true);
-        $this->assertEquals(true, $obj->getFacturable());
+        $this->assertTrue($obj->getFacturable());
     }
 
     /**
@@ -149,7 +149,7 @@ class TachesTest extends AbstractTestCase {
         $obj = new Taches();
 
         $obj->setInactif(true);
-        $this->assertEquals(true, $obj->getInactif());
+        $this->assertTrue($obj->getInactif());
     }
 
     /**
@@ -214,7 +214,7 @@ class TachesTest extends AbstractTestCase {
         $obj = new Taches();
 
         $obj->setNonRemboursable(true);
-        $this->assertEquals(true, $obj->getNonRemboursable());
+        $this->assertTrue($obj->getNonRemboursable());
     }
 
     /**
@@ -227,7 +227,7 @@ class TachesTest extends AbstractTestCase {
         $obj = new Taches();
 
         $obj->setNonTravaillee(true);
-        $this->assertEquals(true, $obj->getNonTravaillee());
+        $this->assertTrue($obj->getNonTravaillee());
     }
 
     /**
@@ -240,7 +240,7 @@ class TachesTest extends AbstractTestCase {
         $obj = new Taches();
 
         $obj->setOperationnelle(true);
-        $this->assertEquals(true, $obj->getOperationnelle());
+        $this->assertTrue($obj->getOperationnelle());
     }
 
     /**
@@ -305,7 +305,7 @@ class TachesTest extends AbstractTestCase {
         $obj = new Taches();
 
         $obj->setSaisieTva(true);
-        $this->assertEquals(true, $obj->getSaisieTva());
+        $this->assertTrue($obj->getSaisieTva());
     }
 
     /**
@@ -318,7 +318,7 @@ class TachesTest extends AbstractTestCase {
         $obj = new Taches();
 
         $obj->setSuperFacturable(true);
-        $this->assertEquals(true, $obj->getSuperFacturable());
+        $this->assertTrue($obj->getSuperFacturable());
     }
 
     /**
@@ -331,7 +331,7 @@ class TachesTest extends AbstractTestCase {
         $obj = new Taches();
 
         $obj->setTicketResto(true);
-        $this->assertEquals(true, $obj->getTicketResto());
+        $this->assertTrue($obj->getTicketResto());
     }
 
     /**

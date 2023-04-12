@@ -58,7 +58,7 @@ class FiltreEntetesTest extends AbstractTestCase {
         $obj = new FiltreEntetes();
 
         $obj->setCommercialFacture(true);
-        $this->assertEquals(true, $obj->getCommercialFacture());
+        $this->assertTrue($obj->getCommercialFacture());
     }
 
     /**

@@ -146,7 +146,7 @@ class ActionsCoManifTest extends AbstractTestCase {
         $obj = new ActionsCoManif();
 
         $obj->setIsMontantHt(true);
-        $this->assertEquals(true, $obj->getIsMontantHt());
+        $this->assertTrue($obj->getIsMontantHt());
     }
 
     /**
@@ -367,7 +367,7 @@ class ActionsCoManifTest extends AbstractTestCase {
         $obj = new ActionsCoManif();
 
         $obj->setTypeFormation(true);
-        $this->assertEquals(true, $obj->getTypeFormation());
+        $this->assertTrue($obj->getTypeFormation());
     }
 
     /**
@@ -380,7 +380,7 @@ class ActionsCoManifTest extends AbstractTestCase {
         $obj = new ActionsCoManif();
 
         $obj->setYaFeuillePresence(true);
-        $this->assertEquals(true, $obj->getYaFeuillePresence());
+        $this->assertTrue($obj->getYaFeuillePresence());
     }
 
     /**

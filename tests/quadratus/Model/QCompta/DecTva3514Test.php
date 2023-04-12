@@ -476,7 +476,7 @@ class DecTva3514Test extends AbstractTestCase {
         $obj = new DecTva3514();
 
         $obj->set4HasDiminution(true);
-        $this->assertEquals(true, $obj->get4HasDiminution());
+        $this->assertTrue($obj->get4HasDiminution());
     }
 
     /**

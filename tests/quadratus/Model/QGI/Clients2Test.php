@@ -34,7 +34,7 @@ class Clients2Test extends AbstractTestCase {
         $obj = new Clients2();
 
         $obj->setAllotissement(true);
-        $this->assertEquals(true, $obj->getAllotissement());
+        $this->assertTrue($obj->getAllotissement());
     }
 
     /**
@@ -47,7 +47,7 @@ class Clients2Test extends AbstractTestCase {
         $obj = new Clients2();
 
         $obj->setBlMail(true);
-        $this->assertEquals(true, $obj->getBlMail());
+        $this->assertTrue($obj->getBlMail());
     }
 
     /**
@@ -60,7 +60,7 @@ class Clients2Test extends AbstractTestCase {
         $obj = new Clients2();
 
         $obj->setCdesMail(true);
-        $this->assertEquals(true, $obj->getCdesMail());
+        $this->assertTrue($obj->getCdesMail());
     }
 
     /**
@@ -194,7 +194,7 @@ class Clients2Test extends AbstractTestCase {
         $obj = new Clients2();
 
         $obj->setDevisMail(true);
-        $this->assertEquals(true, $obj->getDevisMail());
+        $this->assertTrue($obj->getDevisMail());
     }
 
     /**
@@ -246,7 +246,7 @@ class Clients2Test extends AbstractTestCase {
         $obj = new Clients2();
 
         $obj->setEcheanceFinDecade(true);
-        $this->assertEquals(true, $obj->getEcheanceFinDecade());
+        $this->assertTrue($obj->getEcheanceFinDecade());
     }
 
     /**
@@ -259,7 +259,7 @@ class Clients2Test extends AbstractTestCase {
         $obj = new Clients2();
 
         $obj->setEcheanceFinQuinzaine(true);
-        $this->assertEquals(true, $obj->getEcheanceFinQuinzaine());
+        $this->assertTrue($obj->getEcheanceFinQuinzaine());
     }
 
     /**
@@ -272,7 +272,7 @@ class Clients2Test extends AbstractTestCase {
         $obj = new Clients2();
 
         $obj->setEdiExportBl(true);
-        $this->assertEquals(true, $obj->getEdiExportBl());
+        $this->assertTrue($obj->getEdiExportBl());
     }
 
     /**
@@ -285,7 +285,7 @@ class Clients2Test extends AbstractTestCase {
         $obj = new Clients2();
 
         $obj->setEdiExportFac(true);
-        $this->assertEquals(true, $obj->getEdiExportFac());
+        $this->assertTrue($obj->getEdiExportFac());
     }
 
     /**
@@ -523,7 +523,7 @@ class Clients2Test extends AbstractTestCase {
         $obj = new Clients2();
 
         $obj->setNonConcerneIs(true);
-        $this->assertEquals(true, $obj->getNonConcerneIs());
+        $this->assertTrue($obj->getNonConcerneIs());
     }
 
     /**
@@ -536,7 +536,7 @@ class Clients2Test extends AbstractTestCase {
         $obj = new Clients2();
 
         $obj->setNonConcerneTp(true);
-        $this->assertEquals(true, $obj->getNonConcerneTp());
+        $this->assertTrue($obj->getNonConcerneTp());
     }
 
     /**
@@ -549,7 +549,7 @@ class Clients2Test extends AbstractTestCase {
         $obj = new Clients2();
 
         $obj->setNonFacturable(true);
-        $this->assertEquals(true, $obj->getNonFacturable());
+        $this->assertTrue($obj->getNonFacturable());
     }
 
     /**
@@ -562,7 +562,7 @@ class Clients2Test extends AbstractTestCase {
         $obj = new Clients2();
 
         $obj->setPmeTarifOuRemSpe(true);
-        $this->assertEquals(true, $obj->getPmeTarifOuRemSpe());
+        $this->assertTrue($obj->getPmeTarifOuRemSpe());
     }
 
     /**
@@ -575,7 +575,7 @@ class Clients2Test extends AbstractTestCase {
         $obj = new Clients2();
 
         $obj->setPrevenirMailPublier(true);
-        $this->assertEquals(true, $obj->getPrevenirMailPublier());
+        $this->assertTrue($obj->getPrevenirMailPublier());
     }
 
     /**
@@ -588,7 +588,7 @@ class Clients2Test extends AbstractTestCase {
         $obj = new Clients2();
 
         $obj->setRelevesMail(true);
-        $this->assertEquals(true, $obj->getRelevesMail());
+        $this->assertTrue($obj->getRelevesMail());
     }
 
     /**
@@ -1004,7 +1004,7 @@ class Clients2Test extends AbstractTestCase {
         $obj = new Clients2();
 
         $obj->setTrsGestionPalettes(true);
-        $this->assertEquals(true, $obj->getTrsGestionPalettes());
+        $this->assertTrue($obj->getTrsGestionPalettes());
     }
 
     /**
@@ -1017,7 +1017,7 @@ class Clients2Test extends AbstractTestCase {
         $obj = new Clients2();
 
         $obj->setTrsMarchandiseSensible(true);
-        $this->assertEquals(true, $obj->getTrsMarchandiseSensible());
+        $this->assertTrue($obj->getTrsMarchandiseSensible());
     }
 
     /**
@@ -1056,7 +1056,7 @@ class Clients2Test extends AbstractTestCase {
         $obj = new Clients2();
 
         $obj->setTrsPortDuAuto(true);
-        $this->assertEquals(true, $obj->getTrsPortDuAuto());
+        $this->assertTrue($obj->getTrsPortDuAuto());
     }
 
     /**
@@ -1069,7 +1069,7 @@ class Clients2Test extends AbstractTestCase {
         $obj = new Clients2();
 
         $obj->setTrsSuiviCaMens(true);
-        $this->assertEquals(true, $obj->getTrsSuiviCaMens());
+        $this->assertTrue($obj->getTrsSuiviCaMens());
     }
 
     /**
@@ -1082,7 +1082,7 @@ class Clients2Test extends AbstractTestCase {
         $obj = new Clients2();
 
         $obj->setTrsSuiviDtEnl(true);
-        $this->assertEquals(true, $obj->getTrsSuiviDtEnl());
+        $this->assertTrue($obj->getTrsSuiviDtEnl());
     }
 
     /**
@@ -1095,7 +1095,7 @@ class Clients2Test extends AbstractTestCase {
         $obj = new Clients2();
 
         $obj->setTrsSuiviDtLiv(true);
-        $this->assertEquals(true, $obj->getTrsSuiviDtLiv());
+        $this->assertTrue($obj->getTrsSuiviDtLiv());
     }
 
     /**

@@ -194,7 +194,7 @@ class MouvementsStockTest extends AbstractTestCase {
         $obj = new MouvementsStock();
 
         $obj->setEuro(true);
-        $this->assertEquals(true, $obj->getEuro());
+        $this->assertTrue($obj->getEuro());
     }
 
     /**
@@ -220,7 +220,7 @@ class MouvementsStockTest extends AbstractTestCase {
         $obj = new MouvementsStock();
 
         $obj->setMouvementGenere(true);
-        $this->assertEquals(true, $obj->getMouvementGenere());
+        $this->assertTrue($obj->getMouvementGenere());
     }
 
     /**

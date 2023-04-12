@@ -34,7 +34,7 @@ class PiecesJointesTest extends AbstractTestCase {
         $obj = new PiecesJointes();
 
         $obj->setAPublierEspaceClient(true);
-        $this->assertEquals(true, $obj->getAPublierEspaceClient());
+        $this->assertTrue($obj->getAPublierEspaceClient());
     }
 
     /**
@@ -47,7 +47,7 @@ class PiecesJointesTest extends AbstractTestCase {
         $obj = new PiecesJointes();
 
         $obj->setAPublierWeb(true);
-        $this->assertEquals(true, $obj->getAPublierWeb());
+        $this->assertTrue($obj->getAPublierWeb());
     }
 
     /**
@@ -60,7 +60,7 @@ class PiecesJointesTest extends AbstractTestCase {
         $obj = new PiecesJointes();
 
         $obj->setArchive(true);
-        $this->assertEquals(true, $obj->getArchive());
+        $this->assertTrue($obj->getArchive());
     }
 
     /**

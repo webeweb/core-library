@@ -453,7 +453,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
         $obj = new DevisCommercialEntetes();
 
         $obj->setDevisEuros(true);
-        $this->assertEquals(true, $obj->getDevisEuros());
+        $this->assertTrue($obj->getDevisEuros());
     }
 
     /**
@@ -466,7 +466,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
         $obj = new DevisCommercialEntetes();
 
         $obj->setDevisVm(true);
-        $this->assertEquals(true, $obj->getDevisVm());
+        $this->assertTrue($obj->getDevisVm());
     }
 
     /**
@@ -492,7 +492,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
         $obj = new DevisCommercialEntetes();
 
         $obj->setEcheanceForcee(true);
-        $this->assertEquals(true, $obj->getEcheanceForcee());
+        $this->assertTrue($obj->getEcheanceForcee());
     }
 
     /**
@@ -856,7 +856,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
         $obj = new DevisCommercialEntetes();
 
         $obj->setSaisirAdresse(true);
-        $this->assertEquals(true, $obj->getSaisirAdresse());
+        $this->assertTrue($obj->getSaisirAdresse());
     }
 
     /**
@@ -869,7 +869,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
         $obj = new DevisCommercialEntetes();
 
         $obj->setSoumisEscompte(true);
-        $this->assertEquals(true, $obj->getSoumisEscompte());
+        $this->assertTrue($obj->getSoumisEscompte());
     }
 
     /**
@@ -882,7 +882,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
         $obj = new DevisCommercialEntetes();
 
         $obj->setSoumisTaxeDeee(true);
-        $this->assertEquals(true, $obj->getSoumisTaxeDeee());
+        $this->assertTrue($obj->getSoumisTaxeDeee());
     }
 
     /**

@@ -32,7 +32,7 @@ class ChantiersSynchroIdTest extends AbstractTestCase {
         $obj = new ChantiersSynchroId();
 
         $obj->setBlocDa(true);
-        $this->assertEquals(true, $obj->getBlocDa());
+        $this->assertTrue($obj->getBlocDa());
     }
 
     /**
@@ -45,7 +45,7 @@ class ChantiersSynchroIdTest extends AbstractTestCase {
         $obj = new ChantiersSynchroId();
 
         $obj->setBlocFc(true);
-        $this->assertEquals(true, $obj->getBlocFc());
+        $this->assertTrue($obj->getBlocFc());
     }
 
     /**

@@ -34,7 +34,7 @@ class InfosComplBulTest extends AbstractTestCase {
         $obj = new InfosComplBul();
 
         $obj->setActiveSalMinConv(true);
-        $this->assertEquals(true, $obj->getActiveSalMinConv());
+        $this->assertTrue($obj->getActiveSalMinConv());
     }
 
     /**
@@ -47,7 +47,7 @@ class InfosComplBulTest extends AbstractTestCase {
         $obj = new InfosComplBul();
 
         $obj->setActiveSmic(true);
-        $this->assertEquals(true, $obj->getActiveSmic());
+        $this->assertTrue($obj->getActiveSmic());
     }
 
     /**
@@ -60,7 +60,7 @@ class InfosComplBulTest extends AbstractTestCase {
         $obj = new InfosComplBul();
 
         $obj->setAenLogement(true);
-        $this->assertEquals(true, $obj->getAenLogement());
+        $this->assertTrue($obj->getAenLogement());
     }
 
     /**
@@ -86,7 +86,7 @@ class InfosComplBulTest extends AbstractTestCase {
         $obj = new InfosComplBul();
 
         $obj->setAnnexe7Mutation(true);
-        $this->assertEquals(true, $obj->getAnnexe7Mutation());
+        $this->assertTrue($obj->getAnnexe7Mutation());
     }
 
     /**
@@ -190,7 +190,7 @@ class InfosComplBulTest extends AbstractTestCase {
         $obj = new InfosComplBul();
 
         $obj->setCaisseCp(true);
-        $this->assertEquals(true, $obj->getCaisseCp());
+        $this->assertTrue($obj->getCaisseCp());
     }
 
     /**
@@ -229,7 +229,7 @@ class InfosComplBulTest extends AbstractTestCase {
         $obj = new InfosComplBul();
 
         $obj->setCddcdi(true);
-        $this->assertEquals(true, $obj->getCddcdi());
+        $this->assertTrue($obj->getCddcdi());
     }
 
     /**
@@ -580,7 +580,7 @@ class InfosComplBulTest extends AbstractTestCase {
         $obj = new InfosComplBul();
 
         $obj->setCoeffFillonMoins20(true);
-        $this->assertEquals(true, $obj->getCoeffFillonMoins20());
+        $this->assertTrue($obj->getCoeffFillonMoins20());
     }
 
     /**
@@ -619,7 +619,7 @@ class InfosComplBulTest extends AbstractTestCase {
         $obj = new InfosComplBul();
 
         $obj->setContratCne(true);
-        $this->assertEquals(true, $obj->getContratCne());
+        $this->assertTrue($obj->getContratCne());
     }
 
     /**
@@ -1148,7 +1148,7 @@ class InfosComplBulTest extends AbstractTestCase {
         $obj = new InfosComplBul();
 
         $obj->setExclureChomCdd(true);
-        $this->assertEquals(true, $obj->getExclureChomCdd());
+        $this->assertTrue($obj->getExclureChomCdd());
     }
 
     /**
@@ -1161,7 +1161,7 @@ class InfosComplBulTest extends AbstractTestCase {
         $obj = new InfosComplBul();
 
         $obj->setExclureCice(true);
-        $this->assertEquals(true, $obj->getExclureCice());
+        $this->assertTrue($obj->getExclureCice());
     }
 
     /**
@@ -1174,7 +1174,7 @@ class InfosComplBulTest extends AbstractTestCase {
         $obj = new InfosComplBul();
 
         $obj->setExclureCospar(true);
-        $this->assertEquals(true, $obj->getExclureCospar());
+        $this->assertTrue($obj->getExclureCospar());
     }
 
     /**
@@ -1187,7 +1187,7 @@ class InfosComplBulTest extends AbstractTestCase {
         $obj = new InfosComplBul();
 
         $obj->setExclureDsn(true);
-        $this->assertEquals(true, $obj->getExclureDsn());
+        $this->assertTrue($obj->getExclureDsn());
     }
 
     /**
@@ -1200,7 +1200,7 @@ class InfosComplBulTest extends AbstractTestCase {
         $obj = new InfosComplBul();
 
         $obj->setExclureLoiTepa(true);
-        $this->assertEquals(true, $obj->getExclureLoiTepa());
+        $this->assertTrue($obj->getExclureLoiTepa());
     }
 
     /**
@@ -1213,7 +1213,7 @@ class InfosComplBulTest extends AbstractTestCase {
         $obj = new InfosComplBul();
 
         $obj->setExclureLoiTepaPartP(true);
-        $this->assertEquals(true, $obj->getExclureLoiTepaPartP());
+        $this->assertTrue($obj->getExclureLoiTepaPartP());
     }
 
     /**
@@ -1226,7 +1226,7 @@ class InfosComplBulTest extends AbstractTestCase {
         $obj = new InfosComplBul();
 
         $obj->setExclureLoiTepaPartS(true);
-        $this->assertEquals(true, $obj->getExclureLoiTepaPartS());
+        $this->assertTrue($obj->getExclureLoiTepaPartS());
     }
 
     /**
@@ -1239,7 +1239,7 @@ class InfosComplBulTest extends AbstractTestCase {
         $obj = new InfosComplBul();
 
         $obj->setExclureQgc(true);
-        $this->assertEquals(true, $obj->getExclureQgc());
+        $this->assertTrue($obj->getExclureQgc());
     }
 
     /**
@@ -1252,7 +1252,7 @@ class InfosComplBulTest extends AbstractTestCase {
         $obj = new InfosComplBul();
 
         $obj->setExoAccre17(true);
-        $this->assertEquals(true, $obj->getExoAccre17());
+        $this->assertTrue($obj->getExoAccre17());
     }
 
     /**
@@ -1265,7 +1265,7 @@ class InfosComplBulTest extends AbstractTestCase {
         $obj = new InfosComplBul();
 
         $obj->setExoOccasionnelMsa(true);
-        $this->assertEquals(true, $obj->getExoOccasionnelMsa());
+        $this->assertTrue($obj->getExoOccasionnelMsa());
     }
 
     /**
@@ -1278,7 +1278,7 @@ class InfosComplBulTest extends AbstractTestCase {
         $obj = new InfosComplBul();
 
         $obj->setExoProfessionnalisation(true);
-        $this->assertEquals(true, $obj->getExoProfessionnalisation());
+        $this->assertTrue($obj->getExoProfessionnalisation());
     }
 
     /**
@@ -1291,7 +1291,7 @@ class InfosComplBulTest extends AbstractTestCase {
         $obj = new InfosComplBul();
 
         $obj->setExoSpecif(true);
-        $this->assertEquals(true, $obj->getExoSpecif());
+        $this->assertTrue($obj->getExoSpecif());
     }
 
     /**
@@ -1304,7 +1304,7 @@ class InfosComplBulTest extends AbstractTestCase {
         $obj = new InfosComplBul();
 
         $obj->setForfaitHeure(true);
-        $this->assertEquals(true, $obj->getForfaitHeure());
+        $this->assertTrue($obj->getForfaitHeure());
     }
 
     /**
@@ -1330,7 +1330,7 @@ class InfosComplBulTest extends AbstractTestCase {
         $obj = new InfosComplBul();
 
         $obj->setGestionCp(true);
-        $this->assertEquals(true, $obj->getGestionCp());
+        $this->assertTrue($obj->getGestionCp());
     }
 
     /**
@@ -1356,7 +1356,7 @@ class InfosComplBulTest extends AbstractTestCase {
         $obj = new InfosComplBul();
 
         $obj->setGestionMailBulletin(true);
-        $this->assertEquals(true, $obj->getGestionMailBulletin());
+        $this->assertTrue($obj->getGestionMailBulletin());
     }
 
     /**
@@ -1369,7 +1369,7 @@ class InfosComplBulTest extends AbstractTestCase {
         $obj = new InfosComplBul();
 
         $obj->setGestionRtt(true);
-        $this->assertEquals(true, $obj->getGestionRtt());
+        $this->assertTrue($obj->getGestionRtt());
     }
 
     /**
@@ -1434,7 +1434,7 @@ class InfosComplBulTest extends AbstractTestCase {
         $obj = new InfosComplBul();
 
         $obj->setIndemCpMsa(true);
-        $this->assertEquals(true, $obj->getIndemCpMsa());
+        $this->assertTrue($obj->getIndemCpMsa());
     }
 
     /**
@@ -1486,7 +1486,7 @@ class InfosComplBulTest extends AbstractTestCase {
         $obj = new InfosComplBul();
 
         $obj->setInterimIndemCpFillon(true);
-        $this->assertEquals(true, $obj->getInterimIndemCpFillon());
+        $this->assertTrue($obj->getInterimIndemCpFillon());
     }
 
     /**
@@ -1525,7 +1525,7 @@ class InfosComplBulTest extends AbstractTestCase {
         $obj = new InfosComplBul();
 
         $obj->setMaintienIntervientCp(true);
-        $this->assertEquals(true, $obj->getMaintienIntervientCp());
+        $this->assertTrue($obj->getMaintienIntervientCp());
     }
 
     /**
@@ -1538,7 +1538,7 @@ class InfosComplBulTest extends AbstractTestCase {
         $obj = new InfosComplBul();
 
         $obj->setMaintienSalaire(true);
-        $this->assertEquals(true, $obj->getMaintienSalaire());
+        $this->assertTrue($obj->getMaintienSalaire());
     }
 
     /**
@@ -1759,7 +1759,7 @@ class InfosComplBulTest extends AbstractTestCase {
         $obj = new InfosComplBul();
 
         $obj->setMultiEmployeur(true);
-        $this->assertEquals(true, $obj->getMultiEmployeur());
+        $this->assertTrue($obj->getMultiEmployeur());
     }
 
     /**
@@ -1928,7 +1928,7 @@ class InfosComplBulTest extends AbstractTestCase {
         $obj = new InfosComplBul();
 
         $obj->setNePasActiverPrimeAnnuelleProprete(true);
-        $this->assertEquals(true, $obj->getNePasActiverPrimeAnnuelleProprete());
+        $this->assertTrue($obj->getNePasActiverPrimeAnnuelleProprete());
     }
 
     /**
@@ -1941,7 +1941,7 @@ class InfosComplBulTest extends AbstractTestCase {
         $obj = new InfosComplBul();
 
         $obj->setNePasPublierWeb(true);
-        $this->assertEquals(true, $obj->getNePasPublierWeb());
+        $this->assertTrue($obj->getNePasPublierWeb());
     }
 
     /**
@@ -2136,7 +2136,7 @@ class InfosComplBulTest extends AbstractTestCase {
         $obj = new InfosComplBul();
 
         $obj->setPasDeReintegration(true);
-        $this->assertEquals(true, $obj->getPasDeReintegration());
+        $this->assertTrue($obj->getPasDeReintegration());
     }
 
     /**
@@ -2149,7 +2149,7 @@ class InfosComplBulTest extends AbstractTestCase {
         $obj = new InfosComplBul();
 
         $obj->setPasGestionDif(true);
-        $this->assertEquals(true, $obj->getPasGestionDif());
+        $this->assertTrue($obj->getPasGestionDif());
     }
 
     /**
@@ -2248,7 +2248,7 @@ class InfosComplBulTest extends AbstractTestCase {
         $obj = new InfosComplBul();
 
         $obj->setPss1Force(true);
-        $this->assertEquals(true, $obj->getPss1Force());
+        $this->assertTrue($obj->getPss1Force());
     }
 
     /**
@@ -2274,7 +2274,7 @@ class InfosComplBulTest extends AbstractTestCase {
         $obj = new InfosComplBul();
 
         $obj->setReductionFillon(true);
-        $this->assertEquals(true, $obj->getReductionFillon());
+        $this->assertTrue($obj->getReductionFillon());
     }
 
     /**
@@ -2300,7 +2300,7 @@ class InfosComplBulTest extends AbstractTestCase {
         $obj = new InfosComplBul();
 
         $obj->setRemunPartFillon(true);
-        $this->assertEquals(true, $obj->getRemunPartFillon());
+        $this->assertTrue($obj->getRemunPartFillon());
     }
 
     /**
@@ -2508,7 +2508,7 @@ class InfosComplBulTest extends AbstractTestCase {
         $obj = new InfosComplBul();
 
         $obj->setSalaireRetabliDsnForce(true);
-        $this->assertEquals(true, $obj->getSalaireRetabliDsnForce());
+        $this->assertTrue($obj->getSalaireRetabliDsnForce());
     }
 
     /**
@@ -2625,7 +2625,7 @@ class InfosComplBulTest extends AbstractTestCase {
         $obj = new InfosComplBul();
 
         $obj->setSubrogation(true);
-        $this->assertEquals(true, $obj->getSubrogation());
+        $this->assertTrue($obj->getSubrogation());
     }
 
     /**
@@ -2690,7 +2690,7 @@ class InfosComplBulTest extends AbstractTestCase {
         $obj = new InfosComplBul();
 
         $obj->setTepaMoins20(true);
-        $this->assertEquals(true, $obj->getTepaMoins20());
+        $this->assertTrue($obj->getTepaMoins20());
     }
 
     /**
@@ -2950,7 +2950,7 @@ class InfosComplBulTest extends AbstractTestCase {
         $obj = new InfosComplBul();
 
         $obj->setVrpMulticarte(true);
-        $this->assertEquals(true, $obj->getVrpMulticarte());
+        $this->assertTrue($obj->getVrpMulticarte());
     }
 
     /**

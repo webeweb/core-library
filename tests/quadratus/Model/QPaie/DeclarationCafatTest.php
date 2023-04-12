@@ -220,7 +220,7 @@ class DeclarationCafatTest extends AbstractTestCase {
         $obj = new DeclarationCafat();
 
         $obj->setPasDePersonnel(true);
-        $this->assertEquals(true, $obj->getPasDePersonnel());
+        $this->assertTrue($obj->getPasDePersonnel());
     }
 
     /**
@@ -233,7 +233,7 @@ class DeclarationCafatTest extends AbstractTestCase {
         $obj = new DeclarationCafat();
 
         $obj->setPasDeReembauche(true);
-        $this->assertEquals(true, $obj->getPasDeReembauche());
+        $this->assertTrue($obj->getPasDeReembauche());
     }
 
     /**

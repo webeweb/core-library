@@ -146,7 +146,7 @@ class PrefacturationTest extends AbstractTestCase {
         $obj = new Prefacturation();
 
         $obj->setFacturable(true);
-        $this->assertEquals(true, $obj->getFacturable());
+        $this->assertTrue($obj->getFacturable());
     }
 
     /**
@@ -172,7 +172,7 @@ class PrefacturationTest extends AbstractTestCase {
         $obj = new Prefacturation();
 
         $obj->setIsTransf(true);
-        $this->assertEquals(true, $obj->getIsTransf());
+        $this->assertTrue($obj->getIsTransf());
     }
 
     /**

@@ -32,7 +32,7 @@ class LiaisonsDestinatairesTest extends AbstractTestCase {
         $obj = new LiaisonsDestinataires();
 
         $obj->setAgence(true);
-        $this->assertEquals(true, $obj->getAgence());
+        $this->assertTrue($obj->getAgence());
     }
 
     /**

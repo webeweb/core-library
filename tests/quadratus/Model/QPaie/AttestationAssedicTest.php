@@ -34,7 +34,7 @@ class AttestationAssedicTest extends AbstractTestCase {
         $obj = new AttestationAssedic();
 
         $obj->setAdhesionAides(true);
-        $this->assertEquals(true, $obj->getAdhesionAides());
+        $this->assertTrue($obj->getAdhesionAides());
     }
 
     /**
@@ -47,7 +47,7 @@ class AttestationAssedicTest extends AbstractTestCase {
         $obj = new AttestationAssedic();
 
         $obj->setAdhesionRevocable(true);
-        $this->assertEquals(true, $obj->getAdhesionRevocable());
+        $this->assertTrue($obj->getAdhesionRevocable());
     }
 
     /**
@@ -99,7 +99,7 @@ class AttestationAssedicTest extends AbstractTestCase {
         $obj = new AttestationAssedic();
 
         $obj->setAlsaceMoselle(true);
-        $this->assertEquals(true, $obj->getAlsaceMoselle());
+        $this->assertTrue($obj->getAlsaceMoselle());
     }
 
     /**
@@ -112,7 +112,7 @@ class AttestationAssedicTest extends AbstractTestCase {
         $obj = new AttestationAssedic();
 
         $obj->setAutoAssurance(true);
-        $this->assertEquals(true, $obj->getAutoAssurance());
+        $this->assertTrue($obj->getAutoAssurance());
     }
 
     /**
@@ -151,7 +151,7 @@ class AttestationAssedicTest extends AbstractTestCase {
         $obj = new AttestationAssedic();
 
         $obj->setChomageTotal(true);
-        $this->assertEquals(true, $obj->getChomageTotal());
+        $this->assertTrue($obj->getChomageTotal());
     }
 
     /**
@@ -294,7 +294,7 @@ class AttestationAssedicTest extends AbstractTestCase {
         $obj = new AttestationAssedic();
 
         $obj->setConventionFne(true);
-        $this->assertEquals(true, $obj->getConventionFne());
+        $this->assertTrue($obj->getConventionFne());
     }
 
     /**
@@ -731,7 +731,7 @@ class AttestationAssedicTest extends AbstractTestCase {
         $obj = new AttestationAssedic();
 
         $obj->setFngsPercue(true);
-        $this->assertEquals(true, $obj->getFngsPercue());
+        $this->assertTrue($obj->getFngsPercue());
     }
 
     /**
@@ -757,7 +757,7 @@ class AttestationAssedicTest extends AbstractTestCase {
         $obj = new AttestationAssedic();
 
         $obj->setFngsaPercevoir(true);
-        $this->assertEquals(true, $obj->getFngsaPercevoir());
+        $this->assertTrue($obj->getFngsaPercevoir());
     }
 
     /**
@@ -1082,7 +1082,7 @@ class AttestationAssedicTest extends AbstractTestCase {
         $obj = new AttestationAssedic();
 
         $obj->setLicencie55ans(true);
-        $this->assertEquals(true, $obj->getLicencie55ans());
+        $this->assertTrue($obj->getLicencie55ans());
     }
 
     /**
@@ -1095,7 +1095,7 @@ class AttestationAssedicTest extends AbstractTestCase {
         $obj = new AttestationAssedic();
 
         $obj->setLicenciePlanSocial(true);
-        $this->assertEquals(true, $obj->getLicenciePlanSocial());
+        $this->assertTrue($obj->getLicenciePlanSocial());
     }
 
     /**
@@ -1329,7 +1329,7 @@ class AttestationAssedicTest extends AbstractTestCase {
         $obj = new AttestationAssedic();
 
         $obj->setNouvelleAttest(true);
-        $this->assertEquals(true, $obj->getNouvelleAttest());
+        $this->assertTrue($obj->getNouvelleAttest());
     }
 
     /**
@@ -1433,7 +1433,7 @@ class AttestationAssedicTest extends AbstractTestCase {
         $obj = new AttestationAssedic();
 
         $obj->setPreavisEffectue(true);
-        $this->assertEquals(true, $obj->getPreavisEffectue());
+        $this->assertTrue($obj->getPreavisEffectue());
     }
 
     /**
@@ -1480,7 +1480,7 @@ class AttestationAssedicTest extends AbstractTestCase {
         $obj = new AttestationAssedic();
 
         $obj->setPreavisEffectuePaye(true);
-        $this->assertEquals(true, $obj->getPreavisEffectuePaye());
+        $this->assertTrue($obj->getPreavisEffectuePaye());
     }
 
     /**
@@ -1493,7 +1493,7 @@ class AttestationAssedicTest extends AbstractTestCase {
         $obj = new AttestationAssedic();
 
         $obj->setPreavisNonEffectue(true);
-        $this->assertEquals(true, $obj->getPreavisNonEffectue());
+        $this->assertTrue($obj->getPreavisNonEffectue());
     }
 
     /**
@@ -1540,7 +1540,7 @@ class AttestationAssedicTest extends AbstractTestCase {
         $obj = new AttestationAssedic();
 
         $obj->setPreavisNonEffectuePaye(true);
-        $this->assertEquals(true, $obj->getPreavisNonEffectuePaye());
+        $this->assertTrue($obj->getPreavisNonEffectuePaye());
     }
 
     /**
@@ -1592,7 +1592,7 @@ class AttestationAssedicTest extends AbstractTestCase {
         $obj = new AttestationAssedic();
 
         $obj->setReclassement(true);
-        $this->assertEquals(true, $obj->getReclassement());
+        $this->assertTrue($obj->getReclassement());
     }
 
     /**
@@ -1605,7 +1605,7 @@ class AttestationAssedicTest extends AbstractTestCase {
         $obj = new AttestationAssedic();
 
         $obj->setRefusSalarie(true);
-        $this->assertEquals(true, $obj->getRefusSalarie());
+        $this->assertTrue($obj->getRefusSalarie());
     }
 
     /**
@@ -1937,7 +1937,7 @@ class AttestationAssedicTest extends AbstractTestCase {
         $obj = new AttestationAssedic();
 
         $obj->setStatutCadre(true);
-        $this->assertEquals(true, $obj->getStatutCadre());
+        $this->assertTrue($obj->getStatutCadre());
     }
 
     /**
@@ -1989,7 +1989,7 @@ class AttestationAssedicTest extends AbstractTestCase {
         $obj = new AttestationAssedic();
 
         $obj->setTransactionEnCours(true);
-        $this->assertEquals(true, $obj->getTransactionEnCours());
+        $this->assertTrue($obj->getTransactionEnCours());
     }
 
     /**

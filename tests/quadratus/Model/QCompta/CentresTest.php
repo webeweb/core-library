@@ -73,7 +73,7 @@ class CentresTest extends AbstractTestCase {
         $obj = new Centres();
 
         $obj->setCentreInactif(true);
-        $this->assertEquals(true, $obj->getCentreInactif());
+        $this->assertTrue($obj->getCentreInactif());
     }
 
     /**
@@ -172,7 +172,7 @@ class CentresTest extends AbstractTestCase {
         $obj = new Centres();
 
         $obj->setMargeDirecte(true);
-        $this->assertEquals(true, $obj->getMargeDirecte());
+        $this->assertTrue($obj->getMargeDirecte());
     }
 
     /**
@@ -224,7 +224,7 @@ class CentresTest extends AbstractTestCase {
         $obj = new Centres();
 
         $obj->setRepartitionAuto(true);
-        $this->assertEquals(true, $obj->getRepartitionAuto());
+        $this->assertTrue($obj->getRepartitionAuto());
     }
 
     /**
@@ -263,7 +263,7 @@ class CentresTest extends AbstractTestCase {
         $obj = new Centres();
 
         $obj->setSuiviAnneeRecolte(true);
-        $this->assertEquals(true, $obj->getSuiviAnneeRecolte());
+        $this->assertTrue($obj->getSuiviAnneeRecolte());
     }
 
     /**

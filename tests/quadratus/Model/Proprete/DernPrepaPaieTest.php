@@ -34,7 +34,7 @@ class DernPrepaPaieTest extends AbstractTestCase {
         $obj = new DernPrepaPaie();
 
         $obj->setAlerteRouge(true);
-        $this->assertEquals(true, $obj->getAlerteRouge());
+        $this->assertTrue($obj->getAlerteRouge());
     }
 
     /**

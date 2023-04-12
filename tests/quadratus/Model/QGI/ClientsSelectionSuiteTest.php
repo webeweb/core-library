@@ -32,7 +32,7 @@ class ClientsSelectionSuiteTest extends AbstractTestCase {
         $obj = new ClientsSelectionSuite();
 
         $obj->setCocheClient(true);
-        $this->assertEquals(true, $obj->getCocheClient());
+        $this->assertTrue($obj->getCocheClient());
     }
 
     /**
@@ -45,7 +45,7 @@ class ClientsSelectionSuiteTest extends AbstractTestCase {
         $obj = new ClientsSelectionSuite();
 
         $obj->setCocheFournisseur(true);
-        $this->assertEquals(true, $obj->getCocheFournisseur());
+        $this->assertTrue($obj->getCocheFournisseur());
     }
 
     /**
@@ -58,7 +58,7 @@ class ClientsSelectionSuiteTest extends AbstractTestCase {
         $obj = new ClientsSelectionSuite();
 
         $obj->setCocheIntervenant(true);
-        $this->assertEquals(true, $obj->getCocheIntervenant());
+        $this->assertTrue($obj->getCocheIntervenant());
     }
 
     /**
@@ -71,7 +71,7 @@ class ClientsSelectionSuiteTest extends AbstractTestCase {
         $obj = new ClientsSelectionSuite();
 
         $obj->setCocheProspect(true);
-        $this->assertEquals(true, $obj->getCocheProspect());
+        $this->assertTrue($obj->getCocheProspect());
     }
 
     /**
@@ -84,7 +84,7 @@ class ClientsSelectionSuiteTest extends AbstractTestCase {
         $obj = new ClientsSelectionSuite();
 
         $obj->setCocheSorti(true);
-        $this->assertEquals(true, $obj->getCocheSorti());
+        $this->assertTrue($obj->getCocheSorti());
     }
 
     /**

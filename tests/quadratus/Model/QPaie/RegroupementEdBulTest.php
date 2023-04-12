@@ -32,7 +32,7 @@ class RegroupementEdBulTest extends AbstractTestCase {
         $obj = new RegroupementEdBul();
 
         $obj->setAfficher(true);
-        $this->assertEquals(true, $obj->getAfficher());
+        $this->assertTrue($obj->getAfficher());
     }
 
     /**
@@ -84,7 +84,7 @@ class RegroupementEdBulTest extends AbstractTestCase {
         $obj = new RegroupementEdBul();
 
         $obj->setExo(true);
-        $this->assertEquals(true, $obj->getExo());
+        $this->assertTrue($obj->getExo());
     }
 
     /**
@@ -97,7 +97,7 @@ class RegroupementEdBulTest extends AbstractTestCase {
         $obj = new RegroupementEdBul();
 
         $obj->setQuadra(true);
-        $this->assertEquals(true, $obj->getQuadra());
+        $this->assertTrue($obj->getQuadra());
     }
 
     /**

@@ -177,7 +177,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
         $obj = new DevisCommercialLignes();
 
         $obj->setDepuisDebFac(true);
-        $this->assertEquals(true, $obj->getDepuisDebFac());
+        $this->assertTrue($obj->getDepuisDebFac());
     }
 
     /**
@@ -281,7 +281,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
         $obj = new DevisCommercialLignes();
 
         $obj->setImprimerDansPied(true);
-        $this->assertEquals(true, $obj->getImprimerDansPied());
+        $this->assertTrue($obj->getImprimerDansPied());
     }
 
     /**
@@ -402,7 +402,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
         $obj = new DevisCommercialLignes();
 
         $obj->setPxDevis(true);
-        $this->assertEquals(true, $obj->getPxDevis());
+        $this->assertTrue($obj->getPxDevis());
     }
 
     /**
@@ -493,7 +493,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
         $obj = new DevisCommercialLignes();
 
         $obj->setVentilMarge(true);
-        $this->assertEquals(true, $obj->getVentilMarge());
+        $this->assertTrue($obj->getVentilMarge());
     }
 
     /**

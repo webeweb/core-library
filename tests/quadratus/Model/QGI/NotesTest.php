@@ -124,7 +124,7 @@ class NotesTest extends AbstractTestCase {
         $obj = new Notes();
 
         $obj->setEnvoiPostIt(true);
-        $this->assertEquals(true, $obj->getEnvoiPostIt());
+        $this->assertTrue($obj->getEnvoiPostIt());
     }
 
     /**

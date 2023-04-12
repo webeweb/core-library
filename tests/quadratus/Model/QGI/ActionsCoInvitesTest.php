@@ -116,7 +116,7 @@ class ActionsCoInvitesTest extends AbstractTestCase {
         $obj = new ActionsCoInvites();
 
         $obj->setRetourNeg(true);
-        $this->assertEquals(true, $obj->getRetourNeg());
+        $this->assertTrue($obj->getRetourNeg());
     }
 
     /**

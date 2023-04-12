@@ -58,7 +58,7 @@ class LiaisonsTypesEnvoisTest extends AbstractTestCase {
         $obj = new LiaisonsTypesEnvois();
 
         $obj->setAccepteDepuisQBureau(true);
-        $this->assertEquals(true, $obj->getAccepteDepuisQBureau());
+        $this->assertTrue($obj->getAccepteDepuisQBureau());
     }
 
     /**
@@ -71,7 +71,7 @@ class LiaisonsTypesEnvoisTest extends AbstractTestCase {
         $obj = new LiaisonsTypesEnvois();
 
         $obj->setAccepteDepuisQc(true);
-        $this->assertEquals(true, $obj->getAccepteDepuisQc());
+        $this->assertTrue($obj->getAccepteDepuisQc());
     }
 
     /**
@@ -84,7 +84,7 @@ class LiaisonsTypesEnvoisTest extends AbstractTestCase {
         $obj = new LiaisonsTypesEnvois();
 
         $obj->setAccepteDepuisQp(true);
-        $this->assertEquals(true, $obj->getAccepteDepuisQp());
+        $this->assertTrue($obj->getAccepteDepuisQp());
     }
 
     /**
@@ -123,7 +123,7 @@ class LiaisonsTypesEnvoisTest extends AbstractTestCase {
         $obj = new LiaisonsTypesEnvois();
 
         $obj->setModifiable(true);
-        $this->assertEquals(true, $obj->getModifiable());
+        $this->assertTrue($obj->getModifiable());
     }
 
     /**
@@ -136,7 +136,7 @@ class LiaisonsTypesEnvoisTest extends AbstractTestCase {
         $obj = new LiaisonsTypesEnvois();
 
         $obj->setSansImages(true);
-        $this->assertEquals(true, $obj->getSansImages());
+        $this->assertTrue($obj->getSansImages());
     }
 
     /**

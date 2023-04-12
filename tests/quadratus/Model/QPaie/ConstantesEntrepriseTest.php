@@ -47,7 +47,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setActiverPointageQws(true);
-        $this->assertEquals(true, $obj->getActiverPointageQws());
+        $this->assertTrue($obj->getActiverPointageQws());
     }
 
     /**
@@ -86,7 +86,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setAffectationTaux27(true);
-        $this->assertEquals(true, $obj->getAffectationTaux27());
+        $this->assertTrue($obj->getAffectationTaux27());
     }
 
     /**
@@ -99,7 +99,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setAnalytiqueEmploye(true);
-        $this->assertEquals(true, $obj->getAnalytiqueEmploye());
+        $this->assertTrue($obj->getAnalytiqueEmploye());
     }
 
     /**
@@ -125,7 +125,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setArchivageActif(true);
-        $this->assertEquals(true, $obj->getArchivageActif());
+        $this->assertTrue($obj->getArchivageActif());
     }
 
     /**
@@ -138,7 +138,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setAttestAuto(true);
-        $this->assertEquals(true, $obj->getAttestAuto());
+        $this->assertTrue($obj->getAttestAuto());
     }
 
     /**
@@ -151,7 +151,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setBeneficieCice(true);
-        $this->assertEquals(true, $obj->getBeneficieCice());
+        $this->assertTrue($obj->getBeneficieCice());
     }
 
     /**
@@ -164,7 +164,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setBrutAlSalMinConv(true);
-        $this->assertEquals(true, $obj->getBrutAlSalMinConv());
+        $this->assertTrue($obj->getBrutAlSalMinConv());
     }
 
     /**
@@ -177,7 +177,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setCalculAutoHTheorique(true);
-        $this->assertEquals(true, $obj->getCalculAutoHTheorique());
+        $this->assertTrue($obj->getCalculAutoHTheorique());
     }
 
     /**
@@ -190,7 +190,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setCertifAuto(true);
-        $this->assertEquals(true, $obj->getCertifAuto());
+        $this->assertTrue($obj->getCertifAuto());
     }
 
     /**
@@ -216,7 +216,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setChoixEditionChequeTc(true);
-        $this->assertEquals(true, $obj->getChoixEditionChequeTc());
+        $this->assertTrue($obj->getChoixEditionChequeTc());
     }
 
     /**
@@ -229,7 +229,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setCicePjMailCliDucsEdi(true);
-        $this->assertEquals(true, $obj->getCicePjMailCliDucsEdi());
+        $this->assertTrue($obj->getCicePjMailCliDucsEdi());
     }
 
     /**
@@ -294,7 +294,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setCompression(true);
-        $this->assertEquals(true, $obj->getCompression());
+        $this->assertTrue($obj->getCompression());
     }
 
     /**
@@ -333,7 +333,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setCptaElitEuros(true);
-        $this->assertEquals(true, $obj->getCptaElitEuros());
+        $this->assertTrue($obj->getCptaElitEuros());
     }
 
     /**
@@ -346,7 +346,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setCtrlAutoCp(true);
-        $this->assertEquals(true, $obj->getCtrlAutoCp());
+        $this->assertTrue($obj->getCtrlAutoCp());
     }
 
     /**
@@ -359,7 +359,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setCtrlAutoCpAnticip(true);
-        $this->assertEquals(true, $obj->getCtrlAutoCpAnticip());
+        $this->assertTrue($obj->getCtrlAutoCpAnticip());
     }
 
     /**
@@ -372,7 +372,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setCtrlTauxBase(true);
-        $this->assertEquals(true, $obj->getCtrlTauxBase());
+        $this->assertTrue($obj->getCtrlTauxBase());
     }
 
     /**
@@ -514,7 +514,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setDeductionHSupFillon(true);
-        $this->assertEquals(true, $obj->getDeductionHSupFillon());
+        $this->assertTrue($obj->getDeductionHSupFillon());
     }
 
     /**
@@ -527,7 +527,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setDeduireHSupNonStructurelle(true);
-        $this->assertEquals(true, $obj->getDeduireHSupNonStructurelle());
+        $this->assertTrue($obj->getDeduireHSupNonStructurelle());
     }
 
     /**
@@ -592,7 +592,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setDossierSurWeb(true);
-        $this->assertEquals(true, $obj->getDossierSurWeb());
+        $this->assertTrue($obj->getDossierSurWeb());
     }
 
     /**
@@ -751,7 +751,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setEdBordRuptureEmp(true);
-        $this->assertEquals(true, $obj->getEdBordRuptureEmp());
+        $this->assertTrue($obj->getEdBordRuptureEmp());
     }
 
     /**
@@ -777,7 +777,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setEdBordereau(true);
-        $this->assertEquals(true, $obj->getEdBordereau());
+        $this->assertTrue($obj->getEdBordereau());
     }
 
     /**
@@ -790,7 +790,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setEdBordereauPrep(true);
-        $this->assertEquals(true, $obj->getEdBordereauPrep());
+        $this->assertTrue($obj->getEdBordereauPrep());
     }
 
     /**
@@ -803,7 +803,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setEdBordereauPrepa(true);
-        $this->assertEquals(true, $obj->getEdBordereauPrepa());
+        $this->assertTrue($obj->getEdBordereauPrepa());
     }
 
     /**
@@ -855,7 +855,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setEdCorrespondance(true);
-        $this->assertEquals(true, $obj->getEdCorrespondance());
+        $this->assertTrue($obj->getEdCorrespondance());
     }
 
     /**
@@ -868,7 +868,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setEdDucsAuto(true);
-        $this->assertEquals(true, $obj->getEdDucsAuto());
+        $this->assertTrue($obj->getEdDucsAuto());
     }
 
     /**
@@ -920,7 +920,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setEdHSupBonifQueMajo(true);
-        $this->assertEquals(true, $obj->getEdHSupBonifQueMajo());
+        $this->assertTrue($obj->getEdHSupBonifQueMajo());
     }
 
     /**
@@ -946,7 +946,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setEdHistoTriEtablissement(true);
-        $this->assertEquals(true, $obj->getEdHistoTriEtablissement());
+        $this->assertTrue($obj->getEdHistoTriEtablissement());
     }
 
     /**
@@ -959,7 +959,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setEdHistoTriService(true);
-        $this->assertEquals(true, $obj->getEdHistoTriService());
+        $this->assertTrue($obj->getEdHistoTriService());
     }
 
     /**
@@ -985,7 +985,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setEdImputComptable(true);
-        $this->assertEquals(true, $obj->getEdImputComptable());
+        $this->assertTrue($obj->getEdImputComptable());
     }
 
     /**
@@ -1063,7 +1063,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setEditQpxlAbsences(true);
-        $this->assertEquals(true, $obj->getEditQpxlAbsences());
+        $this->assertTrue($obj->getEditQpxlAbsences());
     }
 
     /**
@@ -1076,7 +1076,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setEditQpxlAcomptes(true);
-        $this->assertEquals(true, $obj->getEditQpxlAcomptes());
+        $this->assertTrue($obj->getEditQpxlAcomptes());
     }
 
     /**
@@ -1102,7 +1102,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setEditQpxlViderLib(true);
-        $this->assertEquals(true, $obj->getEditQpxlViderLib());
+        $this->assertTrue($obj->getEditQpxlViderLib());
     }
 
     /**
@@ -1115,7 +1115,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setEditerBulletinStc(true);
-        $this->assertEquals(true, $obj->getEditerBulletinStc());
+        $this->assertTrue($obj->getEditerBulletinStc());
     }
 
     /**
@@ -1128,7 +1128,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setEditionChequeTc(true);
-        $this->assertEquals(true, $obj->getEditionChequeTc());
+        $this->assertTrue($obj->getEditionChequeTc());
     }
 
     /**
@@ -1141,7 +1141,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setEditionDate(true);
-        $this->assertEquals(true, $obj->getEditionDate());
+        $this->assertTrue($obj->getEditionDate());
     }
 
     /**
@@ -1154,7 +1154,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setEditionHeure(true);
-        $this->assertEquals(true, $obj->getEditionHeure());
+        $this->assertTrue($obj->getEditionHeure());
     }
 
     /**
@@ -1180,7 +1180,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setEnteteSoldeTc(true);
-        $this->assertEquals(true, $obj->getEnteteSoldeTc());
+        $this->assertTrue($obj->getEnteteSoldeTc());
     }
 
     /**
@@ -1245,7 +1245,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setFichierUnique(true);
-        $this->assertEquals(true, $obj->getFichierUnique());
+        $this->assertTrue($obj->getFichierUnique());
     }
 
     /**
@@ -1357,7 +1357,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setGestNumBulletin(true);
-        $this->assertEquals(true, $obj->getGestNumBulletin());
+        $this->assertTrue($obj->getGestNumBulletin());
     }
 
     /**
@@ -1370,7 +1370,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setGestRepoCompens(true);
-        $this->assertEquals(true, $obj->getGestRepoCompens());
+        $this->assertTrue($obj->getGestRepoCompens());
     }
 
     /**
@@ -1383,7 +1383,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setGestTexte(true);
-        $this->assertEquals(true, $obj->getGestTexte());
+        $this->assertTrue($obj->getGestTexte());
     }
 
     /**
@@ -1396,7 +1396,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setGestionCoeff(true);
-        $this->assertEquals(true, $obj->getGestionCoeff());
+        $this->assertTrue($obj->getGestionCoeff());
     }
 
     /**
@@ -1409,7 +1409,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setGestionCoeffGrille(true);
-        $this->assertEquals(true, $obj->getGestionCoeffGrille());
+        $this->assertTrue($obj->getGestionCoeffGrille());
     }
 
     /**
@@ -1435,7 +1435,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setGestionIntemperie(true);
-        $this->assertEquals(true, $obj->getGestionIntemperie());
+        $this->assertTrue($obj->getGestionIntemperie());
     }
 
     /**
@@ -1448,7 +1448,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setGestionNumeroEmployeAuto(true);
-        $this->assertEquals(true, $obj->getGestionNumeroEmployeAuto());
+        $this->assertTrue($obj->getGestionNumeroEmployeAuto());
     }
 
     /**
@@ -1461,7 +1461,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setGestionQpxl(true);
-        $this->assertEquals(true, $obj->getGestionQpxl());
+        $this->assertTrue($obj->getGestionQpxl());
     }
 
     /**
@@ -1474,7 +1474,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setGestionTdBilaterale(true);
-        $this->assertEquals(true, $obj->getGestionTdBilaterale());
+        $this->assertTrue($obj->getGestionTdBilaterale());
     }
 
     /**
@@ -1487,7 +1487,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setGestionTdSouDadsu(true);
-        $this->assertEquals(true, $obj->getGestionTdSouDadsu());
+        $this->assertTrue($obj->getGestionTdSouDadsu());
     }
 
     /**
@@ -1526,7 +1526,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setHSup1Structurelle(true);
-        $this->assertEquals(true, $obj->getHSup1Structurelle());
+        $this->assertTrue($obj->getHSup1Structurelle());
     }
 
     /**
@@ -1539,7 +1539,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setHSup2Structurelle(true);
-        $this->assertEquals(true, $obj->getHSup2Structurelle());
+        $this->assertTrue($obj->getHSup2Structurelle());
     }
 
     /**
@@ -1552,7 +1552,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setHSup3Structurelle(true);
-        $this->assertEquals(true, $obj->getHSup3Structurelle());
+        $this->assertTrue($obj->getHSup3Structurelle());
     }
 
     /**
@@ -1565,7 +1565,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setHSup4Structurelle(true);
-        $this->assertEquals(true, $obj->getHSup4Structurelle());
+        $this->assertTrue($obj->getHSup4Structurelle());
     }
 
     /**
@@ -1578,7 +1578,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setHSup5Structurelle(true);
-        $this->assertEquals(true, $obj->getHSup5Structurelle());
+        $this->assertTrue($obj->getHSup5Structurelle());
     }
 
     /**
@@ -1669,7 +1669,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setIndemCpIntervientBrutAl(true);
-        $this->assertEquals(true, $obj->getIndemCpIntervientBrutAl());
+        $this->assertTrue($obj->getIndemCpIntervientBrutAl());
     }
 
     /**
@@ -1721,7 +1721,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setJrnRegroupeAbs(true);
-        $this->assertEquals(true, $obj->getJrnRegroupeAbs());
+        $this->assertTrue($obj->getJrnRegroupeAbs());
     }
 
     /**
@@ -1786,7 +1786,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setLiaisonProprete(true);
-        $this->assertEquals(true, $obj->getLiaisonProprete());
+        $this->assertTrue($obj->getLiaisonProprete());
     }
 
     /**
@@ -1916,7 +1916,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setLigneBulEuro(true);
-        $this->assertEquals(true, $obj->getLigneBulEuro());
+        $this->assertTrue($obj->getLigneBulEuro());
     }
 
     /**
@@ -1929,7 +1929,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setLignesTransport(true);
-        $this->assertEquals(true, $obj->getLignesTransport());
+        $this->assertTrue($obj->getLignesTransport());
     }
 
     /**
@@ -1981,7 +1981,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setMailCLiDucsEdi(true);
-        $this->assertEquals(true, $obj->getMailCLiDucsEdi());
+        $this->assertTrue($obj->getMailCLiDucsEdi());
     }
 
     /**
@@ -1994,7 +1994,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setMentionCp(true);
-        $this->assertEquals(true, $obj->getMentionCp());
+        $this->assertTrue($obj->getMentionCp());
     }
 
     /**
@@ -2007,7 +2007,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setMessageVu(true);
-        $this->assertEquals(true, $obj->getMessageVu());
+        $this->assertTrue($obj->getMessageVu());
     }
 
     /**
@@ -2241,7 +2241,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setNapEuro(true);
-        $this->assertEquals(true, $obj->getNapEuro());
+        $this->assertTrue($obj->getNapEuro());
     }
 
     /**
@@ -2280,7 +2280,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setNouvParamRetraiteType(true);
-        $this->assertEquals(true, $obj->getNouvParamRetraiteType());
+        $this->assertTrue($obj->getNouvParamRetraiteType());
     }
 
     /**
@@ -2293,7 +2293,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setOptionsCalcAbs(true);
-        $this->assertEquals(true, $obj->getOptionsCalcAbs());
+        $this->assertTrue($obj->getOptionsCalcAbs());
     }
 
     /**
@@ -2319,7 +2319,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setPaieEuro(true);
-        $this->assertEquals(true, $obj->getPaieEuro());
+        $this->assertTrue($obj->getPaieEuro());
     }
 
     /**
@@ -2332,7 +2332,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setPartSalSeule(true);
-        $this->assertEquals(true, $obj->getPartSalSeule());
+        $this->assertTrue($obj->getPartSalSeule());
     }
 
     /**
@@ -2345,7 +2345,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setPasGestionIndiceBul(true);
-        $this->assertEquals(true, $obj->getPasGestionIndiceBul());
+        $this->assertTrue($obj->getPasGestionIndiceBul());
     }
 
     /**
@@ -2358,7 +2358,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setPasPrendreIccpFillon(true);
-        $this->assertEquals(true, $obj->getPasPrendreIccpFillon());
+        $this->assertTrue($obj->getPasPrendreIccpFillon());
     }
 
     /**
@@ -2371,7 +2371,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setPasSousTotSBase(true);
-        $this->assertEquals(true, $obj->getPasSousTotSBase());
+        $this->assertTrue($obj->getPasSousTotSBase());
     }
 
     /**
@@ -2384,7 +2384,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setPassage35HFait(true);
-        $this->assertEquals(true, $obj->getPassage35HFait());
+        $this->assertTrue($obj->getPassage35HFait());
     }
 
     /**
@@ -2444,7 +2444,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setPjMailCLiDucsEdi(true);
-        $this->assertEquals(true, $obj->getPjMailCLiDucsEdi());
+        $this->assertTrue($obj->getPjMailCLiDucsEdi());
     }
 
     /**
@@ -2457,7 +2457,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setPjMailCliCouponPaiement(true);
-        $this->assertEquals(true, $obj->getPjMailCliCouponPaiement());
+        $this->assertTrue($obj->getPjMailCliCouponPaiement());
     }
 
     /**
@@ -2483,7 +2483,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setPortaFraisSanteCertifTrav(true);
-        $this->assertEquals(true, $obj->getPortaFraisSanteCertifTrav());
+        $this->assertTrue($obj->getPortaFraisSanteCertifTrav());
     }
 
     /**
@@ -2496,7 +2496,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setPortaPrevoyanceOblig(true);
-        $this->assertEquals(true, $obj->getPortaPrevoyanceOblig());
+        $this->assertTrue($obj->getPortaPrevoyanceOblig());
     }
 
     /**
@@ -2509,7 +2509,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setPreparationTdp(true);
-        $this->assertEquals(true, $obj->getPreparationTdp());
+        $this->assertTrue($obj->getPreparationTdp());
     }
 
     /**
@@ -2535,7 +2535,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setProrataDifCertifTrav(true);
-        $this->assertEquals(true, $obj->getProrataDifCertifTrav());
+        $this->assertTrue($obj->getProrataDifCertifTrav());
     }
 
     /**
@@ -2574,7 +2574,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setRdlpascii(true);
-        $this->assertEquals(true, $obj->getRdlpascii());
+        $this->assertTrue($obj->getRdlpascii());
     }
 
     /**
@@ -2587,7 +2587,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setRdlpemployes(true);
-        $this->assertEquals(true, $obj->getRdlpemployes());
+        $this->assertTrue($obj->getRdlpemployes());
     }
 
     /**
@@ -2639,7 +2639,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setRegroupLibEdBul(true);
-        $this->assertEquals(true, $obj->getRegroupLibEdBul());
+        $this->assertTrue($obj->getRegroupLibEdBul());
     }
 
     /**
@@ -2665,7 +2665,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setRetraite97(true);
-        $this->assertEquals(true, $obj->getRetraite97());
+        $this->assertTrue($obj->getRetraite97());
     }
 
     /**
@@ -2691,7 +2691,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setSaisieIndiceBul(true);
-        $this->assertEquals(true, $obj->getSaisieIndiceBul());
+        $this->assertTrue($obj->getSaisieIndiceBul());
     }
 
     /**
@@ -2704,7 +2704,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setSautPage(true);
-        $this->assertEquals(true, $obj->getSautPage());
+        $this->assertTrue($obj->getSautPage());
     }
 
     /**
@@ -2743,7 +2743,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setStcAuto(true);
-        $this->assertEquals(true, $obj->getStcAuto());
+        $this->assertTrue($obj->getStcAuto());
     }
 
     /**
@@ -2756,7 +2756,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setTabBordTriEtablissement(true);
-        $this->assertEquals(true, $obj->getTabBordTriEtablissement());
+        $this->assertTrue($obj->getTabBordTriEtablissement());
     }
 
     /**
@@ -2769,7 +2769,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setTabBordTriService(true);
-        $this->assertEquals(true, $obj->getTabBordTriService());
+        $this->assertTrue($obj->getTabBordTriService());
     }
 
     /**
@@ -2808,7 +2808,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setTdsEuro(true);
-        $this->assertEquals(true, $obj->getTdsEuro());
+        $this->assertTrue($obj->getTdsEuro());
     }
 
     /**
@@ -2886,7 +2886,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setTransfertTdsEmp(true);
-        $this->assertEquals(true, $obj->getTransfertTdsEmp());
+        $this->assertTrue($obj->getTransfertTdsEmp());
     }
 
     /**
@@ -3159,7 +3159,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setUtilisePdpQuadra(true);
-        $this->assertEquals(true, $obj->getUtilisePdpQuadra());
+        $this->assertTrue($obj->getUtilisePdpQuadra());
     }
 
     /**
@@ -3172,7 +3172,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setUtilisePdpQuadra2(true);
-        $this->assertEquals(true, $obj->getUtilisePdpQuadra2());
+        $this->assertTrue($obj->getUtilisePdpQuadra2());
     }
 
     /**
@@ -3185,7 +3185,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setValCpBulletin(true);
-        $this->assertEquals(true, $obj->getValCpBulletin());
+        $this->assertTrue($obj->getValCpBulletin());
     }
 
     /**
@@ -3276,7 +3276,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setVirFonctionPublique(true);
-        $this->assertEquals(true, $obj->getVirFonctionPublique());
+        $this->assertTrue($obj->getVirFonctionPublique());
     }
 
     /**
@@ -3315,7 +3315,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setVirementCrLf(true);
-        $this->assertEquals(true, $obj->getVirementCrLf());
+        $this->assertTrue($obj->getVirementCrLf());
     }
 
     /**
@@ -3341,7 +3341,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
         $obj = new ConstantesEntreprise();
 
         $obj->setWebPrioritaire(true);
-        $this->assertEquals(true, $obj->getWebPrioritaire());
+        $this->assertTrue($obj->getWebPrioritaire());
     }
 
     /**

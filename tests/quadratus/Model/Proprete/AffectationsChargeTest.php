@@ -34,7 +34,7 @@ class AffectationsChargeTest extends AbstractTestCase {
         $obj = new AffectationsCharge();
 
         $obj->setAjoutCharge(true);
-        $this->assertEquals(true, $obj->getAjoutCharge());
+        $this->assertTrue($obj->getAjoutCharge());
     }
 
     /**
@@ -47,7 +47,7 @@ class AffectationsChargeTest extends AbstractTestCase {
         $obj = new AffectationsCharge();
 
         $obj->setAou(true);
-        $this->assertEquals(true, $obj->getAou());
+        $this->assertTrue($obj->getAou());
     }
 
     /**
@@ -60,7 +60,7 @@ class AffectationsChargeTest extends AbstractTestCase {
         $obj = new AffectationsCharge();
 
         $obj->setAvr(true);
-        $this->assertEquals(true, $obj->getAvr());
+        $this->assertTrue($obj->getAvr());
     }
 
     /**
@@ -73,7 +73,7 @@ class AffectationsChargeTest extends AbstractTestCase {
         $obj = new AffectationsCharge();
 
         $obj->setChargeMensualisee(true);
-        $this->assertEquals(true, $obj->getChargeMensualisee());
+        $this->assertTrue($obj->getChargeMensualisee());
     }
 
     /**
@@ -86,7 +86,7 @@ class AffectationsChargeTest extends AbstractTestCase {
         $obj = new AffectationsCharge();
 
         $obj->setChargeQFact(true);
-        $this->assertEquals(true, $obj->getChargeQFact());
+        $this->assertTrue($obj->getChargeQFact());
     }
 
     /**
@@ -99,7 +99,7 @@ class AffectationsChargeTest extends AbstractTestCase {
         $obj = new AffectationsCharge();
 
         $obj->setChargeValidee(true);
-        $this->assertEquals(true, $obj->getChargeValidee());
+        $this->assertTrue($obj->getChargeValidee());
     }
 
     /**
@@ -216,7 +216,7 @@ class AffectationsChargeTest extends AbstractTestCase {
         $obj = new AffectationsCharge();
 
         $obj->setDec(true);
-        $this->assertEquals(true, $obj->getDec());
+        $this->assertTrue($obj->getDec());
     }
 
     /**
@@ -229,7 +229,7 @@ class AffectationsChargeTest extends AbstractTestCase {
         $obj = new AffectationsCharge();
 
         $obj->setFev(true);
-        $this->assertEquals(true, $obj->getFev());
+        $this->assertTrue($obj->getFev());
     }
 
     /**
@@ -242,7 +242,7 @@ class AffectationsChargeTest extends AbstractTestCase {
         $obj = new AffectationsCharge();
 
         $obj->setJan(true);
-        $this->assertEquals(true, $obj->getJan());
+        $this->assertTrue($obj->getJan());
     }
 
     /**
@@ -255,7 +255,7 @@ class AffectationsChargeTest extends AbstractTestCase {
         $obj = new AffectationsCharge();
 
         $obj->setJuil(true);
-        $this->assertEquals(true, $obj->getJuil());
+        $this->assertTrue($obj->getJuil());
     }
 
     /**
@@ -268,7 +268,7 @@ class AffectationsChargeTest extends AbstractTestCase {
         $obj = new AffectationsCharge();
 
         $obj->setJuin(true);
-        $this->assertEquals(true, $obj->getJuin());
+        $this->assertTrue($obj->getJuin());
     }
 
     /**
@@ -281,7 +281,7 @@ class AffectationsChargeTest extends AbstractTestCase {
         $obj = new AffectationsCharge();
 
         $obj->setMai(true);
-        $this->assertEquals(true, $obj->getMai());
+        $this->assertTrue($obj->getMai());
     }
 
     /**
@@ -294,7 +294,7 @@ class AffectationsChargeTest extends AbstractTestCase {
         $obj = new AffectationsCharge();
 
         $obj->setMar(true);
-        $this->assertEquals(true, $obj->getMar());
+        $this->assertTrue($obj->getMar());
     }
 
     /**
@@ -320,7 +320,7 @@ class AffectationsChargeTest extends AbstractTestCase {
         $obj = new AffectationsCharge();
 
         $obj->setNov(true);
-        $this->assertEquals(true, $obj->getNov());
+        $this->assertTrue($obj->getNov());
     }
 
     /**
@@ -333,7 +333,7 @@ class AffectationsChargeTest extends AbstractTestCase {
         $obj = new AffectationsCharge();
 
         $obj->setOct(true);
-        $this->assertEquals(true, $obj->getOct());
+        $this->assertTrue($obj->getOct());
     }
 
     /**
@@ -346,7 +346,7 @@ class AffectationsChargeTest extends AbstractTestCase {
         $obj = new AffectationsCharge();
 
         $obj->setOrigineChargeMens(true);
-        $this->assertEquals(true, $obj->getOrigineChargeMens());
+        $this->assertTrue($obj->getOrigineChargeMens());
     }
 
     /**
@@ -393,7 +393,7 @@ class AffectationsChargeTest extends AbstractTestCase {
         $obj = new AffectationsCharge();
 
         $obj->setSep(true);
-        $this->assertEquals(true, $obj->getSep());
+        $this->assertTrue($obj->getSep());
     }
 
     /**

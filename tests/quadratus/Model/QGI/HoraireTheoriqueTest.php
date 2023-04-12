@@ -383,7 +383,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
         $obj = new HoraireTheorique();
 
         $obj->setTDimanche(true);
-        $this->assertEquals(true, $obj->getTDimanche());
+        $this->assertTrue($obj->getTDimanche());
     }
 
     /**
@@ -396,7 +396,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
         $obj = new HoraireTheorique();
 
         $obj->setTJeudi(true);
-        $this->assertEquals(true, $obj->getTJeudi());
+        $this->assertTrue($obj->getTJeudi());
     }
 
     /**
@@ -409,7 +409,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
         $obj = new HoraireTheorique();
 
         $obj->setTLundi(true);
-        $this->assertEquals(true, $obj->getTLundi());
+        $this->assertTrue($obj->getTLundi());
     }
 
     /**
@@ -422,7 +422,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
         $obj = new HoraireTheorique();
 
         $obj->setTMardi(true);
-        $this->assertEquals(true, $obj->getTMardi());
+        $this->assertTrue($obj->getTMardi());
     }
 
     /**
@@ -435,7 +435,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
         $obj = new HoraireTheorique();
 
         $obj->setTMercredi(true);
-        $this->assertEquals(true, $obj->getTMercredi());
+        $this->assertTrue($obj->getTMercredi());
     }
 
     /**
@@ -448,7 +448,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
         $obj = new HoraireTheorique();
 
         $obj->setTSamedi(true);
-        $this->assertEquals(true, $obj->getTSamedi());
+        $this->assertTrue($obj->getTSamedi());
     }
 
     /**
@@ -461,7 +461,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
         $obj = new HoraireTheorique();
 
         $obj->setTVendredi(true);
-        $this->assertEquals(true, $obj->getTVendredi());
+        $this->assertTrue($obj->getTVendredi());
     }
 
     /**

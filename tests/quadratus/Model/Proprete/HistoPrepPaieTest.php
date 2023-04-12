@@ -831,7 +831,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
         $obj = new HistoPrepPaie();
 
         $obj->setYaEuSaisieManuelle(true);
-        $this->assertEquals(true, $obj->getYaEuSaisieManuelle());
+        $this->assertTrue($obj->getYaEuSaisieManuelle());
     }
 
     /**

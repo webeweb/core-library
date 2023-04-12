@@ -58,7 +58,7 @@ class QualifiantsTest extends AbstractTestCase {
         $obj = new Qualifiants();
 
         $obj->setVisuAppels(true);
-        $this->assertEquals(true, $obj->getVisuAppels());
+        $this->assertTrue($obj->getVisuAppels());
     }
 
     /**
@@ -71,7 +71,7 @@ class QualifiantsTest extends AbstractTestCase {
         $obj = new Qualifiants();
 
         $obj->setVisuDocuments(true);
-        $this->assertEquals(true, $obj->getVisuDocuments());
+        $this->assertTrue($obj->getVisuDocuments());
     }
 
     /**
@@ -84,7 +84,7 @@ class QualifiantsTest extends AbstractTestCase {
         $obj = new Qualifiants();
 
         $obj->setVisuEvenements(true);
-        $this->assertEquals(true, $obj->getVisuEvenements());
+        $this->assertTrue($obj->getVisuEvenements());
     }
 
     /**

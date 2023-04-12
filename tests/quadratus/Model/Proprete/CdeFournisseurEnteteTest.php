@@ -327,7 +327,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
         $obj = new CdeFournisseurEntete();
 
         $obj->setEcheanceForcee(true);
-        $this->assertEquals(true, $obj->getEcheanceForcee());
+        $this->assertTrue($obj->getEcheanceForcee());
     }
 
     /**
@@ -353,7 +353,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
         $obj = new CdeFournisseurEntete();
 
         $obj->setFactureEuros(true);
-        $this->assertEquals(true, $obj->getFactureEuros());
+        $this->assertTrue($obj->getFactureEuros());
     }
 
     /**
@@ -708,7 +708,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
         $obj = new CdeFournisseurEntete();
 
         $obj->setSaisirAdresse(true);
-        $this->assertEquals(true, $obj->getSaisirAdresse());
+        $this->assertTrue($obj->getSaisirAdresse());
     }
 
     /**
@@ -721,7 +721,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
         $obj = new CdeFournisseurEntete();
 
         $obj->setSaisirAdresseLivraison(true);
-        $this->assertEquals(true, $obj->getSaisirAdresseLivraison());
+        $this->assertTrue($obj->getSaisirAdresseLivraison());
     }
 
     /**
@@ -734,7 +734,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
         $obj = new CdeFournisseurEntete();
 
         $obj->setSoumisEscompte(true);
-        $this->assertEquals(true, $obj->getSoumisEscompte());
+        $this->assertTrue($obj->getSoumisEscompte());
     }
 
     /**
@@ -747,7 +747,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
         $obj = new CdeFournisseurEntete();
 
         $obj->setSoumisTaxe1(true);
-        $this->assertEquals(true, $obj->getSoumisTaxe1());
+        $this->assertTrue($obj->getSoumisTaxe1());
     }
 
     /**
@@ -760,7 +760,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
         $obj = new CdeFournisseurEntete();
 
         $obj->setSoumisTaxe2(true);
-        $this->assertEquals(true, $obj->getSoumisTaxe2());
+        $this->assertTrue($obj->getSoumisTaxe2());
     }
 
     /**
@@ -773,7 +773,7 @@ class CdeFournisseurEnteteTest extends AbstractTestCase {
         $obj = new CdeFournisseurEntete();
 
         $obj->setSoumisTaxe3(true);
-        $this->assertEquals(true, $obj->getSoumisTaxe3());
+        $this->assertTrue($obj->getSoumisTaxe3());
     }
 
     /**

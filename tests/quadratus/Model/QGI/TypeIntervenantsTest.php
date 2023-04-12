@@ -32,7 +32,7 @@ class TypeIntervenantsTest extends AbstractTestCase {
         $obj = new TypeIntervenants();
 
         $obj->setAccesLibre(true);
-        $this->assertEquals(true, $obj->getAccesLibre());
+        $this->assertTrue($obj->getAccesLibre());
     }
 
     /**
@@ -58,7 +58,7 @@ class TypeIntervenantsTest extends AbstractTestCase {
         $obj = new TypeIntervenants();
 
         $obj->setIncrementAuto(true);
-        $this->assertEquals(true, $obj->getIncrementAuto());
+        $this->assertTrue($obj->getIncrementAuto());
     }
 
     /**

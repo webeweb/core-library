@@ -34,7 +34,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setAccesAutoriseBonsTravaux(true);
-        $this->assertEquals(true, $obj->getAccesAutoriseBonsTravaux());
+        $this->assertTrue($obj->getAccesAutoriseBonsTravaux());
     }
 
     /**
@@ -47,7 +47,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setAccesAutorisePlanFacturation(true);
-        $this->assertEquals(true, $obj->getAccesAutorisePlanFacturation());
+        $this->assertTrue($obj->getAccesAutorisePlanFacturation());
     }
 
     /**
@@ -60,7 +60,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setAccesAutorisePlanTache(true);
-        $this->assertEquals(true, $obj->getAccesAutorisePlanTache());
+        $this->assertTrue($obj->getAccesAutorisePlanTache());
     }
 
     /**
@@ -73,7 +73,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setAccesCurDossOnly(true);
-        $this->assertEquals(true, $obj->getAccesCurDossOnly());
+        $this->assertTrue($obj->getAccesCurDossOnly());
     }
 
     /**
@@ -86,7 +86,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setAccesDocsCab(true);
-        $this->assertEquals(true, $obj->getAccesDocsCab());
+        $this->assertTrue($obj->getAccesDocsCab());
     }
 
     /**
@@ -125,7 +125,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setAccesGestionaireStatsCroisees(true);
-        $this->assertEquals(true, $obj->getAccesGestionaireStatsCroisees());
+        $this->assertTrue($obj->getAccesGestionaireStatsCroisees());
     }
 
     /**
@@ -151,7 +151,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setAccesStatCab(true);
-        $this->assertEquals(true, $obj->getAccesStatCab());
+        $this->assertTrue($obj->getAccesStatCab());
     }
 
     /**
@@ -164,7 +164,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setAnnulationAffaire(true);
-        $this->assertEquals(true, $obj->getAnnulationAffaire());
+        $this->assertTrue($obj->getAnnulationAffaire());
     }
 
     /**
@@ -177,7 +177,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setAnnulationArticle(true);
-        $this->assertEquals(true, $obj->getAnnulationArticle());
+        $this->assertTrue($obj->getAnnulationArticle());
     }
 
     /**
@@ -190,7 +190,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setAnnulationBonsTravaux(true);
-        $this->assertEquals(true, $obj->getAnnulationBonsTravaux());
+        $this->assertTrue($obj->getAnnulationBonsTravaux());
     }
 
     /**
@@ -203,7 +203,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setAnnulationChantier(true);
-        $this->assertEquals(true, $obj->getAnnulationChantier());
+        $this->assertTrue($obj->getAnnulationChantier());
     }
 
     /**
@@ -216,7 +216,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setAnnulationClient(true);
-        $this->assertEquals(true, $obj->getAnnulationClient());
+        $this->assertTrue($obj->getAnnulationClient());
     }
 
     /**
@@ -229,7 +229,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setAnnulationCommission(true);
-        $this->assertEquals(true, $obj->getAnnulationCommission());
+        $this->assertTrue($obj->getAnnulationCommission());
     }
 
     /**
@@ -242,7 +242,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setAnnulationDossierCpta(true);
-        $this->assertEquals(true, $obj->getAnnulationDossierCpta());
+        $this->assertTrue($obj->getAnnulationDossierCpta());
     }
 
     /**
@@ -255,7 +255,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setAnnulationDossierFact(true);
-        $this->assertEquals(true, $obj->getAnnulationDossierFact());
+        $this->assertTrue($obj->getAnnulationDossierFact());
     }
 
     /**
@@ -268,7 +268,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setAnnulationDossierPaie(true);
-        $this->assertEquals(true, $obj->getAnnulationDossierPaie());
+        $this->assertTrue($obj->getAnnulationDossierPaie());
     }
 
     /**
@@ -281,7 +281,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setAnnulationFournisseur(true);
-        $this->assertEquals(true, $obj->getAnnulationFournisseur());
+        $this->assertTrue($obj->getAnnulationFournisseur());
     }
 
     /**
@@ -294,7 +294,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setAnnulationPlanFacturation(true);
-        $this->assertEquals(true, $obj->getAnnulationPlanFacturation());
+        $this->assertTrue($obj->getAnnulationPlanFacturation());
     }
 
     /**
@@ -307,7 +307,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setAnnulationPlanTache(true);
-        $this->assertEquals(true, $obj->getAnnulationPlanTache());
+        $this->assertTrue($obj->getAnnulationPlanTache());
     }
 
     /**
@@ -320,7 +320,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setAnnulationTache(true);
-        $this->assertEquals(true, $obj->getAnnulationTache());
+        $this->assertTrue($obj->getAnnulationTache());
     }
 
     /**
@@ -333,7 +333,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setAnnulationTarif(true);
-        $this->assertEquals(true, $obj->getAnnulationTarif());
+        $this->assertTrue($obj->getAnnulationTarif());
     }
 
     /**
@@ -346,7 +346,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setArticlesLstPersoAccesGestionModifiables(true);
-        $this->assertEquals(true, $obj->getArticlesLstPersoAccesGestionModifiables());
+        $this->assertTrue($obj->getArticlesLstPersoAccesGestionModifiables());
     }
 
     /**
@@ -359,7 +359,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setArticlesLstPersoAccesGestionnaire(true);
-        $this->assertEquals(true, $obj->getArticlesLstPersoAccesGestionnaire());
+        $this->assertTrue($obj->getArticlesLstPersoAccesGestionnaire());
     }
 
     /**
@@ -372,7 +372,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setArticlesLstPersoChampsModif(true);
-        $this->assertEquals(true, $obj->getArticlesLstPersoChampsModif());
+        $this->assertTrue($obj->getArticlesLstPersoChampsModif());
     }
 
     /**
@@ -385,7 +385,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setArticlesLstPersoCopieColonne(true);
-        $this->assertEquals(true, $obj->getArticlesLstPersoCopieColonne());
+        $this->assertTrue($obj->getArticlesLstPersoCopieColonne());
     }
 
     /**
@@ -398,7 +398,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setArticlesLstPersoInterdireCreat(true);
-        $this->assertEquals(true, $obj->getArticlesLstPersoInterdireCreat());
+        $this->assertTrue($obj->getArticlesLstPersoInterdireCreat());
     }
 
     /**
@@ -411,7 +411,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setAutoriseSaisieTpsColonnes(true);
-        $this->assertEquals(true, $obj->getAutoriseSaisieTpsColonnes());
+        $this->assertTrue($obj->getAutoriseSaisieTpsColonnes());
     }
 
     /**
@@ -437,7 +437,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setBlocageEdCli(true);
-        $this->assertEquals(true, $obj->getBlocageEdCli());
+        $this->assertTrue($obj->getBlocageEdCli());
     }
 
     /**
@@ -775,7 +775,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setCreationAffaire(true);
-        $this->assertEquals(true, $obj->getCreationAffaire());
+        $this->assertTrue($obj->getCreationAffaire());
     }
 
     /**
@@ -788,7 +788,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setCreationArticle(true);
-        $this->assertEquals(true, $obj->getCreationArticle());
+        $this->assertTrue($obj->getCreationArticle());
     }
 
     /**
@@ -801,7 +801,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setCreationBonsTravaux(true);
-        $this->assertEquals(true, $obj->getCreationBonsTravaux());
+        $this->assertTrue($obj->getCreationBonsTravaux());
     }
 
     /**
@@ -814,7 +814,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setCreationChantier(true);
-        $this->assertEquals(true, $obj->getCreationChantier());
+        $this->assertTrue($obj->getCreationChantier());
     }
 
     /**
@@ -827,7 +827,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setCreationClient(true);
-        $this->assertEquals(true, $obj->getCreationClient());
+        $this->assertTrue($obj->getCreationClient());
     }
 
     /**
@@ -840,7 +840,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setCreationCommission(true);
-        $this->assertEquals(true, $obj->getCreationCommission());
+        $this->assertTrue($obj->getCreationCommission());
     }
 
     /**
@@ -853,7 +853,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setCreationDossierCpta(true);
-        $this->assertEquals(true, $obj->getCreationDossierCpta());
+        $this->assertTrue($obj->getCreationDossierCpta());
     }
 
     /**
@@ -866,7 +866,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setCreationDossierFact(true);
-        $this->assertEquals(true, $obj->getCreationDossierFact());
+        $this->assertTrue($obj->getCreationDossierFact());
     }
 
     /**
@@ -879,7 +879,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setCreationDossierPaie(true);
-        $this->assertEquals(true, $obj->getCreationDossierPaie());
+        $this->assertTrue($obj->getCreationDossierPaie());
     }
 
     /**
@@ -892,7 +892,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setCreationFournisseur(true);
-        $this->assertEquals(true, $obj->getCreationFournisseur());
+        $this->assertTrue($obj->getCreationFournisseur());
     }
 
     /**
@@ -905,7 +905,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setCreationPlanFacturation(true);
-        $this->assertEquals(true, $obj->getCreationPlanFacturation());
+        $this->assertTrue($obj->getCreationPlanFacturation());
     }
 
     /**
@@ -918,7 +918,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setCreationPlanTache(true);
-        $this->assertEquals(true, $obj->getCreationPlanTache());
+        $this->assertTrue($obj->getCreationPlanTache());
     }
 
     /**
@@ -931,7 +931,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setCreationTache(true);
-        $this->assertEquals(true, $obj->getCreationTache());
+        $this->assertTrue($obj->getCreationTache());
     }
 
     /**
@@ -944,7 +944,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setCreationTarif(true);
-        $this->assertEquals(true, $obj->getCreationTarif());
+        $this->assertTrue($obj->getCreationTarif());
     }
 
     /**
@@ -1042,7 +1042,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setDesactiverFiltreMsg(true);
-        $this->assertEquals(true, $obj->getDesactiverFiltreMsg());
+        $this->assertTrue($obj->getDesactiverFiltreMsg());
     }
 
     /**
@@ -1055,7 +1055,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setDisponible(true);
-        $this->assertEquals(true, $obj->getDisponible());
+        $this->assertTrue($obj->getDisponible());
     }
 
     /**
@@ -1094,7 +1094,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setDroitParamEmailsConfidentiels(true);
-        $this->assertEquals(true, $obj->getDroitParamEmailsConfidentiels());
+        $this->assertTrue($obj->getDroitParamEmailsConfidentiels());
     }
 
     /**
@@ -1107,7 +1107,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setDroitSyncPort(true);
-        $this->assertEquals(true, $obj->getDroitSyncPort());
+        $this->assertTrue($obj->getDroitSyncPort());
     }
 
     /**
@@ -1120,7 +1120,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setDroitSyncQProp(true);
-        $this->assertEquals(true, $obj->getDroitSyncQProp());
+        $this->assertTrue($obj->getDroitSyncQProp());
     }
 
     /**
@@ -1146,7 +1146,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setEmailActiverAideSaisie(true);
-        $this->assertEquals(true, $obj->getEmailActiverAideSaisie());
+        $this->assertTrue($obj->getEmailActiverAideSaisie());
     }
 
     /**
@@ -1172,7 +1172,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setEmailAutoClotureImap(true);
-        $this->assertEquals(true, $obj->getEmailAutoClotureImap());
+        $this->assertTrue($obj->getEmailAutoClotureImap());
     }
 
     /**
@@ -1250,7 +1250,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setEmailRedirAuto(true);
-        $this->assertEquals(true, $obj->getEmailRedirAuto());
+        $this->assertTrue($obj->getEmailRedirAuto());
     }
 
     /**
@@ -1289,7 +1289,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setEmailReponseAuto(true);
-        $this->assertEquals(true, $obj->getEmailReponseAuto());
+        $this->assertTrue($obj->getEmailReponseAuto());
     }
 
     /**
@@ -1315,7 +1315,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setEmailRrActive(true);
-        $this->assertEquals(true, $obj->getEmailRrActive());
+        $this->assertTrue($obj->getEmailRrActive());
     }
 
     /**
@@ -1341,7 +1341,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setEmailSurServeur(true);
-        $this->assertEquals(true, $obj->getEmailSurServeur());
+        $this->assertTrue($obj->getEmailSurServeur());
     }
 
     /**
@@ -1393,7 +1393,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setFictif(true);
-        $this->assertEquals(true, $obj->getFictif());
+        $this->assertTrue($obj->getFictif());
     }
 
     /**
@@ -1432,7 +1432,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setInterdictionPwd(true);
-        $this->assertEquals(true, $obj->getInterdictionPwd());
+        $this->assertTrue($obj->getInterdictionPwd());
     }
 
     /**
@@ -1445,7 +1445,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setInterdictionVueFacturation(true);
-        $this->assertEquals(true, $obj->getInterdictionVueFacturation());
+        $this->assertTrue($obj->getInterdictionVueFacturation());
     }
 
     /**
@@ -1458,7 +1458,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setInterdireAccesArchivesCpta(true);
-        $this->assertEquals(true, $obj->getInterdireAccesArchivesCpta());
+        $this->assertTrue($obj->getInterdireAccesArchivesCpta());
     }
 
     /**
@@ -1471,7 +1471,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setInterdireAccesArchivesPaie(true);
-        $this->assertEquals(true, $obj->getInterdireAccesArchivesPaie());
+        $this->assertTrue($obj->getInterdireAccesArchivesPaie());
     }
 
     /**
@@ -1484,7 +1484,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setInterdireAccesEditionBalance(true);
-        $this->assertEquals(true, $obj->getInterdireAccesEditionBalance());
+        $this->assertTrue($obj->getInterdireAccesEditionBalance());
     }
 
     /**
@@ -1497,7 +1497,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setInterdireAccesEntete(true);
-        $this->assertEquals(true, $obj->getInterdireAccesEntete());
+        $this->assertTrue($obj->getInterdireAccesEntete());
     }
 
     /**
@@ -1510,7 +1510,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setInterdireAccesSuppDocArch(true);
-        $this->assertEquals(true, $obj->getInterdireAccesSuppDocArch());
+        $this->assertTrue($obj->getInterdireAccesSuppDocArch());
     }
 
     /**
@@ -1523,7 +1523,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setInterdireEditionValoriseJrnTemps(true);
-        $this->assertEquals(true, $obj->getInterdireEditionValoriseJrnTemps());
+        $this->assertTrue($obj->getInterdireEditionValoriseJrnTemps());
     }
 
     /**
@@ -1536,7 +1536,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setInterdireEnvoiPostit(true);
-        $this->assertEquals(true, $obj->getInterdireEnvoiPostit());
+        $this->assertTrue($obj->getInterdireEnvoiPostit());
     }
 
     /**
@@ -1549,7 +1549,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setInterdireModifAffCli(true);
-        $this->assertEquals(true, $obj->getInterdireModifAffCli());
+        $this->assertTrue($obj->getInterdireModifAffCli());
     }
 
     /**
@@ -1562,7 +1562,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setInterdireModifDepot(true);
-        $this->assertEquals(true, $obj->getInterdireModifDepot());
+        $this->assertTrue($obj->getInterdireModifDepot());
     }
 
     /**
@@ -1575,7 +1575,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setInterdirePubliDocWeb(true);
-        $this->assertEquals(true, $obj->getInterdirePubliDocWeb());
+        $this->assertTrue($obj->getInterdirePubliDocWeb());
     }
 
     /**
@@ -1588,7 +1588,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setInterim(true);
-        $this->assertEquals(true, $obj->getInterim());
+        $this->assertTrue($obj->getInterim());
     }
 
     /**
@@ -1601,7 +1601,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setIsGroupe(true);
-        $this->assertEquals(true, $obj->getIsGroupe());
+        $this->assertTrue($obj->getIsGroupe());
     }
 
     /**
@@ -1614,7 +1614,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setIsProfilMessages(true);
-        $this->assertEquals(true, $obj->getIsProfilMessages());
+        $this->assertTrue($obj->getIsProfilMessages());
     }
 
     /**
@@ -1627,7 +1627,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setLimiterVisuAgenda(true);
-        $this->assertEquals(true, $obj->getLimiterVisuAgenda());
+        $this->assertTrue($obj->getLimiterVisuAgenda());
     }
 
     /**
@@ -1640,7 +1640,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setMasquerFournisseurs(true);
-        $this->assertEquals(true, $obj->getMasquerFournisseurs());
+        $this->assertTrue($obj->getMasquerFournisseurs());
     }
 
     /**
@@ -1757,7 +1757,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setModifDroitsAsp(true);
-        $this->assertEquals(true, $obj->getModifDroitsAsp());
+        $this->assertTrue($obj->getModifDroitsAsp());
     }
 
     /**
@@ -1770,7 +1770,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setModifEnVue(true);
-        $this->assertEquals(true, $obj->getModifEnVue());
+        $this->assertTrue($obj->getModifEnVue());
     }
 
     /**
@@ -1861,7 +1861,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setMsgRedirAuto(true);
-        $this->assertEquals(true, $obj->getMsgRedirAuto());
+        $this->assertTrue($obj->getMsgRedirAuto());
     }
 
     /**
@@ -1874,7 +1874,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setNivConfEmpPropreteRestreint(true);
-        $this->assertEquals(true, $obj->getNivConfEmpPropreteRestreint());
+        $this->assertTrue($obj->getNivConfEmpPropreteRestreint());
     }
 
     /**
@@ -1978,7 +1978,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setPaInvisible(true);
-        $this->assertEquals(true, $obj->getPaInvisible());
+        $this->assertTrue($obj->getPaInvisible());
     }
 
     /**
@@ -2017,7 +2017,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setPasAccesQws(true);
-        $this->assertEquals(true, $obj->getPasAccesQws());
+        $this->assertTrue($obj->getPasAccesQws());
     }
 
     /**
@@ -2030,7 +2030,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setPasSaisieDesTemps(true);
-        $this->assertEquals(true, $obj->getPasSaisieDesTemps());
+        $this->assertTrue($obj->getPasSaisieDesTemps());
     }
 
     /**
@@ -2043,7 +2043,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setPasSaisieDesTempsAuto(true);
-        $this->assertEquals(true, $obj->getPasSaisieDesTempsAuto());
+        $this->assertTrue($obj->getPasSaisieDesTempsAuto());
     }
 
     /**
@@ -2069,7 +2069,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setPresent(true);
-        $this->assertEquals(true, $obj->getPresent());
+        $this->assertTrue($obj->getPresent());
     }
 
     /**
@@ -2082,7 +2082,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setPrevenuNouveauCd(true);
-        $this->assertEquals(true, $obj->getPrevenuNouveauCd());
+        $this->assertTrue($obj->getPrevenuNouveauCd());
     }
 
     /**
@@ -2147,7 +2147,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setRestrictAccesPieces(true);
-        $this->assertEquals(true, $obj->getRestrictAccesPieces());
+        $this->assertTrue($obj->getRestrictAccesPieces());
     }
 
     /**
@@ -2160,7 +2160,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setRestrictAccesStats(true);
-        $this->assertEquals(true, $obj->getRestrictAccesStats());
+        $this->assertTrue($obj->getRestrictAccesStats());
     }
 
     /**
@@ -2186,7 +2186,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setSaisiePvInterdite(true);
-        $this->assertEquals(true, $obj->getSaisiePvInterdite());
+        $this->assertTrue($obj->getSaisiePvInterdite());
     }
 
     /**
@@ -2212,7 +2212,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setSelArtCollab(true);
-        $this->assertEquals(true, $obj->getSelArtCollab());
+        $this->assertTrue($obj->getSelArtCollab());
     }
 
     /**
@@ -2225,7 +2225,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setSelAvLstPersoAccesGestionModifiables(true);
-        $this->assertEquals(true, $obj->getSelAvLstPersoAccesGestionModifiables());
+        $this->assertTrue($obj->getSelAvLstPersoAccesGestionModifiables());
     }
 
     /**
@@ -2238,7 +2238,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setSelAvLstPersoAccesGestionnaire(true);
-        $this->assertEquals(true, $obj->getSelAvLstPersoAccesGestionnaire());
+        $this->assertTrue($obj->getSelAvLstPersoAccesGestionnaire());
     }
 
     /**
@@ -2251,7 +2251,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setSelAvLstPersoChampsModif(true);
-        $this->assertEquals(true, $obj->getSelAvLstPersoChampsModif());
+        $this->assertTrue($obj->getSelAvLstPersoChampsModif());
     }
 
     /**
@@ -2264,7 +2264,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setSelAvLstPersoCopieColonne(true);
-        $this->assertEquals(true, $obj->getSelAvLstPersoCopieColonne());
+        $this->assertTrue($obj->getSelAvLstPersoCopieColonne());
     }
 
     /**
@@ -2277,7 +2277,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setSelAvLstPersoInterdireCreat(true);
-        $this->assertEquals(true, $obj->getSelAvLstPersoInterdireCreat());
+        $this->assertTrue($obj->getSelAvLstPersoInterdireCreat());
     }
 
     /**
@@ -2290,7 +2290,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setSelCliCollab(true);
-        $this->assertEquals(true, $obj->getSelCliCollab());
+        $this->assertTrue($obj->getSelCliCollab());
     }
 
     /**
@@ -2303,7 +2303,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setSelFrnCollab(true);
-        $this->assertEquals(true, $obj->getSelFrnCollab());
+        $this->assertTrue($obj->getSelFrnCollab());
     }
 
     /**
@@ -2355,7 +2355,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setSuiviMessages(true);
-        $this->assertEquals(true, $obj->getSuiviMessages());
+        $this->assertTrue($obj->getSuiviMessages());
     }
 
     /**
@@ -2368,7 +2368,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setSuperviseur(true);
-        $this->assertEquals(true, $obj->getSuperviseur());
+        $this->assertTrue($obj->getSuperviseur());
     }
 
     /**
@@ -2381,7 +2381,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setSyncMso(true);
-        $this->assertEquals(true, $obj->getSyncMso());
+        $this->assertTrue($obj->getSyncMso());
     }
 
     /**
@@ -2485,7 +2485,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setTpPasControler(true);
-        $this->assertEquals(true, $obj->getTpPasControler());
+        $this->assertTrue($obj->getTpPasControler());
     }
 
     /**
@@ -2498,7 +2498,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setTpPasJournalTemps(true);
-        $this->assertEquals(true, $obj->getTpPasJournalTemps());
+        $this->assertTrue($obj->getTpPasJournalTemps());
     }
 
     /**
@@ -2511,7 +2511,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setTpPasNotesDeFrais(true);
-        $this->assertEquals(true, $obj->getTpPasNotesDeFrais());
+        $this->assertTrue($obj->getTpPasNotesDeFrais());
     }
 
     /**
@@ -2524,7 +2524,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setTpPasTpsValide(true);
-        $this->assertEquals(true, $obj->getTpPasTpsValide());
+        $this->assertTrue($obj->getTpPasTpsValide());
     }
 
     /**
@@ -2563,7 +2563,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setTxComInvisible(true);
-        $this->assertEquals(true, $obj->getTxComInvisible());
+        $this->assertTrue($obj->getTxComInvisible());
     }
 
     /**
@@ -2628,7 +2628,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setUseMailGeneric(true);
-        $this->assertEquals(true, $obj->getUseMailGeneric());
+        $this->assertTrue($obj->getUseMailGeneric());
     }
 
     /**
@@ -2641,7 +2641,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setVisualisationFicheCabinet(true);
-        $this->assertEquals(true, $obj->getVisualisationFicheCabinet());
+        $this->assertTrue($obj->getVisualisationFicheCabinet());
     }
 
     /**
@@ -2654,7 +2654,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setVueComDroitReaffect(true);
-        $this->assertEquals(true, $obj->getVueComDroitReaffect());
+        $this->assertTrue($obj->getVueComDroitReaffect());
     }
 
     /**
@@ -2667,7 +2667,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setVueDevisDroitReaffect(true);
-        $this->assertEquals(true, $obj->getVueDevisDroitReaffect());
+        $this->assertTrue($obj->getVueDevisDroitReaffect());
     }
 
     /**
@@ -2680,7 +2680,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setVueDevisDroitSuppr(true);
-        $this->assertEquals(true, $obj->getVueDevisDroitSuppr());
+        $this->assertTrue($obj->getVueDevisDroitSuppr());
     }
 
     /**
@@ -2693,7 +2693,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setVueDevisDroitValid(true);
-        $this->assertEquals(true, $obj->getVueDevisDroitValid());
+        $this->assertTrue($obj->getVueDevisDroitValid());
     }
 
     /**
@@ -2706,7 +2706,7 @@ class CollaborateursTest extends AbstractTestCase {
         $obj = new Collaborateurs();
 
         $obj->setYaDroitsCollab(true);
-        $this->assertEquals(true, $obj->getYaDroitsCollab());
+        $this->assertTrue($obj->getYaDroitsCollab());
     }
 
     /**

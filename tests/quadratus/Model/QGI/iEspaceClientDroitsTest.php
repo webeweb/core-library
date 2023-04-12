@@ -71,7 +71,7 @@ class iEspaceClientDroitsTest extends AbstractTestCase {
         $obj = new iEspaceClientDroits();
 
         $obj->setFctDocuments(true);
-        $this->assertEquals(true, $obj->getFctDocuments());
+        $this->assertTrue($obj->getFctDocuments());
     }
 
     /**
@@ -136,7 +136,7 @@ class iEspaceClientDroitsTest extends AbstractTestCase {
         $obj = new iEspaceClientDroits();
 
         $obj->setFctInfos(true);
-        $this->assertEquals(true, $obj->getFctInfos());
+        $this->assertTrue($obj->getFctInfos());
     }
 
     /**

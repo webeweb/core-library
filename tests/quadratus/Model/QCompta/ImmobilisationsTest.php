@@ -177,7 +177,7 @@ class ImmobilisationsTest extends AbstractTestCase {
         $obj = new Immobilisations();
 
         $obj->setAdGarderDotSaisie(true);
-        $this->assertEquals(true, $obj->getAdGarderDotSaisie());
+        $this->assertTrue($obj->getAdGarderDotSaisie());
     }
 
     /**
@@ -333,7 +333,7 @@ class ImmobilisationsTest extends AbstractTestCase {
         $obj = new Immobilisations();
 
         $obj->setAfsii(true);
-        $this->assertEquals(true, $obj->getAfsii());
+        $this->assertTrue($obj->getAfsii());
     }
 
     /**
@@ -502,7 +502,7 @@ class ImmobilisationsTest extends AbstractTestCase {
         $obj = new Immobilisations();
 
         $obj->setCrIsDot(true);
-        $this->assertEquals(true, $obj->getCrIsDot());
+        $this->assertTrue($obj->getCrIsDot());
     }
 
     /**
@@ -515,7 +515,7 @@ class ImmobilisationsTest extends AbstractTestCase {
         $obj = new Immobilisations();
 
         $obj->setCrr151Motif(true);
-        $this->assertEquals(true, $obj->getCrr151Motif());
+        $this->assertTrue($obj->getCrr151Motif());
     }
 
     /**
@@ -756,7 +756,7 @@ class ImmobilisationsTest extends AbstractTestCase {
         $obj = new Immobilisations();
 
         $obj->setDin(true);
-        $this->assertEquals(true, $obj->getDin());
+        $this->assertTrue($obj->getDin());
     }
 
     /**
@@ -860,7 +860,7 @@ class ImmobilisationsTest extends AbstractTestCase {
         $obj = new Immobilisations();
 
         $obj->setMajoration(true);
-        $this->assertEquals(true, $obj->getMajoration());
+        $this->assertTrue($obj->getMajoration());
     }
 
     /**
@@ -873,7 +873,7 @@ class ImmobilisationsTest extends AbstractTestCase {
         $obj = new Immobilisations();
 
         $obj->setMateriauxAgricole(true);
-        $this->assertEquals(true, $obj->getMateriauxAgricole());
+        $this->assertTrue($obj->getMateriauxAgricole());
     }
 
     /**
@@ -1029,7 +1029,7 @@ class ImmobilisationsTest extends AbstractTestCase {
         $obj = new Immobilisations();
 
         $obj->setPilotage(true);
-        $this->assertEquals(true, $obj->getPilotage());
+        $this->assertTrue($obj->getPilotage());
     }
 
     /**
@@ -1094,7 +1094,7 @@ class ImmobilisationsTest extends AbstractTestCase {
         $obj = new Immobilisations();
 
         $obj->setTaxeFonciere(true);
-        $this->assertEquals(true, $obj->getTaxeFonciere());
+        $this->assertTrue($obj->getTaxeFonciere());
     }
 
     /**
@@ -1107,7 +1107,7 @@ class ImmobilisationsTest extends AbstractTestCase {
         $obj = new Immobilisations();
 
         $obj->setTaxePro(true);
-        $this->assertEquals(true, $obj->getTaxePro());
+        $this->assertTrue($obj->getTaxePro());
     }
 
     /**

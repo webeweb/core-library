@@ -305,7 +305,7 @@ class AssurancesTest extends AbstractTestCase {
         $obj = new Assurances();
 
         $obj->setMontantFixe(true);
-        $this->assertEquals(true, $obj->getMontantFixe());
+        $this->assertTrue($obj->getMontantFixe());
     }
 
     /**

@@ -142,7 +142,7 @@ class TramesLignesTest extends AbstractTestCase {
         $obj = new TramesLignes();
 
         $obj->setIsDebit(true);
-        $this->assertEquals(true, $obj->getIsDebit());
+        $this->assertTrue($obj->getIsDebit());
     }
 
     /**

@@ -406,7 +406,7 @@ class FournisseursTest extends AbstractTestCase {
         $obj = new Fournisseurs();
 
         $obj->setFactureEuros(true);
-        $this->assertEquals(true, $obj->getFactureEuros());
+        $this->assertTrue($obj->getFactureEuros());
     }
 
     /**
@@ -822,7 +822,7 @@ class FournisseursTest extends AbstractTestCase {
         $obj = new Fournisseurs();
 
         $obj->setSoumisTaxe1(true);
-        $this->assertEquals(true, $obj->getSoumisTaxe1());
+        $this->assertTrue($obj->getSoumisTaxe1());
     }
 
     /**
@@ -835,7 +835,7 @@ class FournisseursTest extends AbstractTestCase {
         $obj = new Fournisseurs();
 
         $obj->setSoumisTaxe2(true);
-        $this->assertEquals(true, $obj->getSoumisTaxe2());
+        $this->assertTrue($obj->getSoumisTaxe2());
     }
 
     /**
@@ -848,7 +848,7 @@ class FournisseursTest extends AbstractTestCase {
         $obj = new Fournisseurs();
 
         $obj->setSoumisTaxe3(true);
-        $this->assertEquals(true, $obj->getSoumisTaxe3());
+        $this->assertTrue($obj->getSoumisTaxe3());
     }
 
     /**

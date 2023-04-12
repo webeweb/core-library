@@ -32,7 +32,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setActif(true);
-        $this->assertEquals(true, $obj->getActif());
+        $this->assertTrue($obj->getActif());
     }
 
     /**

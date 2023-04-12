@@ -86,7 +86,7 @@ class Dossier4Test extends AbstractTestCase {
         $obj = new Dossier4();
 
         $obj->setArchImp3519Tva(true);
-        $this->assertEquals(true, $obj->getArchImp3519Tva());
+        $this->assertTrue($obj->getArchImp3519Tva());
     }
 
     /**
@@ -461,7 +461,7 @@ class Dossier4Test extends AbstractTestCase {
         $obj = new Dossier4();
 
         $obj->setDecalageQuinzaine(true);
-        $this->assertEquals(true, $obj->getDecalageQuinzaine());
+        $this->assertTrue($obj->getDecalageQuinzaine());
     }
 
     /**
@@ -855,7 +855,7 @@ class Dossier4Test extends AbstractTestCase {
         $obj = new Dossier4();
 
         $obj->setRegimeAgricole(true);
-        $this->assertEquals(true, $obj->getRegimeAgricole());
+        $this->assertTrue($obj->getRegimeAgricole());
     }
 
     /**
@@ -920,7 +920,7 @@ class Dossier4Test extends AbstractTestCase {
         $obj = new Dossier4();
 
         $obj->setTvaAchatsEnc(true);
-        $this->assertEquals(true, $obj->getTvaAchatsEnc());
+        $this->assertTrue($obj->getTvaAchatsEnc());
     }
 
     /**
@@ -963,7 +963,7 @@ class Dossier4Test extends AbstractTestCase {
         $obj = new Dossier4();
 
         $obj->setTvaCascade(true);
-        $this->assertEquals(true, $obj->getTvaCascade());
+        $this->assertTrue($obj->getTvaCascade());
     }
 
     /**
@@ -976,7 +976,7 @@ class Dossier4Test extends AbstractTestCase {
         $obj = new Dossier4();
 
         $obj->setTvaClotureFaite(true);
-        $this->assertEquals(true, $obj->getTvaClotureFaite());
+        $this->assertTrue($obj->getTvaClotureFaite());
     }
 
     /**
@@ -1509,7 +1509,7 @@ class Dossier4Test extends AbstractTestCase {
         $obj = new Dossier4();
 
         $obj->setTvaEmetteurIsCab(true);
-        $this->assertEquals(true, $obj->getTvaEmetteurIsCab());
+        $this->assertTrue($obj->getTvaEmetteurIsCab());
     }
 
     /**
@@ -1539,7 +1539,7 @@ class Dossier4Test extends AbstractTestCase {
         $obj = new Dossier4();
 
         $obj->setTvaEnvoyerMail(true);
-        $this->assertEquals(true, $obj->getTvaEnvoyerMail());
+        $this->assertTrue($obj->getTvaEnvoyerMail());
     }
 
     /**
@@ -1669,7 +1669,7 @@ class Dossier4Test extends AbstractTestCase {
         $obj = new Dossier4();
 
         $obj->setTvaMailPj(true);
-        $this->assertEquals(true, $obj->getTvaMailPj());
+        $this->assertTrue($obj->getTvaMailPj());
     }
 
     /**
@@ -1721,7 +1721,7 @@ class Dossier4Test extends AbstractTestCase {
         $obj = new Dossier4();
 
         $obj->setTvaParametrageOk(true);
-        $this->assertEquals(true, $obj->getTvaParametrageOk());
+        $this->assertTrue($obj->getTvaParametrageOk());
     }
 
     /**
@@ -1760,7 +1760,7 @@ class Dossier4Test extends AbstractTestCase {
         $obj = new Dossier4();
 
         $obj->setTvaRecepteurJeDeclare(true);
-        $this->assertEquals(true, $obj->getTvaRecepteurJeDeclare());
+        $this->assertTrue($obj->getTvaRecepteurJeDeclare());
     }
 
     /**
@@ -1812,7 +1812,7 @@ class Dossier4Test extends AbstractTestCase {
         $obj = new Dossier4();
 
         $obj->setTvaVireCrlf(true);
-        $this->assertEquals(true, $obj->getTvaVireCrlf());
+        $this->assertTrue($obj->getTvaVireCrlf());
     }
 
     /**
@@ -1838,7 +1838,7 @@ class Dossier4Test extends AbstractTestCase {
         $obj = new Dossier4();
 
         $obj->setTvaediEdition(true);
-        $this->assertEquals(true, $obj->getTvaediEdition());
+        $this->assertTrue($obj->getTvaediEdition());
     }
 
     /**
@@ -2046,7 +2046,7 @@ class Dossier4Test extends AbstractTestCase {
         $obj = new Dossier4();
 
         $obj->setVmpGestionEnSaisie(true);
-        $this->assertEquals(true, $obj->getVmpGestionEnSaisie());
+        $this->assertTrue($obj->getVmpGestionEnSaisie());
     }
 
     /**
@@ -2059,7 +2059,7 @@ class Dossier4Test extends AbstractTestCase {
         $obj = new Dossier4();
 
         $obj->setYaRepriseCice(true);
-        $this->assertEquals(true, $obj->getYaRepriseCice());
+        $this->assertTrue($obj->getYaRepriseCice());
     }
 
     /**
@@ -2072,7 +2072,7 @@ class Dossier4Test extends AbstractTestCase {
         $obj = new Dossier4();
 
         $obj->setYaTauxReduit(true);
-        $this->assertEquals(true, $obj->getYaTauxReduit());
+        $this->assertTrue($obj->getYaTauxReduit());
     }
 
     /**
@@ -2085,7 +2085,7 @@ class Dossier4Test extends AbstractTestCase {
         $obj = new Dossier4();
 
         $obj->setbCa12T(true);
-        $this->assertEquals(true, $obj->getbCa12T());
+        $this->assertTrue($obj->getbCa12T());
     }
 
     /**

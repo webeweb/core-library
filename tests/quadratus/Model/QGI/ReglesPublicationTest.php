@@ -58,7 +58,7 @@ class ReglesPublicationTest extends AbstractTestCase {
         $obj = new ReglesPublication();
 
         $obj->setEwsPublication(true);
-        $this->assertEquals(true, $obj->getEwsPublication());
+        $this->assertTrue($obj->getEwsPublication());
     }
 
     /**
@@ -84,7 +84,7 @@ class ReglesPublicationTest extends AbstractTestCase {
         $obj = new ReglesPublication();
 
         $obj->setWebPublication(true);
-        $this->assertEquals(true, $obj->getWebPublication());
+        $this->assertTrue($obj->getWebPublication());
     }
 
     /**

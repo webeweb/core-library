@@ -177,7 +177,7 @@ class DecTva3519Test extends AbstractTestCase {
         $obj = new DecTva3519();
 
         $obj->setCreditCompte(true);
-        $this->assertEquals(true, $obj->getCreditCompte());
+        $this->assertTrue($obj->getCreditCompte());
     }
 
     /**
@@ -190,7 +190,7 @@ class DecTva3519Test extends AbstractTestCase {
         $obj = new DecTva3519();
 
         $obj->setCreditImputer(true);
-        $this->assertEquals(true, $obj->getCreditImputer());
+        $this->assertTrue($obj->getCreditImputer());
     }
 
     /**

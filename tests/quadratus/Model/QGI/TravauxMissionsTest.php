@@ -84,7 +84,7 @@ class TravauxMissionsTest extends AbstractTestCase {
         $obj = new TravauxMissions();
 
         $obj->setDeclarationARediger(true);
-        $this->assertEquals(true, $obj->getDeclarationARediger());
+        $this->assertTrue($obj->getDeclarationARediger());
     }
 
     /**
@@ -162,7 +162,7 @@ class TravauxMissionsTest extends AbstractTestCase {
         $obj = new TravauxMissions();
 
         $obj->setNePasEditer(true);
-        $this->assertEquals(true, $obj->getNePasEditer());
+        $this->assertTrue($obj->getNePasEditer());
     }
 
     /**

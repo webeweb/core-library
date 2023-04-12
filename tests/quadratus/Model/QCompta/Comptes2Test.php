@@ -32,7 +32,7 @@ class Comptes2Test extends AbstractTestCase {
         $obj = new Comptes2();
 
         $obj->setAffacturage(true);
-        $this->assertEquals(true, $obj->getAffacturage());
+        $this->assertTrue($obj->getAffacturage());
     }
 
     /**
@@ -214,7 +214,7 @@ class Comptes2Test extends AbstractTestCase {
         $obj = new Comptes2();
 
         $obj->setEcheanceFinDecade(true);
-        $this->assertEquals(true, $obj->getEcheanceFinDecade());
+        $this->assertTrue($obj->getEcheanceFinDecade());
     }
 
     /**
@@ -227,7 +227,7 @@ class Comptes2Test extends AbstractTestCase {
         $obj = new Comptes2();
 
         $obj->setEcheanceFinQuinzaine(true);
-        $this->assertEquals(true, $obj->getEcheanceFinQuinzaine());
+        $this->assertTrue($obj->getEcheanceFinQuinzaine());
     }
 
     /**
@@ -513,7 +513,7 @@ class Comptes2Test extends AbstractTestCase {
         $obj = new Comptes2();
 
         $obj->setSuiviStock(true);
-        $this->assertEquals(true, $obj->getSuiviStock());
+        $this->assertTrue($obj->getSuiviStock());
     }
 
     /**

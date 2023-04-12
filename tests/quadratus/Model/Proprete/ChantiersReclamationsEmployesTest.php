@@ -34,7 +34,7 @@ class ChantiersReclamationsEmployesTest extends AbstractTestCase {
         $obj = new ChantiersReclamationsEmployes();
 
         $obj->setAlerte(true);
-        $this->assertEquals(true, $obj->getAlerte());
+        $this->assertTrue($obj->getAlerte());
     }
 
     /**

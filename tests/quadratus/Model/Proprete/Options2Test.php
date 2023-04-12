@@ -34,7 +34,7 @@ class Options2Test extends AbstractTestCase {
         $obj = new Options2();
 
         $obj->setBooleen(true);
-        $this->assertEquals(true, $obj->getBooleen());
+        $this->assertTrue($obj->getBooleen());
     }
 
     /**

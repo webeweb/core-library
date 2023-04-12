@@ -47,7 +47,7 @@ class AttestationAemTest extends AbstractTestCase {
         $obj = new AttestationAem();
 
         $obj->setAemInitiale(true);
-        $this->assertEquals(true, $obj->getAemInitiale());
+        $this->assertTrue($obj->getAemInitiale());
     }
 
     /**
@@ -125,7 +125,7 @@ class AttestationAemTest extends AbstractTestCase {
         $obj = new AttestationAem();
 
         $obj->setCertificationSociale(true);
-        $this->assertEquals(true, $obj->getCertificationSociale());
+        $this->assertTrue($obj->getCertificationSociale());
     }
 
     /**
@@ -216,7 +216,7 @@ class AttestationAemTest extends AbstractTestCase {
         $obj = new AttestationAem();
 
         $obj->setContratEnCours(true);
-        $this->assertEquals(true, $obj->getContratEnCours());
+        $this->assertTrue($obj->getContratEnCours());
     }
 
     /**
@@ -505,7 +505,7 @@ class AttestationAemTest extends AbstractTestCase {
         $obj = new AttestationAem();
 
         $obj->setLabelPrestataire(true);
-        $this->assertEquals(true, $obj->getLabelPrestataire());
+        $this->assertTrue($obj->getLabelPrestataire());
     }
 
     /**
@@ -518,7 +518,7 @@ class AttestationAemTest extends AbstractTestCase {
         $obj = new AttestationAem();
 
         $obj->setLicenceSpectacle(true);
-        $this->assertEquals(true, $obj->getLicenceSpectacle());
+        $this->assertTrue($obj->getLicenceSpectacle());
     }
 
     /**
@@ -544,7 +544,7 @@ class AttestationAemTest extends AbstractTestCase {
         $obj = new AttestationAem();
 
         $obj->setLienParente(true);
-        $this->assertEquals(true, $obj->getLienParente());
+        $this->assertTrue($obj->getLienParente());
     }
 
     /**
@@ -843,7 +843,7 @@ class AttestationAemTest extends AbstractTestCase {
         $obj = new AttestationAem();
 
         $obj->setOrganisateurSpectacle(true);
-        $this->assertEquals(true, $obj->getOrganisateurSpectacle());
+        $this->assertTrue($obj->getOrganisateurSpectacle());
     }
 
     /**
@@ -1007,7 +1007,7 @@ class AttestationAemTest extends AbstractTestCase {
         $obj = new AttestationAem();
 
         $obj->setStatutCadre(true);
-        $this->assertEquals(true, $obj->getStatutCadre());
+        $this->assertTrue($obj->getStatutCadre());
     }
 
     /**

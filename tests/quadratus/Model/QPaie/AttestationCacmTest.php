@@ -412,7 +412,7 @@ class AttestationCacmTest extends AbstractTestCase {
         $obj = new AttestationCacm();
 
         $obj->setIndemnAutre(true);
-        $this->assertEquals(true, $obj->getIndemnAutre());
+        $this->assertTrue($obj->getIndemnAutre());
     }
 
     /**
@@ -425,7 +425,7 @@ class AttestationCacmTest extends AbstractTestCase {
         $obj = new AttestationCacm();
 
         $obj->setIndemnLegale(true);
-        $this->assertEquals(true, $obj->getIndemnLegale());
+        $this->assertTrue($obj->getIndemnLegale());
     }
 
     /**
@@ -438,7 +438,7 @@ class AttestationCacmTest extends AbstractTestCase {
         $obj = new AttestationCacm();
 
         $obj->setIndemnLic(true);
-        $this->assertEquals(true, $obj->getIndemnLic());
+        $this->assertTrue($obj->getIndemnLic());
     }
 
     /**
@@ -451,7 +451,7 @@ class AttestationCacmTest extends AbstractTestCase {
         $obj = new AttestationCacm();
 
         $obj->setIndemnSupp(true);
-        $this->assertEquals(true, $obj->getIndemnSupp());
+        $this->assertTrue($obj->getIndemnSupp());
     }
 
     /**
@@ -477,7 +477,7 @@ class AttestationCacmTest extends AbstractTestCase {
         $obj = new AttestationCacm();
 
         $obj->setLienParente(true);
-        $this->assertEquals(true, $obj->getLienParente());
+        $this->assertTrue($obj->getLienParente());
     }
 
     /**
@@ -732,7 +732,7 @@ class AttestationCacmTest extends AbstractTestCase {
         $obj = new AttestationCacm();
 
         $obj->setPreavisNonEffectuePaye(true);
-        $this->assertEquals(true, $obj->getPreavisNonEffectuePaye());
+        $this->assertTrue($obj->getPreavisNonEffectuePaye());
     }
 
     /**
@@ -866,7 +866,7 @@ class AttestationCacmTest extends AbstractTestCase {
         $obj = new AttestationCacm();
 
         $obj->setStatutCadre(true);
-        $this->assertEquals(true, $obj->getStatutCadre());
+        $this->assertTrue($obj->getStatutCadre());
     }
 
     /**

@@ -151,7 +151,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
         $obj = new CdeFournisseurMensu();
 
         $obj->setCommandeIsolee(true);
-        $this->assertEquals(true, $obj->getCommandeIsolee());
+        $this->assertTrue($obj->getCommandeIsolee());
     }
 
     /**
@@ -250,7 +250,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
         $obj = new CdeFournisseurMensu();
 
         $obj->setFromCdeType(true);
-        $this->assertEquals(true, $obj->getFromCdeType());
+        $this->assertTrue($obj->getFromCdeType());
     }
 
     /**
@@ -263,7 +263,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
         $obj = new CdeFournisseurMensu();
 
         $obj->setMajStockByDa(true);
-        $this->assertEquals(true, $obj->getMajStockByDa());
+        $this->assertTrue($obj->getMajStockByDa());
     }
 
     /**
@@ -371,7 +371,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
         $obj = new CdeFournisseurMensu();
 
         $obj->setPrixSaisi(true);
-        $this->assertEquals(true, $obj->getPrixSaisi());
+        $this->assertTrue($obj->getPrixSaisi());
     }
 
     /**
@@ -540,7 +540,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
         $obj = new CdeFournisseurMensu();
 
         $obj->setValidee(true);
-        $this->assertEquals(true, $obj->getValidee());
+        $this->assertTrue($obj->getValidee());
     }
 
     /**

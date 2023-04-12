@@ -58,7 +58,7 @@ class AccesWebAgendaTest extends AbstractTestCase {
         $obj = new AccesWebAgenda();
 
         $obj->setDroitModif(true);
-        $this->assertEquals(true, $obj->getDroitModif());
+        $this->assertTrue($obj->getDroitModif());
     }
 
     /**

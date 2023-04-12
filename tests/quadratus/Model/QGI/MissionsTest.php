@@ -47,7 +47,7 @@ class MissionsTest extends AbstractTestCase {
         $obj = new Missions();
 
         $obj->setBmCalcule(true);
-        $this->assertEquals(true, $obj->getBmCalcule());
+        $this->assertTrue($obj->getBmCalcule());
     }
 
     /**
@@ -73,7 +73,7 @@ class MissionsTest extends AbstractTestCase {
         $obj = new Missions();
 
         $obj->setCloture(true);
-        $this->assertEquals(true, $obj->getCloture());
+        $this->assertTrue($obj->getCloture());
     }
 
     /**
@@ -331,7 +331,7 @@ class MissionsTest extends AbstractTestCase {
         $obj = new Missions();
 
         $obj->setFermetureAuto(true);
-        $this->assertEquals(true, $obj->getFermetureAuto());
+        $this->assertTrue($obj->getFermetureAuto());
     }
 
     /**
@@ -357,7 +357,7 @@ class MissionsTest extends AbstractTestCase {
         $obj = new Missions();
 
         $obj->setMissionMillesime(true);
-        $this->assertEquals(true, $obj->getMissionMillesime());
+        $this->assertTrue($obj->getMissionMillesime());
     }
 
     /**
@@ -439,7 +439,7 @@ class MissionsTest extends AbstractTestCase {
         $obj = new Missions();
 
         $obj->setTpArchive(true);
-        $this->assertEquals(true, $obj->getTpArchive());
+        $this->assertTrue($obj->getTpArchive());
     }
 
     /**
@@ -452,7 +452,7 @@ class MissionsTest extends AbstractTestCase {
         $obj = new Missions();
 
         $obj->setTpCloture(true);
-        $this->assertEquals(true, $obj->getTpCloture());
+        $this->assertTrue($obj->getTpCloture());
     }
 
     /**
@@ -465,7 +465,7 @@ class MissionsTest extends AbstractTestCase {
         $obj = new Missions();
 
         $obj->setTransfertCentre(true);
-        $this->assertEquals(true, $obj->getTransfertCentre());
+        $this->assertTrue($obj->getTransfertCentre());
     }
 
     /**

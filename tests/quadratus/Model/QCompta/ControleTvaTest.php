@@ -123,7 +123,7 @@ class ControleTvaTest extends AbstractTestCase {
         $obj = new ControleTva();
 
         $obj->setSaisieManuelle(true);
-        $this->assertEquals(true, $obj->getSaisieManuelle());
+        $this->assertTrue($obj->getSaisieManuelle());
     }
 
     /**

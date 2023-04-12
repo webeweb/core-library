@@ -60,7 +60,7 @@ class Dossier1Test extends AbstractTestCase {
         $obj = new Dossier1();
 
         $obj->setCalculAnaFait(true);
-        $this->assertEquals(true, $obj->getCalculAnaFait());
+        $this->assertTrue($obj->getCalculAnaFait());
     }
 
     /**
@@ -868,7 +868,7 @@ class Dossier1Test extends AbstractTestCase {
         $obj = new Dossier1();
 
         $obj->setEditDateSysteme(true);
-        $this->assertEquals(true, $obj->getEditDateSysteme());
+        $this->assertTrue($obj->getEditDateSysteme());
     }
 
     /**
@@ -881,7 +881,7 @@ class Dossier1Test extends AbstractTestCase {
         $obj = new Dossier1();
 
         $obj->setEditPageGarde(true);
-        $this->assertEquals(true, $obj->getEditPageGarde());
+        $this->assertTrue($obj->getEditPageGarde());
     }
 
     /**
@@ -1097,7 +1097,7 @@ class Dossier1Test extends AbstractTestCase {
         $obj = new Dossier1();
 
         $obj->setGestionComptaEco(true);
-        $this->assertEquals(true, $obj->getGestionComptaEco());
+        $this->assertTrue($obj->getGestionComptaEco());
     }
 
     /**
@@ -1123,7 +1123,7 @@ class Dossier1Test extends AbstractTestCase {
         $obj = new Dossier1();
 
         $obj->setLrActive(true);
-        $this->assertEquals(true, $obj->getLrActive());
+        $this->assertTrue($obj->getLrActive());
     }
 
     /**
@@ -1153,7 +1153,7 @@ class Dossier1Test extends AbstractTestCase {
         $obj = new Dossier1();
 
         $obj->setModuleAgrActif(true);
-        $this->assertEquals(true, $obj->getModuleAgrActif());
+        $this->assertTrue($obj->getModuleAgrActif());
     }
 
     /**
@@ -1166,7 +1166,7 @@ class Dossier1Test extends AbstractTestCase {
         $obj = new Dossier1();
 
         $obj->setMultiDossiers(true);
-        $this->assertEquals(true, $obj->getMultiDossiers());
+        $this->assertTrue($obj->getMultiDossiers());
     }
 
     /**
@@ -1621,7 +1621,7 @@ class Dossier1Test extends AbstractTestCase {
         $obj = new Dossier1();
 
         $obj->setPasEcritureRb(true);
-        $this->assertEquals(true, $obj->getPasEcritureRb());
+        $this->assertTrue($obj->getPasEcritureRb());
     }
 
     /**
@@ -1634,7 +1634,7 @@ class Dossier1Test extends AbstractTestCase {
         $obj = new Dossier1();
 
         $obj->setPasModifRibRegl(true);
-        $this->assertEquals(true, $obj->getPasModifRibRegl());
+        $this->assertTrue($obj->getPasModifRibRegl());
     }
 
     /**
@@ -1720,7 +1720,7 @@ class Dossier1Test extends AbstractTestCase {
         $obj = new Dossier1();
 
         $obj->setSaisieImmoEnEcriture(true);
-        $this->assertEquals(true, $obj->getSaisieImmoEnEcriture());
+        $this->assertTrue($obj->getSaisieImmoEnEcriture());
     }
 
     /**
@@ -1733,7 +1733,7 @@ class Dossier1Test extends AbstractTestCase {
         $obj = new Dossier1();
 
         $obj->setSauveCommun(true);
-        $this->assertEquals(true, $obj->getSauveCommun());
+        $this->assertTrue($obj->getSauveCommun());
     }
 
     /**
@@ -1746,7 +1746,7 @@ class Dossier1Test extends AbstractTestCase {
         $obj = new Dossier1();
 
         $obj->setSauveCompresse(true);
-        $this->assertEquals(true, $obj->getSauveCompresse());
+        $this->assertTrue($obj->getSauveCompresse());
     }
 
     /**
@@ -1772,7 +1772,7 @@ class Dossier1Test extends AbstractTestCase {
         $obj = new Dossier1();
 
         $obj->setSuiviAffTout(true);
-        $this->assertEquals(true, $obj->getSuiviAffTout());
+        $this->assertTrue($obj->getSuiviAffTout());
     }
 
     /**
@@ -1798,7 +1798,7 @@ class Dossier1Test extends AbstractTestCase {
         $obj = new Dossier1();
 
         $obj->setSuiviAnaClasse0(true);
-        $this->assertEquals(true, $obj->getSuiviAnaClasse0());
+        $this->assertTrue($obj->getSuiviAnaClasse0());
     }
 
     /**
@@ -1811,7 +1811,7 @@ class Dossier1Test extends AbstractTestCase {
         $obj = new Dossier1();
 
         $obj->setSuiviAnaClasse1(true);
-        $this->assertEquals(true, $obj->getSuiviAnaClasse1());
+        $this->assertTrue($obj->getSuiviAnaClasse1());
     }
 
     /**
@@ -1824,7 +1824,7 @@ class Dossier1Test extends AbstractTestCase {
         $obj = new Dossier1();
 
         $obj->setSuiviAnaClasse2(true);
-        $this->assertEquals(true, $obj->getSuiviAnaClasse2());
+        $this->assertTrue($obj->getSuiviAnaClasse2());
     }
 
     /**
@@ -1837,7 +1837,7 @@ class Dossier1Test extends AbstractTestCase {
         $obj = new Dossier1();
 
         $obj->setSuiviAnaClasse3(true);
-        $this->assertEquals(true, $obj->getSuiviAnaClasse3());
+        $this->assertTrue($obj->getSuiviAnaClasse3());
     }
 
     /**
@@ -1850,7 +1850,7 @@ class Dossier1Test extends AbstractTestCase {
         $obj = new Dossier1();
 
         $obj->setSuiviAnaClasse4(true);
-        $this->assertEquals(true, $obj->getSuiviAnaClasse4());
+        $this->assertTrue($obj->getSuiviAnaClasse4());
     }
 
     /**
@@ -1863,7 +1863,7 @@ class Dossier1Test extends AbstractTestCase {
         $obj = new Dossier1();
 
         $obj->setSuiviAnaClasse5(true);
-        $this->assertEquals(true, $obj->getSuiviAnaClasse5());
+        $this->assertTrue($obj->getSuiviAnaClasse5());
     }
 
     /**
@@ -1876,7 +1876,7 @@ class Dossier1Test extends AbstractTestCase {
         $obj = new Dossier1();
 
         $obj->setSuiviAnaClasse8(true);
-        $this->assertEquals(true, $obj->getSuiviAnaClasse8());
+        $this->assertTrue($obj->getSuiviAnaClasse8());
     }
 
     /**
@@ -1889,7 +1889,7 @@ class Dossier1Test extends AbstractTestCase {
         $obj = new Dossier1();
 
         $obj->setSuiviAnaClasse9(true);
-        $this->assertEquals(true, $obj->getSuiviAnaClasse9());
+        $this->assertTrue($obj->getSuiviAnaClasse9());
     }
 
     /**
@@ -1902,7 +1902,7 @@ class Dossier1Test extends AbstractTestCase {
         $obj = new Dossier1();
 
         $obj->setSuiviAnaFacultatif(true);
-        $this->assertEquals(true, $obj->getSuiviAnaFacultatif());
+        $this->assertTrue($obj->getSuiviAnaFacultatif());
     }
 
     /**
@@ -1954,7 +1954,7 @@ class Dossier1Test extends AbstractTestCase {
         $obj = new Dossier1();
 
         $obj->setVentilationsCommunes(true);
-        $this->assertEquals(true, $obj->getVentilationsCommunes());
+        $this->assertTrue($obj->getVentilationsCommunes());
     }
 
     /**

@@ -835,7 +835,7 @@ class DecTvaCa12Test extends AbstractTestCase {
         $obj = new DecTvaCa12();
 
         $obj->setzAcompteDeduit1(true);
-        $this->assertEquals(true, $obj->getzAcompteDeduit1());
+        $this->assertTrue($obj->getzAcompteDeduit1());
     }
 
     /**
@@ -848,7 +848,7 @@ class DecTvaCa12Test extends AbstractTestCase {
         $obj = new DecTvaCa12();
 
         $obj->setzAcompteDeduit2(true);
-        $this->assertEquals(true, $obj->getzAcompteDeduit2());
+        $this->assertTrue($obj->getzAcompteDeduit2());
     }
 
     /**
@@ -861,7 +861,7 @@ class DecTvaCa12Test extends AbstractTestCase {
         $obj = new DecTvaCa12();
 
         $obj->setzAcompteDeduit3(true);
-        $this->assertEquals(true, $obj->getzAcompteDeduit3());
+        $this->assertTrue($obj->getzAcompteDeduit3());
     }
 
     /**
@@ -874,7 +874,7 @@ class DecTvaCa12Test extends AbstractTestCase {
         $obj = new DecTvaCa12();
 
         $obj->setzAcompteDeduit4(true);
-        $this->assertEquals(true, $obj->getzAcompteDeduit4());
+        $this->assertTrue($obj->getzAcompteDeduit4());
     }
 
     /**
@@ -1199,7 +1199,7 @@ class DecTvaCa12Test extends AbstractTestCase {
         $obj = new DecTvaCa12();
 
         $obj->setzYaDemandeRbt(true);
-        $this->assertEquals(true, $obj->getzYaDemandeRbt());
+        $this->assertTrue($obj->getzYaDemandeRbt());
     }
 
     /**

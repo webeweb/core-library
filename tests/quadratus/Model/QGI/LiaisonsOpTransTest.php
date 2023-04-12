@@ -116,7 +116,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setUseDtDernXFer(true);
-        $this->assertEquals(true, $obj->getUseDtDernXFer());
+        $this->assertTrue($obj->getUseDtDernXFer());
     }
 
     /**
@@ -129,7 +129,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerActivites(true);
-        $this->assertEquals(true, $obj->getXFerActivites());
+        $this->assertTrue($obj->getXFerActivites());
     }
 
     /**
@@ -142,7 +142,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerArticles(true);
-        $this->assertEquals(true, $obj->getXFerArticles());
+        $this->assertTrue($obj->getXFerArticles());
     }
 
     /**
@@ -155,7 +155,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerBoniMali(true);
-        $this->assertEquals(true, $obj->getXFerBoniMali());
+        $this->assertTrue($obj->getXFerBoniMali());
     }
 
     /**
@@ -168,7 +168,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerBudgetsTemps(true);
-        $this->assertEquals(true, $obj->getXFerBudgetsTemps());
+        $this->assertTrue($obj->getXFerBudgetsTemps());
     }
 
     /**
@@ -181,7 +181,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerCivilites(true);
-        $this->assertEquals(true, $obj->getXFerCivilites());
+        $this->assertTrue($obj->getXFerCivilites());
     }
 
     /**
@@ -194,7 +194,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerCli(true);
-        $this->assertEquals(true, $obj->getXFerCli());
+        $this->assertTrue($obj->getXFerCli());
     }
 
     /**
@@ -259,7 +259,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerCliDocs(true);
-        $this->assertEquals(true, $obj->getXFerCliDocs());
+        $this->assertTrue($obj->getXFerCliDocs());
     }
 
     /**
@@ -311,7 +311,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerCol(true);
-        $this->assertEquals(true, $obj->getXFerCol());
+        $this->assertTrue($obj->getXFerCol());
     }
 
     /**
@@ -324,7 +324,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerCollabTache(true);
-        $this->assertEquals(true, $obj->getXFerCollabTache());
+        $this->assertTrue($obj->getXFerCollabTache());
     }
 
     /**
@@ -337,7 +337,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerContenu(true);
-        $this->assertEquals(true, $obj->getXFerContenu());
+        $this->assertTrue($obj->getXFerContenu());
     }
 
     /**
@@ -350,7 +350,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerCpta(true);
-        $this->assertEquals(true, $obj->getXFerCpta());
+        $this->assertTrue($obj->getXFerCpta());
     }
 
     /**
@@ -363,7 +363,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerCptaAll(true);
-        $this->assertEquals(true, $obj->getXFerCptaAll());
+        $this->assertTrue($obj->getXFerCptaAll());
     }
 
     /**
@@ -376,7 +376,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerCptaCli(true);
-        $this->assertEquals(true, $obj->getXFerCptaCli());
+        $this->assertTrue($obj->getXFerCptaCli());
     }
 
     /**
@@ -402,7 +402,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerCptaFrn(true);
-        $this->assertEquals(true, $obj->getXFerCptaFrn());
+        $this->assertTrue($obj->getXFerCptaFrn());
     }
 
     /**
@@ -415,7 +415,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerCptaImg(true);
-        $this->assertEquals(true, $obj->getXFerCptaImg());
+        $this->assertTrue($obj->getXFerCptaImg());
     }
 
     /**
@@ -454,7 +454,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerCrDsi(true);
-        $this->assertEquals(true, $obj->getXFerCrDsi());
+        $this->assertTrue($obj->getXFerCrDsi());
     }
 
     /**
@@ -467,7 +467,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerCrDucs(true);
-        $this->assertEquals(true, $obj->getXFerCrDucs());
+        $this->assertTrue($obj->getXFerCrDucs());
     }
 
     /**
@@ -480,7 +480,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerCrPedi(true);
-        $this->assertEquals(true, $obj->getXFerCrPedi());
+        $this->assertTrue($obj->getXFerCrPedi());
     }
 
     /**
@@ -493,7 +493,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerCrReq(true);
-        $this->assertEquals(true, $obj->getXFerCrReq());
+        $this->assertTrue($obj->getXFerCrReq());
     }
 
     /**
@@ -506,7 +506,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerCrTdfc(true);
-        $this->assertEquals(true, $obj->getXFerCrTdfc());
+        $this->assertTrue($obj->getXFerCrTdfc());
     }
 
     /**
@@ -519,7 +519,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerCrTva(true);
-        $this->assertEquals(true, $obj->getXFerCrTva());
+        $this->assertTrue($obj->getXFerCrTva());
     }
 
     /**
@@ -532,7 +532,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerCstPxKm(true);
-        $this->assertEquals(true, $obj->getXFerCstPxKm());
+        $this->assertTrue($obj->getXFerCstPxKm());
     }
 
     /**
@@ -545,7 +545,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerDosCpta(true);
-        $this->assertEquals(true, $obj->getXFerDosCpta());
+        $this->assertTrue($obj->getXFerDosCpta());
     }
 
     /**
@@ -558,7 +558,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerDosPaie(true);
-        $this->assertEquals(true, $obj->getXFerDosPaie());
+        $this->assertTrue($obj->getXFerDosPaie());
     }
 
     /**
@@ -571,7 +571,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerEdGrp(true);
-        $this->assertEquals(true, $obj->getXFerEdGrp());
+        $this->assertTrue($obj->getXFerEdGrp());
     }
 
     /**
@@ -584,7 +584,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerEtebac(true);
-        $this->assertEquals(true, $obj->getXFerEtebac());
+        $this->assertTrue($obj->getXFerEtebac());
     }
 
     /**
@@ -597,7 +597,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerFactEdit(true);
-        $this->assertEquals(true, $obj->getXFerFactEdit());
+        $this->assertTrue($obj->getXFerFactEdit());
     }
 
     /**
@@ -610,7 +610,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerFactEditDelSrc(true);
-        $this->assertEquals(true, $obj->getXFerFactEditDelSrc());
+        $this->assertTrue($obj->getXFerFactEditDelSrc());
     }
 
     /**
@@ -623,7 +623,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerFactNonEdit(true);
-        $this->assertEquals(true, $obj->getXFerFactNonEdit());
+        $this->assertTrue($obj->getXFerFactNonEdit());
     }
 
     /**
@@ -636,7 +636,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerFactNonEditDelSrc(true);
-        $this->assertEquals(true, $obj->getXFerFactNonEditDelSrc());
+        $this->assertTrue($obj->getXFerFactNonEditDelSrc());
     }
 
     /**
@@ -649,7 +649,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerFonctions(true);
-        $this->assertEquals(true, $obj->getXFerFonctions());
+        $this->assertTrue($obj->getXFerFonctions());
     }
 
     /**
@@ -662,7 +662,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerImpotsDirects(true);
-        $this->assertEquals(true, $obj->getXFerImpotsDirects());
+        $this->assertTrue($obj->getXFerImpotsDirects());
     }
 
     /**
@@ -675,7 +675,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerInt(true);
-        $this->assertEquals(true, $obj->getXFerInt());
+        $this->assertTrue($obj->getXFerInt());
     }
 
     /**
@@ -688,7 +688,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerIntNoCliOnly(true);
-        $this->assertEquals(true, $obj->getXFerIntNoCliOnly());
+        $this->assertTrue($obj->getXFerIntNoCliOnly());
     }
 
     /**
@@ -714,7 +714,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerMis(true);
-        $this->assertEquals(true, $obj->getXFerMis());
+        $this->assertTrue($obj->getXFerMis());
     }
 
     /**
@@ -727,7 +727,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerMisCli(true);
-        $this->assertEquals(true, $obj->getXFerMisCli());
+        $this->assertTrue($obj->getXFerMisCli());
     }
 
     /**
@@ -740,7 +740,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerMissionPrincipale(true);
-        $this->assertEquals(true, $obj->getXFerMissionPrincipale());
+        $this->assertTrue($obj->getXFerMissionPrincipale());
     }
 
     /**
@@ -753,7 +753,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerMsg(true);
-        $this->assertEquals(true, $obj->getXFerMsg());
+        $this->assertTrue($obj->getXFerMsg());
     }
 
     /**
@@ -766,7 +766,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerMsgCli(true);
-        $this->assertEquals(true, $obj->getXFerMsgCli());
+        $this->assertTrue($obj->getXFerMsgCli());
     }
 
     /**
@@ -779,7 +779,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerMsgCol(true);
-        $this->assertEquals(true, $obj->getXFerMsgCol());
+        $this->assertTrue($obj->getXFerMsgCol());
     }
 
     /**
@@ -792,7 +792,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerMsgDelSrc(true);
-        $this->assertEquals(true, $obj->getXFerMsgDelSrc());
+        $this->assertTrue($obj->getXFerMsgDelSrc());
     }
 
     /**
@@ -805,7 +805,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerMsgHist(true);
-        $this->assertEquals(true, $obj->getXFerMsgHist());
+        $this->assertTrue($obj->getXFerMsgHist());
     }
 
     /**
@@ -818,7 +818,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerMsgHistCli(true);
-        $this->assertEquals(true, $obj->getXFerMsgHistCli());
+        $this->assertTrue($obj->getXFerMsgHistCli());
     }
 
     /**
@@ -831,7 +831,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerMsgHistDelSrc(true);
-        $this->assertEquals(true, $obj->getXFerMsgHistDelSrc());
+        $this->assertTrue($obj->getXFerMsgHistDelSrc());
     }
 
     /**
@@ -844,7 +844,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerObligations(true);
-        $this->assertEquals(true, $obj->getXFerObligations());
+        $this->assertTrue($obj->getXFerObligations());
     }
 
     /**
@@ -857,7 +857,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerPdf(true);
-        $this->assertEquals(true, $obj->getXFerPdf());
+        $this->assertTrue($obj->getXFerPdf());
     }
 
     /**
@@ -870,7 +870,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerPlanning(true);
-        $this->assertEquals(true, $obj->getXFerPlanning());
+        $this->assertTrue($obj->getXFerPlanning());
     }
 
     /**
@@ -883,7 +883,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerPreFact(true);
-        $this->assertEquals(true, $obj->getXFerPreFact());
+        $this->assertTrue($obj->getXFerPreFact());
     }
 
     /**
@@ -896,7 +896,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerPreFactCli(true);
-        $this->assertEquals(true, $obj->getXFerPreFactCli());
+        $this->assertTrue($obj->getXFerPreFactCli());
     }
 
     /**
@@ -909,7 +909,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerPreFactCol(true);
-        $this->assertEquals(true, $obj->getXFerPreFactCol());
+        $this->assertTrue($obj->getXFerPreFactCol());
     }
 
     /**
@@ -922,7 +922,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerPreFactFact(true);
-        $this->assertEquals(true, $obj->getXFerPreFactFact());
+        $this->assertTrue($obj->getXFerPreFactFact());
     }
 
     /**
@@ -935,7 +935,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerQInfos(true);
-        $this->assertEquals(true, $obj->getXFerQInfos());
+        $this->assertTrue($obj->getXFerQInfos());
     }
 
     /**
@@ -961,7 +961,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerQualifiants(true);
-        $this->assertEquals(true, $obj->getXFerQualifiants());
+        $this->assertTrue($obj->getXFerQualifiants());
     }
 
     /**
@@ -974,7 +974,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerReglements(true);
-        $this->assertEquals(true, $obj->getXFerReglements());
+        $this->assertTrue($obj->getXFerReglements());
     }
 
     /**
@@ -987,7 +987,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerSuiCli(true);
-        $this->assertEquals(true, $obj->getXFerSuiCli());
+        $this->assertTrue($obj->getXFerSuiCli());
     }
 
     /**
@@ -1000,7 +1000,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerTaches(true);
-        $this->assertEquals(true, $obj->getXFerTaches());
+        $this->assertTrue($obj->getXFerTaches());
     }
 
     /**
@@ -1013,7 +1013,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerTps(true);
-        $this->assertEquals(true, $obj->getXFerTps());
+        $this->assertTrue($obj->getXFerTps());
     }
 
     /**
@@ -1026,7 +1026,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerTpsCli(true);
-        $this->assertEquals(true, $obj->getXFerTpsCli());
+        $this->assertTrue($obj->getXFerTpsCli());
     }
 
     /**
@@ -1039,7 +1039,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerTpsCol(true);
-        $this->assertEquals(true, $obj->getXFerTpsCol());
+        $this->assertTrue($obj->getXFerTpsCol());
     }
 
     /**
@@ -1052,7 +1052,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerTypeEvenements(true);
-        $this->assertEquals(true, $obj->getXFerTypeEvenements());
+        $this->assertTrue($obj->getXFerTypeEvenements());
     }
 
     /**
@@ -1065,7 +1065,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
         $obj = new LiaisonsOpTrans();
 
         $obj->setXFerTypeSocietes(true);
-        $this->assertEquals(true, $obj->getXFerTypeSocietes());
+        $this->assertTrue($obj->getXFerTypeSocietes());
     }
 
     /**

@@ -34,7 +34,7 @@ class LignesBulletinTest extends AbstractTestCase {
         $obj = new LignesBulletin();
 
         $obj->setAnalDiff(true);
-        $this->assertEquals(true, $obj->getAnalDiff());
+        $this->assertTrue($obj->getAnalDiff());
     }
 
     /**
@@ -47,7 +47,7 @@ class LignesBulletinTest extends AbstractTestCase {
         $obj = new LignesBulletin();
 
         $obj->setAvantageNature(true);
-        $this->assertEquals(true, $obj->getAvantageNature());
+        $this->assertTrue($obj->getAvantageNature());
     }
 
     /**
@@ -125,7 +125,7 @@ class LignesBulletinTest extends AbstractTestCase {
         $obj = new LignesBulletin();
 
         $obj->setCongePaye(true);
-        $this->assertEquals(true, $obj->getCongePaye());
+        $this->assertTrue($obj->getCongePaye());
     }
 
     /**
@@ -138,7 +138,7 @@ class LignesBulletinTest extends AbstractTestCase {
         $obj = new LignesBulletin();
 
         $obj->setCumulCoutGlob(true);
-        $this->assertEquals(true, $obj->getCumulCoutGlob());
+        $this->assertTrue($obj->getCumulCoutGlob());
     }
 
     /**
@@ -151,7 +151,7 @@ class LignesBulletinTest extends AbstractTestCase {
         $obj = new LignesBulletin();
 
         $obj->setEditionBase(true);
-        $this->assertEquals(true, $obj->getEditionBase());
+        $this->assertTrue($obj->getEditionBase());
     }
 
     /**
@@ -164,7 +164,7 @@ class LignesBulletinTest extends AbstractTestCase {
         $obj = new LignesBulletin();
 
         $obj->setEditionCotPatronale(true);
-        $this->assertEquals(true, $obj->getEditionCotPatronale());
+        $this->assertTrue($obj->getEditionCotPatronale());
     }
 
     /**
@@ -177,7 +177,7 @@ class LignesBulletinTest extends AbstractTestCase {
         $obj = new LignesBulletin();
 
         $obj->setEditionResultat(true);
-        $this->assertEquals(true, $obj->getEditionResultat());
+        $this->assertTrue($obj->getEditionResultat());
     }
 
     /**
@@ -190,7 +190,7 @@ class LignesBulletinTest extends AbstractTestCase {
         $obj = new LignesBulletin();
 
         $obj->setEditionTauxSal(true);
-        $this->assertEquals(true, $obj->getEditionTauxSal());
+        $this->assertTrue($obj->getEditionTauxSal());
     }
 
     /**
@@ -203,7 +203,7 @@ class LignesBulletinTest extends AbstractTestCase {
         $obj = new LignesBulletin();
 
         $obj->setFlagForce(true);
-        $this->assertEquals(true, $obj->getFlagForce());
+        $this->assertTrue($obj->getFlagForce());
     }
 
     /**
@@ -229,7 +229,7 @@ class LignesBulletinTest extends AbstractTestCase {
         $obj = new LignesBulletin();
 
         $obj->setIntegNetPaye(true);
-        $this->assertEquals(true, $obj->getIntegNetPaye());
+        $this->assertTrue($obj->getIntegNetPaye());
     }
 
     /**
@@ -242,7 +242,7 @@ class LignesBulletinTest extends AbstractTestCase {
         $obj = new LignesBulletin();
 
         $obj->setIntervientBrutAl(true);
-        $this->assertEquals(true, $obj->getIntervientBrutAl());
+        $this->assertTrue($obj->getIntervientBrutAl());
     }
 
     /**
@@ -255,7 +255,7 @@ class LignesBulletinTest extends AbstractTestCase {
         $obj = new LignesBulletin();
 
         $obj->setIntervientIndemPreca(true);
-        $this->assertEquals(true, $obj->getIntervientIndemPreca());
+        $this->assertTrue($obj->getIntervientIndemPreca());
     }
 
     /**
@@ -385,7 +385,7 @@ class LignesBulletinTest extends AbstractTestCase {
         $obj = new LignesBulletin();
 
         $obj->setNeutre(true);
-        $this->assertEquals(true, $obj->getNeutre());
+        $this->assertTrue($obj->getNeutre());
     }
 
     /**
@@ -450,7 +450,7 @@ class LignesBulletinTest extends AbstractTestCase {
         $obj = new LignesBulletin();
 
         $obj->setPasEditer(true);
-        $this->assertEquals(true, $obj->getPasEditer());
+        $this->assertTrue($obj->getPasEditer());
     }
 
     /**
@@ -480,7 +480,7 @@ class LignesBulletinTest extends AbstractTestCase {
         $obj = new LignesBulletin();
 
         $obj->setPpSoumisTaxe(true);
-        $this->assertEquals(true, $obj->getPpSoumisTaxe());
+        $this->assertTrue($obj->getPpSoumisTaxe());
     }
 
     /**
@@ -493,7 +493,7 @@ class LignesBulletinTest extends AbstractTestCase {
         $obj = new LignesBulletin();
 
         $obj->setPrimeNonProratisee(true);
-        $this->assertEquals(true, $obj->getPrimeNonProratisee());
+        $this->assertTrue($obj->getPrimeNonProratisee());
     }
 
     /**
@@ -532,7 +532,7 @@ class LignesBulletinTest extends AbstractTestCase {
         $obj = new LignesBulletin();
 
         $obj->setSoumisAbattement(true);
-        $this->assertEquals(true, $obj->getSoumisAbattement());
+        $this->assertTrue($obj->getSoumisAbattement());
     }
 
     /**
@@ -545,7 +545,7 @@ class LignesBulletinTest extends AbstractTestCase {
         $obj = new LignesBulletin();
 
         $obj->setSoumisCrds(true);
-        $this->assertEquals(true, $obj->getSoumisCrds());
+        $this->assertTrue($obj->getSoumisCrds());
     }
 
     /**
@@ -558,7 +558,7 @@ class LignesBulletinTest extends AbstractTestCase {
         $obj = new LignesBulletin();
 
         $obj->setSoumisCsg(true);
-        $this->assertEquals(true, $obj->getSoumisCsg());
+        $this->assertTrue($obj->getSoumisCsg());
     }
 
     /**

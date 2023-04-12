@@ -129,7 +129,7 @@ class iComptaDroitsTest extends AbstractTestCase {
         $obj = new iComptaDroits();
 
         $obj->setEspaceClient(true);
-        $this->assertEquals(true, $obj->getEspaceClient());
+        $this->assertTrue($obj->getEspaceClient());
     }
 
     /**
@@ -142,7 +142,7 @@ class iComptaDroitsTest extends AbstractTestCase {
         $obj = new iComptaDroits();
 
         $obj->setFctBalanceClient(true);
-        $this->assertEquals(true, $obj->getFctBalanceClient());
+        $this->assertTrue($obj->getFctBalanceClient());
     }
 
     /**
@@ -155,7 +155,7 @@ class iComptaDroitsTest extends AbstractTestCase {
         $obj = new iComptaDroits();
 
         $obj->setFctBalanceFournisseur(true);
-        $this->assertEquals(true, $obj->getFctBalanceFournisseur());
+        $this->assertTrue($obj->getFctBalanceFournisseur());
     }
 
     /**
@@ -168,7 +168,7 @@ class iComptaDroitsTest extends AbstractTestCase {
         $obj = new iComptaDroits();
 
         $obj->setFctBalanceGenerale(true);
-        $this->assertEquals(true, $obj->getFctBalanceGenerale());
+        $this->assertTrue($obj->getFctBalanceGenerale());
     }
 
     /**
@@ -181,7 +181,7 @@ class iComptaDroitsTest extends AbstractTestCase {
         $obj = new iComptaDroits();
 
         $obj->setFctConsultDa(true);
-        $this->assertEquals(true, $obj->getFctConsultDa());
+        $this->assertTrue($obj->getFctConsultDa());
     }
 
     /**
@@ -194,7 +194,7 @@ class iComptaDroitsTest extends AbstractTestCase {
         $obj = new iComptaDroits();
 
         $obj->setFctConsultDc(true);
-        $this->assertEquals(true, $obj->getFctConsultDc());
+        $this->assertTrue($obj->getFctConsultDc());
     }
 
     /**
@@ -207,7 +207,7 @@ class iComptaDroitsTest extends AbstractTestCase {
         $obj = new iComptaDroits();
 
         $obj->setFctDeclareTva(true);
-        $this->assertEquals(true, $obj->getFctDeclareTva());
+        $this->assertTrue($obj->getFctDeclareTva());
     }
 
     /**
@@ -220,7 +220,7 @@ class iComptaDroitsTest extends AbstractTestCase {
         $obj = new iComptaDroits();
 
         $obj->setFctDelettrage(true);
-        $this->assertEquals(true, $obj->getFctDelettrage());
+        $this->assertTrue($obj->getFctDelettrage());
     }
 
     /**
@@ -233,7 +233,7 @@ class iComptaDroitsTest extends AbstractTestCase {
         $obj = new iComptaDroits();
 
         $obj->setFctEditionJournaux(true);
-        $this->assertEquals(true, $obj->getFctEditionJournaux());
+        $this->assertTrue($obj->getFctEditionJournaux());
     }
 
     /**
@@ -246,7 +246,7 @@ class iComptaDroitsTest extends AbstractTestCase {
         $obj = new iComptaDroits();
 
         $obj->setFctInterrogationCpt(true);
-        $this->assertEquals(true, $obj->getFctInterrogationCpt());
+        $this->assertTrue($obj->getFctInterrogationCpt());
     }
 
     /**
@@ -259,7 +259,7 @@ class iComptaDroitsTest extends AbstractTestCase {
         $obj = new iComptaDroits();
 
         $obj->setFctLettrage(true);
-        $this->assertEquals(true, $obj->getFctLettrage());
+        $this->assertTrue($obj->getFctLettrage());
     }
 
     /**
@@ -272,7 +272,7 @@ class iComptaDroitsTest extends AbstractTestCase {
         $obj = new iComptaDroits();
 
         $obj->setFctModifEcriture(true);
-        $this->assertEquals(true, $obj->getFctModifEcriture());
+        $this->assertTrue($obj->getFctModifEcriture());
     }
 
     /**
@@ -285,7 +285,7 @@ class iComptaDroitsTest extends AbstractTestCase {
         $obj = new iComptaDroits();
 
         $obj->setFctRapprochBanq(true);
-        $this->assertEquals(true, $obj->getFctRapprochBanq());
+        $this->assertTrue($obj->getFctRapprochBanq());
     }
 
     /**
@@ -298,7 +298,7 @@ class iComptaDroitsTest extends AbstractTestCase {
         $obj = new iComptaDroits();
 
         $obj->setFctSaisieAchats(true);
-        $this->assertEquals(true, $obj->getFctSaisieAchats());
+        $this->assertTrue($obj->getFctSaisieAchats());
     }
 
     /**
@@ -311,7 +311,7 @@ class iComptaDroitsTest extends AbstractTestCase {
         $obj = new iComptaDroits();
 
         $obj->setFctSaisieBanques(true);
-        $this->assertEquals(true, $obj->getFctSaisieBanques());
+        $this->assertTrue($obj->getFctSaisieBanques());
     }
 
     /**
@@ -337,7 +337,7 @@ class iComptaDroitsTest extends AbstractTestCase {
         $obj = new iComptaDroits();
 
         $obj->setFctSaisieEtebac(true);
-        $this->assertEquals(true, $obj->getFctSaisieEtebac());
+        $this->assertTrue($obj->getFctSaisieEtebac());
     }
 
     /**
@@ -350,7 +350,7 @@ class iComptaDroitsTest extends AbstractTestCase {
         $obj = new iComptaDroits();
 
         $obj->setFctSaisieStandard(true);
-        $this->assertEquals(true, $obj->getFctSaisieStandard());
+        $this->assertTrue($obj->getFctSaisieStandard());
     }
 
     /**
@@ -376,7 +376,7 @@ class iComptaDroitsTest extends AbstractTestCase {
         $obj = new iComptaDroits();
 
         $obj->setFctSaisieVentes(true);
-        $this->assertEquals(true, $obj->getFctSaisieVentes());
+        $this->assertTrue($obj->getFctSaisieVentes());
     }
 
     /**
@@ -389,7 +389,7 @@ class iComptaDroitsTest extends AbstractTestCase {
         $obj = new iComptaDroits();
 
         $obj->setFctSupprEcriture(true);
-        $this->assertEquals(true, $obj->getFctSupprEcriture());
+        $this->assertTrue($obj->getFctSupprEcriture());
     }
 
     /**
@@ -402,7 +402,7 @@ class iComptaDroitsTest extends AbstractTestCase {
         $obj = new iComptaDroits();
 
         $obj->setFctTableBord(true);
-        $this->assertEquals(true, $obj->getFctTableBord());
+        $this->assertTrue($obj->getFctTableBord());
     }
 
     /**

@@ -240,7 +240,7 @@ class AffairesTest extends AbstractTestCase {
         $obj = new Affaires();
 
         $obj->setEchEnMt(true);
-        $this->assertEquals(true, $obj->getEchEnMt());
+        $this->assertTrue($obj->getEchEnMt());
     }
 
     /**

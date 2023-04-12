@@ -34,7 +34,7 @@ class EmpRecapCicemsaTest extends AbstractTestCase {
         $obj = new EmpRecapCicemsa();
 
         $obj->setCaisseCp(true);
-        $this->assertEquals(true, $obj->getCaisseCp());
+        $this->assertTrue($obj->getCaisseCp());
     }
 
     /**
@@ -168,7 +168,7 @@ class EmpRecapCicemsaTest extends AbstractTestCase {
         $obj = new EmpRecapCicemsa();
 
         $obj->setSortieMois(true);
-        $this->assertEquals(true, $obj->getSortieMois());
+        $this->assertTrue($obj->getSortieMois());
     }
 
     /**

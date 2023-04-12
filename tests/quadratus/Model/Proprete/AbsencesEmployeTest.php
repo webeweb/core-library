@@ -215,7 +215,7 @@ class AbsencesEmployeTest extends AbstractTestCase {
         $obj = new AbsencesEmploye();
 
         $obj->setFromFermetureChantier(true);
-        $this->assertEquals(true, $obj->getFromFermetureChantier());
+        $this->assertTrue($obj->getFromFermetureChantier());
     }
 
     /**

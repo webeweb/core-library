@@ -32,7 +32,7 @@ class DroitsAccesIntervenantsCollabTest extends AbstractTestCase {
         $obj = new DroitsAccesIntervenantsCollab();
 
         $obj->setAccesLibre(true);
-        $this->assertEquals(true, $obj->getAccesLibre());
+        $this->assertTrue($obj->getAccesLibre());
     }
 
     /**

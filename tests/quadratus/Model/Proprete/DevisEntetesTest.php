@@ -60,7 +60,7 @@ class DevisEntetesTest extends AbstractTestCase {
         $obj = new DevisEntetes();
 
         $obj->setClientProspect(true);
-        $this->assertEquals(true, $obj->getClientProspect());
+        $this->assertTrue($obj->getClientProspect());
     }
 
     /**

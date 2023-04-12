@@ -90,7 +90,7 @@ class DevisesTest extends AbstractTestCase {
         $obj = new Devises();
 
         $obj->setUseNbDec(true);
-        $this->assertEquals(true, $obj->getUseNbDec());
+        $this->assertTrue($obj->getUseNbDec());
     }
 
     /**

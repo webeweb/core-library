@@ -198,7 +198,7 @@ class EcrituresRapproBancaireTest extends AbstractTestCase {
         $obj = new EcrituresRapproBancaire();
 
         $obj->setRapproBancaireOk(true);
-        $this->assertEquals(true, $obj->getRapproBancaireOk());
+        $this->assertTrue($obj->getRapproBancaireOk());
     }
 
     /**

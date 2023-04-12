@@ -34,7 +34,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
         $obj = new DosRevCommentaires();
 
         $obj->setBloquant(true);
-        $this->assertEquals(true, $obj->getBloquant());
+        $this->assertTrue($obj->getBloquant());
     }
 
     /**
@@ -197,7 +197,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
         $obj = new DosRevCommentaires();
 
         $obj->setEnAttenteReponse(true);
-        $this->assertEquals(true, $obj->getEnAttenteReponse());
+        $this->assertTrue($obj->getEnAttenteReponse());
     }
 
     /**
@@ -210,7 +210,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
         $obj = new DosRevCommentaires();
 
         $obj->setNeedAnswer(true);
-        $this->assertEquals(true, $obj->getNeedAnswer());
+        $this->assertTrue($obj->getNeedAnswer());
     }
 
     /**
@@ -253,7 +253,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
         $obj = new DosRevCommentaires();
 
         $obj->setPermanent(true);
-        $this->assertEquals(true, $obj->getPermanent());
+        $this->assertTrue($obj->getPermanent());
     }
 
     /**

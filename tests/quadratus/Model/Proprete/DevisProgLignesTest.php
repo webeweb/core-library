@@ -32,7 +32,7 @@ class DevisProgLignesTest extends AbstractTestCase {
         $obj = new DevisProgLignes();
 
         $obj->setAou(true);
-        $this->assertEquals(true, $obj->getAou());
+        $this->assertTrue($obj->getAou());
     }
 
     /**
@@ -45,7 +45,7 @@ class DevisProgLignesTest extends AbstractTestCase {
         $obj = new DevisProgLignes();
 
         $obj->setAvr(true);
-        $this->assertEquals(true, $obj->getAvr());
+        $this->assertTrue($obj->getAvr());
     }
 
     /**
@@ -97,7 +97,7 @@ class DevisProgLignesTest extends AbstractTestCase {
         $obj = new DevisProgLignes();
 
         $obj->setDec(true);
-        $this->assertEquals(true, $obj->getDec());
+        $this->assertTrue($obj->getDec());
     }
 
     /**
@@ -110,7 +110,7 @@ class DevisProgLignesTest extends AbstractTestCase {
         $obj = new DevisProgLignes();
 
         $obj->setDimanche(true);
-        $this->assertEquals(true, $obj->getDimanche());
+        $this->assertTrue($obj->getDimanche());
     }
 
     /**
@@ -123,7 +123,7 @@ class DevisProgLignesTest extends AbstractTestCase {
         $obj = new DevisProgLignes();
 
         $obj->setFev(true);
-        $this->assertEquals(true, $obj->getFev());
+        $this->assertTrue($obj->getFev());
     }
 
     /**
@@ -136,7 +136,7 @@ class DevisProgLignesTest extends AbstractTestCase {
         $obj = new DevisProgLignes();
 
         $obj->setJan(true);
-        $this->assertEquals(true, $obj->getJan());
+        $this->assertTrue($obj->getJan());
     }
 
     /**
@@ -149,7 +149,7 @@ class DevisProgLignesTest extends AbstractTestCase {
         $obj = new DevisProgLignes();
 
         $obj->setJeudi(true);
-        $this->assertEquals(true, $obj->getJeudi());
+        $this->assertTrue($obj->getJeudi());
     }
 
     /**
@@ -162,7 +162,7 @@ class DevisProgLignesTest extends AbstractTestCase {
         $obj = new DevisProgLignes();
 
         $obj->setJuil(true);
-        $this->assertEquals(true, $obj->getJuil());
+        $this->assertTrue($obj->getJuil());
     }
 
     /**
@@ -175,7 +175,7 @@ class DevisProgLignesTest extends AbstractTestCase {
         $obj = new DevisProgLignes();
 
         $obj->setJuin(true);
-        $this->assertEquals(true, $obj->getJuin());
+        $this->assertTrue($obj->getJuin());
     }
 
     /**
@@ -188,7 +188,7 @@ class DevisProgLignesTest extends AbstractTestCase {
         $obj = new DevisProgLignes();
 
         $obj->setLundi(true);
-        $this->assertEquals(true, $obj->getLundi());
+        $this->assertTrue($obj->getLundi());
     }
 
     /**
@@ -201,7 +201,7 @@ class DevisProgLignesTest extends AbstractTestCase {
         $obj = new DevisProgLignes();
 
         $obj->setMai(true);
-        $this->assertEquals(true, $obj->getMai());
+        $this->assertTrue($obj->getMai());
     }
 
     /**
@@ -214,7 +214,7 @@ class DevisProgLignesTest extends AbstractTestCase {
         $obj = new DevisProgLignes();
 
         $obj->setMar(true);
-        $this->assertEquals(true, $obj->getMar());
+        $this->assertTrue($obj->getMar());
     }
 
     /**
@@ -227,7 +227,7 @@ class DevisProgLignesTest extends AbstractTestCase {
         $obj = new DevisProgLignes();
 
         $obj->setMardi(true);
-        $this->assertEquals(true, $obj->getMardi());
+        $this->assertTrue($obj->getMardi());
     }
 
     /**
@@ -240,7 +240,7 @@ class DevisProgLignesTest extends AbstractTestCase {
         $obj = new DevisProgLignes();
 
         $obj->setMercredi(true);
-        $this->assertEquals(true, $obj->getMercredi());
+        $this->assertTrue($obj->getMercredi());
     }
 
     /**
@@ -266,7 +266,7 @@ class DevisProgLignesTest extends AbstractTestCase {
         $obj = new DevisProgLignes();
 
         $obj->setNov(true);
-        $this->assertEquals(true, $obj->getNov());
+        $this->assertTrue($obj->getNov());
     }
 
     /**
@@ -331,7 +331,7 @@ class DevisProgLignesTest extends AbstractTestCase {
         $obj = new DevisProgLignes();
 
         $obj->setOct(true);
-        $this->assertEquals(true, $obj->getOct());
+        $this->assertTrue($obj->getOct());
     }
 
     /**
@@ -357,7 +357,7 @@ class DevisProgLignesTest extends AbstractTestCase {
         $obj = new DevisProgLignes();
 
         $obj->setSamedi(true);
-        $this->assertEquals(true, $obj->getSamedi());
+        $this->assertTrue($obj->getSamedi());
     }
 
     /**
@@ -370,7 +370,7 @@ class DevisProgLignesTest extends AbstractTestCase {
         $obj = new DevisProgLignes();
 
         $obj->setSep(true);
-        $this->assertEquals(true, $obj->getSep());
+        $this->assertTrue($obj->getSep());
     }
 
     /**
@@ -383,7 +383,7 @@ class DevisProgLignesTest extends AbstractTestCase {
         $obj = new DevisProgLignes();
 
         $obj->setVendredi(true);
-        $this->assertEquals(true, $obj->getVendredi());
+        $this->assertTrue($obj->getVendredi());
     }
 
     /**

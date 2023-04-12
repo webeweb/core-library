@@ -146,7 +146,7 @@ class TarifsTranchesTest extends AbstractTestCase {
         $obj = new TarifsTranches();
 
         $obj->setPrixNet(true);
-        $this->assertEquals(true, $obj->getPrixNet());
+        $this->assertTrue($obj->getPrixNet());
     }
 
     /**

@@ -419,7 +419,7 @@ class FacturesEntetesTest extends AbstractTestCase {
         $obj = new FacturesEntetes();
 
         $obj->setDateLimiteForcee(true);
-        $this->assertEquals(true, $obj->getDateLimiteForcee());
+        $this->assertTrue($obj->getDateLimiteForcee());
     }
 
     /**
@@ -462,7 +462,7 @@ class FacturesEntetesTest extends AbstractTestCase {
         $obj = new FacturesEntetes();
 
         $obj->setEcheanceForcee(true);
-        $this->assertEquals(true, $obj->getEcheanceForcee());
+        $this->assertTrue($obj->getEcheanceForcee());
     }
 
     /**
@@ -514,7 +514,7 @@ class FacturesEntetesTest extends AbstractTestCase {
         $obj = new FacturesEntetes();
 
         $obj->setFactureEuros(true);
-        $this->assertEquals(true, $obj->getFactureEuros());
+        $this->assertTrue($obj->getFactureEuros());
     }
 
     /**
@@ -527,7 +527,7 @@ class FacturesEntetesTest extends AbstractTestCase {
         $obj = new FacturesEntetes();
 
         $obj->setFactureVm(true);
-        $this->assertEquals(true, $obj->getFactureVm());
+        $this->assertTrue($obj->getFactureVm());
     }
 
     /**
@@ -943,7 +943,7 @@ class FacturesEntetesTest extends AbstractTestCase {
         $obj = new FacturesEntetes();
 
         $obj->setSaisirAdresse(true);
-        $this->assertEquals(true, $obj->getSaisirAdresse());
+        $this->assertTrue($obj->getSaisirAdresse());
     }
 
     /**
@@ -956,7 +956,7 @@ class FacturesEntetesTest extends AbstractTestCase {
         $obj = new FacturesEntetes();
 
         $obj->setSoumisEscompte(true);
-        $this->assertEquals(true, $obj->getSoumisEscompte());
+        $this->assertTrue($obj->getSoumisEscompte());
     }
 
     /**
@@ -969,7 +969,7 @@ class FacturesEntetesTest extends AbstractTestCase {
         $obj = new FacturesEntetes();
 
         $obj->setSoumisTaxeDeee(true);
-        $this->assertEquals(true, $obj->getSoumisTaxeDeee());
+        $this->assertTrue($obj->getSoumisTaxeDeee());
     }
 
     /**

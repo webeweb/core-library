@@ -211,7 +211,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
         $obj = new ChantiersHistoRev();
 
         $obj->setRefusClient(true);
-        $this->assertEquals(true, $obj->getRefusClient());
+        $this->assertTrue($obj->getRefusClient());
     }
 
     /**

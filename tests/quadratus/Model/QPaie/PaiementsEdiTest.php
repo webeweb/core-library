@@ -84,7 +84,7 @@ class PaiementsEdiTest extends AbstractTestCase {
         $obj = new PaiementsEdi();
 
         $obj->setGenererCouponPaiement(true);
-        $this->assertEquals(true, $obj->getGenererCouponPaiement());
+        $this->assertTrue($obj->getGenererCouponPaiement());
     }
 
     /**

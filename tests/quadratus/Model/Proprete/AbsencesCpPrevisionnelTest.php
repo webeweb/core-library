@@ -141,7 +141,7 @@ class AbsencesCpPrevisionnelTest extends AbstractTestCase {
         $obj = new AbsencesCpPrevisionnel();
 
         $obj->setDepuisWeb(true);
-        $this->assertEquals(true, $obj->getDepuisWeb());
+        $this->assertTrue($obj->getDepuisWeb());
     }
 
     /**

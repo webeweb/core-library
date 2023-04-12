@@ -71,7 +71,7 @@ class ConfidentialiteTest extends AbstractTestCase {
         $obj = new Confidentialite();
 
         $obj->setActiveConfMenusQb(true);
-        $this->assertEquals(true, $obj->getActiveConfMenusQb());
+        $this->assertTrue($obj->getActiveConfMenusQb());
     }
 
     /**
@@ -84,7 +84,7 @@ class ConfidentialiteTest extends AbstractTestCase {
         $obj = new Confidentialite();
 
         $obj->setActiveConfMenusQb2(true);
-        $this->assertEquals(true, $obj->getActiveConfMenusQb2());
+        $this->assertTrue($obj->getActiveConfMenusQb2());
     }
 
     /**
@@ -97,7 +97,7 @@ class ConfidentialiteTest extends AbstractTestCase {
         $obj = new Confidentialite();
 
         $obj->setActiveConfMenusQc(true);
-        $this->assertEquals(true, $obj->getActiveConfMenusQc());
+        $this->assertTrue($obj->getActiveConfMenusQc());
     }
 
     /**
@@ -110,7 +110,7 @@ class ConfidentialiteTest extends AbstractTestCase {
         $obj = new Confidentialite();
 
         $obj->setActiveConfMenusQfact(true);
-        $this->assertEquals(true, $obj->getActiveConfMenusQfact());
+        $this->assertTrue($obj->getActiveConfMenusQfact());
     }
 
     /**
@@ -123,7 +123,7 @@ class ConfidentialiteTest extends AbstractTestCase {
         $obj = new Confidentialite();
 
         $obj->setActiveConfMenusQgi(true);
-        $this->assertEquals(true, $obj->getActiveConfMenusQgi());
+        $this->assertTrue($obj->getActiveConfMenusQgi());
     }
 
     /**
@@ -136,7 +136,7 @@ class ConfidentialiteTest extends AbstractTestCase {
         $obj = new Confidentialite();
 
         $obj->setActiveConfMenusQp(true);
-        $this->assertEquals(true, $obj->getActiveConfMenusQp());
+        $this->assertTrue($obj->getActiveConfMenusQp());
     }
 
     /**
@@ -149,7 +149,7 @@ class ConfidentialiteTest extends AbstractTestCase {
         $obj = new Confidentialite();
 
         $obj->setActiveConfMenusQprop(true);
-        $this->assertEquals(true, $obj->getActiveConfMenusQprop());
+        $this->assertTrue($obj->getActiveConfMenusQprop());
     }
 
     /**
@@ -162,7 +162,7 @@ class ConfidentialiteTest extends AbstractTestCase {
         $obj = new Confidentialite();
 
         $obj->setActiveConfMenusQtrs(true);
-        $this->assertEquals(true, $obj->getActiveConfMenusQtrs());
+        $this->assertTrue($obj->getActiveConfMenusQtrs());
     }
 
     /**
@@ -175,7 +175,7 @@ class ConfidentialiteTest extends AbstractTestCase {
         $obj = new Confidentialite();
 
         $obj->setMasquerBaseAccess(true);
-        $this->assertEquals(true, $obj->getMasquerBaseAccess());
+        $this->assertTrue($obj->getMasquerBaseAccess());
     }
 
     /**

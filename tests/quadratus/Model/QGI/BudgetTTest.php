@@ -549,7 +549,7 @@ class BudgetTTest extends AbstractTestCase {
         $obj = new BudgetT();
 
         $obj->setSaisieTache(true);
-        $this->assertEquals(true, $obj->getSaisieTache());
+        $this->assertTrue($obj->getSaisieTache());
     }
 
     /**

@@ -150,7 +150,7 @@ class AbsencesEnteteTest extends AbstractTestCase {
         $obj = new AbsencesEntete();
 
         $obj->setFromFermetureChantier(true);
-        $this->assertEquals(true, $obj->getFromFermetureChantier());
+        $this->assertTrue($obj->getFromFermetureChantier());
     }
 
     /**

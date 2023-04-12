@@ -86,7 +86,7 @@ class BanquesTest extends AbstractTestCase {
         $obj = new Banques();
 
         $obj->setEdiTdfc(true);
-        $this->assertEquals(true, $obj->getEdiTdfc());
+        $this->assertTrue($obj->getEdiTdfc());
     }
 
     /**
@@ -164,7 +164,7 @@ class BanquesTest extends AbstractTestCase {
         $obj = new Banques();
 
         $obj->setIsBanqueFact(true);
-        $this->assertEquals(true, $obj->getIsBanqueFact());
+        $this->assertTrue($obj->getIsBanqueFact());
     }
 
     /**
@@ -272,7 +272,7 @@ class BanquesTest extends AbstractTestCase {
         $obj = new Banques();
 
         $obj->setSepa(true);
-        $this->assertEquals(true, $obj->getSepa());
+        $this->assertTrue($obj->getSepa());
     }
 
     /**

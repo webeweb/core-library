@@ -34,7 +34,7 @@ class AbsencesTest extends AbstractTestCase {
         $obj = new Absences();
 
         $obj->setAbsJour(true);
-        $this->assertEquals(true, $obj->getAbsJour());
+        $this->assertTrue($obj->getAbsJour());
     }
 
     /**
@@ -73,7 +73,7 @@ class AbsencesTest extends AbstractTestCase {
         $obj = new Absences();
 
         $obj->setCongesPayes(true);
-        $this->assertEquals(true, $obj->getCongesPayes());
+        $this->assertTrue($obj->getCongesPayes());
     }
 
     /**
@@ -120,7 +120,7 @@ class AbsencesTest extends AbstractTestCase {
         $obj = new Absences();
 
         $obj->setInBul(true);
-        $this->assertEquals(true, $obj->getInBul());
+        $this->assertTrue($obj->getInBul());
     }
 
     /**
@@ -301,7 +301,7 @@ class AbsencesTest extends AbstractTestCase {
         $obj = new Absences();
 
         $obj->setProlongation(true);
-        $this->assertEquals(true, $obj->getProlongation());
+        $this->assertTrue($obj->getProlongation());
     }
 
     /**
@@ -314,7 +314,7 @@ class AbsencesTest extends AbstractTestCase {
         $obj = new Absences();
 
         $obj->setReprise(true);
-        $this->assertEquals(true, $obj->getReprise());
+        $this->assertTrue($obj->getReprise());
     }
 
     /**

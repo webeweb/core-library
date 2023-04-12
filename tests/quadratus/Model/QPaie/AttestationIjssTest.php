@@ -73,7 +73,7 @@ class AttestationIjssTest extends AbstractTestCase {
         $obj = new AttestationIjss();
 
         $obj->setCasGeneral(true);
-        $this->assertEquals(true, $obj->getCasGeneral());
+        $this->assertTrue($obj->getCasGeneral());
     }
 
     /**
@@ -86,7 +86,7 @@ class AttestationIjssTest extends AbstractTestCase {
         $obj = new AttestationIjss();
 
         $obj->setCasParticulier(true);
-        $this->assertEquals(true, $obj->getCasParticulier());
+        $this->assertTrue($obj->getCasParticulier());
     }
 
     /**
@@ -210,7 +210,7 @@ class AttestationIjssTest extends AbstractTestCase {
         $obj = new AttestationIjss();
 
         $obj->setDispenseTravail(true);
-        $this->assertEquals(true, $obj->getDispenseTravail());
+        $this->assertTrue($obj->getDispenseTravail());
     }
 
     /**
@@ -340,7 +340,7 @@ class AttestationIjssTest extends AbstractTestCase {
         $obj = new AttestationIjss();
 
         $obj->setMaladie(true);
-        $this->assertEquals(true, $obj->getMaladie());
+        $this->assertTrue($obj->getMaladie());
     }
 
     /**
@@ -353,7 +353,7 @@ class AttestationIjssTest extends AbstractTestCase {
         $obj = new AttestationIjss();
 
         $obj->setMaternite(true);
-        $this->assertEquals(true, $obj->getMaternite());
+        $this->assertTrue($obj->getMaternite());
     }
 
     /**
@@ -535,7 +535,7 @@ class AttestationIjssTest extends AbstractTestCase {
         $obj = new AttestationIjss();
 
         $obj->setNonRepris(true);
-        $this->assertEquals(true, $obj->getNonRepris());
+        $this->assertTrue($obj->getNonRepris());
     }
 
     /**
@@ -587,7 +587,7 @@ class AttestationIjssTest extends AbstractTestCase {
         $obj = new AttestationIjss();
 
         $obj->setPaiementEnEuro(true);
-        $this->assertEquals(true, $obj->getPaiementEnEuro());
+        $this->assertTrue($obj->getPaiementEnEuro());
     }
 
     /**
@@ -600,7 +600,7 @@ class AttestationIjssTest extends AbstractTestCase {
         $obj = new AttestationIjss();
 
         $obj->setPaternite(true);
-        $this->assertEquals(true, $obj->getPaternite());
+        $this->assertTrue($obj->getPaternite());
     }
 
     /**
@@ -681,7 +681,7 @@ class AttestationIjssTest extends AbstractTestCase {
         $obj = new AttestationIjss();
 
         $obj->setPlusde200h(true);
-        $this->assertEquals(true, $obj->getPlusde200h());
+        $this->assertTrue($obj->getPlusde200h());
     }
 
     /**
@@ -694,7 +694,7 @@ class AttestationIjssTest extends AbstractTestCase {
         $obj = new AttestationIjss();
 
         $obj->setPlusde800h(true);
-        $this->assertEquals(true, $obj->getPlusde800h());
+        $this->assertTrue($obj->getPlusde800h());
     }
 
     /**
@@ -720,7 +720,7 @@ class AttestationIjssTest extends AbstractTestCase {
         $obj = new AttestationIjss();
 
         $obj->setRectificative(true);
-        $this->assertEquals(true, $obj->getRectificative());
+        $this->assertTrue($obj->getRectificative());
     }
 
     /**
@@ -750,7 +750,7 @@ class AttestationIjssTest extends AbstractTestCase {
         $obj = new AttestationIjss();
 
         $obj->setRepriseMotifMed(true);
-        $this->assertEquals(true, $obj->getRepriseMotifMed());
+        $this->assertTrue($obj->getRepriseMotifMed());
     }
 
     /**
@@ -763,7 +763,7 @@ class AttestationIjssTest extends AbstractTestCase {
         $obj = new AttestationIjss();
 
         $obj->setRepriseRaisonPers(true);
-        $this->assertEquals(true, $obj->getRepriseRaisonPers());
+        $this->assertTrue($obj->getRepriseRaisonPers());
     }
 
     /**
@@ -858,7 +858,7 @@ class AttestationIjssTest extends AbstractTestCase {
         $obj = new AttestationIjss();
 
         $obj->setSubrogationConstantes(true);
-        $this->assertEquals(true, $obj->getSubrogationConstantes());
+        $this->assertTrue($obj->getSubrogationConstantes());
     }
 
     /**
@@ -884,7 +884,7 @@ class AttestationIjssTest extends AbstractTestCase {
         $obj = new AttestationIjss();
 
         $obj->setSubrogationPartielle(true);
-        $this->assertEquals(true, $obj->getSubrogationPartielle());
+        $this->assertTrue($obj->getSubrogationPartielle());
     }
 
     /**
@@ -927,7 +927,7 @@ class AttestationIjssTest extends AbstractTestCase {
         $obj = new AttestationIjss();
 
         $obj->setTravailTemp(true);
-        $this->assertEquals(true, $obj->getTravailTemp());
+        $this->assertTrue($obj->getTravailTemp());
     }
 
     /**

@@ -34,7 +34,7 @@ class Employes2Test extends AbstractTestCase {
         $obj = new Employes2();
 
         $obj->setADeclarerCp(true);
-        $this->assertEquals(true, $obj->getADeclarerCp());
+        $this->assertTrue($obj->getADeclarerCp());
     }
 
     /**
@@ -47,7 +47,7 @@ class Employes2Test extends AbstractTestCase {
         $obj = new Employes2();
 
         $obj->setActiveSalMinConv(true);
-        $this->assertEquals(true, $obj->getActiveSalMinConv());
+        $this->assertTrue($obj->getActiveSalMinConv());
     }
 
     /**
@@ -60,7 +60,7 @@ class Employes2Test extends AbstractTestCase {
         $obj = new Employes2();
 
         $obj->setActiveSmic(true);
-        $this->assertEquals(true, $obj->getActiveSmic());
+        $this->assertTrue($obj->getActiveSmic());
     }
 
     /**
@@ -73,7 +73,7 @@ class Employes2Test extends AbstractTestCase {
         $obj = new Employes2();
 
         $obj->setAenLogement(true);
-        $this->assertEquals(true, $obj->getAenLogement());
+        $this->assertTrue($obj->getAenLogement());
     }
 
     /**
@@ -164,7 +164,7 @@ class Employes2Test extends AbstractTestCase {
         $obj = new Employes2();
 
         $obj->setChefEquipe(true);
-        $this->assertEquals(true, $obj->getChefEquipe());
+        $this->assertTrue($obj->getChefEquipe());
     }
 
     /**
@@ -177,7 +177,7 @@ class Employes2Test extends AbstractTestCase {
         $obj = new Employes2();
 
         $obj->setCiePlus50(true);
-        $this->assertEquals(true, $obj->getCiePlus50());
+        $this->assertTrue($obj->getCiePlus50());
     }
 
     /**
@@ -294,7 +294,7 @@ class Employes2Test extends AbstractTestCase {
         $obj = new Employes2();
 
         $obj->setCommercial(true);
-        $this->assertEquals(true, $obj->getCommercial());
+        $this->assertTrue($obj->getCommercial());
     }
 
     /**
@@ -320,7 +320,7 @@ class Employes2Test extends AbstractTestCase {
         $obj = new Employes2();
 
         $obj->setConjointExploitant(true);
-        $this->assertEquals(true, $obj->getConjointExploitant());
+        $this->assertTrue($obj->getConjointExploitant());
     }
 
     /**
@@ -333,7 +333,7 @@ class Employes2Test extends AbstractTestCase {
         $obj = new Employes2();
 
         $obj->setContratCne(true);
-        $this->assertEquals(true, $obj->getContratCne());
+        $this->assertTrue($obj->getContratCne());
     }
 
     /**
@@ -346,7 +346,7 @@ class Employes2Test extends AbstractTestCase {
         $obj = new Employes2();
 
         $obj->setCotisBasePenibilite(true);
-        $this->assertEquals(true, $obj->getCotisBasePenibilite());
+        $this->assertTrue($obj->getCotisBasePenibilite());
     }
 
     /**
@@ -938,7 +938,7 @@ class Employes2Test extends AbstractTestCase {
         $obj = new Employes2();
 
         $obj->setExclureChomCdd(true);
-        $this->assertEquals(true, $obj->getExclureChomCdd());
+        $this->assertTrue($obj->getExclureChomCdd());
     }
 
     /**
@@ -951,7 +951,7 @@ class Employes2Test extends AbstractTestCase {
         $obj = new Employes2();
 
         $obj->setExclureCice(true);
-        $this->assertEquals(true, $obj->getExclureCice());
+        $this->assertTrue($obj->getExclureCice());
     }
 
     /**
@@ -964,7 +964,7 @@ class Employes2Test extends AbstractTestCase {
         $obj = new Employes2();
 
         $obj->setExclureCospar(true);
-        $this->assertEquals(true, $obj->getExclureCospar());
+        $this->assertTrue($obj->getExclureCospar());
     }
 
     /**
@@ -977,7 +977,7 @@ class Employes2Test extends AbstractTestCase {
         $obj = new Employes2();
 
         $obj->setExclureCotAssedicParUrssaf(true);
-        $this->assertEquals(true, $obj->getExclureCotAssedicParUrssaf());
+        $this->assertTrue($obj->getExclureCotAssedicParUrssaf());
     }
 
     /**
@@ -990,7 +990,7 @@ class Employes2Test extends AbstractTestCase {
         $obj = new Employes2();
 
         $obj->setExclureDas(true);
-        $this->assertEquals(true, $obj->getExclureDas());
+        $this->assertTrue($obj->getExclureDas());
     }
 
     /**
@@ -1003,7 +1003,7 @@ class Employes2Test extends AbstractTestCase {
         $obj = new Employes2();
 
         $obj->setExclureDsn(true);
-        $this->assertEquals(true, $obj->getExclureDsn());
+        $this->assertTrue($obj->getExclureDsn());
     }
 
     /**
@@ -1029,7 +1029,7 @@ class Employes2Test extends AbstractTestCase {
         $obj = new Employes2();
 
         $obj->setExclureLoiTepa(true);
-        $this->assertEquals(true, $obj->getExclureLoiTepa());
+        $this->assertTrue($obj->getExclureLoiTepa());
     }
 
     /**
@@ -1042,7 +1042,7 @@ class Employes2Test extends AbstractTestCase {
         $obj = new Employes2();
 
         $obj->setExclureLoiTepaPartP(true);
-        $this->assertEquals(true, $obj->getExclureLoiTepaPartP());
+        $this->assertTrue($obj->getExclureLoiTepaPartP());
     }
 
     /**
@@ -1055,7 +1055,7 @@ class Employes2Test extends AbstractTestCase {
         $obj = new Employes2();
 
         $obj->setExclureLoiTepaPartS(true);
-        $this->assertEquals(true, $obj->getExclureLoiTepaPartS());
+        $this->assertTrue($obj->getExclureLoiTepaPartS());
     }
 
     /**
@@ -1068,7 +1068,7 @@ class Employes2Test extends AbstractTestCase {
         $obj = new Employes2();
 
         $obj->setExclureQgc(true);
-        $this->assertEquals(true, $obj->getExclureQgc());
+        $this->assertTrue($obj->getExclureQgc());
     }
 
     /**
@@ -1081,7 +1081,7 @@ class Employes2Test extends AbstractTestCase {
         $obj = new Employes2();
 
         $obj->setExoAccre17(true);
-        $this->assertEquals(true, $obj->getExoAccre17());
+        $this->assertTrue($obj->getExoAccre17());
     }
 
     /**
@@ -1094,7 +1094,7 @@ class Employes2Test extends AbstractTestCase {
         $obj = new Employes2();
 
         $obj->setExoAgff(true);
-        $this->assertEquals(true, $obj->getExoAgff());
+        $this->assertTrue($obj->getExoAgff());
     }
 
     /**
@@ -1107,7 +1107,7 @@ class Employes2Test extends AbstractTestCase {
         $obj = new Employes2();
 
         $obj->setExoOccasionnelMsa(true);
-        $this->assertEquals(true, $obj->getExoOccasionnelMsa());
+        $this->assertTrue($obj->getExoOccasionnelMsa());
     }
 
     /**
@@ -1120,7 +1120,7 @@ class Employes2Test extends AbstractTestCase {
         $obj = new Employes2();
 
         $obj->setExoProfessionnalisation(true);
-        $this->assertEquals(true, $obj->getExoProfessionnalisation());
+        $this->assertTrue($obj->getExoProfessionnalisation());
     }
 
     /**
@@ -1133,7 +1133,7 @@ class Employes2Test extends AbstractTestCase {
         $obj = new Employes2();
 
         $obj->setExoSpecif(true);
-        $this->assertEquals(true, $obj->getExoSpecif());
+        $this->assertTrue($obj->getExoSpecif());
     }
 
     /**
@@ -1146,7 +1146,7 @@ class Employes2Test extends AbstractTestCase {
         $obj = new Employes2();
 
         $obj->setForfaitHeure(true);
-        $this->assertEquals(true, $obj->getForfaitHeure());
+        $this->assertTrue($obj->getForfaitHeure());
     }
 
     /**
@@ -1159,7 +1159,7 @@ class Employes2Test extends AbstractTestCase {
         $obj = new Employes2();
 
         $obj->setForfaitJour(true);
-        $this->assertEquals(true, $obj->getForfaitJour());
+        $this->assertTrue($obj->getForfaitJour());
     }
 
     /**
@@ -1172,7 +1172,7 @@ class Employes2Test extends AbstractTestCase {
         $obj = new Employes2();
 
         $obj->setGestionCompteurHCompleter(true);
-        $this->assertEquals(true, $obj->getGestionCompteurHCompleter());
+        $this->assertTrue($obj->getGestionCompteurHCompleter());
     }
 
     /**
@@ -1198,7 +1198,7 @@ class Employes2Test extends AbstractTestCase {
         $obj = new Employes2();
 
         $obj->setGestionMailBulletin(true);
-        $this->assertEquals(true, $obj->getGestionMailBulletin());
+        $this->assertTrue($obj->getGestionMailBulletin());
     }
 
     /**
@@ -1302,7 +1302,7 @@ class Employes2Test extends AbstractTestCase {
         $obj = new Employes2();
 
         $obj->setIndemCpMsa(true);
-        $this->assertEquals(true, $obj->getIndemCpMsa());
+        $this->assertTrue($obj->getIndemCpMsa());
     }
 
     /**
@@ -1328,7 +1328,7 @@ class Employes2Test extends AbstractTestCase {
         $obj = new Employes2();
 
         $obj->setInspecteur(true);
-        $this->assertEquals(true, $obj->getInspecteur());
+        $this->assertTrue($obj->getInspecteur());
     }
 
     /**
@@ -1341,7 +1341,7 @@ class Employes2Test extends AbstractTestCase {
         $obj = new Employes2();
 
         $obj->setInterimIndemCpFillon(true);
-        $this->assertEquals(true, $obj->getInterimIndemCpFillon());
+        $this->assertTrue($obj->getInterimIndemCpFillon());
     }
 
     /**
@@ -1380,7 +1380,7 @@ class Employes2Test extends AbstractTestCase {
         $obj = new Employes2();
 
         $obj->setMaintienNetDeducCsgijss(true);
-        $this->assertEquals(true, $obj->getMaintienNetDeducCsgijss());
+        $this->assertTrue($obj->getMaintienNetDeducCsgijss());
     }
 
     /**
@@ -1406,7 +1406,7 @@ class Employes2Test extends AbstractTestCase {
         $obj = new Employes2();
 
         $obj->setMaintienSpecifique(true);
-        $this->assertEquals(true, $obj->getMaintienSpecifique());
+        $this->assertTrue($obj->getMaintienSpecifique());
     }
 
     /**
@@ -1419,7 +1419,7 @@ class Employes2Test extends AbstractTestCase {
         $obj = new Employes2();
 
         $obj->setMajoProfessionnalisation(true);
-        $this->assertEquals(true, $obj->getMajoProfessionnalisation());
+        $this->assertTrue($obj->getMajoProfessionnalisation());
     }
 
     /**
@@ -1432,7 +1432,7 @@ class Employes2Test extends AbstractTestCase {
         $obj = new Employes2();
 
         $obj->setMandataireSocial(true);
-        $this->assertEquals(true, $obj->getMandataireSocial());
+        $this->assertTrue($obj->getMandataireSocial());
     }
 
     /**
@@ -1497,7 +1497,7 @@ class Employes2Test extends AbstractTestCase {
         $obj = new Employes2();
 
         $obj->setMultiEmployeur(true);
-        $this->assertEquals(true, $obj->getMultiEmployeur());
+        $this->assertTrue($obj->getMultiEmployeur());
     }
 
     /**
@@ -1692,7 +1692,7 @@ class Employes2Test extends AbstractTestCase {
         $obj = new Employes2();
 
         $obj->setNePasActiverPrimeAnnuelleProprete(true);
-        $this->assertEquals(true, $obj->getNePasActiverPrimeAnnuelleProprete());
+        $this->assertTrue($obj->getNePasActiverPrimeAnnuelleProprete());
     }
 
     /**
@@ -1783,7 +1783,7 @@ class Employes2Test extends AbstractTestCase {
         $obj = new Employes2();
 
         $obj->setPasGestionDif(true);
-        $this->assertEquals(true, $obj->getPasGestionDif());
+        $this->assertTrue($obj->getPasGestionDif());
     }
 
     /**
@@ -1865,7 +1865,7 @@ class Employes2Test extends AbstractTestCase {
         $obj = new Employes2();
 
         $obj->setRbtNavigoNonProratise(true);
-        $this->assertEquals(true, $obj->getRbtNavigoNonProratise());
+        $this->assertTrue($obj->getRbtNavigoNonProratise());
     }
 
     /**
@@ -1904,7 +1904,7 @@ class Employes2Test extends AbstractTestCase {
         $obj = new Employes2();
 
         $obj->setRemunPartFillon(true);
-        $this->assertEquals(true, $obj->getRemunPartFillon());
+        $this->assertTrue($obj->getRemunPartFillon());
     }
 
     /**
@@ -2151,7 +2151,7 @@ class Employes2Test extends AbstractTestCase {
         $obj = new Employes2();
 
         $obj->setTravailleurDeNuit(true);
-        $this->assertEquals(true, $obj->getTravailleurDeNuit());
+        $this->assertTrue($obj->getTravailleurDeNuit());
     }
 
     /**

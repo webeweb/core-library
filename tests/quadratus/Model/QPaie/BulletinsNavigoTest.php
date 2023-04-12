@@ -90,7 +90,7 @@ class BulletinsNavigoTest extends AbstractTestCase {
         $obj = new BulletinsNavigo();
 
         $obj->setRbtNonProratise(true);
-        $this->assertEquals(true, $obj->getRbtNonProratise());
+        $this->assertTrue($obj->getRbtNonProratise());
     }
 
     /**

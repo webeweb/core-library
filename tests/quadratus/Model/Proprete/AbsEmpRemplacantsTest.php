@@ -34,7 +34,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
         $obj = new AbsEmpRemplacants();
 
         $obj->setAjouterEnHCompl(true);
-        $this->assertEquals(true, $obj->getAjouterEnHCompl());
+        $this->assertTrue($obj->getAjouterEnHCompl());
     }
 
     /**
@@ -47,7 +47,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
         $obj = new AbsEmpRemplacants();
 
         $obj->setAvenantHRempl(true);
-        $this->assertEquals(true, $obj->getAvenantHRempl());
+        $this->assertTrue($obj->getAvenantHRempl());
     }
 
     /**
@@ -379,7 +379,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
         $obj = new AbsEmpRemplacants();
 
         $obj->setRemplacantTravailleJf(true);
-        $this->assertEquals(true, $obj->getRemplacantTravailleJf());
+        $this->assertTrue($obj->getRemplacantTravailleJf());
     }
 
     /**
@@ -392,7 +392,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
         $obj = new AbsEmpRemplacants();
 
         $obj->setRemplacementComplet(true);
-        $this->assertEquals(true, $obj->getRemplacementComplet());
+        $this->assertTrue($obj->getRemplacementComplet());
     }
 
     /**
@@ -405,7 +405,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
         $obj = new AbsEmpRemplacants();
 
         $obj->setRemplacementModifie(true);
-        $this->assertEquals(true, $obj->getRemplacementModifie());
+        $this->assertTrue($obj->getRemplacementModifie());
     }
 
     /**

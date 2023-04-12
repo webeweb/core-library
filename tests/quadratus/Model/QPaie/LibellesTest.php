@@ -34,7 +34,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setACompterHeuresAssedic(true);
-        $this->assertEquals(true, $obj->getACompterHeuresAssedic());
+        $this->assertTrue($obj->getACompterHeuresAssedic());
     }
 
     /**
@@ -47,7 +47,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setAConserverSetp(true);
-        $this->assertEquals(true, $obj->getAConserverSetp());
+        $this->assertTrue($obj->getAConserverSetp());
     }
 
     /**
@@ -60,7 +60,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setACumulerBaseCaisse1(true);
-        $this->assertEquals(true, $obj->getACumulerBaseCaisse1());
+        $this->assertTrue($obj->getACumulerBaseCaisse1());
     }
 
     /**
@@ -73,7 +73,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setACumulerBaseCaisse2(true);
-        $this->assertEquals(true, $obj->getACumulerBaseCaisse2());
+        $this->assertTrue($obj->getACumulerBaseCaisse2());
     }
 
     /**
@@ -86,7 +86,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setACumulerBaseCaisse3(true);
-        $this->assertEquals(true, $obj->getACumulerBaseCaisse3());
+        $this->assertTrue($obj->getACumulerBaseCaisse3());
     }
 
     /**
@@ -99,7 +99,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setACumulerBaseCp(true);
-        $this->assertEquals(true, $obj->getACumulerBaseCp());
+        $this->assertTrue($obj->getACumulerBaseCp());
     }
 
     /**
@@ -112,7 +112,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setACumulerBaseSecu(true);
-        $this->assertEquals(true, $obj->getACumulerBaseSecu());
+        $this->assertTrue($obj->getACumulerBaseSecu());
     }
 
     /**
@@ -125,7 +125,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setAReintegrerSetp(true);
-        $this->assertEquals(true, $obj->getAReintegrerSetp());
+        $this->assertTrue($obj->getAReintegrerSetp());
     }
 
     /**
@@ -138,7 +138,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setActiveVariablesEmp(true);
-        $this->assertEquals(true, $obj->getActiveVariablesEmp());
+        $this->assertTrue($obj->getActiveVariablesEmp());
     }
 
     /**
@@ -151,7 +151,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setAenLienPresenceEffective(true);
-        $this->assertEquals(true, $obj->getAenLienPresenceEffective());
+        $this->assertTrue($obj->getAenLienPresenceEffective());
     }
 
     /**
@@ -164,7 +164,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setAgff(true);
-        $this->assertEquals(true, $obj->getAgff());
+        $this->assertTrue($obj->getAgff());
     }
 
     /**
@@ -177,7 +177,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setAvantageNaturePrime(true);
-        $this->assertEquals(true, $obj->getAvantageNaturePrime());
+        $this->assertTrue($obj->getAvantageNaturePrime());
     }
 
     /**
@@ -190,7 +190,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setAvantageNatureTds(true);
-        $this->assertEquals(true, $obj->getAvantageNatureTds());
+        $this->assertTrue($obj->getAvantageNatureTds());
     }
 
     /**
@@ -203,7 +203,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setAvecRetroAct(true);
-        $this->assertEquals(true, $obj->getAvecRetroAct());
+        $this->assertTrue($obj->getAvecRetroAct());
     }
 
     /**
@@ -216,7 +216,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setBaseExoneree(true);
-        $this->assertEquals(true, $obj->getBaseExoneree());
+        $this->assertTrue($obj->getBaseExoneree());
     }
 
     /**
@@ -229,7 +229,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setBaseNonExoneree(true);
-        $this->assertEquals(true, $obj->getBaseNonExoneree());
+        $this->assertTrue($obj->getBaseNonExoneree());
     }
 
     /**
@@ -255,7 +255,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setChequeVacance(true);
-        $this->assertEquals(true, $obj->getChequeVacance());
+        $this->assertTrue($obj->getChequeVacance());
     }
 
     /**
@@ -489,7 +489,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setCongePaye(true);
-        $this->assertEquals(true, $obj->getCongePaye());
+        $this->assertTrue($obj->getCongePaye());
     }
 
     /**
@@ -502,7 +502,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setCotisNormalDues(true);
-        $this->assertEquals(true, $obj->getCotisNormalDues());
+        $this->assertTrue($obj->getCotisNormalDues());
     }
 
     /**
@@ -515,7 +515,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setCotisNormalDuesAccre(true);
-        $this->assertEquals(true, $obj->getCotisNormalDuesAccre());
+        $this->assertTrue($obj->getCotisNormalDuesAccre());
     }
 
     /**
@@ -528,7 +528,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setCotisNormalDuesZfu(true);
-        $this->assertEquals(true, $obj->getCotisNormalDuesZfu());
+        $this->assertTrue($obj->getCotisNormalDuesZfu());
     }
 
     /**
@@ -541,7 +541,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setCotisNormalDuesZrd(true);
-        $this->assertEquals(true, $obj->getCotisNormalDuesZrd());
+        $this->assertTrue($obj->getCotisNormalDuesZrd());
     }
 
     /**
@@ -554,7 +554,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setCotisNormalDuesZrrzru(true);
-        $this->assertEquals(true, $obj->getCotisNormalDuesZrrzru());
+        $this->assertTrue($obj->getCotisNormalDuesZrrzru());
     }
 
     /**
@@ -567,7 +567,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setCotisationCsg(true);
-        $this->assertEquals(true, $obj->getCotisationCsg());
+        $this->assertTrue($obj->getCotisationCsg());
     }
 
     /**
@@ -580,7 +580,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setCoutGlobal(true);
-        $this->assertEquals(true, $obj->getCoutGlobal());
+        $this->assertTrue($obj->getCoutGlobal());
     }
 
     /**
@@ -610,7 +610,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setDetermineAllegement(true);
-        $this->assertEquals(true, $obj->getDetermineAllegement());
+        $this->assertTrue($obj->getDetermineAllegement());
     }
 
     /**
@@ -623,7 +623,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setDetermineBaseSecu(true);
-        $this->assertEquals(true, $obj->getDetermineBaseSecu());
+        $this->assertTrue($obj->getDetermineBaseSecu());
     }
 
     /**
@@ -636,7 +636,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setDiminueNet(true);
-        $this->assertEquals(true, $obj->getDiminueNet());
+        $this->assertTrue($obj->getDiminueNet());
     }
 
     /**
@@ -649,7 +649,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setEditionBase(true);
-        $this->assertEquals(true, $obj->getEditionBase());
+        $this->assertTrue($obj->getEditionBase());
     }
 
     /**
@@ -662,7 +662,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setEditionBulletin(true);
-        $this->assertEquals(true, $obj->getEditionBulletin());
+        $this->assertTrue($obj->getEditionBulletin());
     }
 
     /**
@@ -675,7 +675,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setEditionCotPatronale(true);
-        $this->assertEquals(true, $obj->getEditionCotPatronale());
+        $this->assertTrue($obj->getEditionCotPatronale());
     }
 
     /**
@@ -688,7 +688,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setEditionForceeDs(true);
-        $this->assertEquals(true, $obj->getEditionForceeDs());
+        $this->assertTrue($obj->getEditionForceeDs());
     }
 
     /**
@@ -701,7 +701,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setEditionResultat(true);
-        $this->assertEquals(true, $obj->getEditionResultat());
+        $this->assertTrue($obj->getEditionResultat());
     }
 
     /**
@@ -714,7 +714,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setEditionTaux(true);
-        $this->assertEquals(true, $obj->getEditionTaux());
+        $this->assertTrue($obj->getEditionTaux());
     }
 
     /**
@@ -727,7 +727,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setExclureLoiTepa(true);
-        $this->assertEquals(true, $obj->getExclureLoiTepa());
+        $this->assertTrue($obj->getExclureLoiTepa());
     }
 
     /**
@@ -740,7 +740,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setExoOccasionnelMsa(true);
-        $this->assertEquals(true, $obj->getExoOccasionnelMsa());
+        $this->assertTrue($obj->getExoOccasionnelMsa());
     }
 
     /**
@@ -753,7 +753,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setExoTauxPatronal(true);
-        $this->assertEquals(true, $obj->getExoTauxPatronal());
+        $this->assertTrue($obj->getExoTauxPatronal());
     }
 
     /**
@@ -766,7 +766,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setExpatriation(true);
-        $this->assertEquals(true, $obj->getExpatriation());
+        $this->assertTrue($obj->getExpatriation());
     }
 
     /**
@@ -779,7 +779,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setFillonAdom(true);
-        $this->assertEquals(true, $obj->getFillonAdom());
+        $this->assertTrue($obj->getFillonAdom());
     }
 
     /**
@@ -792,7 +792,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setFillonSap(true);
-        $this->assertEquals(true, $obj->getFillonSap());
+        $this->assertTrue($obj->getFillonSap());
     }
 
     /**
@@ -822,7 +822,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setFraisProfessionnel(true);
-        $this->assertEquals(true, $obj->getFraisProfessionnel());
+        $this->assertTrue($obj->getFraisProfessionnel());
     }
 
     /**
@@ -835,7 +835,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setFraisSante(true);
-        $this->assertEquals(true, $obj->getFraisSante());
+        $this->assertTrue($obj->getFraisSante());
     }
 
     /**
@@ -848,7 +848,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setFreq1(true);
-        $this->assertEquals(true, $obj->getFreq1());
+        $this->assertTrue($obj->getFreq1());
     }
 
     /**
@@ -861,7 +861,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setFreq10(true);
-        $this->assertEquals(true, $obj->getFreq10());
+        $this->assertTrue($obj->getFreq10());
     }
 
     /**
@@ -874,7 +874,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setFreq11(true);
-        $this->assertEquals(true, $obj->getFreq11());
+        $this->assertTrue($obj->getFreq11());
     }
 
     /**
@@ -887,7 +887,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setFreq12(true);
-        $this->assertEquals(true, $obj->getFreq12());
+        $this->assertTrue($obj->getFreq12());
     }
 
     /**
@@ -900,7 +900,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setFreq2(true);
-        $this->assertEquals(true, $obj->getFreq2());
+        $this->assertTrue($obj->getFreq2());
     }
 
     /**
@@ -913,7 +913,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setFreq3(true);
-        $this->assertEquals(true, $obj->getFreq3());
+        $this->assertTrue($obj->getFreq3());
     }
 
     /**
@@ -926,7 +926,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setFreq4(true);
-        $this->assertEquals(true, $obj->getFreq4());
+        $this->assertTrue($obj->getFreq4());
     }
 
     /**
@@ -939,7 +939,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setFreq5(true);
-        $this->assertEquals(true, $obj->getFreq5());
+        $this->assertTrue($obj->getFreq5());
     }
 
     /**
@@ -952,7 +952,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setFreq6(true);
-        $this->assertEquals(true, $obj->getFreq6());
+        $this->assertTrue($obj->getFreq6());
     }
 
     /**
@@ -965,7 +965,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setFreq7(true);
-        $this->assertEquals(true, $obj->getFreq7());
+        $this->assertTrue($obj->getFreq7());
     }
 
     /**
@@ -978,7 +978,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setFreq8(true);
-        $this->assertEquals(true, $obj->getFreq8());
+        $this->assertTrue($obj->getFreq8());
     }
 
     /**
@@ -991,7 +991,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setFreq9(true);
-        $this->assertEquals(true, $obj->getFreq9());
+        $this->assertTrue($obj->getFreq9());
     }
 
     /**
@@ -1004,7 +1004,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setHSupLoiTepa(true);
-        $this->assertEquals(true, $obj->getHSupLoiTepa());
+        $this->assertTrue($obj->getHSupLoiTepa());
     }
 
     /**
@@ -1017,7 +1017,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setHSupStructurelle(true);
-        $this->assertEquals(true, $obj->getHSupStructurelle());
+        $this->assertTrue($obj->getHSupStructurelle());
     }
 
     /**
@@ -1043,7 +1043,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setIjss(true);
-        $this->assertEquals(true, $obj->getIjss());
+        $this->assertTrue($obj->getIjss());
     }
 
     /**
@@ -1056,7 +1056,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setImputEpargneRet(true);
-        $this->assertEquals(true, $obj->getImputEpargneRet());
+        $this->assertTrue($obj->getImputEpargneRet());
     }
 
     /**
@@ -1069,7 +1069,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setIndemniteNonImposable(true);
-        $this->assertEquals(true, $obj->getIndemniteNonImposable());
+        $this->assertTrue($obj->getIndemniteNonImposable());
     }
 
     /**
@@ -1082,7 +1082,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setIntervientBrutAl(true);
-        $this->assertEquals(true, $obj->getIntervientBrutAl());
+        $this->assertTrue($obj->getIntervientBrutAl());
     }
 
     /**
@@ -1095,7 +1095,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setIntervientIndemPreca(true);
-        $this->assertEquals(true, $obj->getIntervientIndemPreca());
+        $this->assertTrue($obj->getIntervientIndemPreca());
     }
 
     /**
@@ -1147,7 +1147,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setMaintienSalaire(true);
-        $this->assertEquals(true, $obj->getMaintienSalaire());
+        $this->assertTrue($obj->getMaintienSalaire());
     }
 
     /**
@@ -1173,7 +1173,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setMoisEchu(true);
-        $this->assertEquals(true, $obj->getMoisEchu());
+        $this->assertTrue($obj->getMoisEchu());
     }
 
     /**
@@ -1251,7 +1251,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setNeutre(true);
-        $this->assertEquals(true, $obj->getNeutre());
+        $this->assertTrue($obj->getNeutre());
     }
 
     /**
@@ -1342,7 +1342,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setPartPatronPrevoyance(true);
-        $this->assertEquals(true, $obj->getPartPatronPrevoyance());
+        $this->assertTrue($obj->getPartPatronPrevoyance());
     }
 
     /**
@@ -1368,7 +1368,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setPourboire(true);
-        $this->assertEquals(true, $obj->getPourboire());
+        $this->assertTrue($obj->getPourboire());
     }
 
     /**
@@ -1381,7 +1381,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setPrevoyance(true);
-        $this->assertEquals(true, $obj->getPrevoyance());
+        $this->assertTrue($obj->getPrevoyance());
     }
 
     /**
@@ -1394,7 +1394,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setPrevoyanceComp(true);
-        $this->assertEquals(true, $obj->getPrevoyanceComp());
+        $this->assertTrue($obj->getPrevoyanceComp());
     }
 
     /**
@@ -1407,7 +1407,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setPrimeNonProratisee(true);
-        $this->assertEquals(true, $obj->getPrimeNonProratisee());
+        $this->assertTrue($obj->getPrimeNonProratisee());
     }
 
     /**
@@ -1420,7 +1420,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setPrimeServitudeTravail(true);
-        $this->assertEquals(true, $obj->getPrimeServitudeTravail());
+        $this->assertTrue($obj->getPrimeServitudeTravail());
     }
 
     /**
@@ -1472,7 +1472,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setRemiseAZero(true);
-        $this->assertEquals(true, $obj->getRemiseAZero());
+        $this->assertTrue($obj->getRemiseAZero());
     }
 
     /**
@@ -1485,7 +1485,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setResultMt(true);
-        $this->assertEquals(true, $obj->getResultMt());
+        $this->assertTrue($obj->getResultMt());
     }
 
     /**
@@ -1498,7 +1498,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setResultatDucs(true);
-        $this->assertEquals(true, $obj->getResultatDucs());
+        $this->assertTrue($obj->getResultatDucs());
     }
 
     /**
@@ -1511,7 +1511,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setRetenueSalaire(true);
-        $this->assertEquals(true, $obj->getRetenueSalaire());
+        $this->assertTrue($obj->getRetenueSalaire());
     }
 
     /**
@@ -1524,7 +1524,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setRetenueSource(true);
-        $this->assertEquals(true, $obj->getRetenueSource());
+        $this->assertTrue($obj->getRetenueSource());
     }
 
     /**
@@ -1537,7 +1537,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setRetraiteObligatoire(true);
-        $this->assertEquals(true, $obj->getRetraiteObligatoire());
+        $this->assertTrue($obj->getRetraiteObligatoire());
     }
 
     /**
@@ -1550,7 +1550,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setRetraiteSupp(true);
-        $this->assertEquals(true, $obj->getRetraiteSupp());
+        $this->assertTrue($obj->getRetraiteSupp());
     }
 
     /**
@@ -1563,7 +1563,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setSalaireCp(true);
-        $this->assertEquals(true, $obj->getSalaireCp());
+        $this->assertTrue($obj->getSalaireCp());
     }
 
     /**
@@ -1576,7 +1576,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setSansReintegrationSociale(true);
-        $this->assertEquals(true, $obj->getSansReintegrationSociale());
+        $this->assertTrue($obj->getSansReintegrationSociale());
     }
 
     /**
@@ -1589,7 +1589,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setSoumisAbattement(true);
-        $this->assertEquals(true, $obj->getSoumisAbattement());
+        $this->assertTrue($obj->getSoumisAbattement());
     }
 
     /**
@@ -1602,7 +1602,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setSoumisCrds100(true);
-        $this->assertEquals(true, $obj->getSoumisCrds100());
+        $this->assertTrue($obj->getSoumisCrds100());
     }
 
     /**
@@ -1615,7 +1615,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setSoumisCsg(true);
-        $this->assertEquals(true, $obj->getSoumisCsg());
+        $this->assertTrue($obj->getSoumisCsg());
     }
 
     /**
@@ -1628,7 +1628,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setSoumisCsg100(true);
-        $this->assertEquals(true, $obj->getSoumisCsg100());
+        $this->assertTrue($obj->getSoumisCsg100());
     }
 
     /**
@@ -1641,7 +1641,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setSoumisForfaitSocial(true);
-        $this->assertEquals(true, $obj->getSoumisForfaitSocial());
+        $this->assertTrue($obj->getSoumisForfaitSocial());
     }
 
     /**
@@ -1654,7 +1654,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setSoumisRds(true);
-        $this->assertEquals(true, $obj->getSoumisRds());
+        $this->assertTrue($obj->getSoumisRds());
     }
 
     /**
@@ -1667,7 +1667,7 @@ class LibellesTest extends AbstractTestCase {
         $obj = new Libelles();
 
         $obj->setTauxDuLibelle(true);
-        $this->assertEquals(true, $obj->getTauxDuLibelle());
+        $this->assertTrue($obj->getTauxDuLibelle());
     }
 
     /**

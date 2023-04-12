@@ -34,7 +34,7 @@ class AnnexeTerTest extends AbstractTestCase {
         $obj = new AnnexeTer();
 
         $obj->setBoolean1(true);
-        $this->assertEquals(true, $obj->getBoolean1());
+        $this->assertTrue($obj->getBoolean1());
     }
 
     /**
@@ -47,7 +47,7 @@ class AnnexeTerTest extends AbstractTestCase {
         $obj = new AnnexeTer();
 
         $obj->setBoolean2(true);
-        $this->assertEquals(true, $obj->getBoolean2());
+        $this->assertTrue($obj->getBoolean2());
     }
 
     /**
@@ -60,7 +60,7 @@ class AnnexeTerTest extends AbstractTestCase {
         $obj = new AnnexeTer();
 
         $obj->setBoolean3(true);
-        $this->assertEquals(true, $obj->getBoolean3());
+        $this->assertTrue($obj->getBoolean3());
     }
 
     /**
@@ -73,7 +73,7 @@ class AnnexeTerTest extends AbstractTestCase {
         $obj = new AnnexeTer();
 
         $obj->setBoolean4(true);
-        $this->assertEquals(true, $obj->getBoolean4());
+        $this->assertTrue($obj->getBoolean4());
     }
 
     /**
@@ -86,7 +86,7 @@ class AnnexeTerTest extends AbstractTestCase {
         $obj = new AnnexeTer();
 
         $obj->setBoolean5(true);
-        $this->assertEquals(true, $obj->getBoolean5());
+        $this->assertTrue($obj->getBoolean5());
     }
 
     /**
@@ -99,7 +99,7 @@ class AnnexeTerTest extends AbstractTestCase {
         $obj = new AnnexeTer();
 
         $obj->setBoolean6(true);
-        $this->assertEquals(true, $obj->getBoolean6());
+        $this->assertTrue($obj->getBoolean6());
     }
 
     /**
@@ -112,7 +112,7 @@ class AnnexeTerTest extends AbstractTestCase {
         $obj = new AnnexeTer();
 
         $obj->setBoolean7(true);
-        $this->assertEquals(true, $obj->getBoolean7());
+        $this->assertTrue($obj->getBoolean7());
     }
 
     /**

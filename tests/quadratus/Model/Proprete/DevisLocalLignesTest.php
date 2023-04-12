@@ -32,7 +32,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
         $obj = new DevisLocalLignes();
 
         $obj->setAou(true);
-        $this->assertEquals(true, $obj->getAou());
+        $this->assertTrue($obj->getAou());
     }
 
     /**
@@ -45,7 +45,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
         $obj = new DevisLocalLignes();
 
         $obj->setAvr(true);
-        $this->assertEquals(true, $obj->getAvr());
+        $this->assertTrue($obj->getAvr());
     }
 
     /**
@@ -110,7 +110,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
         $obj = new DevisLocalLignes();
 
         $obj->setDec(true);
-        $this->assertEquals(true, $obj->getDec());
+        $this->assertTrue($obj->getDec());
     }
 
     /**
@@ -136,7 +136,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
         $obj = new DevisLocalLignes();
 
         $obj->setDimanche(true);
-        $this->assertEquals(true, $obj->getDimanche());
+        $this->assertTrue($obj->getDimanche());
     }
 
     /**
@@ -149,7 +149,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
         $obj = new DevisLocalLignes();
 
         $obj->setFev(true);
-        $this->assertEquals(true, $obj->getFev());
+        $this->assertTrue($obj->getFev());
     }
 
     /**
@@ -162,7 +162,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
         $obj = new DevisLocalLignes();
 
         $obj->setJan(true);
-        $this->assertEquals(true, $obj->getJan());
+        $this->assertTrue($obj->getJan());
     }
 
     /**
@@ -175,7 +175,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
         $obj = new DevisLocalLignes();
 
         $obj->setJeudi(true);
-        $this->assertEquals(true, $obj->getJeudi());
+        $this->assertTrue($obj->getJeudi());
     }
 
     /**
@@ -188,7 +188,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
         $obj = new DevisLocalLignes();
 
         $obj->setJuil(true);
-        $this->assertEquals(true, $obj->getJuil());
+        $this->assertTrue($obj->getJuil());
     }
 
     /**
@@ -201,7 +201,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
         $obj = new DevisLocalLignes();
 
         $obj->setJuin(true);
-        $this->assertEquals(true, $obj->getJuin());
+        $this->assertTrue($obj->getJuin());
     }
 
     /**
@@ -214,7 +214,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
         $obj = new DevisLocalLignes();
 
         $obj->setLundi(true);
-        $this->assertEquals(true, $obj->getLundi());
+        $this->assertTrue($obj->getLundi());
     }
 
     /**
@@ -227,7 +227,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
         $obj = new DevisLocalLignes();
 
         $obj->setMai(true);
-        $this->assertEquals(true, $obj->getMai());
+        $this->assertTrue($obj->getMai());
     }
 
     /**
@@ -240,7 +240,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
         $obj = new DevisLocalLignes();
 
         $obj->setMar(true);
-        $this->assertEquals(true, $obj->getMar());
+        $this->assertTrue($obj->getMar());
     }
 
     /**
@@ -253,7 +253,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
         $obj = new DevisLocalLignes();
 
         $obj->setMardi(true);
-        $this->assertEquals(true, $obj->getMardi());
+        $this->assertTrue($obj->getMardi());
     }
 
     /**
@@ -266,7 +266,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
         $obj = new DevisLocalLignes();
 
         $obj->setMercredi(true);
-        $this->assertEquals(true, $obj->getMercredi());
+        $this->assertTrue($obj->getMercredi());
     }
 
     /**
@@ -279,7 +279,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
         $obj = new DevisLocalLignes();
 
         $obj->setNov(true);
-        $this->assertEquals(true, $obj->getNov());
+        $this->assertTrue($obj->getNov());
     }
 
     /**
@@ -344,7 +344,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
         $obj = new DevisLocalLignes();
 
         $obj->setOct(true);
-        $this->assertEquals(true, $obj->getOct());
+        $this->assertTrue($obj->getOct());
     }
 
     /**
@@ -370,7 +370,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
         $obj = new DevisLocalLignes();
 
         $obj->setSamedi(true);
-        $this->assertEquals(true, $obj->getSamedi());
+        $this->assertTrue($obj->getSamedi());
     }
 
     /**
@@ -383,7 +383,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
         $obj = new DevisLocalLignes();
 
         $obj->setSep(true);
-        $this->assertEquals(true, $obj->getSep());
+        $this->assertTrue($obj->getSep());
     }
 
     /**
@@ -396,7 +396,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
         $obj = new DevisLocalLignes();
 
         $obj->setVendredi(true);
-        $this->assertEquals(true, $obj->getVendredi());
+        $this->assertTrue($obj->getVendredi());
     }
 
     /**

@@ -188,7 +188,7 @@ class EntreeSortieEmpTest extends AbstractTestCase {
         $obj = new EntreeSortieEmp();
 
         $obj->setTransfertEs(true);
-        $this->assertEquals(true, $obj->getTransfertEs());
+        $this->assertTrue($obj->getTransfertEs());
     }
 
     /**
@@ -201,7 +201,7 @@ class EntreeSortieEmpTest extends AbstractTestCase {
         $obj = new EntreeSortieEmp();
 
         $obj->setTravailTemp(true);
-        $this->assertEquals(true, $obj->getTravailTemp());
+        $this->assertTrue($obj->getTravailTemp());
     }
 
     /**

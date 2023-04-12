@@ -34,7 +34,7 @@ class ForfaitsTest extends AbstractTestCase {
         $obj = new Forfaits();
 
         $obj->setAou(true);
-        $this->assertEquals(true, $obj->getAou());
+        $this->assertTrue($obj->getAou());
     }
 
     /**
@@ -47,7 +47,7 @@ class ForfaitsTest extends AbstractTestCase {
         $obj = new Forfaits();
 
         $obj->setAvr(true);
-        $this->assertEquals(true, $obj->getAvr());
+        $this->assertTrue($obj->getAvr());
     }
 
     /**
@@ -172,7 +172,7 @@ class ForfaitsTest extends AbstractTestCase {
         $obj = new Forfaits();
 
         $obj->setDec(true);
-        $this->assertEquals(true, $obj->getDec());
+        $this->assertTrue($obj->getDec());
     }
 
     /**
@@ -185,7 +185,7 @@ class ForfaitsTest extends AbstractTestCase {
         $obj = new Forfaits();
 
         $obj->setFev(true);
-        $this->assertEquals(true, $obj->getFev());
+        $this->assertTrue($obj->getFev());
     }
 
     /**
@@ -198,7 +198,7 @@ class ForfaitsTest extends AbstractTestCase {
         $obj = new Forfaits();
 
         $obj->setJan(true);
-        $this->assertEquals(true, $obj->getJan());
+        $this->assertTrue($obj->getJan());
     }
 
     /**
@@ -211,7 +211,7 @@ class ForfaitsTest extends AbstractTestCase {
         $obj = new Forfaits();
 
         $obj->setJuil(true);
-        $this->assertEquals(true, $obj->getJuil());
+        $this->assertTrue($obj->getJuil());
     }
 
     /**
@@ -224,7 +224,7 @@ class ForfaitsTest extends AbstractTestCase {
         $obj = new Forfaits();
 
         $obj->setJuin(true);
-        $this->assertEquals(true, $obj->getJuin());
+        $this->assertTrue($obj->getJuin());
     }
 
     /**
@@ -237,7 +237,7 @@ class ForfaitsTest extends AbstractTestCase {
         $obj = new Forfaits();
 
         $obj->setMai(true);
-        $this->assertEquals(true, $obj->getMai());
+        $this->assertTrue($obj->getMai());
     }
 
     /**
@@ -250,7 +250,7 @@ class ForfaitsTest extends AbstractTestCase {
         $obj = new Forfaits();
 
         $obj->setMar(true);
-        $this->assertEquals(true, $obj->getMar());
+        $this->assertTrue($obj->getMar());
     }
 
     /**
@@ -276,7 +276,7 @@ class ForfaitsTest extends AbstractTestCase {
         $obj = new Forfaits();
 
         $obj->setNov(true);
-        $this->assertEquals(true, $obj->getNov());
+        $this->assertTrue($obj->getNov());
     }
 
     /**
@@ -302,7 +302,7 @@ class ForfaitsTest extends AbstractTestCase {
         $obj = new Forfaits();
 
         $obj->setOct(true);
-        $this->assertEquals(true, $obj->getOct());
+        $this->assertTrue($obj->getOct());
     }
 
     /**
@@ -315,7 +315,7 @@ class ForfaitsTest extends AbstractTestCase {
         $obj = new Forfaits();
 
         $obj->setSep(true);
-        $this->assertEquals(true, $obj->getSep());
+        $this->assertTrue($obj->getSep());
     }
 
     /**

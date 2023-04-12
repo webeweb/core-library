@@ -289,7 +289,7 @@ class PlansDePaieTest extends AbstractTestCase {
         $obj = new PlansDePaie();
 
         $obj->setTypeCommentaire(true);
-        $this->assertEquals(true, $obj->getTypeCommentaire());
+        $this->assertTrue($obj->getTypeCommentaire());
     }
 
     /**

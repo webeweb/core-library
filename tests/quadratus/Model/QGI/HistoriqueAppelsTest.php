@@ -99,7 +99,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
         $obj = new HistoriqueAppels();
 
         $obj->setConfidentiel(true);
-        $this->assertEquals(true, $obj->getConfidentiel());
+        $this->assertTrue($obj->getConfidentiel());
     }
 
     /**

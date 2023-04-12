@@ -97,7 +97,7 @@ class DevisDescriptifLocauxTest extends AbstractTestCase {
         $obj = new DevisDescriptifLocaux();
 
         $obj->setNoeudLocal(true);
-        $this->assertEquals(true, $obj->getNoeudLocal());
+        $this->assertTrue($obj->getNoeudLocal());
     }
 
     /**

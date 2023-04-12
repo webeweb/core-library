@@ -320,7 +320,7 @@ class BonsTravauxTest extends AbstractTestCase {
         $obj = new BonsTravaux();
 
         $obj->setAdresseBtSaisie(true);
-        $this->assertEquals(true, $obj->getAdresseBtSaisie());
+        $this->assertTrue($obj->getAdresseBtSaisie());
     }
 
     /**
@@ -333,7 +333,7 @@ class BonsTravauxTest extends AbstractTestCase {
         $obj = new BonsTravaux();
 
         $obj->setAdresseFacturationSaisie(true);
-        $this->assertEquals(true, $obj->getAdresseFacturationSaisie());
+        $this->assertTrue($obj->getAdresseFacturationSaisie());
     }
 
     /**
@@ -622,7 +622,7 @@ class BonsTravauxTest extends AbstractTestCase {
         $obj = new BonsTravaux();
 
         $obj->setGestionPlanning(true);
-        $this->assertEquals(true, $obj->getGestionPlanning());
+        $this->assertTrue($obj->getGestionPlanning());
     }
 
     /**
@@ -743,7 +743,7 @@ class BonsTravauxTest extends AbstractTestCase {
         $obj = new BonsTravaux();
 
         $obj->setSaisieInterJour(true);
-        $this->assertEquals(true, $obj->getSaisieInterJour());
+        $this->assertTrue($obj->getSaisieInterJour());
     }
 
     /**
@@ -756,7 +756,7 @@ class BonsTravauxTest extends AbstractTestCase {
         $obj = new BonsTravaux();
 
         $obj->setTravailleDimanche(true);
-        $this->assertEquals(true, $obj->getTravailleDimanche());
+        $this->assertTrue($obj->getTravailleDimanche());
     }
 
     /**
@@ -769,7 +769,7 @@ class BonsTravauxTest extends AbstractTestCase {
         $obj = new BonsTravaux();
 
         $obj->setTravailleJoursFeries(true);
-        $this->assertEquals(true, $obj->getTravailleJoursFeries());
+        $this->assertTrue($obj->getTravailleJoursFeries());
     }
 
     /**
@@ -782,7 +782,7 @@ class BonsTravauxTest extends AbstractTestCase {
         $obj = new BonsTravaux();
 
         $obj->setTravailleSamedi(true);
-        $this->assertEquals(true, $obj->getTravailleSamedi());
+        $this->assertTrue($obj->getTravailleSamedi());
     }
 
     /**
@@ -808,7 +808,7 @@ class BonsTravauxTest extends AbstractTestCase {
         $obj = new BonsTravaux();
 
         $obj->setUnBonParMois(true);
-        $this->assertEquals(true, $obj->getUnBonParMois());
+        $this->assertTrue($obj->getUnBonParMois());
     }
 
     /**

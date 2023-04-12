@@ -84,7 +84,7 @@ class AnnexeSuiteTest extends AbstractTestCase {
         $obj = new AnnexeSuite();
 
         $obj->setDestRelance(true);
-        $this->assertEquals(true, $obj->getDestRelance());
+        $this->assertTrue($obj->getDestRelance());
     }
 
     /**

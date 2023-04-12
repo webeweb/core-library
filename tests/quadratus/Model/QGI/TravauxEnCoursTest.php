@@ -34,7 +34,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
         $obj = new TravauxEnCours();
 
         $obj->setCataloguee(true);
-        $this->assertEquals(true, $obj->getCataloguee());
+        $this->assertTrue($obj->getCataloguee());
     }
 
     /**
@@ -167,7 +167,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
         $obj = new TravauxEnCours();
 
         $obj->setEnvoiPostIt(true);
-        $this->assertEquals(true, $obj->getEnvoiPostIt());
+        $this->assertTrue($obj->getEnvoiPostIt());
     }
 
     /**
@@ -232,7 +232,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
         $obj = new TravauxEnCours();
 
         $obj->setTravailFait(true);
-        $this->assertEquals(true, $obj->getTravailFait());
+        $this->assertTrue($obj->getTravailFait());
     }
 
     /**

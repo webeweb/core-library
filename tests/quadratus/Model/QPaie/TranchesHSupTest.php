@@ -34,7 +34,7 @@ class TranchesHSupTest extends AbstractTestCase {
         $obj = new TranchesHSup();
 
         $obj->setAComptabiliserRc(true);
-        $this->assertEquals(true, $obj->getAComptabiliserRc());
+        $this->assertTrue($obj->getAComptabiliserRc());
     }
 
     /**
@@ -47,7 +47,7 @@ class TranchesHSupTest extends AbstractTestCase {
         $obj = new TranchesHSup();
 
         $obj->setAComptabiliserRcit(true);
-        $this->assertEquals(true, $obj->getAComptabiliserRcit());
+        $this->assertTrue($obj->getAComptabiliserRcit());
     }
 
     /**
@@ -60,7 +60,7 @@ class TranchesHSupTest extends AbstractTestCase {
         $obj = new TranchesHSup();
 
         $obj->setAppliquerHSup(true);
-        $this->assertEquals(true, $obj->getAppliquerHSup());
+        $this->assertTrue($obj->getAppliquerHSup());
     }
 
     /**
@@ -73,7 +73,7 @@ class TranchesHSupTest extends AbstractTestCase {
         $obj = new TranchesHSup();
 
         $obj->setAppliquerReposRemplace(true);
-        $this->assertEquals(true, $obj->getAppliquerReposRemplace());
+        $this->assertTrue($obj->getAppliquerReposRemplace());
     }
 
     /**
@@ -116,7 +116,7 @@ class TranchesHSupTest extends AbstractTestCase {
         $obj = new TranchesHSup();
 
         $obj->setDeclencheRcSemaine(true);
-        $this->assertEquals(true, $obj->getDeclencheRcSemaine());
+        $this->assertTrue($obj->getDeclencheRcSemaine());
     }
 
     /**

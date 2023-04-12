@@ -58,7 +58,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
         $obj = new FichesConfidentialitesMenus();
 
         $obj->setDroitAjout(true);
-        $this->assertEquals(true, $obj->getDroitAjout());
+        $this->assertTrue($obj->getDroitAjout());
     }
 
     /**
@@ -71,7 +71,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
         $obj = new FichesConfidentialitesMenus();
 
         $obj->setDroitModification(true);
-        $this->assertEquals(true, $obj->getDroitModification());
+        $this->assertTrue($obj->getDroitModification());
     }
 
     /**
@@ -84,7 +84,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
         $obj = new FichesConfidentialitesMenus();
 
         $obj->setDroitSuppression(true);
-        $this->assertEquals(true, $obj->getDroitSuppression());
+        $this->assertTrue($obj->getDroitSuppression());
     }
 
     /**
@@ -214,7 +214,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
         $obj = new FichesConfidentialitesMenus();
 
         $obj->setMenuVisible(true);
-        $this->assertEquals(true, $obj->getMenuVisible());
+        $this->assertTrue($obj->getMenuVisible());
     }
 
     /**

@@ -163,7 +163,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
         $obj = new FichesControlesEntetes();
 
         $obj->setFicheContradictoire(true);
-        $this->assertEquals(true, $obj->getFicheContradictoire());
+        $this->assertTrue($obj->getFicheContradictoire());
     }
 
     /**
@@ -176,7 +176,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
         $obj = new FichesControlesEntetes();
 
         $obj->setFicheSignee(true);
-        $this->assertEquals(true, $obj->getFicheSignee());
+        $this->assertTrue($obj->getFicheSignee());
     }
 
     /**

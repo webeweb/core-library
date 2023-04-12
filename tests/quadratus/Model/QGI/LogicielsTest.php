@@ -133,7 +133,7 @@ class LogicielsTest extends AbstractTestCase {
         $obj = new Logiciels();
 
         $obj->setMaintenance(true);
-        $this->assertEquals(true, $obj->getMaintenance());
+        $this->assertTrue($obj->getMaintenance());
     }
 
     /**

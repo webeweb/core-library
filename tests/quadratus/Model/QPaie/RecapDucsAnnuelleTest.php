@@ -34,7 +34,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
         $obj = new RecapDucsAnnuelle();
 
         $obj->setAEditerDucs(true);
-        $this->assertEquals(true, $obj->getAEditerDucs());
+        $this->assertTrue($obj->getAEditerDucs());
     }
 
     /**
@@ -146,7 +146,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
         $obj = new RecapDucsAnnuelle();
 
         $obj->setDucsEuro(true);
-        $this->assertEquals(true, $obj->getDucsEuro());
+        $this->assertTrue($obj->getDucsEuro());
     }
 
     /**
@@ -215,7 +215,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
         $obj = new RecapDucsAnnuelle();
 
         $obj->setGrandDecalage(true);
-        $this->assertEquals(true, $obj->getGrandDecalage());
+        $this->assertTrue($obj->getGrandDecalage());
     }
 
     /**
@@ -397,7 +397,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
         $obj = new RecapDucsAnnuelle();
 
         $obj->setPaieDecalee(true);
-        $this->assertEquals(true, $obj->getPaieDecalee());
+        $this->assertTrue($obj->getPaieDecalee());
     }
 
     /**
@@ -474,7 +474,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
         $obj = new RecapDucsAnnuelle();
 
         $obj->setPetitDecalage(true);
-        $this->assertEquals(true, $obj->getPetitDecalage());
+        $this->assertTrue($obj->getPetitDecalage());
     }
 
     /**
@@ -725,7 +725,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
         $obj = new RecapDucsAnnuelle();
 
         $obj->setTraiterEdi(true);
-        $this->assertEquals(true, $obj->getTraiterEdi());
+        $this->assertTrue($obj->getTraiterEdi());
     }
 
     /**

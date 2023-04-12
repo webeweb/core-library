@@ -107,7 +107,7 @@ class DadsuSituationTest extends AbstractTestCase {
         $obj = new DadsuSituation();
 
         $obj->setDepuisCalcul(true);
-        $this->assertEquals(true, $obj->getDepuisCalcul());
+        $this->assertTrue($obj->getDepuisCalcul());
     }
 
     /**

@@ -34,7 +34,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setAchatVenteAutomate(true);
-        $this->assertEquals(true, $obj->getAchatVenteAutomate());
+        $this->assertTrue($obj->getAchatVenteAutomate());
     }
 
     /**
@@ -60,7 +60,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setAchatVenteStopTva(true);
-        $this->assertEquals(true, $obj->getAchatVenteStopTva());
+        $this->assertTrue($obj->getAchatVenteStopTva());
     }
 
     /**
@@ -73,7 +73,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setBonsAPayer(true);
-        $this->assertEquals(true, $obj->getBonsAPayer());
+        $this->assertTrue($obj->getBonsAPayer());
     }
 
     /**
@@ -125,7 +125,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setCompCliFrs(true);
-        $this->assertEquals(true, $obj->getCompCliFrs());
+        $this->assertTrue($obj->getCompCliFrs());
     }
 
     /**
@@ -255,7 +255,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setConserveMoisRb(true);
-        $this->assertEquals(true, $obj->getConserveMoisRb());
+        $this->assertTrue($obj->getConserveMoisRb());
     }
 
     /**
@@ -268,7 +268,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setControleEdition(true);
-        $this->assertEquals(true, $obj->getControleEdition());
+        $this->assertTrue($obj->getControleEdition());
     }
 
     /**
@@ -294,7 +294,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setControleRefTire(true);
-        $this->assertEquals(true, $obj->getControleRefTire());
+        $this->assertTrue($obj->getControleRefTire());
     }
 
     /**
@@ -307,7 +307,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setCptTransfImmoCommuns(true);
-        $this->assertEquals(true, $obj->getCptTransfImmoCommuns());
+        $this->assertTrue($obj->getCptTransfImmoCommuns());
     }
 
     /**
@@ -520,7 +520,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setDetailCb(true);
-        $this->assertEquals(true, $obj->getDetailCb());
+        $this->assertTrue($obj->getDetailCb());
     }
 
     /**
@@ -533,7 +533,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setDetailImmo(true);
-        $this->assertEquals(true, $obj->getDetailImmo());
+        $this->assertTrue($obj->getDetailImmo());
     }
 
     /**
@@ -559,7 +559,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setEdi400(true);
-        $this->assertEquals(true, $obj->getEdi400());
+        $this->assertTrue($obj->getEdi400());
     }
 
     /**
@@ -572,7 +572,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setEditAnaContrepasse(true);
-        $this->assertEquals(true, $obj->getEditAnaContrepasse());
+        $this->assertTrue($obj->getEditAnaContrepasse());
     }
 
     /**
@@ -628,7 +628,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setGestionPmagClient(true);
-        $this->assertEquals(true, $obj->getGestionPmagClient());
+        $this->assertTrue($obj->getGestionPmagClient());
     }
 
     /**
@@ -641,7 +641,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setGestionTraitePapier(true);
-        $this->assertEquals(true, $obj->getGestionTraitePapier());
+        $this->assertTrue($obj->getGestionTraitePapier());
     }
 
     /**
@@ -654,7 +654,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setGestionVirementFrn(true);
-        $this->assertEquals(true, $obj->getGestionVirementFrn());
+        $this->assertTrue($obj->getGestionVirementFrn());
     }
 
     /**
@@ -667,7 +667,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setImmoDetailLignes(true);
-        $this->assertEquals(true, $obj->getImmoDetailLignes());
+        $this->assertTrue($obj->getImmoDetailLignes());
     }
 
     /**
@@ -680,7 +680,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setImmoDetailParCpt(true);
-        $this->assertEquals(true, $obj->getImmoDetailParCpt());
+        $this->assertTrue($obj->getImmoDetailParCpt());
     }
 
     /**
@@ -693,7 +693,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setImmoEditEnsemble(true);
-        $this->assertEquals(true, $obj->getImmoEditEnsemble());
+        $this->assertTrue($obj->getImmoEditEnsemble());
     }
 
     /**
@@ -719,7 +719,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setImmoSsTotImmo(true);
-        $this->assertEquals(true, $obj->getImmoSsTotImmo());
+        $this->assertTrue($obj->getImmoSsTotImmo());
     }
 
     /**
@@ -732,7 +732,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setImmoTotParCompte(true);
-        $this->assertEquals(true, $obj->getImmoTotParCompte());
+        $this->assertTrue($obj->getImmoTotParCompte());
     }
 
     /**
@@ -745,7 +745,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setImmoTransfertForfaitVersReel(true);
-        $this->assertEquals(true, $obj->getImmoTransfertForfaitVersReel());
+        $this->assertTrue($obj->getImmoTransfertForfaitVersReel());
     }
 
     /**
@@ -758,7 +758,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setImmoTriAnalytique(true);
-        $this->assertEquals(true, $obj->getImmoTriAnalytique());
+        $this->assertTrue($obj->getImmoTriAnalytique());
     }
 
     /**
@@ -771,7 +771,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setImmoTriParDate(true);
-        $this->assertEquals(true, $obj->getImmoTriParDate());
+        $this->assertTrue($obj->getImmoTriParDate());
     }
 
     /**
@@ -784,7 +784,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setImmoTriParService(true);
-        $this->assertEquals(true, $obj->getImmoTriParService());
+        $this->assertTrue($obj->getImmoTriParService());
     }
 
     /**
@@ -810,7 +810,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setIsClientExp(true);
-        $this->assertEquals(true, $obj->getIsClientExp());
+        $this->assertTrue($obj->getIsClientExp());
     }
 
     /**
@@ -823,7 +823,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setLettrePvautBo(true);
-        $this->assertEquals(true, $obj->getLettrePvautBo());
+        $this->assertTrue($obj->getLettrePvautBo());
     }
 
     /**
@@ -927,7 +927,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setMultiEchClient(true);
-        $this->assertEquals(true, $obj->getMultiEchClient());
+        $this->assertTrue($obj->getMultiEchClient());
     }
 
     /**
@@ -940,7 +940,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setMultiEchFrn(true);
-        $this->assertEquals(true, $obj->getMultiEchFrn());
+        $this->assertTrue($obj->getMultiEchFrn());
     }
 
     /**
@@ -953,7 +953,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setMultiEchParCodeLibAuto(true);
-        $this->assertEquals(true, $obj->getMultiEchParCodeLibAuto());
+        $this->assertTrue($obj->getMultiEchParCodeLibAuto());
     }
 
     /**
@@ -966,7 +966,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setNePlusAfficher(true);
-        $this->assertEquals(true, $obj->getNePlusAfficher());
+        $this->assertTrue($obj->getNePlusAfficher());
     }
 
     /**
@@ -1455,7 +1455,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setRebutVautCession(true);
-        $this->assertEquals(true, $obj->getRebutVautCession());
+        $this->assertTrue($obj->getRebutVautCession());
     }
 
     /**
@@ -1494,7 +1494,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setRegroupFourCptEch(true);
-        $this->assertEquals(true, $obj->getRegroupFourCptEch());
+        $this->assertTrue($obj->getRegroupFourCptEch());
     }
 
     /**
@@ -1507,7 +1507,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setRepAss(true);
-        $this->assertEquals(true, $obj->getRepAss());
+        $this->assertTrue($obj->getRepAss());
     }
 
     /**
@@ -1520,7 +1520,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setRepBudget(true);
-        $this->assertEquals(true, $obj->getRepBudget());
+        $this->assertTrue($obj->getRepBudget());
     }
 
     /**
@@ -1533,7 +1533,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setRepCar(true);
-        $this->assertEquals(true, $obj->getRepCar());
+        $this->assertTrue($obj->getRepCar());
     }
 
     /**
@@ -1546,7 +1546,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setRepCb(true);
-        $this->assertEquals(true, $obj->getRepCb());
+        $this->assertTrue($obj->getRepCb());
     }
 
     /**
@@ -1559,7 +1559,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setRepCl(true);
-        $this->assertEquals(true, $obj->getRepCl());
+        $this->assertTrue($obj->getRepCl());
     }
 
     /**
@@ -1572,7 +1572,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setRepComptaGen(true);
-        $this->assertEquals(true, $obj->getRepComptaGen());
+        $this->assertTrue($obj->getRepComptaGen());
     }
 
     /**
@@ -1585,7 +1585,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setRepDecTva(true);
-        $this->assertEquals(true, $obj->getRepDecTva());
+        $this->assertTrue($obj->getRepDecTva());
     }
 
     /**
@@ -1598,7 +1598,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setRepDosRev(true);
-        $this->assertEquals(true, $obj->getRepDosRev());
+        $this->assertTrue($obj->getRepDosRev());
     }
 
     /**
@@ -1611,7 +1611,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setRepEmprunts(true);
-        $this->assertEquals(true, $obj->getRepEmprunts());
+        $this->assertTrue($obj->getRepEmprunts());
     }
 
     /**
@@ -1624,7 +1624,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setRepEs(true);
-        $this->assertEquals(true, $obj->getRepEs());
+        $this->assertTrue($obj->getRepEs());
     }
 
     /**
@@ -1637,7 +1637,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setRepImmo(true);
-        $this->assertEquals(true, $obj->getRepImmo());
+        $this->assertTrue($obj->getRepImmo());
     }
 
     /**
@@ -1650,7 +1650,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setRepLocFi(true);
-        $this->assertEquals(true, $obj->getRepLocFi());
+        $this->assertTrue($obj->getRepLocFi());
     }
 
     /**
@@ -1663,7 +1663,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setRepPartielle(true);
-        $this->assertEquals(true, $obj->getRepPartielle());
+        $this->assertTrue($obj->getRepPartielle());
     }
 
     /**
@@ -1676,7 +1676,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setRepSubv(true);
-        $this->assertEquals(true, $obj->getRepSubv());
+        $this->assertTrue($obj->getRepSubv());
     }
 
     /**
@@ -1689,7 +1689,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setRepVmp(true);
-        $this->assertEquals(true, $obj->getRepVmp());
+        $this->assertTrue($obj->getRepVmp());
     }
 
     /**
@@ -1702,7 +1702,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setRevisSoldeEnEuro(true);
-        $this->assertEquals(true, $obj->getRevisSoldeEnEuro());
+        $this->assertTrue($obj->getRevisSoldeEnEuro());
     }
 
     /**
@@ -1715,7 +1715,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setRevisVoirSoldeEx(true);
-        $this->assertEquals(true, $obj->getRevisVoirSoldeEx());
+        $this->assertTrue($obj->getRevisVoirSoldeEx());
     }
 
     /**
@@ -1728,7 +1728,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setSaisieCaisse(true);
-        $this->assertEquals(true, $obj->getSaisieCaisse());
+        $this->assertTrue($obj->getSaisieCaisse());
     }
 
     /**
@@ -1754,7 +1754,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setSauverPeriodicite(true);
-        $this->assertEquals(true, $obj->getSauverPeriodicite());
+        $this->assertTrue($obj->getSauverPeriodicite());
     }
 
     /**
@@ -1767,7 +1767,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setSuiviAuxClient(true);
-        $this->assertEquals(true, $obj->getSuiviAuxClient());
+        $this->assertTrue($obj->getSuiviAuxClient());
     }
 
     /**
@@ -1780,7 +1780,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setSuiviAuxFrn(true);
-        $this->assertEquals(true, $obj->getSuiviAuxFrn());
+        $this->assertTrue($obj->getSuiviAuxFrn());
     }
 
     /**
@@ -1793,7 +1793,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setSuiviDevises(true);
-        $this->assertEquals(true, $obj->getSuiviDevises());
+        $this->assertTrue($obj->getSuiviDevises());
     }
 
     /**
@@ -1806,7 +1806,7 @@ class Dossier3Test extends AbstractTestCase {
         $obj = new Dossier3();
 
         $obj->setTransfertImmoOk(true);
-        $this->assertEquals(true, $obj->getTransfertImmoOk());
+        $this->assertTrue($obj->getTransfertImmoOk());
     }
 
     /**

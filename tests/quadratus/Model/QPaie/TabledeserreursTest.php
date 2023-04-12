@@ -34,7 +34,7 @@ class TabledeserreursTest extends AbstractTestCase {
         $obj = new Tabledeserreurs();
 
         $obj->setATransfererEnP(true);
-        $this->assertEquals(true, $obj->getATransfererEnP());
+        $this->assertTrue($obj->getATransfererEnP());
     }
 
     /**
@@ -47,7 +47,7 @@ class TabledeserreursTest extends AbstractTestCase {
         $obj = new Tabledeserreurs();
 
         $obj->setAdministratif(true);
-        $this->assertEquals(true, $obj->getAdministratif());
+        $this->assertTrue($obj->getAdministratif());
     }
 
     /**
@@ -60,7 +60,7 @@ class TabledeserreursTest extends AbstractTestCase {
         $obj = new Tabledeserreurs();
 
         $obj->setAllegParticulier(true);
-        $this->assertEquals(true, $obj->getAllegParticulier());
+        $this->assertTrue($obj->getAllegParticulier());
     }
 
     /**
@@ -73,7 +73,7 @@ class TabledeserreursTest extends AbstractTestCase {
         $obj = new Tabledeserreurs();
 
         $obj->setAutreAlleg(true);
-        $this->assertEquals(true, $obj->getAutreAlleg());
+        $this->assertTrue($obj->getAutreAlleg());
     }
 
     /**
@@ -112,7 +112,7 @@ class TabledeserreursTest extends AbstractTestCase {
         $obj = new Tabledeserreurs();
 
         $obj->setCalculParticip(true);
-        $this->assertEquals(true, $obj->getCalculParticip());
+        $this->assertTrue($obj->getCalculParticip());
     }
 
     /**
@@ -193,7 +193,7 @@ class TabledeserreursTest extends AbstractTestCase {
         $obj = new Tabledeserreurs();
 
         $obj->setCasPartSs(true);
-        $this->assertEquals(true, $obj->getCasPartSs());
+        $this->assertTrue($obj->getCasPartSs());
     }
 
     /**
@@ -245,7 +245,7 @@ class TabledeserreursTest extends AbstractTestCase {
         $obj = new Tabledeserreurs();
 
         $obj->setCddcdi(true);
-        $this->assertEquals(true, $obj->getCddcdi());
+        $this->assertTrue($obj->getCddcdi());
     }
 
     /**
@@ -466,7 +466,7 @@ class TabledeserreursTest extends AbstractTestCase {
         $obj = new Tabledeserreurs();
 
         $obj->setCtrlTauxSalBase(true);
-        $this->assertEquals(true, $obj->getCtrlTauxSalBase());
+        $this->assertTrue($obj->getCtrlTauxSalBase());
     }
 
     /**
@@ -1333,7 +1333,7 @@ class TabledeserreursTest extends AbstractTestCase {
         $obj = new Tabledeserreurs();
 
         $obj->setDimType2(true);
-        $this->assertEquals(true, $obj->getDimType2());
+        $this->assertTrue($obj->getDimType2());
     }
 
     /**
@@ -1346,7 +1346,7 @@ class TabledeserreursTest extends AbstractTestCase {
         $obj = new Tabledeserreurs();
 
         $obj->setDirNonSalarie(true);
-        $this->assertEquals(true, $obj->getDirNonSalarie());
+        $this->assertTrue($obj->getDirNonSalarie());
     }
 
     /**
@@ -1372,7 +1372,7 @@ class TabledeserreursTest extends AbstractTestCase {
         $obj = new Tabledeserreurs();
 
         $obj->setEdTauxSalBase(true);
-        $this->assertEquals(true, $obj->getEdTauxSalBase());
+        $this->assertTrue($obj->getEdTauxSalBase());
     }
 
     /**
@@ -1385,7 +1385,7 @@ class TabledeserreursTest extends AbstractTestCase {
         $obj = new Tabledeserreurs();
 
         $obj->setEffectif(true);
-        $this->assertEquals(true, $obj->getEffectif());
+        $this->assertTrue($obj->getEffectif());
     }
 
     /**
@@ -1398,7 +1398,7 @@ class TabledeserreursTest extends AbstractTestCase {
         $obj = new Tabledeserreurs();
 
         $obj->setEffectifDas(true);
-        $this->assertEquals(true, $obj->getEffectifDas());
+        $this->assertTrue($obj->getEffectifDas());
     }
 
     /**
@@ -1424,7 +1424,7 @@ class TabledeserreursTest extends AbstractTestCase {
         $obj = new Tabledeserreurs();
 
         $obj->setFictif(true);
-        $this->assertEquals(true, $obj->getFictif());
+        $this->assertTrue($obj->getFictif());
     }
 
     /**
@@ -1528,7 +1528,7 @@ class TabledeserreursTest extends AbstractTestCase {
         $obj = new Tabledeserreurs();
 
         $obj->setHNuitType2(true);
-        $this->assertEquals(true, $obj->getHNuitType2());
+        $this->assertTrue($obj->getHNuitType2());
     }
 
     /**
@@ -1541,7 +1541,7 @@ class TabledeserreursTest extends AbstractTestCase {
         $obj = new Tabledeserreurs();
 
         $obj->setHandicape(true);
-        $this->assertEquals(true, $obj->getHandicape());
+        $this->assertTrue($obj->getHandicape());
     }
 
     /**
@@ -1593,7 +1593,7 @@ class TabledeserreursTest extends AbstractTestCase {
         $obj = new Tabledeserreurs();
 
         $obj->setMentionCp(true);
-        $this->assertEquals(true, $obj->getMentionCp());
+        $this->assertTrue($obj->getMentionCp());
     }
 
     /**
@@ -1996,7 +1996,7 @@ class TabledeserreursTest extends AbstractTestCase {
         $obj = new Tabledeserreurs();
 
         $obj->setOrphelin(true);
-        $this->assertEquals(true, $obj->getOrphelin());
+        $this->assertTrue($obj->getOrphelin());
     }
 
     /**
@@ -2009,7 +2009,7 @@ class TabledeserreursTest extends AbstractTestCase {
         $obj = new Tabledeserreurs();
 
         $obj->setPasGestionPdp(true);
-        $this->assertEquals(true, $obj->getPasGestionPdp());
+        $this->assertTrue($obj->getPasGestionPdp());
     }
 
     /**
@@ -2022,7 +2022,7 @@ class TabledeserreursTest extends AbstractTestCase {
         $obj = new Tabledeserreurs();
 
         $obj->setPension(true);
-        $this->assertEquals(true, $obj->getPension());
+        $this->assertTrue($obj->getPension());
     }
 
     /**
@@ -2134,7 +2134,7 @@ class TabledeserreursTest extends AbstractTestCase {
         $obj = new Tabledeserreurs();
 
         $obj->setPlafondSs30(true);
-        $this->assertEquals(true, $obj->getPlafondSs30());
+        $this->assertTrue($obj->getPlafondSs30());
     }
 
     /**
@@ -2225,7 +2225,7 @@ class TabledeserreursTest extends AbstractTestCase {
         $obj = new Tabledeserreurs();
 
         $obj->setPrime(true);
-        $this->assertEquals(true, $obj->getPrime());
+        $this->assertTrue($obj->getPrime());
     }
 
     /**
@@ -2316,7 +2316,7 @@ class TabledeserreursTest extends AbstractTestCase {
         $obj = new Tabledeserreurs();
 
         $obj->setRegulTds(true);
-        $this->assertEquals(true, $obj->getRegulTds());
+        $this->assertTrue($obj->getRegulTds());
     }
 
     /**
@@ -2524,7 +2524,7 @@ class TabledeserreursTest extends AbstractTestCase {
         $obj = new Tabledeserreurs();
 
         $obj->setTaxeSalaire(true);
-        $this->assertEquals(true, $obj->getTaxeSalaire());
+        $this->assertTrue($obj->getTaxeSalaire());
     }
 
     /**
@@ -2589,7 +2589,7 @@ class TabledeserreursTest extends AbstractTestCase {
         $obj = new Tabledeserreurs();
 
         $obj->setTds107(true);
-        $this->assertEquals(true, $obj->getTds107());
+        $this->assertTrue($obj->getTds107());
     }
 
     /**
@@ -2602,7 +2602,7 @@ class TabledeserreursTest extends AbstractTestCase {
         $obj = new Tabledeserreurs();
 
         $obj->setTds108(true);
-        $this->assertEquals(true, $obj->getTds108());
+        $this->assertTrue($obj->getTds108());
     }
 
     /**
@@ -2615,7 +2615,7 @@ class TabledeserreursTest extends AbstractTestCase {
         $obj = new Tabledeserreurs();
 
         $obj->setTds109(true);
-        $this->assertEquals(true, $obj->getTds109());
+        $this->assertTrue($obj->getTds109());
     }
 
     /**
@@ -2628,7 +2628,7 @@ class TabledeserreursTest extends AbstractTestCase {
         $obj = new Tabledeserreurs();
 
         $obj->setTds110(true);
-        $this->assertEquals(true, $obj->getTds110());
+        $this->assertTrue($obj->getTds110());
     }
 
     /**
@@ -2654,7 +2654,7 @@ class TabledeserreursTest extends AbstractTestCase {
         $obj = new Tabledeserreurs();
 
         $obj->setTds113(true);
-        $this->assertEquals(true, $obj->getTds113());
+        $this->assertTrue($obj->getTds113());
     }
 
     /**
@@ -2680,7 +2680,7 @@ class TabledeserreursTest extends AbstractTestCase {
         $obj = new Tabledeserreurs();
 
         $obj->setTds119(true);
-        $this->assertEquals(true, $obj->getTds119());
+        $this->assertTrue($obj->getTds119());
     }
 
     /**
@@ -2693,7 +2693,7 @@ class TabledeserreursTest extends AbstractTestCase {
         $obj = new Tabledeserreurs();
 
         $obj->setTds120(true);
-        $this->assertEquals(true, $obj->getTds120());
+        $this->assertTrue($obj->getTds120());
     }
 
     /**
@@ -2706,7 +2706,7 @@ class TabledeserreursTest extends AbstractTestCase {
         $obj = new Tabledeserreurs();
 
         $obj->setTds121(true);
-        $this->assertEquals(true, $obj->getTds121());
+        $this->assertTrue($obj->getTds121());
     }
 
     /**
@@ -2719,7 +2719,7 @@ class TabledeserreursTest extends AbstractTestCase {
         $obj = new Tabledeserreurs();
 
         $obj->setTds122(true);
-        $this->assertEquals(true, $obj->getTds122());
+        $this->assertTrue($obj->getTds122());
     }
 
     /**
@@ -2888,7 +2888,7 @@ class TabledeserreursTest extends AbstractTestCase {
         $obj = new Tabledeserreurs();
 
         $obj->setTds60(true);
-        $this->assertEquals(true, $obj->getTds60());
+        $this->assertTrue($obj->getTds60());
     }
 
     /**
@@ -2953,7 +2953,7 @@ class TabledeserreursTest extends AbstractTestCase {
         $obj = new Tabledeserreurs();
 
         $obj->setTds78(true);
-        $this->assertEquals(true, $obj->getTds78());
+        $this->assertTrue($obj->getTds78());
     }
 
     /**
@@ -3187,7 +3187,7 @@ class TabledeserreursTest extends AbstractTestCase {
         $obj = new Tabledeserreurs();
 
         $obj->setTempsPasse(true);
-        $this->assertEquals(true, $obj->getTempsPasse());
+        $this->assertTrue($obj->getTempsPasse());
     }
 
     /**
@@ -3213,7 +3213,7 @@ class TabledeserreursTest extends AbstractTestCase {
         $obj = new Tabledeserreurs();
 
         $obj->setTransfertEntree1(true);
-        $this->assertEquals(true, $obj->getTransfertEntree1());
+        $this->assertTrue($obj->getTransfertEntree1());
     }
 
     /**
@@ -3226,7 +3226,7 @@ class TabledeserreursTest extends AbstractTestCase {
         $obj = new Tabledeserreurs();
 
         $obj->setTransfertEntree2(true);
-        $this->assertEquals(true, $obj->getTransfertEntree2());
+        $this->assertTrue($obj->getTransfertEntree2());
     }
 
     /**
@@ -3239,7 +3239,7 @@ class TabledeserreursTest extends AbstractTestCase {
         $obj = new Tabledeserreurs();
 
         $obj->setTransfertSortie1(true);
-        $this->assertEquals(true, $obj->getTransfertSortie1());
+        $this->assertTrue($obj->getTransfertSortie1());
     }
 
     /**
@@ -3252,7 +3252,7 @@ class TabledeserreursTest extends AbstractTestCase {
         $obj = new Tabledeserreurs();
 
         $obj->setTransfertSortie2(true);
-        $this->assertEquals(true, $obj->getTransfertSortie2());
+        $this->assertTrue($obj->getTransfertSortie2());
     }
 
     /**
@@ -3265,7 +3265,7 @@ class TabledeserreursTest extends AbstractTestCase {
         $obj = new Tabledeserreurs();
 
         $obj->setTravailleJf(true);
-        $this->assertEquals(true, $obj->getTravailleJf());
+        $this->assertTrue($obj->getTravailleJf());
     }
 
     /**
@@ -3317,7 +3317,7 @@ class TabledeserreursTest extends AbstractTestCase {
         $obj = new Tabledeserreurs();
 
         $obj->setVrpMulticarte(true);
-        $this->assertEquals(true, $obj->getVrpMulticarte());
+        $this->assertTrue($obj->getVrpMulticarte());
     }
 
     /**

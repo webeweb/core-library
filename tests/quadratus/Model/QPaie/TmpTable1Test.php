@@ -86,7 +86,7 @@ class TmpTable1Test extends AbstractTestCase {
         $obj = new TmpTable1();
 
         $obj->setInverse(true);
-        $this->assertEquals(true, $obj->getInverse());
+        $this->assertTrue($obj->getInverse());
     }
 
     /**

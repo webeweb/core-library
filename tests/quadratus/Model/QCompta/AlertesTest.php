@@ -34,7 +34,7 @@ class AlertesTest extends AbstractTestCase {
         $obj = new Alertes();
 
         $obj->setCloturee(true);
-        $this->assertEquals(true, $obj->getCloturee());
+        $this->assertTrue($obj->getCloturee());
     }
 
     /**

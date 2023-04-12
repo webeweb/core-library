@@ -142,7 +142,7 @@ class LignesDucsTest extends AbstractTestCase {
         $obj = new LignesDucs();
 
         $obj->setExclureFusion(true);
-        $this->assertEquals(true, $obj->getExclureFusion());
+        $this->assertTrue($obj->getExclureFusion());
     }
 
     /**
@@ -181,7 +181,7 @@ class LignesDucsTest extends AbstractTestCase {
         $obj = new LignesDucs();
 
         $obj->setIsTaux(true);
-        $this->assertEquals(true, $obj->getIsTaux());
+        $this->assertTrue($obj->getIsTaux());
     }
 
     /**
@@ -194,7 +194,7 @@ class LignesDucsTest extends AbstractTestCase {
         $obj = new LignesDucs();
 
         $obj->setMarque(true);
-        $this->assertEquals(true, $obj->getMarque());
+        $this->assertTrue($obj->getMarque());
     }
 
     /**
@@ -380,7 +380,7 @@ class LignesDucsTest extends AbstractTestCase {
         $obj = new LignesDucs();
 
         $obj->setTypeBaseUnique(true);
-        $this->assertEquals(true, $obj->getTypeBaseUnique());
+        $this->assertTrue($obj->getTypeBaseUnique());
     }
 
     /**

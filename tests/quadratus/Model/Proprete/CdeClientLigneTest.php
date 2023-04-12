@@ -164,7 +164,7 @@ class CdeClientLigneTest extends AbstractTestCase {
         $obj = new CdeClientLigne();
 
         $obj->setCommandeRecue(true);
-        $this->assertEquals(true, $obj->getCommandeRecue());
+        $this->assertTrue($obj->getCommandeRecue());
     }
 
     /**
@@ -324,7 +324,7 @@ class CdeClientLigneTest extends AbstractTestCase {
         $obj = new CdeClientLigne();
 
         $obj->setPrixbloque(true);
-        $this->assertEquals(true, $obj->getPrixbloque());
+        $this->assertTrue($obj->getPrixbloque());
     }
 
     /**

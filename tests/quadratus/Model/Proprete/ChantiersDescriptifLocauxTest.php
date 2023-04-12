@@ -181,7 +181,7 @@ class ChantiersDescriptifLocauxTest extends AbstractTestCase {
         $obj = new ChantiersDescriptifLocaux();
 
         $obj->setNoeudLocal(true);
-        $this->assertEquals(true, $obj->getNoeudLocal());
+        $this->assertTrue($obj->getNoeudLocal());
     }
 
     /**

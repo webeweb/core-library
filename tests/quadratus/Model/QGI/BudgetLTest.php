@@ -99,7 +99,7 @@ class BudgetLTest extends AbstractTestCase {
         $obj = new BudgetL();
 
         $obj->setHSoldees(true);
-        $this->assertEquals(true, $obj->getHSoldees());
+        $this->assertTrue($obj->getHSoldees());
     }
 
     /**

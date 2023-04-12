@@ -34,7 +34,7 @@ class EnfantsTest extends AbstractTestCase {
         $obj = new Enfants();
 
         $obj->setACharge(true);
-        $this->assertEquals(true, $obj->getACharge());
+        $this->assertTrue($obj->getACharge());
     }
 
     /**

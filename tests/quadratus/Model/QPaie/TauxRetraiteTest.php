@@ -32,7 +32,7 @@ class TauxRetraiteTest extends AbstractTestCase {
         $obj = new TauxRetraite();
 
         $obj->setCategCadre(true);
-        $this->assertEquals(true, $obj->getCategCadre());
+        $this->assertTrue($obj->getCategCadre());
     }
 
     /**

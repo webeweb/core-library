@@ -110,7 +110,7 @@ class ReglementsTest extends AbstractTestCase {
         $obj = new Reglements();
 
         $obj->setDateEcheanceCpta(true);
-        $this->assertEquals(true, $obj->getDateEcheanceCpta());
+        $this->assertTrue($obj->getDateEcheanceCpta());
     }
 
     /**
@@ -123,7 +123,7 @@ class ReglementsTest extends AbstractTestCase {
         $obj = new Reglements();
 
         $obj->setDefinitionPaiement(true);
-        $this->assertEquals(true, $obj->getDefinitionPaiement());
+        $this->assertTrue($obj->getDefinitionPaiement());
     }
 
     /**
@@ -136,7 +136,7 @@ class ReglementsTest extends AbstractTestCase {
         $obj = new Reglements();
 
         $obj->setDefinitionRemise(true);
-        $this->assertEquals(true, $obj->getDefinitionRemise());
+        $this->assertTrue($obj->getDefinitionRemise());
     }
 
     /**
@@ -149,7 +149,7 @@ class ReglementsTest extends AbstractTestCase {
         $obj = new Reglements();
 
         $obj->setDetailEcheanceCpta(true);
-        $this->assertEquals(true, $obj->getDetailEcheanceCpta());
+        $this->assertTrue($obj->getDetailEcheanceCpta());
     }
 
     /**
@@ -162,7 +162,7 @@ class ReglementsTest extends AbstractTestCase {
         $obj = new Reglements();
 
         $obj->setDetailEffetCpta(true);
-        $this->assertEquals(true, $obj->getDetailEffetCpta());
+        $this->assertTrue($obj->getDetailEffetCpta());
     }
 
     /**
@@ -227,7 +227,7 @@ class ReglementsTest extends AbstractTestCase {
         $obj = new Reglements();
 
         $obj->setEcheanceFinDecade(true);
-        $this->assertEquals(true, $obj->getEcheanceFinDecade());
+        $this->assertTrue($obj->getEcheanceFinDecade());
     }
 
     /**
@@ -240,7 +240,7 @@ class ReglementsTest extends AbstractTestCase {
         $obj = new Reglements();
 
         $obj->setEcheanceFinQuinzaine(true);
-        $this->assertEquals(true, $obj->getEcheanceFinQuinzaine());
+        $this->assertTrue($obj->getEcheanceFinQuinzaine());
     }
 
     /**
@@ -253,7 +253,7 @@ class ReglementsTest extends AbstractTestCase {
         $obj = new Reglements();
 
         $obj->setEditDateEcheance(true);
-        $this->assertEquals(true, $obj->getEditDateEcheance());
+        $this->assertTrue($obj->getEditDateEcheance());
     }
 
     /**
@@ -266,7 +266,7 @@ class ReglementsTest extends AbstractTestCase {
         $obj = new Reglements();
 
         $obj->setEditerCheque(true);
-        $this->assertEquals(true, $obj->getEditerCheque());
+        $this->assertTrue($obj->getEditerCheque());
     }
 
     /**
@@ -279,7 +279,7 @@ class ReglementsTest extends AbstractTestCase {
         $obj = new Reglements();
 
         $obj->setEspecesCaisse(true);
-        $this->assertEquals(true, $obj->getEspecesCaisse());
+        $this->assertTrue($obj->getEspecesCaisse());
     }
 
     /**
@@ -292,7 +292,7 @@ class ReglementsTest extends AbstractTestCase {
         $obj = new Reglements();
 
         $obj->setGestionPaiements(true);
-        $this->assertEquals(true, $obj->getGestionPaiements());
+        $this->assertTrue($obj->getGestionPaiements());
     }
 
     /**
@@ -357,7 +357,7 @@ class ReglementsTest extends AbstractTestCase {
         $obj = new Reglements();
 
         $obj->setLcr(true);
-        $this->assertEquals(true, $obj->getLcr());
+        $this->assertTrue($obj->getLcr());
     }
 
     /**
@@ -435,7 +435,7 @@ class ReglementsTest extends AbstractTestCase {
         $obj = new Reglements();
 
         $obj->setPasDeTiroirCaisse(true);
-        $this->assertEquals(true, $obj->getPasDeTiroirCaisse());
+        $this->assertTrue($obj->getPasDeTiroirCaisse());
     }
 
     /**
@@ -448,7 +448,7 @@ class ReglementsTest extends AbstractTestCase {
         $obj = new Reglements();
 
         $obj->setPasEffetAvoir(true);
-        $this->assertEquals(true, $obj->getPasEffetAvoir());
+        $this->assertTrue($obj->getPasEffetAvoir());
     }
 
     /**
@@ -487,7 +487,7 @@ class ReglementsTest extends AbstractTestCase {
         $obj = new Reglements();
 
         $obj->setTraiteEditer(true);
-        $this->assertEquals(true, $obj->getTraiteEditer());
+        $this->assertTrue($obj->getTraiteEditer());
     }
 
     /**

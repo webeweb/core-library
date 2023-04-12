@@ -34,7 +34,7 @@ class ReglementsAuxTest extends AbstractTestCase {
         $obj = new ReglementsAux();
 
         $obj->setActif(true);
-        $this->assertEquals(true, $obj->getActif());
+        $this->assertTrue($obj->getActif());
     }
 
     /**
@@ -99,7 +99,7 @@ class ReglementsAuxTest extends AbstractTestCase {
         $obj = new ReglementsAux();
 
         $obj->setDans1Groupe(true);
-        $this->assertEquals(true, $obj->getDans1Groupe());
+        $this->assertTrue($obj->getDans1Groupe());
     }
 
     /**

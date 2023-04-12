@@ -99,7 +99,7 @@ class EcrituresEcoTest extends AbstractTestCase {
         $obj = new EcrituresEco();
 
         $obj->setLiaisonEcriture(true);
-        $this->assertEquals(true, $obj->getLiaisonEcriture());
+        $this->assertTrue($obj->getLiaisonEcriture());
     }
 
     /**

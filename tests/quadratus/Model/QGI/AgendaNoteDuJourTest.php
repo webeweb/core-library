@@ -94,7 +94,7 @@ class AgendaNoteDuJourTest extends AbstractTestCase {
         $obj = new AgendaNoteDuJour();
 
         $obj->setMaJExterne(true);
-        $this->assertEquals(true, $obj->getMaJExterne());
+        $this->assertTrue($obj->getMaJExterne());
     }
 
     /**

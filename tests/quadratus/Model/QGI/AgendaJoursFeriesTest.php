@@ -34,7 +34,7 @@ class AgendaJoursFeriesTest extends AbstractTestCase {
         $obj = new AgendaJoursFeries();
 
         $obj->setCalculee(true);
-        $this->assertEquals(true, $obj->getCalculee());
+        $this->assertTrue($obj->getCalculee());
     }
 
     /**

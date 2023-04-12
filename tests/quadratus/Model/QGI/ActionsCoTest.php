@@ -124,7 +124,7 @@ class ActionsCoTest extends AbstractTestCase {
         $obj = new ActionsCo();
 
         $obj->setOpConfirmation(true);
-        $this->assertEquals(true, $obj->getOpConfirmation());
+        $this->assertTrue($obj->getOpConfirmation());
     }
 
     /**
@@ -137,7 +137,7 @@ class ActionsCoTest extends AbstractTestCase {
         $obj = new ActionsCo();
 
         $obj->setOpContratSigne(true);
-        $this->assertEquals(true, $obj->getOpContratSigne());
+        $this->assertTrue($obj->getOpContratSigne());
     }
 
     /**
@@ -150,7 +150,7 @@ class ActionsCoTest extends AbstractTestCase {
         $obj = new ActionsCo();
 
         $obj->setOpExplication(true);
-        $this->assertEquals(true, $obj->getOpExplication());
+        $this->assertTrue($obj->getOpExplication());
     }
 
     /**
@@ -163,7 +163,7 @@ class ActionsCoTest extends AbstractTestCase {
         $obj = new ActionsCo();
 
         $obj->setOpInvitationIndiv(true);
-        $this->assertEquals(true, $obj->getOpInvitationIndiv());
+        $this->assertTrue($obj->getOpInvitationIndiv());
     }
 
     /**
@@ -176,7 +176,7 @@ class ActionsCoTest extends AbstractTestCase {
         $obj = new ActionsCo();
 
         $obj->setOpInvitationMasse(true);
-        $this->assertEquals(true, $obj->getOpInvitationMasse());
+        $this->assertTrue($obj->getOpInvitationMasse());
     }
 
     /**
@@ -189,7 +189,7 @@ class ActionsCoTest extends AbstractTestCase {
         $obj = new ActionsCo();
 
         $obj->setOpPresence(true);
-        $this->assertEquals(true, $obj->getOpPresence());
+        $this->assertTrue($obj->getOpPresence());
     }
 
     /**
@@ -202,7 +202,7 @@ class ActionsCoTest extends AbstractTestCase {
         $obj = new ActionsCo();
 
         $obj->setOpPriseRdv(true);
-        $this->assertEquals(true, $obj->getOpPriseRdv());
+        $this->assertTrue($obj->getOpPriseRdv());
     }
 
     /**
@@ -215,7 +215,7 @@ class ActionsCoTest extends AbstractTestCase {
         $obj = new ActionsCo();
 
         $obj->setOpRelance(true);
-        $this->assertEquals(true, $obj->getOpRelance());
+        $this->assertTrue($obj->getOpRelance());
     }
 
     /**
@@ -228,7 +228,7 @@ class ActionsCoTest extends AbstractTestCase {
         $obj = new ActionsCo();
 
         $obj->setOpReponseInscrip(true);
-        $this->assertEquals(true, $obj->getOpReponseInscrip());
+        $this->assertTrue($obj->getOpReponseInscrip());
     }
 
     /**
@@ -241,7 +241,7 @@ class ActionsCoTest extends AbstractTestCase {
         $obj = new ActionsCo();
 
         $obj->setOpReponseNegative(true);
-        $this->assertEquals(true, $obj->getOpReponseNegative());
+        $this->assertTrue($obj->getOpReponseNegative());
     }
 
     /**
@@ -254,7 +254,7 @@ class ActionsCoTest extends AbstractTestCase {
         $obj = new ActionsCo();
 
         $obj->setOpReservation(true);
-        $this->assertEquals(true, $obj->getOpReservation());
+        $this->assertTrue($obj->getOpReservation());
     }
 
     /**

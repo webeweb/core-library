@@ -77,7 +77,7 @@ class ArticlesFrnPrixATest extends AbstractTestCase {
         $obj = new ArticlesFrnPrixA();
 
         $obj->setPrixCond(true);
-        $this->assertEquals(true, $obj->getPrixCond());
+        $this->assertTrue($obj->getPrixCond());
     }
 
     /**
