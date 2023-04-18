@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [8.72.1](https://github.com/webeweb/core-library/tree/v8.72.1) (2023-04-18)
+
+- Add YEAR constant into Serializer keys
+
 ### [8.72.0](https://github.com/webeweb/core-library/tree/v8.72.0) (2023-04-18)
 
 - Add integer year trait
