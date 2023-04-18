@@ -1,8 +1,9 @@
 CHANGELOG
 =========
 
-### master
+### [8.72.0](https://github.com/webeweb/core-library/tree/v8.72.0) (2023-04-18)
 
+- Add integer year trait
 - Improve code quality
 
 ### [8.71.0](https://github.com/webeweb/core-library/tree/v8.71.0) (2023-02-29)
