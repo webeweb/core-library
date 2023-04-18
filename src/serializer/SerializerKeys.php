@@ -1236,4 +1236,11 @@ interface SerializerKeys {
      * @var string
      */
     const Y = "y";
+
+    /**
+     * Serializer key "year".
+     *
+     * @var string
+     */
+    const YEAR = "year";
 }

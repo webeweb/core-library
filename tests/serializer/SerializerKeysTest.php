@@ -225,5 +225,6 @@ class SerializerKeysTest extends AbstractTestCase {
         $this->assertEquals("x", SerializerKeys::X);
 
         $this->assertEquals("y", SerializerKeys::Y);
+        $this->assertEquals("year", SerializerKeys::YEAR);
     }
 }
