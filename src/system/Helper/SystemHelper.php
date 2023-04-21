@@ -77,7 +77,7 @@ class SystemHelper {
         static::isSupported();
 
         $result = shell_exec("top -b -n 1 | grep '%Cpu(s):'");
-        preg_match_all("/[\d.]+/", $result, $values);
+        preg_match_all("/[0-9]+[.,][0-9]+/", $result, $values);
 
         $model = new Cpu();
         $model->setUs(floatval(trim($values[0][0])));
