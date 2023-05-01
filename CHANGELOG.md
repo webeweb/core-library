@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### master
+
+- Improve Token generator
+
 ### [8.72.2](https://github.com/webeweb/core-library/tree/v8.72.2) (2023-04-21)
 
 - Fix regexp into System helper
