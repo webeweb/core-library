@@ -24,12 +24,13 @@ class TokenGenerator {
     /**
      * Generate a token.
      *
+     * @param int $length The length.
      * @return string Returns the generated token.
      * @throws Throwable Throws an exception if an error occurs.
      */
-    public function generateToken(): string {
+    public function generateToken(int $length = 32): string {
 
-        $randomBytes  = random_bytes(32);
+        $randomBytes  = random_bytes($length);
         $base64Encode = base64_encode($randomBytes);
         $translated   = strtr($base64Encode, "+/", "-_");
 
