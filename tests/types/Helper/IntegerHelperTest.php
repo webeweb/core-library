@@ -25,6 +25,28 @@ use WBW\Library\Types\Tests\AbstractTestCase;
 class IntegerHelperTest extends AbstractTestCase {
 
     /**
+     * Test factorial()
+     *
+     * @return void
+     */
+    public function testFactorial(): void {
+
+        $this->assertNull(IntegerHelper::factorial(null));
+        $this->assertNull(IntegerHelper::factorial(-1));
+        $this->assertEquals(1, IntegerHelper::factorial(0));
+        $this->assertEquals(1, IntegerHelper::factorial(1));
+        $this->assertEquals(2, IntegerHelper::factorial(2));
+        $this->assertEquals(6, IntegerHelper::factorial(3));
+        $this->assertEquals(24, IntegerHelper::factorial(4));
+        $this->assertEquals(120, IntegerHelper::factorial(5));
+        $this->assertEquals(720, IntegerHelper::factorial(6));
+        $this->assertEquals(5040, IntegerHelper::factorial(7));
+        $this->assertEquals(40320, IntegerHelper::factorial(8));
+        $this->assertEquals(362880, IntegerHelper::factorial(9));
+        $this->assertEquals(3628800, IntegerHelper::factorial(10));
+    }
+
+    /**
      * Test parseBoolean()
      *
      * @return void
