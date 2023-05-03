@@ -44,7 +44,7 @@ use WBW\Library\Symfony\Tests\AbstractTestCase;
 class ColorFactoryTest extends AbstractTestCase {
 
     /**
-     * Tests newMaterialDesignColorPalette()
+     * Test newMaterialDesignColorPalette()
      *
      * @return void
      */

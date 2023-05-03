@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Provider\Color\TestOrangeColorProviderTra
 class OrangeColorProviderTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setOrangeColorProvider()
+     * Test setOrangeColorProvider()
      *
      * @return void
      */

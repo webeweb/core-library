@@ -23,7 +23,7 @@ use WBW\Library\Curl\Tests\AbstractTestCase;
 class MethodNotAllowedExceptionTest extends AbstractTestCase {
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

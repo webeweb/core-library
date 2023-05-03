@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class PrepaPaieReposTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeEmploye()
+     * Test setCodeEmploye()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class PrepaPaieReposTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCpPris()
+     * Test setCpPris()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class PrepaPaieReposTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHEffectives()
+     * Test setHEffectives()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class PrepaPaieReposTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHPrevues()
+     * Test setHPrevues()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class PrepaPaieReposTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHRealisees()
+     * Test setHRealisees()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class PrepaPaieReposTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumSem()
+     * Test setNumSem()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class PrepaPaieReposTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class PrepaPaieReposTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setReposCompAcquis()
+     * Test setReposCompAcquis()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class PrepaPaieReposTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setReposCompPris()
+     * Test setReposCompPris()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class PrepaPaieReposTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setReposRemplAcquis()
+     * Test setReposRemplAcquis()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class PrepaPaieReposTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setReposRemplPris()
+     * Test setReposRemplPris()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class PrepaPaieReposTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

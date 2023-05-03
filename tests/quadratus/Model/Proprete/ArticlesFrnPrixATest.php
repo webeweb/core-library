@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ArticlesFrnPrixATest extends AbstractTestCase {
 
     /**
-     * Tests setCodeArticle()
+     * Test setCodeArticle()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class ArticlesFrnPrixATest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeFournisseur()
+     * Test setCodeFournisseur()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class ArticlesFrnPrixATest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDebut()
+     * Test setDateDebut()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class ArticlesFrnPrixATest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrixCond()
+     * Test setPrixCond()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class ArticlesFrnPrixATest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPxAchat()
+     * Test setPxAchat()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class ArticlesFrnPrixATest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQteAchat()
+     * Test setQteAchat()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class ArticlesFrnPrixATest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQteCond()
+     * Test setQteCond()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class ArticlesFrnPrixATest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemise1()
+     * Test setRemise1()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class ArticlesFrnPrixATest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemise2()
+     * Test setRemise2()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class ArticlesFrnPrixATest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemise3()
+     * Test setRemise3()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class ArticlesFrnPrixATest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

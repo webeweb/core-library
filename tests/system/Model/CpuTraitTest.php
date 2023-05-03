@@ -24,7 +24,7 @@ use WBW\Library\System\Tests\Fixtures\Model\TestCpuTrait;
 class CpuTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setCpu()
+     * Test setCpu()
      *
      * @return void
      */

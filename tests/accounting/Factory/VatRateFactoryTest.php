@@ -25,7 +25,7 @@ use WBW\Library\Accounting\Tests\AbstractTestCase;
 class VatRateFactoryTest extends AbstractTestCase {
 
     /**
-     * Tests copy()
+     * Test copy()
      *
      * @return void
      */

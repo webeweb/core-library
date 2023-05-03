@@ -25,7 +25,7 @@ use WBW\Library\SkiData\Tests\Fixtures\Traits\TestCustomerTrait;
 class CustomerTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setCustomerNumber()
+     * Test setCustomerNumber()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class CustomerTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDatetimeLastModification()
+     * Test setDatetimeLastModification()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -52,7 +52,7 @@ class CustomerTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDeletedRecord()
+     * Test setDeletedRecord()
      *
      * @return void
      */
@@ -65,7 +65,7 @@ class CustomerTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDivision()
+     * Test setDivision()
      *
      * @return void
      */
@@ -78,7 +78,7 @@ class CustomerTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmail()
+     * Test setEmail()
      *
      * @return void
      */
@@ -91,7 +91,7 @@ class CustomerTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFirstname()
+     * Test setFirstname()
      *
      * @return void
      */
@@ -104,7 +104,7 @@ class CustomerTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGroupCounting()
+     * Test setGroupCounting()
      *
      * @return void
      */
@@ -117,7 +117,7 @@ class CustomerTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemarks()
+     * Test setRemarks()
      *
      * @return void
      */
@@ -130,7 +130,7 @@ class CustomerTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemarks2()
+     * Test setRemarks2()
      *
      * @return void
      */
@@ -143,7 +143,7 @@ class CustomerTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemarks3()
+     * Test setRemarks3()
      *
      * @return void
      */
@@ -156,7 +156,7 @@ class CustomerTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSurname()
+     * Test setSurname()
      *
      * @return void
      */
@@ -169,7 +169,7 @@ class CustomerTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTitle()
+     * Test setTitle()
      *
      * @return void
      */

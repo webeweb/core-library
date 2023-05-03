@@ -23,7 +23,7 @@ use WBW\Library\Maths\Helper\LuhnAlgorithmHelper;
 class LuhnAlgorithmHelperTest extends AbstractTestCase {
 
     /**
-     * Tests check()
+     * Test check()
      *
      * @return void
      */

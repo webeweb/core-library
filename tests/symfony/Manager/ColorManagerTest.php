@@ -49,7 +49,7 @@ class ColorManagerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests addProvider()
+     * Test addProvider()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -63,7 +63,7 @@ class ColorManagerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests addProvider()
+     * Test addProvider()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -83,7 +83,7 @@ class ColorManagerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests containsProvider()
+     * Test containsProvider()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -99,7 +99,7 @@ class ColorManagerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests containsProvider()
+     * Test containsProvider()
      *
      * @return void
      */
@@ -121,7 +121,7 @@ class ColorManagerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

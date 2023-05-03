@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ConstPrimesTest extends AbstractTestCase {
 
     /**
-     * Tests setCodePrimeQPaie()
+     * Test setCodePrimeQPaie()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ConstPrimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndice()
+     * Test setIndice()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ConstPrimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ConstPrimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

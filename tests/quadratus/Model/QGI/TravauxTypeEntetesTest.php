@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class TravauxTypeEntetesTest extends AbstractTestCase {
 
     /**
-     * Tests setCode()
+     * Test setCode()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class TravauxTypeEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeMission()
+     * Test setCodeMission()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class TravauxTypeEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class TravauxTypeEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPolice()
+     * Test setPolice()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class TravauxTypeEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPolice2()
+     * Test setPolice2()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class TravauxTypeEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPolice3()
+     * Test setPolice3()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class TravauxTypeEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

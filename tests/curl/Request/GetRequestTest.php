@@ -27,7 +27,7 @@ use WBW\Library\Curl\Tests\AbstractTestCase;
 class GetRequestTest extends AbstractTestCase {
 
     /**
-     * Tests call() method.
+     * Test call() method.
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -43,7 +43,7 @@ class GetRequestTest extends AbstractTestCase {
     }
 
     /**
-     * Tests call() method.
+     * Test call() method.
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -59,7 +59,7 @@ class GetRequestTest extends AbstractTestCase {
     }
 
     /**
-     * Tests call() method.
+     * Test call() method.
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -75,7 +75,7 @@ class GetRequestTest extends AbstractTestCase {
     }
 
     /**
-     * Tests call() method.
+     * Test call() method.
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -92,7 +92,7 @@ class GetRequestTest extends AbstractTestCase {
     }
 
     /**
-     * Tests call() method.
+     * Test call() method.
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -110,7 +110,7 @@ class GetRequestTest extends AbstractTestCase {
     }
 
     /**
-     * Tests call() method.
+     * Test call() method.
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -141,7 +141,7 @@ class GetRequestTest extends AbstractTestCase {
     }
 
     /**
-     * Tests call() method.
+     * Test call() method.
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -157,7 +157,7 @@ class GetRequestTest extends AbstractTestCase {
     }
 
     /**
-     * Tests call() method.
+     * Test call() method.
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -182,7 +182,7 @@ class GetRequestTest extends AbstractTestCase {
     }
 
     /**
-     * Tests call() method.
+     * Test call() method.
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -198,7 +198,7 @@ class GetRequestTest extends AbstractTestCase {
     }
 
     /**
-     * Tests call() method.
+     * Test call() method.
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -214,7 +214,7 @@ class GetRequestTest extends AbstractTestCase {
     }
 
     /**
-     * Tests clearHeader()
+     * Test clearHeader()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -231,7 +231,7 @@ class GetRequestTest extends AbstractTestCase {
     }
 
     /**
-     * Tests clearQueryData()
+     * Test clearQueryData()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -248,7 +248,7 @@ class GetRequestTest extends AbstractTestCase {
     }
 
     /**
-     * Tests removeHeader() method.
+     * Test removeHeader() method.
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -268,7 +268,7 @@ class GetRequestTest extends AbstractTestCase {
     }
 
     /**
-     * Tests removeQueryData() method.
+     * Test removeQueryData() method.
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -288,7 +288,7 @@ class GetRequestTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct() method.
+     * Test __construct() method.
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.

@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DadsuRetraiteLignesContratTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeEtablissement()
+     * Test setCodeEtablissement()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class DadsuRetraiteLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeOrganisme()
+     * Test setCodeOrganisme()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class DadsuRetraiteLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDesignationCommerciale()
+     * Test setDesignationCommerciale()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class DadsuRetraiteLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRefContrat()
+     * Test setRefContrat()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class DadsuRetraiteLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

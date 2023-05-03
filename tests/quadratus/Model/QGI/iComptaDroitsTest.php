@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class iComptaDroitsTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeCollabMessages()
+     * Test setCodeCollabMessages()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeUser()
+     * Test setCodeUser()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateLimiteVisu()
+     * Test setDateLimiteVisu()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDroitClients()
+     * Test setDroitClients()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDroitFournisseurs()
+     * Test setDroitFournisseurs()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDroitGeneraux()
+     * Test setDroitGeneraux()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDroitModifCompte()
+     * Test setDroitModifCompte()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEspaceClient()
+     * Test setEspaceClient()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFctBalanceClient()
+     * Test setFctBalanceClient()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFctBalanceFournisseur()
+     * Test setFctBalanceFournisseur()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFctBalanceGenerale()
+     * Test setFctBalanceGenerale()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFctConsultDa()
+     * Test setFctConsultDa()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFctConsultDc()
+     * Test setFctConsultDc()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFctDeclareTva()
+     * Test setFctDeclareTva()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFctDelettrage()
+     * Test setFctDelettrage()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFctEditionJournaux()
+     * Test setFctEditionJournaux()
      *
      * @return void
      */
@@ -237,7 +237,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFctInterrogationCpt()
+     * Test setFctInterrogationCpt()
      *
      * @return void
      */
@@ -250,7 +250,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFctLettrage()
+     * Test setFctLettrage()
      *
      * @return void
      */
@@ -263,7 +263,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFctModifEcriture()
+     * Test setFctModifEcriture()
      *
      * @return void
      */
@@ -276,7 +276,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFctRapprochBanq()
+     * Test setFctRapprochBanq()
      *
      * @return void
      */
@@ -289,7 +289,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFctSaisieAchats()
+     * Test setFctSaisieAchats()
      *
      * @return void
      */
@@ -302,7 +302,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFctSaisieBanques()
+     * Test setFctSaisieBanques()
      *
      * @return void
      */
@@ -315,7 +315,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFctSaisieCaisseOrientee()
+     * Test setFctSaisieCaisseOrientee()
      *
      * @return void
      */
@@ -328,7 +328,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFctSaisieEtebac()
+     * Test setFctSaisieEtebac()
      *
      * @return void
      */
@@ -341,7 +341,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFctSaisieStandard()
+     * Test setFctSaisieStandard()
      *
      * @return void
      */
@@ -354,7 +354,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFctSaisieTrame()
+     * Test setFctSaisieTrame()
      *
      * @return void
      */
@@ -367,7 +367,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFctSaisieVentes()
+     * Test setFctSaisieVentes()
      *
      * @return void
      */
@@ -380,7 +380,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFctSupprEcriture()
+     * Test setFctSupprEcriture()
      *
      * @return void
      */
@@ -393,7 +393,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFctTableBord()
+     * Test setFctTableBord()
      *
      * @return void
      */
@@ -406,7 +406,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFlag()
+     * Test setFlag()
      *
      * @return void
      */
@@ -419,7 +419,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNiveauDroitClients()
+     * Test setNiveauDroitClients()
      *
      * @return void
      */
@@ -432,7 +432,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNiveauDroitFournisseurs()
+     * Test setNiveauDroitFournisseurs()
      *
      * @return void
      */
@@ -445,7 +445,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNiveauDroitGeneraux()
+     * Test setNiveauDroitGeneraux()
      *
      * @return void
      */
@@ -458,7 +458,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoDossCpta()
+     * Test setNoDossCpta()
      *
      * @return void
      */
@@ -471,7 +471,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomUser()
+     * Test setNomUser()
      *
      * @return void
      */
@@ -484,7 +484,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumiKey()
+     * Test setNumiKey()
      *
      * @return void
      */
@@ -497,7 +497,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPassword()
+     * Test setPassword()
      *
      * @return void
      */
@@ -510,7 +510,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeSaisieDeb()
+     * Test setPeriodeSaisieDeb()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -527,7 +527,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeSaisieFin()
+     * Test setPeriodeSaisieFin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -544,7 +544,7 @@ class iComptaDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

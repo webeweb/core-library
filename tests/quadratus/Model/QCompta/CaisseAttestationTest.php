@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class CaisseAttestationTest extends AbstractTestCase {
 
     /**
-     * Tests setCollaborateur()
+     * Test setCollaborateur()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class CaisseAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateAcquisition()
+     * Test setDateAcquisition()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -55,7 +55,7 @@ class CaisseAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateApplication()
+     * Test setDateApplication()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -72,7 +72,7 @@ class CaisseAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateAttestation()
+     * Test setDateAttestation()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -89,7 +89,7 @@ class CaisseAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateCreation()
+     * Test setDateCreation()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -106,7 +106,7 @@ class CaisseAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setInfoFichier()
+     * Test setInfoFichier()
      *
      * @return void
      */
@@ -119,7 +119,7 @@ class CaisseAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLicence()
+     * Test setLicence()
      *
      * @return void
      */
@@ -132,7 +132,7 @@ class CaisseAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomResponsable()
+     * Test setNomResponsable()
      *
      * @return void
      */
@@ -145,7 +145,7 @@ class CaisseAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomVille()
+     * Test setNomVille()
      *
      * @return void
      */
@@ -158,7 +158,7 @@ class CaisseAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumVersion()
+     * Test setNumVersion()
      *
      * @return void
      */
@@ -171,7 +171,7 @@ class CaisseAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOrdinateur()
+     * Test setOrdinateur()
      *
      * @return void
      */
@@ -184,7 +184,7 @@ class CaisseAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOrigine()
+     * Test setOrigine()
      *
      * @return void
      */
@@ -197,7 +197,7 @@ class CaisseAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrenomResponsable()
+     * Test setPrenomResponsable()
      *
      * @return void
      */
@@ -210,7 +210,7 @@ class CaisseAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRaisonSocialeDistri()
+     * Test setRaisonSocialeDistri()
      *
      * @return void
      */
@@ -223,7 +223,7 @@ class CaisseAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRaisonSocialeSociete()
+     * Test setRaisonSocialeSociete()
      *
      * @return void
      */
@@ -236,7 +236,7 @@ class CaisseAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqId()
+     * Test setUniqId()
      *
      * @return void
      */
@@ -249,7 +249,7 @@ class CaisseAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUtilisateur()
+     * Test setUtilisateur()
      *
      * @return void
      */
@@ -262,7 +262,7 @@ class CaisseAttestationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

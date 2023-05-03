@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class CriteresListeTest extends AbstractTestCase {
 
     /**
-     * Tests setCode()
+     * Test setCode()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class CriteresListeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class CriteresListeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumLibelle()
+     * Test setNumLibelle()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class CriteresListeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

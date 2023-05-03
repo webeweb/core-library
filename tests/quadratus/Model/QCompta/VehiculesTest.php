@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class VehiculesTest extends AbstractTestCase {
 
     /**
-     * Tests setCategorie()
+     * Test setCategorie()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class VehiculesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateCession()
+     * Test setDateCession()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -55,7 +55,7 @@ class VehiculesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateImmat()
+     * Test setDateImmat()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -72,7 +72,7 @@ class VehiculesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDatePmec()
+     * Test setDatePmec()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -89,7 +89,7 @@ class VehiculesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGuid()
+     * Test setGuid()
      *
      * @return void
      */
@@ -102,7 +102,7 @@ class VehiculesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHybride()
+     * Test setHybride()
      *
      * @return void
      */
@@ -115,7 +115,7 @@ class VehiculesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setImmatriculation()
+     * Test setImmatriculation()
      *
      * @return void
      */
@@ -128,7 +128,7 @@ class VehiculesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -141,7 +141,7 @@ class VehiculesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLienCompta()
+     * Test setLienCompta()
      *
      * @return void
      */
@@ -154,7 +154,7 @@ class VehiculesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNonPolluant()
+     * Test setNonPolluant()
      *
      * @return void
      */
@@ -167,7 +167,7 @@ class VehiculesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPuissanceCv()
+     * Test setPuissanceCv()
      *
      * @return void
      */
@@ -180,7 +180,7 @@ class VehiculesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSuperCarbu()
+     * Test setSuperCarbu()
      *
      * @return void
      */
@@ -193,7 +193,7 @@ class VehiculesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxEmissionCo2()
+     * Test setTauxEmissionCo2()
      *
      * @return void
      */
@@ -206,7 +206,7 @@ class VehiculesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUsageAgricole()
+     * Test setUsageAgricole()
      *
      * @return void
      */
@@ -219,7 +219,7 @@ class VehiculesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

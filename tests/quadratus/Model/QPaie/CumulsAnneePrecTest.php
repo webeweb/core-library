@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class CumulsAnneePrecTest extends AbstractTestCase {
 
     /**
-     * Tests setAnnee()
+     * Test setAnnee()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCum30Ss()
+     * Test setCum30Ss()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBaseCsg()
+     * Test setCumBaseCsg()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBaseGmp()
+     * Test setCumBaseGmp()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBaseSs()
+     * Test setCumBaseSs()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBaseTr2()
+     * Test setCumBaseTr2()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBaseTrA()
+     * Test setCumBaseTrA()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBaseTrACaisse1()
+     * Test setCumBaseTrACaisse1()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBaseTrACaisse2()
+     * Test setCumBaseTrACaisse2()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBaseTrACaisse3()
+     * Test setCumBaseTrACaisse3()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBaseTrB()
+     * Test setCumBaseTrB()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBaseTrBCaisse1()
+     * Test setCumBaseTrBCaisse1()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBaseTrBCaisse2()
+     * Test setCumBaseTrBCaisse2()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBaseTrBCaisse3()
+     * Test setCumBaseTrBCaisse3()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBaseTrC()
+     * Test setCumBaseTrC()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBaseTrCCaisse1()
+     * Test setCumBaseTrCCaisse1()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBaseTrCCaisse2()
+     * Test setCumBaseTrCCaisse2()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBaseTrCCaisse3()
+     * Test setCumBaseTrCCaisse3()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBaseTrD()
+     * Test setCumBaseTrD()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBaseTrD1()
+     * Test setCumBaseTrD1()
      *
      * @return void
      */
@@ -283,7 +283,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBaseTrD1Caisse1()
+     * Test setCumBaseTrD1Caisse1()
      *
      * @return void
      */
@@ -296,7 +296,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBaseTrD1Caisse2()
+     * Test setCumBaseTrD1Caisse2()
      *
      * @return void
      */
@@ -309,7 +309,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBaseTrD1Caisse3()
+     * Test setCumBaseTrD1Caisse3()
      *
      * @return void
      */
@@ -322,7 +322,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBaseTrDCaisse1()
+     * Test setCumBaseTrDCaisse1()
      *
      * @return void
      */
@@ -335,7 +335,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBaseTrDCaisse2()
+     * Test setCumBaseTrDCaisse2()
      *
      * @return void
      */
@@ -348,7 +348,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBaseTrDCaisse3()
+     * Test setCumBaseTrDCaisse3()
      *
      * @return void
      */
@@ -361,7 +361,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBrutAbatNonLim()
+     * Test setCumBrutAbatNonLim()
      *
      * @return void
      */
@@ -374,7 +374,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBrutAl()
+     * Test setCumBrutAl()
      *
      * @return void
      */
@@ -387,7 +387,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBrutAlSansSi()
+     * Test setCumBrutAlSansSi()
      *
      * @return void
      */
@@ -400,7 +400,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBrutCaisse1()
+     * Test setCumBrutCaisse1()
      *
      * @return void
      */
@@ -413,7 +413,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBrutCaisse2()
+     * Test setCumBrutCaisse2()
      *
      * @return void
      */
@@ -426,7 +426,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBrutCaisse3()
+     * Test setCumBrutCaisse3()
      *
      * @return void
      */
@@ -439,7 +439,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBrutNonAbattu()
+     * Test setCumBrutNonAbattu()
      *
      * @return void
      */
@@ -452,7 +452,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumCpDus()
+     * Test setCumCpDus()
      *
      * @return void
      */
@@ -465,7 +465,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumCpDus1()
+     * Test setCumCpDus1()
      *
      * @return void
      */
@@ -478,7 +478,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumCpPris()
+     * Test setCumCpPris()
      *
      * @return void
      */
@@ -491,7 +491,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumCpPris1()
+     * Test setCumCpPris1()
      *
      * @return void
      */
@@ -504,7 +504,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumDifDus()
+     * Test setCumDifDus()
      *
      * @return void
      */
@@ -517,7 +517,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumDifDus1()
+     * Test setCumDifDus1()
      *
      * @return void
      */
@@ -530,7 +530,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumHBonifie()
+     * Test setCumHBonifie()
      *
      * @return void
      */
@@ -543,7 +543,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumHReposRemplace()
+     * Test setCumHReposRemplace()
      *
      * @return void
      */
@@ -556,7 +556,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumHService()
+     * Test setCumHService()
      *
      * @return void
      */
@@ -569,7 +569,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumHSup()
+     * Test setCumHSup()
      *
      * @return void
      */
@@ -582,7 +582,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumHSupRcit()
+     * Test setCumHSupRcit()
      *
      * @return void
      */
@@ -595,7 +595,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumHeurePaye()
+     * Test setCumHeurePaye()
      *
      * @return void
      */
@@ -608,7 +608,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumHeureTrav()
+     * Test setCumHeureTrav()
      *
      * @return void
      */
@@ -621,7 +621,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumJReposRecup()
+     * Test setCumJReposRecup()
      *
      * @return void
      */
@@ -634,7 +634,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumJourPaye()
+     * Test setCumJourPaye()
      *
      * @return void
      */
@@ -647,7 +647,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumJourTrav()
+     * Test setCumJourTrav()
      *
      * @return void
      */
@@ -660,7 +660,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumMtCpPris()
+     * Test setCumMtCpPris()
      *
      * @return void
      */
@@ -673,7 +673,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumMtCpPris1()
+     * Test setCumMtCpPris1()
      *
      * @return void
      */
@@ -686,7 +686,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumNetAPayer()
+     * Test setCumNetAPayer()
      *
      * @return void
      */
@@ -699,7 +699,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumNetImposable()
+     * Test setCumNetImposable()
      *
      * @return void
      */
@@ -712,7 +712,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumPlaf1Caisse1()
+     * Test setCumPlaf1Caisse1()
      *
      * @return void
      */
@@ -725,7 +725,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumPlaf1Caisse2()
+     * Test setCumPlaf1Caisse2()
      *
      * @return void
      */
@@ -738,7 +738,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumPlaf1Caisse3()
+     * Test setCumPlaf1Caisse3()
      *
      * @return void
      */
@@ -751,7 +751,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumPlaf2Caisse1()
+     * Test setCumPlaf2Caisse1()
      *
      * @return void
      */
@@ -764,7 +764,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumPlaf2Caisse2()
+     * Test setCumPlaf2Caisse2()
      *
      * @return void
      */
@@ -777,7 +777,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumPlaf2Caisse3()
+     * Test setCumPlaf2Caisse3()
      *
      * @return void
      */
@@ -790,7 +790,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumPlafondGmp()
+     * Test setCumPlafondGmp()
      *
      * @return void
      */
@@ -803,7 +803,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumPlafondSs1()
+     * Test setCumPlafondSs1()
      *
      * @return void
      */
@@ -816,7 +816,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumPlafondSs2()
+     * Test setCumPlafondSs2()
      *
      * @return void
      */
@@ -829,7 +829,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumProvCp()
+     * Test setCumProvCp()
      *
      * @return void
      */
@@ -842,7 +842,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumProvCp1()
+     * Test setCumProvCp1()
      *
      * @return void
      */
@@ -855,7 +855,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumReposComp()
+     * Test setCumReposComp()
      *
      * @return void
      */
@@ -868,7 +868,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumRttDus()
+     * Test setCumRttDus()
      *
      * @return void
      */
@@ -881,7 +881,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumRttPris()
+     * Test setCumRttPris()
      *
      * @return void
      */
@@ -894,7 +894,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTotSi()
+     * Test setCumTotSi()
      *
      * @return void
      */
@@ -907,7 +907,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTranche2SansSi()
+     * Test setCumTranche2SansSi()
      *
      * @return void
      */
@@ -920,7 +920,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTranche2Si()
+     * Test setCumTranche2Si()
      *
      * @return void
      */
@@ -933,7 +933,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrancheASansSi()
+     * Test setCumTrancheASansSi()
      *
      * @return void
      */
@@ -946,7 +946,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrancheAsi()
+     * Test setCumTrancheAsi()
      *
      * @return void
      */
@@ -959,7 +959,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrancheBSansSi()
+     * Test setCumTrancheBSansSi()
      *
      * @return void
      */
@@ -972,7 +972,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrancheBsi()
+     * Test setCumTrancheBsi()
      *
      * @return void
      */
@@ -985,7 +985,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrancheCSansSi()
+     * Test setCumTrancheCSansSi()
      *
      * @return void
      */
@@ -998,7 +998,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrancheCsi()
+     * Test setCumTrancheCsi()
      *
      * @return void
      */
@@ -1011,7 +1011,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrancheD1SansSi()
+     * Test setCumTrancheD1SansSi()
      *
      * @return void
      */
@@ -1024,7 +1024,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrancheDSansSi()
+     * Test setCumTrancheDSansSi()
      *
      * @return void
      */
@@ -1037,7 +1037,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmploye()
+     * Test setNumeroEmploye()
      *
      * @return void
      */
@@ -1050,7 +1050,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

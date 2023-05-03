@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LignesAtaTest extends AbstractTestCase {
 
     /**
-     * Tests setAvantagesEuroOuFranc()
+     * Test setAvantagesEuroOuFranc()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class LignesAtaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCsEuroOuFranc()
+     * Test setCsEuroOuFranc()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class LignesAtaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateEcheance()
+     * Test setDateEcheance()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class LignesAtaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFraisProSoumis()
+     * Test setFraisProSoumis()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class LignesAtaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFraisPsEuroOuFranc()
+     * Test setFraisPsEuroOuFranc()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class LignesAtaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndemnitesEuroOuFranc()
+     * Test setIndemnitesEuroOuFranc()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class LignesAtaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant()
+     * Test setMontant()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class LignesAtaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantAvantages()
+     * Test setMontantAvantages()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class LignesAtaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantCotis()
+     * Test setMontantCotis()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class LignesAtaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantEuroOuFranc()
+     * Test setMontantEuroOuFranc()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class LignesAtaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantIndemnites()
+     * Test setMontantIndemnites()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class LignesAtaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHTrav()
+     * Test setNbHTrav()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class LignesAtaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumLigne()
+     * Test setNumLigne()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class LignesAtaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroAttestation()
+     * Test setNumeroAttestation()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class LignesAtaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeDeb()
+     * Test setPeriodeDeb()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -228,7 +228,7 @@ class LignesAtaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeFin()
+     * Test setPeriodeFin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -245,7 +245,7 @@ class LignesAtaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxDedSup()
+     * Test setTauxDedSup()
      *
      * @return void
      */
@@ -258,7 +258,7 @@ class LignesAtaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

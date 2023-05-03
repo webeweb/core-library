@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class TranchesSiBulTest extends AbstractTestCase {
 
     /**
-     * Tests setBrutAlSansSi()
+     * Test setBrutAlSansSi()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class TranchesSiBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBrutAlSansSi()
+     * Test setCumBrutAlSansSi()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class TranchesSiBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTotSi()
+     * Test setCumTotSi()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class TranchesSiBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTranche2SansSi()
+     * Test setCumTranche2SansSi()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class TranchesSiBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTranche2Si()
+     * Test setCumTranche2Si()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class TranchesSiBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrancheASansSi()
+     * Test setCumTrancheASansSi()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class TranchesSiBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrancheAsi()
+     * Test setCumTrancheAsi()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class TranchesSiBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrancheBSansSi()
+     * Test setCumTrancheBSansSi()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class TranchesSiBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrancheBsi()
+     * Test setCumTrancheBsi()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class TranchesSiBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrancheCSansSi()
+     * Test setCumTrancheCSansSi()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class TranchesSiBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrancheCsi()
+     * Test setCumTrancheCsi()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class TranchesSiBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrancheD1SansSi()
+     * Test setCumTrancheD1SansSi()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class TranchesSiBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrancheDSansSi()
+     * Test setCumTrancheDSansSi()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class TranchesSiBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndicePeriode()
+     * Test setIndicePeriode()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class TranchesSiBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmploye()
+     * Test setNumeroEmploye()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class TranchesSiBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -237,7 +237,7 @@ class TranchesSiBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTotSi()
+     * Test setTotSi()
      *
      * @return void
      */
@@ -250,7 +250,7 @@ class TranchesSiBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTranche2SansSi()
+     * Test setTranche2SansSi()
      *
      * @return void
      */
@@ -263,7 +263,7 @@ class TranchesSiBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTranche2Si()
+     * Test setTranche2Si()
      *
      * @return void
      */
@@ -276,7 +276,7 @@ class TranchesSiBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrancheASansSi()
+     * Test setTrancheASansSi()
      *
      * @return void
      */
@@ -289,7 +289,7 @@ class TranchesSiBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrancheAsi()
+     * Test setTrancheAsi()
      *
      * @return void
      */
@@ -302,7 +302,7 @@ class TranchesSiBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrancheBSansSi()
+     * Test setTrancheBSansSi()
      *
      * @return void
      */
@@ -315,7 +315,7 @@ class TranchesSiBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrancheBsi()
+     * Test setTrancheBsi()
      *
      * @return void
      */
@@ -328,7 +328,7 @@ class TranchesSiBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrancheCSansSi()
+     * Test setTrancheCSansSi()
      *
      * @return void
      */
@@ -341,7 +341,7 @@ class TranchesSiBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrancheCsi()
+     * Test setTrancheCsi()
      *
      * @return void
      */
@@ -354,7 +354,7 @@ class TranchesSiBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrancheD1SansSi()
+     * Test setTrancheD1SansSi()
      *
      * @return void
      */
@@ -367,7 +367,7 @@ class TranchesSiBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrancheDSansSi()
+     * Test setTrancheDSansSi()
      *
      * @return void
      */
@@ -380,7 +380,7 @@ class TranchesSiBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LignesDucsAnnuelleTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeAt()
+     * Test setCodeAt()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCentre()
+     * Test setCodeCentre()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeDucs()
+     * Test setCodeDucs()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEtablissement()
+     * Test setCodeEtablissement()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeInsee()
+     * Test setCodeInsee()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeLibelle()
+     * Test setCodeLibelle()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setConditionSpec()
+     * Test setConditionSpec()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateApplication()
+     * Test setDateApplication()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -133,7 +133,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExclureFusion()
+     * Test setExclureFusion()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIdInstitution()
+     * Test setIdInstitution()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntitule()
+     * Test setIntitule()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIsTaux()
+     * Test setIsTaux()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMarque()
+     * Test setMarque()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant()
+     * Test setMontant()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtPatronal()
+     * Test setMtPatronal()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtSalarial()
+     * Test setMtSalarial()
      *
      * @return void
      */
@@ -237,7 +237,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbCot()
+     * Test setNbCot()
      *
      * @return void
      */
@@ -250,7 +250,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbPatronal()
+     * Test setNbPatronal()
      *
      * @return void
      */
@@ -263,7 +263,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbSalarial()
+     * Test setNbSalarial()
      *
      * @return void
      */
@@ -276,7 +276,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOrganisme()
+     * Test setOrganisme()
      *
      * @return void
      */
@@ -289,7 +289,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeDecla()
+     * Test setPeriodeDecla()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -306,7 +306,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQualifiantCotis()
+     * Test setQualifiantCotis()
      *
      * @return void
      */
@@ -319,7 +319,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSommeBase()
+     * Test setSommeBase()
      *
      * @return void
      */
@@ -332,7 +332,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxAt()
+     * Test setTauxAt()
      *
      * @return void
      */
@@ -345,7 +345,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxPatronal()
+     * Test setTauxPatronal()
      *
      * @return void
      */
@@ -358,7 +358,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxSalarial()
+     * Test setTauxSalarial()
      *
      * @return void
      */
@@ -371,7 +371,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeBaseUnique()
+     * Test setTypeBaseUnique()
      *
      * @return void
      */
@@ -384,7 +384,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

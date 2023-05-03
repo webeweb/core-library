@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringFormatTrait;
 class StringFormatTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setFormat()
+     * Test setFormat()
      *
      * @return void
      */

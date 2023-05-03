@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class TarifsTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeArticle()
+     * Test setCodeArticle()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantier()
+     * Test setCodeChantier()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeColCreation()
+     * Test setCodeColCreation()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeColModification()
+     * Test setCodeColModification()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCoeffTr1()
+     * Test setCoeffTr1()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCoeffTr2()
+     * Test setCoeffTr2()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCoeffTr3()
+     * Test setCoeffTr3()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCoeffTr4()
+     * Test setCoeffTr4()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCoeffTr5()
+     * Test setCoeffTr5()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateCreation()
+     * Test setDateCreation()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -185,7 +185,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDebut()
+     * Test setDateDebut()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -202,7 +202,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFin()
+     * Test setDateFin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -219,7 +219,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateModification()
+     * Test setDateModification()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -236,7 +236,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFamArticle()
+     * Test setFamArticle()
      *
      * @return void
      */
@@ -249,7 +249,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFamClient()
+     * Test setFamClient()
      *
      * @return void
      */
@@ -262,7 +262,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrixNetTr1()
+     * Test setPrixNetTr1()
      *
      * @return void
      */
@@ -275,7 +275,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrixNetTr2()
+     * Test setPrixNetTr2()
      *
      * @return void
      */
@@ -288,7 +288,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrixNetTr3()
+     * Test setPrixNetTr3()
      *
      * @return void
      */
@@ -301,7 +301,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrixNetTr4()
+     * Test setPrixNetTr4()
      *
      * @return void
      */
@@ -314,7 +314,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrixNetTr5()
+     * Test setPrixNetTr5()
      *
      * @return void
      */
@@ -327,7 +327,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPuArticle()
+     * Test setPuArticle()
      *
      * @return void
      */
@@ -340,7 +340,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPuBase()
+     * Test setPuBase()
      *
      * @return void
      */
@@ -353,7 +353,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPuTr1()
+     * Test setPuTr1()
      *
      * @return void
      */
@@ -366,7 +366,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPuTr2()
+     * Test setPuTr2()
      *
      * @return void
      */
@@ -379,7 +379,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPuTr3()
+     * Test setPuTr3()
      *
      * @return void
      */
@@ -392,7 +392,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPuTr4()
+     * Test setPuTr4()
      *
      * @return void
      */
@@ -405,7 +405,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPuTr5()
+     * Test setPuTr5()
      *
      * @return void
      */
@@ -418,7 +418,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQteTr1()
+     * Test setQteTr1()
      *
      * @return void
      */
@@ -431,7 +431,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQteTr2()
+     * Test setQteTr2()
      *
      * @return void
      */
@@ -444,7 +444,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQteTr3()
+     * Test setQteTr3()
      *
      * @return void
      */
@@ -457,7 +457,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQteTr4()
+     * Test setQteTr4()
      *
      * @return void
      */
@@ -470,7 +470,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQteTr5()
+     * Test setQteTr5()
      *
      * @return void
      */
@@ -483,7 +483,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSousFamClient()
+     * Test setSousFamClient()
      *
      * @return void
      */
@@ -496,7 +496,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeAppliCoef()
+     * Test setTypeAppliCoef()
      *
      * @return void
      */
@@ -509,7 +509,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeArticle()
+     * Test setTypeArticle()
      *
      * @return void
      */
@@ -522,7 +522,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

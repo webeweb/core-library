@@ -25,7 +25,7 @@ use WBW\Library\Symfony\Tests\AbstractTestCase;
 class DefaultJsonResponseDataTest extends AbstractTestCase {
 
     /**
-     * Tests jsonSerialize()
+     * Test jsonSerialize()
      *
      * @return void
      */
@@ -48,7 +48,7 @@ class DefaultJsonResponseDataTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSuccess()
+     * Test setSuccess()
      *
      * @return void
      */
@@ -61,7 +61,7 @@ class DefaultJsonResponseDataTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

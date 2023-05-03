@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ClientsDouteuxTest extends AbstractTestCase {
 
     /**
-     * Tests setDateDoute()
+     * Test setDateDoute()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -42,7 +42,7 @@ class ClientsDouteuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMention()
+     * Test setMention()
      *
      * @return void
      */
@@ -55,7 +55,7 @@ class ClientsDouteuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtCreanceBaseHt()
+     * Test setMtCreanceBaseHt()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class ClientsDouteuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtCreanceTtcDebExo()
+     * Test setMtCreanceTtcDebExo()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class ClientsDouteuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtCreanceTtcDevDoutExo()
+     * Test setMtCreanceTtcDevDoutExo()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class ClientsDouteuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtCreanceTtcIrrecExo()
+     * Test setMtCreanceTtcIrrecExo()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class ClientsDouteuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtCreanceTtcReglExo()
+     * Test setMtCreanceTtcReglExo()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class ClientsDouteuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtProvisionDebExo()
+     * Test setMtProvisionDebExo()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class ClientsDouteuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtProvisionDotExo()
+     * Test setMtProvisionDotExo()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class ClientsDouteuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtRepProvisionIrrec()
+     * Test setMtRepProvisionIrrec()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class ClientsDouteuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtRepProvisionRegl()
+     * Test setMtRepProvisionRegl()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class ClientsDouteuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroCompte()
+     * Test setNumeroCompte()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class ClientsDouteuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setObservations()
+     * Test setObservations()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class ClientsDouteuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRefImage()
+     * Test setRefImage()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class ClientsDouteuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxDouteDebExo()
+     * Test setTauxDouteDebExo()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class ClientsDouteuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxDouteExo()
+     * Test setTauxDouteExo()
      *
      * @return void
      */
@@ -237,7 +237,7 @@ class ClientsDouteuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTxTvaCreance()
+     * Test setTxTvaCreance()
      *
      * @return void
      */
@@ -250,7 +250,7 @@ class ClientsDouteuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTxTvaCreanceForce()
+     * Test setTxTvaCreanceForce()
      *
      * @return void
      */
@@ -263,7 +263,7 @@ class ClientsDouteuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

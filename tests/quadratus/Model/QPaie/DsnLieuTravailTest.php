@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DsnLieuTravailTest extends AbstractTestCase {
 
     /**
-     * Tests setBtq()
+     * Test setBtq()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class DsnLieuTravailTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBureauDistributeur()
+     * Test setBureauDistributeur()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class DsnLieuTravailTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeDistribution()
+     * Test setCodeDistribution()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class DsnLieuTravailTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeInsee()
+     * Test setCodeInsee()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class DsnLieuTravailTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeNaf()
+     * Test setCodeNaf()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class DsnLieuTravailTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePays()
+     * Test setCodePays()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class DsnLieuTravailTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePostal()
+     * Test setCodePostal()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class DsnLieuTravailTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setComplement()
+     * Test setComplement()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class DsnLieuTravailTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setComplementVoie()
+     * Test setComplementVoie()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class DsnLieuTravailTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setId()
+     * Test setId()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class DsnLieuTravailTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNatureJuridique()
+     * Test setNatureJuridique()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class DsnLieuTravailTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomVoie()
+     * Test setNomVoie()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class DsnLieuTravailTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumVoie()
+     * Test setNumVoie()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class DsnLieuTravailTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRaisonSociale()
+     * Test setRaisonSociale()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class DsnLieuTravailTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

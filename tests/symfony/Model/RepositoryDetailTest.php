@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Tests\AbstractTestCase;
 class RepositoryDetailTest extends AbstractTestCase {
 
     /**
-     * Tests getAveragePercent()
+     * Test getAveragePercent()
      *
      * @return void
      */
@@ -52,7 +52,7 @@ class RepositoryDetailTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAvailable()
+     * Test setAvailable()
      *
      * @return void
      */
@@ -65,7 +65,7 @@ class RepositoryDetailTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setColumn()
+     * Test setColumn()
      *
      * @return void
      */
@@ -78,7 +78,7 @@ class RepositoryDetailTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setField()
+     * Test setField()
      *
      * @return void
      */
@@ -91,7 +91,7 @@ class RepositoryDetailTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringSaltTrait;
 class StringSaltTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setSalt()
+     * Test setSalt()
      *
      * @return void
      */

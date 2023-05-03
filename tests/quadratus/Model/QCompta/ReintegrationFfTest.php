@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ReintegrationFfTest extends AbstractTestCase {
 
     /**
-     * Tests setDate()
+     * Test setDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -42,7 +42,7 @@ class ReintegrationFfTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIdTableau()
+     * Test setIdTableau()
      *
      * @return void
      */
@@ -55,7 +55,7 @@ class ReintegrationFfTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMttApports()
+     * Test setMttApports()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class ReintegrationFfTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMttEmprunts()
+     * Test setMttEmprunts()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class ReintegrationFfTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMttPrelev()
+     * Test setMttPrelev()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class ReintegrationFfTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMttTreso()
+     * Test setMttTreso()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class ReintegrationFfTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

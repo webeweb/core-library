@@ -28,7 +28,7 @@ use WBW\Library\Symfony\Tests\AbstractTestCase;
 class RepositoryEventTest extends AbstractTestCase {
 
     /**
-     * Tests jsonSerialize()
+     * Test jsonSerialize()
      *
      * @return void
      */
@@ -60,7 +60,7 @@ class RepositoryEventTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEntityData()
+     * Test setEntityData()
      *
      * @return void
      */
@@ -73,7 +73,7 @@ class RepositoryEventTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEntityId()
+     * Test setEntityId()
      *
      * @return void
      */
@@ -86,7 +86,7 @@ class RepositoryEventTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRequestDataGet()
+     * Test setRequestDataGet()
      *
      * @return void
      */
@@ -99,7 +99,7 @@ class RepositoryEventTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRequestDataPost()
+     * Test setRequestDataPost()
      *
      * @return void
      */
@@ -112,7 +112,7 @@ class RepositoryEventTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRequestMethod()
+     * Test setRequestMethod()
      *
      * @return void
      */
@@ -125,7 +125,7 @@ class RepositoryEventTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRequestRoute()
+     * Test setRequestRoute()
      *
      * @return void
      */
@@ -138,7 +138,7 @@ class RepositoryEventTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRequestUrl()
+     * Test setRequestUrl()
      *
      * @return void
      */
@@ -151,7 +151,7 @@ class RepositoryEventTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

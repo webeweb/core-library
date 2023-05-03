@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EmployesPointagesTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeCollaboValid()
+     * Test setCodeCollaboValid()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class EmployesPointagesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaborateur()
+     * Test setCodeCollaborateur()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class EmployesPointagesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEmploye()
+     * Test setCodeEmploye()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class EmployesPointagesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateValidationSynchro()
+     * Test setDateValidationSynchro()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class EmployesPointagesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtat()
+     * Test setEtat()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class EmployesPointagesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodePointageCloturee()
+     * Test setPeriodePointageCloturee()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -111,7 +111,7 @@ class EmployesPointagesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodePrevisionnelGeneree()
+     * Test setPeriodePrevisionnelGeneree()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -128,7 +128,7 @@ class EmployesPointagesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqIdSynchro()
+     * Test setUniqIdSynchro()
      *
      * @return void
      */
@@ -141,7 +141,7 @@ class EmployesPointagesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Theme\DefaultNotificationsDropdownThemeProvider;
 class DefaultNotificationsDropdownThemeProviderTest extends AbstractTestCase {
 
     /**
-     * Tests getNotifications()
+     * Test getNotifications()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class DefaultNotificationsDropdownThemeProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

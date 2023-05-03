@@ -25,7 +25,7 @@ use WBW\Library\Curl\Tests\AbstractTestCase;
 class DeleteRequestTest extends AbstractTestCase {
 
     /**
-     * Tests call() method.
+     * Test call() method.
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -44,7 +44,7 @@ class DeleteRequestTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct() method.
+     * Test __construct() method.
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.

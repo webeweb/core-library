@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class RepartitionActiviteBulHoraireTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeService()
+     * Test setCodeService()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class RepartitionActiviteBulHoraireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndicePeriode()
+     * Test setIndicePeriode()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class RepartitionActiviteBulHoraireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setInterimaire()
+     * Test setInterimaire()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class RepartitionActiviteBulHoraireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHeures()
+     * Test setNbHeures()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class RepartitionActiviteBulHoraireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmploye()
+     * Test setNumeroEmploye()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class RepartitionActiviteBulHoraireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -107,7 +107,7 @@ class RepartitionActiviteBulHoraireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

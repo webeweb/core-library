@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class PointeuseTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeCollab()
+     * Test setCodeCollab()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class PointeuseTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateHeureSysteme()
+     * Test setDateHeureSysteme()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -55,7 +55,7 @@ class PointeuseTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtat()
+     * Test setEtat()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class PointeuseTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIdPointeuse()
+     * Test setIdPointeuse()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class PointeuseTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

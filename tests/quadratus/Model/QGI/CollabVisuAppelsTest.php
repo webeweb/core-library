@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class CollabVisuAppelsTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeCollab()
+     * Test setCodeCollab()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class CollabVisuAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollabVisu()
+     * Test setCodeCollabVisu()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class CollabVisuAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeCode()
+     * Test setTypeCode()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class CollabVisuAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

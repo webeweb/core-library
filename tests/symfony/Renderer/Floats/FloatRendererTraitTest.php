@@ -23,7 +23,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Renderer\Floats\TestFloatRendererTrait;
 class FloatRendererTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the renderFloat() methods.
+     * Test renderFloat() methods.
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class FloatRendererTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the renderPercent() methods.
+     * Test renderPercent() methods.
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class FloatRendererTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the renderPrice() methods.
+     * Test renderPrice() methods.
      *
      * @return void
      */

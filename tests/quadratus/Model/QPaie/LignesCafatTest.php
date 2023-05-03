@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LignesCafatTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeCommune()
+     * Test setCodeCommune()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class LignesCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEtablissement()
+     * Test setCodeEtablissement()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class LignesCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDebauchage()
+     * Test setDateDebauchage()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class LignesCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateEmbauchage()
+     * Test setDateEmbauchage()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -85,7 +85,7 @@ class LignesCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHTrav()
+     * Test setNbHTrav()
      *
      * @return void
      */
@@ -98,7 +98,7 @@ class LignesCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoEt()
+     * Test setNoEt()
      *
      * @return void
      */
@@ -111,7 +111,7 @@ class LignesCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomEmploye()
+     * Test setNomEmploye()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class LignesCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumLigne()
+     * Test setNumLigne()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class LignesCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroAssure()
+     * Test setNumeroAssure()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class LignesCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmploye()
+     * Test setNumeroEmploye()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class LignesCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOrganisme()
+     * Test setOrganisme()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class LignesCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeDecla()
+     * Test setPeriodeDecla()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -193,7 +193,7 @@ class LignesCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSalaireBrut()
+     * Test setSalaireBrut()
      *
      * @return void
      */
@@ -206,7 +206,7 @@ class LignesCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxAt()
+     * Test setTauxAt()
      *
      * @return void
      */
@@ -219,7 +219,7 @@ class LignesCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

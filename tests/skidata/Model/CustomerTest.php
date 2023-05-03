@@ -25,7 +25,7 @@ use WBW\Library\SkiData\Tests\AbstractTestCase;
 class CustomerTest extends AbstractTestCase {
 
     /**
-     * Tests setAccountingNumber()
+     * Test setAccountingNumber()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class CustomerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBeginDate()
+     * Test setBeginDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -52,7 +52,7 @@ class CustomerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCity()
+     * Test setCity()
      *
      * @return void
      */
@@ -65,7 +65,7 @@ class CustomerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCountingNeutralCards()
+     * Test setCountingNeutralCards()
      *
      * @return void
      */
@@ -78,7 +78,7 @@ class CustomerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCountry()
+     * Test setCountry()
      *
      * @return void
      */
@@ -91,7 +91,7 @@ class CustomerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDeposit()
+     * Test setDeposit()
      *
      * @return void
      */
@@ -104,7 +104,7 @@ class CustomerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEntryMaxLevelAllowed()
+     * Test setEntryMaxLevelAllowed()
      *
      * @return void
      */
@@ -117,7 +117,7 @@ class CustomerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIdDocumentNo()
+     * Test setIdDocumentNo()
      *
      * @return void
      */
@@ -130,7 +130,7 @@ class CustomerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMaxLevelCarPark()
+     * Test setMaxLevelCarPark()
      *
      * @return void
      */
@@ -143,7 +143,7 @@ class CustomerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMaximumLevel()
+     * Test setMaximumLevel()
      *
      * @return void
      */
@@ -156,7 +156,7 @@ class CustomerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNationality()
+     * Test setNationality()
      *
      * @return void
      */
@@ -169,7 +169,7 @@ class CustomerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPCode()
+     * Test setPCode()
      *
      * @return void
      */
@@ -182,7 +182,7 @@ class CustomerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRentalAgreementNo()
+     * Test setRentalAgreementNo()
      *
      * @return void
      */
@@ -195,7 +195,7 @@ class CustomerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setStreet()
+     * Test setStreet()
      *
      * @return void
      */
@@ -208,7 +208,7 @@ class CustomerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTaxCode()
+     * Test setTaxCode()
      *
      * @return void
      */
@@ -221,7 +221,7 @@ class CustomerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTelephone()
+     * Test setTelephone()
      *
      * @return void
      */
@@ -234,7 +234,7 @@ class CustomerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTerminationDate()
+     * Test setTerminationDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -248,7 +248,7 @@ class CustomerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTicketReturnAllowed()
+     * Test setTicketReturnAllowed()
      *
      * @return void
      */
@@ -261,7 +261,7 @@ class CustomerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

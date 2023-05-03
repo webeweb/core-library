@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DadsuPrevTest extends AbstractTestCase {
 
     /**
-     * Tests setBasePrev()
+     * Test setBasePrev()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class DadsuPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEtablissement()
+     * Test setCodeEtablissement()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class DadsuPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeOrganisme()
+     * Test setCodeOrganisme()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class DadsuPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeOrganismeGestionnaire()
+     * Test setCodeOrganismeGestionnaire()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class DadsuPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePopul()
+     * Test setCodePopul()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class DadsuPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTypePrev()
+     * Test setCodeTypePrev()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class DadsuPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDebutPeriode()
+     * Test setDebutPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class DadsuPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEvenContrat()
+     * Test setEvenContrat()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class DadsuPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFinPeriode()
+     * Test setFinPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -150,7 +150,7 @@ class DadsuPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIdInstitution()
+     * Test setIdInstitution()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class DadsuPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndiceDadsu()
+     * Test setIndiceDadsu()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class DadsuPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoAffiliation()
+     * Test setNoAffiliation()
      *
      * @return void
      */
@@ -189,7 +189,7 @@ class DadsuPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumero()
+     * Test setNumero()
      *
      * @return void
      */
@@ -202,7 +202,7 @@ class DadsuPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroOrdre()
+     * Test setNumeroOrdre()
      *
      * @return void
      */
@@ -215,7 +215,7 @@ class DadsuPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

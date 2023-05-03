@@ -23,7 +23,7 @@ use WBW\Library\Types\Tests\AbstractTestCase;
 class DateArgumentExceptionTest extends AbstractTestCase {
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

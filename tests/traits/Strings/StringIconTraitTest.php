@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringIconTrait;
 class StringIconTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setIcon()
+     * Test setIcon()
      *
      * @return void
      */

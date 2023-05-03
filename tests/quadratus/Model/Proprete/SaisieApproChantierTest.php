@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class SaisieApproChantierTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class SaisieApproChantierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantier()
+     * Test setCodeChantier()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class SaisieApproChantierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class SaisieApproChantierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class SaisieApproChantierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPret()
+     * Test setPret()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class SaisieApproChantierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

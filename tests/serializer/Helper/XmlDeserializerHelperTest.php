@@ -47,7 +47,7 @@ class XmlDeserializerHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests getChildDomNodeAttribute()
+     * Test getChildDomNodeAttribute()
      *
      * @return void
      */
@@ -58,7 +58,7 @@ class XmlDeserializerHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests getDomNodeAttributeValue()
+     * Test getDomNodeAttributeValue()
      *
      * @return void
      */
@@ -69,7 +69,7 @@ class XmlDeserializerHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests getDomNodeByName()
+     * Test getDomNodeByName()
      *
      * @return void
      */
@@ -80,7 +80,7 @@ class XmlDeserializerHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests getDomNodesByName()
+     * Test getDomNodesByName()
      *
      * @return void
      */
@@ -91,7 +91,7 @@ class XmlDeserializerHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests log()
+     * Test log()
      *
      * @return void
      */
@@ -102,7 +102,7 @@ class XmlDeserializerHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests log()
+     * Test log()
      *
      * @return void
      */

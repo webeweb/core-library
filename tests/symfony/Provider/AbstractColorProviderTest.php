@@ -25,7 +25,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Provider\TestColorProvider;
 class AbstractColorProviderTest extends AbstractTestCase {
 
     /**
-     * Tests jsonSerialize()
+     * Test jsonSerialize()
      *
      * @return void
      */
@@ -44,7 +44,7 @@ class AbstractColorProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

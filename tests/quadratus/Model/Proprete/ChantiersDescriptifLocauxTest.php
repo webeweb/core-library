@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ChantiersDescriptifLocauxTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class ChantiersDescriptifLocauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantier()
+     * Test setCodeChantier()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class ChantiersDescriptifLocauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class ChantiersDescriptifLocauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaborateur()
+     * Test setCodeCollaborateur()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class ChantiersDescriptifLocauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCritere1()
+     * Test setCodeCritere1()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class ChantiersDescriptifLocauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCoefficient()
+     * Test setCoefficient()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class ChantiersDescriptifLocauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateTransfert()
+     * Test setDateTransfert()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class ChantiersDescriptifLocauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFamilleElements()
+     * Test setFamilleElements()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class ChantiersDescriptifLocauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class ChantiersDescriptifLocauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelleCritere1()
+     * Test setLibelleCritere1()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class ChantiersDescriptifLocauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNiveauNoeud()
+     * Test setNiveauNoeud()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class ChantiersDescriptifLocauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoeudLocal()
+     * Test setNoeudLocal()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class ChantiersDescriptifLocauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoteObjectif()
+     * Test setNoteObjectif()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class ChantiersDescriptifLocauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroNoeud()
+     * Test setNumeroNoeud()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class ChantiersDescriptifLocauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPoste()
+     * Test setPoste()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class ChantiersDescriptifLocauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqIdBlocage()
+     * Test setUniqIdBlocage()
      *
      * @return void
      */
@@ -237,7 +237,7 @@ class ChantiersDescriptifLocauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqIdNoeud()
+     * Test setUniqIdNoeud()
      *
      * @return void
      */
@@ -250,7 +250,7 @@ class ChantiersDescriptifLocauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

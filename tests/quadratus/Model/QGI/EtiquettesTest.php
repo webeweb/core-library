@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EtiquettesTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeArticle()
+     * Test setCodeArticle()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeBarre()
+     * Test setCodeBarre()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCliFour()
+     * Test setCodeCliFour()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeModele()
+     * Test setCodeModele()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtiqPlus()
+     * Test setEtiqPlus()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setImprimante()
+     * Test setImprimante()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrixVente()
+     * Test setPrixVente()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setType()
+     * Test setType()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZone1()
+     * Test setZone1()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZone10()
+     * Test setZone10()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZone11()
+     * Test setZone11()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZone12()
+     * Test setZone12()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZone13()
+     * Test setZone13()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZone14()
+     * Test setZone14()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZone15()
+     * Test setZone15()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZone2()
+     * Test setZone2()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZone3()
+     * Test setZone3()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZone4()
+     * Test setZone4()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZone5()
+     * Test setZone5()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZone6()
+     * Test setZone6()
      *
      * @return void
      */
@@ -283,7 +283,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZone7()
+     * Test setZone7()
      *
      * @return void
      */
@@ -296,7 +296,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZone8()
+     * Test setZone8()
      *
      * @return void
      */
@@ -309,7 +309,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZone9()
+     * Test setZone9()
      *
      * @return void
      */
@@ -322,7 +322,7 @@ class EtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

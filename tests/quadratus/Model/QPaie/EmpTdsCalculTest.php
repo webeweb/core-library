@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EmpTdsCalculTest extends AbstractTestCase {
 
     /**
-     * Tests setBaseCalcTds142()
+     * Test setBaseCalcTds142()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAtPer()
+     * Test setCodeAtPer()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEtablissement()
+     * Test setCodeEtablissement()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumNetImpos()
+     * Test setCumNetImpos()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDebutPeriodeDecl()
+     * Test setDebutPeriodeDecl()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -94,7 +94,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDernierePeriodeAnnee()
+     * Test setDernierePeriodeAnnee()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFinPeriodeDecl()
+     * Test setFinPeriodeDecl()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -124,7 +124,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndemnImpat()
+     * Test setIndemnImpat()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantHSupComplExo()
+     * Test setMontantHSupComplExo()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHeureSal()
+     * Test setNbHeureSal()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHeureTrav()
+     * Test setNbHeureTrav()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbPerPaie()
+     * Test setNbPerPaie()
      *
      * @return void
      */
@@ -189,7 +189,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumero()
+     * Test setNumero()
      *
      * @return void
      */
@@ -202,7 +202,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroOrdre()
+     * Test setNumeroOrdre()
      *
      * @return void
      */
@@ -215,7 +215,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setParticipServPers()
+     * Test setParticipServPers()
      *
      * @return void
      */
@@ -228,7 +228,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPremierePeriodeAnnee()
+     * Test setPremierePeriodeAnnee()
      *
      * @return void
      */
@@ -241,7 +241,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds100()
+     * Test setTds100()
      *
      * @return void
      */
@@ -254,7 +254,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds102()
+     * Test setTds102()
      *
      * @return void
      */
@@ -267,7 +267,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds103()
+     * Test setTds103()
      *
      * @return void
      */
@@ -280,7 +280,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds105()
+     * Test setTds105()
      *
      * @return void
      */
@@ -293,7 +293,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds107()
+     * Test setTds107()
      *
      * @return void
      */
@@ -306,7 +306,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds108()
+     * Test setTds108()
      *
      * @return void
      */
@@ -319,7 +319,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds109()
+     * Test setTds109()
      *
      * @return void
      */
@@ -332,7 +332,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds110()
+     * Test setTds110()
      *
      * @return void
      */
@@ -345,7 +345,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds111()
+     * Test setTds111()
      *
      * @return void
      */
@@ -358,7 +358,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds112()
+     * Test setTds112()
      *
      * @return void
      */
@@ -371,7 +371,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds113()
+     * Test setTds113()
      *
      * @return void
      */
@@ -384,7 +384,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds117()
+     * Test setTds117()
      *
      * @return void
      */
@@ -397,7 +397,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds119()
+     * Test setTds119()
      *
      * @return void
      */
@@ -410,7 +410,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds120()
+     * Test setTds120()
      *
      * @return void
      */
@@ -423,7 +423,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds121()
+     * Test setTds121()
      *
      * @return void
      */
@@ -436,7 +436,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds122()
+     * Test setTds122()
      *
      * @return void
      */
@@ -449,7 +449,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds125()
+     * Test setTds125()
      *
      * @return void
      */
@@ -462,7 +462,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds127()
+     * Test setTds127()
      *
      * @return void
      */
@@ -475,7 +475,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds128()
+     * Test setTds128()
      *
      * @return void
      */
@@ -488,7 +488,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds132()
+     * Test setTds132()
      *
      * @return void
      */
@@ -501,7 +501,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds133()
+     * Test setTds133()
      *
      * @return void
      */
@@ -514,7 +514,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds134()
+     * Test setTds134()
      *
      * @return void
      */
@@ -527,7 +527,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds135()
+     * Test setTds135()
      *
      * @return void
      */
@@ -540,7 +540,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds136()
+     * Test setTds136()
      *
      * @return void
      */
@@ -553,7 +553,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds137()
+     * Test setTds137()
      *
      * @return void
      */
@@ -566,7 +566,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds139()
+     * Test setTds139()
      *
      * @return void
      */
@@ -579,7 +579,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds141()
+     * Test setTds141()
      *
      * @return void
      */
@@ -592,7 +592,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds142()
+     * Test setTds142()
      *
      * @return void
      */
@@ -605,7 +605,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds142DejaCalcule()
+     * Test setTds142DejaCalcule()
      *
      * @return void
      */
@@ -618,7 +618,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds75()
+     * Test setTds75()
      *
      * @return void
      */
@@ -631,7 +631,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds77()
+     * Test setTds77()
      *
      * @return void
      */
@@ -644,7 +644,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds78()
+     * Test setTds78()
      *
      * @return void
      */
@@ -657,7 +657,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds81()
+     * Test setTds81()
      *
      * @return void
      */
@@ -670,7 +670,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds82()
+     * Test setTds82()
      *
      * @return void
      */
@@ -683,7 +683,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds84()
+     * Test setTds84()
      *
      * @return void
      */
@@ -696,7 +696,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds85()
+     * Test setTds85()
      *
      * @return void
      */
@@ -709,7 +709,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds86()
+     * Test setTds86()
      *
      * @return void
      */
@@ -722,7 +722,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds87()
+     * Test setTds87()
      *
      * @return void
      */
@@ -735,7 +735,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds88()
+     * Test setTds88()
      *
      * @return void
      */
@@ -748,7 +748,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds89()
+     * Test setTds89()
      *
      * @return void
      */
@@ -761,7 +761,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds90()
+     * Test setTds90()
      *
      * @return void
      */
@@ -774,7 +774,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds91()
+     * Test setTds91()
      *
      * @return void
      */
@@ -787,7 +787,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds92()
+     * Test setTds92()
      *
      * @return void
      */
@@ -800,7 +800,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds93()
+     * Test setTds93()
      *
      * @return void
      */
@@ -813,7 +813,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds94()
+     * Test setTds94()
      *
      * @return void
      */
@@ -826,7 +826,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds95()
+     * Test setTds95()
      *
      * @return void
      */
@@ -839,7 +839,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTdsAbattFraisPro()
+     * Test setTdsAbattFraisPro()
      *
      * @return void
      */
@@ -852,7 +852,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTdsAllocChom()
+     * Test setTdsAllocChom()
      *
      * @return void
      */
@@ -865,7 +865,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTdsAllocComplIjss()
+     * Test setTdsAllocComplIjss()
      *
      * @return void
      */
@@ -878,7 +878,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTdsAllocRetraite()
+     * Test setTdsAllocRetraite()
      *
      * @return void
      */
@@ -891,7 +891,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTdsContribCeChequesVac()
+     * Test setTdsContribCeChequesVac()
      *
      * @return void
      */
@@ -904,7 +904,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTdsCumulN()
+     * Test setTdsCumulN()
      *
      * @return void
      */
@@ -917,7 +917,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTdsFlagRaz()
+     * Test setTdsFlagRaz()
      *
      * @return void
      */
@@ -930,7 +930,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTdsIndemnDepartRetraite()
+     * Test setTdsIndemnDepartRetraite()
      *
      * @return void
      */
@@ -943,7 +943,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTdsIndemnImposables()
+     * Test setTdsIndemnImposables()
      *
      * @return void
      */
@@ -956,7 +956,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTdsRembFraisPro()
+     * Test setTdsRembFraisPro()
      *
      * @return void
      */
@@ -969,7 +969,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTdsSommeExoTaxeSal()
+     * Test setTdsSommeExoTaxeSal()
      *
      * @return void
      */
@@ -982,7 +982,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTdsSup120()
+     * Test setTdsSup120()
      *
      * @return void
      */
@@ -995,7 +995,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTdsSup1200()
+     * Test setTdsSup1200()
      *
      * @return void
      */
@@ -1008,7 +1008,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTotalPlaf()
+     * Test setTotalPlaf()
      *
      * @return void
      */
@@ -1021,7 +1021,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

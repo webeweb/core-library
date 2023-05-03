@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringTooltipTrait;
 class StringTooltipTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setTooltip()
+     * Test setTooltip()
      *
      * @return void
      */

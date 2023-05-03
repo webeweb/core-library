@@ -98,7 +98,7 @@ class DateTimeHelper {
     }
 
     /**
-     * Compares two date/times.
+     * Compare two date/times.
      *
      * @param DateTime $a The date/time A.
      * @param DateTime $b The date/time B.
@@ -122,7 +122,7 @@ class DateTimeHelper {
     }
 
     /**
-     * Compares two date/time zones.
+     * Compare two date/time zones.
      *
      * @param DateTime $a The date/time A.
      * @param DateTime $b The date/time B.
@@ -136,7 +136,7 @@ class DateTimeHelper {
     }
 
     /**
-     * Determines if two date/time are equals.
+     * Determine if two date/time are equals.
      *
      * @param DateTime $a The date/time A.
      * @param DateTime $b The date/time B.
@@ -328,7 +328,7 @@ class DateTimeHelper {
     }
 
     /**
-     * Determines if a date/time is between date/time A and date/time B.
+     * Determine if a date/time is between date/time A and date/time B.
      *
      * @param DateTime $dateTime The date/time.
      * @param DateTime $a The date/time A.
@@ -347,11 +347,11 @@ class DateTimeHelper {
     }
 
     /**
-     * Determines if a value is a date.
+     * Determine if a value is a date.
      *
      * @param mixed $value The value.
      * @return void
-     * @throws DateArgumentException Throws a Date argument exception if the value is not of expected type.
+     * @throws DateArgumentException Throws a date argument exception if the value is not of expected type.
      */
     public static function isDate($value): void {
         if (false === strtotime($value)) {
@@ -360,7 +360,7 @@ class DateTimeHelper {
     }
 
     /**
-     * Determines if date/time A is greater than date/time B.
+     * Determine if date/time A is greater than date/time B.
      *
      * @param DateTime $a The date/time A.
      * @param DateTime $b The date/time B.
@@ -373,7 +373,7 @@ class DateTimeHelper {
     }
 
     /**
-     * Determines if date/time A is less than date/time B.
+     * Determine if date/time A is less than date/time B.
      *
      * @param DateTime $a The date/time A.
      * @param DateTime $b The date/time B.
@@ -386,7 +386,7 @@ class DateTimeHelper {
     }
 
     /**
-     * Determines if an offset is positive or zero.
+     * Determine if an offset is positive or zero.
      *
      * @param int $offset The offset.
      * @return void
@@ -470,7 +470,7 @@ class DateTimeHelper {
     }
 
     /**
-     * Converts a date/time.
+     * Convert a date/time.
      *
      * @param DateTime|null $dateTime The date/time.
      * @param string $format The format.
@@ -486,7 +486,7 @@ class DateTimeHelper {
     }
 
     /**
-     * Translates a weekday part.
+     * Translate a weekday part.
      *
      * @param string|null $date The date.
      * @param string $locale The locale.

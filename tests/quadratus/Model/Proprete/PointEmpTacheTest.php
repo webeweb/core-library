@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class PointEmpTacheTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class PointEmpTacheTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantier()
+     * Test setCodeChantier()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class PointEmpTacheTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class PointEmpTacheTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaboValid()
+     * Test setCodeCollaboValid()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class PointEmpTacheTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaborateur()
+     * Test setCodeCollaborateur()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class PointEmpTacheTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEmploye()
+     * Test setCodeEmploye()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class PointEmpTacheTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTache()
+     * Test setCodeTache()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class PointEmpTacheTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateValidationSynchro()
+     * Test setDateValidationSynchro()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -133,7 +133,7 @@ class PointEmpTacheTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtat()
+     * Test setEtat()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class PointEmpTacheTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHRemplMens()
+     * Test setHRemplMens()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class PointEmpTacheTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMensualisation()
+     * Test setMensualisation()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class PointEmpTacheTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtPrime1Chantier()
+     * Test setMtPrime1Chantier()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class PointEmpTacheTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtPrime2Chantier()
+     * Test setMtPrime2Chantier()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class PointEmpTacheTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtPrime3Chantier()
+     * Test setMtPrime3Chantier()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class PointEmpTacheTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHeures1Rs()
+     * Test setNbHeures1Rs()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class PointEmpTacheTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHeures1Tp()
+     * Test setNbHeures1Tp()
      *
      * @return void
      */
@@ -237,7 +237,7 @@ class PointEmpTacheTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHeures2Rs()
+     * Test setNbHeures2Rs()
      *
      * @return void
      */
@@ -250,7 +250,7 @@ class PointEmpTacheTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHeures2Tp()
+     * Test setNbHeures2Tp()
      *
      * @return void
      */
@@ -263,7 +263,7 @@ class PointEmpTacheTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbPaniers()
+     * Test setNbPaniers()
      *
      * @return void
      */
@@ -276,7 +276,7 @@ class PointEmpTacheTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumBt()
+     * Test setNumBt()
      *
      * @return void
      */
@@ -289,7 +289,7 @@ class PointEmpTacheTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -306,7 +306,7 @@ class PointEmpTacheTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTxHoraire1Rs()
+     * Test setTxHoraire1Rs()
      *
      * @return void
      */
@@ -319,7 +319,7 @@ class PointEmpTacheTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTxHoraire1Tp()
+     * Test setTxHoraire1Tp()
      *
      * @return void
      */
@@ -332,7 +332,7 @@ class PointEmpTacheTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTxHoraire2Rs()
+     * Test setTxHoraire2Rs()
      *
      * @return void
      */
@@ -345,7 +345,7 @@ class PointEmpTacheTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTxHoraire2Tp()
+     * Test setTxHoraire2Tp()
      *
      * @return void
      */
@@ -358,7 +358,7 @@ class PointEmpTacheTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqIdSynchro()
+     * Test setUniqIdSynchro()
      *
      * @return void
      */
@@ -371,7 +371,7 @@ class PointEmpTacheTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

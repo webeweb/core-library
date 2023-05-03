@@ -25,7 +25,7 @@ use WBW\Library\Traits\Tests\Fixtures\Integers\TestIntegerPortTrait;
 class IntegerPortTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setPort()
+     * Test setPort()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -39,7 +39,7 @@ class IntegerPortTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPort()
+     * Test setPort()
      *
      * @return void
      */
@@ -58,7 +58,7 @@ class IntegerPortTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPort()
+     * Test setPort()
      *
      * @return void
      */

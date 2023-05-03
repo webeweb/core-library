@@ -76,7 +76,7 @@ JSON;
 JSON;
 
     /**
-     * Tests deserializeLine()
+     * Test deserializeLine()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ JSON;
     }
 
     /**
-     * Tests deserializeResult()
+     * Test deserializeResult()
      *
      * @return void
      */
@@ -130,7 +130,7 @@ JSON;
     }
 
     /**
-     * Tests deserializeResult()
+     * Test deserializeResult()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ JSON;
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

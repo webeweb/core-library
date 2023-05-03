@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DadsuAssuranceLignesContratTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeEtablissement()
+     * Test setCodeEtablissement()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class DadsuAssuranceLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeLibelle()
+     * Test setCodeLibelle()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class DadsuAssuranceLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeOrganisme()
+     * Test setCodeOrganisme()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class DadsuAssuranceLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePorteurRisque()
+     * Test setCodePorteurRisque()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class DadsuAssuranceLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDesignationCommerciale()
+     * Test setDesignationCommerciale()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class DadsuAssuranceLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRefContrat()
+     * Test setRefContrat()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class DadsuAssuranceLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniteGestion()
+     * Test setUniteGestion()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class DadsuAssuranceLignesContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DecTvaGroupeTest extends AbstractTestCase {
 
     /**
-     * Tests setAz0990b()
+     * Test setAz0990b()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz1010b()
+     * Test setAz1010b()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz1020b()
+     * Test setAz1020b()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz1030b()
+     * Test setAz1030b()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz1040b()
+     * Test setAz1040b()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz1050b()
+     * Test setAz1050b()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz1080b()
+     * Test setAz1080b()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz1081b()
+     * Test setAz1081b()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz1090b()
+     * Test setAz1090b()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz1100b()
+     * Test setAz1100b()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz1110b()
+     * Test setAz1110b()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz1120b()
+     * Test setAz1120b()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz3240()
+     * Test setAz3240()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz3510()
+     * Test setAz3510()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz3520()
+     * Test setAz3520()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz38Code()
+     * Test setAz38Code()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz38Lib()
+     * Test setAz38Lib()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz38b()
+     * Test setAz38b()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4200()
+     * Test setAz4200()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4201()
+     * Test setAz4201()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4204()
+     * Test setAz4204()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4206()
+     * Test setAz4206()
      *
      * @return void
      */
@@ -311,7 +311,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4207()
+     * Test setAz4207()
      *
      * @return void
      */
@@ -324,7 +324,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4213()
+     * Test setAz4213()
      *
      * @return void
      */
@@ -337,7 +337,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4215()
+     * Test setAz4215()
      *
      * @return void
      */
@@ -350,7 +350,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4220()
+     * Test setAz4220()
      *
      * @return void
      */
@@ -363,7 +363,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4222()
+     * Test setAz4222()
      *
      * @return void
      */
@@ -376,7 +376,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4223()
+     * Test setAz4223()
      *
      * @return void
      */
@@ -389,7 +389,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4228Mtt()
+     * Test setAz4228Mtt()
      *
      * @return void
      */
@@ -402,7 +402,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4230()
+     * Test setAz4230()
      *
      * @return void
      */
@@ -415,7 +415,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4231()
+     * Test setAz4231()
      *
      * @return void
      */
@@ -428,7 +428,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4232()
+     * Test setAz4232()
      *
      * @return void
      */
@@ -441,7 +441,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4233()
+     * Test setAz4233()
      *
      * @return void
      */
@@ -454,7 +454,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4234()
+     * Test setAz4234()
      *
      * @return void
      */
@@ -467,7 +467,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4235()
+     * Test setAz4235()
      *
      * @return void
      */
@@ -480,7 +480,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4236()
+     * Test setAz4236()
      *
      * @return void
      */
@@ -493,7 +493,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4237()
+     * Test setAz4237()
      *
      * @return void
      */
@@ -506,7 +506,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4238()
+     * Test setAz4238()
      *
      * @return void
      */
@@ -519,7 +519,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4239()
+     * Test setAz4239()
      *
      * @return void
      */
@@ -532,7 +532,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4240()
+     * Test setAz4240()
      *
      * @return void
      */
@@ -545,7 +545,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4241()
+     * Test setAz4241()
      *
      * @return void
      */
@@ -558,7 +558,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4242()
+     * Test setAz4242()
      *
      * @return void
      */
@@ -571,7 +571,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4243()
+     * Test setAz4243()
      *
      * @return void
      */
@@ -584,7 +584,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4244()
+     * Test setAz4244()
      *
      * @return void
      */
@@ -597,7 +597,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4245()
+     * Test setAz4245()
      *
      * @return void
      */
@@ -610,7 +610,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4246()
+     * Test setAz4246()
      *
      * @return void
      */
@@ -623,7 +623,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4247()
+     * Test setAz4247()
      *
      * @return void
      */
@@ -636,7 +636,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4248()
+     * Test setAz4248()
      *
      * @return void
      */
@@ -649,7 +649,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4249()
+     * Test setAz4249()
      *
      * @return void
      */
@@ -662,7 +662,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4250()
+     * Test setAz4250()
      *
      * @return void
      */
@@ -675,7 +675,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4251()
+     * Test setAz4251()
      *
      * @return void
      */
@@ -688,7 +688,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4252()
+     * Test setAz4252()
      *
      * @return void
      */
@@ -701,7 +701,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4254()
+     * Test setAz4254()
      *
      * @return void
      */
@@ -714,7 +714,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4255()
+     * Test setAz4255()
      *
      * @return void
      */
@@ -727,7 +727,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4256()
+     * Test setAz4256()
      *
      * @return void
      */
@@ -740,7 +740,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4257()
+     * Test setAz4257()
      *
      * @return void
      */
@@ -753,7 +753,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4258()
+     * Test setAz4258()
      *
      * @return void
      */
@@ -766,7 +766,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4259()
+     * Test setAz4259()
      *
      * @return void
      */
@@ -779,7 +779,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4260()
+     * Test setAz4260()
      *
      * @return void
      */
@@ -792,7 +792,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4261()
+     * Test setAz4261()
      *
      * @return void
      */
@@ -805,7 +805,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4262()
+     * Test setAz4262()
      *
      * @return void
      */
@@ -818,7 +818,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4263()
+     * Test setAz4263()
      *
      * @return void
      */
@@ -831,7 +831,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4264()
+     * Test setAz4264()
      *
      * @return void
      */
@@ -844,7 +844,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4265()
+     * Test setAz4265()
      *
      * @return void
      */
@@ -857,7 +857,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4266()
+     * Test setAz4266()
      *
      * @return void
      */
@@ -870,7 +870,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4267()
+     * Test setAz4267()
      *
      * @return void
      */
@@ -883,7 +883,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4268()
+     * Test setAz4268()
      *
      * @return void
      */
@@ -896,7 +896,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4268Base()
+     * Test setAz4268Base()
      *
      * @return void
      */
@@ -909,7 +909,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4269()
+     * Test setAz4269()
      *
      * @return void
      */
@@ -922,7 +922,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4269Base()
+     * Test setAz4269Base()
      *
      * @return void
      */
@@ -935,7 +935,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4270()
+     * Test setAz4270()
      *
      * @return void
      */
@@ -948,7 +948,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4270Base()
+     * Test setAz4270Base()
      *
      * @return void
      */
@@ -961,7 +961,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4271()
+     * Test setAz4271()
      *
      * @return void
      */
@@ -974,7 +974,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4271Base()
+     * Test setAz4271Base()
      *
      * @return void
      */
@@ -987,7 +987,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4272()
+     * Test setAz4272()
      *
      * @return void
      */
@@ -1000,7 +1000,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4274()
+     * Test setAz4274()
      *
      * @return void
      */
@@ -1013,7 +1013,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4276()
+     * Test setAz4276()
      *
      * @return void
      */
@@ -1026,7 +1026,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4276Base()
+     * Test setAz4276Base()
      *
      * @return void
      */
@@ -1039,7 +1039,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4277()
+     * Test setAz4277()
      *
      * @return void
      */
@@ -1052,7 +1052,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4277Base()
+     * Test setAz4277Base()
      *
      * @return void
      */
@@ -1065,7 +1065,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4278()
+     * Test setAz4278()
      *
      * @return void
      */
@@ -1078,7 +1078,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4279()
+     * Test setAz4279()
      *
      * @return void
      */
@@ -1091,7 +1091,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4280()
+     * Test setAz4280()
      *
      * @return void
      */
@@ -1104,7 +1104,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4281()
+     * Test setAz4281()
      *
      * @return void
      */
@@ -1117,7 +1117,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4282()
+     * Test setAz4282()
      *
      * @return void
      */
@@ -1130,7 +1130,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4283()
+     * Test setAz4283()
      *
      * @return void
      */
@@ -1143,7 +1143,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4284()
+     * Test setAz4284()
      *
      * @return void
      */
@@ -1156,7 +1156,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4285()
+     * Test setAz4285()
      *
      * @return void
      */
@@ -1169,7 +1169,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4288()
+     * Test setAz4288()
      *
      * @return void
      */
@@ -1182,7 +1182,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4289()
+     * Test setAz4289()
      *
      * @return void
      */
@@ -1195,7 +1195,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4290()
+     * Test setAz4290()
      *
      * @return void
      */
@@ -1208,7 +1208,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz59Mtt()
+     * Test setAz59Mtt()
      *
      * @return void
      */
@@ -1221,7 +1221,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAzEsMtt()
+     * Test setAzEsMtt()
      *
      * @return void
      */
@@ -1234,7 +1234,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAzEuMtt()
+     * Test setAzEuMtt()
      *
      * @return void
      */
@@ -1247,7 +1247,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAzEzCode()
+     * Test setAzEzCode()
      *
      * @return void
      */
@@ -1260,7 +1260,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAzEzLib()
+     * Test setAzEzLib()
      *
      * @return void
      */
@@ -1273,7 +1273,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAzEzMtt()
+     * Test setAzEzMtt()
      *
      * @return void
      */
@@ -1286,7 +1286,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAzGaCode()
+     * Test setAzGaCode()
      *
      * @return void
      */
@@ -1299,7 +1299,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAzGaLib()
+     * Test setAzGaLib()
      *
      * @return void
      */
@@ -1312,7 +1312,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAzGaMtt()
+     * Test setAzGaMtt()
      *
      * @return void
      */
@@ -1325,7 +1325,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAzGcMtt()
+     * Test setAzGcMtt()
      *
      * @return void
      */
@@ -1338,7 +1338,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAzHi()
+     * Test setAzHi()
      *
      * @return void
      */
@@ -1351,7 +1351,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAzJb()
+     * Test setAzJb()
      *
      * @return void
      */
@@ -1364,7 +1364,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAzJc()
+     * Test setAzJc()
      *
      * @return void
      */
@@ -1377,7 +1377,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAzTotalB()
+     * Test setAzTotalB()
      *
      * @return void
      */
@@ -1390,7 +1390,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCorres1()
+     * Test setCorres1()
      *
      * @return void
      */
@@ -1403,7 +1403,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCorres2()
+     * Test setCorres2()
      *
      * @return void
      */
@@ -1416,7 +1416,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCorres3()
+     * Test setCorres3()
      *
      * @return void
      */
@@ -1429,7 +1429,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCorres4()
+     * Test setCorres4()
      *
      * @return void
      */
@@ -1442,7 +1442,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCorres5()
+     * Test setCorres5()
      *
      * @return void
      */
@@ -1455,7 +1455,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDec()
+     * Test setDateDec()
      *
      * @return void
      */
@@ -1468,7 +1468,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDebutExo()
+     * Test setDebutExo()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1485,7 +1485,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFinExo()
+     * Test setFinExo()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1502,7 +1502,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibDoss()
+     * Test setLibDoss()
      *
      * @return void
      */
@@ -1515,7 +1515,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMentionExpresse()
+     * Test setMentionExpresse()
      *
      * @return void
      */
@@ -1528,7 +1528,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoDoss()
+     * Test setNoDoss()
      *
      * @return void
      */
@@ -1541,7 +1541,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoLotEcritures()
+     * Test setNoLotEcritures()
      *
      * @return void
      */
@@ -1554,7 +1554,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumUniq()
+     * Test setNumUniq()
      *
      * @return void
      */
@@ -1567,7 +1567,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPaiementImputation()
+     * Test setPaiementImputation()
      *
      * @return void
      */
@@ -1580,7 +1580,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1597,7 +1597,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSelAdresseDest()
+     * Test setSelAdresseDest()
      *
      * @return void
      */
@@ -1610,7 +1610,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTotal()
+     * Test setTotal()
      *
      * @return void
      */
@@ -1623,7 +1623,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeDec()
+     * Test setTypeDec()
      *
      * @return void
      */
@@ -1636,7 +1636,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setVille()
+     * Test setVille()
      *
      * @return void
      */
@@ -1649,7 +1649,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ0100b()
+     * Test setZ0100b()
      *
      * @return void
      */
@@ -1662,7 +1662,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ0121b()
+     * Test setZ0121b()
      *
      * @return void
      */
@@ -1675,7 +1675,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ0600()
+     * Test setZ0600()
      *
      * @return void
      */
@@ -1688,7 +1688,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ0705()
+     * Test setZ0705()
      *
      * @return void
      */
@@ -1701,7 +1701,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ0900b()
+     * Test setZ0900b()
      *
      * @return void
      */
@@ -1714,7 +1714,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ0920b()
+     * Test setZ0920b()
      *
      * @return void
      */
@@ -1727,7 +1727,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ12Code()
+     * Test setZ12Code()
      *
      * @return void
      */
@@ -1740,7 +1740,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ12Lib()
+     * Test setZ12Lib()
      *
      * @return void
      */
@@ -1753,7 +1753,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ12Taxe()
+     * Test setZ12Taxe()
      *
      * @return void
      */
@@ -1766,7 +1766,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ14()
+     * Test setZ14()
      *
      * @return void
      */
@@ -1779,7 +1779,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ196b()
+     * Test setZ196b()
      *
      * @return void
      */
@@ -1792,7 +1792,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ21()
+     * Test setZ21()
      *
      * @return void
      */
@@ -1805,7 +1805,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ25()
+     * Test setZ25()
      *
      * @return void
      */
@@ -1818,7 +1818,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ4227()
+     * Test setZ4227()
      *
      * @return void
      */
@@ -1831,7 +1831,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ8001()
+     * Test setZ8001()
      *
      * @return void
      */
@@ -1844,7 +1844,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ8002()
+     * Test setZ8002()
      *
      * @return void
      */
@@ -1857,7 +1857,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ8003()
+     * Test setZ8003()
      *
      * @return void
      */
@@ -1870,7 +1870,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ8005()
+     * Test setZ8005()
      *
      * @return void
      */
@@ -1883,7 +1883,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ8006()
+     * Test setZ8006()
      *
      * @return void
      */
@@ -1896,7 +1896,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ9979()
+     * Test setZ9979()
      *
      * @return void
      */
@@ -1909,7 +1909,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ9989()
+     * Test setZ9989()
      *
      * @return void
      */
@@ -1922,7 +1922,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ9991()
+     * Test setZ9991()
      *
      * @return void
      */
@@ -1935,7 +1935,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ9999()
+     * Test setZ9999()
      *
      * @return void
      */
@@ -1948,7 +1948,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ9BTaxe()
+     * Test setZ9BTaxe()
      *
      * @return void
      */
@@ -1961,7 +1961,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setiLock()
+     * Test setiLock()
      *
      * @return void
      */
@@ -1974,7 +1974,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setz0151b()
+     * Test setz0151b()
      *
      * @return void
      */
@@ -1987,7 +1987,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setz0207b()
+     * Test setz0207b()
      *
      * @return void
      */
@@ -2000,7 +2000,7 @@ class DecTvaGroupeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

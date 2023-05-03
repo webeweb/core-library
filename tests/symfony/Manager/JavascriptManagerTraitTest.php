@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Manager\TestJavascriptManagerTrait;
 class JavascriptManagerTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setJavascriptManager()
+     * Test setJavascriptManager()
      *
      * @return void
      */

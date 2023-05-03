@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LogicielsTest extends AbstractTestCase {
 
     /**
-     * Tests setCategorie()
+     * Test setCategorie()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class LogicielsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class LogicielsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeIntervenant()
+     * Test setCodeIntervenant()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class LogicielsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCommentaire()
+     * Test setCommentaire()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class LogicielsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateAchat()
+     * Test setDateAchat()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -94,7 +94,7 @@ class LogicielsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFinMaint()
+     * Test setDateFinMaint()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -111,7 +111,7 @@ class LogicielsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndiceAff()
+     * Test setIndiceAff()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class LogicielsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMaintenance()
+     * Test setMaintenance()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class LogicielsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantMaint()
+     * Test setMontantMaint()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class LogicielsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomLogiciel()
+     * Test setNomLogiciel()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class LogicielsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumLicence()
+     * Test setNumLicence()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class LogicielsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRefImage()
+     * Test setRefImage()
      *
      * @return void
      */
@@ -189,7 +189,7 @@ class LogicielsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSousCategorie()
+     * Test setSousCategorie()
      *
      * @return void
      */
@@ -202,7 +202,7 @@ class LogicielsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

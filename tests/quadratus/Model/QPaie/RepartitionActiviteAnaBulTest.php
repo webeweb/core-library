@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class RepartitionActiviteAnaBulTest extends AbstractTestCase {
 
     /**
-     * Tests setCentre()
+     * Test setCentre()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class RepartitionActiviteAnaBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndicePeriode()
+     * Test setIndicePeriode()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class RepartitionActiviteAnaBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNature()
+     * Test setNature()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class RepartitionActiviteAnaBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmploye()
+     * Test setNumeroEmploye()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class RepartitionActiviteAnaBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -94,7 +94,7 @@ class RepartitionActiviteAnaBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxVentilation()
+     * Test setTauxVentilation()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class RepartitionActiviteAnaBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

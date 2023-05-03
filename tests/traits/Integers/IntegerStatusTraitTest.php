@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Integers\TestIntegerStatusTrait;
 class IntegerStatusTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setStatus()
+     * Test setStatus()
      *
      * @return void
      */

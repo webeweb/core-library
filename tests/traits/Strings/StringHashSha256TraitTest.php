@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringHashSha256Trait;
 class StringHashSha256TraitTest extends AbstractTestCase {
 
     /**
-     * Tests setHashSha256()
+     * Test setHashSha256()
      *
      * @return void
      */

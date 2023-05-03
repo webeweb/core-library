@@ -23,7 +23,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 class OSHelperTest extends AbstractTestCase {
 
     /**
-     * Tests getCpu()
+     * Test getCpu()
      *
      * @return void
      */
@@ -42,7 +42,7 @@ class OSHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests getMemory()
+     * Test getMemory()
      *
      * @return void
      */
@@ -59,7 +59,7 @@ class OSHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests getMemory()
+     * Test getMemory()
      *
      * @return void
      */
@@ -76,7 +76,7 @@ class OSHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests isLinux()
+     * Test isLinux()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class OSHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests isWindows()
+     * Test isWindows()
      *
      * @return void
      */

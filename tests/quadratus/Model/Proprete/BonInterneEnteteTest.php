@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class BonInterneEnteteTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeCollaborateur()
+     * Test setCodeCollaborateur()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class BonInterneEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeLivreur()
+     * Test setCodeLivreur()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class BonInterneEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateLivraison()
+     * Test setDateLivraison()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class BonInterneEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLienDocument()
+     * Test setLienDocument()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class BonInterneEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoBonInt()
+     * Test setNoBonInt()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class BonInterneEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

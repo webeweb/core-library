@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class CdeFournisseurLigneTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeArticle()
+     * Test setCodeArticle()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantier()
+     * Test setCodeChantier()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeDepot()
+     * Test setCodeDepot()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeFournisseur()
+     * Test setCodeFournisseur()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTva()
+     * Test setCodeTva()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeUnite()
+     * Test setCodeUnite()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeVariante()
+     * Test setCodeVariante()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeVentilAchat()
+     * Test setCodeVentilAchat()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCommandeRecue()
+     * Test setCommandeRecue()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setConditionnement()
+     * Test setConditionnement()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateReceptionPrevue()
+     * Test setDateReceptionPrevue()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -198,7 +198,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDesignation()
+     * Test setDesignation()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDesignation2()
+     * Test setDesignation2()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDesignation3()
+     * Test setDesignation3()
      *
      * @return void
      */
@@ -237,7 +237,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndiceLigne()
+     * Test setIndiceLigne()
      *
      * @return void
      */
@@ -250,7 +250,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoBr()
+     * Test setNoBr()
      *
      * @return void
      */
@@ -263,7 +263,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoLigneBr()
+     * Test setNoLigneBr()
      *
      * @return void
      */
@@ -276,7 +276,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoPiece()
+     * Test setNoPiece()
      *
      * @return void
      */
@@ -289,7 +289,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroLigne()
+     * Test setNumeroLigne()
      *
      * @return void
      */
@@ -302,7 +302,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPosteRent()
+     * Test setPosteRent()
      *
      * @return void
      */
@@ -315,7 +315,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPuBrut()
+     * Test setPuBrut()
      *
      * @return void
      */
@@ -328,7 +328,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQteCond()
+     * Test setQteCond()
      *
      * @return void
      */
@@ -341,7 +341,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQteOrigine()
+     * Test setQteOrigine()
      *
      * @return void
      */
@@ -354,7 +354,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQuantite()
+     * Test setQuantite()
      *
      * @return void
      */
@@ -367,7 +367,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRefArticleFournisseur()
+     * Test setRefArticleFournisseur()
      *
      * @return void
      */
@@ -380,7 +380,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemiseLigne1()
+     * Test setRemiseLigne1()
      *
      * @return void
      */
@@ -393,7 +393,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemiseLigne2()
+     * Test setRemiseLigne2()
      *
      * @return void
      */
@@ -406,7 +406,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemiseLigne3()
+     * Test setRemiseLigne3()
      *
      * @return void
      */
@@ -419,7 +419,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxTva()
+     * Test setTauxTva()
      *
      * @return void
      */
@@ -432,7 +432,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeLigne()
+     * Test setTypeLigne()
      *
      * @return void
      */
@@ -445,7 +445,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

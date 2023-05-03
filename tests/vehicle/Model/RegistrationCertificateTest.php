@@ -28,7 +28,7 @@ use WBW\Library\Vehicle\Tests\AbstractTestCase;
 class RegistrationCertificateTest extends AbstractTestCase {
 
     /**
-     * Tests jsonSerialize()
+     * Test jsonSerialize()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -101,7 +101,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setA()
+     * Test setA()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setA1()
+     * Test setA1()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setB()
+     * Test setB()
      *
      * @return void
      */
@@ -143,7 +143,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setC1()
+     * Test setC1()
      *
      * @return void
      */
@@ -156,7 +156,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setC3()
+     * Test setC3()
      *
      * @return void
      */
@@ -169,7 +169,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setC41()
+     * Test setC41()
      *
      * @return void
      */
@@ -182,7 +182,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setC4a()
+     * Test setC4a()
      *
      * @return void
      */
@@ -195,7 +195,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setD1()
+     * Test setD1()
      *
      * @return void
      */
@@ -208,7 +208,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setD2()
+     * Test setD2()
      *
      * @return void
      */
@@ -221,7 +221,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setD21()
+     * Test setD21()
      *
      * @return void
      */
@@ -234,7 +234,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setD3()
+     * Test setD3()
      *
      * @return void
      */
@@ -247,7 +247,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setE()
+     * Test setE()
      *
      * @return void
      */
@@ -260,7 +260,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setF1()
+     * Test setF1()
      *
      * @return void
      */
@@ -273,7 +273,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setF2()
+     * Test setF2()
      *
      * @return void
      */
@@ -286,7 +286,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setF3()
+     * Test setF3()
      *
      * @return void
      */
@@ -299,7 +299,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setG()
+     * Test setG()
      *
      * @return void
      */
@@ -312,7 +312,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setG1()
+     * Test setG1()
      *
      * @return void
      */
@@ -325,7 +325,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setH()
+     * Test setH()
      *
      * @return void
      */
@@ -338,7 +338,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setI()
+     * Test setI()
      *
      * @return void
      */
@@ -354,7 +354,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setI1()
+     * Test setI1()
      *
      * @return void
      */
@@ -370,7 +370,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setJ()
+     * Test setJ()
      *
      * @return void
      */
@@ -383,7 +383,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setJ1()
+     * Test setJ1()
      *
      * @return void
      */
@@ -396,7 +396,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setJ2()
+     * Test setJ2()
      *
      * @return void
      */
@@ -409,7 +409,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setJ3()
+     * Test setJ3()
      *
      * @return void
      */
@@ -422,7 +422,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setK()
+     * Test setK()
      *
      * @return void
      */
@@ -435,7 +435,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setP1()
+     * Test setP1()
      *
      * @return void
      */
@@ -448,7 +448,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setP2()
+     * Test setP2()
      *
      * @return void
      */
@@ -461,7 +461,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setP3()
+     * Test setP3()
      *
      * @return void
      */
@@ -474,7 +474,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setP6()
+     * Test setP6()
      *
      * @return void
      */
@@ -487,7 +487,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQ()
+     * Test setQ()
      *
      * @return void
      */
@@ -500,7 +500,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setS1()
+     * Test setS1()
      *
      * @return void
      */
@@ -513,7 +513,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setS2()
+     * Test setS2()
      *
      * @return void
      */
@@ -526,7 +526,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setU1()
+     * Test setU1()
      *
      * @return void
      */
@@ -539,7 +539,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setU2()
+     * Test setU2()
      *
      * @return void
      */
@@ -552,7 +552,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setV7()
+     * Test setV7()
      *
      * @return void
      */
@@ -565,7 +565,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setV9()
+     * Test setV9()
      *
      * @return void
      */
@@ -578,7 +578,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setX1()
+     * Test setX1()
      *
      * @return void
      */
@@ -594,7 +594,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setY1()
+     * Test setY1()
      *
      * @return void
      */
@@ -607,7 +607,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setY2()
+     * Test setY2()
      *
      * @return void
      */
@@ -620,7 +620,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setY3()
+     * Test setY3()
      *
      * @return void
      */
@@ -633,7 +633,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setY4()
+     * Test setY4()
      *
      * @return void
      */
@@ -646,7 +646,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setY5()
+     * Test setY5()
      *
      * @return void
      */
@@ -659,7 +659,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setY6()
+     * Test setY6()
      *
      * @return void
      */
@@ -672,7 +672,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ1()
+     * Test setZ1()
      *
      * @return void
      */
@@ -685,7 +685,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ2()
+     * Test setZ2()
      *
      * @return void
      */
@@ -698,7 +698,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ3()
+     * Test setZ3()
      *
      * @return void
      */
@@ -711,7 +711,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ4()
+     * Test setZ4()
      *
      * @return void
      */
@@ -724,7 +724,7 @@ class RegistrationCertificateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringDurationTrait;
 class StringDurationTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setDuration()
+     * Test setDuration()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class HistoTransfertCptaTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeEtablissement()
+     * Test setCodeEtablissement()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class HistoTransfertCptaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeJournal()
+     * Test setCodeJournal()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class HistoTransfertCptaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateEcriture()
+     * Test setDateEcriture()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class HistoTransfertCptaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumLot()
+     * Test setNumLot()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class HistoTransfertCptaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeTransfert()
+     * Test setPeriodeTransfert()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -98,7 +98,7 @@ class HistoTransfertCptaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeTransfert()
+     * Test setTypeTransfert()
      *
      * @return void
      */
@@ -111,7 +111,7 @@ class HistoTransfertCptaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

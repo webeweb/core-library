@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Booleans\TestBooleanOnPostEditTrait;
 class BooleanOnPostEditTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setOnPostEdit()
+     * Test setOnPostEdit()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ChantiersDescriptifLocauxElementsTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ChantiersDescriptifLocauxElementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantier()
+     * Test setCodeChantier()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ChantiersDescriptifLocauxElementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ChantiersDescriptifLocauxElementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeElement()
+     * Test setCodeElement()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ChantiersDescriptifLocauxElementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCoefficient()
+     * Test setCoefficient()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ChantiersDescriptifLocauxElementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNiveauNoeud()
+     * Test setNiveauNoeud()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class ChantiersDescriptifLocauxElementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroNoeud()
+     * Test setNumeroNoeud()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class ChantiersDescriptifLocauxElementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeElement()
+     * Test setTypeElement()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class ChantiersDescriptifLocauxElementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqIdLocal()
+     * Test setUniqIdLocal()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class ChantiersDescriptifLocauxElementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

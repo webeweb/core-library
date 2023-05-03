@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DevisProgramLignesTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class DevisProgramLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantier()
+     * Test setCodeChantier()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class DevisProgramLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class DevisProgramLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEchelle()
+     * Test setCodeEchelle()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class DevisProgramLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeOperation()
+     * Test setCodeOperation()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class DevisProgramLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeProgramme()
+     * Test setCodeProgramme()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class DevisProgramLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCoefficient()
+     * Test setCoefficient()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class DevisProgramLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoteResultat()
+     * Test setNoteResultat()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class DevisProgramLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumDevis()
+     * Test setNumDevis()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class DevisProgramLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumLigne()
+     * Test setNumLigne()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class DevisProgramLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumLigneProg()
+     * Test setNumLigneProg()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class DevisProgramLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setVitesseTheorique()
+     * Test setVitesseTheorique()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class DevisProgramLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

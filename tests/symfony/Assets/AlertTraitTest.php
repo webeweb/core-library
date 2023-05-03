@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Assets\TestAlertTrait;
 class AlertTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setAlert()
+     * Test setAlert()
      *
      * @return void
      */

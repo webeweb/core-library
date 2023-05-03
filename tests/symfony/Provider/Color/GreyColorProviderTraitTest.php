@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Provider\Color\TestGreyColorProviderTrait
 class GreyColorProviderTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setGreyColorProvider()
+     * Test setGreyColorProvider()
      *
      * @return void
      */

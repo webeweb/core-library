@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LignesAtcTest extends AbstractTestCase {
 
     /**
-     * Tests setMontant()
+     * Test setMontant()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class LignesAtcTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantCotis()
+     * Test setMontantCotis()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class LignesAtcTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMotif()
+     * Test setMotif()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class LignesAtcTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumLigne()
+     * Test setNumLigne()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class LignesAtcTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroAttestation()
+     * Test setNumeroAttestation()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class LignesAtcTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeDeb()
+     * Test setPeriodeDeb()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -107,7 +107,7 @@ class LignesAtcTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeFin()
+     * Test setPeriodeFin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -124,7 +124,7 @@ class LignesAtcTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPsEuroOuFranc()
+     * Test setPsEuroOuFranc()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class LignesAtcTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSalaireEuroOuFranc()
+     * Test setSalaireEuroOuFranc()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class LignesAtcTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

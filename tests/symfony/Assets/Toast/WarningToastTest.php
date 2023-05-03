@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Tests\AbstractTestCase;
 class WarningToastTest extends AbstractTestCase {
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

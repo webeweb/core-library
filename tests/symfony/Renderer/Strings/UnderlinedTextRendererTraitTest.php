@@ -23,7 +23,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Renderer\Strings\TestUnderlinedTextRender
 class UnderlinedTextRendererTraitTest extends AbstractTestCase {
 
     /**
-     * Tests renderUnderlinedText()
+     * Test renderUnderlinedText()
      *
      * @return void
      */

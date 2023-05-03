@@ -31,7 +31,7 @@ use WBW\Library\Billing\Tests\Fixtures\Model\TestBillableDetail;
 class PurchaseBillTest extends AbstractTestCase {
 
     /**
-     * Tests jsonSerialize()
+     * Test jsonSerialize()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -65,7 +65,7 @@ class PurchaseBillTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

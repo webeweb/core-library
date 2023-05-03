@@ -26,7 +26,7 @@ use WBW\Library\Symfony\Tests\AbstractTestCase;
 class FullCalendarEventTest extends AbstractTestCase {
 
     /**
-     * Tests jsonSerialize()
+     * Test jsonSerialize()
      *
      * @return void
      */
@@ -66,7 +66,7 @@ class FullCalendarEventTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAllDay()
+     * Test setAllDay()
      *
      * @return void
      */
@@ -79,7 +79,7 @@ class FullCalendarEventTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBackgroundColor()
+     * Test setBackgroundColor()
      *
      * @return void
      */
@@ -92,7 +92,7 @@ class FullCalendarEventTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBorderColor()
+     * Test setBorderColor()
      *
      * @return void
      */
@@ -105,7 +105,7 @@ class FullCalendarEventTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setClassNames()
+     * Test setClassNames()
      *
      * @return void
      */
@@ -121,7 +121,7 @@ class FullCalendarEventTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDisplay()
+     * Test setDisplay()
      *
      * @return void
      */
@@ -134,7 +134,7 @@ class FullCalendarEventTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDurationEditable()
+     * Test setDurationEditable()
      *
      * @return void
      */
@@ -147,7 +147,7 @@ class FullCalendarEventTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEditable()
+     * Test setEditable()
      *
      * @return void
      */
@@ -160,7 +160,7 @@ class FullCalendarEventTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEnd()
+     * Test setEnd()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class FullCalendarEventTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEndStr()
+     * Test setEndStr()
      *
      * @return void
      */
@@ -189,7 +189,7 @@ class FullCalendarEventTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExtraParams()
+     * Test setExtraParams()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class FullCalendarEventTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGroupId()
+     * Test setGroupId()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class FullCalendarEventTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setResourceEditable()
+     * Test setResourceEditable()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class FullCalendarEventTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setStart()
+     * Test setStart()
      *
      * @return void
      */
@@ -247,7 +247,7 @@ class FullCalendarEventTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setStartEditable()
+     * Test setStartEditable()
      *
      * @return void
      */
@@ -260,7 +260,7 @@ class FullCalendarEventTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setStartStr()
+     * Test setStartStr()
      *
      * @return void
      */
@@ -273,7 +273,7 @@ class FullCalendarEventTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTextColor()
+     * Test setTextColor()
      *
      * @return void
      */
@@ -286,7 +286,7 @@ class FullCalendarEventTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

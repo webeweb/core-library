@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LicencesTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class LicencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClientDistr()
+     * Test setCodeClientDistr()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class LicencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeProduit()
+     * Test setCodeProduit()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class LicencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCommentaire()
+     * Test setCommentaire()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class LicencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCpVille()
+     * Test setCpVille()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class LicencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateCreation()
+     * Test setDateCreation()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -107,7 +107,7 @@ class LicencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDemo()
+     * Test setDemo()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class LicencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLicence()
+     * Test setLicence()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class LicencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomClient()
+     * Test setNomClient()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class LicencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNombrePostes()
+     * Test setNombrePostes()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class LicencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOption1()
+     * Test setOption1()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class LicencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOption2()
+     * Test setOption2()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class LicencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOption3()
+     * Test setOption3()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class LicencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOption4()
+     * Test setOption4()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class LicencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -228,7 +228,7 @@ class LicencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSupport()
+     * Test setSupport()
      *
      * @return void
      */
@@ -241,7 +241,7 @@ class LicencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeReseau()
+     * Test setTypeReseau()
      *
      * @return void
      */
@@ -254,7 +254,7 @@ class LicencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setVersion()
+     * Test setVersion()
      *
      * @return void
      */
@@ -267,7 +267,7 @@ class LicencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

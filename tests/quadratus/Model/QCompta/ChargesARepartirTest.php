@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ChargesARepartirTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeCentre()
+     * Test setCodeCentre()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class ChargesARepartirTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCoeffDegressif()
+     * Test setCoeffDegressif()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class ChargesARepartirTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDate()
+     * Test setDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class ChargesARepartirTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDuree()
+     * Test setDuree()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class ChargesARepartirTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class ChargesARepartirTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant()
+     * Test setMontant()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class ChargesARepartirTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumContrat()
+     * Test setNumContrat()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class ChargesARepartirTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumCptCar()
+     * Test setNumCptCar()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class ChargesARepartirTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroPj()
+     * Test setNumeroPj()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class ChargesARepartirTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxLineaire()
+     * Test setTauxLineaire()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class ChargesARepartirTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeAmort()
+     * Test setTypeAmort()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class ChargesARepartirTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

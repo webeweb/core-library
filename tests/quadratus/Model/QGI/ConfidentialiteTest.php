@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ConfidentialiteTest extends AbstractTestCase {
 
     /**
-     * Tests setActivationLstRestriArt()
+     * Test setActivationLstRestriArt()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ConfidentialiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setActivationLstRestriCli()
+     * Test setActivationLstRestriCli()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ConfidentialiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setActivationLstRestriFrn()
+     * Test setActivationLstRestriFrn()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ConfidentialiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setActiveConfMenusQb()
+     * Test setActiveConfMenusQb()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ConfidentialiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setActiveConfMenusQb2()
+     * Test setActiveConfMenusQb2()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ConfidentialiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setActiveConfMenusQc()
+     * Test setActiveConfMenusQc()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class ConfidentialiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setActiveConfMenusQfact()
+     * Test setActiveConfMenusQfact()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class ConfidentialiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setActiveConfMenusQgi()
+     * Test setActiveConfMenusQgi()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class ConfidentialiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setActiveConfMenusQp()
+     * Test setActiveConfMenusQp()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class ConfidentialiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setActiveConfMenusQprop()
+     * Test setActiveConfMenusQprop()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class ConfidentialiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setActiveConfMenusQtrs()
+     * Test setActiveConfMenusQtrs()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class ConfidentialiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMasquerBaseAccess()
+     * Test setMasquerBaseAccess()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class ConfidentialiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSelLstRestriArtDef()
+     * Test setSelLstRestriArtDef()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class ConfidentialiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSelLstRestriCliDef()
+     * Test setSelLstRestriCliDef()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class ConfidentialiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSelLstRestriFrnDef()
+     * Test setSelLstRestriFrnDef()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class ConfidentialiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

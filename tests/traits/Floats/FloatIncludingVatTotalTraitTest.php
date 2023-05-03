@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Floats\TestFloatIncludingVatTotalTrait;
 class FloatIncludingVatTotalTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setIncludingVatTotal()
+     * Test setIncludingVatTotal()
      *
      * @return void
      */

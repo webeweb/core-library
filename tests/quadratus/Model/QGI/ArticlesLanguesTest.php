@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ArticlesLanguesTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeArticle()
+     * Test setCodeArticle()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ArticlesLanguesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeLangue()
+     * Test setCodeLangue()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ArticlesLanguesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDesignationApres()
+     * Test setDesignationApres()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ArticlesLanguesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDesignationAvant()
+     * Test setDesignationAvant()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ArticlesLanguesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntitule1()
+     * Test setIntitule1()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ArticlesLanguesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntitule2()
+     * Test setIntitule2()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class ArticlesLanguesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntitule3()
+     * Test setIntitule3()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class ArticlesLanguesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntitule4()
+     * Test setIntitule4()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class ArticlesLanguesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

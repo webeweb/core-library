@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringRawResponseTrait;
 class StringRawResponseTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setRawResponse()
+     * Test setRawResponse()
      *
      * @return void
      */

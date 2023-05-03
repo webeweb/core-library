@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class TmpTable0Test extends AbstractTestCase {
 
     /**
-     * Tests setBase()
+     * Test setBase()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class TmpTable0Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setBaseTot()
+     * Test setBaseTot()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class TmpTable0Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setChargePat()
+     * Test setChargePat()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class TmpTable0Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setChargePatTot()
+     * Test setChargePatTot()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class TmpTable0Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setChargeSal()
+     * Test setChargeSal()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class TmpTable0Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setChargeSalTot()
+     * Test setChargeSalTot()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class TmpTable0Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setClasse()
+     * Test setClasse()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class TmpTable0Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCode()
+     * Test setCode()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class TmpTable0Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeOrganisme()
+     * Test setCodeOrganisme()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class TmpTable0Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtablissement()
+     * Test setEtablissement()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class TmpTable0Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setImputation()
+     * Test setImputation()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class TmpTable0Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndicePeriode()
+     * Test setIndicePeriode()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class TmpTable0Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setInverse()
+     * Test setInverse()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class TmpTable0Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class TmpTable0Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumero()
+     * Test setNumero()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class TmpTable0Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -237,7 +237,7 @@ class TmpTable0Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setQui()
+     * Test setQui()
      *
      * @return void
      */
@@ -250,7 +250,7 @@ class TmpTable0Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setService()
+     * Test setService()
      *
      * @return void
      */
@@ -263,7 +263,7 @@ class TmpTable0Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxPat()
+     * Test setTauxPat()
      *
      * @return void
      */
@@ -276,7 +276,7 @@ class TmpTable0Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxSal()
+     * Test setTauxSal()
      *
      * @return void
      */
@@ -289,7 +289,7 @@ class TmpTable0Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setType()
+     * Test setType()
      *
      * @return void
      */
@@ -302,7 +302,7 @@ class TmpTable0Test extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

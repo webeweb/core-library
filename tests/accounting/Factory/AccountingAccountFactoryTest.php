@@ -24,7 +24,7 @@ use WBW\Library\Accounting\Tests\AbstractTestCase;
 class AccountingAccountFactoryTest extends AbstractTestCase {
 
     /**
-     * Tests copy()
+     * Test copy()
      *
      * @return void
      */

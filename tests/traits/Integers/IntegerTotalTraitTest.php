@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Integers\TestIntegerTotalTrait;
 class IntegerTotalTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setTotal()
+     * Test setTotal()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ContenuTest extends AbstractTestCase {
 
     /**
-     * Tests setPosition()
+     * Test setPosition()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ContenuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTexteContenu()
+     * Test setTexteContenu()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ContenuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

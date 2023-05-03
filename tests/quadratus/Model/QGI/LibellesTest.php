@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LibellesTest extends AbstractTestCase {
 
     /**
-     * Tests setCode()
+     * Test setCode()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant()
+     * Test setMontant()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setType()
+     * Test setType()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeMontant()
+     * Test setTypeMontant()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

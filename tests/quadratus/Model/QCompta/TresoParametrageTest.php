@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class TresoParametrageTest extends AbstractTestCase {
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class TresoParametrageTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRegle()
+     * Test setRegle()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class TresoParametrageTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setType()
+     * Test setType()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class TresoParametrageTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

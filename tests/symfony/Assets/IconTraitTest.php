@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Assets\TestIconTrait;
 class IconTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setIcon()
+     * Test setIcon()
      *
      * @return void
      */

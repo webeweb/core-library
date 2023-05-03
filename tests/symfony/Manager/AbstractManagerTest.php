@@ -42,7 +42,7 @@ class AbstractManagerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests addProvider()
+     * Test addProvider()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -57,7 +57,7 @@ class AbstractManagerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests containsProvider()
+     * Test containsProvider()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -73,7 +73,7 @@ class AbstractManagerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests hasProviders()
+     * Test hasProviders()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -89,7 +89,7 @@ class AbstractManagerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests indexOfProvider()
+     * Test indexOfProvider()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -109,7 +109,7 @@ class AbstractManagerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Service\TestTokenGeneratorServiceTrait;
 class TokenGeneratorServiceTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setTokenGeneratorService()
+     * Test setTokenGeneratorService()
      *
      * @return void
      */

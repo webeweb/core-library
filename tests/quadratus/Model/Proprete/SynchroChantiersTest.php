@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class SynchroChantiersTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class SynchroChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantier()
+     * Test setCodeChantier()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class SynchroChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class SynchroChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeSynchro()
+     * Test setCodeSynchro()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class SynchroChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

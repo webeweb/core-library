@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class FacturesEntetesTest extends AbstractTestCase {
 
     /**
-     * Tests setAdIntBtq()
+     * Test setAdIntBtq()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdIntBureauDistributeur()
+     * Test setAdIntBureauDistributeur()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdIntCodePays()
+     * Test setAdIntCodePays()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdIntCodePostal()
+     * Test setAdIntCodePostal()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdIntComplement()
+     * Test setAdIntComplement()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdIntNom()
+     * Test setAdIntNom()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdIntNomVoie()
+     * Test setAdIntNomVoie()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdIntNumVoie()
+     * Test setAdIntNumVoie()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBtq()
+     * Test setBtq()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBureauDistributeur()
+     * Test setBureauDistributeur()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCivilite()
+     * Test setCivilite()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAnalClient()
+     * Test setCodeAnalClient()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantier()
+     * Test setCodeChantier()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClientFact()
+     * Test setCodeClientFact()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeDevise()
+     * Test setCodeDevise()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeFactor()
+     * Test setCodeFactor()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeLangueDesignationArticle()
+     * Test setCodeLangueDesignationArticle()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeModeReglement()
+     * Test setCodeModeReglement()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePays()
+     * Test setCodePays()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePostal()
+     * Test setCodePostal()
      *
      * @return void
      */
@@ -311,7 +311,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRegroupement()
+     * Test setCodeRegroupement()
      *
      * @return void
      */
@@ -324,7 +324,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRepresentant()
+     * Test setCodeRepresentant()
      *
      * @return void
      */
@@ -337,7 +337,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTvaClient()
+     * Test setCodeTvaClient()
      *
      * @return void
      */
@@ -350,7 +350,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeVentilClient()
+     * Test setCodeVentilClient()
      *
      * @return void
      */
@@ -363,7 +363,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setComplement()
+     * Test setComplement()
      *
      * @return void
      */
@@ -376,7 +376,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateEcheance()
+     * Test setDateEcheance()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -393,7 +393,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFacture()
+     * Test setDateFacture()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -410,7 +410,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateLimiteForcee()
+     * Test setDateLimiteForcee()
      *
      * @return void
      */
@@ -423,7 +423,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateLimiteResiliation()
+     * Test setDateLimiteResiliation()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -440,7 +440,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEcheanceDepart()
+     * Test setEcheanceDepart()
      *
      * @return void
      */
@@ -453,7 +453,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEcheanceForcee()
+     * Test setEcheanceForcee()
      *
      * @return void
      */
@@ -466,7 +466,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEcheanceLe()
+     * Test setEcheanceLe()
      *
      * @return void
      */
@@ -479,7 +479,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEcheanceNbJours()
+     * Test setEcheanceNbJours()
      *
      * @return void
      */
@@ -492,7 +492,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtat()
+     * Test setEtat()
      *
      * @return void
      */
@@ -505,7 +505,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFactureEuros()
+     * Test setFactureEuros()
      *
      * @return void
      */
@@ -518,7 +518,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFactureVm()
+     * Test setFactureVm()
      *
      * @return void
      */
@@ -531,7 +531,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFonctionCommercial()
+     * Test setFonctionCommercial()
      *
      * @return void
      */
@@ -544,7 +544,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setInterlocuteur()
+     * Test setInterlocuteur()
      *
      * @return void
      */
@@ -557,7 +557,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibTransfCpta()
+     * Test setLibTransfCpta()
      *
      * @return void
      */
@@ -570,7 +570,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -583,7 +583,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelleTransfCpta()
+     * Test setLibelleTransfCpta()
      *
      * @return void
      */
@@ -596,7 +596,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLienDocDossCpta()
+     * Test setLienDocDossCpta()
      *
      * @return void
      */
@@ -609,7 +609,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLienDocument()
+     * Test setLienDocument()
      *
      * @return void
      */
@@ -622,7 +622,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMentionLibre()
+     * Test setMentionLibre()
      *
      * @return void
      */
@@ -635,7 +635,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantAcompte()
+     * Test setMontantAcompte()
      *
      * @return void
      */
@@ -648,7 +648,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantHtpx()
+     * Test setMontantHtpx()
      *
      * @return void
      */
@@ -661,7 +661,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantHtvm()
+     * Test setMontantHtvm()
      *
      * @return void
      */
@@ -674,7 +674,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantTtc()
+     * Test setMontantTtc()
      *
      * @return void
      */
@@ -687,7 +687,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomClient()
+     * Test setNomClient()
      *
      * @return void
      */
@@ -700,7 +700,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomSuite()
+     * Test setNomSuite()
      *
      * @return void
      */
@@ -713,7 +713,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomSuite2()
+     * Test setNomSuite2()
      *
      * @return void
      */
@@ -726,7 +726,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomSuite3()
+     * Test setNomSuite3()
      *
      * @return void
      */
@@ -739,7 +739,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomVoie()
+     * Test setNomVoie()
      *
      * @return void
      */
@@ -752,7 +752,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNombreEcheances()
+     * Test setNombreEcheances()
      *
      * @return void
      */
@@ -765,7 +765,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumMandat()
+     * Test setNumMandat()
      *
      * @return void
      */
@@ -778,7 +778,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumVoie()
+     * Test setNumVoie()
      *
      * @return void
      */
@@ -791,7 +791,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroCommandeWebFt()
+     * Test setNumeroCommandeWebFt()
      *
      * @return void
      */
@@ -804,7 +804,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroCompte()
+     * Test setNumeroCompte()
      *
      * @return void
      */
@@ -817,7 +817,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroDevis()
+     * Test setNumeroDevis()
      *
      * @return void
      */
@@ -830,7 +830,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroFacture()
+     * Test setNumeroFacture()
      *
      * @return void
      */
@@ -843,7 +843,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroPj()
+     * Test setNumeroPj()
      *
      * @return void
      */
@@ -856,7 +856,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrestation()
+     * Test setPrestation()
      *
      * @return void
      */
@@ -869,7 +869,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setReference1()
+     * Test setReference1()
      *
      * @return void
      */
@@ -882,7 +882,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setReference2()
+     * Test setReference2()
      *
      * @return void
      */
@@ -895,7 +895,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setReference3()
+     * Test setReference3()
      *
      * @return void
      */
@@ -908,7 +908,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setReference4()
+     * Test setReference4()
      *
      * @return void
      */
@@ -921,7 +921,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRum()
+     * Test setRum()
      *
      * @return void
      */
@@ -934,7 +934,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSaisirAdresse()
+     * Test setSaisirAdresse()
      *
      * @return void
      */
@@ -947,7 +947,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSoumisEscompte()
+     * Test setSoumisEscompte()
      *
      * @return void
      */
@@ -960,7 +960,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSoumisTaxeDeee()
+     * Test setSoumisTaxeDeee()
      *
      * @return void
      */
@@ -973,7 +973,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxDevise()
+     * Test setTauxDevise()
      *
      * @return void
      */
@@ -986,7 +986,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxEscompte()
+     * Test setTauxEscompte()
      *
      * @return void
      */
@@ -999,7 +999,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxRemise1()
+     * Test setTauxRemise1()
      *
      * @return void
      */
@@ -1012,7 +1012,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxRemise2()
+     * Test setTauxRemise2()
      *
      * @return void
      */
@@ -1025,7 +1025,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValeurIcs()
+     * Test setValeurIcs()
      *
      * @return void
      */
@@ -1038,7 +1038,7 @@ class FacturesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

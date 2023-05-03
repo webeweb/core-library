@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DadsuAssuranceEnteteTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeEtablissement()
+     * Test setCodeEtablissement()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class DadsuAssuranceEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeOrganisme()
+     * Test setCodeOrganisme()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class DadsuAssuranceEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePeriodicite()
+     * Test setCodePeriodicite()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class DadsuAssuranceEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateApplication()
+     * Test setDateApplication()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class DadsuAssuranceEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateEmission()
+     * Test setDateEmission()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -98,7 +98,7 @@ class DadsuAssuranceEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntitule()
+     * Test setIntitule()
      *
      * @return void
      */
@@ -111,7 +111,7 @@ class DadsuAssuranceEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMailContact()
+     * Test setMailContact()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class DadsuAssuranceEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMoisAnniv()
+     * Test setMoisAnniv()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class DadsuAssuranceEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomContact()
+     * Test setNomContact()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class DadsuAssuranceEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTelContact()
+     * Test setTelContact()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class DadsuAssuranceEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniteGestion()
+     * Test setUniteGestion()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class DadsuAssuranceEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

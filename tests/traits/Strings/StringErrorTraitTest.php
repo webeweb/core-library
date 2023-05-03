@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringErrorTrait;
 class StringErrorTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setError()
+     * Test setError()
      *
      * @return void
      */

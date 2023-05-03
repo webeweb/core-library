@@ -24,7 +24,7 @@ use WBW\Library\System\Tests\Fixtures\Model\TestMemoryTrait;
 class MemoryTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setMemory()
+     * Test setMemory()
      *
      * @return void
      */

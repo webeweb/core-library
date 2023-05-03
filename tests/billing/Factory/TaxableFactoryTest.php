@@ -24,7 +24,7 @@ use WBW\Library\Billing\Tests\Fixtures\Model\TestTaxable;
 class TaxableFactoryTest extends AbstractTestCase {
 
     /**
-     * Tests copy()
+     * Test copy()
      *
      * @return void
      */

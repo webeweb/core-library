@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Booleans\TestBooleanOnPostNewTrait;
 class BooleanOnPostNewTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setOnPostNew()
+     * Test setOnPostNew()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class CdeTypeInspLignesTest extends AbstractTestCase {
 
     /**
-     * Tests setAou()
+     * Test setAou()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAvr()
+     * Test setAvr()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeArticle()
+     * Test setCodeArticle()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantier()
+     * Test setCodeChantier()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeFournisseur()
+     * Test setCodeFournisseur()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeInspecteur()
+     * Test setCodeInspecteur()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeLivraison()
+     * Test setCodeLivraison()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCommandeIsolee()
+     * Test setCommandeIsolee()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDebutValidite()
+     * Test setDateDebutValidite()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -172,7 +172,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFinValidite()
+     * Test setDateFinValidite()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -189,7 +189,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateValidee()
+     * Test setDateValidee()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -206,7 +206,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDec()
+     * Test setDec()
      *
      * @return void
      */
@@ -219,7 +219,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDesignation1()
+     * Test setDesignation1()
      *
      * @return void
      */
@@ -232,7 +232,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDesignation2()
+     * Test setDesignation2()
      *
      * @return void
      */
@@ -245,7 +245,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDesignation3()
+     * Test setDesignation3()
      *
      * @return void
      */
@@ -258,7 +258,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFev()
+     * Test setFev()
      *
      * @return void
      */
@@ -271,7 +271,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setJan()
+     * Test setJan()
      *
      * @return void
      */
@@ -284,7 +284,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setJourLivraison()
+     * Test setJourLivraison()
      *
      * @return void
      */
@@ -297,7 +297,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setJuil()
+     * Test setJuil()
      *
      * @return void
      */
@@ -310,7 +310,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setJuin()
+     * Test setJuin()
      *
      * @return void
      */
@@ -323,7 +323,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMai()
+     * Test setMai()
      *
      * @return void
      */
@@ -336,7 +336,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMajStockByDa()
+     * Test setMajStockByDa()
      *
      * @return void
      */
@@ -349,7 +349,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMar()
+     * Test setMar()
      *
      * @return void
      */
@@ -362,7 +362,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNov()
+     * Test setNov()
      *
      * @return void
      */
@@ -375,7 +375,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroLigne()
+     * Test setNumeroLigne()
      *
      * @return void
      */
@@ -388,7 +388,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOct()
+     * Test setOct()
      *
      * @return void
      */
@@ -401,7 +401,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPosteRent()
+     * Test setPosteRent()
      *
      * @return void
      */
@@ -414,7 +414,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQuantite()
+     * Test setQuantite()
      *
      * @return void
      */
@@ -427,7 +427,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSaisirModaliteLiv()
+     * Test setSaisirModaliteLiv()
      *
      * @return void
      */
@@ -440,7 +440,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSep()
+     * Test setSep()
      *
      * @return void
      */
@@ -453,7 +453,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeGestion()
+     * Test setTypeGestion()
      *
      * @return void
      */
@@ -466,7 +466,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValidee()
+     * Test setValidee()
      *
      * @return void
      */
@@ -479,7 +479,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

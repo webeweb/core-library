@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AbsencesEmployeTest extends AbstractTestCase {
 
     /**
-     * Tests setAbsenceModifiee()
+     * Test setAbsenceModifiee()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AbsencesEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAbsence()
+     * Test setCodeAbsence()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AbsencesEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AbsencesEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantier()
+     * Test setCodeChantier()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class AbsencesEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class AbsencesEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaboValid()
+     * Test setCodeCollaboValid()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class AbsencesEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaborateur()
+     * Test setCodeCollaborateur()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class AbsencesEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEmploye()
+     * Test setCodeEmploye()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class AbsencesEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTache()
+     * Test setCodeTache()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class AbsencesEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDebutAbs()
+     * Test setDateDebutAbs()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -159,7 +159,7 @@ class AbsencesEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFinAbs()
+     * Test setDateFinAbs()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -176,7 +176,7 @@ class AbsencesEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateValidationSynchro()
+     * Test setDateValidationSynchro()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -193,7 +193,7 @@ class AbsencesEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtat()
+     * Test setEtat()
      *
      * @return void
      */
@@ -206,7 +206,7 @@ class AbsencesEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFromFermetureChantier()
+     * Test setFromFermetureChantier()
      *
      * @return void
      */
@@ -219,7 +219,7 @@ class AbsencesEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumBt()
+     * Test setNumBt()
      *
      * @return void
      */
@@ -232,7 +232,7 @@ class AbsencesEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqId()
+     * Test setUniqId()
      *
      * @return void
      */
@@ -245,7 +245,7 @@ class AbsencesEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqIdSynchro()
+     * Test setUniqIdSynchro()
      *
      * @return void
      */
@@ -258,7 +258,7 @@ class AbsencesEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

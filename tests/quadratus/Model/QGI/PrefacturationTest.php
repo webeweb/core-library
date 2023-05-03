@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class PrefacturationTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeArticle()
+     * Test setCodeArticle()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class PrefacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class PrefacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaborateur()
+     * Test setCodeCollaborateur()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class PrefacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeMission()
+     * Test setCodeMission()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class PrefacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePhase()
+     * Test setCodePhase()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class PrefacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRegroupement()
+     * Test setCodeRegroupement()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class PrefacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateSaisie()
+     * Test setDateSaisie()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class PrefacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateSysSaisie()
+     * Test setDateSysSaisie()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -137,7 +137,7 @@ class PrefacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFacturable()
+     * Test setFacturable()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class PrefacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIdPrefacturation()
+     * Test setIdPrefacturation()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class PrefacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIsTransf()
+     * Test setIsTransf()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class PrefacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -189,7 +189,7 @@ class PrefacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMonnaie()
+     * Test setMonnaie()
      *
      * @return void
      */
@@ -202,7 +202,7 @@ class PrefacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPu()
+     * Test setPu()
      *
      * @return void
      */
@@ -215,7 +215,7 @@ class PrefacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQte()
+     * Test setQte()
      *
      * @return void
      */
@@ -228,7 +228,7 @@ class PrefacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqIdFacture()
+     * Test setUniqIdFacture()
      *
      * @return void
      */
@@ -241,7 +241,7 @@ class PrefacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

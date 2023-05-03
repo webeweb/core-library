@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LignesIjssPrevoyanceTest extends AbstractTestCase {
 
     /**
-     * Tests setDateVersement()
+     * Test setDateVersement()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -42,7 +42,7 @@ class LignesIjssPrevoyanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant()
+     * Test setMontant()
      *
      * @return void
      */
@@ -55,7 +55,7 @@ class LignesIjssPrevoyanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumLigne()
+     * Test setNumLigne()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class LignesIjssPrevoyanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroAttestation()
+     * Test setNumeroAttestation()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class LignesIjssPrevoyanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeDeb()
+     * Test setPeriodeDeb()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -98,7 +98,7 @@ class LignesIjssPrevoyanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeFin()
+     * Test setPeriodeFin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -115,7 +115,7 @@ class LignesIjssPrevoyanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Provider\Color\TestIndigoColorProviderTra
 class IndigoColorProviderTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setIndigoColorProvider()
+     * Test setIndigoColorProvider()
      *
      * @return void
      */

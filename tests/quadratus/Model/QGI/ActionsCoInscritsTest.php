@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ActionsCoInscritsTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeAction()
+     * Test setCodeAction()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ActionsCoInscritsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ActionsCoInscritsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeManif()
+     * Test setCodeManif()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ActionsCoInscritsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setConfirme()
+     * Test setConfirme()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ActionsCoInscritsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmail()
+     * Test setEmail()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ActionsCoInscritsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFax()
+     * Test setFax()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class ActionsCoInscritsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNom()
+     * Test setNom()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class ActionsCoInscritsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumInterlocuteur()
+     * Test setNumInterlocuteur()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class ActionsCoInscritsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumSeance()
+     * Test setNumSeance()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class ActionsCoInscritsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumero()
+     * Test setNumero()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class ActionsCoInscritsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrenom()
+     * Test setPrenom()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class ActionsCoInscritsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPresent()
+     * Test setPresent()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class ActionsCoInscritsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTelephone()
+     * Test setTelephone()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class ActionsCoInscritsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeInvite()
+     * Test setTypeInvite()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class ActionsCoInscritsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

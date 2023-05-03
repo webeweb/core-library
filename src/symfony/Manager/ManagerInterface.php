@@ -33,7 +33,7 @@ interface ManagerInterface {
     public function addProvider(ProviderInterface $provider): ManagerInterface;
 
     /**
-     * Determines if this manager contains a provider.
+     * Determine if this manager contains a provider.
      *
      * @param ProviderInterface $provider The provider.
      * @return bool Returns true in case of success, false otherwise.
@@ -42,7 +42,7 @@ interface ManagerInterface {
     public function containsProvider(ProviderInterface $provider): bool;
 
     /**
-     * Determines if this manager contains providers.
+     * Determine if this manager contains providers.
      *
      * @return bool Returns true in case of success, false otherwise.
      */

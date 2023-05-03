@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LiaisonsTypesEnvoisTest extends AbstractTestCase {
 
     /**
-     * Tests setABloquer()
+     * Test setABloquer()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class LiaisonsTypesEnvoisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAEmettre()
+     * Test setAEmettre()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class LiaisonsTypesEnvoisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAccepteDepuisQBureau()
+     * Test setAccepteDepuisQBureau()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class LiaisonsTypesEnvoisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAccepteDepuisQc()
+     * Test setAccepteDepuisQc()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class LiaisonsTypesEnvoisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAccepteDepuisQp()
+     * Test setAccepteDepuisQp()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class LiaisonsTypesEnvoisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCode()
+     * Test setCode()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class LiaisonsTypesEnvoisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntitule()
+     * Test setIntitule()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class LiaisonsTypesEnvoisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setModifiable()
+     * Test setModifiable()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class LiaisonsTypesEnvoisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSansImages()
+     * Test setSansImages()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class LiaisonsTypesEnvoisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

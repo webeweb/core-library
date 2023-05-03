@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Booleans\TestBooleanOnPreDeleteTrait;
 class BooleanOnPreDeleteTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setOnPreDelete()
+     * Test setOnPreDelete()
      *
      * @return void
      */

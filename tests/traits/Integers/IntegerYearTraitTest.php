@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Integers\TestIntegerYearTrait;
 class IntegerYearTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setYear()
+     * Test setYear()
      *
      * @return void
      */

@@ -24,7 +24,7 @@ use WBW\Library\Ftp\Tests\Fixtures\Client\TestClient;
 class AbstractClientTest extends AbstractTestCase {
 
     /**
-     * Tests newFtpException()
+     * Test newFtpException()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AbstractClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setConnection()
+     * Test setConnection()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AbstractClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

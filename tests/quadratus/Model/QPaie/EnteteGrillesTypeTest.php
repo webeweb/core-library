@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EnteteGrillesTypeTest extends AbstractTestCase {
 
     /**
-     * Tests setIntitule()
+     * Test setIntitule()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class EnteteGrillesTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroGrilleType()
+     * Test setNumeroGrilleType()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class EnteteGrillesTypeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -22,7 +22,7 @@ use WBW\Library\Types\TypeInterface;
 class TypeInterfaceTest extends AbstractTestCase {
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

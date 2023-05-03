@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ObligationsTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeFamille()
+     * Test setCodeFamille()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ObligationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeObligation()
+     * Test setCodeObligation()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ObligationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFrequence()
+     * Test setFrequence()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ObligationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntitule()
+     * Test setIntitule()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ObligationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

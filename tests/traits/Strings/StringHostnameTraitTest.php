@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringHostnameTrait;
 class StringHostnameTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setHostname()
+     * Test setHostname()
      *
      * @return void
      */

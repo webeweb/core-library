@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class FormationsTest extends AbstractTestCase {
 
     /**
-     * Tests setActive()
+     * Test setActive()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class FormationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDescription()
+     * Test setDescription()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class FormationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setId()
+     * Test setId()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class FormationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLienDocument()
+     * Test setLienDocument()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class FormationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLieu()
+     * Test setLieu()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class FormationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHFormation()
+     * Test setNbHFormation()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class FormationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbhDiFPrisW()
+     * Test setNbhDiFPrisW()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class FormationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbhDifPrisHorsW()
+     * Test setNbhDifPrisHorsW()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class FormationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmploye()
+     * Test setNumeroEmploye()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class FormationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOrganisme()
+     * Test setOrganisme()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class FormationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeDeb()
+     * Test setPeriodeDeb()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -172,7 +172,7 @@ class FormationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeFin()
+     * Test setPeriodeFin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -189,7 +189,7 @@ class FormationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeFormation()
+     * Test setTypeFormation()
      *
      * @return void
      */
@@ -202,7 +202,7 @@ class FormationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

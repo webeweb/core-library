@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class NotesTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeCategorie()
+     * Test setCodeCategorie()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class NotesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaborateur()
+     * Test setCodeCollaborateur()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class NotesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaborateurModif()
+     * Test setCodeCollaborateurModif()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class NotesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateCreation()
+     * Test setDateCreation()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class NotesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateModification()
+     * Test setDateModification()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -98,7 +98,7 @@ class NotesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateRappel()
+     * Test setDateRappel()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -115,7 +115,7 @@ class NotesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEnvoiPostIt()
+     * Test setEnvoiPostIt()
      *
      * @return void
      */
@@ -128,7 +128,7 @@ class NotesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntitule()
+     * Test setIntitule()
      *
      * @return void
      */
@@ -141,7 +141,7 @@ class NotesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumUniq()
+     * Test setNumUniq()
      *
      * @return void
      */
@@ -154,7 +154,7 @@ class NotesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTitre()
+     * Test setTitre()
      *
      * @return void
      */
@@ -167,7 +167,7 @@ class NotesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

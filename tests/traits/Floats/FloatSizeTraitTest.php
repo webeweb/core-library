@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Floats\TestFloatSizeTrait;
 class FloatSizeTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setSize()
+     * Test setSize()
      *
      * @return void
      */

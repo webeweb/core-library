@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LiaisonsHistoriqueTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeCollab()
+     * Test setCodeCollab()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class LiaisonsHistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateLiaison()
+     * Test setDateLiaison()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -55,7 +55,7 @@ class LiaisonsHistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateRetourPrevue()
+     * Test setDateRetourPrevue()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -72,7 +72,7 @@ class LiaisonsHistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDestinataire()
+     * Test setDestinataire()
      *
      * @return void
      */
@@ -85,7 +85,7 @@ class LiaisonsHistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setModules()
+     * Test setModules()
      *
      * @return void
      */
@@ -98,7 +98,7 @@ class LiaisonsHistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setModulesBloques()
+     * Test setModulesBloques()
      *
      * @return void
      */
@@ -111,7 +111,7 @@ class LiaisonsHistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumUniq()
+     * Test setNumUniq()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class LiaisonsHistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroDossier()
+     * Test setNumeroDossier()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class LiaisonsHistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSens()
+     * Test setSens()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class LiaisonsHistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeLiaison()
+     * Test setTypeLiaison()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class LiaisonsHistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

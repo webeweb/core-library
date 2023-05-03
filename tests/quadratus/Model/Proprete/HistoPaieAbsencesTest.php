@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class HistoPaieAbsencesTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeAbsPaie()
+     * Test setCodeAbsPaie()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class HistoPaieAbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAbsence()
+     * Test setCodeAbsence()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class HistoPaieAbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaboValid()
+     * Test setCodeCollaboValid()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class HistoPaieAbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaborateur()
+     * Test setCodeCollaborateur()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class HistoPaieAbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEmploye()
+     * Test setCodeEmploye()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class HistoPaieAbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDebutAbs()
+     * Test setDateDebutAbs()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -107,7 +107,7 @@ class HistoPaieAbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFinAbs()
+     * Test setDateFinAbs()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -124,7 +124,7 @@ class HistoPaieAbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateValidationSynchro()
+     * Test setDateValidationSynchro()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -141,7 +141,7 @@ class HistoPaieAbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDureeAbsence()
+     * Test setDureeAbsence()
      *
      * @return void
      */
@@ -154,7 +154,7 @@ class HistoPaieAbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtat()
+     * Test setEtat()
      *
      * @return void
      */
@@ -167,7 +167,7 @@ class HistoPaieAbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJoursAbs()
+     * Test setNbJoursAbs()
      *
      * @return void
      */
@@ -180,7 +180,7 @@ class HistoPaieAbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -197,7 +197,7 @@ class HistoPaieAbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqId()
+     * Test setUniqId()
      *
      * @return void
      */
@@ -210,7 +210,7 @@ class HistoPaieAbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqIdSynchro()
+     * Test setUniqIdSynchro()
      *
      * @return void
      */
@@ -223,7 +223,7 @@ class HistoPaieAbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

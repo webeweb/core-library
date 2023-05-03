@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EmpRecapPenibiliteTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeCollab()
+     * Test setCodeCollab()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class EmpRecapPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateCreat()
+     * Test setDateCreat()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -55,7 +55,7 @@ class EmpRecapPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDebut()
+     * Test setDateDebut()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -72,7 +72,7 @@ class EmpRecapPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFin()
+     * Test setDateFin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -89,7 +89,7 @@ class EmpRecapPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateModif()
+     * Test setDateModif()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -106,7 +106,7 @@ class EmpRecapPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtat()
+     * Test setEtat()
      *
      * @return void
      */
@@ -119,7 +119,7 @@ class EmpRecapPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIdRecap()
+     * Test setIdRecap()
      *
      * @return void
      */
@@ -132,7 +132,7 @@ class EmpRecapPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndiceBul()
+     * Test setIndiceBul()
      *
      * @return void
      */
@@ -145,7 +145,7 @@ class EmpRecapPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmploye()
+     * Test setNumeroEmploye()
      *
      * @return void
      */
@@ -158,7 +158,7 @@ class EmpRecapPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroOrdre()
+     * Test setNumeroOrdre()
      *
      * @return void
      */
@@ -171,7 +171,7 @@ class EmpRecapPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setReguleTraitee()
+     * Test setReguleTraitee()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -188,7 +188,7 @@ class EmpRecapPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

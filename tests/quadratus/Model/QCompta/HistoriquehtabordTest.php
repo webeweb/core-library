@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class HistoriquehtabordTest extends AbstractTestCase {
 
     /**
-     * Tests setAlpha()
+     * Test setAlpha()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class HistoriquehtabordTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAnN()
+     * Test setAnN()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class HistoriquehtabordTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAnN1()
+     * Test setAnN1()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class HistoriquehtabordTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAnN2()
+     * Test setAnN2()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class HistoriquehtabordTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBudget1()
+     * Test setBudget1()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class HistoriquehtabordTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBudget2()
+     * Test setBudget2()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class HistoriquehtabordTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDate()
+     * Test setDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class HistoriquehtabordTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFlgAnN()
+     * Test setFlgAnN()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class HistoriquehtabordTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFlgAnN1()
+     * Test setFlgAnN1()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class HistoriquehtabordTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFlgAnN2()
+     * Test setFlgAnN2()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class HistoriquehtabordTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFlgBudget1()
+     * Test setFlgBudget1()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class HistoriquehtabordTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFlgBudget2()
+     * Test setFlgBudget2()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class HistoriquehtabordTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFmtDec()
+     * Test setFmtDec()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class HistoriquehtabordTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFmtInt()
+     * Test setFmtInt()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class HistoriquehtabordTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMemo()
+     * Test setMemo()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class HistoriquehtabordTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoConvEuro()
+     * Test setNoConvEuro()
      *
      * @return void
      */
@@ -237,7 +237,7 @@ class HistoriquehtabordTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRegle()
+     * Test setRegle()
      *
      * @return void
      */
@@ -250,7 +250,7 @@ class HistoriquehtabordTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRub()
+     * Test setRub()
      *
      * @return void
      */
@@ -263,7 +263,7 @@ class HistoriquehtabordTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeZone()
+     * Test setTypeZone()
      *
      * @return void
      */
@@ -276,7 +276,7 @@ class HistoriquehtabordTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

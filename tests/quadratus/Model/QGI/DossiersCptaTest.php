@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DossiersCptaTest extends AbstractTestCase {
 
     /**
-     * Tests setCheminDossierCpta()
+     * Test setCheminDossierCpta()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class DossiersCptaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumDossierCpta()
+     * Test setNumDossierCpta()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class DossiersCptaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumDossierFact()
+     * Test setNumDossierFact()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class DossiersCptaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

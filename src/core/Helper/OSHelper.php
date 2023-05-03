@@ -83,7 +83,7 @@ class OSHelper {
     }
 
     /**
-     * Determines if the operating system is Linux.
+     * Determine if the operating system is Linux.
      *
      * @return bool Returns true in case of success, false otherwise.
      */
@@ -92,7 +92,7 @@ class OSHelper {
     }
 
     /**
-     * Determines if the operating system is Windows.
+     * Determine if the operating system is Windows.
      *
      * @return bool Returns true in case of success, false otherwise.
      */

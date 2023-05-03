@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Floats\TestFloatExcludingVatTotalTrait;
 class FloatExcludingVatTotalTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setExcludingVatTotal()
+     * Test setExcludingVatTotal()
      *
      * @return void
      */

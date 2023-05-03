@@ -23,7 +23,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Renderer\Strings\TestBoldTextRendererTrai
 class BoldTextRendererTraitTest extends AbstractTestCase {
 
     /**
-     * Tests renderBoldText()
+     * Test renderBoldText()
      *
      * @return void
      */

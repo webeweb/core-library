@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Booleans\TestBooleanReadyTrait;
 class BooleanReadyTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setReady()
+     * Test setReady()
      *
      * @return void
      */

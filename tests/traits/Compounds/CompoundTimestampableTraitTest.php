@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Compounds\TestCompoundTimestampableTrait;
 class CompoundTimestampableTraitTest extends AbstractTestCase {
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

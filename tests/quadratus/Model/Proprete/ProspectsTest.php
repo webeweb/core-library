@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ProspectsTest extends AbstractTestCase {
 
     /**
-     * Tests setBtq()
+     * Test setBtq()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ProspectsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBureauDistributeur()
+     * Test setBureauDistributeur()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ProspectsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePostal()
+     * Test setCodePostal()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ProspectsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeProspect()
+     * Test setCodeProspect()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ProspectsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setComplement()
+     * Test setComplement()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ProspectsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNom()
+     * Test setNom()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class ProspectsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomSuite()
+     * Test setNomSuite()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class ProspectsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomSuite2()
+     * Test setNomSuite2()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class ProspectsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomSuite3()
+     * Test setNomSuite3()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class ProspectsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomVoie()
+     * Test setNomVoie()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class ProspectsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumVoie()
+     * Test setNumVoie()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class ProspectsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

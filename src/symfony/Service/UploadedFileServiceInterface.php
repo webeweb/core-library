@@ -23,7 +23,7 @@ use Throwable;
 interface UploadedFileServiceInterface {
 
     /**
-     * Determines if a filename exists.
+     * Determine if a filename exists.
      *
      * @param string $filename The filename.
      * @return bool Returns true in case of success, false otherwise.

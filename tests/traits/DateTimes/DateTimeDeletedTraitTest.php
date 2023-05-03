@@ -24,7 +24,7 @@ use WBW\Library\Traits\Tests\Fixtures\DateTimes\TestDateTimeDeletedTrait;
 class DateTimeDeletedTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setDeleted()
+     * Test setDeleted()
      *
      * @return void
      */

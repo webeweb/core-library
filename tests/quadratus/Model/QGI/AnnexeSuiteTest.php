@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AnnexeSuiteTest extends AbstractTestCase {
 
     /**
-     * Tests setCode1()
+     * Test setCode1()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class AnnexeSuiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCode2()
+     * Test setCode2()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class AnnexeSuiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCritereLibre1()
+     * Test setCritereLibre1()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class AnnexeSuiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCritereLibre2()
+     * Test setCritereLibre2()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class AnnexeSuiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDestRelance()
+     * Test setDestRelance()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class AnnexeSuiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFax()
+     * Test setFax()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class AnnexeSuiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumero()
+     * Test setNumero()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class AnnexeSuiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrenom()
+     * Test setPrenom()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class AnnexeSuiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemarquesRtf()
+     * Test setRemarquesRtf()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class AnnexeSuiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setService()
+     * Test setService()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class AnnexeSuiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setType()
+     * Test setType()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class AnnexeSuiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

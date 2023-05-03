@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ConventionsColGrillesAncTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeConvention()
+     * Test setCodeConvention()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ConventionsColGrillesAncTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeGrille()
+     * Test setCodeGrille()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ConventionsColGrillesAncTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntitule()
+     * Test setIntitule()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ConventionsColGrillesAncTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeGrille()
+     * Test setTypeGrille()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ConventionsColGrillesAncTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

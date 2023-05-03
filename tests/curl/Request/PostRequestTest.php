@@ -25,7 +25,7 @@ use WBW\Library\Curl\Tests\AbstractTestCase;
 class PostRequestTest extends AbstractTestCase {
 
     /**
-     * Tests addPostData() method.
+     * Test addPostData() method.
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -41,7 +41,7 @@ class PostRequestTest extends AbstractTestCase {
     }
 
     /**
-     * Tests call() method.
+     * Test call() method.
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -60,7 +60,7 @@ class PostRequestTest extends AbstractTestCase {
     }
 
     /**
-     * Tests clearPostData()
+     * Test clearPostData()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -77,7 +77,7 @@ class PostRequestTest extends AbstractTestCase {
     }
 
     /**
-     * Tests removePostData() method.
+     * Test removePostData() method.
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -97,7 +97,7 @@ class PostRequestTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct() method.
+     * Test __construct() method.
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.

@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class FactorsTest extends AbstractTestCase {
 
     /**
-     * Tests setBic()
+     * Test setBic()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class FactorsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBtq()
+     * Test setBtq()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class FactorsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBureauDistributeur()
+     * Test setBureauDistributeur()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class FactorsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeFactor()
+     * Test setCodeFactor()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class FactorsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePostal()
+     * Test setCodePostal()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class FactorsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setComplement()
+     * Test setComplement()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class FactorsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDomiciliationBancaire1()
+     * Test setDomiciliationBancaire1()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class FactorsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDomiciliationBancaire2()
+     * Test setDomiciliationBancaire2()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class FactorsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIban()
+     * Test setIban()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class FactorsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNom()
+     * Test setNom()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class FactorsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomSuite()
+     * Test setNomSuite()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class FactorsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomVoie()
+     * Test setNomVoie()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class FactorsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumVoie()
+     * Test setNumVoie()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class FactorsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRib()
+     * Test setRib()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class FactorsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTelephone()
+     * Test setTelephone()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class FactorsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

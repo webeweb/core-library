@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DevisProgLignesTest extends AbstractTestCase {
 
     /**
-     * Tests setAou()
+     * Test setAou()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class DevisProgLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAvr()
+     * Test setAvr()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class DevisProgLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEchelle()
+     * Test setCodeEchelle()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class DevisProgLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeOperation()
+     * Test setCodeOperation()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class DevisProgLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCoefficient()
+     * Test setCoefficient()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class DevisProgLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDec()
+     * Test setDec()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class DevisProgLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDimanche()
+     * Test setDimanche()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class DevisProgLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFev()
+     * Test setFev()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class DevisProgLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setJan()
+     * Test setJan()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class DevisProgLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setJeudi()
+     * Test setJeudi()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class DevisProgLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setJuil()
+     * Test setJuil()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class DevisProgLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setJuin()
+     * Test setJuin()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class DevisProgLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLundi()
+     * Test setLundi()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class DevisProgLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMai()
+     * Test setMai()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class DevisProgLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMar()
+     * Test setMar()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class DevisProgLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMardi()
+     * Test setMardi()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class DevisProgLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMercredi()
+     * Test setMercredi()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class DevisProgLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoteResultat()
+     * Test setNoteResultat()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class DevisProgLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNov()
+     * Test setNov()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class DevisProgLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumDevis()
+     * Test setNumDevis()
      *
      * @return void
      */
@@ -283,7 +283,7 @@ class DevisProgLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumLigne()
+     * Test setNumLigne()
      *
      * @return void
      */
@@ -296,7 +296,7 @@ class DevisProgLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumProgramme()
+     * Test setNumProgramme()
      *
      * @return void
      */
@@ -309,7 +309,7 @@ class DevisProgLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOccurrence()
+     * Test setOccurrence()
      *
      * @return void
      */
@@ -322,7 +322,7 @@ class DevisProgLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOct()
+     * Test setOct()
      *
      * @return void
      */
@@ -335,7 +335,7 @@ class DevisProgLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodicite()
+     * Test setPeriodicite()
      *
      * @return void
      */
@@ -348,7 +348,7 @@ class DevisProgLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSamedi()
+     * Test setSamedi()
      *
      * @return void
      */
@@ -361,7 +361,7 @@ class DevisProgLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSep()
+     * Test setSep()
      *
      * @return void
      */
@@ -374,7 +374,7 @@ class DevisProgLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setVendredi()
+     * Test setVendredi()
      *
      * @return void
      */
@@ -387,7 +387,7 @@ class DevisProgLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setVitesseReelle()
+     * Test setVitesseReelle()
      *
      * @return void
      */
@@ -400,7 +400,7 @@ class DevisProgLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setVitesseTheorique()
+     * Test setVitesseTheorique()
      *
      * @return void
      */
@@ -413,7 +413,7 @@ class DevisProgLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

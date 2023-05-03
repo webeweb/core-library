@@ -23,7 +23,7 @@ use WBW\Library\Symfony\Tests\AbstractTestCase;
 class QuoteTest extends AbstractTestCase {
 
     /**
-     * Tests setAuthor()
+     * Test setAuthor()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class QuoteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSaint()
+     * Test setSaint()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class QuoteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

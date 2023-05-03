@@ -24,7 +24,7 @@ use WBW\Library\OcrLad\Tests\AbstractTestCase;
 class DocumentTest extends AbstractTestCase {
 
     /**
-     * Tests addPage()
+     * Test addPage()
      *
      * @return void
      */
@@ -42,7 +42,7 @@ class DocumentTest extends AbstractTestCase {
     }
 
     /**
-     * Tests getPage()
+     * Test getPage()
      *
      * @return void
      */
@@ -61,7 +61,7 @@ class DocumentTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AffectationMaterielTest extends AbstractTestCase {
 
     /**
-     * Tests setBudgetDepenseEuro()
+     * Test setBudgetDepenseEuro()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AffectationMaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBudgetDepenseFrf()
+     * Test setBudgetDepenseFrf()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AffectationMaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AffectationMaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantier()
+     * Test setCodeChantier()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class AffectationMaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class AffectationMaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeMateriel()
+     * Test setCodeMateriel()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class AffectationMaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTache()
+     * Test setCodeTache()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class AffectationMaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDebutAffect()
+     * Test setDebutAffect()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -133,7 +133,7 @@ class AffectationMaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFinAffect()
+     * Test setFinAffect()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -150,7 +150,7 @@ class AffectationMaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPourcentUtilise()
+     * Test setPourcentUtilise()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class AffectationMaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

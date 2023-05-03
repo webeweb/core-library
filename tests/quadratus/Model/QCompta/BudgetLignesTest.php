@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class BudgetLignesTest extends AbstractTestCase {
 
     /**
-     * Tests setCentre()
+     * Test setCentre()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeBudget()
+     * Test setCodeBudget()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCoef()
+     * Test setCoef()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setColSaisie()
+     * Test setColSaisie()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCommentaires()
+     * Test setCommentaires()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompte()
+     * Test setCompte()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMt1()
+     * Test setMt1()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMt10()
+     * Test setMt10()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMt11()
+     * Test setMt11()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMt12()
+     * Test setMt12()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMt13()
+     * Test setMt13()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMt14()
+     * Test setMt14()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMt15()
+     * Test setMt15()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMt16()
+     * Test setMt16()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMt17()
+     * Test setMt17()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMt18()
+     * Test setMt18()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMt19()
+     * Test setMt19()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMt2()
+     * Test setMt2()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMt20()
+     * Test setMt20()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMt21()
+     * Test setMt21()
      *
      * @return void
      */
@@ -283,7 +283,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMt22()
+     * Test setMt22()
      *
      * @return void
      */
@@ -296,7 +296,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMt23()
+     * Test setMt23()
      *
      * @return void
      */
@@ -309,7 +309,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMt24()
+     * Test setMt24()
      *
      * @return void
      */
@@ -322,7 +322,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMt3()
+     * Test setMt3()
      *
      * @return void
      */
@@ -335,7 +335,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMt4()
+     * Test setMt4()
      *
      * @return void
      */
@@ -348,7 +348,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMt5()
+     * Test setMt5()
      *
      * @return void
      */
@@ -361,7 +361,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMt6()
+     * Test setMt6()
      *
      * @return void
      */
@@ -374,7 +374,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMt7()
+     * Test setMt7()
      *
      * @return void
      */
@@ -387,7 +387,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMt8()
+     * Test setMt8()
      *
      * @return void
      */
@@ -400,7 +400,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMt9()
+     * Test setMt9()
      *
      * @return void
      */
@@ -413,7 +413,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNature()
+     * Test setNature()
      *
      * @return void
      */
@@ -426,7 +426,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRefImage()
+     * Test setRefImage()
      *
      * @return void
      */
@@ -439,7 +439,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeSaisie()
+     * Test setTypeSaisie()
      *
      * @return void
      */
@@ -452,7 +452,7 @@ class BudgetLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Assets\TestToastTrait;
 class ToastTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setToast()
+     * Test setToast()
      *
      * @return void
      */

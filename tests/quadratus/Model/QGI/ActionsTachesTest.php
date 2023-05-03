@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ActionsTachesTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeAction()
+     * Test setCodeAction()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ActionsTachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTache()
+     * Test setCodeTache()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ActionsTachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

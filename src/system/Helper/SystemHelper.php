@@ -37,7 +37,7 @@ use WBW\Library\System\Model\PropertyInterface;
 class SystemHelper {
 
     /**
-     * Determines if this system is supported.
+     * Determine if this system is supported.
      *
      * @throws RuntimeException Throws a runtime exception.
      */
@@ -49,7 +49,7 @@ class SystemHelper {
     }
 
     /**
-     * Determines if the operating system is Unix.
+     * Determine if the operating system is Unix.
      *
      * @return bool Returns true in case of success, false otherwise.
      */
@@ -58,7 +58,7 @@ class SystemHelper {
     }
 
     /**
-     * Determines if the operating system is Windows.
+     * Determine if the operating system is Windows.
      *
      * @return bool Returns true in case of success, false otherwise.
      */
@@ -67,7 +67,7 @@ class SystemHelper {
     }
 
     /**
-     * Retrieves the current processor usage.
+     * Retrieve the current processor usage.
      *
      * @return CpuInterface Returns the current processor usage.
      * @throws RuntimeException Throws a runtime exception.
@@ -93,7 +93,7 @@ class SystemHelper {
     }
 
     /**
-     * Retrieves the date.
+     * Retrieve the date.
      *
      * @return string Returns the date.
      * @throws RuntimeException Throws a runtime exception.
@@ -106,7 +106,7 @@ class SystemHelper {
     }
 
     /**
-     * Retrieves the hard disks.
+     * Retrieve the hard disks.
      *
      * @return HardDiskInterface[] Returns the hard disks.
      * @throws RuntimeException Throws a runtime exception.
@@ -146,7 +146,7 @@ class SystemHelper {
     }
 
     /**
-     * Retrieves the hostname.
+     * Retrieve the hostname.
      *
      * @return string Returns the hostname.
      * @throws RuntimeException Throws a runtime exception.
@@ -159,7 +159,7 @@ class SystemHelper {
     }
 
     /**
-     * Retrieves the memory.
+     * Retrieve the memory.
      *
      * @return MemoryInterface Returns the memory.
      * @throws RuntimeException Throws a runtime exception.
@@ -191,7 +191,7 @@ class SystemHelper {
     }
 
     /**
-     * Retrieves the network.
+     * Retrieve the network.
      *
      * @return NetworkInterface Returns the network.
      * @throws RuntimeException Throws a runtime exception.
@@ -212,7 +212,7 @@ class SystemHelper {
     }
 
     /**
-     * Retrieves a network card.
+     * Retrieve a network card.
      *
      * @param string $name The name.
      * @return NetworkCardInterface Returns the network card.
@@ -250,7 +250,7 @@ class SystemHelper {
     }
 
     /**
-     * Retrieves the network cards.
+     * Retrieve the network cards.
      *
      * @return NetworkCardInterface[] Returns the network cards.
      * @throws RuntimeException Throws a runtime exception.
@@ -274,7 +274,7 @@ class SystemHelper {
     }
 
     /**
-     * Retrieves the operating system.
+     * Retrieve the operating system.
      *
      * @return OperatingSystemInterface Returns the operating system.
      * @throws RuntimeException Throws a runtime exception.
@@ -298,7 +298,7 @@ class SystemHelper {
     }
 
     /**
-     * Retrieves the processors.
+     * Retrieve the processors.
      *
      * @return ProcessorInterface[] Returns the processors.
      * @throws RuntimeException Throws a runtime exception.
@@ -341,7 +341,7 @@ class SystemHelper {
     }
 
     /**
-     * Retrieves the properties.
+     * Retrieve the properties.
      *
      * @return string[] Returns the properties.
      */
@@ -368,7 +368,7 @@ class SystemHelper {
     }
 
     /**
-     * Retrieves the uptime.
+     * Retrieve the uptime.
      *
      * @return string Returns the uptime.
      * @throws RuntimeException Throws a runtime exception.

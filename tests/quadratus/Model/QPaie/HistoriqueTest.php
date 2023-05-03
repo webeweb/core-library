@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class HistoriqueTest extends AbstractTestCase {
 
     /**
-     * Tests setAnnees()
+     * Test setAnnees()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class HistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAnneesPlus()
+     * Test setAnneesPlus()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class HistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEtablissement()
+     * Test setCodeEtablissement()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class HistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCsValide()
+     * Test setCsValide()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class HistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCtValide()
+     * Test setCtValide()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -98,7 +98,7 @@ class HistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRub()
+     * Test setRub()
      *
      * @return void
      */
@@ -111,7 +111,7 @@ class HistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setService()
+     * Test setService()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class HistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setVisiteMedicale()
+     * Test setVisiteMedicale()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -141,7 +141,7 @@ class HistoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

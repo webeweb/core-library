@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringLogoTrait;
 class StringLogoTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setLogo()
+     * Test setLogo()
      *
      * @return void
      */

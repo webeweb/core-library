@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class StatistiquesTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class StatistiquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRubrique()
+     * Test setCodeRubrique()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class StatistiquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setInfoCellule()
+     * Test setInfoCellule()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class StatistiquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMillesime()
+     * Test setMillesime()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class StatistiquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

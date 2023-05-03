@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DevisEntetesTest extends AbstractTestCase {
 
     /**
-     * Tests setBtq()
+     * Test setBtq()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCivilite()
+     * Test setCivilite()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setClientProspect()
+     * Test setClientProspect()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCommercial()
+     * Test setCodeCommercial()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePays()
+     * Test setCodePays()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePostal()
+     * Test setCodePostal()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setComplement()
+     * Test setComplement()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateCreation()
+     * Test setDateCreation()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -146,7 +146,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDevis()
+     * Test setDateDevis()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -163,7 +163,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateModification()
+     * Test setDateModification()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -180,7 +180,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtat()
+     * Test setEtat()
      *
      * @return void
      */
@@ -193,7 +193,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -206,7 +206,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLienDocument()
+     * Test setLienDocument()
      *
      * @return void
      */
@@ -219,7 +219,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantHt()
+     * Test setMontantHt()
      *
      * @return void
      */
@@ -232,7 +232,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomAdresse()
+     * Test setNomAdresse()
      *
      * @return void
      */
@@ -245,7 +245,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomSuite()
+     * Test setNomSuite()
      *
      * @return void
      */
@@ -258,7 +258,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomSuite2()
+     * Test setNomSuite2()
      *
      * @return void
      */
@@ -271,7 +271,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomSuite3()
+     * Test setNomSuite3()
      *
      * @return void
      */
@@ -284,7 +284,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomVille()
+     * Test setNomVille()
      *
      * @return void
      */
@@ -297,7 +297,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomVoie()
+     * Test setNomVoie()
      *
      * @return void
      */
@@ -310,7 +310,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumDevis()
+     * Test setNumDevis()
      *
      * @return void
      */
@@ -323,7 +323,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumVoie()
+     * Test setNumVoie()
      *
      * @return void
      */
@@ -336,7 +336,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroPj()
+     * Test setNumeroPj()
      *
      * @return void
      */
@@ -349,7 +349,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setReference1()
+     * Test setReference1()
      *
      * @return void
      */
@@ -362,7 +362,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setReference2()
+     * Test setReference2()
      *
      * @return void
      */
@@ -375,7 +375,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setReference3()
+     * Test setReference3()
      *
      * @return void
      */
@@ -388,7 +388,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setReference4()
+     * Test setReference4()
      *
      * @return void
      */
@@ -401,7 +401,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxTva()
+     * Test setTauxTva()
      *
      * @return void
      */
@@ -414,7 +414,7 @@ class DevisEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -60,7 +60,7 @@ class PhantomJSServiceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests getCommand()
+     * Test getCommand()
      *
      * @return void.
      */
@@ -77,7 +77,7 @@ class PhantomJSServiceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

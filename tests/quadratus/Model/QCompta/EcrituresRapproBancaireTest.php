@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EcrituresRapproBancaireTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeDevise()
+     * Test setCodeDevise()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class EcrituresRapproBancaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateRapproBancaire()
+     * Test setDateRapproBancaire()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -55,7 +55,7 @@ class EcrituresRapproBancaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setJourEcriture()
+     * Test setJourEcriture()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class EcrituresRapproBancaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setJrnRapproBancaire()
+     * Test setJrnRapproBancaire()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class EcrituresRapproBancaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class EcrituresRapproBancaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantSaisiCredit()
+     * Test setMontantSaisiCredit()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class EcrituresRapproBancaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantSaisiDebit()
+     * Test setMontantSaisiDebit()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class EcrituresRapproBancaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantTenuCredit()
+     * Test setMontantTenuCredit()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class EcrituresRapproBancaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantTenuDebit()
+     * Test setMontantTenuDebit()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class EcrituresRapproBancaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumUniq()
+     * Test setNumUniq()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class EcrituresRapproBancaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroPiece()
+     * Test setNumeroPiece()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class EcrituresRapproBancaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeEcriture()
+     * Test setPeriodeEcriture()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -189,7 +189,7 @@ class EcrituresRapproBancaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRapproBancaireOk()
+     * Test setRapproBancaireOk()
      *
      * @return void
      */
@@ -202,7 +202,7 @@ class EcrituresRapproBancaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

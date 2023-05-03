@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Provider\Theme\TestBreadcrumbsThemeProvid
 class BreadcrumbsThemeProviderTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setBreadcrumbsThemeProvider()
+     * Test setBreadcrumbsThemeProvider()
      *
      * @return void
      */

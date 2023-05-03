@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class FichesControlesLignesEmployesTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class FichesControlesLignesEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantier()
+     * Test setCodeChantier()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class FichesControlesLignesEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class FichesControlesLignesEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEmploye()
+     * Test setCodeEmploye()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class FichesControlesLignesEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRemplacant()
+     * Test setCodeRemplacant()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class FichesControlesLignesEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroFiche()
+     * Test setNumeroFiche()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class FichesControlesLignesEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPoste()
+     * Test setPoste()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class FichesControlesLignesEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemarque()
+     * Test setRemarque()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class FichesControlesLignesEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

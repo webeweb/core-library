@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ActionsCoDocsTest extends AbstractTestCase {
 
     /**
-     * Tests setAuteur()
+     * Test setAuteur()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class ActionsCoDocsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAction()
+     * Test setCodeAction()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class ActionsCoDocsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class ActionsCoDocsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeDoc()
+     * Test setCodeDoc()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class ActionsCoDocsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeManif()
+     * Test setCodeManif()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class ActionsCoDocsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateCreation()
+     * Test setDateCreation()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -107,7 +107,7 @@ class ActionsCoDocsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateModification()
+     * Test setDateModification()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -124,7 +124,7 @@ class ActionsCoDocsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmplacementFichier()
+     * Test setEmplacementFichier()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class ActionsCoDocsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class ActionsCoDocsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumero()
+     * Test setNumero()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class ActionsCoDocsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class BulletinsTest extends AbstractTestCase {
 
     /**
-     * Tests setAbatTheo()
+     * Test setAbatTheo()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAbattementMax()
+     * Test setAbattementMax()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAllegement()
+     * Test setAllegement()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAllegementNonProratise()
+     * Test setAllegementNonProratise()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAvantageNature()
+     * Test setAvantageNature()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBaseGmp()
+     * Test setBaseGmp()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBaseSecu()
+     * Test setBaseSecu()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBaseSsPlafModif()
+     * Test setBaseSsPlafModif()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBornePerModifie()
+     * Test setBornePerModifie()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBrut()
+     * Test setBrut()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBrutAl()
+     * Test setBrutAl()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBrutAlLimiteSmic()
+     * Test setBrutAlLimiteSmic()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBrutAlModifie()
+     * Test setBrutAlModifie()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBrutAnl()
+     * Test setBrutAnl()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBrutCaisse1()
+     * Test setBrutCaisse1()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBrutCaisse2()
+     * Test setBrutCaisse2()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBrutCaisse3()
+     * Test setBrutCaisse3()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBrutCaisseCp()
+     * Test setBrutCaisseCp()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBrutCp()
+     * Test setBrutCp()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBrutCsg()
+     * Test setBrutCsg()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBrutSoumisAbat()
+     * Test setBrutSoumisAbat()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBrutSoumisCrds()
+     * Test setBrutSoumisCrds()
      *
      * @return void
      */
@@ -311,7 +311,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBulletinPublie()
+     * Test setBulletinPublie()
      *
      * @return void
      */
@@ -324,7 +324,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCategTds()
+     * Test setCategTds()
      *
      * @return void
      */
@@ -337,7 +337,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChequeEdite()
+     * Test setChequeEdite()
      *
      * @return void
      */
@@ -350,7 +350,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChomPartielCoeffIndem()
+     * Test setChomPartielCoeffIndem()
      *
      * @return void
      */
@@ -363,7 +363,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChomPartielCp()
+     * Test setChomPartielCp()
      *
      * @return void
      */
@@ -376,7 +376,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChomPartielMinIndem()
+     * Test setChomPartielMinIndem()
      *
      * @return void
      */
@@ -389,7 +389,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAtPer()
+     * Test setCodeAtPer()
      *
      * @return void
      */
@@ -402,7 +402,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCentreUrssaf()
+     * Test setCodeCentreUrssaf()
      *
      * @return void
      */
@@ -415,7 +415,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEtablissement()
+     * Test setCodeEtablissement()
      *
      * @return void
      */
@@ -428,7 +428,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTypeSal()
+     * Test setCodeTypeSal()
      *
      * @return void
      */
@@ -441,7 +441,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCoeffIntemperie()
+     * Test setCoeffIntemperie()
      *
      * @return void
      */
@@ -454,7 +454,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setContHSupReposComp()
+     * Test setContHSupReposComp()
      *
      * @return void
      */
@@ -467,7 +467,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCoutGlobalMois()
+     * Test setCoutGlobalMois()
      *
      * @return void
      */
@@ -480,7 +480,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCum30Ss()
+     * Test setCum30Ss()
      *
      * @return void
      */
@@ -493,7 +493,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumAntHSup()
+     * Test setCumAntHSup()
      *
      * @return void
      */
@@ -506,7 +506,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBaseGmp()
+     * Test setCumBaseGmp()
      *
      * @return void
      */
@@ -519,7 +519,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBaseSs()
+     * Test setCumBaseSs()
      *
      * @return void
      */
@@ -532,7 +532,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBrut()
+     * Test setCumBrut()
      *
      * @return void
      */
@@ -545,7 +545,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBrutAl()
+     * Test setCumBrutAl()
      *
      * @return void
      */
@@ -558,7 +558,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBrutAnl()
+     * Test setCumBrutAnl()
      *
      * @return void
      */
@@ -571,7 +571,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBrutCaisse1()
+     * Test setCumBrutCaisse1()
      *
      * @return void
      */
@@ -584,7 +584,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBrutCaisse2()
+     * Test setCumBrutCaisse2()
      *
      * @return void
      */
@@ -597,7 +597,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBrutCaisse3()
+     * Test setCumBrutCaisse3()
      *
      * @return void
      */
@@ -610,7 +610,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumDifDus()
+     * Test setCumDifDus()
      *
      * @return void
      */
@@ -623,7 +623,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumDifDus1()
+     * Test setCumDifDus1()
      *
      * @return void
      */
@@ -636,7 +636,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumHBonifie()
+     * Test setCumHBonifie()
      *
      * @return void
      */
@@ -649,7 +649,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumHReposComp()
+     * Test setCumHReposComp()
      *
      * @return void
      */
@@ -662,7 +662,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumHReposRemplace()
+     * Test setCumHReposRemplace()
      *
      * @return void
      */
@@ -675,7 +675,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumHService()
+     * Test setCumHService()
      *
      * @return void
      */
@@ -688,7 +688,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumImpos()
+     * Test setCumImpos()
      *
      * @return void
      */
@@ -701,7 +701,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumJReposRecup()
+     * Test setCumJReposRecup()
      *
      * @return void
      */
@@ -714,7 +714,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumMtCpPris()
+     * Test setCumMtCpPris()
      *
      * @return void
      */
@@ -727,7 +727,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumMtCpPris1()
+     * Test setCumMtCpPris1()
      *
      * @return void
      */
@@ -740,7 +740,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumNetAPayer()
+     * Test setCumNetAPayer()
      *
      * @return void
      */
@@ -753,7 +753,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumPlaf1Caisse1()
+     * Test setCumPlaf1Caisse1()
      *
      * @return void
      */
@@ -766,7 +766,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumPlaf1Caisse2()
+     * Test setCumPlaf1Caisse2()
      *
      * @return void
      */
@@ -779,7 +779,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumPlaf1Caisse3()
+     * Test setCumPlaf1Caisse3()
      *
      * @return void
      */
@@ -792,7 +792,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumPlaf2Caisse1()
+     * Test setCumPlaf2Caisse1()
      *
      * @return void
      */
@@ -805,7 +805,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumPlaf2Caisse2()
+     * Test setCumPlaf2Caisse2()
      *
      * @return void
      */
@@ -818,7 +818,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumPlaf2Caisse3()
+     * Test setCumPlaf2Caisse3()
      *
      * @return void
      */
@@ -831,7 +831,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumPlafondGmp()
+     * Test setCumPlafondGmp()
      *
      * @return void
      */
@@ -844,7 +844,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumPss1()
+     * Test setCumPss1()
      *
      * @return void
      */
@@ -857,7 +857,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumPss2()
+     * Test setCumPss2()
      *
      * @return void
      */
@@ -870,7 +870,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumRttDus()
+     * Test setCumRttDus()
      *
      * @return void
      */
@@ -883,7 +883,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumRttPris()
+     * Test setCumRttPris()
      *
      * @return void
      */
@@ -896,7 +896,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrACaisse1()
+     * Test setCumTrACaisse1()
      *
      * @return void
      */
@@ -909,7 +909,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrACaisse2()
+     * Test setCumTrACaisse2()
      *
      * @return void
      */
@@ -922,7 +922,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrACaisse3()
+     * Test setCumTrACaisse3()
      *
      * @return void
      */
@@ -935,7 +935,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrBCaisse1()
+     * Test setCumTrBCaisse1()
      *
      * @return void
      */
@@ -948,7 +948,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrBCaisse2()
+     * Test setCumTrBCaisse2()
      *
      * @return void
      */
@@ -961,7 +961,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrBCaisse3()
+     * Test setCumTrBCaisse3()
      *
      * @return void
      */
@@ -974,7 +974,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrCCaisse1()
+     * Test setCumTrCCaisse1()
      *
      * @return void
      */
@@ -987,7 +987,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrCCaisse2()
+     * Test setCumTrCCaisse2()
      *
      * @return void
      */
@@ -1000,7 +1000,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrCCaisse3()
+     * Test setCumTrCCaisse3()
      *
      * @return void
      */
@@ -1013,7 +1013,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTranche2()
+     * Test setCumTranche2()
      *
      * @return void
      */
@@ -1026,7 +1026,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrancheA()
+     * Test setCumTrancheA()
      *
      * @return void
      */
@@ -1039,7 +1039,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrancheB()
+     * Test setCumTrancheB()
      *
      * @return void
      */
@@ -1052,7 +1052,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrancheC()
+     * Test setCumTrancheC()
      *
      * @return void
      */
@@ -1065,7 +1065,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDelta()
+     * Test setDelta()
      *
      * @return void
      */
@@ -1078,7 +1078,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDroitCp()
+     * Test setDroitCp()
      *
      * @return void
      */
@@ -1091,7 +1091,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtDebutPeriode()
+     * Test setDtDebutPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1108,7 +1108,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtFinPeriode()
+     * Test setDtFinPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1125,7 +1125,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEcartCumule()
+     * Test setEcartCumule()
      *
      * @return void
      */
@@ -1138,7 +1138,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtatBul()
+     * Test setEtatBul()
      *
      * @return void
      */
@@ -1151,7 +1151,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtatEdition()
+     * Test setEtatEdition()
      *
      * @return void
      */
@@ -1164,7 +1164,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setForfaitJour()
+     * Test setForfaitJour()
      *
      * @return void
      */
@@ -1177,7 +1177,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGestCalcNetPaye()
+     * Test setGestCalcNetPaye()
      *
      * @return void
      */
@@ -1190,7 +1190,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGestionCoeff()
+     * Test setGestionCoeff()
      *
      * @return void
      */
@@ -1203,7 +1203,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHReelTrav()
+     * Test setHReelTrav()
      *
      * @return void
      */
@@ -1216,7 +1216,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHTheoTrav()
+     * Test setHTheoTrav()
      *
      * @return void
      */
@@ -1229,7 +1229,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHeureAbsence()
+     * Test setHeureAbsence()
      *
      * @return void
      */
@@ -1242,7 +1242,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndicePeriode()
+     * Test setIndicePeriode()
      *
      * @return void
      */
@@ -1255,7 +1255,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -1268,7 +1268,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLienDocument()
+     * Test setLienDocument()
      *
      * @return void
      */
@@ -1281,7 +1281,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLienJustificatif()
+     * Test setLienJustificatif()
      *
      * @return void
      */
@@ -1294,7 +1294,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMaxAbat()
+     * Test setMaxAbat()
      *
      * @return void
      */
@@ -1307,7 +1307,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMensuelJournalier()
+     * Test setMensuelJournalier()
      *
      * @return void
      */
@@ -1320,7 +1320,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMethodeIndemCp()
+     * Test setMethodeIndemCp()
      *
      * @return void
      */
@@ -1333,7 +1333,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMig()
+     * Test setMig()
      *
      * @return void
      */
@@ -1346,7 +1346,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant1()
+     * Test setMontant1()
      *
      * @return void
      */
@@ -1359,7 +1359,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant2()
+     * Test setMontant2()
      *
      * @return void
      */
@@ -1372,7 +1372,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant3()
+     * Test setMontant3()
      *
      * @return void
      */
@@ -1385,7 +1385,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant4()
+     * Test setMontant4()
      *
      * @return void
      */
@@ -1398,7 +1398,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant5()
+     * Test setMontant5()
      *
      * @return void
      */
@@ -1411,7 +1411,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtHSupBonif()
+     * Test setMtHSupBonif()
      *
      * @return void
      */
@@ -1424,7 +1424,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtICpCp()
+     * Test setMtICpCp()
      *
      * @return void
      */
@@ -1437,7 +1437,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtICpt()
+     * Test setMtICpt()
      *
      * @return void
      */
@@ -1450,7 +1450,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtIInt()
+     * Test setMtIInt()
      *
      * @return void
      */
@@ -1463,7 +1463,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtJcpArbitrage()
+     * Test setMtJcpArbitrage()
      *
      * @return void
      */
@@ -1476,7 +1476,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtJourneeCp()
+     * Test setMtJourneeCp()
      *
      * @return void
      */
@@ -1489,7 +1489,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtNetPayeTheo()
+     * Test setMtNetPayeTheo()
      *
      * @return void
      */
@@ -1502,7 +1502,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtTauxLigSalBase()
+     * Test setMtTauxLigSalBase()
      *
      * @return void
      */
@@ -1515,7 +1515,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNb30()
+     * Test setNb30()
      *
      * @return void
      */
@@ -1528,7 +1528,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHAbCp()
+     * Test setNbHAbCp()
      *
      * @return void
      */
@@ -1541,7 +1541,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHAbsenceIntemp()
+     * Test setNbHAbsenceIntemp()
      *
      * @return void
      */
@@ -1554,7 +1554,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHAttente()
+     * Test setNbHAttente()
      *
      * @return void
      */
@@ -1567,7 +1567,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHBonifieDues()
+     * Test setNbHBonifieDues()
      *
      * @return void
      */
@@ -1580,7 +1580,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHBonifiePrises()
+     * Test setNbHBonifiePrises()
      *
      * @return void
      */
@@ -1593,7 +1593,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHCarenceIntemp()
+     * Test setNbHCarenceIntemp()
      *
      * @return void
      */
@@ -1606,7 +1606,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHChomPartCp()
+     * Test setNbHChomPartCp()
      *
      * @return void
      */
@@ -1619,7 +1619,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHChomPartTech()
+     * Test setNbHChomPartTech()
      *
      * @return void
      */
@@ -1632,7 +1632,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHConduite()
+     * Test setNbHConduite()
      *
      * @return void
      */
@@ -1645,7 +1645,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHConting()
+     * Test setNbHConting()
      *
      * @return void
      */
@@ -1658,7 +1658,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHDble()
+     * Test setNbHDble()
      *
      * @return void
      */
@@ -1671,7 +1671,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHDifDus()
+     * Test setNbHDifDus()
      *
      * @return void
      */
@@ -1684,7 +1684,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHIntempIndem()
+     * Test setNbHIntempIndem()
      *
      * @return void
      */
@@ -1697,7 +1697,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHLigSalBase()
+     * Test setNbHLigSalBase()
      *
      * @return void
      */
@@ -1710,7 +1710,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHNormal()
+     * Test setNbHNormal()
      *
      * @return void
      */
@@ -1723,7 +1723,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHPasDroitFillon()
+     * Test setNbHPasDroitFillon()
      *
      * @return void
      */
@@ -1736,7 +1736,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHRemplace()
+     * Test setNbHRemplace()
      *
      * @return void
      */
@@ -1749,7 +1749,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHRepoCompDues()
+     * Test setNbHRepoCompDues()
      *
      * @return void
      */
@@ -1762,7 +1762,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHRepoCompPrises()
+     * Test setNbHRepoCompPrises()
      *
      * @return void
      */
@@ -1775,7 +1775,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHRepoRDues()
+     * Test setNbHRepoRDues()
      *
      * @return void
      */
@@ -1788,7 +1788,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHRepoRPrises()
+     * Test setNbHRepoRPrises()
      *
      * @return void
      */
@@ -1801,7 +1801,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHSup1()
+     * Test setNbHSup1()
      *
      * @return void
      */
@@ -1814,7 +1814,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHSup2()
+     * Test setNbHSup2()
      *
      * @return void
      */
@@ -1827,7 +1827,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHSup3()
+     * Test setNbHSup3()
      *
      * @return void
      */
@@ -1840,7 +1840,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHSup4()
+     * Test setNbHSup4()
      *
      * @return void
      */
@@ -1853,7 +1853,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHSup5()
+     * Test setNbHSup5()
      *
      * @return void
      */
@@ -1866,7 +1866,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHSupBonif()
+     * Test setNbHSupBonif()
      *
      * @return void
      */
@@ -1879,7 +1879,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHSupBonifAbs()
+     * Test setNbHSupBonifAbs()
      *
      * @return void
      */
@@ -1892,7 +1892,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHTrav()
+     * Test setNbHTrav()
      *
      * @return void
      */
@@ -1905,7 +1905,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHTravail()
+     * Test setNbHTravail()
      *
      * @return void
      */
@@ -1918,7 +1918,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHeurePaye()
+     * Test setNbHeurePaye()
      *
      * @return void
      */
@@ -1931,7 +1931,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHeureSup()
+     * Test setNbHeureSup()
      *
      * @return void
      */
@@ -1944,7 +1944,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHeureTrav()
+     * Test setNbHeureTrav()
      *
      * @return void
      */
@@ -1957,7 +1957,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHeureTravMois()
+     * Test setNbHeureTravMois()
      *
      * @return void
      */
@@ -1970,7 +1970,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJChomPartCp()
+     * Test setNbJChomPartCp()
      *
      * @return void
      */
@@ -1983,7 +1983,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJDus()
+     * Test setNbJDus()
      *
      * @return void
      */
@@ -1996,7 +1996,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJDus1()
+     * Test setNbJDus1()
      *
      * @return void
      */
@@ -2009,7 +2009,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJPris()
+     * Test setNbJPris()
      *
      * @return void
      */
@@ -2022,7 +2022,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJPris1()
+     * Test setNbJPris1()
      *
      * @return void
      */
@@ -2035,7 +2035,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJRepoRecupDus()
+     * Test setNbJRepoRecupDus()
      *
      * @return void
      */
@@ -2048,7 +2048,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJRepoRecupPris()
+     * Test setNbJRepoRecupPris()
      *
      * @return void
      */
@@ -2061,7 +2061,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJTravForce()
+     * Test setNbJTravForce()
      *
      * @return void
      */
@@ -2074,7 +2074,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJTravMoisEs()
+     * Test setNbJTravMoisEs()
      *
      * @return void
      */
@@ -2087,7 +2087,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJourBase()
+     * Test setNbJourBase()
      *
      * @return void
      */
@@ -2100,7 +2100,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJourBaseCp()
+     * Test setNbJourBaseCp()
      *
      * @return void
      */
@@ -2113,7 +2113,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJourCpAcquis()
+     * Test setNbJourCpAcquis()
      *
      * @return void
      */
@@ -2126,7 +2126,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJourCpPris()
+     * Test setNbJourCpPris()
      *
      * @return void
      */
@@ -2139,7 +2139,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJourNormaux()
+     * Test setNbJourNormaux()
      *
      * @return void
      */
@@ -2152,7 +2152,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJourTrav()
+     * Test setNbJourTrav()
      *
      * @return void
      */
@@ -2165,7 +2165,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJrttDus()
+     * Test setNbJrttDus()
      *
      * @return void
      */
@@ -2178,7 +2178,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJrttPris()
+     * Test setNbJrttPris()
      *
      * @return void
      */
@@ -2191,7 +2191,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNetAPayer()
+     * Test setNetAPayer()
      *
      * @return void
      */
@@ -2204,7 +2204,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNetImpos()
+     * Test setNetImpos()
      *
      * @return void
      */
@@ -2217,7 +2217,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNote1()
+     * Test setNote1()
      *
      * @return void
      */
@@ -2230,7 +2230,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNote2()
+     * Test setNote2()
      *
      * @return void
      */
@@ -2243,7 +2243,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNote3()
+     * Test setNote3()
      *
      * @return void
      */
@@ -2256,7 +2256,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmploye()
+     * Test setNumeroEmploye()
      *
      * @return void
      */
@@ -2269,7 +2269,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPaieEuro()
+     * Test setPaieEuro()
      *
      * @return void
      */
@@ -2282,7 +2282,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPaiementCpNonPris()
+     * Test setPaiementCpNonPris()
      *
      * @return void
      */
@@ -2295,7 +2295,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -2312,7 +2312,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodicite()
+     * Test setPeriodicite()
      *
      * @return void
      */
@@ -2325,7 +2325,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodiciteModifie()
+     * Test setPeriodiciteModifie()
      *
      * @return void
      */
@@ -2338,7 +2338,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPlafond1Caisse1()
+     * Test setPlafond1Caisse1()
      *
      * @return void
      */
@@ -2351,7 +2351,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPlafond1Caisse2()
+     * Test setPlafond1Caisse2()
      *
      * @return void
      */
@@ -2364,7 +2364,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPlafond1Caisse3()
+     * Test setPlafond1Caisse3()
      *
      * @return void
      */
@@ -2377,7 +2377,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPlafond2Caisse1()
+     * Test setPlafond2Caisse1()
      *
      * @return void
      */
@@ -2390,7 +2390,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPlafond2Caisse2()
+     * Test setPlafond2Caisse2()
      *
      * @return void
      */
@@ -2403,7 +2403,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPlafond2Caisse3()
+     * Test setPlafond2Caisse3()
      *
      * @return void
      */
@@ -2416,7 +2416,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPlafondGmp()
+     * Test setPlafondGmp()
      *
      * @return void
      */
@@ -2429,7 +2429,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPlafondGmpModifie()
+     * Test setPlafondGmpModifie()
      *
      * @return void
      */
@@ -2442,7 +2442,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPlafondHeure()
+     * Test setPlafondHeure()
      *
      * @return void
      */
@@ -2455,7 +2455,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPlafondJour()
+     * Test setPlafondJour()
      *
      * @return void
      */
@@ -2468,7 +2468,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPlafondSemaine()
+     * Test setPlafondSemaine()
      *
      * @return void
      */
@@ -2481,7 +2481,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPourcentAbat()
+     * Test setPourcentAbat()
      *
      * @return void
      */
@@ -2494,7 +2494,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPourcentActForce()
+     * Test setPourcentActForce()
      *
      * @return void
      */
@@ -2507,7 +2507,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPourcentActivite()
+     * Test setPourcentActivite()
      *
      * @return void
      */
@@ -2520,7 +2520,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPourcentRemuHor()
+     * Test setPourcentRemuHor()
      *
      * @return void
      */
@@ -2533,7 +2533,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPpSoumisTaxe()
+     * Test setPpSoumisTaxe()
      *
      * @return void
      */
@@ -2546,7 +2546,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setProvCp()
+     * Test setProvCp()
      *
      * @return void
      */
@@ -2559,7 +2559,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setProvCp1()
+     * Test setProvCp1()
      *
      * @return void
      */
@@ -2572,7 +2572,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPss1()
+     * Test setPss1()
      *
      * @return void
      */
@@ -2585,7 +2585,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPss2()
+     * Test setPss2()
      *
      * @return void
      */
@@ -2598,7 +2598,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPss30()
+     * Test setPss30()
      *
      * @return void
      */
@@ -2611,7 +2611,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPssMod()
+     * Test setPssMod()
      *
      * @return void
      */
@@ -2624,7 +2624,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemunMens()
+     * Test setRemunMens()
      *
      * @return void
      */
@@ -2637,7 +2637,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSBase()
+     * Test setSBase()
      *
      * @return void
      */
@@ -2650,7 +2650,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSmic1()
+     * Test setSmic1()
      *
      * @return void
      */
@@ -2663,7 +2663,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSmicH()
+     * Test setSmicH()
      *
      * @return void
      */
@@ -2676,7 +2676,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSmicH35()
+     * Test setSmicH35()
      *
      * @return void
      */
@@ -2689,7 +2689,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSmicH39()
+     * Test setSmicH39()
      *
      * @return void
      */
@@ -2702,7 +2702,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSmicM()
+     * Test setSmicM()
      *
      * @return void
      */
@@ -2715,7 +2715,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSmicM35()
+     * Test setSmicM35()
      *
      * @return void
      */
@@ -2728,7 +2728,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSmicM39()
+     * Test setSmicM39()
      *
      * @return void
      */
@@ -2741,7 +2741,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSortieMois()
+     * Test setSortieMois()
      *
      * @return void
      */
@@ -2754,7 +2754,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxHAbCp()
+     * Test setTauxHAbCp()
      *
      * @return void
      */
@@ -2767,7 +2767,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxHAbsence()
+     * Test setTauxHAbsence()
      *
      * @return void
      */
@@ -2780,7 +2780,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxHNormal()
+     * Test setTauxHNormal()
      *
      * @return void
      */
@@ -2793,7 +2793,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxJournalier()
+     * Test setTauxJournalier()
      *
      * @return void
      */
@@ -2806,7 +2806,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTotAcompte()
+     * Test setTotAcompte()
      *
      * @return void
      */
@@ -2819,7 +2819,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTotAcompteCp()
+     * Test setTotAcompteCp()
      *
      * @return void
      */
@@ -2832,7 +2832,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTotCotisPatron()
+     * Test setTotCotisPatron()
      *
      * @return void
      */
@@ -2845,7 +2845,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTotPrimeNi()
+     * Test setTotPrimeNi()
      *
      * @return void
      */
@@ -2858,7 +2858,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTotPrimeNs()
+     * Test setTotPrimeNs()
      *
      * @return void
      */
@@ -2871,7 +2871,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTotRetenue()
+     * Test setTotRetenue()
      *
      * @return void
      */
@@ -2884,7 +2884,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrACaisse1()
+     * Test setTrACaisse1()
      *
      * @return void
      */
@@ -2897,7 +2897,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrACaisse2()
+     * Test setTrACaisse2()
      *
      * @return void
      */
@@ -2910,7 +2910,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrACaisse3()
+     * Test setTrACaisse3()
      *
      * @return void
      */
@@ -2923,7 +2923,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrBCaisse1()
+     * Test setTrBCaisse1()
      *
      * @return void
      */
@@ -2936,7 +2936,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrBCaisse2()
+     * Test setTrBCaisse2()
      *
      * @return void
      */
@@ -2949,7 +2949,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrBCaisse3()
+     * Test setTrBCaisse3()
      *
      * @return void
      */
@@ -2962,7 +2962,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrCCaisse1()
+     * Test setTrCCaisse1()
      *
      * @return void
      */
@@ -2975,7 +2975,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrCCaisse2()
+     * Test setTrCCaisse2()
      *
      * @return void
      */
@@ -2988,7 +2988,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrCCaisse3()
+     * Test setTrCCaisse3()
      *
      * @return void
      */
@@ -3001,7 +3001,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTranche2()
+     * Test setTranche2()
      *
      * @return void
      */
@@ -3014,7 +3014,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrancheA()
+     * Test setTrancheA()
      *
      * @return void
      */
@@ -3027,7 +3027,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrancheAbal()
+     * Test setTrancheAbal()
      *
      * @return void
      */
@@ -3040,7 +3040,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrancheAbanl()
+     * Test setTrancheAbanl()
      *
      * @return void
      */
@@ -3053,7 +3053,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrancheAbna()
+     * Test setTrancheAbna()
      *
      * @return void
      */
@@ -3066,7 +3066,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrancheB()
+     * Test setTrancheB()
      *
      * @return void
      */
@@ -3079,7 +3079,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrancheBbal()
+     * Test setTrancheBbal()
      *
      * @return void
      */
@@ -3092,7 +3092,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrancheBbanl()
+     * Test setTrancheBbanl()
      *
      * @return void
      */
@@ -3105,7 +3105,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrancheBbna()
+     * Test setTrancheBbna()
      *
      * @return void
      */
@@ -3118,7 +3118,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrancheC()
+     * Test setTrancheC()
      *
      * @return void
      */
@@ -3131,7 +3131,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrancheCPlaf()
+     * Test setTrancheCPlaf()
      *
      * @return void
      */
@@ -3144,7 +3144,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrancheCbal()
+     * Test setTrancheCbal()
      *
      * @return void
      */
@@ -3157,7 +3157,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrancheCbanl()
+     * Test setTrancheCbanl()
      *
      * @return void
      */
@@ -3170,7 +3170,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrancheCbna()
+     * Test setTrancheCbna()
      *
      * @return void
      */
@@ -3183,7 +3183,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTxtNoteRtf()
+     * Test setTxtNoteRtf()
      *
      * @return void
      */
@@ -3196,7 +3196,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeBaseCaisse1()
+     * Test setTypeBaseCaisse1()
      *
      * @return void
      */
@@ -3209,7 +3209,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeBaseCaisse2()
+     * Test setTypeBaseCaisse2()
      *
      * @return void
      */
@@ -3222,7 +3222,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeBaseCaisse3()
+     * Test setTypeBaseCaisse3()
      *
      * @return void
      */
@@ -3235,7 +3235,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeGestionBal()
+     * Test setTypeGestionBal()
      *
      * @return void
      */
@@ -3248,7 +3248,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypePaiementBul()
+     * Test setTypePaiementBul()
      *
      * @return void
      */
@@ -3261,7 +3261,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypePaimentModifie()
+     * Test setTypePaimentModifie()
      *
      * @return void
      */
@@ -3274,7 +3274,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeSaisieAbs()
+     * Test setTypeSaisieAbs()
      *
      * @return void
      */
@@ -3287,7 +3287,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeSaisieAbsence()
+     * Test setTypeSaisieAbsence()
      *
      * @return void
      */
@@ -3300,7 +3300,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValoriseCp()
+     * Test setValoriseCp()
      *
      * @return void
      */
@@ -3313,7 +3313,7 @@ class BulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

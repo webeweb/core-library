@@ -38,7 +38,7 @@ use WBW\Library\Types\Helper\ArrayHelper;
 class JsonSerializer {
 
     /**
-     * Serializes an alert.
+     * Serialize an alert.
      *
      * @param AlertInterface $model The model.
      * @return array Returns the serialized model.
@@ -52,7 +52,7 @@ class JsonSerializer {
     }
 
     /**
-     * Serializes an badge.
+     * Serialize an badge.
      *
      * @param BadgeInterface $model The model.
      * @return array Returns the serialized model.
@@ -66,7 +66,7 @@ class JsonSerializer {
     }
 
     /**
-     * Serializes a button.
+     * Serialize a button.
      *
      * @param ButtonInterface $model The model.
      * @return array Returns the serialized model.
@@ -80,7 +80,7 @@ class JsonSerializer {
     }
 
     /**
-     * Serializes a Full Calendar event.
+     * Serialize a Full Calendar event.
      *
      * @param FullCalendarEventInterface $model The model.
      * @return array Returns the serialized model.
@@ -120,7 +120,7 @@ class JsonSerializer {
     }
 
     /**
-     * Serializes an icon.
+     * Serialize an icon.
      *
      * @param IconInterface $model The model.
      * @return array Returns the serialized model.
@@ -134,7 +134,7 @@ class JsonSerializer {
     }
 
     /**
-     * Serializes a label.
+     * Serialize a label.
      *
      * @param LabelInterface $model The model.
      * @return array Returns the serialized model.
@@ -148,7 +148,7 @@ class JsonSerializer {
     }
 
     /**
-     * Serializes a navigation node.
+     * Serialize a navigation node.
      *
      * @param NavigationNodeInterface $model The model.
      * @return array Returns the serialized model.
@@ -170,7 +170,7 @@ class JsonSerializer {
     }
 
     /**
-     * Serializes a notification.
+     * Serialize a notification.
      *
      * @param NotificationInterface $model The model.
      * @return array Returns the serialized model.
@@ -184,7 +184,7 @@ class JsonSerializer {
     }
 
     /**
-     * Serializes a progress bar.
+     * Serialize a progress bar.
      *
      * @param ProgressBarInterface $model The model.
      * @return array Returns the serialized model.
@@ -198,7 +198,7 @@ class JsonSerializer {
     }
 
     /**
-     * Serializes a repository event.
+     * Serialize a repository event.
      *
      * @param RepositoryEventInterface $model The model.
      * @return array Returns the serialized model.
@@ -222,7 +222,7 @@ class JsonSerializer {
     }
 
     /**
-     * Serializes a request detail.
+     * Serialize a request detail.
      *
      * @param RequestDetailInterface $model The model.
      * @return array Returns the serialized model.
@@ -244,7 +244,7 @@ class JsonSerializer {
     }
 
     /**
-     * Serializes a Select2 option.
+     * Serialize a Select2 option.
      *
      * @param Select2OptionInterface $model The model.
      * @return array Returns the serialized model.
@@ -258,7 +258,7 @@ class JsonSerializer {
     }
 
     /**
-     * Serializes a Select2 options.
+     * Serialize a Select2 options.
      *
      * @param Select2OptionInterface[] $models The models.
      * @return array Returns the serialized models.
@@ -276,7 +276,7 @@ class JsonSerializer {
     }
 
     /**
-     * Serializes a toast.
+     * Serialize a toast.
      *
      * @param ToastInterface $model The model.
      * @return array Returns the serialized model.

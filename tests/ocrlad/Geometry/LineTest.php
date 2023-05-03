@@ -25,7 +25,7 @@ use WBW\Library\OcrLad\Tests\AbstractTestCase;
 class LineTest extends AbstractTestCase {
 
     /**
-     * Tests d()
+     * Test d()
      *
      * @return void
      */
@@ -37,7 +37,7 @@ class LineTest extends AbstractTestCase {
     }
 
     /**
-     * Tests deg()
+     * Test deg()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class LineTest extends AbstractTestCase {
     }
 
     /**
-     * Tests m()
+     * Test m()
      *
      * @return void
      */
@@ -61,7 +61,7 @@ class LineTest extends AbstractTestCase {
     }
 
     /**
-     * Tests originallyAbscissa()
+     * Test originallyAbscissa()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class LineTest extends AbstractTestCase {
     }
 
     /**
-     * Tests originallyOrdered()
+     * Test originallyOrdered()
      *
      * @return void
      */
@@ -89,7 +89,7 @@ class LineTest extends AbstractTestCase {
     }
 
     /**
-     * Tests rad()
+     * Test rad()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class LineTest extends AbstractTestCase {
     }
 
     /**
-     * Tests rotate()
+     * Test rotate()
      *
      * @return void
      */
@@ -118,7 +118,7 @@ class LineTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setA()
+     * Test setA()
      *
      * @return void
      */
@@ -134,7 +134,7 @@ class LineTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setB()
+     * Test setB()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class LineTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

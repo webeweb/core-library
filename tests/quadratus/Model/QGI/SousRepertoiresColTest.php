@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class SousRepertoiresColTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeCollaborateur()
+     * Test setCodeCollaborateur()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class SousRepertoiresColTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNom()
+     * Test setNom()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class SousRepertoiresColTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumSousRep()
+     * Test setNumSousRep()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class SousRepertoiresColTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

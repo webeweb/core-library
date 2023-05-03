@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringUsernameTrait;
 class StringUsernameTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setUsername()
+     * Test setUsername()
      *
      * @return void
      */

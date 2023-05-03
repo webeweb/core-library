@@ -23,7 +23,7 @@ use WBW\Library\Image\Utility\ImageUtility;
 class ImageUtilityTest extends AbstractTestCase {
 
     /**
-     * Tests getDimensions()
+     * Test getDimensions()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class ImageUtilityTest extends AbstractTestCase {
     }
 
     /**
-     * Tests getOrientation()
+     * Test getOrientation()
      *
      * @return void
      */
@@ -80,7 +80,7 @@ class ImageUtilityTest extends AbstractTestCase {
     }
 
     /**
-     * Tests getRatio()
+     * Test getRatio()
      *
      * @return void
      */

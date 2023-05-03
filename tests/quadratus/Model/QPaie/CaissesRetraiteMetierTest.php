@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class CaissesRetraiteMetierTest extends AbstractTestCase {
 
     /**
-     * Tests setCategSalarie()
+     * Test setCategSalarie()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCategSalarieEquiv()
+     * Test setCategSalarieEquiv()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeActivite()
+     * Test setCodeActivite()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeMetier()
+     * Test setCodeMetier()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeOrganismeAgirc()
+     * Test setCodeOrganismeAgirc()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeOrganismeArrco()
+     * Test setCodeOrganismeArrco()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeOrganismeCcca()
+     * Test setCodeOrganismeCcca()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeOrganismeFraisSante()
+     * Test setCodeOrganismeFraisSante()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeOrganismePrev()
+     * Test setCodeOrganismePrev()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeOrganismePrevComp()
+     * Test setCodeOrganismePrevComp()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIdInstitutionAgirc()
+     * Test setIdInstitutionAgirc()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIdInstitutionArrco()
+     * Test setIdInstitutionArrco()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIdInstitutionCcca()
+     * Test setIdInstitutionCcca()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIdInstitutionFraisSante()
+     * Test setIdInstitutionFraisSante()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIdInstitutionPrev()
+     * Test setIdInstitutionPrev()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIdInstitutionPrevComp()
+     * Test setIdInstitutionPrevComp()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndiceCateg()
+     * Test setIndiceCateg()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntitule()
+     * Test setIntitule()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPasActive()
+     * Test setPasActive()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

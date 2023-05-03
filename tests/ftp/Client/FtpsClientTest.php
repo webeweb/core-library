@@ -45,7 +45,7 @@ class FtpsClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests connect()
+     * Test connect()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -60,7 +60,7 @@ class FtpsClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests connect()
+     * Test connect()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -90,7 +90,7 @@ class FtpsClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

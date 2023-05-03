@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EmpDadsuPrevoyanceAyantDroitTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeACharge()
+     * Test setCodeACharge()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class EmpDadsuPrevoyanceAyantDroitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAffilSecu()
+     * Test setCodeAffilSecu()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class EmpDadsuPrevoyanceAyantDroitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAutreCouverture()
+     * Test setCodeAutreCouverture()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class EmpDadsuPrevoyanceAyantDroitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeExtensionSecu()
+     * Test setCodeExtensionSecu()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class EmpDadsuPrevoyanceAyantDroitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeScolarise()
+     * Test setCodeScolarise()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class EmpDadsuPrevoyanceAyantDroitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeType()
+     * Test setCodeType()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class EmpDadsuPrevoyanceAyantDroitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateNaissance()
+     * Test setDateNaissance()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class EmpDadsuPrevoyanceAyantDroitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNir()
+     * Test setNir()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class EmpDadsuPrevoyanceAyantDroitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNirRattachement()
+     * Test setNirRattachement()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class EmpDadsuPrevoyanceAyantDroitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNom()
+     * Test setNom()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class EmpDadsuPrevoyanceAyantDroitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroAyantDroit()
+     * Test setNumeroAyantDroit()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class EmpDadsuPrevoyanceAyantDroitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmploye()
+     * Test setNumeroEmploye()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class EmpDadsuPrevoyanceAyantDroitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrenom()
+     * Test setPrenom()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class EmpDadsuPrevoyanceAyantDroitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRangNaissance()
+     * Test setRangNaissance()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class EmpDadsuPrevoyanceAyantDroitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

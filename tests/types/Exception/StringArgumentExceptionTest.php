@@ -23,7 +23,7 @@ use WBW\Library\Types\Tests\AbstractTestCase;
 class StringArgumentExceptionTest extends AbstractTestCase {
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

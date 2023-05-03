@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Provider\Theme\TestHookDropdownThemeProvi
 class HookDropdownThemeProviderTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setHookDropdownThemeProvider()
+     * Test setHookDropdownThemeProvider()
      *
      * @return void
      */

@@ -24,7 +24,7 @@ use WBW\Library\System\Tests\Fixtures\Model\TestProcessorTrait;
 class ProcessorTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setProcessor()
+     * Test setProcessor()
      *
      * @return void
      */

@@ -45,7 +45,7 @@ class ImageHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests base64Encode()
+     * Test base64Encode()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class ImageHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests resize()
+     * Test resize()
      *
      * @return void
      */
@@ -83,7 +83,7 @@ class ImageHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests saveOutputStream()
+     * Test saveOutputStream()
      *
      * @return void
      */
@@ -113,7 +113,7 @@ class ImageHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests svg2png()
+     * Test svg2png()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.

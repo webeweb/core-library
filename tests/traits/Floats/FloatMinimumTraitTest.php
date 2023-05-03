@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Floats\TestFloatMinimumTrait;
 class FloatMinimumTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setMinimum()
+     * Test setMinimum()
      *
      * @return void
      */

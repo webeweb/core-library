@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AbsencesEnteteTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeAbsence()
+     * Test setCodeAbsence()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AbsencesEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaboValid()
+     * Test setCodeCollaboValid()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AbsencesEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaborateur()
+     * Test setCodeCollaborateur()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AbsencesEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEmploye()
+     * Test setCodeEmploye()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class AbsencesEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDebutAbs()
+     * Test setDateDebutAbs()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -94,7 +94,7 @@ class AbsencesEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFinAbs()
+     * Test setDateFinAbs()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -111,7 +111,7 @@ class AbsencesEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateValidationSynchro()
+     * Test setDateValidationSynchro()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -128,7 +128,7 @@ class AbsencesEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtat()
+     * Test setEtat()
      *
      * @return void
      */
@@ -141,7 +141,7 @@ class AbsencesEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFromFermetureChantier()
+     * Test setFromFermetureChantier()
      *
      * @return void
      */
@@ -154,7 +154,7 @@ class AbsencesEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqId()
+     * Test setUniqId()
      *
      * @return void
      */
@@ -167,7 +167,7 @@ class AbsencesEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqIdSynchro()
+     * Test setUniqIdSynchro()
      *
      * @return void
      */
@@ -180,7 +180,7 @@ class AbsencesEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

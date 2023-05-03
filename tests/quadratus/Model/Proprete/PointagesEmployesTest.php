@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class PointagesEmployesTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeCollaboValid()
+     * Test setCodeCollaboValid()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class PointagesEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaborateur()
+     * Test setCodeCollaborateur()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class PointagesEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEmploye()
+     * Test setCodeEmploye()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class PointagesEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteurHeures()
+     * Test setCompteurHeures()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class PointagesEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateValidationSynchro()
+     * Test setDateValidationSynchro()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -94,7 +94,7 @@ class PointagesEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtat()
+     * Test setEtat()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class PointagesEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHpTheoNonAffectees()
+     * Test setHpTheoNonAffectees()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class PointagesEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -137,7 +137,7 @@ class PointagesEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqIdSynchro()
+     * Test setUniqIdSynchro()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class PointagesEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

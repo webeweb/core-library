@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class MasquesExcelTest extends AbstractTestCase {
 
     /**
-     * Tests setModele()
+     * Test setModele()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class MasquesExcelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTitre()
+     * Test setTitre()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class MasquesExcelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeMasque()
+     * Test setTypeMasque()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class MasquesExcelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

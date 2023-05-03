@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringMimeTypeTrait;
 class StringMimeTypeTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setMimeType()
+     * Test setMimeType()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LignesBulletinComplTest extends AbstractTestCase {
 
     /**
-     * Tests setDateDebut()
+     * Test setDateDebut()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -42,7 +42,7 @@ class LignesBulletinComplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFin()
+     * Test setDateFin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -59,7 +59,7 @@ class LignesBulletinComplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndicePeriode()
+     * Test setIndicePeriode()
      *
      * @return void
      */
@@ -72,7 +72,7 @@ class LignesBulletinComplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumLigneBulletin()
+     * Test setNumLigneBulletin()
      *
      * @return void
      */
@@ -85,7 +85,7 @@ class LignesBulletinComplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmploye()
+     * Test setNumeroEmploye()
      *
      * @return void
      */
@@ -98,7 +98,7 @@ class LignesBulletinComplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -115,7 +115,7 @@ class LignesBulletinComplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodicite()
+     * Test setPeriodicite()
      *
      * @return void
      */
@@ -128,7 +128,7 @@ class LignesBulletinComplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeRegul()
+     * Test setTypeRegul()
      *
      * @return void
      */
@@ -141,7 +141,7 @@ class LignesBulletinComplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

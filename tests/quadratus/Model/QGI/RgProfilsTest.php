@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class RgProfilsTest extends AbstractTestCase {
 
     /**
-     * Tests setFichiersMove()
+     * Test setFichiersMove()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class RgProfilsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFichiersPublierWeb()
+     * Test setFichiersPublierWeb()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class RgProfilsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNiveauMaxi()
+     * Test setNiveauMaxi()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class RgProfilsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNiveauSupplementairelibelle()
+     * Test setNiveauSupplementairelibelle()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class RgProfilsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPath()
+     * Test setPath()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class RgProfilsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPathFormat()
+     * Test setPathFormat()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class RgProfilsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqId()
+     * Test setUniqId()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class RgProfilsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

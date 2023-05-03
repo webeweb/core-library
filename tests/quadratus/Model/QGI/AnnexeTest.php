@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AnnexeTest extends AbstractTestCase {
 
     /**
-     * Tests setCode1()
+     * Test setCode1()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AnnexeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCode2()
+     * Test setCode2()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AnnexeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDate1()
+     * Test setDate1()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class AnnexeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDate2()
+     * Test setDate2()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -85,7 +85,7 @@ class AnnexeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDouble1()
+     * Test setDouble1()
      *
      * @return void
      */
@@ -98,7 +98,7 @@ class AnnexeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDouble2()
+     * Test setDouble2()
      *
      * @return void
      */
@@ -111,7 +111,7 @@ class AnnexeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumero()
+     * Test setNumero()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class AnnexeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTexte1()
+     * Test setTexte1()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class AnnexeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTexte2()
+     * Test setTexte2()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class AnnexeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTexte3()
+     * Test setTexte3()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class AnnexeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTexte4()
+     * Test setTexte4()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class AnnexeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTexte5()
+     * Test setTexte5()
      *
      * @return void
      */
@@ -189,7 +189,7 @@ class AnnexeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setType()
+     * Test setType()
      *
      * @return void
      */
@@ -202,7 +202,7 @@ class AnnexeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqId()
+     * Test setUniqId()
      *
      * @return void
      */
@@ -215,7 +215,7 @@ class AnnexeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

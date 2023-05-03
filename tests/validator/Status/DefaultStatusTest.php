@@ -23,7 +23,7 @@ use WBW\Library\Validator\Tests\AbstractTestCase;
 class DefaultStatusTest extends AbstractTestCase {
 
     /**
-     * Tests jsonSerialize()
+     * Test jsonSerialize()
      *
      * @return void
      */
@@ -40,7 +40,7 @@ class DefaultStatusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests The setCode() method.
+     * Test setCode() method.
      *
      * @return void
      */
@@ -53,7 +53,7 @@ class DefaultStatusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests The setMessage() method.
+     * Test setMessage() method.
      *
      * @return void
      */
@@ -66,7 +66,7 @@ class DefaultStatusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests The setRuleName() method.
+     * Test setRuleName() method.
      *
      * @return void
      */
@@ -79,7 +79,7 @@ class DefaultStatusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

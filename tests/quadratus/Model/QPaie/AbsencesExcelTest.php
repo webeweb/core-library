@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AbsencesExcelTest extends AbstractTestCase {
 
     /**
-     * Tests setId()
+     * Test setId()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AbsencesExcelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbhSais()
+     * Test setNbhSais()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AbsencesExcelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbjSais()
+     * Test setNbjSais()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AbsencesExcelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmploye()
+     * Test setNumeroEmploye()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class AbsencesExcelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeDeb()
+     * Test setPeriodeDeb()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -94,7 +94,7 @@ class AbsencesExcelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeFin()
+     * Test setPeriodeFin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -111,7 +111,7 @@ class AbsencesExcelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeAbsCp()
+     * Test setTypeAbsCp()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class AbsencesExcelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeImport()
+     * Test setTypeImport()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class AbsencesExcelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

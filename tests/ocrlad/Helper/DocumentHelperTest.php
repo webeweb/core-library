@@ -46,7 +46,7 @@ class DocumentHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests findWordAt()
+     * Test findWordAt()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class DocumentHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests findWordsIn()
+     * Test findWordsIn()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class DocumentHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests findWordsStartAt()
+     * Test findWordsStartAt()
      *
      * @return void
      */
@@ -93,7 +93,7 @@ class DocumentHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

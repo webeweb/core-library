@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DadsubtpTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeEtablissement()
+     * Test setCodeEtablissement()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class DadsubtpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeOrganisme()
+     * Test setCodeOrganisme()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class DadsubtpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTempsArret()
+     * Test setCodeTempsArret()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class DadsubtpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDebutPeriode()
+     * Test setDebutPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class DadsubtpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFinPeriode()
+     * Test setFinPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -98,7 +98,7 @@ class DadsubtpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantEmployeur()
+     * Test setMontantEmployeur()
      *
      * @return void
      */
@@ -111,7 +111,7 @@ class DadsubtpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumero()
+     * Test setNumero()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class DadsubtpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroOrdre()
+     * Test setNumeroOrdre()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class DadsubtpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQualifUniteTemps()
+     * Test setQualifUniteTemps()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class DadsubtpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTempsArret()
+     * Test setTempsArret()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class DadsubtpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeArret()
+     * Test setTypeArret()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class DadsubtpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

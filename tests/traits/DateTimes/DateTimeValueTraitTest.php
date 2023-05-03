@@ -24,7 +24,7 @@ use WBW\Library\Traits\Tests\Fixtures\DateTimes\TestDateTimeValueTrait;
 class DateTimeValueTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setValue()
+     * Test setValue()
      *
      * @return void
      */

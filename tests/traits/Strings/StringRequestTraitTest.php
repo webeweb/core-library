@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringRequestTrait;
 class StringRequestTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setRequest()
+     * Test setRequest()
      *
      * @return void
      */

@@ -24,7 +24,7 @@ use WBW\Library\Adoria\Tests\AbstractTestCase;
 class ResultTest extends AbstractTestCase {
 
     /**
-     * Tests hasData()
+     * Test hasData()
      *
      * @return void
      */
@@ -40,7 +40,7 @@ class ResultTest extends AbstractTestCase {
     }
 
     /**
-     * Tests hasError()
+     * Test hasError()
      *
      * @return void
      */
@@ -53,7 +53,7 @@ class ResultTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDatas()
+     * Test setDatas()
      *
      * @return void
      */
@@ -69,7 +69,7 @@ class ResultTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setErrors()
+     * Test setErrors()
      *
      * @return void
      */
@@ -82,7 +82,7 @@ class ResultTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setReturnCOde()
+     * Test setReturnCOde()
      *
      * @return void
      */
@@ -95,7 +95,7 @@ class ResultTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

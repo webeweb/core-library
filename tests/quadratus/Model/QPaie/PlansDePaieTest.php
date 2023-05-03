@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class PlansDePaieTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeProLib()
+     * Test setCodeProLib()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class PlansDePaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDebPerApplication()
+     * Test setDebPerApplication()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -55,7 +55,7 @@ class PlansDePaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFinPerApplication()
+     * Test setFinPerApplication()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -72,7 +72,7 @@ class PlansDePaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFreq1()
+     * Test setFreq1()
      *
      * @return void
      */
@@ -85,7 +85,7 @@ class PlansDePaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFreq10()
+     * Test setFreq10()
      *
      * @return void
      */
@@ -98,7 +98,7 @@ class PlansDePaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFreq11()
+     * Test setFreq11()
      *
      * @return void
      */
@@ -111,7 +111,7 @@ class PlansDePaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFreq12()
+     * Test setFreq12()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class PlansDePaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFreq2()
+     * Test setFreq2()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class PlansDePaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFreq3()
+     * Test setFreq3()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class PlansDePaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFreq4()
+     * Test setFreq4()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class PlansDePaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFreq5()
+     * Test setFreq5()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class PlansDePaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFreq6()
+     * Test setFreq6()
      *
      * @return void
      */
@@ -189,7 +189,7 @@ class PlansDePaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFreq7()
+     * Test setFreq7()
      *
      * @return void
      */
@@ -202,7 +202,7 @@ class PlansDePaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFreq8()
+     * Test setFreq8()
      *
      * @return void
      */
@@ -215,7 +215,7 @@ class PlansDePaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFreq9()
+     * Test setFreq9()
      *
      * @return void
      */
@@ -228,7 +228,7 @@ class PlansDePaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumLignePlan()
+     * Test setNumLignePlan()
      *
      * @return void
      */
@@ -241,7 +241,7 @@ class PlansDePaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmploye()
+     * Test setNumeroEmploye()
      *
      * @return void
      */
@@ -254,7 +254,7 @@ class PlansDePaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setProfilOuLibelle()
+     * Test setProfilOuLibelle()
      *
      * @return void
      */
@@ -267,7 +267,7 @@ class PlansDePaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeBens()
+     * Test setTypeBens()
      *
      * @return void
      */
@@ -280,7 +280,7 @@ class PlansDePaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeCommentaire()
+     * Test setTypeCommentaire()
      *
      * @return void
      */
@@ -293,7 +293,7 @@ class PlansDePaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

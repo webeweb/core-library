@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ComptesLibQuadraTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeDucs()
+     * Test setCodeDucs()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEditionHisto()
+     * Test setCodeEditionHisto()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeLibelle()
+     * Test setCodeLibelle()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeOrganisme()
+     * Test setCodeOrganisme()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTypeBSpecPrev()
+     * Test setCodeTypeBSpecPrev()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteCharge()
+     * Test setCompteCharge()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setConditionSpec()
+     * Test setConditionSpec()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEditionForceeDs()
+     * Test setEditionForceeDs()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExclureLoiTepa()
+     * Test setExclureLoiTepa()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFraisSante()
+     * Test setFraisSante()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrevoyanceComp()
+     * Test setPrevoyanceComp()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQualifiantCotis()
+     * Test setQualifiantCotis()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRetraiteObligatoire()
+     * Test setRetraiteObligatoire()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRetraiteSupp()
+     * Test setRetraiteSupp()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSansReintegrationSociale()
+     * Test setSansReintegrationSociale()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSoumisCrds100()
+     * Test setSoumisCrds100()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSoumisCsg100()
+     * Test setSoumisCsg100()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxForfaitSocial20()
+     * Test setTauxForfaitSocial20()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxForfaitSocial8()
+     * Test setTauxForfaitSocial8()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

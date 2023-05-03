@@ -40,7 +40,7 @@ class StringHelper {
     }
 
     /**
-     * Creates a DOM node.
+     * Create a DOM node.
      *
      * @param string $name The name.
      * @param string|null $value The value.
@@ -136,11 +136,11 @@ class StringHelper {
     }
 
     /**
-     * Determines if a value is a string.
+     * Determine if a value is a string.
      *
      * @param mixed $value The value.
      * @return void
-     * @throws StringArgumentException Throws a String argument exception if the value is not of expected type.
+     * @throws StringArgumentException Throws a string argument exception if the value is not of expected type.
      */
     public static function isString($value): void {
         if (false === is_string($value)) {

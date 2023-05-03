@@ -23,7 +23,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Renderer\Strings\TestStringWrapperTrait;
 class StringWrapperTraitTest extends AbstractTestCase {
 
     /**
-     * Tests wrapString()
+     * Test wrapString()
      *
      * @return void
      */

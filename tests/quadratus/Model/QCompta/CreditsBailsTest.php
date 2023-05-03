@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class CreditsBailsTest extends AbstractTestCase {
 
     /**
-     * Tests setAdAmortAnterieur()
+     * Test setAdAmortAnterieur()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdAmortAnterieur2()
+     * Test setAdAmortAnterieur2()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdAnneesAmort()
+     * Test setAdAnneesAmort()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdCoeffDegressif()
+     * Test setAdCoeffDegressif()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdDotation()
+     * Test setAdDotation()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdDotation2()
+     * Test setAdDotation2()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdDotationExcept()
+     * Test setAdDotationExcept()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdDuree()
+     * Test setAdDuree()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdTauxLineaire()
+     * Test setAdTauxLineaire()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdType()
+     * Test setAdType()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAfAmortAnterieur()
+     * Test setAfAmortAnterieur()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAfAnneesAmort()
+     * Test setAfAnneesAmort()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAfCoeffDegressif()
+     * Test setAfCoeffDegressif()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAfDotation()
+     * Test setAfDotation()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAfDuree()
+     * Test setAfDuree()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAfTauxExcept()
+     * Test setAfTauxExcept()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAfTauxLineaire()
+     * Test setAfTauxLineaire()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAfType()
+     * Test setAfType()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAfsii()
+     * Test setAfsii()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBaseTaxePro()
+     * Test setBaseTaxePro()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBureau()
+     * Test setBureau()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCbEnFrancs()
+     * Test setCbEnFrancs()
      *
      * @return void
      */
@@ -311,7 +311,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCentreAnalytique()
+     * Test setCentreAnalytique()
      *
      * @return void
      */
@@ -324,7 +324,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeJournalEcheance()
+     * Test setCodeJournalEcheance()
      *
      * @return void
      */
@@ -337,7 +337,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeJournalPaiement()
+     * Test setCodeJournalPaiement()
      *
      * @return void
      */
@@ -350,7 +350,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTva()
+     * Test setCodeTva()
      *
      * @return void
      */
@@ -363,7 +363,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteFrn()
+     * Test setCompteFrn()
      *
      * @return void
      */
@@ -376,7 +376,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCptAssurance()
+     * Test setCptAssurance()
      *
      * @return void
      */
@@ -389,7 +389,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCptCharge()
+     * Test setCptCharge()
      *
      * @return void
      */
@@ -402,7 +402,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCptEntretien()
+     * Test setCptEntretien()
      *
      * @return void
      */
@@ -415,7 +415,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCptTva()
+     * Test setCptTva()
      *
      * @return void
      */
@@ -428,7 +428,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCptTvaAssu()
+     * Test setCptTvaAssu()
      *
      * @return void
      */
@@ -441,7 +441,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCrValeurEuros()
+     * Test setCrValeurEuros()
      *
      * @return void
      */
@@ -454,7 +454,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCrrDate()
+     * Test setCrrDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -471,7 +471,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCrrPxCessionHt()
+     * Test setCrrPxCessionHt()
      *
      * @return void
      */
@@ -484,7 +484,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCrrQteVendue()
+     * Test setCrrQteVendue()
      *
      * @return void
      */
@@ -497,7 +497,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCrrSupplAmort()
+     * Test setCrrSupplAmort()
      *
      * @return void
      */
@@ -510,7 +510,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCrrSupplValeur()
+     * Test setCrrSupplValeur()
      *
      * @return void
      */
@@ -523,7 +523,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCrrType()
+     * Test setCrrType()
      *
      * @return void
      */
@@ -536,7 +536,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCrrpmValueCt()
+     * Test setCrrpmValueCt()
      *
      * @return void
      */
@@ -549,7 +549,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCrrpmValueLt()
+     * Test setCrrpmValueLt()
      *
      * @return void
      */
@@ -562,7 +562,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateAcquisition()
+     * Test setDateAcquisition()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -579,7 +579,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateMiseService()
+     * Test setDateMiseService()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -596,7 +596,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDin()
+     * Test setDin()
      *
      * @return void
      */
@@ -609,7 +609,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtat()
+     * Test setEtat()
      *
      * @return void
      */
@@ -622,7 +622,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGuidVehicule()
+     * Test setGuidVehicule()
      *
      * @return void
      */
@@ -635,7 +635,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -648,7 +648,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelleFrn()
+     * Test setLibelleFrn()
      *
      * @return void
      */
@@ -661,7 +661,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLimiteAmort()
+     * Test setLimiteAmort()
      *
      * @return void
      */
@@ -674,7 +674,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMateriauxAgricole()
+     * Test setMateriauxAgricole()
      *
      * @return void
      */
@@ -687,7 +687,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantTva()
+     * Test setMontantTva()
      *
      * @return void
      */
@@ -700,7 +700,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNatureAnalytique()
+     * Test setNatureAnalytique()
      *
      * @return void
      */
@@ -713,7 +713,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumDeuxImmoRachat()
+     * Test setNumDeuxImmoRachat()
      *
      * @return void
      */
@@ -726,7 +726,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumImmoRachat()
+     * Test setNumImmoRachat()
      *
      * @return void
      */
@@ -739,7 +739,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumero()
+     * Test setNumero()
      *
      * @return void
      */
@@ -752,7 +752,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroCompte()
+     * Test setNumeroCompte()
      *
      * @return void
      */
@@ -765,7 +765,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroDeux()
+     * Test setNumeroDeux()
      *
      * @return void
      */
@@ -778,7 +778,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroPj()
+     * Test setNumeroPj()
      *
      * @return void
      */
@@ -791,7 +791,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQuantite()
+     * Test setQuantite()
      *
      * @return void
      */
@@ -804,7 +804,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setService()
+     * Test setService()
      *
      * @return void
      */
@@ -817,7 +817,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTaxeFonciere()
+     * Test setTaxeFonciere()
      *
      * @return void
      */
@@ -830,7 +830,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTaxePro()
+     * Test setTaxePro()
      *
      * @return void
      */
@@ -843,7 +843,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTpDuree()
+     * Test setTpDuree()
      *
      * @return void
      */
@@ -856,7 +856,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTpEchoirEchu()
+     * Test setTpEchoirEchu()
      *
      * @return void
      */
@@ -869,7 +869,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTpMoisAnnee()
+     * Test setTpMoisAnnee()
      *
      * @return void
      */
@@ -882,7 +882,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTpMonttDepot()
+     * Test setTpMonttDepot()
      *
      * @return void
      */
@@ -895,7 +895,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTpPeriodicite()
+     * Test setTpPeriodicite()
      *
      * @return void
      */
@@ -908,7 +908,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTpPremierPaiement()
+     * Test setTpPremierPaiement()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -925,7 +925,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValeurEuros()
+     * Test setValeurEuros()
      *
      * @return void
      */
@@ -938,7 +938,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValeurHt()
+     * Test setValeurHt()
      *
      * @return void
      */
@@ -951,7 +951,7 @@ class CreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

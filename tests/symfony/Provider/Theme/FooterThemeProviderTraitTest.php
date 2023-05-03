@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Provider\Theme\TestFooterThemeProviderTra
 class FooterThemeProviderTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setFooterThemeProvider()
+     * Test setFooterThemeProvider()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Renderer\Strings\TestMarkedTextRendererTr
 class MarkedTextRendererTraitTest extends AbstractTestCase {
 
     /**
-     * Tests renderMarkedText()
+     * Test renderMarkedText()
      *
      * @return void
      */

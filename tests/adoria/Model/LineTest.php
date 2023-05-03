@@ -25,7 +25,7 @@ use WBW\Library\Adoria\Tests\AbstractTestCase;
 class LineTest extends AbstractTestCase {
 
     /**
-     * Tests setAmount()
+     * Test setAmount()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class LineTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAmountSign()
+     * Test setAmountSign()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class LineTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAnalyticCode()
+     * Test setAnalyticCode()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class LineTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBookingJournalCode()
+     * Test setBookingJournalCode()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class LineTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCurrency()
+     * Test setCurrency()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class LineTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFreeField()
+     * Test setFreeField()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class LineTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setInvoiceDate()
+     * Test setInvoiceDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class LineTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setInvoiceDueDate()
+     * Test setInvoiceDueDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -137,7 +137,7 @@ class LineTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setInvoiceNumber()
+     * Test setInvoiceNumber()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class LineTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSubledgerAccount()
+     * Test setSubledgerAccount()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class LineTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AccesWebTest extends AbstractTestCase {
 
     /**
-     * Tests setAccesAgenda()
+     * Test setAccesAgenda()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAccesArticles()
+     * Test setAccesArticles()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAccesArticlesConsommes()
+     * Test setAccesArticlesConsommes()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAccesClients()
+     * Test setAccesClients()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAccesClientsFavoris()
+     * Test setAccesClientsFavoris()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAccesConsultation()
+     * Test setAccesConsultation()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAccesDossierCabinet()
+     * Test setAccesDossierCabinet()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAccesFacture()
+     * Test setAccesFacture()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAccesIBureau()
+     * Test setAccesIBureau()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAccesInterventions()
+     * Test setAccesInterventions()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAccesListeCollab()
+     * Test setAccesListeCollab()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAccesMessages()
+     * Test setAccesMessages()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAccesNoteFrais()
+     * Test setAccesNoteFrais()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAccesRepertoire()
+     * Test setAccesRepertoire()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAccesSaisieCommande()
+     * Test setAccesSaisieCommande()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAccesSaisieTp()
+     * Test setAccesSaisieTp()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAccesSoldeCpta()
+     * Test setAccesSoldeCpta()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAccesTableauxBord()
+     * Test setAccesTableauxBord()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaborateur()
+     * Test setCodeCollaborateur()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateActivation()
+     * Test setDateActivation()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -289,7 +289,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFin()
+     * Test setDateFin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -306,7 +306,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDernTentative()
+     * Test setDernTentative()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -323,7 +323,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDossCpta()
+     * Test setDossCpta()
      *
      * @return void
      */
@@ -336,7 +336,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDossPaie()
+     * Test setDossPaie()
      *
      * @return void
      */
@@ -349,7 +349,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDossProp()
+     * Test setDossProp()
      *
      * @return void
      */
@@ -362,7 +362,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDupliqueIntervention()
+     * Test setDupliqueIntervention()
      *
      * @return void
      */
@@ -375,7 +375,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMemeMdpQueIBureau()
+     * Test setMemeMdpQueIBureau()
      *
      * @return void
      */
@@ -388,7 +388,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMotDePasse()
+     * Test setMotDePasse()
      *
      * @return void
      */
@@ -401,7 +401,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRestrCliAssist1()
+     * Test setRestrCliAssist1()
      *
      * @return void
      */
@@ -414,7 +414,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRestrCliAssist2()
+     * Test setRestrCliAssist2()
      *
      * @return void
      */
@@ -427,7 +427,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRestrCliAutre1()
+     * Test setRestrCliAutre1()
      *
      * @return void
      */
@@ -440,7 +440,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRestrCliAutre2()
+     * Test setRestrCliAutre2()
      *
      * @return void
      */
@@ -453,7 +453,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRestrCliCollab()
+     * Test setRestrCliCollab()
      *
      * @return void
      */
@@ -466,7 +466,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRestrCliDebut()
+     * Test setRestrCliDebut()
      *
      * @return void
      */
@@ -479,7 +479,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRestrCliExpert()
+     * Test setRestrCliExpert()
      *
      * @return void
      */
@@ -492,7 +492,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRestrCliFin()
+     * Test setRestrCliFin()
      *
      * @return void
      */
@@ -505,7 +505,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRestrCliPortef()
+     * Test setRestrCliPortef()
      *
      * @return void
      */
@@ -518,7 +518,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTentatives()
+     * Test setTentatives()
      *
      * @return void
      */
@@ -531,7 +531,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setiKey()
+     * Test setiKey()
      *
      * @return void
      */
@@ -544,7 +544,7 @@ class AccesWebTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

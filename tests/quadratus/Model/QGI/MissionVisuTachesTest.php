@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class MissionVisuTachesTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeMission()
+     * Test setCodeMission()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class MissionVisuTachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTacheVisu()
+     * Test setCodeTacheVisu()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class MissionVisuTachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIsRegroupement()
+     * Test setIsRegroupement()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class MissionVisuTachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

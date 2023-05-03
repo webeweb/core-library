@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LignesMsaEmployeTest extends AbstractTestCase {
 
     /**
-     * Tests setAgirc()
+     * Test setAgirc()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAgircEvo()
+     * Test setAgircEvo()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCadre()
+     * Test setCadre()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCadreEvo()
+     * Test setCadreEvo()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCddcdi()
+     * Test setCddcdi()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCddcdiEvo()
+     * Test setCddcdiEvo()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollegePrud()
+     * Test setCodeCollegePrud()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollegePrudPrec()
+     * Test setCodeCollegePrudPrec()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEtablissement()
+     * Test setCodeEtablissement()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeSectionPrud()
+     * Test setCodeSectionPrud()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeSectionPrudPrec()
+     * Test setCodeSectionPrudPrec()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeUnite()
+     * Test setCodeUnite()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCoeffEmploi()
+     * Test setCoeffEmploi()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCoeffEmploiEvo()
+     * Test setCoeffEmploiEvo()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCommentaires()
+     * Test setCommentaires()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setContrat()
+     * Test setContrat()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setContratEvo()
+     * Test setContratEvo()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateEntree()
+     * Test setDateEntree()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -263,7 +263,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateEvo()
+     * Test setDateEvo()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -280,7 +280,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateSortie()
+     * Test setDateSortie()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -297,7 +297,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtDebAbs()
+     * Test setDtDebAbs()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -314,7 +314,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtFinAbs()
+     * Test setDtFinAbs()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -331,7 +331,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDureeTrav()
+     * Test setDureeTrav()
      *
      * @return void
      */
@@ -344,7 +344,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDureeTravPrec()
+     * Test setDureeTravPrec()
      *
      * @return void
      */
@@ -357,7 +357,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmploi()
+     * Test setEmploi()
      *
      * @return void
      */
@@ -370,7 +370,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmploiEvo()
+     * Test setEmploiEvo()
      *
      * @return void
      */
@@ -383,7 +383,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEvoAgirc()
+     * Test setEvoAgirc()
      *
      * @return void
      */
@@ -396,7 +396,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEvoCadre()
+     * Test setEvoCadre()
      *
      * @return void
      */
@@ -409,7 +409,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEvoCddcdi()
+     * Test setEvoCddcdi()
      *
      * @return void
      */
@@ -422,7 +422,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEvoContrat()
+     * Test setEvoContrat()
      *
      * @return void
      */
@@ -435,7 +435,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEvoCrcca36()
+     * Test setEvoCrcca36()
      *
      * @return void
      */
@@ -448,7 +448,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEvoCrcca4Bis()
+     * Test setEvoCrcca4Bis()
      *
      * @return void
      */
@@ -461,7 +461,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEvoEmploi()
+     * Test setEvoEmploi()
      *
      * @return void
      */
@@ -474,7 +474,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEvoFisc()
+     * Test setEvoFisc()
      *
      * @return void
      */
@@ -487,7 +487,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFisc()
+     * Test setFisc()
      *
      * @return void
      */
@@ -500,7 +500,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFiscEvo()
+     * Test setFiscEvo()
      *
      * @return void
      */
@@ -513,7 +513,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHEquivalence()
+     * Test setHEquivalence()
      *
      * @return void
      */
@@ -526,7 +526,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHEquivalencePrec()
+     * Test setHEquivalencePrec()
      *
      * @return void
      */
@@ -539,7 +539,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLieuTravail()
+     * Test setLieuTravail()
      *
      * @return void
      */
@@ -552,7 +552,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLieuTravailEvo()
+     * Test setLieuTravailEvo()
      *
      * @return void
      */
@@ -565,7 +565,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant11()
+     * Test setMontant11()
      *
      * @return void
      */
@@ -578,7 +578,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant12()
+     * Test setMontant12()
      *
      * @return void
      */
@@ -591,7 +591,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant13()
+     * Test setMontant13()
      *
      * @return void
      */
@@ -604,7 +604,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant14()
+     * Test setMontant14()
      *
      * @return void
      */
@@ -617,7 +617,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant21()
+     * Test setMontant21()
      *
      * @return void
      */
@@ -630,7 +630,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant22()
+     * Test setMontant22()
      *
      * @return void
      */
@@ -643,7 +643,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant23()
+     * Test setMontant23()
      *
      * @return void
      */
@@ -656,7 +656,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant24()
+     * Test setMontant24()
      *
      * @return void
      */
@@ -669,7 +669,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant31()
+     * Test setMontant31()
      *
      * @return void
      */
@@ -682,7 +682,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant32()
+     * Test setMontant32()
      *
      * @return void
      */
@@ -695,7 +695,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant33()
+     * Test setMontant33()
      *
      * @return void
      */
@@ -708,7 +708,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant34()
+     * Test setMontant34()
      *
      * @return void
      */
@@ -721,7 +721,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantAutre11()
+     * Test setMontantAutre11()
      *
      * @return void
      */
@@ -734,7 +734,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantAutre12()
+     * Test setMontantAutre12()
      *
      * @return void
      */
@@ -747,7 +747,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantAutre13()
+     * Test setMontantAutre13()
      *
      * @return void
      */
@@ -760,7 +760,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantAutre14()
+     * Test setMontantAutre14()
      *
      * @return void
      */
@@ -773,7 +773,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantAutre21()
+     * Test setMontantAutre21()
      *
      * @return void
      */
@@ -786,7 +786,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantAutre22()
+     * Test setMontantAutre22()
      *
      * @return void
      */
@@ -799,7 +799,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantAutre23()
+     * Test setMontantAutre23()
      *
      * @return void
      */
@@ -812,7 +812,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantAutre24()
+     * Test setMontantAutre24()
      *
      * @return void
      */
@@ -825,7 +825,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantAutre31()
+     * Test setMontantAutre31()
      *
      * @return void
      */
@@ -838,7 +838,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantAutre32()
+     * Test setMontantAutre32()
      *
      * @return void
      */
@@ -851,7 +851,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantAutre33()
+     * Test setMontantAutre33()
      *
      * @return void
      */
@@ -864,7 +864,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantAutre34()
+     * Test setMontantAutre34()
      *
      * @return void
      */
@@ -877,7 +877,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantSmicRetenu1()
+     * Test setMontantSmicRetenu1()
      *
      * @return void
      */
@@ -890,7 +890,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantSmicRetenu2()
+     * Test setMontantSmicRetenu2()
      *
      * @return void
      */
@@ -903,7 +903,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantSmicRetenu3()
+     * Test setMontantSmicRetenu3()
      *
      * @return void
      */
@@ -916,7 +916,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHeures1()
+     * Test setNbHeures1()
      *
      * @return void
      */
@@ -929,7 +929,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHeures2()
+     * Test setNbHeures2()
      *
      * @return void
      */
@@ -942,7 +942,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHeures3()
+     * Test setNbHeures3()
      *
      * @return void
      */
@@ -955,7 +955,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJours1()
+     * Test setNbJours1()
      *
      * @return void
      */
@@ -968,7 +968,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJours2()
+     * Test setNbJours2()
      *
      * @return void
      */
@@ -981,7 +981,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJours3()
+     * Test setNbJours3()
      *
      * @return void
      */
@@ -994,7 +994,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNir()
+     * Test setNir()
      *
      * @return void
      */
@@ -1007,7 +1007,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomEmploye()
+     * Test setNomEmploye()
      *
      * @return void
      */
@@ -1020,7 +1020,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmploye()
+     * Test setNumeroEmploye()
      *
      * @return void
      */
@@ -1033,7 +1033,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmploye2()
+     * Test setNumeroEmploye2()
      *
      * @return void
      */
@@ -1046,7 +1046,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPCentPartiel()
+     * Test setPCentPartiel()
      *
      * @return void
      */
@@ -1059,7 +1059,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPerDeb1()
+     * Test setPerDeb1()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1076,7 +1076,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPerDeb2()
+     * Test setPerDeb2()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1093,7 +1093,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPerDeb3()
+     * Test setPerDeb3()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1110,7 +1110,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPerFin1()
+     * Test setPerFin1()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1127,7 +1127,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPerFin2()
+     * Test setPerFin2()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1144,7 +1144,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPerFin3()
+     * Test setPerFin3()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1161,7 +1161,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeDecla()
+     * Test setPeriodeDecla()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1178,7 +1178,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodicite()
+     * Test setPeriodicite()
      *
      * @return void
      */
@@ -1191,7 +1191,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodicitePrec()
+     * Test setPeriodicitePrec()
      *
      * @return void
      */
@@ -1204,7 +1204,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrenomEmploye()
+     * Test setPrenomEmploye()
      *
      * @return void
      */
@@ -1217,7 +1217,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSaisonnier()
+     * Test setSaisonnier()
      *
      * @return void
      */
@@ -1230,7 +1230,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSaisonnierPrec()
+     * Test setSaisonnierPrec()
      *
      * @return void
      */
@@ -1243,7 +1243,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setService()
+     * Test setService()
      *
      * @return void
      */
@@ -1256,7 +1256,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setServiceEvo()
+     * Test setServiceEvo()
      *
      * @return void
      */
@@ -1269,7 +1269,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSuspensionZrrzru1()
+     * Test setSuspensionZrrzru1()
      *
      * @return void
      */
@@ -1282,7 +1282,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSuspensionZrrzru2()
+     * Test setSuspensionZrrzru2()
      *
      * @return void
      */
@@ -1295,7 +1295,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSuspensionZrrzru3()
+     * Test setSuspensionZrrzru3()
      *
      * @return void
      */
@@ -1308,7 +1308,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxSmicFillon1()
+     * Test setTauxSmicFillon1()
      *
      * @return void
      */
@@ -1321,7 +1321,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxSmicFillon2()
+     * Test setTauxSmicFillon2()
      *
      * @return void
      */
@@ -1334,7 +1334,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxSmicFillon3()
+     * Test setTauxSmicFillon3()
      *
      * @return void
      */
@@ -1347,7 +1347,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTempsPartiel()
+     * Test setTempsPartiel()
      *
      * @return void
      */
@@ -1360,7 +1360,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTempsPartielEvo()
+     * Test setTempsPartielEvo()
      *
      * @return void
      */
@@ -1373,7 +1373,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTotalGeneral()
+     * Test setTotalGeneral()
      *
      * @return void
      */
@@ -1386,7 +1386,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeAbsence()
+     * Test setTypeAbsence()
      *
      * @return void
      */
@@ -1399,7 +1399,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeAutreRemun11()
+     * Test setTypeAutreRemun11()
      *
      * @return void
      */
@@ -1412,7 +1412,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeAutreRemun12()
+     * Test setTypeAutreRemun12()
      *
      * @return void
      */
@@ -1425,7 +1425,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeAutreRemun13()
+     * Test setTypeAutreRemun13()
      *
      * @return void
      */
@@ -1438,7 +1438,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeAutreRemun14()
+     * Test setTypeAutreRemun14()
      *
      * @return void
      */
@@ -1451,7 +1451,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeAutreRemun21()
+     * Test setTypeAutreRemun21()
      *
      * @return void
      */
@@ -1464,7 +1464,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeAutreRemun22()
+     * Test setTypeAutreRemun22()
      *
      * @return void
      */
@@ -1477,7 +1477,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeAutreRemun23()
+     * Test setTypeAutreRemun23()
      *
      * @return void
      */
@@ -1490,7 +1490,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeAutreRemun24()
+     * Test setTypeAutreRemun24()
      *
      * @return void
      */
@@ -1503,7 +1503,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeAutreRemun31()
+     * Test setTypeAutreRemun31()
      *
      * @return void
      */
@@ -1516,7 +1516,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeAutreRemun32()
+     * Test setTypeAutreRemun32()
      *
      * @return void
      */
@@ -1529,7 +1529,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeAutreRemun33()
+     * Test setTypeAutreRemun33()
      *
      * @return void
      */
@@ -1542,7 +1542,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeAutreRemun34()
+     * Test setTypeAutreRemun34()
      *
      * @return void
      */
@@ -1555,7 +1555,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeCrccaEmp()
+     * Test setTypeCrccaEmp()
      *
      * @return void
      */
@@ -1568,7 +1568,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeRemun11()
+     * Test setTypeRemun11()
      *
      * @return void
      */
@@ -1581,7 +1581,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeRemun12()
+     * Test setTypeRemun12()
      *
      * @return void
      */
@@ -1594,7 +1594,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeRemun13()
+     * Test setTypeRemun13()
      *
      * @return void
      */
@@ -1607,7 +1607,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeRemun14()
+     * Test setTypeRemun14()
      *
      * @return void
      */
@@ -1620,7 +1620,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeRemun21()
+     * Test setTypeRemun21()
      *
      * @return void
      */
@@ -1633,7 +1633,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeRemun22()
+     * Test setTypeRemun22()
      *
      * @return void
      */
@@ -1646,7 +1646,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeRemun23()
+     * Test setTypeRemun23()
      *
      * @return void
      */
@@ -1659,7 +1659,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeRemun24()
+     * Test setTypeRemun24()
      *
      * @return void
      */
@@ -1672,7 +1672,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeRemun31()
+     * Test setTypeRemun31()
      *
      * @return void
      */
@@ -1685,7 +1685,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeRemun32()
+     * Test setTypeRemun32()
      *
      * @return void
      */
@@ -1698,7 +1698,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeRemun33()
+     * Test setTypeRemun33()
      *
      * @return void
      */
@@ -1711,7 +1711,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeRemun34()
+     * Test setTypeRemun34()
      *
      * @return void
      */
@@ -1724,7 +1724,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeTravail()
+     * Test setTypeTravail()
      *
      * @return void
      */
@@ -1737,7 +1737,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

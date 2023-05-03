@@ -47,7 +47,7 @@ class ObjectHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests coalesce()
+     * Test coalesce()
      *
      * @return void
      */
@@ -60,7 +60,7 @@ class ObjectHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests compare()
+     * Test compare()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class ObjectHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortCallbackByBoolean()
+     * Test usortCallbackByBoolean()
      *
      * @return void
      */
@@ -99,7 +99,7 @@ class ObjectHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortCallbackByBoolean()
+     * Test usortCallbackByBoolean()
      *
      * @return void
      */
@@ -121,7 +121,7 @@ class ObjectHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortCallbackByFloat()
+     * Test usortCallbackByFloat()
      *
      * @return void
      */
@@ -143,7 +143,7 @@ class ObjectHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortCallbackByFloat()
+     * Test usortCallbackByFloat()
      *
      * @return void
      */
@@ -165,7 +165,7 @@ class ObjectHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortCallbackByInteger()
+     * Test usortCallbackByInteger()
      *
      * @return void
      */
@@ -187,7 +187,7 @@ class ObjectHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortCallbackByInteger()
+     * Test usortCallbackByInteger()
      *
      * @return void
      */
@@ -209,7 +209,7 @@ class ObjectHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortCallbackByString()
+     * Test usortCallbackByString()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class ObjectHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortCallbackByString()
+     * Test usortCallbackByString()
      *
      * @return void
      */

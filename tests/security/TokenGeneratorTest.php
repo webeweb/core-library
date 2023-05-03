@@ -23,7 +23,7 @@ use WBW\Library\Security\TokenGenerator;
 class TokenGeneratorTest extends AbstractTestCase {
 
     /**
-     * Tests generateToken()
+     * Test generateToken()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.

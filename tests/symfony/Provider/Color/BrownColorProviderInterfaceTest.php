@@ -23,7 +23,7 @@ use WBW\Library\Symfony\Tests\AbstractTestCase;
 class BrownColorProviderInterfaceTest extends AbstractTestCase {
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

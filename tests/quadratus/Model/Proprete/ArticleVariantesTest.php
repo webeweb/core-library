@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ArticleVariantesTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeArticle()
+     * Test setCodeArticle()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ArticleVariantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeBarre()
+     * Test setCodeBarre()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ArticleVariantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeVariante()
+     * Test setCodeVariante()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ArticleVariantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ArticleVariantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Symfony\Tests\AbstractTestCase;
 class DefaultNotificationTest extends AbstractTestCase {
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

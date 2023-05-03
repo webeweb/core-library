@@ -25,7 +25,7 @@ use WBW\Library\Symfony\Theme\DefaultNavigationThemeProvider;
 class DefaultNavigationThemeProviderTest extends AbstractTestCase {
 
     /**
-     * Tests getTree()
+     * Test getTree()
      *
      * @return void
      */
@@ -37,7 +37,7 @@ class DefaultNavigationThemeProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -102,7 +102,7 @@ class Document {
     }
 
     /**
-     * Determines if this instance has pages.
+     * Determine if this instance has pages.
      *
      * @return bool Returns true in case of success, false otherwise.
      */

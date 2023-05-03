@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DadsuPrevoyanceRegroupementTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeLibelle()
+     * Test setCodeLibelle()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class DadsuPrevoyanceRegroupementTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeOption()
+     * Test setCodeOption()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class DadsuPrevoyanceRegroupementTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeOrganisme()
+     * Test setCodeOrganisme()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class DadsuPrevoyanceRegroupementTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePopulation()
+     * Test setCodePopulation()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class DadsuPrevoyanceRegroupementTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRegroupement()
+     * Test setCodeRegroupement()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class DadsuPrevoyanceRegroupementTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRefContrat()
+     * Test setRefContrat()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class DadsuPrevoyanceRegroupementTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeCotis()
+     * Test setTypeCotis()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class DadsuPrevoyanceRegroupementTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValeurCotis()
+     * Test setValeurCotis()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class DadsuPrevoyanceRegroupementTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValeurCotisInitiale()
+     * Test setValeurCotisInitiale()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class DadsuPrevoyanceRegroupementTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

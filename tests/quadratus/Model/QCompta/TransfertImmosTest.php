@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class TransfertImmosTest extends AbstractTestCase {
 
     /**
-     * Tests setCptDerCap()
+     * Test setCptDerCap()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class TransfertImmosTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCptDerDot()
+     * Test setCptDerDot()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class TransfertImmosTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCptDerMaj()
+     * Test setCptDerMaj()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class TransfertImmosTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCptDerRep()
+     * Test setCptDerRep()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class TransfertImmosTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCptDotCor()
+     * Test setCptDotCor()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class TransfertImmosTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCptDotExc()
+     * Test setCptDotExc()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class TransfertImmosTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCptDotFin()
+     * Test setCptDotFin()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class TransfertImmosTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCptDotInc()
+     * Test setCptDotInc()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class TransfertImmosTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCptValCor()
+     * Test setCptValCor()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class TransfertImmosTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCptValExc()
+     * Test setCptValExc()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class TransfertImmosTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCptValFin()
+     * Test setCptValFin()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class TransfertImmosTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCptValInc()
+     * Test setCptValInc()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class TransfertImmosTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

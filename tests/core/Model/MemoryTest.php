@@ -24,7 +24,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 class MemoryTest extends AbstractTestCase {
 
     /**
-     * Tests jsonSerialize()
+     * Test jsonSerialize()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class MemoryTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAvailable()
+     * Test setAvailable()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class MemoryTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBuffCache()
+     * Test setBuffCache()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class MemoryTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFree()
+     * Test setFree()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class MemoryTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setShared()
+     * Test setShared()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class MemoryTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTotal()
+     * Test setTotal()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class MemoryTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUsed()
+     * Test setUsed()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class MemoryTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

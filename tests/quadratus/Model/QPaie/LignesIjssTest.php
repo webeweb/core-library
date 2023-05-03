@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LignesIjssTest extends AbstractTestCase {
 
     /**
-     * Tests setMontant()
+     * Test setMontant()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class LignesIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant2()
+     * Test setMontant2()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class LignesIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantEuroOuFranc()
+     * Test setMontantEuroOuFranc()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class LignesIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMotif()
+     * Test setMotif()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class LignesIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtBrutPerteSalaire()
+     * Test setMtBrutPerteSalaire()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class LignesIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbC()
+     * Test setNbC()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class LignesIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbE()
+     * Test setNbE()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class LignesIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumLigne()
+     * Test setNumLigne()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class LignesIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroAttestation()
+     * Test setNumeroAttestation()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class LignesIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeDeb()
+     * Test setPeriodeDeb()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -159,7 +159,7 @@ class LignesIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeFin()
+     * Test setPeriodeFin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -176,7 +176,7 @@ class LignesIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSalRetEuroOuFranc()
+     * Test setSalRetEuroOuFranc()
      *
      * @return void
      */
@@ -189,7 +189,7 @@ class LignesIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSalaireRet()
+     * Test setSalaireRet()
      *
      * @return void
      */
@@ -202,7 +202,7 @@ class LignesIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSommeRegul1()
+     * Test setSommeRegul1()
      *
      * @return void
      */
@@ -215,7 +215,7 @@ class LignesIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSommeRegul2()
+     * Test setSommeRegul2()
      *
      * @return void
      */
@@ -228,7 +228,7 @@ class LignesIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

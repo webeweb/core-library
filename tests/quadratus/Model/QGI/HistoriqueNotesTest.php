@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class HistoriqueNotesTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeCategorie()
+     * Test setCodeCategorie()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class HistoriqueNotesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaborateur()
+     * Test setCodeCollaborateur()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class HistoriqueNotesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateCloture()
+     * Test setDateCloture()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class HistoriqueNotesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateCreation()
+     * Test setDateCreation()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -85,7 +85,7 @@ class HistoriqueNotesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntitule()
+     * Test setIntitule()
      *
      * @return void
      */
@@ -98,7 +98,7 @@ class HistoriqueNotesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumUniq()
+     * Test setNumUniq()
      *
      * @return void
      */
@@ -111,7 +111,7 @@ class HistoriqueNotesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTitre()
+     * Test setTitre()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class HistoriqueNotesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

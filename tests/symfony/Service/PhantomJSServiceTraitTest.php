@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Service\TestPhantomJSServiceTrait;
 class PhantomJSServiceTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setPhantomJSService()
+     * Test setPhantomJSService()
      *
      * @return void
      */

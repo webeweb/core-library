@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class tblSaisiePaieHistoTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeLibelle()
+     * Test setCodeLibelle()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class tblSaisiePaieHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeUser()
+     * Test setCodeUser()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class tblSaisiePaieHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateAdded()
+     * Test setDateAdded()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class tblSaisiePaieHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFlag()
+     * Test setFlag()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class tblSaisiePaieHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setId()
+     * Test setId()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class tblSaisiePaieHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndicePeriode()
+     * Test setIndicePeriode()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class tblSaisiePaieHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntitule()
+     * Test setIntitule()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class tblSaisiePaieHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntitule2()
+     * Test setIntitule2()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class tblSaisiePaieHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMoisDebFixe()
+     * Test setMoisDebFixe()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class tblSaisiePaieHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMoisFinFixe()
+     * Test setMoisFinFixe()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class tblSaisiePaieHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmploye()
+     * Test setNumeroEmploye()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class tblSaisiePaieHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -189,7 +189,7 @@ class tblSaisiePaieHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeRappel()
+     * Test setPeriodeRappel()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -206,7 +206,7 @@ class tblSaisiePaieHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPosit()
+     * Test setPosit()
      *
      * @return void
      */
@@ -219,7 +219,7 @@ class tblSaisiePaieHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeLigne()
+     * Test setTypeLigne()
      *
      * @return void
      */
@@ -232,7 +232,7 @@ class tblSaisiePaieHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValeur1()
+     * Test setValeur1()
      *
      * @return void
      */
@@ -245,7 +245,7 @@ class tblSaisiePaieHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValeur2()
+     * Test setValeur2()
      *
      * @return void
      */
@@ -258,7 +258,7 @@ class tblSaisiePaieHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

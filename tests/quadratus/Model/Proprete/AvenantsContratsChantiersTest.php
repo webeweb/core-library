@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AvenantsContratsChantiersTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeAbsence()
+     * Test setCodeAbsence()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AvenantsContratsChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AvenantsContratsChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantier()
+     * Test setCodeChantier()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AvenantsContratsChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class AvenantsContratsChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEmploye()
+     * Test setCodeEmploye()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class AvenantsContratsChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTitulaire()
+     * Test setCodeTitulaire()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class AvenantsContratsChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroAvenant()
+     * Test setNumeroAvenant()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class AvenantsContratsChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroLigne()
+     * Test setNumeroLigne()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class AvenantsContratsChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemplaceAu()
+     * Test setRemplaceAu()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -146,7 +146,7 @@ class AvenantsContratsChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemplaceDu()
+     * Test setRemplaceDu()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -163,7 +163,7 @@ class AvenantsContratsChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeDocument()
+     * Test setTypeDocument()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class AvenantsContratsChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 class CivilityInterfaceTest extends AbstractTestCase {
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

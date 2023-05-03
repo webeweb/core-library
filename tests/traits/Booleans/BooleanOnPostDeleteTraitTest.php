@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Booleans\TestBooleanOnPostDeleteTrait;
 class BooleanOnPostDeleteTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setOnPostDelete()
+     * Test setOnPostDelete()
      *
      * @return void
      */

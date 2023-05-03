@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class PlanPrevOrdonnancementTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class PlanPrevOrdonnancementTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantier()
+     * Test setCodeChantier()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class PlanPrevOrdonnancementTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class PlanPrevOrdonnancementTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEmploye()
+     * Test setCodeEmploye()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class PlanPrevOrdonnancementTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTache()
+     * Test setCodeTache()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class PlanPrevOrdonnancementTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDate()
+     * Test setDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -107,7 +107,7 @@ class PlanPrevOrdonnancementTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDescriptif()
+     * Test setDescriptif()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class PlanPrevOrdonnancementTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDiscrTache()
+     * Test setDiscrTache()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class PlanPrevOrdonnancementTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumBt()
+     * Test setNumBt()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class PlanPrevOrdonnancementTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumOrdre()
+     * Test setNumOrdre()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class PlanPrevOrdonnancementTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringOriginUrlTrait;
 class StringOriginUrlTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setOriginUrl()
+     * Test setOriginUrl()
      *
      * @return void
      */

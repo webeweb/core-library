@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class FournisseursTest extends AbstractTestCase {
 
     /**
-     * Tests setApe()
+     * Test setApe()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBtq()
+     * Test setBtq()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBureauDistributeur()
+     * Test setBureauDistributeur()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCode()
+     * Test setCode()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeDevise()
+     * Test setCodeDevise()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeFamille()
+     * Test setCodeFamille()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeImputationAnalytique()
+     * Test setCodeImputationAnalytique()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeLangueDesignationArticle()
+     * Test setCodeLangueDesignationArticle()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeOfficielCommune()
+     * Test setCodeOfficielCommune()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePays()
+     * Test setCodePays()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePostal()
+     * Test setCodePostal()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeReglement()
+     * Test setCodeReglement()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeSousFamille()
+     * Test setCodeSousFamille()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTva()
+     * Test setCodeTva()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTva1()
+     * Test setCodeTva1()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTva2()
+     * Test setCodeTva2()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeVentilCompta()
+     * Test setCodeVentilCompta()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCollectif()
+     * Test setCollectif()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCommentaires()
+     * Test setCommentaires()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setComplement()
+     * Test setComplement()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateCreation()
+     * Test setDateCreation()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -302,7 +302,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateModification()
+     * Test setDateModification()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -319,7 +319,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDelaiLe()
+     * Test setDelaiLe()
      *
      * @return void
      */
@@ -332,7 +332,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDelaiNombre()
+     * Test setDelaiNombre()
      *
      * @return void
      */
@@ -345,7 +345,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDelaiType()
+     * Test setDelaiType()
      *
      * @return void
      */
@@ -358,7 +358,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDomiciliationBancaire1()
+     * Test setDomiciliationBancaire1()
      *
      * @return void
      */
@@ -371,7 +371,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDomiciliationBancaire2()
+     * Test setDomiciliationBancaire2()
      *
      * @return void
      */
@@ -384,7 +384,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmail()
+     * Test setEmail()
      *
      * @return void
      */
@@ -397,7 +397,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFactureEuros()
+     * Test setFactureEuros()
      *
      * @return void
      */
@@ -410,7 +410,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFax()
+     * Test setFax()
      *
      * @return void
      */
@@ -423,7 +423,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFraisFixes1()
+     * Test setFraisFixes1()
      *
      * @return void
      */
@@ -436,7 +436,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFraisFixes2()
+     * Test setFraisFixes2()
      *
      * @return void
      */
@@ -449,7 +449,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFraisFixes3()
+     * Test setFraisFixes3()
      *
      * @return void
      */
@@ -462,7 +462,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIdentTva()
+     * Test setIdentTva()
      *
      * @return void
      */
@@ -475,7 +475,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantAcompte()
+     * Test setMontantAcompte()
      *
      * @return void
      */
@@ -488,7 +488,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbColis()
+     * Test setNbColis()
      *
      * @return void
      */
@@ -501,7 +501,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNom()
+     * Test setNom()
      *
      * @return void
      */
@@ -514,7 +514,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomResponsable()
+     * Test setNomResponsable()
      *
      * @return void
      */
@@ -527,7 +527,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomSuite()
+     * Test setNomSuite()
      *
      * @return void
      */
@@ -540,7 +540,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomVille()
+     * Test setNomVille()
      *
      * @return void
      */
@@ -553,7 +553,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomVoie()
+     * Test setNomVoie()
      *
      * @return void
      */
@@ -566,7 +566,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNombreEcheances()
+     * Test setNombreEcheances()
      *
      * @return void
      */
@@ -579,7 +579,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumVoie()
+     * Test setNumVoie()
      *
      * @return void
      */
@@ -592,7 +592,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroCompte()
+     * Test setNumeroCompte()
      *
      * @return void
      */
@@ -605,7 +605,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPaiementDepartLe()
+     * Test setPaiementDepartLe()
      *
      * @return void
      */
@@ -618,7 +618,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPaiementLe()
+     * Test setPaiementLe()
      *
      * @return void
      */
@@ -631,7 +631,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPaiementNombreDeJours()
+     * Test setPaiementNombreDeJours()
      *
      * @return void
      */
@@ -644,7 +644,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPoids()
+     * Test setPoids()
      *
      * @return void
      */
@@ -657,7 +657,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPortable1()
+     * Test setPortable1()
      *
      * @return void
      */
@@ -670,7 +670,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPortable2()
+     * Test setPortable2()
      *
      * @return void
      */
@@ -683,7 +683,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRc()
+     * Test setRc()
      *
      * @return void
      */
@@ -696,7 +696,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setReferenceClient()
+     * Test setReferenceClient()
      *
      * @return void
      */
@@ -709,7 +709,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemiseLigne1()
+     * Test setRemiseLigne1()
      *
      * @return void
      */
@@ -722,7 +722,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemiseLigne2()
+     * Test setRemiseLigne2()
      *
      * @return void
      */
@@ -735,7 +735,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemiseLigne3()
+     * Test setRemiseLigne3()
      *
      * @return void
      */
@@ -748,7 +748,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemisePied()
+     * Test setRemisePied()
      *
      * @return void
      */
@@ -761,7 +761,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemisePied2()
+     * Test setRemisePied2()
      *
      * @return void
      */
@@ -774,7 +774,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemisePied3()
+     * Test setRemisePied3()
      *
      * @return void
      */
@@ -787,7 +787,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRib()
+     * Test setRib()
      *
      * @return void
      */
@@ -800,7 +800,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSiret()
+     * Test setSiret()
      *
      * @return void
      */
@@ -813,7 +813,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSoumisTaxe1()
+     * Test setSoumisTaxe1()
      *
      * @return void
      */
@@ -826,7 +826,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSoumisTaxe2()
+     * Test setSoumisTaxe2()
      *
      * @return void
      */
@@ -839,7 +839,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSoumisTaxe3()
+     * Test setSoumisTaxe3()
      *
      * @return void
      */
@@ -852,7 +852,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTel1()
+     * Test setTel1()
      *
      * @return void
      */
@@ -865,7 +865,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTel2()
+     * Test setTel2()
      *
      * @return void
      */
@@ -878,7 +878,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTelVoiture()
+     * Test setTelVoiture()
      *
      * @return void
      */
@@ -891,7 +891,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTelex()
+     * Test setTelex()
      *
      * @return void
      */
@@ -904,7 +904,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTransporteur()
+     * Test setTransporteur()
      *
      * @return void
      */
@@ -917,7 +917,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaCle()
+     * Test setTvaCle()
      *
      * @return void
      */
@@ -930,7 +930,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaCodeDossier()
+     * Test setTvaCodeDossier()
      *
      * @return void
      */
@@ -943,7 +943,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaCodeRecette()
+     * Test setTvaCodeRecette()
      *
      * @return void
      */
@@ -956,7 +956,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaRegime()
+     * Test setTvaRegime()
      *
      * @return void
      */
@@ -969,7 +969,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTxEscompteAchat()
+     * Test setTxEscompteAchat()
      *
      * @return void
      */
@@ -982,7 +982,7 @@ class FournisseursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

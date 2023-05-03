@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DadsuPrevoyanceEnteteTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeOrganisme()
+     * Test setCodeOrganisme()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class DadsuPrevoyanceEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePeriodicite()
+     * Test setCodePeriodicite()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class DadsuPrevoyanceEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateApplication()
+     * Test setDateApplication()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class DadsuPrevoyanceEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateEmission()
+     * Test setDateEmission()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -85,7 +85,7 @@ class DadsuPrevoyanceEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntitule()
+     * Test setIntitule()
      *
      * @return void
      */
@@ -98,7 +98,7 @@ class DadsuPrevoyanceEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMailContact()
+     * Test setMailContact()
      *
      * @return void
      */
@@ -111,7 +111,7 @@ class DadsuPrevoyanceEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMoisAnniv()
+     * Test setMoisAnniv()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class DadsuPrevoyanceEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomContact()
+     * Test setNomContact()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class DadsuPrevoyanceEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTelContact()
+     * Test setTelContact()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class DadsuPrevoyanceEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

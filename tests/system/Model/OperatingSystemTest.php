@@ -27,7 +27,7 @@ use WBW\Library\System\Tests\AbstractTestCase;
 class OperatingSystemTest extends AbstractTestCase {
 
     /**
-     * Tests jsonSerialize()
+     * Test jsonSerialize()
      *
      * @return void
      */
@@ -50,7 +50,7 @@ class OperatingSystemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodename()
+     * Test setCodename()
      *
      * @return void
      */
@@ -63,7 +63,7 @@ class OperatingSystemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRelease()
+     * Test setRelease()
      *
      * @return void
      */
@@ -76,7 +76,7 @@ class OperatingSystemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

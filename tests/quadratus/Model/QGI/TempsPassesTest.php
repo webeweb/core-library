@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class TempsPassesTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaborateur()
+     * Test setCodeCollaborateur()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeMission()
+     * Test setCodeMission()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePhase()
+     * Test setCodePhase()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTache()
+     * Test setCodeTache()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeVehicule()
+     * Test setCodeVehicule()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCoutKm()
+     * Test setCoutKm()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateSaisie()
+     * Test setDateSaisie()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -133,7 +133,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateSysSaisie()
+     * Test setDateSysSaisie()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -150,7 +150,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtat()
+     * Test setEtat()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFacturable()
+     * Test setFacturable()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGUniqId()
+     * Test setGUniqId()
      *
      * @return void
      */
@@ -189,7 +189,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHeureDebut()
+     * Test setHeureDebut()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -206,7 +206,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHeureFin()
+     * Test setHeureFin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -223,7 +223,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIdTps()
+     * Test setIdTps()
      *
      * @return void
      */
@@ -236,7 +236,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIsTransf()
+     * Test setIsTransf()
      *
      * @return void
      */
@@ -249,7 +249,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -262,7 +262,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMonnaie()
+     * Test setMonnaie()
      *
      * @return void
      */
@@ -275,7 +275,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantCrt()
+     * Test setMontantCrt()
      *
      * @return void
      */
@@ -288,7 +288,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantTva()
+     * Test setMontantTva()
      *
      * @return void
      */
@@ -301,7 +301,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbKm()
+     * Test setNbKm()
      *
      * @return void
      */
@@ -314,7 +314,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbUo()
+     * Test setNbUo()
      *
      * @return void
      */
@@ -327,7 +327,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeEditionNdF()
+     * Test setPeriodeEditionNdF()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -344,7 +344,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPu()
+     * Test setPu()
      *
      * @return void
      */
@@ -357,7 +357,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPv1()
+     * Test setPv1()
      *
      * @return void
      */
@@ -370,7 +370,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPv2()
+     * Test setPv2()
      *
      * @return void
      */
@@ -383,7 +383,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPv3()
+     * Test setPv3()
      *
      * @return void
      */
@@ -396,7 +396,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQte()
+     * Test setQte()
      *
      * @return void
      */
@@ -409,7 +409,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxRemise()
+     * Test setTauxRemise()
      *
      * @return void
      */
@@ -422,7 +422,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxRemiseIci()
+     * Test setTauxRemiseIci()
      *
      * @return void
      */
@@ -435,7 +435,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqIdFacture()
+     * Test setUniqIdFacture()
      *
      * @return void
      */
@@ -448,7 +448,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValide()
+     * Test setValide()
      *
      * @return void
      */
@@ -461,7 +461,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValideCollab()
+     * Test setValideCollab()
      *
      * @return void
      */
@@ -474,7 +474,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValideDate()
+     * Test setValideDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -491,7 +491,7 @@ class TempsPassesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

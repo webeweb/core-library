@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class FichesControlesEntetesTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantier()
+     * Test setCodeChantier()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaborateur()
+     * Test setCodeCollaborateur()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCommentaire()
+     * Test setCommentaire()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setControleur()
+     * Test setControleur()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateControle()
+     * Test setDateControle()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateCtrlPrevue()
+     * Test setDateCtrlPrevue()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -137,7 +137,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateTransfert()
+     * Test setDateTransfert()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -154,7 +154,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFicheContradictoire()
+     * Test setFicheContradictoire()
      *
      * @return void
      */
@@ -167,7 +167,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFicheSignee()
+     * Test setFicheSignee()
      *
      * @return void
      */
@@ -180,7 +180,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHeureDebut()
+     * Test setHeureDebut()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -197,7 +197,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHeureFin()
+     * Test setHeureFin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -214,7 +214,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -227,7 +227,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLienDocument()
+     * Test setLienDocument()
      *
      * @return void
      */
@@ -240,7 +240,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLocal()
+     * Test setLocal()
      *
      * @return void
      */
@@ -253,7 +253,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLocalPere()
+     * Test setLocalPere()
      *
      * @return void
      */
@@ -266,7 +266,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoteGlobale()
+     * Test setNoteGlobale()
      *
      * @return void
      */
@@ -279,7 +279,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoteObjectif()
+     * Test setNoteObjectif()
      *
      * @return void
      */
@@ -292,7 +292,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroFiche()
+     * Test setNumeroFiche()
      *
      * @return void
      */
@@ -305,7 +305,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroNoeudLocal()
+     * Test setNumeroNoeudLocal()
      *
      * @return void
      */
@@ -318,7 +318,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSatisfactionGenerale()
+     * Test setSatisfactionGenerale()
      *
      * @return void
      */
@@ -331,7 +331,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeControle()
+     * Test setTypeControle()
      *
      * @return void
      */
@@ -344,7 +344,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqIdBlocage()
+     * Test setUniqIdBlocage()
      *
      * @return void
      */
@@ -357,7 +357,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqIdNoeud()
+     * Test setUniqIdNoeud()
      *
      * @return void
      */
@@ -370,7 +370,7 @@ class FichesControlesEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

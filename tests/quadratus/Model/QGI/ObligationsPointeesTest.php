@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ObligationsPointeesTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class ObligationsPointeesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeObligation()
+     * Test setCodeObligation()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class ObligationsPointeesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateEffet()
+     * Test setDateEffet()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class ObligationsPointeesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLe()
+     * Test setLe()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -85,7 +85,7 @@ class ObligationsPointeesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPar()
+     * Test setPar()
      *
      * @return void
      */
@@ -98,7 +98,7 @@ class ObligationsPointeesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ConstantesEntreprise2Test extends AbstractTestCase {
 
     /**
-     * Tests setDateApplicationForfaitSocial8()
+     * Test setDateApplicationForfaitSocial8()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -42,7 +42,7 @@ class ConstantesEntreprise2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateApplicationFsLisse()
+     * Test setDateApplicationFsLisse()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -59,7 +59,7 @@ class ConstantesEntreprise2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setGereEvtFinContratLot()
+     * Test setGereEvtFinContratLot()
      *
      * @return void
      */
@@ -72,7 +72,7 @@ class ConstantesEntreprise2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setGerePrevNormeDsn()
+     * Test setGerePrevNormeDsn()
      *
      * @return void
      */
@@ -85,7 +85,7 @@ class ConstantesEntreprise2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setGestionDsn()
+     * Test setGestionDsn()
      *
      * @return void
      */
@@ -98,7 +98,7 @@ class ConstantesEntreprise2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNEvenementDsn()
+     * Test setNEvenementDsn()
      *
      * @return void
      */
@@ -111,7 +111,7 @@ class ConstantesEntreprise2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNePasActiverPrimeAnnuelleProprete()
+     * Test setNePasActiverPrimeAnnuelleProprete()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class ConstantesEntreprise2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setRegimeMixteMsa()
+     * Test setRegimeMixteMsa()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class ConstantesEntreprise2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxPrimeAnnuellePropreteMoins20Ans()
+     * Test setTauxPrimeAnnuellePropreteMoins20Ans()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class ConstantesEntreprise2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxPrimeAnnuellePropretePlus20Ans()
+     * Test setTauxPrimeAnnuellePropretePlus20Ans()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class ConstantesEntreprise2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

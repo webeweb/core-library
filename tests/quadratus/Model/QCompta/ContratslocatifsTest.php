@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ContratslocatifsTest extends AbstractTestCase {
 
     /**
-     * Tests setCaution()
+     * Test setCaution()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCaution2()
+     * Test setCaution2()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCaution3()
+     * Test setCaution3()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCaution4()
+     * Test setCaution4()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCaution5()
+     * Test setCaution5()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setClausespeciale()
+     * Test setClausespeciale()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCentre()
+     * Test setCodeCentre()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateAnniversaire()
+     * Test setDateAnniversaire()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateCaution()
+     * Test setDateCaution()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -146,7 +146,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateCaution2()
+     * Test setDateCaution2()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -163,7 +163,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateCaution3()
+     * Test setDateCaution3()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -180,7 +180,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateCaution4()
+     * Test setDateCaution4()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -197,7 +197,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateCaution5()
+     * Test setDateCaution5()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -214,7 +214,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateSignature()
+     * Test setDateSignature()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -231,7 +231,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateSignature2()
+     * Test setDateSignature2()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -248,7 +248,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateSignature3()
+     * Test setDateSignature3()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -265,7 +265,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateSignature4()
+     * Test setDateSignature4()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -282,7 +282,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateSignature5()
+     * Test setDateSignature5()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -299,7 +299,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDuree()
+     * Test setDuree()
      *
      * @return void
      */
@@ -312,7 +312,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDureePreavis()
+     * Test setDureePreavis()
      *
      * @return void
      */
@@ -325,7 +325,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -338,7 +338,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMonnaieCaution()
+     * Test setMonnaieCaution()
      *
      * @return void
      */
@@ -351,7 +351,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMonnaieLoyer()
+     * Test setMonnaieLoyer()
      *
      * @return void
      */
@@ -364,7 +364,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantAnnuel()
+     * Test setMontantAnnuel()
      *
      * @return void
      */
@@ -377,7 +377,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantAnnuel2()
+     * Test setMontantAnnuel2()
      *
      * @return void
      */
@@ -390,7 +390,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantAnnuel3()
+     * Test setMontantAnnuel3()
      *
      * @return void
      */
@@ -403,7 +403,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantAnnuel4()
+     * Test setMontantAnnuel4()
      *
      * @return void
      */
@@ -416,7 +416,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantAnnuel5()
+     * Test setMontantAnnuel5()
      *
      * @return void
      */
@@ -429,7 +429,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantCharges()
+     * Test setMontantCharges()
      *
      * @return void
      */
@@ -442,7 +442,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantCharges2()
+     * Test setMontantCharges2()
      *
      * @return void
      */
@@ -455,7 +455,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantCharges3()
+     * Test setMontantCharges3()
      *
      * @return void
      */
@@ -468,7 +468,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantCharges4()
+     * Test setMontantCharges4()
      *
      * @return void
      */
@@ -481,7 +481,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantCharges5()
+     * Test setMontantCharges5()
      *
      * @return void
      */
@@ -494,7 +494,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumCptCaution()
+     * Test setNumCptCaution()
      *
      * @return void
      */
@@ -507,7 +507,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumCptCharges()
+     * Test setNumCptCharges()
      *
      * @return void
      */
@@ -520,7 +520,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumCptLoyer()
+     * Test setNumCptLoyer()
      *
      * @return void
      */
@@ -533,7 +533,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumOrdre()
+     * Test setNumOrdre()
      *
      * @return void
      */
@@ -546,7 +546,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroPj()
+     * Test setNumeroPj()
      *
      * @return void
      */
@@ -559,7 +559,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRefImage()
+     * Test setRefImage()
      *
      * @return void
      */
@@ -572,7 +572,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setService()
+     * Test setService()
      *
      * @return void
      */
@@ -585,7 +585,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniteDuree()
+     * Test setUniteDuree()
      *
      * @return void
      */
@@ -598,7 +598,7 @@ class ContratslocatifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

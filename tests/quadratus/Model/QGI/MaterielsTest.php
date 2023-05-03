@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class MaterielsTest extends AbstractTestCase {
 
     /**
-     * Tests setCarTec()
+     * Test setCarTec()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class MaterielsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCategorie()
+     * Test setCategorie()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class MaterielsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class MaterielsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeIntervenant()
+     * Test setCodeIntervenant()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class MaterielsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCommentaire()
+     * Test setCommentaire()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class MaterielsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateAchat()
+     * Test setDateAchat()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -107,7 +107,7 @@ class MaterielsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFinUtil()
+     * Test setDateFinUtil()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -124,7 +124,7 @@ class MaterielsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndiceAff()
+     * Test setIndiceAff()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class MaterielsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class MaterielsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRefImage()
+     * Test setRefImage()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class MaterielsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSousCategorie()
+     * Test setSousCategorie()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class MaterielsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

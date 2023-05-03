@@ -27,7 +27,7 @@ use WBW\Library\System\Tests\AbstractTestCase;
 class HardDiskTest extends AbstractTestCase {
 
     /**
-     * Tests getAvailable()
+     * Test getAvailable()
      *
      * @return void
      */
@@ -40,7 +40,7 @@ class HardDiskTest extends AbstractTestCase {
     }
 
     /**
-     * Tests getFs()
+     * Test getFs()
      *
      * @return void
      */
@@ -53,7 +53,7 @@ class HardDiskTest extends AbstractTestCase {
     }
 
     /**
-     * Tests getMountedOn()
+     * Test getMountedOn()
      *
      * @return void
      */
@@ -66,7 +66,7 @@ class HardDiskTest extends AbstractTestCase {
     }
 
     /**
-     * Tests getUsePercent()
+     * Test getUsePercent()
      *
      * @return void
      */
@@ -79,7 +79,7 @@ class HardDiskTest extends AbstractTestCase {
     }
 
     /**
-     * Tests getUsed()
+     * Test getUsed()
      *
      * @return void
      */
@@ -92,7 +92,7 @@ class HardDiskTest extends AbstractTestCase {
     }
 
     /**
-     * Tests jsonSerialize()
+     * Test jsonSerialize()
      *
      * @return void
      */
@@ -118,7 +118,7 @@ class HardDiskTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

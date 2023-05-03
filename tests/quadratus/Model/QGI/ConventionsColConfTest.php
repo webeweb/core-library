@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ConventionsColConfTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeCollaborateur()
+     * Test setCodeCollaborateur()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ConventionsColConfTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDroit()
+     * Test setDroit()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ConventionsColConfTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setType()
+     * Test setType()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ConventionsColConfTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

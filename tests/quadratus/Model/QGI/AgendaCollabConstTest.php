@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AgendaCollabConstTest extends AbstractTestCase {
 
     /**
-     * Tests setArtt()
+     * Test setArtt()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaborateur()
+     * Test setCodeCollaborateur()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeSiteTenue()
+     * Test setCodeSiteTenue()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setConfidentiel()
+     * Test setConfidentiel()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDerniereModifAgenda()
+     * Test setDateDerniereModifAgenda()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -94,7 +94,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDimancheAMdeb()
+     * Test setDimancheAMdeb()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -111,7 +111,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDimancheAMfin()
+     * Test setDimancheAMfin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -128,7 +128,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDimanchePMdeb()
+     * Test setDimanchePMdeb()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -145,7 +145,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDimanchePMfin()
+     * Test setDimanchePMfin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -162,7 +162,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setInterdireRdVHorsTravail()
+     * Test setInterdireRdVHorsTravail()
      *
      * @return void
      */
@@ -175,7 +175,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setJeudiAMdeb()
+     * Test setJeudiAMdeb()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -192,7 +192,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setJeudiAMfin()
+     * Test setJeudiAMfin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -209,7 +209,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setJeudiPMdeb()
+     * Test setJeudiPMdeb()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -226,7 +226,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setJeudiPMfin()
+     * Test setJeudiPMfin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -243,7 +243,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLundiAMdeb()
+     * Test setLundiAMdeb()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -260,7 +260,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLundiAMfin()
+     * Test setLundiAMfin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -277,7 +277,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLundiPMdeb()
+     * Test setLundiPMdeb()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -294,7 +294,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLundiPMfin()
+     * Test setLundiPMfin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -311,7 +311,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMardiAMdeb()
+     * Test setMardiAMdeb()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -328,7 +328,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMardiAMfin()
+     * Test setMardiAMfin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -345,7 +345,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMardiPMdeb()
+     * Test setMardiPMdeb()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -362,7 +362,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMardiPMfin()
+     * Test setMardiPMfin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -379,7 +379,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMercrediAMdeb()
+     * Test setMercrediAMdeb()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -396,7 +396,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMercrediAMfin()
+     * Test setMercrediAMfin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -413,7 +413,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMercrediPMdeb()
+     * Test setMercrediPMdeb()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -430,7 +430,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMercrediPMfin()
+     * Test setMercrediPMfin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -447,7 +447,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPlusPetiteDateActiviteModifiee()
+     * Test setPlusPetiteDateActiviteModifiee()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -464,7 +464,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSamediAMdeb()
+     * Test setSamediAMdeb()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -481,7 +481,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSamediAMfin()
+     * Test setSamediAMfin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -498,7 +498,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSamediPMdeb()
+     * Test setSamediPMdeb()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -515,7 +515,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSamediPMfin()
+     * Test setSamediPMfin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -532,7 +532,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSuiviOrdreMission()
+     * Test setSuiviOrdreMission()
      *
      * @return void
      */
@@ -545,7 +545,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniteRdv()
+     * Test setUniteRdv()
      *
      * @return void
      */
@@ -558,7 +558,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setVendrediAMdeb()
+     * Test setVendrediAMdeb()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -575,7 +575,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setVendrediAMfin()
+     * Test setVendrediAMfin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -592,7 +592,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setVendrediPMdeb()
+     * Test setVendrediPMdeb()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -609,7 +609,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setVendrediPMfin()
+     * Test setVendrediPMfin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -626,7 +626,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

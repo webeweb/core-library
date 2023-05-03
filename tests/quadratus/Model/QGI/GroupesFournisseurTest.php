@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class GroupesFournisseurTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeFournisseur()
+     * Test setCodeFournisseur()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeImputationAnalytique()
+     * Test setCodeImputationAnalytique()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeReglement()
+     * Test setCodeReglement()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTva()
+     * Test setCodeTva()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeVentilCompta()
+     * Test setCodeVentilCompta()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCollectif()
+     * Test setCollectif()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateEntree()
+     * Test setDateEntree()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateSortie()
+     * Test setDateSortie()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -137,7 +137,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDelaiLe()
+     * Test setDelaiLe()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDelaiNombre()
+     * Test setDelaiNombre()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDelaiType()
+     * Test setDelaiType()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDomiciliationBancaire1()
+     * Test setDomiciliationBancaire1()
      *
      * @return void
      */
@@ -189,7 +189,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDomiciliationBancaire2()
+     * Test setDomiciliationBancaire2()
      *
      * @return void
      */
@@ -202,7 +202,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFactureEuros()
+     * Test setFactureEuros()
      *
      * @return void
      */
@@ -215,7 +215,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFournisseurPerdu()
+     * Test setFournisseurPerdu()
      *
      * @return void
      */
@@ -228,7 +228,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGroupe()
+     * Test setGroupe()
      *
      * @return void
      */
@@ -241,7 +241,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNombreEcheances()
+     * Test setNombreEcheances()
      *
      * @return void
      */
@@ -254,7 +254,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroCompte()
+     * Test setNumeroCompte()
      *
      * @return void
      */
@@ -267,7 +267,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPaiementDepartLe()
+     * Test setPaiementDepartLe()
      *
      * @return void
      */
@@ -280,7 +280,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPaiementLe()
+     * Test setPaiementLe()
      *
      * @return void
      */
@@ -293,7 +293,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPaiementNombreDeJours()
+     * Test setPaiementNombreDeJours()
      *
      * @return void
      */
@@ -306,7 +306,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setReferencePiece()
+     * Test setReferencePiece()
      *
      * @return void
      */
@@ -319,7 +319,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemiseLigne1()
+     * Test setRemiseLigne1()
      *
      * @return void
      */
@@ -332,7 +332,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemiseLigne2()
+     * Test setRemiseLigne2()
      *
      * @return void
      */
@@ -345,7 +345,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemiseLigne3()
+     * Test setRemiseLigne3()
      *
      * @return void
      */
@@ -358,7 +358,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemisePied()
+     * Test setRemisePied()
      *
      * @return void
      */
@@ -371,7 +371,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemisePied2()
+     * Test setRemisePied2()
      *
      * @return void
      */
@@ -384,7 +384,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemisePied3()
+     * Test setRemisePied3()
      *
      * @return void
      */
@@ -397,7 +397,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRib()
+     * Test setRib()
      *
      * @return void
      */
@@ -410,7 +410,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSoumisEscompte()
+     * Test setSoumisEscompte()
      *
      * @return void
      */
@@ -423,7 +423,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxEscompte()
+     * Test setTauxEscompte()
      *
      * @return void
      */
@@ -436,7 +436,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTransporteur()
+     * Test setTransporteur()
      *
      * @return void
      */
@@ -449,7 +449,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

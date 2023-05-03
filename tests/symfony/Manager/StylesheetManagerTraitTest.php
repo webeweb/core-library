@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Manager\TestStylesheetManagerTrait;
 class StylesheetManagerTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setStylesheetManager()
+     * Test setStylesheetManager()
      *
      * @return void
      */

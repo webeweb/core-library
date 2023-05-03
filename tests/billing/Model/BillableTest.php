@@ -30,7 +30,7 @@ use WBW\Library\Billing\Tests\Fixtures\Model\TestBillableDetail;
 class BillableTest extends AbstractTestCase {
 
     /**
-     * Tests hasDetails()
+     * Test hasDetails()
      *
      * @return void
      */
@@ -42,7 +42,7 @@ class BillableTest extends AbstractTestCase {
     }
 
     /**
-     * Tests jsonSerialize()
+     * Test jsonSerialize()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -75,7 +75,7 @@ class BillableTest extends AbstractTestCase {
     }
 
     /**
-     * Tests onSubmit()
+     * Test onSubmit()
      *
      * @return void
      */
@@ -106,7 +106,7 @@ class BillableTest extends AbstractTestCase {
     }
 
     /**
-     * Tests removeDetail()
+     * Test removeDetail()
      *
      * @return void
      */
@@ -125,7 +125,7 @@ class BillableTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setParent()
+     * Test setParent()
      *
      * @return void
      */
@@ -141,7 +141,7 @@ class BillableTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Renderer\DateTimes\TestDateTimeRendererTr
 class DateTimeRendererTraitTest extends AbstractTestCase {
 
     /**
-     * Tests renderDateTime()
+     * Test renderDateTime()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.

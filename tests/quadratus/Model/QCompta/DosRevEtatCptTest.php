@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DosRevEtatCptTest extends AbstractTestCase {
 
     /**
-     * Tests setCollaborateur()
+     * Test setCollaborateur()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class DosRevEtatCptTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCredit()
+     * Test setCredit()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class DosRevEtatCptTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateModif()
+     * Test setDateModif()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class DosRevEtatCptTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDebit()
+     * Test setDebit()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class DosRevEtatCptTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtatCpt()
+     * Test setEtatCpt()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class DosRevEtatCptTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setModifie()
+     * Test setModifie()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class DosRevEtatCptTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroCompte()
+     * Test setNumeroCompte()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class DosRevEtatCptTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeRev()
+     * Test setPeriodeRev()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -137,7 +137,7 @@ class DosRevEtatCptTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSolde()
+     * Test setSolde()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class DosRevEtatCptTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

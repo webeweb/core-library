@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ActionsCoInvitesTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeAction()
+     * Test setCodeAction()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class ActionsCoInvitesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class ActionsCoInvitesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeColl()
+     * Test setCodeColl()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class ActionsCoInvitesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateAjout()
+     * Test setDateAjout()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class ActionsCoInvitesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomInterlocuteur()
+     * Test setNomInterlocuteur()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class ActionsCoInvitesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumInterlocuteur()
+     * Test setNumInterlocuteur()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class ActionsCoInvitesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRetourNeg()
+     * Test setRetourNeg()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class ActionsCoInvitesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeInvitation()
+     * Test setTypeInvitation()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class ActionsCoInvitesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeInvite()
+     * Test setTypeInvite()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class ActionsCoInvitesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

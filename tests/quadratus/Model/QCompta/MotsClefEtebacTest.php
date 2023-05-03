@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class MotsClefEtebacTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeJournal()
+     * Test setCodeJournal()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class MotsClefEtebacTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class MotsClefEtebacTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setListeComptes()
+     * Test setListeComptes()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class MotsClefEtebacTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMot()
+     * Test setMot()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class MotsClefEtebacTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroCompteDepense()
+     * Test setNumeroCompteDepense()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class MotsClefEtebacTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroCompteRecette()
+     * Test setNumeroCompteRecette()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class MotsClefEtebacTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRegle()
+     * Test setRegle()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class MotsClefEtebacTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

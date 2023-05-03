@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class RgCorrespondancesTest extends AbstractTestCase {
 
     /**
-     * Tests setFichiersPublierWeb()
+     * Test setFichiersPublierWeb()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class RgCorrespondancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIgnorer()
+     * Test setIgnorer()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class RgCorrespondancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNiveau()
+     * Test setNiveau()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class RgCorrespondancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeDonnees()
+     * Test setTypeDonnees()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class RgCorrespondancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqId()
+     * Test setUniqId()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class RgCorrespondancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValeur()
+     * Test setValeur()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class RgCorrespondancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValeurOrigine()
+     * Test setValeurOrigine()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class RgCorrespondancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

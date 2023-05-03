@@ -23,7 +23,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Renderer\Strings\TestSmallTextRendererTra
 class SmallTextRendererTraitTest extends AbstractTestCase {
 
     /**
-     * Tests renderSmallText()
+     * Test renderSmallText()
      *
      * @return void
      */

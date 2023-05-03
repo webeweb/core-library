@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringRedirectUrlTrait;
 class StringRedirectUrlTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setRedirectUrl()
+     * Test setRedirectUrl()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Floats\TestFloatScoreTrait;
 class FloatScoreTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setScore()
+     * Test setScore()
      *
      * @return void
      */

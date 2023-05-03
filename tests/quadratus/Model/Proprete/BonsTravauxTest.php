@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class BonsTravauxTest extends AbstractTestCase {
 
     /**
-     * Tests setAdBtBureauDistributeur()
+     * Test setAdBtBureauDistributeur()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdBtCivilite()
+     * Test setAdBtCivilite()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdBtCodePays()
+     * Test setAdBtCodePays()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdBtCodePostal()
+     * Test setAdBtCodePostal()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdBtComplement()
+     * Test setAdBtComplement()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdBtNom()
+     * Test setAdBtNom()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdBtNomSuite()
+     * Test setAdBtNomSuite()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdBtNomVoie()
+     * Test setAdBtNomVoie()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdBtNumVoie()
+     * Test setAdBtNumVoie()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdBtbtq()
+     * Test setAdBtbtq()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdFBureauDistributeur()
+     * Test setAdFBureauDistributeur()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdFCivilite()
+     * Test setAdFCivilite()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdFCodePays()
+     * Test setAdFCodePays()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdFCodePostal()
+     * Test setAdFCodePostal()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdFComplement()
+     * Test setAdFComplement()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdFNom()
+     * Test setAdFNom()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdFNomSuite()
+     * Test setAdFNomSuite()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdFNomSuite2()
+     * Test setAdFNomSuite2()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdFNomSuite3()
+     * Test setAdFNomSuite3()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdFNomVoie()
+     * Test setAdFNomVoie()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdFNumVoie()
+     * Test setAdFNumVoie()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdFbtq()
+     * Test setAdFbtq()
      *
      * @return void
      */
@@ -311,7 +311,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdresseBtSaisie()
+     * Test setAdresseBtSaisie()
      *
      * @return void
      */
@@ -324,7 +324,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdresseFacturationSaisie()
+     * Test setAdresseFacturationSaisie()
      *
      * @return void
      */
@@ -337,7 +337,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -350,7 +350,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantier()
+     * Test setCodeChantier()
      *
      * @return void
      */
@@ -363,7 +363,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -376,7 +376,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeFrequence()
+     * Test setCodeFrequence()
      *
      * @return void
      */
@@ -389,7 +389,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTacheBt()
+     * Test setCodeTacheBt()
      *
      * @return void
      */
@@ -402,7 +402,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTournee()
+     * Test setCodeTournee()
      *
      * @return void
      */
@@ -415,7 +415,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCritereListe1()
+     * Test setCritereListe1()
      *
      * @return void
      */
@@ -428,7 +428,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCritereListe2()
+     * Test setCritereListe2()
      *
      * @return void
      */
@@ -441,7 +441,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCritereNumerique1()
+     * Test setCritereNumerique1()
      *
      * @return void
      */
@@ -454,7 +454,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCritereNumerique2()
+     * Test setCritereNumerique2()
      *
      * @return void
      */
@@ -467,7 +467,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCritereTexte1()
+     * Test setCritereTexte1()
      *
      * @return void
      */
@@ -480,7 +480,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCritereTexte2()
+     * Test setCritereTexte2()
      *
      * @return void
      */
@@ -493,7 +493,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDernierPassage()
+     * Test setDateDernierPassage()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -510,7 +510,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFinValidite()
+     * Test setDateFinValidite()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -527,7 +527,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDatePremierPassage()
+     * Test setDatePremierPassage()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -544,7 +544,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateValidite()
+     * Test setDateValidite()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -561,7 +561,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDescription()
+     * Test setDescription()
      *
      * @return void
      */
@@ -574,7 +574,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEquipe()
+     * Test setEquipe()
      *
      * @return void
      */
@@ -587,7 +587,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFrequence()
+     * Test setFrequence()
      *
      * @return void
      */
@@ -600,7 +600,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFrequenceSuite()
+     * Test setFrequenceSuite()
      *
      * @return void
      */
@@ -613,7 +613,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGestionPlanning()
+     * Test setGestionPlanning()
      *
      * @return void
      */
@@ -626,7 +626,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHeureDeb()
+     * Test setHeureDeb()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -643,7 +643,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLatitude()
+     * Test setLatitude()
      *
      * @return void
      */
@@ -656,7 +656,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLongitude()
+     * Test setLongitude()
      *
      * @return void
      */
@@ -669,7 +669,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMentionSpeciale()
+     * Test setMentionSpeciale()
      *
      * @return void
      */
@@ -682,7 +682,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHeures()
+     * Test setNbHeures()
      *
      * @return void
      */
@@ -695,7 +695,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJours()
+     * Test setNbJours()
      *
      * @return void
      */
@@ -708,7 +708,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumBt()
+     * Test setNumBt()
      *
      * @return void
      */
@@ -721,7 +721,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPosteRent()
+     * Test setPosteRent()
      *
      * @return void
      */
@@ -734,7 +734,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSaisieInterJour()
+     * Test setSaisieInterJour()
      *
      * @return void
      */
@@ -747,7 +747,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTravailleDimanche()
+     * Test setTravailleDimanche()
      *
      * @return void
      */
@@ -760,7 +760,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTravailleJoursFeries()
+     * Test setTravailleJoursFeries()
      *
      * @return void
      */
@@ -773,7 +773,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTravailleSamedi()
+     * Test setTravailleSamedi()
      *
      * @return void
      */
@@ -786,7 +786,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeFrequence()
+     * Test setTypeFrequence()
      *
      * @return void
      */
@@ -799,7 +799,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUnBonParMois()
+     * Test setUnBonParMois()
      *
      * @return void
      */
@@ -812,7 +812,7 @@ class BonsTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

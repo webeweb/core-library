@@ -23,7 +23,7 @@ use WBW\Library\Maths\Tests\AbstractTestCase;
 class FibonacciHelperTest extends AbstractTestCase {
 
     /**
-     * Tests fibonacci()
+     * Test fibonacci()
      *
      * @return void
      */
@@ -43,7 +43,7 @@ class FibonacciHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests fibonacci()
+     * Test fibonacci()
      *
      * @return void
      */
@@ -63,7 +63,7 @@ class FibonacciHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests sequence()
+     * Test sequence()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class FibonacciHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests sequence()
+     * Test sequence()
      *
      * @return void
      */

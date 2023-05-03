@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ProgTypeLignesTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeOperation()
+     * Test setCodeOperation()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ProgTypeLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCoefficient()
+     * Test setCoefficient()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ProgTypeLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumLigne()
+     * Test setNumLigne()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ProgTypeLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumProgramme()
+     * Test setNumProgramme()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ProgTypeLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setVitesseReelle()
+     * Test setVitesseReelle()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ProgTypeLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setVitesseTheorique()
+     * Test setVitesseTheorique()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class ProgTypeLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

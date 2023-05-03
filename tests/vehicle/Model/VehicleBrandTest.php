@@ -26,7 +26,7 @@ use WBW\Library\Vehicle\Tests\AbstractTestCase;
 class VehicleBrandTest extends AbstractTestCase {
 
     /**
-     * Tests jsonSerialize()
+     * Test jsonSerialize()
      *
      * @return void
      */
@@ -46,7 +46,7 @@ class VehicleBrandTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

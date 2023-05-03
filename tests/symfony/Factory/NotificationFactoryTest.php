@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Tests\AbstractTestCase;
 class NotificationFactoryTest extends AbstractTestCase {
 
     /**
-     * Tests newDangerNotification()
+     * Test newDangerNotification()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class NotificationFactoryTest extends AbstractTestCase {
     }
 
     /**
-     * Tests newDefaultNotification()
+     * Test newDefaultNotification()
      *
      * @return void
      */
@@ -52,7 +52,7 @@ class NotificationFactoryTest extends AbstractTestCase {
     }
 
     /**
-     * Tests newInfoNotification()
+     * Test newInfoNotification()
      *
      * @return void
      */
@@ -66,7 +66,7 @@ class NotificationFactoryTest extends AbstractTestCase {
     }
 
     /**
-     * Tests newSuccessNotification()
+     * Test newSuccessNotification()
      *
      * @return void
      */
@@ -80,7 +80,7 @@ class NotificationFactoryTest extends AbstractTestCase {
     }
 
     /**
-     * Tests newWarningNotification()
+     * Test newWarningNotification()
      *
      * @return void
      */

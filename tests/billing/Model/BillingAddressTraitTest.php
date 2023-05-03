@@ -23,7 +23,7 @@ use WBW\Library\Billing\Tests\Fixtures\Model\TestBillingAddressTrait;
 class BillingAddressTraitTest extends AbstractTestCase {
 
     /**
-     * Tests jsonSerialize()
+     * Test jsonSerialize()
      *
      * @return void
      */
@@ -48,7 +48,7 @@ class BillingAddressTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBillingAddressAddressee()
+     * Test setBillingAddressAddressee()
      *
      * @return void
      */
@@ -61,7 +61,7 @@ class BillingAddressTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBillingAddressCountry()
+     * Test setBillingAddressCountry()
      *
      * @return void
      */
@@ -74,7 +74,7 @@ class BillingAddressTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBillingAddressHouseNumber()
+     * Test setBillingAddressHouseNumber()
      *
      * @return void
      */
@@ -87,7 +87,7 @@ class BillingAddressTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBillingAddressLocation()
+     * Test setBillingAddressLocation()
      *
      * @return void
      */
@@ -100,7 +100,7 @@ class BillingAddressTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBillingAddressPostalCode()
+     * Test setBillingAddressPostalCode()
      *
      * @return void
      */
@@ -113,7 +113,7 @@ class BillingAddressTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBillingAddressStreetName()
+     * Test setBillingAddressStreetName()
      *
      * @return void
      */

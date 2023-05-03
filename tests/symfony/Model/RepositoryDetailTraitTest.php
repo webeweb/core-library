@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Model\TestRepositoryDetailTrait;
 class RepositoryDetailTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setRepositoryDetail()
+     * Test setRepositoryDetail()
      *
      * @return void
      */

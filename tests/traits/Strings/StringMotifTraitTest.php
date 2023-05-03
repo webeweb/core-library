@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringMotifTrait;
 class StringMotifTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setMotif()
+     * Test setMotif()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class BudgetTTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeAssistantJuridique()
+     * Test setCodeAssistantJuridique()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAssistantSocial()
+     * Test setCodeAssistantSocial()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAutre1()
+     * Test setCodeAutre1()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAutre2()
+     * Test setCodeAutre2()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaborateur()
+     * Test setCodeCollaborateur()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeExpert()
+     * Test setCodeExpert()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeMission()
+     * Test setCodeMission()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePortefeuille()
+     * Test setCodePortefeuille()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCollabAuteur()
+     * Test setCollabAuteur()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCollabValideur()
+     * Test setCollabValideur()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setComment1()
+     * Test setComment1()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setComment2()
+     * Test setComment2()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setComment3()
+     * Test setComment3()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setComment4()
+     * Test setComment4()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setComment5()
+     * Test setComment5()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setComment6()
+     * Test setComment6()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setComment7()
+     * Test setComment7()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDebut()
+     * Test setDateDebut()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -276,7 +276,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateValid()
+     * Test setDateValid()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -293,7 +293,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtat()
+     * Test setEtat()
      *
      * @return void
      */
@@ -306,7 +306,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHonoPrev()
+     * Test setHonoPrev()
      *
      * @return void
      */
@@ -319,7 +319,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle1()
+     * Test setLibelle1()
      *
      * @return void
      */
@@ -332,7 +332,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle2()
+     * Test setLibelle2()
      *
      * @return void
      */
@@ -345,7 +345,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle3()
+     * Test setLibelle3()
      *
      * @return void
      */
@@ -358,7 +358,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle4()
+     * Test setLibelle4()
      *
      * @return void
      */
@@ -371,7 +371,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle5()
+     * Test setLibelle5()
      *
      * @return void
      */
@@ -384,7 +384,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle6()
+     * Test setLibelle6()
      *
      * @return void
      */
@@ -397,7 +397,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle7()
+     * Test setLibelle7()
      *
      * @return void
      */
@@ -410,7 +410,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbrBulletins()
+     * Test setNbrBulletins()
      *
      * @return void
      */
@@ -423,7 +423,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbrEcritures()
+     * Test setNbrEcritures()
      *
      * @return void
      */
@@ -436,7 +436,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbrHeures()
+     * Test setNbrHeures()
      *
      * @return void
      */
@@ -449,7 +449,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrix1()
+     * Test setPrix1()
      *
      * @return void
      */
@@ -462,7 +462,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrix2()
+     * Test setPrix2()
      *
      * @return void
      */
@@ -475,7 +475,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrix3()
+     * Test setPrix3()
      *
      * @return void
      */
@@ -488,7 +488,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrix4()
+     * Test setPrix4()
      *
      * @return void
      */
@@ -501,7 +501,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrix5()
+     * Test setPrix5()
      *
      * @return void
      */
@@ -514,7 +514,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrix6()
+     * Test setPrix6()
      *
      * @return void
      */
@@ -527,7 +527,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrix7()
+     * Test setPrix7()
      *
      * @return void
      */
@@ -540,7 +540,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSaisieTache()
+     * Test setSaisieTache()
      *
      * @return void
      */
@@ -553,7 +553,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeSuivi()
+     * Test setTypeSuivi()
      *
      * @return void
      */
@@ -566,7 +566,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValoRecap()
+     * Test setValoRecap()
      *
      * @return void
      */
@@ -579,7 +579,7 @@ class BudgetTTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

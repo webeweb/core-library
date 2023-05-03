@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class iSessionsTest extends AbstractTestCase {
 
     /**
-     * Tests setAdresseIp()
+     * Test setAdresseIp()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class iSessionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAppli()
+     * Test setAppli()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class iSessionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeUser()
+     * Test setCodeUser()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class iSessionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateActive()
+     * Test setDateActive()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class iSessionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateAdded()
+     * Test setDateAdded()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -98,7 +98,7 @@ class iSessionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDossier()
+     * Test setDossier()
      *
      * @return void
      */
@@ -111,7 +111,7 @@ class iSessionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setId()
+     * Test setId()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class iSessionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

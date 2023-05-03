@@ -24,7 +24,7 @@ use WBW\Library\Image\Utility\ImageUtility;
 class ImageFactory {
 
     /**
-     * Creates new dimensions.
+     * Create new dimensions.
      *
      * @param Image $image The image.
      * @param int $maxWidth The maximum width.
@@ -39,7 +39,7 @@ class ImageFactory {
     }
 
     /**
-     * Creates an input stream.
+     * Create an input stream.
      *
      * @param Image $image The image.
      * @return resource|null Returns the input stream in case of success, null otherwise.
@@ -66,7 +66,7 @@ class ImageFactory {
     }
 
     /**
-     * Creates an output stream.
+     * Create an output stream.
      *
      * @param Image $image the image.
      * @param int $width The width.

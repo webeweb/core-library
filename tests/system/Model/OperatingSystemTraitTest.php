@@ -24,7 +24,7 @@ use WBW\Library\System\Tests\Fixtures\Model\TestOperatingSystemTrait;
 class OperatingSystemTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setOperatingSystem()
+     * Test setOperatingSystem()
      *
      * @return void
      */

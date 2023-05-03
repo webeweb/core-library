@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LignesAttestationCacmTest extends AbstractTestCase {
 
     /**
-     * Tests setDateDebut()
+     * Test setDateDebut()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -42,7 +42,7 @@ class LignesAttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFin()
+     * Test setDateFin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -59,7 +59,7 @@ class LignesAttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDatePaiement()
+     * Test setDatePaiement()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -76,7 +76,7 @@ class LignesAttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant()
+     * Test setMontant()
      *
      * @return void
      */
@@ -89,7 +89,7 @@ class LignesAttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantPrecompte()
+     * Test setMontantPrecompte()
      *
      * @return void
      */
@@ -102,7 +102,7 @@ class LignesAttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHeureTrav()
+     * Test setNbHeureTrav()
      *
      * @return void
      */
@@ -115,7 +115,7 @@ class LignesAttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJourTrav()
+     * Test setNbJourTrav()
      *
      * @return void
      */
@@ -128,7 +128,7 @@ class LignesAttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumLigne()
+     * Test setNumLigne()
      *
      * @return void
      */
@@ -141,7 +141,7 @@ class LignesAttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroAttestation()
+     * Test setNumeroAttestation()
      *
      * @return void
      */
@@ -154,7 +154,7 @@ class LignesAttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSalaireBrut()
+     * Test setSalaireBrut()
      *
      * @return void
      */
@@ -167,7 +167,7 @@ class LignesAttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeLigne()
+     * Test setTypeLigne()
      *
      * @return void
      */
@@ -180,7 +180,7 @@ class LignesAttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

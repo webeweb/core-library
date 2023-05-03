@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ActionsCoManifTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeAction()
+     * Test setCodeAction()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class ActionsCoManifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeManif()
+     * Test setCodeManif()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class ActionsCoManifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setContact()
+     * Test setContact()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class ActionsCoManifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDeb()
+     * Test setDateDeb()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class ActionsCoManifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFin()
+     * Test setDateFin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -98,7 +98,7 @@ class ActionsCoManifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDuree()
+     * Test setDuree()
      *
      * @return void
      */
@@ -111,7 +111,7 @@ class ActionsCoManifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDureeDbl()
+     * Test setDureeDbl()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class ActionsCoManifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndiceAff()
+     * Test setIndiceAff()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class ActionsCoManifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIsMontantHt()
+     * Test setIsMontantHt()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class ActionsCoManifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class ActionsCoManifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelleMemo()
+     * Test setLibelleMemo()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class ActionsCoManifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLieuBtq()
+     * Test setLieuBtq()
      *
      * @return void
      */
@@ -189,7 +189,7 @@ class ActionsCoManifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLieuBureauDistributeur()
+     * Test setLieuBureauDistributeur()
      *
      * @return void
      */
@@ -202,7 +202,7 @@ class ActionsCoManifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLieuCodePostal()
+     * Test setLieuCodePostal()
      *
      * @return void
      */
@@ -215,7 +215,7 @@ class ActionsCoManifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLieuComplement()
+     * Test setLieuComplement()
      *
      * @return void
      */
@@ -228,7 +228,7 @@ class ActionsCoManifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLieuEmail()
+     * Test setLieuEmail()
      *
      * @return void
      */
@@ -241,7 +241,7 @@ class ActionsCoManifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLieuFax()
+     * Test setLieuFax()
      *
      * @return void
      */
@@ -254,7 +254,7 @@ class ActionsCoManifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLieuNom()
+     * Test setLieuNom()
      *
      * @return void
      */
@@ -267,7 +267,7 @@ class ActionsCoManifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLieuNomVoie()
+     * Test setLieuNomVoie()
      *
      * @return void
      */
@@ -280,7 +280,7 @@ class ActionsCoManifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLieuNumVoie()
+     * Test setLieuNumVoie()
      *
      * @return void
      */
@@ -293,7 +293,7 @@ class ActionsCoManifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLieuPj()
+     * Test setLieuPj()
      *
      * @return void
      */
@@ -306,7 +306,7 @@ class ActionsCoManifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLieuTel()
+     * Test setLieuTel()
      *
      * @return void
      */
@@ -319,7 +319,7 @@ class ActionsCoManifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantCheque()
+     * Test setMontantCheque()
      *
      * @return void
      */
@@ -332,7 +332,7 @@ class ActionsCoManifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbSeances()
+     * Test setNbSeances()
      *
      * @return void
      */
@@ -345,7 +345,7 @@ class ActionsCoManifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomFormateur()
+     * Test setNomFormateur()
      *
      * @return void
      */
@@ -358,7 +358,7 @@ class ActionsCoManifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeFormation()
+     * Test setTypeFormation()
      *
      * @return void
      */
@@ -371,7 +371,7 @@ class ActionsCoManifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setYaFeuillePresence()
+     * Test setYaFeuillePresence()
      *
      * @return void
      */
@@ -384,7 +384,7 @@ class ActionsCoManifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

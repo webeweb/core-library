@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DernErrPrepaFactTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class DernErrPrepaFactTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantier()
+     * Test setCodeChantier()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class DernErrPrepaFactTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class DernErrPrepaFactTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRegroupement()
+     * Test setCodeRegroupement()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class DernErrPrepaFactTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDesignation()
+     * Test setDesignation()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class DernErrPrepaFactTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtPrepa()
+     * Test setDtPrepa()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -107,7 +107,7 @@ class DernErrPrepaFactTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoChronoPreparation()
+     * Test setNoChronoPreparation()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class DernErrPrepaFactTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -137,7 +137,7 @@ class DernErrPrepaFactTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

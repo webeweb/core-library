@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EmpRecapLodeomTest extends AbstractTestCase {
 
     /**
-     * Tests setBrut()
+     * Test setBrut()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class EmpRecapLodeomTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCentre()
+     * Test setCodeCentre()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class EmpRecapLodeomTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEtablissement()
+     * Test setCodeEtablissement()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class EmpRecapLodeomTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeOrganisme()
+     * Test setCodeOrganisme()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class EmpRecapLodeomTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDifference()
+     * Test setDifference()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class EmpRecapLodeomTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndicePeriode()
+     * Test setIndicePeriode()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class EmpRecapLodeomTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbhr()
+     * Test setNbhr()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class EmpRecapLodeomTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomEmploye()
+     * Test setNomEmploye()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class EmpRecapLodeomTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmploye()
+     * Test setNumeroEmploye()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class EmpRecapLodeomTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -159,7 +159,7 @@ class EmpRecapLodeomTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setReducBul()
+     * Test setReducBul()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class EmpRecapLodeomTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setReducRecalc()
+     * Test setReducRecalc()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class EmpRecapLodeomTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setShb()
+     * Test setShb()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class EmpRecapLodeomTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

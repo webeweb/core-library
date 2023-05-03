@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AgendaJoursFeriesTest extends AbstractTestCase {
 
     /**
-     * Tests setCalculee()
+     * Test setCalculee()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AgendaJoursFeriesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFeriee()
+     * Test setDateFeriee()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -55,7 +55,7 @@ class AgendaJoursFeriesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class AgendaJoursFeriesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setType()
+     * Test setType()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class AgendaJoursFeriesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

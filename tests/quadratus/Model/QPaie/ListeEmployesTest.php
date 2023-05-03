@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ListeEmployesTest extends AbstractTestCase {
 
     /**
-     * Tests setBtq()
+     * Test setBtq()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBureauDistributeur()
+     * Test setBureauDistributeur()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCarteSejourDelivreeLe()
+     * Test setCarteSejourDelivreeLe()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCarteSejourExpireLe()
+     * Test setCarteSejourExpireLe()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -85,7 +85,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCarteTravailDelivreeLe()
+     * Test setCarteTravailDelivreeLe()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -102,7 +102,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCarteTravailExpireLe()
+     * Test setCarteTravailExpireLe()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -119,7 +119,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCategoriePermis()
+     * Test setCategoriePermis()
      *
      * @return void
      */
@@ -132,7 +132,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCddcdi()
+     * Test setCddcdi()
      *
      * @return void
      */
@@ -145,7 +145,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCleDeux()
+     * Test setCleDeux()
      *
      * @return void
      */
@@ -158,7 +158,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEtablissement()
+     * Test setCodeEtablissement()
      *
      * @return void
      */
@@ -171,7 +171,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeMotifRupture()
+     * Test setCodeMotifRupture()
      *
      * @return void
      */
@@ -184,7 +184,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeOfficielCommune()
+     * Test setCodeOfficielCommune()
      *
      * @return void
      */
@@ -197,7 +197,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePostal()
+     * Test setCodePostal()
      *
      * @return void
      */
@@ -210,7 +210,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTypeSal()
+     * Test setCodeTypeSal()
      *
      * @return void
      */
@@ -223,7 +223,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCommuneNaissance()
+     * Test setCommuneNaissance()
      *
      * @return void
      */
@@ -236,7 +236,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setComplement()
+     * Test setComplement()
      *
      * @return void
      */
@@ -249,7 +249,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCum30Ss()
+     * Test setCum30Ss()
      *
      * @return void
      */
@@ -262,7 +262,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBaseGmp()
+     * Test setCumBaseGmp()
      *
      * @return void
      */
@@ -275,7 +275,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBaseSs()
+     * Test setCumBaseSs()
      *
      * @return void
      */
@@ -288,7 +288,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBaseTrA()
+     * Test setCumBaseTrA()
      *
      * @return void
      */
@@ -301,7 +301,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBaseTrB()
+     * Test setCumBaseTrB()
      *
      * @return void
      */
@@ -314,7 +314,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBaseTrC()
+     * Test setCumBaseTrC()
      *
      * @return void
      */
@@ -327,7 +327,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBrutAbatNonLim()
+     * Test setCumBrutAbatNonLim()
      *
      * @return void
      */
@@ -340,7 +340,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBrutAl()
+     * Test setCumBrutAl()
      *
      * @return void
      */
@@ -353,7 +353,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBrutNonAbattu()
+     * Test setCumBrutNonAbattu()
      *
      * @return void
      */
@@ -366,7 +366,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumCpDus()
+     * Test setCumCpDus()
      *
      * @return void
      */
@@ -379,7 +379,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumCpDus1()
+     * Test setCumCpDus1()
      *
      * @return void
      */
@@ -392,7 +392,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumCpPris()
+     * Test setCumCpPris()
      *
      * @return void
      */
@@ -405,7 +405,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumCpPris1()
+     * Test setCumCpPris1()
      *
      * @return void
      */
@@ -418,7 +418,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumHSup()
+     * Test setCumHSup()
      *
      * @return void
      */
@@ -431,7 +431,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumHeurePaye()
+     * Test setCumHeurePaye()
      *
      * @return void
      */
@@ -444,7 +444,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumHeureTrav()
+     * Test setCumHeureTrav()
      *
      * @return void
      */
@@ -457,7 +457,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumJourPaye()
+     * Test setCumJourPaye()
      *
      * @return void
      */
@@ -470,7 +470,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumJourTrav()
+     * Test setCumJourTrav()
      *
      * @return void
      */
@@ -483,7 +483,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumMtCpPris()
+     * Test setCumMtCpPris()
      *
      * @return void
      */
@@ -496,7 +496,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumMtCpPris1()
+     * Test setCumMtCpPris1()
      *
      * @return void
      */
@@ -509,7 +509,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumNetAPayer()
+     * Test setCumNetAPayer()
      *
      * @return void
      */
@@ -522,7 +522,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumNetImposable()
+     * Test setCumNetImposable()
      *
      * @return void
      */
@@ -535,7 +535,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumPlafondGmp()
+     * Test setCumPlafondGmp()
      *
      * @return void
      */
@@ -548,7 +548,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumPlafondSs1()
+     * Test setCumPlafondSs1()
      *
      * @return void
      */
@@ -561,7 +561,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumPlafondSs2()
+     * Test setCumPlafondSs2()
      *
      * @return void
      */
@@ -574,7 +574,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumProvCp()
+     * Test setCumProvCp()
      *
      * @return void
      */
@@ -587,7 +587,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumProvCp1()
+     * Test setCumProvCp1()
      *
      * @return void
      */
@@ -600,7 +600,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumReposComp()
+     * Test setCumReposComp()
      *
      * @return void
      */
@@ -613,7 +613,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateEntree()
+     * Test setDateEntree()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -630,7 +630,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateModification()
+     * Test setDateModification()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -647,7 +647,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateNaissConjoint()
+     * Test setDateNaissConjoint()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -664,7 +664,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateNaissance()
+     * Test setDateNaissance()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -681,7 +681,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateSortie()
+     * Test setDateSortie()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -698,7 +698,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateVisiteMedicale()
+     * Test setDateVisiteMedicale()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -715,7 +715,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateVisiteReprise()
+     * Test setDateVisiteReprise()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -732,7 +732,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDeptNaissance()
+     * Test setDeptNaissance()
      *
      * @return void
      */
@@ -745,7 +745,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDerniereVisiteMedicale()
+     * Test setDerniereVisiteMedicale()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -762,7 +762,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmail()
+     * Test setEmail()
      *
      * @return void
      */
@@ -775,7 +775,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFictif()
+     * Test setFictif()
      *
      * @return void
      */
@@ -788,7 +788,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGestionMailBulletin()
+     * Test setGestionMailBulletin()
      *
      * @return void
      */
@@ -801,7 +801,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHandicape()
+     * Test setHandicape()
      *
      * @return void
      */
@@ -814,7 +814,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLieuTravailConjoint()
+     * Test setLieuTravailConjoint()
      *
      * @return void
      */
@@ -827,7 +827,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMatricule()
+     * Test setMatricule()
      *
      * @return void
      */
@@ -840,7 +840,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNationalite()
+     * Test setNationalite()
      *
      * @return void
      */
@@ -853,7 +853,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHeureMois()
+     * Test setNbHeureMois()
      *
      * @return void
      */
@@ -866,7 +866,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJoursAnc()
+     * Test setNbJoursAnc()
      *
      * @return void
      */
@@ -879,7 +879,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJoursVisiteMed()
+     * Test setNbJoursVisiteMed()
      *
      * @return void
      */
@@ -892,7 +892,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNiveauConfidentialite()
+     * Test setNiveauConfidentialite()
      *
      * @return void
      */
@@ -905,7 +905,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomConjoint()
+     * Test setNomConjoint()
      *
      * @return void
      */
@@ -918,7 +918,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomMarital()
+     * Test setNomMarital()
      *
      * @return void
      */
@@ -931,7 +931,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomNaissance()
+     * Test setNomNaissance()
      *
      * @return void
      */
@@ -944,7 +944,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomVille()
+     * Test setNomVille()
      *
      * @return void
      */
@@ -957,7 +957,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomVoie()
+     * Test setNomVoie()
      *
      * @return void
      */
@@ -970,7 +970,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNombreEnfants()
+     * Test setNombreEnfants()
      *
      * @return void
      */
@@ -983,7 +983,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumVoie()
+     * Test setNumVoie()
      *
      * @return void
      */
@@ -996,7 +996,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumero()
+     * Test setNumero()
      *
      * @return void
      */
@@ -1009,7 +1009,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroCarteSejour()
+     * Test setNumeroCarteSejour()
      *
      * @return void
      */
@@ -1022,7 +1022,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroCarteTravail()
+     * Test setNumeroCarteTravail()
      *
      * @return void
      */
@@ -1035,7 +1035,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroInsee()
+     * Test setNumeroInsee()
      *
      * @return void
      */
@@ -1048,7 +1048,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroPermis()
+     * Test setNumeroPermis()
      *
      * @return void
      */
@@ -1061,7 +1061,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOrphelin()
+     * Test setOrphelin()
      *
      * @return void
      */
@@ -1074,7 +1074,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPasGestionPdp()
+     * Test setPasGestionPdp()
      *
      * @return void
      */
@@ -1087,7 +1087,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPension()
+     * Test setPension()
      *
      * @return void
      */
@@ -1100,7 +1100,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodicite()
+     * Test setPeriodicite()
      *
      * @return void
      */
@@ -1113,7 +1113,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPermisDelivreLe()
+     * Test setPermisDelivreLe()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1130,7 +1130,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPermisDelivrePar()
+     * Test setPermisDelivrePar()
      *
      * @return void
      */
@@ -1143,7 +1143,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPermisExpireLe()
+     * Test setPermisExpireLe()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1160,7 +1160,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPersonneAPrevenir()
+     * Test setPersonneAPrevenir()
      *
      * @return void
      */
@@ -1173,7 +1173,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPourcentAct()
+     * Test setPourcentAct()
      *
      * @return void
      */
@@ -1186,7 +1186,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrenom()
+     * Test setPrenom()
      *
      * @return void
      */
@@ -1199,7 +1199,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrenomConjoint()
+     * Test setPrenomConjoint()
      *
      * @return void
      */
@@ -1212,7 +1212,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRib()
+     * Test setRib()
      *
      * @return void
      */
@@ -1225,7 +1225,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSalaireBase()
+     * Test setSalaireBase()
      *
      * @return void
      */
@@ -1238,7 +1238,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setService()
+     * Test setService()
      *
      * @return void
      */
@@ -1251,7 +1251,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSexe()
+     * Test setSexe()
      *
      * @return void
      */
@@ -1264,7 +1264,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSituationFam()
+     * Test setSituationFam()
      *
      * @return void
      */
@@ -1277,7 +1277,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxPensionCivile()
+     * Test setTauxPensionCivile()
      *
      * @return void
      */
@@ -1290,7 +1290,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxPensionMilitaire()
+     * Test setTauxPensionMilitaire()
      *
      * @return void
      */
@@ -1303,7 +1303,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds138()
+     * Test setTds138()
      *
      * @return void
      */
@@ -1316,7 +1316,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds60()
+     * Test setTds60()
      *
      * @return void
      */
@@ -1329,7 +1329,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds61()
+     * Test setTds61()
      *
      * @return void
      */
@@ -1342,7 +1342,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds76()
+     * Test setTds76()
      *
      * @return void
      */
@@ -1355,7 +1355,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTel1()
+     * Test setTel1()
      *
      * @return void
      */
@@ -1368,7 +1368,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTel2()
+     * Test setTel2()
      *
      * @return void
      */
@@ -1381,7 +1381,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTelConjoint()
+     * Test setTelConjoint()
      *
      * @return void
      */
@@ -1394,7 +1394,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTelPersAPrevenir()
+     * Test setTelPersAPrevenir()
      *
      * @return void
      */
@@ -1407,7 +1407,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTitre()
+     * Test setTitre()
      *
      * @return void
      */
@@ -1420,7 +1420,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTransfertEntree()
+     * Test setTransfertEntree()
      *
      * @return void
      */
@@ -1433,7 +1433,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTransfertSortie()
+     * Test setTransfertSortie()
      *
      * @return void
      */
@@ -1446,7 +1446,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeNationalite()
+     * Test setTypeNationalite()
      *
      * @return void
      */
@@ -1459,7 +1459,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypePaiement()
+     * Test setTypePaiement()
      *
      * @return void
      */
@@ -1472,7 +1472,7 @@ class ListeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

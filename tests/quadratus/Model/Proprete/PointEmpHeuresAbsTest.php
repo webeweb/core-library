@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class PointEmpHeuresAbsTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeAbsence()
+     * Test setCodeAbsence()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class PointEmpHeuresAbsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class PointEmpHeuresAbsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantier()
+     * Test setCodeChantier()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class PointEmpHeuresAbsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class PointEmpHeuresAbsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEmploye()
+     * Test setCodeEmploye()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class PointEmpHeuresAbsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTache()
+     * Test setCodeTache()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class PointEmpHeuresAbsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDate()
+     * Test setDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class PointEmpHeuresAbsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHeureAbs()
+     * Test setHeureAbs()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -137,7 +137,7 @@ class PointEmpHeuresAbsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHeureAbsNuit()
+     * Test setHeureAbsNuit()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -154,7 +154,7 @@ class PointEmpHeuresAbsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumBt()
+     * Test setNumBt()
      *
      * @return void
      */
@@ -167,7 +167,7 @@ class PointEmpHeuresAbsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeHeure()
+     * Test setTypeHeure()
      *
      * @return void
      */
@@ -180,7 +180,7 @@ class PointEmpHeuresAbsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

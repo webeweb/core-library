@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Floats\TestFloatIncludingVatPriceTrait;
 class FloatIncludingVatPriceTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setIncludingVatPrice()
+     * Test setIncludingVatPrice()
      *
      * @return void
      */

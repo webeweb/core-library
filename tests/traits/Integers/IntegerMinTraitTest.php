@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Integers\TestIntegerMinTrait;
 class IntegerMinTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setMin()
+     * Test setMin()
      *
      * @return void
      */

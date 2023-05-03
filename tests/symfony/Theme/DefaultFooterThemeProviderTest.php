@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Theme\DefaultFooterThemeProvider;
 class DefaultFooterThemeProviderTest extends AbstractTestCase {
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

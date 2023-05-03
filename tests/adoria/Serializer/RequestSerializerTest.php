@@ -26,7 +26,7 @@ use WBW\Library\Adoria\Tests\AbstractTestCase;
 class RequestSerializerTest extends AbstractTestCase {
 
     /**
-     * Tests serializeRequestData()
+     * Test serializeRequestData()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -51,7 +51,7 @@ class RequestSerializerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Integers\TestIntegerSizeTrait;
 class IntegerSizeTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setSize()
+     * Test setSize()
      *
      * @return void
      */

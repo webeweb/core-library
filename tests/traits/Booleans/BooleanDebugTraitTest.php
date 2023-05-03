@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Booleans\TestBooleanDebugTrait;
 class BooleanDebugTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setDebug()
+     * Test setDebug()
      *
      * @return void
      */

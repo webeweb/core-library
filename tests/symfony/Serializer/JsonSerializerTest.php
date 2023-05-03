@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Assets\TestSelect2OptionInterface;
 class JsonSerializerTest extends AbstractTestCase {
 
     /**
-     * Tests serializeSelect2Options()
+     * Test serializeSelect2Options()
      *
      * @return void
      */

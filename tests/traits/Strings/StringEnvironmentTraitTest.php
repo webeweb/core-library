@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringEnvironmentTrait;
 class StringEnvironmentTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setEnvironment()
+     * Test setEnvironment()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class JournauxBloquesTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeJournal()
+     * Test setCodeJournal()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class JournauxBloquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -55,7 +55,7 @@ class JournauxBloquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Booleans\TestBooleanOnPreEditTrait;
 class BooleanOnPreEditTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setOnPreEdit()
+     * Test setOnPreEdit()
      *
      * @return void
      */

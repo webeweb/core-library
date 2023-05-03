@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Assets\TestButtonTrait;
 class ButtonTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setButton()
+     * Test setButton()
      *
      * @return void
      */

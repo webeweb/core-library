@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class InteretsTest extends AbstractTestCase {
 
     /**
-     * Tests setDateDebut()
+     * Test setDateDebut()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -42,7 +42,7 @@ class InteretsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroCompte()
+     * Test setNumeroCompte()
      *
      * @return void
      */
@@ -55,7 +55,7 @@ class InteretsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTaux()
+     * Test setTaux()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class InteretsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeCpt()
+     * Test setTypeCpt()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class InteretsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

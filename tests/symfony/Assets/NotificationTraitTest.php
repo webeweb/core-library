@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Assets\TestNotificationTrait;
 class NotificationTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setNotification()
+     * Test setNotification()
      *
      * @return void
      */

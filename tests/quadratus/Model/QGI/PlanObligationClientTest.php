@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class PlanObligationClientTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class PlanObligationClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollabSpecif()
+     * Test setCodeCollabSpecif()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class PlanObligationClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeObligation()
+     * Test setCodeObligation()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class PlanObligationClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDebut()
+     * Test setDateDebut()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class PlanObligationClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFin()
+     * Test setDateFin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -98,7 +98,7 @@ class PlanObligationClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFrequence()
+     * Test setFrequence()
      *
      * @return void
      */
@@ -111,7 +111,7 @@ class PlanObligationClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumLigne()
+     * Test setNumLigne()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class PlanObligationClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQuiLeFait()
+     * Test setQuiLeFait()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class PlanObligationClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

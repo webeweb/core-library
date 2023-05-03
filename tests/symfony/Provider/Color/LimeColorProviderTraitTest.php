@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Provider\Color\TestLimeColorProviderTrait
 class LimeColorProviderTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setLimeColorProvider()
+     * Test setLimeColorProvider()
      *
      * @return void
      */

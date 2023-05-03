@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class OrgaGeneriquesTest extends AbstractTestCase {
 
     /**
-     * Tests setADeclarerDsnNeant()
+     * Test setADeclarerDsnNeant()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAgrementMinisteriel()
+     * Test setAgrementMinisteriel()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAppliquerCpn220()
+     * Test setAppliquerCpn220()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setArrondirBase()
+     * Test setArrondirBase()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setArrondirCotis()
+     * Test setArrondirCotis()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAssietteSpecifAgff()
+     * Test setAssietteSpecifAgff()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCode()
+     * Test setCode()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAssietteSit2()
+     * Test setCodeAssietteSit2()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAssietteSit2Agff()
+     * Test setCodeAssietteSit2Agff()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAssietteSitb()
+     * Test setCodeAssietteSitb()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAssietteSitbagff()
+     * Test setCodeAssietteSitbagff()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAssietteSitc()
+     * Test setCodeAssietteSitc()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCaisseMsa()
+     * Test setCodeCaisseMsa()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeOrganismeAssuranceDadsu()
+     * Test setCodeOrganismeAssuranceDadsu()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeOrganismeMutuelleDadsu()
+     * Test setCodeOrganismeMutuelleDadsu()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDetailArrco()
+     * Test setDetailArrco()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGroupeCrc()
+     * Test setGroupeCrc()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIdInstitution()
+     * Test setIdInstitution()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntitSousTotalAgffAgirc()
+     * Test setIntitSousTotalAgffAgirc()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntitSousTotalAgffArrco()
+     * Test setIntitSousTotalAgffArrco()
      *
      * @return void
      */
@@ -283,7 +283,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntitSousTotalApec()
+     * Test setIntitSousTotalApec()
      *
      * @return void
      */
@@ -296,7 +296,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntitule()
+     * Test setIntitule()
      *
      * @return void
      */
@@ -309,7 +309,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLienFicParamDsn()
+     * Test setLienFicParamDsn()
      *
      * @return void
      */
@@ -322,7 +322,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRegroupementSi()
+     * Test setRegroupementSi()
      *
      * @return void
      */
@@ -335,7 +335,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSousTotalAgff()
+     * Test setSousTotalAgff()
      *
      * @return void
      */
@@ -348,7 +348,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSousTotalApec()
+     * Test setSousTotalApec()
      *
      * @return void
      */
@@ -361,7 +361,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSousTotalCaisse()
+     * Test setSousTotalCaisse()
      *
      * @return void
      */
@@ -374,7 +374,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTraitementDadsu()
+     * Test setTraitementDadsu()
      *
      * @return void
      */
@@ -387,7 +387,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeDeclaration()
+     * Test setTypeDeclaration()
      *
      * @return void
      */
@@ -400,7 +400,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeOrganisme()
+     * Test setTypeOrganisme()
      *
      * @return void
      */
@@ -413,7 +413,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUtilise()
+     * Test setUtilise()
      *
      * @return void
      */
@@ -426,7 +426,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

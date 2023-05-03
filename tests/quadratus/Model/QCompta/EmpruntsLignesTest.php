@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EmpruntsLignesTest extends AbstractTestCase {
 
     /**
-     * Tests setDateRemboursement()
+     * Test setDateRemboursement()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -42,7 +42,7 @@ class EmpruntsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDontAssurance()
+     * Test setDontAssurance()
      *
      * @return void
      */
@@ -55,7 +55,7 @@ class EmpruntsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDontCapital()
+     * Test setDontCapital()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class EmpruntsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDontInteret()
+     * Test setDontInteret()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class EmpruntsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantRembour()
+     * Test setMontantRembour()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class EmpruntsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumLigne()
+     * Test setNumLigne()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class EmpruntsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumero()
+     * Test setNumero()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class EmpruntsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRestantDuAvant()
+     * Test setRestantDuAvant()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class EmpruntsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxLigne()
+     * Test setTauxLigne()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class EmpruntsLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

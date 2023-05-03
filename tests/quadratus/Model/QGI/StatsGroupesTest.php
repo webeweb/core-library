@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class StatsGroupesTest extends AbstractTestCase {
 
     /**
-     * Tests setCode()
+     * Test setCode()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class StatsGroupesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGroupeStat()
+     * Test setGroupeStat()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class StatsGroupesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeChamp()
+     * Test setTypeChamp()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class StatsGroupesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

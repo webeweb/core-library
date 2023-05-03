@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class BanquesTest extends AbstractTestCase {
 
     /**
-     * Tests setBic()
+     * Test setBic()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class BanquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeBanque()
+     * Test setCodeBanque()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class BanquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class BanquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCommentaire()
+     * Test setCommentaire()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class BanquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEdiTdfc()
+     * Test setEdiTdfc()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class BanquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIban()
+     * Test setIban()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class BanquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIdCarteAppelEnv()
+     * Test setIdCarteAppelEnv()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class BanquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIdCarteAppelEnv2()
+     * Test setIdCarteAppelEnv2()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class BanquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIdCarteAppelEnv3()
+     * Test setIdCarteAppelEnv3()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class BanquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIdCarteAppelRec()
+     * Test setIdCarteAppelRec()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class BanquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIsBanqueFact()
+     * Test setIsBanqueFact()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class BanquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMandatDateDebutEtebac()
+     * Test setMandatDateDebutEtebac()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -185,7 +185,7 @@ class BanquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMandatDureeEtebac()
+     * Test setMandatDureeEtebac()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class BanquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMandatPieceJointeEtebac()
+     * Test setMandatPieceJointeEtebac()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class BanquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbPrelevements()
+     * Test setNbPrelevements()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class BanquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomInt()
+     * Test setNomInt()
      *
      * @return void
      */
@@ -237,7 +237,7 @@ class BanquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumero()
+     * Test setNumero()
      *
      * @return void
      */
@@ -250,7 +250,7 @@ class BanquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRib()
+     * Test setRib()
      *
      * @return void
      */
@@ -263,7 +263,7 @@ class BanquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSepa()
+     * Test setSepa()
      *
      * @return void
      */
@@ -276,7 +276,7 @@ class BanquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setType()
+     * Test setType()
      *
      * @return void
      */
@@ -289,7 +289,7 @@ class BanquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqId()
+     * Test setUniqId()
      *
      * @return void
      */
@@ -302,7 +302,7 @@ class BanquesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

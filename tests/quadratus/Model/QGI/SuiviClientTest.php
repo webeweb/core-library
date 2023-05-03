@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class SuiviClientTest extends AbstractTestCase {
 
     /**
-     * Tests setBilanCommentaireDate()
+     * Test setBilanCommentaireDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -42,7 +42,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBilanCommentaireLib()
+     * Test setBilanCommentaireLib()
      *
      * @return void
      */
@@ -55,7 +55,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBullCommentaireDate()
+     * Test setBullCommentaireDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -72,7 +72,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBullCommentaireLib()
+     * Test setBullCommentaireLib()
      *
      * @return void
      */
@@ -85,7 +85,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -98,7 +98,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDadsUCommentaireDate()
+     * Test setDadsUCommentaireDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -115,7 +115,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDadsUCommentaireLib()
+     * Test setDadsUCommentaireLib()
      *
      * @return void
      */
@@ -128,7 +128,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDas2CommentaireDate()
+     * Test setDas2CommentaireDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -145,7 +145,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDas2CommentaireLib()
+     * Test setDas2CommentaireLib()
      *
      * @return void
      */
@@ -158,7 +158,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateModif()
+     * Test setDateModif()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -175,7 +175,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDcrCommentaireDate()
+     * Test setDcrCommentaireDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -192,7 +192,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDcrCommentaireLib()
+     * Test setDcrCommentaireLib()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDcrDateLimite()
+     * Test setDcrDateLimite()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -222,7 +222,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDsiCommentaireDate()
+     * Test setDsiCommentaireDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -239,7 +239,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDsiCommentaireLib()
+     * Test setDsiCommentaireLib()
      *
      * @return void
      */
@@ -252,7 +252,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDucsAssedicCommentaireDate()
+     * Test setDucsAssedicCommentaireDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -269,7 +269,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDucsAssedicCommentaireLib()
+     * Test setDucsAssedicCommentaireLib()
      *
      * @return void
      */
@@ -282,7 +282,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDucsUrssafCommentaireDate()
+     * Test setDucsUrssafCommentaireDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -299,7 +299,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDucsUrssafCommentaireLib()
+     * Test setDucsUrssafCommentaireLib()
      *
      * @return void
      */
@@ -312,7 +312,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFacturationCommentaireDate()
+     * Test setFacturationCommentaireDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -329,7 +329,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFacturationCommentaireLib()
+     * Test setFacturationCommentaireLib()
      *
      * @return void
      */
@@ -342,7 +342,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFaitBilan()
+     * Test setFaitBilan()
      *
      * @return void
      */
@@ -355,7 +355,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFaitCvae()
+     * Test setFaitCvae()
      *
      * @return void
      */
@@ -368,7 +368,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFaitDas2()
+     * Test setFaitDas2()
      *
      * @return void
      */
@@ -381,7 +381,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFaitDcr()
+     * Test setFaitDcr()
      *
      * @return void
      */
@@ -394,7 +394,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFaitGeneric1()
+     * Test setFaitGeneric1()
      *
      * @return void
      */
@@ -407,7 +407,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFaitGeneric10()
+     * Test setFaitGeneric10()
      *
      * @return void
      */
@@ -420,7 +420,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFaitGeneric2()
+     * Test setFaitGeneric2()
      *
      * @return void
      */
@@ -433,7 +433,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFaitGeneric3()
+     * Test setFaitGeneric3()
      *
      * @return void
      */
@@ -446,7 +446,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFaitGeneric4()
+     * Test setFaitGeneric4()
      *
      * @return void
      */
@@ -459,7 +459,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFaitGeneric5()
+     * Test setFaitGeneric5()
      *
      * @return void
      */
@@ -472,7 +472,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFaitGeneric6()
+     * Test setFaitGeneric6()
      *
      * @return void
      */
@@ -485,7 +485,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFaitGeneric7()
+     * Test setFaitGeneric7()
      *
      * @return void
      */
@@ -498,7 +498,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFaitGeneric8()
+     * Test setFaitGeneric8()
      *
      * @return void
      */
@@ -511,7 +511,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFaitGeneric9()
+     * Test setFaitGeneric9()
      *
      * @return void
      */
@@ -524,7 +524,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFaitIfu()
+     * Test setFaitIfu()
      *
      * @return void
      */
@@ -537,7 +537,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFaitImpotRevenu()
+     * Test setFaitImpotRevenu()
      *
      * @return void
      */
@@ -550,7 +550,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFaitIsa()
+     * Test setFaitIsa()
      *
      * @return void
      */
@@ -563,7 +563,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFaitIsf()
+     * Test setFaitIsf()
      *
      * @return void
      */
@@ -576,7 +576,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFaitIsr()
+     * Test setFaitIsr()
      *
      * @return void
      */
@@ -589,7 +589,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFaitIss()
+     * Test setFaitIss()
      *
      * @return void
      */
@@ -602,7 +602,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFaitPlafTp()
+     * Test setFaitPlafTp()
      *
      * @return void
      */
@@ -615,7 +615,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFaitPreLib()
+     * Test setFaitPreLib()
      *
      * @return void
      */
@@ -628,7 +628,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFaitSituation()
+     * Test setFaitSituation()
      *
      * @return void
      */
@@ -641,7 +641,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFaitTabBord()
+     * Test setFaitTabBord()
      *
      * @return void
      */
@@ -654,7 +654,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFaitTp()
+     * Test setFaitTp()
      *
      * @return void
      */
@@ -667,7 +667,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFaitTva()
+     * Test setFaitTva()
      *
      * @return void
      */
@@ -680,7 +680,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFaitTvs()
+     * Test setFaitTvs()
      *
      * @return void
      */
@@ -693,7 +693,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGeneric10CommentaireDate()
+     * Test setGeneric10CommentaireDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -710,7 +710,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGeneric10CommentaireLib()
+     * Test setGeneric10CommentaireLib()
      *
      * @return void
      */
@@ -723,7 +723,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGeneric10DateLimite()
+     * Test setGeneric10DateLimite()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -740,7 +740,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGeneric1CommentaireDate()
+     * Test setGeneric1CommentaireDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -757,7 +757,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGeneric1CommentaireLib()
+     * Test setGeneric1CommentaireLib()
      *
      * @return void
      */
@@ -770,7 +770,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGeneric1DateLimite()
+     * Test setGeneric1DateLimite()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -787,7 +787,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGeneric2CommentaireDate()
+     * Test setGeneric2CommentaireDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -804,7 +804,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGeneric2CommentaireLib()
+     * Test setGeneric2CommentaireLib()
      *
      * @return void
      */
@@ -817,7 +817,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGeneric2DateLimite()
+     * Test setGeneric2DateLimite()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -834,7 +834,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGeneric3CommentaireDate()
+     * Test setGeneric3CommentaireDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -851,7 +851,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGeneric3CommentaireLib()
+     * Test setGeneric3CommentaireLib()
      *
      * @return void
      */
@@ -864,7 +864,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGeneric3DateLimite()
+     * Test setGeneric3DateLimite()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -881,7 +881,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGeneric4CommentaireDate()
+     * Test setGeneric4CommentaireDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -898,7 +898,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGeneric4CommentaireLib()
+     * Test setGeneric4CommentaireLib()
      *
      * @return void
      */
@@ -911,7 +911,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGeneric4DateLimite()
+     * Test setGeneric4DateLimite()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -928,7 +928,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGeneric5CommentaireDate()
+     * Test setGeneric5CommentaireDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -945,7 +945,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGeneric5CommentaireLib()
+     * Test setGeneric5CommentaireLib()
      *
      * @return void
      */
@@ -958,7 +958,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGeneric5DateLimite()
+     * Test setGeneric5DateLimite()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -975,7 +975,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGeneric6CommentaireDate()
+     * Test setGeneric6CommentaireDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -992,7 +992,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGeneric6CommentaireLib()
+     * Test setGeneric6CommentaireLib()
      *
      * @return void
      */
@@ -1005,7 +1005,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGeneric6DateLimite()
+     * Test setGeneric6DateLimite()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1022,7 +1022,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGeneric7CommentaireDate()
+     * Test setGeneric7CommentaireDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1039,7 +1039,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGeneric7CommentaireLib()
+     * Test setGeneric7CommentaireLib()
      *
      * @return void
      */
@@ -1052,7 +1052,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGeneric7DateLimite()
+     * Test setGeneric7DateLimite()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1069,7 +1069,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGeneric8CommentaireDate()
+     * Test setGeneric8CommentaireDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1086,7 +1086,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGeneric8CommentaireLib()
+     * Test setGeneric8CommentaireLib()
      *
      * @return void
      */
@@ -1099,7 +1099,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGeneric8DateLimite()
+     * Test setGeneric8DateLimite()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1116,7 +1116,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGeneric9CommentaireDate()
+     * Test setGeneric9CommentaireDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1133,7 +1133,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGeneric9CommentaireLib()
+     * Test setGeneric9CommentaireLib()
      *
      * @return void
      */
@@ -1146,7 +1146,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGeneric9DateLimite()
+     * Test setGeneric9DateLimite()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1163,7 +1163,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIfuCommentaireDate()
+     * Test setIfuCommentaireDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1180,7 +1180,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIfuCommentaireLib()
+     * Test setIfuCommentaireLib()
      *
      * @return void
      */
@@ -1193,7 +1193,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setImpotRevenuCommentaireDate()
+     * Test setImpotRevenuCommentaireDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1210,7 +1210,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setImpotRevenuCommentaireLib()
+     * Test setImpotRevenuCommentaireLib()
      *
      * @return void
      */
@@ -1223,7 +1223,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setImpotRevenuDateLimite()
+     * Test setImpotRevenuDateLimite()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1240,7 +1240,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIsaCommentaireDate()
+     * Test setIsaCommentaireDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1257,7 +1257,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIsaCommentaireLib()
+     * Test setIsaCommentaireLib()
      *
      * @return void
      */
@@ -1270,7 +1270,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIsfCommentaireDate()
+     * Test setIsfCommentaireDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1287,7 +1287,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIsfCommentaireLib()
+     * Test setIsfCommentaireLib()
      *
      * @return void
      */
@@ -1300,7 +1300,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIsfDateLimite()
+     * Test setIsfDateLimite()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1317,7 +1317,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIsrCommentaireDate()
+     * Test setIsrCommentaireDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1334,7 +1334,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIsrCommentaireLib()
+     * Test setIsrCommentaireLib()
      *
      * @return void
      */
@@ -1347,7 +1347,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIssCommentaireDate()
+     * Test setIssCommentaireDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1364,7 +1364,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIssCommentaireLib()
+     * Test setIssCommentaireLib()
      *
      * @return void
      */
@@ -1377,7 +1377,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1394,7 +1394,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPlafTpCommentaireDate()
+     * Test setPlafTpCommentaireDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1411,7 +1411,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPlafTpCommentaireLib()
+     * Test setPlafTpCommentaireLib()
      *
      * @return void
      */
@@ -1424,7 +1424,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPreLibCommentaireDate()
+     * Test setPreLibCommentaireDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1441,7 +1441,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPreLibCommentaireLib()
+     * Test setPreLibCommentaireLib()
      *
      * @return void
      */
@@ -1454,7 +1454,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPreLibDateLimite()
+     * Test setPreLibDateLimite()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1471,7 +1471,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSituationCommentaireDate()
+     * Test setSituationCommentaireDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1488,7 +1488,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSituationCommentaireLib()
+     * Test setSituationCommentaireLib()
      *
      * @return void
      */
@@ -1501,7 +1501,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSituationDateLimite()
+     * Test setSituationDateLimite()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1518,7 +1518,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTabBordCommentaireDate()
+     * Test setTabBordCommentaireDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1535,7 +1535,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTabBordCommentaireLib()
+     * Test setTabBordCommentaireLib()
      *
      * @return void
      */
@@ -1548,7 +1548,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTabBordDateLimite()
+     * Test setTabBordDateLimite()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1565,7 +1565,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTpCommentaireDate()
+     * Test setTpCommentaireDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1582,7 +1582,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTpCommentaireLib()
+     * Test setTpCommentaireLib()
      *
      * @return void
      */
@@ -1595,7 +1595,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTsaCommentaireDate()
+     * Test setTsaCommentaireDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1612,7 +1612,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTsaCommentaireLib()
+     * Test setTsaCommentaireLib()
      *
      * @return void
      */
@@ -1625,7 +1625,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTssCommentaireDate()
+     * Test setTssCommentaireDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1642,7 +1642,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTssCommentaireLib()
+     * Test setTssCommentaireLib()
      *
      * @return void
      */
@@ -1655,7 +1655,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaCommentaireDate()
+     * Test setTvaCommentaireDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1672,7 +1672,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaCommentaireLib()
+     * Test setTvaCommentaireLib()
      *
      * @return void
      */
@@ -1685,7 +1685,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvsCommentaireDate()
+     * Test setTvsCommentaireDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1702,7 +1702,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvsCommentaireLib()
+     * Test setTvsCommentaireLib()
      *
      * @return void
      */
@@ -1715,7 +1715,7 @@ class SuiviClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

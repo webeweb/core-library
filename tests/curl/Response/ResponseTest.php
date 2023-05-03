@@ -23,7 +23,7 @@ use WBW\Library\Curl\Tests\AbstractTestCase;
 class ResponseTest extends AbstractTestCase {
 
     /**
-     * Tests setRequestBody()
+     * Test setRequestBody()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ResponseTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRequestHeader()
+     * Test setRequestHeader()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ResponseTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRequestUrl()
+     * Test setRequestUrl()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ResponseTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setResponseBody()
+     * Test setResponseBody()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ResponseTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setResponseHeader()
+     * Test setResponseHeader()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ResponseTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setResponseInfo()
+     * Test setResponseInfo()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class ResponseTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __constructor()
+     * Test __constructor()
      *
      * @return void
      */

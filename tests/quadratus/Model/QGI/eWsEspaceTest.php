@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class eWsEspaceTest extends AbstractTestCase {
 
     /**
-     * Tests setNumDoss()
+     * Test setNumDoss()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class eWsEspaceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Booleans\TestBooleanOnPreShowTrait;
 class BooleanOnPreShowTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setOnPreShow()
+     * Test setOnPreShow()
      *
      * @return void
      */

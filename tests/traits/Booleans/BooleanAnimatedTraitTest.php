@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Booleans\TestBooleanAnimatedTrait;
 class BooleanAnimatedTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setAnimated()
+     * Test setAnimated()
      *
      * @return void
      */

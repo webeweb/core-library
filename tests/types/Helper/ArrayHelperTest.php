@@ -23,7 +23,7 @@ use WBW\Library\Types\Tests\AbstractTestCase;
 class ArrayHelperTest extends AbstractTestCase {
 
     /**
-     * Tests filterBy()
+     * Test filterBy()
      *
      * @return void
      */
@@ -48,7 +48,7 @@ class ArrayHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests get()
+     * Test get()
      *
      * @return void
      */
@@ -79,7 +79,7 @@ class ArrayHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests hashBy()
+     * Test hashBy()
      *
      * @return void
      */
@@ -112,7 +112,7 @@ class ArrayHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests indexBy()
+     * Test indexBy()
      *
      * @return void
      */
@@ -145,7 +145,7 @@ class ArrayHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests insert()
+     * Test insert()
      *
      * @return void
      */
@@ -157,7 +157,7 @@ class ArrayHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests isObject()
+     * Test isObject()
      *
      * @return void
      */
@@ -170,7 +170,7 @@ class ArrayHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests obfuscate()
+     * Test obfuscate()
      *
      * @return void
      */
@@ -195,7 +195,7 @@ class ArrayHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests set()
+     * Test set()
      *
      * @return void
      */

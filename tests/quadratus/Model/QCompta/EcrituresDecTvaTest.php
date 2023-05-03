@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EcrituresDecTvaTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeTva()
+     * Test setCodeTva()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class EcrituresDecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDecTva()
+     * Test setDateDecTva()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -55,7 +55,7 @@ class EcrituresDecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setJourEcriture()
+     * Test setJourEcriture()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class EcrituresDecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class EcrituresDecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantHt()
+     * Test setMontantHt()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class EcrituresDecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumUniq()
+     * Test setNumUniq()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class EcrituresDecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroCompte()
+     * Test setNumeroCompte()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class EcrituresDecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeEcriture()
+     * Test setPeriodeEcriture()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -137,7 +137,7 @@ class EcrituresDecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeCdi()
+     * Test setTypeCdi()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class EcrituresDecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

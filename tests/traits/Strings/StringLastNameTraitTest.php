@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringLastNameTrait;
 class StringLastNameTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setLastName()
+     * Test setLastName()
      *
      * @return void
      */

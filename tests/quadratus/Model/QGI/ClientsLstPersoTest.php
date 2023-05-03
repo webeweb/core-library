@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ClientsLstPersoTest extends AbstractTestCase {
 
     /**
-     * Tests setChapitre()
+     * Test setChapitre()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCollCreat()
+     * Test setCollCreat()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCollModif()
+     * Test setCollModif()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateCreat()
+     * Test setDateCreat()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateModif()
+     * Test setDateModif()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -98,7 +98,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDescription()
+     * Test setDescription()
      *
      * @return void
      */
@@ -111,7 +111,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGUniqId()
+     * Test setGUniqId()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndice()
+     * Test setIndice()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLstCollab()
+     * Test setLstCollab()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOptionVisu()
+     * Test setOptionVisu()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOrigine()
+     * Test setOrigine()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeDeb()
+     * Test setPeriodeDeb()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -193,7 +193,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeFin()
+     * Test setPeriodeFin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -210,7 +210,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeSaisie()
+     * Test setTypeSaisie()
      *
      * @return void
      */
@@ -223,7 +223,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeSel()
+     * Test setTypeSel()
      *
      * @return void
      */
@@ -236,7 +236,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

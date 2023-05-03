@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ControleTvaTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeCalc()
+     * Test setCodeCalc()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ControleTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTva()
+     * Test setCodeTva()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ControleTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setColonneTaux()
+     * Test setColonneTaux()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ControleTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntitule()
+     * Test setIntitule()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ControleTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMttTaux()
+     * Test setMttTaux()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ControleTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumLigne()
+     * Test setNumLigne()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class ControleTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRacineCpt()
+     * Test setRacineCpt()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class ControleTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSaisieManuelle()
+     * Test setSaisieManuelle()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class ControleTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeControle()
+     * Test setTypeControle()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class ControleTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeLigne()
+     * Test setTypeLigne()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class ControleTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValeurTaux()
+     * Test setValeurTaux()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class ControleTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

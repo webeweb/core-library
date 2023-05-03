@@ -25,7 +25,7 @@ use WBW\Library\SkiData\Tests\AbstractTestCase;
 class UserTest extends AbstractTestCase {
 
     /**
-     * Tests setCheckLicensePlate()
+     * Test setCheckLicensePlate()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class UserTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCreditCardNumber()
+     * Test setCreditCardNumber()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class UserTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateBirth()
+     * Test setDateBirth()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -65,7 +65,7 @@ class UserTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setETicketAuthentication()
+     * Test setETicketAuthentication()
      *
      * @return void
      */
@@ -78,7 +78,7 @@ class UserTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setETicketEmailTelephone()
+     * Test setETicketEmailTelephone()
      *
      * @return void
      */
@@ -91,7 +91,7 @@ class UserTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setETicketServiceArt()
+     * Test setETicketServiceArt()
      *
      * @return void
      */
@@ -104,7 +104,7 @@ class UserTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setETicketServiceTyp()
+     * Test setETicketServiceTyp()
      *
      * @return void
      */
@@ -117,7 +117,7 @@ class UserTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setETicketTypeP()
+     * Test setETicketTypeP()
      *
      * @return void
      */
@@ -130,7 +130,7 @@ class UserTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExcessTimesCreditCard()
+     * Test setExcessTimesCreditCard()
      *
      * @return void
      */
@@ -143,7 +143,7 @@ class UserTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExpiryDate()
+     * Test setExpiryDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -157,7 +157,7 @@ class UserTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIdentificationNumber()
+     * Test setIdentificationNumber()
      *
      * @return void
      */
@@ -170,7 +170,7 @@ class UserTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setParkingSpace()
+     * Test setParkingSpace()
      *
      * @return void
      */
@@ -183,7 +183,7 @@ class UserTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPassageLicensePlatePermitted()
+     * Test setPassageLicensePlatePermitted()
      *
      * @return void
      */
@@ -196,7 +196,7 @@ class UserTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUserNumber()
+     * Test setUserNumber()
      *
      * @return void
      */
@@ -209,7 +209,7 @@ class UserTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

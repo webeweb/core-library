@@ -25,7 +25,7 @@ use WBW\Library\Symfony\Theme\DefaultApplicationThemeProvider;
 class DefaultApplicationThemeProviderTest extends AbstractTestCase {
 
     /**
-     * Tests getDescription()
+     * Test getDescription()
      *
      * @return void
      */
@@ -37,7 +37,7 @@ class DefaultApplicationThemeProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests getHome()
+     * Test getHome()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class DefaultApplicationThemeProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests getName()
+     * Test getName()
      *
      * @return void
      */
@@ -61,7 +61,7 @@ class DefaultApplicationThemeProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests getRoute()
+     * Test getRoute()
      *
      * @return void
      */
@@ -73,7 +73,7 @@ class DefaultApplicationThemeProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests getTitle()
+     * Test getTitle()
      *
      * @return void
      */
@@ -85,7 +85,7 @@ class DefaultApplicationThemeProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests getVersion()
+     * Test getVersion()
      *
      * @return void
      */
@@ -97,7 +97,7 @@ class DefaultApplicationThemeProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests getYear()
+     * Test getYear()
      *
      * @return void
      */
@@ -117,7 +117,7 @@ class DefaultApplicationThemeProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Provider\Theme\TestTasksDropdownThemeProv
 class TasksDropdownThemeProviderTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setTasksDropdownThemeProvider()
+     * Test setTasksDropdownThemeProvider()
      *
      * @return void
      */

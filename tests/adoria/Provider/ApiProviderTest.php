@@ -27,7 +27,7 @@ use WBW\Library\Provider\Exception\ApiException;
 class ApiProviderTest extends AbstractTestCase {
 
     /**
-     * Tests requestData()
+     * Test requestData()
      *
      * @return void
      */
@@ -56,7 +56,7 @@ class ApiProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDebug()
+     * Test setDebug()
      *
      * @return void
      */
@@ -69,7 +69,7 @@ class ApiProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

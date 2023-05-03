@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class RegularisationAfTest extends AbstractTestCase {
 
     /**
-     * Tests setBaseAf()
+     * Test setBaseAf()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class RegularisationAfTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeLibelle()
+     * Test setCodeLibelle()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class RegularisationAfTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndiceBulDeb()
+     * Test setIndiceBulDeb()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class RegularisationAfTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndiceBulFin()
+     * Test setIndiceBulFin()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class RegularisationAfTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndicePeriode()
+     * Test setIndicePeriode()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class RegularisationAfTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmploye()
+     * Test setNumeroEmploye()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class RegularisationAfTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPerBulDeb()
+     * Test setPerBulDeb()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class RegularisationAfTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPerBulFin()
+     * Test setPerBulFin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -137,7 +137,7 @@ class RegularisationAfTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -154,7 +154,7 @@ class RegularisationAfTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

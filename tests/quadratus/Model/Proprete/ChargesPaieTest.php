@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ChargesPaieTest extends AbstractTestCase {
 
     /**
-     * Tests setArbitrage()
+     * Test setArbitrage()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBrut()
+     * Test setBrut()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBrutAl()
+     * Test setBrutAl()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBrutAnl()
+     * Test setBrutAnl()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChargesPatronales()
+     * Test setChargesPatronales()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEmploye()
+     * Test setCodeEmploye()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEuro()
+     * Test setEuro()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHeuresSup()
+     * Test setHeuresSup()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setImpos()
+     * Test setImpos()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndemniteCp()
+     * Test setIndemniteCp()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndemnitePrecarite()
+     * Test setIndemnitePrecarite()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setInteressement()
+     * Test setInteressement()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtNetPayeTheo()
+     * Test setMtNetPayeTheo()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHAbs()
+     * Test setNbHAbs()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHBase()
+     * Test setNbHBase()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHRc()
+     * Test setNbHRc()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHSup1()
+     * Test setNbHSup1()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHSup2()
+     * Test setNbHSup2()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHSup3()
+     * Test setNbHSup3()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHn()
+     * Test setNbHn()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHt()
+     * Test setNbHt()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setParticipation()
+     * Test setParticipation()
      *
      * @return void
      */
@@ -311,7 +311,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -328,7 +328,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setProvisionCp()
+     * Test setProvisionCp()
      *
      * @return void
      */
@@ -341,7 +341,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSBase()
+     * Test setSBase()
      *
      * @return void
      */
@@ -354,7 +354,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSalaire()
+     * Test setSalaire()
      *
      * @return void
      */
@@ -367,7 +367,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTotRet()
+     * Test setTotRet()
      *
      * @return void
      */
@@ -380,7 +380,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrA()
+     * Test setTrA()
      *
      * @return void
      */
@@ -393,7 +393,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrB()
+     * Test setTrB()
      *
      * @return void
      */
@@ -406,7 +406,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrC()
+     * Test setTrC()
      *
      * @return void
      */
@@ -419,7 +419,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTxHn()
+     * Test setTxHn()
      *
      * @return void
      */
@@ -432,7 +432,7 @@ class ChargesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class HistoTransfPaieTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeEmploye()
+     * Test setCodeEmploye()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class HistoTransfPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEcartCumule()
+     * Test setEcartCumule()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class HistoTransfPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHcrPayees()
+     * Test setHcrPayees()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class HistoTransfPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHnpComplH()
+     * Test setHnpComplH()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class HistoTransfPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHnphc11()
+     * Test setHnphc11()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class HistoTransfPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHnphc25()
+     * Test setHnphc25()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class HistoTransfPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHnphc33()
+     * Test setHnphc33()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class HistoTransfPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbComplH()
+     * Test setNbComplH()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class HistoTransfPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHAbs()
+     * Test setNbHAbs()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class HistoTransfPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHAbsJf()
+     * Test setNbHAbsJf()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class HistoTransfPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHCompl()
+     * Test setNbHCompl()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class HistoTransfPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHRempl()
+     * Test setNbHRempl()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class HistoTransfPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHprevues()
+     * Test setNbHprevues()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class HistoTransfPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -211,7 +211,7 @@ class HistoTransfPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Tests\AbstractTestCase;
 class ToastFactoryTest extends AbstractTestCase {
 
     /**
-     * Tests newDangerToast()
+     * Test newDangerToast()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class ToastFactoryTest extends AbstractTestCase {
     }
 
     /**
-     * Tests newDefaultToast()
+     * Test newDefaultToast()
      *
      * @return void
      */
@@ -52,7 +52,7 @@ class ToastFactoryTest extends AbstractTestCase {
     }
 
     /**
-     * Tests newInfoToast()
+     * Test newInfoToast()
      *
      * @return void
      */
@@ -66,7 +66,7 @@ class ToastFactoryTest extends AbstractTestCase {
     }
 
     /**
-     * Tests newSuccessToast()
+     * Test newSuccessToast()
      *
      * @return void
      */
@@ -80,7 +80,7 @@ class ToastFactoryTest extends AbstractTestCase {
     }
 
     /**
-     * Tests newWarningToast()
+     * Test newWarningToast()
      *
      * @return void
      */

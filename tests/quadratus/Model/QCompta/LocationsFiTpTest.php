@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LocationsFiTpTest extends AbstractTestCase {
 
     /**
-     * Tests setAssurance()
+     * Test setAssurance()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class LocationsFiTpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTva()
+     * Test setCodeTva()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class LocationsFiTpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDate()
+     * Test setDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class LocationsFiTpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEntretien()
+     * Test setEntretien()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class LocationsFiTpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLoyerHt()
+     * Test setLoyerHt()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class LocationsFiTpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumLigne()
+     * Test setNumLigne()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class LocationsFiTpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumero()
+     * Test setNumero()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class LocationsFiTpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroCompte()
+     * Test setNumeroCompte()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class LocationsFiTpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringCommentTrait;
 class StringCommentTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setComment()
+     * Test setComment()
      *
      * @return void
      */

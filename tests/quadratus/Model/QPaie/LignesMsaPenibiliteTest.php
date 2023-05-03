@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LignesMsaPenibiliteTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeEtablissement()
+     * Test setCodeEtablissement()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRisque1()
+     * Test setCodeRisque1()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRisque10()
+     * Test setCodeRisque10()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRisque2()
+     * Test setCodeRisque2()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRisque3()
+     * Test setCodeRisque3()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRisque4()
+     * Test setCodeRisque4()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRisque5()
+     * Test setCodeRisque5()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRisque6()
+     * Test setCodeRisque6()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRisque7()
+     * Test setCodeRisque7()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRisque8()
+     * Test setCodeRisque8()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRisque9()
+     * Test setCodeRisque9()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeUnite()
+     * Test setCodeUnite()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtDebPenibilite()
+     * Test setDtDebPenibilite()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -198,7 +198,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtDebPer()
+     * Test setDtDebPer()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -215,7 +215,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtFinPenibilite()
+     * Test setDtFinPenibilite()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -232,7 +232,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtFinPer()
+     * Test setDtFinPer()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -249,7 +249,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmploye()
+     * Test setNumeroEmploye()
      *
      * @return void
      */
@@ -262,7 +262,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeDecla()
+     * Test setPeriodeDecla()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -279,7 +279,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

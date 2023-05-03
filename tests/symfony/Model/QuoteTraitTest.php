@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Model\TestQuoteTrait;
 class QuoteTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setQuote()
+     * Test setQuote()
      *
      * @return void
      */

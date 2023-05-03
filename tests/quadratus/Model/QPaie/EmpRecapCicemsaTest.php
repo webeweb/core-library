@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EmpRecapCicemsaTest extends AbstractTestCase {
 
     /**
-     * Tests setCaisseCp()
+     * Test setCaisseCp()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class EmpRecapCicemsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEtablissement()
+     * Test setCodeEtablissement()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class EmpRecapCicemsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeUnite()
+     * Test setCodeUnite()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class EmpRecapCicemsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndicePeriode()
+     * Test setIndicePeriode()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class EmpRecapCicemsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomEmploye()
+     * Test setNomEmploye()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class EmpRecapCicemsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmploye()
+     * Test setNumeroEmploye()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class EmpRecapCicemsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class EmpRecapCicemsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemunAssietteCice()
+     * Test setRemunAssietteCice()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class EmpRecapCicemsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemunBrutCice()
+     * Test setRemunBrutCice()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class EmpRecapCicemsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSmicMcice()
+     * Test setSmicMcice()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class EmpRecapCicemsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSortieMois()
+     * Test setSortieMois()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class EmpRecapCicemsaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

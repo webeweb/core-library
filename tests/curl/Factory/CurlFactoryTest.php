@@ -34,7 +34,7 @@ use WBW\Library\Curl\Tests\AbstractTestCase;
 class CurlFactoryTest extends AbstractTestCase {
 
     /**
-     * Tests newCurlRequest()
+     * Test newCurlRequest()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -47,7 +47,7 @@ class CurlFactoryTest extends AbstractTestCase {
     }
 
     /**
-     * Tests newCurlRequest()
+     * Test newCurlRequest()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -60,7 +60,7 @@ class CurlFactoryTest extends AbstractTestCase {
     }
 
     /**
-     * Tests newCurlRequest()
+     * Test newCurlRequest()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -73,7 +73,7 @@ class CurlFactoryTest extends AbstractTestCase {
     }
 
     /**
-     * Tests newCurlRequest()
+     * Test newCurlRequest()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -91,7 +91,7 @@ class CurlFactoryTest extends AbstractTestCase {
     }
 
     /**
-     * Tests newCurlRequest()
+     * Test newCurlRequest()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -104,7 +104,7 @@ class CurlFactoryTest extends AbstractTestCase {
     }
 
     /**
-     * Tests newCurlRequest()
+     * Test newCurlRequest()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -117,7 +117,7 @@ class CurlFactoryTest extends AbstractTestCase {
     }
 
     /**
-     * Tests newCurlRequest()
+     * Test newCurlRequest()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -130,7 +130,7 @@ class CurlFactoryTest extends AbstractTestCase {
     }
 
     /**
-     * Tests newCurlRequest()
+     * Test newCurlRequest()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -143,7 +143,7 @@ class CurlFactoryTest extends AbstractTestCase {
     }
 
     /**
-     * Tests newCurlResponse()
+     * Test newCurlResponse()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.

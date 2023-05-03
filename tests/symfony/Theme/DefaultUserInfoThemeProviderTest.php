@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Theme\DefaultUserInfoThemeProvider;
 class DefaultUserInfoThemeProviderTest extends AbstractTestCase {
 
     /**
-     * Tests provideRegisterLink()
+     * Test provideRegisterLink()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class DefaultUserInfoThemeProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests provideResettingLink()
+     * Test provideResettingLink()
      *
      * @return void
      */
@@ -48,7 +48,7 @@ class DefaultUserInfoThemeProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class SousLignesAnalAchatsTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeCentre()
+     * Test setCodeCentre()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class SousLignesAnalAchatsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeFournisseur()
+     * Test setCodeFournisseur()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class SousLignesAnalAchatsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeNature()
+     * Test setCodeNature()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class SousLignesAnalAchatsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndiceLigne()
+     * Test setIndiceLigne()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class SousLignesAnalAchatsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant()
+     * Test setMontant()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class SousLignesAnalAchatsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoPiece()
+     * Test setNoPiece()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class SousLignesAnalAchatsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroLigne()
+     * Test setNumeroLigne()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class SousLignesAnalAchatsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroLigneAnal()
+     * Test setNumeroLigneAnal()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class SousLignesAnalAchatsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

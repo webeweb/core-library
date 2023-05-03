@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AbsEmpRemplacantsTest extends AbstractTestCase {
 
     /**
-     * Tests setAjouterEnHCompl()
+     * Test setAjouterEnHCompl()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAvenantHRempl()
+     * Test setAvenantHRempl()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAffaireRempl()
+     * Test setCodeAffaireRempl()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantier()
+     * Test setCodeChantier()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantierRempl()
+     * Test setCodeChantierRempl()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClientRempl()
+     * Test setCodeClientRempl()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaboValid()
+     * Test setCodeCollaboValid()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaborateur()
+     * Test setCodeCollaborateur()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEmploye()
+     * Test setCodeEmploye()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRemplacant()
+     * Test setCodeRemplacant()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTache()
+     * Test setCodeTache()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTacheRempl()
+     * Test setCodeTacheRempl()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateAbsDecalee()
+     * Test setDateAbsDecalee()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -224,7 +224,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDebutAbs()
+     * Test setDateDebutAbs()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -241,7 +241,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDebutRempl()
+     * Test setDateDebutRempl()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -258,7 +258,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFinRempl()
+     * Test setDateFinRempl()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -275,7 +275,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateValidationSynchro()
+     * Test setDateValidationSynchro()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -292,7 +292,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDureeRemplacement()
+     * Test setDureeRemplacement()
      *
      * @return void
      */
@@ -305,7 +305,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtat()
+     * Test setEtat()
      *
      * @return void
      */
@@ -318,7 +318,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumBt()
+     * Test setNumBt()
      *
      * @return void
      */
@@ -331,7 +331,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumBtRempl()
+     * Test setNumBtRempl()
      *
      * @return void
      */
@@ -344,7 +344,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumRempl()
+     * Test setNumRempl()
      *
      * @return void
      */
@@ -357,7 +357,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroAvenant()
+     * Test setNumeroAvenant()
      *
      * @return void
      */
@@ -370,7 +370,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemplacantTravailleJf()
+     * Test setRemplacantTravailleJf()
      *
      * @return void
      */
@@ -383,7 +383,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemplacementComplet()
+     * Test setRemplacementComplet()
      *
      * @return void
      */
@@ -396,7 +396,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemplacementModifie()
+     * Test setRemplacementModifie()
      *
      * @return void
      */
@@ -409,7 +409,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqIdSynchro()
+     * Test setUniqIdSynchro()
      *
      * @return void
      */
@@ -422,7 +422,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

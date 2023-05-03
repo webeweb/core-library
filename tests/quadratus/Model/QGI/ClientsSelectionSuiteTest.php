@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ClientsSelectionSuiteTest extends AbstractTestCase {
 
     /**
-     * Tests setCocheClient()
+     * Test setCocheClient()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ClientsSelectionSuiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCocheFournisseur()
+     * Test setCocheFournisseur()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ClientsSelectionSuiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCocheIntervenant()
+     * Test setCocheIntervenant()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ClientsSelectionSuiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCocheProspect()
+     * Test setCocheProspect()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ClientsSelectionSuiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCocheSorti()
+     * Test setCocheSorti()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ClientsSelectionSuiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCol()
+     * Test setCodeCol()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class ClientsSelectionSuiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class ClientsSelectionSuiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

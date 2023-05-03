@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class TachesDureeBudgeteeTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class TachesDureeBudgeteeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantier()
+     * Test setCodeChantier()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class TachesDureeBudgeteeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class TachesDureeBudgeteeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTache()
+     * Test setCodeTache()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class TachesDureeBudgeteeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDureeBudgetee1()
+     * Test setDureeBudgetee1()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class TachesDureeBudgeteeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDureeBudgetee10()
+     * Test setDureeBudgetee10()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class TachesDureeBudgeteeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDureeBudgetee11()
+     * Test setDureeBudgetee11()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class TachesDureeBudgeteeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDureeBudgetee12()
+     * Test setDureeBudgetee12()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class TachesDureeBudgeteeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDureeBudgetee2()
+     * Test setDureeBudgetee2()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class TachesDureeBudgeteeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDureeBudgetee3()
+     * Test setDureeBudgetee3()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class TachesDureeBudgeteeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDureeBudgetee4()
+     * Test setDureeBudgetee4()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class TachesDureeBudgeteeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDureeBudgetee5()
+     * Test setDureeBudgetee5()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class TachesDureeBudgeteeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDureeBudgetee6()
+     * Test setDureeBudgetee6()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class TachesDureeBudgeteeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDureeBudgetee7()
+     * Test setDureeBudgetee7()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class TachesDureeBudgeteeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDureeBudgetee8()
+     * Test setDureeBudgetee8()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class TachesDureeBudgeteeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDureeBudgetee9()
+     * Test setDureeBudgetee9()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class TachesDureeBudgeteeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumBt()
+     * Test setNumBt()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class TachesDureeBudgeteeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -263,7 +263,7 @@ class TachesDureeBudgeteeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

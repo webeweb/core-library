@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class CompteurTest extends AbstractTestCase {
 
     /**
-     * Tests setNbActiviteImprimees()
+     * Test setNbActiviteImprimees()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbActiviteImprimeesADeduire()
+     * Test setNbActiviteImprimeesADeduire()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbActiviteImprimeesFact()
+     * Test setNbActiviteImprimeesFact()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbAnaImprimees()
+     * Test setNbAnaImprimees()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbAnaImprimeesADeduire()
+     * Test setNbAnaImprimeesADeduire()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbAnaImprimeesFact()
+     * Test setNbAnaImprimeesFact()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbAnnexesEditees()
+     * Test setNbAnnexesEditees()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbAnnexesEditeesADeduire()
+     * Test setNbAnnexesEditeesADeduire()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbAnnexesEditeesFact()
+     * Test setNbAnnexesEditeesFact()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbBalAgeeImprimees()
+     * Test setNbBalAgeeImprimees()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbBalAgeeImprimeesADeduire()
+     * Test setNbBalAgeeImprimeesADeduire()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbBalAgeeImprimeesFact()
+     * Test setNbBalAgeeImprimeesFact()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbBalImprimees()
+     * Test setNbBalImprimees()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbBalImprimeesADeduire()
+     * Test setNbBalImprimeesADeduire()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbBalImprimeesFact()
+     * Test setNbBalImprimeesFact()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbBilansEdites()
+     * Test setNbBilansEdites()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbBilansEditesADeduire()
+     * Test setNbBilansEditesADeduire()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbBilansEditesFact()
+     * Test setNbBilansEditesFact()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbCedageEdites()
+     * Test setNbCedageEdites()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbCedageEditesADeduire()
+     * Test setNbCedageEditesADeduire()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbCedageEditesFact()
+     * Test setNbCedageEditesFact()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbCentrImprimees()
+     * Test setNbCentrImprimees()
      *
      * @return void
      */
@@ -311,7 +311,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbCentrImprimeesADeduire()
+     * Test setNbCentrImprimeesADeduire()
      *
      * @return void
      */
@@ -324,7 +324,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbCentrImprimeesFact()
+     * Test setNbCentrImprimeesFact()
      *
      * @return void
      */
@@ -337,7 +337,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbEchImprimees()
+     * Test setNbEchImprimees()
      *
      * @return void
      */
@@ -350,7 +350,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbEchImprimeesADeduire()
+     * Test setNbEchImprimeesADeduire()
      *
      * @return void
      */
@@ -363,7 +363,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbEchImprimeesFact()
+     * Test setNbEchImprimeesFact()
      *
      * @return void
      */
@@ -376,7 +376,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbFicAsciiEmis()
+     * Test setNbFicAsciiEmis()
      *
      * @return void
      */
@@ -389,7 +389,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbFicAsciiEmisADeduire()
+     * Test setNbFicAsciiEmisADeduire()
      *
      * @return void
      */
@@ -402,7 +402,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbFicAsciiEmisFact()
+     * Test setNbFicAsciiEmisFact()
      *
      * @return void
      */
@@ -415,7 +415,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbGlImprimees()
+     * Test setNbGlImprimees()
      *
      * @return void
      */
@@ -428,7 +428,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbGlImprimeesADeduire()
+     * Test setNbGlImprimeesADeduire()
      *
      * @return void
      */
@@ -441,7 +441,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbGlImprimeesFact()
+     * Test setNbGlImprimeesFact()
      *
      * @return void
      */
@@ -454,7 +454,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJrnImprimees()
+     * Test setNbJrnImprimees()
      *
      * @return void
      */
@@ -467,7 +467,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJrnImprimeesADeduire()
+     * Test setNbJrnImprimeesADeduire()
      *
      * @return void
      */
@@ -480,7 +480,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJrnImprimeesFact()
+     * Test setNbJrnImprimeesFact()
      *
      * @return void
      */
@@ -493,7 +493,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbLiassesFiscEditees()
+     * Test setNbLiassesFiscEditees()
      *
      * @return void
      */
@@ -506,7 +506,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbLiassesFiscEditeesADeduire()
+     * Test setNbLiassesFiscEditeesADeduire()
      *
      * @return void
      */
@@ -519,7 +519,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbLiassesFiscEditeesFact()
+     * Test setNbLiassesFiscEditeesFact()
      *
      * @return void
      */
@@ -532,7 +532,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbLigEtebacTraitees()
+     * Test setNbLigEtebacTraitees()
      *
      * @return void
      */
@@ -545,7 +545,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbLigEtebacTraiteesADeduire()
+     * Test setNbLigEtebacTraiteesADeduire()
      *
      * @return void
      */
@@ -558,7 +558,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbLigEtebacTraiteesFact()
+     * Test setNbLigEtebacTraiteesFact()
      *
      * @return void
      */
@@ -571,7 +571,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbRelCliImprimees()
+     * Test setNbRelCliImprimees()
      *
      * @return void
      */
@@ -584,7 +584,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbRelCliImprimeesADeduire()
+     * Test setNbRelCliImprimeesADeduire()
      *
      * @return void
      */
@@ -597,7 +597,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbRelCliImprimeesFact()
+     * Test setNbRelCliImprimeesFact()
      *
      * @return void
      */
@@ -610,7 +610,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbTabAmortImprimes()
+     * Test setNbTabAmortImprimes()
      *
      * @return void
      */
@@ -623,7 +623,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbTabAmortImprimesADeduire()
+     * Test setNbTabAmortImprimesADeduire()
      *
      * @return void
      */
@@ -636,7 +636,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbTabAmortImprimesFact()
+     * Test setNbTabAmortImprimesFact()
      *
      * @return void
      */
@@ -649,7 +649,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -666,7 +666,7 @@ class CompteurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

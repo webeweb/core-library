@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class VisiteMedicaleLigneTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeMedecineTravail()
+     * Test setCodeMedecineTravail()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class VisiteMedicaleLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeSession()
+     * Test setCodeSession()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class VisiteMedicaleLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCommentaire()
+     * Test setCommentaire()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class VisiteMedicaleLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateVisite()
+     * Test setDateVisite()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class VisiteMedicaleLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDureeVisite()
+     * Test setDureeVisite()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class VisiteMedicaleLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtatVisite()
+     * Test setEtatVisite()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class VisiteMedicaleLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHeureVisite()
+     * Test setHeureVisite()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -124,7 +124,7 @@ class VisiteMedicaleLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLienDocument()
+     * Test setLienDocument()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class VisiteMedicaleLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmploye()
+     * Test setNumeroEmploye()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class VisiteMedicaleLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTel1()
+     * Test setTel1()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class VisiteMedicaleLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeLigne()
+     * Test setTypeLigne()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class VisiteMedicaleLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeVisite()
+     * Test setTypeVisite()
      *
      * @return void
      */
@@ -189,7 +189,7 @@ class VisiteMedicaleLigneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

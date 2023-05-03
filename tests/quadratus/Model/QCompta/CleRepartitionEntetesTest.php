@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class CleRepartitionEntetesTest extends AbstractTestCase {
 
     /**
-     * Tests setCode()
+     * Test setCode()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class CleRepartitionEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class CleRepartitionEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTotal()
+     * Test setTotal()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class CleRepartitionEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeCle()
+     * Test setTypeCle()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class CleRepartitionEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -122,7 +122,7 @@ interface BillableInterface extends JsonSerializable {
     public function getVatTotal(): ?float;
 
     /**
-     * Determines if this billable has details.
+     * Determine if this billable has details.
      *
      * @return bool Returns true in case of success, false otherwise.
      */

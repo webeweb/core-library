@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DevisCommercialEntetesTest extends AbstractTestCase {
 
     /**
-     * Tests setAdIntBtq()
+     * Test setAdIntBtq()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdIntBureauDistributeur()
+     * Test setAdIntBureauDistributeur()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdIntCodePays()
+     * Test setAdIntCodePays()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdIntCodePostal()
+     * Test setAdIntCodePostal()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdIntComplement()
+     * Test setAdIntComplement()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdIntNom()
+     * Test setAdIntNom()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdIntNomVoie()
+     * Test setAdIntNomVoie()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdIntNumVoie()
+     * Test setAdIntNumVoie()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBtq()
+     * Test setBtq()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBureauDistributeur()
+     * Test setBureauDistributeur()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCivilite()
+     * Test setCivilite()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAnalClient()
+     * Test setCodeAnalClient()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantier()
+     * Test setCodeChantier()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClientFact()
+     * Test setCodeClientFact()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeDevise()
+     * Test setCodeDevise()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeFactor()
+     * Test setCodeFactor()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeLangueDesignationArticle()
+     * Test setCodeLangueDesignationArticle()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeModeReglement()
+     * Test setCodeModeReglement()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePays()
+     * Test setCodePays()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePostal()
+     * Test setCodePostal()
      *
      * @return void
      */
@@ -311,7 +311,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRegroupement()
+     * Test setCodeRegroupement()
      *
      * @return void
      */
@@ -324,7 +324,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRepresentant()
+     * Test setCodeRepresentant()
      *
      * @return void
      */
@@ -337,7 +337,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTvaClient()
+     * Test setCodeTvaClient()
      *
      * @return void
      */
@@ -350,7 +350,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeVentilClient()
+     * Test setCodeVentilClient()
      *
      * @return void
      */
@@ -363,7 +363,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setComplement()
+     * Test setComplement()
      *
      * @return void
      */
@@ -376,7 +376,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateAcceptation()
+     * Test setDateAcceptation()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -393,7 +393,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDevis()
+     * Test setDateDevis()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -410,7 +410,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateEcheance()
+     * Test setDateEcheance()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -427,7 +427,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateValidation()
+     * Test setDateValidation()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -444,7 +444,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDevisEuros()
+     * Test setDevisEuros()
      *
      * @return void
      */
@@ -457,7 +457,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDevisVm()
+     * Test setDevisVm()
      *
      * @return void
      */
@@ -470,7 +470,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEcheanceDepart()
+     * Test setEcheanceDepart()
      *
      * @return void
      */
@@ -483,7 +483,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEcheanceForcee()
+     * Test setEcheanceForcee()
      *
      * @return void
      */
@@ -496,7 +496,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEcheanceLe()
+     * Test setEcheanceLe()
      *
      * @return void
      */
@@ -509,7 +509,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEcheanceNbJours()
+     * Test setEcheanceNbJours()
      *
      * @return void
      */
@@ -522,7 +522,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtat()
+     * Test setEtat()
      *
      * @return void
      */
@@ -535,7 +535,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFonctionCommercial()
+     * Test setFonctionCommercial()
      *
      * @return void
      */
@@ -548,7 +548,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setInterlocuteur()
+     * Test setInterlocuteur()
      *
      * @return void
      */
@@ -561,7 +561,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -574,7 +574,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelleTransfCpta()
+     * Test setLibelleTransfCpta()
      *
      * @return void
      */
@@ -587,7 +587,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLienDocument()
+     * Test setLienDocument()
      *
      * @return void
      */
@@ -600,7 +600,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMentionLibre()
+     * Test setMentionLibre()
      *
      * @return void
      */
@@ -613,7 +613,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantAcompte()
+     * Test setMontantAcompte()
      *
      * @return void
      */
@@ -626,7 +626,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantHtpx()
+     * Test setMontantHtpx()
      *
      * @return void
      */
@@ -639,7 +639,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantHtvm()
+     * Test setMontantHtvm()
      *
      * @return void
      */
@@ -652,7 +652,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantTtc()
+     * Test setMontantTtc()
      *
      * @return void
      */
@@ -665,7 +665,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomClient()
+     * Test setNomClient()
      *
      * @return void
      */
@@ -678,7 +678,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomSuite()
+     * Test setNomSuite()
      *
      * @return void
      */
@@ -691,7 +691,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomSuite2()
+     * Test setNomSuite2()
      *
      * @return void
      */
@@ -704,7 +704,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomSuite3()
+     * Test setNomSuite3()
      *
      * @return void
      */
@@ -717,7 +717,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomVoie()
+     * Test setNomVoie()
      *
      * @return void
      */
@@ -730,7 +730,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNombreEcheances()
+     * Test setNombreEcheances()
      *
      * @return void
      */
@@ -743,7 +743,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumVoie()
+     * Test setNumVoie()
      *
      * @return void
      */
@@ -756,7 +756,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroDevis()
+     * Test setNumeroDevis()
      *
      * @return void
      */
@@ -769,7 +769,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroPj()
+     * Test setNumeroPj()
      *
      * @return void
      */
@@ -782,7 +782,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrestation()
+     * Test setPrestation()
      *
      * @return void
      */
@@ -795,7 +795,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setReference1()
+     * Test setReference1()
      *
      * @return void
      */
@@ -808,7 +808,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setReference2()
+     * Test setReference2()
      *
      * @return void
      */
@@ -821,7 +821,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setReference3()
+     * Test setReference3()
      *
      * @return void
      */
@@ -834,7 +834,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setReference4()
+     * Test setReference4()
      *
      * @return void
      */
@@ -847,7 +847,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSaisirAdresse()
+     * Test setSaisirAdresse()
      *
      * @return void
      */
@@ -860,7 +860,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSoumisEscompte()
+     * Test setSoumisEscompte()
      *
      * @return void
      */
@@ -873,7 +873,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSoumisTaxeDeee()
+     * Test setSoumisTaxeDeee()
      *
      * @return void
      */
@@ -886,7 +886,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxDevise()
+     * Test setTauxDevise()
      *
      * @return void
      */
@@ -899,7 +899,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxEscompte()
+     * Test setTauxEscompte()
      *
      * @return void
      */
@@ -912,7 +912,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxRemise1()
+     * Test setTauxRemise1()
      *
      * @return void
      */
@@ -925,7 +925,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxRemise2()
+     * Test setTauxRemise2()
      *
      * @return void
      */
@@ -938,7 +938,7 @@ class DevisCommercialEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class HeuresAbsenceMensualiseesTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeAbsence()
+     * Test setCodeAbsence()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class HeuresAbsenceMensualiseesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class HeuresAbsenceMensualiseesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantier()
+     * Test setCodeChantier()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class HeuresAbsenceMensualiseesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class HeuresAbsenceMensualiseesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaboValid()
+     * Test setCodeCollaboValid()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class HeuresAbsenceMensualiseesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaborateur()
+     * Test setCodeCollaborateur()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class HeuresAbsenceMensualiseesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEmploye()
+     * Test setCodeEmploye()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class HeuresAbsenceMensualiseesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTache()
+     * Test setCodeTache()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class HeuresAbsenceMensualiseesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDebutAbs()
+     * Test setDateDebutAbs()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -146,7 +146,7 @@ class HeuresAbsenceMensualiseesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFinAbs()
+     * Test setDateFinAbs()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -163,7 +163,7 @@ class HeuresAbsenceMensualiseesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateValidationSynchro()
+     * Test setDateValidationSynchro()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -180,7 +180,7 @@ class HeuresAbsenceMensualiseesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtat()
+     * Test setEtat()
      *
      * @return void
      */
@@ -193,7 +193,7 @@ class HeuresAbsenceMensualiseesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHAbsMens()
+     * Test setHAbsMens()
      *
      * @return void
      */
@@ -206,7 +206,7 @@ class HeuresAbsenceMensualiseesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumBt()
+     * Test setNumBt()
      *
      * @return void
      */
@@ -219,7 +219,7 @@ class HeuresAbsenceMensualiseesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -236,7 +236,7 @@ class HeuresAbsenceMensualiseesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqIdSynchro()
+     * Test setUniqIdSynchro()
      *
      * @return void
      */
@@ -249,7 +249,7 @@ class HeuresAbsenceMensualiseesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

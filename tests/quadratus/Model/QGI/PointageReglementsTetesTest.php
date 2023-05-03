@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class PointageReglementsTetesTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class PointageReglementsTetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollCreation()
+     * Test setCodeCollCreation()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class PointageReglementsTetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollGenere()
+     * Test setCodeCollGenere()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class PointageReglementsTetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollModif()
+     * Test setCodeCollModif()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class PointageReglementsTetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateCreation()
+     * Test setDateCreation()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -94,7 +94,7 @@ class PointageReglementsTetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateGenere()
+     * Test setDateGenere()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -111,7 +111,7 @@ class PointageReglementsTetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateModif()
+     * Test setDateModif()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -128,7 +128,7 @@ class PointageReglementsTetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -141,7 +141,7 @@ class PointageReglementsTetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantSaisi()
+     * Test setMontantSaisi()
      *
      * @return void
      */
@@ -154,7 +154,7 @@ class PointageReglementsTetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumCptPayeur()
+     * Test setNumCptPayeur()
      *
      * @return void
      */
@@ -167,7 +167,7 @@ class PointageReglementsTetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumDoss()
+     * Test setNumDoss()
      *
      * @return void
      */
@@ -180,7 +180,7 @@ class PointageReglementsTetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

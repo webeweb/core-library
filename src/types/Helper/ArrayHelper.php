@@ -91,7 +91,7 @@ class ArrayHelper {
     }
 
     /**
-     * Indexes by.
+     * Indexe by.
      *
      * @param array $array The array.
      * @param callable $callback The key callback.
@@ -142,11 +142,11 @@ class ArrayHelper {
     }
 
     /**
-     * Determines if a value is an array.
+     * Determine if a value is an array.
      *
      * @param mixed $value The value.
      * @return void
-     * @throws ArrayArgumentException Throws an Array argument exception if the value is not of expected type.
+     * @throws ArrayArgumentException Throws an array argument exception if the value is not of expected type.
      */
     public static function isArray($value): void {
         if (false === is_array($value)) {
@@ -155,7 +155,7 @@ class ArrayHelper {
     }
 
     /**
-     * Determines if an array is an object.
+     * Determine if an array is an object.
      *
      * @param array $array The array.
      * @return bool Returns true in case of success, false otherwise.

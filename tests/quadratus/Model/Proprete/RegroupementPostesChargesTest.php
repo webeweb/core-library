@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class RegroupementPostesChargesTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeCharge()
+     * Test setCodeCharge()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class RegroupementPostesChargesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRegCharge()
+     * Test setCodeRegCharge()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class RegroupementPostesChargesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

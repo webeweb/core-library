@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class CentralisateurTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeJournal()
+     * Test setCodeJournal()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class CentralisateurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCreditClasse15()
+     * Test setCreditClasse15()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class CentralisateurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCreditClasse67()
+     * Test setCreditClasse67()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class CentralisateurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCreditClient()
+     * Test setCreditClient()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class CentralisateurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCreditFournisseur()
+     * Test setCreditFournisseur()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class CentralisateurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDebitClasse15()
+     * Test setDebitClasse15()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class CentralisateurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDebitClasse67()
+     * Test setDebitClasse67()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class CentralisateurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDebitClient()
+     * Test setDebitClient()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class CentralisateurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDebitFournisseur()
+     * Test setDebitFournisseur()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class CentralisateurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFolio()
+     * Test setFolio()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class CentralisateurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbLigneFolio()
+     * Test setNbLigneFolio()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class CentralisateurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -185,7 +185,7 @@ class CentralisateurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setProchaineLigne()
+     * Test setProchaineLigne()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class CentralisateurTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

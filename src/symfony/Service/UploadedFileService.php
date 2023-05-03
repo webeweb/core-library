@@ -52,7 +52,7 @@ class UploadedFileService implements UploadedFileServiceInterface {
     }
 
     /**
-     * Determines if a filename exists.
+     * Determine if a filename exists.
      *
      * @param string $filename The filename.
      * @return bool Returns true in case of success, false otherwise.
@@ -62,7 +62,7 @@ class UploadedFileService implements UploadedFileServiceInterface {
     }
 
     /**
-     * Creates a directory.
+     * Create a directory.
      *
      * @param string $directory The directory.
      * @return bool Returns true in case of success, false otherwise.

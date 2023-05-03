@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class CumulsLibellesTest extends AbstractTestCase {
 
     /**
-     * Tests setMontantCumul()
+     * Test setMontantCumul()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class CumulsLibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumCumulBulletin()
+     * Test setNumCumulBulletin()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class CumulsLibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmploye()
+     * Test setNumeroEmploye()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class CumulsLibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

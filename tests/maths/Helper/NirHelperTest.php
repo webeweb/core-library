@@ -23,7 +23,7 @@ use WBW\Library\Maths\Tests\AbstractTestCase;
 class NirHelperTest extends AbstractTestCase {
 
     /**
-     * Tests check()
+     * Test check()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class NirHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests key()
+     * Test key()
      *
      * @return void
      */

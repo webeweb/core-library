@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringNafCodeTrait;
 class StringNafCodeTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setNafCode()
+     * Test setNafCode()
      *
      * @return void
      */

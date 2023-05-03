@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class QuadraDbTest extends AbstractTestCase {
 
     /**
-     * Tests setVersion()
+     * Test setVersion()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class QuadraDbTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

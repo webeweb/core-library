@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class RegroupementLibellesTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeLibelle()
+     * Test setCodeLibelle()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class RegroupementLibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumRegroupement()
+     * Test setNumRegroupement()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class RegroupementLibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class HistoPaiePrimesTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeEmploye()
+     * Test setCodeEmploye()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class HistoPaiePrimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePrime()
+     * Test setCodePrime()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class HistoPaiePrimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNombrePrime()
+     * Test setNombrePrime()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class HistoPaiePrimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroPrime()
+     * Test setNumeroPrime()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class HistoPaiePrimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -94,7 +94,7 @@ class HistoPaiePrimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeRappel()
+     * Test setPeriodeRappel()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -111,7 +111,7 @@ class HistoPaiePrimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxPrime()
+     * Test setTauxPrime()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class HistoPaiePrimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypePrime()
+     * Test setTypePrime()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class HistoPaiePrimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

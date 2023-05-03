@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EvenementsTest extends AbstractTestCase {
 
     /**
-     * Tests setArchive()
+     * Test setArchive()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class EvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class EvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollab()
+     * Test setCodeCollab()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class EvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setContenu1()
+     * Test setContenu1()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class EvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setContenu2()
+     * Test setContenu2()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class EvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setContenu3()
+     * Test setContenu3()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class EvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setContenu4()
+     * Test setContenu4()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class EvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateEvt()
+     * Test setDateEvt()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -133,7 +133,7 @@ class EvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmplacementFichier()
+     * Test setEmplacementFichier()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class EvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtatIsActif()
+     * Test setEtatIsActif()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class EvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFsCompta()
+     * Test setFsCompta()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class EvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFsComptaCollArch()
+     * Test setFsComptaCollArch()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class EvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFsComptaDateAlerte()
+     * Test setFsComptaDateAlerte()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -202,7 +202,7 @@ class EvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFsComptaDateArch()
+     * Test setFsComptaDateArch()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -219,7 +219,7 @@ class EvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFsComptaYaAlerte()
+     * Test setFsComptaYaAlerte()
      *
      * @return void
      */
@@ -232,7 +232,7 @@ class EvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFsFiscal()
+     * Test setFsFiscal()
      *
      * @return void
      */
@@ -245,7 +245,7 @@ class EvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFsFiscalCollArch()
+     * Test setFsFiscalCollArch()
      *
      * @return void
      */
@@ -258,7 +258,7 @@ class EvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFsFiscalDateArch()
+     * Test setFsFiscalDateArch()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -275,7 +275,7 @@ class EvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFsJuridique()
+     * Test setFsJuridique()
      *
      * @return void
      */
@@ -288,7 +288,7 @@ class EvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFsJuridiqueCollArch()
+     * Test setFsJuridiqueCollArch()
      *
      * @return void
      */
@@ -301,7 +301,7 @@ class EvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFsJuridiqueDateArch()
+     * Test setFsJuridiqueDateArch()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -318,7 +318,7 @@ class EvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFsSocial()
+     * Test setFsSocial()
      *
      * @return void
      */
@@ -331,7 +331,7 @@ class EvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFsSocialCollArch()
+     * Test setFsSocialCollArch()
      *
      * @return void
      */
@@ -344,7 +344,7 @@ class EvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFsSocialDateAlerte()
+     * Test setFsSocialDateAlerte()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -361,7 +361,7 @@ class EvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFsSocialDateArch()
+     * Test setFsSocialDateArch()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -378,7 +378,7 @@ class EvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFsSocialYaAlerte()
+     * Test setFsSocialYaAlerte()
      *
      * @return void
      */
@@ -391,7 +391,7 @@ class EvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFsgi()
+     * Test setFsgi()
      *
      * @return void
      */
@@ -404,7 +404,7 @@ class EvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFsgiCollArch()
+     * Test setFsgiCollArch()
      *
      * @return void
      */
@@ -417,7 +417,7 @@ class EvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFsgiDateArch()
+     * Test setFsgiDateArch()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -434,7 +434,7 @@ class EvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -447,7 +447,7 @@ class EvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumero()
+     * Test setNumero()
      *
      * @return void
      */
@@ -460,7 +460,7 @@ class EvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQualifiant1()
+     * Test setQualifiant1()
      *
      * @return void
      */
@@ -473,7 +473,7 @@ class EvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQualifiant2()
+     * Test setQualifiant2()
      *
      * @return void
      */
@@ -486,7 +486,7 @@ class EvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQualifiant3()
+     * Test setQualifiant3()
      *
      * @return void
      */
@@ -499,7 +499,7 @@ class EvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRacineCpt()
+     * Test setRacineCpt()
      *
      * @return void
      */
@@ -512,7 +512,7 @@ class EvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRegle()
+     * Test setRegle()
      *
      * @return void
      */
@@ -525,7 +525,7 @@ class EvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTitre()
+     * Test setTitre()
      *
      * @return void
      */
@@ -538,7 +538,7 @@ class EvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeEvt()
+     * Test setTypeEvt()
      *
      * @return void
      */
@@ -551,7 +551,7 @@ class EvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqId()
+     * Test setUniqId()
      *
      * @return void
      */
@@ -564,7 +564,7 @@ class EvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringGidTrait;
 class StringGidTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setGid()
+     * Test setGid()
      *
      * @return void
      */

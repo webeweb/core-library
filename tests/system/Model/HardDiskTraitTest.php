@@ -24,7 +24,7 @@ use WBW\Library\System\Tests\Fixtures\Model\TestHardDiskTrait;
 class HardDiskTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setHardDisk()
+     * Test setHardDisk()
      *
      * @return void
      */

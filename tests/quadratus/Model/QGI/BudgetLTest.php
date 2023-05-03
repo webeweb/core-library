@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class BudgetLTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class BudgetLTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollab()
+     * Test setCodeCollab()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class BudgetLTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeMission()
+     * Test setCodeMission()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class BudgetLTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTravail()
+     * Test setCodeTravail()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class BudgetLTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTva()
+     * Test setCodeTva()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class BudgetLTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHSoldees()
+     * Test setHSoldees()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class BudgetLTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbrHeures()
+     * Test setNbrHeures()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class BudgetLTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNiveau()
+     * Test setNiveau()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class BudgetLTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomTravail()
+     * Test setNomTravail()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class BudgetLTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumLigne()
+     * Test setNumLigne()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class BudgetLTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumUniq()
+     * Test setNumUniq()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class BudgetLTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -185,7 +185,7 @@ class BudgetLTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrixHeure()
+     * Test setPrixHeure()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class BudgetLTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQuantite()
+     * Test setQuantite()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class BudgetLTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeAffectation()
+     * Test setTypeAffectation()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class BudgetLTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqIdLm()
+     * Test setUniqIdLm()
      *
      * @return void
      */
@@ -237,7 +237,7 @@ class BudgetLTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

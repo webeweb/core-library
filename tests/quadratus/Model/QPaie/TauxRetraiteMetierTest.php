@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class TauxRetraiteMetierTest extends AbstractTestCase {
 
     /**
-     * Tests setActive()
+     * Test setActive()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCategSalarie()
+     * Test setCategSalarie()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeActivite()
+     * Test setCodeActivite()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeDucs()
+     * Test setCodeDucs()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEditionHisto()
+     * Test setCodeEditionHisto()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeLibelle()
+     * Test setCodeLibelle()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeMetier()
+     * Test setCodeMetier()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeOrganisme()
+     * Test setCodeOrganisme()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteCharge()
+     * Test setCompteCharge()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setConditionSpec()
+     * Test setConditionSpec()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExclureLoiTepa()
+     * Test setExclureLoiTepa()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndiceCateg()
+     * Test setIndiceCateg()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelleBul()
+     * Test setLibelleBul()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumLigne()
+     * Test setNumLigne()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQualifiantCotis()
+     * Test setQualifiantCotis()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeLibelle()
+     * Test setTypeLibelle()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

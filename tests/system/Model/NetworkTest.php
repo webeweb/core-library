@@ -27,7 +27,7 @@ use WBW\Library\System\Tests\AbstractTestCase;
 class NetworkTest extends AbstractTestCase {
 
     /**
-     * Tests jsonSerialize()
+     * Test jsonSerialize()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class NetworkTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDns()
+     * Test setDns()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class NetworkTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGateway()
+     * Test setGateway()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class NetworkTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHostname()
+     * Test setHostname()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class NetworkTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

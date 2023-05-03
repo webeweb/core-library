@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AffectationsChargeTest extends AbstractTestCase {
 
     /**
-     * Tests setAjoutCharge()
+     * Test setAjoutCharge()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AffectationsChargeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAou()
+     * Test setAou()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AffectationsChargeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAvr()
+     * Test setAvr()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AffectationsChargeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChargeMensualisee()
+     * Test setChargeMensualisee()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class AffectationsChargeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChargeQFact()
+     * Test setChargeQFact()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class AffectationsChargeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChargeValidee()
+     * Test setChargeValidee()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class AffectationsChargeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChefEquipe()
+     * Test setChefEquipe()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class AffectationsChargeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class AffectationsChargeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantier()
+     * Test setCodeChantier()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class AffectationsChargeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCharge()
+     * Test setCodeCharge()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class AffectationsChargeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class AffectationsChargeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeInspecteur()
+     * Test setCodeInspecteur()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class AffectationsChargeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTache()
+     * Test setCodeTache()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class AffectationsChargeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCommentaire()
+     * Test setCommentaire()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class AffectationsChargeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDec()
+     * Test setDec()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class AffectationsChargeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFev()
+     * Test setFev()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class AffectationsChargeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setJan()
+     * Test setJan()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class AffectationsChargeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setJuil()
+     * Test setJuil()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class AffectationsChargeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setJuin()
+     * Test setJuin()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class AffectationsChargeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMai()
+     * Test setMai()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class AffectationsChargeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMar()
+     * Test setMar()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class AffectationsChargeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant()
+     * Test setMontant()
      *
      * @return void
      */
@@ -311,7 +311,7 @@ class AffectationsChargeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNov()
+     * Test setNov()
      *
      * @return void
      */
@@ -324,7 +324,7 @@ class AffectationsChargeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOct()
+     * Test setOct()
      *
      * @return void
      */
@@ -337,7 +337,7 @@ class AffectationsChargeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOrigineChargeMens()
+     * Test setOrigineChargeMens()
      *
      * @return void
      */
@@ -350,7 +350,7 @@ class AffectationsChargeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeDeb()
+     * Test setPeriodeDeb()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -367,7 +367,7 @@ class AffectationsChargeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeFin()
+     * Test setPeriodeFin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -384,7 +384,7 @@ class AffectationsChargeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSep()
+     * Test setSep()
      *
      * @return void
      */
@@ -397,7 +397,7 @@ class AffectationsChargeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqId()
+     * Test setUniqId()
      *
      * @return void
      */
@@ -410,7 +410,7 @@ class AffectationsChargeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

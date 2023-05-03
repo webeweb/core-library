@@ -28,7 +28,7 @@ use WBW\Library\Serializer\SerializerKeys as BaseSerializerKeys;
 class VatRateTest extends AbstractTestCase {
 
     /**
-     * Tests jsonSerialize()
+     * Test jsonSerialize()
      *
      * @return void
      */
@@ -59,7 +59,7 @@ class VatRateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPurchasesAccountingAccount()
+     * Test setPurchasesAccountingAccount()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class VatRateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSalesAccountingAccount()
+     * Test setSalesAccountingAccount()
      *
      * @return void
      */
@@ -91,7 +91,7 @@ class VatRateTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

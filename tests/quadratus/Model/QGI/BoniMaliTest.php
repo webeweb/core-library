@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class BoniMaliTest extends AbstractTestCase {
 
     /**
-     * Tests setBmCalcule()
+     * Test setBmCalcule()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class BoniMaliTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBonus()
+     * Test setBonus()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class BoniMaliTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class BoniMaliTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaborateur()
+     * Test setCodeCollaborateur()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class BoniMaliTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeMission()
+     * Test setCodeMission()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class BoniMaliTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateBm()
+     * Test setDateBm()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -107,7 +107,7 @@ class BoniMaliTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class BoniMaliTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMalus()
+     * Test setMalus()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class BoniMaliTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMonnaie()
+     * Test setMonnaie()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class BoniMaliTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroBm()
+     * Test setNumeroBm()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class BoniMaliTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroLigne()
+     * Test setNumeroLigne()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class BoniMaliTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

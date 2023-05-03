@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class VmpMouvementsTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeVmp()
+     * Test setCodeVmp()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class VmpMouvementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDate()
+     * Test setDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -55,7 +55,7 @@ class VmpMouvementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFrancsEuros()
+     * Test setFrancsEuros()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class VmpMouvementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGratuit()
+     * Test setGratuit()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class VmpMouvementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantComm()
+     * Test setMontantComm()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class VmpMouvementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantCoupon()
+     * Test setMontantCoupon()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class VmpMouvementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantFrais()
+     * Test setMontantFrais()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class VmpMouvementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoLotEcr()
+     * Test setNoLotEcr()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class VmpMouvementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoLotTrace()
+     * Test setNoLotTrace()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class VmpMouvementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumLigne()
+     * Test setNumLigne()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class VmpMouvementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumUniqEcr()
+     * Test setNumUniqEcr()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class VmpMouvementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrixUnitaire()
+     * Test setPrixUnitaire()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class VmpMouvementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQuantite()
+     * Test setQuantite()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class VmpMouvementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSoldeQuantite()
+     * Test setSoldeQuantite()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class VmpMouvementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setType()
+     * Test setType()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class VmpMouvementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AffairesTest extends AbstractTestCase {
 
     /**
-     * Tests setClientDonneurOrdre()
+     * Test setClientDonneurOrdre()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setClientPayeur()
+     * Test setClientPayeur()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAvenant()
+     * Test setCodeAvenant()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeColCreat()
+     * Test setCodeColCreat()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeColModif()
+     * Test setCodeColModif()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePhase()
+     * Test setCodePhase()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCoutHeureTheo()
+     * Test setCoutHeureTheo()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateCreation()
+     * Test setDateCreation()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -146,7 +146,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDebutPrevue()
+     * Test setDateDebutPrevue()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -163,7 +163,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDebutReelle()
+     * Test setDateDebutReelle()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -180,7 +180,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFinPrevue()
+     * Test setDateFinPrevue()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -197,7 +197,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFinReelle()
+     * Test setDateFinReelle()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -214,7 +214,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateModification()
+     * Test setDateModification()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -231,7 +231,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEchEnMt()
+     * Test setEchEnMt()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtat()
+     * Test setEtat()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtat1()
+     * Test setEtat1()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtat2()
+     * Test setEtat2()
      *
      * @return void
      */
@@ -283,7 +283,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtat3()
+     * Test setEtat3()
      *
      * @return void
      */
@@ -296,7 +296,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtat4()
+     * Test setEtat4()
      *
      * @return void
      */
@@ -309,7 +309,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtat5()
+     * Test setEtat5()
      *
      * @return void
      */
@@ -322,7 +322,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntitule()
+     * Test setIntitule()
      *
      * @return void
      */
@@ -335,7 +335,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setListeCollabAcces()
+     * Test setListeCollabAcces()
      *
      * @return void
      */
@@ -348,7 +348,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtCaPrevu()
+     * Test setMtCaPrevu()
      *
      * @return void
      */
@@ -361,7 +361,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHeuresInterim()
+     * Test setNbHeuresInterim()
      *
      * @return void
      */
@@ -374,7 +374,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHeuresPrevues()
+     * Test setNbHeuresPrevues()
      *
      * @return void
      */
@@ -387,7 +387,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHeuresReelInterim()
+     * Test setNbHeuresReelInterim()
      *
      * @return void
      */
@@ -400,7 +400,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHeuresReelSousTrait()
+     * Test setNbHeuresReelSousTrait()
      *
      * @return void
      */
@@ -413,7 +413,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHeuresSousTrait()
+     * Test setNbHeuresSousTrait()
      *
      * @return void
      */
@@ -426,7 +426,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbInscrits()
+     * Test setNbInscrits()
      *
      * @return void
      */
@@ -439,7 +439,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJoursPrevus()
+     * Test setNbJoursPrevus()
      *
      * @return void
      */
@@ -452,7 +452,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJoursReels()
+     * Test setNbJoursReels()
      *
      * @return void
      */
@@ -465,7 +465,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setProchainNumArr()
+     * Test setProchainNumArr()
      *
      * @return void
      */
@@ -478,7 +478,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRefDevis()
+     * Test setRefDevis()
      *
      * @return void
      */
@@ -491,7 +491,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setResponsable()
+     * Test setResponsable()
      *
      * @return void
      */
@@ -504,7 +504,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setResponsableChantier()
+     * Test setResponsableChantier()
      *
      * @return void
      */
@@ -517,7 +517,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setType()
+     * Test setType()
      *
      * @return void
      */
@@ -530,7 +530,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeFg()
+     * Test setTypeFg()
      *
      * @return void
      */
@@ -543,7 +543,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

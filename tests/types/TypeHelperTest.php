@@ -37,7 +37,7 @@ use WBW\Library\Types\TypeInterface;
 class TypeHelperTest extends AbstractTestCase {
 
     /**
-     * Tests isTypeOf()
+     * Test isTypeOf()
      *
      * @return void
      */
@@ -59,7 +59,7 @@ class TypeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests isTypeOf()
+     * Test isTypeOf()
      *
      * @return void
      */
@@ -76,7 +76,7 @@ class TypeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests isTypeOf()
+     * Test isTypeOf()
      *
      * @return void
      */
@@ -93,7 +93,7 @@ class TypeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests isTypeOf()
+     * Test isTypeOf()
      *
      * @return void
      */
@@ -110,7 +110,7 @@ class TypeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests isTypeOf()
+     * Test isTypeOf()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class TypeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests isTypeOf()
+     * Test isTypeOf()
      *
      * @return void
      */
@@ -144,7 +144,7 @@ class TypeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests isTypeOf()
+     * Test isTypeOf()
      *
      * @return void
      */
@@ -161,7 +161,7 @@ class TypeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests isTypeOf()
+     * Test isTypeOf()
      *
      * @return void
      */
@@ -178,7 +178,7 @@ class TypeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests isTypeOf()
+     * Test isTypeOf()
      *
      * @return void
      */
@@ -195,7 +195,7 @@ class TypeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests isTypeOf()
+     * Test isTypeOf()
      *
      * @return void
      */
@@ -212,7 +212,7 @@ class TypeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests isTypeOf()
+     * Test isTypeOf()
      *
      * @return void
      */
@@ -229,7 +229,7 @@ class TypeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests isTypeOf()
+     * Test isTypeOf()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class TypeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests isTypeOf()
+     * Test isTypeOf()
      *
      * @return void
      */
@@ -263,7 +263,7 @@ class TypeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests transform()
+     * Test transform()
      *
      * @return void
      */
@@ -279,7 +279,7 @@ class TypeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests transform()
+     * Test transform()
      *
      * @return void
      */
@@ -296,7 +296,7 @@ class TypeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests transform()
+     * Test transform()
      *
      * @return void
      */
@@ -313,7 +313,7 @@ class TypeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests transform()
+     * Test transform()
      *
      * @return void
      */
@@ -330,7 +330,7 @@ class TypeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests transform()
+     * Test transform()
      *
      * @return void
      */
@@ -347,7 +347,7 @@ class TypeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests transform()
+     * Test transform()
      *
      * @return void
      */
@@ -364,7 +364,7 @@ class TypeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests transform()
+     * Test transform()
      *
      * @return void
      */
@@ -381,7 +381,7 @@ class TypeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests transform()
+     * Test transform()
      *
      * @return void
      */
@@ -398,7 +398,7 @@ class TypeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests transform()
+     * Test transform()
      *
      * @return void
      */

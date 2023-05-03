@@ -23,7 +23,7 @@ use WBW\Library\Core\Tests\Fixtures\Model\TestNode;
 class AbstractNodeTest extends AbstractTestCase {
 
     /**
-     * Tests clearNode()
+     * Test clearNode()
      *
      * @return void
      */
@@ -40,7 +40,7 @@ class AbstractNodeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests getFirstNode()
+     * Test getFirstNode()
      *
      * @return void
      */
@@ -56,7 +56,7 @@ class AbstractNodeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests getLastNode()
+     * Test getLastNode()
      *
      * @return void
      */
@@ -72,7 +72,7 @@ class AbstractNodeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests getNodeAt()
+     * Test getNodeAt()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class AbstractNodeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests getNodeById()
+     * Test getNodeById()
      *
      * @return void
      */
@@ -111,7 +111,7 @@ class AbstractNodeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests removeNode()
+     * Test removeNode()
      *
      * @return void
      */
@@ -130,7 +130,7 @@ class AbstractNodeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setParent()
+     * Test setParent()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class AbstractNodeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests size()
+     * Test size()
      *
      * @return void
      */
@@ -164,7 +164,7 @@ class AbstractNodeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

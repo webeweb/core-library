@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class SpectaclesTest extends AbstractTestCase {
 
     /**
-     * Tests setDtDebut()
+     * Test setDtDebut()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -42,7 +42,7 @@ class SpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtFin()
+     * Test setDtFin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -59,7 +59,7 @@ class SpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntitule()
+     * Test setIntitule()
      *
      * @return void
      */
@@ -72,7 +72,7 @@ class SpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumObjet()
+     * Test setNumObjet()
      *
      * @return void
      */
@@ -85,7 +85,7 @@ class SpectaclesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ChantiersReclamationsTest extends AbstractTestCase {
 
     /**
-     * Tests setAlerte()
+     * Test setAlerte()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class ChantiersReclamationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setArchivee()
+     * Test setArchivee()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class ChantiersReclamationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class ChantiersReclamationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantier()
+     * Test setCodeChantier()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class ChantiersReclamationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class ChantiersReclamationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaborateur()
+     * Test setCodeCollaborateur()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class ChantiersReclamationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCritereListe1()
+     * Test setCritereListe1()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class ChantiersReclamationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCritereListe2()
+     * Test setCritereListe2()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class ChantiersReclamationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDebutDoc()
+     * Test setDateDebutDoc()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -146,7 +146,7 @@ class ChantiersReclamationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFinDoc()
+     * Test setDateFinDoc()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -163,7 +163,7 @@ class ChantiersReclamationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateReclam()
+     * Test setDateReclam()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -180,7 +180,7 @@ class ChantiersReclamationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateTraitement()
+     * Test setDateTraitement()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -197,7 +197,7 @@ class ChantiersReclamationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNiveau()
+     * Test setNiveau()
      *
      * @return void
      */
@@ -210,7 +210,7 @@ class ChantiersReclamationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNiveauReclam()
+     * Test setNiveauReclam()
      *
      * @return void
      */
@@ -223,7 +223,7 @@ class ChantiersReclamationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroPj()
+     * Test setNumeroPj()
      *
      * @return void
      */
@@ -236,7 +236,7 @@ class ChantiersReclamationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroReclam()
+     * Test setNumeroReclam()
      *
      * @return void
      */
@@ -249,7 +249,7 @@ class ChantiersReclamationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setReclamation()
+     * Test setReclamation()
      *
      * @return void
      */
@@ -262,7 +262,7 @@ class ChantiersReclamationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setResultat()
+     * Test setResultat()
      *
      * @return void
      */
@@ -275,7 +275,7 @@ class ChantiersReclamationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeReclam()
+     * Test setTypeReclam()
      *
      * @return void
      */
@@ -288,7 +288,7 @@ class ChantiersReclamationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

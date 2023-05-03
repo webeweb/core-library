@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringShortLabelTrait;
 class StringShortLabelTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setShortLabel()
+     * Test setShortLabel()
      *
      * @return void
      */

@@ -44,7 +44,7 @@ class ImageTest extends AbstractTestCase {
     }
 
     /**
-     * Tests base64Encode()
+     * Test base64Encode()
      *
      * @return void
      */
@@ -58,7 +58,7 @@ class ImageTest extends AbstractTestCase {
     }
 
     /**
-     * Tests init()
+     * Test init()
      *
      * @return void
      */
@@ -79,7 +79,7 @@ class ImageTest extends AbstractTestCase {
     }
 
     /**
-     * Tests resize()
+     * Test resize()
      *
      * @return void
      */
@@ -97,7 +97,7 @@ class ImageTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */
@@ -119,7 +119,7 @@ class ImageTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

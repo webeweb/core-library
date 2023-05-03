@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringEntityTrait;
 class StringEntityTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setEntity()
+     * Test setEntity()
      *
      * @return void
      */

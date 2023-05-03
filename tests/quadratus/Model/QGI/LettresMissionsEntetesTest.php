@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LettresMissionsEntetesTest extends AbstractTestCase {
 
     /**
-     * Tests setCa()
+     * Test setCa()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRegroupement()
+     * Test setCodeRegroupement()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setComment1()
+     * Test setComment1()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setComment2()
+     * Test setComment2()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setComment3()
+     * Test setComment3()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setComment4()
+     * Test setComment4()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setComment5()
+     * Test setComment5()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setComment6()
+     * Test setComment6()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setComment7()
+     * Test setComment7()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateEntretien()
+     * Test setDateEntretien()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -172,7 +172,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateSignature()
+     * Test setDateSignature()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -189,7 +189,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDebutMission()
+     * Test setDebutMission()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -206,7 +206,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtat()
+     * Test setEtat()
      *
      * @return void
      */
@@ -219,7 +219,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExerciceCourant()
+     * Test setExerciceCourant()
      *
      * @return void
      */
@@ -232,7 +232,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFinMission()
+     * Test setFinMission()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -249,7 +249,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHonoPrev()
+     * Test setHonoPrev()
      *
      * @return void
      */
@@ -262,7 +262,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle1()
+     * Test setLibelle1()
      *
      * @return void
      */
@@ -275,7 +275,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle2()
+     * Test setLibelle2()
      *
      * @return void
      */
@@ -288,7 +288,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle3()
+     * Test setLibelle3()
      *
      * @return void
      */
@@ -301,7 +301,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle4()
+     * Test setLibelle4()
      *
      * @return void
      */
@@ -314,7 +314,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle5()
+     * Test setLibelle5()
      *
      * @return void
      */
@@ -327,7 +327,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle6()
+     * Test setLibelle6()
      *
      * @return void
      */
@@ -340,7 +340,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle7()
+     * Test setLibelle7()
      *
      * @return void
      */
@@ -353,7 +353,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbDeplacements()
+     * Test setNbDeplacements()
      *
      * @return void
      */
@@ -366,7 +366,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbrActes()
+     * Test setNbrActes()
      *
      * @return void
      */
@@ -379,7 +379,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbrBulletins()
+     * Test setNbrBulletins()
      *
      * @return void
      */
@@ -392,7 +392,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbrEcrituresBq()
+     * Test setNbrEcrituresBq()
      *
      * @return void
      */
@@ -405,7 +405,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbrEcrituresDepenses()
+     * Test setNbrEcrituresDepenses()
      *
      * @return void
      */
@@ -418,7 +418,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbrEcrituresOd()
+     * Test setNbrEcrituresOd()
      *
      * @return void
      */
@@ -431,7 +431,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbrEcrituresRecettes()
+     * Test setNbrEcrituresRecettes()
      *
      * @return void
      */
@@ -444,7 +444,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbrEmployes()
+     * Test setNbrEmployes()
      *
      * @return void
      */
@@ -457,7 +457,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroLettre()
+     * Test setNumeroLettre()
      *
      * @return void
      */
@@ -470,7 +470,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPolice1()
+     * Test setPolice1()
      *
      * @return void
      */
@@ -483,7 +483,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPolice2()
+     * Test setPolice2()
      *
      * @return void
      */
@@ -496,7 +496,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPolice3()
+     * Test setPolice3()
      *
      * @return void
      */
@@ -509,7 +509,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPremierExercice()
+     * Test setPremierExercice()
      *
      * @return void
      */
@@ -522,7 +522,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrix1()
+     * Test setPrix1()
      *
      * @return void
      */
@@ -535,7 +535,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrix2()
+     * Test setPrix2()
      *
      * @return void
      */
@@ -548,7 +548,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrix3()
+     * Test setPrix3()
      *
      * @return void
      */
@@ -561,7 +561,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrix4()
+     * Test setPrix4()
      *
      * @return void
      */
@@ -574,7 +574,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrix5()
+     * Test setPrix5()
      *
      * @return void
      */
@@ -587,7 +587,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrix6()
+     * Test setPrix6()
      *
      * @return void
      */
@@ -600,7 +600,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrix7()
+     * Test setPrix7()
      *
      * @return void
      */
@@ -613,7 +613,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeActionnairesAssocies()
+     * Test setTypeActionnairesAssocies()
      *
      * @return void
      */
@@ -626,7 +626,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeCa()
+     * Test setTypeCa()
      *
      * @return void
      */
@@ -639,7 +639,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeMission()
+     * Test setTypeMission()
      *
      * @return void
      */
@@ -652,7 +652,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeSystemeInfo()
+     * Test setTypeSystemeInfo()
      *
      * @return void
      */
@@ -665,7 +665,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeVolume()
+     * Test setTypeVolume()
      *
      * @return void
      */
@@ -678,7 +678,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

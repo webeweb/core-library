@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ActionsCoSuiviTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeAction()
+     * Test setCodeAction()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ActionsCoSuiviTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ActionsCoSuiviTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeManif()
+     * Test setCodeManif()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ActionsCoSuiviTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setConfirmes()
+     * Test setConfirmes()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ActionsCoSuiviTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setContrat()
+     * Test setContrat()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ActionsCoSuiviTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setInscrits()
+     * Test setInscrits()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class ActionsCoSuiviTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumInterlocuteur()
+     * Test setNumInterlocuteur()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class ActionsCoSuiviTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumSeance()
+     * Test setNumSeance()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class ActionsCoSuiviTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPresents()
+     * Test setPresents()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class ActionsCoSuiviTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPriseRdv()
+     * Test setPriseRdv()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class ActionsCoSuiviTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeInvite()
+     * Test setTypeInvite()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class ActionsCoSuiviTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

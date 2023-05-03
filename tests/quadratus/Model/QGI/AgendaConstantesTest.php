@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AgendaConstantesTest extends AbstractTestCase {
 
     /**
-     * Tests setArchivagePermanent()
+     * Test setArchivagePermanent()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeActivite7()
+     * Test setCodeActivite7()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeActivite8()
+     * Test setCodeActivite8()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeActivite9()
+     * Test setCodeActivite9()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCouleurActivite1()
+     * Test setCouleurActivite1()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCouleurActivite10()
+     * Test setCouleurActivite10()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCouleurActivite11()
+     * Test setCouleurActivite11()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCouleurActivite2()
+     * Test setCouleurActivite2()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCouleurActivite3()
+     * Test setCouleurActivite3()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCouleurActivite4()
+     * Test setCouleurActivite4()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCouleurActivite5()
+     * Test setCouleurActivite5()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCouleurActivite6()
+     * Test setCouleurActivite6()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCouleurActivite7()
+     * Test setCouleurActivite7()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCouleurActivite8()
+     * Test setCouleurActivite8()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCouleurActivite9()
+     * Test setCouleurActivite9()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCouleurCalendrier()
+     * Test setCouleurCalendrier()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCouleurDimJFeries()
+     * Test setCouleurDimJFeries()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDisabledActivityLabelOnFirstRow()
+     * Test setDisabledActivityLabelOnFirstRow()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDossierFactPme()
+     * Test setDossierFactPme()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHeureDebut()
+     * Test setHeureDebut()
      *
      * @return void
      */
@@ -283,7 +283,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHeureFin()
+     * Test setHeureFin()
      *
      * @return void
      */
@@ -296,7 +296,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelleActivite7()
+     * Test setLibelleActivite7()
      *
      * @return void
      */
@@ -309,7 +309,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelleActivite8()
+     * Test setLibelleActivite8()
      *
      * @return void
      */
@@ -322,7 +322,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelleActivite9()
+     * Test setLibelleActivite9()
      *
      * @return void
      */
@@ -335,7 +335,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMultiDossiers()
+     * Test setMultiDossiers()
      *
      * @return void
      */
@@ -348,7 +348,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTextColorActivite1()
+     * Test setTextColorActivite1()
      *
      * @return void
      */
@@ -361,7 +361,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTextColorActivite10()
+     * Test setTextColorActivite10()
      *
      * @return void
      */
@@ -374,7 +374,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTextColorActivite11()
+     * Test setTextColorActivite11()
      *
      * @return void
      */
@@ -387,7 +387,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTextColorActivite2()
+     * Test setTextColorActivite2()
      *
      * @return void
      */
@@ -400,7 +400,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTextColorActivite3()
+     * Test setTextColorActivite3()
      *
      * @return void
      */
@@ -413,7 +413,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTextColorActivite4()
+     * Test setTextColorActivite4()
      *
      * @return void
      */
@@ -426,7 +426,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTextColorActivite5()
+     * Test setTextColorActivite5()
      *
      * @return void
      */
@@ -439,7 +439,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTextColorActivite6()
+     * Test setTextColorActivite6()
      *
      * @return void
      */
@@ -452,7 +452,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTextColorActivite7()
+     * Test setTextColorActivite7()
      *
      * @return void
      */
@@ -465,7 +465,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTextColorActivite8()
+     * Test setTextColorActivite8()
      *
      * @return void
      */
@@ -478,7 +478,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTextColorActivite9()
+     * Test setTextColorActivite9()
      *
      * @return void
      */
@@ -491,7 +491,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTextColorDimJFeries()
+     * Test setTextColorDimJFeries()
      *
      * @return void
      */
@@ -504,7 +504,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUseNewGpeParam()
+     * Test setUseNewGpeParam()
      *
      * @return void
      */
@@ -517,7 +517,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setWeekMode()
+     * Test setWeekMode()
      *
      * @return void
      */
@@ -530,7 +530,7 @@ class AgendaConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

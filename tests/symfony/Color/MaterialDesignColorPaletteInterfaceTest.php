@@ -23,7 +23,7 @@ use WBW\Library\Symfony\Tests\AbstractTestCase;
 class MaterialDesignColorPaletteInterfaceTest extends AbstractTestCase {
 
     /**
-     * Tests the __construct() mmethod.
+     * Test __construct() mmethod.
      *
      * @return void
      */

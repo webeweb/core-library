@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ImmobilisationsTest extends AbstractTestCase {
 
     /**
-     * Tests setAdAmortAnterieur()
+     * Test setAdAmortAnterieur()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdAmortAnterieur2()
+     * Test setAdAmortAnterieur2()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdAnneesAmort()
+     * Test setAdAnneesAmort()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdCoeffDegressif()
+     * Test setAdCoeffDegressif()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdDeductionAmortAnterieur()
+     * Test setAdDeductionAmortAnterieur()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdDeductionDotation()
+     * Test setAdDeductionDotation()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdDotation()
+     * Test setAdDotation()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdDotation2()
+     * Test setAdDotation2()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdDotationExcept()
+     * Test setAdDotationExcept()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdDuree()
+     * Test setAdDuree()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdDureeTot()
+     * Test setAdDureeTot()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdGarderDotSaisie()
+     * Test setAdGarderDotSaisie()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdQuantite()
+     * Test setAdQuantite()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdTauxLineaire()
+     * Test setAdTauxLineaire()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdType()
+     * Test setAdType()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAfAmortAnterieur()
+     * Test setAfAmortAnterieur()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAfAnneesAmort()
+     * Test setAfAnneesAmort()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAfCoeffDegressif()
+     * Test setAfCoeffDegressif()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAfDotation()
+     * Test setAfDotation()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAfDuree()
+     * Test setAfDuree()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAfTauxExcept()
+     * Test setAfTauxExcept()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAfTauxLineaire()
+     * Test setAfTauxLineaire()
      *
      * @return void
      */
@@ -311,7 +311,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAfType()
+     * Test setAfType()
      *
      * @return void
      */
@@ -324,7 +324,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAfsii()
+     * Test setAfsii()
      *
      * @return void
      */
@@ -337,7 +337,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setArt151DureeDejaEtalee()
+     * Test setArt151DureeDejaEtalee()
      *
      * @return void
      */
@@ -350,7 +350,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setArt151DureeEtalement()
+     * Test setArt151DureeEtalement()
      *
      * @return void
      */
@@ -363,7 +363,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setArt151MontantDejaEtale()
+     * Test setArt151MontantDejaEtale()
      *
      * @return void
      */
@@ -376,7 +376,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setArt151MontantEtaleAnnee()
+     * Test setArt151MontantEtaleAnnee()
      *
      * @return void
      */
@@ -389,7 +389,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBaseCalcul()
+     * Test setBaseCalcul()
      *
      * @return void
      */
@@ -402,7 +402,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBaseTaxePro()
+     * Test setBaseTaxePro()
      *
      * @return void
      */
@@ -415,7 +415,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBureau()
+     * Test setBureau()
      *
      * @return void
      */
@@ -428,7 +428,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCTauxImp()
+     * Test setCTauxImp()
      *
      * @return void
      */
@@ -441,7 +441,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCValeurEuros()
+     * Test setCValeurEuros()
      *
      * @return void
      */
@@ -454,7 +454,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCentreAnalytique()
+     * Test setCentreAnalytique()
      *
      * @return void
      */
@@ -467,7 +467,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTva()
+     * Test setCodeTva()
      *
      * @return void
      */
@@ -480,7 +480,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteFrn()
+     * Test setCompteFrn()
      *
      * @return void
      */
@@ -493,7 +493,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCrIsDot()
+     * Test setCrIsDot()
      *
      * @return void
      */
@@ -506,7 +506,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCrr151Motif()
+     * Test setCrr151Motif()
      *
      * @return void
      */
@@ -519,7 +519,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCrr151PmValueCt()
+     * Test setCrr151PmValueCt()
      *
      * @return void
      */
@@ -532,7 +532,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCrr151PmValueLt()
+     * Test setCrr151PmValueLt()
      *
      * @return void
      */
@@ -545,7 +545,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCrrDate()
+     * Test setCrrDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -562,7 +562,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCrrPxCessionHt()
+     * Test setCrrPxCessionHt()
      *
      * @return void
      */
@@ -575,7 +575,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCrrQteVendue()
+     * Test setCrrQteVendue()
      *
      * @return void
      */
@@ -588,7 +588,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCrrSupplAmort()
+     * Test setCrrSupplAmort()
      *
      * @return void
      */
@@ -601,7 +601,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCrrSupplValeur()
+     * Test setCrrSupplValeur()
      *
      * @return void
      */
@@ -614,7 +614,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCrrType()
+     * Test setCrrType()
      *
      * @return void
      */
@@ -627,7 +627,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCrrpmValueCt()
+     * Test setCrrpmValueCt()
      *
      * @return void
      */
@@ -640,7 +640,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCrrpmValueCtf()
+     * Test setCrrpmValueCtf()
      *
      * @return void
      */
@@ -653,7 +653,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCrrpmValueLt()
+     * Test setCrrpmValueLt()
      *
      * @return void
      */
@@ -666,7 +666,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCrrpmValueLtf()
+     * Test setCrrpmValueLtf()
      *
      * @return void
      */
@@ -679,7 +679,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateAcqForfait()
+     * Test setDateAcqForfait()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -696,7 +696,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateAcquisition()
+     * Test setDateAcquisition()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -713,7 +713,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateMiseService()
+     * Test setDateMiseService()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -730,7 +730,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateReeval()
+     * Test setDateReeval()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -747,7 +747,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDin()
+     * Test setDin()
      *
      * @return void
      */
@@ -760,7 +760,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtat()
+     * Test setEtat()
      *
      * @return void
      */
@@ -773,7 +773,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFamille()
+     * Test setFamille()
      *
      * @return void
      */
@@ -786,7 +786,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGuidVehicule()
+     * Test setGuidVehicule()
      *
      * @return void
      */
@@ -799,7 +799,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -812,7 +812,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelleFrn()
+     * Test setLibelleFrn()
      *
      * @return void
      */
@@ -825,7 +825,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelleQuantite()
+     * Test setLibelleQuantite()
      *
      * @return void
      */
@@ -838,7 +838,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLimiteAmort()
+     * Test setLimiteAmort()
      *
      * @return void
      */
@@ -851,7 +851,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMajoration()
+     * Test setMajoration()
      *
      * @return void
      */
@@ -864,7 +864,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMateriauxAgricole()
+     * Test setMateriauxAgricole()
      *
      * @return void
      */
@@ -877,7 +877,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantTva()
+     * Test setMontantTva()
      *
      * @return void
      */
@@ -890,7 +890,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNatureAnalytique()
+     * Test setNatureAnalytique()
      *
      * @return void
      */
@@ -903,7 +903,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbMoisMajoration()
+     * Test setNbMoisMajoration()
      *
      * @return void
      */
@@ -916,7 +916,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumCptTransDot()
+     * Test setNumCptTransDot()
      *
      * @return void
      */
@@ -929,7 +929,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumDossOrg()
+     * Test setNumDossOrg()
      *
      * @return void
      */
@@ -942,7 +942,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumEnsRealloc()
+     * Test setNumEnsRealloc()
      *
      * @return void
      */
@@ -955,7 +955,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumEnsemble()
+     * Test setNumEnsemble()
      *
      * @return void
      */
@@ -968,7 +968,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumero()
+     * Test setNumero()
      *
      * @return void
      */
@@ -981,7 +981,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroCompte()
+     * Test setNumeroCompte()
      *
      * @return void
      */
@@ -994,7 +994,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroDeux()
+     * Test setNumeroDeux()
      *
      * @return void
      */
@@ -1007,7 +1007,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroPj()
+     * Test setNumeroPj()
      *
      * @return void
      */
@@ -1020,7 +1020,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPilotage()
+     * Test setPilotage()
      *
      * @return void
      */
@@ -1033,7 +1033,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQuantite()
+     * Test setQuantite()
      *
      * @return void
      */
@@ -1046,7 +1046,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setService()
+     * Test setService()
      *
      * @return void
      */
@@ -1059,7 +1059,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSite()
+     * Test setSite()
      *
      * @return void
      */
@@ -1072,7 +1072,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxTva()
+     * Test setTauxTva()
      *
      * @return void
      */
@@ -1085,7 +1085,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTaxeFonciere()
+     * Test setTaxeFonciere()
      *
      * @return void
      */
@@ -1098,7 +1098,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTaxePro()
+     * Test setTaxePro()
      *
      * @return void
      */
@@ -1111,7 +1111,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTpDateOrigine()
+     * Test setTpDateOrigine()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1128,7 +1128,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setVDate()
+     * Test setVDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1145,7 +1145,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setVNumero()
+     * Test setVNumero()
      *
      * @return void
      */
@@ -1158,7 +1158,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setVNumeroCompte()
+     * Test setVNumeroCompte()
      *
      * @return void
      */
@@ -1171,7 +1171,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setVNumeroCompteIni()
+     * Test setVNumeroCompteIni()
      *
      * @return void
      */
@@ -1184,7 +1184,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setVNumeroDeux()
+     * Test setVNumeroDeux()
      *
      * @return void
      */
@@ -1197,7 +1197,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setVNumeroDeuxIni()
+     * Test setVNumeroDeuxIni()
      *
      * @return void
      */
@@ -1210,7 +1210,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setVNumeroIni()
+     * Test setVNumeroIni()
      *
      * @return void
      */
@@ -1223,7 +1223,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValeurAcqForfait()
+     * Test setValeurAcqForfait()
      *
      * @return void
      */
@@ -1236,7 +1236,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValeurBaseAmortissement()
+     * Test setValeurBaseAmortissement()
      *
      * @return void
      */
@@ -1249,7 +1249,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValeurDeduction()
+     * Test setValeurDeduction()
      *
      * @return void
      */
@@ -1262,7 +1262,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValeurHt()
+     * Test setValeurHt()
      *
      * @return void
      */
@@ -1275,7 +1275,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValeurHtOrigine()
+     * Test setValeurHtOrigine()
      *
      * @return void
      */
@@ -1288,7 +1288,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setVncRealloc()
+     * Test setVncRealloc()
      *
      * @return void
      */
@@ -1301,7 +1301,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZoneLibre1()
+     * Test setZoneLibre1()
      *
      * @return void
      */
@@ -1314,7 +1314,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZoneLibre2()
+     * Test setZoneLibre2()
      *
      * @return void
      */
@@ -1327,7 +1327,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZoneLibre3()
+     * Test setZoneLibre3()
      *
      * @return void
      */
@@ -1340,7 +1340,7 @@ class ImmobilisationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

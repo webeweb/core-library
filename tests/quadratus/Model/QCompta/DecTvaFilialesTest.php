@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DecTvaFilialesTest extends AbstractTestCase {
 
     /**
-     * Tests setBtq()
+     * Test setBtq()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class DecTvaFilialesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePostal()
+     * Test setCodePostal()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class DecTvaFilialesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setComplement()
+     * Test setComplement()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class DecTvaFilialesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCptFiliale()
+     * Test setCptFiliale()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class DecTvaFilialesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateEntree()
+     * Test setDateEntree()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -94,7 +94,7 @@ class DecTvaFilialesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateSortie()
+     * Test setDateSortie()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -111,7 +111,7 @@ class DecTvaFilialesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDetentionDirecte()
+     * Test setDetentionDirecte()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class DecTvaFilialesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDetentionIndirecte()
+     * Test setDetentionIndirecte()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class DecTvaFilialesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFormeJuridique()
+     * Test setFormeJuridique()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class DecTvaFilialesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibDoss()
+     * Test setLibDoss()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class DecTvaFilialesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoDoss()
+     * Test setNoDoss()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class DecTvaFilialesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomVoie()
+     * Test setNomVoie()
      *
      * @return void
      */
@@ -189,7 +189,7 @@ class DecTvaFilialesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumUniq()
+     * Test setNumUniq()
      *
      * @return void
      */
@@ -202,7 +202,7 @@ class DecTvaFilialesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumVoie()
+     * Test setNumVoie()
      *
      * @return void
      */
@@ -215,7 +215,7 @@ class DecTvaFilialesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSiren()
+     * Test setSiren()
      *
      * @return void
      */
@@ -228,7 +228,7 @@ class DecTvaFilialesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setVille()
+     * Test setVille()
      *
      * @return void
      */
@@ -241,7 +241,7 @@ class DecTvaFilialesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -24,7 +24,7 @@ use WBW\Library\OcrLad\Tests\AbstractTestCase;
 class WordHelperTest extends AbstractTestCase {
 
     /**
-     * Tests implodeWords()
+     * Test implodeWords()
      *
      * @return void
      */

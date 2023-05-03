@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EmpDadsuCalculTest extends AbstractTestCase {
 
     /**
-     * Tests setAnciennBtp()
+     * Test setAnciennBtp()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -42,7 +42,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAnneeSommeIsol()
+     * Test setAnneeSommeIsol()
      *
      * @return void
      */
@@ -55,7 +55,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAnneeSommeIsol2()
+     * Test setAnneeSommeIsol2()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAnneeSommeIsol3()
+     * Test setAnneeSommeIsol3()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAnneeSommeIsol4()
+     * Test setAnneeSommeIsol4()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAnneeSommeIsol5()
+     * Test setAnneeSommeIsol5()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBaseBruteCotCcpbtp()
+     * Test setBaseBruteCotCcpbtp()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBaseBruteCotOppbtp()
+     * Test setBaseBruteCotOppbtp()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBaseBruteCpbtp()
+     * Test setBaseBruteCpbtp()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBenefAssedic()
+     * Test setBenefAssedic()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBrutIrcantec()
+     * Test setBrutIrcantec()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBtpSalMoyen()
+     * Test setBtpSalMoyen()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClassBtp()
+     * Test setCodeClassBtp()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeDureeTrav()
+     * Test setCodeDureeTrav()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEtablissement()
+     * Test setCodeEtablissement()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeLibBPlaf()
+     * Test setCodeLibBPlaf()
      *
      * @return void
      */
@@ -237,7 +237,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeLibBPlaf2()
+     * Test setCodeLibBPlaf2()
      *
      * @return void
      */
@@ -250,7 +250,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeLibBPlaf3()
+     * Test setCodeLibBPlaf3()
      *
      * @return void
      */
@@ -263,7 +263,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeLibBPlaf4()
+     * Test setCodeLibBPlaf4()
      *
      * @return void
      */
@@ -276,7 +276,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeLibBPlaf5()
+     * Test setCodeLibBPlaf5()
      *
      * @return void
      */
@@ -289,7 +289,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeLibBrut()
+     * Test setCodeLibBrut()
      *
      * @return void
      */
@@ -302,7 +302,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeLibBrut2()
+     * Test setCodeLibBrut2()
      *
      * @return void
      */
@@ -315,7 +315,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeLibBrut3()
+     * Test setCodeLibBrut3()
      *
      * @return void
      */
@@ -328,7 +328,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeLibBrut4()
+     * Test setCodeLibBrut4()
      *
      * @return void
      */
@@ -341,7 +341,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeLibBrut5()
+     * Test setCodeLibBrut5()
      *
      * @return void
      */
@@ -354,7 +354,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeLibCsg()
+     * Test setCodeLibCsg()
      *
      * @return void
      */
@@ -367,7 +367,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeLibIrc1()
+     * Test setCodeLibIrc1()
      *
      * @return void
      */
@@ -380,7 +380,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeLibIrc2()
+     * Test setCodeLibIrc2()
      *
      * @return void
      */
@@ -393,7 +393,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeLibIrc3()
+     * Test setCodeLibIrc3()
      *
      * @return void
      */
@@ -406,7 +406,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeLibSomme()
+     * Test setCodeLibSomme()
      *
      * @return void
      */
@@ -419,7 +419,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeLibSomme2()
+     * Test setCodeLibSomme2()
      *
      * @return void
      */
@@ -432,7 +432,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeLibSomme3()
+     * Test setCodeLibSomme3()
      *
      * @return void
      */
@@ -445,7 +445,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeLibSomme4()
+     * Test setCodeLibSomme4()
      *
      * @return void
      */
@@ -458,7 +458,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeLibSomme5()
+     * Test setCodeLibSomme5()
      *
      * @return void
      */
@@ -471,7 +471,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeMetierBtp()
+     * Test setCodeMetierBtp()
      *
      * @return void
      */
@@ -484,7 +484,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTypeBPlaf()
+     * Test setCodeTypeBPlaf()
      *
      * @return void
      */
@@ -497,7 +497,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTypeBPlaf2()
+     * Test setCodeTypeBPlaf2()
      *
      * @return void
      */
@@ -510,7 +510,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTypeBPlaf3()
+     * Test setCodeTypeBPlaf3()
      *
      * @return void
      */
@@ -523,7 +523,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTypeBPlaf4()
+     * Test setCodeTypeBPlaf4()
      *
      * @return void
      */
@@ -536,7 +536,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTypeBPlaf5()
+     * Test setCodeTypeBPlaf5()
      *
      * @return void
      */
@@ -549,7 +549,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTypeBrut()
+     * Test setCodeTypeBrut()
      *
      * @return void
      */
@@ -562,7 +562,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTypeBrut2()
+     * Test setCodeTypeBrut2()
      *
      * @return void
      */
@@ -575,7 +575,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTypeBrut3()
+     * Test setCodeTypeBrut3()
      *
      * @return void
      */
@@ -588,7 +588,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTypeBrut4()
+     * Test setCodeTypeBrut4()
      *
      * @return void
      */
@@ -601,7 +601,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTypeBrut5()
+     * Test setCodeTypeBrut5()
      *
      * @return void
      */
@@ -614,7 +614,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTypeSomme()
+     * Test setCodeTypeSomme()
      *
      * @return void
      */
@@ -627,7 +627,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTypeSomme2()
+     * Test setCodeTypeSomme2()
      *
      * @return void
      */
@@ -640,7 +640,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTypeSomme3()
+     * Test setCodeTypeSomme3()
      *
      * @return void
      */
@@ -653,7 +653,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTypeSomme4()
+     * Test setCodeTypeSomme4()
      *
      * @return void
      */
@@ -666,7 +666,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTypeSomme5()
+     * Test setCodeTypeSomme5()
      *
      * @return void
      */
@@ -679,7 +679,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCsgSpecif()
+     * Test setCsgSpecif()
      *
      * @return void
      */
@@ -692,7 +692,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDureeTrav()
+     * Test setDureeTrav()
      *
      * @return void
      */
@@ -705,7 +705,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExoHCode1()
+     * Test setExoHCode1()
      *
      * @return void
      */
@@ -718,7 +718,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExoHCode2()
+     * Test setExoHCode2()
      *
      * @return void
      */
@@ -731,7 +731,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExoHCode3()
+     * Test setExoHCode3()
      *
      * @return void
      */
@@ -744,7 +744,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExoHCode4()
+     * Test setExoHCode4()
      *
      * @return void
      */
@@ -757,7 +757,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExoHCode5()
+     * Test setExoHCode5()
      *
      * @return void
      */
@@ -770,7 +770,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExoHMnt1()
+     * Test setExoHMnt1()
      *
      * @return void
      */
@@ -783,7 +783,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExoHMnt2()
+     * Test setExoHMnt2()
      *
      * @return void
      */
@@ -796,7 +796,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExoHMnt3()
+     * Test setExoHMnt3()
      *
      * @return void
      */
@@ -809,7 +809,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExoHMnt4()
+     * Test setExoHMnt4()
      *
      * @return void
      */
@@ -822,7 +822,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExoHMnt5()
+     * Test setExoHMnt5()
      *
      * @return void
      */
@@ -835,7 +835,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExoHMntDeducCotPat1()
+     * Test setExoHMntDeducCotPat1()
      *
      * @return void
      */
@@ -848,7 +848,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExoHMntDeducCotPat2()
+     * Test setExoHMntDeducCotPat2()
      *
      * @return void
      */
@@ -861,7 +861,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExoHMntDeducCotPat3()
+     * Test setExoHMntDeducCotPat3()
      *
      * @return void
      */
@@ -874,7 +874,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExoHMntDeducCotPat4()
+     * Test setExoHMntDeducCotPat4()
      *
      * @return void
      */
@@ -887,7 +887,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExoHMntDeducCotPat5()
+     * Test setExoHMntDeducCotPat5()
      *
      * @return void
      */
@@ -900,7 +900,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExoHMntDeducCotPatTot()
+     * Test setExoHMntDeducCotPatTot()
      *
      * @return void
      */
@@ -913,7 +913,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExoHMntReducCotSal1()
+     * Test setExoHMntReducCotSal1()
      *
      * @return void
      */
@@ -926,7 +926,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExoHMntReducCotSal2()
+     * Test setExoHMntReducCotSal2()
      *
      * @return void
      */
@@ -939,7 +939,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExoHMntReducCotSal3()
+     * Test setExoHMntReducCotSal3()
      *
      * @return void
      */
@@ -952,7 +952,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExoHMntReducCotSal4()
+     * Test setExoHMntReducCotSal4()
      *
      * @return void
      */
@@ -965,7 +965,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExoHMntReducCotSal5()
+     * Test setExoHMntReducCotSal5()
      *
      * @return void
      */
@@ -978,7 +978,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExoHMntReducCotSalTot()
+     * Test setExoHMntReducCotSalTot()
      *
      * @return void
      */
@@ -991,7 +991,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExoHNbHj1()
+     * Test setExoHNbHj1()
      *
      * @return void
      */
@@ -1004,7 +1004,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExoHNbHj2()
+     * Test setExoHNbHj2()
      *
      * @return void
      */
@@ -1017,7 +1017,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExoHNbHj3()
+     * Test setExoHNbHj3()
      *
      * @return void
      */
@@ -1030,7 +1030,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExoHNbHj4()
+     * Test setExoHNbHj4()
      *
      * @return void
      */
@@ -1043,7 +1043,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExoHNbHj5()
+     * Test setExoHNbHj5()
      *
      * @return void
      */
@@ -1056,7 +1056,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFormaProBase()
+     * Test setFormaProBase()
      *
      * @return void
      */
@@ -1069,7 +1069,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFormaProBaseCdd()
+     * Test setFormaProBaseCdd()
      *
      * @return void
      */
@@ -1082,7 +1082,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndCp()
+     * Test setIndCp()
      *
      * @return void
      */
@@ -1095,7 +1095,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndIntemp()
+     * Test setIndIntemp()
      *
      * @return void
      */
@@ -1108,7 +1108,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantBPlaf()
+     * Test setMontantBPlaf()
      *
      * @return void
      */
@@ -1121,7 +1121,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantBPlaf2()
+     * Test setMontantBPlaf2()
      *
      * @return void
      */
@@ -1134,7 +1134,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantBPlaf3()
+     * Test setMontantBPlaf3()
      *
      * @return void
      */
@@ -1147,7 +1147,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantBPlaf4()
+     * Test setMontantBPlaf4()
      *
      * @return void
      */
@@ -1160,7 +1160,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantBPlaf5()
+     * Test setMontantBPlaf5()
      *
      * @return void
      */
@@ -1173,7 +1173,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantBrut()
+     * Test setMontantBrut()
      *
      * @return void
      */
@@ -1186,7 +1186,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantBrut2()
+     * Test setMontantBrut2()
      *
      * @return void
      */
@@ -1199,7 +1199,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantBrut3()
+     * Test setMontantBrut3()
      *
      * @return void
      */
@@ -1212,7 +1212,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantBrut4()
+     * Test setMontantBrut4()
      *
      * @return void
      */
@@ -1225,7 +1225,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantBrut5()
+     * Test setMontantBrut5()
      *
      * @return void
      */
@@ -1238,7 +1238,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantSommeIsolBrut()
+     * Test setMontantSommeIsolBrut()
      *
      * @return void
      */
@@ -1251,7 +1251,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantSommeIsolBrut2()
+     * Test setMontantSommeIsolBrut2()
      *
      * @return void
      */
@@ -1264,7 +1264,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantSommeIsolBrut3()
+     * Test setMontantSommeIsolBrut3()
      *
      * @return void
      */
@@ -1277,7 +1277,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantSommeIsolBrut4()
+     * Test setMontantSommeIsolBrut4()
      *
      * @return void
      */
@@ -1290,7 +1290,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantSommeIsolBrut5()
+     * Test setMontantSommeIsolBrut5()
      *
      * @return void
      */
@@ -1303,7 +1303,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantSommeIsolPlaf()
+     * Test setMontantSommeIsolPlaf()
      *
      * @return void
      */
@@ -1316,7 +1316,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantSommeIsolPlaf2()
+     * Test setMontantSommeIsolPlaf2()
      *
      * @return void
      */
@@ -1329,7 +1329,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantSommeIsolPlaf3()
+     * Test setMontantSommeIsolPlaf3()
      *
      * @return void
      */
@@ -1342,7 +1342,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantSommeIsolPlaf4()
+     * Test setMontantSommeIsolPlaf4()
      *
      * @return void
      */
@@ -1355,7 +1355,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantSommeIsolPlaf5()
+     * Test setMontantSommeIsolPlaf5()
      *
      * @return void
      */
@@ -1368,7 +1368,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtJRtt2007()
+     * Test setMtJRtt2007()
      *
      * @return void
      */
@@ -1381,7 +1381,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJRtt2007()
+     * Test setNbJRtt2007()
      *
      * @return void
      */
@@ -1394,7 +1394,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbPeriode()
+     * Test setNbPeriode()
      *
      * @return void
      */
@@ -1407,7 +1407,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbhChomPartiel()
+     * Test setNbhChomPartiel()
      *
      * @return void
      */
@@ -1420,7 +1420,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbhSemIrcantec()
+     * Test setNbhSemIrcantec()
      *
      * @return void
      */
@@ -1433,7 +1433,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumero()
+     * Test setNumero()
      *
      * @return void
      */
@@ -1446,7 +1446,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroOrdre()
+     * Test setNumeroOrdre()
      *
      * @return void
      */
@@ -1459,7 +1459,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPlafIrcantec()
+     * Test setPlafIrcantec()
      *
      * @return void
      */
@@ -1472,7 +1472,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQualifUniteTemps()
+     * Test setQualifUniteTemps()
      *
      * @return void
      */
@@ -1485,7 +1485,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSupplFam()
+     * Test setSupplFam()
      *
      * @return void
      */
@@ -1498,7 +1498,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTaxeApprentissageBase()
+     * Test setTaxeApprentissageBase()
      *
      * @return void
      */
@@ -1511,7 +1511,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTaxeSalaire()
+     * Test setTaxeSalaire()
      *
      * @return void
      */
@@ -1524,7 +1524,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrAIrcantec()
+     * Test setTrAIrcantec()
      *
      * @return void
      */
@@ -1537,7 +1537,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrBIrcantec()
+     * Test setTrBIrcantec()
      *
      * @return void
      */
@@ -1550,7 +1550,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

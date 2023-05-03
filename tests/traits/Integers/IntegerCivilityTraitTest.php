@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Integers\TestIntegerCivilityTrait;
 class IntegerCivilityTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setCivility()
+     * Test setCivility()
      *
      * @return void
      */

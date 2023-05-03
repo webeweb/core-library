@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ConstTabTvaAchatTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeTvaArticle()
+     * Test setCodeTvaArticle()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ConstTabTvaAchatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTvaFourn()
+     * Test setCodeTvaFourn()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ConstTabTvaAchatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteTva()
+     * Test setCompteTva()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ConstTabTvaAchatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ConstTabTvaAchatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxTva()
+     * Test setTauxTva()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ConstTabTvaAchatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

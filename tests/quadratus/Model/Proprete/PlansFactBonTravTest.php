@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class PlansFactBonTravTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeArticle()
+     * Test setCodeArticle()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantier()
+     * Test setCodeChantier()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRegroupement()
+     * Test setCodeRegroupement()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCoefficient()
+     * Test setCoefficient()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateBt()
+     * Test setDateBt()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDesignation()
+     * Test setDesignation()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDesignation2()
+     * Test setDesignation2()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDesignation3()
+     * Test setDesignation3()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDuree()
+     * Test setDuree()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndice()
+     * Test setIndice()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumBt()
+     * Test setNumBt()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPosteRent()
+     * Test setPosteRent()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrixAchat()
+     * Test setPrixAchat()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPxFacture()
+     * Test setPxFacture()
      *
      * @return void
      */
@@ -237,7 +237,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTaux()
+     * Test setTaux()
      *
      * @return void
      */
@@ -250,7 +250,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setVentilMarge()
+     * Test setVentilMarge()
      *
      * @return void
      */
@@ -263,7 +263,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\System\System;
 class SystemTest extends AbstractTestCase {
 
     /**
-     * Tests getCpu()
+     * Test getCpu()
      *
      * @return void
      */
@@ -44,7 +44,7 @@ class SystemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests getDate()
+     * Test getDate()
      *
      * @return void
      */
@@ -63,7 +63,7 @@ class SystemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests getHardDisks()
+     * Test getHardDisks()
      *
      * @return void
      */
@@ -82,7 +82,7 @@ class SystemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests getHostname()
+     * Test getHostname()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class SystemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests getMemory()
+     * Test getMemory()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class SystemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests getNetwork()
+     * Test getNetwork()
      *
      * @return void
      */
@@ -139,7 +139,7 @@ class SystemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests getNetworkCards()
+     * Test getNetworkCards()
      *
      * @return void
      */
@@ -158,7 +158,7 @@ class SystemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests getOperatingSystem()
+     * Test getOperatingSystem()
      *
      * @return void
      */
@@ -177,7 +177,7 @@ class SystemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests getProcessors()
+     * Test getProcessors()
      *
      * @return void
      */
@@ -196,7 +196,7 @@ class SystemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests getProperties()
+     * Test getProperties()
      *
      * @return void
      */
@@ -206,7 +206,7 @@ class SystemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests getProperty()
+     * Test getProperty()
      *
      * @return void
      */
@@ -217,7 +217,7 @@ class SystemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests getUptime()
+     * Test getUptime()
      *
      * @return void
      */
@@ -236,7 +236,7 @@ class SystemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests isUnix()
+     * Test isUnix()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class SystemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests isWindows()
+     * Test isWindows()
      *
      * @return void
      */

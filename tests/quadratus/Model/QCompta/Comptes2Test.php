@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class Comptes2Test extends AbstractTestCase {
 
     /**
-     * Tests setAffacturage()
+     * Test setAffacturage()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setBic()
+     * Test setBic()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setBtq()
+     * Test setBtq()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setBureauDistributeur()
+     * Test setBureauDistributeur()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeOfficielCommune()
+     * Test setCodeOfficielCommune()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePostal()
+     * Test setCodePostal()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setComplement()
+     * Test setComplement()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setComplementSuite()
+     * Test setComplementSuite()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setContrepartieAuto()
+     * Test setContrepartieAuto()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCptFourAffacturage()
+     * Test setCptFourAffacturage()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCptOrigine()
+     * Test setCptOrigine()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDomBanque()
+     * Test setDomBanque()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDomBanque2()
+     * Test setDomBanque2()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDomBanque3()
+     * Test setDomBanque3()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setEcheanceFinDecade()
+     * Test setEcheanceFinDecade()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setEcheanceFinQuinzaine()
+     * Test setEcheanceFinQuinzaine()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmail()
+     * Test setEmail()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setFax()
+     * Test setFax()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setIban()
+     * Test setIban()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setIbanCodeImputFrais()
+     * Test setIbanCodeImputFrais()
      *
      * @return void
      */
@@ -283,7 +283,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setIdentTva()
+     * Test setIdentTva()
      *
      * @return void
      */
@@ -296,7 +296,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setJourDepartEcheance()
+     * Test setJourDepartEcheance()
      *
      * @return void
      */
@@ -309,7 +309,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setModePaiement()
+     * Test setModePaiement()
      *
      * @return void
      */
@@ -322,7 +322,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJoursEcheance()
+     * Test setNbJoursEcheance()
      *
      * @return void
      */
@@ -335,7 +335,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNiveauRelance()
+     * Test setNiveauRelance()
      *
      * @return void
      */
@@ -348,7 +348,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomVille()
+     * Test setNomVille()
      *
      * @return void
      */
@@ -361,7 +361,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomVoie()
+     * Test setNomVoie()
      *
      * @return void
      */
@@ -374,7 +374,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumCptStock()
+     * Test setNumCptStock()
      *
      * @return void
      */
@@ -387,7 +387,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumMandat()
+     * Test setNumMandat()
      *
      * @return void
      */
@@ -400,7 +400,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumVoie()
+     * Test setNumVoie()
      *
      * @return void
      */
@@ -413,7 +413,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroCompte()
+     * Test setNumeroCompte()
      *
      * @return void
      */
@@ -426,7 +426,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setPays()
+     * Test setPays()
      *
      * @return void
      */
@@ -439,7 +439,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setProfession()
+     * Test setProfession()
      *
      * @return void
      */
@@ -452,7 +452,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setRib()
+     * Test setRib()
      *
      * @return void
      */
@@ -465,7 +465,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setRib2()
+     * Test setRib2()
      *
      * @return void
      */
@@ -478,7 +478,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setRib3()
+     * Test setRib3()
      *
      * @return void
      */
@@ -491,7 +491,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setSiret()
+     * Test setSiret()
      *
      * @return void
      */
@@ -504,7 +504,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setSuiviStock()
+     * Test setSuiviStock()
      *
      * @return void
      */
@@ -517,7 +517,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTel1()
+     * Test setTel1()
      *
      * @return void
      */
@@ -530,7 +530,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTel2()
+     * Test setTel2()
      *
      * @return void
      */
@@ -543,7 +543,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTermeEcheanceLe()
+     * Test setTermeEcheanceLe()
      *
      * @return void
      */
@@ -556,7 +556,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeSuivi()
+     * Test setTypeSuivi()
      *
      * @return void
      */
@@ -569,7 +569,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setZipCode()
+     * Test setZipCode()
      *
      * @return void
      */
@@ -582,7 +582,7 @@ class Comptes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

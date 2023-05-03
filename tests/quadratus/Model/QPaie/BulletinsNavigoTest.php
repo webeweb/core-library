@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class BulletinsNavigoTest extends AbstractTestCase {
 
     /**
-     * Tests setIndicePeriode()
+     * Test setIndicePeriode()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class BulletinsNavigoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbSemaine()
+     * Test setNbSemaine()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class BulletinsNavigoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmploye()
+     * Test setNumeroEmploye()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class BulletinsNavigoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class BulletinsNavigoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRbtNonProratise()
+     * Test setRbtNonProratise()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class BulletinsNavigoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeAbonnement()
+     * Test setTypeAbonnement()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class BulletinsNavigoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZone()
+     * Test setZone()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class BulletinsNavigoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class MissionsTest extends AbstractTestCase {
 
     /**
-     * Tests setArticle()
+     * Test setArticle()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class MissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBmCalcule()
+     * Test setBmCalcule()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class MissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCentreAnalytique()
+     * Test setCentreAnalytique()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class MissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCloture()
+     * Test setCloture()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class MissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setClotureContexte()
+     * Test setClotureContexte()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class MissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setClotureDate()
+     * Test setClotureDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -107,7 +107,7 @@ class MissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCloturePar()
+     * Test setCloturePar()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class MissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class MissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeMission()
+     * Test setCodeMission()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class MissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeMissionType()
+     * Test setCodeMissionType()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class MissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeResponsable()
+     * Test setCodeResponsable()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class MissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateCreation()
+     * Test setDateCreation()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -189,7 +189,7 @@ class MissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDebutTp()
+     * Test setDateDebutTp()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -206,7 +206,7 @@ class MissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFinTp()
+     * Test setDateFinTp()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -223,7 +223,7 @@ class MissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateModification()
+     * Test setDateModification()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -240,7 +240,7 @@ class MissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDecalageFermetureAuto()
+     * Test setDecalageFermetureAuto()
      *
      * @return void
      */
@@ -253,7 +253,7 @@ class MissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDecalageFermetureAutoJours()
+     * Test setDecalageFermetureAutoJours()
      *
      * @return void
      */
@@ -266,7 +266,7 @@ class MissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDecalageOuvertureAuto()
+     * Test setDecalageOuvertureAuto()
      *
      * @return void
      */
@@ -279,7 +279,7 @@ class MissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDescriptif()
+     * Test setDescriptif()
      *
      * @return void
      */
@@ -292,7 +292,7 @@ class MissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDescriptifRtf()
+     * Test setDescriptifRtf()
      *
      * @return void
      */
@@ -305,7 +305,7 @@ class MissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtFermetureAuto()
+     * Test setDtFermetureAuto()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -322,7 +322,7 @@ class MissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFermetureAuto()
+     * Test setFermetureAuto()
      *
      * @return void
      */
@@ -335,7 +335,7 @@ class MissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -348,7 +348,7 @@ class MissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMissionMillesime()
+     * Test setMissionMillesime()
      *
      * @return void
      */
@@ -361,7 +361,7 @@ class MissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMoisOuvertureAuto()
+     * Test setMoisOuvertureAuto()
      *
      * @return void
      */
@@ -374,7 +374,7 @@ class MissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOuvertureContexte()
+     * Test setOuvertureContexte()
      *
      * @return void
      */
@@ -387,7 +387,7 @@ class MissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOuvertureDate()
+     * Test setOuvertureDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -404,7 +404,7 @@ class MissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOuverturePar()
+     * Test setOuverturePar()
      *
      * @return void
      */
@@ -417,7 +417,7 @@ class MissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSociete()
+     * Test setSociete()
      *
      * @return void
      */
@@ -430,7 +430,7 @@ class MissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTpArchive()
+     * Test setTpArchive()
      *
      * @return void
      */
@@ -443,7 +443,7 @@ class MissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTpCloture()
+     * Test setTpCloture()
      *
      * @return void
      */
@@ -456,7 +456,7 @@ class MissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTransfertCentre()
+     * Test setTransfertCentre()
      *
      * @return void
      */
@@ -469,7 +469,7 @@ class MissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeCentre()
+     * Test setTypeCentre()
      *
      * @return void
      */
@@ -482,7 +482,7 @@ class MissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeResponsable()
+     * Test setTypeResponsable()
      *
      * @return void
      */
@@ -495,7 +495,7 @@ class MissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

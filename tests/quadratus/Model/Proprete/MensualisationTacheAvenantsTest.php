@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class MensualisationTacheAvenantsTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class MensualisationTacheAvenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantier()
+     * Test setCodeChantier()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class MensualisationTacheAvenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class MensualisationTacheAvenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEmploye()
+     * Test setCodeEmploye()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class MensualisationTacheAvenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTache()
+     * Test setCodeTache()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class MensualisationTacheAvenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHistoMensSaisi()
+     * Test setHistoMensSaisi()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class MensualisationTacheAvenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMensualisationCalculee()
+     * Test setMensualisationCalculee()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class MensualisationTacheAvenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMensualisationSaisie()
+     * Test setMensualisationSaisie()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class MensualisationTacheAvenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumBt()
+     * Test setNumBt()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class MensualisationTacheAvenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroAvenant()
+     * Test setNumeroAvenant()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class MensualisationTacheAvenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeDebutValidite()
+     * Test setPeriodeDebutValidite()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -172,7 +172,7 @@ class MensualisationTacheAvenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

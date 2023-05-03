@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ChantiersSynchroIdTest extends AbstractTestCase {
 
     /**
-     * Tests setBlocDa()
+     * Test setBlocDa()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ChantiersSynchroIdTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBlocFc()
+     * Test setBlocFc()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ChantiersSynchroIdTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ChantiersSynchroIdTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantier()
+     * Test setCodeChantier()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ChantiersSynchroIdTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ChantiersSynchroIdTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqId()
+     * Test setUniqId()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class ChantiersSynchroIdTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class InfosComplBulTest extends AbstractTestCase {
 
     /**
-     * Tests setActiveSalMinConv()
+     * Test setActiveSalMinConv()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setActiveSmic()
+     * Test setActiveSmic()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAenLogement()
+     * Test setAenLogement()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAllegParticulierEmp()
+     * Test setAllegParticulierEmp()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAnnexe7Mutation()
+     * Test setAnnexe7Mutation()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setArbitrageAuto()
+     * Test setArbitrageAuto()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAssietteAf()
+     * Test setAssietteAf()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAutreAllegEmp()
+     * Test setAutreAllegEmp()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBrutAlSansHSup()
+     * Test setBrutAlSansHSup()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBrutAlSansHSupMajoHe()
+     * Test setBrutAlSansHSupMajoHe()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBtq()
+     * Test setBtq()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBureauDistributeur()
+     * Test setBureauDistributeur()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCaisseCp()
+     * Test setCaisseCp()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCategPopulation()
+     * Test setCategPopulation()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCategSalarie()
+     * Test setCategSalarie()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCddcdi()
+     * Test setCddcdi()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCentreAnalytique()
+     * Test setCentreAnalytique()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setClassification()
+     * Test setClassification()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCaisseCp()
+     * Test setCodeCaisseCp()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCaract()
+     * Test setCodeCaract()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCategSalPourcentAbat()
+     * Test setCodeCategSalPourcentAbat()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClassBtp()
+     * Test setCodeClassBtp()
      *
      * @return void
      */
@@ -311,7 +311,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeContratTrav()
+     * Test setCodeContratTrav()
      *
      * @return void
      */
@@ -324,7 +324,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeConvention()
+     * Test setCodeConvention()
      *
      * @return void
      */
@@ -337,7 +337,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeConventionCol()
+     * Test setCodeConventionCol()
      *
      * @return void
      */
@@ -350,7 +350,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEmpRemplace()
+     * Test setCodeEmpRemplace()
      *
      * @return void
      */
@@ -363,7 +363,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeExoTrav()
+     * Test setCodeExoTrav()
      *
      * @return void
      */
@@ -376,7 +376,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeIntitContratTrav()
+     * Test setCodeIntitContratTrav()
      *
      * @return void
      */
@@ -389,7 +389,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeMetierBtp()
+     * Test setCodeMetierBtp()
      *
      * @return void
      */
@@ -402,7 +402,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeOfficielCommune()
+     * Test setCodeOfficielCommune()
      *
      * @return void
      */
@@ -415,7 +415,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePostal()
+     * Test setCodePostal()
      *
      * @return void
      */
@@ -428,7 +428,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRegimeAt()
+     * Test setCodeRegimeAt()
      *
      * @return void
      */
@@ -441,7 +441,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRegimeBaseObl()
+     * Test setCodeRegimeBaseObl()
      *
      * @return void
      */
@@ -454,7 +454,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRegimeVieillesse()
+     * Test setCodeRegimeVieillesse()
      *
      * @return void
      */
@@ -467,7 +467,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRetraiteComplementaire()
+     * Test setCodeRetraiteComplementaire()
      *
      * @return void
      */
@@ -480,7 +480,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeSituAdmin()
+     * Test setCodeSituAdmin()
      *
      * @return void
      */
@@ -493,7 +493,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeStatutCateg()
+     * Test setCodeStatutCateg()
      *
      * @return void
      */
@@ -506,7 +506,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeStatutCategRetraite()
+     * Test setCodeStatutCategRetraite()
      *
      * @return void
      */
@@ -519,7 +519,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeStatutPro()
+     * Test setCodeStatutPro()
      *
      * @return void
      */
@@ -532,7 +532,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTuteur()
+     * Test setCodeTuteur()
      *
      * @return void
      */
@@ -545,7 +545,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeUniteTempsTravail()
+     * Test setCodeUniteTempsTravail()
      *
      * @return void
      */
@@ -558,7 +558,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCoeffConvention()
+     * Test setCoeffConvention()
      *
      * @return void
      */
@@ -571,7 +571,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCoeffFillonMoins20()
+     * Test setCoeffFillonMoins20()
      *
      * @return void
      */
@@ -584,7 +584,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setComplement()
+     * Test setComplement()
      *
      * @return void
      */
@@ -597,7 +597,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setComplementPcs()
+     * Test setComplementPcs()
      *
      * @return void
      */
@@ -610,7 +610,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setContratCne()
+     * Test setContratCne()
      *
      * @return void
      */
@@ -623,7 +623,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBasePrevoyanceComp()
+     * Test setCumBasePrevoyanceComp()
      *
      * @return void
      */
@@ -636,7 +636,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBaseRetraiteObli()
+     * Test setCumBaseRetraiteObli()
      *
      * @return void
      */
@@ -649,7 +649,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBaseRetraiteSupp()
+     * Test setCumBaseRetraiteSupp()
      *
      * @return void
      */
@@ -662,7 +662,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumMtForfaitSocial20()
+     * Test setCumMtForfaitSocial20()
      *
      * @return void
      */
@@ -675,7 +675,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumMtForfaitSocial8()
+     * Test setCumMtForfaitSocial8()
      *
      * @return void
      */
@@ -688,7 +688,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumPpFiscPrev()
+     * Test setCumPpFiscPrev()
      *
      * @return void
      */
@@ -701,7 +701,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumPpFiscRet()
+     * Test setCumPpFiscRet()
      *
      * @return void
      */
@@ -714,7 +714,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumPsFiscPrev()
+     * Test setCumPsFiscPrev()
      *
      * @return void
      */
@@ -727,7 +727,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumPsFiscRet()
+     * Test setCumPsFiscRet()
      *
      * @return void
      */
@@ -740,7 +740,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumSmicM()
+     * Test setCumSmicM()
      *
      * @return void
      */
@@ -753,7 +753,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrD1Caisse1()
+     * Test setCumTrD1Caisse1()
      *
      * @return void
      */
@@ -766,7 +766,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrD1caisse2()
+     * Test setCumTrD1caisse2()
      *
      * @return void
      */
@@ -779,7 +779,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrD1caisse3()
+     * Test setCumTrD1caisse3()
      *
      * @return void
      */
@@ -792,7 +792,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrDCaisse1()
+     * Test setCumTrDCaisse1()
      *
      * @return void
      */
@@ -805,7 +805,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrDcaisse2()
+     * Test setCumTrDcaisse2()
      *
      * @return void
      */
@@ -818,7 +818,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrDcaisse3()
+     * Test setCumTrDcaisse3()
      *
      * @return void
      */
@@ -831,7 +831,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrancheD()
+     * Test setCumTrancheD()
      *
      * @return void
      */
@@ -844,7 +844,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrancheD1()
+     * Test setCumTrancheD1()
      *
      * @return void
      */
@@ -857,7 +857,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateAncienBranche()
+     * Test setDateAncienBranche()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -874,7 +874,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateAncienCollege()
+     * Test setDateAncienCollege()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -891,7 +891,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateAncienPoste()
+     * Test setDateAncienPoste()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -908,7 +908,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDebutChomCdd()
+     * Test setDateDebutChomCdd()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -925,7 +925,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDebutContrat()
+     * Test setDateDebutContrat()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -942,7 +942,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateEnvoiMail()
+     * Test setDateEnvoiMail()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -959,7 +959,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFinChomCdd()
+     * Test setDateFinChomCdd()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -976,7 +976,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFinContrat()
+     * Test setDateFinContrat()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -993,7 +993,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFinPrev()
+     * Test setDateFinPrev()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1010,7 +1010,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateRachat()
+     * Test setDateRachat()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1027,7 +1027,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateRenouvCdd()
+     * Test setDateRenouvCdd()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1044,7 +1044,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateRenouvCdd2()
+     * Test setDateRenouvCdd2()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1061,7 +1061,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDetacheExpatrie()
+     * Test setDetacheExpatrie()
      *
      * @return void
      */
@@ -1074,7 +1074,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEchelon()
+     * Test setEchelon()
      *
      * @return void
      */
@@ -1087,7 +1087,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEchelonConventionCol()
+     * Test setEchelonConventionCol()
      *
      * @return void
      */
@@ -1100,7 +1100,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmail()
+     * Test setEmail()
      *
      * @return void
      */
@@ -1113,7 +1113,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmploi()
+     * Test setEmploi()
      *
      * @return void
      */
@@ -1126,7 +1126,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtabLieuTravail()
+     * Test setEtabLieuTravail()
      *
      * @return void
      */
@@ -1139,7 +1139,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExclureChomCdd()
+     * Test setExclureChomCdd()
      *
      * @return void
      */
@@ -1152,7 +1152,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExclureCice()
+     * Test setExclureCice()
      *
      * @return void
      */
@@ -1165,7 +1165,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExclureCospar()
+     * Test setExclureCospar()
      *
      * @return void
      */
@@ -1178,7 +1178,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExclureDsn()
+     * Test setExclureDsn()
      *
      * @return void
      */
@@ -1191,7 +1191,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExclureLoiTepa()
+     * Test setExclureLoiTepa()
      *
      * @return void
      */
@@ -1204,7 +1204,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExclureLoiTepaPartP()
+     * Test setExclureLoiTepaPartP()
      *
      * @return void
      */
@@ -1217,7 +1217,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExclureLoiTepaPartS()
+     * Test setExclureLoiTepaPartS()
      *
      * @return void
      */
@@ -1230,7 +1230,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExclureQgc()
+     * Test setExclureQgc()
      *
      * @return void
      */
@@ -1243,7 +1243,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExoAccre17()
+     * Test setExoAccre17()
      *
      * @return void
      */
@@ -1256,7 +1256,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExoOccasionnelMsa()
+     * Test setExoOccasionnelMsa()
      *
      * @return void
      */
@@ -1269,7 +1269,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExoProfessionnalisation()
+     * Test setExoProfessionnalisation()
      *
      * @return void
      */
@@ -1282,7 +1282,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExoSpecif()
+     * Test setExoSpecif()
      *
      * @return void
      */
@@ -1295,7 +1295,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setForfaitHeure()
+     * Test setForfaitHeure()
      *
      * @return void
      */
@@ -1308,7 +1308,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFractionEtab()
+     * Test setFractionEtab()
      *
      * @return void
      */
@@ -1321,7 +1321,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGestionCp()
+     * Test setGestionCp()
      *
      * @return void
      */
@@ -1334,7 +1334,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGestionHstepa()
+     * Test setGestionHstepa()
      *
      * @return void
      */
@@ -1347,7 +1347,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGestionMailBulletin()
+     * Test setGestionMailBulletin()
      *
      * @return void
      */
@@ -1360,7 +1360,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGestionRtt()
+     * Test setGestionRtt()
      *
      * @return void
      */
@@ -1373,7 +1373,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGrilleAnc1()
+     * Test setGrilleAnc1()
      *
      * @return void
      */
@@ -1386,7 +1386,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGrilleAnc2()
+     * Test setGrilleAnc2()
      *
      * @return void
      */
@@ -1399,7 +1399,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGrilleAnc3()
+     * Test setGrilleAnc3()
      *
      * @return void
      */
@@ -1412,7 +1412,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIdLieuTravail()
+     * Test setIdLieuTravail()
      *
      * @return void
      */
@@ -1425,7 +1425,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndemCpMsa()
+     * Test setIndemCpMsa()
      *
      * @return void
      */
@@ -1438,7 +1438,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndice()
+     * Test setIndice()
      *
      * @return void
      */
@@ -1451,7 +1451,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndiceCateg()
+     * Test setIndiceCateg()
      *
      * @return void
      */
@@ -1464,7 +1464,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndicePeriode()
+     * Test setIndicePeriode()
      *
      * @return void
      */
@@ -1477,7 +1477,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setInterimIndemCpFillon()
+     * Test setInterimIndemCpFillon()
      *
      * @return void
      */
@@ -1490,7 +1490,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelleReintegration()
+     * Test setLibelleReintegration()
      *
      * @return void
      */
@@ -1503,7 +1503,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLienReintegration()
+     * Test setLienReintegration()
      *
      * @return void
      */
@@ -1516,7 +1516,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMaintienIntervientCp()
+     * Test setMaintienIntervientCp()
      *
      * @return void
      */
@@ -1529,7 +1529,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMaintienSalaire()
+     * Test setMaintienSalaire()
      *
      * @return void
      */
@@ -1542,7 +1542,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantAvantage()
+     * Test setMontantAvantage()
      *
      * @return void
      */
@@ -1555,7 +1555,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMotifCdd()
+     * Test setMotifCdd()
      *
      * @return void
      */
@@ -1568,7 +1568,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMotifExclusionDsn()
+     * Test setMotifExclusionDsn()
      *
      * @return void
      */
@@ -1581,7 +1581,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtAbsActPart()
+     * Test setMtAbsActPart()
      *
      * @return void
      */
@@ -1594,7 +1594,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtCotisationPrev()
+     * Test setMtCotisationPrev()
      *
      * @return void
      */
@@ -1607,7 +1607,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtCotisationRetraite()
+     * Test setMtCotisationRetraite()
      *
      * @return void
      */
@@ -1620,7 +1620,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtCrds100()
+     * Test setMtCrds100()
      *
      * @return void
      */
@@ -1633,7 +1633,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtCsg100()
+     * Test setMtCsg100()
      *
      * @return void
      */
@@ -1646,7 +1646,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtFiscFraisSante()
+     * Test setMtFiscFraisSante()
      *
      * @return void
      */
@@ -1659,7 +1659,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtFiscPrev()
+     * Test setMtFiscPrev()
      *
      * @return void
      */
@@ -1672,7 +1672,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtFiscRetraite()
+     * Test setMtFiscRetraite()
      *
      * @return void
      */
@@ -1685,7 +1685,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtForfaitSocial20()
+     * Test setMtForfaitSocial20()
      *
      * @return void
      */
@@ -1698,7 +1698,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtForfaitSocial8()
+     * Test setMtForfaitSocial8()
      *
      * @return void
      */
@@ -1711,7 +1711,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtIap()
+     * Test setMtIap()
      *
      * @return void
      */
@@ -1724,7 +1724,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtJourneeCpn()
+     * Test setMtJourneeCpn()
      *
      * @return void
      */
@@ -1737,7 +1737,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtJourneeCpn1()
+     * Test setMtJourneeCpn1()
      *
      * @return void
      */
@@ -1750,7 +1750,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMultiEmployeur()
+     * Test setMultiEmployeur()
      *
      * @return void
      */
@@ -1763,7 +1763,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNatureAnalytique()
+     * Test setNatureAnalytique()
      *
      * @return void
      */
@@ -1776,7 +1776,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNb30RenouvCdd()
+     * Test setNb30RenouvCdd()
      *
      * @return void
      */
@@ -1789,7 +1789,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHActPart()
+     * Test setNbHActPart()
      *
      * @return void
      */
@@ -1802,7 +1802,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHActPartIndem()
+     * Test setNbHActPartIndem()
      *
      * @return void
      */
@@ -1815,7 +1815,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHBonifie()
+     * Test setNbHBonifie()
      *
      * @return void
      */
@@ -1828,7 +1828,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHContingent()
+     * Test setNbHContingent()
      *
      * @return void
      */
@@ -1841,7 +1841,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHContract()
+     * Test setNbHContract()
      *
      * @return void
      */
@@ -1854,7 +1854,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHeureMois()
+     * Test setNbHeureMois()
      *
      * @return void
      */
@@ -1867,7 +1867,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJourAnnee()
+     * Test setNbJourAnnee()
      *
      * @return void
      */
@@ -1880,7 +1880,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJourCpAcquis()
+     * Test setNbJourCpAcquis()
      *
      * @return void
      */
@@ -1893,7 +1893,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJourCpSup()
+     * Test setNbJourCpSup()
      *
      * @return void
      */
@@ -1906,7 +1906,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbPieceLogement()
+     * Test setNbPieceLogement()
      *
      * @return void
      */
@@ -1919,7 +1919,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNePasActiverPrimeAnnuelleProprete()
+     * Test setNePasActiverPrimeAnnuelleProprete()
      *
      * @return void
      */
@@ -1932,7 +1932,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNePasPublierWeb()
+     * Test setNePasPublierWeb()
      *
      * @return void
      */
@@ -1945,7 +1945,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNiveau()
+     * Test setNiveau()
      *
      * @return void
      */
@@ -1958,7 +1958,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNiveauConventionCol()
+     * Test setNiveauConventionCol()
      *
      * @return void
      */
@@ -1971,7 +1971,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomMarital()
+     * Test setNomMarital()
      *
      * @return void
      */
@@ -1984,7 +1984,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomNaissance()
+     * Test setNomNaissance()
      *
      * @return void
      */
@@ -1997,7 +1997,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomVille()
+     * Test setNomVille()
      *
      * @return void
      */
@@ -2010,7 +2010,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomVoie()
+     * Test setNomVoie()
      *
      * @return void
      */
@@ -2023,7 +2023,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumEvenement()
+     * Test setNumEvenement()
      *
      * @return void
      */
@@ -2036,7 +2036,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumObjet()
+     * Test setNumObjet()
      *
      * @return void
      */
@@ -2049,7 +2049,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumVoie()
+     * Test setNumVoie()
      *
      * @return void
      */
@@ -2062,7 +2062,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumero()
+     * Test setNumero()
      *
      * @return void
      */
@@ -2075,7 +2075,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroAbattementContratMsa()
+     * Test setNumeroAbattementContratMsa()
      *
      * @return void
      */
@@ -2088,7 +2088,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroContrat()
+     * Test setNumeroContrat()
      *
      * @return void
      */
@@ -2101,7 +2101,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroGrilleType()
+     * Test setNumeroGrilleType()
      *
      * @return void
      */
@@ -2114,7 +2114,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPartPatronPrevForfaitSocial8()
+     * Test setPartPatronPrevForfaitSocial8()
      *
      * @return void
      */
@@ -2127,7 +2127,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPasDeReintegration()
+     * Test setPasDeReintegration()
      *
      * @return void
      */
@@ -2140,7 +2140,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPasGestionDif()
+     * Test setPasGestionDif()
      *
      * @return void
      */
@@ -2153,7 +2153,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -2170,7 +2170,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPosition()
+     * Test setPosition()
      *
      * @return void
      */
@@ -2183,7 +2183,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPositionConventionCol()
+     * Test setPositionConventionCol()
      *
      * @return void
      */
@@ -2196,7 +2196,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPourcentExo()
+     * Test setPourcentExo()
      *
      * @return void
      */
@@ -2209,7 +2209,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPremDateEntree()
+     * Test setPremDateEntree()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -2226,7 +2226,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrenom()
+     * Test setPrenom()
      *
      * @return void
      */
@@ -2239,7 +2239,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPss1Force()
+     * Test setPss1Force()
      *
      * @return void
      */
@@ -2252,7 +2252,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQualification()
+     * Test setQualification()
      *
      * @return void
      */
@@ -2265,7 +2265,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setReductionFillon()
+     * Test setReductionFillon()
      *
      * @return void
      */
@@ -2278,7 +2278,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRegleCalcul()
+     * Test setRegleCalcul()
      *
      * @return void
      */
@@ -2291,7 +2291,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemunPartFillon()
+     * Test setRemunPartFillon()
      *
      * @return void
      */
@@ -2304,7 +2304,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRtt1()
+     * Test setRtt1()
      *
      * @return void
      */
@@ -2317,7 +2317,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRtt10()
+     * Test setRtt10()
      *
      * @return void
      */
@@ -2330,7 +2330,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRtt11()
+     * Test setRtt11()
      *
      * @return void
      */
@@ -2343,7 +2343,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRtt12()
+     * Test setRtt12()
      *
      * @return void
      */
@@ -2356,7 +2356,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRtt2()
+     * Test setRtt2()
      *
      * @return void
      */
@@ -2369,7 +2369,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRtt3()
+     * Test setRtt3()
      *
      * @return void
      */
@@ -2382,7 +2382,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRtt4()
+     * Test setRtt4()
      *
      * @return void
      */
@@ -2395,7 +2395,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRtt5()
+     * Test setRtt5()
      *
      * @return void
      */
@@ -2408,7 +2408,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRtt6()
+     * Test setRtt6()
      *
      * @return void
      */
@@ -2421,7 +2421,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRtt7()
+     * Test setRtt7()
      *
      * @return void
      */
@@ -2434,7 +2434,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRtt8()
+     * Test setRtt8()
      *
      * @return void
      */
@@ -2447,7 +2447,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRtt9()
+     * Test setRtt9()
      *
      * @return void
      */
@@ -2460,7 +2460,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSalaireBase()
+     * Test setSalaireBase()
      *
      * @return void
      */
@@ -2473,7 +2473,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSalaireReference()
+     * Test setSalaireReference()
      *
      * @return void
      */
@@ -2486,7 +2486,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSalaireRetabliDsn()
+     * Test setSalaireRetabliDsn()
      *
      * @return void
      */
@@ -2499,7 +2499,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSalaireRetabliDsnForce()
+     * Test setSalaireRetabliDsnForce()
      *
      * @return void
      */
@@ -2512,7 +2512,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSansContrat()
+     * Test setSansContrat()
      *
      * @return void
      */
@@ -2525,7 +2525,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setService()
+     * Test setService()
      *
      * @return void
      */
@@ -2538,7 +2538,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSetpFillon()
+     * Test setSetpFillon()
      *
      * @return void
      */
@@ -2551,7 +2551,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSigneAf()
+     * Test setSigneAf()
      *
      * @return void
      */
@@ -2564,7 +2564,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSiretLieuTrav()
+     * Test setSiretLieuTrav()
      *
      * @return void
      */
@@ -2577,7 +2577,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSmicMFillonSansHs()
+     * Test setSmicMFillonSansHs()
      *
      * @return void
      */
@@ -2590,7 +2590,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSmicMaf()
+     * Test setSmicMaf()
      *
      * @return void
      */
@@ -2603,7 +2603,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSmicMcice()
+     * Test setSmicMcice()
      *
      * @return void
      */
@@ -2616,7 +2616,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSubrogation()
+     * Test setSubrogation()
      *
      * @return void
      */
@@ -2629,7 +2629,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds59()
+     * Test setTds59()
      *
      * @return void
      */
@@ -2642,7 +2642,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds76()
+     * Test setTds76()
      *
      * @return void
      */
@@ -2655,7 +2655,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTel1()
+     * Test setTel1()
      *
      * @return void
      */
@@ -2668,7 +2668,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTel2()
+     * Test setTel2()
      *
      * @return void
      */
@@ -2681,7 +2681,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTepaMoins20()
+     * Test setTepaMoins20()
      *
      * @return void
      */
@@ -2694,7 +2694,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTitre()
+     * Test setTitre()
      *
      * @return void
      */
@@ -2707,7 +2707,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTotCotUrssaf()
+     * Test setTotCotUrssaf()
      *
      * @return void
      */
@@ -2720,7 +2720,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrD1Caisse1()
+     * Test setTrD1Caisse1()
      *
      * @return void
      */
@@ -2733,7 +2733,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrD1caisse2()
+     * Test setTrD1caisse2()
      *
      * @return void
      */
@@ -2746,7 +2746,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrD1caisse3()
+     * Test setTrD1caisse3()
      *
      * @return void
      */
@@ -2759,7 +2759,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrDCaisse1()
+     * Test setTrDCaisse1()
      *
      * @return void
      */
@@ -2772,7 +2772,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrDcaisse2()
+     * Test setTrDcaisse2()
      *
      * @return void
      */
@@ -2785,7 +2785,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrDcaisse3()
+     * Test setTrDcaisse3()
      *
      * @return void
      */
@@ -2798,7 +2798,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrancheD()
+     * Test setTrancheD()
      *
      * @return void
      */
@@ -2811,7 +2811,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrancheD1()
+     * Test setTrancheD1()
      *
      * @return void
      */
@@ -2824,7 +2824,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeChomCdd()
+     * Test setTypeChomCdd()
      *
      * @return void
      */
@@ -2837,7 +2837,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeContrat()
+     * Test setTypeContrat()
      *
      * @return void
      */
@@ -2850,7 +2850,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeExoLodeom()
+     * Test setTypeExoLodeom()
      *
      * @return void
      */
@@ -2863,7 +2863,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeHeFillon()
+     * Test setTypeHeFillon()
      *
      * @return void
      */
@@ -2876,7 +2876,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeMaintienSalaire()
+     * Test setTypeMaintienSalaire()
      *
      * @return void
      */
@@ -2889,7 +2889,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeReductionFillon()
+     * Test setTypeReductionFillon()
      *
      * @return void
      */
@@ -2902,7 +2902,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeReductionMayotte()
+     * Test setTypeReductionMayotte()
      *
      * @return void
      */
@@ -2915,7 +2915,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeSaisieAbCp()
+     * Test setTypeSaisieAbCp()
      *
      * @return void
      */
@@ -2928,7 +2928,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeSaisieChomIntemp()
+     * Test setTypeSaisieChomIntemp()
      *
      * @return void
      */
@@ -2941,7 +2941,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setVrpMulticarte()
+     * Test setVrpMulticarte()
      *
      * @return void
      */
@@ -2954,7 +2954,7 @@ class InfosComplBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

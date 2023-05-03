@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class TempsPrevisionnelsTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class TempsPrevisionnelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAvenant()
+     * Test setCodeAvenant()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class TempsPrevisionnelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePhase()
+     * Test setCodePhase()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class TempsPrevisionnelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTache()
+     * Test setCodeTache()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class TempsPrevisionnelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCoutHoraire()
+     * Test setCoutHoraire()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class TempsPrevisionnelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHeures()
+     * Test setNbHeures()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class TempsPrevisionnelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

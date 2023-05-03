@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class VentilationsAutoTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeJournal()
+     * Test setCodeJournal()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class VentilationsAutoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeVentilation()
+     * Test setCodeVentilation()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class VentilationsAutoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteVentilation()
+     * Test setCompteVentilation()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class VentilationsAutoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

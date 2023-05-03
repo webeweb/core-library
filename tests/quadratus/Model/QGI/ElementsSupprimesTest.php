@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ElementsSupprimesTest extends AbstractTestCase {
 
     /**
-     * Tests setDate1()
+     * Test setDate1()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -42,7 +42,7 @@ class ElementsSupprimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateElem()
+     * Test setDateElem()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -59,7 +59,7 @@ class ElementsSupprimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMemo1()
+     * Test setMemo1()
      *
      * @return void
      */
@@ -72,7 +72,7 @@ class ElementsSupprimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTexte1()
+     * Test setTexte1()
      *
      * @return void
      */
@@ -85,7 +85,7 @@ class ElementsSupprimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeElem()
+     * Test setTypeElem()
      *
      * @return void
      */
@@ -98,7 +98,7 @@ class ElementsSupprimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqId()
+     * Test setUniqId()
      *
      * @return void
      */
@@ -111,7 +111,7 @@ class ElementsSupprimesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

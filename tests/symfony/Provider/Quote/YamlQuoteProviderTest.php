@@ -46,7 +46,7 @@ class YamlQuoteProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests init()
+     * Test init()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -79,7 +79,7 @@ class YamlQuoteProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */
@@ -96,7 +96,7 @@ class YamlQuoteProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

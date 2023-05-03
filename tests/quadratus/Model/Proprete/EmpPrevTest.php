@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EmpPrevTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeCollaboValid()
+     * Test setCodeCollaboValid()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class EmpPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaborateur()
+     * Test setCodeCollaborateur()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class EmpPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEmploye()
+     * Test setCodeEmploye()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class EmpPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDate()
+     * Test setDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class EmpPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateAbsDecalee()
+     * Test setDateAbsDecalee()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -98,7 +98,7 @@ class EmpPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateValidationSynchro()
+     * Test setDateValidationSynchro()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -115,7 +115,7 @@ class EmpPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDimType2()
+     * Test setDimType2()
      *
      * @return void
      */
@@ -128,7 +128,7 @@ class EmpPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDiscrTache()
+     * Test setDiscrTache()
      *
      * @return void
      */
@@ -141,7 +141,7 @@ class EmpPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDuree()
+     * Test setDuree()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -158,7 +158,7 @@ class EmpPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmployeRemplace()
+     * Test setEmployeRemplace()
      *
      * @return void
      */
@@ -171,7 +171,7 @@ class EmpPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtat()
+     * Test setEtat()
      *
      * @return void
      */
@@ -184,7 +184,7 @@ class EmpPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHNuitType2()
+     * Test setHNuitType2()
      *
      * @return void
      */
@@ -197,7 +197,7 @@ class EmpPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHeureDeb()
+     * Test setHeureDeb()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -214,7 +214,7 @@ class EmpPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setJfType2()
+     * Test setJfType2()
      *
      * @return void
      */
@@ -227,7 +227,7 @@ class EmpPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbChambres()
+     * Test setNbChambres()
      *
      * @return void
      */
@@ -240,7 +240,7 @@ class EmpPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoteMemo()
+     * Test setNoteMemo()
      *
      * @return void
      */
@@ -253,7 +253,7 @@ class EmpPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumChrono()
+     * Test setNumChrono()
      *
      * @return void
      */
@@ -266,7 +266,7 @@ class EmpPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPointage()
+     * Test setPointage()
      *
      * @return void
      */
@@ -279,7 +279,7 @@ class EmpPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqId()
+     * Test setUniqId()
      *
      * @return void
      */
@@ -292,7 +292,7 @@ class EmpPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqIdPlanning()
+     * Test setUniqIdPlanning()
      *
      * @return void
      */
@@ -305,7 +305,7 @@ class EmpPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqIdSynchro()
+     * Test setUniqIdSynchro()
      *
      * @return void
      */
@@ -318,7 +318,7 @@ class EmpPrevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -28,7 +28,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Assets\TestNavigationNode;
 class AbstractNavigationNodeTest extends AbstractTestCase {
 
     /**
-     * Tests addNode()
+     * Test addNode()
      *
      * @return void
      */
@@ -47,7 +47,7 @@ class AbstractNavigationNodeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests clearNode()
+     * Test clearNode()
      *
      * @return void
      */
@@ -66,7 +66,7 @@ class AbstractNavigationNodeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests getFirstNode()
+     * Test getFirstNode()
      *
      * @return void
      */
@@ -82,7 +82,7 @@ class AbstractNavigationNodeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests getLastNode()
+     * Test getLastNode()
      *
      * @return void
      */
@@ -98,7 +98,7 @@ class AbstractNavigationNodeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests getNodeAt()
+     * Test getNodeAt()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class AbstractNavigationNodeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests getNodeById()
+     * Test getNodeById()
      *
      * @return void
      */
@@ -141,7 +141,7 @@ class AbstractNavigationNodeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests isDisplayable()
+     * Test isDisplayable()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class AbstractNavigationNodeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests jsonSerialize()
+     * Test jsonSerialize()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class AbstractNavigationNodeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests removeNode()
+     * Test removeNode()
      *
      * @return void
      */
@@ -213,7 +213,7 @@ class AbstractNavigationNodeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMatcher()
+     * Test setMatcher()
      *
      * @return void
      */
@@ -226,7 +226,7 @@ class AbstractNavigationNodeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests size()
+     * Test size()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class AbstractNavigationNodeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

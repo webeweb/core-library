@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class FichesControlesLignesElementsTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class FichesControlesLignesElementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantier()
+     * Test setCodeChantier()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class FichesControlesLignesElementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class FichesControlesLignesElementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeElement()
+     * Test setCodeElement()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class FichesControlesLignesElementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCoefficient()
+     * Test setCoefficient()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class FichesControlesLignesElementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMiseEnConformite()
+     * Test setMiseEnConformite()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -107,7 +107,7 @@ class FichesControlesLignesElementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNiveauNoeud()
+     * Test setNiveauNoeud()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class FichesControlesLignesElementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNote()
+     * Test setNote()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class FichesControlesLignesElementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroFiche()
+     * Test setNumeroFiche()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class FichesControlesLignesElementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroNoeud()
+     * Test setNumeroNoeud()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class FichesControlesLignesElementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeElement()
+     * Test setTypeElement()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class FichesControlesLignesElementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

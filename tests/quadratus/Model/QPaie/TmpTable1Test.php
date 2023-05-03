@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class TmpTable1Test extends AbstractTestCase {
 
     /**
-     * Tests setClasse()
+     * Test setClasse()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class TmpTable1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeOrganisme()
+     * Test setCodeOrganisme()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class TmpTable1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtablissement()
+     * Test setEtablissement()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class TmpTable1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndicePeriode()
+     * Test setIndicePeriode()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class TmpTable1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setInverse()
+     * Test setInverse()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class TmpTable1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -107,7 +107,7 @@ class TmpTable1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setQui()
+     * Test setQui()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class TmpTable1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setService()
+     * Test setService()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class TmpTable1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setType()
+     * Test setType()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class TmpTable1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setValeur()
+     * Test setValeur()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class TmpTable1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setValeurTot()
+     * Test setValeurTot()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class TmpTable1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

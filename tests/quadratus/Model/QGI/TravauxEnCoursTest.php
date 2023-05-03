@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class TravauxEnCoursTest extends AbstractTestCase {
 
     /**
-     * Tests setCataloguee()
+     * Test setCataloguee()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaborateurDest()
+     * Test setCodeCollaborateurDest()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaborateurEntrant()
+     * Test setCodeCollaborateurEntrant()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateAlerte()
+     * Test setDateAlerte()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -94,7 +94,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateButoir()
+     * Test setDateButoir()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -111,7 +111,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateEntree()
+     * Test setDateEntree()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -128,7 +128,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateModif()
+     * Test setDateModif()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -145,7 +145,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDemandeur()
+     * Test setDemandeur()
      *
      * @return void
      */
@@ -158,7 +158,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEnvoiPostIt()
+     * Test setEnvoiPostIt()
      *
      * @return void
      */
@@ -171,7 +171,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIdTravail()
+     * Test setIdTravail()
      *
      * @return void
      */
@@ -184,7 +184,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntitule()
+     * Test setIntitule()
      *
      * @return void
      */
@@ -197,7 +197,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomClient()
+     * Test setNomClient()
      *
      * @return void
      */
@@ -210,7 +210,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPieceJointe()
+     * Test setPieceJointe()
      *
      * @return void
      */
@@ -223,7 +223,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTravailFait()
+     * Test setTravailFait()
      *
      * @return void
      */
@@ -236,7 +236,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

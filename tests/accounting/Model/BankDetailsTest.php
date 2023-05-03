@@ -26,7 +26,7 @@ use WBW\Library\Accounting\Tests\AbstractTestCase;
 class BankDetailsTest extends AbstractTestCase {
 
     /**
-     * Tests jsonSerialize()
+     * Test jsonSerialize()
      *
      * @return void
      */
@@ -54,7 +54,7 @@ class BankDetailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAccountNumber()
+     * Test setAccountNumber()
      *
      * @return void
      */
@@ -67,7 +67,7 @@ class BankDetailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBankCode()
+     * Test setBankCode()
      *
      * @return void
      */
@@ -80,7 +80,7 @@ class BankDetailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBankDomiciliation()
+     * Test setBankDomiciliation()
      *
      * @return void
      */
@@ -93,7 +93,7 @@ class BankDetailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBankName()
+     * Test setBankName()
      *
      * @return void
      */
@@ -106,7 +106,7 @@ class BankDetailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBic()
+     * Test setBic()
      *
      * @return void
      */
@@ -119,7 +119,7 @@ class BankDetailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBranchCode()
+     * Test setBranchCode()
      *
      * @return void
      */
@@ -132,7 +132,7 @@ class BankDetailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIban()
+     * Test setIban()
      *
      * @return void
      */
@@ -145,7 +145,7 @@ class BankDetailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOwner()
+     * Test setOwner()
      *
      * @return void
      */
@@ -158,7 +158,7 @@ class BankDetailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRibKey()
+     * Test setRibKey()
      *
      * @return void
      */
@@ -171,7 +171,7 @@ class BankDetailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

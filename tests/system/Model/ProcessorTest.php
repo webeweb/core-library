@@ -25,7 +25,7 @@ use WBW\Library\System\Tests\AbstractTestCase;
 class ProcessorTest extends AbstractTestCase {
 
     /**
-     * Tests getKeys()
+     * Test getKeys()
      *
      * @return void
      */
@@ -37,7 +37,7 @@ class ProcessorTest extends AbstractTestCase {
     }
 
     /**
-     * Tests getValue()
+     * Test getValue()
      *
      * @return void
      */
@@ -50,7 +50,7 @@ class ProcessorTest extends AbstractTestCase {
     }
 
     /**
-     * Tests jsonSerialize()
+     * Test jsonSerialize()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ProcessorTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

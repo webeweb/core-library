@@ -23,7 +23,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Renderer\Strings\TestItalicTextRendererTr
 class ItalicTextRendererTraitTest extends AbstractTestCase {
 
     /**
-     * Tests renderItalicText()
+     * Test renderItalicText()
      *
      * @return void
      */

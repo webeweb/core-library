@@ -23,7 +23,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Provider\TestQuoteProvider;
 class AbstractQuoteProviderTest extends AbstractTestCase {
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

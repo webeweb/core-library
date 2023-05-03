@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class TrameInventaireTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeArticle()
+     * Test setCodeArticle()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class TrameInventaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTrame()
+     * Test setCodeTrame()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class TrameInventaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumOrdre()
+     * Test setNumOrdre()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class TrameInventaireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

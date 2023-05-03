@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class SaisieArretTest extends AbstractTestCase {
 
     /**
-     * Tests setDtCourrier()
+     * Test setDtCourrier()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -42,7 +42,7 @@ class SaisieArretTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtDebutSaisie()
+     * Test setDtDebutSaisie()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -59,7 +59,7 @@ class SaisieArretTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtFinSaisie()
+     * Test setDtFinSaisie()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -76,7 +76,7 @@ class SaisieArretTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -89,7 +89,7 @@ class SaisieArretTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtCreance()
+     * Test setMtCreance()
      *
      * @return void
      */
@@ -102,7 +102,7 @@ class SaisieArretTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtDejaPaye()
+     * Test setMtDejaPaye()
      *
      * @return void
      */
@@ -115,7 +115,7 @@ class SaisieArretTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbACharge()
+     * Test setNbACharge()
      *
      * @return void
      */
@@ -128,7 +128,7 @@ class SaisieArretTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomTribunal()
+     * Test setNomTribunal()
      *
      * @return void
      */
@@ -141,7 +141,7 @@ class SaisieArretTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmploye()
+     * Test setNumeroEmploye()
      *
      * @return void
      */
@@ -154,7 +154,7 @@ class SaisieArretTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeSaisie()
+     * Test setTypeSaisie()
      *
      * @return void
      */
@@ -167,7 +167,7 @@ class SaisieArretTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

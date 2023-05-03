@@ -24,7 +24,7 @@ use WBW\Library\Traits\Tests\Fixtures\DateTimes\TestDateTimeLastUpdateTrait;
 class DateTimeLastUpdateTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setLastUpdate()
+     * Test setLastUpdate()
      *
      * @return void
      */

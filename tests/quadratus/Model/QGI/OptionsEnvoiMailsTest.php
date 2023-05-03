@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class OptionsEnvoiMailsTest extends AbstractTestCase {
 
     /**
-     * Tests setAvecEntete()
+     * Test setAvecEntete()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class OptionsEnvoiMailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAvecPied()
+     * Test setAvecPied()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class OptionsEnvoiMailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollab()
+     * Test setCodeCollab()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class OptionsEnvoiMailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeModule()
+     * Test setCodeModule()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class OptionsEnvoiMailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

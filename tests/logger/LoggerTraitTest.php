@@ -22,7 +22,7 @@ use WBW\Library\Logger\Tests\Fixtures\TestLoggerTrait;
 class LoggerTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setLogger()
+     * Test setLogger()
      *
      * @return void
      */

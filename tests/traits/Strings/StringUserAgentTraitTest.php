@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringUserAgentTrait;
 class StringUserAgentTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setUserAgent()
+     * Test setUserAgent()
      *
      * @return void
      */

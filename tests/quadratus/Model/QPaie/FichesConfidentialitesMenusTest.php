@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class FichesConfidentialitesMenusTest extends AbstractTestCase {
 
     /**
-     * Tests setCode()
+     * Test setCode()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDroitAjout()
+     * Test setDroitAjout()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDroitModification()
+     * Test setDroitModification()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDroitSuppression()
+     * Test setDroitSuppression()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndex()
+     * Test setIndex()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndexDuPereNo1()
+     * Test setIndexDuPereNo1()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndexDuPereNo2()
+     * Test setIndexDuPereNo2()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndexDuPereNo3()
+     * Test setIndexDuPereNo3()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndexDuPereNo4()
+     * Test setIndexDuPereNo4()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndexDuPereNo5()
+     * Test setIndexDuPereNo5()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndexDuPereNo6()
+     * Test setIndexDuPereNo6()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndexDuPereNo7()
+     * Test setIndexDuPereNo7()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelleMenu()
+     * Test setLibelleMenu()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMenuVisible()
+     * Test setMenuVisible()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMotDePasse()
+     * Test setMotDePasse()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNiveauLigne()
+     * Test setNiveauLigne()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomDuPereNo1()
+     * Test setNomDuPereNo1()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomDuPereNo2()
+     * Test setNomDuPereNo2()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomDuPereNo3()
+     * Test setNomDuPereNo3()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomDuPereNo4()
+     * Test setNomDuPereNo4()
      *
      * @return void
      */
@@ -283,7 +283,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomDuPereNo5()
+     * Test setNomDuPereNo5()
      *
      * @return void
      */
@@ -296,7 +296,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomDuPereNo6()
+     * Test setNomDuPereNo6()
      *
      * @return void
      */
@@ -309,7 +309,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomDuPereNo7()
+     * Test setNomDuPereNo7()
      *
      * @return void
      */
@@ -322,7 +322,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomMenu()
+     * Test setNomMenu()
      *
      * @return void
      */
@@ -335,7 +335,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeSelection()
+     * Test setTypeSelection()
      *
      * @return void
      */
@@ -348,7 +348,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

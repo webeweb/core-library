@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EmpDadsuPrevoyanceTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeAffilSecu()
+     * Test setCodeAffilSecu()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class EmpDadsuPrevoyanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateAncienBranche()
+     * Test setDateAncienBranche()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -55,7 +55,7 @@ class EmpDadsuPrevoyanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateAncienCollege()
+     * Test setDateAncienCollege()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -72,7 +72,7 @@ class EmpDadsuPrevoyanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateAncienPoste()
+     * Test setDateAncienPoste()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -89,7 +89,7 @@ class EmpDadsuPrevoyanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbEnfants()
+     * Test setNbEnfants()
      *
      * @return void
      */
@@ -102,7 +102,7 @@ class EmpDadsuPrevoyanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmploye()
+     * Test setNumeroEmploye()
      *
      * @return void
      */
@@ -115,7 +115,7 @@ class EmpDadsuPrevoyanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPremDateEntree()
+     * Test setPremDateEntree()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -132,7 +132,7 @@ class EmpDadsuPrevoyanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRangNaissance()
+     * Test setRangNaissance()
      *
      * @return void
      */
@@ -145,7 +145,7 @@ class EmpDadsuPrevoyanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

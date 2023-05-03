@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ClientsFavorisTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ClientsFavorisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCol()
+     * Test setCodeCol()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ClientsFavorisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AcomptesTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeCollaborateur()
+     * Test setCodeCollaborateur()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AcomptesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeUser()
+     * Test setCodeUser()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AcomptesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCongesPayes()
+     * Test setCongesPayes()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AcomptesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDate()
+     * Test setDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class AcomptesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateAdded()
+     * Test setDateAdded()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -98,7 +98,7 @@ class AcomptesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateAddedColl()
+     * Test setDateAddedColl()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -115,7 +115,7 @@ class AcomptesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEnEuro()
+     * Test setEnEuro()
      *
      * @return void
      */
@@ -128,7 +128,7 @@ class AcomptesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setInBul()
+     * Test setInBul()
      *
      * @return void
      */
@@ -141,7 +141,7 @@ class AcomptesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntitule()
+     * Test setIntitule()
      *
      * @return void
      */
@@ -154,7 +154,7 @@ class AcomptesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant()
+     * Test setMontant()
      *
      * @return void
      */
@@ -167,7 +167,7 @@ class AcomptesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumUniq()
+     * Test setNumUniq()
      *
      * @return void
      */
@@ -180,7 +180,7 @@ class AcomptesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmploye()
+     * Test setNumeroEmploye()
      *
      * @return void
      */
@@ -193,7 +193,7 @@ class AcomptesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPaye()
+     * Test setPaye()
      *
      * @return void
      */
@@ -206,7 +206,7 @@ class AcomptesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypePaiement()
+     * Test setTypePaiement()
      *
      * @return void
      */
@@ -219,7 +219,7 @@ class AcomptesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

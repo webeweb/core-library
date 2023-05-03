@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ChargesProduitsTest extends AbstractTestCase {
 
     /**
-     * Tests setCentre()
+     * Test setCentre()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ChargesProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeFeuille()
+     * Test setCodeFeuille()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ChargesProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCommentaires()
+     * Test setCommentaires()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ChargesProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setContrePartie()
+     * Test setContrePartie()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ChargesProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtatLigne()
+     * Test setEtatLigne()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ChargesProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibEcriture()
+     * Test setLibEcriture()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class ChargesProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMoisRevision()
+     * Test setMoisRevision()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class ChargesProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtHt()
+     * Test setMtHt()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class ChargesProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtN1()
+     * Test setMtN1()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class ChargesProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNature()
+     * Test setNature()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class ChargesProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumLigne()
+     * Test setNumLigne()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class ChargesProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumLotEcriture()
+     * Test setNumLotEcriture()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class ChargesProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumLotPeriodicite()
+     * Test setNumLotPeriodicite()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class ChargesProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroCompte()
+     * Test setNumeroCompte()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class ChargesProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRefImage()
+     * Test setRefImage()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class ChargesProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSens()
+     * Test setSens()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class ChargesProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTxTva()
+     * Test setTxTva()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class ChargesProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

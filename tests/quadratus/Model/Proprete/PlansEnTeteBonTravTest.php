@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class PlansEnTeteBonTravTest extends AbstractTestCase {
 
     /**
-     * Tests setBtq()
+     * Test setBtq()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class PlansEnTeteBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBureauDistributeur()
+     * Test setBureauDistributeur()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class PlansEnTeteBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCivilite()
+     * Test setCivilite()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class PlansEnTeteBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class PlansEnTeteBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantier()
+     * Test setCodeChantier()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class PlansEnTeteBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class PlansEnTeteBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePays()
+     * Test setCodePays()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class PlansEnTeteBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePostal()
+     * Test setCodePostal()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class PlansEnTeteBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRegroupement()
+     * Test setCodeRegroupement()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class PlansEnTeteBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setComplement()
+     * Test setComplement()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class PlansEnTeteBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtAvantDernPrepa()
+     * Test setDtAvantDernPrepa()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -172,7 +172,7 @@ class PlansEnTeteBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtDernPrepa()
+     * Test setDtDernPrepa()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -189,7 +189,7 @@ class PlansEnTeteBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtValiditeFactDeb()
+     * Test setDtValiditeFactDeb()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -206,7 +206,7 @@ class PlansEnTeteBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtValiditeFactDebDebMois()
+     * Test setDtValiditeFactDebDebMois()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -223,7 +223,7 @@ class PlansEnTeteBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtValiditeFactFin()
+     * Test setDtValiditeFactFin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -240,7 +240,7 @@ class PlansEnTeteBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtValiditeFactFinFinMois()
+     * Test setDtValiditeFactFinFinMois()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -257,7 +257,7 @@ class PlansEnTeteBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setJourFact()
+     * Test setJourFact()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class PlansEnTeteBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantHtpx()
+     * Test setMontantHtpx()
      *
      * @return void
      */
@@ -283,7 +283,7 @@ class PlansEnTeteBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantHtvm()
+     * Test setMontantHtvm()
      *
      * @return void
      */
@@ -296,7 +296,7 @@ class PlansEnTeteBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomClient()
+     * Test setNomClient()
      *
      * @return void
      */
@@ -309,7 +309,7 @@ class PlansEnTeteBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomSuite()
+     * Test setNomSuite()
      *
      * @return void
      */
@@ -322,7 +322,7 @@ class PlansEnTeteBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomSuite2()
+     * Test setNomSuite2()
      *
      * @return void
      */
@@ -335,7 +335,7 @@ class PlansEnTeteBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomSuite3()
+     * Test setNomSuite3()
      *
      * @return void
      */
@@ -348,7 +348,7 @@ class PlansEnTeteBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomVoie()
+     * Test setNomVoie()
      *
      * @return void
      */
@@ -361,7 +361,7 @@ class PlansEnTeteBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumBt()
+     * Test setNumBt()
      *
      * @return void
      */
@@ -374,7 +374,7 @@ class PlansEnTeteBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumVoie()
+     * Test setNumVoie()
      *
      * @return void
      */
@@ -387,7 +387,7 @@ class PlansEnTeteBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setReferenceFacture()
+     * Test setReferenceFacture()
      *
      * @return void
      */
@@ -400,7 +400,7 @@ class PlansEnTeteBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setReferenceFacture2()
+     * Test setReferenceFacture2()
      *
      * @return void
      */
@@ -413,7 +413,7 @@ class PlansEnTeteBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRepriseDatesEmployes()
+     * Test setRepriseDatesEmployes()
      *
      * @return void
      */
@@ -426,7 +426,7 @@ class PlansEnTeteBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeAdresse()
+     * Test setTypeAdresse()
      *
      * @return void
      */
@@ -439,7 +439,7 @@ class PlansEnTeteBonTravTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

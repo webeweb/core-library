@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class PostItTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeCollDest()
+     * Test setCodeCollDest()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class PostItTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollOrg()
+     * Test setCodeCollOrg()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class PostItTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateHeure()
+     * Test setDateHeure()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class PostItTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateSysSaisie()
+     * Test setDateSysSaisie()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -85,7 +85,7 @@ class PostItTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -98,7 +98,7 @@ class PostItTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRefGuid()
+     * Test setRefGuid()
      *
      * @return void
      */
@@ -111,7 +111,7 @@ class PostItTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setType()
+     * Test setType()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class PostItTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqId()
+     * Test setUniqId()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class PostItTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

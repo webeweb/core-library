@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ArtVarDepotTest extends AbstractTestCase {
 
     /**
-     * Tests setAlleeCasier()
+     * Test setAlleeCasier()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ArtVarDepotTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeArticle()
+     * Test setCodeArticle()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ArtVarDepotTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeDepot()
+     * Test setCodeDepot()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ArtVarDepotTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeVariante()
+     * Test setCodeVariante()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ArtVarDepotTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQteStockAttente()
+     * Test setQteStockAttente()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ArtVarDepotTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQteStockMaxi()
+     * Test setQteStockMaxi()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class ArtVarDepotTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQteStockMini()
+     * Test setQteStockMini()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class ArtVarDepotTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQteStockReel()
+     * Test setQteStockReel()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class ArtVarDepotTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQteStockReserve()
+     * Test setQteStockReserve()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class ArtVarDepotTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

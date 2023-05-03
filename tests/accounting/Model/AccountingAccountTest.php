@@ -26,7 +26,7 @@ use WBW\Library\Serializer\SerializerKeys as BaseSerializerKeys;
 class AccountingAccountTest extends AbstractTestCase {
 
     /**
-     * Tests jsonSerialize()
+     * Test jsonSerialize()
      *
      * @return void
      */
@@ -48,7 +48,7 @@ class AccountingAccountTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

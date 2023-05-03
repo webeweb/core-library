@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class StatsPersoSuiviClientTetesTest extends AbstractTestCase {
 
     /**
-     * Tests setCode()
+     * Test setCode()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class StatsPersoSuiviClientTetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCollCreat()
+     * Test setCollCreat()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class StatsPersoSuiviClientTetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCollModif()
+     * Test setCollModif()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class StatsPersoSuiviClientTetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateCreat()
+     * Test setDateCreat()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class StatsPersoSuiviClientTetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateModif()
+     * Test setDateModif()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -98,7 +98,7 @@ class StatsPersoSuiviClientTetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndice()
+     * Test setIndice()
      *
      * @return void
      */
@@ -111,7 +111,7 @@ class StatsPersoSuiviClientTetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class StatsPersoSuiviClientTetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLstCollab()
+     * Test setLstCollab()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class StatsPersoSuiviClientTetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class MissionRepartitionTachesTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class MissionRepartitionTachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaborateur()
+     * Test setCodeCollaborateur()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class MissionRepartitionTachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeMission()
+     * Test setCodeMission()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class MissionRepartitionTachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTache()
+     * Test setCodeTache()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class MissionRepartitionTachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRepartition()
+     * Test setRepartition()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class MissionRepartitionTachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

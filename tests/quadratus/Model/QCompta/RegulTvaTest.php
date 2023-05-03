@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class RegulTvaTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeTva()
+     * Test setCodeTva()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class RegulTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHt()
+     * Test setHt()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class RegulTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class RegulTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLigne()
+     * Test setLigne()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class RegulTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -94,7 +94,7 @@ class RegulTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTtc()
+     * Test setTtc()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class RegulTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTva()
+     * Test setTva()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class RegulTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setType()
+     * Test setType()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class RegulTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

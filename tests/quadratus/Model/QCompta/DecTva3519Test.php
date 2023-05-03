@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DecTva3519Test extends AbstractTestCase {
 
     /**
-     * Tests setAutresOpe1()
+     * Test setAutresOpe1()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setAutresOpe2()
+     * Test setAutresOpe2()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setAutresOpe3()
+     * Test setAutresOpe3()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setAutresOpe4()
+     * Test setAutresOpe4()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setAutresOpeTotal()
+     * Test setAutresOpeTotal()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setBic()
+     * Test setBic()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCommentaires1()
+     * Test setCommentaires1()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCommentaires2()
+     * Test setCommentaires2()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCommentaires3()
+     * Test setCommentaires3()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCommentaires4()
+     * Test setCommentaires4()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCommentaires5()
+     * Test setCommentaires5()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCreditCompte()
+     * Test setCreditCompte()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCreditImputer()
+     * Test setCreditImputer()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCreditNonRemb()
+     * Test setCreditNonRemb()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateCession()
+     * Test setDateCession()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -224,7 +224,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateCreation()
+     * Test setDateCreation()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -241,7 +241,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDemande()
+     * Test setDateDemande()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -258,7 +258,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setExpBiens1()
+     * Test setExpBiens1()
      *
      * @return void
      */
@@ -271,7 +271,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setExpBiens2()
+     * Test setExpBiens2()
      *
      * @return void
      */
@@ -284,7 +284,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setExpBiens3()
+     * Test setExpBiens3()
      *
      * @return void
      */
@@ -297,7 +297,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setExpBiens4()
+     * Test setExpBiens4()
      *
      * @return void
      */
@@ -310,7 +310,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setExpBiensTotal()
+     * Test setExpBiensTotal()
      *
      * @return void
      */
@@ -323,7 +323,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setExpPeriodes()
+     * Test setExpPeriodes()
      *
      * @return void
      */
@@ -336,7 +336,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setIban()
+     * Test setIban()
      *
      * @return void
      */
@@ -349,7 +349,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntracom1()
+     * Test setIntracom1()
      *
      * @return void
      */
@@ -362,7 +362,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntracom2()
+     * Test setIntracom2()
      *
      * @return void
      */
@@ -375,7 +375,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntracom3()
+     * Test setIntracom3()
      *
      * @return void
      */
@@ -388,7 +388,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntracom4()
+     * Test setIntracom4()
      *
      * @return void
      */
@@ -401,7 +401,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntracomTotal()
+     * Test setIntracomTotal()
      *
      * @return void
      */
@@ -414,7 +414,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setMois1()
+     * Test setMois1()
      *
      * @return void
      */
@@ -427,7 +427,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setMois2()
+     * Test setMois2()
      *
      * @return void
      */
@@ -440,7 +440,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setMois3()
+     * Test setMois3()
      *
      * @return void
      */
@@ -453,7 +453,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant1()
+     * Test setMontant1()
      *
      * @return void
      */
@@ -466,7 +466,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant2()
+     * Test setMontant2()
      *
      * @return void
      */
@@ -479,7 +479,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant3()
+     * Test setMontant3()
      *
      * @return void
      */
@@ -492,7 +492,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantRbt()
+     * Test setMontantRbt()
      *
      * @return void
      */
@@ -505,7 +505,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNationalite()
+     * Test setNationalite()
      *
      * @return void
      */
@@ -518,7 +518,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomPrenom()
+     * Test setNomPrenom()
      *
      * @return void
      */
@@ -531,7 +531,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -548,7 +548,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setPlafondRbt()
+     * Test setPlafondRbt()
      *
      * @return void
      */
@@ -561,7 +561,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setQualite()
+     * Test setQualite()
      *
      * @return void
      */
@@ -574,7 +574,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setRbtDemande()
+     * Test setRbtDemande()
      *
      * @return void
      */
@@ -587,7 +587,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setReportCredit()
+     * Test setReportCredit()
      *
      * @return void
      */
@@ -600,7 +600,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setRib()
+     * Test setRib()
      *
      * @return void
      */
@@ -613,7 +613,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxTva1()
+     * Test setTauxTva1()
      *
      * @return void
      */
@@ -626,7 +626,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxTva2()
+     * Test setTauxTva2()
      *
      * @return void
      */
@@ -639,7 +639,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxTva3()
+     * Test setTauxTva3()
      *
      * @return void
      */
@@ -652,7 +652,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxTva4()
+     * Test setTauxTva4()
      *
      * @return void
      */
@@ -665,7 +665,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTotalColonne1()
+     * Test setTotalColonne1()
      *
      * @return void
      */
@@ -678,7 +678,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTotalColonne2()
+     * Test setTotalColonne2()
      *
      * @return void
      */
@@ -691,7 +691,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTotalColonne3()
+     * Test setTotalColonne3()
      *
      * @return void
      */
@@ -704,7 +704,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTotalColonne4()
+     * Test setTotalColonne4()
      *
      * @return void
      */
@@ -717,7 +717,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTotalColonne5()
+     * Test setTotalColonne5()
      *
      * @return void
      */
@@ -730,7 +730,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaFictive1()
+     * Test setTvaFictive1()
      *
      * @return void
      */
@@ -743,7 +743,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaFictive2()
+     * Test setTvaFictive2()
      *
      * @return void
      */
@@ -756,7 +756,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaFictive3()
+     * Test setTvaFictive3()
      *
      * @return void
      */
@@ -769,7 +769,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaFictive4()
+     * Test setTvaFictive4()
      *
      * @return void
      */
@@ -782,7 +782,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaFictive5()
+     * Test setTvaFictive5()
      *
      * @return void
      */
@@ -795,7 +795,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaFictivePrec()
+     * Test setTvaFictivePrec()
      *
      * @return void
      */
@@ -808,7 +808,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaFictivePres()
+     * Test setTvaFictivePres()
      *
      * @return void
      */
@@ -821,7 +821,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeDemande()
+     * Test setTypeDemande()
      *
      * @return void
      */
@@ -834,7 +834,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setVille()
+     * Test setVille()
      *
      * @return void
      */
@@ -847,7 +847,7 @@ class DecTva3519Test extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

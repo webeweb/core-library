@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DadsuSituationTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeDebutPeriode()
+     * Test setCodeDebutPeriode()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class DadsuSituationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeOrganisme()
+     * Test setCodeOrganisme()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class DadsuSituationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTempsArret()
+     * Test setCodeTempsArret()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class DadsuSituationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateCtrlNorme()
+     * Test setDateCtrlNorme()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class DadsuSituationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDebutPeriode()
+     * Test setDebutPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -98,7 +98,7 @@ class DadsuSituationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDepuisCalcul()
+     * Test setDepuisCalcul()
      *
      * @return void
      */
@@ -111,7 +111,7 @@ class DadsuSituationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtatCtrlNorme()
+     * Test setEtatCtrlNorme()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class DadsuSituationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFinPeriode()
+     * Test setFinPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -141,7 +141,7 @@ class DadsuSituationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant1()
+     * Test setMontant1()
      *
      * @return void
      */
@@ -154,7 +154,7 @@ class DadsuSituationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant2()
+     * Test setMontant2()
      *
      * @return void
      */
@@ -167,7 +167,7 @@ class DadsuSituationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantEmployeur()
+     * Test setMontantEmployeur()
      *
      * @return void
      */
@@ -180,7 +180,7 @@ class DadsuSituationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMotifSituation()
+     * Test setMotifSituation()
      *
      * @return void
      */
@@ -193,7 +193,7 @@ class DadsuSituationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumero()
+     * Test setNumero()
      *
      * @return void
      */
@@ -206,7 +206,7 @@ class DadsuSituationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroOrdre()
+     * Test setNumeroOrdre()
      *
      * @return void
      */
@@ -219,7 +219,7 @@ class DadsuSituationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQualifUniteTemps()
+     * Test setQualifUniteTemps()
      *
      * @return void
      */
@@ -232,7 +232,7 @@ class DadsuSituationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTempsArret()
+     * Test setTempsArret()
      *
      * @return void
      */
@@ -245,7 +245,7 @@ class DadsuSituationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeBase()
+     * Test setTypeBase()
      *
      * @return void
      */
@@ -258,7 +258,7 @@ class DadsuSituationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

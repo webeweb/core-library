@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class Etablissements2Test extends AbstractTestCase {
 
     /**
-     * Tests setAdherentSyndicat()
+     * Test setAdherentSyndicat()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setAnneeChgtEffectif()
+     * Test setAnneeChgtEffectif()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setAnneeJei()
+     * Test setAnneeJei()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setAssujettiCvae()
+     * Test setAssujettiCvae()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setAutreSignatureDnae()
+     * Test setAutreSignatureDnae()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setBic2()
+     * Test setBic2()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setBic3()
+     * Test setBic3()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCaisseCpTransport()
+     * Test setCaisseCpTransport()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCategorieJuridique()
+     * Test setCategorieJuridique()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEtablissement()
+     * Test setCodeEtablissement()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeMedTravDue()
+     * Test setCodeMedTravDue()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeOrgaDue()
+     * Test setCodeOrgaDue()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCoeffFillonMoins20()
+     * Test setCoeffFillonMoins20()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteChargeHeuresActPart()
+     * Test setCompteChargeHeuresActPart()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteChargeIndemAbsIntemp()
+     * Test setCompteChargeIndemAbsIntemp()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteChargeIndemActPart()
+     * Test setCompteChargeIndemActPart()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteChargeIntVers()
+     * Test setCompteChargeIntVers()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteChargePartVers()
+     * Test setCompteChargePartVers()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setContactSignatureDnae()
+     * Test setContactSignatureDnae()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFinExclureLfr2012()
+     * Test setDateFinExclureLfr2012()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -289,7 +289,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setExclureLfr2012()
+     * Test setExclureLfr2012()
      *
      * @return void
      */
@@ -302,7 +302,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setGestionHstepa()
+     * Test setGestionHstepa()
      *
      * @return void
      */
@@ -315,7 +315,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setGestionMaintienSalAuto()
+     * Test setGestionMaintienSalAuto()
      *
      * @return void
      */
@@ -328,7 +328,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setIban2()
+     * Test setIban2()
      *
      * @return void
      */
@@ -341,7 +341,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setIban3()
+     * Test setIban3()
      *
      * @return void
      */
@@ -354,7 +354,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setIbanIdClient2()
+     * Test setIbanIdClient2()
      *
      * @return void
      */
@@ -367,7 +367,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setIbanIdClient3()
+     * Test setIbanIdClient3()
      *
      * @return void
      */
@@ -380,7 +380,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setImplantationEntreprise()
+     * Test setImplantationEntreprise()
      *
      * @return void
      */
@@ -393,7 +393,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setJfChargeEmp()
+     * Test setJfChargeEmp()
      *
      * @return void
      */
@@ -406,7 +406,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setLieuSignatureDnae()
+     * Test setLieuSignatureDnae()
      *
      * @return void
      */
@@ -419,7 +419,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setMaintienNetDeducCsgijss()
+     * Test setMaintienNetDeducCsgijss()
      *
      * @return void
      */
@@ -432,7 +432,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbFractionEtab()
+     * Test setNbFractionEtab()
      *
      * @return void
      */
@@ -445,7 +445,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomSignataireDnae()
+     * Test setNomSignataireDnae()
      *
      * @return void
      */
@@ -458,7 +458,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrenomSignataireDnae()
+     * Test setPrenomSignataireDnae()
      *
      * @return void
      */
@@ -471,7 +471,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setPseudoSiret()
+     * Test setPseudoSiret()
      *
      * @return void
      */
@@ -484,7 +484,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setQualiteSignataireDnae()
+     * Test setQualiteSignataireDnae()
      *
      * @return void
      */
@@ -497,7 +497,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setReductionMayotte()
+     * Test setReductionMayotte()
      *
      * @return void
      */
@@ -510,7 +510,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemunerationExpatries()
+     * Test setRemunerationExpatries()
      *
      * @return void
      */
@@ -523,7 +523,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setSiretCentralisateur()
+     * Test setSiretCentralisateur()
      *
      * @return void
      */
@@ -536,7 +536,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setSmicMCourant()
+     * Test setSmicMCourant()
      *
      * @return void
      */
@@ -549,7 +549,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setSocieteInterim()
+     * Test setSocieteInterim()
      *
      * @return void
      */
@@ -562,7 +562,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxComplHeure()
+     * Test setTauxComplHeure()
      *
      * @return void
      */
@@ -575,7 +575,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxCotisOssEtOpe()
+     * Test setTauxCotisOssEtOpe()
      *
      * @return void
      */
@@ -588,7 +588,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxHComp()
+     * Test setTauxHComp()
      *
      * @return void
      */
@@ -601,7 +601,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds19()
+     * Test setTds19()
      *
      * @return void
      */
@@ -614,7 +614,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTelSignatureDnae()
+     * Test setTelSignatureDnae()
      *
      * @return void
      */
@@ -627,7 +627,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTepaMoins20()
+     * Test setTepaMoins20()
      *
      * @return void
      */
@@ -640,7 +640,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeEffectifCt()
+     * Test setTypeEffectifCt()
      *
      * @return void
      */
@@ -653,7 +653,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeMaintienBrutNet()
+     * Test setTypeMaintienBrutNet()
      *
      * @return void
      */
@@ -666,7 +666,7 @@ class Etablissements2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

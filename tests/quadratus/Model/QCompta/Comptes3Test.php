@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class Comptes3Test extends AbstractTestCase {
 
     /**
-     * Tests setCodeSection()
+     * Test setCodeSection()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class Comptes3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroCompte()
+     * Test setNumeroCompte()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class Comptes3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setPourcentRepart()
+     * Test setPourcentRepart()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class Comptes3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

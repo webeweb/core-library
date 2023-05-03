@@ -26,7 +26,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Assets\TestIcon;
 class AbstractIconTest extends AbstractTestCase {
 
     /**
-     * Tests jsonSerialize()
+     * Test jsonSerialize()
      *
      * @return void
      */
@@ -47,7 +47,7 @@ class AbstractIconTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

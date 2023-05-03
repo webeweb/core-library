@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EtablissementsTest extends AbstractTestCase {
 
     /**
-     * Tests setAbattementMax()
+     * Test setAbattementMax()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAllegParticulier()
+     * Test setAllegParticulier()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAtBureau1()
+     * Test setAtBureau1()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAtBureau2()
+     * Test setAtBureau2()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAtBureau3()
+     * Test setAtBureau3()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAtBureau4()
+     * Test setAtBureau4()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAtBureau5()
+     * Test setAtBureau5()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAtEtab1()
+     * Test setAtEtab1()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAtEtab2()
+     * Test setAtEtab2()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAtEtab3()
+     * Test setAtEtab3()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAtEtab4()
+     * Test setAtEtab4()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAtEtab5()
+     * Test setAtEtab5()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAtRisque1()
+     * Test setAtRisque1()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAtRisque2()
+     * Test setAtRisque2()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAtRisque3()
+     * Test setAtRisque3()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAtRisque4()
+     * Test setAtRisque4()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAtRisque5()
+     * Test setAtRisque5()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAtTaux1()
+     * Test setAtTaux1()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAtTaux2()
+     * Test setAtTaux2()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAtTaux3()
+     * Test setAtTaux3()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAtTaux4()
+     * Test setAtTaux4()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAtTaux5()
+     * Test setAtTaux5()
      *
      * @return void
      */
@@ -311,7 +311,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAtTauxBul1()
+     * Test setAtTauxBul1()
      *
      * @return void
      */
@@ -324,7 +324,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAtTauxBul2()
+     * Test setAtTauxBul2()
      *
      * @return void
      */
@@ -337,7 +337,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAtTauxBul3()
+     * Test setAtTauxBul3()
      *
      * @return void
      */
@@ -350,7 +350,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAtTauxBul4()
+     * Test setAtTauxBul4()
      *
      * @return void
      */
@@ -363,7 +363,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAtTauxBul5()
+     * Test setAtTauxBul5()
      *
      * @return void
      */
@@ -376,7 +376,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAubry1Modifie()
+     * Test setAubry1Modifie()
      *
      * @return void
      */
@@ -389,7 +389,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAutreAlleg()
+     * Test setAutreAlleg()
      *
      * @return void
      */
@@ -402,7 +402,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBanque1()
+     * Test setBanque1()
      *
      * @return void
      */
@@ -415,7 +415,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBanque2()
+     * Test setBanque2()
      *
      * @return void
      */
@@ -428,7 +428,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBanque3()
+     * Test setBanque3()
      *
      * @return void
      */
@@ -441,7 +441,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBic1()
+     * Test setBic1()
      *
      * @return void
      */
@@ -454,7 +454,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBonusCospar()
+     * Test setBonusCospar()
      *
      * @return void
      */
@@ -467,7 +467,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBtq()
+     * Test setBtq()
      *
      * @return void
      */
@@ -480,7 +480,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBureauDistributeur()
+     * Test setBureauDistributeur()
      *
      * @return void
      */
@@ -493,7 +493,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCColect11()
+     * Test setCColect11()
      *
      * @return void
      */
@@ -506,7 +506,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCColect12()
+     * Test setCColect12()
      *
      * @return void
      */
@@ -519,7 +519,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCColect21()
+     * Test setCColect21()
      *
      * @return void
      */
@@ -532,7 +532,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCColect22()
+     * Test setCColect22()
      *
      * @return void
      */
@@ -545,7 +545,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCColect31()
+     * Test setCColect31()
      *
      * @return void
      */
@@ -558,7 +558,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCColect32()
+     * Test setCColect32()
      *
      * @return void
      */
@@ -571,7 +571,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCColect41()
+     * Test setCColect41()
      *
      * @return void
      */
@@ -584,7 +584,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCColect42()
+     * Test setCColect42()
      *
      * @return void
      */
@@ -597,7 +597,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCColect51()
+     * Test setCColect51()
      *
      * @return void
      */
@@ -610,7 +610,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCColect52()
+     * Test setCColect52()
      *
      * @return void
      */
@@ -623,7 +623,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCColect61()
+     * Test setCColect61()
      *
      * @return void
      */
@@ -636,7 +636,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCColect62()
+     * Test setCColect62()
      *
      * @return void
      */
@@ -649,7 +649,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCaisseCp()
+     * Test setCaisseCp()
      *
      * @return void
      */
@@ -662,7 +662,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCentreAnalytique()
+     * Test setCentreAnalytique()
      *
      * @return void
      */
@@ -675,7 +675,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCivilite()
+     * Test setCivilite()
      *
      * @return void
      */
@@ -688,7 +688,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAdherent()
+     * Test setCodeAdherent()
      *
      * @return void
      */
@@ -701,7 +701,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCColect1()
+     * Test setCodeCColect1()
      *
      * @return void
      */
@@ -714,7 +714,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCColect2()
+     * Test setCodeCColect2()
      *
      * @return void
      */
@@ -727,7 +727,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCColect3()
+     * Test setCodeCColect3()
      *
      * @return void
      */
@@ -740,7 +740,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCColect4()
+     * Test setCodeCColect4()
      *
      * @return void
      */
@@ -753,7 +753,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCColect5()
+     * Test setCodeCColect5()
      *
      * @return void
      */
@@ -766,7 +766,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCColect6()
+     * Test setCodeCColect6()
      *
      * @return void
      */
@@ -779,7 +779,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCentreImpot()
+     * Test setCodeCentreImpot()
      *
      * @return void
      */
@@ -792,7 +792,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeDucsSpecif()
+     * Test setCodeDucsSpecif()
      *
      * @return void
      */
@@ -805,7 +805,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEtablissement()
+     * Test setCodeEtablissement()
      *
      * @return void
      */
@@ -818,7 +818,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeInsee()
+     * Test setCodeInsee()
      *
      * @return void
      */
@@ -831,7 +831,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeJournalBanque()
+     * Test setCodeJournalBanque()
      *
      * @return void
      */
@@ -844,7 +844,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeJournalPaie()
+     * Test setCodeJournalPaie()
      *
      * @return void
      */
@@ -857,7 +857,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeMetierRetraite()
+     * Test setCodeMetierRetraite()
      *
      * @return void
      */
@@ -870,7 +870,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeNaf()
+     * Test setCodeNaf()
      *
      * @return void
      */
@@ -883,7 +883,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeNaf2()
+     * Test setCodeNaf2()
      *
      * @return void
      */
@@ -896,7 +896,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeNaf2008()
+     * Test setCodeNaf2008()
      *
      * @return void
      */
@@ -909,7 +909,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeNaf22008()
+     * Test setCodeNaf22008()
      *
      * @return void
      */
@@ -922,7 +922,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeNaf3()
+     * Test setCodeNaf3()
      *
      * @return void
      */
@@ -935,7 +935,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeNaf32008()
+     * Test setCodeNaf32008()
      *
      * @return void
      */
@@ -948,7 +948,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeOfficielCommune()
+     * Test setCodeOfficielCommune()
      *
      * @return void
      */
@@ -961,7 +961,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePays()
+     * Test setCodePays()
      *
      * @return void
      */
@@ -974,7 +974,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePaysResidence()
+     * Test setCodePaysResidence()
      *
      * @return void
      */
@@ -987,7 +987,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePostal()
+     * Test setCodePostal()
      *
      * @return void
      */
@@ -1000,7 +1000,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCoeffAubry2()
+     * Test setCoeffAubry2()
      *
      * @return void
      */
@@ -1013,7 +1013,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setComplement()
+     * Test setComplement()
      *
      * @return void
      */
@@ -1026,7 +1026,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteAcompteEmploye()
+     * Test setCompteAcompteEmploye()
      *
      * @return void
      */
@@ -1039,7 +1039,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteCharge1()
+     * Test setCompteCharge1()
      *
      * @return void
      */
@@ -1052,7 +1052,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteCharge10()
+     * Test setCompteCharge10()
      *
      * @return void
      */
@@ -1065,7 +1065,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteCharge11()
+     * Test setCompteCharge11()
      *
      * @return void
      */
@@ -1078,7 +1078,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteCharge2()
+     * Test setCompteCharge2()
      *
      * @return void
      */
@@ -1091,7 +1091,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteCharge3()
+     * Test setCompteCharge3()
      *
      * @return void
      */
@@ -1104,7 +1104,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteCharge4()
+     * Test setCompteCharge4()
      *
      * @return void
      */
@@ -1117,7 +1117,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteCharge5()
+     * Test setCompteCharge5()
      *
      * @return void
      */
@@ -1130,7 +1130,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteCharge6()
+     * Test setCompteCharge6()
      *
      * @return void
      */
@@ -1143,7 +1143,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteCharge7()
+     * Test setCompteCharge7()
      *
      * @return void
      */
@@ -1156,7 +1156,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteCharge8()
+     * Test setCompteCharge8()
      *
      * @return void
      */
@@ -1169,7 +1169,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteCharge9()
+     * Test setCompteCharge9()
      *
      * @return void
      */
@@ -1182,7 +1182,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteChargeAen()
+     * Test setCompteChargeAen()
      *
      * @return void
      */
@@ -1195,7 +1195,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteChargeFc()
+     * Test setCompteChargeFc()
      *
      * @return void
      */
@@ -1208,7 +1208,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteChargeIjss()
+     * Test setCompteChargeIjss()
      *
      * @return void
      */
@@ -1221,7 +1221,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteChargeIndemCp()
+     * Test setCompteChargeIndemCp()
      *
      * @return void
      */
@@ -1234,7 +1234,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteSaisieArret()
+     * Test setCompteSaisieArret()
      *
      * @return void
      */
@@ -1247,7 +1247,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteTiers1()
+     * Test setCompteTiers1()
      *
      * @return void
      */
@@ -1260,7 +1260,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteTiers2()
+     * Test setCompteTiers2()
      *
      * @return void
      */
@@ -1273,7 +1273,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDadsuCodeCColect1()
+     * Test setDadsuCodeCColect1()
      *
      * @return void
      */
@@ -1286,7 +1286,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDadsuCodeCColect2()
+     * Test setDadsuCodeCColect2()
      *
      * @return void
      */
@@ -1299,7 +1299,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDadsuCodeCColect3()
+     * Test setDadsuCodeCColect3()
      *
      * @return void
      */
@@ -1312,7 +1312,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDadsuCodeCColect4()
+     * Test setDadsuCodeCColect4()
      *
      * @return void
      */
@@ -1325,7 +1325,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDadsuCodeCColect5()
+     * Test setDadsuCodeCColect5()
      *
      * @return void
      */
@@ -1338,7 +1338,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDadsuCodeCColect6()
+     * Test setDadsuCodeCColect6()
      *
      * @return void
      */
@@ -1351,7 +1351,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateAllegement()
+     * Test setDateAllegement()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1368,7 +1368,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDucs()
+     * Test setDateDucs()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1385,7 +1385,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFinCospar()
+     * Test setDateFinCospar()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1402,7 +1402,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFinCp()
+     * Test setDateFinCp()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1419,7 +1419,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateModification()
+     * Test setDateModification()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1436,7 +1436,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDatePublication()
+     * Test setDatePublication()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1453,7 +1453,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDebutEnvoi()
+     * Test setDebutEnvoi()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1470,7 +1470,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDetailSalarie()
+     * Test setDetailSalarie()
      *
      * @return void
      */
@@ -1483,7 +1483,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDomaineActivite()
+     * Test setDomaineActivite()
      *
      * @return void
      */
@@ -1496,7 +1496,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDossierComptable()
+     * Test setDossierComptable()
      *
      * @return void
      */
@@ -1509,7 +1509,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEditionDif()
+     * Test setEditionDif()
      *
      * @return void
      */
@@ -1522,7 +1522,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEditionDifBul()
+     * Test setEditionDifBul()
      *
      * @return void
      */
@@ -1535,7 +1535,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmetteur1()
+     * Test setEmetteur1()
      *
      * @return void
      */
@@ -1548,7 +1548,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmetteur2()
+     * Test setEmetteur2()
      *
      * @return void
      */
@@ -1561,7 +1561,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmetteur3()
+     * Test setEmetteur3()
      *
      * @return void
      */
@@ -1574,7 +1574,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEnseigne()
+     * Test setEnseigne()
      *
      * @return void
      */
@@ -1587,7 +1587,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtabDeclDadsu()
+     * Test setEtabDeclDadsu()
      *
      * @return void
      */
@@ -1600,7 +1600,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExclureDadsu()
+     * Test setExclureDadsu()
      *
      * @return void
      */
@@ -1613,7 +1613,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExoLodeomRenforcee()
+     * Test setExoLodeomRenforcee()
      *
      * @return void
      */
@@ -1626,7 +1626,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFax()
+     * Test setFax()
      *
      * @return void
      */
@@ -1639,7 +1639,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFinEnvoi()
+     * Test setFinEnvoi()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1656,7 +1656,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGereFractionEtab()
+     * Test setGereFractionEtab()
      *
      * @return void
      */
@@ -1669,7 +1669,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGestionContingent()
+     * Test setGestionContingent()
      *
      * @return void
      */
@@ -1682,7 +1682,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGestionDucs1()
+     * Test setGestionDucs1()
      *
      * @return void
      */
@@ -1695,7 +1695,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGestionDucs2()
+     * Test setGestionDucs2()
      *
      * @return void
      */
@@ -1708,7 +1708,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGestionJourFerieEtab()
+     * Test setGestionJourFerieEtab()
      *
      * @return void
      */
@@ -1721,7 +1721,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGestionReposComp()
+     * Test setGestionReposComp()
      *
      * @return void
      */
@@ -1734,7 +1734,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGestionReposRecup()
+     * Test setGestionReposRecup()
      *
      * @return void
      */
@@ -1747,7 +1747,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGestionReposRemplace()
+     * Test setGestionReposRemplace()
      *
      * @return void
      */
@@ -1760,7 +1760,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGestionRtt()
+     * Test setGestionRtt()
      *
      * @return void
      */
@@ -1773,7 +1773,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGestionSemType()
+     * Test setGestionSemType()
      *
      * @return void
      */
@@ -1786,7 +1786,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIban1()
+     * Test setIban1()
      *
      * @return void
      */
@@ -1799,7 +1799,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIbanIdClient1()
+     * Test setIbanIdClient1()
      *
      * @return void
      */
@@ -1812,7 +1812,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setInscritRepMetier()
+     * Test setInscritRepMetier()
      *
      * @return void
      */
@@ -1825,7 +1825,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setJourVerseSalaire()
+     * Test setJourVerseSalaire()
      *
      * @return void
      */
@@ -1838,7 +1838,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMaintienIntervientCp()
+     * Test setMaintienIntervientCp()
      *
      * @return void
      */
@@ -1851,7 +1851,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMaintienSalaire()
+     * Test setMaintienSalaire()
      *
      * @return void
      */
@@ -1864,7 +1864,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMaintienSpecifique()
+     * Test setMaintienSpecifique()
      *
      * @return void
      */
@@ -1877,7 +1877,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMasqueServiceEmploye()
+     * Test setMasqueServiceEmploye()
      *
      * @return void
      */
@@ -1890,7 +1890,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMethodeCp()
+     * Test setMethodeCp()
      *
      * @return void
      */
@@ -1903,7 +1903,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMoisClotureCp()
+     * Test setMoisClotureCp()
      *
      * @return void
      */
@@ -1916,7 +1916,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMoisClotureDif()
+     * Test setMoisClotureDif()
      *
      * @return void
      */
@@ -1929,7 +1929,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMoisClotureRtt()
+     * Test setMoisClotureRtt()
      *
      * @return void
      */
@@ -1942,7 +1942,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant1()
+     * Test setMontant1()
      *
      * @return void
      */
@@ -1955,7 +1955,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant2()
+     * Test setMontant2()
      *
      * @return void
      */
@@ -1968,7 +1968,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant3()
+     * Test setMontant3()
      *
      * @return void
      */
@@ -1981,7 +1981,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant4()
+     * Test setMontant4()
      *
      * @return void
      */
@@ -1994,7 +1994,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant5()
+     * Test setMontant5()
      *
      * @return void
      */
@@ -2007,7 +2007,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantAllegement()
+     * Test setMontantAllegement()
      *
      * @return void
      */
@@ -2020,7 +2020,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNatureAnalytique()
+     * Test setNatureAnalytique()
      *
      * @return void
      */
@@ -2033,7 +2033,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHJour1()
+     * Test setNbHJour1()
      *
      * @return void
      */
@@ -2046,7 +2046,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHJour2()
+     * Test setNbHJour2()
      *
      * @return void
      */
@@ -2059,7 +2059,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHJour3()
+     * Test setNbHJour3()
      *
      * @return void
      */
@@ -2072,7 +2072,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHJour4()
+     * Test setNbHJour4()
      *
      * @return void
      */
@@ -2085,7 +2085,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHJour5()
+     * Test setNbHJour5()
      *
      * @return void
      */
@@ -2098,7 +2098,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHJour6()
+     * Test setNbHJour6()
      *
      * @return void
      */
@@ -2111,7 +2111,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHJour7()
+     * Test setNbHJour7()
      *
      * @return void
      */
@@ -2124,7 +2124,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHdifAn()
+     * Test setNbHdifAn()
      *
      * @return void
      */
@@ -2137,7 +2137,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHeureTravMois()
+     * Test setNbHeureTravMois()
      *
      * @return void
      */
@@ -2150,7 +2150,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJourBase()
+     * Test setNbJourBase()
      *
      * @return void
      */
@@ -2163,7 +2163,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJourBaseCp()
+     * Test setNbJourBaseCp()
      *
      * @return void
      */
@@ -2176,7 +2176,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJourCpAcquis()
+     * Test setNbJourCpAcquis()
      *
      * @return void
      */
@@ -2189,7 +2189,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbMAjoutPer()
+     * Test setNbMAjoutPer()
      *
      * @return void
      */
@@ -2202,7 +2202,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbMoisAubry1()
+     * Test setNbMoisAubry1()
      *
      * @return void
      */
@@ -2215,7 +2215,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbhJourRtt()
+     * Test setNbhJourRtt()
      *
      * @return void
      */
@@ -2228,7 +2228,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNePasActiverLoiFillon2003()
+     * Test setNePasActiverLoiFillon2003()
      *
      * @return void
      */
@@ -2241,7 +2241,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomVille()
+     * Test setNomVille()
      *
      * @return void
      */
@@ -2254,7 +2254,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomVilleInsee()
+     * Test setNomVilleInsee()
      *
      * @return void
      */
@@ -2267,7 +2267,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomVoie()
+     * Test setNomVoie()
      *
      * @return void
      */
@@ -2280,7 +2280,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumVoie()
+     * Test setNumVoie()
      *
      * @return void
      */
@@ -2293,7 +2293,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOpcaDif()
+     * Test setOpcaDif()
      *
      * @return void
      */
@@ -2306,7 +2306,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPLafondExo()
+     * Test setPLafondExo()
      *
      * @return void
      */
@@ -2319,7 +2319,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPaieDecalee()
+     * Test setPaieDecalee()
      *
      * @return void
      */
@@ -2332,7 +2332,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPlafond1Caisse1()
+     * Test setPlafond1Caisse1()
      *
      * @return void
      */
@@ -2345,7 +2345,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPlafond1Caisse2()
+     * Test setPlafond1Caisse2()
      *
      * @return void
      */
@@ -2358,7 +2358,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPlafond1Caisse3()
+     * Test setPlafond1Caisse3()
      *
      * @return void
      */
@@ -2371,7 +2371,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPlafond2Caisse1()
+     * Test setPlafond2Caisse1()
      *
      * @return void
      */
@@ -2384,7 +2384,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPlafond2Caisse2()
+     * Test setPlafond2Caisse2()
      *
      * @return void
      */
@@ -2397,7 +2397,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPlafond2Caisse3()
+     * Test setPlafond2Caisse3()
      *
      * @return void
      */
@@ -2410,7 +2410,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPourcentBonif()
+     * Test setPourcentBonif()
      *
      * @return void
      */
@@ -2423,7 +2423,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPourcentExo()
+     * Test setPourcentExo()
      *
      * @return void
      */
@@ -2436,7 +2436,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPourcentTransport()
+     * Test setPourcentTransport()
      *
      * @return void
      */
@@ -2449,7 +2449,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPourcentageImp()
+     * Test setPourcentageImp()
      *
      * @return void
      */
@@ -2462,7 +2462,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setProfSpectacle()
+     * Test setProfSpectacle()
      *
      * @return void
      */
@@ -2475,7 +2475,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setProfession()
+     * Test setProfession()
      *
      * @return void
      */
@@ -2488,7 +2488,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrudType()
+     * Test setPrudType()
      *
      * @return void
      */
@@ -2501,7 +2501,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrudTypeDadsu()
+     * Test setPrudTypeDadsu()
      *
      * @return void
      */
@@ -2514,7 +2514,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPublication()
+     * Test setPublication()
      *
      * @return void
      */
@@ -2527,7 +2527,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQualite()
+     * Test setQualite()
      *
      * @return void
      */
@@ -2540,7 +2540,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRaisonSociale()
+     * Test setRaisonSociale()
      *
      * @return void
      */
@@ -2553,7 +2553,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setReductionFillon()
+     * Test setReductionFillon()
      *
      * @return void
      */
@@ -2566,7 +2566,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setResponsable()
+     * Test setResponsable()
      *
      * @return void
      */
@@ -2579,7 +2579,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRib1()
+     * Test setRib1()
      *
      * @return void
      */
@@ -2592,7 +2592,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRib2()
+     * Test setRib2()
      *
      * @return void
      */
@@ -2605,7 +2605,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRib3()
+     * Test setRib3()
      *
      * @return void
      */
@@ -2618,7 +2618,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRtt1()
+     * Test setRtt1()
      *
      * @return void
      */
@@ -2631,7 +2631,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRtt10()
+     * Test setRtt10()
      *
      * @return void
      */
@@ -2644,7 +2644,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRtt11()
+     * Test setRtt11()
      *
      * @return void
      */
@@ -2657,7 +2657,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRtt12()
+     * Test setRtt12()
      *
      * @return void
      */
@@ -2670,7 +2670,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRtt2()
+     * Test setRtt2()
      *
      * @return void
      */
@@ -2683,7 +2683,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRtt3()
+     * Test setRtt3()
      *
      * @return void
      */
@@ -2696,7 +2696,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRtt4()
+     * Test setRtt4()
      *
      * @return void
      */
@@ -2709,7 +2709,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRtt5()
+     * Test setRtt5()
      *
      * @return void
      */
@@ -2722,7 +2722,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRtt6()
+     * Test setRtt6()
      *
      * @return void
      */
@@ -2735,7 +2735,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRtt7()
+     * Test setRtt7()
      *
      * @return void
      */
@@ -2748,7 +2748,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRtt8()
+     * Test setRtt8()
      *
      * @return void
      */
@@ -2761,7 +2761,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRtt9()
+     * Test setRtt9()
      *
      * @return void
      */
@@ -2774,7 +2774,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSiegeDadsu()
+     * Test setSiegeDadsu()
      *
      * @return void
      */
@@ -2787,7 +2787,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSiret()
+     * Test setSiret()
      *
      * @return void
      */
@@ -2800,7 +2800,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSituationGeo()
+     * Test setSituationGeo()
      *
      * @return void
      */
@@ -2813,7 +2813,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSubrogation()
+     * Test setSubrogation()
      *
      * @return void
      */
@@ -2826,7 +2826,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSuiviAnalytique()
+     * Test setSuiviAnalytique()
      *
      * @return void
      */
@@ -2839,7 +2839,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxActionsociale()
+     * Test setTauxActionsociale()
      *
      * @return void
      */
@@ -2852,7 +2852,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxConstruction()
+     * Test setTauxConstruction()
      *
      * @return void
      */
@@ -2865,7 +2865,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxFormation()
+     * Test setTauxFormation()
      *
      * @return void
      */
@@ -2878,7 +2878,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxHSup1()
+     * Test setTauxHSup1()
      *
      * @return void
      */
@@ -2891,7 +2891,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxHSup2()
+     * Test setTauxHSup2()
      *
      * @return void
      */
@@ -2904,7 +2904,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxHSup3()
+     * Test setTauxHSup3()
      *
      * @return void
      */
@@ -2917,7 +2917,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxHSup4()
+     * Test setTauxHSup4()
      *
      * @return void
      */
@@ -2930,7 +2930,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxHSup5()
+     * Test setTauxHSup5()
      *
      * @return void
      */
@@ -2943,7 +2943,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxRetTr2Pp()
+     * Test setTauxRetTr2Pp()
      *
      * @return void
      */
@@ -2956,7 +2956,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxRetTr2Ps()
+     * Test setTauxRetTr2Ps()
      *
      * @return void
      */
@@ -2969,7 +2969,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxRetTrApp()
+     * Test setTauxRetTrApp()
      *
      * @return void
      */
@@ -2982,7 +2982,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxRetTrAps()
+     * Test setTauxRetTrAps()
      *
      * @return void
      */
@@ -2995,7 +2995,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxRetTrBpp()
+     * Test setTauxRetTrBpp()
      *
      * @return void
      */
@@ -3008,7 +3008,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxRetTrBps()
+     * Test setTauxRetTrBps()
      *
      * @return void
      */
@@ -3021,7 +3021,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxRetTrCpp()
+     * Test setTauxRetTrCpp()
      *
      * @return void
      */
@@ -3034,7 +3034,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxRetTrCps()
+     * Test setTauxRetTrCps()
      *
      * @return void
      */
@@ -3047,7 +3047,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxRetTrDpp()
+     * Test setTauxRetTrDpp()
      *
      * @return void
      */
@@ -3060,7 +3060,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxRetTrDps()
+     * Test setTauxRetTrDps()
      *
      * @return void
      */
@@ -3073,7 +3073,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxSupFormation()
+     * Test setTauxSupFormation()
      *
      * @return void
      */
@@ -3086,7 +3086,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxTaxeApprenti()
+     * Test setTauxTaxeApprenti()
      *
      * @return void
      */
@@ -3099,7 +3099,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxTransport()
+     * Test setTauxTransport()
      *
      * @return void
      */
@@ -3112,7 +3112,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds128()
+     * Test setTds128()
      *
      * @return void
      */
@@ -3125,7 +3125,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds19()
+     * Test setTds19()
      *
      * @return void
      */
@@ -3138,7 +3138,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds47()
+     * Test setTds47()
      *
      * @return void
      */
@@ -3151,7 +3151,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTel()
+     * Test setTel()
      *
      * @return void
      */
@@ -3164,7 +3164,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTxSalDecote()
+     * Test setTxSalDecote()
      *
      * @return void
      */
@@ -3177,7 +3177,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeBaseCaisse1()
+     * Test setTypeBaseCaisse1()
      *
      * @return void
      */
@@ -3190,7 +3190,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeBaseCaisse2()
+     * Test setTypeBaseCaisse2()
      *
      * @return void
      */
@@ -3203,7 +3203,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeBaseCaisse3()
+     * Test setTypeBaseCaisse3()
      *
      * @return void
      */
@@ -3216,7 +3216,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeBonif()
+     * Test setTypeBonif()
      *
      * @return void
      */
@@ -3229,7 +3229,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeDomiciliationBanque1()
+     * Test setTypeDomiciliationBanque1()
      *
      * @return void
      */
@@ -3242,7 +3242,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeDomiciliationBanque2()
+     * Test setTypeDomiciliationBanque2()
      *
      * @return void
      */
@@ -3255,7 +3255,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeDomiciliationBanque3()
+     * Test setTypeDomiciliationBanque3()
      *
      * @return void
      */
@@ -3268,7 +3268,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeEffectif()
+     * Test setTypeEffectif()
      *
      * @return void
      */
@@ -3281,7 +3281,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeMaintienSalaire()
+     * Test setTypeMaintienSalaire()
      *
      * @return void
      */
@@ -3294,7 +3294,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypePublication()
+     * Test setTypePublication()
      *
      * @return void
      */
@@ -3307,7 +3307,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeSaisieAbCp()
+     * Test setTypeSaisieAbCp()
      *
      * @return void
      */
@@ -3320,7 +3320,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeSmic()
+     * Test setTypeSmic()
      *
      * @return void
      */
@@ -3333,7 +3333,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUrssafAlsace()
+     * Test setUrssafAlsace()
      *
      * @return void
      */
@@ -3346,7 +3346,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZoneSpecif()
+     * Test setZoneSpecif()
      *
      * @return void
      */
@@ -3359,7 +3359,7 @@ class EtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

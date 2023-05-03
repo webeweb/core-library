@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class Employes2Test extends AbstractTestCase {
 
     /**
-     * Tests setADeclarerCp()
+     * Test setADeclarerCp()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setActiveSalMinConv()
+     * Test setActiveSalMinConv()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setActiveSmic()
+     * Test setActiveSmic()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setAenLogement()
+     * Test setAenLogement()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setAllegParticulierEmp()
+     * Test setAllegParticulierEmp()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setArbitrageAuto()
+     * Test setArbitrageAuto()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setAutreAllegEmp()
+     * Test setAutreAllegEmp()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setBic()
+     * Test setBic()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCaisseCp()
+     * Test setCaisseCp()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCentreAnalytique()
+     * Test setCentreAnalytique()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setChefEquipe()
+     * Test setChefEquipe()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCiePlus50()
+     * Test setCiePlus50()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAnalytiqueProprete()
+     * Test setCodeAnalytiqueProprete()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEmpRemplace()
+     * Test setCodeEmpRemplace()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeInsee()
+     * Test setCodeInsee()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeMotifRupture1()
+     * Test setCodeMotifRupture1()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeMotifRupture2()
+     * Test setCodeMotifRupture2()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePaysResidence()
+     * Test setCodePaysResidence()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTuteur()
+     * Test setCodeTuteur()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCoeffConvention()
+     * Test setCoeffConvention()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCommercial()
+     * Test setCommercial()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setComplementPcs()
+     * Test setComplementPcs()
      *
      * @return void
      */
@@ -311,7 +311,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setConjointExploitant()
+     * Test setConjointExploitant()
      *
      * @return void
      */
@@ -324,7 +324,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setContratCne()
+     * Test setContratCne()
      *
      * @return void
      */
@@ -337,7 +337,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCotisBasePenibilite()
+     * Test setCotisBasePenibilite()
      *
      * @return void
      */
@@ -350,7 +350,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCritereTriAbsConges1()
+     * Test setCritereTriAbsConges1()
      *
      * @return void
      */
@@ -363,7 +363,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCritereTriAbsConges2()
+     * Test setCritereTriAbsConges2()
      *
      * @return void
      */
@@ -376,7 +376,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCritereTriAbsConges3()
+     * Test setCritereTriAbsConges3()
      *
      * @return void
      */
@@ -389,7 +389,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBaseTr2()
+     * Test setCumBaseTr2()
      *
      * @return void
      */
@@ -402,7 +402,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBaseTrD()
+     * Test setCumBaseTrD()
      *
      * @return void
      */
@@ -415,7 +415,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBaseTrD1()
+     * Test setCumBaseTrD1()
      *
      * @return void
      */
@@ -428,7 +428,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBaseTrD1Caisse1()
+     * Test setCumBaseTrD1Caisse1()
      *
      * @return void
      */
@@ -441,7 +441,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBaseTrD1Caisse2()
+     * Test setCumBaseTrD1Caisse2()
      *
      * @return void
      */
@@ -454,7 +454,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBaseTrD1Caisse3()
+     * Test setCumBaseTrD1Caisse3()
      *
      * @return void
      */
@@ -467,7 +467,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBaseTrDCaisse1()
+     * Test setCumBaseTrDCaisse1()
      *
      * @return void
      */
@@ -480,7 +480,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBaseTrDCaisse2()
+     * Test setCumBaseTrDCaisse2()
      *
      * @return void
      */
@@ -493,7 +493,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBaseTrDCaisse3()
+     * Test setCumBaseTrDCaisse3()
      *
      * @return void
      */
@@ -506,7 +506,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBrutAlSansSi()
+     * Test setCumBrutAlSansSi()
      *
      * @return void
      */
@@ -519,7 +519,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBrutCaisse1()
+     * Test setCumBrutCaisse1()
      *
      * @return void
      */
@@ -532,7 +532,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBrutCaisse2()
+     * Test setCumBrutCaisse2()
      *
      * @return void
      */
@@ -545,7 +545,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumBrutCaisse3()
+     * Test setCumBrutCaisse3()
      *
      * @return void
      */
@@ -558,7 +558,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumDifDus()
+     * Test setCumDifDus()
      *
      * @return void
      */
@@ -571,7 +571,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumDifDus1()
+     * Test setCumDifDus1()
      *
      * @return void
      */
@@ -584,7 +584,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumHBonifie()
+     * Test setCumHBonifie()
      *
      * @return void
      */
@@ -597,7 +597,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumRttDus()
+     * Test setCumRttDus()
      *
      * @return void
      */
@@ -610,7 +610,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumRttPris()
+     * Test setCumRttPris()
      *
      * @return void
      */
@@ -623,7 +623,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTotSi()
+     * Test setCumTotSi()
      *
      * @return void
      */
@@ -636,7 +636,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTranche2SansSi()
+     * Test setCumTranche2SansSi()
      *
      * @return void
      */
@@ -649,7 +649,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTranche2Si()
+     * Test setCumTranche2Si()
      *
      * @return void
      */
@@ -662,7 +662,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrancheASansSi()
+     * Test setCumTrancheASansSi()
      *
      * @return void
      */
@@ -675,7 +675,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrancheAsi()
+     * Test setCumTrancheAsi()
      *
      * @return void
      */
@@ -688,7 +688,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrancheBSansSi()
+     * Test setCumTrancheBSansSi()
      *
      * @return void
      */
@@ -701,7 +701,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrancheBsi()
+     * Test setCumTrancheBsi()
      *
      * @return void
      */
@@ -714,7 +714,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrancheCSansSi()
+     * Test setCumTrancheCSansSi()
      *
      * @return void
      */
@@ -727,7 +727,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrancheCsi()
+     * Test setCumTrancheCsi()
      *
      * @return void
      */
@@ -740,7 +740,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrancheD1SansSi()
+     * Test setCumTrancheD1SansSi()
      *
      * @return void
      */
@@ -753,7 +753,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCumTrancheDSansSi()
+     * Test setCumTrancheDSansSi()
      *
      * @return void
      */
@@ -766,7 +766,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDadsuConjointSalarie()
+     * Test setDadsuConjointSalarie()
      *
      * @return void
      */
@@ -779,7 +779,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateCreation()
+     * Test setDateCreation()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -796,7 +796,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFinExclureLfr2012()
+     * Test setDateFinExclureLfr2012()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -813,7 +813,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFinPortabilite()
+     * Test setDateFinPortabilite()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -830,7 +830,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDatePassageCdi()
+     * Test setDatePassageCdi()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -847,7 +847,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateRenouvCdd()
+     * Test setDateRenouvCdd()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -864,7 +864,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDeductionAnc()
+     * Test setDeductionAnc()
      *
      * @return void
      */
@@ -877,7 +877,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setEchelon()
+     * Test setEchelon()
      *
      * @return void
      */
@@ -890,7 +890,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setEdHSupBonifQueMajo()
+     * Test setEdHSupBonifQueMajo()
      *
      * @return void
      */
@@ -903,7 +903,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmail()
+     * Test setEmail()
      *
      * @return void
      */
@@ -916,7 +916,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtatIPaie()
+     * Test setEtatIPaie()
      *
      * @return void
      */
@@ -929,7 +929,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setExclureChomCdd()
+     * Test setExclureChomCdd()
      *
      * @return void
      */
@@ -942,7 +942,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setExclureCice()
+     * Test setExclureCice()
      *
      * @return void
      */
@@ -955,7 +955,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setExclureCospar()
+     * Test setExclureCospar()
      *
      * @return void
      */
@@ -968,7 +968,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setExclureCotAssedicParUrssaf()
+     * Test setExclureCotAssedicParUrssaf()
      *
      * @return void
      */
@@ -981,7 +981,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setExclureDas()
+     * Test setExclureDas()
      *
      * @return void
      */
@@ -994,7 +994,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setExclureDsn()
+     * Test setExclureDsn()
      *
      * @return void
      */
@@ -1007,7 +1007,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setExclureLfr2012()
+     * Test setExclureLfr2012()
      *
      * @return void
      */
@@ -1020,7 +1020,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setExclureLoiTepa()
+     * Test setExclureLoiTepa()
      *
      * @return void
      */
@@ -1033,7 +1033,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setExclureLoiTepaPartP()
+     * Test setExclureLoiTepaPartP()
      *
      * @return void
      */
@@ -1046,7 +1046,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setExclureLoiTepaPartS()
+     * Test setExclureLoiTepaPartS()
      *
      * @return void
      */
@@ -1059,7 +1059,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setExclureQgc()
+     * Test setExclureQgc()
      *
      * @return void
      */
@@ -1072,7 +1072,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setExoAccre17()
+     * Test setExoAccre17()
      *
      * @return void
      */
@@ -1085,7 +1085,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setExoAgff()
+     * Test setExoAgff()
      *
      * @return void
      */
@@ -1098,7 +1098,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setExoOccasionnelMsa()
+     * Test setExoOccasionnelMsa()
      *
      * @return void
      */
@@ -1111,7 +1111,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setExoProfessionnalisation()
+     * Test setExoProfessionnalisation()
      *
      * @return void
      */
@@ -1124,7 +1124,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setExoSpecif()
+     * Test setExoSpecif()
      *
      * @return void
      */
@@ -1137,7 +1137,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setForfaitHeure()
+     * Test setForfaitHeure()
      *
      * @return void
      */
@@ -1150,7 +1150,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setForfaitJour()
+     * Test setForfaitJour()
      *
      * @return void
      */
@@ -1163,7 +1163,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setGestionCompteurHCompleter()
+     * Test setGestionCompteurHCompleter()
      *
      * @return void
      */
@@ -1176,7 +1176,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setGestionCp()
+     * Test setGestionCp()
      *
      * @return void
      */
@@ -1189,7 +1189,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setGestionMailBulletin()
+     * Test setGestionMailBulletin()
      *
      * @return void
      */
@@ -1202,7 +1202,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setGestionReposComp()
+     * Test setGestionReposComp()
      *
      * @return void
      */
@@ -1215,7 +1215,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setGestionReposRecup()
+     * Test setGestionReposRecup()
      *
      * @return void
      */
@@ -1228,7 +1228,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setGestionReposRemplace()
+     * Test setGestionReposRemplace()
      *
      * @return void
      */
@@ -1241,7 +1241,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setGestionRtt()
+     * Test setGestionRtt()
      *
      * @return void
      */
@@ -1254,7 +1254,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setGestionSemType()
+     * Test setGestionSemType()
      *
      * @return void
      */
@@ -1267,7 +1267,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setHeuresPeriodeInitial()
+     * Test setHeuresPeriodeInitial()
      *
      * @return void
      */
@@ -1280,7 +1280,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setIban()
+     * Test setIban()
      *
      * @return void
      */
@@ -1293,7 +1293,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndemCpMsa()
+     * Test setIndemCpMsa()
      *
      * @return void
      */
@@ -1306,7 +1306,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndiceCateg()
+     * Test setIndiceCateg()
      *
      * @return void
      */
@@ -1319,7 +1319,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setInspecteur()
+     * Test setInspecteur()
      *
      * @return void
      */
@@ -1332,7 +1332,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setInterimIndemCpFillon()
+     * Test setInterimIndemCpFillon()
      *
      * @return void
      */
@@ -1345,7 +1345,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setMailBulletinPwd()
+     * Test setMailBulletinPwd()
      *
      * @return void
      */
@@ -1358,7 +1358,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setMaintienIntervientCp()
+     * Test setMaintienIntervientCp()
      *
      * @return void
      */
@@ -1371,7 +1371,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setMaintienNetDeducCsgijss()
+     * Test setMaintienNetDeducCsgijss()
      *
      * @return void
      */
@@ -1384,7 +1384,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setMaintienSalaire()
+     * Test setMaintienSalaire()
      *
      * @return void
      */
@@ -1397,7 +1397,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setMaintienSpecifique()
+     * Test setMaintienSpecifique()
      *
      * @return void
      */
@@ -1410,7 +1410,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setMajoProfessionnalisation()
+     * Test setMajoProfessionnalisation()
      *
      * @return void
      */
@@ -1423,7 +1423,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setMandataireSocial()
+     * Test setMandataireSocial()
      *
      * @return void
      */
@@ -1436,7 +1436,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setModeleBulletin()
+     * Test setModeleBulletin()
      *
      * @return void
      */
@@ -1449,7 +1449,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setMoisClotureDif()
+     * Test setMoisClotureDif()
      *
      * @return void
      */
@@ -1462,7 +1462,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setMotifCdd()
+     * Test setMotifCdd()
      *
      * @return void
      */
@@ -1475,7 +1475,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setMotifExclusionDsn()
+     * Test setMotifExclusionDsn()
      *
      * @return void
      */
@@ -1488,7 +1488,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setMultiEmployeur()
+     * Test setMultiEmployeur()
      *
      * @return void
      */
@@ -1501,7 +1501,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNatureAnalytique()
+     * Test setNatureAnalytique()
      *
      * @return void
      */
@@ -1514,7 +1514,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHBonifie()
+     * Test setNbHBonifie()
      *
      * @return void
      */
@@ -1527,7 +1527,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHContingent()
+     * Test setNbHContingent()
      *
      * @return void
      */
@@ -1540,7 +1540,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHJour1()
+     * Test setNbHJour1()
      *
      * @return void
      */
@@ -1553,7 +1553,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHJour2()
+     * Test setNbHJour2()
      *
      * @return void
      */
@@ -1566,7 +1566,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHJour3()
+     * Test setNbHJour3()
      *
      * @return void
      */
@@ -1579,7 +1579,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHJour4()
+     * Test setNbHJour4()
      *
      * @return void
      */
@@ -1592,7 +1592,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHJour5()
+     * Test setNbHJour5()
      *
      * @return void
      */
@@ -1605,7 +1605,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHJour6()
+     * Test setNbHJour6()
      *
      * @return void
      */
@@ -1618,7 +1618,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHJour7()
+     * Test setNbHJour7()
      *
      * @return void
      */
@@ -1631,7 +1631,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJourAnnee()
+     * Test setNbJourAnnee()
      *
      * @return void
      */
@@ -1644,7 +1644,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJourCpAcquis()
+     * Test setNbJourCpAcquis()
      *
      * @return void
      */
@@ -1657,7 +1657,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJourCpSup()
+     * Test setNbJourCpSup()
      *
      * @return void
      */
@@ -1670,7 +1670,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbPieceLogement()
+     * Test setNbPieceLogement()
      *
      * @return void
      */
@@ -1683,7 +1683,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNePasActiverPrimeAnnuelleProprete()
+     * Test setNePasActiverPrimeAnnuelleProprete()
      *
      * @return void
      */
@@ -1696,7 +1696,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNiveau()
+     * Test setNiveau()
      *
      * @return void
      */
@@ -1709,7 +1709,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomVilleInsee()
+     * Test setNomVilleInsee()
      *
      * @return void
      */
@@ -1722,7 +1722,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumero()
+     * Test setNumero()
      *
      * @return void
      */
@@ -1735,7 +1735,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroAbattementContratMsa()
+     * Test setNumeroAbattementContratMsa()
      *
      * @return void
      */
@@ -1748,7 +1748,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroContrat()
+     * Test setNumeroContrat()
      *
      * @return void
      */
@@ -1761,7 +1761,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmployeContrat()
+     * Test setNumeroEmployeContrat()
      *
      * @return void
      */
@@ -1774,7 +1774,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setPasGestionDif()
+     * Test setPasGestionDif()
      *
      * @return void
      */
@@ -1787,7 +1787,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setPaysNaissance()
+     * Test setPaysNaissance()
      *
      * @return void
      */
@@ -1800,7 +1800,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setPaysNat()
+     * Test setPaysNat()
      *
      * @return void
      */
@@ -1813,7 +1813,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodePointageCloturee()
+     * Test setPeriodePointageCloturee()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1830,7 +1830,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setPosition()
+     * Test setPosition()
      *
      * @return void
      */
@@ -1843,7 +1843,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setPourcentExo()
+     * Test setPourcentExo()
      *
      * @return void
      */
@@ -1856,7 +1856,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setRbtNavigoNonProratise()
+     * Test setRbtNavigoNonProratise()
      *
      * @return void
      */
@@ -1869,7 +1869,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setReductionFillon()
+     * Test setReductionFillon()
      *
      * @return void
      */
@@ -1882,7 +1882,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setReductionMayotte()
+     * Test setReductionMayotte()
      *
      * @return void
      */
@@ -1895,7 +1895,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemunPartFillon()
+     * Test setRemunPartFillon()
      *
      * @return void
      */
@@ -1908,7 +1908,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setRtt1()
+     * Test setRtt1()
      *
      * @return void
      */
@@ -1921,7 +1921,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setRtt10()
+     * Test setRtt10()
      *
      * @return void
      */
@@ -1934,7 +1934,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setRtt11()
+     * Test setRtt11()
      *
      * @return void
      */
@@ -1947,7 +1947,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setRtt12()
+     * Test setRtt12()
      *
      * @return void
      */
@@ -1960,7 +1960,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setRtt2()
+     * Test setRtt2()
      *
      * @return void
      */
@@ -1973,7 +1973,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setRtt3()
+     * Test setRtt3()
      *
      * @return void
      */
@@ -1986,7 +1986,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setRtt4()
+     * Test setRtt4()
      *
      * @return void
      */
@@ -1999,7 +1999,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setRtt5()
+     * Test setRtt5()
      *
      * @return void
      */
@@ -2012,7 +2012,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setRtt6()
+     * Test setRtt6()
      *
      * @return void
      */
@@ -2025,7 +2025,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setRtt7()
+     * Test setRtt7()
      *
      * @return void
      */
@@ -2038,7 +2038,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setRtt8()
+     * Test setRtt8()
      *
      * @return void
      */
@@ -2051,7 +2051,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setRtt9()
+     * Test setRtt9()
      *
      * @return void
      */
@@ -2064,7 +2064,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setSansContrat()
+     * Test setSansContrat()
      *
      * @return void
      */
@@ -2077,7 +2077,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setSubrogation()
+     * Test setSubrogation()
      *
      * @return void
      */
@@ -2090,7 +2090,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds142()
+     * Test setTds142()
      *
      * @return void
      */
@@ -2103,7 +2103,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTdsAllocChom()
+     * Test setTdsAllocChom()
      *
      * @return void
      */
@@ -2116,7 +2116,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTdsAllocRetraite()
+     * Test setTdsAllocRetraite()
      *
      * @return void
      */
@@ -2129,7 +2129,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTel2()
+     * Test setTel2()
      *
      * @return void
      */
@@ -2142,7 +2142,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTravailleurDeNuit()
+     * Test setTravailleurDeNuit()
      *
      * @return void
      */
@@ -2155,7 +2155,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeAboNavigo()
+     * Test setTypeAboNavigo()
      *
      * @return void
      */
@@ -2168,7 +2168,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeExoLodeom()
+     * Test setTypeExoLodeom()
      *
      * @return void
      */
@@ -2181,7 +2181,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeIntemperieBtp()
+     * Test setTypeIntemperieBtp()
      *
      * @return void
      */
@@ -2194,7 +2194,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeMaintienBrutNet()
+     * Test setTypeMaintienBrutNet()
      *
      * @return void
      */
@@ -2207,7 +2207,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeMaintienSalaire()
+     * Test setTypeMaintienSalaire()
      *
      * @return void
      */
@@ -2220,7 +2220,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeSaisieAbCp()
+     * Test setTypeSaisieAbCp()
      *
      * @return void
      */
@@ -2233,7 +2233,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setZoneNavigo()
+     * Test setZoneNavigo()
      *
      * @return void
      */
@@ -2246,7 +2246,7 @@ class Employes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

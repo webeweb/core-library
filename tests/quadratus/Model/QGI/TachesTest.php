@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class TachesTest extends AbstractTestCase {
 
     /**
-     * Tests setArticle()
+     * Test setArticle()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCode()
+     * Test setCode()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeFrais()
+     * Test setCodeFrais()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRegroupement()
+     * Test setCodeRegroupement()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTravail()
+     * Test setCodeTravail()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeUo()
+     * Test setCodeUo()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteComptable()
+     * Test setCompteComptable()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteTva()
+     * Test setCompteTva()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFacturable()
+     * Test setFacturable()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setInactif()
+     * Test setInactif()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntitule()
+     * Test setIntitule()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntituleRtf()
+     * Test setIntituleRtf()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setListeTravaux()
+     * Test setListeTravaux()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNiveauExec()
+     * Test setNiveauExec()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNonRemboursable()
+     * Test setNonRemboursable()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNonTravaillee()
+     * Test setNonTravaillee()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOperationnelle()
+     * Test setOperationnelle()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrixVente1()
+     * Test setPrixVente1()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrixVente2()
+     * Test setPrixVente2()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrixVente3()
+     * Test setPrixVente3()
      *
      * @return void
      */
@@ -283,7 +283,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPvMaxi()
+     * Test setPvMaxi()
      *
      * @return void
      */
@@ -296,7 +296,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSaisieTva()
+     * Test setSaisieTva()
      *
      * @return void
      */
@@ -309,7 +309,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSuperFacturable()
+     * Test setSuperFacturable()
      *
      * @return void
      */
@@ -322,7 +322,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTicketResto()
+     * Test setTicketResto()
      *
      * @return void
      */
@@ -335,7 +335,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeHeure()
+     * Test setTypeHeure()
      *
      * @return void
      */
@@ -348,7 +348,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

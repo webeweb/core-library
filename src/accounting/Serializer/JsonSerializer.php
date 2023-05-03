@@ -28,7 +28,7 @@ use WBW\Library\Serializer\SerializerKeys as BaseSerializerKeys;
 class JsonSerializer {
 
     /**
-     * Serializes an accounting account.
+     * Serialize an accounting account.
      *
      * @param AccountingAccountInterface $model The model.
      * @return array Returns the serialized model.
@@ -43,7 +43,7 @@ class JsonSerializer {
     }
 
     /**
-     * Serializes a bank details.
+     * Serialize a bank details.
      *
      * @param BankDetailsInterface $model The model.
      * @return array Returns the serialized model.
@@ -64,7 +64,7 @@ class JsonSerializer {
     }
 
     /**
-     * Serializes a payment choice.
+     * Serialize a payment choice.
      *
      * @param PaymentChoiceInterface $model The model.
      * @return array Returns the serialized model.
@@ -77,7 +77,7 @@ class JsonSerializer {
     }
 
     /**
-     * Serializes a payment term.
+     * Serialize a payment term.
      *
      * @param PaymentTermInterface $model The model.
      * @return array Returns the serialized model.
@@ -91,7 +91,7 @@ class JsonSerializer {
     }
 
     /**
-     * Serializes a VAT rate.
+     * Serialize a VAT rate.
      *
      * @param VatRateInterface $model The model.
      * @return array Returns the serialized model.

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DeclarationCafatTest extends AbstractTestCase {
 
     /**
-     * Tests setAdresse1()
+     * Test setAdresse1()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdresse2()
+     * Test setAdresse2()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdresse3()
+     * Test setAdresse3()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCotis()
+     * Test setCodeCotis()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEtablissement()
+     * Test setCodeEtablissement()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDeclaration()
+     * Test setDateDeclaration()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -107,7 +107,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLienDocument()
+     * Test setLienDocument()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtAutreDeduction()
+     * Test setMtAutreDeduction()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtDeductionAcompte()
+     * Test setMtDeductionAcompte()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtDeductionAcompte1()
+     * Test setMtDeductionAcompte1()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtDeductionAcompte2()
+     * Test setMtDeductionAcompte2()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbSalaries()
+     * Test setNbSalaries()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoCotisant()
+     * Test setNoCotisant()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOrganisme()
+     * Test setOrganisme()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPasDePersonnel()
+     * Test setPasDePersonnel()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPasDeReembauche()
+     * Test setPasDeReembauche()
      *
      * @return void
      */
@@ -237,7 +237,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeDecla()
+     * Test setPeriodeDecla()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -254,7 +254,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPlafond1RuammTr2()
+     * Test setPlafond1RuammTr2()
      *
      * @return void
      */
@@ -267,7 +267,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPlafond2RuammTr2()
+     * Test setPlafond2RuammTr2()
      *
      * @return void
      */
@@ -280,7 +280,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPlafondAutreRegime()
+     * Test setPlafondAutreRegime()
      *
      * @return void
      */
@@ -293,7 +293,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPlafondFsh()
+     * Test setPlafondFsh()
      *
      * @return void
      */
@@ -306,7 +306,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPlafondMaladie()
+     * Test setPlafondMaladie()
      *
      * @return void
      */
@@ -319,7 +319,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPlafondSalaire()
+     * Test setPlafondSalaire()
      *
      * @return void
      */
@@ -332,7 +332,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRaisonSociale()
+     * Test setRaisonSociale()
      *
      * @return void
      */
@@ -345,7 +345,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRid()
+     * Test setRid()
      *
      * @return void
      */
@@ -358,7 +358,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSecteur()
+     * Test setSecteur()
      *
      * @return void
      */
@@ -371,7 +371,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxAt()
+     * Test setTauxAt()
      *
      * @return void
      */
@@ -384,7 +384,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxAutreRegime()
+     * Test setTauxAutreRegime()
      *
      * @return void
      */
@@ -397,7 +397,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxCcs()
+     * Test setTauxCcs()
      *
      * @return void
      */
@@ -410,7 +410,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxFsh()
+     * Test setTauxFsh()
      *
      * @return void
      */
@@ -423,7 +423,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxMaladie()
+     * Test setTauxMaladie()
      *
      * @return void
      */
@@ -436,7 +436,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxRuammTr2()
+     * Test setTauxRuammTr2()
      *
      * @return void
      */
@@ -449,7 +449,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTotalCotisAutreRegime()
+     * Test setTotalCotisAutreRegime()
      *
      * @return void
      */
@@ -462,7 +462,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTotalCotisCcs()
+     * Test setTotalCotisCcs()
      *
      * @return void
      */
@@ -475,7 +475,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTotalCotisFsh()
+     * Test setTotalCotisFsh()
      *
      * @return void
      */
@@ -488,7 +488,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTotalCotisMaladie()
+     * Test setTotalCotisMaladie()
      *
      * @return void
      */
@@ -501,7 +501,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTotalCotisRuammTr2()
+     * Test setTotalCotisRuammTr2()
      *
      * @return void
      */
@@ -514,7 +514,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTotalRemuneration()
+     * Test setTotalRemuneration()
      *
      * @return void
      */
@@ -527,7 +527,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTotalRuammTr2()
+     * Test setTotalRuammTr2()
      *
      * @return void
      */
@@ -540,7 +540,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTotalSalaireAutreRegime()
+     * Test setTotalSalaireAutreRegime()
      *
      * @return void
      */
@@ -553,7 +553,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTotalSalaireCcs()
+     * Test setTotalSalaireCcs()
      *
      * @return void
      */
@@ -566,7 +566,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTotalSalaireFsh()
+     * Test setTotalSalaireFsh()
      *
      * @return void
      */
@@ -579,7 +579,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTotalSalaireMaladie()
+     * Test setTotalSalaireMaladie()
      *
      * @return void
      */
@@ -592,7 +592,7 @@ class DeclarationCafatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

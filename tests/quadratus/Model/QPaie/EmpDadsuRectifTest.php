@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EmpDadsuRectifTest extends AbstractTestCase {
 
     /**
-     * Tests setActif()
+     * Test setActif()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setActionsGratuitesNbre()
+     * Test setActionsGratuitesNbre()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setActionsGratuitesValeurU()
+     * Test setActionsGratuitesValeurU()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAutresSommesExoMnt1()
+     * Test setAutresSommesExoMnt1()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAutresSommesExoMnt2()
+     * Test setAutresSommesExoMnt2()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAutresSommesExoMnt3()
+     * Test setAutresSommesExoMnt3()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAutresSommesExoMnt4()
+     * Test setAutresSommesExoMnt4()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBaseExoBrut1()
+     * Test setBaseExoBrut1()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBaseExoBrut2()
+     * Test setBaseExoBrut2()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBaseExoBrut3()
+     * Test setBaseExoBrut3()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBaseExoPlaf1()
+     * Test setBaseExoPlaf1()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBaseExoPlaf2()
+     * Test setBaseExoPlaf2()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBaseExoPlaf3()
+     * Test setBaseExoPlaf3()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEtablissement()
+     * Test setCodeEtablissement()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCsgSpecif()
+     * Test setCsgSpecif()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEpargneSalMnt1()
+     * Test setEpargneSalMnt1()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEpargneSalMnt2()
+     * Test setEpargneSalMnt2()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEpargneSalMnt3()
+     * Test setEpargneSalMnt3()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEpargneSalMnt4()
+     * Test setEpargneSalMnt4()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGpecMntExoCotSecu()
+     * Test setGpecMntExoCotSecu()
      *
      * @return void
      */
@@ -283,7 +283,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGpecMntExoCsgcrds()
+     * Test setGpecMntExoCsgcrds()
      *
      * @return void
      */
@@ -296,7 +296,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndCp()
+     * Test setIndCp()
      *
      * @return void
      */
@@ -309,7 +309,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndemnCpPlaf()
+     * Test setIndemnCpPlaf()
      *
      * @return void
      */
@@ -322,7 +322,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndemnImpat()
+     * Test setIndemnImpat()
      *
      * @return void
      */
@@ -335,7 +335,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndemnRuptureMnt1()
+     * Test setIndemnRuptureMnt1()
      *
      * @return void
      */
@@ -348,7 +348,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndemnRuptureMnt2()
+     * Test setIndemnRuptureMnt2()
      *
      * @return void
      */
@@ -361,7 +361,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndiceRectif()
+     * Test setIndiceRectif()
      *
      * @return void
      */
@@ -374,7 +374,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantBPlaf()
+     * Test setMontantBPlaf()
      *
      * @return void
      */
@@ -387,7 +387,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantBPlaf2()
+     * Test setMontantBPlaf2()
      *
      * @return void
      */
@@ -400,7 +400,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantBPlaf3()
+     * Test setMontantBPlaf3()
      *
      * @return void
      */
@@ -413,7 +413,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantBPlaf4()
+     * Test setMontantBPlaf4()
      *
      * @return void
      */
@@ -426,7 +426,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantBPlaf5()
+     * Test setMontantBPlaf5()
      *
      * @return void
      */
@@ -439,7 +439,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantBrut()
+     * Test setMontantBrut()
      *
      * @return void
      */
@@ -452,7 +452,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantBrut2()
+     * Test setMontantBrut2()
      *
      * @return void
      */
@@ -465,7 +465,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantBrut3()
+     * Test setMontantBrut3()
      *
      * @return void
      */
@@ -478,7 +478,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantBrut4()
+     * Test setMontantBrut4()
      *
      * @return void
      */
@@ -491,7 +491,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantBrut5()
+     * Test setMontantBrut5()
      *
      * @return void
      */
@@ -504,7 +504,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantSommeIsolBrut()
+     * Test setMontantSommeIsolBrut()
      *
      * @return void
      */
@@ -517,7 +517,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantSommeIsolBrut2()
+     * Test setMontantSommeIsolBrut2()
      *
      * @return void
      */
@@ -530,7 +530,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantSommeIsolBrut3()
+     * Test setMontantSommeIsolBrut3()
      *
      * @return void
      */
@@ -543,7 +543,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantSommeIsolBrut4()
+     * Test setMontantSommeIsolBrut4()
      *
      * @return void
      */
@@ -556,7 +556,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantSommeIsolBrut5()
+     * Test setMontantSommeIsolBrut5()
      *
      * @return void
      */
@@ -569,7 +569,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantSommeIsolPlaf()
+     * Test setMontantSommeIsolPlaf()
      *
      * @return void
      */
@@ -582,7 +582,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantSommeIsolPlaf2()
+     * Test setMontantSommeIsolPlaf2()
      *
      * @return void
      */
@@ -595,7 +595,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantSommeIsolPlaf3()
+     * Test setMontantSommeIsolPlaf3()
      *
      * @return void
      */
@@ -608,7 +608,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantSommeIsolPlaf4()
+     * Test setMontantSommeIsolPlaf4()
      *
      * @return void
      */
@@ -621,7 +621,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantSommeIsolPlaf5()
+     * Test setMontantSommeIsolPlaf5()
      *
      * @return void
      */
@@ -634,7 +634,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumero()
+     * Test setNumero()
      *
      * @return void
      */
@@ -647,7 +647,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroOrdre()
+     * Test setNumeroOrdre()
      *
      * @return void
      */
@@ -660,7 +660,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setParticipPatronAvtgeMnt1()
+     * Test setParticipPatronAvtgeMnt1()
      *
      * @return void
      */
@@ -673,7 +673,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setParticipPatronAvtgeMnt2()
+     * Test setParticipPatronAvtgeMnt2()
      *
      * @return void
      */
@@ -686,7 +686,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setParticipServPers()
+     * Test setParticipServPers()
      *
      * @return void
      */
@@ -699,7 +699,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTaxeSalaire()
+     * Test setTaxeSalaire()
      *
      * @return void
      */
@@ -712,7 +712,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds100()
+     * Test setTds100()
      *
      * @return void
      */
@@ -725,7 +725,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds103()
+     * Test setTds103()
      *
      * @return void
      */
@@ -738,7 +738,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds105()
+     * Test setTds105()
      *
      * @return void
      */
@@ -751,7 +751,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds107()
+     * Test setTds107()
      *
      * @return void
      */
@@ -764,7 +764,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds108()
+     * Test setTds108()
      *
      * @return void
      */
@@ -777,7 +777,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds109()
+     * Test setTds109()
      *
      * @return void
      */
@@ -790,7 +790,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds110()
+     * Test setTds110()
      *
      * @return void
      */
@@ -803,7 +803,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds111()
+     * Test setTds111()
      *
      * @return void
      */
@@ -816,7 +816,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds112()
+     * Test setTds112()
      *
      * @return void
      */
@@ -829,7 +829,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds113()
+     * Test setTds113()
      *
      * @return void
      */
@@ -842,7 +842,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds117()
+     * Test setTds117()
      *
      * @return void
      */
@@ -855,7 +855,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds119()
+     * Test setTds119()
      *
      * @return void
      */
@@ -868,7 +868,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds120()
+     * Test setTds120()
      *
      * @return void
      */
@@ -881,7 +881,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds121()
+     * Test setTds121()
      *
      * @return void
      */
@@ -894,7 +894,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds122()
+     * Test setTds122()
      *
      * @return void
      */
@@ -907,7 +907,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds125()
+     * Test setTds125()
      *
      * @return void
      */
@@ -920,7 +920,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds132()
+     * Test setTds132()
      *
      * @return void
      */
@@ -933,7 +933,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds134()
+     * Test setTds134()
      *
      * @return void
      */
@@ -946,7 +946,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds135()
+     * Test setTds135()
      *
      * @return void
      */
@@ -959,7 +959,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds136()
+     * Test setTds136()
      *
      * @return void
      */
@@ -972,7 +972,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds137()
+     * Test setTds137()
      *
      * @return void
      */
@@ -985,7 +985,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds141()
+     * Test setTds141()
      *
      * @return void
      */
@@ -998,7 +998,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds142()
+     * Test setTds142()
      *
      * @return void
      */
@@ -1011,7 +1011,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds81()
+     * Test setTds81()
      *
      * @return void
      */
@@ -1024,7 +1024,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTds82()
+     * Test setTds82()
      *
      * @return void
      */
@@ -1037,7 +1037,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTdsAllocRetraite()
+     * Test setTdsAllocRetraite()
      *
      * @return void
      */
@@ -1050,7 +1050,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTotalPlaf()
+     * Test setTotalPlaf()
      *
      * @return void
      */
@@ -1063,7 +1063,7 @@ class EmpDadsuRectifTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

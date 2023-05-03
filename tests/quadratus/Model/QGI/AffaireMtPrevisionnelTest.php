@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AffaireMtPrevisionnelTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AffaireMtPrevisionnelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAvenant()
+     * Test setCodeAvenant()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AffaireMtPrevisionnelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePhase()
+     * Test setCodePhase()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AffaireMtPrevisionnelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDatePrev()
+     * Test setDatePrev()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class AffaireMtPrevisionnelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtPhase()
+     * Test setMtPhase()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class AffaireMtPrevisionnelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtPrev()
+     * Test setMtPrev()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class AffaireMtPrevisionnelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrctPhase()
+     * Test setPrctPhase()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class AffaireMtPrevisionnelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setType()
+     * Test setType()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class AffaireMtPrevisionnelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DevisDescriptifLocauxTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class DevisDescriptifLocauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantier()
+     * Test setCodeChantier()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class DevisDescriptifLocauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class DevisDescriptifLocauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class DevisDescriptifLocauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNiveauNoeud()
+     * Test setNiveauNoeud()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class DevisDescriptifLocauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoeudLocal()
+     * Test setNoeudLocal()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class DevisDescriptifLocauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumDevis()
+     * Test setNumDevis()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class DevisDescriptifLocauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroNoeud()
+     * Test setNumeroNoeud()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class DevisDescriptifLocauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqIdNoeud()
+     * Test setUniqIdNoeud()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class DevisDescriptifLocauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

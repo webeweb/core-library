@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Provider\TestThemeProviderTrait;
 class ThemeProviderTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setProvider()
+     * Test setProvider()
      *
      * @return void
      */

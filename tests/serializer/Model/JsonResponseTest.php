@@ -25,7 +25,7 @@ use WBW\Library\Symfony\Response\DefaultJsonResponseDataInterface;
 class JsonResponseTest extends AbstractTestCase {
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

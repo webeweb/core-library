@@ -27,7 +27,7 @@ use WBW\Library\Symfony\Tests\AbstractTestCase;
 class BlueGreyColorProviderTest extends AbstractTestCase {
 
     /**
-     * Tests getColors()
+     * Test getColors()
      *
      * @return void
      */
@@ -59,7 +59,7 @@ class BlueGreyColorProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests getName()
+     * Test getName()
      *
      * @return void
      */
@@ -71,7 +71,7 @@ class BlueGreyColorProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

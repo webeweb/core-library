@@ -23,7 +23,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Renderer\Assets\TestImageRendererTrait;
 class ImageRendererTraitTest extends AbstractTestCase {
 
     /**
-     * Tests renderImage()
+     * Test renderImage()
      *
      * @return void
      */

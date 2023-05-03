@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class CriteresChantierTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class CriteresChantierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantier()
+     * Test setCodeChantier()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class CriteresChantierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class CriteresChantierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRef1()
+     * Test setCodeRef1()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class CriteresChantierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRef2()
+     * Test setCodeRef2()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class CriteresChantierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRef3()
+     * Test setCodeRef3()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class CriteresChantierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRef4()
+     * Test setCodeRef4()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class CriteresChantierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRef5()
+     * Test setCodeRef5()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class CriteresChantierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTexte1()
+     * Test setTexte1()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class CriteresChantierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTexte2()
+     * Test setTexte2()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class CriteresChantierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTexte3()
+     * Test setTexte3()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class CriteresChantierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTexte4()
+     * Test setTexte4()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class CriteresChantierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTexte5()
+     * Test setTexte5()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class CriteresChantierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

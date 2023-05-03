@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Theme\DefaultTasksDropdownThemeProvider;
 class DefaultTasksDropdownThemeProviderTest extends AbstractTestCase {
 
     /**
-     * Tests getTasks()
+     * Test getTasks()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class DefaultTasksDropdownThemeProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

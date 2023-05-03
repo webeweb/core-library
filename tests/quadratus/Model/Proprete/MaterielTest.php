@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class MaterielTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeBarre()
+     * Test setCodeBarre()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class MaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeMateriel()
+     * Test setCodeMateriel()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class MaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateAchat()
+     * Test setDateAchat()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class MaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDebutAmortissement()
+     * Test setDateDebutAmortissement()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -85,7 +85,7 @@ class MaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFinAmortissement()
+     * Test setDateFinAmortissement()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -102,7 +102,7 @@ class MaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFinService()
+     * Test setDateFinService()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -119,7 +119,7 @@ class MaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateMiseEnService()
+     * Test setDateMiseEnService()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -136,7 +136,7 @@ class MaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDesignation1()
+     * Test setDesignation1()
      *
      * @return void
      */
@@ -149,7 +149,7 @@ class MaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDesignation2()
+     * Test setDesignation2()
      *
      * @return void
      */
@@ -162,7 +162,7 @@ class MaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDesignation3()
+     * Test setDesignation3()
      *
      * @return void
      */
@@ -175,7 +175,7 @@ class MaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDesignation4()
+     * Test setDesignation4()
      *
      * @return void
      */
@@ -188,7 +188,7 @@ class MaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDesignation5()
+     * Test setDesignation5()
      *
      * @return void
      */
@@ -201,7 +201,7 @@ class MaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantAmortissement()
+     * Test setMontantAmortissement()
      *
      * @return void
      */
@@ -214,7 +214,7 @@ class MaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroSerie()
+     * Test setNumeroSerie()
      *
      * @return void
      */
@@ -227,7 +227,7 @@ class MaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValAchatEuro()
+     * Test setValAchatEuro()
      *
      * @return void
      */
@@ -240,7 +240,7 @@ class MaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValAchatFrf()
+     * Test setValAchatFrf()
      *
      * @return void
      */
@@ -253,7 +253,7 @@ class MaterielTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class PrepaPaieTest extends AbstractTestCase {
 
     /**
-     * Tests setCpPris()
+     * Test setCpPris()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class PrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHMajoAcquis()
+     * Test setHMajoAcquis()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class PrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHMajoPris()
+     * Test setHMajoPris()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class PrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHSupAComptabiliserRc()
+     * Test setHSupAComptabiliserRc()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class PrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHSupAComptabiliserRcit()
+     * Test setHSupAComptabiliserRcit()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class PrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHSupBonif()
+     * Test setHSupBonif()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class PrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHorairePrevu()
+     * Test setHorairePrevu()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class PrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHComp()
+     * Test setNbHComp()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class PrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHNuit()
+     * Test setNbHNuit()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class PrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmploye()
+     * Test setNumeroEmploye()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class PrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -172,7 +172,7 @@ class PrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPourcentHBonif()
+     * Test setPourcentHBonif()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class PrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRRecupAcquis()
+     * Test setRRecupAcquis()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class PrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRRecupPris()
+     * Test setRRecupPris()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class PrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRcAcquis()
+     * Test setRcAcquis()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class PrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRcPris()
+     * Test setRcPris()
      *
      * @return void
      */
@@ -237,7 +237,7 @@ class PrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRrAcquis()
+     * Test setRrAcquis()
      *
      * @return void
      */
@@ -250,7 +250,7 @@ class PrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRrPris()
+     * Test setRrPris()
      *
      * @return void
      */
@@ -263,7 +263,7 @@ class PrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSemaine()
+     * Test setSemaine()
      *
      * @return void
      */
@@ -276,7 +276,7 @@ class PrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTotRealise()
+     * Test setTotRealise()
      *
      * @return void
      */
@@ -289,7 +289,7 @@ class PrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTravailEffectif()
+     * Test setTravailEffectif()
      *
      * @return void
      */
@@ -302,7 +302,7 @@ class PrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\SkiData\Tests\AbstractTestCase;
 class MissingStartRecordFormatExceptionTest extends AbstractTestCase {
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

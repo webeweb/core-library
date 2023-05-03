@@ -27,7 +27,7 @@ use WBW\Library\System\Tests\AbstractTestCase;
 class NetworkCardTest extends AbstractTestCase {
 
     /**
-     * Tests jsonSerialize()
+     * Test jsonSerialize()
      *
      * @return void
      */
@@ -53,7 +53,7 @@ class NetworkCardTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDuplex()
+     * Test setDuplex()
      *
      * @return void
      */
@@ -66,7 +66,7 @@ class NetworkCardTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIpv4()
+     * Test setIpv4()
      *
      * @return void
      */
@@ -79,7 +79,7 @@ class NetworkCardTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIpv6()
+     * Test setIpv6()
      *
      * @return void
      */
@@ -92,7 +92,7 @@ class NetworkCardTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMac()
+     * Test setMac()
      *
      * @return void
      */
@@ -105,7 +105,7 @@ class NetworkCardTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSpeed()
+     * Test setSpeed()
      *
      * @return void
      */
@@ -118,7 +118,7 @@ class NetworkCardTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setStatus()
+     * Test setStatus()
      *
      * @return void
      */
@@ -131,7 +131,7 @@ class NetworkCardTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

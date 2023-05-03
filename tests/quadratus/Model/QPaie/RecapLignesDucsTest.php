@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class RecapLignesDucsTest extends AbstractTestCase {
 
     /**
-     * Tests setAEditerDucs()
+     * Test setAEditerDucs()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAcompte()
+     * Test setAcompte()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setArrondiBase()
+     * Test setArrondiBase()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setArrondiCotis()
+     * Test setArrondiCotis()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCentre()
+     * Test setCodeCentre()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEtablissement()
+     * Test setCodeEtablissement()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateReglement()
+     * Test setDateReglement()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateVerseSalaire()
+     * Test setDateVerseSalaire()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -137,7 +137,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDucsEuro()
+     * Test setDucsEuro()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEffectifInscrit()
+     * Test setEffectifInscrit()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEffectifPaye()
+     * Test setEffectifPaye()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFinPer()
+     * Test setFinPer()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -193,7 +193,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGrandDecalage()
+     * Test setGrandDecalage()
      *
      * @return void
      */
@@ -206,7 +206,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLienDocument()
+     * Test setLienDocument()
      *
      * @return void
      */
@@ -219,7 +219,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantTotal()
+     * Test setMontantTotal()
      *
      * @return void
      */
@@ -232,7 +232,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMotifEcartEff()
+     * Test setMotifEcartEff()
      *
      * @return void
      */
@@ -245,7 +245,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbAutres()
+     * Test setNbAutres()
      *
      * @return void
      */
@@ -258,7 +258,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbFemmes()
+     * Test setNbFemmes()
      *
      * @return void
      */
@@ -271,7 +271,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbFinContrat()
+     * Test setNbFinContrat()
      *
      * @return void
      */
@@ -284,7 +284,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHommes()
+     * Test setNbHommes()
      *
      * @return void
      */
@@ -297,7 +297,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoAffiliation()
+     * Test setNoAffiliation()
      *
      * @return void
      */
@@ -310,7 +310,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOrganisme()
+     * Test setOrganisme()
      *
      * @return void
      */
@@ -323,7 +323,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPaieDecalee()
+     * Test setPaieDecalee()
      *
      * @return void
      */
@@ -336,7 +336,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPerDebCice()
+     * Test setPerDebCice()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -353,7 +353,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPerFinCice()
+     * Test setPerFinCice()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -370,7 +370,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      */
@@ -383,7 +383,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeDecla()
+     * Test setPeriodeDecla()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -400,7 +400,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPetitDecalage()
+     * Test setPetitDecalage()
      *
      * @return void
      */
@@ -413,7 +413,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPremMois()
+     * Test setPremMois()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -430,7 +430,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRaisonSociale()
+     * Test setRaisonSociale()
      *
      * @return void
      */
@@ -443,7 +443,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRegulDucs()
+     * Test setRegulDucs()
      *
      * @return void
      */
@@ -456,7 +456,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRib()
+     * Test setRib()
      *
      * @return void
      */
@@ -469,7 +469,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSousTypeOrganisme()
+     * Test setSousTypeOrganisme()
      *
      * @return void
      */
@@ -482,7 +482,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTraiterEdi()
+     * Test setTraiterEdi()
      *
      * @return void
      */
@@ -495,7 +495,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeOrganisme()
+     * Test setTypeOrganisme()
      *
      * @return void
      */
@@ -508,7 +508,7 @@ class RecapLignesDucsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

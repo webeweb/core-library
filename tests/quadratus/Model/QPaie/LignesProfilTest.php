@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LignesProfilTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeLibelle()
+     * Test setCodeLibelle()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class LignesProfilTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeProfil()
+     * Test setCodeProfil()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class LignesProfilTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDebPerApplication()
+     * Test setDebPerApplication()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class LignesProfilTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFinPerApplication()
+     * Test setFinPerApplication()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -85,7 +85,7 @@ class LignesProfilTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFreq1()
+     * Test setFreq1()
      *
      * @return void
      */
@@ -98,7 +98,7 @@ class LignesProfilTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFreq10()
+     * Test setFreq10()
      *
      * @return void
      */
@@ -111,7 +111,7 @@ class LignesProfilTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFreq11()
+     * Test setFreq11()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class LignesProfilTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFreq12()
+     * Test setFreq12()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class LignesProfilTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFreq2()
+     * Test setFreq2()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class LignesProfilTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFreq3()
+     * Test setFreq3()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class LignesProfilTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFreq4()
+     * Test setFreq4()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class LignesProfilTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFreq5()
+     * Test setFreq5()
      *
      * @return void
      */
@@ -189,7 +189,7 @@ class LignesProfilTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFreq6()
+     * Test setFreq6()
      *
      * @return void
      */
@@ -202,7 +202,7 @@ class LignesProfilTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFreq7()
+     * Test setFreq7()
      *
      * @return void
      */
@@ -215,7 +215,7 @@ class LignesProfilTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFreq8()
+     * Test setFreq8()
      *
      * @return void
      */
@@ -228,7 +228,7 @@ class LignesProfilTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFreq9()
+     * Test setFreq9()
      *
      * @return void
      */
@@ -241,7 +241,7 @@ class LignesProfilTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumLigneProfil()
+     * Test setNumLigneProfil()
      *
      * @return void
      */
@@ -254,7 +254,7 @@ class LignesProfilTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Provider\Theme\TestNavigationThemeProvide
 class NavigationThemeProviderTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setNavigationThemeProvider()
+     * Test setNavigationThemeProvider()
      *
      * @return void
      */

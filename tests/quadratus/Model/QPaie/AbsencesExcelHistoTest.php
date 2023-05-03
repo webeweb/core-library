@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AbsencesExcelHistoTest extends AbstractTestCase {
 
     /**
-     * Tests setDateAdded()
+     * Test setDateAdded()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -42,7 +42,7 @@ class AbsencesExcelHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setId()
+     * Test setId()
      *
      * @return void
      */
@@ -55,7 +55,7 @@ class AbsencesExcelHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbhSais()
+     * Test setNbhSais()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class AbsencesExcelHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbhSaisCorr()
+     * Test setNbhSaisCorr()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class AbsencesExcelHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbjSais()
+     * Test setNbjSais()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class AbsencesExcelHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbjSaisCorr()
+     * Test setNbjSaisCorr()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class AbsencesExcelHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumEvenement()
+     * Test setNumEvenement()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class AbsencesExcelHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmploye()
+     * Test setNumeroEmploye()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class AbsencesExcelHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPerPaie()
+     * Test setPerPaie()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -150,7 +150,7 @@ class AbsencesExcelHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeDeb()
+     * Test setPeriodeDeb()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -167,7 +167,7 @@ class AbsencesExcelHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeDebCorr()
+     * Test setPeriodeDebCorr()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -184,7 +184,7 @@ class AbsencesExcelHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeFin()
+     * Test setPeriodeFin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -201,7 +201,7 @@ class AbsencesExcelHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeFinCorr()
+     * Test setPeriodeFinCorr()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -218,7 +218,7 @@ class AbsencesExcelHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTransfertAbs()
+     * Test setTransfertAbs()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class AbsencesExcelHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeAbsCp()
+     * Test setTypeAbsCp()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class AbsencesExcelHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeAbsCpCorr()
+     * Test setTypeAbsCpCorr()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class AbsencesExcelHistoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

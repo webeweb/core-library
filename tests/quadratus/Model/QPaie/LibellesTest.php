@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LibellesTest extends AbstractTestCase {
 
     /**
-     * Tests setACompterHeuresAssedic()
+     * Test setACompterHeuresAssedic()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAConserverSetp()
+     * Test setAConserverSetp()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setACumulerBaseCaisse1()
+     * Test setACumulerBaseCaisse1()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setACumulerBaseCaisse2()
+     * Test setACumulerBaseCaisse2()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setACumulerBaseCaisse3()
+     * Test setACumulerBaseCaisse3()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setACumulerBaseCp()
+     * Test setACumulerBaseCp()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setACumulerBaseSecu()
+     * Test setACumulerBaseSecu()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAReintegrerSetp()
+     * Test setAReintegrerSetp()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setActiveVariablesEmp()
+     * Test setActiveVariablesEmp()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAenLienPresenceEffective()
+     * Test setAenLienPresenceEffective()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAgff()
+     * Test setAgff()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAvantageNaturePrime()
+     * Test setAvantageNaturePrime()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAvantageNatureTds()
+     * Test setAvantageNatureTds()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAvecRetroAct()
+     * Test setAvecRetroAct()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBaseExoneree()
+     * Test setBaseExoneree()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBaseNonExoneree()
+     * Test setBaseNonExoneree()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCategSalarie()
+     * Test setCategSalarie()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChequeVacance()
+     * Test setChequeVacance()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCode()
+     * Test setCode()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCalcul()
+     * Test setCodeCalcul()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCsgTaux()
+     * Test setCodeCsgTaux()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeDucs()
+     * Test setCodeDucs()
      *
      * @return void
      */
@@ -311,7 +311,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEditionHisto()
+     * Test setCodeEditionHisto()
      *
      * @return void
      */
@@ -324,7 +324,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeInsee()
+     * Test setCodeInsee()
      *
      * @return void
      */
@@ -337,7 +337,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeOrganisme()
+     * Test setCodeOrganisme()
      *
      * @return void
      */
@@ -350,7 +350,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRds()
+     * Test setCodeRds()
      *
      * @return void
      */
@@ -363,7 +363,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTypeAssurance()
+     * Test setCodeTypeAssurance()
      *
      * @return void
      */
@@ -376,7 +376,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTypeBPlaf()
+     * Test setCodeTypeBPlaf()
      *
      * @return void
      */
@@ -389,7 +389,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTypeBSpecPrev()
+     * Test setCodeTypeBSpecPrev()
      *
      * @return void
      */
@@ -402,7 +402,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTypeBrut()
+     * Test setCodeTypeBrut()
      *
      * @return void
      */
@@ -415,7 +415,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTypePrev()
+     * Test setCodeTypePrev()
      *
      * @return void
      */
@@ -428,7 +428,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTypeSomme()
+     * Test setCodeTypeSomme()
      *
      * @return void
      */
@@ -441,7 +441,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteCharge()
+     * Test setCompteCharge()
      *
      * @return void
      */
@@ -454,7 +454,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCondition()
+     * Test setCondition()
      *
      * @return void
      */
@@ -467,7 +467,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setConditionSpec()
+     * Test setConditionSpec()
      *
      * @return void
      */
@@ -480,7 +480,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCongePaye()
+     * Test setCongePaye()
      *
      * @return void
      */
@@ -493,7 +493,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCotisNormalDues()
+     * Test setCotisNormalDues()
      *
      * @return void
      */
@@ -506,7 +506,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCotisNormalDuesAccre()
+     * Test setCotisNormalDuesAccre()
      *
      * @return void
      */
@@ -519,7 +519,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCotisNormalDuesZfu()
+     * Test setCotisNormalDuesZfu()
      *
      * @return void
      */
@@ -532,7 +532,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCotisNormalDuesZrd()
+     * Test setCotisNormalDuesZrd()
      *
      * @return void
      */
@@ -545,7 +545,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCotisNormalDuesZrrzru()
+     * Test setCotisNormalDuesZrrzru()
      *
      * @return void
      */
@@ -558,7 +558,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCotisationCsg()
+     * Test setCotisationCsg()
      *
      * @return void
      */
@@ -571,7 +571,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCoutGlobal()
+     * Test setCoutGlobal()
      *
      * @return void
      */
@@ -584,7 +584,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDebPerApplication()
+     * Test setDebPerApplication()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -601,7 +601,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDetermineAllegement()
+     * Test setDetermineAllegement()
      *
      * @return void
      */
@@ -614,7 +614,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDetermineBaseSecu()
+     * Test setDetermineBaseSecu()
      *
      * @return void
      */
@@ -627,7 +627,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDiminueNet()
+     * Test setDiminueNet()
      *
      * @return void
      */
@@ -640,7 +640,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEditionBase()
+     * Test setEditionBase()
      *
      * @return void
      */
@@ -653,7 +653,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEditionBulletin()
+     * Test setEditionBulletin()
      *
      * @return void
      */
@@ -666,7 +666,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEditionCotPatronale()
+     * Test setEditionCotPatronale()
      *
      * @return void
      */
@@ -679,7 +679,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEditionForceeDs()
+     * Test setEditionForceeDs()
      *
      * @return void
      */
@@ -692,7 +692,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEditionResultat()
+     * Test setEditionResultat()
      *
      * @return void
      */
@@ -705,7 +705,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEditionTaux()
+     * Test setEditionTaux()
      *
      * @return void
      */
@@ -718,7 +718,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExclureLoiTepa()
+     * Test setExclureLoiTepa()
      *
      * @return void
      */
@@ -731,7 +731,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExoOccasionnelMsa()
+     * Test setExoOccasionnelMsa()
      *
      * @return void
      */
@@ -744,7 +744,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExoTauxPatronal()
+     * Test setExoTauxPatronal()
      *
      * @return void
      */
@@ -757,7 +757,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExpatriation()
+     * Test setExpatriation()
      *
      * @return void
      */
@@ -770,7 +770,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFillonAdom()
+     * Test setFillonAdom()
      *
      * @return void
      */
@@ -783,7 +783,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFillonSap()
+     * Test setFillonSap()
      *
      * @return void
      */
@@ -796,7 +796,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFinPerApplication()
+     * Test setFinPerApplication()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -813,7 +813,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFraisProfessionnel()
+     * Test setFraisProfessionnel()
      *
      * @return void
      */
@@ -826,7 +826,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFraisSante()
+     * Test setFraisSante()
      *
      * @return void
      */
@@ -839,7 +839,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFreq1()
+     * Test setFreq1()
      *
      * @return void
      */
@@ -852,7 +852,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFreq10()
+     * Test setFreq10()
      *
      * @return void
      */
@@ -865,7 +865,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFreq11()
+     * Test setFreq11()
      *
      * @return void
      */
@@ -878,7 +878,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFreq12()
+     * Test setFreq12()
      *
      * @return void
      */
@@ -891,7 +891,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFreq2()
+     * Test setFreq2()
      *
      * @return void
      */
@@ -904,7 +904,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFreq3()
+     * Test setFreq3()
      *
      * @return void
      */
@@ -917,7 +917,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFreq4()
+     * Test setFreq4()
      *
      * @return void
      */
@@ -930,7 +930,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFreq5()
+     * Test setFreq5()
      *
      * @return void
      */
@@ -943,7 +943,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFreq6()
+     * Test setFreq6()
      *
      * @return void
      */
@@ -956,7 +956,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFreq7()
+     * Test setFreq7()
      *
      * @return void
      */
@@ -969,7 +969,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFreq8()
+     * Test setFreq8()
      *
      * @return void
      */
@@ -982,7 +982,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFreq9()
+     * Test setFreq9()
      *
      * @return void
      */
@@ -995,7 +995,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHSupLoiTepa()
+     * Test setHSupLoiTepa()
      *
      * @return void
      */
@@ -1008,7 +1008,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHSupStructurelle()
+     * Test setHSupStructurelle()
      *
      * @return void
      */
@@ -1021,7 +1021,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIdInstitution()
+     * Test setIdInstitution()
      *
      * @return void
      */
@@ -1034,7 +1034,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIjss()
+     * Test setIjss()
      *
      * @return void
      */
@@ -1047,7 +1047,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setImputEpargneRet()
+     * Test setImputEpargneRet()
      *
      * @return void
      */
@@ -1060,7 +1060,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndemniteNonImposable()
+     * Test setIndemniteNonImposable()
      *
      * @return void
      */
@@ -1073,7 +1073,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntervientBrutAl()
+     * Test setIntervientBrutAl()
      *
      * @return void
      */
@@ -1086,7 +1086,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntervientIndemPreca()
+     * Test setIntervientIndemPreca()
      *
      * @return void
      */
@@ -1099,7 +1099,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntervientTauxHAbCp()
+     * Test setIntervientTauxHAbCp()
      *
      * @return void
      */
@@ -1112,7 +1112,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntitule()
+     * Test setIntitule()
      *
      * @return void
      */
@@ -1125,7 +1125,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntituleDucs()
+     * Test setIntituleDucs()
      *
      * @return void
      */
@@ -1138,7 +1138,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMaintienSalaire()
+     * Test setMaintienSalaire()
      *
      * @return void
      */
@@ -1151,7 +1151,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMoisDebFixe()
+     * Test setMoisDebFixe()
      *
      * @return void
      */
@@ -1164,7 +1164,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMoisEchu()
+     * Test setMoisEchu()
      *
      * @return void
      */
@@ -1177,7 +1177,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMoisFinFixe()
+     * Test setMoisFinFixe()
      *
      * @return void
      */
@@ -1190,7 +1190,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantGlobal()
+     * Test setMontantGlobal()
      *
      * @return void
      */
@@ -1203,7 +1203,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantSalarial()
+     * Test setMontantSalarial()
      *
      * @return void
      */
@@ -1216,7 +1216,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHContract()
+     * Test setNbHContract()
      *
      * @return void
      */
@@ -1229,7 +1229,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbMoisApplic()
+     * Test setNbMoisApplic()
      *
      * @return void
      */
@@ -1242,7 +1242,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNeutre()
+     * Test setNeutre()
      *
      * @return void
      */
@@ -1255,7 +1255,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumColAcbs()
+     * Test setNumColAcbs()
      *
      * @return void
      */
@@ -1268,7 +1268,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumColAllege35h()
+     * Test setNumColAllege35h()
      *
      * @return void
      */
@@ -1281,7 +1281,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumColChargesCafe()
+     * Test setNumColChargesCafe()
      *
      * @return void
      */
@@ -1294,7 +1294,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumCumulBulletin()
+     * Test setNumCumulBulletin()
      *
      * @return void
      */
@@ -1307,7 +1307,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumCumulPatron()
+     * Test setNumCumulPatron()
      *
      * @return void
      */
@@ -1320,7 +1320,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumTauxConstNat()
+     * Test setNumTauxConstNat()
      *
      * @return void
      */
@@ -1333,7 +1333,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPartPatronPrevoyance()
+     * Test setPartPatronPrevoyance()
      *
      * @return void
      */
@@ -1346,7 +1346,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodicite()
+     * Test setPeriodicite()
      *
      * @return void
      */
@@ -1359,7 +1359,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPourboire()
+     * Test setPourboire()
      *
      * @return void
      */
@@ -1372,7 +1372,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrevoyance()
+     * Test setPrevoyance()
      *
      * @return void
      */
@@ -1385,7 +1385,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrevoyanceComp()
+     * Test setPrevoyanceComp()
      *
      * @return void
      */
@@ -1398,7 +1398,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrimeNonProratisee()
+     * Test setPrimeNonProratisee()
      *
      * @return void
      */
@@ -1411,7 +1411,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrimeServitudeTravail()
+     * Test setPrimeServitudeTravail()
      *
      * @return void
      */
@@ -1424,7 +1424,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQualifiantCotis()
+     * Test setQualifiantCotis()
      *
      * @return void
      */
@@ -1437,7 +1437,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRegleCalcul()
+     * Test setRegleCalcul()
      *
      * @return void
      */
@@ -1450,7 +1450,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRegleTaux()
+     * Test setRegleTaux()
      *
      * @return void
      */
@@ -1463,7 +1463,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemiseAZero()
+     * Test setRemiseAZero()
      *
      * @return void
      */
@@ -1476,7 +1476,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setResultMt()
+     * Test setResultMt()
      *
      * @return void
      */
@@ -1489,7 +1489,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setResultatDucs()
+     * Test setResultatDucs()
      *
      * @return void
      */
@@ -1502,7 +1502,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRetenueSalaire()
+     * Test setRetenueSalaire()
      *
      * @return void
      */
@@ -1515,7 +1515,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRetenueSource()
+     * Test setRetenueSource()
      *
      * @return void
      */
@@ -1528,7 +1528,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRetraiteObligatoire()
+     * Test setRetraiteObligatoire()
      *
      * @return void
      */
@@ -1541,7 +1541,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRetraiteSupp()
+     * Test setRetraiteSupp()
      *
      * @return void
      */
@@ -1554,7 +1554,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSalaireCp()
+     * Test setSalaireCp()
      *
      * @return void
      */
@@ -1567,7 +1567,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSansReintegrationSociale()
+     * Test setSansReintegrationSociale()
      *
      * @return void
      */
@@ -1580,7 +1580,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSoumisAbattement()
+     * Test setSoumisAbattement()
      *
      * @return void
      */
@@ -1593,7 +1593,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSoumisCrds100()
+     * Test setSoumisCrds100()
      *
      * @return void
      */
@@ -1606,7 +1606,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSoumisCsg()
+     * Test setSoumisCsg()
      *
      * @return void
      */
@@ -1619,7 +1619,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSoumisCsg100()
+     * Test setSoumisCsg100()
      *
      * @return void
      */
@@ -1632,7 +1632,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSoumisForfaitSocial()
+     * Test setSoumisForfaitSocial()
      *
      * @return void
      */
@@ -1645,7 +1645,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSoumisRds()
+     * Test setSoumisRds()
      *
      * @return void
      */
@@ -1658,7 +1658,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxDuLibelle()
+     * Test setTauxDuLibelle()
      *
      * @return void
      */
@@ -1671,7 +1671,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxForfaitSocial()
+     * Test setTauxForfaitSocial()
      *
      * @return void
      */
@@ -1684,7 +1684,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxPatronalDadsu()
+     * Test setTauxPatronalDadsu()
      *
      * @return void
      */
@@ -1697,7 +1697,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxSalarialDadsu()
+     * Test setTauxSalarialDadsu()
      *
      * @return void
      */
@@ -1710,7 +1710,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeAbsenceHSup()
+     * Test setTypeAbsenceHSup()
      *
      * @return void
      */
@@ -1723,7 +1723,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeAvantage()
+     * Test setTypeAvantage()
      *
      * @return void
      */
@@ -1736,7 +1736,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeBaseCotisation()
+     * Test setTypeBaseCotisation()
      *
      * @return void
      */
@@ -1749,7 +1749,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeCotis()
+     * Test setTypeCotis()
      *
      * @return void
      */
@@ -1762,7 +1762,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeDateAnc()
+     * Test setTypeDateAnc()
      *
      * @return void
      */
@@ -1775,7 +1775,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeDonneeDadsu()
+     * Test setTypeDonneeDadsu()
      *
      * @return void
      */
@@ -1788,7 +1788,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeFrais()
+     * Test setTypeFrais()
      *
      * @return void
      */
@@ -1801,7 +1801,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeHSupLoiTepa()
+     * Test setTypeHSupLoiTepa()
      *
      * @return void
      */
@@ -1814,7 +1814,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeHeFillon()
+     * Test setTypeHeFillon()
      *
      * @return void
      */
@@ -1827,7 +1827,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeHeure()
+     * Test setTypeHeure()
      *
      * @return void
      */
@@ -1840,7 +1840,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeHeureSup()
+     * Test setTypeHeureSup()
      *
      * @return void
      */
@@ -1853,7 +1853,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeOrga()
+     * Test setTypeOrga()
      *
      * @return void
      */
@@ -1866,7 +1866,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeProratisationPrime()
+     * Test setTypeProratisationPrime()
      *
      * @return void
      */
@@ -1879,7 +1879,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeTranche()
+     * Test setTypeTranche()
      *
      * @return void
      */
@@ -1892,7 +1892,7 @@ class LibellesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

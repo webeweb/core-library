@@ -153,7 +153,7 @@ class System {
     }
 
     /**
-     * Determines if the operating system is Unix.
+     * Determine if the operating system is Unix.
      *
      * @return bool Returns true in case of success, false otherwise.
      */
@@ -162,7 +162,7 @@ class System {
     }
 
     /**
-     * Determines if the operating system is Windows.
+     * Determine if the operating system is Windows.
      *
      * @return bool Returns true in case of success, false otherwise.
      */

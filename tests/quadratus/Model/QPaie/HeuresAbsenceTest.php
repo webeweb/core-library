@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class HeuresAbsenceTest extends AbstractTestCase {
 
     /**
-     * Tests setAbsenceAu()
+     * Test setAbsenceAu()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -42,7 +42,7 @@ class HeuresAbsenceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAbsenceDu()
+     * Test setAbsenceDu()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -59,7 +59,7 @@ class HeuresAbsenceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateJour()
+     * Test setDateJour()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -76,7 +76,7 @@ class HeuresAbsenceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHNonEffectue()
+     * Test setNbHNonEffectue()
      *
      * @return void
      */
@@ -89,7 +89,7 @@ class HeuresAbsenceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHRetenueSalaire()
+     * Test setNbHRetenueSalaire()
      *
      * @return void
      */
@@ -102,7 +102,7 @@ class HeuresAbsenceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHaReintegrer()
+     * Test setNbHaReintegrer()
      *
      * @return void
      */
@@ -115,7 +115,7 @@ class HeuresAbsenceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmploye()
+     * Test setNumeroEmploye()
      *
      * @return void
      */
@@ -128,7 +128,7 @@ class HeuresAbsenceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTransfere()
+     * Test setTransfere()
      *
      * @return void
      */
@@ -141,7 +141,7 @@ class HeuresAbsenceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeAbsence()
+     * Test setTypeAbsence()
      *
      * @return void
      */
@@ -154,7 +154,7 @@ class HeuresAbsenceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

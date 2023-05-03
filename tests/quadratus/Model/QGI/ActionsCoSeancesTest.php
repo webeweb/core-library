@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ActionsCoSeancesTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeAction()
+     * Test setCodeAction()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class ActionsCoSeancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeManif()
+     * Test setCodeManif()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class ActionsCoSeancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateSeance()
+     * Test setDateSeance()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class ActionsCoSeancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHeureDeb()
+     * Test setHeureDeb()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -85,7 +85,7 @@ class ActionsCoSeancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHeureFin()
+     * Test setHeureFin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -102,7 +102,7 @@ class ActionsCoSeancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelleSeance()
+     * Test setLibelleSeance()
      *
      * @return void
      */
@@ -115,7 +115,7 @@ class ActionsCoSeancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumSeance()
+     * Test setNumSeance()
      *
      * @return void
      */
@@ -128,7 +128,7 @@ class ActionsCoSeancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

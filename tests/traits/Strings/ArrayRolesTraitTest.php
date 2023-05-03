@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestArrayRolesTrait;
 class ArrayRolesTraitTest extends AbstractTestCase {
 
     /**
-     * Tests addRole()
+     * Test addRole()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ArrayRolesTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests hasRole()
+     * Test hasRole()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class ArrayRolesTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests hasRoleContains()
+     * Test hasRoleContains()
      *
      * @return void
      */
@@ -69,7 +69,7 @@ class ArrayRolesTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests hasRoleEndsWith()
+     * Test hasRoleEndsWith()
      *
      * @return void
      */
@@ -85,7 +85,7 @@ class ArrayRolesTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests hasRoleStartsWith()
+     * Test hasRoleStartsWith()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class ArrayRolesTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests removeRole()
+     * Test removeRole()
      *
      * @return void
      */
@@ -115,7 +115,7 @@ class ArrayRolesTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRoles()
+     * Test setRoles()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ValorisationHoraireTest extends AbstractTestCase {
 
     /**
-     * Tests setCoutHoraire()
+     * Test setCoutHoraire()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ValorisationHoraireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQualification()
+     * Test setQualification()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ValorisationHoraireTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -47,7 +47,7 @@ class DefaultValidatorTest extends AbstractTestCase {
     }
 
     /**
-     * Tests validate()
+     * Test validate()
      *
      * @return void
      */
@@ -63,7 +63,7 @@ class DefaultValidatorTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

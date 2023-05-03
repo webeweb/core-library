@@ -25,7 +25,7 @@ use WBW\Library\Billing\Tests\Fixtures\Model\TestTaxable;
 class TaxableTest extends AbstractTestCase {
 
     /**
-     * Tests jsonSerialize()
+     * Test jsonSerialize()
      *
      * @return void
      */
@@ -50,7 +50,7 @@ class TaxableTest extends AbstractTestCase {
     }
 
     /**
-     * Tests onSubmit()
+     * Test onSubmit()
      *
      * @return void
      */
@@ -74,7 +74,7 @@ class TaxableTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

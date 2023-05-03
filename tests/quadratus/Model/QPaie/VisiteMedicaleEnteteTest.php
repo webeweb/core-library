@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class VisiteMedicaleEnteteTest extends AbstractTestCase {
 
     /**
-     * Tests setAdresseMt()
+     * Test setAdresseMt()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCode()
+     * Test setCode()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeMedecineTravail()
+     * Test setCodeMedecineTravail()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePostalMt()
+     * Test setCodePostalMt()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDebut1()
+     * Test setDebut1()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -94,7 +94,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDebut2()
+     * Test setDebut2()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -111,7 +111,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDebutSession()
+     * Test setDebutSession()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -128,7 +128,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDescription()
+     * Test setDescription()
      *
      * @return void
      */
@@ -141,7 +141,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDureeVisite()
+     * Test setDureeVisite()
      *
      * @return void
      */
@@ -154,7 +154,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFin1()
+     * Test setFin1()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -171,7 +171,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFin2()
+     * Test setFin2()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -188,7 +188,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFinSession()
+     * Test setFinSession()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -205,7 +205,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLientDocument()
+     * Test setLientDocument()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMedecinResponsable()
+     * Test setMedecinResponsable()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomMt()
+     * Test setNomMt()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRdvJour1()
+     * Test setRdvJour1()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRdvJour2()
+     * Test setRdvJour2()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRdvJour3()
+     * Test setRdvJour3()
      *
      * @return void
      */
@@ -283,7 +283,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRdvJour4()
+     * Test setRdvJour4()
      *
      * @return void
      */
@@ -296,7 +296,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRdvJour5()
+     * Test setRdvJour5()
      *
      * @return void
      */
@@ -309,7 +309,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRdvJour6()
+     * Test setRdvJour6()
      *
      * @return void
      */
@@ -322,7 +322,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRdvJour7()
+     * Test setRdvJour7()
      *
      * @return void
      */
@@ -335,7 +335,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTel1()
+     * Test setTel1()
      *
      * @return void
      */
@@ -348,7 +348,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setVilleMt()
+     * Test setVilleMt()
      *
      * @return void
      */
@@ -361,7 +361,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

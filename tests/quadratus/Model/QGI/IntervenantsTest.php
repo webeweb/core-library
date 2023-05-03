@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class IntervenantsTest extends AbstractTestCase {
 
     /**
-     * Tests setAdresseSiteClient()
+     * Test setAdresseSiteClient()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdresseTranspac()
+     * Test setAdresseTranspac()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAge()
+     * Test setAge()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAutoriserAccesInternet()
+     * Test setAutoriserAccesInternet()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBic()
+     * Test setBic()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBtq()
+     * Test setBtq()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBtq2()
+     * Test setBtq2()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBureauDistributeur()
+     * Test setBureauDistributeur()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBureauDistributeur2()
+     * Test setBureauDistributeur2()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCapital()
+     * Test setCapital()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCapitalMonnaie()
+     * Test setCapitalMonnaie()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCategorieJuridique()
+     * Test setCategorieJuridique()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCivilite()
+     * Test setCivilite()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCode()
+     * Test setCode()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEpoux()
+     * Test setCodeEpoux()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeInsee()
+     * Test setCodeInsee()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeNaf()
+     * Test setCodeNaf()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeNaf2008()
+     * Test setCodeNaf2008()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeOfficielCommune()
+     * Test setCodeOfficielCommune()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeOfficielCommune2()
+     * Test setCodeOfficielCommune2()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePaysIso()
+     * Test setCodePaysIso()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePaysIsoNaiss()
+     * Test setCodePaysIsoNaiss()
      *
      * @return void
      */
@@ -311,7 +311,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePostal()
+     * Test setCodePostal()
      *
      * @return void
      */
@@ -324,7 +324,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePostal2()
+     * Test setCodePostal2()
      *
      * @return void
      */
@@ -337,7 +337,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePostalMariage()
+     * Test setCodePostalMariage()
      *
      * @return void
      */
@@ -350,7 +350,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePostalNaissance()
+     * Test setCodePostalNaissance()
      *
      * @return void
      */
@@ -363,7 +363,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePostalRc()
+     * Test setCodePostalRc()
      *
      * @return void
      */
@@ -376,7 +376,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePostalRm()
+     * Test setCodePostalRm()
      *
      * @return void
      */
@@ -389,7 +389,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeResponsable()
+     * Test setCodeResponsable()
      *
      * @return void
      */
@@ -402,7 +402,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setComplement()
+     * Test setComplement()
      *
      * @return void
      */
@@ -415,7 +415,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setComplement2()
+     * Test setComplement2()
      *
      * @return void
      */
@@ -428,7 +428,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setComplementSuite()
+     * Test setComplementSuite()
      *
      * @return void
      */
@@ -441,7 +441,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteurLiens()
+     * Test setCompteurLiens()
      *
      * @return void
      */
@@ -454,7 +454,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setContact()
+     * Test setContact()
      *
      * @return void
      */
@@ -467,7 +467,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCreationSociete()
+     * Test setCreationSociete()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -484,7 +484,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateCreat()
+     * Test setDateCreat()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -501,7 +501,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDebActivite()
+     * Test setDateDebActivite()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -518,7 +518,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDivorce()
+     * Test setDateDivorce()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -535,7 +535,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateInstallation()
+     * Test setDateInstallation()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -552,7 +552,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateMariage()
+     * Test setDateMariage()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -569,7 +569,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateModif()
+     * Test setDateModif()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -586,7 +586,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateNaissance()
+     * Test setDateNaissance()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -603,7 +603,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDonneesAppel()
+     * Test setDonneesAppel()
      *
      * @return void
      */
@@ -616,7 +616,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDroitCollabVisuDocuments()
+     * Test setDroitCollabVisuDocuments()
      *
      * @return void
      */
@@ -629,7 +629,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDureeSociete()
+     * Test setDureeSociete()
      *
      * @return void
      */
@@ -642,7 +642,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmail()
+     * Test setEmail()
      *
      * @return void
      */
@@ -655,7 +655,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmail2()
+     * Test setEmail2()
      *
      * @return void
      */
@@ -668,7 +668,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEnseigne()
+     * Test setEnseigne()
      *
      * @return void
      */
@@ -681,7 +681,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFax()
+     * Test setFax()
      *
      * @return void
      */
@@ -694,7 +694,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFax2()
+     * Test setFax2()
      *
      * @return void
      */
@@ -707,7 +707,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFrpCle()
+     * Test setFrpCle()
      *
      * @return void
      */
@@ -720,7 +720,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFrpDossier()
+     * Test setFrpDossier()
      *
      * @return void
      */
@@ -733,7 +733,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFrpRecette()
+     * Test setFrpRecette()
      *
      * @return void
      */
@@ -746,7 +746,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGestJuri()
+     * Test setGestJuri()
      *
      * @return void
      */
@@ -759,7 +759,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIban()
+     * Test setIban()
      *
      * @return void
      */
@@ -772,7 +772,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIdentTva()
+     * Test setIdentTva()
      *
      * @return void
      */
@@ -785,7 +785,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIdentifiant()
+     * Test setIdentifiant()
      *
      * @return void
      */
@@ -798,7 +798,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIdentifiantInternet()
+     * Test setIdentifiantInternet()
      *
      * @return void
      */
@@ -811,7 +811,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setInscriptionRc()
+     * Test setInscriptionRc()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -828,7 +828,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setInscriptionRm()
+     * Test setInscriptionRm()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -845,7 +845,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIsClient()
+     * Test setIsClient()
      *
      * @return void
      */
@@ -858,7 +858,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIsFournisseur()
+     * Test setIsFournisseur()
      *
      * @return void
      */
@@ -871,7 +871,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMdpInternet()
+     * Test setMdpInternet()
      *
      * @return void
      */
@@ -884,7 +884,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMissionPrincipale()
+     * Test setMissionPrincipale()
      *
      * @return void
      */
@@ -897,7 +897,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNationalite()
+     * Test setNationalite()
      *
      * @return void
      */
@@ -910,7 +910,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbEnfants()
+     * Test setNbEnfants()
      *
      * @return void
      */
@@ -923,7 +923,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbKm()
+     * Test setNbKm()
      *
      * @return void
      */
@@ -936,7 +936,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNie1()
+     * Test setNie1()
      *
      * @return void
      */
@@ -949,7 +949,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNie2()
+     * Test setNie2()
      *
      * @return void
      */
@@ -962,7 +962,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNir()
+     * Test setNir()
      *
      * @return void
      */
@@ -975,7 +975,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNom()
+     * Test setNom()
      *
      * @return void
      */
@@ -988,7 +988,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomMarital()
+     * Test setNomMarital()
      *
      * @return void
      */
@@ -1001,7 +1001,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomMere()
+     * Test setNomMere()
      *
      * @return void
      */
@@ -1014,7 +1014,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomPere()
+     * Test setNomPere()
      *
      * @return void
      */
@@ -1027,7 +1027,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomSuite()
+     * Test setNomSuite()
      *
      * @return void
      */
@@ -1040,7 +1040,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomVille()
+     * Test setNomVille()
      *
      * @return void
      */
@@ -1053,7 +1053,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomVille2()
+     * Test setNomVille2()
      *
      * @return void
      */
@@ -1066,7 +1066,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomVoie()
+     * Test setNomVoie()
      *
      * @return void
      */
@@ -1079,7 +1079,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomVoie2()
+     * Test setNomVoie2()
      *
      * @return void
      */
@@ -1092,7 +1092,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNombreActions()
+     * Test setNombreActions()
      *
      * @return void
      */
@@ -1105,7 +1105,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumAgrementCga()
+     * Test setNumAgrementCga()
      *
      * @return void
      */
@@ -1118,7 +1118,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumVoie()
+     * Test setNumVoie()
      *
      * @return void
      */
@@ -1131,7 +1131,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumVoie2()
+     * Test setNumVoie2()
      *
      * @return void
      */
@@ -1144,7 +1144,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPays()
+     * Test setPays()
      *
      * @return void
      */
@@ -1157,7 +1157,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPaysNaissance()
+     * Test setPaysNaissance()
      *
      * @return void
      */
@@ -1170,7 +1170,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPersonnePhysique()
+     * Test setPersonnePhysique()
      *
      * @return void
      */
@@ -1183,7 +1183,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPortable1()
+     * Test setPortable1()
      *
      * @return void
      */
@@ -1196,7 +1196,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPortable12()
+     * Test setPortable12()
      *
      * @return void
      */
@@ -1209,7 +1209,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPortable2()
+     * Test setPortable2()
      *
      * @return void
      */
@@ -1222,7 +1222,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPortable22()
+     * Test setPortable22()
      *
      * @return void
      */
@@ -1235,7 +1235,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrenom()
+     * Test setPrenom()
      *
      * @return void
      */
@@ -1248,7 +1248,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQualite()
+     * Test setQualite()
      *
      * @return void
      */
@@ -1261,7 +1261,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRc()
+     * Test setRc()
      *
      * @return void
      */
@@ -1274,7 +1274,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRcCode()
+     * Test setRcCode()
      *
      * @return void
      */
@@ -1287,7 +1287,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRegimeMatrimonial()
+     * Test setRegimeMatrimonial()
      *
      * @return void
      */
@@ -1300,7 +1300,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRegimeMatrimoniale()
+     * Test setRegimeMatrimoniale()
      *
      * @return void
      */
@@ -1313,7 +1313,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRib()
+     * Test setRib()
      *
      * @return void
      */
@@ -1326,7 +1326,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRm()
+     * Test setRm()
      *
      * @return void
      */
@@ -1339,7 +1339,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRmCode()
+     * Test setRmCode()
      *
      * @return void
      */
@@ -1352,7 +1352,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSalarieIndependant()
+     * Test setSalarieIndependant()
      *
      * @return void
      */
@@ -1365,7 +1365,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSiret()
+     * Test setSiret()
      *
      * @return void
      */
@@ -1378,7 +1378,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSituationFam()
+     * Test setSituationFam()
      *
      * @return void
      */
@@ -1391,7 +1391,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTel1()
+     * Test setTel1()
      *
      * @return void
      */
@@ -1404,7 +1404,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTel12()
+     * Test setTel12()
      *
      * @return void
      */
@@ -1417,7 +1417,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTel2()
+     * Test setTel2()
      *
      * @return void
      */
@@ -1430,7 +1430,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTel22()
+     * Test setTel22()
      *
      * @return void
      */
@@ -1443,7 +1443,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTelVoiture()
+     * Test setTelVoiture()
      *
      * @return void
      */
@@ -1456,7 +1456,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTelVoiture2()
+     * Test setTelVoiture2()
      *
      * @return void
      */
@@ -1469,7 +1469,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTelex()
+     * Test setTelex()
      *
      * @return void
      */
@@ -1482,7 +1482,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTelex2()
+     * Test setTelex2()
      *
      * @return void
      */
@@ -1495,7 +1495,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTravailADomicile()
+     * Test setTravailADomicile()
      *
      * @return void
      */
@@ -1508,7 +1508,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setType()
+     * Test setType()
      *
      * @return void
      */
@@ -1521,7 +1521,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeSociete()
+     * Test setTypeSociete()
      *
      * @return void
      */
@@ -1534,7 +1534,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setVilleMariage()
+     * Test setVilleMariage()
      *
      * @return void
      */
@@ -1547,7 +1547,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setVilleNaissance()
+     * Test setVilleNaissance()
      *
      * @return void
      */
@@ -1560,7 +1560,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setVilleRc()
+     * Test setVilleRc()
      *
      * @return void
      */
@@ -1573,7 +1573,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setVilleRm()
+     * Test setVilleRm()
      *
      * @return void
      */
@@ -1586,7 +1586,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZipCode()
+     * Test setZipCode()
      *
      * @return void
      */
@@ -1599,7 +1599,7 @@ class IntervenantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Renderer\Assets\TestColorRendererTrait;
 class ColorRendererTraitTest extends AbstractTestCase {
 
     /**
-     * Tests renderColor()
+     * Test renderColor()
      *
      * @return void
      */

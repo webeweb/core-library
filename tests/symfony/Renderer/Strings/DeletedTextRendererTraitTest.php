@@ -23,7 +23,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Renderer\Strings\TestDeletedTextRendererT
 class DeletedTextRendererTraitTest extends AbstractTestCase {
 
     /**
-     * Tests renderDeletedText()
+     * Test renderDeletedText()
      *
      * @return void
      */

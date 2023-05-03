@@ -43,7 +43,7 @@ class UploadedFileServiceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests exists()
+     * Test exists()
      *
      * @return void
      */
@@ -55,7 +55,7 @@ class UploadedFileServiceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests path()
+     * Test path()
      *
      * @return void
      */
@@ -69,7 +69,7 @@ class UploadedFileServiceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests save()
+     * Test save()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class UploadedFileServiceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests uniqid()
+     * Test uniqid()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class UploadedFileServiceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests unlink()
+     * Test unlink()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class UploadedFileServiceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

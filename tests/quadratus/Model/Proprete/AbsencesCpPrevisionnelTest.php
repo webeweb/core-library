@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AbsencesCpPrevisionnelTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeEmploye()
+     * Test setCodeEmploye()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AbsencesCpPrevisionnelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCollaborateur()
+     * Test setCollaborateur()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AbsencesCpPrevisionnelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCommentaire()
+     * Test setCommentaire()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AbsencesCpPrevisionnelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDebutCp()
+     * Test setDateDebutCp()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class AbsencesCpPrevisionnelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDemande()
+     * Test setDateDemande()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -98,7 +98,7 @@ class AbsencesCpPrevisionnelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateEtatCp()
+     * Test setDateEtatCp()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -115,7 +115,7 @@ class AbsencesCpPrevisionnelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFinCp()
+     * Test setDateFinCp()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -132,7 +132,7 @@ class AbsencesCpPrevisionnelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDepuisWeb()
+     * Test setDepuisWeb()
      *
      * @return void
      */
@@ -145,7 +145,7 @@ class AbsencesCpPrevisionnelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtatCp()
+     * Test setEtatCp()
      *
      * @return void
      */
@@ -158,7 +158,7 @@ class AbsencesCpPrevisionnelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndice()
+     * Test setIndice()
      *
      * @return void
      */
@@ -171,7 +171,7 @@ class AbsencesCpPrevisionnelTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

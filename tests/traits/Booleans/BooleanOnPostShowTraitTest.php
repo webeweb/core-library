@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Booleans\TestBooleanOnPostShowTrait;
 class BooleanOnPostShowTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setOnPostShow()
+     * Test setOnPostShow()
      *
      * @return void
      */

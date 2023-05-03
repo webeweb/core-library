@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Tests\AbstractTestCase;
 class ColorHelperTest extends AbstractTestCase {
 
     /**
-     * Tests getIdentifier()
+     * Test getIdentifier()
      *
      * @return void
      */
@@ -39,7 +39,7 @@ class ColorHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests hexToRgba()
+     * Test hexToRgba()
      *
      * @return void
      */

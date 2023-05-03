@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LibellesiPaieTest extends AbstractTestCase {
 
     /**
-     * Tests setCode()
+     * Test setCode()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class LibellesiPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntitule()
+     * Test setIntitule()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class LibellesiPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntituleSpecifiPaie()
+     * Test setIntituleSpecifiPaie()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class LibellesiPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumLigne()
+     * Test setNumLigne()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class LibellesiPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setVisibleiPaie()
+     * Test setVisibleiPaie()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class LibellesiPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

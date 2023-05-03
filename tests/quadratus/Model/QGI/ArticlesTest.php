@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ArticlesTest extends AbstractTestCase {
 
     /**
-     * Tests setAchatParColis()
+     * Test setAchatParColis()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setActif()
+     * Test setActif()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAlleeCasier()
+     * Test setAlleeCasier()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setArticleFrais()
+     * Test setArticleFrais()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setArticleRattache()
+     * Test setArticleRattache()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setArticleRegroupement()
+     * Test setArticleRegroupement()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setArticleRemplacement()
+     * Test setArticleRemplacement()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setArticleTaxe1()
+     * Test setArticleTaxe1()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setArticleTaxe2()
+     * Test setArticleTaxe2()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setArticleTaxe3()
+     * Test setArticleTaxe3()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setArticleTaxe4()
+     * Test setArticleTaxe4()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setArticleTaxe5()
+     * Test setArticleTaxe5()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCalculCoeffPaPv()
+     * Test setCalculCoeffPaPv()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeArticle()
+     * Test setCodeArticle()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeArticle2()
+     * Test setCodeArticle2()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeDeviseAchat()
+     * Test setCodeDeviseAchat()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeFamille()
+     * Test setCodeFamille()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeFournisseur()
+     * Test setCodeFournisseur()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeGamme()
+     * Test setCodeGamme()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeGrilleGamme()
+     * Test setCodeGrilleGamme()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeHonoraire()
+     * Test setCodeHonoraire()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeImputationAnalytique()
+     * Test setCodeImputationAnalytique()
      *
      * @return void
      */
@@ -311,7 +311,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePresentation()
+     * Test setCodePresentation()
      *
      * @return void
      */
@@ -324,7 +324,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeSsFamille()
+     * Test setCodeSsFamille()
      *
      * @return void
      */
@@ -337,7 +337,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTache()
+     * Test setCodeTache()
      *
      * @return void
      */
@@ -350,7 +350,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTarifArt()
+     * Test setCodeTarifArt()
      *
      * @return void
      */
@@ -363,7 +363,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTaxe()
+     * Test setCodeTaxe()
      *
      * @return void
      */
@@ -376,7 +376,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTvaAchat()
+     * Test setCodeTvaAchat()
      *
      * @return void
      */
@@ -389,7 +389,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTvaVente()
+     * Test setCodeTvaVente()
      *
      * @return void
      */
@@ -402,7 +402,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTvaVente2()
+     * Test setCodeTvaVente2()
      *
      * @return void
      */
@@ -415,7 +415,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeUnite()
+     * Test setCodeUnite()
      *
      * @return void
      */
@@ -428,7 +428,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeVentilAchat()
+     * Test setCodeVentilAchat()
      *
      * @return void
      */
@@ -441,7 +441,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeVentilVente()
+     * Test setCodeVentilVente()
      *
      * @return void
      */
@@ -454,7 +454,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeVentilVente2()
+     * Test setCodeVentilVente2()
      *
      * @return void
      */
@@ -467,7 +467,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCoeffPvPa()
+     * Test setCoeffPvPa()
      *
      * @return void
      */
@@ -480,7 +480,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCoeffSurPxAchat()
+     * Test setCoeffSurPxAchat()
      *
      * @return void
      */
@@ -493,7 +493,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCoeffSurPxAchatBrut()
+     * Test setCoeffSurPxAchatBrut()
      *
      * @return void
      */
@@ -506,7 +506,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setColisageAchat()
+     * Test setColisageAchat()
      *
      * @return void
      */
@@ -519,7 +519,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setColisagePxAchat()
+     * Test setColisagePxAchat()
      *
      * @return void
      */
@@ -532,7 +532,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setColisagePxVente()
+     * Test setColisagePxVente()
      *
      * @return void
      */
@@ -545,7 +545,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setColisageVente()
+     * Test setColisageVente()
      *
      * @return void
      */
@@ -558,7 +558,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCommissionUnique()
+     * Test setCommissionUnique()
      *
      * @return void
      */
@@ -571,7 +571,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setComplement()
+     * Test setComplement()
      *
      * @return void
      */
@@ -584,7 +584,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setConditionnement1()
+     * Test setConditionnement1()
      *
      * @return void
      */
@@ -597,7 +597,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setConditionnement2()
+     * Test setConditionnement2()
      *
      * @return void
      */
@@ -610,7 +610,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setConditionnement3()
+     * Test setConditionnement3()
      *
      * @return void
      */
@@ -623,7 +623,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setContremarqueInterdite()
+     * Test setContremarqueInterdite()
      *
      * @return void
      */
@@ -636,7 +636,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCoutSupp()
+     * Test setCoutSupp()
      *
      * @return void
      */
@@ -649,7 +649,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateCreation()
+     * Test setDateCreation()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -666,7 +666,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateModification()
+     * Test setDateModification()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -683,7 +683,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDebour()
+     * Test setDebour()
      *
      * @return void
      */
@@ -696,7 +696,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDernierPxAchat()
+     * Test setDernierPxAchat()
      *
      * @return void
      */
@@ -709,7 +709,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDesignationApres()
+     * Test setDesignationApres()
      *
      * @return void
      */
@@ -722,7 +722,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDesignationAvant()
+     * Test setDesignationAvant()
      *
      * @return void
      */
@@ -735,7 +735,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEditerArticleRattache()
+     * Test setEditerArticleRattache()
      *
      * @return void
      */
@@ -748,7 +748,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEditerArticleRemplacement()
+     * Test setEditerArticleRemplacement()
      *
      * @return void
      */
@@ -761,7 +761,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEnsemble()
+     * Test setEnsemble()
      *
      * @return void
      */
@@ -774,7 +774,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEstMultiTva()
+     * Test setEstMultiTva()
      *
      * @return void
      */
@@ -787,7 +787,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEstOccasion()
+     * Test setEstOccasion()
      *
      * @return void
      */
@@ -800,7 +800,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFacturationTtc()
+     * Test setFacturationTtc()
      *
      * @return void
      */
@@ -813,7 +813,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFamilleAchat()
+     * Test setFamilleAchat()
      *
      * @return void
      */
@@ -826,7 +826,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFrais1()
+     * Test setFrais1()
      *
      * @return void
      */
@@ -839,7 +839,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFrais2()
+     * Test setFrais2()
      *
      * @return void
      */
@@ -852,7 +852,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFrais3()
+     * Test setFrais3()
      *
      * @return void
      */
@@ -865,7 +865,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHaCoeffPvPa()
+     * Test setHaCoeffPvPa()
      *
      * @return void
      */
@@ -878,7 +878,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHaCoeffSurPxAchat()
+     * Test setHaCoeffSurPxAchat()
      *
      * @return void
      */
@@ -891,7 +891,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHaDatePa()
+     * Test setHaDatePa()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -908,7 +908,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHaDatePv()
+     * Test setHaDatePv()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -925,7 +925,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHaDernierPxAchat()
+     * Test setHaDernierPxAchat()
      *
      * @return void
      */
@@ -938,7 +938,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHaPrixRevient()
+     * Test setHaPrixRevient()
      *
      * @return void
      */
@@ -951,7 +951,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHaPrixRevientNet()
+     * Test setHaPrixRevientNet()
      *
      * @return void
      */
@@ -964,7 +964,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHaPrixVente()
+     * Test setHaPrixVente()
      *
      * @return void
      */
@@ -977,7 +977,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHaPxAchatBrut()
+     * Test setHaPxAchatBrut()
      *
      * @return void
      */
@@ -990,7 +990,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHaRemiseAchat1()
+     * Test setHaRemiseAchat1()
      *
      * @return void
      */
@@ -1003,7 +1003,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHaRemiseAchat2()
+     * Test setHaRemiseAchat2()
      *
      * @return void
      */
@@ -1016,7 +1016,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHaRemiseAchat3()
+     * Test setHaRemiseAchat3()
      *
      * @return void
      */
@@ -1029,7 +1029,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHaRemiseSupAchat1()
+     * Test setHaRemiseSupAchat1()
      *
      * @return void
      */
@@ -1042,7 +1042,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHaRemiseSupAchat2()
+     * Test setHaRemiseSupAchat2()
      *
      * @return void
      */
@@ -1055,7 +1055,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHaRemiseSupAchat3()
+     * Test setHaRemiseSupAchat3()
      *
      * @return void
      */
@@ -1068,7 +1068,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHauteur()
+     * Test setHauteur()
      *
      * @return void
      */
@@ -1081,7 +1081,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHonoraires()
+     * Test setHonoraires()
      *
      * @return void
      */
@@ -1094,7 +1094,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHonorairesUniquement()
+     * Test setHonorairesUniquement()
      *
      * @return void
      */
@@ -1107,7 +1107,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHorsStock()
+     * Test setHorsStock()
      *
      * @return void
      */
@@ -1120,7 +1120,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntitule1()
+     * Test setIntitule1()
      *
      * @return void
      */
@@ -1133,7 +1133,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntitule2()
+     * Test setIntitule2()
      *
      * @return void
      */
@@ -1146,7 +1146,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntitule3()
+     * Test setIntitule3()
      *
      * @return void
      */
@@ -1159,7 +1159,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntitule4()
+     * Test setIntitule4()
      *
      * @return void
      */
@@ -1172,7 +1172,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLargeur()
+     * Test setLargeur()
      *
      * @return void
      */
@@ -1185,7 +1185,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelleInterne()
+     * Test setLibelleInterne()
      *
      * @return void
      */
@@ -1198,7 +1198,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLongueur()
+     * Test setLongueur()
      *
      * @return void
      */
@@ -1211,7 +1211,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLotSerieAutre()
+     * Test setLotSerieAutre()
      *
      * @return void
      */
@@ -1224,7 +1224,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMargeMini()
+     * Test setMargeMini()
      *
      * @return void
      */
@@ -1237,7 +1237,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMiniFacturable()
+     * Test setMiniFacturable()
      *
      * @return void
      */
@@ -1250,7 +1250,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setModeleCodeBarre()
+     * Test setModeleCodeBarre()
      *
      * @return void
      */
@@ -1263,7 +1263,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setModeleCodeBarreF()
+     * Test setModeleCodeBarreF()
      *
      * @return void
      */
@@ -1276,7 +1276,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtSoumisTva2()
+     * Test setMtSoumisTva2()
      *
      * @return void
      */
@@ -1289,7 +1289,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtTare()
+     * Test setMtTare()
      *
      * @return void
      */
@@ -1302,7 +1302,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMultiTvaAvecRemises()
+     * Test setMultiTvaAvecRemises()
      *
      * @return void
      */
@@ -1315,7 +1315,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNatureProduit()
+     * Test setNatureProduit()
      *
      * @return void
      */
@@ -1328,7 +1328,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHeures()
+     * Test setNbHeures()
      *
      * @return void
      */
@@ -1341,7 +1341,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNePasCumulerStats()
+     * Test setNePasCumulerStats()
      *
      * @return void
      */
@@ -1354,7 +1354,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNePasEditer()
+     * Test setNePasEditer()
      *
      * @return void
      */
@@ -1367,7 +1367,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNePlusCommander()
+     * Test setNePlusCommander()
      *
      * @return void
      */
@@ -1380,7 +1380,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNeutre()
+     * Test setNeutre()
      *
      * @return void
      */
@@ -1393,7 +1393,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNiveauApparition()
+     * Test setNiveauApparition()
      *
      * @return void
      */
@@ -1406,7 +1406,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNiveauTotalisation()
+     * Test setNiveauTotalisation()
      *
      * @return void
      */
@@ -1419,7 +1419,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomenclatureEnsemble()
+     * Test setNomenclatureEnsemble()
      *
      * @return void
      */
@@ -1432,7 +1432,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomenclatureEurope()
+     * Test setNomenclatureEurope()
      *
      * @return void
      */
@@ -1445,7 +1445,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumCompteAchat()
+     * Test setNumCompteAchat()
      *
      * @return void
      */
@@ -1458,7 +1458,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumCompteVente()
+     * Test setNumCompteVente()
      *
      * @return void
      */
@@ -1471,7 +1471,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroPj()
+     * Test setNumeroPj()
      *
      * @return void
      */
@@ -1484,7 +1484,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPamp()
+     * Test setPamp()
      *
      * @return void
      */
@@ -1497,7 +1497,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setParamCde()
+     * Test setParamCde()
      *
      * @return void
      */
@@ -1510,7 +1510,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPoidsUnitaire()
+     * Test setPoidsUnitaire()
      *
      * @return void
      */
@@ -1523,7 +1523,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrixAchatCkp()
+     * Test setPrixAchatCkp()
      *
      * @return void
      */
@@ -1536,7 +1536,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrixFixe()
+     * Test setPrixFixe()
      *
      * @return void
      */
@@ -1549,7 +1549,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrixMini()
+     * Test setPrixMini()
      *
      * @return void
      */
@@ -1562,7 +1562,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrixNet()
+     * Test setPrixNet()
      *
      * @return void
      */
@@ -1575,7 +1575,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrixRevient()
+     * Test setPrixRevient()
      *
      * @return void
      */
@@ -1588,7 +1588,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrixRevientNet()
+     * Test setPrixRevientNet()
      *
      * @return void
      */
@@ -1601,7 +1601,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrixVenteCkp()
+     * Test setPrixVenteCkp()
      *
      * @return void
      */
@@ -1614,7 +1614,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrmp()
+     * Test setPrmp()
      *
      * @return void
      */
@@ -1627,7 +1627,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setProvenance()
+     * Test setProvenance()
      *
      * @return void
      */
@@ -1640,7 +1640,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPxAchatBrut()
+     * Test setPxAchatBrut()
      *
      * @return void
      */
@@ -1653,7 +1653,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPxAchatColis()
+     * Test setPxAchatColis()
      *
      * @return void
      */
@@ -1666,7 +1666,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPxAchatEnDevise()
+     * Test setPxAchatEnDevise()
      *
      * @return void
      */
@@ -1679,7 +1679,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPxUnitAEditer()
+     * Test setPxUnitAEditer()
      *
      * @return void
      */
@@ -1692,7 +1692,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPxVenteColis()
+     * Test setPxVenteColis()
      *
      * @return void
      */
@@ -1705,7 +1705,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPxVenteHtEuro()
+     * Test setPxVenteHtEuro()
      *
      * @return void
      */
@@ -1718,7 +1718,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPxVenteHtFrf()
+     * Test setPxVenteHtFrf()
      *
      * @return void
      */
@@ -1731,7 +1731,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPxVenteTtcEuro()
+     * Test setPxVenteTtcEuro()
      *
      * @return void
      */
@@ -1744,7 +1744,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPxVenteTtcFrf()
+     * Test setPxVenteTtcFrf()
      *
      * @return void
      */
@@ -1757,7 +1757,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQteAEditer()
+     * Test setQteAEditer()
      *
      * @return void
      */
@@ -1770,7 +1770,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQteEcoCommande()
+     * Test setQteEcoCommande()
      *
      * @return void
      */
@@ -1783,7 +1783,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQteHabCommande()
+     * Test setQteHabCommande()
      *
      * @return void
      */
@@ -1796,7 +1796,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQteMaxFacture()
+     * Test setQteMaxFacture()
      *
      * @return void
      */
@@ -1809,7 +1809,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQteMinCommande()
+     * Test setQteMinCommande()
      *
      * @return void
      */
@@ -1822,7 +1822,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRegroupFact()
+     * Test setRegroupFact()
      *
      * @return void
      */
@@ -1835,7 +1835,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRegroupFactTp()
+     * Test setRegroupFactTp()
      *
      * @return void
      */
@@ -1848,7 +1848,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemise1enMontant()
+     * Test setRemise1enMontant()
      *
      * @return void
      */
@@ -1861,7 +1861,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemise2enMontant()
+     * Test setRemise2enMontant()
      *
      * @return void
      */
@@ -1874,7 +1874,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemiseAchat1()
+     * Test setRemiseAchat1()
      *
      * @return void
      */
@@ -1887,7 +1887,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemiseAchat2()
+     * Test setRemiseAchat2()
      *
      * @return void
      */
@@ -1900,7 +1900,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemiseAchat3()
+     * Test setRemiseAchat3()
      *
      * @return void
      */
@@ -1913,7 +1913,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemiseSupAchat1()
+     * Test setRemiseSupAchat1()
      *
      * @return void
      */
@@ -1926,7 +1926,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemiseSupAchat1EnMontant()
+     * Test setRemiseSupAchat1EnMontant()
      *
      * @return void
      */
@@ -1939,7 +1939,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemiseSupAchat2()
+     * Test setRemiseSupAchat2()
      *
      * @return void
      */
@@ -1952,7 +1952,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemiseSupAchat2EnMontant()
+     * Test setRemiseSupAchat2EnMontant()
      *
      * @return void
      */
@@ -1965,7 +1965,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemiseSupAchat3()
+     * Test setRemiseSupAchat3()
      *
      * @return void
      */
@@ -1978,7 +1978,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemiseSupAchat3EnMontant()
+     * Test setRemiseSupAchat3EnMontant()
      *
      * @return void
      */
@@ -1991,7 +1991,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemisesInterdites()
+     * Test setRemisesInterdites()
      *
      * @return void
      */
@@ -2004,7 +2004,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSoumisCertif()
+     * Test setSoumisCertif()
      *
      * @return void
      */
@@ -2017,7 +2017,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSsFamilleAchat()
+     * Test setSsFamilleAchat()
      *
      * @return void
      */
@@ -2030,7 +2030,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSuiviStock()
+     * Test setSuiviStock()
      *
      * @return void
      */
@@ -2043,7 +2043,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTareVat()
+     * Test setTareVat()
      *
      * @return void
      */
@@ -2056,7 +2056,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxAlcool()
+     * Test setTauxAlcool()
      *
      * @return void
      */
@@ -2069,7 +2069,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxDeviseAchat()
+     * Test setTauxDeviseAchat()
      *
      * @return void
      */
@@ -2082,7 +2082,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaEncaissement()
+     * Test setTvaEncaissement()
      *
      * @return void
      */
@@ -2095,7 +2095,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTxCommission()
+     * Test setTxCommission()
      *
      * @return void
      */
@@ -2108,7 +2108,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeArrondi()
+     * Test setTypeArrondi()
      *
      * @return void
      */
@@ -2121,7 +2121,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeHeure()
+     * Test setTypeHeure()
      *
      * @return void
      */
@@ -2134,7 +2134,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeUnite()
+     * Test setTypeUnite()
      *
      * @return void
      */
@@ -2147,7 +2147,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniteActivite()
+     * Test setUniteActivite()
      *
      * @return void
      */
@@ -2160,7 +2160,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setVariante()
+     * Test setVariante()
      *
      * @return void
      */
@@ -2173,7 +2173,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setVenteParColis()
+     * Test setVenteParColis()
      *
      * @return void
      */
@@ -2186,7 +2186,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setVolume()
+     * Test setVolume()
      *
      * @return void
      */
@@ -2199,7 +2199,7 @@ class ArticlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

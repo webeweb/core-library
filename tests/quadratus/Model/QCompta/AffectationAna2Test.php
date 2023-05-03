@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AffectationAna2Test extends AbstractTestCase {
 
     /**
-     * Tests setCodeCentre()
+     * Test setCodeCentre()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class AffectationAna2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeNature()
+     * Test setCodeNature()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class AffectationAna2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumCompte()
+     * Test setNumCompte()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class AffectationAna2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumLigne()
+     * Test setNumLigne()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class AffectationAna2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setPourcentage()
+     * Test setPourcentage()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class AffectationAna2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

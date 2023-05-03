@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AbsencesCpPrevRemplTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeEmploye()
+     * Test setCodeEmploye()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AbsencesCpPrevRemplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRemplacant()
+     * Test setCodeRemplacant()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AbsencesCpPrevRemplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDebutCp()
+     * Test setDateDebutCp()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class AbsencesCpPrevRemplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDebutRempl()
+     * Test setDateDebutRempl()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -85,7 +85,7 @@ class AbsencesCpPrevRemplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFinRempl()
+     * Test setDateFinRempl()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -102,7 +102,7 @@ class AbsencesCpPrevRemplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndice()
+     * Test setIndice()
      *
      * @return void
      */
@@ -115,7 +115,7 @@ class AbsencesCpPrevRemplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeRempl()
+     * Test setTypeRempl()
      *
      * @return void
      */
@@ -128,7 +128,7 @@ class AbsencesCpPrevRemplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

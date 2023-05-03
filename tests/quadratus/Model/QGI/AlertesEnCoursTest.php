@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AlertesEnCoursTest extends AbstractTestCase {
 
     /**
-     * Tests setArDemande()
+     * Test setArDemande()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AlertesEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AlertesEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollabDst()
+     * Test setCodeCollabDst()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AlertesEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollabOrg()
+     * Test setCodeCollabOrg()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class AlertesEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateCreation()
+     * Test setDateCreation()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -94,7 +94,7 @@ class AlertesEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDeclenchement()
+     * Test setDateDeclenchement()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -111,7 +111,7 @@ class AlertesEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIdAlerte()
+     * Test setIdAlerte()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class AlertesEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTexteAlerte()
+     * Test setTexteAlerte()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class AlertesEnCoursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

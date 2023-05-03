@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ConfidentialiteZonesTest extends AbstractTestCase {
 
     /**
-     * Tests setChamp()
+     * Test setChamp()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ConfidentialiteZonesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChapitre()
+     * Test setChapitre()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ConfidentialiteZonesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaborateur()
+     * Test setCodeCollaborateur()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ConfidentialiteZonesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setType()
+     * Test setType()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ConfidentialiteZonesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

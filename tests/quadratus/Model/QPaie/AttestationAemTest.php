@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AttestationAemTest extends AbstractTestCase {
 
     /**
-     * Tests setActivite()
+     * Test setActivite()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAemInitiale()
+     * Test setAemInitiale()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAutresContributions()
+     * Test setAutresContributions()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAutresRemunBrut()
+     * Test setAutresRemunBrut()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAutresTauxCotis()
+     * Test setAutresTauxCotis()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBrut()
+     * Test setBrut()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBrutAl()
+     * Test setBrutAl()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCertificationSociale()
+     * Test setCertificationSociale()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCivilite()
+     * Test setCivilite()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEmploi()
+     * Test setCodeEmploi()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEtablissement()
+     * Test setCodeEtablissement()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeNaf2008()
+     * Test setCodeNaf2008()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeQualif()
+     * Test setCodeQualif()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setContact()
+     * Test setContact()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setContratEnCours()
+     * Test setContratEnCours()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setContributions()
+     * Test setContributions()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateEmbauche()
+     * Test setDateEmbauche()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -250,7 +250,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFinContrat()
+     * Test setDateFinContrat()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -267,7 +267,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFinContratInitiale()
+     * Test setDateFinContratInitiale()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -284,7 +284,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateNaiss()
+     * Test setDateNaiss()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -301,7 +301,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmpAdresse1()
+     * Test setEmpAdresse1()
      *
      * @return void
      */
@@ -314,7 +314,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmpAdresse2()
+     * Test setEmpAdresse2()
      *
      * @return void
      */
@@ -327,7 +327,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmpCodePostal()
+     * Test setEmpCodePostal()
      *
      * @return void
      */
@@ -340,7 +340,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmpCommune()
+     * Test setEmpCommune()
      *
      * @return void
      */
@@ -353,7 +353,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmpTel()
+     * Test setEmpTel()
      *
      * @return void
      */
@@ -366,7 +366,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmploi()
+     * Test setEmploi()
      *
      * @return void
      */
@@ -379,7 +379,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtblAdresse1()
+     * Test setEtblAdresse1()
      *
      * @return void
      */
@@ -392,7 +392,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtblAdresse2()
+     * Test setEtblAdresse2()
      *
      * @return void
      */
@@ -405,7 +405,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtblCodePostal()
+     * Test setEtblCodePostal()
      *
      * @return void
      */
@@ -418,7 +418,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtblCommune()
+     * Test setEtblCommune()
      *
      * @return void
      */
@@ -431,7 +431,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtblFax()
+     * Test setEtblFax()
      *
      * @return void
      */
@@ -444,7 +444,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtblMail()
+     * Test setEtblMail()
      *
      * @return void
      */
@@ -457,7 +457,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtblRaisonSociale()
+     * Test setEtblRaisonSociale()
      *
      * @return void
      */
@@ -470,7 +470,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtblTel()
+     * Test setEtblTel()
      *
      * @return void
      */
@@ -483,7 +483,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndiceAem()
+     * Test setIndiceAem()
      *
      * @return void
      */
@@ -496,7 +496,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLabelPrestataire()
+     * Test setLabelPrestataire()
      *
      * @return void
      */
@@ -509,7 +509,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLicenceSpectacle()
+     * Test setLicenceSpectacle()
      *
      * @return void
      */
@@ -522,7 +522,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLienDocument()
+     * Test setLienDocument()
      *
      * @return void
      */
@@ -535,7 +535,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLienParente()
+     * Test setLienParente()
      *
      * @return void
      */
@@ -548,7 +548,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMotifFinContrat()
+     * Test setMotifFinContrat()
      *
      * @return void
      */
@@ -561,7 +561,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMotifRupture()
+     * Test setMotifRupture()
      *
      * @return void
      */
@@ -574,7 +574,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNaf()
+     * Test setNaf()
      *
      * @return void
      */
@@ -587,7 +587,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJourTrav()
+     * Test setNbJourTrav()
      *
      * @return void
      */
@@ -600,7 +600,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNir()
+     * Test setNir()
      *
      * @return void
      */
@@ -613,7 +613,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomEmploye()
+     * Test setNomEmploye()
      *
      * @return void
      */
@@ -626,7 +626,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomNaissance()
+     * Test setNomNaissance()
      *
      * @return void
      */
@@ -639,7 +639,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomRetraite()
+     * Test setNomRetraite()
      *
      * @return void
      */
@@ -652,7 +652,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNombreCachets()
+     * Test setNombreCachets()
      *
      * @return void
      */
@@ -665,7 +665,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNombreCachetsIsoles()
+     * Test setNombreCachetsIsoles()
      *
      * @return void
      */
@@ -678,7 +678,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNombreHeures()
+     * Test setNombreHeures()
      *
      * @return void
      */
@@ -691,7 +691,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumAssedic()
+     * Test setNumAssedic()
      *
      * @return void
      */
@@ -704,7 +704,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumCaisseSpectacle()
+     * Test setNumCaisseSpectacle()
      *
      * @return void
      */
@@ -717,7 +717,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumCertificationSociale()
+     * Test setNumCertificationSociale()
      *
      * @return void
      */
@@ -730,7 +730,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumIdccEmployeur()
+     * Test setNumIdccEmployeur()
      *
      * @return void
      */
@@ -743,7 +743,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumIdccPrestationTravail()
+     * Test setNumIdccPrestationTravail()
      *
      * @return void
      */
@@ -756,7 +756,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumObjet()
+     * Test setNumObjet()
      *
      * @return void
      */
@@ -769,7 +769,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroAemInitiale()
+     * Test setNumeroAemInitiale()
      *
      * @return void
      */
@@ -782,7 +782,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroAttestation()
+     * Test setNumeroAttestation()
      *
      * @return void
      */
@@ -795,7 +795,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmploye()
+     * Test setNumeroEmploye()
      *
      * @return void
      */
@@ -808,7 +808,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroLabel()
+     * Test setNumeroLabel()
      *
      * @return void
      */
@@ -821,7 +821,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroLicence()
+     * Test setNumeroLicence()
      *
      * @return void
      */
@@ -834,7 +834,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOrganisateurSpectacle()
+     * Test setOrganisateurSpectacle()
      *
      * @return void
      */
@@ -847,7 +847,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOrganismeAssedic()
+     * Test setOrganismeAssedic()
      *
      * @return void
      */
@@ -860,7 +860,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOrganismeRetraite()
+     * Test setOrganismeRetraite()
      *
      * @return void
      */
@@ -873,7 +873,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeAttest()
+     * Test setPeriodeAttest()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -890,7 +890,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrenom()
+     * Test setPrenom()
      *
      * @return void
      */
@@ -903,7 +903,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSignatureDate()
+     * Test setSignatureDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -920,7 +920,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSignatureNom()
+     * Test setSignatureNom()
      *
      * @return void
      */
@@ -933,7 +933,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSignaturePrenom()
+     * Test setSignaturePrenom()
      *
      * @return void
      */
@@ -946,7 +946,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSignatureQualite()
+     * Test setSignatureQualite()
      *
      * @return void
      */
@@ -959,7 +959,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSignatureQualiteCode()
+     * Test setSignatureQualiteCode()
      *
      * @return void
      */
@@ -972,7 +972,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSignatureVille()
+     * Test setSignatureVille()
      *
      * @return void
      */
@@ -985,7 +985,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSiret()
+     * Test setSiret()
      *
      * @return void
      */
@@ -998,7 +998,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setStatutCadre()
+     * Test setStatutCadre()
      *
      * @return void
      */
@@ -1011,7 +1011,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxCotis()
+     * Test setTauxCotis()
      *
      * @return void
      */
@@ -1024,7 +1024,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTelContact()
+     * Test setTelContact()
      *
      * @return void
      */
@@ -1037,7 +1037,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeAem()
+     * Test setTypeAem()
      *
      * @return void
      */
@@ -1050,7 +1050,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeLienParente()
+     * Test setTypeLienParente()
      *
      * @return void
      */
@@ -1063,7 +1063,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeNationalite()
+     * Test setTypeNationalite()
      *
      * @return void
      */
@@ -1076,7 +1076,7 @@ class AttestationAemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

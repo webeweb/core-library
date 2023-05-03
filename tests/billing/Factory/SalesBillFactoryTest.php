@@ -27,7 +27,7 @@ use WBW\Library\Billing\Tests\AbstractTestCase;
 class SalesBillFactoryTest extends AbstractTestCase {
 
     /**
-     * Tests copy()
+     * Test copy()
      *
      * @return void
      */

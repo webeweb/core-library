@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class PointEmpHeuresAbsComplRemplTest extends AbstractTestCase {
 
     /**
-     * Tests setAvenantSigne()
+     * Test setAvenantSigne()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class PointEmpHeuresAbsComplRemplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAbsence()
+     * Test setCodeAbsence()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class PointEmpHeuresAbsComplRemplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class PointEmpHeuresAbsComplRemplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantier()
+     * Test setCodeChantier()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class PointEmpHeuresAbsComplRemplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class PointEmpHeuresAbsComplRemplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaboValid()
+     * Test setCodeCollaboValid()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class PointEmpHeuresAbsComplRemplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaborateur()
+     * Test setCodeCollaborateur()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class PointEmpHeuresAbsComplRemplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEmploye()
+     * Test setCodeEmploye()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class PointEmpHeuresAbsComplRemplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTache()
+     * Test setCodeTache()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class PointEmpHeuresAbsComplRemplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDate()
+     * Test setDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -159,7 +159,7 @@ class PointEmpHeuresAbsComplRemplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateAbsDecalee()
+     * Test setDateAbsDecalee()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -176,7 +176,7 @@ class PointEmpHeuresAbsComplRemplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateValidationSynchro()
+     * Test setDateValidationSynchro()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -193,7 +193,7 @@ class PointEmpHeuresAbsComplRemplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmployeRemplace()
+     * Test setEmployeRemplace()
      *
      * @return void
      */
@@ -206,7 +206,7 @@ class PointEmpHeuresAbsComplRemplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtat()
+     * Test setEtat()
      *
      * @return void
      */
@@ -219,7 +219,7 @@ class PointEmpHeuresAbsComplRemplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHeureDeb()
+     * Test setHeureDeb()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -236,7 +236,7 @@ class PointEmpHeuresAbsComplRemplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHeuresJour()
+     * Test setHeuresJour()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -253,7 +253,7 @@ class PointEmpHeuresAbsComplRemplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHeuresNuit()
+     * Test setHeuresNuit()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -270,7 +270,7 @@ class PointEmpHeuresAbsComplRemplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumBt()
+     * Test setNumBt()
      *
      * @return void
      */
@@ -283,7 +283,7 @@ class PointEmpHeuresAbsComplRemplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroAvenant()
+     * Test setNumeroAvenant()
      *
      * @return void
      */
@@ -296,7 +296,7 @@ class PointEmpHeuresAbsComplRemplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeHeure()
+     * Test setTypeHeure()
      *
      * @return void
      */
@@ -309,7 +309,7 @@ class PointEmpHeuresAbsComplRemplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqId()
+     * Test setUniqId()
      *
      * @return void
      */
@@ -322,7 +322,7 @@ class PointEmpHeuresAbsComplRemplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqIdPlanning()
+     * Test setUniqIdPlanning()
      *
      * @return void
      */
@@ -335,7 +335,7 @@ class PointEmpHeuresAbsComplRemplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqIdSynchro()
+     * Test setUniqIdSynchro()
      *
      * @return void
      */
@@ -348,7 +348,7 @@ class PointEmpHeuresAbsComplRemplTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

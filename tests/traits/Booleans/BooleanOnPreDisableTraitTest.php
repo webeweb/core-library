@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Booleans\TestBooleanOnPreDisableTrait;
 class BooleanOnPreDisableTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setOnPreDisable()
+     * Test setOnPreDisable()
      *
      * @return void
      */

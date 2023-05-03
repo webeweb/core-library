@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class PiecesJointesTest extends AbstractTestCase {
 
     /**
-     * Tests setAuteur()
+     * Test setAuteur()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class PiecesJointesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateCreation()
+     * Test setDateCreation()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -55,7 +55,7 @@ class PiecesJointesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndice()
+     * Test setIndice()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class PiecesJointesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class PiecesJointesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomPiece()
+     * Test setNomPiece()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class PiecesJointesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumPiece()
+     * Test setNumPiece()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class PiecesJointesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

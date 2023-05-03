@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Model\TestRepositoryEventTrait;
 class RepositoryEventTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setRepositoryEvent()
+     * Test setRepositoryEvent()
      *
      * @return void
      */

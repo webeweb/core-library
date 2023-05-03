@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class TauxAtTest extends AbstractTestCase {
 
     /**
-     * Tests setAPartirDe()
+     * Test setAPartirDe()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -42,7 +42,7 @@ class TauxAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBureau()
+     * Test setBureau()
      *
      * @return void
      */
@@ -55,7 +55,7 @@ class TauxAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAt()
+     * Test setCodeAt()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class TauxAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEtablissement()
+     * Test setCodeEtablissement()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class TauxAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRisque()
+     * Test setRisque()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class TauxAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSection()
+     * Test setSection()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class TauxAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTaux()
+     * Test setTaux()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class TauxAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

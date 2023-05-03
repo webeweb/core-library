@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ComptesDas2Test extends AbstractTestCase {
 
     /**
-     * Tests setAvantageNature()
+     * Test setAvantageNature()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ComptesDas2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndemniteRbt()
+     * Test setIndemniteRbt()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ComptesDas2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant1()
+     * Test setMontant1()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ComptesDas2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant2()
+     * Test setMontant2()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ComptesDas2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNature1()
+     * Test setNature1()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ComptesDas2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNature2()
+     * Test setNature2()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class ComptesDas2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroCompte()
+     * Test setNumeroCompte()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class ComptesDas2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setRetenueSource()
+     * Test setRetenueSource()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class ComptesDas2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvada()
+     * Test setTvada()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class ComptesDas2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeAn()
+     * Test setTypeAn()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class ComptesDas2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeIr()
+     * Test setTypeIr()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class ComptesDas2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeRs()
+     * Test setTypeRs()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class ComptesDas2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

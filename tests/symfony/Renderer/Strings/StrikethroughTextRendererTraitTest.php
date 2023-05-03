@@ -23,7 +23,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Renderer\Strings\TestStrikethroughTextRen
 class StrikethroughTextRendererTraitTest extends AbstractTestCase {
 
     /**
-     * Tests renderStrikethroughText()
+     * Test renderStrikethroughText()
      *
      * @return void
      */

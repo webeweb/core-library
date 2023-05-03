@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringAvatarTrait;
 class StringAvatarTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setAvatar()
+     * Test setAvatar()
      *
      * @return void
      */

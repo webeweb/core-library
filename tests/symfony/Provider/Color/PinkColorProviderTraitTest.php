@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Provider\Color\TestPinkColorProviderTrait
 class PinkColorProviderTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setPinkColorProvider()
+     * Test setPinkColorProvider()
      *
      * @return void
      */

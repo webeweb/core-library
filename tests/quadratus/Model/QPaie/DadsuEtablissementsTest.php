@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DadsuEtablissementsTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeEtablissement()
+     * Test setCodeEtablissement()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class DadsuEtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFormaProBase()
+     * Test setFormaProBase()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class DadsuEtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFormaProBaseCdd()
+     * Test setFormaProBaseCdd()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class DadsuEtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFormaProCodeAssuj()
+     * Test setFormaProCodeAssuj()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class DadsuEtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrudTypeDadsuDerogatoire()
+     * Test setPrudTypeDadsuDerogatoire()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class DadsuEtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTaxeApprentissageBase()
+     * Test setTaxeApprentissageBase()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class DadsuEtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTaxeApprentissageCodeAssuj()
+     * Test setTaxeApprentissageCodeAssuj()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class DadsuEtablissementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

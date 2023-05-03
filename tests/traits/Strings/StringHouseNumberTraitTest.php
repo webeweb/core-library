@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringHouseNumberTrait;
 class StringHouseNumberTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setHouseNumber()
+     * Test setHouseNumber()
      *
      * @return void
      */

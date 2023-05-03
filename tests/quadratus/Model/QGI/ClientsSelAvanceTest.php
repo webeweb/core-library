@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ClientsSelAvanceTest extends AbstractTestCase {
 
     /**
-     * Tests setCode()
+     * Test setCode()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCol()
+     * Test setCodeCol()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomReq1()
+     * Test setNomReq1()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomReq10()
+     * Test setNomReq10()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomReq11()
+     * Test setNomReq11()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomReq12()
+     * Test setNomReq12()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomReq2()
+     * Test setNomReq2()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomReq3()
+     * Test setNomReq3()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomReq4()
+     * Test setNomReq4()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomReq5()
+     * Test setNomReq5()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomReq6()
+     * Test setNomReq6()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomReq7()
+     * Test setNomReq7()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomReq8()
+     * Test setNomReq8()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomReq9()
+     * Test setNomReq9()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRequete1()
+     * Test setRequete1()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRequete10()
+     * Test setRequete10()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRequete11()
+     * Test setRequete11()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRequete12()
+     * Test setRequete12()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRequete2()
+     * Test setRequete2()
      *
      * @return void
      */
@@ -283,7 +283,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRequete3()
+     * Test setRequete3()
      *
      * @return void
      */
@@ -296,7 +296,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRequete4()
+     * Test setRequete4()
      *
      * @return void
      */
@@ -309,7 +309,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRequete5()
+     * Test setRequete5()
      *
      * @return void
      */
@@ -322,7 +322,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRequete6()
+     * Test setRequete6()
      *
      * @return void
      */
@@ -335,7 +335,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRequete7()
+     * Test setRequete7()
      *
      * @return void
      */
@@ -348,7 +348,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRequete8()
+     * Test setRequete8()
      *
      * @return void
      */
@@ -361,7 +361,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRequete9()
+     * Test setRequete9()
      *
      * @return void
      */
@@ -374,7 +374,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -27,7 +27,7 @@ use WBW\Library\SkiData\Tests\AbstractTestCase;
 class StartRecordFormatParserTest extends AbstractTestCase {
 
     /**
-     * Tests parseEntity()
+     * Test parseEntity()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -47,7 +47,7 @@ class StartRecordFormatParserTest extends AbstractTestCase {
     }
 
     /**
-     * Tests parseEntity()
+     * Test parseEntity()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -84,7 +84,7 @@ class StartRecordFormatParserTest extends AbstractTestCase {
     }
 
     /**
-     * Tests parseLine()
+     * Test parseLine()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -102,7 +102,7 @@ class StartRecordFormatParserTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

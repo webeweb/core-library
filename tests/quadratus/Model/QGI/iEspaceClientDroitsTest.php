@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class iEspaceClientDroitsTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeCollabMessages()
+     * Test setCodeCollabMessages()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class iEspaceClientDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeUser()
+     * Test setCodeUser()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class iEspaceClientDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDossierClient()
+     * Test setDossierClient()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class iEspaceClientDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFctDocuments()
+     * Test setFctDocuments()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class iEspaceClientDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFctDocumentsAutre()
+     * Test setFctDocumentsAutre()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class iEspaceClientDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFctDocumentsCompta()
+     * Test setFctDocumentsCompta()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class iEspaceClientDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFctDocumentsJuridique()
+     * Test setFctDocumentsJuridique()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class iEspaceClientDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFctDocumentsPaie()
+     * Test setFctDocumentsPaie()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class iEspaceClientDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFctInfos()
+     * Test setFctInfos()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class iEspaceClientDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFctMessagerie()
+     * Test setFctMessagerie()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class iEspaceClientDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomUser()
+     * Test setNomUser()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class iEspaceClientDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPassword()
+     * Test setPassword()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class iEspaceClientDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

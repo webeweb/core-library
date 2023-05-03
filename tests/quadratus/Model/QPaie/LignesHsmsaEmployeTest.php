@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LignesHsmsaEmployeTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeEtablissement()
+     * Test setCodeEtablissement()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class LignesHsmsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeUnite()
+     * Test setCodeUnite()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class LignesHsmsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtHs()
+     * Test setMtHs()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class LignesHsmsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHs()
+     * Test setNbHs()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class LignesHsmsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumLigne()
+     * Test setNumLigne()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class LignesHsmsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmploye()
+     * Test setNumeroEmploye()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class LignesHsmsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmploye2()
+     * Test setNumeroEmploye2()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class LignesHsmsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPerDeb()
+     * Test setPerDeb()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -133,7 +133,7 @@ class LignesHsmsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeDecla()
+     * Test setPeriodeDecla()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -150,7 +150,7 @@ class LignesHsmsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxHs()
+     * Test setTauxHs()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class LignesHsmsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeRemunHs()
+     * Test setTypeRemunHs()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class LignesHsmsaEmployeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

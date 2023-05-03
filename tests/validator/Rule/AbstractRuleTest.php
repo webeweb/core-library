@@ -23,7 +23,7 @@ use WBW\Library\Validator\Tests\Fixtures\Rule\TestRule;
 class AbstractRuleTest extends AbstractTestCase {
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

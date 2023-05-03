@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DecTvaUltTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeJournal()
+     * Test setCodeJournal()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class DecTvaUltTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTva()
+     * Test setCodeTva()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class DecTvaUltTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteur()
+     * Test setCompteur()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class DecTvaUltTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFolio()
+     * Test setFolio()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class DecTvaUltTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelleEcr()
+     * Test setLibelleEcr()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class DecTvaUltTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLigneFolio()
+     * Test setLigneFolio()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class DecTvaUltTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantHt()
+     * Test setMontantHt()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class DecTvaUltTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantTva()
+     * Test setMontantTva()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class DecTvaUltTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumLigne()
+     * Test setNumLigne()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class DecTvaUltTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumUniqEcr()
+     * Test setNumUniqEcr()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class DecTvaUltTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPerDec()
+     * Test setPerDec()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -172,7 +172,7 @@ class DecTvaUltTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPerDecUlt()
+     * Test setPerDecUlt()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -189,7 +189,7 @@ class DecTvaUltTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeEcriture()
+     * Test setPeriodeEcriture()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -206,7 +206,7 @@ class DecTvaUltTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Provider\Theme\TestNotificationsDropdownT
 class NotificationsDropdownThemeProviderTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setNotificationsDropdownThemeProvider()
+     * Test setNotificationsDropdownThemeProvider()
      *
      * @return void
      */

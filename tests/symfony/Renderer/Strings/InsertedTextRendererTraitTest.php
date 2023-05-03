@@ -23,7 +23,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Renderer\Strings\TestInsertedTextRenderer
 class InsertedTextRendererTraitTest extends AbstractTestCase {
 
     /**
-     * Tests renderInsertedText()
+     * Test renderInsertedText()
      *
      * @return void
      */

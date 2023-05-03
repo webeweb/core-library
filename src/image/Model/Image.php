@@ -50,7 +50,7 @@ class Image implements ImageInterface {
     }
 
     /**
-     * Encodes into base 64.
+     * Encode into base 64.
      *
      * @return string Returns this image encoded into base 64.
      */

@@ -27,7 +27,7 @@ use WBW\Library\Symfony\Tests\AbstractTestCase;
 class DeepPurpleColorProviderTest extends AbstractTestCase {
 
     /**
-     * Tests getColors()
+     * Test getColors()
      *
      * @return void
      */
@@ -67,7 +67,7 @@ class DeepPurpleColorProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests getName()
+     * Test getName()
      *
      * @return void
      */
@@ -79,7 +79,7 @@ class DeepPurpleColorProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

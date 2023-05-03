@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Booleans\TestBooleanVerboseTrait;
 class BooleanVerboseTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setVerbose()
+     * Test setVerbose()
      *
      * @return void
      */

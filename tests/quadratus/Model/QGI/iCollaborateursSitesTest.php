@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class iCollaborateursSitesTest extends AbstractTestCase {
 
     /**
-     * Tests setAdresseIp()
+     * Test setAdresseIp()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class iCollaborateursSitesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollab()
+     * Test setCodeCollab()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class iCollaborateursSitesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDossier()
+     * Test setDossier()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class iCollaborateursSitesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRestrCliAssist1()
+     * Test setRestrCliAssist1()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class iCollaborateursSitesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRestrCliAssist2()
+     * Test setRestrCliAssist2()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class iCollaborateursSitesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRestrCliAutre1()
+     * Test setRestrCliAutre1()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class iCollaborateursSitesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRestrCliAutre2()
+     * Test setRestrCliAutre2()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class iCollaborateursSitesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRestrCliCollab()
+     * Test setRestrCliCollab()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class iCollaborateursSitesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRestrCliExpert()
+     * Test setRestrCliExpert()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class iCollaborateursSitesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRestrCliPortef()
+     * Test setRestrCliPortef()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class iCollaborateursSitesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

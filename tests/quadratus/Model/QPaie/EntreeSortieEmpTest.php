@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EntreeSortieEmpTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeCollaborateur()
+     * Test setCodeCollaborateur()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class EntreeSortieEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeMotifRupture()
+     * Test setCodeMotifRupture()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class EntreeSortieEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateEs()
+     * Test setDateEs()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class EntreeSortieEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFinPeriodeEssai()
+     * Test setDateFinPeriodeEssai()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -85,7 +85,7 @@ class EntreeSortieEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateModification()
+     * Test setDateModification()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -102,7 +102,7 @@ class EntreeSortieEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateNotification()
+     * Test setDateNotification()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -119,7 +119,7 @@ class EntreeSortieEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateRenouvCdd1()
+     * Test setDateRenouvCdd1()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -136,7 +136,7 @@ class EntreeSortieEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateRenouvCdd2()
+     * Test setDateRenouvCdd2()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -153,7 +153,7 @@ class EntreeSortieEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEntrepriseTravailTemp()
+     * Test setEntrepriseTravailTemp()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class EntreeSortieEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmploye()
+     * Test setNumeroEmploye()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class EntreeSortieEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTransfertEs()
+     * Test setTransfertEs()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class EntreeSortieEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTravailTemp()
+     * Test setTravailTemp()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class EntreeSortieEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeEs()
+     * Test setTypeEs()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class EntreeSortieEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

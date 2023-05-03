@@ -26,7 +26,7 @@ use WBW\Library\Curl\Tests\AbstractTestCase;
 class CurlHelperTest extends AbstractTestCase {
 
     /**
-     * Tests enumCodes()
+     * Test enumCodes()
      *
      * @return void
      */
@@ -95,7 +95,7 @@ class CurlHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests enumMethods()
+     * Test enumMethods()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class CurlHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setProxy()
+     * Test setProxy()
      *
      * @retutn void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Floats\TestFloatLatitudeTrait;
 class FloatLatitudeTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setLatitude()
+     * Test setLatitude()
      *
      * @return void
      */

@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Assets\TestBadgeTrait;
 class BadgeTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setBadge()
+     * Test setBadge()
      *
      * @return void
      */

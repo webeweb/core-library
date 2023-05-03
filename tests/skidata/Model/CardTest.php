@@ -25,7 +25,7 @@ use WBW\Library\SkiData\Tests\AbstractTestCase;
 class CardTest extends AbstractTestCase {
 
     /**
-     * Tests setArticleNumber()
+     * Test setArticleNumber()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class CardTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCurrencyResidualValue()
+     * Test setCurrencyResidualValue()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class CardTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDisplayText()
+     * Test setDisplayText()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class CardTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDisplayText1()
+     * Test setDisplayText1()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class CardTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDisplayText2()
+     * Test setDisplayText2()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class CardTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEntryBarrierClosed()
+     * Test setEntryBarrierClosed()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class CardTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExitBarrierClosed()
+     * Test setExitBarrierClosed()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class CardTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setExpires()
+     * Test setExpires()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -130,7 +130,7 @@ class CardTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIsNeutral()
+     * Test setIsNeutral()
      *
      * @return void
      */
@@ -143,7 +143,7 @@ class CardTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPersonnalNo()
+     * Test setPersonnalNo()
      *
      * @return void
      */
@@ -156,7 +156,7 @@ class CardTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setProductionCounter()
+     * Test setProductionCounter()
      *
      * @return void
      */
@@ -169,7 +169,7 @@ class CardTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setProductionFacilityNumber()
+     * Test setProductionFacilityNumber()
      *
      * @return void
      */
@@ -182,7 +182,7 @@ class CardTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setProductionState()
+     * Test setProductionState()
      *
      * @return void
      */
@@ -195,7 +195,7 @@ class CardTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setReasonProduction()
+     * Test setReasonProduction()
      *
      * @return void
      */
@@ -208,7 +208,7 @@ class CardTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setResidualValue()
+     * Test setResidualValue()
      *
      * @return void
      */
@@ -221,7 +221,7 @@ class CardTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRetainTicketEntry()
+     * Test setRetainTicketEntry()
      *
      * @return void
      */
@@ -234,7 +234,7 @@ class CardTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRetainTicketExit()
+     * Test setRetainTicketExit()
      *
      * @return void
      */
@@ -247,7 +247,7 @@ class CardTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSerialNo()
+     * Test setSerialNo()
      *
      * @return void
      */
@@ -260,7 +260,7 @@ class CardTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSerialNumberKeyCardSwatch()
+     * Test setSerialNumberKeyCardSwatch()
      *
      * @return void
      */
@@ -273,7 +273,7 @@ class CardTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSuspendPeriodFrom()
+     * Test setSuspendPeriodFrom()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -287,7 +287,7 @@ class CardTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSuspendPeriodUntil()
+     * Test setSuspendPeriodUntil()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -301,7 +301,7 @@ class CardTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTicketNumber()
+     * Test setTicketNumber()
      *
      * @return void
      */
@@ -314,7 +314,7 @@ class CardTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTicketSubType()
+     * Test setTicketSubType()
      *
      * @return void
      */
@@ -327,7 +327,7 @@ class CardTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTicketType()
+     * Test setTicketType()
      *
      * @return void
      */
@@ -340,7 +340,7 @@ class CardTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUseValidCarParks()
+     * Test setUseValidCarParks()
      *
      * @return void
      */
@@ -353,7 +353,7 @@ class CardTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUserNumber()
+     * Test setUserNumber()
      *
      * @return void
      */
@@ -366,7 +366,7 @@ class CardTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValidFrom()
+     * Test setValidFrom()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -380,7 +380,7 @@ class CardTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

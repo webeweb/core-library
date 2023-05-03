@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class RetraitesEmpTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeOrganisme()
+     * Test setCodeOrganisme()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class RetraitesEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIdInstitution()
+     * Test setIdInstitution()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class RetraitesEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndiceContrat()
+     * Test setIndiceContrat()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class RetraitesEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNonGere()
+     * Test setNonGere()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class RetraitesEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmploye()
+     * Test setNumeroEmploye()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class RetraitesEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeOrga()
+     * Test setTypeOrga()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class RetraitesEmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

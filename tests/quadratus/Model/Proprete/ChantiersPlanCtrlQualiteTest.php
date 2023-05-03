@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantier()
+     * Test setCodeChantier()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaboValid()
+     * Test setCodeCollaboValid()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaborateur()
+     * Test setCodeCollaborateur()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCommentaire()
+     * Test setCommentaire()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDatePrevue()
+     * Test setDatePrevue()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateReelle()
+     * Test setDateReelle()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -137,7 +137,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateValidationSynchro()
+     * Test setDateValidationSynchro()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -154,7 +154,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtat()
+     * Test setEtat()
      *
      * @return void
      */
@@ -167,7 +167,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoteGlobale()
+     * Test setNoteGlobale()
      *
      * @return void
      */
@@ -180,7 +180,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroReclam()
+     * Test setNumeroReclam()
      *
      * @return void
      */
@@ -193,7 +193,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRealiseParFcq()
+     * Test setRealiseParFcq()
      *
      * @return void
      */
@@ -206,7 +206,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeControle()
+     * Test setTypeControle()
      *
      * @return void
      */
@@ -219,7 +219,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqIdNoeud()
+     * Test setUniqIdNoeud()
      *
      * @return void
      */
@@ -232,7 +232,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqIdSynchro()
+     * Test setUniqIdSynchro()
      *
      * @return void
      */
@@ -245,7 +245,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

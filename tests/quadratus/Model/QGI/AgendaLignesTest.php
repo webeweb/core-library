@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AgendaLignesTest extends AbstractTestCase {
 
     /**
-     * Tests setBudgetNumUniq()
+     * Test setBudgetNumUniq()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaborateur()
+     * Test setCodeCollaborateur()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeMission()
+     * Test setCodeMission()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTache()
+     * Test setCodeTache()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCollCreation()
+     * Test setCollCreation()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCollModif()
+     * Test setCollModif()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setConfirme()
+     * Test setConfirme()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCritereLibre()
+     * Test setCritereLibre()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateCreation()
+     * Test setDateCreation()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -159,7 +159,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateModif()
+     * Test setDateModif()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -176,7 +176,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHeureDebut()
+     * Test setHeureDebut()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -193,7 +193,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHeureFin()
+     * Test setHeureFin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -210,7 +210,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setInterlocuteur()
+     * Test setInterlocuteur()
      *
      * @return void
      */
@@ -223,7 +223,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIsTacheTp()
+     * Test setIsTacheTp()
      *
      * @return void
      */
@@ -236,7 +236,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIsTransf()
+     * Test setIsTransf()
      *
      * @return void
      */
@@ -249,7 +249,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setJour()
+     * Test setJour()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -266,7 +266,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMemoPlus()
+     * Test setMemoPlus()
      *
      * @return void
      */
@@ -279,7 +279,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMessage()
+     * Test setMessage()
      *
      * @return void
      */
@@ -292,7 +292,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumOrdreMission()
+     * Test setNumOrdreMission()
      *
      * @return void
      */
@@ -305,7 +305,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumUniq()
+     * Test setNumUniq()
      *
      * @return void
      */
@@ -318,7 +318,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumUniq2()
+     * Test setNumUniq2()
      *
      * @return void
      */
@@ -331,7 +331,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPieceJointe()
+     * Test setPieceJointe()
      *
      * @return void
      */
@@ -344,7 +344,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrive()
+     * Test setPrive()
      *
      * @return void
      */
@@ -357,7 +357,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRecurrence()
+     * Test setRecurrence()
      *
      * @return void
      */
@@ -370,7 +370,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeActivite()
+     * Test setTypeActivite()
      *
      * @return void
      */
@@ -383,7 +383,7 @@ class AgendaLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

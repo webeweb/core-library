@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class CompteurEcrituresTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class CompteurEcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateComptage()
+     * Test setDateComptage()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -55,7 +55,7 @@ class CompteurEcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMillesime()
+     * Test setMillesime()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class CompteurEcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbEcritures()
+     * Test setNbEcritures()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class CompteurEcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbEcrituresADeduire()
+     * Test setNbEcrituresADeduire()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class CompteurEcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoChronoPreparation()
+     * Test setNoChronoPreparation()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class CompteurEcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodePreparation()
+     * Test setPeriodePreparation()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -124,7 +124,7 @@ class CompteurEcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setType()
+     * Test setType()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class CompteurEcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqIdPdf()
+     * Test setUniqIdPdf()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class CompteurEcrituresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DevisChantiersLignesTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class DevisChantiersLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantier()
+     * Test setCodeChantier()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class DevisChantiersLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class DevisChantiersLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeLocalType()
+     * Test setCodeLocalType()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class DevisChantiersLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRevetement()
+     * Test setCodeRevetement()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class DevisChantiersLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantHt()
+     * Test setMontantHt()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class DevisChantiersLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumDevis()
+     * Test setNumDevis()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class DevisChantiersLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumLigne()
+     * Test setNumLigne()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class DevisChantiersLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSolMur()
+     * Test setSolMur()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class DevisChantiersLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSurface()
+     * Test setSurface()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class DevisChantiersLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqIdNoeud()
+     * Test setUniqIdNoeud()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class DevisChantiersLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

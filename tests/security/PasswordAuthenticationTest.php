@@ -23,7 +23,7 @@ use WBW\Library\Security\PasswordAuthentication;
 class PasswordAuthenticationTest extends AbstractTestCase {
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

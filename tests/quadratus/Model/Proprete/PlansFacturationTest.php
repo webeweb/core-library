@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class PlansFacturationTest extends AbstractTestCase {
 
     /**
-     * Tests setAou()
+     * Test setAou()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAvr()
+     * Test setAvr()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeArticle()
+     * Test setCodeArticle()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantier()
+     * Test setCodeChantier()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRegroupement()
+     * Test setCodeRegroupement()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCoefficient()
+     * Test setCoefficient()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFinValidite()
+     * Test setDateFinValidite()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -146,7 +146,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDec()
+     * Test setDec()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDesignation()
+     * Test setDesignation()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDesignation2()
+     * Test setDesignation2()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDesignation3()
+     * Test setDesignation3()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDesignationBis()
+     * Test setDesignationBis()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDesignationBis2()
+     * Test setDesignationBis2()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDesignationBis3()
+     * Test setDesignationBis3()
      *
      * @return void
      */
@@ -237,7 +237,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDesignationRtf()
+     * Test setDesignationRtf()
      *
      * @return void
      */
@@ -250,7 +250,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDuree()
+     * Test setDuree()
      *
      * @return void
      */
@@ -263,7 +263,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFev()
+     * Test setFev()
      *
      * @return void
      */
@@ -276,7 +276,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFinPeriodeTarif()
+     * Test setFinPeriodeTarif()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -293,7 +293,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndice()
+     * Test setIndice()
      *
      * @return void
      */
@@ -306,7 +306,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setJan()
+     * Test setJan()
      *
      * @return void
      */
@@ -319,7 +319,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setJui()
+     * Test setJui()
      *
      * @return void
      */
@@ -332,7 +332,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setJuin()
+     * Test setJuin()
      *
      * @return void
      */
@@ -345,7 +345,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMai()
+     * Test setMai()
      *
      * @return void
      */
@@ -358,7 +358,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMar()
+     * Test setMar()
      *
      * @return void
      */
@@ -371,7 +371,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNov()
+     * Test setNov()
      *
      * @return void
      */
@@ -384,7 +384,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumBt()
+     * Test setNumBt()
      *
      * @return void
      */
@@ -397,7 +397,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroDevis()
+     * Test setNumeroDevis()
      *
      * @return void
      */
@@ -410,7 +410,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroHistorique()
+     * Test setNumeroHistorique()
      *
      * @return void
      */
@@ -423,7 +423,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOct()
+     * Test setOct()
      *
      * @return void
      */
@@ -436,7 +436,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeTarif()
+     * Test setPeriodeTarif()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -453,7 +453,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPosteRent()
+     * Test setPosteRent()
      *
      * @return void
      */
@@ -466,7 +466,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrixAchat()
+     * Test setPrixAchat()
      *
      * @return void
      */
@@ -479,7 +479,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrixVente()
+     * Test setPrixVente()
      *
      * @return void
      */
@@ -492,7 +492,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPxFacture()
+     * Test setPxFacture()
      *
      * @return void
      */
@@ -505,7 +505,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQuantite()
+     * Test setQuantite()
      *
      * @return void
      */
@@ -518,7 +518,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRefArticle()
+     * Test setRefArticle()
      *
      * @return void
      */
@@ -531,7 +531,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRefPosteCdeWebFt()
+     * Test setRefPosteCdeWebFt()
      *
      * @return void
      */
@@ -544,7 +544,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSep()
+     * Test setSep()
      *
      * @return void
      */
@@ -557,7 +557,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTaux()
+     * Test setTaux()
      *
      * @return void
      */
@@ -570,7 +570,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setVentilMarge()
+     * Test setVentilMarge()
      *
      * @return void
      */
@@ -583,7 +583,7 @@ class PlansFacturationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

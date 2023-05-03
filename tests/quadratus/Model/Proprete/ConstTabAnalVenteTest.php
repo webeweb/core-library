@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ConstTabAnalVenteTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeAnalArticle()
+     * Test setCodeAnalArticle()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ConstTabAnalVenteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAnalClient()
+     * Test setCodeAnalClient()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ConstTabAnalVenteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCentre()
+     * Test setCodeCentre()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ConstTabAnalVenteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeNature()
+     * Test setCodeNature()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ConstTabAnalVenteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setType()
+     * Test setType()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ConstTabAnalVenteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

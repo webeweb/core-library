@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringOrientationTrait;
 class StringOrientationTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setOrientation()
+     * Test setOrientation()
      *
      * @return void
      */

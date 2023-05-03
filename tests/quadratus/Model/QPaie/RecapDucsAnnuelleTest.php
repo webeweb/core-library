@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class RecapDucsAnnuelleTest extends AbstractTestCase {
 
     /**
-     * Tests setAEditerDucs()
+     * Test setAEditerDucs()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAcompte()
+     * Test setAcompte()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setArrondiBase()
+     * Test setArrondiBase()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setArrondiCotis()
+     * Test setArrondiCotis()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCentre()
+     * Test setCodeCentre()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEtablissement()
+     * Test setCodeEtablissement()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateReglement()
+     * Test setDateReglement()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateVerseSalaire()
+     * Test setDateVerseSalaire()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -137,7 +137,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDucsEuro()
+     * Test setDucsEuro()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEffectifInscrit()
+     * Test setEffectifInscrit()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEffectifMoyen()
+     * Test setEffectifMoyen()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEffectifPaye()
+     * Test setEffectifPaye()
      *
      * @return void
      */
@@ -189,7 +189,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFinPer()
+     * Test setFinPer()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -206,7 +206,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGrandDecalage()
+     * Test setGrandDecalage()
      *
      * @return void
      */
@@ -219,7 +219,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLienDocument()
+     * Test setLienDocument()
      *
      * @return void
      */
@@ -232,7 +232,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMethodeCalculCicehe()
+     * Test setMethodeCalculCicehe()
      *
      * @return void
      */
@@ -245,7 +245,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantTotal()
+     * Test setMontantTotal()
      *
      * @return void
      */
@@ -258,7 +258,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMotifEcartEff()
+     * Test setMotifEcartEff()
      *
      * @return void
      */
@@ -271,7 +271,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtAideCtAides()
+     * Test setMtAideCtAides()
      *
      * @return void
      */
@@ -284,7 +284,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtBrutDads()
+     * Test setMtBrutDads()
      *
      * @return void
      */
@@ -297,7 +297,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtRegulLodeom()
+     * Test setMtRegulLodeom()
      *
      * @return void
      */
@@ -310,7 +310,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbAutres()
+     * Test setNbAutres()
      *
      * @return void
      */
@@ -323,7 +323,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbFemmes()
+     * Test setNbFemmes()
      *
      * @return void
      */
@@ -336,7 +336,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbFinContrat()
+     * Test setNbFinContrat()
      *
      * @return void
      */
@@ -349,7 +349,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHommes()
+     * Test setNbHommes()
      *
      * @return void
      */
@@ -362,7 +362,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoAffiliation()
+     * Test setNoAffiliation()
      *
      * @return void
      */
@@ -375,7 +375,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOrganisme()
+     * Test setOrganisme()
      *
      * @return void
      */
@@ -388,7 +388,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPaieDecalee()
+     * Test setPaieDecalee()
      *
      * @return void
      */
@@ -401,7 +401,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPerDebCice()
+     * Test setPerDebCice()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -418,7 +418,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPerFinCice()
+     * Test setPerFinCice()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -435,7 +435,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      */
@@ -448,7 +448,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeDecla()
+     * Test setPeriodeDecla()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -465,7 +465,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPetitDecalage()
+     * Test setPetitDecalage()
      *
      * @return void
      */
@@ -478,7 +478,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPremMois()
+     * Test setPremMois()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -495,7 +495,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRaisonSociale()
+     * Test setRaisonSociale()
      *
      * @return void
      */
@@ -508,7 +508,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRecapDucs1()
+     * Test setRecapDucs1()
      *
      * @return void
      */
@@ -521,7 +521,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRecapDucs10()
+     * Test setRecapDucs10()
      *
      * @return void
      */
@@ -534,7 +534,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRecapDucs11()
+     * Test setRecapDucs11()
      *
      * @return void
      */
@@ -547,7 +547,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRecapDucs12()
+     * Test setRecapDucs12()
      *
      * @return void
      */
@@ -560,7 +560,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRecapDucs13()
+     * Test setRecapDucs13()
      *
      * @return void
      */
@@ -573,7 +573,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRecapDucs2()
+     * Test setRecapDucs2()
      *
      * @return void
      */
@@ -586,7 +586,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRecapDucs3()
+     * Test setRecapDucs3()
      *
      * @return void
      */
@@ -599,7 +599,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRecapDucs4()
+     * Test setRecapDucs4()
      *
      * @return void
      */
@@ -612,7 +612,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRecapDucs5()
+     * Test setRecapDucs5()
      *
      * @return void
      */
@@ -625,7 +625,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRecapDucs6()
+     * Test setRecapDucs6()
      *
      * @return void
      */
@@ -638,7 +638,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRecapDucs7()
+     * Test setRecapDucs7()
      *
      * @return void
      */
@@ -651,7 +651,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRecapDucs8()
+     * Test setRecapDucs8()
      *
      * @return void
      */
@@ -664,7 +664,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRecapDucs9()
+     * Test setRecapDucs9()
      *
      * @return void
      */
@@ -677,7 +677,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRegulDucs()
+     * Test setRegulDucs()
      *
      * @return void
      */
@@ -690,7 +690,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRib()
+     * Test setRib()
      *
      * @return void
      */
@@ -703,7 +703,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSousTypeOrganisme()
+     * Test setSousTypeOrganisme()
      *
      * @return void
      */
@@ -716,7 +716,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTraiterEdi()
+     * Test setTraiterEdi()
      *
      * @return void
      */
@@ -729,7 +729,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeOrganisme()
+     * Test setTypeOrganisme()
      *
      * @return void
      */
@@ -742,7 +742,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

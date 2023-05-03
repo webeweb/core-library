@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class CommentairesPaieTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeCollaboValid()
+     * Test setCodeCollaboValid()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class CommentairesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaborateur()
+     * Test setCodeCollaborateur()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class CommentairesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEmploye()
+     * Test setCodeEmploye()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class CommentairesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCommentaire()
+     * Test setCommentaire()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class CommentairesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateComm()
+     * Test setDateComm()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -94,7 +94,7 @@ class CommentairesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateValidationSynchro()
+     * Test setDateValidationSynchro()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -111,7 +111,7 @@ class CommentairesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtat()
+     * Test setEtat()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class CommentairesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIdComm()
+     * Test setIdComm()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class CommentairesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -154,7 +154,7 @@ class CommentairesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeComm()
+     * Test setTypeComm()
      *
      * @return void
      */
@@ -167,7 +167,7 @@ class CommentairesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqIdSynchro()
+     * Test setUniqIdSynchro()
      *
      * @return void
      */
@@ -180,7 +180,7 @@ class CommentairesPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -24,7 +24,7 @@ use WBW\Library\Traits\Tests\Fixtures\DateTimes\TestDateTimeDeadlineTrait;
 class DateTimeDeadlineTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setDeadline()
+     * Test setDeadline()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LiaisonsDestinatairesTest extends AbstractTestCase {
 
     /**
-     * Tests setAgence()
+     * Test setAgence()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class LiaisonsDestinatairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChemin()
+     * Test setChemin()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class LiaisonsDestinatairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCode()
+     * Test setCode()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class LiaisonsDestinatairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmail()
+     * Test setEmail()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class LiaisonsDestinatairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntitule()
+     * Test setIntitule()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class LiaisonsDestinatairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMachine()
+     * Test setMachine()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class LiaisonsDestinatairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMotDePasse()
+     * Test setMotDePasse()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class LiaisonsDestinatairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPartage()
+     * Test setPartage()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class LiaisonsDestinatairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSelectionArticle()
+     * Test setSelectionArticle()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class LiaisonsDestinatairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSelectionClient()
+     * Test setSelectionClient()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class LiaisonsDestinatairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSelectionFournisseur()
+     * Test setSelectionFournisseur()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class LiaisonsDestinatairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeLiaison()
+     * Test setTypeLiaison()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class LiaisonsDestinatairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUtilisateur()
+     * Test setUtilisateur()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class LiaisonsDestinatairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

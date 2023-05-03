@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringUriTrait;
 class StringUriTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setUri()
+     * Test setUri()
      *
      * @return void
      */

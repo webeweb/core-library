@@ -26,7 +26,7 @@ use WBW\Library\Curl\Configuration\Configuration;
 class CurlHelper {
 
     /**
-     * Enumerates the codes.
+     * Enumerate the codes.
      *
      * @return int[] Returns the codes enumeration.
      */
@@ -94,7 +94,7 @@ class CurlHelper {
     }
 
     /**
-     * Enumerates the methods.
+     * Enumerate the methods.
      *
      * @return string[] Returns the methods enumeration.
      */

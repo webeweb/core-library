@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AgendaDroitsAccesTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeCollDroit()
+     * Test setCodeCollDroit()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class AgendaDroitsAccesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollSuivi()
+     * Test setCodeCollSuivi()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class AgendaDroitsAccesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNiveauDroit()
+     * Test setNiveauDroit()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class AgendaDroitsAccesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

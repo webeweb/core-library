@@ -24,7 +24,7 @@ use WBW\Library\Vehicle\Model\VehicleBrandInterface;
 class JsonSerializer {
 
     /**
-     * Serializes a registration certificate.
+     * Serialize a registration certificate.
      *
      * @param RegistrationCertificateInterface $model The model.
      * @return array Returns the serialized registration certificate.
@@ -83,7 +83,7 @@ class JsonSerializer {
     }
 
     /**
-     * Serializes a vehicle brand.
+     * Serialize a vehicle brand.
      *
      * @param VehicleBrandInterface $model The model.
      * @return array Returns the serialized model.

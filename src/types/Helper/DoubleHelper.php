@@ -23,11 +23,11 @@ use WBW\Library\Types\Exception\FloatArgumentException;
 class DoubleHelper {
 
     /**
-     * Determines if a value is a double.
+     * Determine if a value is a double.
      *
      * @param mixed $value The value.
      * @return void
-     * @throws DoubleArgumentException Throws a Double argument exception if the value is not of expected type.
+     * @throws DoubleArgumentException Throws a double argument exception if the value is not of expected type.
      */
     public static function isDouble($value): void {
         if (false === is_double($value)) {

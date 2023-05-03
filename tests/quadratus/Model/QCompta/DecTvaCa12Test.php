@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DecTvaCa12Test extends AbstractTestCase {
 
     /**
-     * Tests setDateCession()
+     * Test setDateCession()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -42,7 +42,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -59,7 +59,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTxImposition()
+     * Test setTxImposition()
      *
      * @return void
      */
@@ -72,7 +72,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeCa12()
+     * Test setTypeCa12()
      *
      * @return void
      */
@@ -85,7 +85,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz0008()
+     * Test setz0008()
      *
      * @return void
      */
@@ -98,7 +98,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz0018()
+     * Test setz0018()
      *
      * @return void
      */
@@ -111,7 +111,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz0019()
+     * Test setz0019()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz0020()
+     * Test setz0020()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz0028()
+     * Test setz0028()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz0030b()
+     * Test setz0030b()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz0058()
+     * Test setz0058()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz0704()
+     * Test setz0704()
      *
      * @return void
      */
@@ -189,7 +189,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz0709()
+     * Test setz0709()
      *
      * @return void
      */
@@ -202,7 +202,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz0970()
+     * Test setz0970()
      *
      * @return void
      */
@@ -215,7 +215,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz0970b()
+     * Test setz0970b()
      *
      * @return void
      */
@@ -228,7 +228,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz0980()
+     * Test setz0980()
      *
      * @return void
      */
@@ -241,7 +241,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz0980b()
+     * Test setz0980b()
      *
      * @return void
      */
@@ -254,7 +254,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz0981()
+     * Test setz0981()
      *
      * @return void
      */
@@ -267,7 +267,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz0981b()
+     * Test setz0981b()
      *
      * @return void
      */
@@ -280,7 +280,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz0982()
+     * Test setz0982()
      *
      * @return void
      */
@@ -293,7 +293,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz0983()
+     * Test setz0983()
      *
      * @return void
      */
@@ -306,7 +306,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz3240()
+     * Test setz3240()
      *
      * @return void
      */
@@ -319,7 +319,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz32Code()
+     * Test setz32Code()
      *
      * @return void
      */
@@ -332,7 +332,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz32Libelle()
+     * Test setz32Libelle()
      *
      * @return void
      */
@@ -345,7 +345,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz32Taxe()
+     * Test setz32Taxe()
      *
      * @return void
      */
@@ -358,7 +358,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz35BCode()
+     * Test setz35BCode()
      *
      * @return void
      */
@@ -371,7 +371,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz35BLibelle()
+     * Test setz35BLibelle()
      *
      * @return void
      */
@@ -384,7 +384,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz35BTaxe()
+     * Test setz35BTaxe()
      *
      * @return void
      */
@@ -397,7 +397,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz35Code()
+     * Test setz35Code()
      *
      * @return void
      */
@@ -410,7 +410,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz35Libelle()
+     * Test setz35Libelle()
      *
      * @return void
      */
@@ -423,7 +423,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz35Taxe()
+     * Test setz35Taxe()
      *
      * @return void
      */
@@ -436,7 +436,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz4202()
+     * Test setz4202()
      *
      * @return void
      */
@@ -449,7 +449,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz4213()
+     * Test setz4213()
      *
      * @return void
      */
@@ -462,7 +462,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz4216()
+     * Test setz4216()
      *
      * @return void
      */
@@ -475,7 +475,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz4217()
+     * Test setz4217()
      *
      * @return void
      */
@@ -488,7 +488,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz4218()
+     * Test setz4218()
      *
      * @return void
      */
@@ -501,7 +501,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz4220()
+     * Test setz4220()
      *
      * @return void
      */
@@ -514,7 +514,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz45Ca12()
+     * Test setz45Ca12()
      *
      * @return void
      */
@@ -527,7 +527,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz45Ca12Code()
+     * Test setz45Ca12Code()
      *
      * @return void
      */
@@ -540,7 +540,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz45Ca12Libelle()
+     * Test setz45Ca12Libelle()
      *
      * @return void
      */
@@ -553,7 +553,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz47Ca12()
+     * Test setz47Ca12()
      *
      * @return void
      */
@@ -566,7 +566,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz47Ca12Code()
+     * Test setz47Ca12Code()
      *
      * @return void
      */
@@ -579,7 +579,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz47Ca12Libelle()
+     * Test setz47Ca12Libelle()
      *
      * @return void
      */
@@ -592,7 +592,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz4Aca12()
+     * Test setz4Aca12()
      *
      * @return void
      */
@@ -605,7 +605,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz4Aca12Code()
+     * Test setz4Aca12Code()
      *
      * @return void
      */
@@ -618,7 +618,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz4Aca12Libelle()
+     * Test setz4Aca12Libelle()
      *
      * @return void
      */
@@ -631,7 +631,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz4Bca12()
+     * Test setz4Bca12()
      *
      * @return void
      */
@@ -644,7 +644,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz4Bca12Code()
+     * Test setz4Bca12Code()
      *
      * @return void
      */
@@ -657,7 +657,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz4Bca12Libelle()
+     * Test setz4Bca12Libelle()
      *
      * @return void
      */
@@ -670,7 +670,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz4Cca12()
+     * Test setz4Cca12()
      *
      * @return void
      */
@@ -683,7 +683,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz4Cca12Code()
+     * Test setz4Cca12Code()
      *
      * @return void
      */
@@ -696,7 +696,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz4Cca12Libelle()
+     * Test setz4Cca12Libelle()
      *
      * @return void
      */
@@ -709,7 +709,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz5bCode()
+     * Test setz5bCode()
      *
      * @return void
      */
@@ -722,7 +722,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz5bHt()
+     * Test setz5bHt()
      *
      * @return void
      */
@@ -735,7 +735,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz5bLibelle()
+     * Test setz5bLibelle()
      *
      * @return void
      */
@@ -748,7 +748,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz5bTaxe()
+     * Test setz5bTaxe()
      *
      * @return void
      */
@@ -761,7 +761,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz7bCode()
+     * Test setz7bCode()
      *
      * @return void
      */
@@ -774,7 +774,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz7bHt()
+     * Test setz7bHt()
      *
      * @return void
      */
@@ -787,7 +787,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz7bLibelle()
+     * Test setz7bLibelle()
      *
      * @return void
      */
@@ -800,7 +800,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz7bTaxe()
+     * Test setz7bTaxe()
      *
      * @return void
      */
@@ -813,7 +813,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setz8004()
+     * Test setz8004()
      *
      * @return void
      */
@@ -826,7 +826,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setzAcompteDeduit1()
+     * Test setzAcompteDeduit1()
      *
      * @return void
      */
@@ -839,7 +839,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setzAcompteDeduit2()
+     * Test setzAcompteDeduit2()
      *
      * @return void
      */
@@ -852,7 +852,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setzAcompteDeduit3()
+     * Test setzAcompteDeduit3()
      *
      * @return void
      */
@@ -865,7 +865,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setzAcompteDeduit4()
+     * Test setzAcompteDeduit4()
      *
      * @return void
      */
@@ -878,7 +878,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setzAnneeAcompte1()
+     * Test setzAnneeAcompte1()
      *
      * @return void
      */
@@ -891,7 +891,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setzAnneeAcompte2()
+     * Test setzAnneeAcompte2()
      *
      * @return void
      */
@@ -904,7 +904,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setzAnneeAcompte3()
+     * Test setzAnneeAcompte3()
      *
      * @return void
      */
@@ -917,7 +917,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setzAnneeAcompte4()
+     * Test setzAnneeAcompte4()
      *
      * @return void
      */
@@ -930,7 +930,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setzCol1Acompte1()
+     * Test setzCol1Acompte1()
      *
      * @return void
      */
@@ -943,7 +943,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setzCol1Acompte2()
+     * Test setzCol1Acompte2()
      *
      * @return void
      */
@@ -956,7 +956,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setzCol1Acompte3()
+     * Test setzCol1Acompte3()
      *
      * @return void
      */
@@ -969,7 +969,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setzCol1Acompte4()
+     * Test setzCol1Acompte4()
      *
      * @return void
      */
@@ -982,7 +982,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setzCol2Acompte1()
+     * Test setzCol2Acompte1()
      *
      * @return void
      */
@@ -995,7 +995,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setzCol2Acompte2()
+     * Test setzCol2Acompte2()
      *
      * @return void
      */
@@ -1008,7 +1008,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setzCol2Acompte3()
+     * Test setzCol2Acompte3()
      *
      * @return void
      */
@@ -1021,7 +1021,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setzCol2Acompte4()
+     * Test setzCol2Acompte4()
      *
      * @return void
      */
@@ -1034,7 +1034,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setzExcedentVersement()
+     * Test setzExcedentVersement()
      *
      * @return void
      */
@@ -1047,7 +1047,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setzNomDemandeurRbt()
+     * Test setzNomDemandeurRbt()
      *
      * @return void
      */
@@ -1060,7 +1060,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setzNumMsa()
+     * Test setzNumMsa()
      *
      * @return void
      */
@@ -1073,7 +1073,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setzRbtDemande()
+     * Test setzRbtDemande()
      *
      * @return void
      */
@@ -1086,7 +1086,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setzRbtQualite()
+     * Test setzRbtQualite()
      *
      * @return void
      */
@@ -1099,7 +1099,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setzRbtVille()
+     * Test setzRbtVille()
      *
      * @return void
      */
@@ -1112,7 +1112,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setzRbtbic()
+     * Test setzRbtbic()
      *
      * @return void
      */
@@ -1125,7 +1125,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setzRbtiban()
+     * Test setzRbtiban()
      *
      * @return void
      */
@@ -1138,7 +1138,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setzRbtrib()
+     * Test setzRbtrib()
      *
      * @return void
      */
@@ -1151,7 +1151,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setzSoldeAPayer()
+     * Test setzSoldeAPayer()
      *
      * @return void
      */
@@ -1164,7 +1164,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setzSurfaceAgr()
+     * Test setzSurfaceAgr()
      *
      * @return void
      */
@@ -1177,7 +1177,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setzTaxesFiscales()
+     * Test setzTaxesFiscales()
      *
      * @return void
      */
@@ -1190,7 +1190,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setzYaDemandeRbt()
+     * Test setzYaDemandeRbt()
      *
      * @return void
      */
@@ -1203,7 +1203,7 @@ class DecTvaCa12Test extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

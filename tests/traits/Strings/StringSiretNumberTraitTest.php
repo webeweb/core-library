@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringSiretNumberTrait;
 class StringSiretNumberTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setSiretNumber()
+     * Test setSiretNumber()
      *
      * @return void
      */

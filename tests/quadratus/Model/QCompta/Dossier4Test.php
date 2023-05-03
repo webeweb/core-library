@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class Dossier4Test extends AbstractTestCase {
 
     /**
-     * Tests setAcompte1()
+     * Test setAcompte1()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setAcompte2()
+     * Test setAcompte2()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setAcompte3()
+     * Test setAcompte3()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setAcompte4()
+     * Test setAcompte4()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setArchImp3519Tva()
+     * Test setArchImp3519Tva()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setArchiveDeclTva()
+     * Test setArchiveDeclTva()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setBalAgeeNbJoursInt1()
+     * Test setBalAgeeNbJoursInt1()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setBalAgeeNbJoursInt2()
+     * Test setBalAgeeNbJoursInt2()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setBalAgeeNbJoursInt3()
+     * Test setBalAgeeNbJoursInt3()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setBalAgeeNbJoursInt4()
+     * Test setBalAgeeNbJoursInt4()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setBase15pcent()
+     * Test setBase15pcent()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setBase33pcent()
+     * Test setBase33pcent()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setBaseTNpcent()
+     * Test setBaseTNpcent()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCategoriePme()
+     * Test setCategoriePme()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCdiBtq()
+     * Test setCdiBtq()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCdiBureauDistributeur()
+     * Test setCdiBureauDistributeur()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCdiCodeOfficielCommune()
+     * Test setCdiCodeOfficielCommune()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCdiCodePostal()
+     * Test setCdiCodePostal()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCdiComplement()
+     * Test setCdiComplement()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCdiNom()
+     * Test setCdiNom()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCdiNomVille()
+     * Test setCdiNomVille()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCdiNomVoie()
+     * Test setCdiNomVoie()
      *
      * @return void
      */
@@ -311,7 +311,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCdiNumVoie()
+     * Test setCdiNumVoie()
      *
      * @return void
      */
@@ -324,7 +324,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCdiTel1()
+     * Test setCdiTel1()
      *
      * @return void
      */
@@ -337,7 +337,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDatePlafondInterets()
+     * Test setDatePlafondInterets()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -354,7 +354,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDatePlafondInterets2()
+     * Test setDatePlafondInterets2()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -371,7 +371,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateTransfLotCvae()
+     * Test setDateTransfLotCvae()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -388,7 +388,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateTransfLotIs()
+     * Test setDateTransfLotIs()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -405,7 +405,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateTransfertInterets()
+     * Test setDateTransfertInterets()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -422,7 +422,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateTransfertInterets2()
+     * Test setDateTransfertInterets2()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -439,7 +439,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDecTvaTypeReglement()
+     * Test setDecTvaTypeReglement()
      *
      * @return void
      */
@@ -452,7 +452,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDecalageQuinzaine()
+     * Test setDecalageQuinzaine()
      *
      * @return void
      */
@@ -465,7 +465,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDeclReferencePaiement()
+     * Test setDeclReferencePaiement()
      *
      * @return void
      */
@@ -478,7 +478,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDeclTvaCdi()
+     * Test setDeclTvaCdi()
      *
      * @return void
      */
@@ -491,7 +491,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDeclTvaInsp()
+     * Test setDeclTvaInsp()
      *
      * @return void
      */
@@ -504,7 +504,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDeclTvaRegime()
+     * Test setDeclTvaRegime()
      *
      * @return void
      */
@@ -517,7 +517,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setFtisContribMtt()
+     * Test setFtisContribMtt()
      *
      * @return void
      */
@@ -530,7 +530,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setFtisCreditImpot()
+     * Test setFtisCreditImpot()
      *
      * @return void
      */
@@ -543,7 +543,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setFtisDeficitsReportables()
+     * Test setFtisDeficitsReportables()
      *
      * @return void
      */
@@ -556,7 +556,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setFtisNumCpt1()
+     * Test setFtisNumCpt1()
      *
      * @return void
      */
@@ -569,7 +569,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setFtisNumCpt2()
+     * Test setFtisNumCpt2()
      *
      * @return void
      */
@@ -582,7 +582,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setFtiscice()
+     * Test setFtiscice()
      *
      * @return void
      */
@@ -595,7 +595,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setImmoRealloc()
+     * Test setImmoRealloc()
      *
      * @return void
      */
@@ -608,7 +608,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setInteretBase()
+     * Test setInteretBase()
      *
      * @return void
      */
@@ -621,7 +621,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setInteretsCap()
+     * Test setInteretsCap()
      *
      * @return void
      */
@@ -634,7 +634,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setInteretsCap2()
+     * Test setInteretsCap2()
      *
      * @return void
      */
@@ -647,7 +647,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setInteretsContrepartie()
+     * Test setInteretsContrepartie()
      *
      * @return void
      */
@@ -660,7 +660,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setInteretsContrepartie2()
+     * Test setInteretsContrepartie2()
      *
      * @return void
      */
@@ -673,7 +673,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setInteretsContrepartieDeduc()
+     * Test setInteretsContrepartieDeduc()
      *
      * @return void
      */
@@ -686,7 +686,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setInteretsContrepartieDeduc2()
+     * Test setInteretsContrepartieDeduc2()
      *
      * @return void
      */
@@ -699,7 +699,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setInteretsPca()
+     * Test setInteretsPca()
      *
      * @return void
      */
@@ -712,7 +712,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setInteretsPca2()
+     * Test setInteretsPca2()
      *
      * @return void
      */
@@ -725,7 +725,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoLotCptRecip()
+     * Test setNoLotCptRecip()
      *
      * @return void
      */
@@ -738,7 +738,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoLotCreditIs()
+     * Test setNoLotCreditIs()
      *
      * @return void
      */
@@ -751,7 +751,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoLotCvae()
+     * Test setNoLotCvae()
      *
      * @return void
      */
@@ -764,7 +764,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoLotInterets()
+     * Test setNoLotInterets()
      *
      * @return void
      */
@@ -777,7 +777,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoLotInterets2()
+     * Test setNoLotInterets2()
      *
      * @return void
      */
@@ -790,7 +790,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoLotIs()
+     * Test setNoLotIs()
      *
      * @return void
      */
@@ -803,7 +803,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoLotPaiementIs()
+     * Test setNoLotPaiementIs()
      *
      * @return void
      */
@@ -816,7 +816,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeTransfertStock()
+     * Test setPeriodeTransfertStock()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -833,7 +833,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrecedentNumLotStock()
+     * Test setPrecedentNumLotStock()
      *
      * @return void
      */
@@ -846,7 +846,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setRegimeAgricole()
+     * Test setRegimeAgricole()
      *
      * @return void
      */
@@ -859,7 +859,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setResultatNetCpt()
+     * Test setResultatNetCpt()
      *
      * @return void
      */
@@ -872,7 +872,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setRofTva()
+     * Test setRofTva()
      *
      * @return void
      */
@@ -885,7 +885,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxPlafondInterets()
+     * Test setTauxPlafondInterets()
      *
      * @return void
      */
@@ -898,7 +898,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxPlafondInterets2()
+     * Test setTauxPlafondInterets2()
      *
      * @return void
      */
@@ -911,7 +911,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaAchatsEnc()
+     * Test setTvaAchatsEnc()
      *
      * @return void
      */
@@ -924,7 +924,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaCa12Ae()
+     * Test setTvaCa12Ae()
      *
      * @return void
      */
@@ -937,7 +937,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaCadtm()
+     * Test setTvaCadtm()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -954,7 +954,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaCascade()
+     * Test setTvaCascade()
      *
      * @return void
      */
@@ -967,7 +967,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaClotureFaite()
+     * Test setTvaClotureFaite()
      *
      * @return void
      */
@@ -980,7 +980,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaCodeCabinet()
+     * Test setTvaCodeCabinet()
      *
      * @return void
      */
@@ -993,7 +993,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaCodeIntEmetteur()
+     * Test setTvaCodeIntEmetteur()
      *
      * @return void
      */
@@ -1006,7 +1006,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaCodeIntRecepteur()
+     * Test setTvaCodeIntRecepteur()
      *
      * @return void
      */
@@ -1019,7 +1019,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaCodeJournalBq()
+     * Test setTvaCodeJournalBq()
      *
      * @return void
      */
@@ -1032,7 +1032,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaCodeJournalOd()
+     * Test setTvaCodeJournalOd()
      *
      * @return void
      */
@@ -1045,7 +1045,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaCptAAjouter()
+     * Test setTvaCptAAjouter()
      *
      * @return void
      */
@@ -1058,7 +1058,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaCptAAjouterG()
+     * Test setTvaCptAAjouterG()
      *
      * @return void
      */
@@ -1071,7 +1071,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaCptADeduire()
+     * Test setTvaCptADeduire()
      *
      * @return void
      */
@@ -1084,7 +1084,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaCptAImputer()
+     * Test setTvaCptAImputer()
      *
      * @return void
      */
@@ -1097,7 +1097,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaCptAImputerG()
+     * Test setTvaCptAImputerG()
      *
      * @return void
      */
@@ -1110,7 +1110,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaCptAPayer()
+     * Test setTvaCptAPayer()
      *
      * @return void
      */
@@ -1123,7 +1123,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaCptAPayerG()
+     * Test setTvaCptAPayerG()
      *
      * @return void
      */
@@ -1136,7 +1136,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaCptAcqIntraCom()
+     * Test setTvaCptAcqIntraCom()
      *
      * @return void
      */
@@ -1149,7 +1149,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaCptAncTaux()
+     * Test setTvaCptAncTaux()
      *
      * @return void
      */
@@ -1162,7 +1162,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaCptAnteDeduit()
+     * Test setTvaCptAnteDeduit()
      *
      * @return void
      */
@@ -1175,7 +1175,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaCptAssimil3310()
+     * Test setTvaCptAssimil3310()
      *
      * @return void
      */
@@ -1188,7 +1188,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaCptAssimil3310G()
+     * Test setTvaCptAssimil3310G()
      *
      * @return void
      */
@@ -1201,7 +1201,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaCptBiens()
+     * Test setTvaCptBiens()
      *
      * @return void
      */
@@ -1214,7 +1214,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaCptBiensIntraCom()
+     * Test setTvaCptBiensIntraCom()
      *
      * @return void
      */
@@ -1227,7 +1227,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaCptDifference()
+     * Test setTvaCptDifference()
      *
      * @return void
      */
@@ -1240,7 +1240,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaCptDom()
+     * Test setTvaCptDom()
      *
      * @return void
      */
@@ -1253,7 +1253,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaCptGroupe()
+     * Test setTvaCptGroupe()
      *
      * @return void
      */
@@ -1266,7 +1266,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaCptImmos()
+     * Test setTvaCptImmos()
      *
      * @return void
      */
@@ -1279,7 +1279,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaCptImmosIntraCom()
+     * Test setTvaCptImmosIntraCom()
      *
      * @return void
      */
@@ -1292,7 +1292,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaCptRegul()
+     * Test setTvaCptRegul()
      *
      * @return void
      */
@@ -1305,7 +1305,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaCptRembours()
+     * Test setTvaCptRembours()
      *
      * @return void
      */
@@ -1318,7 +1318,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaCptRemboursG()
+     * Test setTvaCptRemboursG()
      *
      * @return void
      */
@@ -1331,7 +1331,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaCptReport()
+     * Test setTvaCptReport()
      *
      * @return void
      */
@@ -1344,7 +1344,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaCptReportG()
+     * Test setTvaCptReportG()
      *
      * @return void
      */
@@ -1357,7 +1357,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaCptTauxPart()
+     * Test setTvaCptTauxPart()
      *
      * @return void
      */
@@ -1370,7 +1370,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaCptVente()
+     * Test setTvaCptVente()
      *
      * @return void
      */
@@ -1383,7 +1383,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaDeb3JrnExclure()
+     * Test setTvaDeb3JrnExclure()
      *
      * @return void
      */
@@ -1396,7 +1396,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaDestAttn()
+     * Test setTvaDestAttn()
      *
      * @return void
      */
@@ -1409,7 +1409,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaDestFax()
+     * Test setTvaDestFax()
      *
      * @return void
      */
@@ -1422,7 +1422,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaDestNom()
+     * Test setTvaDestNom()
      *
      * @return void
      */
@@ -1435,7 +1435,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaE4Dbs()
+     * Test setTvaE4Dbs()
      *
      * @return void
      */
@@ -1448,7 +1448,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaE4Di()
+     * Test setTvaE4Di()
      *
      * @return void
      */
@@ -1461,7 +1461,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaE4RJrnOd()
+     * Test setTvaE4RJrnOd()
      *
      * @return void
      */
@@ -1474,7 +1474,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaE4Rbs()
+     * Test setTvaE4Rbs()
      *
      * @return void
      */
@@ -1487,7 +1487,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaE4Ri()
+     * Test setTvaE4Ri()
      *
      * @return void
      */
@@ -1500,7 +1500,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaEmetteurIsCab()
+     * Test setTvaEmetteurIsCab()
      *
      * @return void
      */
@@ -1513,7 +1513,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaEnc3DerPerRechDa()
+     * Test setTvaEnc3DerPerRechDa()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1530,7 +1530,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaEnvoyerMail()
+     * Test setTvaEnvoyerMail()
      *
      * @return void
      */
@@ -1543,7 +1543,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaEtabBtq()
+     * Test setTvaEtabBtq()
      *
      * @return void
      */
@@ -1556,7 +1556,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaEtabBureauDistributeur()
+     * Test setTvaEtabBureauDistributeur()
      *
      * @return void
      */
@@ -1569,7 +1569,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaEtabCodePostal()
+     * Test setTvaEtabCodePostal()
      *
      * @return void
      */
@@ -1582,7 +1582,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaEtabComplement()
+     * Test setTvaEtabComplement()
      *
      * @return void
      */
@@ -1595,7 +1595,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaEtabNom()
+     * Test setTvaEtabNom()
      *
      * @return void
      */
@@ -1608,7 +1608,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaEtabNomVoie()
+     * Test setTvaEtabNomVoie()
      *
      * @return void
      */
@@ -1621,7 +1621,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaEtabNumVoie()
+     * Test setTvaEtabNumVoie()
      *
      * @return void
      */
@@ -1634,7 +1634,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaExpNom()
+     * Test setTvaExpNom()
      *
      * @return void
      */
@@ -1647,7 +1647,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaJourDecla()
+     * Test setTvaJourDecla()
      *
      * @return void
      */
@@ -1660,7 +1660,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaMailPj()
+     * Test setTvaMailPj()
      *
      * @return void
      */
@@ -1673,7 +1673,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaMethode()
+     * Test setTvaMethode()
      *
      * @return void
      */
@@ -1686,7 +1686,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaMoyenPaiement()
+     * Test setTvaMoyenPaiement()
      *
      * @return void
      */
@@ -1699,7 +1699,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaNomVir()
+     * Test setTvaNomVir()
      *
      * @return void
      */
@@ -1712,7 +1712,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaParametrageOk()
+     * Test setTvaParametrageOk()
      *
      * @return void
      */
@@ -1725,7 +1725,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaPeriodicite()
+     * Test setTvaPeriodicite()
      *
      * @return void
      */
@@ -1738,7 +1738,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaPrefixeIntracom()
+     * Test setTvaPrefixeIntracom()
      *
      * @return void
      */
@@ -1751,7 +1751,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaRecepteurJeDeclare()
+     * Test setTvaRecepteurJeDeclare()
      *
      * @return void
      */
@@ -1764,7 +1764,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaRegime()
+     * Test setTvaRegime()
      *
      * @return void
      */
@@ -1777,7 +1777,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaSignataire()
+     * Test setTvaSignataire()
      *
      * @return void
      */
@@ -1790,7 +1790,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaType()
+     * Test setTvaType()
      *
      * @return void
      */
@@ -1803,7 +1803,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaVireCrlf()
+     * Test setTvaVireCrlf()
      *
      * @return void
      */
@@ -1816,7 +1816,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvabicVir()
+     * Test setTvabicVir()
      *
      * @return void
      */
@@ -1829,7 +1829,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaediEdition()
+     * Test setTvaediEdition()
      *
      * @return void
      */
@@ -1842,7 +1842,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaibanVir()
+     * Test setTvaibanVir()
      *
      * @return void
      */
@@ -1855,7 +1855,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaribVir()
+     * Test setTvaribVir()
      *
      * @return void
      */
@@ -1868,7 +1868,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvatlraBic1()
+     * Test setTvatlraBic1()
      *
      * @return void
      */
@@ -1881,7 +1881,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvatlraBic2()
+     * Test setTvatlraBic2()
      *
      * @return void
      */
@@ -1894,7 +1894,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvatlraBic3()
+     * Test setTvatlraBic3()
      *
      * @return void
      */
@@ -1907,7 +1907,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvatlraIban1()
+     * Test setTvatlraIban1()
      *
      * @return void
      */
@@ -1920,7 +1920,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvatlraIban2()
+     * Test setTvatlraIban2()
      *
      * @return void
      */
@@ -1933,7 +1933,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvatlraIban3()
+     * Test setTvatlraIban3()
      *
      * @return void
      */
@@ -1946,7 +1946,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvatlraRib1()
+     * Test setTvatlraRib1()
      *
      * @return void
      */
@@ -1959,7 +1959,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvatlraRib2()
+     * Test setTvatlraRib2()
      *
      * @return void
      */
@@ -1972,7 +1972,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvatlraRib3()
+     * Test setTvatlraRib3()
      *
      * @return void
      */
@@ -1985,7 +1985,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setVmpCodeJrnPmv()
+     * Test setVmpCodeJrnPmv()
      *
      * @return void
      */
@@ -1998,7 +1998,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setVmpCptMoinsValue()
+     * Test setVmpCptMoinsValue()
      *
      * @return void
      */
@@ -2011,7 +2011,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setVmpCptPlusValue()
+     * Test setVmpCptPlusValue()
      *
      * @return void
      */
@@ -2024,7 +2024,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setVmpGestEcrPmv()
+     * Test setVmpGestEcrPmv()
      *
      * @return void
      */
@@ -2037,7 +2037,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setVmpGestionEnSaisie()
+     * Test setVmpGestionEnSaisie()
      *
      * @return void
      */
@@ -2050,7 +2050,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setYaRepriseCice()
+     * Test setYaRepriseCice()
      *
      * @return void
      */
@@ -2063,7 +2063,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setYaTauxReduit()
+     * Test setYaTauxReduit()
      *
      * @return void
      */
@@ -2076,7 +2076,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setbCa12T()
+     * Test setbCa12T()
      *
      * @return void
      */
@@ -2089,7 +2089,7 @@ class Dossier4Test extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

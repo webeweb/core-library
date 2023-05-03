@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DocumentsTest extends AbstractTestCase {
 
     /**
-     * Tests setChrono()
+     * Test setChrono()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class DocumentsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class DocumentsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeNature()
+     * Test setCodeNature()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class DocumentsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateHeureSys()
+     * Test setDateHeureSys()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class DocumentsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class DocumentsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLienDocument()
+     * Test setLienDocument()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class DocumentsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

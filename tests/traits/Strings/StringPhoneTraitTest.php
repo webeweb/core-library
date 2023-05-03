@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringPhoneTrait;
 class StringPhoneTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setPhone()
+     * Test setPhone()
      *
      * @return void
      */

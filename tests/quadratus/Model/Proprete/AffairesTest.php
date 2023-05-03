@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AffairesTest extends AbstractTestCase {
 
     /**
-     * Tests setBtq()
+     * Test setBtq()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBureauDistributeur()
+     * Test setBureauDistributeur()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCaStatAnnuel()
+     * Test setCaStatAnnuel()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAnalytique()
+     * Test setCodeAnalytique()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCommercial()
+     * Test setCodeCommercial()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeFactor()
+     * Test setCodeFactor()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePays()
+     * Test setCodePays()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePostal()
+     * Test setCodePostal()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRegMarge()
+     * Test setCodeRegMarge()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTva()
+     * Test setCodeTva()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeVentilCompta()
+     * Test setCodeVentilCompta()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setComplement()
+     * Test setComplement()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateCreat()
+     * Test setDateCreat()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -224,7 +224,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDebAffaire()
+     * Test setDateDebAffaire()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -241,7 +241,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDebAffaireDebMois()
+     * Test setDateDebAffaireDebMois()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -258,7 +258,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFinAffaire()
+     * Test setDateFinAffaire()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -275,7 +275,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFinAffaireFinMois()
+     * Test setDateFinAffaireFinMois()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -292,7 +292,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateModif()
+     * Test setDateModif()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -309,7 +309,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateVente()
+     * Test setDateVente()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -326,7 +326,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFactureIsolee()
+     * Test setFactureIsolee()
      *
      * @return void
      */
@@ -339,7 +339,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGroupeSousTraite()
+     * Test setGroupeSousTraite()
      *
      * @return void
      */
@@ -352,7 +352,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomAdresse()
+     * Test setNomAdresse()
      *
      * @return void
      */
@@ -365,7 +365,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomAffaire()
+     * Test setNomAffaire()
      *
      * @return void
      */
@@ -378,7 +378,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomSuite()
+     * Test setNomSuite()
      *
      * @return void
      */
@@ -391,7 +391,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomVoie()
+     * Test setNomVoie()
      *
      * @return void
      */
@@ -404,7 +404,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumVoie()
+     * Test setNumVoie()
      *
      * @return void
      */
@@ -417,7 +417,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setReferenceFacture()
+     * Test setReferenceFacture()
      *
      * @return void
      */
@@ -430,7 +430,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setReferenceFacture2()
+     * Test setReferenceFacture2()
      *
      * @return void
      */
@@ -443,7 +443,7 @@ class AffairesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

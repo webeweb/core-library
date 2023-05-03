@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AttestationIjssTest extends AbstractTestCase {
 
     /**
-     * Tests setAdresse1()
+     * Test setAdresse1()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdresse2()
+     * Test setAdresse2()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdresse3()
+     * Test setAdresse3()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCasGeneral()
+     * Test setCasGeneral()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCasParticulier()
+     * Test setCasParticulier()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCategorieSal()
+     * Test setCategorieSal()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEtablissement()
+     * Test setCodeEtablissement()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDebutPaternite()
+     * Test setDateDebutPaternite()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -133,7 +133,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDernJMens()
+     * Test setDateDernJMens()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -150,7 +150,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateNaissanceEmploye()
+     * Test setDateNaissanceEmploye()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -167,7 +167,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateNaissanceEnfant()
+     * Test setDateNaissanceEnfant()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -184,7 +184,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDernJ()
+     * Test setDernJ()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -201,7 +201,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDispenseTravail()
+     * Test setDispenseTravail()
      *
      * @return void
      */
@@ -214,7 +214,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmploi()
+     * Test setEmploi()
      *
      * @return void
      */
@@ -227,7 +227,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtblAdresse1()
+     * Test setEtblAdresse1()
      *
      * @return void
      */
@@ -240,7 +240,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtblAdresse2()
+     * Test setEtblAdresse2()
      *
      * @return void
      */
@@ -253,7 +253,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtblAdresse3()
+     * Test setEtblAdresse3()
      *
      * @return void
      */
@@ -266,7 +266,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtblRaisonSociale()
+     * Test setEtblRaisonSociale()
      *
      * @return void
      */
@@ -279,7 +279,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtblTel()
+     * Test setEtblTel()
      *
      * @return void
      */
@@ -292,7 +292,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIban()
+     * Test setIban()
      *
      * @return void
      */
@@ -305,7 +305,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntituleCompte()
+     * Test setIntituleCompte()
      *
      * @return void
      */
@@ -318,7 +318,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLienDocument()
+     * Test setLienDocument()
      *
      * @return void
      */
@@ -331,7 +331,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMaladie()
+     * Test setMaladie()
      *
      * @return void
      */
@@ -344,7 +344,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMaternite()
+     * Test setMaternite()
      *
      * @return void
      */
@@ -357,7 +357,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMatricule()
+     * Test setMatricule()
      *
      * @return void
      */
@@ -370,7 +370,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantGeneral()
+     * Test setMontantGeneral()
      *
      * @return void
      */
@@ -383,7 +383,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantParticulier()
+     * Test setMontantParticulier()
      *
      * @return void
      */
@@ -396,7 +396,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtCgEuroOuFranc()
+     * Test setMtCgEuroOuFranc()
      *
      * @return void
      */
@@ -409,7 +409,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtCpEuroOuFranc()
+     * Test setMtCpEuroOuFranc()
      *
      * @return void
      */
@@ -422,7 +422,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtSalBrutMoins150H()
+     * Test setMtSalBrutMoins150H()
      *
      * @return void
      */
@@ -435,7 +435,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtSalBrutMoins600H()
+     * Test setMtSalBrutMoins600H()
      *
      * @return void
      */
@@ -448,7 +448,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbEnfantsACharge()
+     * Test setNbEnfantsACharge()
      *
      * @return void
      */
@@ -461,7 +461,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHCasPart()
+     * Test setNbHCasPart()
      *
      * @return void
      */
@@ -474,7 +474,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHGeneral()
+     * Test setNbHGeneral()
      *
      * @return void
      */
@@ -487,7 +487,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNir()
+     * Test setNir()
      *
      * @return void
      */
@@ -500,7 +500,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomEmploye()
+     * Test setNomEmploye()
      *
      * @return void
      */
@@ -513,7 +513,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomMarital()
+     * Test setNomMarital()
      *
      * @return void
      */
@@ -526,7 +526,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNonRepris()
+     * Test setNonRepris()
      *
      * @return void
      */
@@ -539,7 +539,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroAttestation()
+     * Test setNumeroAttestation()
      *
      * @return void
      */
@@ -552,7 +552,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmploye()
+     * Test setNumeroEmploye()
      *
      * @return void
      */
@@ -565,7 +565,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOrganisme()
+     * Test setOrganisme()
      *
      * @return void
      */
@@ -578,7 +578,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPaiementEnEuro()
+     * Test setPaiementEnEuro()
      *
      * @return void
      */
@@ -591,7 +591,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPaternite()
+     * Test setPaternite()
      *
      * @return void
      */
@@ -604,7 +604,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeAu()
+     * Test setPeriodeAu()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -621,7 +621,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeDu()
+     * Test setPeriodeDu()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -638,7 +638,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeSubrAu()
+     * Test setPeriodeSubrAu()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -655,7 +655,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeSubrDu()
+     * Test setPeriodeSubrDu()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -672,7 +672,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPlusde200h()
+     * Test setPlusde200h()
      *
      * @return void
      */
@@ -685,7 +685,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPlusde800h()
+     * Test setPlusde800h()
      *
      * @return void
      */
@@ -698,7 +698,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrenomEmploye()
+     * Test setPrenomEmploye()
      *
      * @return void
      */
@@ -711,7 +711,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRectificative()
+     * Test setRectificative()
      *
      * @return void
      */
@@ -724,7 +724,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setReprise()
+     * Test setReprise()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -741,7 +741,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRepriseMotifMed()
+     * Test setRepriseMotifMed()
      *
      * @return void
      */
@@ -754,7 +754,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRepriseRaisonPers()
+     * Test setRepriseRaisonPers()
      *
      * @return void
      */
@@ -767,7 +767,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSignatureDate()
+     * Test setSignatureDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -784,7 +784,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSignatureNom()
+     * Test setSignatureNom()
      *
      * @return void
      */
@@ -797,7 +797,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSignatureQualite()
+     * Test setSignatureQualite()
      *
      * @return void
      */
@@ -810,7 +810,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSignatureVille()
+     * Test setSignatureVille()
      *
      * @return void
      */
@@ -823,7 +823,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSiret()
+     * Test setSiret()
      *
      * @return void
      */
@@ -836,7 +836,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSituation()
+     * Test setSituation()
      *
      * @return void
      */
@@ -849,7 +849,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSubrogationConstantes()
+     * Test setSubrogationConstantes()
      *
      * @return void
      */
@@ -862,7 +862,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSubrogationMontant()
+     * Test setSubrogationMontant()
      *
      * @return void
      */
@@ -875,7 +875,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSubrogationPartielle()
+     * Test setSubrogationPartielle()
      *
      * @return void
      */
@@ -888,7 +888,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSuspensionDate()
+     * Test setSuspensionDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -905,7 +905,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSuspensionMotif()
+     * Test setSuspensionMotif()
      *
      * @return void
      */
@@ -918,7 +918,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTravailTemp()
+     * Test setTravailTemp()
      *
      * @return void
      */
@@ -931,7 +931,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeAttestation()
+     * Test setTypeAttestation()
      *
      * @return void
      */
@@ -944,7 +944,7 @@ class AttestationIjssTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

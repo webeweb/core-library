@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ActionsCoTest extends AbstractTestCase {
 
     /**
-     * Tests setCode()
+     * Test setCode()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class ActionsCoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateCreation()
+     * Test setDateCreation()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -55,7 +55,7 @@ class ActionsCoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFinVie()
+     * Test setDateFinVie()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -72,7 +72,7 @@ class ActionsCoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateModification()
+     * Test setDateModification()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -89,7 +89,7 @@ class ActionsCoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -102,7 +102,7 @@ class ActionsCoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelleMemo()
+     * Test setLibelleMemo()
      *
      * @return void
      */
@@ -115,7 +115,7 @@ class ActionsCoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOpConfirmation()
+     * Test setOpConfirmation()
      *
      * @return void
      */
@@ -128,7 +128,7 @@ class ActionsCoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOpContratSigne()
+     * Test setOpContratSigne()
      *
      * @return void
      */
@@ -141,7 +141,7 @@ class ActionsCoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOpExplication()
+     * Test setOpExplication()
      *
      * @return void
      */
@@ -154,7 +154,7 @@ class ActionsCoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOpInvitationIndiv()
+     * Test setOpInvitationIndiv()
      *
      * @return void
      */
@@ -167,7 +167,7 @@ class ActionsCoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOpInvitationMasse()
+     * Test setOpInvitationMasse()
      *
      * @return void
      */
@@ -180,7 +180,7 @@ class ActionsCoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOpPresence()
+     * Test setOpPresence()
      *
      * @return void
      */
@@ -193,7 +193,7 @@ class ActionsCoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOpPriseRdv()
+     * Test setOpPriseRdv()
      *
      * @return void
      */
@@ -206,7 +206,7 @@ class ActionsCoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOpRelance()
+     * Test setOpRelance()
      *
      * @return void
      */
@@ -219,7 +219,7 @@ class ActionsCoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOpReponseInscrip()
+     * Test setOpReponseInscrip()
      *
      * @return void
      */
@@ -232,7 +232,7 @@ class ActionsCoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOpReponseNegative()
+     * Test setOpReponseNegative()
      *
      * @return void
      */
@@ -245,7 +245,7 @@ class ActionsCoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOpReservation()
+     * Test setOpReservation()
      *
      * @return void
      */
@@ -258,7 +258,7 @@ class ActionsCoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EcrituresEcoTest extends AbstractTestCase {
 
     /**
-     * Tests setCentre()
+     * Test setCentre()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class EcrituresEcoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeJournal()
+     * Test setCodeJournal()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class EcrituresEcoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeLibelleAuto()
+     * Test setCodeLibelleAuto()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class EcrituresEcoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFolio()
+     * Test setFolio()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class EcrituresEcoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setJourEcriture()
+     * Test setJourEcriture()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class EcrituresEcoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLiaisonEcriture()
+     * Test setLiaisonEcriture()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class EcrituresEcoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class EcrituresEcoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantTenuCredit()
+     * Test setMontantTenuCredit()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class EcrituresEcoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantTenuDebit()
+     * Test setMontantTenuDebit()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class EcrituresEcoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNature()
+     * Test setNature()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class EcrituresEcoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoLotTrace()
+     * Test setNoLotTrace()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class EcrituresEcoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumEcrEco()
+     * Test setNumEcrEco()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class EcrituresEcoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroCompte()
+     * Test setNumeroCompte()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class EcrituresEcoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeEcriture()
+     * Test setPeriodeEcriture()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -211,7 +211,7 @@ class EcrituresEcoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQuantite()
+     * Test setQuantite()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class EcrituresEcoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQuantite2()
+     * Test setQuantite2()
      *
      * @return void
      */
@@ -237,7 +237,7 @@ class EcrituresEcoTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringVersionTrait;
 class StringVersionTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setVersion()
+     * Test setVersion()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class SousLignesComptaGeneTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class SousLignesComptaGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantier()
+     * Test setCodeChantier()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class SousLignesComptaGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class SousLignesComptaGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRegroupement()
+     * Test setCodeRegroupement()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class SousLignesComptaGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntituleCompte()
+     * Test setIntituleCompte()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class SousLignesComptaGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant()
+     * Test setMontant()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class SousLignesComptaGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroCompte()
+     * Test setNumeroCompte()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class SousLignesComptaGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroDocument()
+     * Test setNumeroDocument()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class SousLignesComptaGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroLigne()
+     * Test setNumeroLigne()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class SousLignesComptaGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroSousLigne()
+     * Test setNumeroSousLigne()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class SousLignesComptaGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeDocument()
+     * Test setTypeDocument()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class SousLignesComptaGeneTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

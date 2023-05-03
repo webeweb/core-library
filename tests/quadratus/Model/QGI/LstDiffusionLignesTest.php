@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LstDiffusionLignesTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeCollaborateur()
+     * Test setCodeCollaborateur()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class LstDiffusionLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeGroupe()
+     * Test setCodeGroupe()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class LstDiffusionLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumLig()
+     * Test setNumLig()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class LstDiffusionLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setType()
+     * Test setType()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class LstDiffusionLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

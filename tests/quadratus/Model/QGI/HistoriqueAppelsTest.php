@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class HistoriqueAppelsTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaborateurClot()
+     * Test setCodeCollaborateurClot()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaborateurDest()
+     * Test setCodeCollaborateurDest()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaborateurEntrant()
+     * Test setCodeCollaborateurEntrant()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeProduit()
+     * Test setCodeProduit()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setConfidentiel()
+     * Test setConfidentiel()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setConsequence()
+     * Test setConsequence()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateEntree()
+     * Test setDateEntree()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -133,7 +133,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateSortie()
+     * Test setDateSortie()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -150,7 +150,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmailAuteur()
+     * Test setEmailAuteur()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGroupeQualifiant()
+     * Test setGroupeQualifiant()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIdHistorique()
+     * Test setIdHistorique()
      *
      * @return void
      */
@@ -189,7 +189,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntitule()
+     * Test setIntitule()
      *
      * @return void
      */
@@ -202,7 +202,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNature()
+     * Test setNature()
      *
      * @return void
      */
@@ -215,7 +215,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomClient()
+     * Test setNomClient()
      *
      * @return void
      */
@@ -228,7 +228,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOrigine()
+     * Test setOrigine()
      *
      * @return void
      */
@@ -241,7 +241,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPieceJointe()
+     * Test setPieceJointe()
      *
      * @return void
      */
@@ -254,7 +254,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setReponse()
+     * Test setReponse()
      *
      * @return void
      */
@@ -267,7 +267,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSpecial()
+     * Test setSpecial()
      *
      * @return void
      */
@@ -280,7 +280,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTel()
+     * Test setTel()
      *
      * @return void
      */
@@ -293,7 +293,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeMessage()
+     * Test setTypeMessage()
      *
      * @return void
      */
@@ -306,7 +306,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

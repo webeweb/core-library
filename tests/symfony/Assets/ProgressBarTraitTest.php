@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Assets\TestProgressBarTrait;
 class ProgressBarTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setProgressBar()
+     * Test setProgressBar()
      *
      * @return void
      */

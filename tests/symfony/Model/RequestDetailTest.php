@@ -28,7 +28,7 @@ use WBW\Library\Symfony\Tests\AbstractTestCase;
 class RequestDetailTest extends AbstractTestCase {
 
     /**
-     * Tests jsonSerialize()
+     * Test jsonSerialize()
      *
      * @return void
      */
@@ -58,7 +58,7 @@ class RequestDetailTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDataGet()
+     * Test setDataGet()
      *
      * @return void
      */
@@ -71,7 +71,7 @@ class RequestDetailTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDataPost()
+     * Test setDataPost()
      *
      * @return void
      */
@@ -84,7 +84,7 @@ class RequestDetailTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

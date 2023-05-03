@@ -26,7 +26,7 @@ use WBW\Library\System\Tests\AbstractTestCase;
 class SystemHelperTest extends AbstractTestCase {
 
     /**
-     * Tests isUnix()
+     * Test isUnix()
      *
      * @return void
      */
@@ -40,7 +40,7 @@ class SystemHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests isWindows()
+     * Test isWindows()
      *
      * @return void
      */
@@ -54,7 +54,7 @@ class SystemHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests retrieveCpu()
+     * Test retrieveCpu()
      *
      * @return void
      */
@@ -80,7 +80,7 @@ class SystemHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests retrieveDate()
+     * Test retrieveDate()
      *
      * @return void
      */
@@ -97,7 +97,7 @@ class SystemHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests retrieveHardDisks()
+     * Test retrieveHardDisks()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class SystemHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests retrieveHostname()
+     * Test retrieveHostname()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class SystemHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests retrieveMemory()
+     * Test retrieveMemory()
      *
      * @return void
      */
@@ -162,7 +162,7 @@ class SystemHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests retrieveNetwork()
+     * Test retrieveNetwork()
      *
      * @return void
      */
@@ -183,7 +183,7 @@ class SystemHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests retrieveNetworkCard()
+     * Test retrieveNetworkCard()
      *
      * @return void
      */
@@ -208,7 +208,7 @@ class SystemHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests retrieveNetworkCards()
+     * Test retrieveNetworkCards()
      *
      * @return void
      */
@@ -227,7 +227,7 @@ class SystemHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests retrieveOperatingSystem()
+     * Test retrieveOperatingSystem()
      *
      * @return void
      */
@@ -249,7 +249,7 @@ class SystemHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests retrieveProcessors()
+     * Test retrieveProcessors()
      *
      * @return void
      */
@@ -277,7 +277,7 @@ class SystemHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests retrieveProperties()
+     * Test retrieveProperties()
      *
      * @return void
      */
@@ -303,7 +303,7 @@ class SystemHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests retrieveUptime()
+     * Test retrieveUptime()
      *
      * @return void
      */

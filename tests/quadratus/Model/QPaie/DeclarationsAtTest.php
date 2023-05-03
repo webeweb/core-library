@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DeclarationsAtTest extends AbstractTestCase {
 
     /**
-     * Tests setAdresse()
+     * Test setAdresse()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCategorie()
+     * Test setCategorie()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEtablissement()
+     * Test setCodeEtablissement()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePostal()
+     * Test setCodePostal()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCommune()
+     * Test setCommune()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setComplement()
+     * Test setComplement()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateNaissance()
+     * Test setDateNaissance()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDeductForfait()
+     * Test setDeductForfait()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtAccouchement()
+     * Test setDtAccouchement()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -150,7 +150,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtDebAt()
+     * Test setDtDebAt()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -167,7 +167,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtDebConges()
+     * Test setDtDebConges()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -184,7 +184,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtEmbauche()
+     * Test setDtEmbauche()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -201,7 +201,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtFinConges()
+     * Test setDtFinConges()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -218,7 +218,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtFinContrat()
+     * Test setDtFinContrat()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -235,7 +235,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtFinPreavis()
+     * Test setDtFinPreavis()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -252,7 +252,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtblNom()
+     * Test setEtblNom()
      *
      * @return void
      */
@@ -265,7 +265,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtblResponsable()
+     * Test setEtblResponsable()
      *
      * @return void
      */
@@ -278,7 +278,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtblSignature()
+     * Test setEtblSignature()
      *
      * @return void
      */
@@ -291,7 +291,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtblSiret()
+     * Test setEtblSiret()
      *
      * @return void
      */
@@ -304,7 +304,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtblTel()
+     * Test setEtblTel()
      *
      * @return void
      */
@@ -317,7 +317,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLienDocument()
+     * Test setLienDocument()
      *
      * @return void
      */
@@ -330,7 +330,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMemoAccident()
+     * Test setMemoAccident()
      *
      * @return void
      */
@@ -343,7 +343,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMemoCorrespondance()
+     * Test setMemoCorrespondance()
      *
      * @return void
      */
@@ -356,7 +356,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMotifAt()
+     * Test setMotifAt()
      *
      * @return void
      */
@@ -369,7 +369,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtSalaireBrut()
+     * Test setMtSalaireBrut()
      *
      * @return void
      */
@@ -382,7 +382,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNir()
+     * Test setNir()
      *
      * @return void
      */
@@ -395,7 +395,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNom()
+     * Test setNom()
      *
      * @return void
      */
@@ -408,7 +408,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumDat()
+     * Test setNumDat()
      *
      * @return void
      */
@@ -421,7 +421,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmploye()
+     * Test setNumeroEmploye()
      *
      * @return void
      */
@@ -434,7 +434,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrenom()
+     * Test setPrenom()
      *
      * @return void
      */
@@ -447,7 +447,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSignDate()
+     * Test setSignDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -464,7 +464,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeDat()
+     * Test setTypeDat()
      *
      * @return void
      */
@@ -477,7 +477,7 @@ class DeclarationsAtTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class HistoPrepPaieTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeEmploye()
+     * Test setCodeEmploye()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setContingentHSupReposComp()
+     * Test setContingentHSupReposComp()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDroitCp()
+     * Test setDroitCp()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtat()
+     * Test setEtat()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHPrev()
+     * Test setHPrev()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHRempl()
+     * Test setHRempl()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHSurcroit()
+     * Test setHSurcroit()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHabs0()
+     * Test setHabs0()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHabs1()
+     * Test setHabs1()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHabs2()
+     * Test setHabs2()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHabs3()
+     * Test setHabs3()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHabs4()
+     * Test setHabs4()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHabs5()
+     * Test setHabs5()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHabs6()
+     * Test setHabs6()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHabs7()
+     * Test setHabs7()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHabs8()
+     * Test setHabs8()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHabs9()
+     * Test setHabs9()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHacp()
+     * Test setHacp()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHc()
+     * Test setHc()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHeuresRcAcquises()
+     * Test setHeuresRcAcquises()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHeuresRrAcquises()
+     * Test setHeuresRrAcquises()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHs1()
+     * Test setHs1()
      *
      * @return void
      */
@@ -311,7 +311,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHs2()
+     * Test setHs2()
      *
      * @return void
      */
@@ -324,7 +324,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHs3()
+     * Test setHs3()
      *
      * @return void
      */
@@ -337,7 +337,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHs35Heures()
+     * Test setHs35Heures()
      *
      * @return void
      */
@@ -350,7 +350,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setJacp()
+     * Test setJacp()
      *
      * @return void
      */
@@ -363,7 +363,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setJoursRttAcquis()
+     * Test setJoursRttAcquis()
      *
      * @return void
      */
@@ -376,7 +376,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMensualisation()
+     * Test setMensualisation()
      *
      * @return void
      */
@@ -389,7 +389,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtPrime1Chantier()
+     * Test setMtPrime1Chantier()
      *
      * @return void
      */
@@ -402,7 +402,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtPrime2Chantier()
+     * Test setMtPrime2Chantier()
      *
      * @return void
      */
@@ -415,7 +415,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtPrime3Chantier()
+     * Test setMtPrime3Chantier()
      *
      * @return void
      */
@@ -428,7 +428,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtPrimeForfait()
+     * Test setMtPrimeForfait()
      *
      * @return void
      */
@@ -441,7 +441,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHeuresRs()
+     * Test setNbHeuresRs()
      *
      * @return void
      */
@@ -454,7 +454,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHeuresTp()
+     * Test setNbHeuresTp()
      *
      * @return void
      */
@@ -467,7 +467,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbPaniers()
+     * Test setNbPaniers()
      *
      * @return void
      */
@@ -480,7 +480,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -497,7 +497,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrime1()
+     * Test setPrime1()
      *
      * @return void
      */
@@ -510,7 +510,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrime10()
+     * Test setPrime10()
      *
      * @return void
      */
@@ -523,7 +523,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrime1Mai()
+     * Test setPrime1Mai()
      *
      * @return void
      */
@@ -536,7 +536,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrime2()
+     * Test setPrime2()
      *
      * @return void
      */
@@ -549,7 +549,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrime3()
+     * Test setPrime3()
      *
      * @return void
      */
@@ -562,7 +562,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrime4()
+     * Test setPrime4()
      *
      * @return void
      */
@@ -575,7 +575,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrime5()
+     * Test setPrime5()
      *
      * @return void
      */
@@ -588,7 +588,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrime6()
+     * Test setPrime6()
      *
      * @return void
      */
@@ -601,7 +601,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrime7()
+     * Test setPrime7()
      *
      * @return void
      */
@@ -614,7 +614,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrime8()
+     * Test setPrime8()
      *
      * @return void
      */
@@ -627,7 +627,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrime9()
+     * Test setPrime9()
      *
      * @return void
      */
@@ -640,7 +640,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrimeHComplMaj()
+     * Test setPrimeHComplMaj()
      *
      * @return void
      */
@@ -653,7 +653,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrimeHDim2Normal()
+     * Test setPrimeHDim2Normal()
      *
      * @return void
      */
@@ -666,7 +666,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrimeHDimExcept()
+     * Test setPrimeHDimExcept()
      *
      * @return void
      */
@@ -679,7 +679,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrimeHDimNormal()
+     * Test setPrimeHDimNormal()
      *
      * @return void
      */
@@ -692,7 +692,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrimeHNuit2Normal()
+     * Test setPrimeHNuit2Normal()
      *
      * @return void
      */
@@ -705,7 +705,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrimeHNuitExcept()
+     * Test setPrimeHNuitExcept()
      *
      * @return void
      */
@@ -718,7 +718,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrimeHNuitNormal()
+     * Test setPrimeHNuitNormal()
      *
      * @return void
      */
@@ -731,7 +731,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrimeJf2Normal()
+     * Test setPrimeJf2Normal()
      *
      * @return void
      */
@@ -744,7 +744,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrimeJfExcept()
+     * Test setPrimeJfExcept()
      *
      * @return void
      */
@@ -757,7 +757,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrimeJfNormal()
+     * Test setPrimeJfNormal()
      *
      * @return void
      */
@@ -770,7 +770,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTempsPasse()
+     * Test setTempsPasse()
      *
      * @return void
      */
@@ -783,7 +783,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTotalHAnal()
+     * Test setTotalHAnal()
      *
      * @return void
      */
@@ -796,7 +796,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTxHoraireRs()
+     * Test setTxHoraireRs()
      *
      * @return void
      */
@@ -809,7 +809,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTxHoraireTp()
+     * Test setTxHoraireTp()
      *
      * @return void
      */
@@ -822,7 +822,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setYaEuSaisieManuelle()
+     * Test setYaEuSaisieManuelle()
      *
      * @return void
      */
@@ -835,7 +835,7 @@ class HistoPrepPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

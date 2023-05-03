@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EquipeEmployesTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeEmploye()
+     * Test setCodeEmploye()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class EquipeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEquipe()
+     * Test setCodeEquipe()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class EquipeEmployesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

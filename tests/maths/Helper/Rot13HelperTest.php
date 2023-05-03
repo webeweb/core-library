@@ -24,7 +24,7 @@ use WBW\Library\Maths\Tests\Helper\Fixtures\TestRot13Helper;
 class Rot13HelperTest extends AbstractTestCase {
 
     /**
-     * Tests alphabet()
+     * Test alphabet()
      *
      * @return void
      */
@@ -34,7 +34,7 @@ class Rot13HelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests decode()
+     * Test decode()
      *
      * @return void
      */
@@ -47,7 +47,7 @@ class Rot13HelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests encode()
+     * Test encode()
      *
      * @return void
      */

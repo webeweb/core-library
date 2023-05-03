@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Booleans\TestBooleanStripedTrait;
 class BooleanStripedTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setStriped()
+     * Test setStriped()
      *
      * @return void
      */

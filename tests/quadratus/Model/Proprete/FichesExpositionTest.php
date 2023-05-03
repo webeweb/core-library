@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class FichesExpositionTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeEmploye()
+     * Test setCodeEmploye()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class FichesExpositionTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePrestation()
+     * Test setCodePrestation()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class FichesExpositionTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeProduit()
+     * Test setCodeProduit()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class FichesExpositionTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateCtrl()
+     * Test setDateCtrl()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class FichesExpositionTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDebExpo()
+     * Test setDateDebExpo()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -98,7 +98,7 @@ class FichesExpositionTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFiche()
+     * Test setDateFiche()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -115,7 +115,7 @@ class FichesExpositionTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFinExpo()
+     * Test setDateFinExpo()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -132,7 +132,7 @@ class FichesExpositionTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLstCodePhase()
+     * Test setLstCodePhase()
      *
      * @return void
      */
@@ -145,7 +145,7 @@ class FichesExpositionTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLstCodePrev()
+     * Test setLstCodePrev()
      *
      * @return void
      */
@@ -158,7 +158,7 @@ class FichesExpositionTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setResuCtrl()
+     * Test setResuCtrl()
      *
      * @return void
      */
@@ -171,7 +171,7 @@ class FichesExpositionTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTempsExposition()
+     * Test setTempsExposition()
      *
      * @return void
      */
@@ -184,7 +184,7 @@ class FichesExpositionTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

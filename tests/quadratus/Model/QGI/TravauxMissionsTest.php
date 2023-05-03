@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class TravauxMissionsTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeArticle()
+     * Test setCodeArticle()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class TravauxMissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaborateur()
+     * Test setCodeCollaborateur()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class TravauxMissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTache()
+     * Test setCodeTache()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class TravauxMissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTravail()
+     * Test setCodeTravail()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class TravauxMissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDeclarationARediger()
+     * Test setDeclarationARediger()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class TravauxMissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFrequence()
+     * Test setFrequence()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class TravauxMissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setJour()
+     * Test setJour()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class TravauxMissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class TravauxMissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMissions()
+     * Test setMissions()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class TravauxMissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbUo()
+     * Test setNbUo()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class TravauxMissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNePasEditer()
+     * Test setNePasEditer()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class TravauxMissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNiveau()
+     * Test setNiveau()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class TravauxMissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRealisePar()
+     * Test setRealisePar()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class TravauxMissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeAffectation()
+     * Test setTypeAffectation()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class TravauxMissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Floats\TestFloatRateTrait;
 class FloatRateTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setRate()
+     * Test setRate()
      *
      * @return void
      */

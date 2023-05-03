@@ -26,7 +26,7 @@ use WBW\Library\Serializer\SerializerKeys as BaseSerializerKeys;
 class DropdownItemTest extends AbstractTestCase {
 
     /**
-     * Tests jsonSerialize()
+     * Test jsonSerialize()
      *
      * @return void
      */
@@ -48,7 +48,7 @@ class DropdownItemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setByDefault()
+     * Test setByDefault()
      *
      * @return void
      */
@@ -61,7 +61,7 @@ class DropdownItemTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

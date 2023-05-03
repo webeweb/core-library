@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Provider\Color\TestTealColorProviderTrait
 class TealColorProviderTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setTealColorProvider()
+     * Test setTealColorProvider()
      *
      * @return void
      */

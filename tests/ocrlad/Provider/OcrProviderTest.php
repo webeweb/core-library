@@ -25,7 +25,7 @@ use WBW\Library\OcrLad\Tests\Fixtures\Provider\TestOcrProvider;
 class OcrProviderTest extends AbstractTestCase {
 
     /**
-     * Tests buildFilePaths()
+     * Test buildFilePaths()
      *
      * @return void
      */
@@ -61,7 +61,7 @@ class OcrProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLocalDirectoryAfter()
+     * Test setLocalDirectoryAfter()
      *
      * @return void
      */
@@ -74,7 +74,7 @@ class OcrProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLocalDirectoryBefore()
+     * Test setLocalDirectoryBefore()
      *
      * @return void
      */
@@ -87,7 +87,7 @@ class OcrProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLocalDirectoryError()
+     * Test setLocalDirectoryError()
      *
      * @return void
      */
@@ -100,7 +100,7 @@ class OcrProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemoteDirectoryAfter()
+     * Test setRemoteDirectoryAfter()
      *
      * @return void
      */
@@ -113,7 +113,7 @@ class OcrProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemoteDirectoryBefore()
+     * Test setRemoteDirectoryBefore()
      *
      * @return void
      */
@@ -126,7 +126,7 @@ class OcrProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemoteDirectoryError()
+     * Test setRemoteDirectoryError()
      *
      * @return void
      */
@@ -139,7 +139,7 @@ class OcrProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

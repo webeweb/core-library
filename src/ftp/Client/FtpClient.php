@@ -38,7 +38,7 @@ class FtpClient extends AbstractClient {
     }
 
     /**
-     * Changes to the parent directory.
+     * Change to the parent directory.
      *
      * @return FtpClient Returns this FTP client.
      * @throws FtpException Throws an FTP exception if an error occurs.
@@ -53,7 +53,7 @@ class FtpClient extends AbstractClient {
     }
 
     /**
-     * Changes the current directory on a FTP server.
+     * Change the current directory on a FTP server.
      *
      * @param string $directory The directory.
      * @return FtpClient Returns this FTP client.
@@ -86,7 +86,7 @@ class FtpClient extends AbstractClient {
     }
 
     /**
-     * Closes an FTP connection.
+     * Close an FTP connection.
      *
      * @return FtpClient Returns this FTP client.
      * @throws FtpException Throws an FTP exception if an error occurs.
@@ -105,7 +105,7 @@ class FtpClient extends AbstractClient {
     }
 
     /**
-     * Opens an FTP connection.
+     * Open an FTP connection.
      *
      * @param int $timeout The timeout.
      * @return FtpClient Returns this FTP client.
@@ -125,7 +125,7 @@ class FtpClient extends AbstractClient {
     }
 
     /**
-     * Deletes a file on the FTP server.
+     * Delete a file on the FTP server.
      *
      * @param string $path The path.
      * @return FtpClient Returns this FTP client.
@@ -141,7 +141,7 @@ class FtpClient extends AbstractClient {
     }
 
     /**
-     * Downloads a file from the FTP server and saves to an open file.
+     * Download a file from the FTP server and saves to an open file.
      *
      * @param resource $localStream The local stream.
      * @param string $remoteFile The remote file.
@@ -160,7 +160,7 @@ class FtpClient extends AbstractClient {
     }
 
     /**
-     * Uploads from an open file to the FTP server.
+     * Upload from an open file to the FTP server.
      *
      * @param string $remoteFile The remote file.
      * @param resource $localStream The local stream.
@@ -179,7 +179,7 @@ class FtpClient extends AbstractClient {
     }
 
     /**
-     * Downloads a file from the FTP server.
+     * Download a file from the FTP server.
      *
      * @param string $localFile The local file.
      * @param string $remoteFile The remote file.
@@ -198,7 +198,7 @@ class FtpClient extends AbstractClient {
     }
 
     /**
-     * Logs in to an FTP connection.
+     * Log in to an FTP connection.
      *
      * @return FtpClient Returns this FTP client.
      * @throws FtpException Throws an FTP exception if an error occurs.
@@ -216,7 +216,7 @@ class FtpClient extends AbstractClient {
     }
 
     /**
-     * Returns the last modified time of the given file.
+     * Return the last modified time of the given file.
      *
      * @param string $remoteFile The remote file.
      * @return int Returns the last modified time of the given file.
@@ -233,7 +233,7 @@ class FtpClient extends AbstractClient {
     }
 
     /**
-     * Creates a directory.
+     * Create a directory.
      *
      * @param string $directory The directory.
      * @return FtpClient Returns this FTP client.
@@ -249,7 +249,7 @@ class FtpClient extends AbstractClient {
     }
 
     /**
-     * Retrieves a file from the FTP server and writes it to an open file (non-blocking).
+     * Retrieve a file from the FTP server and writes it to an open file (non-blocking).
      *
      * @param resource $localStream The local stream.
      * @param string $remoteFile The remote file.
@@ -262,7 +262,7 @@ class FtpClient extends AbstractClient {
     }
 
     /**
-     * Stores a file from an open file to the FTP server (non-blocking).
+     * Store a file from an open file to the FTP server (non-blocking).
      *
      * @param string $remoteFile The remote file.
      * @param resource $localStream The local stream.
@@ -275,7 +275,7 @@ class FtpClient extends AbstractClient {
     }
 
     /**
-     * Retrieves a file from the FTP server and writes it to a local file (non-blocking).
+     * Retrieve a file from the FTP server and writes it to a local file (non-blocking).
      *
      * @param string $localFile The local file.
      * @param string $remoteFile The remote file.
@@ -288,7 +288,7 @@ class FtpClient extends AbstractClient {
     }
 
     /**
-     * Stores a file from an open file to the FTP server (non-blocking).
+     * Store a file from an open file to the FTP server (non-blocking).
      *
      * @param string $remoteFile The remote file.
      * @param string $localFile The local file.
@@ -301,7 +301,7 @@ class FtpClient extends AbstractClient {
     }
 
     /**
-     * Returns a list of files in the given directory.
+     * Return a list of files in the given directory.
      *
      * @param string $directory The directory.
      * @return string[] Returns a list of files in the given directory.
@@ -318,7 +318,7 @@ class FtpClient extends AbstractClient {
     }
 
     /**
-     * Turns passive mode on or off.
+     * Turn passive mode on or off.
      *
      * @param bool $pasv The passive mode.
      * @return FtpClient Returns this FTP client.
@@ -334,7 +334,7 @@ class FtpClient extends AbstractClient {
     }
 
     /**
-     * Uploads a file to the FTP server.
+     * Upload a file to the FTP server.
      *
      * @param string $localFile The local file.
      * @param string $remoteFile The remote file.
@@ -353,7 +353,7 @@ class FtpClient extends AbstractClient {
     }
 
     /**
-     * Returns the current directory name.
+     * Return the current directory name.
      *
      * @return string Returns the current directory name.
      * @throws FtpException Throws an FTP exception if an error occurs.
@@ -369,7 +369,7 @@ class FtpClient extends AbstractClient {
     }
 
     /**
-     * Returns a detailed list of files in the given directory.
+     * Return a detailed list of files in the given directory.
      *
      * @param string $directory The directory.
      * @param bool $recursive Recursive ?
@@ -387,7 +387,7 @@ class FtpClient extends AbstractClient {
     }
 
     /**
-     * Renames a file or a directory on the FTP server.
+     * Rename a file or a directory on the FTP server.
      *
      * @param string $oldName The old name.
      * @param string $newName The new name.
@@ -404,7 +404,7 @@ class FtpClient extends AbstractClient {
     }
 
     /**
-     * Removes a directory.
+     * Remove a directory.
      *
      * @param string $directory The directory.
      * @return FtpClient Returns this FTP client.
@@ -420,7 +420,7 @@ class FtpClient extends AbstractClient {
     }
 
     /**
-     * Returns the size of the given file.
+     * Return the size of the given file.
      *
      * @param string $remoteFile The remote file.
      * @return int Returns the size of the given file.
@@ -437,7 +437,7 @@ class FtpClient extends AbstractClient {
     }
 
     /**
-     * Returns the system type identifier of the remote FTP server.
+     * Return the system type identifier of the remote FTP server.
      *
      * @return string Returns the system type identifier of the remote FTP server.
      * @throws FtpException Throws an FTP exception if an error occurs.

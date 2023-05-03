@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringQTrait;
 class StringQTraitTest extends AbstractTestCase {
 
     /**
-     * Tests the setQ() method().
+     * Test setQ() method().
      *
      * @return void
      */

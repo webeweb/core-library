@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DecTvaTest extends AbstractTestCase {
 
     /**
-     * Tests setACorres1()
+     * Test setACorres1()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setACorres2()
+     * Test setACorres2()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setACorres3()
+     * Test setACorres3()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setACorres4()
+     * Test setACorres4()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setACorres5()
+     * Test setACorres5()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setACorres6()
+     * Test setACorres6()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setACorres7()
+     * Test setACorres7()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setACorres8()
+     * Test setACorres8()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz0990()
+     * Test setAz0990()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz0990b()
+     * Test setAz0990b()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz1010()
+     * Test setAz1010()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz1010b()
+     * Test setAz1010b()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz1020()
+     * Test setAz1020()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz1020b()
+     * Test setAz1020b()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz1030()
+     * Test setAz1030()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz1030b()
+     * Test setAz1030b()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz1040()
+     * Test setAz1040()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz1040b()
+     * Test setAz1040b()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz1050()
+     * Test setAz1050()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz1050b()
+     * Test setAz1050b()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz1080()
+     * Test setAz1080()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz1080b()
+     * Test setAz1080b()
      *
      * @return void
      */
@@ -311,7 +311,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz1081()
+     * Test setAz1081()
      *
      * @return void
      */
@@ -324,7 +324,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz1081b()
+     * Test setAz1081b()
      *
      * @return void
      */
@@ -337,7 +337,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz1090()
+     * Test setAz1090()
      *
      * @return void
      */
@@ -350,7 +350,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz1090b()
+     * Test setAz1090b()
      *
      * @return void
      */
@@ -363,7 +363,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz1100()
+     * Test setAz1100()
      *
      * @return void
      */
@@ -376,7 +376,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz1100b()
+     * Test setAz1100b()
      *
      * @return void
      */
@@ -389,7 +389,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz1110()
+     * Test setAz1110()
      *
      * @return void
      */
@@ -402,7 +402,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz1110b()
+     * Test setAz1110b()
      *
      * @return void
      */
@@ -415,7 +415,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz1120()
+     * Test setAz1120()
      *
      * @return void
      */
@@ -428,7 +428,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz1120b()
+     * Test setAz1120b()
      *
      * @return void
      */
@@ -441,7 +441,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz3240()
+     * Test setAz3240()
      *
      * @return void
      */
@@ -454,7 +454,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz3260()
+     * Test setAz3260()
      *
      * @return void
      */
@@ -467,7 +467,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz3510()
+     * Test setAz3510()
      *
      * @return void
      */
@@ -480,7 +480,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz3520()
+     * Test setAz3520()
      *
      * @return void
      */
@@ -493,7 +493,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz38Code()
+     * Test setAz38Code()
      *
      * @return void
      */
@@ -506,7 +506,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz38Lib()
+     * Test setAz38Lib()
      *
      * @return void
      */
@@ -519,7 +519,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz38b()
+     * Test setAz38b()
      *
      * @return void
      */
@@ -532,7 +532,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz38ht()
+     * Test setAz38ht()
      *
      * @return void
      */
@@ -545,7 +545,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz3910()
+     * Test setAz3910()
      *
      * @return void
      */
@@ -558,7 +558,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4200()
+     * Test setAz4200()
      *
      * @return void
      */
@@ -571,7 +571,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4201()
+     * Test setAz4201()
      *
      * @return void
      */
@@ -584,7 +584,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4204()
+     * Test setAz4204()
      *
      * @return void
      */
@@ -597,7 +597,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4206()
+     * Test setAz4206()
      *
      * @return void
      */
@@ -610,7 +610,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4207()
+     * Test setAz4207()
      *
      * @return void
      */
@@ -623,7 +623,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4208()
+     * Test setAz4208()
      *
      * @return void
      */
@@ -636,7 +636,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4209()
+     * Test setAz4209()
      *
      * @return void
      */
@@ -649,7 +649,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4210()
+     * Test setAz4210()
      *
      * @return void
      */
@@ -662,7 +662,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4211()
+     * Test setAz4211()
      *
      * @return void
      */
@@ -675,7 +675,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4212()
+     * Test setAz4212()
      *
      * @return void
      */
@@ -688,7 +688,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4213()
+     * Test setAz4213()
      *
      * @return void
      */
@@ -701,7 +701,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4215()
+     * Test setAz4215()
      *
      * @return void
      */
@@ -714,7 +714,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4220()
+     * Test setAz4220()
      *
      * @return void
      */
@@ -727,7 +727,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4222()
+     * Test setAz4222()
      *
      * @return void
      */
@@ -740,7 +740,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4223()
+     * Test setAz4223()
      *
      * @return void
      */
@@ -753,7 +753,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4224()
+     * Test setAz4224()
      *
      * @return void
      */
@@ -766,7 +766,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4228Mtt()
+     * Test setAz4228Mtt()
      *
      * @return void
      */
@@ -779,7 +779,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4230()
+     * Test setAz4230()
      *
      * @return void
      */
@@ -792,7 +792,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4231()
+     * Test setAz4231()
      *
      * @return void
      */
@@ -805,7 +805,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4232()
+     * Test setAz4232()
      *
      * @return void
      */
@@ -818,7 +818,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4233()
+     * Test setAz4233()
      *
      * @return void
      */
@@ -831,7 +831,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4234()
+     * Test setAz4234()
      *
      * @return void
      */
@@ -844,7 +844,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4235()
+     * Test setAz4235()
      *
      * @return void
      */
@@ -857,7 +857,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4236()
+     * Test setAz4236()
      *
      * @return void
      */
@@ -870,7 +870,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4237()
+     * Test setAz4237()
      *
      * @return void
      */
@@ -883,7 +883,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4238()
+     * Test setAz4238()
      *
      * @return void
      */
@@ -896,7 +896,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4239()
+     * Test setAz4239()
      *
      * @return void
      */
@@ -909,7 +909,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4240()
+     * Test setAz4240()
      *
      * @return void
      */
@@ -922,7 +922,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4241()
+     * Test setAz4241()
      *
      * @return void
      */
@@ -935,7 +935,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4242()
+     * Test setAz4242()
      *
      * @return void
      */
@@ -948,7 +948,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4243()
+     * Test setAz4243()
      *
      * @return void
      */
@@ -961,7 +961,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4244()
+     * Test setAz4244()
      *
      * @return void
      */
@@ -974,7 +974,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4245()
+     * Test setAz4245()
      *
      * @return void
      */
@@ -987,7 +987,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4246()
+     * Test setAz4246()
      *
      * @return void
      */
@@ -1000,7 +1000,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4247()
+     * Test setAz4247()
      *
      * @return void
      */
@@ -1013,7 +1013,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4248()
+     * Test setAz4248()
      *
      * @return void
      */
@@ -1026,7 +1026,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4249()
+     * Test setAz4249()
      *
      * @return void
      */
@@ -1039,7 +1039,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4250()
+     * Test setAz4250()
      *
      * @return void
      */
@@ -1052,7 +1052,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4251()
+     * Test setAz4251()
      *
      * @return void
      */
@@ -1065,7 +1065,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4252()
+     * Test setAz4252()
      *
      * @return void
      */
@@ -1078,7 +1078,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4254()
+     * Test setAz4254()
      *
      * @return void
      */
@@ -1091,7 +1091,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4255()
+     * Test setAz4255()
      *
      * @return void
      */
@@ -1104,7 +1104,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4256()
+     * Test setAz4256()
      *
      * @return void
      */
@@ -1117,7 +1117,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4257()
+     * Test setAz4257()
      *
      * @return void
      */
@@ -1130,7 +1130,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4258()
+     * Test setAz4258()
      *
      * @return void
      */
@@ -1143,7 +1143,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4259()
+     * Test setAz4259()
      *
      * @return void
      */
@@ -1156,7 +1156,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4260()
+     * Test setAz4260()
      *
      * @return void
      */
@@ -1169,7 +1169,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4261()
+     * Test setAz4261()
      *
      * @return void
      */
@@ -1182,7 +1182,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4262()
+     * Test setAz4262()
      *
      * @return void
      */
@@ -1195,7 +1195,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4263()
+     * Test setAz4263()
      *
      * @return void
      */
@@ -1208,7 +1208,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4264()
+     * Test setAz4264()
      *
      * @return void
      */
@@ -1221,7 +1221,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4265()
+     * Test setAz4265()
      *
      * @return void
      */
@@ -1234,7 +1234,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4266()
+     * Test setAz4266()
      *
      * @return void
      */
@@ -1247,7 +1247,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4267()
+     * Test setAz4267()
      *
      * @return void
      */
@@ -1260,7 +1260,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4268()
+     * Test setAz4268()
      *
      * @return void
      */
@@ -1273,7 +1273,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4268Base()
+     * Test setAz4268Base()
      *
      * @return void
      */
@@ -1286,7 +1286,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4269()
+     * Test setAz4269()
      *
      * @return void
      */
@@ -1299,7 +1299,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4269Base()
+     * Test setAz4269Base()
      *
      * @return void
      */
@@ -1312,7 +1312,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4270()
+     * Test setAz4270()
      *
      * @return void
      */
@@ -1325,7 +1325,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4270Base()
+     * Test setAz4270Base()
      *
      * @return void
      */
@@ -1338,7 +1338,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4271()
+     * Test setAz4271()
      *
      * @return void
      */
@@ -1351,7 +1351,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4271Base()
+     * Test setAz4271Base()
      *
      * @return void
      */
@@ -1364,7 +1364,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4272()
+     * Test setAz4272()
      *
      * @return void
      */
@@ -1377,7 +1377,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4274()
+     * Test setAz4274()
      *
      * @return void
      */
@@ -1390,7 +1390,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4276()
+     * Test setAz4276()
      *
      * @return void
      */
@@ -1403,7 +1403,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4276Base()
+     * Test setAz4276Base()
      *
      * @return void
      */
@@ -1416,7 +1416,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4277()
+     * Test setAz4277()
      *
      * @return void
      */
@@ -1429,7 +1429,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz4277Base()
+     * Test setAz4277Base()
      *
      * @return void
      */
@@ -1442,7 +1442,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz50Code()
+     * Test setAz50Code()
      *
      * @return void
      */
@@ -1455,7 +1455,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz50Lib()
+     * Test setAz50Lib()
      *
      * @return void
      */
@@ -1468,7 +1468,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz50Mtt()
+     * Test setAz50Mtt()
      *
      * @return void
      */
@@ -1481,7 +1481,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz59Code()
+     * Test setAz59Code()
      *
      * @return void
      */
@@ -1494,7 +1494,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz59Lib()
+     * Test setAz59Lib()
      *
      * @return void
      */
@@ -1507,7 +1507,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAz59Mtt()
+     * Test setAz59Mtt()
      *
      * @return void
      */
@@ -1520,7 +1520,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAzEnCode()
+     * Test setAzEnCode()
      *
      * @return void
      */
@@ -1533,7 +1533,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAzEnLib()
+     * Test setAzEnLib()
      *
      * @return void
      */
@@ -1546,7 +1546,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAzEsCode()
+     * Test setAzEsCode()
      *
      * @return void
      */
@@ -1559,7 +1559,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAzEsLib()
+     * Test setAzEsLib()
      *
      * @return void
      */
@@ -1572,7 +1572,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAzEsMtt()
+     * Test setAzEsMtt()
      *
      * @return void
      */
@@ -1585,7 +1585,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAzEuCode()
+     * Test setAzEuCode()
      *
      * @return void
      */
@@ -1598,7 +1598,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAzEuLib()
+     * Test setAzEuLib()
      *
      * @return void
      */
@@ -1611,7 +1611,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAzEuMtt()
+     * Test setAzEuMtt()
      *
      * @return void
      */
@@ -1624,7 +1624,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAzExCode()
+     * Test setAzExCode()
      *
      * @return void
      */
@@ -1637,7 +1637,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAzExLib()
+     * Test setAzExLib()
      *
      * @return void
      */
@@ -1650,7 +1650,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAzExMtt()
+     * Test setAzExMtt()
      *
      * @return void
      */
@@ -1663,7 +1663,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAzEyCode()
+     * Test setAzEyCode()
      *
      * @return void
      */
@@ -1676,7 +1676,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAzEyLib()
+     * Test setAzEyLib()
      *
      * @return void
      */
@@ -1689,7 +1689,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAzEyMtt()
+     * Test setAzEyMtt()
      *
      * @return void
      */
@@ -1702,7 +1702,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAzEzCode()
+     * Test setAzEzCode()
      *
      * @return void
      */
@@ -1715,7 +1715,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAzEzLib()
+     * Test setAzEzLib()
      *
      * @return void
      */
@@ -1728,7 +1728,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAzEzMtt()
+     * Test setAzEzMtt()
      *
      * @return void
      */
@@ -1741,7 +1741,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAzGaCode()
+     * Test setAzGaCode()
      *
      * @return void
      */
@@ -1754,7 +1754,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAzGaLib()
+     * Test setAzGaLib()
      *
      * @return void
      */
@@ -1767,7 +1767,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAzGaMtt()
+     * Test setAzGaMtt()
      *
      * @return void
      */
@@ -1780,7 +1780,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAzGcCode()
+     * Test setAzGcCode()
      *
      * @return void
      */
@@ -1793,7 +1793,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAzGcLib()
+     * Test setAzGcLib()
      *
      * @return void
      */
@@ -1806,7 +1806,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAzGcMtt()
+     * Test setAzGcMtt()
      *
      * @return void
      */
@@ -1819,7 +1819,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAzHi()
+     * Test setAzHi()
      *
      * @return void
      */
@@ -1832,7 +1832,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAzHl()
+     * Test setAzHl()
      *
      * @return void
      */
@@ -1845,7 +1845,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAzJb()
+     * Test setAzJb()
      *
      * @return void
      */
@@ -1858,7 +1858,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAzJc()
+     * Test setAzJc()
      *
      * @return void
      */
@@ -1871,7 +1871,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAzLigne4Mtt()
+     * Test setAzLigne4Mtt()
      *
      * @return void
      */
@@ -1884,7 +1884,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAzLigne5Mtt()
+     * Test setAzLigne5Mtt()
      *
      * @return void
      */
@@ -1897,7 +1897,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCa12MoisCloture()
+     * Test setCa12MoisCloture()
      *
      * @return void
      */
@@ -1910,7 +1910,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCorres1()
+     * Test setCorres1()
      *
      * @return void
      */
@@ -1923,7 +1923,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCorres2()
+     * Test setCorres2()
      *
      * @return void
      */
@@ -1936,7 +1936,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCorres3()
+     * Test setCorres3()
      *
      * @return void
      */
@@ -1949,7 +1949,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCorres4()
+     * Test setCorres4()
      *
      * @return void
      */
@@ -1962,7 +1962,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCorres5()
+     * Test setCorres5()
      *
      * @return void
      */
@@ -1975,7 +1975,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCorres6()
+     * Test setCorres6()
      *
      * @return void
      */
@@ -1988,7 +1988,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCorres7()
+     * Test setCorres7()
      *
      * @return void
      */
@@ -2001,7 +2001,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCorres8()
+     * Test setCorres8()
      *
      * @return void
      */
@@ -2014,7 +2014,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCreditCompte()
+     * Test setCreditCompte()
      *
      * @return void
      */
@@ -2027,7 +2027,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCreditImputer()
+     * Test setCreditImputer()
      *
      * @return void
      */
@@ -2040,7 +2040,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDec()
+     * Test setDateDec()
      *
      * @return void
      */
@@ -2053,7 +2053,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFlgAc()
+     * Test setFlgAc()
      *
      * @return void
      */
@@ -2066,7 +2066,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGenAuto()
+     * Test setGenAuto()
      *
      * @return void
      */
@@ -2079,7 +2079,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHtTaux196()
+     * Test setHtTaux196()
      *
      * @return void
      */
@@ -2092,7 +2092,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHtTaux7()
+     * Test setHtTaux7()
      *
      * @return void
      */
@@ -2105,7 +2105,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLiquiTaxes1()
+     * Test setLiquiTaxes1()
      *
      * @return void
      */
@@ -2118,7 +2118,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLiquiTaxes2()
+     * Test setLiquiTaxes2()
      *
      * @return void
      */
@@ -2131,7 +2131,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLiquiTaxes3()
+     * Test setLiquiTaxes3()
      *
      * @return void
      */
@@ -2144,7 +2144,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLiquiTaxes4()
+     * Test setLiquiTaxes4()
      *
      * @return void
      */
@@ -2157,7 +2157,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLiquiTaxes5()
+     * Test setLiquiTaxes5()
      *
      * @return void
      */
@@ -2170,7 +2170,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMentionExpresse()
+     * Test setMentionExpresse()
      *
      * @return void
      */
@@ -2183,7 +2183,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMonnaie()
+     * Test setMonnaie()
      *
      * @return void
      */
@@ -2196,7 +2196,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMonnaieTenue()
+     * Test setMonnaieTenue()
      *
      * @return void
      */
@@ -2209,7 +2209,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoLotEcritures()
+     * Test setNoLotEcritures()
      *
      * @return void
      */
@@ -2222,7 +2222,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPCent()
+     * Test setPCent()
      *
      * @return void
      */
@@ -2235,7 +2235,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPaiementImputation()
+     * Test setPaiementImputation()
      *
      * @return void
      */
@@ -2248,7 +2248,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -2265,7 +2265,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setReportAcp()
+     * Test setReportAcp()
      *
      * @return void
      */
@@ -2278,7 +2278,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRibTitulaire1()
+     * Test setRibTitulaire1()
      *
      * @return void
      */
@@ -2291,7 +2291,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRibTitulaire2()
+     * Test setRibTitulaire2()
      *
      * @return void
      */
@@ -2304,7 +2304,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSelAdresseDest()
+     * Test setSelAdresseDest()
      *
      * @return void
      */
@@ -2317,7 +2317,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTotal()
+     * Test setTotal()
      *
      * @return void
      */
@@ -2330,7 +2330,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeReglement()
+     * Test setTypeReglement()
      *
      * @return void
      */
@@ -2343,7 +2343,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setVille()
+     * Test setVille()
      *
      * @return void
      */
@@ -2356,7 +2356,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ0031()
+     * Test setZ0031()
      *
      * @return void
      */
@@ -2369,7 +2369,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ0031b()
+     * Test setZ0031b()
      *
      * @return void
      */
@@ -2382,7 +2382,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ0032()
+     * Test setZ0032()
      *
      * @return void
      */
@@ -2395,7 +2395,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ0033()
+     * Test setZ0033()
      *
      * @return void
      */
@@ -2408,7 +2408,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ0034()
+     * Test setZ0034()
      *
      * @return void
      */
@@ -2421,7 +2421,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ0035()
+     * Test setZ0035()
      *
      * @return void
      */
@@ -2434,7 +2434,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ0037()
+     * Test setZ0037()
      *
      * @return void
      */
@@ -2447,7 +2447,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ0038()
+     * Test setZ0038()
      *
      * @return void
      */
@@ -2460,7 +2460,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ0040()
+     * Test setZ0040()
      *
      * @return void
      */
@@ -2473,7 +2473,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ0040b()
+     * Test setZ0040b()
      *
      * @return void
      */
@@ -2486,7 +2486,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ0041()
+     * Test setZ0041()
      *
      * @return void
      */
@@ -2499,7 +2499,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ01()
+     * Test setZ01()
      *
      * @return void
      */
@@ -2512,7 +2512,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ0100()
+     * Test setZ0100()
      *
      * @return void
      */
@@ -2525,7 +2525,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ0100b()
+     * Test setZ0100b()
      *
      * @return void
      */
@@ -2538,7 +2538,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ0121b()
+     * Test setZ0121b()
      *
      * @return void
      */
@@ -2551,7 +2551,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ02()
+     * Test setZ02()
      *
      * @return void
      */
@@ -2564,7 +2564,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ0200()
+     * Test setZ0200()
      *
      * @return void
      */
@@ -2577,7 +2577,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ0200b()
+     * Test setZ0200b()
      *
      * @return void
      */
@@ -2590,7 +2590,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ0205()
+     * Test setZ0205()
      *
      * @return void
      */
@@ -2603,7 +2603,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ0205b()
+     * Test setZ0205b()
      *
      * @return void
      */
@@ -2616,7 +2616,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ0600()
+     * Test setZ0600()
      *
      * @return void
      */
@@ -2629,7 +2629,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ0701()
+     * Test setZ0701()
      *
      * @return void
      */
@@ -2642,7 +2642,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ0702()
+     * Test setZ0702()
      *
      * @return void
      */
@@ -2655,7 +2655,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ0702b()
+     * Test setZ0702b()
      *
      * @return void
      */
@@ -2668,7 +2668,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ0703()
+     * Test setZ0703()
      *
      * @return void
      */
@@ -2681,7 +2681,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ0703b()
+     * Test setZ0703b()
      *
      * @return void
      */
@@ -2694,7 +2694,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ0705()
+     * Test setZ0705()
      *
      * @return void
      */
@@ -2707,7 +2707,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ0900()
+     * Test setZ0900()
      *
      * @return void
      */
@@ -2720,7 +2720,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ0900b()
+     * Test setZ0900b()
      *
      * @return void
      */
@@ -2733,7 +2733,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ0920()
+     * Test setZ0920()
      *
      * @return void
      */
@@ -2746,7 +2746,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ0920b()
+     * Test setZ0920b()
      *
      * @return void
      */
@@ -2759,7 +2759,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ0950()
+     * Test setZ0950()
      *
      * @return void
      */
@@ -2772,7 +2772,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ0950b()
+     * Test setZ0950b()
      *
      * @return void
      */
@@ -2785,7 +2785,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ12Code()
+     * Test setZ12Code()
      *
      * @return void
      */
@@ -2798,7 +2798,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ12Lib()
+     * Test setZ12Lib()
      *
      * @return void
      */
@@ -2811,7 +2811,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ12Taxe()
+     * Test setZ12Taxe()
      *
      * @return void
      */
@@ -2824,7 +2824,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ14()
+     * Test setZ14()
      *
      * @return void
      */
@@ -2837,7 +2837,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ18()
+     * Test setZ18()
      *
      * @return void
      */
@@ -2850,7 +2850,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ196()
+     * Test setZ196()
      *
      * @return void
      */
@@ -2863,7 +2863,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ196b()
+     * Test setZ196b()
      *
      * @return void
      */
@@ -2876,7 +2876,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ21()
+     * Test setZ21()
      *
      * @return void
      */
@@ -2889,7 +2889,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ25()
+     * Test setZ25()
      *
      * @return void
      */
@@ -2902,7 +2902,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ4227()
+     * Test setZ4227()
      *
      * @return void
      */
@@ -2915,7 +2915,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ8001()
+     * Test setZ8001()
      *
      * @return void
      */
@@ -2928,7 +2928,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ8002()
+     * Test setZ8002()
      *
      * @return void
      */
@@ -2941,7 +2941,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ8003()
+     * Test setZ8003()
      *
      * @return void
      */
@@ -2954,7 +2954,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ8003c()
+     * Test setZ8003c()
      *
      * @return void
      */
@@ -2967,7 +2967,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ8005()
+     * Test setZ8005()
      *
      * @return void
      */
@@ -2980,7 +2980,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ9979()
+     * Test setZ9979()
      *
      * @return void
      */
@@ -2993,7 +2993,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ9989()
+     * Test setZ9989()
      *
      * @return void
      */
@@ -3006,7 +3006,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ9991()
+     * Test setZ9991()
      *
      * @return void
      */
@@ -3019,7 +3019,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ9999()
+     * Test setZ9999()
      *
      * @return void
      */
@@ -3032,7 +3032,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setZ9BTaxe()
+     * Test setZ9BTaxe()
      *
      * @return void
      */
@@ -3045,7 +3045,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setbGroupe()
+     * Test setbGroupe()
      *
      * @return void
      */
@@ -3058,7 +3058,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setz0029()
+     * Test setz0029()
      *
      * @return void
      */
@@ -3071,7 +3071,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setz0030()
+     * Test setz0030()
      *
      * @return void
      */
@@ -3084,7 +3084,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setz0036()
+     * Test setz0036()
      *
      * @return void
      */
@@ -3097,7 +3097,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setz0039()
+     * Test setz0039()
      *
      * @return void
      */
@@ -3110,7 +3110,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setz0044()
+     * Test setz0044()
      *
      * @return void
      */
@@ -3123,7 +3123,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setz0044b()
+     * Test setz0044b()
      *
      * @return void
      */
@@ -3136,7 +3136,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setz0045()
+     * Test setz0045()
      *
      * @return void
      */
@@ -3149,7 +3149,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setz0046()
+     * Test setz0046()
      *
      * @return void
      */
@@ -3162,7 +3162,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setz0059b()
+     * Test setz0059b()
      *
      * @return void
      */
@@ -3175,7 +3175,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setz0121()
+     * Test setz0121()
      *
      * @return void
      */
@@ -3188,7 +3188,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setz0151()
+     * Test setz0151()
      *
      * @return void
      */
@@ -3201,7 +3201,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setz0151b()
+     * Test setz0151b()
      *
      * @return void
      */
@@ -3214,7 +3214,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setz0207()
+     * Test setz0207()
      *
      * @return void
      */
@@ -3227,7 +3227,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setz0207b()
+     * Test setz0207b()
      *
      * @return void
      */
@@ -3240,7 +3240,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setz0709()
+     * Test setz0709()
      *
      * @return void
      */
@@ -3253,7 +3253,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setz12Ht()
+     * Test setz12Ht()
      *
      * @return void
      */
@@ -3266,7 +3266,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setz9bCode()
+     * Test setz9bCode()
      *
      * @return void
      */
@@ -3279,7 +3279,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setz9bHt()
+     * Test setz9bHt()
      *
      * @return void
      */
@@ -3292,7 +3292,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setz9bLib()
+     * Test setz9bLib()
      *
      * @return void
      */
@@ -3305,7 +3305,7 @@ class DecTvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

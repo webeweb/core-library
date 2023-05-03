@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class StatsPersoSuiviClientColsTest extends AbstractTestCase {
 
     /**
-     * Tests setAnN()
+     * Test setAnN()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class StatsPersoSuiviClientColsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCode()
+     * Test setCode()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class StatsPersoSuiviClientColsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndice()
+     * Test setIndice()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class StatsPersoSuiviClientColsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntitule()
+     * Test setIntitule()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class StatsPersoSuiviClientColsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRegleAutres()
+     * Test setRegleAutres()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class StatsPersoSuiviClientColsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRegleBarn()
+     * Test setRegleBarn()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class StatsPersoSuiviClientColsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRegleBars()
+     * Test setRegleBars()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class StatsPersoSuiviClientColsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRegleBicrn()
+     * Test setRegleBicrn()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class StatsPersoSuiviClientColsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRegleBicrs()
+     * Test setRegleBicrs()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class StatsPersoSuiviClientColsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRegleBnc()
+     * Test setRegleBnc()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class StatsPersoSuiviClientColsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRegleSci()
+     * Test setRegleSci()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class StatsPersoSuiviClientColsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRegleScm()
+     * Test setRegleScm()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class StatsPersoSuiviClientColsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRegleTous()
+     * Test setRegleTous()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class StatsPersoSuiviClientColsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

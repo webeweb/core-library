@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ChantiersTest extends AbstractTestCase {
 
     /**
-     * Tests setAdFBureauDistributeur()
+     * Test setAdFBureauDistributeur()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdFCivilite()
+     * Test setAdFCivilite()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdFCodePays()
+     * Test setAdFCodePays()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdFCodePostal()
+     * Test setAdFCodePostal()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdFComplement()
+     * Test setAdFComplement()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdFNomClient()
+     * Test setAdFNomClient()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdFNomSuite()
+     * Test setAdFNomSuite()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdFNomSuite2()
+     * Test setAdFNomSuite2()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdFNomSuite3()
+     * Test setAdFNomSuite3()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdFNomVoie()
+     * Test setAdFNomVoie()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdFNumVoie()
+     * Test setAdFNumVoie()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdFTypeAdresse()
+     * Test setAdFTypeAdresse()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdFbtq()
+     * Test setAdFbtq()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAdresse()
+     * Test setAdresse()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBtq()
+     * Test setBtq()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBtqLivraison()
+     * Test setBtqLivraison()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBudgetCommande()
+     * Test setBudgetCommande()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBureauDistributeur()
+     * Test setBureauDistributeur()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBureauDistributeurLivraison()
+     * Test setBureauDistributeurLivraison()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChantierPonctuel()
+     * Test setChantierPonctuel()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChefEquipe()
+     * Test setChefEquipe()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCleAlpha()
+     * Test setCleAlpha()
      *
      * @return void
      */
@@ -311,7 +311,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -324,7 +324,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAgence()
+     * Test setCodeAgence()
      *
      * @return void
      */
@@ -337,7 +337,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAnalytique()
+     * Test setCodeAnalytique()
      *
      * @return void
      */
@@ -350,7 +350,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantier()
+     * Test setCodeChantier()
      *
      * @return void
      */
@@ -363,7 +363,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -376,7 +376,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCommercial()
+     * Test setCodeCommercial()
      *
      * @return void
      */
@@ -389,7 +389,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEmpInspecteur()
+     * Test setCodeEmpInspecteur()
      *
      * @return void
      */
@@ -402,7 +402,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeFormule()
+     * Test setCodeFormule()
      *
      * @return void
      */
@@ -415,7 +415,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeLivraison()
+     * Test setCodeLivraison()
      *
      * @return void
      */
@@ -428,7 +428,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePays()
+     * Test setCodePays()
      *
      * @return void
      */
@@ -441,7 +441,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePostal()
+     * Test setCodePostal()
      *
      * @return void
      */
@@ -454,7 +454,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePostalLivraison()
+     * Test setCodePostalLivraison()
      *
      * @return void
      */
@@ -467,7 +467,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRegMarge()
+     * Test setCodeRegMarge()
      *
      * @return void
      */
@@ -480,7 +480,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRevision()
+     * Test setCodeRevision()
      *
      * @return void
      */
@@ -493,7 +493,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTva()
+     * Test setCodeTva()
      *
      * @return void
      */
@@ -506,7 +506,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeVentilCompta()
+     * Test setCodeVentilCompta()
      *
      * @return void
      */
@@ -519,7 +519,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCollectif()
+     * Test setCollectif()
      *
      * @return void
      */
@@ -532,7 +532,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCommandeIsolee()
+     * Test setCommandeIsolee()
      *
      * @return void
      */
@@ -545,7 +545,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setComplement()
+     * Test setComplement()
      *
      * @return void
      */
@@ -558,7 +558,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setComplementLivraison()
+     * Test setComplementLivraison()
      *
      * @return void
      */
@@ -571,7 +571,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateCreat()
+     * Test setDateCreat()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -588,7 +588,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDebut()
+     * Test setDateDebut()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -605,7 +605,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateEcheanceContrat()
+     * Test setDateEcheanceContrat()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -622,7 +622,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFin()
+     * Test setDateFin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -639,7 +639,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateModif()
+     * Test setDateModif()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -656,7 +656,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateRevision()
+     * Test setDateRevision()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -673,7 +673,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDescriptif()
+     * Test setDescriptif()
      *
      * @return void
      */
@@ -686,7 +686,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtAvantDernPrepa()
+     * Test setDtAvantDernPrepa()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -703,7 +703,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtDernPrepa()
+     * Test setDtDernPrepa()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -720,7 +720,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtValiditeFactDeb()
+     * Test setDtValiditeFactDeb()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -737,7 +737,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtValiditeFactDebDebMois()
+     * Test setDtValiditeFactDebDebMois()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -754,7 +754,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtValiditeFactFin()
+     * Test setDtValiditeFactFin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -771,7 +771,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtValiditeFactFinFinMois()
+     * Test setDtValiditeFactFinFinMois()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -788,7 +788,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEcheanceAnnuelle()
+     * Test setEcheanceAnnuelle()
      *
      * @return void
      */
@@ -801,7 +801,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFactNegoceIsolee()
+     * Test setFactNegoceIsolee()
      *
      * @return void
      */
@@ -814,7 +814,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFactureIsolee()
+     * Test setFactureIsolee()
      *
      * @return void
      */
@@ -827,7 +827,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setJourFact()
+     * Test setJourFact()
      *
      * @return void
      */
@@ -840,7 +840,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLatitude()
+     * Test setLatitude()
      *
      * @return void
      */
@@ -853,7 +853,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLoiChatelSurFacture()
+     * Test setLoiChatelSurFacture()
      *
      * @return void
      */
@@ -866,7 +866,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLongitude()
+     * Test setLongitude()
      *
      * @return void
      */
@@ -879,7 +879,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMajStockByDa()
+     * Test setMajStockByDa()
      *
      * @return void
      */
@@ -892,7 +892,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbControlesPrevus()
+     * Test setNbControlesPrevus()
      *
      * @return void
      */
@@ -905,7 +905,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbMoisPreavis()
+     * Test setNbMoisPreavis()
      *
      * @return void
      */
@@ -918,7 +918,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomAdresse()
+     * Test setNomAdresse()
      *
      * @return void
      */
@@ -931,7 +931,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomChantier()
+     * Test setNomChantier()
      *
      * @return void
      */
@@ -944,7 +944,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomLivraison()
+     * Test setNomLivraison()
      *
      * @return void
      */
@@ -957,7 +957,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomResponsable()
+     * Test setNomResponsable()
      *
      * @return void
      */
@@ -970,7 +970,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomSuite()
+     * Test setNomSuite()
      *
      * @return void
      */
@@ -983,7 +983,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomSuiteLivraison()
+     * Test setNomSuiteLivraison()
      *
      * @return void
      */
@@ -996,7 +996,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomVoie()
+     * Test setNomVoie()
      *
      * @return void
      */
@@ -1009,7 +1009,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomVoieLivraison()
+     * Test setNomVoieLivraison()
      *
      * @return void
      */
@@ -1022,7 +1022,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumVoie()
+     * Test setNumVoie()
      *
      * @return void
      */
@@ -1035,7 +1035,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumVoieLivraison()
+     * Test setNumVoieLivraison()
      *
      * @return void
      */
@@ -1048,7 +1048,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroCompte()
+     * Test setNumeroCompte()
      *
      * @return void
      */
@@ -1061,7 +1061,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPlanFact()
+     * Test setPlanFact()
      *
      * @return void
      */
@@ -1074,7 +1074,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPourcConsoProduit()
+     * Test setPourcConsoProduit()
      *
      * @return void
      */
@@ -1087,7 +1087,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPourcMargePrevis()
+     * Test setPourcMargePrevis()
      *
      * @return void
      */
@@ -1100,7 +1100,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setReferenceFacture()
+     * Test setReferenceFacture()
      *
      * @return void
      */
@@ -1113,7 +1113,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setReferenceFacture2()
+     * Test setReferenceFacture2()
      *
      * @return void
      */
@@ -1126,7 +1126,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRuptDateLivraison()
+     * Test setRuptDateLivraison()
      *
      * @return void
      */
@@ -1139,7 +1139,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTelephone()
+     * Test setTelephone()
      *
      * @return void
      */
@@ -1152,7 +1152,7 @@ class ChantiersTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

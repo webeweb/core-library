@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Manager\TestManagerTrait;
 class ManagerTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setManager()
+     * Test setManager()
      *
      * @return void
      */

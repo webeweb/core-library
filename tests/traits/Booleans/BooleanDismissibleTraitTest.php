@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Booleans\TestBooleanDismissibleTrait;
 class BooleanDismissibleTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setDismissible()
+     * Test setDismissible()
      *
      * @return void
      */

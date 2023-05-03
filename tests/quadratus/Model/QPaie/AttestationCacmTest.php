@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AttestationCacmTest extends AbstractTestCase {
 
     /**
-     * Tests setAdresseEmploye()
+     * Test setAdresseEmploye()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAutreContrat()
+     * Test setAutreContrat()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAutreStatut()
+     * Test setAutreStatut()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEtablissement()
+     * Test setCodeEtablissement()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeMotifRupture()
+     * Test setCodeMotifRupture()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePostal()
+     * Test setCodePostal()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateNaissance()
+     * Test setDateNaissance()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateNotification()
+     * Test setDateNotification()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -137,7 +137,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDatePaiement()
+     * Test setDatePaiement()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -154,7 +154,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDernLieuTravail()
+     * Test setDernLieuTravail()
      *
      * @return void
      */
@@ -167,7 +167,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDernierEmploi()
+     * Test setDernierEmploi()
      *
      * @return void
      */
@@ -180,7 +180,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtDebPreavisEffectue()
+     * Test setDtDebPreavisEffectue()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -197,7 +197,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtDebPreavisNonEffectue()
+     * Test setDtDebPreavisNonEffectue()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -214,7 +214,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtDebutEmploi()
+     * Test setDtDebutEmploi()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -231,7 +231,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtDernJourTrav()
+     * Test setDtDernJourTrav()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -248,7 +248,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtFinEmploi()
+     * Test setDtFinEmploi()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -265,7 +265,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtFinPreavisEffectue()
+     * Test setDtFinPreavisEffectue()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -282,7 +282,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtFinPreavisNonEffectue()
+     * Test setDtFinPreavisNonEffectue()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -299,7 +299,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtblAdr()
+     * Test setEtblAdr()
      *
      * @return void
      */
@@ -312,7 +312,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtblCacm()
+     * Test setEtblCacm()
      *
      * @return void
      */
@@ -325,7 +325,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtblEffectif()
+     * Test setEtblEffectif()
      *
      * @return void
      */
@@ -338,7 +338,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtblFax()
+     * Test setEtblFax()
      *
      * @return void
      */
@@ -351,7 +351,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtblMail()
+     * Test setEtblMail()
      *
      * @return void
      */
@@ -364,7 +364,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtblNaf()
+     * Test setEtblNaf()
      *
      * @return void
      */
@@ -377,7 +377,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtblSiret()
+     * Test setEtblSiret()
      *
      * @return void
      */
@@ -390,7 +390,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtblTel()
+     * Test setEtblTel()
      *
      * @return void
      */
@@ -403,7 +403,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndemnAutre()
+     * Test setIndemnAutre()
      *
      * @return void
      */
@@ -416,7 +416,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndemnLegale()
+     * Test setIndemnLegale()
      *
      * @return void
      */
@@ -429,7 +429,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndemnLic()
+     * Test setIndemnLic()
      *
      * @return void
      */
@@ -442,7 +442,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndemnSupp()
+     * Test setIndemnSupp()
      *
      * @return void
      */
@@ -455,7 +455,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLienDocument()
+     * Test setLienDocument()
      *
      * @return void
      */
@@ -468,7 +468,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLienParente()
+     * Test setLienParente()
      *
      * @return void
      */
@@ -481,7 +481,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMotifPreavisNonPaye()
+     * Test setMotifPreavisNonPaye()
      *
      * @return void
      */
@@ -494,7 +494,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMotifRupture()
+     * Test setMotifRupture()
      *
      * @return void
      */
@@ -507,7 +507,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtIndemnAutre()
+     * Test setMtIndemnAutre()
      *
      * @return void
      */
@@ -520,7 +520,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtIndemnLegale()
+     * Test setMtIndemnLegale()
      *
      * @return void
      */
@@ -533,7 +533,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtIndemnLic()
+     * Test setMtIndemnLic()
      *
      * @return void
      */
@@ -546,7 +546,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtIndemnSupp()
+     * Test setMtIndemnSupp()
      *
      * @return void
      */
@@ -559,7 +559,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtSalaireBrut()
+     * Test setMtSalaireBrut()
      *
      * @return void
      */
@@ -572,7 +572,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHeureMens()
+     * Test setNbHeureMens()
      *
      * @return void
      */
@@ -585,7 +585,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNiveauQualif()
+     * Test setNiveauQualif()
      *
      * @return void
      */
@@ -598,7 +598,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoCacm()
+     * Test setNoCacm()
      *
      * @return void
      */
@@ -611,7 +611,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoCssm()
+     * Test setNoCssm()
      *
      * @return void
      */
@@ -624,7 +624,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomMarital()
+     * Test setNomMarital()
      *
      * @return void
      */
@@ -637,7 +637,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomNaissance()
+     * Test setNomNaissance()
      *
      * @return void
      */
@@ -650,7 +650,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroAttestation()
+     * Test setNumeroAttestation()
      *
      * @return void
      */
@@ -663,7 +663,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmploye()
+     * Test setNumeroEmploye()
      *
      * @return void
      */
@@ -676,7 +676,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOrganismeCacm()
+     * Test setOrganismeCacm()
      *
      * @return void
      */
@@ -689,7 +689,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeEmploiDeb()
+     * Test setPeriodeEmploiDeb()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -706,7 +706,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeEmploiFin()
+     * Test setPeriodeEmploiFin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -723,7 +723,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPreavisNonEffectuePaye()
+     * Test setPreavisNonEffectuePaye()
      *
      * @return void
      */
@@ -736,7 +736,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrenom()
+     * Test setPrenom()
      *
      * @return void
      */
@@ -749,7 +749,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSignAutre()
+     * Test setSignAutre()
      *
      * @return void
      */
@@ -762,7 +762,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSignDate()
+     * Test setSignDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -779,7 +779,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSignFormJuridique()
+     * Test setSignFormJuridique()
      *
      * @return void
      */
@@ -792,7 +792,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSignMotifRupture()
+     * Test setSignMotifRupture()
      *
      * @return void
      */
@@ -805,7 +805,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSignNom()
+     * Test setSignNom()
      *
      * @return void
      */
@@ -818,7 +818,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSignPrenom()
+     * Test setSignPrenom()
      *
      * @return void
      */
@@ -831,7 +831,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSignQualite()
+     * Test setSignQualite()
      *
      * @return void
      */
@@ -844,7 +844,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSignRaisonSociale()
+     * Test setSignRaisonSociale()
      *
      * @return void
      */
@@ -857,7 +857,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setStatutCadre()
+     * Test setStatutCadre()
      *
      * @return void
      */
@@ -870,7 +870,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setStatutJuridique()
+     * Test setStatutJuridique()
      *
      * @return void
      */
@@ -883,7 +883,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setStatutParticulier()
+     * Test setStatutParticulier()
      *
      * @return void
      */
@@ -896,7 +896,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTitre()
+     * Test setTitre()
      *
      * @return void
      */
@@ -909,7 +909,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTitreLienParente()
+     * Test setTitreLienParente()
      *
      * @return void
      */
@@ -922,7 +922,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeContrat()
+     * Test setTypeContrat()
      *
      * @return void
      */
@@ -935,7 +935,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeHoraire()
+     * Test setTypeHoraire()
      *
      * @return void
      */
@@ -948,7 +948,7 @@ class AttestationCacmTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

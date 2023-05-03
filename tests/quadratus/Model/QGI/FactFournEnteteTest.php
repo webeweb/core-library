@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class FactFournEnteteTest extends AbstractTestCase {
 
     /**
-     * Tests setBoniMali()
+     * Test setBoniMali()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class FactFournEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeJournal()
+     * Test setCodeJournal()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class FactFournEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDate()
+     * Test setDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class FactFournEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFolio()
+     * Test setFolio()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class FactFournEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibAuto()
+     * Test setLibAuto()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class FactFournEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class FactFournEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMonnaie()
+     * Test setMonnaie()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class FactFournEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantTtCcredit()
+     * Test setMontantTtCcredit()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class FactFournEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantTtCdebit()
+     * Test setMontantTtCdebit()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class FactFournEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumDossCpta()
+     * Test setNumDossCpta()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class FactFournEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumFacture()
+     * Test setNumFacture()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class FactFournEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumFournisseur()
+     * Test setNumFournisseur()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class FactFournEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumLot()
+     * Test setNumLot()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class FactFournEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumUniq()
+     * Test setNumUniq()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class FactFournEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRefImage()
+     * Test setRefImage()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class FactFournEnteteTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

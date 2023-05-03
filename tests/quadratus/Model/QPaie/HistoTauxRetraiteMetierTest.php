@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class HistoTauxRetraiteMetierTest extends AbstractTestCase {
 
     /**
-     * Tests setAPartirDe()
+     * Test setAPartirDe()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -42,7 +42,7 @@ class HistoTauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCategSalarie()
+     * Test setCategSalarie()
      *
      * @return void
      */
@@ -55,7 +55,7 @@ class HistoTauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeActivite()
+     * Test setCodeActivite()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class HistoTauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeLibelle()
+     * Test setCodeLibelle()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class HistoTauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeMetier()
+     * Test setCodeMetier()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class HistoTauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFormatNonEtendu()
+     * Test setFormatNonEtendu()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class HistoTauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndiceCateg()
+     * Test setIndiceCateg()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class HistoTauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant()
+     * Test setMontant()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class HistoTauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxPatronal()
+     * Test setTauxPatronal()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class HistoTauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxSalarial()
+     * Test setTauxSalarial()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class HistoTauxRetraiteMetierTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -42,7 +42,7 @@ class ImageFactoryTest extends AbstractTestCase {
     }
 
     /**
-     * Tests newDimensions()
+     * Test newDimensions()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ImageFactoryTest extends AbstractTestCase {
     }
 
     /**
-     * Tests newInputStream()
+     * Test newInputStream()
      *
      * @return void
      */
@@ -76,7 +76,7 @@ class ImageFactoryTest extends AbstractTestCase {
     }
 
     /**
-     * Tests newOutputStream()
+     * Test newOutputStream()
      *
      * @return void
      */

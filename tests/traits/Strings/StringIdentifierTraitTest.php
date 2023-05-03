@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringIdentifierTrait;
 class StringIdentifierTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setIdentifier()
+     * Test setIdentifier()
      *
      * @return void
      */

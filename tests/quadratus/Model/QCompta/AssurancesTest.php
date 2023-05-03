@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AssurancesTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeCentre()
+     * Test setCodeCentre()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AssurancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeNature()
+     * Test setCodeNature()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AssurancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompagnie()
+     * Test setCompagnie()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AssurancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCourtier()
+     * Test setCourtier()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class AssurancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateEcheance()
+     * Test setDateEcheance()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class AssurancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateInitiale()
+     * Test setDateInitiale()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -107,7 +107,7 @@ class AssurancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateSignature1()
+     * Test setDateSignature1()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -124,7 +124,7 @@ class AssurancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateSignature2()
+     * Test setDateSignature2()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -141,7 +141,7 @@ class AssurancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateSignature3()
+     * Test setDateSignature3()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -158,7 +158,7 @@ class AssurancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateSignature4()
+     * Test setDateSignature4()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -175,7 +175,7 @@ class AssurancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateSignature5()
+     * Test setDateSignature5()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -192,7 +192,7 @@ class AssurancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDuree()
+     * Test setDuree()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class AssurancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDureePreavis()
+     * Test setDureePreavis()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class AssurancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class AssurancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantAnnuel1()
+     * Test setMontantAnnuel1()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class AssurancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantAnnuel2()
+     * Test setMontantAnnuel2()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class AssurancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantAnnuel3()
+     * Test setMontantAnnuel3()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class AssurancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantAnnuel4()
+     * Test setMontantAnnuel4()
      *
      * @return void
      */
@@ -283,7 +283,7 @@ class AssurancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantAnnuel5()
+     * Test setMontantAnnuel5()
      *
      * @return void
      */
@@ -296,7 +296,7 @@ class AssurancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantFixe()
+     * Test setMontantFixe()
      *
      * @return void
      */
@@ -309,7 +309,7 @@ class AssurancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumContrat()
+     * Test setNumContrat()
      *
      * @return void
      */
@@ -322,7 +322,7 @@ class AssurancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumCptAssurance()
+     * Test setNumCptAssurance()
      *
      * @return void
      */
@@ -335,7 +335,7 @@ class AssurancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroPj()
+     * Test setNumeroPj()
      *
      * @return void
      */
@@ -348,7 +348,7 @@ class AssurancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniteDuree()
+     * Test setUniteDuree()
      *
      * @return void
      */
@@ -361,7 +361,7 @@ class AssurancesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

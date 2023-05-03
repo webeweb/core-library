@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringPostalCodeTrait;
 class StringPostalCodeTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setPostalCode()
+     * Test setPostalCode()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class VmpTest extends AbstractTestCase {
 
     /**
-     * Tests setCode()
+     * Test setCode()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class VmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeJournal()
+     * Test setCodeJournal()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class VmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCommentaire()
+     * Test setCommentaire()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class VmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteComm()
+     * Test setCompteComm()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class VmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteCoupons()
+     * Test setCompteCoupons()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class VmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteFrais()
+     * Test setCompteFrais()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class VmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIdentifiant()
+     * Test setIdentifiant()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class VmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class VmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbLignesMvt()
+     * Test setNbLignesMvt()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class VmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumCompte()
+     * Test setNumCompte()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class VmpTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

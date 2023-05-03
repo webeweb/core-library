@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringExtensionTrait;
 class StringExtensionTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setExtension()
+     * Test setExtension()
      *
      * @return void
      */

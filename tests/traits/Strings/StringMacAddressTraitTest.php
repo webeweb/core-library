@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringMacAddressTrait;
 class StringMacAddressTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setMacAddress()
+     * Test setMacAddress()
      *
      * @return void
      */

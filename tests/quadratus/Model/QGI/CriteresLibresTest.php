@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class CriteresLibresTest extends AbstractTestCase {
 
     /**
-     * Tests setCase1()
+     * Test setCase1()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase10()
+     * Test setCase10()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase11()
+     * Test setCase11()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase12()
+     * Test setCase12()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase13()
+     * Test setCase13()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase14()
+     * Test setCase14()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase15()
+     * Test setCase15()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase16()
+     * Test setCase16()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase17()
+     * Test setCase17()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase18()
+     * Test setCase18()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase19()
+     * Test setCase19()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase2()
+     * Test setCase2()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase20()
+     * Test setCase20()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase21()
+     * Test setCase21()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase22()
+     * Test setCase22()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase23()
+     * Test setCase23()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase24()
+     * Test setCase24()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase25()
+     * Test setCase25()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase26()
+     * Test setCase26()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase27()
+     * Test setCase27()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase28()
+     * Test setCase28()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase29()
+     * Test setCase29()
      *
      * @return void
      */
@@ -311,7 +311,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase3()
+     * Test setCase3()
      *
      * @return void
      */
@@ -324,7 +324,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase30()
+     * Test setCase30()
      *
      * @return void
      */
@@ -337,7 +337,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase31()
+     * Test setCase31()
      *
      * @return void
      */
@@ -350,7 +350,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase32()
+     * Test setCase32()
      *
      * @return void
      */
@@ -363,7 +363,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase33()
+     * Test setCase33()
      *
      * @return void
      */
@@ -376,7 +376,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase34()
+     * Test setCase34()
      *
      * @return void
      */
@@ -389,7 +389,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase35()
+     * Test setCase35()
      *
      * @return void
      */
@@ -402,7 +402,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase36()
+     * Test setCase36()
      *
      * @return void
      */
@@ -415,7 +415,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase37()
+     * Test setCase37()
      *
      * @return void
      */
@@ -428,7 +428,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase38()
+     * Test setCase38()
      *
      * @return void
      */
@@ -441,7 +441,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase39()
+     * Test setCase39()
      *
      * @return void
      */
@@ -454,7 +454,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase4()
+     * Test setCase4()
      *
      * @return void
      */
@@ -467,7 +467,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase40()
+     * Test setCase40()
      *
      * @return void
      */
@@ -480,7 +480,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase41()
+     * Test setCase41()
      *
      * @return void
      */
@@ -493,7 +493,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase42()
+     * Test setCase42()
      *
      * @return void
      */
@@ -506,7 +506,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase43()
+     * Test setCase43()
      *
      * @return void
      */
@@ -519,7 +519,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase44()
+     * Test setCase44()
      *
      * @return void
      */
@@ -532,7 +532,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase45()
+     * Test setCase45()
      *
      * @return void
      */
@@ -545,7 +545,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase46()
+     * Test setCase46()
      *
      * @return void
      */
@@ -558,7 +558,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase47()
+     * Test setCase47()
      *
      * @return void
      */
@@ -571,7 +571,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase48()
+     * Test setCase48()
      *
      * @return void
      */
@@ -584,7 +584,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase49()
+     * Test setCase49()
      *
      * @return void
      */
@@ -597,7 +597,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase5()
+     * Test setCase5()
      *
      * @return void
      */
@@ -610,7 +610,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase50()
+     * Test setCase50()
      *
      * @return void
      */
@@ -623,7 +623,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase6()
+     * Test setCase6()
      *
      * @return void
      */
@@ -636,7 +636,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase7()
+     * Test setCase7()
      *
      * @return void
      */
@@ -649,7 +649,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase8()
+     * Test setCase8()
      *
      * @return void
      */
@@ -662,7 +662,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCase9()
+     * Test setCase9()
      *
      * @return void
      */
@@ -675,7 +675,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -688,7 +688,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDate1()
+     * Test setDate1()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -705,7 +705,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDate10()
+     * Test setDate10()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -722,7 +722,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDate11()
+     * Test setDate11()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -739,7 +739,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDate12()
+     * Test setDate12()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -756,7 +756,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDate13()
+     * Test setDate13()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -773,7 +773,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDate14()
+     * Test setDate14()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -790,7 +790,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDate15()
+     * Test setDate15()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -807,7 +807,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDate16()
+     * Test setDate16()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -824,7 +824,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDate17()
+     * Test setDate17()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -841,7 +841,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDate18()
+     * Test setDate18()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -858,7 +858,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDate19()
+     * Test setDate19()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -875,7 +875,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDate2()
+     * Test setDate2()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -892,7 +892,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDate20()
+     * Test setDate20()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -909,7 +909,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDate3()
+     * Test setDate3()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -926,7 +926,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDate4()
+     * Test setDate4()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -943,7 +943,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDate5()
+     * Test setDate5()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -960,7 +960,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDate6()
+     * Test setDate6()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -977,7 +977,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDate7()
+     * Test setDate7()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -994,7 +994,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDate8()
+     * Test setDate8()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1011,7 +1011,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDate9()
+     * Test setDate9()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1028,7 +1028,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTexteA()
+     * Test setTexteA()
      *
      * @return void
      */
@@ -1041,7 +1041,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTexteB()
+     * Test setTexteB()
      *
      * @return void
      */
@@ -1054,7 +1054,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTexteC()
+     * Test setTexteC()
      *
      * @return void
      */
@@ -1067,7 +1067,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTexteD()
+     * Test setTexteD()
      *
      * @return void
      */
@@ -1080,7 +1080,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTexteE()
+     * Test setTexteE()
      *
      * @return void
      */
@@ -1093,7 +1093,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTexteF()
+     * Test setTexteF()
      *
      * @return void
      */
@@ -1106,7 +1106,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTexteG()
+     * Test setTexteG()
      *
      * @return void
      */
@@ -1119,7 +1119,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTexteH()
+     * Test setTexteH()
      *
      * @return void
      */
@@ -1132,7 +1132,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTexteI()
+     * Test setTexteI()
      *
      * @return void
      */
@@ -1145,7 +1145,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTexteJ()
+     * Test setTexteJ()
      *
      * @return void
      */
@@ -1158,7 +1158,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTexteK()
+     * Test setTexteK()
      *
      * @return void
      */
@@ -1171,7 +1171,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTexteL()
+     * Test setTexteL()
      *
      * @return void
      */
@@ -1184,7 +1184,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTexteM()
+     * Test setTexteM()
      *
      * @return void
      */
@@ -1197,7 +1197,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTexteN()
+     * Test setTexteN()
      *
      * @return void
      */
@@ -1210,7 +1210,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTexteO()
+     * Test setTexteO()
      *
      * @return void
      */
@@ -1223,7 +1223,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTexteP()
+     * Test setTexteP()
      *
      * @return void
      */
@@ -1236,7 +1236,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTexteQ()
+     * Test setTexteQ()
      *
      * @return void
      */
@@ -1249,7 +1249,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTexteR()
+     * Test setTexteR()
      *
      * @return void
      */
@@ -1262,7 +1262,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTexteS()
+     * Test setTexteS()
      *
      * @return void
      */
@@ -1275,7 +1275,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTexteT()
+     * Test setTexteT()
      *
      * @return void
      */
@@ -1288,7 +1288,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValeur1()
+     * Test setValeur1()
      *
      * @return void
      */
@@ -1301,7 +1301,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValeur10()
+     * Test setValeur10()
      *
      * @return void
      */
@@ -1314,7 +1314,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValeur11()
+     * Test setValeur11()
      *
      * @return void
      */
@@ -1327,7 +1327,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValeur12()
+     * Test setValeur12()
      *
      * @return void
      */
@@ -1340,7 +1340,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValeur13()
+     * Test setValeur13()
      *
      * @return void
      */
@@ -1353,7 +1353,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValeur14()
+     * Test setValeur14()
      *
      * @return void
      */
@@ -1366,7 +1366,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValeur15()
+     * Test setValeur15()
      *
      * @return void
      */
@@ -1379,7 +1379,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValeur16()
+     * Test setValeur16()
      *
      * @return void
      */
@@ -1392,7 +1392,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValeur17()
+     * Test setValeur17()
      *
      * @return void
      */
@@ -1405,7 +1405,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValeur18()
+     * Test setValeur18()
      *
      * @return void
      */
@@ -1418,7 +1418,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValeur19()
+     * Test setValeur19()
      *
      * @return void
      */
@@ -1431,7 +1431,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValeur2()
+     * Test setValeur2()
      *
      * @return void
      */
@@ -1444,7 +1444,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValeur20()
+     * Test setValeur20()
      *
      * @return void
      */
@@ -1457,7 +1457,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValeur3()
+     * Test setValeur3()
      *
      * @return void
      */
@@ -1470,7 +1470,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValeur4()
+     * Test setValeur4()
      *
      * @return void
      */
@@ -1483,7 +1483,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValeur5()
+     * Test setValeur5()
      *
      * @return void
      */
@@ -1496,7 +1496,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValeur6()
+     * Test setValeur6()
      *
      * @return void
      */
@@ -1509,7 +1509,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValeur7()
+     * Test setValeur7()
      *
      * @return void
      */
@@ -1522,7 +1522,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValeur8()
+     * Test setValeur8()
      *
      * @return void
      */
@@ -1535,7 +1535,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValeur9()
+     * Test setValeur9()
      *
      * @return void
      */
@@ -1548,7 +1548,7 @@ class CriteresLibresTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

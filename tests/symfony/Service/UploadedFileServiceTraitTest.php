@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Service\TestUploadedFileServiceTrait;
 class UploadedFileServiceTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setUploadedFileService()
+     * Test setUploadedFileService()
      *
      * @return void
      */

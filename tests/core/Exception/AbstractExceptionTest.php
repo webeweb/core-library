@@ -24,7 +24,7 @@ use WBW\Library\Core\Tests\Fixtures\Exception\TestException;
 class AbstractExceptionTest extends AbstractTestCase {
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

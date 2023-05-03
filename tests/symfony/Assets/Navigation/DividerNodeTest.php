@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Assets\TestNavigationNode;
 class DividerNodeTest extends AbstractTestCase {
 
     /**
-     * Tests addNode()
+     * Test addNode()
      *
      * @return void
      */
@@ -43,7 +43,7 @@ class DividerNodeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

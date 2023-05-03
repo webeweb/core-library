@@ -24,7 +24,7 @@ use WBW\Library\Provider\Tests\AbstractTestCase;
 class ApiExceptionTest extends AbstractTestCase {
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

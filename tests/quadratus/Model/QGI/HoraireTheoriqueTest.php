@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class HoraireTheoriqueTest extends AbstractTestCase {
 
     /**
-     * Tests setAnnee()
+     * Test setAnnee()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCode()
+     * Test setCode()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbreH()
+     * Test setNbreH()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbreHDimanche()
+     * Test setNbreHDimanche()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbreHJeudi()
+     * Test setNbreHJeudi()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbreHLundi()
+     * Test setNbreHLundi()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbreHMardi()
+     * Test setNbreHMardi()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbreHMax()
+     * Test setNbreHMax()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbreHMaxiDimanche()
+     * Test setNbreHMaxiDimanche()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbreHMaxiJeudi()
+     * Test setNbreHMaxiJeudi()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbreHMaxiLundi()
+     * Test setNbreHMaxiLundi()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbreHMaxiMardi()
+     * Test setNbreHMaxiMardi()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbreHMaxiMercredi()
+     * Test setNbreHMaxiMercredi()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbreHMaxiSamedi()
+     * Test setNbreHMaxiSamedi()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbreHMaxiVendredi()
+     * Test setNbreHMaxiVendredi()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbreHMercredi()
+     * Test setNbreHMercredi()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbreHMini()
+     * Test setNbreHMini()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbreHMiniDimanche()
+     * Test setNbreHMiniDimanche()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbreHMiniJeudi()
+     * Test setNbreHMiniJeudi()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbreHMiniLundi()
+     * Test setNbreHMiniLundi()
      *
      * @return void
      */
@@ -283,7 +283,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbreHMiniMardi()
+     * Test setNbreHMiniMardi()
      *
      * @return void
      */
@@ -296,7 +296,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbreHMiniMercredi()
+     * Test setNbreHMiniMercredi()
      *
      * @return void
      */
@@ -309,7 +309,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbreHMiniSamedi()
+     * Test setNbreHMiniSamedi()
      *
      * @return void
      */
@@ -322,7 +322,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbreHMiniVendredi()
+     * Test setNbreHMiniVendredi()
      *
      * @return void
      */
@@ -335,7 +335,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbreHSamedi()
+     * Test setNbreHSamedi()
      *
      * @return void
      */
@@ -348,7 +348,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbreHVendredi()
+     * Test setNbreHVendredi()
      *
      * @return void
      */
@@ -361,7 +361,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroSem()
+     * Test setNumeroSem()
      *
      * @return void
      */
@@ -374,7 +374,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTDimanche()
+     * Test setTDimanche()
      *
      * @return void
      */
@@ -387,7 +387,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTJeudi()
+     * Test setTJeudi()
      *
      * @return void
      */
@@ -400,7 +400,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTLundi()
+     * Test setTLundi()
      *
      * @return void
      */
@@ -413,7 +413,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTMardi()
+     * Test setTMardi()
      *
      * @return void
      */
@@ -426,7 +426,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTMercredi()
+     * Test setTMercredi()
      *
      * @return void
      */
@@ -439,7 +439,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTSamedi()
+     * Test setTSamedi()
      *
      * @return void
      */
@@ -452,7 +452,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTVendredi()
+     * Test setTVendredi()
      *
      * @return void
      */
@@ -465,7 +465,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

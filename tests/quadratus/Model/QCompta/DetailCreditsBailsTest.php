@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DetailCreditsBailsTest extends AbstractTestCase {
 
     /**
-     * Tests setIntitule()
+     * Test setIntitule()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class DetailCreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumLigne()
+     * Test setNumLigne()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class DetailCreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumero()
+     * Test setNumero()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class DetailCreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroCompte()
+     * Test setNumeroCompte()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class DetailCreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroDeux()
+     * Test setNumeroDeux()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class DetailCreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQuantite()
+     * Test setQuantite()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class DetailCreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValeur()
+     * Test setValeur()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class DetailCreditsBailsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

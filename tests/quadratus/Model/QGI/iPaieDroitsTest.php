@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class iPaieDroitsTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeCollabMessages()
+     * Test setCodeCollabMessages()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class iPaieDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeUser()
+     * Test setCodeUser()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class iPaieDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEspaceClient()
+     * Test setEspaceClient()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class iPaieDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFctAbsencesCp()
+     * Test setFctAbsencesCp()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class iPaieDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFctAcomptes()
+     * Test setFctAcomptes()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class iPaieDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFctArchives()
+     * Test setFctArchives()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class iPaieDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFctBulletins()
+     * Test setFctBulletins()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class iPaieDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFctDocuments()
+     * Test setFctDocuments()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class iPaieDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFctDonneesV()
+     * Test setFctDonneesV()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class iPaieDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFctEtatCivil()
+     * Test setFctEtatCivil()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class iPaieDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFctModifAbsencesCp()
+     * Test setFctModifAbsencesCp()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class iPaieDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFctModifAcomptes()
+     * Test setFctModifAcomptes()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class iPaieDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFctModifArchives()
+     * Test setFctModifArchives()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class iPaieDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFctModifBulletins()
+     * Test setFctModifBulletins()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class iPaieDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFctModifDocuments()
+     * Test setFctModifDocuments()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class iPaieDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFctModifDonneesV()
+     * Test setFctModifDonneesV()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class iPaieDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFctModifEtatCivil()
+     * Test setFctModifEtatCivil()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class iPaieDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFlag()
+     * Test setFlag()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class iPaieDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNiveauConf()
+     * Test setNiveauConf()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class iPaieDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoDossPaie()
+     * Test setNoDossPaie()
      *
      * @return void
      */
@@ -283,7 +283,7 @@ class iPaieDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomUser()
+     * Test setNomUser()
      *
      * @return void
      */
@@ -296,7 +296,7 @@ class iPaieDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumiKey()
+     * Test setNumiKey()
      *
      * @return void
      */
@@ -309,7 +309,7 @@ class iPaieDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPassword()
+     * Test setPassword()
      *
      * @return void
      */
@@ -322,7 +322,7 @@ class iPaieDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUserExpert()
+     * Test setUserExpert()
      *
      * @return void
      */
@@ -335,7 +335,7 @@ class iPaieDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setVisuSalaires()
+     * Test setVisuSalaires()
      *
      * @return void
      */
@@ -348,7 +348,7 @@ class iPaieDroitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class CdeTypeInspEntetesTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeInspecteur()
+     * Test setCodeInspecteur()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class CdeTypeInspEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtValiditeDebut()
+     * Test setDtValiditeDebut()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -55,7 +55,7 @@ class CdeTypeInspEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtValiditeFin()
+     * Test setDtValiditeFin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -72,7 +72,7 @@ class CdeTypeInspEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantBudget()
+     * Test setMontantBudget()
      *
      * @return void
      */
@@ -85,7 +85,7 @@ class CdeTypeInspEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantHtCde()
+     * Test setMontantHtCde()
      *
      * @return void
      */
@@ -98,7 +98,7 @@ class CdeTypeInspEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringVatNumberTrait;
 class StringVatNumberTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setVatNumber()
+     * Test setVatNumber()
      *
      * @return void
      */

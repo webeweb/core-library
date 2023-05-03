@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class FiltreEntetesTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeFiltre()
+     * Test setCodeFiltre()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class FiltreEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCollaborateur()
+     * Test setCollaborateur()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class FiltreEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCommercialFacture()
+     * Test setCommercialFacture()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class FiltreEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFonctionnalite()
+     * Test setFonctionnalite()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class FiltreEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class FiltreEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeFiltre()
+     * Test setTypeFiltre()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class FiltreEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqId()
+     * Test setUniqId()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class FiltreEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

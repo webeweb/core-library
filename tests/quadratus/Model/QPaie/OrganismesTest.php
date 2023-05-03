@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class OrganismesTest extends AbstractTestCase {
 
     /**
-     * Tests setCentrePayeur()
+     * Test setCentrePayeur()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCatCadre()
+     * Test setCodeCatCadre()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCentre()
+     * Test setCodeCentre()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEtablissement()
+     * Test setCodeEtablissement()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeNonCadre()
+     * Test setCodeNonCadre()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeOrganisme()
+     * Test setCodeOrganisme()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteCharge()
+     * Test setCompteCharge()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteTiers()
+     * Test setCompteTiers()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCotAssedicParUrssaf()
+     * Test setCotAssedicParUrssaf()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCotitel()
+     * Test setCotitel()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDossCadre()
+     * Test setDossCadre()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDossNonCadre()
+     * Test setDossNonCadre()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEditionDucs()
+     * Test setEditionDucs()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGestionPaieDecaleeOc()
+     * Test setGestionPaieDecaleeOc()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGroupeInterne()
+     * Test setGroupeInterne()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIdIntervenant()
+     * Test setIdIntervenant()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setJourExigible()
+     * Test setJourExigible()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setJourLimiteDepot()
+     * Test setJourLimiteDepot()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setJourReglement()
+     * Test setJourReglement()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMensTrim()
+     * Test setMensTrim()
      *
      * @return void
      */
@@ -283,7 +283,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoAffiliation()
+     * Test setNoAffiliation()
      *
      * @return void
      */
@@ -296,7 +296,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOptiqueDucs()
+     * Test setOptiqueDucs()
      *
      * @return void
      */
@@ -309,7 +309,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPaiementEdiVlu()
+     * Test setPaiementEdiVlu()
      *
      * @return void
      */
@@ -322,7 +322,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPasTraiterEdi()
+     * Test setPasTraiterEdi()
      *
      * @return void
      */
@@ -335,7 +335,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRib()
+     * Test setRib()
      *
      * @return void
      */
@@ -348,7 +348,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTelepaiement()
+     * Test setTelepaiement()
      *
      * @return void
      */
@@ -361,7 +361,7 @@ class OrganismesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

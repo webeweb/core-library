@@ -48,7 +48,7 @@ class StylesheetManagerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests addProvider()
+     * Test addProvider()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -62,7 +62,7 @@ class StylesheetManagerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests addProvider()
+     * Test addProvider()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -82,7 +82,7 @@ class StylesheetManagerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests containsProvider()
+     * Test containsProvider()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -98,7 +98,7 @@ class StylesheetManagerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests containsProvider()
+     * Test containsProvider()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class StylesheetManagerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests getStylesheets()
+     * Test getStylesheets()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -134,7 +134,7 @@ class StylesheetManagerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

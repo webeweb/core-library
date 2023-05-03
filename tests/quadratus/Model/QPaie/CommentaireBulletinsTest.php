@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class CommentaireBulletinsTest extends AbstractTestCase {
 
     /**
-     * Tests setCommentaire1()
+     * Test setCommentaire1()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class CommentaireBulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCommentaire2()
+     * Test setCommentaire2()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class CommentaireBulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCommentaire3()
+     * Test setCommentaire3()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class CommentaireBulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCommentaire4()
+     * Test setCommentaire4()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class CommentaireBulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCommentaire5()
+     * Test setCommentaire5()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class CommentaireBulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndicePeriode()
+     * Test setIndicePeriode()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class CommentaireBulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmploye()
+     * Test setNumeroEmploye()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class CommentaireBulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -133,7 +133,7 @@ class CommentaireBulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTxtCommentaireRtf()
+     * Test setTxtCommentaireRtf()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class CommentaireBulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTxtCommentaireSaisi()
+     * Test setTxtCommentaireSaisi()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class CommentaireBulletinsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

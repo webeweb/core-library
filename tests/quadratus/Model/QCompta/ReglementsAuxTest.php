@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ReglementsAuxTest extends AbstractTestCase {
 
     /**
-     * Tests setActif()
+     * Test setActif()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAutreDomBanque()
+     * Test setAutreDomBanque()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAutreRib()
+     * Test setAutreRib()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeJournalBanque()
+     * Test setCodeJournalBanque()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeModePaiement()
+     * Test setCodeModePaiement()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDans1Groupe()
+     * Test setDans1Groupe()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateEcheance()
+     * Test setDateEcheance()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantGroupe()
+     * Test setMontantGroupe()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantSaisiCredit()
+     * Test setMontantSaisiCredit()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantSaisiDebit()
+     * Test setMontantSaisiDebit()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantTenuCredit()
+     * Test setMontantTenuCredit()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantTenuDebit()
+     * Test setMontantTenuDebit()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoRib()
+     * Test setNoRib()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumGroupe()
+     * Test setNumGroupe()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumLotLcr()
+     * Test setNumLotLcr()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumLotLettreP()
+     * Test setNumLotLettreP()
      *
      * @return void
      */
@@ -237,7 +237,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumLotTraite()
+     * Test setNumLotTraite()
      *
      * @return void
      */
@@ -250,7 +250,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumUniq()
+     * Test setNumUniq()
      *
      * @return void
      */
@@ -263,7 +263,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumUniqEcriture()
+     * Test setNumUniqEcriture()
      *
      * @return void
      */
@@ -276,7 +276,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroCompte()
+     * Test setNumeroCompte()
      *
      * @return void
      */
@@ -289,7 +289,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setReferenceTire()
+     * Test setReferenceTire()
      *
      * @return void
      */
@@ -302,7 +302,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeReglement()
+     * Test setTypeReglement()
      *
      * @return void
      */
@@ -315,7 +315,7 @@ class ReglementsAuxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

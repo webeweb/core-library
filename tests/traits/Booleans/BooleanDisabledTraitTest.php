@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Booleans\TestBooleanDisabledTrait;
 class BooleanDisabledTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setDisabled()
+     * Test setDisabled()
      *
      * @return void
      */

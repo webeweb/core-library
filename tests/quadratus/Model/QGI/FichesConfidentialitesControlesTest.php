@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class FichesConfidentialitesControlesTest extends AbstractTestCase {
 
     /**
-     * Tests setAgence()
+     * Test setAgence()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class FichesConfidentialitesControlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAutorise()
+     * Test setAutorise()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class FichesConfidentialitesControlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeColl()
+     * Test setCodeColl()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class FichesConfidentialitesControlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDossier()
+     * Test setDossier()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class FichesConfidentialitesControlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMotControle()
+     * Test setMotControle()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class FichesConfidentialitesControlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMotDePasse()
+     * Test setMotDePasse()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class FichesConfidentialitesControlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setType()
+     * Test setType()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class FichesConfidentialitesControlesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

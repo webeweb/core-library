@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DirigeantsTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class DirigeantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeDirigeant()
+     * Test setCodeDirigeant()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class DirigeantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeFonction()
+     * Test setCodeFonction()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class DirigeantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateNomination()
+     * Test setDateNomination()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class DirigeantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDuree()
+     * Test setDuree()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class DirigeantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setId()
+     * Test setId()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class DirigeantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setObservations()
+     * Test setObservations()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class DirigeantsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

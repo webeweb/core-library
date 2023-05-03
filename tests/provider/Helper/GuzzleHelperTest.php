@@ -23,7 +23,7 @@ use WBW\Library\Provider\Tests\AbstractTestCase;
 class GuzzleHelperTest extends AbstractTestCase {
 
     /**
-     * Tests getStreamParameterName()
+     * Test getStreamParameterName()
      *
      * @return void
      */

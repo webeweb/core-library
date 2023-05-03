@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringIpAddressTrait;
 class StringIpAddressTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setIpAddress()
+     * Test setIpAddress()
      *
      * @return void
      */

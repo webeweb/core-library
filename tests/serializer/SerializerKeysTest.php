@@ -22,7 +22,7 @@ use WBW\Library\Serializer\SerializerKeys;
 class SerializerKeysTest extends AbstractTestCase {
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

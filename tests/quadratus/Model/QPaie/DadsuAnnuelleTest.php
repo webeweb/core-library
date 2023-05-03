@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DadsuAnnuelleTest extends AbstractTestCase {
 
     /**
-     * Tests setNomFichierDadsu()
+     * Test setNomFichierDadsu()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class DadsuAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTdsAnnee()
+     * Test setTdsAnnee()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class DadsuAnnuelleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

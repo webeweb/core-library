@@ -25,7 +25,7 @@ use WBW\Library\Traits\Tests\Fixtures\DateTimes\TestDateTimeFinishesOnTrait;
 class DateTimeFinishesOnTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setFinishesOn()
+     * Test setFinishesOn()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.

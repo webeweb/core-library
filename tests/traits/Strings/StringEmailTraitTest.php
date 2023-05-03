@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringEmailTrait;
 class StringEmailTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setEmail()
+     * Test setEmail()
      *
      * @return void
      */

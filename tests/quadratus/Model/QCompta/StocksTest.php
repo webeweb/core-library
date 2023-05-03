@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class StocksTest extends AbstractTestCase {
 
     /**
-     * Tests setAnnee()
+     * Test setAnnee()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class StocksTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCentre()
+     * Test setCentre()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class StocksTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelleEcriture()
+     * Test setLibelleEcriture()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class StocksTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant()
+     * Test setMontant()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class StocksTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNature()
+     * Test setNature()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class StocksTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumLigne()
+     * Test setNumLigne()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class StocksTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroCompte()
+     * Test setNumeroCompte()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class StocksTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -133,7 +133,7 @@ class StocksTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrixU()
+     * Test setPrixU()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class StocksTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrixU2()
+     * Test setPrixU2()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class StocksTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQuantite()
+     * Test setQuantite()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class StocksTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQuantite2()
+     * Test setQuantite2()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class StocksTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRefEcrCodeJournal()
+     * Test setRefEcrCodeJournal()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class StocksTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRefEcrFolio()
+     * Test setRefEcrFolio()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class StocksTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRefEcrLigneFolio()
+     * Test setRefEcrLigneFolio()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class StocksTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRefEcrNumLigne()
+     * Test setRefEcrNumLigne()
      *
      * @return void
      */
@@ -237,7 +237,7 @@ class StocksTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRefEcrPeriodeEcriture()
+     * Test setRefEcrPeriodeEcriture()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -254,7 +254,7 @@ class StocksTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

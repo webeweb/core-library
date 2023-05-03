@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class TauxPlanPaieTest extends AbstractTestCase {
 
     /**
-     * Tests setAPartirDe()
+     * Test setAPartirDe()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -42,7 +42,7 @@ class TauxPlanPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEtablissement()
+     * Test setCodeEtablissement()
      *
      * @return void
      */
@@ -55,7 +55,7 @@ class TauxPlanPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFormatNonEtendu()
+     * Test setFormatNonEtendu()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class TauxPlanPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroTaux()
+     * Test setNumeroTaux()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class TauxPlanPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxPatronal()
+     * Test setTauxPatronal()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class TauxPlanPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxSalarial()
+     * Test setTauxSalarial()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class TauxPlanPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

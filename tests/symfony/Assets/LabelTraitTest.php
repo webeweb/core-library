@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Assets\TestLabelTrait;
 class LabelTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setLabel()
+     * Test setLabel()
      *
      * @return void
      */

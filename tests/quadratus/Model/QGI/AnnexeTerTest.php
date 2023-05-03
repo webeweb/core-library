@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AnnexeTerTest extends AbstractTestCase {
 
     /**
-     * Tests setBoolean1()
+     * Test setBoolean1()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBoolean2()
+     * Test setBoolean2()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBoolean3()
+     * Test setBoolean3()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBoolean4()
+     * Test setBoolean4()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBoolean5()
+     * Test setBoolean5()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBoolean6()
+     * Test setBoolean6()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBoolean7()
+     * Test setBoolean7()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCode1()
+     * Test setCode1()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCode2()
+     * Test setCode2()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDate1()
+     * Test setDate1()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -159,7 +159,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDate2()
+     * Test setDate2()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -176,7 +176,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDate3()
+     * Test setDate3()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -193,7 +193,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDate4()
+     * Test setDate4()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -210,7 +210,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDate5()
+     * Test setDate5()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -227,7 +227,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDate6()
+     * Test setDate6()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -244,7 +244,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDate7()
+     * Test setDate7()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -261,7 +261,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDouble1()
+     * Test setDouble1()
      *
      * @return void
      */
@@ -274,7 +274,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDouble2()
+     * Test setDouble2()
      *
      * @return void
      */
@@ -287,7 +287,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDouble3()
+     * Test setDouble3()
      *
      * @return void
      */
@@ -300,7 +300,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDouble4()
+     * Test setDouble4()
      *
      * @return void
      */
@@ -313,7 +313,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDouble5()
+     * Test setDouble5()
      *
      * @return void
      */
@@ -326,7 +326,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDouble6()
+     * Test setDouble6()
      *
      * @return void
      */
@@ -339,7 +339,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDouble7()
+     * Test setDouble7()
      *
      * @return void
      */
@@ -352,7 +352,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLong1()
+     * Test setLong1()
      *
      * @return void
      */
@@ -365,7 +365,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLong2()
+     * Test setLong2()
      *
      * @return void
      */
@@ -378,7 +378,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLong3()
+     * Test setLong3()
      *
      * @return void
      */
@@ -391,7 +391,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLong4()
+     * Test setLong4()
      *
      * @return void
      */
@@ -404,7 +404,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLong5()
+     * Test setLong5()
      *
      * @return void
      */
@@ -417,7 +417,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLong6()
+     * Test setLong6()
      *
      * @return void
      */
@@ -430,7 +430,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLong7()
+     * Test setLong7()
      *
      * @return void
      */
@@ -443,7 +443,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMemo1()
+     * Test setMemo1()
      *
      * @return void
      */
@@ -456,7 +456,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMemo2()
+     * Test setMemo2()
      *
      * @return void
      */
@@ -469,7 +469,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumero()
+     * Test setNumero()
      *
      * @return void
      */
@@ -482,7 +482,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setText1()
+     * Test setText1()
      *
      * @return void
      */
@@ -495,7 +495,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setText2()
+     * Test setText2()
      *
      * @return void
      */
@@ -508,7 +508,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setText3()
+     * Test setText3()
      *
      * @return void
      */
@@ -521,7 +521,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setText4()
+     * Test setText4()
      *
      * @return void
      */
@@ -534,7 +534,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setText5()
+     * Test setText5()
      *
      * @return void
      */
@@ -547,7 +547,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setText6()
+     * Test setText6()
      *
      * @return void
      */
@@ -560,7 +560,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setText7()
+     * Test setText7()
      *
      * @return void
      */
@@ -573,7 +573,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setType()
+     * Test setType()
      *
      * @return void
      */
@@ -586,7 +586,7 @@ class AnnexeTerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

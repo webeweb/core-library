@@ -24,7 +24,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 class CpuTest extends AbstractTestCase {
 
     /**
-     * Tests jsonSerialize()
+     * Test jsonSerialize()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class CpuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHi()
+     * Test setHi()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class CpuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setId()
+     * Test setId()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class CpuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNi()
+     * Test setNi()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class CpuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSi()
+     * Test setSi()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class CpuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSt()
+     * Test setSt()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class CpuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSy()
+     * Test setSy()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class CpuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUs()
+     * Test setUs()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class CpuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setWa()
+     * Test setWa()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class CpuTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

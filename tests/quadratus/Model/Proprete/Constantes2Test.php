@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class Constantes2Test extends AbstractTestCase {
 
     /**
-     * Tests setFormatDuree()
+     * Test setFormatDuree()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class Constantes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setJoursCpaDeduire()
+     * Test setJoursCpaDeduire()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class Constantes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbDecimalesDuree()
+     * Test setNbDecimalesDuree()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class Constantes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumCritereBtBool1()
+     * Test setNumCritereBtBool1()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class Constantes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumCritereBtBool2()
+     * Test setNumCritereBtBool2()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class Constantes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumCritereBtByte1()
+     * Test setNumCritereBtByte1()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class Constantes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumCritereBtLst1()
+     * Test setNumCritereBtLst1()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class Constantes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumCritereBtLst2()
+     * Test setNumCritereBtLst2()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class Constantes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumCritereBtTxt1()
+     * Test setNumCritereBtTxt1()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class Constantes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumCritereBtTxt2()
+     * Test setNumCritereBtTxt2()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class Constantes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumCritereCouleurBt()
+     * Test setNumCritereCouleurBt()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class Constantes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumCritereDaTxt1()
+     * Test setNumCritereDaTxt1()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class Constantes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumCritereReclaLst1()
+     * Test setNumCritereReclaLst1()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class Constantes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumCritereReclaLst2()
+     * Test setNumCritereReclaLst2()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class Constantes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setPublierPhotoWeb()
+     * Test setPublierPhotoWeb()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class Constantes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeCritereCouleurBt()
+     * Test setTypeCritereCouleurBt()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class Constantes2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

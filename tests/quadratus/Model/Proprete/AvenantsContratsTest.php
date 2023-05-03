@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AvenantsContratsTest extends AbstractTestCase {
 
     /**
-     * Tests setChrono()
+     * Test setChrono()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AvenantsContratsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEmploye()
+     * Test setCodeEmploye()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AvenantsContratsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateAvenant()
+     * Test setDateAvenant()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class AvenantsContratsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLienDocument()
+     * Test setLienDocument()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class AvenantsContratsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumAvenantSaisi()
+     * Test setNumAvenantSaisi()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class AvenantsContratsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroAvenant()
+     * Test setNumeroAvenant()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class AvenantsContratsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setObservation()
+     * Test setObservation()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class AvenantsContratsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeAvenant()
+     * Test setPeriodeAvenant()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -137,7 +137,7 @@ class AvenantsContratsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSignatureEmploye()
+     * Test setSignatureEmploye()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class AvenantsContratsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeAvenant()
+     * Test setTypeAvenant()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class AvenantsContratsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeDocument()
+     * Test setTypeDocument()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class AvenantsContratsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

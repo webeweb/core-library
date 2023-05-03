@@ -26,7 +26,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Assets\TestButton;
 class AbstractButtonTest extends AbstractTestCase {
 
     /**
-     * Tests jsonSerialize()
+     * Test jsonSerialize()
      *
      * @return void
      */
@@ -46,7 +46,7 @@ class AbstractButtonTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

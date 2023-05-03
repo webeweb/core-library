@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AttestationExtrasTest extends AbstractTestCase {
 
     /**
-     * Tests setAncienAssedic()
+     * Test setAncienAssedic()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAncienGarp()
+     * Test setAncienGarp()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEtablissement()
+     * Test setCodeEtablissement()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeMotifRupture()
+     * Test setCodeMotifRupture()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeNaf()
+     * Test setCodeNaf()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEffectif()
+     * Test setEffectif()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmploi()
+     * Test setEmploi()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtblAdresse()
+     * Test setEtblAdresse()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtblRaisonSociale()
+     * Test setEtblRaisonSociale()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtblTel()
+     * Test setEtblTel()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLienDocument()
+     * Test setLienDocument()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNir()
+     * Test setNir()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomEmploye()
+     * Test setNomEmploye()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomPoleEmploi()
+     * Test setNomPoleEmploi()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomRegimeRetraite()
+     * Test setNomRegimeRetraite()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroAffiliation()
+     * Test setNumeroAffiliation()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroAttestation()
+     * Test setNumeroAttestation()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmploye()
+     * Test setNumeroEmploye()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeEmploiDeb()
+     * Test setPeriodeEmploiDeb()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -276,7 +276,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeEmploiFin()
+     * Test setPeriodeEmploiFin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -293,7 +293,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrenom()
+     * Test setPrenom()
      *
      * @return void
      */
@@ -306,7 +306,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSignatureDate()
+     * Test setSignatureDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -323,7 +323,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSignatureNom()
+     * Test setSignatureNom()
      *
      * @return void
      */
@@ -336,7 +336,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSignatureQualite()
+     * Test setSignatureQualite()
      *
      * @return void
      */
@@ -349,7 +349,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSignatureVille()
+     * Test setSignatureVille()
      *
      * @return void
      */
@@ -362,7 +362,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSiret()
+     * Test setSiret()
      *
      * @return void
      */
@@ -375,7 +375,7 @@ class AttestationExtrasTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

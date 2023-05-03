@@ -25,7 +25,7 @@ use WBW\Library\Database\Tests\AbstractTestCase;
 class MicrosoftSQLServerDatabaseConnectorTest extends AbstractTestCase {
 
     /**
-     * Tests getConnection()
+     * Test getConnection()
      *
      * @return void
      */
@@ -44,7 +44,7 @@ class MicrosoftSQLServerDatabaseConnectorTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __construct method.
+     * Test __construct method.
      *
      * @returns void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AttestationFiscaleTest extends AbstractTestCase {
 
     /**
-     * Tests setAnnee()
+     * Test setAnnee()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeArticle1()
+     * Test setCodeArticle1()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeArticle10()
+     * Test setCodeArticle10()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeArticle2()
+     * Test setCodeArticle2()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeArticle3()
+     * Test setCodeArticle3()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeArticle4()
+     * Test setCodeArticle4()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeArticle5()
+     * Test setCodeArticle5()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeArticle6()
+     * Test setCodeArticle6()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeArticle7()
+     * Test setCodeArticle7()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeArticle8()
+     * Test setCodeArticle8()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeArticle9()
+     * Test setCodeArticle9()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDureeAnnuelle()
+     * Test setDureeAnnuelle()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtat()
+     * Test setEtat()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFamille1()
+     * Test setFamille1()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFamille10()
+     * Test setFamille10()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFamille2()
+     * Test setFamille2()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFamille3()
+     * Test setFamille3()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFamille4()
+     * Test setFamille4()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFamille5()
+     * Test setFamille5()
      *
      * @return void
      */
@@ -283,7 +283,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFamille6()
+     * Test setFamille6()
      *
      * @return void
      */
@@ -296,7 +296,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFamille7()
+     * Test setFamille7()
      *
      * @return void
      */
@@ -309,7 +309,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFamille8()
+     * Test setFamille8()
      *
      * @return void
      */
@@ -322,7 +322,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFamille9()
+     * Test setFamille9()
      *
      * @return void
      */
@@ -335,7 +335,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLienDocument()
+     * Test setLienDocument()
      *
      * @return void
      */
@@ -348,7 +348,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setModeReglement()
+     * Test setModeReglement()
      *
      * @return void
      */
@@ -361,7 +361,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantTes()
+     * Test setMontantTes()
      *
      * @return void
      */
@@ -374,7 +374,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantTtc()
+     * Test setMontantTtc()
      *
      * @return void
      */
@@ -387,7 +387,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AffectationAna3Test extends AbstractTestCase {
 
     /**
-     * Tests setAnneeRecolte()
+     * Test setAnneeRecolte()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class AffectationAna3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCentre()
+     * Test setCodeCentre()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class AffectationAna3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeNature()
+     * Test setCodeNature()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class AffectationAna3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant()
+     * Test setMontant()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class AffectationAna3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumCompte()
+     * Test setNumCompte()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class AffectationAna3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setPourcentage()
+     * Test setPourcentage()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class AffectationAna3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setQuantite1()
+     * Test setQuantite1()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class AffectationAna3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setQuantite2()
+     * Test setQuantite2()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class AffectationAna3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setSens()
+     * Test setSens()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class AffectationAna3Test extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

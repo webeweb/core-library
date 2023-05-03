@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DernPrepaPaieTest extends AbstractTestCase {
 
     /**
-     * Tests setAlerteRouge()
+     * Test setAlerteRouge()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class DernPrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEmploye()
+     * Test setCodeEmploye()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class DernPrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDesignation()
+     * Test setDesignation()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class DernPrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtPrepa()
+     * Test setDtPrepa()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class DernPrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -98,7 +98,7 @@ class DernPrepaPaieTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

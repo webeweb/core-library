@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ConstantesTest extends AbstractTestCase {
 
     /**
-     * Tests setAccesAutoriseBonsTravaux()
+     * Test setAccesAutoriseBonsTravaux()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAccesAutorisePlanFacturation()
+     * Test setAccesAutorisePlanFacturation()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAccesAutorisePlanTache()
+     * Test setAccesAutorisePlanTache()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAccesDocsCab()
+     * Test setAccesDocsCab()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAccesDossierCpta()
+     * Test setAccesDossierCpta()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAccesDossierPaie()
+     * Test setAccesDossierPaie()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAccesStatCab()
+     * Test setAccesStatCab()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setActivationConfCmavCli()
+     * Test setActivationConfCmavCli()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setActivationConfControle()
+     * Test setActivationConfControle()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setActivationLstRestri()
+     * Test setActivationLstRestri()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setActivationNiveau2()
+     * Test setActivationNiveau2()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setActivationNiveau3()
+     * Test setActivationNiveau3()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAffichePoint()
+     * Test setAffichePoint()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAfficheSemaine()
+     * Test setAfficheSemaine()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAnnulationAffaire()
+     * Test setAnnulationAffaire()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAnnulationArticle()
+     * Test setAnnulationArticle()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAnnulationBonsTravaux()
+     * Test setAnnulationBonsTravaux()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAnnulationChantier()
+     * Test setAnnulationChantier()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAnnulationClient()
+     * Test setAnnulationClient()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAnnulationCommission()
+     * Test setAnnulationCommission()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAnnulationDossierCpta()
+     * Test setAnnulationDossierCpta()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAnnulationDossierFact()
+     * Test setAnnulationDossierFact()
      *
      * @return void
      */
@@ -311,7 +311,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAnnulationDossierPaie()
+     * Test setAnnulationDossierPaie()
      *
      * @return void
      */
@@ -324,7 +324,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAnnulationFournisseur()
+     * Test setAnnulationFournisseur()
      *
      * @return void
      */
@@ -337,7 +337,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAnnulationPlanFacturation()
+     * Test setAnnulationPlanFacturation()
      *
      * @return void
      */
@@ -350,7 +350,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAnnulationPlanTache()
+     * Test setAnnulationPlanTache()
      *
      * @return void
      */
@@ -363,7 +363,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAnnulationTache()
+     * Test setAnnulationTache()
      *
      * @return void
      */
@@ -376,7 +376,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAnnulationTarif()
+     * Test setAnnulationTarif()
      *
      * @return void
      */
@@ -389,7 +389,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBlocageEdCli()
+     * Test setBlocageEdCli()
      *
      * @return void
      */
@@ -402,7 +402,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBudgetTypeSaisie()
+     * Test setBudgetTypeSaisie()
      *
      * @return void
      */
@@ -415,7 +415,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChampsCritere1()
+     * Test setChampsCritere1()
      *
      * @return void
      */
@@ -428,7 +428,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChampsCritere10()
+     * Test setChampsCritere10()
      *
      * @return void
      */
@@ -441,7 +441,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChampsCritere2()
+     * Test setChampsCritere2()
      *
      * @return void
      */
@@ -454,7 +454,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChampsCritere3()
+     * Test setChampsCritere3()
      *
      * @return void
      */
@@ -467,7 +467,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChampsCritere4()
+     * Test setChampsCritere4()
      *
      * @return void
      */
@@ -480,7 +480,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChampsCritere5()
+     * Test setChampsCritere5()
      *
      * @return void
      */
@@ -493,7 +493,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChampsCritere6()
+     * Test setChampsCritere6()
      *
      * @return void
      */
@@ -506,7 +506,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChampsCritere7()
+     * Test setChampsCritere7()
      *
      * @return void
      */
@@ -519,7 +519,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChampsCritere8()
+     * Test setChampsCritere8()
      *
      * @return void
      */
@@ -532,7 +532,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChampsCritere9()
+     * Test setChampsCritere9()
      *
      * @return void
      */
@@ -545,7 +545,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChampsCritereAffaire1()
+     * Test setChampsCritereAffaire1()
      *
      * @return void
      */
@@ -558,7 +558,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChampsCritereAffaire10()
+     * Test setChampsCritereAffaire10()
      *
      * @return void
      */
@@ -571,7 +571,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChampsCritereAffaire2()
+     * Test setChampsCritereAffaire2()
      *
      * @return void
      */
@@ -584,7 +584,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChampsCritereAffaire3()
+     * Test setChampsCritereAffaire3()
      *
      * @return void
      */
@@ -597,7 +597,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChampsCritereAffaire4()
+     * Test setChampsCritereAffaire4()
      *
      * @return void
      */
@@ -610,7 +610,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChampsCritereAffaire5()
+     * Test setChampsCritereAffaire5()
      *
      * @return void
      */
@@ -623,7 +623,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChampsCritereAffaire6()
+     * Test setChampsCritereAffaire6()
      *
      * @return void
      */
@@ -636,7 +636,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChampsCritereAffaire7()
+     * Test setChampsCritereAffaire7()
      *
      * @return void
      */
@@ -649,7 +649,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChampsCritereAffaire8()
+     * Test setChampsCritereAffaire8()
      *
      * @return void
      */
@@ -662,7 +662,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChampsCritereAffaire9()
+     * Test setChampsCritereAffaire9()
      *
      * @return void
      */
@@ -675,7 +675,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChampsCritereArticle1()
+     * Test setChampsCritereArticle1()
      *
      * @return void
      */
@@ -688,7 +688,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChampsCritereArticle10()
+     * Test setChampsCritereArticle10()
      *
      * @return void
      */
@@ -701,7 +701,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChampsCritereArticle2()
+     * Test setChampsCritereArticle2()
      *
      * @return void
      */
@@ -714,7 +714,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChampsCritereArticle3()
+     * Test setChampsCritereArticle3()
      *
      * @return void
      */
@@ -727,7 +727,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChampsCritereArticle4()
+     * Test setChampsCritereArticle4()
      *
      * @return void
      */
@@ -740,7 +740,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChampsCritereArticle5()
+     * Test setChampsCritereArticle5()
      *
      * @return void
      */
@@ -753,7 +753,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChampsCritereArticle6()
+     * Test setChampsCritereArticle6()
      *
      * @return void
      */
@@ -766,7 +766,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChampsCritereArticle7()
+     * Test setChampsCritereArticle7()
      *
      * @return void
      */
@@ -779,7 +779,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChampsCritereArticle8()
+     * Test setChampsCritereArticle8()
      *
      * @return void
      */
@@ -792,7 +792,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChampsCritereArticle9()
+     * Test setChampsCritereArticle9()
      *
      * @return void
      */
@@ -805,7 +805,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChampsCritereEntPiece1()
+     * Test setChampsCritereEntPiece1()
      *
      * @return void
      */
@@ -818,7 +818,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChampsCritereEntPiece10()
+     * Test setChampsCritereEntPiece10()
      *
      * @return void
      */
@@ -831,7 +831,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChampsCritereEntPiece2()
+     * Test setChampsCritereEntPiece2()
      *
      * @return void
      */
@@ -844,7 +844,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChampsCritereEntPiece3()
+     * Test setChampsCritereEntPiece3()
      *
      * @return void
      */
@@ -857,7 +857,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChampsCritereEntPiece4()
+     * Test setChampsCritereEntPiece4()
      *
      * @return void
      */
@@ -870,7 +870,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChampsCritereEntPiece5()
+     * Test setChampsCritereEntPiece5()
      *
      * @return void
      */
@@ -883,7 +883,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChampsCritereEntPiece6()
+     * Test setChampsCritereEntPiece6()
      *
      * @return void
      */
@@ -896,7 +896,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChampsCritereEntPiece7()
+     * Test setChampsCritereEntPiece7()
      *
      * @return void
      */
@@ -909,7 +909,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChampsCritereEntPiece8()
+     * Test setChampsCritereEntPiece8()
      *
      * @return void
      */
@@ -922,7 +922,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChampsCritereEntPiece9()
+     * Test setChampsCritereEntPiece9()
      *
      * @return void
      */
@@ -935,7 +935,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChronoActivation()
+     * Test setChronoActivation()
      *
      * @return void
      */
@@ -948,7 +948,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChronoPrefixe()
+     * Test setChronoPrefixe()
      *
      * @return void
      */
@@ -961,7 +961,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChronoProchainNum()
+     * Test setChronoProchainNum()
      *
      * @return void
      */
@@ -974,7 +974,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCleAccesCnPaie()
+     * Test setCleAccesCnPaie()
      *
      * @return void
      */
@@ -987,7 +987,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCleAccesFicheClient()
+     * Test setCleAccesFicheClient()
      *
      * @return void
      */
@@ -1000,7 +1000,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCleAccesMenus()
+     * Test setCleAccesMenus()
      *
      * @return void
      */
@@ -1013,7 +1013,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCleAccesParam()
+     * Test setCleAccesParam()
      *
      * @return void
      */
@@ -1026,7 +1026,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCleDesEtrCommuns()
+     * Test setCleDesEtrCommuns()
      *
      * @return void
      */
@@ -1039,7 +1039,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCleJrnLibCommuns()
+     * Test setCleJrnLibCommuns()
      *
      * @return void
      */
@@ -1052,7 +1052,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEmetteur()
+     * Test setCodeEmetteur()
      *
      * @return void
      */
@@ -1065,7 +1065,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeExpertDefaut()
+     * Test setCodeExpertDefaut()
      *
      * @return void
      */
@@ -1078,7 +1078,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRegroupementPreFact()
+     * Test setCodeRegroupementPreFact()
      *
      * @return void
      */
@@ -1091,7 +1091,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setConversionPwd()
+     * Test setConversionPwd()
      *
      * @return void
      */
@@ -1104,7 +1104,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCpteCollectifCli()
+     * Test setCpteCollectifCli()
      *
      * @return void
      */
@@ -1117,7 +1117,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCpteCollectifFrn()
+     * Test setCpteCollectifFrn()
      *
      * @return void
      */
@@ -1130,7 +1130,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCreationAffaire()
+     * Test setCreationAffaire()
      *
      * @return void
      */
@@ -1143,7 +1143,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCreationArticle()
+     * Test setCreationArticle()
      *
      * @return void
      */
@@ -1156,7 +1156,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCreationBonsTravaux()
+     * Test setCreationBonsTravaux()
      *
      * @return void
      */
@@ -1169,7 +1169,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCreationChantier()
+     * Test setCreationChantier()
      *
      * @return void
      */
@@ -1182,7 +1182,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCreationClient()
+     * Test setCreationClient()
      *
      * @return void
      */
@@ -1195,7 +1195,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCreationCommission()
+     * Test setCreationCommission()
      *
      * @return void
      */
@@ -1208,7 +1208,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCreationDossierCpta()
+     * Test setCreationDossierCpta()
      *
      * @return void
      */
@@ -1221,7 +1221,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCreationDossierFact()
+     * Test setCreationDossierFact()
      *
      * @return void
      */
@@ -1234,7 +1234,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCreationDossierPaie()
+     * Test setCreationDossierPaie()
      *
      * @return void
      */
@@ -1247,7 +1247,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCreationFournisseur()
+     * Test setCreationFournisseur()
      *
      * @return void
      */
@@ -1260,7 +1260,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCreationPlanFacturation()
+     * Test setCreationPlanFacturation()
      *
      * @return void
      */
@@ -1273,7 +1273,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCreationPlanTache()
+     * Test setCreationPlanTache()
      *
      * @return void
      */
@@ -1286,7 +1286,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCreationProspect()
+     * Test setCreationProspect()
      *
      * @return void
      */
@@ -1299,7 +1299,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCreationTache()
+     * Test setCreationTache()
      *
      * @return void
      */
@@ -1312,7 +1312,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCreationTarif()
+     * Test setCreationTarif()
      *
      * @return void
      */
@@ -1325,7 +1325,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateCloture()
+     * Test setDateCloture()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1342,7 +1342,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtDernModifConfZone()
+     * Test setDtDernModifConfZone()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1359,7 +1359,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEchAffEnMt()
+     * Test setEchAffEnMt()
      *
      * @return void
      */
@@ -1372,7 +1372,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFonctionnementCga()
+     * Test setFonctionnementCga()
      *
      * @return void
      */
@@ -1385,7 +1385,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHeuresTrav1()
+     * Test setHeuresTrav1()
      *
      * @return void
      */
@@ -1398,7 +1398,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHeuresTrav2()
+     * Test setHeuresTrav2()
      *
      * @return void
      */
@@ -1411,7 +1411,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHeuresTrav3()
+     * Test setHeuresTrav3()
      *
      * @return void
      */
@@ -1424,7 +1424,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHeuresTrav4()
+     * Test setHeuresTrav4()
      *
      * @return void
      */
@@ -1437,7 +1437,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIncremAuto()
+     * Test setIncremAuto()
      *
      * @return void
      */
@@ -1450,7 +1450,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIncremAutoAff()
+     * Test setIncremAutoAff()
      *
      * @return void
      */
@@ -1463,7 +1463,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIncremAutoFrn()
+     * Test setIncremAutoFrn()
      *
      * @return void
      */
@@ -1476,7 +1476,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIncremCpteCliAuto()
+     * Test setIncremCpteCliAuto()
      *
      * @return void
      */
@@ -1489,7 +1489,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIncremCpteFrnAuto()
+     * Test setIncremCpteFrnAuto()
      *
      * @return void
      */
@@ -1502,7 +1502,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIncrementCpteCli()
+     * Test setIncrementCpteCli()
      *
      * @return void
      */
@@ -1515,7 +1515,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIncrementCpteFrn()
+     * Test setIncrementCpteFrn()
      *
      * @return void
      */
@@ -1528,7 +1528,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLiaisonBuCpta()
+     * Test setLiaisonBuCpta()
      *
      * @return void
      */
@@ -1541,7 +1541,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibAffectation1()
+     * Test setLibAffectation1()
      *
      * @return void
      */
@@ -1554,7 +1554,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibAffectation2()
+     * Test setLibAffectation2()
      *
      * @return void
      */
@@ -1567,7 +1567,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibAffectation3()
+     * Test setLibAffectation3()
      *
      * @return void
      */
@@ -1580,7 +1580,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibAffectation4()
+     * Test setLibAffectation4()
      *
      * @return void
      */
@@ -1593,7 +1593,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibAffectation5()
+     * Test setLibAffectation5()
      *
      * @return void
      */
@@ -1606,7 +1606,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibAffectation6()
+     * Test setLibAffectation6()
      *
      * @return void
      */
@@ -1619,7 +1619,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibAffectation7()
+     * Test setLibAffectation7()
      *
      * @return void
      */
@@ -1632,7 +1632,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibCritere1()
+     * Test setLibCritere1()
      *
      * @return void
      */
@@ -1645,7 +1645,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibCritere10()
+     * Test setLibCritere10()
      *
      * @return void
      */
@@ -1658,7 +1658,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibCritere2()
+     * Test setLibCritere2()
      *
      * @return void
      */
@@ -1671,7 +1671,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibCritere3()
+     * Test setLibCritere3()
      *
      * @return void
      */
@@ -1684,7 +1684,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibCritere4()
+     * Test setLibCritere4()
      *
      * @return void
      */
@@ -1697,7 +1697,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibCritere5()
+     * Test setLibCritere5()
      *
      * @return void
      */
@@ -1710,7 +1710,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibCritere6()
+     * Test setLibCritere6()
      *
      * @return void
      */
@@ -1723,7 +1723,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibCritere7()
+     * Test setLibCritere7()
      *
      * @return void
      */
@@ -1736,7 +1736,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibCritere8()
+     * Test setLibCritere8()
      *
      * @return void
      */
@@ -1749,7 +1749,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibCritere9()
+     * Test setLibCritere9()
      *
      * @return void
      */
@@ -1762,7 +1762,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibCritereAffaire1()
+     * Test setLibCritereAffaire1()
      *
      * @return void
      */
@@ -1775,7 +1775,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibCritereAffaire10()
+     * Test setLibCritereAffaire10()
      *
      * @return void
      */
@@ -1788,7 +1788,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibCritereAffaire2()
+     * Test setLibCritereAffaire2()
      *
      * @return void
      */
@@ -1801,7 +1801,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibCritereAffaire3()
+     * Test setLibCritereAffaire3()
      *
      * @return void
      */
@@ -1814,7 +1814,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibCritereAffaire4()
+     * Test setLibCritereAffaire4()
      *
      * @return void
      */
@@ -1827,7 +1827,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibCritereAffaire5()
+     * Test setLibCritereAffaire5()
      *
      * @return void
      */
@@ -1840,7 +1840,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibCritereAffaire6()
+     * Test setLibCritereAffaire6()
      *
      * @return void
      */
@@ -1853,7 +1853,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibCritereAffaire7()
+     * Test setLibCritereAffaire7()
      *
      * @return void
      */
@@ -1866,7 +1866,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibCritereAffaire8()
+     * Test setLibCritereAffaire8()
      *
      * @return void
      */
@@ -1879,7 +1879,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibCritereAffaire9()
+     * Test setLibCritereAffaire9()
      *
      * @return void
      */
@@ -1892,7 +1892,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibCritereArticle1()
+     * Test setLibCritereArticle1()
      *
      * @return void
      */
@@ -1905,7 +1905,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibCritereArticle10()
+     * Test setLibCritereArticle10()
      *
      * @return void
      */
@@ -1918,7 +1918,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibCritereArticle2()
+     * Test setLibCritereArticle2()
      *
      * @return void
      */
@@ -1931,7 +1931,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibCritereArticle3()
+     * Test setLibCritereArticle3()
      *
      * @return void
      */
@@ -1944,7 +1944,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibCritereArticle4()
+     * Test setLibCritereArticle4()
      *
      * @return void
      */
@@ -1957,7 +1957,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibCritereArticle5()
+     * Test setLibCritereArticle5()
      *
      * @return void
      */
@@ -1970,7 +1970,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibCritereArticle6()
+     * Test setLibCritereArticle6()
      *
      * @return void
      */
@@ -1983,7 +1983,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibCritereArticle7()
+     * Test setLibCritereArticle7()
      *
      * @return void
      */
@@ -1996,7 +1996,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibCritereArticle8()
+     * Test setLibCritereArticle8()
      *
      * @return void
      */
@@ -2009,7 +2009,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibCritereArticle9()
+     * Test setLibCritereArticle9()
      *
      * @return void
      */
@@ -2022,7 +2022,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibCritereEntPiece1()
+     * Test setLibCritereEntPiece1()
      *
      * @return void
      */
@@ -2035,7 +2035,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibCritereEntPiece10()
+     * Test setLibCritereEntPiece10()
      *
      * @return void
      */
@@ -2048,7 +2048,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibCritereEntPiece2()
+     * Test setLibCritereEntPiece2()
      *
      * @return void
      */
@@ -2061,7 +2061,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibCritereEntPiece3()
+     * Test setLibCritereEntPiece3()
      *
      * @return void
      */
@@ -2074,7 +2074,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibCritereEntPiece4()
+     * Test setLibCritereEntPiece4()
      *
      * @return void
      */
@@ -2087,7 +2087,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibCritereEntPiece5()
+     * Test setLibCritereEntPiece5()
      *
      * @return void
      */
@@ -2100,7 +2100,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibCritereEntPiece6()
+     * Test setLibCritereEntPiece6()
      *
      * @return void
      */
@@ -2113,7 +2113,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibCritereEntPiece7()
+     * Test setLibCritereEntPiece7()
      *
      * @return void
      */
@@ -2126,7 +2126,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibCritereEntPiece8()
+     * Test setLibCritereEntPiece8()
      *
      * @return void
      */
@@ -2139,7 +2139,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibCritereEntPiece9()
+     * Test setLibCritereEntPiece9()
      *
      * @return void
      */
@@ -2152,7 +2152,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibCritereInterloc()
+     * Test setLibCritereInterloc()
      *
      * @return void
      */
@@ -2165,7 +2165,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibCritereInterloc2()
+     * Test setLibCritereInterloc2()
      *
      * @return void
      */
@@ -2178,7 +2178,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMajorHeuresTrav1()
+     * Test setMajorHeuresTrav1()
      *
      * @return void
      */
@@ -2191,7 +2191,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMajorHeuresTrav2()
+     * Test setMajorHeuresTrav2()
      *
      * @return void
      */
@@ -2204,7 +2204,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMajorHeuresTrav3()
+     * Test setMajorHeuresTrav3()
      *
      * @return void
      */
@@ -2217,7 +2217,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMajorHeuresTrav4()
+     * Test setMajorHeuresTrav4()
      *
      * @return void
      */
@@ -2230,7 +2230,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMntTicketRestoA()
+     * Test setMntTicketRestoA()
      *
      * @return void
      */
@@ -2243,7 +2243,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMntTicketRestoB()
+     * Test setMntTicketRestoB()
      *
      * @return void
      */
@@ -2256,7 +2256,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMntTicketRestoC()
+     * Test setMntTicketRestoC()
      *
      * @return void
      */
@@ -2269,7 +2269,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMntTicketRestoD()
+     * Test setMntTicketRestoD()
      *
      * @return void
      */
@@ -2282,7 +2282,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMntTicketRestoE()
+     * Test setMntTicketRestoE()
      *
      * @return void
      */
@@ -2295,7 +2295,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setModifAffaire()
+     * Test setModifAffaire()
      *
      * @return void
      */
@@ -2308,7 +2308,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setModifArticle()
+     * Test setModifArticle()
      *
      * @return void
      */
@@ -2321,7 +2321,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setModifBonsTravaux()
+     * Test setModifBonsTravaux()
      *
      * @return void
      */
@@ -2334,7 +2334,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setModifChantier()
+     * Test setModifChantier()
      *
      * @return void
      */
@@ -2347,7 +2347,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setModifClient()
+     * Test setModifClient()
      *
      * @return void
      */
@@ -2360,7 +2360,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setModifCommission()
+     * Test setModifCommission()
      *
      * @return void
      */
@@ -2373,7 +2373,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setModifDossierFact()
+     * Test setModifDossierFact()
      *
      * @return void
      */
@@ -2386,7 +2386,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setModifFournisseur()
+     * Test setModifFournisseur()
      *
      * @return void
      */
@@ -2399,7 +2399,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setModifPlanFacturation()
+     * Test setModifPlanFacturation()
      *
      * @return void
      */
@@ -2412,7 +2412,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setModifPlanTache()
+     * Test setModifPlanTache()
      *
      * @return void
      */
@@ -2425,7 +2425,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setModifTache()
+     * Test setModifTache()
      *
      * @return void
      */
@@ -2438,7 +2438,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setModifTarif()
+     * Test setModifTarif()
      *
      * @return void
      */
@@ -2451,7 +2451,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMonnaie()
+     * Test setMonnaie()
      *
      * @return void
      */
@@ -2464,7 +2464,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbDecMonnaie()
+     * Test setNbDecMonnaie()
      *
      * @return void
      */
@@ -2477,7 +2477,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoDossCpta()
+     * Test setNoDossCpta()
      *
      * @return void
      */
@@ -2490,7 +2490,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNoDossPaie()
+     * Test setNoDossPaie()
      *
      * @return void
      */
@@ -2503,7 +2503,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrefixeAff()
+     * Test setPrefixeAff()
      *
      * @return void
      */
@@ -2516,7 +2516,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrioriteSaisieAff()
+     * Test setPrioriteSaisieAff()
      *
      * @return void
      */
@@ -2529,7 +2529,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrioriteSaisieClient()
+     * Test setPrioriteSaisieClient()
      *
      * @return void
      */
@@ -2542,7 +2542,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrioriteSaisieFrn()
+     * Test setPrioriteSaisieFrn()
      *
      * @return void
      */
@@ -2555,7 +2555,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setProchainCpteCli()
+     * Test setProchainCpteCli()
      *
      * @return void
      */
@@ -2568,7 +2568,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setProchainCpteFrn()
+     * Test setProchainCpteFrn()
      *
      * @return void
      */
@@ -2581,7 +2581,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setProchainMoisOblig()
+     * Test setProchainMoisOblig()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -2598,7 +2598,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setProchainNumAff()
+     * Test setProchainNumAff()
      *
      * @return void
      */
@@ -2611,7 +2611,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPxKmA()
+     * Test setPxKmA()
      *
      * @return void
      */
@@ -2624,7 +2624,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPxKmB()
+     * Test setPxKmB()
      *
      * @return void
      */
@@ -2637,7 +2637,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPxKmC()
+     * Test setPxKmC()
      *
      * @return void
      */
@@ -2650,7 +2650,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPxKmD()
+     * Test setPxKmD()
      *
      * @return void
      */
@@ -2663,7 +2663,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPxKmE()
+     * Test setPxKmE()
      *
      * @return void
      */
@@ -2676,7 +2676,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQetCodeCollaborateurDest()
+     * Test setQetCodeCollaborateurDest()
      *
      * @return void
      */
@@ -2689,7 +2689,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQtelCodeMission()
+     * Test setQtelCodeMission()
      *
      * @return void
      */
@@ -2702,7 +2702,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQtelCodeTache()
+     * Test setQtelCodeTache()
      *
      * @return void
      */
@@ -2715,7 +2715,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQtelSpecial()
+     * Test setQtelSpecial()
      *
      * @return void
      */
@@ -2728,7 +2728,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRacDataCpta()
+     * Test setRacDataCpta()
      *
      * @return void
      */
@@ -2741,7 +2741,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRacDataPaie()
+     * Test setRacDataPaie()
      *
      * @return void
      */
@@ -2754,7 +2754,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRadicalCompteCli()
+     * Test setRadicalCompteCli()
      *
      * @return void
      */
@@ -2767,7 +2767,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRadicalCompteFrn()
+     * Test setRadicalCompteFrn()
      *
      * @return void
      */
@@ -2780,7 +2780,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSaisDateFin()
+     * Test setSaisDateFin()
      *
      * @return void
      */
@@ -2793,7 +2793,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTdfcAdhesionTotale()
+     * Test setTdfcAdhesionTotale()
      *
      * @return void
      */
@@ -2806,7 +2806,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTdfcEmetteur()
+     * Test setTdfcEmetteur()
      *
      * @return void
      */
@@ -2819,7 +2819,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTdfcFacturant()
+     * Test setTdfcFacturant()
      *
      * @return void
      */
@@ -2832,7 +2832,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTdfcInfoTrans()
+     * Test setTdfcInfoTrans()
      *
      * @return void
      */
@@ -2845,7 +2845,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTpInterditCreatMillesime()
+     * Test setTpInterditCreatMillesime()
      *
      * @return void
      */
@@ -2858,7 +2858,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTpInterditCreatMission()
+     * Test setTpInterditCreatMission()
      *
      * @return void
      */
@@ -2871,7 +2871,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTpPasClientsSortis()
+     * Test setTpPasClientsSortis()
      *
      * @return void
      */
@@ -2884,7 +2884,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTpPasIntervenants()
+     * Test setTpPasIntervenants()
      *
      * @return void
      */
@@ -2897,7 +2897,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTpPrixInvisible()
+     * Test setTpPrixInvisible()
      *
      * @return void
      */
@@ -2910,7 +2910,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTpRempliPrefAuto()
+     * Test setTpRempliPrefAuto()
      *
      * @return void
      */
@@ -2923,7 +2923,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTpSaisieDos()
+     * Test setTpSaisieDos()
      *
      * @return void
      */
@@ -2936,7 +2936,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTpsPassesInterditPrix()
+     * Test setTpsPassesInterditPrix()
      *
      * @return void
      */
@@ -2949,7 +2949,7 @@ class ConstantesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

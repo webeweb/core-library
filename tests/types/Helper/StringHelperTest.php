@@ -24,7 +24,7 @@ use WBW\Library\Types\Tests\AbstractTestCase;
 class StringHelperTest extends AbstractTestCase {
 
     /**
-     * Tests canonicalize()
+     * Test canonicalize()
      *
      * @return void
      */
@@ -35,7 +35,7 @@ class StringHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests domNode()
+     * Test domNode()
      *
      * @return void
      */
@@ -48,7 +48,7 @@ class StringHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests domNode()
+     * Test domNode()
      *
      * @return void
      */
@@ -61,7 +61,7 @@ class StringHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the extractUpperCase() method
+     * Test extractUpperCase() method
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -90,7 +90,7 @@ class StringHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests fileSize()
+     * Test fileSize()
      *
      * @return void
      */
@@ -109,7 +109,7 @@ class StringHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests format()
+     * Test format()
      *
      * @return void
      */
@@ -123,7 +123,7 @@ class StringHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests moreThan()
+     * Test moreThan()
      *
      * @return void
      */
@@ -136,7 +136,7 @@ class StringHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests parseArray()
+     * Test parseArray()
      *
      * @return void
      */
@@ -156,7 +156,7 @@ class StringHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests parseBoolean()
+     * Test parseBoolean()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class StringHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests removeAccents()
+     * Test removeAccents()
      *
      * @return void
      */
@@ -229,7 +229,7 @@ class StringHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the toHumanReadable() method
+     * Test toHumanReadable() method
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -246,7 +246,7 @@ class StringHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the toLowerCamelCase() method
+     * Test toLowerCamelCase() method
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -263,7 +263,7 @@ class StringHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the toSnakeCase() method
+     * Test toSnakeCase() method
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -292,7 +292,7 @@ class StringHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the toUpperCamelCase() method
+     * Test toUpperCamelCase() method
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -309,7 +309,7 @@ class StringHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests ucfirst()
+     * Test ucfirst()
      *
      * @return void
      */
@@ -323,7 +323,7 @@ class StringHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests ucwords()
+     * Test ucwords()
      *
      * @return void
      */
@@ -344,7 +344,7 @@ class StringHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortCallback()
+     * Test usortCallback()
      *
      * @return void
      */
@@ -363,7 +363,7 @@ class StringHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests usortCallback()
+     * Test usortCallback()
      *
      * @return void
      */
@@ -382,7 +382,7 @@ class StringHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests wordWrap()
+     * Test wordWrap()
      *
      * @return void
      */

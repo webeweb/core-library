@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DataSynchroSupprimeTest extends AbstractTestCase {
 
     /**
-     * Tests setTypeData()
+     * Test setTypeData()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class DataSynchroSupprimeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqIdBlocage()
+     * Test setUniqIdBlocage()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class DataSynchroSupprimeTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

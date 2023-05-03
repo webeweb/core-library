@@ -23,7 +23,7 @@ use WBW\Library\Accounting\Tests\AbstractTestCase;
 class AccountingAccountInterfaceTest extends AbstractTestCase {
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Billing\Tests\Fixtures\Model\TestDeliveryAddressTrait;
 class DeliveryAddressTraitTest extends AbstractTestCase {
 
     /**
-     * Tests jsonSerialize()
+     * Test jsonSerialize()
      *
      * @return void
      */
@@ -48,7 +48,7 @@ class DeliveryAddressTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDeliveryAddressAddressee()
+     * Test setDeliveryAddressAddressee()
      *
      * @return void
      */
@@ -61,7 +61,7 @@ class DeliveryAddressTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDeliveryAddressCountry()
+     * Test setDeliveryAddressCountry()
      *
      * @return void
      */
@@ -74,7 +74,7 @@ class DeliveryAddressTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDeliveryAddressHouseNumber()
+     * Test setDeliveryAddressHouseNumber()
      *
      * @return void
      */
@@ -87,7 +87,7 @@ class DeliveryAddressTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDeliveryAddressLocation()
+     * Test setDeliveryAddressLocation()
      *
      * @return void
      */
@@ -100,7 +100,7 @@ class DeliveryAddressTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDeliveryAddressPostalCode()
+     * Test setDeliveryAddressPostalCode()
      *
      * @return void
      */
@@ -113,7 +113,7 @@ class DeliveryAddressTraitTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDeliveryAddressStreetName()
+     * Test setDeliveryAddressStreetName()
      *
      * @return void
      */

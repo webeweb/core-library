@@ -23,7 +23,7 @@ use WBW\Library\Types\Tests\AbstractTestCase;
 class ArrayArgumentExceptionTest extends AbstractTestCase {
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -63,7 +63,7 @@ class SftpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests connect()
+     * Test connect()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -93,7 +93,7 @@ class SftpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests delete()
+     * Test delete()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -122,7 +122,7 @@ class SftpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests get()
+     * Test get()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -137,7 +137,7 @@ class SftpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests login()
+     * Test login()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -166,7 +166,7 @@ class SftpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests mkdir()
+     * Test mkdir()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -193,7 +193,7 @@ class SftpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests put()
+     * Test put()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -223,7 +223,7 @@ class SftpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests rename()
+     * Test rename()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -252,7 +252,7 @@ class SftpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests rmdir()
+     * Test rmdir()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -281,7 +281,7 @@ class SftpClientTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

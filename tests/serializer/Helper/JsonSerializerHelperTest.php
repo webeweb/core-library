@@ -24,7 +24,7 @@ use WBW\Library\Serializer\Tests\Fixtures\Model\TestJsonSerializable;
 class JsonSerializerHelperTest extends AbstractTestCase {
 
     /**
-     * Tests serializeArray()
+     * Test serializeArray()
      *
      * @return void
      */

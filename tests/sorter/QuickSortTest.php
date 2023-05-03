@@ -51,7 +51,7 @@ class QuickSortTest extends AbstractTestCase {
     }
 
     /**
-     * Tests sort()
+     * Test sort()
      *
      * @return void
      */
@@ -67,7 +67,7 @@ class QuickSortTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringLocaleTrait;
 class StringLocaleTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setLocale()
+     * Test setLocale()
      *
      * @return void
      */

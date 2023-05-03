@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ArticlesFrnTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeArticle()
+     * Test setCodeArticle()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ArticlesFrnTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeFournisseur()
+     * Test setCodeFournisseur()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ArticlesFrnTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCommentaires()
+     * Test setCommentaires()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ArticlesFrnTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setConditionnement()
+     * Test setConditionnement()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ArticlesFrnTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDelaiLe()
+     * Test setDelaiLe()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ArticlesFrnTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDelaiLocal()
+     * Test setDelaiLocal()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class ArticlesFrnTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDelaiNombre()
+     * Test setDelaiNombre()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class ArticlesFrnTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDelaiType()
+     * Test setDelaiType()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class ArticlesFrnTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRefArticleFournisseur()
+     * Test setRefArticleFournisseur()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class ArticlesFrnTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

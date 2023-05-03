@@ -24,7 +24,7 @@ use WBW\Library\System\Tests\Fixtures\Model\TestNetworkCardTrait;
 class NetworkCardTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setNetworkCard()
+     * Test setNetworkCard()
      *
      * @return void
      */

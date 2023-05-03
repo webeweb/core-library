@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Theme\DefaultHookDropdownThemeProvider;
 class DefaultHookDropdownThemeProviderTest extends AbstractTestCase {
 
     /**
-     * Tests getItems()
+     * Test getItems()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class DefaultHookDropdownThemeProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

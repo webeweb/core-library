@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringMessageTrait;
 class StringMessageTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setMessage()
+     * Test setMessage()
      *
      * @return void
      */

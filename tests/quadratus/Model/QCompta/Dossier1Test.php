@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class Dossier1Test extends AbstractTestCase {
 
     /**
-     * Tests setBtq()
+     * Test setBtq()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setBureauDistributeur()
+     * Test setBureauDistributeur()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCalculAnaFait()
+     * Test setCalculAnaFait()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCheminImplantationAscii()
+     * Test setCheminImplantationAscii()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCivilite()
+     * Test setCivilite()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCleAcces1()
+     * Test setCleAcces1()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCleAcces10()
+     * Test setCleAcces10()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCleAcces2()
+     * Test setCleAcces2()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCleAcces3()
+     * Test setCleAcces3()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCleAcces4()
+     * Test setCleAcces4()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCleAcces5()
+     * Test setCleAcces5()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCleAcces6()
+     * Test setCleAcces6()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCleAcces7()
+     * Test setCleAcces7()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCleAcces8()
+     * Test setCleAcces8()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCleAcces9()
+     * Test setCleAcces9()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCleDeblocageJournaux()
+     * Test setCleDeblocageJournaux()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setClePortable()
+     * Test setClePortable()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEquipe()
+     * Test setCodeEquipe()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeNaf()
+     * Test setCodeNaf()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeNaf2008()
+     * Test setCodeNaf2008()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeOfficielCommune()
+     * Test setCodeOfficielCommune()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePostal()
+     * Test setCodePostal()
      *
      * @return void
      */
@@ -311,7 +311,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setComplement()
+     * Test setComplement()
      *
      * @return void
      */
@@ -324,7 +324,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCopieBackup()
+     * Test setCopieBackup()
      *
      * @return void
      */
@@ -337,7 +337,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCptDebSuiviClasse0()
+     * Test setCptDebSuiviClasse0()
      *
      * @return void
      */
@@ -350,7 +350,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCptDebSuiviClasse1()
+     * Test setCptDebSuiviClasse1()
      *
      * @return void
      */
@@ -363,7 +363,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCptDebSuiviClasse2()
+     * Test setCptDebSuiviClasse2()
      *
      * @return void
      */
@@ -376,7 +376,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCptDebSuiviClasse3()
+     * Test setCptDebSuiviClasse3()
      *
      * @return void
      */
@@ -389,7 +389,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCptDebSuiviClasse4()
+     * Test setCptDebSuiviClasse4()
      *
      * @return void
      */
@@ -402,7 +402,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCptDebSuiviClasse5()
+     * Test setCptDebSuiviClasse5()
      *
      * @return void
      */
@@ -415,7 +415,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCptDebSuiviClasse8()
+     * Test setCptDebSuiviClasse8()
      *
      * @return void
      */
@@ -428,7 +428,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCptDebSuiviClasse9()
+     * Test setCptDebSuiviClasse9()
      *
      * @return void
      */
@@ -441,7 +441,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCptFinSuiviClasse0()
+     * Test setCptFinSuiviClasse0()
      *
      * @return void
      */
@@ -454,7 +454,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCptFinSuiviClasse1()
+     * Test setCptFinSuiviClasse1()
      *
      * @return void
      */
@@ -467,7 +467,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCptFinSuiviClasse2()
+     * Test setCptFinSuiviClasse2()
      *
      * @return void
      */
@@ -480,7 +480,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCptFinSuiviClasse3()
+     * Test setCptFinSuiviClasse3()
      *
      * @return void
      */
@@ -493,7 +493,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCptFinSuiviClasse4()
+     * Test setCptFinSuiviClasse4()
      *
      * @return void
      */
@@ -506,7 +506,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCptFinSuiviClasse5()
+     * Test setCptFinSuiviClasse5()
      *
      * @return void
      */
@@ -519,7 +519,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCptFinSuiviClasse8()
+     * Test setCptFinSuiviClasse8()
      *
      * @return void
      */
@@ -532,7 +532,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCptFinSuiviClasse9()
+     * Test setCptFinSuiviClasse9()
      *
      * @return void
      */
@@ -545,7 +545,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCreateurDossier()
+     * Test setCreateurDossier()
      *
      * @return void
      */
@@ -558,7 +558,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateLimiteSaisie()
+     * Test setDateLimiteSaisie()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -575,7 +575,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateSysChangtEx()
+     * Test setDateSysChangtEx()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -592,7 +592,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateSysCloturePeriode()
+     * Test setDateSysCloturePeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -609,7 +609,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateSysCreation()
+     * Test setDateSysCreation()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -626,7 +626,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateTravail()
+     * Test setDateTravail()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -643,7 +643,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDebutExercice()
+     * Test setDebutExercice()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -660,7 +660,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDebutExercice1()
+     * Test setDebutExercice1()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -677,7 +677,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDelaiLimiteSaisie()
+     * Test setDelaiLimiteSaisie()
      *
      * @return void
      */
@@ -690,7 +690,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDlu()
+     * Test setDlu()
      *
      * @return void
      */
@@ -703,7 +703,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDroitCreationTypeCpt1()
+     * Test setDroitCreationTypeCpt1()
      *
      * @return void
      */
@@ -716,7 +716,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDroitCreationTypeCpt10()
+     * Test setDroitCreationTypeCpt10()
      *
      * @return void
      */
@@ -729,7 +729,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDroitCreationTypeCpt2()
+     * Test setDroitCreationTypeCpt2()
      *
      * @return void
      */
@@ -742,7 +742,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDroitCreationTypeCpt3()
+     * Test setDroitCreationTypeCpt3()
      *
      * @return void
      */
@@ -755,7 +755,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDroitCreationTypeCpt4()
+     * Test setDroitCreationTypeCpt4()
      *
      * @return void
      */
@@ -768,7 +768,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDroitCreationTypeCpt5()
+     * Test setDroitCreationTypeCpt5()
      *
      * @return void
      */
@@ -781,7 +781,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDroitCreationTypeCpt6()
+     * Test setDroitCreationTypeCpt6()
      *
      * @return void
      */
@@ -794,7 +794,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDroitCreationTypeCpt7()
+     * Test setDroitCreationTypeCpt7()
      *
      * @return void
      */
@@ -807,7 +807,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDroitCreationTypeCpt8()
+     * Test setDroitCreationTypeCpt8()
      *
      * @return void
      */
@@ -820,7 +820,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDroitCreationTypeCpt9()
+     * Test setDroitCreationTypeCpt9()
      *
      * @return void
      */
@@ -833,7 +833,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDureeExercice()
+     * Test setDureeExercice()
      *
      * @return void
      */
@@ -846,7 +846,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDureeExercice1()
+     * Test setDureeExercice1()
      *
      * @return void
      */
@@ -859,7 +859,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setEditDateSysteme()
+     * Test setEditDateSysteme()
      *
      * @return void
      */
@@ -872,7 +872,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setEditPageGarde()
+     * Test setEditPageGarde()
      *
      * @return void
      */
@@ -885,7 +885,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setEnseigne()
+     * Test setEnseigne()
      *
      * @return void
      */
@@ -898,7 +898,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setEuroOuFranc()
+     * Test setEuroOuFranc()
      *
      * @return void
      */
@@ -911,7 +911,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setFamille1()
+     * Test setFamille1()
      *
      * @return void
      */
@@ -924,7 +924,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setFamille10()
+     * Test setFamille10()
      *
      * @return void
      */
@@ -937,7 +937,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setFamille2()
+     * Test setFamille2()
      *
      * @return void
      */
@@ -950,7 +950,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setFamille3()
+     * Test setFamille3()
      *
      * @return void
      */
@@ -963,7 +963,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setFamille4()
+     * Test setFamille4()
      *
      * @return void
      */
@@ -976,7 +976,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setFamille5()
+     * Test setFamille5()
      *
      * @return void
      */
@@ -989,7 +989,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setFamille6()
+     * Test setFamille6()
      *
      * @return void
      */
@@ -1002,7 +1002,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setFamille7()
+     * Test setFamille7()
      *
      * @return void
      */
@@ -1015,7 +1015,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setFamille8()
+     * Test setFamille8()
      *
      * @return void
      */
@@ -1028,7 +1028,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setFamille9()
+     * Test setFamille9()
      *
      * @return void
      */
@@ -1041,7 +1041,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setFamilleAnalytique()
+     * Test setFamilleAnalytique()
      *
      * @return void
      */
@@ -1054,7 +1054,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setFinExercice()
+     * Test setFinExercice()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1071,7 +1071,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setFinExercice1()
+     * Test setFinExercice1()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1088,7 +1088,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setGestionComptaEco()
+     * Test setGestionComptaEco()
      *
      * @return void
      */
@@ -1101,7 +1101,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setGroupeAppClients()
+     * Test setGroupeAppClients()
      *
      * @return void
      */
@@ -1114,7 +1114,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setLrActive()
+     * Test setLrActive()
      *
      * @return void
      */
@@ -1127,7 +1127,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setLrPeriode()
+     * Test setLrPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1144,7 +1144,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setModuleAgrActif()
+     * Test setModuleAgrActif()
      *
      * @return void
      */
@@ -1157,7 +1157,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setMultiDossiers()
+     * Test setMultiDossiers()
      *
      * @return void
      */
@@ -1170,7 +1170,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNatureMenu1()
+     * Test setNatureMenu1()
      *
      * @return void
      */
@@ -1183,7 +1183,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNatureMenu10()
+     * Test setNatureMenu10()
      *
      * @return void
      */
@@ -1196,7 +1196,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNatureMenu2()
+     * Test setNatureMenu2()
      *
      * @return void
      */
@@ -1209,7 +1209,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNatureMenu3()
+     * Test setNatureMenu3()
      *
      * @return void
      */
@@ -1222,7 +1222,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNatureMenu4()
+     * Test setNatureMenu4()
      *
      * @return void
      */
@@ -1235,7 +1235,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNatureMenu5()
+     * Test setNatureMenu5()
      *
      * @return void
      */
@@ -1248,7 +1248,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNatureMenu6()
+     * Test setNatureMenu6()
      *
      * @return void
      */
@@ -1261,7 +1261,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNatureMenu7()
+     * Test setNatureMenu7()
      *
      * @return void
      */
@@ -1274,7 +1274,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNatureMenu8()
+     * Test setNatureMenu8()
      *
      * @return void
      */
@@ -1287,7 +1287,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNatureMenu9()
+     * Test setNatureMenu9()
      *
      * @return void
      */
@@ -1300,7 +1300,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNatureRegle1()
+     * Test setNatureRegle1()
      *
      * @return void
      */
@@ -1313,7 +1313,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNatureRegle10()
+     * Test setNatureRegle10()
      *
      * @return void
      */
@@ -1326,7 +1326,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNatureRegle2()
+     * Test setNatureRegle2()
      *
      * @return void
      */
@@ -1339,7 +1339,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNatureRegle3()
+     * Test setNatureRegle3()
      *
      * @return void
      */
@@ -1352,7 +1352,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNatureRegle4()
+     * Test setNatureRegle4()
      *
      * @return void
      */
@@ -1365,7 +1365,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNatureRegle5()
+     * Test setNatureRegle5()
      *
      * @return void
      */
@@ -1378,7 +1378,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNatureRegle6()
+     * Test setNatureRegle6()
      *
      * @return void
      */
@@ -1391,7 +1391,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNatureRegle7()
+     * Test setNatureRegle7()
      *
      * @return void
      */
@@ -1404,7 +1404,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNatureRegle8()
+     * Test setNatureRegle8()
      *
      * @return void
      */
@@ -1417,7 +1417,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNatureRegle9()
+     * Test setNatureRegle9()
      *
      * @return void
      */
@@ -1430,7 +1430,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNiveauAnalytique()
+     * Test setNiveauAnalytique()
      *
      * @return void
      */
@@ -1443,7 +1443,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNiveauDroit1()
+     * Test setNiveauDroit1()
      *
      * @return void
      */
@@ -1456,7 +1456,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNiveauDroit10()
+     * Test setNiveauDroit10()
      *
      * @return void
      */
@@ -1469,7 +1469,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNiveauDroit2()
+     * Test setNiveauDroit2()
      *
      * @return void
      */
@@ -1482,7 +1482,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNiveauDroit3()
+     * Test setNiveauDroit3()
      *
      * @return void
      */
@@ -1495,7 +1495,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNiveauDroit4()
+     * Test setNiveauDroit4()
      *
      * @return void
      */
@@ -1508,7 +1508,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNiveauDroit5()
+     * Test setNiveauDroit5()
      *
      * @return void
      */
@@ -1521,7 +1521,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNiveauDroit6()
+     * Test setNiveauDroit6()
      *
      * @return void
      */
@@ -1534,7 +1534,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNiveauDroit7()
+     * Test setNiveauDroit7()
      *
      * @return void
      */
@@ -1547,7 +1547,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNiveauDroit8()
+     * Test setNiveauDroit8()
      *
      * @return void
      */
@@ -1560,7 +1560,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNiveauDroit9()
+     * Test setNiveauDroit9()
      *
      * @return void
      */
@@ -1573,7 +1573,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomVille()
+     * Test setNomVille()
      *
      * @return void
      */
@@ -1586,7 +1586,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomVoie()
+     * Test setNomVoie()
      *
      * @return void
      */
@@ -1599,7 +1599,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumVoie()
+     * Test setNumVoie()
      *
      * @return void
      */
@@ -1612,7 +1612,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setPasEcritureRb()
+     * Test setPasEcritureRb()
      *
      * @return void
      */
@@ -1625,7 +1625,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setPasModifRibRegl()
+     * Test setPasModifRibRegl()
      *
      * @return void
      */
@@ -1638,7 +1638,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeCloturee()
+     * Test setPeriodeCloturee()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1655,7 +1655,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeValidee()
+     * Test setPeriodeValidee()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1672,7 +1672,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setProchainNumPiece()
+     * Test setProchainNumPiece()
      *
      * @return void
      */
@@ -1685,7 +1685,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setRaisonSociale()
+     * Test setRaisonSociale()
      *
      * @return void
      */
@@ -1698,7 +1698,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setRc()
+     * Test setRc()
      *
      * @return void
      */
@@ -1711,7 +1711,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setSaisieImmoEnEcriture()
+     * Test setSaisieImmoEnEcriture()
      *
      * @return void
      */
@@ -1724,7 +1724,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setSauveCommun()
+     * Test setSauveCommun()
      *
      * @return void
      */
@@ -1737,7 +1737,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setSauveCompresse()
+     * Test setSauveCompresse()
      *
      * @return void
      */
@@ -1750,7 +1750,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setSiret()
+     * Test setSiret()
      *
      * @return void
      */
@@ -1763,7 +1763,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setSuiviAffTout()
+     * Test setSuiviAffTout()
      *
      * @return void
      */
@@ -1776,7 +1776,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setSuiviAna2()
+     * Test setSuiviAna2()
      *
      * @return void
      */
@@ -1789,7 +1789,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setSuiviAnaClasse0()
+     * Test setSuiviAnaClasse0()
      *
      * @return void
      */
@@ -1802,7 +1802,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setSuiviAnaClasse1()
+     * Test setSuiviAnaClasse1()
      *
      * @return void
      */
@@ -1815,7 +1815,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setSuiviAnaClasse2()
+     * Test setSuiviAnaClasse2()
      *
      * @return void
      */
@@ -1828,7 +1828,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setSuiviAnaClasse3()
+     * Test setSuiviAnaClasse3()
      *
      * @return void
      */
@@ -1841,7 +1841,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setSuiviAnaClasse4()
+     * Test setSuiviAnaClasse4()
      *
      * @return void
      */
@@ -1854,7 +1854,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setSuiviAnaClasse5()
+     * Test setSuiviAnaClasse5()
      *
      * @return void
      */
@@ -1867,7 +1867,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setSuiviAnaClasse8()
+     * Test setSuiviAnaClasse8()
      *
      * @return void
      */
@@ -1880,7 +1880,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setSuiviAnaClasse9()
+     * Test setSuiviAnaClasse9()
      *
      * @return void
      */
@@ -1893,7 +1893,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setSuiviAnaFacultatif()
+     * Test setSuiviAnaFacultatif()
      *
      * @return void
      */
@@ -1906,7 +1906,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaCle()
+     * Test setTvaCle()
      *
      * @return void
      */
@@ -1919,7 +1919,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaCodeDossier()
+     * Test setTvaCodeDossier()
      *
      * @return void
      */
@@ -1932,7 +1932,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTvaCodeRecette()
+     * Test setTvaCodeRecette()
      *
      * @return void
      */
@@ -1945,7 +1945,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setVentilationsCommunes()
+     * Test setVentilationsCommunes()
      *
      * @return void
      */
@@ -1958,7 +1958,7 @@ class Dossier1Test extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

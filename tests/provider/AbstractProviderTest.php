@@ -26,7 +26,7 @@ use WBW\Library\Provider\Tests\Fixtures\TestProvider;
 class AbstractProviderTest extends AbstractTestCase {
 
     /**
-     * Tests buildResourcePath()
+     * Test buildResourcePath()
      *
      * @return void
      */
@@ -41,7 +41,7 @@ class AbstractProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests buildResourcePath()
+     * Test buildResourcePath()
      *
      * @return void
      */
@@ -63,7 +63,7 @@ class AbstractProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests buildResourcePath()
+     * Test buildResourcePath()
      *
      * @return void
      */
@@ -79,7 +79,7 @@ class AbstractProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests logInfo()
+     * Test logInfo()
      *
      * @return void
      */
@@ -91,7 +91,7 @@ class AbstractProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests newMandatoryParameterException()
+     * Test newMandatoryParameterException()
      *
      * @return void
      */
@@ -104,7 +104,7 @@ class AbstractProviderTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

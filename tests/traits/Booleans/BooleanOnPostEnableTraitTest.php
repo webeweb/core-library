@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Booleans\TestBooleanOnPostEnableTrait;
 class BooleanOnPostEnableTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setOnPostEnable()
+     * Test setOnPostEnable()
      *
      * @return void
      */

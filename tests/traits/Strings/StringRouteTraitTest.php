@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringRouteTrait;
 class StringRouteTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setRoute()
+     * Test setRoute()
      *
      * @return void
      */

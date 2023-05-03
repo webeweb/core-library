@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EnteteHeuresEffectueesTest extends AbstractTestCase {
 
     /**
-     * Tests setNumeroEmploye()
+     * Test setNumeroEmploye()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class EnteteHeuresEffectueesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -55,7 +55,7 @@ class EnteteHeuresEffectueesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTransfere()
+     * Test setTransfere()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class EnteteHeuresEffectueesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeSaisie()
+     * Test setTypeSaisie()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class EnteteHeuresEffectueesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

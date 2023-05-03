@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ReglementsTest extends AbstractTestCase {
 
     /**
-     * Tests setBic()
+     * Test setBic()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCode()
+     * Test setCode()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeBanque()
+     * Test setCodeBanque()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeComptable()
+     * Test setCodeComptable()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteCaisse()
+     * Test setCompteCaisse()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCptPortefeuille()
+     * Test setCptPortefeuille()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateEcheanceCpta()
+     * Test setDateEcheanceCpta()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDefinitionPaiement()
+     * Test setDefinitionPaiement()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDefinitionRemise()
+     * Test setDefinitionRemise()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDetailEcheanceCpta()
+     * Test setDetailEcheanceCpta()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDetailEffetCpta()
+     * Test setDetailEffetCpta()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDeviseCaisse()
+     * Test setDeviseCaisse()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDomiciliationBancaire1()
+     * Test setDomiciliationBancaire1()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDomiciliationBancaire2()
+     * Test setDomiciliationBancaire2()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDureeEcheances()
+     * Test setDureeEcheances()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEcheanceFinDecade()
+     * Test setEcheanceFinDecade()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEcheanceFinQuinzaine()
+     * Test setEcheanceFinQuinzaine()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEditDateEcheance()
+     * Test setEditDateEcheance()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEditerCheque()
+     * Test setEditerCheque()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEspecesCaisse()
+     * Test setEspecesCaisse()
      *
      * @return void
      */
@@ -283,7 +283,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGestionPaiements()
+     * Test setGestionPaiements()
      *
      * @return void
      */
@@ -296,7 +296,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIban()
+     * Test setIban()
      *
      * @return void
      */
@@ -309,7 +309,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntitule()
+     * Test setIntitule()
      *
      * @return void
      */
@@ -322,7 +322,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntitule2()
+     * Test setIntitule2()
      *
      * @return void
      */
@@ -335,7 +335,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntitule3()
+     * Test setIntitule3()
      *
      * @return void
      */
@@ -348,7 +348,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLcr()
+     * Test setLcr()
      *
      * @return void
      */
@@ -361,7 +361,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibEcrCaisse()
+     * Test setLibEcrCaisse()
      *
      * @return void
      */
@@ -374,7 +374,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNombreEcheances()
+     * Test setNombreEcheances()
      *
      * @return void
      */
@@ -387,7 +387,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPaiementDepartLe()
+     * Test setPaiementDepartLe()
      *
      * @return void
      */
@@ -400,7 +400,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPaiementLe()
+     * Test setPaiementLe()
      *
      * @return void
      */
@@ -413,7 +413,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPaiementNombreDeJours()
+     * Test setPaiementNombreDeJours()
      *
      * @return void
      */
@@ -426,7 +426,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPasDeTiroirCaisse()
+     * Test setPasDeTiroirCaisse()
      *
      * @return void
      */
@@ -439,7 +439,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPasEffetAvoir()
+     * Test setPasEffetAvoir()
      *
      * @return void
      */
@@ -452,7 +452,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRemisePied()
+     * Test setRemisePied()
      *
      * @return void
      */
@@ -465,7 +465,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRib()
+     * Test setRib()
      *
      * @return void
      */
@@ -478,7 +478,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTraiteEditer()
+     * Test setTraiteEditer()
      *
      * @return void
      */
@@ -491,7 +491,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeAcceptation()
+     * Test setTypeAcceptation()
      *
      * @return void
      */
@@ -504,7 +504,7 @@ class ReglementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

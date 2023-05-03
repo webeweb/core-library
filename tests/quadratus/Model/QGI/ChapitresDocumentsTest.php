@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ChapitresDocumentsTest extends AbstractTestCase {
 
     /**
-     * Tests setCode()
+     * Test setCode()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ChapitresDocumentsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomRepertoire()
+     * Test setNomRepertoire()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ChapitresDocumentsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPosition()
+     * Test setPosition()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ChapitresDocumentsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

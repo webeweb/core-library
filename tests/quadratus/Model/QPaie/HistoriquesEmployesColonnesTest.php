@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class HistoriquesEmployesColonnesTest extends AbstractTestCase {
 
     /**
-     * Tests setClauseWhere()
+     * Test setClauseWhere()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class HistoriquesEmployesColonnesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndice()
+     * Test setIndice()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class HistoriquesEmployesColonnesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndiceTri()
+     * Test setIndiceTri()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class HistoriquesEmployesColonnesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntitule()
+     * Test setIntitule()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class HistoriquesEmployesColonnesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setJointure()
+     * Test setJointure()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class HistoriquesEmployesColonnesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomChamp()
+     * Test setNomChamp()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class HistoriquesEmployesColonnesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomTable()
+     * Test setNomTable()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class HistoriquesEmployesColonnesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRefGuid()
+     * Test setRefGuid()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class HistoriquesEmployesColonnesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSaisie()
+     * Test setSaisie()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class HistoriquesEmployesColonnesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSelection()
+     * Test setSelection()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class HistoriquesEmployesColonnesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTaille()
+     * Test setTaille()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class HistoriquesEmployesColonnesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTitre()
+     * Test setTitre()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class HistoriquesEmployesColonnesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setbEnGraph()
+     * Test setbEnGraph()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class HistoriquesEmployesColonnesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

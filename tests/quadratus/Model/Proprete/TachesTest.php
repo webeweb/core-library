@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class TachesTest extends AbstractTestCase {
 
     /**
-     * Tests setAutoIncr()
+     * Test setAutoIncr()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCadence()
+     * Test setCadence()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAnalytique()
+     * Test setCodeAnalytique()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantier()
+     * Test setCodeChantier()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeDernSemGen()
+     * Test setCodeDernSemGen()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePrimeDimanche1Type2()
+     * Test setCodePrimeDimanche1Type2()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePrimeJf1Type2()
+     * Test setCodePrimeJf1Type2()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePrimeNuit1Type2()
+     * Test setCodePrimeNuit1Type2()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTache()
+     * Test setCodeTache()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTacheType()
+     * Test setCodeTacheType()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDescriptif()
+     * Test setDescriptif()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtDernSemGen()
+     * Test setDtDernSemGen()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -211,7 +211,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDureeBudget()
+     * Test setDureeBudget()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFichePoste()
+     * Test setFichePoste()
      *
      * @return void
      */
@@ -237,7 +237,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGestionHotellerie()
+     * Test setGestionHotellerie()
      *
      * @return void
      */
@@ -250,7 +250,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMajDimNormalType2()
+     * Test setMajDimNormalType2()
      *
      * @return void
      */
@@ -263,7 +263,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMajJfNormalType2()
+     * Test setMajJfNormalType2()
      *
      * @return void
      */
@@ -276,7 +276,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMajNuitNormalType2()
+     * Test setMajNuitNormalType2()
      *
      * @return void
      */
@@ -289,7 +289,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNiveauQualif()
+     * Test setNiveauQualif()
      *
      * @return void
      */
@@ -302,7 +302,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNonOeuvrant()
+     * Test setNonOeuvrant()
      *
      * @return void
      */
@@ -315,7 +315,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumBt()
+     * Test setNumBt()
      *
      * @return void
      */
@@ -328,7 +328,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPlanningDernSemPrioritaire()
+     * Test setPlanningDernSemPrioritaire()
      *
      * @return void
      */
@@ -341,7 +341,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPosteRent()
+     * Test setPosteRent()
      *
      * @return void
      */
@@ -354,7 +354,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSuiviHeures()
+     * Test setSuiviHeures()
      *
      * @return void
      */
@@ -367,7 +367,7 @@ class TachesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

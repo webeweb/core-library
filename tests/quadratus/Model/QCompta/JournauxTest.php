@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class JournauxTest extends AbstractTestCase {
 
     /**
-     * Tests setBic()
+     * Test setBic()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCentraliseGdLivre()
+     * Test setCentraliseGdLivre()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCleAcces()
+     * Test setCleAcces()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCode()
+     * Test setCode()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCentre()
+     * Test setCodeCentre()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEntree()
+     * Test setCodeEntree()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteContrepartie()
+     * Test setCompteContrepartie()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteContrepartieAamm()
+     * Test setCompteContrepartieAamm()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setContrepartie()
+     * Test setContrepartie()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDomBanque()
+     * Test setDomBanque()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEquilibreAuto()
+     * Test setEquilibreAuto()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtebacSkipTva()
+     * Test setEtebacSkipTva()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtebacXFerDetaillerBq()
+     * Test setEtebacXFerDetaillerBq()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtebacXFerDoPrefixCodeOp()
+     * Test setEtebacXFerDoPrefixCodeOp()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtebacXFerIndLibelle()
+     * Test setEtebacXFerIndLibelle()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtebacXFerLignesComp()
+     * Test setEtebacXFerLignesComp()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFamille()
+     * Test setFamille()
      *
      * @return void
      */
@@ -244,7 +244,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGestNumPieceJrn()
+     * Test setGestNumPieceJrn()
      *
      * @return void
      */
@@ -257,7 +257,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGestionFolio()
+     * Test setGestionFolio()
      *
      * @return void
      */
@@ -270,7 +270,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGestionNumPiece()
+     * Test setGestionNumPiece()
      *
      * @return void
      */
@@ -283,7 +283,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIban()
+     * Test setIban()
      *
      * @return void
      */
@@ -296,7 +296,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIbanIdClient()
+     * Test setIbanIdClient()
      *
      * @return void
      */
@@ -309,7 +309,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -322,7 +322,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantNegatif()
+     * Test setMontantNegatif()
      *
      * @return void
      */
@@ -335,7 +335,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNiveauDroit()
+     * Test setNiveauDroit()
      *
      * @return void
      */
@@ -348,7 +348,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumEmetteur()
+     * Test setNumEmetteur()
      *
      * @return void
      */
@@ -361,7 +361,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setProchainNumPiece()
+     * Test setProchainNumPiece()
      *
      * @return void
      */
@@ -374,7 +374,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPropoLibelle()
+     * Test setPropoLibelle()
      *
      * @return void
      */
@@ -387,7 +387,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRib()
+     * Test setRib()
      *
      * @return void
      */
@@ -400,7 +400,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSaisieBordereau()
+     * Test setSaisieBordereau()
      *
      * @return void
      */
@@ -413,7 +413,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeJournal()
+     * Test setTypeJournal()
      *
      * @return void
      */
@@ -426,7 +426,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypePieceGlobal()
+     * Test setTypePieceGlobal()
      *
      * @return void
      */
@@ -439,7 +439,7 @@ class JournauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

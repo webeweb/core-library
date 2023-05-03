@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class HeuresEffectueesTest extends AbstractTestCase {
 
     /**
-     * Tests setDateJour()
+     * Test setDateJour()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -42,7 +42,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHDebAm()
+     * Test setHDebAm()
      *
      * @return void
      */
@@ -55,7 +55,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHDebPm()
+     * Test setHDebPm()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHFinAm()
+     * Test setHFinAm()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHFinPm()
+     * Test setHFinPm()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHAbsenceCp()
+     * Test setNbHAbsenceCp()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHMajo()
+     * Test setNbHMajo()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHNuit()
+     * Test setNbHNuit()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHReposCompPris()
+     * Test setNbHReposCompPris()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHReposRemplacePris()
+     * Test setNbHReposRemplacePris()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHTravailReel()
+     * Test setNbHTravailReel()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHjfnt()
+     * Test setNbHjfnt()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJReposRecupPris()
+     * Test setNbJReposRecupPris()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJourCpPris()
+     * Test setNbJourCpPris()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmploye()
+     * Test setNumeroEmploye()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Integers\TestIntegerPageTrait;
 class IntegerPageTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setPage()
+     * Test setPage()
      *
      * @return void
      */

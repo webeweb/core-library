@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ConstantesMajorationsTest extends AbstractTestCase {
 
     /**
-     * Tests setExcept()
+     * Test setExcept()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ConstantesMajorationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMai()
+     * Test setMai()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ConstantesMajorationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNormal()
+     * Test setNormal()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ConstantesMajorationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setType()
+     * Test setType()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ConstantesMajorationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setType2()
+     * Test setType2()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ConstantesMajorationsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

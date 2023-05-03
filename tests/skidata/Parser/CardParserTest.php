@@ -26,7 +26,7 @@ use WBW\Library\SkiData\Tests\AbstractTestCase;
 class CardParserTest extends AbstractTestCase {
 
     /**
-     * Tests parseEntity()
+     * Test parseEntity()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -70,7 +70,7 @@ class CardParserTest extends AbstractTestCase {
     }
 
     /**
-     * Tests parseLine()
+     * Test parseLine()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.

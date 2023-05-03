@@ -29,7 +29,7 @@ use WBW\Library\System\Model\ProcessorInterface;
 class JsonSerializer {
 
     /**
-     * Serializes a current processor usage.
+     * Serialize a current processor usage.
      *
      * @param CpuInterface $model The model.
      * @return array Returns the serialized model.
@@ -49,7 +49,7 @@ class JsonSerializer {
     }
 
     /**
-     * Serializes a hard disk.
+     * Serialize a hard disk.
      *
      * @param HardDiskInterface $model The model.
      * @return array Returns the serialized model.
@@ -68,7 +68,7 @@ class JsonSerializer {
     }
 
     /**
-     * Serializes a memory.
+     * Serialize a memory.
      *
      * @param MemoryInterface $model The model.
      * @return array Returns the serialized model.
@@ -78,7 +78,7 @@ class JsonSerializer {
     }
 
     /**
-     * Serializes a network.
+     * Serialize a network.
      *
      * @param NetworkInterface $model The model.
      * @return array Returns the serialized model.
@@ -93,7 +93,7 @@ class JsonSerializer {
     }
 
     /**
-     * Serializes a network card.
+     * Serialize a network card.
      *
      * @param NetworkCardInterface $model The model.
      * @return array Returns the serialized model.
@@ -112,7 +112,7 @@ class JsonSerializer {
     }
 
     /**
-     * Serializes an operating system.
+     * Serialize an operating system.
      *
      * @param OperatingSystemInterface $model The model.
      * @return array Returns the serialized model.
@@ -128,7 +128,7 @@ class JsonSerializer {
     }
 
     /**
-     * Serializes a processor.
+     * Serialize a processor.
      *
      * @param ProcessorInterface $model The model.
      * @return array Returns the serialized model.

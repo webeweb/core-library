@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class BonsTravauxInterventionsTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantier()
+     * Test setCodeChantier()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDimanche()
+     * Test setDimanche()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setJeudi()
+     * Test setJeudi()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLundi()
+     * Test setLundi()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMardi()
+     * Test setMardi()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMercredi()
+     * Test setMercredi()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumBt()
+     * Test setNumBt()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumSem()
+     * Test setNumSem()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSamedi()
+     * Test setSamedi()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setVendredi()
+     * Test setVendredi()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

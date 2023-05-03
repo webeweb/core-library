@@ -25,7 +25,7 @@ use WBW\Library\Symfony\Tests\AbstractTestCase;
 class RepositoryReportTest extends AbstractTestCase {
 
     /**
-     * Tests addDetail()
+     * Test addDetail()
      *
      * @return void
      */
@@ -41,7 +41,7 @@ class RepositoryReportTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCount()
+     * Test setCount()
      *
      * @return void
      */
@@ -54,7 +54,7 @@ class RepositoryReportTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class DetailsMissionsTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeCollaborateur()
+     * Test setCodeCollaborateur()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class DetailsMissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeMission()
+     * Test setCodeMission()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class DetailsMissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTravail()
+     * Test setCodeTravail()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class DetailsMissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNiveau()
+     * Test setNiveau()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class DetailsMissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumLigne()
+     * Test setNumLigne()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class DetailsMissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeAffectation()
+     * Test setTypeAffectation()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class DetailsMissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

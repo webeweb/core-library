@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringTableTrait;
 class StringTableTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setTable()
+     * Test setTable()
      *
      * @return void
      */

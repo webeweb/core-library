@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Manager\TestColorManagerTrait;
 class ColorManagerTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setColorManager()
+     * Test setColorManager()
      *
      * @return void
      */

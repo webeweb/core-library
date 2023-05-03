@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Arrays\TestArrayDataTrait;
 class ArrayDataTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setData()
+     * Test setData()
      *
      * @return void
      */

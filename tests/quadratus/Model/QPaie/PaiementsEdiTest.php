@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class PaiementsEdiTest extends AbstractTestCase {
 
     /**
-     * Tests setBic()
+     * Test setBic()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class PaiementsEdiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEtablissement()
+     * Test setCodeEtablissement()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class PaiementsEdiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeOrganisme()
+     * Test setCodeOrganisme()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class PaiementsEdiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDomBanque()
+     * Test setDomBanque()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class PaiementsEdiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGenererCouponPaiement()
+     * Test setGenererCouponPaiement()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class PaiementsEdiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIban()
+     * Test setIban()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class PaiementsEdiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant()
+     * Test setMontant()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class PaiementsEdiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantDucsAnnuelle()
+     * Test setMontantDucsAnnuelle()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class PaiementsEdiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMoyenPaiement()
+     * Test setMoyenPaiement()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class PaiementsEdiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRib()
+     * Test setRib()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class PaiementsEdiTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

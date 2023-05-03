@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ChantiersHistoRevTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantier()
+     * Test setCodeChantier()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeFormule()
+     * Test setCodeFormule()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRegroupement()
+     * Test setCodeRegroupement()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCommentaire()
+     * Test setCommentaire()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateRevision()
+     * Test setDateRevision()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFormule()
+     * Test setFormule()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLienDocument()
+     * Test setLienDocument()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumBt()
+     * Test setNumBt()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumLigneRev()
+     * Test setNumLigneRev()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeRevisee()
+     * Test setPeriodeRevisee()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -189,7 +189,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPourcentage()
+     * Test setPourcentage()
      *
      * @return void
      */
@@ -202,7 +202,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRefusClient()
+     * Test setRefusClient()
      *
      * @return void
      */
@@ -215,7 +215,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AffaireParamFraisTest extends AbstractTestCase {
 
     /**
-     * Tests setCode()
+     * Test setCode()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAvenant()
+     * Test setCodeAvenant()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeFraisFixe()
+     * Test setCodeFraisFixe()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePhase()
+     * Test setCodePhase()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setComptesComptables()
+     * Test setComptesComptables()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant()
+     * Test setMontant()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtFg1()
+     * Test setMtFg1()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtFg2()
+     * Test setMtFg2()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -172,7 +172,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPourcentage()
+     * Test setPourcentage()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrctFg1()
+     * Test setPrctFg1()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrctFg2()
+     * Test setPrctFg2()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setType()
+     * Test setType()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

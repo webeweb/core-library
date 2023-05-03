@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Integers\TestIntegerInsertedRowsTrait;
 class IntegerInsertedRowsTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setInsertedRows()
+     * Test setInsertedRows()
      *
      * @return void
      */

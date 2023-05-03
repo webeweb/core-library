@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class TypeMissionsTest extends AbstractTestCase {
 
     /**
-     * Tests setArticle()
+     * Test setArticle()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class TypeMissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCentreAnalytique()
+     * Test setCentreAnalytique()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class TypeMissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCode()
+     * Test setCode()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class TypeMissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeFamille()
+     * Test setCodeFamille()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class TypeMissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeResponsable()
+     * Test setCodeResponsable()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class TypeMissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateCreation()
+     * Test setDateCreation()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -107,7 +107,7 @@ class TypeMissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateModification()
+     * Test setDateModification()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -124,7 +124,7 @@ class TypeMissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDecalageFermetureAuto()
+     * Test setDecalageFermetureAuto()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class TypeMissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDecalageFermetureAutoJours()
+     * Test setDecalageFermetureAutoJours()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class TypeMissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDecalageOuvertureAuto()
+     * Test setDecalageOuvertureAuto()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class TypeMissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDescriptif()
+     * Test setDescriptif()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class TypeMissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDescriptifRtf()
+     * Test setDescriptifRtf()
      *
      * @return void
      */
@@ -189,7 +189,7 @@ class TypeMissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFermetureAuto()
+     * Test setFermetureAuto()
      *
      * @return void
      */
@@ -202,7 +202,7 @@ class TypeMissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -215,7 +215,7 @@ class TypeMissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMoisOuvertureAuto()
+     * Test setMoisOuvertureAuto()
      *
      * @return void
      */
@@ -228,7 +228,7 @@ class TypeMissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOrdre()
+     * Test setOrdre()
      *
      * @return void
      */
@@ -241,7 +241,7 @@ class TypeMissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRecurrente()
+     * Test setRecurrente()
      *
      * @return void
      */
@@ -254,7 +254,7 @@ class TypeMissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTachesGroupe()
+     * Test setTachesGroupe()
      *
      * @return void
      */
@@ -267,7 +267,7 @@ class TypeMissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTransfertCentre()
+     * Test setTransfertCentre()
      *
      * @return void
      */
@@ -280,7 +280,7 @@ class TypeMissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeCentre()
+     * Test setTypeCentre()
      *
      * @return void
      */
@@ -293,7 +293,7 @@ class TypeMissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeCompteur()
+     * Test setTypeCompteur()
      *
      * @return void
      */
@@ -306,7 +306,7 @@ class TypeMissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeResponsable()
+     * Test setTypeResponsable()
      *
      * @return void
      */
@@ -319,7 +319,7 @@ class TypeMissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeVisuTaches()
+     * Test setTypeVisuTaches()
      *
      * @return void
      */
@@ -332,7 +332,7 @@ class TypeMissionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

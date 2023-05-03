@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class MensualisationTacheTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class MensualisationTacheTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantier()
+     * Test setCodeChantier()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class MensualisationTacheTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class MensualisationTacheTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaboValid()
+     * Test setCodeCollaboValid()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class MensualisationTacheTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaborateur()
+     * Test setCodeCollaborateur()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class MensualisationTacheTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEmploye()
+     * Test setCodeEmploye()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class MensualisationTacheTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTache()
+     * Test setCodeTache()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class MensualisationTacheTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateValidationSynchro()
+     * Test setDateValidationSynchro()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -133,7 +133,7 @@ class MensualisationTacheTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtat()
+     * Test setEtat()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class MensualisationTacheTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setHistoMensSaisi()
+     * Test setHistoMensSaisi()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class MensualisationTacheTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMensualisationCalculee()
+     * Test setMensualisationCalculee()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class MensualisationTacheTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMensualisationSaisie()
+     * Test setMensualisationSaisie()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class MensualisationTacheTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtPrime()
+     * Test setMtPrime()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class MensualisationTacheTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbPaniers()
+     * Test setNbPaniers()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class MensualisationTacheTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumBt()
+     * Test setNumBt()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class MensualisationTacheTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeDebutValidite()
+     * Test setPeriodeDebutValidite()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -241,7 +241,7 @@ class MensualisationTacheTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqIdSynchro()
+     * Test setUniqIdSynchro()
      *
      * @return void
      */
@@ -254,7 +254,7 @@ class MensualisationTacheTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

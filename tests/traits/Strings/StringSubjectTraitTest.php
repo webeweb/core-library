@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringSubjectTrait;
 class StringSubjectTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setSubject()
+     * Test setSubject()
      *
      * @return void
      */

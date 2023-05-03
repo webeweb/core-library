@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ComptesRecurrentsTest extends AbstractTestCase {
 
     /**
-     * Tests setCompte()
+     * Test setCompte()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class ComptesRecurrentsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteRecurrent()
+     * Test setCompteRecurrent()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class ComptesRecurrentsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDernierAcces()
+     * Test setDateDernierAcces()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class ComptesRecurrentsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbAcces()
+     * Test setNbAcces()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class ComptesRecurrentsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

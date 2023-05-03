@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class PointEmpNbHRemplContratTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChantier()
+     * Test setCodeChantier()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaboValid()
+     * Test setCodeCollaboValid()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaborateur()
+     * Test setCodeCollaborateur()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEmploye()
+     * Test setCodeEmploye()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRemplacant()
+     * Test setCodeRemplacant()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTache()
+     * Test setCodeTache()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateValidationSynchro()
+     * Test setDateValidationSynchro()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -146,7 +146,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtat()
+     * Test setEtat()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMensualisation()
+     * Test setMensualisation()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHeures()
+     * Test setNbHeures()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumBt()
+     * Test setNumBt()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -215,7 +215,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUniqIdSynchro()
+     * Test setUniqIdSynchro()
      *
      * @return void
      */
@@ -228,7 +228,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

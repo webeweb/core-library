@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Booleans\TestBooleanVisibleTrait;
 class BooleanVisibleTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setVisible()
+     * Test setVisible()
      *
      * @return void
      */

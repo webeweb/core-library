@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringHashMd5Trait;
 class StringHashMd5TraitTest extends AbstractTestCase {
 
     /**
-     * Tests setHashMd5()
+     * Test setHashMd5()
      *
      * @return void
      */

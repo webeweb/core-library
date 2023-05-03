@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringCustomerCodeTrait;
 class StringCustomerCodeTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setCustomerCode()
+     * Test setCustomerCode()
      *
      * @return void
      */

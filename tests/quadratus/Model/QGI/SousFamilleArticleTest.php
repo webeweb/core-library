@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class SousFamilleArticleTest extends AbstractTestCase {
 
     /**
-     * Tests setActivitePrincipale()
+     * Test setActivitePrincipale()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class SousFamilleArticleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCode()
+     * Test setCode()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class SousFamilleArticleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class SousFamilleArticleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

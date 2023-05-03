@@ -23,7 +23,7 @@ use WBW\Library\OcrLad\Tests\AbstractTestCase;
 class AngleTest extends AbstractTestCase {
 
     /**
-     * Tests deg()
+     * Test deg()
      *
      * @return void
      */
@@ -34,7 +34,7 @@ class AngleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests isDegree()
+     * Test isDegree()
      *
      * @return void
      */
@@ -47,7 +47,7 @@ class AngleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests isRadian()
+     * Test isRadian()
      *
      * @return void
      */
@@ -60,7 +60,7 @@ class AngleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests rad()
+     * Test rad()
      *
      * @return void
      */
@@ -71,7 +71,7 @@ class AngleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValue()
+     * Test setValue()
      *
      * @return void
      */
@@ -86,7 +86,7 @@ class AngleTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

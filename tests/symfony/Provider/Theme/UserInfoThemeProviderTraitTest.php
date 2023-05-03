@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Provider\Theme\TestUserInfoThemeProviderT
 class UserInfoThemeProviderTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setUserInfoThemeProvider()
+     * Test setUserInfoThemeProvider()
      *
      * @return void
      */

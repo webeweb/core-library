@@ -25,7 +25,7 @@ use WBW\Library\Dropdown\Tests\AbstractTestCase;
 class DropdownItemHelperTest extends AbstractTestCase {
 
     /**
-     * Tests position()
+     * Test position()
      *
      * @return void
      */
@@ -47,7 +47,7 @@ class DropdownItemHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests swap()
+     * Test swap()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class SubventionsTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeCentre()
+     * Test setCodeCentre()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class SubventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCoeffDegressif()
+     * Test setCoeffDegressif()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class SubventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDate()
+     * Test setDate()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class SubventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateCession()
+     * Test setDateCession()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -85,7 +85,7 @@ class SubventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateMiseEnService()
+     * Test setDateMiseEnService()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -102,7 +102,7 @@ class SubventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDuree()
+     * Test setDuree()
      *
      * @return void
      */
@@ -115,7 +115,7 @@ class SubventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setImmoNumero()
+     * Test setImmoNumero()
      *
      * @return void
      */
@@ -128,7 +128,7 @@ class SubventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setImmoNumeroCompte()
+     * Test setImmoNumeroCompte()
      *
      * @return void
      */
@@ -141,7 +141,7 @@ class SubventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setImmoNumeroDeux()
+     * Test setImmoNumeroDeux()
      *
      * @return void
      */
@@ -154,7 +154,7 @@ class SubventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -167,7 +167,7 @@ class SubventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontant()
+     * Test setMontant()
      *
      * @return void
      */
@@ -180,7 +180,7 @@ class SubventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumContrat()
+     * Test setNumContrat()
      *
      * @return void
      */
@@ -193,7 +193,7 @@ class SubventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumCptSubvention()
+     * Test setNumCptSubvention()
      *
      * @return void
      */
@@ -206,7 +206,7 @@ class SubventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroPj()
+     * Test setNumeroPj()
      *
      * @return void
      */
@@ -219,7 +219,7 @@ class SubventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxLineaire()
+     * Test setTauxLineaire()
      *
      * @return void
      */
@@ -232,7 +232,7 @@ class SubventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeAmort()
+     * Test setTypeAmort()
      *
      * @return void
      */
@@ -245,7 +245,7 @@ class SubventionsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

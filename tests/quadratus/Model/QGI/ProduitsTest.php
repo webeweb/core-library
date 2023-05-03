@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ProduitsTest extends AbstractTestCase {
 
     /**
-     * Tests setCode()
+     * Test setCode()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteur()
+     * Test setCompteur()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCptMaj()
+     * Test setCptMaj()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDernierNumero()
+     * Test setDernierNumero()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFichierLicence()
+     * Test setFichierLicence()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setGammeWindows()
+     * Test setGammeWindows()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class ProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntitule()
+     * Test setIntitule()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class ProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLettreLicence()
+     * Test setLettreLicence()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class ProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNom()
+     * Test setNom()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class ProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomProdLicence()
+     * Test setNomProdLicence()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class ProduitsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

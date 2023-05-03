@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class CoeffAmortissementTest extends AbstractTestCase {
 
     /**
-     * Tests setCoeff()
+     * Test setCoeff()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class CoeffAmortissementTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDebut()
+     * Test setDateDebut()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -55,7 +55,7 @@ class CoeffAmortissementTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDuree()
+     * Test setDuree()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class CoeffAmortissementTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class TramesLignesTest extends AbstractTestCase {
 
     /**
-     * Tests setCode()
+     * Test setCode()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class TramesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeAffaire()
+     * Test setCodeAffaire()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class TramesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeLibAuto()
+     * Test setCodeLibAuto()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class TramesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompte()
+     * Test setCompte()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class TramesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteContrepartie()
+     * Test setCompteContrepartie()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class TramesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCredit()
+     * Test setCredit()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class TramesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateEcheance()
+     * Test setDateEcheance()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class TramesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDebit()
+     * Test setDebit()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class TramesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIsDebit()
+     * Test setIsDebit()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class TramesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class TramesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumLigne()
+     * Test setNumLigne()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class TramesLignesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

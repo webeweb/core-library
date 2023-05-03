@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ParamEtiquettesTest extends AbstractTestCase {
 
     /**
-     * Tests setAvecCodeBarre()
+     * Test setAvecCodeBarre()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ParamEtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAvecPrixVente()
+     * Test setAvecPrixVente()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ParamEtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeModele()
+     * Test setCodeModele()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ParamEtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtiqDeFront()
+     * Test setEtiqDeFront()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ParamEtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtiqMasque()
+     * Test setEtiqMasque()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ParamEtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtiqPlus()
+     * Test setEtiqPlus()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class ParamEtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setImprimante()
+     * Test setImprimante()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class ParamEtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setInitChamp()
+     * Test setInitChamp()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class ParamEtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setInitTable()
+     * Test setInitTable()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class ParamEtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setInitValeur()
+     * Test setInitValeur()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class ParamEtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLgZone()
+     * Test setLgZone()
      *
      * @return void
      */
@@ -166,7 +166,7 @@ class ParamEtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibZone()
+     * Test setLibZone()
      *
      * @return void
      */
@@ -179,7 +179,7 @@ class ParamEtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -192,7 +192,7 @@ class ParamEtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroLigne()
+     * Test setNumeroLigne()
      *
      * @return void
      */
@@ -205,7 +205,7 @@ class ParamEtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setQteEnt()
+     * Test setQteEnt()
      *
      * @return void
      */
@@ -218,7 +218,7 @@ class ParamEtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setType()
+     * Test setType()
      *
      * @return void
      */
@@ -231,7 +231,7 @@ class ParamEtiquettesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

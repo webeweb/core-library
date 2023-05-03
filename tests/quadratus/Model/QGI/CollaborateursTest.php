@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class CollaborateursTest extends AbstractTestCase {
 
     /**
-     * Tests setAccesAutoriseBonsTravaux()
+     * Test setAccesAutoriseBonsTravaux()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAccesAutorisePlanFacturation()
+     * Test setAccesAutorisePlanFacturation()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAccesAutorisePlanTache()
+     * Test setAccesAutorisePlanTache()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAccesCurDossOnly()
+     * Test setAccesCurDossOnly()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAccesDocsCab()
+     * Test setAccesDocsCab()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAccesDossierCpta()
+     * Test setAccesDossierCpta()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAccesDossierPaie()
+     * Test setAccesDossierPaie()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAccesGestionaireStatsCroisees()
+     * Test setAccesGestionaireStatsCroisees()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAccesRepCommun()
+     * Test setAccesRepCommun()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAccesStatCab()
+     * Test setAccesStatCab()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAnnulationAffaire()
+     * Test setAnnulationAffaire()
      *
      * @return void
      */
@@ -168,7 +168,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAnnulationArticle()
+     * Test setAnnulationArticle()
      *
      * @return void
      */
@@ -181,7 +181,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAnnulationBonsTravaux()
+     * Test setAnnulationBonsTravaux()
      *
      * @return void
      */
@@ -194,7 +194,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAnnulationChantier()
+     * Test setAnnulationChantier()
      *
      * @return void
      */
@@ -207,7 +207,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAnnulationClient()
+     * Test setAnnulationClient()
      *
      * @return void
      */
@@ -220,7 +220,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAnnulationCommission()
+     * Test setAnnulationCommission()
      *
      * @return void
      */
@@ -233,7 +233,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAnnulationDossierCpta()
+     * Test setAnnulationDossierCpta()
      *
      * @return void
      */
@@ -246,7 +246,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAnnulationDossierFact()
+     * Test setAnnulationDossierFact()
      *
      * @return void
      */
@@ -259,7 +259,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAnnulationDossierPaie()
+     * Test setAnnulationDossierPaie()
      *
      * @return void
      */
@@ -272,7 +272,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAnnulationFournisseur()
+     * Test setAnnulationFournisseur()
      *
      * @return void
      */
@@ -285,7 +285,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAnnulationPlanFacturation()
+     * Test setAnnulationPlanFacturation()
      *
      * @return void
      */
@@ -298,7 +298,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAnnulationPlanTache()
+     * Test setAnnulationPlanTache()
      *
      * @return void
      */
@@ -311,7 +311,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAnnulationTache()
+     * Test setAnnulationTache()
      *
      * @return void
      */
@@ -324,7 +324,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAnnulationTarif()
+     * Test setAnnulationTarif()
      *
      * @return void
      */
@@ -337,7 +337,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setArticlesLstPersoAccesGestionModifiables()
+     * Test setArticlesLstPersoAccesGestionModifiables()
      *
      * @return void
      */
@@ -350,7 +350,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setArticlesLstPersoAccesGestionnaire()
+     * Test setArticlesLstPersoAccesGestionnaire()
      *
      * @return void
      */
@@ -363,7 +363,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setArticlesLstPersoChampsModif()
+     * Test setArticlesLstPersoChampsModif()
      *
      * @return void
      */
@@ -376,7 +376,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setArticlesLstPersoCopieColonne()
+     * Test setArticlesLstPersoCopieColonne()
      *
      * @return void
      */
@@ -389,7 +389,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setArticlesLstPersoInterdireCreat()
+     * Test setArticlesLstPersoInterdireCreat()
      *
      * @return void
      */
@@ -402,7 +402,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAutoriseSaisieTpsColonnes()
+     * Test setAutoriseSaisieTpsColonnes()
      *
      * @return void
      */
@@ -415,7 +415,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBic()
+     * Test setBic()
      *
      * @return void
      */
@@ -428,7 +428,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBlocageEdCli()
+     * Test setBlocageEdCli()
      *
      * @return void
      */
@@ -441,7 +441,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBtq()
+     * Test setBtq()
      *
      * @return void
      */
@@ -454,7 +454,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBureauDistributeur()
+     * Test setBureauDistributeur()
      *
      * @return void
      */
@@ -467,7 +467,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCategoriePrixKm()
+     * Test setCategoriePrixKm()
      *
      * @return void
      */
@@ -480,7 +480,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCategorieTicketResto()
+     * Test setCategorieTicketResto()
      *
      * @return void
      */
@@ -493,7 +493,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setChargesMensuelles()
+     * Test setChargesMensuelles()
      *
      * @return void
      */
@@ -506,7 +506,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCleCcnPaie()
+     * Test setCleCcnPaie()
      *
      * @return void
      */
@@ -519,7 +519,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCode()
+     * Test setCode()
      *
      * @return void
      */
@@ -532,7 +532,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCentre()
+     * Test setCodeCentre()
      *
      * @return void
      */
@@ -545,7 +545,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChef1()
+     * Test setCodeChef1()
      *
      * @return void
      */
@@ -558,7 +558,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeChef2()
+     * Test setCodeChef2()
      *
      * @return void
      */
@@ -571,7 +571,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeDepot()
+     * Test setCodeDepot()
      *
      * @return void
      */
@@ -584,7 +584,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeFamille()
+     * Test setCodeFamille()
      *
      * @return void
      */
@@ -597,7 +597,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeFamilleFrn()
+     * Test setCodeFamilleFrn()
      *
      * @return void
      */
@@ -610,7 +610,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeGroupe()
+     * Test setCodeGroupe()
      *
      * @return void
      */
@@ -623,7 +623,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeGroupeVisuMsg()
+     * Test setCodeGroupeVisuMsg()
      *
      * @return void
      */
@@ -636,7 +636,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeLangue()
+     * Test setCodeLangue()
      *
      * @return void
      */
@@ -649,7 +649,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeLiaisonDest()
+     * Test setCodeLiaisonDest()
      *
      * @return void
      */
@@ -662,7 +662,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeOfficielCommune()
+     * Test setCodeOfficielCommune()
      *
      * @return void
      */
@@ -675,7 +675,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePostal()
+     * Test setCodePostal()
      *
      * @return void
      */
@@ -688,7 +688,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeVehicule()
+     * Test setCodeVehicule()
      *
      * @return void
      */
@@ -701,7 +701,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeVentilCompta()
+     * Test setCodeVentilCompta()
      *
      * @return void
      */
@@ -714,7 +714,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setComplement()
+     * Test setComplement()
      *
      * @return void
      */
@@ -727,7 +727,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteComptable()
+     * Test setCompteComptable()
      *
      * @return void
      */
@@ -740,7 +740,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteDeTiers()
+     * Test setCompteDeTiers()
      *
      * @return void
      */
@@ -753,7 +753,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setControleSaisieTp()
+     * Test setControleSaisieTp()
      *
      * @return void
      */
@@ -766,7 +766,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCreationAffaire()
+     * Test setCreationAffaire()
      *
      * @return void
      */
@@ -779,7 +779,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCreationArticle()
+     * Test setCreationArticle()
      *
      * @return void
      */
@@ -792,7 +792,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCreationBonsTravaux()
+     * Test setCreationBonsTravaux()
      *
      * @return void
      */
@@ -805,7 +805,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCreationChantier()
+     * Test setCreationChantier()
      *
      * @return void
      */
@@ -818,7 +818,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCreationClient()
+     * Test setCreationClient()
      *
      * @return void
      */
@@ -831,7 +831,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCreationCommission()
+     * Test setCreationCommission()
      *
      * @return void
      */
@@ -844,7 +844,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCreationDossierCpta()
+     * Test setCreationDossierCpta()
      *
      * @return void
      */
@@ -857,7 +857,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCreationDossierFact()
+     * Test setCreationDossierFact()
      *
      * @return void
      */
@@ -870,7 +870,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCreationDossierPaie()
+     * Test setCreationDossierPaie()
      *
      * @return void
      */
@@ -883,7 +883,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCreationFournisseur()
+     * Test setCreationFournisseur()
      *
      * @return void
      */
@@ -896,7 +896,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCreationPlanFacturation()
+     * Test setCreationPlanFacturation()
      *
      * @return void
      */
@@ -909,7 +909,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCreationPlanTache()
+     * Test setCreationPlanTache()
      *
      * @return void
      */
@@ -922,7 +922,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCreationTache()
+     * Test setCreationTache()
      *
      * @return void
      */
@@ -935,7 +935,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCreationTarif()
+     * Test setCreationTarif()
      *
      * @return void
      */
@@ -948,7 +948,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateEntree()
+     * Test setDateEntree()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -965,7 +965,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateSortie()
+     * Test setDateSortie()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -982,7 +982,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateValidationBudget()
+     * Test setDateValidationBudget()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -999,7 +999,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateValidationNdF()
+     * Test setDateValidationNdF()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1016,7 +1016,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateValidationTp()
+     * Test setDateValidationTp()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -1033,7 +1033,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDesactiverFiltreMsg()
+     * Test setDesactiverFiltreMsg()
      *
      * @return void
      */
@@ -1046,7 +1046,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDisponible()
+     * Test setDisponible()
      *
      * @return void
      */
@@ -1059,7 +1059,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDomBanque()
+     * Test setDomBanque()
      *
      * @return void
      */
@@ -1072,7 +1072,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDossierPaie()
+     * Test setDossierPaie()
      *
      * @return void
      */
@@ -1085,7 +1085,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDroitParamEmailsConfidentiels()
+     * Test setDroitParamEmailsConfidentiels()
      *
      * @return void
      */
@@ -1098,7 +1098,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDroitSyncPort()
+     * Test setDroitSyncPort()
      *
      * @return void
      */
@@ -1111,7 +1111,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDroitSyncQProp()
+     * Test setDroitSyncQProp()
      *
      * @return void
      */
@@ -1124,7 +1124,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmail()
+     * Test setEmail()
      *
      * @return void
      */
@@ -1137,7 +1137,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmailActiverAideSaisie()
+     * Test setEmailActiverAideSaisie()
      *
      * @return void
      */
@@ -1150,7 +1150,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmailAgendaDmdConfirm()
+     * Test setEmailAgendaDmdConfirm()
      *
      * @return void
      */
@@ -1163,7 +1163,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmailAutoClotureImap()
+     * Test setEmailAutoClotureImap()
      *
      * @return void
      */
@@ -1176,7 +1176,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmailLstAdrChoixElem()
+     * Test setEmailLstAdrChoixElem()
      *
      * @return void
      */
@@ -1189,7 +1189,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmailModeSignature()
+     * Test setEmailModeSignature()
      *
      * @return void
      */
@@ -1202,7 +1202,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmailNbJAgMini()
+     * Test setEmailNbJAgMini()
      *
      * @return void
      */
@@ -1215,7 +1215,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmailObjetDefaut()
+     * Test setEmailObjetDefaut()
      *
      * @return void
      */
@@ -1228,7 +1228,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmailPied()
+     * Test setEmailPied()
      *
      * @return void
      */
@@ -1241,7 +1241,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmailRedirAuto()
+     * Test setEmailRedirAuto()
      *
      * @return void
      */
@@ -1254,7 +1254,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmailRedirAutoCollab()
+     * Test setEmailRedirAutoCollab()
      *
      * @return void
      */
@@ -1267,7 +1267,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmailRedirection()
+     * Test setEmailRedirection()
      *
      * @return void
      */
@@ -1280,7 +1280,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmailReponseAuto()
+     * Test setEmailReponseAuto()
      *
      * @return void
      */
@@ -1293,7 +1293,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmailReponseAutoText()
+     * Test setEmailReponseAutoText()
      *
      * @return void
      */
@@ -1306,7 +1306,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmailRrActive()
+     * Test setEmailRrActive()
      *
      * @return void
      */
@@ -1319,7 +1319,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmailStartMode()
+     * Test setEmailStartMode()
      *
      * @return void
      */
@@ -1332,7 +1332,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmailSurServeur()
+     * Test setEmailSurServeur()
      *
      * @return void
      */
@@ -1345,7 +1345,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEmailTete()
+     * Test setEmailTete()
      *
      * @return void
      */
@@ -1358,7 +1358,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEstAcheteur()
+     * Test setEstAcheteur()
      *
      * @return void
      */
@@ -1371,7 +1371,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setEtabConfidentialiteQp()
+     * Test setEtabConfidentialiteQp()
      *
      * @return void
      */
@@ -1384,7 +1384,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFictif()
+     * Test setFictif()
      *
      * @return void
      */
@@ -1397,7 +1397,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFonction()
+     * Test setFonction()
      *
      * @return void
      */
@@ -1410,7 +1410,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIban()
+     * Test setIban()
      *
      * @return void
      */
@@ -1423,7 +1423,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setInterdictionPwd()
+     * Test setInterdictionPwd()
      *
      * @return void
      */
@@ -1436,7 +1436,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setInterdictionVueFacturation()
+     * Test setInterdictionVueFacturation()
      *
      * @return void
      */
@@ -1449,7 +1449,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setInterdireAccesArchivesCpta()
+     * Test setInterdireAccesArchivesCpta()
      *
      * @return void
      */
@@ -1462,7 +1462,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setInterdireAccesArchivesPaie()
+     * Test setInterdireAccesArchivesPaie()
      *
      * @return void
      */
@@ -1475,7 +1475,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setInterdireAccesEditionBalance()
+     * Test setInterdireAccesEditionBalance()
      *
      * @return void
      */
@@ -1488,7 +1488,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setInterdireAccesEntete()
+     * Test setInterdireAccesEntete()
      *
      * @return void
      */
@@ -1501,7 +1501,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setInterdireAccesSuppDocArch()
+     * Test setInterdireAccesSuppDocArch()
      *
      * @return void
      */
@@ -1514,7 +1514,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setInterdireEditionValoriseJrnTemps()
+     * Test setInterdireEditionValoriseJrnTemps()
      *
      * @return void
      */
@@ -1527,7 +1527,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setInterdireEnvoiPostit()
+     * Test setInterdireEnvoiPostit()
      *
      * @return void
      */
@@ -1540,7 +1540,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setInterdireModifAffCli()
+     * Test setInterdireModifAffCli()
      *
      * @return void
      */
@@ -1553,7 +1553,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setInterdireModifDepot()
+     * Test setInterdireModifDepot()
      *
      * @return void
      */
@@ -1566,7 +1566,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setInterdirePubliDocWeb()
+     * Test setInterdirePubliDocWeb()
      *
      * @return void
      */
@@ -1579,7 +1579,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setInterim()
+     * Test setInterim()
      *
      * @return void
      */
@@ -1592,7 +1592,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIsGroupe()
+     * Test setIsGroupe()
      *
      * @return void
      */
@@ -1605,7 +1605,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIsProfilMessages()
+     * Test setIsProfilMessages()
      *
      * @return void
      */
@@ -1618,7 +1618,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLimiterVisuAgenda()
+     * Test setLimiterVisuAgenda()
      *
      * @return void
      */
@@ -1631,7 +1631,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMasquerFournisseurs()
+     * Test setMasquerFournisseurs()
      *
      * @return void
      */
@@ -1644,7 +1644,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMessagesConfidentiels()
+     * Test setMessagesConfidentiels()
      *
      * @return void
      */
@@ -1657,7 +1657,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setModifAffaire()
+     * Test setModifAffaire()
      *
      * @return void
      */
@@ -1670,7 +1670,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setModifArticle()
+     * Test setModifArticle()
      *
      * @return void
      */
@@ -1683,7 +1683,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setModifBonsTravaux()
+     * Test setModifBonsTravaux()
      *
      * @return void
      */
@@ -1696,7 +1696,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setModifChantier()
+     * Test setModifChantier()
      *
      * @return void
      */
@@ -1709,7 +1709,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setModifClient()
+     * Test setModifClient()
      *
      * @return void
      */
@@ -1722,7 +1722,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setModifCommission()
+     * Test setModifCommission()
      *
      * @return void
      */
@@ -1735,7 +1735,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setModifDossierFact()
+     * Test setModifDossierFact()
      *
      * @return void
      */
@@ -1748,7 +1748,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setModifDroitsAsp()
+     * Test setModifDroitsAsp()
      *
      * @return void
      */
@@ -1761,7 +1761,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setModifEnVue()
+     * Test setModifEnVue()
      *
      * @return void
      */
@@ -1774,7 +1774,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setModifFournisseur()
+     * Test setModifFournisseur()
      *
      * @return void
      */
@@ -1787,7 +1787,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setModifPlanFacturation()
+     * Test setModifPlanFacturation()
      *
      * @return void
      */
@@ -1800,7 +1800,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setModifPlanTache()
+     * Test setModifPlanTache()
      *
      * @return void
      */
@@ -1813,7 +1813,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setModifTache()
+     * Test setModifTache()
      *
      * @return void
      */
@@ -1826,7 +1826,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setModifTarif()
+     * Test setModifTarif()
      *
      * @return void
      */
@@ -1839,7 +1839,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMotDePasse()
+     * Test setMotDePasse()
      *
      * @return void
      */
@@ -1852,7 +1852,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMsgRedirAuto()
+     * Test setMsgRedirAuto()
      *
      * @return void
      */
@@ -1865,7 +1865,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNivConfEmpPropreteRestreint()
+     * Test setNivConfEmpPropreteRestreint()
      *
      * @return void
      */
@@ -1878,7 +1878,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNiveau()
+     * Test setNiveau()
      *
      * @return void
      */
@@ -1891,7 +1891,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNiveauConfidentialiteQp()
+     * Test setNiveauConfidentialiteQp()
      *
      * @return void
      */
@@ -1904,7 +1904,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNom()
+     * Test setNom()
      *
      * @return void
      */
@@ -1917,7 +1917,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomVille()
+     * Test setNomVille()
      *
      * @return void
      */
@@ -1930,7 +1930,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomVoie()
+     * Test setNomVoie()
      *
      * @return void
      */
@@ -1943,7 +1943,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumVoie()
+     * Test setNumVoie()
      *
      * @return void
      */
@@ -1956,7 +1956,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumero()
+     * Test setNumero()
      *
      * @return void
      */
@@ -1969,7 +1969,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPaInvisible()
+     * Test setPaInvisible()
      *
      * @return void
      */
@@ -1982,7 +1982,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setParcCodeRemorque()
+     * Test setParcCodeRemorque()
      *
      * @return void
      */
@@ -1995,7 +1995,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setParcCodeVehicule()
+     * Test setParcCodeVehicule()
      *
      * @return void
      */
@@ -2008,7 +2008,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPasAccesQws()
+     * Test setPasAccesQws()
      *
      * @return void
      */
@@ -2021,7 +2021,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPasSaisieDesTemps()
+     * Test setPasSaisieDesTemps()
      *
      * @return void
      */
@@ -2034,7 +2034,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPasSaisieDesTempsAuto()
+     * Test setPasSaisieDesTempsAuto()
      *
      * @return void
      */
@@ -2047,7 +2047,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPortablePerso()
+     * Test setPortablePerso()
      *
      * @return void
      */
@@ -2060,7 +2060,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPresent()
+     * Test setPresent()
      *
      * @return void
      */
@@ -2073,7 +2073,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrevenuNouveauCd()
+     * Test setPrevenuNouveauCd()
      *
      * @return void
      */
@@ -2086,7 +2086,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrixKm()
+     * Test setPrixKm()
      *
      * @return void
      */
@@ -2099,7 +2099,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrixVente()
+     * Test setPrixVente()
      *
      * @return void
      */
@@ -2112,7 +2112,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrixVente2()
+     * Test setPrixVente2()
      *
      * @return void
      */
@@ -2125,7 +2125,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrixVente3()
+     * Test setPrixVente3()
      *
      * @return void
      */
@@ -2138,7 +2138,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRestrictAccesPieces()
+     * Test setRestrictAccesPieces()
      *
      * @return void
      */
@@ -2151,7 +2151,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRestrictAccesStats()
+     * Test setRestrictAccesStats()
      *
      * @return void
      */
@@ -2164,7 +2164,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRib()
+     * Test setRib()
      *
      * @return void
      */
@@ -2177,7 +2177,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSaisiePvInterdite()
+     * Test setSaisiePvInterdite()
      *
      * @return void
      */
@@ -2190,7 +2190,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSalaireMensuel()
+     * Test setSalaireMensuel()
      *
      * @return void
      */
@@ -2203,7 +2203,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSelArtCollab()
+     * Test setSelArtCollab()
      *
      * @return void
      */
@@ -2216,7 +2216,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSelAvLstPersoAccesGestionModifiables()
+     * Test setSelAvLstPersoAccesGestionModifiables()
      *
      * @return void
      */
@@ -2229,7 +2229,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSelAvLstPersoAccesGestionnaire()
+     * Test setSelAvLstPersoAccesGestionnaire()
      *
      * @return void
      */
@@ -2242,7 +2242,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSelAvLstPersoChampsModif()
+     * Test setSelAvLstPersoChampsModif()
      *
      * @return void
      */
@@ -2255,7 +2255,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSelAvLstPersoCopieColonne()
+     * Test setSelAvLstPersoCopieColonne()
      *
      * @return void
      */
@@ -2268,7 +2268,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSelAvLstPersoInterdireCreat()
+     * Test setSelAvLstPersoInterdireCreat()
      *
      * @return void
      */
@@ -2281,7 +2281,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSelCliCollab()
+     * Test setSelCliCollab()
      *
      * @return void
      */
@@ -2294,7 +2294,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSelFrnCollab()
+     * Test setSelFrnCollab()
      *
      * @return void
      */
@@ -2307,7 +2307,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSelectionArticle()
+     * Test setSelectionArticle()
      *
      * @return void
      */
@@ -2320,7 +2320,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSelectionClient()
+     * Test setSelectionClient()
      *
      * @return void
      */
@@ -2333,7 +2333,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSelectionFournisseur()
+     * Test setSelectionFournisseur()
      *
      * @return void
      */
@@ -2346,7 +2346,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSuiviMessages()
+     * Test setSuiviMessages()
      *
      * @return void
      */
@@ -2359,7 +2359,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSuperviseur()
+     * Test setSuperviseur()
      *
      * @return void
      */
@@ -2372,7 +2372,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSyncMso()
+     * Test setSyncMso()
      *
      * @return void
      */
@@ -2385,7 +2385,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTachesGroupe()
+     * Test setTachesGroupe()
      *
      * @return void
      */
@@ -2398,7 +2398,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxCommission()
+     * Test setTauxCommission()
      *
      * @return void
      */
@@ -2411,7 +2411,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTelDirect()
+     * Test setTelDirect()
      *
      * @return void
      */
@@ -2424,7 +2424,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTelPerso()
+     * Test setTelPerso()
      *
      * @return void
      */
@@ -2437,7 +2437,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTelPortable1()
+     * Test setTelPortable1()
      *
      * @return void
      */
@@ -2450,7 +2450,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTelPortable2()
+     * Test setTelPortable2()
      *
      * @return void
      */
@@ -2463,7 +2463,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTelPoste()
+     * Test setTelPoste()
      *
      * @return void
      */
@@ -2476,7 +2476,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTpPasControler()
+     * Test setTpPasControler()
      *
      * @return void
      */
@@ -2489,7 +2489,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTpPasJournalTemps()
+     * Test setTpPasJournalTemps()
      *
      * @return void
      */
@@ -2502,7 +2502,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTpPasNotesDeFrais()
+     * Test setTpPasNotesDeFrais()
      *
      * @return void
      */
@@ -2515,7 +2515,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTpPasTpsValide()
+     * Test setTpPasTpsValide()
      *
      * @return void
      */
@@ -2528,7 +2528,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTpPourcentageNonOperationnel()
+     * Test setTpPourcentageNonOperationnel()
      *
      * @return void
      */
@@ -2541,7 +2541,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTpsNiveauBlocage()
+     * Test setTpsNiveauBlocage()
      *
      * @return void
      */
@@ -2554,7 +2554,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTxComInvisible()
+     * Test setTxComInvisible()
      *
      * @return void
      */
@@ -2567,7 +2567,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeConf2CmavCli()
+     * Test setTypeConf2CmavCli()
      *
      * @return void
      */
@@ -2580,7 +2580,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeConfCmavCli()
+     * Test setTypeConfCmavCli()
      *
      * @return void
      */
@@ -2593,7 +2593,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeVisuAppels()
+     * Test setTypeVisuAppels()
      *
      * @return void
      */
@@ -2606,7 +2606,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeVisuTaches()
+     * Test setTypeVisuTaches()
      *
      * @return void
      */
@@ -2619,7 +2619,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUseMailGeneric()
+     * Test setUseMailGeneric()
      *
      * @return void
      */
@@ -2632,7 +2632,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setVisualisationFicheCabinet()
+     * Test setVisualisationFicheCabinet()
      *
      * @return void
      */
@@ -2645,7 +2645,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setVueComDroitReaffect()
+     * Test setVueComDroitReaffect()
      *
      * @return void
      */
@@ -2658,7 +2658,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setVueDevisDroitReaffect()
+     * Test setVueDevisDroitReaffect()
      *
      * @return void
      */
@@ -2671,7 +2671,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setVueDevisDroitSuppr()
+     * Test setVueDevisDroitSuppr()
      *
      * @return void
      */
@@ -2684,7 +2684,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setVueDevisDroitValid()
+     * Test setVueDevisDroitValid()
      *
      * @return void
      */
@@ -2697,7 +2697,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setYaDroitsCollab()
+     * Test setYaDroitsCollab()
      *
      * @return void
      */
@@ -2710,7 +2710,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests seteWsMdp()
+     * Test seteWsMdp()
      *
      * @return void
      */
@@ -2723,7 +2723,7 @@ class CollaborateursTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

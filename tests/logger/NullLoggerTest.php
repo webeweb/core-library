@@ -22,7 +22,7 @@ use WBW\Library\Logger\NullLogger;
 class NullLoggerTest extends AbstractTestCase {
 
     /**
-     * Tests alert()
+     * Test alert()
      *
      * @return void
      */
@@ -34,7 +34,7 @@ class NullLoggerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests critical()
+     * Test critical()
      *
      * @return void
      */
@@ -46,7 +46,7 @@ class NullLoggerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests debug()
+     * Test debug()
      *
      * @return void
      */
@@ -58,7 +58,7 @@ class NullLoggerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests emergency()
+     * Test emergency()
      *
      * @return void
      */
@@ -70,7 +70,7 @@ class NullLoggerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests error()
+     * Test error()
      *
      * @return void
      */
@@ -82,7 +82,7 @@ class NullLoggerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests info()
+     * Test info()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class NullLoggerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests notice()
+     * Test notice()
      *
      * @return void
      */
@@ -106,7 +106,7 @@ class NullLoggerTest extends AbstractTestCase {
     }
 
     /**
-     * Tests warning()
+     * Test warning()
      *
      * @return void
      */

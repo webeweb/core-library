@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EmpReportModulationTest extends AbstractTestCase {
 
     /**
-     * Tests setDateApplication()
+     * Test setDateApplication()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -42,7 +42,7 @@ class EmpReportModulationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmploye()
+     * Test setNumeroEmploye()
      *
      * @return void
      */
@@ -55,7 +55,7 @@ class EmpReportModulationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setReportModAnt()
+     * Test setReportModAnt()
      *
      * @return void
      */
@@ -68,7 +68,7 @@ class EmpReportModulationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

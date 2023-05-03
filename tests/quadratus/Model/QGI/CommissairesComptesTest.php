@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class CommissairesComptesTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeCac()
+     * Test setCodeCac()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class CommissairesComptesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class CommissairesComptesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateNomination()
+     * Test setDateNomination()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -68,7 +68,7 @@ class CommissairesComptesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDureeMandat()
+     * Test setDureeMandat()
      *
      * @return void
      */
@@ -81,7 +81,7 @@ class CommissairesComptesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setObservations()
+     * Test setObservations()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class CommissairesComptesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPosition()
+     * Test setPosition()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class CommissairesComptesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTitulaire()
+     * Test setTitulaire()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class CommissairesComptesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

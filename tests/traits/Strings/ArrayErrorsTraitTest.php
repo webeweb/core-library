@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestArrayErrorsTrait;
 class ArrayErrorsTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setErrors()
+     * Test setErrors()
      *
      * @return void
      */

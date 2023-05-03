@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class TvaTest extends AbstractTestCase {
 
     /**
-     * Tests setCode()
+     * Test setCode()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class TvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteTvaAchat()
+     * Test setCompteTvaAchat()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class TvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteTvaImmo()
+     * Test setCompteTvaImmo()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class TvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteTvaVente()
+     * Test setCompteTvaVente()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class TvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCompteVentilation()
+     * Test setCompteVentilation()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class TvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxTva()
+     * Test setTauxTva()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class TvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeAutoliquidation()
+     * Test setTypeAutoliquidation()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class TvaTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

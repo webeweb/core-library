@@ -25,7 +25,7 @@ use WBW\Library\SkiData\Tests\AbstractTestCase;
 class StartRecordFormatTest extends AbstractTestCase {
 
     /**
-     * Tests setCurrency()
+     * Test setCurrency()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class StartRecordFormatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateFile()
+     * Test setDateFile()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -52,7 +52,7 @@ class StartRecordFormatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setFacilityNumber()
+     * Test setFacilityNumber()
      *
      * @return void
      */
@@ -65,7 +65,7 @@ class StartRecordFormatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumberRecords()
+     * Test setNumberRecords()
      *
      * @return void
      */
@@ -78,7 +78,7 @@ class StartRecordFormatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setVersionRecordStructure()
+     * Test setVersionRecordStructure()
      *
      * @return void
      */
@@ -91,7 +91,7 @@ class StartRecordFormatTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

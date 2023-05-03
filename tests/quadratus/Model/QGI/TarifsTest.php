@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class TarifsTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeArticle()
+     * Test setCodeArticle()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeDevise()
+     * Test setCodeDevise()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeNature()
+     * Test setCodeNature()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setComSurMargeBrute()
+     * Test setComSurMargeBrute()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrixTtc()
+     * Test setPrixTtc()
      *
      * @return void
      */
@@ -101,7 +101,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrixUnitBase()
+     * Test setPrixUnitBase()
      *
      * @return void
      */
@@ -114,7 +114,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxCommission()
+     * Test setTauxCommission()
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeCodeArticle()
+     * Test setTypeCodeArticle()
      *
      * @return void
      */
@@ -140,7 +140,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeCodeClient()
+     * Test setTypeCodeClient()
      *
      * @return void
      */
@@ -153,7 +153,7 @@ class TarifsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

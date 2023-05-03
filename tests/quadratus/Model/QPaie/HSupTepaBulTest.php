@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class HSupTepaBulTest extends AbstractTestCase {
 
     /**
-     * Tests setIndicePeriode()
+     * Test setIndicePeriode()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class HSupTepaBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtBrutExo()
+     * Test setMtBrutExo()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class HSupTepaBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtBrutExoAbat()
+     * Test setMtBrutExoAbat()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class HSupTepaBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJhExo()
+     * Test setNbJhExo()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class HSupTepaBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumLigne()
+     * Test setNumLigne()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class HSupTepaBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmploye()
+     * Test setNumeroEmploye()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class HSupTepaBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -120,7 +120,7 @@ class HSupTepaBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPourcentMajo()
+     * Test setPourcentMajo()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class HSupTepaBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeExo()
+     * Test setTypeExo()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class HSupTepaBulTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

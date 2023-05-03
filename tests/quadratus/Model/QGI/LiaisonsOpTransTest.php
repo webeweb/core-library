@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class LiaisonsOpTransTest extends AbstractTestCase {
 
     /**
-     * Tests setBatchApres()
+     * Test setBatchApres()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setBatchAvant()
+     * Test setBatchAvant()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCode()
+     * Test setCode()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDtDernXFer()
+     * Test setDtDernXFer()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntitule()
+     * Test setIntitule()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setListeDestinataires()
+     * Test setListeDestinataires()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setUseDtDernXFer()
+     * Test setUseDtDernXFer()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerActivites()
+     * Test setXFerActivites()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerArticles()
+     * Test setXFerArticles()
      *
      * @return void
      */
@@ -146,7 +146,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerBoniMali()
+     * Test setXFerBoniMali()
      *
      * @return void
      */
@@ -159,7 +159,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerBudgetsTemps()
+     * Test setXFerBudgetsTemps()
      *
      * @return void
      */
@@ -172,7 +172,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerCivilites()
+     * Test setXFerCivilites()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerCli()
+     * Test setXFerCli()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerCliA1()
+     * Test setXFerCliA1()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerCliA2()
+     * Test setXFerCliA2()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerCliC()
+     * Test setXFerCliC()
      *
      * @return void
      */
@@ -237,7 +237,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerCliDeb()
+     * Test setXFerCliDeb()
      *
      * @return void
      */
@@ -250,7 +250,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerCliDocs()
+     * Test setXFerCliDocs()
      *
      * @return void
      */
@@ -263,7 +263,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerCliE()
+     * Test setXFerCliE()
      *
      * @return void
      */
@@ -276,7 +276,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerCliFin()
+     * Test setXFerCliFin()
      *
      * @return void
      */
@@ -289,7 +289,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerCliP()
+     * Test setXFerCliP()
      *
      * @return void
      */
@@ -302,7 +302,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerCol()
+     * Test setXFerCol()
      *
      * @return void
      */
@@ -315,7 +315,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerCollabTache()
+     * Test setXFerCollabTache()
      *
      * @return void
      */
@@ -328,7 +328,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerContenu()
+     * Test setXFerContenu()
      *
      * @return void
      */
@@ -341,7 +341,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerCpta()
+     * Test setXFerCpta()
      *
      * @return void
      */
@@ -354,7 +354,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerCptaAll()
+     * Test setXFerCptaAll()
      *
      * @return void
      */
@@ -367,7 +367,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerCptaCli()
+     * Test setXFerCptaCli()
      *
      * @return void
      */
@@ -380,7 +380,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerCptaDest()
+     * Test setXFerCptaDest()
      *
      * @return void
      */
@@ -393,7 +393,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerCptaFrn()
+     * Test setXFerCptaFrn()
      *
      * @return void
      */
@@ -406,7 +406,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerCptaImg()
+     * Test setXFerCptaImg()
      *
      * @return void
      */
@@ -419,7 +419,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerCptaLstDc()
+     * Test setXFerCptaLstDc()
      *
      * @return void
      */
@@ -432,7 +432,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerCptaSrc()
+     * Test setXFerCptaSrc()
      *
      * @return void
      */
@@ -445,7 +445,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerCrDsi()
+     * Test setXFerCrDsi()
      *
      * @return void
      */
@@ -458,7 +458,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerCrDucs()
+     * Test setXFerCrDucs()
      *
      * @return void
      */
@@ -471,7 +471,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerCrPedi()
+     * Test setXFerCrPedi()
      *
      * @return void
      */
@@ -484,7 +484,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerCrReq()
+     * Test setXFerCrReq()
      *
      * @return void
      */
@@ -497,7 +497,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerCrTdfc()
+     * Test setXFerCrTdfc()
      *
      * @return void
      */
@@ -510,7 +510,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerCrTva()
+     * Test setXFerCrTva()
      *
      * @return void
      */
@@ -523,7 +523,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerCstPxKm()
+     * Test setXFerCstPxKm()
      *
      * @return void
      */
@@ -536,7 +536,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerDosCpta()
+     * Test setXFerDosCpta()
      *
      * @return void
      */
@@ -549,7 +549,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerDosPaie()
+     * Test setXFerDosPaie()
      *
      * @return void
      */
@@ -562,7 +562,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerEdGrp()
+     * Test setXFerEdGrp()
      *
      * @return void
      */
@@ -575,7 +575,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerEtebac()
+     * Test setXFerEtebac()
      *
      * @return void
      */
@@ -588,7 +588,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerFactEdit()
+     * Test setXFerFactEdit()
      *
      * @return void
      */
@@ -601,7 +601,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerFactEditDelSrc()
+     * Test setXFerFactEditDelSrc()
      *
      * @return void
      */
@@ -614,7 +614,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerFactNonEdit()
+     * Test setXFerFactNonEdit()
      *
      * @return void
      */
@@ -627,7 +627,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerFactNonEditDelSrc()
+     * Test setXFerFactNonEditDelSrc()
      *
      * @return void
      */
@@ -640,7 +640,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerFonctions()
+     * Test setXFerFonctions()
      *
      * @return void
      */
@@ -653,7 +653,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerImpotsDirects()
+     * Test setXFerImpotsDirects()
      *
      * @return void
      */
@@ -666,7 +666,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerInt()
+     * Test setXFerInt()
      *
      * @return void
      */
@@ -679,7 +679,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerIntNoCliOnly()
+     * Test setXFerIntNoCliOnly()
      *
      * @return void
      */
@@ -692,7 +692,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerLstCabs()
+     * Test setXFerLstCabs()
      *
      * @return void
      */
@@ -705,7 +705,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerMis()
+     * Test setXFerMis()
      *
      * @return void
      */
@@ -718,7 +718,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerMisCli()
+     * Test setXFerMisCli()
      *
      * @return void
      */
@@ -731,7 +731,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerMissionPrincipale()
+     * Test setXFerMissionPrincipale()
      *
      * @return void
      */
@@ -744,7 +744,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerMsg()
+     * Test setXFerMsg()
      *
      * @return void
      */
@@ -757,7 +757,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerMsgCli()
+     * Test setXFerMsgCli()
      *
      * @return void
      */
@@ -770,7 +770,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerMsgCol()
+     * Test setXFerMsgCol()
      *
      * @return void
      */
@@ -783,7 +783,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerMsgDelSrc()
+     * Test setXFerMsgDelSrc()
      *
      * @return void
      */
@@ -796,7 +796,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerMsgHist()
+     * Test setXFerMsgHist()
      *
      * @return void
      */
@@ -809,7 +809,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerMsgHistCli()
+     * Test setXFerMsgHistCli()
      *
      * @return void
      */
@@ -822,7 +822,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerMsgHistDelSrc()
+     * Test setXFerMsgHistDelSrc()
      *
      * @return void
      */
@@ -835,7 +835,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerObligations()
+     * Test setXFerObligations()
      *
      * @return void
      */
@@ -848,7 +848,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerPdf()
+     * Test setXFerPdf()
      *
      * @return void
      */
@@ -861,7 +861,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerPlanning()
+     * Test setXFerPlanning()
      *
      * @return void
      */
@@ -874,7 +874,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerPreFact()
+     * Test setXFerPreFact()
      *
      * @return void
      */
@@ -887,7 +887,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerPreFactCli()
+     * Test setXFerPreFactCli()
      *
      * @return void
      */
@@ -900,7 +900,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerPreFactCol()
+     * Test setXFerPreFactCol()
      *
      * @return void
      */
@@ -913,7 +913,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerPreFactFact()
+     * Test setXFerPreFactFact()
      *
      * @return void
      */
@@ -926,7 +926,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerQInfos()
+     * Test setXFerQInfos()
      *
      * @return void
      */
@@ -939,7 +939,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerQInfosDet()
+     * Test setXFerQInfosDet()
      *
      * @return void
      */
@@ -952,7 +952,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerQualifiants()
+     * Test setXFerQualifiants()
      *
      * @return void
      */
@@ -965,7 +965,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerReglements()
+     * Test setXFerReglements()
      *
      * @return void
      */
@@ -978,7 +978,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerSuiCli()
+     * Test setXFerSuiCli()
      *
      * @return void
      */
@@ -991,7 +991,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerTaches()
+     * Test setXFerTaches()
      *
      * @return void
      */
@@ -1004,7 +1004,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerTps()
+     * Test setXFerTps()
      *
      * @return void
      */
@@ -1017,7 +1017,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerTpsCli()
+     * Test setXFerTpsCli()
      *
      * @return void
      */
@@ -1030,7 +1030,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerTpsCol()
+     * Test setXFerTpsCol()
      *
      * @return void
      */
@@ -1043,7 +1043,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerTypeEvenements()
+     * Test setXFerTypeEvenements()
      *
      * @return void
      */
@@ -1056,7 +1056,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setXFerTypeSocietes()
+     * Test setXFerTypeSocietes()
      *
      * @return void
      */
@@ -1069,7 +1069,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

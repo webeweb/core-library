@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class BudgetEntetesTest extends AbstractTestCase {
 
     /**
-     * Tests setArrondi()
+     * Test setArrondi()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class BudgetEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeBudget()
+     * Test setCodeBudget()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class BudgetEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class BudgetEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumColRef()
+     * Test setNumColRef()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class BudgetEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeDebut()
+     * Test setPeriodeDebut()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -94,7 +94,7 @@ class BudgetEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeFin()
+     * Test setPeriodeFin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -111,7 +111,7 @@ class BudgetEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRefImage()
+     * Test setRefImage()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class BudgetEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeColRef()
+     * Test setTypeColRef()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class BudgetEntetesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

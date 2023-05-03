@@ -58,7 +58,7 @@ trait ArrayWordsTrait {
     }
 
     /**
-     * Determines if this instance has words.
+     * Determine if this instance has words.
      *
      * @return bool Returns true in case of success, false otherwise.
      */

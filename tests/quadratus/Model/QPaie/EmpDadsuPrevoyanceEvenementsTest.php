@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EmpDadsuPrevoyanceEvenementsTest extends AbstractTestCase {
 
     /**
-     * Tests setADeclarerDsn()
+     * Test setADeclarerDsn()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class EmpDadsuPrevoyanceEvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeEvenement()
+     * Test setCodeEvenement()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class EmpDadsuPrevoyanceEvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeOption()
+     * Test setCodeOption()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class EmpDadsuPrevoyanceEvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeOrganisme()
+     * Test setCodeOrganisme()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class EmpDadsuPrevoyanceEvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePopulation()
+     * Test setCodePopulation()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class EmpDadsuPrevoyanceEvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateEvenement()
+     * Test setDateEvenement()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -107,7 +107,7 @@ class EmpDadsuPrevoyanceEvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmploye()
+     * Test setNumeroEmploye()
      *
      * @return void
      */
@@ -120,7 +120,7 @@ class EmpDadsuPrevoyanceEvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setRefContrat()
+     * Test setRefContrat()
      *
      * @return void
      */
@@ -133,7 +133,7 @@ class EmpDadsuPrevoyanceEvenementsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\System\Tests\AbstractTestCase;
 class PropertyInterfaceTest extends AbstractTestCase {
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

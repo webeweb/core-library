@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Tests\AbstractTestCase;
 class IconRendererTest extends AbstractTestCase {
 
     /**
-     * Tests renderStyle()
+     * Test renderStyle()
      *
      * @return void
      */

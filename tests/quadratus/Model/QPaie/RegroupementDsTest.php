@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class RegroupementDsTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeRds()
+     * Test setCodeRds()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class RegroupementDsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeRupture()
+     * Test setCodeRupture()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class RegroupementDsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntitule()
+     * Test setIntitule()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class RegroupementDsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setOrganisme()
+     * Test setOrganisme()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class RegroupementDsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

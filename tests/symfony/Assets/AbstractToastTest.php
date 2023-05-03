@@ -26,7 +26,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Assets\TestToast;
 class AbstractToastTest extends AbstractTestCase {
 
     /**
-     * Tests jsonSerialize()
+     * Test jsonSerialize()
      *
      * @return void
      */
@@ -47,7 +47,7 @@ class AbstractToastTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setContent()
+     * Test setContent()
      *
      * @return void
      */
@@ -60,7 +60,7 @@ class AbstractToastTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setType()
+     * Test setType()
      *
      * @return void
      */
@@ -73,7 +73,7 @@ class AbstractToastTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

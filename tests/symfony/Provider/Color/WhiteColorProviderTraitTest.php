@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Provider\Color\TestWhiteColorProviderTrai
 class WhiteColorProviderTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setWhiteColorProvider()
+     * Test setWhiteColorProvider()
      *
      * @return void
      */

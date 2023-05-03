@@ -24,7 +24,7 @@ use WBW\Library\Symfony\Tests\Fixtures\Model\TestRequestDetailTrait;
 class RequestDetailTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setRequestDetail()
+     * Test setRequestDetail()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AgendaGroupesComposTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeCollaborateur()
+     * Test setCodeCollaborateur()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class AgendaGroupesComposTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeGroupe()
+     * Test setCodeGroupe()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class AgendaGroupesComposTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

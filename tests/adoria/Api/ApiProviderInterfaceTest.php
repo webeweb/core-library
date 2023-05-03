@@ -23,7 +23,7 @@ use WBW\Library\Adoria\Tests\AbstractTestCase;
 class ApiProviderInterfaceTest extends AbstractTestCase {
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

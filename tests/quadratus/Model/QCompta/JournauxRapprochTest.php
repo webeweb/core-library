@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class JournauxRapprochTest extends AbstractTestCase {
 
     /**
-     * Tests setCodeJournal()
+     * Test setCodeJournal()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class JournauxRapprochTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setMethode()
+     * Test setMethode()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class JournauxRapprochTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNePasSaisirSoldeFin()
+     * Test setNePasSaisirSoldeFin()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class JournauxRapprochTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class JournauxRapprochTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setSoldeFin()
+     * Test setSoldeFin()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class JournauxRapprochTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

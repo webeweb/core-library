@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class EnvoiSmsTest extends AbstractTestCase {
 
     /**
-     * Tests setAccesCollaborateur()
+     * Test setAccesCollaborateur()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class EnvoiSmsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAccesIntervenants()
+     * Test setAccesIntervenants()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class EnvoiSmsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setAccesTotal()
+     * Test setAccesTotal()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class EnvoiSmsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaborateur()
+     * Test setCodeCollaborateur()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class EnvoiSmsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbSms()
+     * Test setNbSms()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class EnvoiSmsTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

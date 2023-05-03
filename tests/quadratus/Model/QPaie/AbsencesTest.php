@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class AbsencesTest extends AbstractTestCase {
 
     /**
-     * Tests setAbsJour()
+     * Test setAbsJour()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaborateur()
+     * Test setCodeCollaborateur()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeUser()
+     * Test setCodeUser()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCongesPayes()
+     * Test setCongesPayes()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateAdded()
+     * Test setDateAdded()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -94,7 +94,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateAddedColl()
+     * Test setDateAddedColl()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -111,7 +111,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setInBul()
+     * Test setInBul()
      *
      * @return void
      */
@@ -124,7 +124,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndicePeriode()
+     * Test setIndicePeriode()
      *
      * @return void
      */
@@ -137,7 +137,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNb30()
+     * Test setNb30()
      *
      * @return void
      */
@@ -150,7 +150,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHAbCpCalcule()
+     * Test setNbHAbCpCalcule()
      *
      * @return void
      */
@@ -163,7 +163,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHAbCpSaisi()
+     * Test setNbHAbCpSaisi()
      *
      * @return void
      */
@@ -176,7 +176,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJh()
+     * Test setNbJh()
      *
      * @return void
      */
@@ -189,7 +189,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbJhCalcule()
+     * Test setNbJhCalcule()
      *
      * @return void
      */
@@ -202,7 +202,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumEvenement()
+     * Test setNumEvenement()
      *
      * @return void
      */
@@ -215,7 +215,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumUniq()
+     * Test setNumUniq()
      *
      * @return void
      */
@@ -228,7 +228,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNumeroEmploye()
+     * Test setNumeroEmploye()
      *
      * @return void
      */
@@ -241,7 +241,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeBul()
+     * Test setPeriodeBul()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -258,7 +258,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeDeb()
+     * Test setPeriodeDeb()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -275,7 +275,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriodeFin()
+     * Test setPeriodeFin()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -292,7 +292,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setProlongation()
+     * Test setProlongation()
      *
      * @return void
      */
@@ -305,7 +305,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setReprise()
+     * Test setReprise()
      *
      * @return void
      */
@@ -318,7 +318,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeAbs()
+     * Test setTypeAbs()
      *
      * @return void
      */
@@ -331,7 +331,7 @@ class AbsencesTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

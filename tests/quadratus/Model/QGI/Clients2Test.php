@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class Clients2Test extends AbstractTestCase {
 
     /**
-     * Tests setAllotissement()
+     * Test setAllotissement()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setBlMail()
+     * Test setBlMail()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCdesMail()
+     * Test setCdesMail()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeActiviteCga()
+     * Test setCodeActiviteCga()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTransporteur1()
+     * Test setCodeTransporteur1()
      *
      * @return void
      */
@@ -103,7 +103,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTransporteur2()
+     * Test setCodeTransporteur2()
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTransporteur3()
+     * Test setCodeTransporteur3()
      *
      * @return void
      */
@@ -129,7 +129,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTransporteur4()
+     * Test setCodeTransporteur4()
      *
      * @return void
      */
@@ -142,7 +142,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeTransporteur5()
+     * Test setCodeTransporteur5()
      *
      * @return void
      */
@@ -155,7 +155,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateDebExePublication()
+     * Test setDateDebExePublication()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -172,7 +172,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDelaiLivraison()
+     * Test setDelaiLivraison()
      *
      * @return void
      */
@@ -185,7 +185,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setDevisMail()
+     * Test setDevisMail()
      *
      * @return void
      */
@@ -198,7 +198,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setEanClient()
+     * Test setEanClient()
      *
      * @return void
      */
@@ -211,7 +211,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setEanFacturePapier()
+     * Test setEanFacturePapier()
      *
      * @return void
      */
@@ -224,7 +224,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setEanPlateforme()
+     * Test setEanPlateforme()
      *
      * @return void
      */
@@ -237,7 +237,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setEcheanceFinDecade()
+     * Test setEcheanceFinDecade()
      *
      * @return void
      */
@@ -250,7 +250,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setEcheanceFinQuinzaine()
+     * Test setEcheanceFinQuinzaine()
      *
      * @return void
      */
@@ -263,7 +263,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setEdiExportBl()
+     * Test setEdiExportBl()
      *
      * @return void
      */
@@ -276,7 +276,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setEdiExportFac()
+     * Test setEdiExportFac()
      *
      * @return void
      */
@@ -289,7 +289,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setFactComplementSuite()
+     * Test setFactComplementSuite()
      *
      * @return void
      */
@@ -302,7 +302,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setFactZipCode()
+     * Test setFactZipCode()
      *
      * @return void
      */
@@ -315,7 +315,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndMailPublication()
+     * Test setIndMailPublication()
      *
      * @return void
      */
@@ -328,7 +328,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndiceBlMail()
+     * Test setIndiceBlMail()
      *
      * @return void
      */
@@ -341,7 +341,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndiceCdesMail()
+     * Test setIndiceCdesMail()
      *
      * @return void
      */
@@ -354,7 +354,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndiceDevisMail()
+     * Test setIndiceDevisMail()
      *
      * @return void
      */
@@ -367,7 +367,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setIndiceRelevesMail()
+     * Test setIndiceRelevesMail()
      *
      * @return void
      */
@@ -380,7 +380,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setLettreDeMissionDateSignature()
+     * Test setLettreDeMissionDateSignature()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -397,7 +397,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setModeleFactureManuelleSpe()
+     * Test setModeleFactureManuelleSpe()
      *
      * @return void
      */
@@ -410,7 +410,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setMontantDepassementAutorise()
+     * Test setMontantDepassementAutorise()
      *
      * @return void
      */
@@ -423,7 +423,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setMotifEntree()
+     * Test setMotifEntree()
      *
      * @return void
      */
@@ -436,7 +436,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setMotifSortie()
+     * Test setMotifSortie()
      *
      * @return void
      */
@@ -449,7 +449,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtTransport1()
+     * Test setMtTransport1()
      *
      * @return void
      */
@@ -462,7 +462,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtTransport2()
+     * Test setMtTransport2()
      *
      * @return void
      */
@@ -475,7 +475,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtTransport3()
+     * Test setMtTransport3()
      *
      * @return void
      */
@@ -488,7 +488,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtTransport4()
+     * Test setMtTransport4()
      *
      * @return void
      */
@@ -501,7 +501,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setMtTransport5()
+     * Test setMtTransport5()
      *
      * @return void
      */
@@ -514,7 +514,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNonConcerneIs()
+     * Test setNonConcerneIs()
      *
      * @return void
      */
@@ -527,7 +527,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNonConcerneTp()
+     * Test setNonConcerneTp()
      *
      * @return void
      */
@@ -540,7 +540,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNonFacturable()
+     * Test setNonFacturable()
      *
      * @return void
      */
@@ -553,7 +553,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setPmeTarifOuRemSpe()
+     * Test setPmeTarifOuRemSpe()
      *
      * @return void
      */
@@ -566,7 +566,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setPrevenirMailPublier()
+     * Test setPrevenirMailPublier()
      *
      * @return void
      */
@@ -579,7 +579,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setRelevesMail()
+     * Test setRelevesMail()
      *
      * @return void
      */
@@ -592,7 +592,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setSocialComplementSuite()
+     * Test setSocialComplementSuite()
      *
      * @return void
      */
@@ -605,7 +605,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setSocialZipCode()
+     * Test setSocialZipCode()
      *
      * @return void
      */
@@ -618,7 +618,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrsArtPied()
+     * Test setTrsArtPied()
      *
      * @return void
      */
@@ -631,7 +631,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrsArtPied2()
+     * Test setTrsArtPied2()
      *
      * @return void
      */
@@ -644,7 +644,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrsCategMarch()
+     * Test setTrsCategMarch()
      *
      * @return void
      */
@@ -657,7 +657,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrsCentreAna()
+     * Test setTrsCentreAna()
      *
      * @return void
      */
@@ -670,7 +670,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrsCodeTarif1()
+     * Test setTrsCodeTarif1()
      *
      * @return void
      */
@@ -683,7 +683,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrsCodeTarif1Sens()
+     * Test setTrsCodeTarif1Sens()
      *
      * @return void
      */
@@ -696,7 +696,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrsCodeTarif2()
+     * Test setTrsCodeTarif2()
      *
      * @return void
      */
@@ -709,7 +709,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrsCodeTarif2Sens()
+     * Test setTrsCodeTarif2Sens()
      *
      * @return void
      */
@@ -722,7 +722,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrsCodeTarif3()
+     * Test setTrsCodeTarif3()
      *
      * @return void
      */
@@ -735,7 +735,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrsCodeTarif3Sens()
+     * Test setTrsCodeTarif3Sens()
      *
      * @return void
      */
@@ -748,7 +748,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrsCodeTarif4()
+     * Test setTrsCodeTarif4()
      *
      * @return void
      */
@@ -761,7 +761,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrsCodeTarif4Sens()
+     * Test setTrsCodeTarif4Sens()
      *
      * @return void
      */
@@ -774,7 +774,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrsCodeTarif5()
+     * Test setTrsCodeTarif5()
      *
      * @return void
      */
@@ -787,7 +787,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrsCodeTarif5Sens()
+     * Test setTrsCodeTarif5Sens()
      *
      * @return void
      */
@@ -800,7 +800,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrsCodeTarif6()
+     * Test setTrsCodeTarif6()
      *
      * @return void
      */
@@ -813,7 +813,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrsCodeTarif6Sens()
+     * Test setTrsCodeTarif6Sens()
      *
      * @return void
      */
@@ -826,7 +826,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrsCodeTarifDef()
+     * Test setTrsCodeTarifDef()
      *
      * @return void
      */
@@ -839,7 +839,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrsComment1()
+     * Test setTrsComment1()
      *
      * @return void
      */
@@ -852,7 +852,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrsComment2()
+     * Test setTrsComment2()
      *
      * @return void
      */
@@ -865,7 +865,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrsComment3()
+     * Test setTrsComment3()
      *
      * @return void
      */
@@ -878,7 +878,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrsComment4()
+     * Test setTrsComment4()
      *
      * @return void
      */
@@ -891,7 +891,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrsComment5()
+     * Test setTrsComment5()
      *
      * @return void
      */
@@ -904,7 +904,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrsComment6()
+     * Test setTrsComment6()
      *
      * @return void
      */
@@ -917,7 +917,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrsComment7()
+     * Test setTrsComment7()
      *
      * @return void
      */
@@ -930,7 +930,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrsComment8()
+     * Test setTrsComment8()
      *
      * @return void
      */
@@ -943,7 +943,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrsComment9()
+     * Test setTrsComment9()
      *
      * @return void
      */
@@ -956,7 +956,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrsConsignes1()
+     * Test setTrsConsignes1()
      *
      * @return void
      */
@@ -969,7 +969,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrsConsignes2()
+     * Test setTrsConsignes2()
      *
      * @return void
      */
@@ -982,7 +982,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrsConsignes3()
+     * Test setTrsConsignes3()
      *
      * @return void
      */
@@ -995,7 +995,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrsGestionPalettes()
+     * Test setTrsGestionPalettes()
      *
      * @return void
      */
@@ -1008,7 +1008,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrsMarchandiseSensible()
+     * Test setTrsMarchandiseSensible()
      *
      * @return void
      */
@@ -1021,7 +1021,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrsModeleFactureSpe()
+     * Test setTrsModeleFactureSpe()
      *
      * @return void
      */
@@ -1034,7 +1034,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrsPoidsMiniPal()
+     * Test setTrsPoidsMiniPal()
      *
      * @return void
      */
@@ -1047,7 +1047,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrsPortDuAuto()
+     * Test setTrsPortDuAuto()
      *
      * @return void
      */
@@ -1060,7 +1060,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrsSuiviCaMens()
+     * Test setTrsSuiviCaMens()
      *
      * @return void
      */
@@ -1073,7 +1073,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrsSuiviDtEnl()
+     * Test setTrsSuiviDtEnl()
      *
      * @return void
      */
@@ -1086,7 +1086,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrsSuiviDtLiv()
+     * Test setTrsSuiviDtLiv()
      *
      * @return void
      */
@@ -1099,7 +1099,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrsSuiviDtLivFax()
+     * Test setTrsSuiviDtLivFax()
      *
      * @return void
      */
@@ -1112,7 +1112,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrsSuiviDtLivMail()
+     * Test setTrsSuiviDtLivMail()
      *
      * @return void
      */
@@ -1125,7 +1125,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrsTypeClient()
+     * Test setTrsTypeClient()
      *
      * @return void
      */
@@ -1138,7 +1138,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrsTypeFacturation()
+     * Test setTrsTypeFacturation()
      *
      * @return void
      */
@@ -1151,7 +1151,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTrsTypeTravail()
+     * Test setTrsTypeTravail()
      *
      * @return void
      */
@@ -1164,7 +1164,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeTransport1()
+     * Test setTypeTransport1()
      *
      * @return void
      */
@@ -1177,7 +1177,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeTransport2()
+     * Test setTypeTransport2()
      *
      * @return void
      */
@@ -1190,7 +1190,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeTransport3()
+     * Test setTypeTransport3()
      *
      * @return void
      */
@@ -1203,7 +1203,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeTransport4()
+     * Test setTypeTransport4()
      *
      * @return void
      */
@@ -1216,7 +1216,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeTransport5()
+     * Test setTypeTransport5()
      *
      * @return void
      */
@@ -1229,7 +1229,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setlocalisationArchives()
+     * Test setlocalisationArchives()
      *
      * @return void
      */
@@ -1242,7 +1242,7 @@ class Clients2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

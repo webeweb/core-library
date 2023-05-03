@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class HistoPaieType2Test extends AbstractTestCase {
 
     /**
-     * Tests setCodeEmploye()
+     * Test setCodeEmploye()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class HistoPaieType2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodePrime()
+     * Test setCodePrime()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class HistoPaieType2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setNbHeures()
+     * Test setNbHeures()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class HistoPaieType2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setPeriode()
+     * Test setPeriode()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -81,7 +81,7 @@ class HistoPaieType2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTauxMajoration()
+     * Test setTauxMajoration()
      *
      * @return void
      */
@@ -94,7 +94,7 @@ class HistoPaieType2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests setTypeDnjf()
+     * Test setTypeDnjf()
      *
      * @return void
      */
@@ -107,7 +107,7 @@ class HistoPaieType2Test extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class ClientsSelectionTest extends AbstractTestCase {
 
     /**
-     * Tests setChamp()
+     * Test setChamp()
      *
      * @return void
      */
@@ -36,7 +36,7 @@ class ClientsSelectionTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCol()
+     * Test setCodeCol()
      *
      * @return void
      */
@@ -49,7 +49,7 @@ class ClientsSelectionTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setLibelle()
+     * Test setLibelle()
      *
      * @return void
      */
@@ -62,7 +62,7 @@ class ClientsSelectionTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setType()
+     * Test setType()
      *
      * @return void
      */
@@ -75,7 +75,7 @@ class ClientsSelectionTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setValeur()
+     * Test setValeur()
      *
      * @return void
      */
@@ -88,7 +88,7 @@ class ClientsSelectionTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */

@@ -23,7 +23,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringAccountTrait;
 class StringAccountTraitTest extends AbstractTestCase {
 
     /**
-     * Tests setAccount()
+     * Test setAccount()
      *
      * @return void
      */

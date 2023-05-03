@@ -25,7 +25,7 @@ use WBW\Library\Quadratus\Tests\AbstractTestCase;
 class HistoriqueTravauxTest extends AbstractTestCase {
 
     /**
-     * Tests setCataloguee()
+     * Test setCataloguee()
      *
      * @return void
      */
@@ -38,7 +38,7 @@ class HistoriqueTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeClient()
+     * Test setCodeClient()
      *
      * @return void
      */
@@ -51,7 +51,7 @@ class HistoriqueTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaborateurClot()
+     * Test setCodeCollaborateurClot()
      *
      * @return void
      */
@@ -64,7 +64,7 @@ class HistoriqueTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaborateurDest()
+     * Test setCodeCollaborateurDest()
      *
      * @return void
      */
@@ -77,7 +77,7 @@ class HistoriqueTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setCodeCollaborateurEntrant()
+     * Test setCodeCollaborateurEntrant()
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class HistoriqueTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateAlerte()
+     * Test setDateAlerte()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -107,7 +107,7 @@ class HistoriqueTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateButoir()
+     * Test setDateButoir()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -124,7 +124,7 @@ class HistoriqueTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateEntree()
+     * Test setDateEntree()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -141,7 +141,7 @@ class HistoriqueTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDateSortie()
+     * Test setDateSortie()
      *
      * @return void
      * @throws Throwable Throws an exception if an error occurs.
@@ -158,7 +158,7 @@ class HistoriqueTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDemandeur()
+     * Test setDemandeur()
      *
      * @return void
      */
@@ -171,7 +171,7 @@ class HistoriqueTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDuree()
+     * Test setDuree()
      *
      * @return void
      */
@@ -184,7 +184,7 @@ class HistoriqueTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIdTravail()
+     * Test setIdTravail()
      *
      * @return void
      */
@@ -197,7 +197,7 @@ class HistoriqueTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setIntitule()
+     * Test setIntitule()
      *
      * @return void
      */
@@ -210,7 +210,7 @@ class HistoriqueTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setNomClient()
+     * Test setNomClient()
      *
      * @return void
      */
@@ -223,7 +223,7 @@ class HistoriqueTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setPieceJointe()
+     * Test setPieceJointe()
      *
      * @return void
      */
@@ -236,7 +236,7 @@ class HistoriqueTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setReponse()
+     * Test setReponse()
      *
      * @return void
      */
@@ -249,7 +249,7 @@ class HistoriqueTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setTravailFait()
+     * Test setTravailFait()
      *
      * @return void
      */
@@ -262,7 +262,7 @@ class HistoriqueTravauxTest extends AbstractTestCase {
     }
 
     /**
-     * Tests __construct()
+     * Test __construct()
      *
      * @return void
      */
