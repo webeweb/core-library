@@ -1,8 +1,10 @@
 CHANGELOG
 =========
 
-### master
+### [8.73.0](https://github.com/webeweb/core-library/tree/v8.73.0) (2023-05-03)
 
+- Add factorial() into Integer helper
+- Improve PHPDoc
 - Improve Token generator
 
 ### [8.72.2](https://github.com/webeweb/core-library/tree/v8.72.2) (2023-04-21)
