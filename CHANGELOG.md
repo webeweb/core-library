@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [8.74.0](https://github.com/webeweb/core-library/tree/v8.74.0) (2023-06-03)
+
+- Update dependencies
+
 ### [8.73.0](https://github.com/webeweb/core-library/tree/v8.73.0) (2023-05-03)
 
 - Add factorial() into Integer helper
