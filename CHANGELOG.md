@@ -1,8 +1,9 @@
 CHANGELOG
 =========
 
-### [8.74.1](https://github.com/webeweb/core-library/tree/v8.74.1) (2023-06-05)
+### [8.75.0](https://github.com/webeweb/core-library/tree/v8.75.0) (2023-06-05)
 
+- Add float total trait
 - Fix factorial() into Integer helper
 
 ### [8.74.0](https://github.com/webeweb/core-library/tree/v8.74.0) (2023-06-03)
