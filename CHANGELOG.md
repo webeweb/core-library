@@ -1,6 +1,14 @@
 CHANGELOG
 =========
 
+### [8.75.1](https://github.com/webeweb/core-library/tree/v8.75.1) (2023-06-05)
+
+- Fix float maximum trait
+- Fix float max trait
+- Fix float minimum trait
+- Fix float min trait
+- Fix float score trait
+
 ### [8.75.0](https://github.com/webeweb/core-library/tree/v8.75.0) (2023-06-05)
 
 - Add float total trait
