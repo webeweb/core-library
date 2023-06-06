@@ -215,9 +215,8 @@ class FtpClientTest extends AbstractTestCase {
         $this->assertSame($obj, $obj->fget($localStream, $this->remoteFile));
 
         try {
-            $obj->close();
+            $obj->close(); // On GitHub, causes a unit test error.
         } catch (Throwable $ex) {
-            // NOTHING TO DO
         }
 
         fclose($localStream);
@@ -449,9 +448,8 @@ class FtpClientTest extends AbstractTestCase {
         $this->assertGreaterThanOrEqual(FTP_FINISHED, $obj->nbFget($localStream, $this->remoteFile));
 
         try {
-            $obj->close();
+            $obj->close(); // On GitHub, causes a unit test error.
         } catch (Throwable $ex) {
-            // NOTHING TO DO
         }
 
         fclose($localStream);
@@ -490,9 +488,8 @@ class FtpClientTest extends AbstractTestCase {
         $this->assertGreaterThanOrEqual(FTP_FINISHED, $obj->nbGet($this->localFile, $this->remoteFile));
 
         try {
-            $obj->close();
+            $obj->close(); // On GitHub, causes a unit test error.
         } catch (Throwable $ex) {
-            // NOTHING TO DO
         }
     }
 
