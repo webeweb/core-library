@@ -88,6 +88,28 @@ class IntegerHelperTest extends AbstractTestCase {
     }
 
     /**
+     * Test summation()
+     *
+     * @return void
+     */
+    public function testSummation(): void {
+
+        $this->assertNull(IntegerHelper::factorial(null));
+        $this->assertEquals(0, IntegerHelper::summation(0));
+        $this->assertEquals(1, IntegerHelper::summation(1));
+        $this->assertEquals(3, IntegerHelper::summation(2));
+        $this->assertEquals(6, IntegerHelper::summation(3));
+        $this->assertEquals(10, IntegerHelper::summation(4));
+        $this->assertEquals(15, IntegerHelper::summation(5));
+        $this->assertEquals(21, IntegerHelper::summation(6));
+        $this->assertEquals(28, IntegerHelper::summation(7));
+        $this->assertEquals(36, IntegerHelper::summation(8));
+        $this->assertEquals(45, IntegerHelper::summation(9));
+        $this->assertEquals(55, IntegerHelper::summation(10));
+        $this->assertEquals(5050, IntegerHelper::summation(100));
+    }
+
+    /**
      * Test usortCallback()
      *
      * @return void

@@ -89,6 +89,23 @@ class IntegerHelper {
     }
 
     /**
+     * Summation.
+     *
+     * @param int|null $n The number.
+     * @return float|null Returns the summation.
+     */
+    public static function summation(?int $n): ?float {
+
+        if (null === $n) {
+            return null;
+        }
+
+        $q = $n * ($n + 1);
+
+        return $q / 2;
+    }
+
+    /**
      * Usort callback.
      *
      * @param bool $asc ASC ?
