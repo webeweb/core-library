@@ -448,7 +448,11 @@ class FtpClientTest extends AbstractTestCase {
 
         $this->assertGreaterThanOrEqual(FTP_FINISHED, $obj->nbFget($localStream, $this->remoteFile));
 
-        $obj->close();
+        try {
+            $obj->close();
+        } catch (Throwable $ex) {
+            // NOTHING TO DO
+        }
 
         fclose($localStream);
     }
@@ -485,11 +489,7 @@ class FtpClientTest extends AbstractTestCase {
 
         $this->assertGreaterThanOrEqual(FTP_FINISHED, $obj->nbGet($this->localFile, $this->remoteFile));
 
-        try {
-            $obj->close();
-        } catch (Throwable $ex) {
-            // NOTHING TO DO
-        }
+        $obj->close();
     }
 
     /**
