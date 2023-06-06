@@ -4,6 +4,7 @@ CHANGELOG
 ### [8.76.0](https://github.com/webeweb/core-library/tree/v8.76.0) (2023-06-06)
 
 - Add summation() into Integer helper
+- Improve unit tests
 
 ### [8.75.1](https://github.com/webeweb/core-library/tree/v8.75.1) (2023-06-05)
 
