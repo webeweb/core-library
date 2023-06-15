@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [8.77.0](https://github.com/webeweb/core-library/tree/v8.77.0) (2023-06-15)
+
+- Add Pascal's triangle helper
+
 ### [8.76.0](https://github.com/webeweb/core-library/tree/v8.76.0) (2023-06-06)
 
 - Add summation() into Integer helper
