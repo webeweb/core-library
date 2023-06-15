@@ -19,7 +19,7 @@ use WBW\Library\Types\Helper\IntegerHelper;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Maths\Helper
  */
-class PascalsTriangleHelper {
+class PascalTriangleHelper {
 
     /**
      * Cell.
