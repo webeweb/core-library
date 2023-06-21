@@ -11,8 +11,6 @@
 
 namespace WBW\Library\Maths\Helper;
 
-use WBW\Library\Types\Helper\IntegerHelper;
-
 /**
  * Pascal's triangle helper.
  *
@@ -68,7 +66,6 @@ class PascalTriangleHelper {
 
     /**
      * Row.
-     *
      * cell(0,y) + cell(1, y) + ... + cell(y,y)
      *
      * @param int $y The Y.

@@ -22,30 +22,6 @@ use WBW\Library\Types\Exception\IntegerArgumentException;
 class IntegerHelper {
 
     /**
-     * Factorial.
-     *
-     * @param int|null $n The number.
-     * @return float|null Returns the factorial.
-     */
-    public static function factorial(?int $n): ?float {
-
-        if (null === $n || $n < 0) {
-            return null;
-        }
-
-        if (0 === $n) {
-            return 1;
-        }
-
-        $result = $n;
-        while (1 < --$n) {
-            $result *= $n;
-        }
-
-        return $result;
-    }
-
-    /**
      * Determine if a value is an integer.
      *
      * @param mixed $value The value.
@@ -86,23 +62,6 @@ class IntegerHelper {
         }
 
         return intval($value);
-    }
-
-    /**
-     * Summation.
-     *
-     * @param int|null $n The number.
-     * @return float|null Returns the summation.
-     */
-    public static function summation(?int $n): ?float {
-
-        if (null === $n) {
-            return null;
-        }
-
-        $q = $n * ($n + 1);
-
-        return $q / 2;
     }
 
     /**
