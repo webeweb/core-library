@@ -1,6 +1,16 @@
 CHANGELOG
 =========
 
+### master
+
+- Add Date interval factory
+- Add Date/time factory
+- Add Date/time method
+- Add numberBusinessDays() into Date/time helper
+- Improve code quality
+- Move factorial() into a new Integer helper
+- Move summation() into a new Integer helper
+
 ### [8.77.0](https://github.com/webeweb/core-library/tree/v8.77.0) (2023-06-15)
 
 - Add Pascal's triangle helper
