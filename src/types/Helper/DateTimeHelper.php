@@ -369,7 +369,7 @@ class DateTimeHelper extends DateTimeMethod {
         $weeks = $dateB->diff($dateA)->days / 7; // Number of weeks
         $daysW = $workingDays * $weeks; // Number of days during the full weeks
 
-        return $daysA + $daysW + $daysB;
+        return $daysA + $daysW + max($daysB, 0);
     }
 
     /**

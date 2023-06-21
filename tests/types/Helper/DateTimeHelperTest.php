@@ -508,6 +508,26 @@ class DateTimeHelperTest extends AbstractTestCase {
 
         $this->assertEquals(12, DateTimeHelper::numberBusinessDays($a, $b, 3));
         $this->assertEquals(13, DateTimeHelper::numberBusinessDays($a, $b, 3, 5));
+
+        $this->assertEquals(2, DateTimeHelper::numberBusinessDays(new DateTime("2023-06-01"), new DateTime("2023-06-04")));
+        $this->assertEquals(3, DateTimeHelper::numberBusinessDays(new DateTime("2023-06-01"), new DateTime("2023-06-05")));
+        $this->assertEquals(4, DateTimeHelper::numberBusinessDays(new DateTime("2023-06-01"), new DateTime("2023-06-06")));
+        $this->assertEquals(5, DateTimeHelper::numberBusinessDays(new DateTime("2023-06-01"), new DateTime("2023-06-07")));
+
+        $this->assertEquals(1, DateTimeHelper::numberBusinessDays(new DateTime("2023-06-01"), new DateTime("2023-06-04"), 4));
+        $this->assertEquals(2, DateTimeHelper::numberBusinessDays(new DateTime("2023-06-01"), new DateTime("2023-06-05"), 4));
+        $this->assertEquals(3, DateTimeHelper::numberBusinessDays(new DateTime("2023-06-01"), new DateTime("2023-06-06"), 4));
+        $this->assertEquals(4, DateTimeHelper::numberBusinessDays(new DateTime("2023-06-01"), new DateTime("2023-06-07"), 4));
+
+        $this->assertEquals(2, DateTimeHelper::numberBusinessDays(new DateTime("2023-06-01"), new DateTime("2023-06-04"), 4, 2));
+        $this->assertEquals(2, DateTimeHelper::numberBusinessDays(new DateTime("2023-06-01"), new DateTime("2023-06-05"), 4, 2));
+        $this->assertEquals(3, DateTimeHelper::numberBusinessDays(new DateTime("2023-06-01"), new DateTime("2023-06-06"), 4, 2));
+        $this->assertEquals(4, DateTimeHelper::numberBusinessDays(new DateTime("2023-06-01"), new DateTime("2023-06-07"), 4, 2));
+
+        $this->assertEquals(3, DateTimeHelper::numberBusinessDays(new DateTime("2023-06-01"), new DateTime("2023-06-04"), 3, 5));
+        $this->assertEquals(3, DateTimeHelper::numberBusinessDays(new DateTime("2023-06-01"), new DateTime("2023-06-05"), 3, 5));
+        $this->assertEquals(3, DateTimeHelper::numberBusinessDays(new DateTime("2023-06-01"), new DateTime("2023-06-06"), 3, 5));
+        $this->assertEquals(3, DateTimeHelper::numberBusinessDays(new DateTime("2023-06-01"), new DateTime("2023-06-07"), 3, 5));
     }
 
     /**
