@@ -29,6 +29,7 @@ class ResourceHelper {
      * @throws ResourceArgumentException Throws a resource argument exception if the value is not of expected type.
      */
     public static function isResource($value): void {
+
         if (false === is_resource($value)) {
             throw new ResourceArgumentException($value);
         }

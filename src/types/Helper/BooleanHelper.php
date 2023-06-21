@@ -29,6 +29,7 @@ class BooleanHelper {
      * @throws BooleanArgumentException Throws a boolean argument exception if the value is not of expected type.
      */
     public static function isBoolean($value): void {
+
         if (false === is_bool($value)) {
             throw new BooleanArgumentException($value);
         }

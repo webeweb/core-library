@@ -143,6 +143,7 @@ class StringHelper {
      * @throws StringArgumentException Throws a string argument exception if the value is not of expected type.
      */
     public static function isString($value): void {
+
         if (false === is_string($value)) {
             throw new StringArgumentException($value);
         }

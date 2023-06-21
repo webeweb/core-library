@@ -47,6 +47,7 @@ class FloatHelper {
      * @throws FloatArgumentException Throws a float argument exception if the value is not of expected type.
      */
     public static function isFloat($value): void {
+
         if (false === is_float($value)) {
             throw new FloatArgumentException($value);
         }

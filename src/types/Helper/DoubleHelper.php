@@ -30,6 +30,7 @@ class DoubleHelper {
      * @throws DoubleArgumentException Throws a double argument exception if the value is not of expected type.
      */
     public static function isDouble($value): void {
+
         if (false === is_double($value)) {
             throw new DoubleArgumentException($value);
         }
@@ -43,6 +44,7 @@ class DoubleHelper {
      * @throws DoubleArgumentException Throws a double argument exception if the string value does not represent a double.
      */
     public static function parseString(?string $value): ?float {
+
         try {
             return FloatHelper::parseString($value);
         } catch (FloatArgumentException $ex) {
