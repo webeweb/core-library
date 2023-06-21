@@ -25,6 +25,22 @@ use WBW\Library\Types\Tests\AbstractTestCase;
 class DateTimeFactoryTest extends AbstractTestCase {
 
     /**
+     * Test firstLastDateMonth()
+     *
+     * @return void
+     */
+    public function testFirstLastDateMonth(): void {
+
+        // Set a date/time mock.
+        $date = new DateTime("2022-10-27");
+
+        $res = DateTimeFactory::firstLastDateMonth($date);
+
+        $this->assertEquals("2022-10-01", $res[0]->format("Y-m-d"));
+        $this->assertEquals("2022-10-31", $res[1]->format("Y-m-d"));
+    }
+
+    /**
      * Test range()
      *
      * @return void
