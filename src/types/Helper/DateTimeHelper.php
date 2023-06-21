@@ -130,6 +130,7 @@ class DateTimeHelper {
      * @throws InvalidArgumentException Throws an illegal argument exception if the two date/time does not have the same time zone.
      */
     protected static function compareZone(DateTime $a, DateTime $b): void {
+
         if (false === DateTimeZoneHelper::equals($a->getTimezone(), $b->getTimezone())) {
             throw new InvalidArgumentException("The two date/times does not have the same time zone");
         }
@@ -157,7 +158,6 @@ class DateTimeHelper {
      */
     public static function getAge(DateTime $birthdate, DateTime $refDate = null): int {
 
-        // Use the current date/time.
         if (null === $refDate) {
             $refDate = new DateTime();
         }
@@ -281,6 +281,7 @@ class DateTimeHelper {
         $result = intval($date->diff($startDate)->d / 7);
         $result %= $weekCount;
         $result += $weekOffset;
+
         if ($weekCount < $result) {
             $result -= $weekCount;
         }
@@ -354,6 +355,7 @@ class DateTimeHelper {
      * @throws DateArgumentException Throws a date argument exception if the value is not of expected type.
      */
     public static function isDate($value): void {
+
         if (false === strtotime($value)) {
             throw new DateArgumentException($value);
         }
@@ -393,6 +395,7 @@ class DateTimeHelper {
      * @throws InvalidArgumentException Throws an invalid argument exception if number is less than zero.
      */
     protected static function isPositiveOrZero(int $offset): void {
+
         if ($offset < 0) {
             throw new InvalidArgumentException("Number must be positive or equal to zero");
         }
