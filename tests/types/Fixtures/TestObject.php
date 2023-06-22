@@ -12,7 +12,7 @@
 namespace WBW\Library\Types\Tests\Fixtures;
 
 /**
- * Test exception.
+ * Test object.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Types\Tests\Fixtures
