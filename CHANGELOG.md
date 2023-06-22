@@ -1,7 +1,7 @@
 CHANGELOG
 =========
 
-### master
+### [8.78.0](https://github.com/webeweb/core-library/tree/v8.78.0) (2023-06-21)
 
 - Add Date interval factory
 - Add Date/time factory
