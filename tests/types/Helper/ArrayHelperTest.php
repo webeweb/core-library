@@ -23,6 +23,25 @@ use WBW\Library\Types\Tests\AbstractTestCase;
 class ArrayHelperTest extends AbstractTestCase {
 
     /**
+     * Test explode()
+     *
+     * @return void
+     */
+    public function testExplode(): void {
+
+        $arg = ["1", "2", "3", "4", "5"];
+
+        $this->assertEquals(null, ArrayHelper::explode([]));
+        $this->assertEquals(null, ArrayHelper::explode($arg, 1));
+        $this->assertEquals(null, ArrayHelper::explode($arg, 6));
+
+        $this->assertEquals([["1"], ["2"], ["3"], ["4"], ["5"]], ArrayHelper::explode($arg, 5));
+        $this->assertEquals([["1", "2"], ["3", "4"], ["5"]], ArrayHelper::explode($arg, 4));
+        $this->assertEquals([["1", "2"], ["3", "4"], ["5"]], ArrayHelper::explode($arg, 3));
+        $this->assertEquals([["1", "2", "3"], ["4", "5"]], ArrayHelper::explode($arg));
+    }
+
+    /**
      * Test filterBy()
      *
      * @return void

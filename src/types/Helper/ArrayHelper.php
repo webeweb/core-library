@@ -22,6 +22,49 @@ use WBW\Library\Types\Exception\ArrayArgumentException;
 class ArrayHelper {
 
     /**
+     * Explode.
+     *
+     * @param array $array The array.
+     * @param int $n The number.
+     * @return array[]|null Returns the exploded array.
+     */
+    public static function explode(array $array, int $n = 2): ?array {
+
+        $length = count($array);
+
+        if (0 === $length || $length < $n || $n < 2) {
+            return null;
+        }
+
+        $result = [];
+
+        $col = 0;
+        $row = 0;
+
+        $max = intval($length / $n);
+        if (0 < $length % $n) {
+            ++$max;
+        }
+
+        foreach ($array as $current) {
+
+            ++$row;
+            if (1 === $row) {
+                $result[] = [];
+            }
+
+            $result[$col][] = $current;
+
+            if ($max === $row) {
+                $row = 0;
+                ++$col;
+            }
+        }
+
+        return $result;
+    }
+
+    /**
      * Filter by.
      *
      * @param array $array The array.
