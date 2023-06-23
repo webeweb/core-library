@@ -25,14 +25,14 @@ class ArrayHelper {
      * Explode.
      *
      * @param array $array The array.
-     * @param int $n The number.
+     * @param int $parts How many parts ?
      * @return array[]|null Returns the exploded array.
      */
-    public static function explode(array $array, int $n = 2): ?array {
+    public static function explode(array $array, int $parts = 2): ?array {
 
         $length = count($array);
 
-        if (0 === $length || $length < $n || $n < 2) {
+        if (0 === $length || $length < $parts || $parts < 2) {
             return null;
         }
 
@@ -41,8 +41,8 @@ class ArrayHelper {
         $col = 0;
         $row = 0;
 
-        $max = intval($length / $n);
-        if (0 < $length % $n) {
+        $max = intval($length / $parts);
+        if (0 < $length % $parts) {
             ++$max;
         }
 
