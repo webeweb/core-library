@@ -32,7 +32,7 @@ class ArrayHelper {
 
         $length = count($array);
 
-        if (0 === $length || $length < $parts || $parts < 2) {
+        if (0 === $length || $parts < 2) {
             return null;
         }
 

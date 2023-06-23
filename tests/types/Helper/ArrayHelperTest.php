@@ -33,8 +33,8 @@ class ArrayHelperTest extends AbstractTestCase {
 
         $this->assertEquals(null, ArrayHelper::explode([]));
         $this->assertEquals(null, ArrayHelper::explode($arg, 1));
-        $this->assertEquals(null, ArrayHelper::explode($arg, 6));
 
+        $this->assertEquals([["1"], ["2"], ["3"], ["4"], ["5"]], ArrayHelper::explode($arg, 6));
         $this->assertEquals([["1"], ["2"], ["3"], ["4"], ["5"]], ArrayHelper::explode($arg, 5));
         $this->assertEquals([["1", "2"], ["3", "4"], ["5"]], ArrayHelper::explode($arg, 4));
         $this->assertEquals([["1", "2"], ["3", "4"], ["5"]], ArrayHelper::explode($arg, 3));
