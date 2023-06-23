@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [8.79.1](https://github.com/webeweb/core-library/tree/v8.79.1) (2023-06-23)
+
+- Fix explode() into Array helper when parts is greater than array length
+
 ### [8.79.0](https://github.com/webeweb/core-library/tree/v8.79.0) (2023-06-23)
 
 - Add explode() into Array helper
