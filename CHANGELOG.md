@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [8.79.0](https://github.com/webeweb/core-library/tree/v8.79.0) (2023-06-23)
+
+- Add explode() into Array helper
+
 ### [8.78.0](https://github.com/webeweb/core-library/tree/v8.78.0) (2023-06-21)
 
 - Add Date interval factory
