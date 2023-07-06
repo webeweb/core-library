@@ -326,17 +326,17 @@ class DateTimeHelper extends DateTimeMethod {
      * @param DateTime $from From date/time (include).
      * @param DateTime $to To date/time (include).
      * @param int $workingDays The working days (between 1 and 7).
-     * @param int $firstWorkingDay The first working day.
+     * @param int $workingDay1 The first working day.
      * @return int|null Returns the number of business days.
      * @throws Throwable Throws an exception if an error occurs.
      */
-    public static function numberBusinessDays(DateTime $from, DateTime $to, int $workingDays = 5, int $firstWorkingDay = 1): ?int {
+    public static function numberBusinessDays(DateTime $from, DateTime $to, int $workingDays = 5, int $workingDay1 = 1): ?int {
 
-        $min = min($workingDays, $firstWorkingDay);
-        $max = max($workingDays, $firstWorkingDay);
-        $out = $firstWorkingDay + $workingDays;
+        $min = min($workingDays, $workingDay1);
+        $max = max($workingDays, $workingDay1);
+        $out = $workingDay1 + $workingDays; // Last work day of week
 
-        if (false === static::isLessThan($from, $to) || $min < 1 || 7 < $max || 8 < $out) {
+        if ($min < 1 || 7 < $max || 8 < $out) {
             return null;
         }
 
@@ -347,23 +347,33 @@ class DateTimeHelper extends DateTimeMethod {
         $dateB->setTime(0, 0);
         $dateB->modify("+1 day");
 
+        if (false === static::isLessThan($dateA, $dateB)) {
+            return null;
+        }
+
         if (7 === $workingDays) {
             return $dateB->diff($dateA)->days;
         }
 
-        $daysA = 0; // Number of days before first full week
-        $daysB = 0; // Number of days after last full week.
-
         $dayNumberA = static::getDayNumber($dateA);
-        if (1 !== $dayNumberA) {
-            $daysA = min($firstWorkingDay + $workingDays - $dayNumberA, $workingDays);
-            DateTimeMethod::addDay($dateA, 7 - $dayNumberA + 1);
+        $dayNumberB = static::getDayNumber($dateB);
+
+        // Two dates in the same week
+        if (static::getWeekNumber($dateA) === static::getWeekNumber($dateB)) {
+            return min($dayNumberB, $out) - min($dayNumberA, $out);
         }
 
-        $dayNumberB = static::getDayNumber($dateB);
+        $daysA = 0; // Number of days before first full week
+        $daysB = 0; // Number of days after last full week
+
+        if (1 !== $dayNumberA) {
+            $daysA = min($workingDays, $out - $dayNumberA);
+            DateTimeMethod::addDay($dateA, 7 - $dayNumberA + 1); // First monday of full week
+        }
+
         if (7 !== $dayNumberB) {
-            $daysB = min($dayNumberB - $firstWorkingDay, $workingDays);
-            DateTimeMethod::subDay($dateB, $dayNumberB - 1);
+            $daysB = min($workingDays, $dayNumberB - $workingDay1);
+            DateTimeMethod::subDay($dateB, $dayNumberB - 1); // Current monday of week
         }
 
         $weeks = $dateB->diff($dateA)->days / 7; // Number of weeks
