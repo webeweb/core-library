@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [8.79.2](https://github.com/webeweb/core-library/tree/v8.79.2) (2023-07-06)
+
+- Fix numberBusinessDays() when the dates are in the same week
+
 ### [8.79.1](https://github.com/webeweb/core-library/tree/v8.79.1) (2023-06-23)
 
 - Fix explode() into Array helper when parts is greater than array length
