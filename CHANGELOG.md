@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### master
+
+- Improve PHPDoc
+
 ### [8.79.2](https://github.com/webeweb/core-library/tree/v8.79.2) (2023-07-06)
 
 - Fix numberBusinessDays() when the dates are in the same week
