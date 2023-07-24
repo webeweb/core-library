@@ -48,21 +48,21 @@ class OperatingSystem implements OperatingSystemInterface {
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getCodename(): ?string {
         return $this->codename;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getRelease(): ?string {
         return $this->release;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function jsonSerialize(): array {
         return JsonSerializer::serializeOperatingSystem($this);

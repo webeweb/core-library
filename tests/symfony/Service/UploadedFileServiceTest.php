@@ -33,7 +33,7 @@ class UploadedFileServiceTest extends AbstractTestCase {
     private $directory;
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     protected function setUp(): void {
         parent::setUp();

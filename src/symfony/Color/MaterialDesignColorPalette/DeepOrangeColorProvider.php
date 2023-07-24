@@ -38,7 +38,7 @@ class DeepOrangeColorProvider extends AbstractColorProvider implements DeepOrang
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getColors(): array {
 
@@ -59,7 +59,7 @@ class DeepOrangeColorProvider extends AbstractColorProvider implements DeepOrang
     }
 
     /**
-     *{@inheritdoc}
+     *{@inheritDoc}
      */
     public function getName(): string {
         return self::DEEP_ORANGE_COLOR_NAME;

@@ -37,7 +37,7 @@ class StylesheetManagerTest extends AbstractTestCase {
     private $stylesheetProvider;
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     protected function setUp(): void {
         parent::setUp();

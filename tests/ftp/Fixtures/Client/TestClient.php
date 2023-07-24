@@ -33,14 +33,14 @@ class TestClient extends AbstractClient {
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function newFtpException(string $message): FtpException {
         return parent::newFtpException($message);
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function setConnection($connection): AbstractClient {
         return parent::setConnection($connection);

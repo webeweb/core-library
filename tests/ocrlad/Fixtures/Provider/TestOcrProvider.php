@@ -23,7 +23,7 @@ use WBW\Library\OcrLad\Provider\OcrProvider;
 class TestOcrProvider extends OcrProvider {
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function buildFilePaths(IOFile $file): array {
         return parent::buildFilePaths($file);

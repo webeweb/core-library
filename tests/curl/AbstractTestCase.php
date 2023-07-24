@@ -38,7 +38,7 @@ abstract class AbstractTestCase extends BaseTestCase {
     protected $curlResourcePath;
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     protected function setUp(): void {
         parent::setUp();

@@ -74,49 +74,49 @@ class NetworkCard implements NetworkCardInterface {
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getDuplex(): ?string {
         return $this->duplex;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getIpv4(): ?string {
         return $this->ipv4;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getIpv6(): ?string {
         return $this->ipv6;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getMac(): ?string {
         return $this->mac;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getSpeed(): ?string {
         return $this->speed;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getStatus(): ?string {
         return $this->status;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function jsonSerialize(): array {
         return JsonSerializer::serializeNetworkCard($this);

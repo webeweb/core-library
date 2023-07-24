@@ -69,42 +69,42 @@ class HardDisk implements HardDiskInterface {
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getAvailable(): ?string {
         return $this->available;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getFileSystem(): ?string {
         return $this->fileSystem;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getMountedOn(): ?string {
         return $this->mount;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getUsePercent(): ?string {
         return $this->usePercent;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getUsed(): ?string {
         return $this->used;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function jsonSerialize(): array {
         return JsonSerializer::serializeHardDisk($this);

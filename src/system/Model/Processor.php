@@ -39,70 +39,70 @@ class Processor implements ProcessorInterface {
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getCoreId(): ?string {
         return ArrayHelper::get($this->values, "core id");
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getCpuCores(): ?string {
         return ArrayHelper::get($this->values, "cpu cores");
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getCpuMhz(): ?string {
         return ArrayHelper::get($this->values, "cpu MHz");
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getKeys(): array {
         return array_keys($this->values);
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getModelName(): ?string {
         return ArrayHelper::get($this->values, "model name");
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getProcessor(): ?string {
         return ArrayHelper::get($this->values, "processor");
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getValue(string $key): ?string {
         return ArrayHelper::get($this->values, $key);
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getValues(): array {
         return $this->values;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getVendorId(): ?string {
         return ArrayHelper::get($this->values, "vendor_id");
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function jsonSerialize(): array {
         return JsonSerializer::serializeProcessor($this);

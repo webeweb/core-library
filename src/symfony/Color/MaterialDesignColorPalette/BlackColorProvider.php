@@ -38,7 +38,7 @@ class BlackColorProvider extends AbstractColorProvider implements BlackColorProv
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getColors(): array {
 
@@ -59,7 +59,7 @@ class BlackColorProvider extends AbstractColorProvider implements BlackColorProv
     }
 
     /**
-     *{@inheritdoc}
+     *{@inheritDoc}
      */
     public function getName(): string {
         return self::BLACK_COLOR_NAME;

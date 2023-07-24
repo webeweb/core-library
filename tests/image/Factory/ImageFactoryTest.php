@@ -32,7 +32,7 @@ class ImageFactoryTest extends AbstractTestCase {
     private $images;
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     protected function setUp(): void {
         parent::setUp();

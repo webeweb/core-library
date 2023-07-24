@@ -38,7 +38,7 @@ class GreyColorProvider extends AbstractColorProvider implements GreyColorProvid
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getColors(): array {
 
@@ -55,7 +55,7 @@ class GreyColorProvider extends AbstractColorProvider implements GreyColorProvid
     }
 
     /**
-     *{@inheritdoc}
+     *{@inheritDoc}
      */
     public function getName(): string {
         return self::GREY_COLOR_NAME;

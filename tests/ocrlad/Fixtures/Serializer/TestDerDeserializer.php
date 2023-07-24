@@ -24,21 +24,21 @@ use WBW\Library\OcrLad\Serializer\DerDeserializer;
 class TestDerDeserializer extends DerDeserializer {
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public static function deserializePage(string $rawData): ?Page {
         return parent::deserializePage($rawData);
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public static function deserializeWord(string $rawData): ?Word {
         return parent::deserializeWord($rawData);
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public static function processHeaders(string $rawData): array {
         return parent::processHeaders($rawData);

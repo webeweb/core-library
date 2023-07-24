@@ -31,7 +31,7 @@ class XmlDeserializerHelperTest extends AbstractTestCase {
     private $document;
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     protected function setUp(): void {
         parent::setUp();

@@ -35,7 +35,7 @@ class ImageHelperTest extends AbstractTestCase {
     private $images;
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     protected function setUp(): void {
         parent::setUp();

@@ -85,63 +85,63 @@ class Cpu implements CpuInterface {
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getHi(): ?float {
         return $this->hi;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getId(): ?float {
         return $this->id;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getNi(): ?float {
         return $this->ni;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getSi(): ?float {
         return $this->si;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getSt(): ?float {
         return $this->st;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getSy(): ?float {
         return $this->sy;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getUs(): ?float {
         return $this->us;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getWa(): ?float {
         return $this->wa;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function jsonSerialize(): array {
         return JsonSerializer::serializeCpu($this);

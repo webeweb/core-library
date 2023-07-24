@@ -37,7 +37,7 @@ class ColorManagerTest extends AbstractTestCase {
     private $colorProvider;
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     protected function setUp(): void {
         parent::setUp();

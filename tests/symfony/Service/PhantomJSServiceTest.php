@@ -44,7 +44,7 @@ class PhantomJSServiceTest extends AbstractTestCase {
     private $scriptsPath;
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     protected function setUp(): void {
         parent::setUp();

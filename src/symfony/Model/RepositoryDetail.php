@@ -61,14 +61,14 @@ class RepositoryDetail implements RepositoryDetailInterface {
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getAvailable(): ?int {
         return $this->available;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getAveragePercent(): ?float {
 
@@ -80,14 +80,14 @@ class RepositoryDetail implements RepositoryDetailInterface {
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getColumn(): ?string {
         return $this->column;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getField(): ?string {
         return $this->field;

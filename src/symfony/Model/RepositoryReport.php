@@ -53,7 +53,7 @@ class RepositoryReport implements RepositoryReportInterface {
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getDetails(): array {
         return $this->details;

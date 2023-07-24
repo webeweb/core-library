@@ -30,7 +30,7 @@ class IOFileTest extends AbstractTestCase {
     private $filename;
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     protected function setUp(): void {
         parent::setUp();

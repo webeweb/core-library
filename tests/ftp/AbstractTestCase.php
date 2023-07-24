@@ -51,7 +51,7 @@ abstract class AbstractTestCase extends BaseTestCase {
     protected $remoteFile;
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     protected function setUp(): void {
         parent::setUp();

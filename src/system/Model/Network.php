@@ -50,28 +50,28 @@ class Network implements NetworkInterface {
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getDns(): ?string {
         return $this->dns;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getGateway(): ?string {
         return $this->gateway;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getHostname(): ?string {
         return $this->hostname;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function jsonSerialize(): array {
         return JsonSerializer::serializeNetwork($this);

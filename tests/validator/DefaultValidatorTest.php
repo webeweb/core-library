@@ -33,7 +33,7 @@ class DefaultValidatorTest extends AbstractTestCase {
     private $ruleSet;
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     protected function setUp(): void {
         parent::setUp();

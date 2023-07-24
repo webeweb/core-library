@@ -45,21 +45,21 @@ class SimpleJsonResponseData implements SimpleJsonResponseDataInterface {
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getNotify(): ?string {
         return $this->notify;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getStatus(): ?int {
         return $this->status;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function jsonSerialize(): array {
 
@@ -70,7 +70,7 @@ class SimpleJsonResponseData implements SimpleJsonResponseDataInterface {
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function setNotify(?string $notify): SimpleJsonResponseDataInterface {
         $this->notify = $notify;
@@ -78,7 +78,7 @@ class SimpleJsonResponseData implements SimpleJsonResponseDataInterface {
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function setStatus(?int $status): SimpleJsonResponseDataInterface {
         $this->status = $status;

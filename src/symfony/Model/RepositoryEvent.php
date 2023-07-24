@@ -89,63 +89,63 @@ class RepositoryEvent implements RepositoryEventInterface {
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getEntityData(): ?string {
         return $this->entityData;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getEntityId(): ?string {
         return $this->entityId;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getRequestDataGet(): ?string {
         return $this->requestDataGet;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getRequestDataPost(): ?string {
         return $this->requestDataPost;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getRequestMethod(): ?string {
         return $this->requestMethod;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getRequestRoute(): ?string {
         return $this->requestRoute;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getRequestUrl(): ?string {
         return $this->requestUrl;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function jsonSerialize(): array {
         return JsonSerializer::serializeRepositoryEvent($this);
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function setEntityData(?string $entityData): RepositoryEventInterface {
         $this->entityData = $entityData;
@@ -153,7 +153,7 @@ class RepositoryEvent implements RepositoryEventInterface {
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function setEntityId(?string $entityId): RepositoryEventInterface {
         $this->entityId = $entityId;
@@ -161,7 +161,7 @@ class RepositoryEvent implements RepositoryEventInterface {
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function setRequestDataGet(?string $requestDataGet): RepositoryEventInterface {
         $this->requestDataGet = $requestDataGet;
@@ -169,7 +169,7 @@ class RepositoryEvent implements RepositoryEventInterface {
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function setRequestDataPost(?string $requestDataPost): RepositoryEventInterface {
         $this->requestDataPost = $requestDataPost;
@@ -177,7 +177,7 @@ class RepositoryEvent implements RepositoryEventInterface {
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function setRequestMethod(?string $requestMethod): RepositoryEventInterface {
         $this->requestMethod = $requestMethod;
@@ -185,7 +185,7 @@ class RepositoryEvent implements RepositoryEventInterface {
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function setRequestRoute(?string $requestRoute): RepositoryEventInterface {
         $this->requestRoute = $requestRoute;
@@ -193,7 +193,7 @@ class RepositoryEvent implements RepositoryEventInterface {
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function setRequestUrl(?string $requestUrl): RepositoryEventInterface {
         $this->requestUrl = $requestUrl;

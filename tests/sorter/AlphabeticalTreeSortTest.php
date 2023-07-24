@@ -31,7 +31,7 @@ class AlphabeticalTreeSortTest extends AbstractTestCase {
     private $nodes;
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     protected function setUp(): void {
         parent::setUp();

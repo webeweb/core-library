@@ -22,7 +22,7 @@ use WBW\Library\Serializer\Model\CsvSerializable;
 class TestCsvSerializable implements CsvSerializable {
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function csvSerialize(): ?string {
         return "";

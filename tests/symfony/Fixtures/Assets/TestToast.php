@@ -30,14 +30,14 @@ class TestToast extends AbstractToast {
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function setContent(string $content): ToastInterface {
         return parent::setContent($content);
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function setType(string $type): ToastInterface {
         return parent::setType($type);

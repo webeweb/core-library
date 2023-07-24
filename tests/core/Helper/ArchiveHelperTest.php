@@ -25,7 +25,7 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 class ArchiveHelperTest extends AbstractTestCase {
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public static function tearDownAfterClass(): void {
 

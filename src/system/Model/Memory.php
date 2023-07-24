@@ -39,63 +39,63 @@ class Memory implements MemoryInterface {
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getKeys(): array {
         return array_keys($this->values);
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getMemAvailable(): ?int {
         return $this->getValue("MemAvailable");
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getMemFree(): ?int {
         return $this->getValue("MemFree");
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getMemTotal(): ?int {
         return $this->getValue("MemTotal");
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getSwapFree(): ?int {
         return $this->getValue("SwapFree");
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getSwapTotal(): ?int {
         return $this->getValue("SwapTotal");
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getValue(string $key): ?int {
         return ArrayHelper::get($this->values, $key);
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getValues(): array {
         return $this->values;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function jsonSerialize(): array {
         return JsonSerializer::serializeMemory($this);

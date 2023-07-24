@@ -26,14 +26,14 @@ class TestSubstituableRequest extends AbstractRequest implements SubstituableReq
     use StringIdTrait;
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getResourcePath(): string {
         return "/resource-path/{id}";
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getSubstituables(): array {
 

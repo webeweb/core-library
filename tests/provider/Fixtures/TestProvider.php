@@ -34,7 +34,7 @@ class TestProvider extends AbstractProvider {
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function buildResourcePath(AbstractRequest $request): string {
         return parent::buildResourcePath($request);

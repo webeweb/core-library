@@ -32,7 +32,7 @@ class QuoteManager extends AbstractManager implements QuoteManagerInterface {
     const SERVICE_NAME = "wbw.core.manager.quote";
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function addProvider(ProviderInterface $provider): ManagerInterface {
 
@@ -44,7 +44,7 @@ class QuoteManager extends AbstractManager implements QuoteManagerInterface {
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function containsProvider(ProviderInterface $provider): bool {
 

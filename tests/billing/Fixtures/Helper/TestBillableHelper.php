@@ -23,7 +23,7 @@ use WBW\Library\Billing\Model\BillableInterface;
 class TestBillableHelper extends BillableHelper {
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public static function calcTotal(BillableInterface $billable, string $method): float {
         return parent::calcTotal($billable, $method);

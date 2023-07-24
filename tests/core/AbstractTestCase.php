@@ -46,7 +46,7 @@ abstract class AbstractTestCase extends TestCase {
     protected $passwordAuthentication;
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     protected function setUp(): void {
         parent::setUp();

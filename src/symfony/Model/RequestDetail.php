@@ -65,35 +65,35 @@ class RequestDetail implements RequestDetailInterface {
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getDataGet(): ?string {
         return $this->dataGet;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getDataPost(): ?string {
         return $this->dataPost;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getXmlHttp(): ?bool {
         return $this->xmlHttp;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function jsonSerialize(): array {
         return JsonSerializer::serializeRequestDetail($this);
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function setDataGet(?string $dataGet): RequestDetailInterface {
         $this->dataGet = $dataGet;
@@ -101,7 +101,7 @@ class RequestDetail implements RequestDetailInterface {
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function setDataPost(?string $dataPost): RequestDetailInterface {
         $this->dataPost = $dataPost;
@@ -109,7 +109,7 @@ class RequestDetail implements RequestDetailInterface {
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function setXmlHttp(?bool $xmlHttp): RequestDetailInterface {
         $this->xmlHttp = $xmlHttp;

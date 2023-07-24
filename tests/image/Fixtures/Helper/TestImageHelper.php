@@ -23,7 +23,7 @@ use WBW\Library\Image\Model\Image;
 class TestImageHelper extends ImageHelper {
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public static function saveOutputStream(Image $image, $outputStream, string $pathname): bool {
         return parent::saveOutputStream($image, $outputStream, $pathname);

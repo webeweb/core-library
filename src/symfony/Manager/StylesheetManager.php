@@ -32,7 +32,7 @@ class StylesheetManager extends AbstractManager implements StylesheetManagerInte
     const SERVICE_NAME = "wbw.core.manager.stylesheet";
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function addProvider(ProviderInterface $provider): ManagerInterface {
 
@@ -44,7 +44,7 @@ class StylesheetManager extends AbstractManager implements StylesheetManagerInte
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function containsProvider(ProviderInterface $provider): bool {
 
@@ -56,7 +56,7 @@ class StylesheetManager extends AbstractManager implements StylesheetManagerInte
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getStylesheets(): array {
 

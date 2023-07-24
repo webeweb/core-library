@@ -33,7 +33,7 @@ class ColorManager extends AbstractManager implements ColorManagerInterface {
     const SERVICE_NAME = "wbw.core.manager.color";
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function addProvider(ProviderInterface $provider): ManagerInterface {
 
@@ -45,7 +45,7 @@ class ColorManager extends AbstractManager implements ColorManagerInterface {
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function containsProvider(ProviderInterface $provider): bool {
 

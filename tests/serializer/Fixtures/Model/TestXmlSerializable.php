@@ -22,7 +22,7 @@ use WBW\Library\Serializer\Model\XmlSerializable;
 class TestXmlSerializable implements XmlSerializable {
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function xmlSerialize(): ?string {
         return "";

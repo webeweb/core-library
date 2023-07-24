@@ -29,7 +29,7 @@ class TestQuoteProvider extends AbstractQuoteProvider {
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getDomain(): string {
         return "test";

@@ -46,7 +46,7 @@ class FtpClientTest extends AbstractTestCase {
     private $myself;
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     protected function setUp(): void {
         parent::setUp();

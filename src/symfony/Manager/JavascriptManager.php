@@ -32,7 +32,7 @@ class JavascriptManager extends AbstractManager implements JavascriptManagerInte
     const SERVICE_NAME = "wbw.core.manager.javascript";
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function addProvider(ProviderInterface $provider): ManagerInterface {
 
@@ -44,7 +44,7 @@ class JavascriptManager extends AbstractManager implements JavascriptManagerInte
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function containsProvider(ProviderInterface $provider): bool {
 
@@ -56,7 +56,7 @@ class JavascriptManager extends AbstractManager implements JavascriptManagerInte
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function getJavascripts(): array {
 
