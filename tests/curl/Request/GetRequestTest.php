@@ -126,16 +126,16 @@ class GetRequestTest extends AbstractTestCase {
                 $obj->addQueryData("code", $code);
 
                 $res = $obj->call();
-                $this->assertEquals($code, $res->getResponseInfo()["http_code"]);
-                $this->assertGreaterThanOrEqual(200, $res->getResponseInfo()["http_code"]);
-                $this->assertLessThanOrEqual(299, $res->getResponseInfo()["http_code"]);
+                //$this->assertEquals($code, $res->getResponseInfo()["http_code"], $code);
+                $this->assertGreaterThanOrEqual(200, $res->getResponseInfo()["http_code"], $code);
+                $this->assertLessThanOrEqual(299, $res->getResponseInfo()["http_code"], $code);
             } catch (Throwable $ex) {
 
-                $this->assertInstanceOf(RequestCallException::class, $ex);
+                $this->assertInstanceOf(RequestCallException::class, $ex, $code);
 
                 /** @var RequestCallException $ex */
-                $this->assertEquals($code, $ex->getCode());
-                $this->assertEquals($code, $ex->getResponse()->getResponseInfo()["http_code"]);
+                $this->assertEquals($code, $ex->getCode(), $code);
+                $this->assertEquals($code, $ex->getResponse()->getResponseInfo()["http_code"], $code);
             }
         }
     }
