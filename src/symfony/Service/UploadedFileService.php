@@ -95,9 +95,10 @@ class UploadedFileService implements UploadedFileServiceInterface {
      * @param SplFileInfo $uploadedFile The uploaded file.
      * @param string $subdirectory The subdirectory.
      * @param string|null $filename The filename.
+     * @param int|null $permissions The permissions.
      * @return string|null Returns the uploaded file path.
      */
-    public function save(SplFileInfo $uploadedFile, string $subdirectory, string $filename = null): ?string {
+    public function save(SplFileInfo $uploadedFile, string $subdirectory, string $filename = null, int $permissions = 0600): ?string {
 
         // Directory
         $dir = implode("", [
@@ -115,6 +116,8 @@ class UploadedFileService implements UploadedFileServiceInterface {
         if (false === $this->mkdir($dir) || false === rename($uploadedFile->getPathname(), $dst)) {
             return null;
         }
+
+        chmod($dst, $permissions);
 
         return str_replace($this->getDirectory(), "", $dst);
     }
