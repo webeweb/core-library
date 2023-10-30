@@ -1,9 +1,10 @@
 CHANGELOG
 =========
 
-### master
+### [8.80.0](https://github.com/webeweb/core-library/tree/v8.80.0) (2023-10-30)
 
 - Improve PHPDoc
+- Update Uploaded file service: add permissions parameter
 
 ### [8.79.2](https://github.com/webeweb/core-library/tree/v8.79.2) (2023-07-06)
 
