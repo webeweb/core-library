@@ -78,8 +78,20 @@ class FtpClientTest extends AbstractTestCase {
 
         $obj = $this->client;
 
-        $this->assertSame($obj, $obj->chdir($this->remoteDir));
-        $this->assertSame($obj, $obj->cdup());
+        try {
+
+            $this->assertSame($obj, $obj->chdir($this->remoteDir));
+            $this->assertSame($obj, $obj->cdup());
+        } catch (Throwable $ex) {
+
+            $msg = implode("", [
+                $this->message,
+                "ftp_cdup failed",
+            ]);
+
+            $this->assertInstanceOf(FtpException::class, $ex);
+            $this->assertEquals($msg, $ex->getMessage());
+        }
 
         $obj->close();
     }
