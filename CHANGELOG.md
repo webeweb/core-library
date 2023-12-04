@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [8.81.0](https://github.com/webeweb/core-library/tree/v8.81.0) (2023-12-04)
+
+- Update dependencies
+
 ### [8.80.0](https://github.com/webeweb/core-library/tree/v8.80.0) (2023-10-30)
 
 - Improve PHPDoc
