@@ -26,6 +26,7 @@ class TerminalLogger extends AbstractLogger {
      *{@inheritDoc}
      */
     public function log($level, $message, array $context = []): void {
+
         echo vsprintf("[%s] %s: %s, %s\n", [
             (new DateTime())->format("Y-m-d h:i:s"),
             $level,
