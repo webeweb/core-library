@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+### [8.82.0](https://github.com/webeweb/core-library/tree/v8.82.0) (2024-03-04)
+
+- Update dependencies
+- Improve code quality
+
 ### [8.81.0](https://github.com/webeweb/core-library/tree/v8.81.0) (2023-12-04)
 
 - Update dependencies
