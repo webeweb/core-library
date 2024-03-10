@@ -31,7 +31,7 @@ class JsonSerializer {
      * Serialize an accounting account.
      *
      * @param AccountingAccountInterface $model The model.
-     * @return array Returns the serialized model.
+     * @return array<string,mixed> Returns the serialized model.
      */
     public static function serializeAccountingAccount(AccountingAccountInterface $model): array {
 
@@ -46,7 +46,7 @@ class JsonSerializer {
      * Serialize a bank details.
      *
      * @param BankDetailsInterface $model The model.
-     * @return array Returns the serialized model.
+     * @return array<string,mixed> Returns the serialized model.
      */
     public static function serializeBankDetails(BankDetailsInterface $model): array {
 
@@ -67,7 +67,7 @@ class JsonSerializer {
      * Serialize a payment choice.
      *
      * @param PaymentChoiceInterface $model The model.
-     * @return array Returns the serialized model.
+     * @return array<string,mixed> Returns the serialized model.
      */
     public static function serializePaymentChoice(PaymentChoiceInterface $model): array {
 
@@ -80,7 +80,7 @@ class JsonSerializer {
      * Serialize a payment term.
      *
      * @param PaymentTermInterface $model The model.
-     * @return array Returns the serialized model.
+     * @return array<string,mixed> Returns the serialized model.
      */
     public static function serializePaymentTerm(PaymentTermInterface $model): array {
 
@@ -94,7 +94,7 @@ class JsonSerializer {
      * Serialize a VAT rate.
      *
      * @param VatRateInterface $model The model.
-     * @return array Returns the serialized model.
+     * @return array<string,mixed> Returns the serialized model.
      */
     public static function serializeVatRate(VatRateInterface $model): array {
 
