@@ -11,8 +11,7 @@
 
 namespace WBW\Library\Sorter\Tests\Fixtures\Model;
 
-use WBW\Library\Core\Tests\Fixtures\Model\TestNode as BaseNode;
-use WBW\Library\Sorter\Model\AlphabeticalTreeNodeInterface;
+use WBW\Library\Symfony\Assets\AbstractNavigationNode;
 
 /**
  * Test node.
@@ -20,19 +19,16 @@ use WBW\Library\Sorter\Model\AlphabeticalTreeNodeInterface;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Sorter\Tests\Fixtures\Model
  */
-class TestNode extends BaseNode implements AlphabeticalTreeNodeInterface {
+class TestNode extends AbstractNavigationNode {
 
     /**
-     * {@inheritDoc}
+     * Constructor.
+     *
+     * @param string $id The id.
      */
-    public function getAlphabeticalTreeNodeLabel(): ?string {
-        return $this->getId();
-    }
+    public function __construct(string $id) {
+        parent::__construct("test");
 
-    /**
-     * {@inheritDoc}
-     */
-    public function getAlphabeticalTreeNodeParent(): ?AlphabeticalTreeNodeInterface {
-        return $this->getParent();
+        $this->setId($id);
     }
 }
