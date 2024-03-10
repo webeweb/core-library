@@ -61,14 +61,14 @@ abstract class AbstractNavigationNode implements NavigationNodeInterface {
     /**
      * Navigation nodes.
      *
-     * @var AbstractNavigationNode[]
+     * @var NavigationNodeInterface[]|null
      */
     private $nodes;
 
     /**
      * Parent.
      *
-     * @var AbstractNavigationNode|null
+     * @var NavigationNodeInterface|null
      */
     private $parent;
 
@@ -263,9 +263,9 @@ abstract class AbstractNavigationNode implements NavigationNodeInterface {
      * Set the index.
      *
      * @param array<string,int> $index The index.
-     * @return AbstractNavigationNode Returns this navigation node.
+     * @return NavigationNodeInterface Returns this navigation node.
      */
-    protected function setIndex(array $index): AbstractNavigationNode {
+    protected function setIndex(array $index): NavigationNodeInterface {
         $this->index = $index;
         return $this;
     }
@@ -281,21 +281,18 @@ abstract class AbstractNavigationNode implements NavigationNodeInterface {
     /**
      * Set the navigation nodes.
      *
-     * @param AbstractNavigationNode[] $nodes The navigation nodes.
-     * @return AbstractNavigationNode Returns this navigation node.
+     * @param NavigationNodeInterface[] $nodes The navigation nodes.
+     * @return NavigationNodeInterface Returns this navigation node.
      */
-    protected function setNodes(array $nodes): AbstractNavigationNode {
+    protected function setNodes(array $nodes): NavigationNodeInterface {
         $this->nodes = $nodes;
         return $this;
     }
 
     /**
-     * Set the parent.
-     *
-     * @param AbstractNavigationNode|null $parent The parent.
-     * @return AbstractNavigationNode Returns this navigation node.
+     * {@inheritDoc}
      */
-    protected function setParent(?NavigationNodeInterface $parent): NavigationNodeInterface {
+    public function setParent(?NavigationNodeInterface $parent): NavigationNodeInterface {
         $this->parent = $parent;
         return $this;
     }
@@ -320,9 +317,9 @@ abstract class AbstractNavigationNode implements NavigationNodeInterface {
      * Set the visible.
      *
      * @param bool|null $visible Visible ?
-     * @return AbstractNavigationNode Returns this navigation node.
+     * @return NavigationNodeInterface Returns this navigation node.
      */
-    protected function setVisible(?bool $visible): AbstractNavigationNode {
+    protected function setVisible(?bool $visible): NavigationNodeInterface {
         $this->visible = $visible;
         return $this;
     }

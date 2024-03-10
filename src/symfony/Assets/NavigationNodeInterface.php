@@ -230,6 +230,14 @@ interface NavigationNodeInterface extends AlphabeticalTreeNodeInterface, JsonSer
     public function setMatcher(?string $matcher): NavigationNodeInterface;
 
     /**
+     * Set the parent.
+     *
+     * @param NavigationNodeInterface|null $parent The parent.
+     * @return NavigationNodeInterface Returns this navigation node.
+     */
+    public function setParent(?NavigationNodeInterface $parent): NavigationNodeInterface;
+
+    /**
      * Set the target.
      *
      * @param string|null $target The target.
