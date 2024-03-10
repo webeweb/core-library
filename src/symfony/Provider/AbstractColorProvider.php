@@ -38,7 +38,8 @@ abstract class AbstractColorProvider implements ColorProviderInterface, JsonSeri
     }
 
     /**
-     *{@inheritDoc}
+     * {@inheritDoc}
+     * @return array<string,mixed> Returns this serialized instance.
      */
     public function jsonSerialize(): array {
 
