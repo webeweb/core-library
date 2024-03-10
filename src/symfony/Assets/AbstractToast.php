@@ -63,6 +63,7 @@ abstract class AbstractToast implements ToastInterface {
 
     /**
      * {@inheritDoc}
+     * @return array<string,mixed> Returns this serialized instance.
      */
     public function jsonSerialize(): array {
         return JsonSerializer::serializeToast($this);
