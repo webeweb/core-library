@@ -28,7 +28,7 @@ class AlphabeticalTreeNodeHelperTest extends AbstractTestCase {
     /**
      * Nodes.
      *
-     * @var AlphabeticalTreeNodeInterface[]
+     * @var TestNode[]
      */
     private $nodes;
 
