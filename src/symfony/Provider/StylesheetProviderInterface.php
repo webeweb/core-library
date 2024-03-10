@@ -43,7 +43,7 @@ interface StylesheetProviderInterface extends ProviderInterface {
     /**
      * Get the stylesheets.
      *
-     * @return array Returns the stylesheets.
+     * @return mixed[] Returns the stylesheets.
      */
     public function getStylesheets(): array;
 }
