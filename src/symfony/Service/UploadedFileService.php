@@ -83,6 +83,7 @@ class UploadedFileService implements UploadedFileServiceInterface {
      * @return string Returns the path.
      */
     public function path(string $filename): string {
+
         return implode(DIRECTORY_SEPARATOR, [
             $this->getDirectory(),
             $filename,
@@ -95,7 +96,7 @@ class UploadedFileService implements UploadedFileServiceInterface {
      * @param SplFileInfo $uploadedFile The uploaded file.
      * @param string $subdirectory The subdirectory.
      * @param string|null $filename The filename.
-     * @param int|null $permissions The permissions.
+     * @param int $permissions The permissions.
      * @return string|null Returns the uploaded file path.
      */
     public function save(SplFileInfo $uploadedFile, string $subdirectory, string $filename = null, int $permissions = 0600): ?string {
