@@ -22,7 +22,7 @@ interface SubstituableRequestInterface {
     /**
      * Get the substituables.
      *
-     * @return array Returns the substituables.
+     * @return array<string,mixed> Returns the substituables.
      */
     public function getSubstituables(): array;
 }
