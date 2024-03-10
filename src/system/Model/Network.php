@@ -72,6 +72,7 @@ class Network implements NetworkInterface {
 
     /**
      * {@inheritDoc}
+     * @return array<string,mixed> Returns this serialized instance.
      */
     public function jsonSerialize(): array {
         return JsonSerializer::serializeNetwork($this);
