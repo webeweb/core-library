@@ -51,7 +51,7 @@ abstract class Billable implements BillableInterface {
     /**
      * Details.
      *
-     * @var Collection
+     * @var Collection<int,BillableDetailInterface>
      */
     protected $details;
 
@@ -101,6 +101,7 @@ abstract class Billable implements BillableInterface {
 
     /**
      * {@inheritDoc}
+     * @return array<string,mixed> Returns this serialized instance.
      */
     public function jsonSerialize(): array {
         return JsonSerializer::serializeBillable($this);
@@ -129,7 +130,7 @@ abstract class Billable implements BillableInterface {
     /**
      * Set the details.
      *
-     * @param Collection $details The details.
+     * @param Collection<int,BillableDetailInterface> $details The details.
      * @return BillableInterface Returns this billable.
      */
     protected function setDetails(Collection $details): BillableInterface {
