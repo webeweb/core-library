@@ -25,14 +25,14 @@ class Processor implements ProcessorInterface {
     /**
      * Values.
      *
-     * @var string[]
+     * @var array<string,string>
      */
     protected $values;
 
     /**
      * Constructor.
      *
-     * @param string[] $values The values.
+     * @param array<string,string> $values The values.
      */
     public function __construct(array $values) {
         $this->setValues($values);
@@ -112,7 +112,7 @@ class Processor implements ProcessorInterface {
     /**
      * Set the values.
      *
-     * @param string[] $values The values.
+     * @param array<string,string> $values The values.
      * @return ProcessorInterface Returns this processor.
      */
     protected function setValues(array $values): ProcessorInterface {
