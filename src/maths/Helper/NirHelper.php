@@ -56,6 +56,6 @@ class NirHelper {
             return null;
         }
 
-        return 97 - intval($nbr) % 97;
+        return (string) (97 - intval($nbr) % 97);
     }
 }
