@@ -22,7 +22,7 @@ interface StylesheetManagerInterface extends ManagerInterface {
     /**
      * Get the stylesheets.
      *
-     * @return array Returns the stylesheets.
+     * @return mixed[] Returns the stylesheets.
      */
     public function getStylesheets(): array;
 }
