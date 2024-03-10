@@ -25,7 +25,7 @@ class JsonSerializerHelper {
      * Serialize an array.
      *
      * @param JsonSerializable[] $models The models.
-     * @return array Returns the serialized array.
+     * @return mixed[] Returns the serialized array.
      */
     public static function jsonSerializeArray(array $models): array {
 
@@ -46,7 +46,7 @@ class JsonSerializerHelper {
      * Serialize a model.
      *
      * @param JsonSerializable|null $model The model.
-     * @return array|null Returns the serialized model.
+     * @return array<string,mixed>|null Returns the serialized model.
      */
     public static function jsonSerializeModel(?JsonSerializable $model): ?array {
 
