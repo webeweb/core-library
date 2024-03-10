@@ -113,7 +113,7 @@ class ArrayHelperTest extends AbstractTestCase {
         }
 
         $key = function(int $item): string {
-            return "start_by_" . substr($item, 0, 1);
+            return "start_by_" . substr((string) $item, 0, 1);
         };
 
         $res = ArrayHelper::hashBy($arg, $key);
@@ -146,7 +146,7 @@ class ArrayHelperTest extends AbstractTestCase {
         }
 
         $key = function(int $item): string {
-            return "start_by_" . substr($item, 0, 1);
+            return "start_by_" . substr((string) $item, 0, 1);
         };
 
         $res = ArrayHelper::indexBy($arg, $key);
