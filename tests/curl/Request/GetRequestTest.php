@@ -123,19 +123,19 @@ class GetRequestTest extends AbstractTestCase {
 
             try {
 
-                $obj->addQueryData("code", $code);
+                $obj->addQueryData("code", (string) $code);
 
                 $res = $obj->call();
                 //$this->assertEquals($code, $res->getResponseInfo()["http_code"], $code);
-                $this->assertGreaterThanOrEqual(200, $res->getResponseInfo()["http_code"], $code);
-                $this->assertLessThanOrEqual(299, $res->getResponseInfo()["http_code"], $code);
+                $this->assertGreaterThanOrEqual(200, $res->getResponseInfo()["http_code"], (string) $code);
+                $this->assertLessThanOrEqual(299, $res->getResponseInfo()["http_code"], (string) $code);
             } catch (Throwable $ex) {
 
-                $this->assertInstanceOf(RequestCallException::class, $ex, $code);
+                $this->assertInstanceOf(RequestCallException::class, $ex, (string) $code);
 
                 /** @var RequestCallException $ex */
-                $this->assertEquals($code, $ex->getCode(), $code);
-                $this->assertEquals($code, $ex->getResponse()->getResponseInfo()["http_code"], $code);
+                $this->assertEquals($code, $ex->getCode(), (string) $code);
+                $this->assertEquals($code, $ex->getResponse()->getResponseInfo()["http_code"], (string) $code);
             }
         }
     }
@@ -166,7 +166,7 @@ class GetRequestTest extends AbstractTestCase {
 
         $obj = new GetRequest($this->curlConfiguration, $this->curlResourcePath);
         $obj->getConfiguration()->setRequestTimeout(10);
-        $obj->addQueryData("sleep", 60);
+        $obj->addQueryData("sleep", "60");
 
         try {
 
