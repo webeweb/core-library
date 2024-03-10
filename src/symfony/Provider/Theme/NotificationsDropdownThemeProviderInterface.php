@@ -31,7 +31,7 @@ interface NotificationsDropdownThemeProviderInterface extends ThemeProviderInter
     /**
      * Get the notifications.
      *
-     * @return array Returns the notifications.
+     * @return mixed[] Returns the notifications.
      */
     public function getNotifications(): array;
 }
