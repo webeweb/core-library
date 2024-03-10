@@ -31,7 +31,7 @@ interface TasksDropdownThemeProviderInterface extends ThemeProviderInterface {
     /**
      * Get the tasks.
      *
-     * @return array Returns the tasks.
+     * @return mixed[] Returns the tasks.
      */
     public function getTasks(): array;
 }
