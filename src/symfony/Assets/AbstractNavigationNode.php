@@ -47,7 +47,7 @@ abstract class AbstractNavigationNode implements NavigationNodeInterface {
     /**
      * Index.
      *
-     * @var array
+     * @var array<string,int>
      */
     private $index;
 
@@ -99,8 +99,10 @@ abstract class AbstractNavigationNode implements NavigationNodeInterface {
      * {@inheritDoc}
      */
     public function addNode(NavigationNodeInterface $node): NavigationNodeInterface {
+
         $this->index[$node->getId()] = $this->size();
-        $this->nodes[]               = $node->setParent($this);
+
+        $this->nodes[] = $node->setParent($this);
         return $this;
     }
 
@@ -236,6 +238,7 @@ abstract class AbstractNavigationNode implements NavigationNodeInterface {
 
     /**
      * {@inheritDoc}
+     * @return array<string,mixed> Returns this serialized instance.
      */
     public function jsonSerialize(): array {
         return JsonSerializer::serializeNavigationNode($this);
@@ -259,7 +262,7 @@ abstract class AbstractNavigationNode implements NavigationNodeInterface {
     /**
      * Set the index.
      *
-     * @param array $index The index.
+     * @param array<string,int> $index The index.
      * @return AbstractNavigationNode Returns this navigation node.
      */
     protected function setIndex(array $index): AbstractNavigationNode {
@@ -292,7 +295,7 @@ abstract class AbstractNavigationNode implements NavigationNodeInterface {
      * @param AbstractNavigationNode|null $parent The parent.
      * @return AbstractNavigationNode Returns this navigation node.
      */
-    protected function setParent(?AbstractNavigationNode $parent): AbstractNavigationNode {
+    protected function setParent(?NavigationNodeInterface $parent): NavigationNodeInterface {
         $this->parent = $parent;
         return $this;
     }
