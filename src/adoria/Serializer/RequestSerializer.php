@@ -33,7 +33,7 @@ class RequestSerializer {
      * Serialize a request data.
      *
      * @param RequestData $request The request data.
-     * @return array Returns the serialized request data.
+     * @return array<string,mixed> Returns the serialized request data.
      */
     public static function serializeRequestData(RequestData $request): array {
 
