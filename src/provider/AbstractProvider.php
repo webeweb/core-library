@@ -70,7 +70,7 @@ abstract class AbstractProvider {
      * Log an info.
      *
      * @param string $message The message.
-     * @param array $context The context.
+     * @param mixed[] $context The context.
      * @return AbstractProvider Returns this provider.
      */
     protected function logInfo(string $message, array $context): AbstractProvider {
