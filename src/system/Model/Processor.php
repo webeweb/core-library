@@ -103,6 +103,7 @@ class Processor implements ProcessorInterface {
 
     /**
      * {@inheritDoc}
+     * @return array<string,mixed> Returns this serialized instance.
      */
     public function jsonSerialize(): array {
         return JsonSerializer::serializeProcessor($this);
