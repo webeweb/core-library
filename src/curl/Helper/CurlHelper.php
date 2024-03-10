@@ -139,7 +139,7 @@ class CurlHelper {
      * Set the headers.
      *
      * @param resource $stream The stream.
-     * @param array $headers The headers.
+     * @param array<string,string> $headers The headers.
      * @return void
      */
     public static function setHeaders($stream, array $headers): void {
