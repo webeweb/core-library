@@ -343,7 +343,7 @@ class SystemHelper {
     /**
      * Retrieve the properties.
      *
-     * @return string[] Returns the properties.
+     * @return array<string,mixed> Returns the properties.
      */
     public static function retrieveProperties(): array {
 
