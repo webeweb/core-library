@@ -376,7 +376,7 @@ class DateTimeMethod {
     /**
      * Convert the offsets into an operator.
      *
-     * @param array<int|null> $offsets The offsets.
+     * @param int|null[] $offsets The offsets.
      * @return int|null Returns a positive for an addition, negative for a subtraction, zero otherwise.
      */
     protected static function toOperator(...$offsets): ?int {
@@ -389,8 +389,8 @@ class DateTimeMethod {
             return null;
         }
 
-        $min = min($values);
-        $max = max($values);
+        $min = (int) min($values);
+        $max = (int) max($values);
 
         // All negatives ?
         if ($min < 0 && $max <= 0) {
