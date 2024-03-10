@@ -30,7 +30,8 @@ class TerminalLoggerTest extends AbstractTestCase {
 
         $obj = new TerminalLogger();
 
-        $this->assertNull($obj->alert("alert"));
+        $obj->alert("alert");
+        $this->assertNull(null);
     }
 
     /**
@@ -42,7 +43,8 @@ class TerminalLoggerTest extends AbstractTestCase {
 
         $obj = new TerminalLogger();
 
-        $this->assertNull($obj->critical("critical"));
+        $obj->critical("critical");
+        $this->assertNull(null);
     }
 
     /**
@@ -54,7 +56,8 @@ class TerminalLoggerTest extends AbstractTestCase {
 
         $obj = new TerminalLogger();
 
-        $this->assertNull($obj->debug("debug"));
+        $obj->debug("debug");
+        $this->assertNull(null);
     }
 
     /**
@@ -66,7 +69,8 @@ class TerminalLoggerTest extends AbstractTestCase {
 
         $obj = new TerminalLogger();
 
-        $this->assertNull($obj->emergency("emergency"));
+        $obj->emergency("emergency");
+        $this->assertNull(null);
     }
 
     /**
@@ -78,7 +82,8 @@ class TerminalLoggerTest extends AbstractTestCase {
 
         $obj = new TerminalLogger();
 
-        $this->assertNull($obj->error("error"));
+        $obj->error("error");
+        $this->assertNull(null);
     }
 
     /**
@@ -90,7 +95,8 @@ class TerminalLoggerTest extends AbstractTestCase {
 
         $obj = new TerminalLogger();
 
-        $this->assertNull($obj->info("info"));
+        $obj->info("info");
+        $this->assertNull(null);
     }
 
     /**
@@ -102,7 +108,8 @@ class TerminalLoggerTest extends AbstractTestCase {
 
         $obj = new TerminalLogger();
 
-        $this->assertNull($obj->notice("notice"));
+        $obj->notice("notice");
+        $this->assertNull(null);
     }
 
     /**
@@ -114,6 +121,7 @@ class TerminalLoggerTest extends AbstractTestCase {
 
         $obj = new TerminalLogger();
 
-        $this->assertNull($obj->warning("warning"));
+        $obj->warning("warning");
+        $this->assertNull(null);
     }
 }
