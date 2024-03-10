@@ -116,7 +116,7 @@ abstract class AbstractParser implements ParserInterface {
         $output = null === $value ? "" : sprintf($format, $value);
 
         if ($length < strlen($output)) {
-            throw new TooLongDataException($value, $length);
+            throw new TooLongDataException((string) $value, $length);
         }
 
         return $output;
