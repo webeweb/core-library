@@ -53,7 +53,7 @@ class FullCalendarEvent implements FullCalendarEventInterface {
     /**
      * Class names.
      *
-     * @var array
+     * @var string[]
      */
     protected $classNames;
 
@@ -95,7 +95,7 @@ class FullCalendarEvent implements FullCalendarEventInterface {
     /**
      * Extra params.
      *
-     * @var array
+     * @var mixed[]
      */
     protected $extraParams;
 
@@ -263,6 +263,7 @@ class FullCalendarEvent implements FullCalendarEventInterface {
 
     /**
      * {@inheritDoc}
+     * @return array<string,mixed> Returns this serialized instance.
      */
     public function jsonSerialize(): array {
         return JsonSerializer::serializeFullCalendarEvent($this);
@@ -304,7 +305,7 @@ class FullCalendarEvent implements FullCalendarEventInterface {
     /**
      * Set the class names.
      *
-     * @param array $classNames The class names.
+     * @param string[] $classNames The class names.
      * @return FullCalendarEvent Returns this Full Calendar event.
      */
     public function setClassNames(array $classNames): FullCalendarEvent {
@@ -370,7 +371,7 @@ class FullCalendarEvent implements FullCalendarEventInterface {
     /**
      * Set the extra params.
      *
-     * @param array $extraParams The extra params.
+     * @param mixed[] $extraParams The extra params.
      * @return FullCalendarEvent Returns this Full Calendar event.
      */
     public function setExtraParams(array $extraParams): FullCalendarEvent {
