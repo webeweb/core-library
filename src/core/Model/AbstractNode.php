@@ -30,21 +30,21 @@ abstract class AbstractNode {
     /**
      * Index.
      *
-     * @var array
+     * @var array<string,int>
      */
     private $index;
 
     /**
      * Children nodes.
      *
-     * @var AbstractNode[]
+     * @var AbstractNode[]|null
      */
     private $nodes;
 
     /**
      * Parent node.
      *
-     * @var AbstractNode
+     * @var AbstractNode|null
      */
     private $parent;
 
@@ -66,9 +66,12 @@ abstract class AbstractNode {
      * @return AbstractNode Returns this node.
      */
     public function addNode(AbstractNode $node): AbstractNode {
-        $node->parent           = $this;
+
         $this->index[$node->id] = count($this->nodes);
-        $this->nodes[]          = $node;
+
+        $node->parent = $this;
+
+        $this->nodes[] = $node;
         return $this;
     }
 
@@ -169,7 +172,7 @@ abstract class AbstractNode {
     /**
      * Get the parent.
      *
-     * @return AbstractNode Returns the parent.
+     * @return AbstractNode|null Returns the parent.
      */
     public function getParent(): ?AbstractNode {
         return $this->parent;
@@ -206,7 +209,7 @@ abstract class AbstractNode {
     /**
      * Set the index.
      *
-     * @param array $index The index.
+     * @param array<string,int> $index The index.
      * @return AbstractNode Returns this node.
      */
     protected function setIndex(array $index): AbstractNode {
