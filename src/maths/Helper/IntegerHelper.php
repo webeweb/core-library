@@ -40,7 +40,7 @@ class IntegerHelper {
             $result *= $n;
         }
 
-        return $result;
+        return (float) $result;
     }
 
     /**
