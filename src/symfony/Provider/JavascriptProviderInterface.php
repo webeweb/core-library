@@ -43,7 +43,7 @@ interface JavascriptProviderInterface extends ProviderInterface {
     /**
      * Get the javascripts.
      *
-     * @return array Returns the javascripts.
+     * @return mixed[] Returns the javascripts.
      */
     public function getJavascripts(): array;
 }
