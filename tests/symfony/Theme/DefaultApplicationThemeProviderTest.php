@@ -113,7 +113,7 @@ class DefaultApplicationThemeProviderTest extends AbstractTestCase {
         $this->assertEquals("2019-{$now->format("Y")}", $obj->getYear("2019"));
         $this->assertEquals("2020-{$now->format("Y")}", $obj->getYear("2020"));
         $this->assertEquals("{$now->format("Y")}", $obj->getYear($now->format("Y")));
-        $this->assertEquals("{$now->format("Y")}", $obj->getYear($now->format("Y") + 1));
+        $this->assertEquals("{$now->format("Y")}", $obj->getYear((string) (intval($now->format("Y")) + 1)));
     }
 
     /**
