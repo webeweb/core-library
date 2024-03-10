@@ -596,7 +596,7 @@ interface ResponseInterface {
     /**
      * Get the request header.
      *
-     * @return array<string,string> Returns the request header.
+     * @return string[] Returns the request header.
      */
     public function getRequestHeader(): array;
 
@@ -617,7 +617,7 @@ interface ResponseInterface {
     /**
      * Get the response header.
      *
-     * @return array<string,string> Returns the response header.
+     * @return string[] Returns the response header.
      */
     public function getResponseHeader(): array;
 

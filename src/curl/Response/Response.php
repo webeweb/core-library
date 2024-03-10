@@ -31,7 +31,7 @@ class Response implements ResponseInterface {
     /**
      * Request header.
      *
-     * @var array<string,string>
+     * @var string[]
      */
     private $requestHeader;
 
@@ -52,7 +52,7 @@ class Response implements ResponseInterface {
     /**
      * Response header.
      *
-     * @var array<string,string>
+     * @var string[]
      */
     private $responseHeader;
 
@@ -128,7 +128,7 @@ class Response implements ResponseInterface {
     /**
      * Set the request header.
      *
-     * @param array<string,string> $requestHeader The request header.
+     * @param string[] $requestHeader The request header.
      * @return Response Returns this response.
      */
     public function setRequestHeader(array $requestHeader): Response {
@@ -161,7 +161,7 @@ class Response implements ResponseInterface {
     /**
      * Set the response header.
      *
-     * @param array<string,string> $responseHeader The response header.
+     * @param string[] $responseHeader The response header.
      * @return Response Returns this response.
      */
     public function setResponseHeader(array $responseHeader): Response {
