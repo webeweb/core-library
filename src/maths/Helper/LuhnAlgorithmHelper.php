@@ -31,7 +31,7 @@ class LuhnAlgorithmHelper {
         $length = strlen($str);
         $parity = $length % 2;
 
-        $sum += substr($str, $length - 1);
+        $sum += intval(substr($str, $length - 1));
 
         for ($i = $length - 2; 0 <= $i; --$i) {
 
