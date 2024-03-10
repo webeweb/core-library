@@ -49,7 +49,7 @@ class Configuration {
     /**
      * Headers.
      *
-     * @var array
+     * @var array<string,string>
      */
     private $headers;
 
@@ -146,7 +146,7 @@ class Configuration {
     }
 
     /**
-     * Add an header.
+     * Add a header.
      *
      * @param string $name The header name.
      * @param string $value The header value.
@@ -196,7 +196,7 @@ class Configuration {
     /**
      * Get the headers.
      *
-     * @return array Returns the headers.
+     * @return array<string,string> Returns the headers.
      */
     public function getHeaders(): array {
         return $this->headers;
@@ -349,7 +349,7 @@ class Configuration {
     /**
      * Set the headers.
      *
-     * @param array $headers The headers
+     * @param array<string,string> $headers The headers
      * @return Configuration Returns this configuration.
      */
     protected function setHeaders(array $headers): Configuration {
