@@ -32,7 +32,7 @@ class JsonSerializer {
      * Serialize a current processor usage.
      *
      * @param CpuInterface $model The model.
-     * @return array Returns the serialized model.
+     * @return array<string,mixed> Returns the serialized model.
      */
     public static function serializeCpu(CpuInterface $model): array {
 
@@ -52,7 +52,7 @@ class JsonSerializer {
      * Serialize a hard disk.
      *
      * @param HardDiskInterface $model The model.
-     * @return array Returns the serialized model.
+     * @return array<string,mixed> Returns the serialized model.
      */
     public static function serializeHardDisk(HardDiskInterface $model): array {
 
@@ -71,7 +71,7 @@ class JsonSerializer {
      * Serialize a memory.
      *
      * @param MemoryInterface $model The model.
-     * @return array Returns the serialized model.
+     * @return array<string,mixed> Returns the serialized model.
      */
     public static function serializeMemory(MemoryInterface $model): array {
         return $model->getValues();
@@ -81,7 +81,7 @@ class JsonSerializer {
      * Serialize a network.
      *
      * @param NetworkInterface $model The model.
-     * @return array Returns the serialized model.
+     * @return array<string,mixed> Returns the serialized model.
      */
     public static function serializeNetwork(NetworkInterface $model): array {
 
@@ -96,7 +96,7 @@ class JsonSerializer {
      * Serialize a network card.
      *
      * @param NetworkCardInterface $model The model.
-     * @return array Returns the serialized model.
+     * @return array<string,mixed> Returns the serialized model.
      */
     public static function serializeNetworkCard(NetworkCardInterface $model): array {
 
@@ -115,7 +115,7 @@ class JsonSerializer {
      * Serialize an operating system.
      *
      * @param OperatingSystemInterface $model The model.
-     * @return array Returns the serialized model.
+     * @return array<string,mixed> Returns the serialized model.
      */
     public static function serializeOperatingSystem(OperatingSystemInterface $model): array {
 
@@ -131,7 +131,7 @@ class JsonSerializer {
      * Serialize a processor.
      *
      * @param ProcessorInterface $model The model.
-     * @return array Returns the serialized model.
+     * @return array<string,mixed> Returns the serialized model.
      */
     public static function serializeProcessor(ProcessorInterface $model): array {
         return $model->getValues();
