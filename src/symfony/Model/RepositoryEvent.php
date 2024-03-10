@@ -139,6 +139,7 @@ class RepositoryEvent implements RepositoryEventInterface {
 
     /**
      * {@inheritDoc}
+     * @return array<string,mixed> Returns this serialized instance.
      */
     public function jsonSerialize(): array {
         return JsonSerializer::serializeRepositoryEvent($this);
