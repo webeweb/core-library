@@ -24,7 +24,7 @@ class CsvSerializerHelper extends SerializerHelper {
     /**
      * Serialize an array.
      *
-     * @param CsvSerializable[] $models The models.
+     * @param array<CsvSerializable|null> $models The models.
      * @return string Returns the serialized array.
      */
     public static function csvSerializeArray(array $models): string {
