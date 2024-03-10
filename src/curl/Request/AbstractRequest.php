@@ -301,8 +301,6 @@ abstract class AbstractRequest implements RequestInterface {
                 } else if (!$key) {
                     $headers[0] = trim($h[0]);
                 }
-
-                trim($h[0]);
             }
         }
 
