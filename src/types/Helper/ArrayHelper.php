@@ -24,9 +24,9 @@ class ArrayHelper {
     /**
      * Explode.
      *
-     * @param array $array The array.
+     * @param mixed[] $array The array.
      * @param int $parts How many parts ?
-     * @return array[]|null Returns the exploded array.
+     * @return mixed[]|null Returns the exploded array.
      */
     public static function explode(array $array, int $parts = 2): ?array {
 
@@ -67,9 +67,9 @@ class ArrayHelper {
     /**
      * Filter by.
      *
-     * @param array $array The array.
+     * @param mixed[] $array The array.
      * @param callable[] $filters The filters.
-     * @return array Returns the filtered array.
+     * @return mixed[] Returns the filtered array.
      */
     public static function filterBy(array $array, array $filters): array {
 
@@ -99,7 +99,7 @@ class ArrayHelper {
     /**
      * Get a value.
      *
-     * @param array $array The array.
+     * @param mixed[] $array The array.
      * @param mixed $key The key.
      * @param mixed $default The default value.
      * @return mixed Returns the value in case of success, $default otherwise.
@@ -111,9 +111,9 @@ class ArrayHelper {
     /**
      * Hash by.
      *
-     * @param array $array The array.
+     * @param mixed[] $array The array.
      * @param callable $callback The key callback.
-     * @return array Returns the hashed by.
+     * @return mixed[] Returns the hashed by.
      */
     public static function hashBy(array $array, callable $callback): array {
 
@@ -136,9 +136,9 @@ class ArrayHelper {
     /**
      * Indexe by.
      *
-     * @param array $array The array.
+     * @param mixed[] $array The array.
      * @param callable $callback The key callback.
-     * @return array Returns the indexed by.
+     * @return mixed[] Returns the indexed by.
      */
     public static function indexBy(array $array, callable $callback): array {
 
@@ -163,10 +163,10 @@ class ArrayHelper {
     /**
      * Insert a value.
      *
-     * @param array $array The array.
+     * @param mixed[] $array The array.
      * @param int $offset The offset.
      * @param mixed $value The value.
-     * @return array Returns the array.
+     * @return mixed[] Returns the array.
      */
     public static function insert(array $array, int $offset, $value): array {
 
@@ -200,7 +200,7 @@ class ArrayHelper {
     /**
      * Determine if an array is an object.
      *
-     * @param array $array The array.
+     * @param mixed[] $array The array.
      * @return bool Returns true in case of success, false otherwise.
      */
     public static function isObject(array $array): bool {
@@ -210,10 +210,10 @@ class ArrayHelper {
     /**
      * Obfuscates.
      *
-     * @param array $array The array.
-     * @param array $values The values.
+     * @param mixed[] $array The array.
+     * @param mixed[] $values The values.
      * @param string|null $path The path.
-     * @return array Returns the obfuscated array.
+     * @return mixed[] Returns the obfuscated array.
      */
     public static function obfuscate(array $array, array $values, string $path = null): array {
 
@@ -242,10 +242,10 @@ class ArrayHelper {
     /**
      * Set a value.
      *
-     * @param array $array The array.
+     * @param mixed[] $array The array.
      * @param string $key The key.
      * @param mixed $value The value.
-     * @param array $tests The tests.
+     * @param mixed[] $tests The tests.
      * @return void
      */
     public static function set(array &$array, string $key, $value, array $tests = []): void {
