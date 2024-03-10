@@ -26,7 +26,7 @@ class JsonSerializer {
      * Serialize an accounting account.
      *
      * @param DropdownItemInterface $model The model.
-     * @return array Returns the serialized model.
+     * @return array<string,mixed> Returns the serialized model.
      */
     public static function serializeDropdownItem(DropdownItemInterface $model): array {
 
