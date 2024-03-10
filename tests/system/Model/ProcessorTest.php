@@ -31,7 +31,7 @@ class ProcessorTest extends AbstractTestCase {
      */
     public function testGetKeys(): void {
 
-        $obj = new Processor(["key" => 0]);
+        $obj = new Processor(["key" => "value"]);
 
         $this->assertEquals(["key"], $obj->getKeys());
     }
@@ -43,7 +43,7 @@ class ProcessorTest extends AbstractTestCase {
      */
     public function testGetValue(): void {
 
-        $obj = new Processor(["key" => 0]);
+        $obj = new Processor(["key" => "value"]);
 
         $this->assertEquals(0, $obj->getValue("key"));
         $this->assertNull($obj->getValue("test"));
@@ -56,7 +56,7 @@ class ProcessorTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        $obj = new Processor(["key" => 0]);
+        $obj = new Processor(["key" => "value"]);
 
         $this->assertEquals($obj->getValues(), $obj->jsonSerialize());
     }
