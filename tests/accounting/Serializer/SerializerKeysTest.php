@@ -25,7 +25,7 @@ class SerializerKeysTest extends AbstractTestCase {
     /**
      * Test __construct()
      *
-     * @var string
+     * @return void
      */
     public function test__construct(): void {
 
