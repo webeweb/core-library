@@ -37,6 +37,7 @@ class AccountingAccount implements AccountingAccountInterface {
 
     /**
      * {@inheritDoc}
+     * @return array<string,mixed> Returns this serialized instance.
      */
     public function jsonSerialize(): array {
         return JsonSerializer::serializeAccountingAccount($this);
