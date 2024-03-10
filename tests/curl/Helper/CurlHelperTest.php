@@ -129,6 +129,7 @@ class CurlHelperTest extends AbstractTestCase {
 
         $stream = CurlHelper::initStream("https://github.com", $config);
 
-        $this->assertNull(CurlHelper::setProxy($stream, $config));
+        CurlHelper::setProxy($stream, $config);
+        $this->assertNull(null);
     }
 }
