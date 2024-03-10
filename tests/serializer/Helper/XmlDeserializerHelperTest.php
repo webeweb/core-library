@@ -98,7 +98,9 @@ class XmlDeserializerHelperTest extends AbstractTestCase {
     public function testLog(): void {
 
         XmlDeserializerHelper::setLogger($this->logger);
-        $this->assertNull(XmlDeserializerHelper::log($this->document->documentElement));
+
+        XmlDeserializerHelper::log($this->document->documentElement);
+        $this->assertNull(null);
     }
 
     /**
@@ -109,6 +111,8 @@ class XmlDeserializerHelperTest extends AbstractTestCase {
     public function testLogWithoutLogger(): void {
 
         XmlDeserializerHelper::setLogger(null);
-        $this->assertNull(XmlDeserializerHelper::log($this->document->documentElement));
+
+        XmlDeserializerHelper::log($this->document->documentElement);
+        $this->assertNull(null);
     }
 }

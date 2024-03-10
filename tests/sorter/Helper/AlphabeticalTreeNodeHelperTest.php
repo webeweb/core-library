@@ -12,7 +12,6 @@
 namespace WBW\Library\Sorter\Tests\Helper;
 
 use WBW\Library\Sorter\Helper\AlphabeticalTreeNodeHelper;
-use WBW\Library\Sorter\Model\AlphabeticalTreeNodeInterface;
 use WBW\Library\Sorter\Tests\AbstractTestCase;
 use WBW\Library\Sorter\Tests\Fixtures\Model\TestNode;
 use WBW\Library\Sorter\Tests\Fixtures\TestFixtures;
