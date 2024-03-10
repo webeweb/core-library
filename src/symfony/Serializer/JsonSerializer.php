@@ -41,7 +41,7 @@ class JsonSerializer {
      * Serialize an alert.
      *
      * @param AlertInterface $model The model.
-     * @return array Returns the serialized model.
+     * @return array<string,mixed> Returns the serialized model.
      */
     public static function serializeAlert(AlertInterface $model): array {
 
@@ -55,7 +55,7 @@ class JsonSerializer {
      * Serialize an badge.
      *
      * @param BadgeInterface $model The model.
-     * @return array Returns the serialized model.
+     * @return array<string,mixed> Returns the serialized model.
      */
     public static function serializeBadge(BadgeInterface $model): array {
 
@@ -69,7 +69,7 @@ class JsonSerializer {
      * Serialize a button.
      *
      * @param ButtonInterface $model The model.
-     * @return array Returns the serialized model.
+     * @return array<string,mixed> Returns the serialized model.
      */
     public static function serializeButton(ButtonInterface $model): array {
 
@@ -83,7 +83,7 @@ class JsonSerializer {
      * Serialize a Full Calendar event.
      *
      * @param FullCalendarEventInterface $model The model.
-     * @return array Returns the serialized model.
+     * @return array<string,mixed> Returns the serialized model.
      */
     public static function serializeFullCalendarEvent(FullCalendarEventInterface $model): array {
 
@@ -123,7 +123,7 @@ class JsonSerializer {
      * Serialize an icon.
      *
      * @param IconInterface $model The model.
-     * @return array Returns the serialized model.
+     * @return array<string,mixed> Returns the serialized model.
      */
     public static function serializeIcon(IconInterface $model): array {
 
@@ -137,7 +137,7 @@ class JsonSerializer {
      * Serialize a label.
      *
      * @param LabelInterface $model The model.
-     * @return array Returns the serialized model.
+     * @return array<string,mixed> Returns the serialized model.
      */
     public static function serializeLabel(LabelInterface $model): array {
 
@@ -151,7 +151,7 @@ class JsonSerializer {
      * Serialize a navigation node.
      *
      * @param NavigationNodeInterface $model The model.
-     * @return array Returns the serialized model.
+     * @return array<string,mixed> Returns the serialized model.
      */
     public static function serializeNavigationNode(NavigationNodeInterface $model): array {
 
@@ -173,7 +173,7 @@ class JsonSerializer {
      * Serialize a notification.
      *
      * @param NotificationInterface $model The model.
-     * @return array Returns the serialized model.
+     * @return array<string,mixed> Returns the serialized model.
      */
     public static function serializeNotification(NotificationInterface $model): array {
 
@@ -187,7 +187,7 @@ class JsonSerializer {
      * Serialize a progress bar.
      *
      * @param ProgressBarInterface $model The model.
-     * @return array Returns the serialized model.
+     * @return array<string,mixed> Returns the serialized model.
      */
     public static function serializeProgressBar(ProgressBarInterface $model): array {
 
@@ -201,7 +201,7 @@ class JsonSerializer {
      * Serialize a repository event.
      *
      * @param RepositoryEventInterface $model The model.
-     * @return array Returns the serialized model.
+     * @return array<string,mixed> Returns the serialized model.
      */
     public static function serializeRepositoryEvent(RepositoryEventInterface $model): array {
 
@@ -225,7 +225,7 @@ class JsonSerializer {
      * Serialize a request detail.
      *
      * @param RequestDetailInterface $model The model.
-     * @return array Returns the serialized model.
+     * @return array<string,mixed> Returns the serialized model.
      */
     public static function serializeRequestDetail(RequestDetailInterface $model): array {
 
@@ -247,7 +247,7 @@ class JsonSerializer {
      * Serialize a Select2 option.
      *
      * @param Select2OptionInterface $model The model.
-     * @return array Returns the serialized model.
+     * @return array<string,mixed> Returns the serialized model.
      */
     public static function serializeSelect2Option(Select2OptionInterface $model): array {
 
@@ -261,7 +261,7 @@ class JsonSerializer {
      * Serialize a Select2 options.
      *
      * @param Select2OptionInterface[] $models The models.
-     * @return array Returns the serialized models.
+     * @return mixed[] Returns the serialized models.
      * @throws InvalidArgumentException Throws an invalid argument exception if an item does not implement Select2OptionInterface.
      */
     public static function serializeSelect2Options(array $models): array {
@@ -279,7 +279,7 @@ class JsonSerializer {
      * Serialize a toast.
      *
      * @param ToastInterface $model The model.
-     * @return array Returns the serialized model.
+     * @return array<string,mixed> Returns the serialized model.
      */
     public static function serializeToast(ToastInterface $model): array {
 
