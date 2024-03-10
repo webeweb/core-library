@@ -22,7 +22,7 @@ interface JavascriptManagerInterface extends ManagerInterface {
     /**
      * Get the javascripts.
      *
-     * @return array Returns the javascripts.
+     * @return mixed[] Returns the javascripts.
      */
     public function getJavascripts(): array;
 }
