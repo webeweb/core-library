@@ -33,7 +33,7 @@ class QuickSortTest extends AbstractTestCase {
     /**
      * Values.
      *
-     * @var array
+     * @var int[]
      */
     private $values;
 
