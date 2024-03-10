@@ -44,7 +44,7 @@ class StringHelper {
      *
      * @param string $name The name.
      * @param string|null $value The value.
-     * @param array $attributes The attributes.
+     * @param array<string,mixed> $attributes The attributes.
      * @param bool $shortTag Short tag ?
      * @return string Returns the DOM node.
      */
@@ -172,7 +172,7 @@ class StringHelper {
     /**
      * Parse an array.
      *
-     * @param array $values The array.
+     * @param array<string,mixed> $values The array.
      * @return string Returns the array converted into key="value".
      */
     public static function parseArray(array $values): string {
@@ -363,7 +363,7 @@ class StringHelper {
         $words  = explode($needle, $string);
         $count  = count($words);
 
-        if (-1 === $length || mb_strlen($string) < $length || 0 === $count) {
+        if (-1 === $length || mb_strlen($string) < $length) {
             return $string;
         }
 
