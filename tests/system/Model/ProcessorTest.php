@@ -45,7 +45,7 @@ class ProcessorTest extends AbstractTestCase {
 
         $obj = new Processor(["key" => "value"]);
 
-        $this->assertEquals(0, $obj->getValue("key"));
+        $this->assertEquals("value", $obj->getValue("key"));
         $this->assertNull($obj->getValue("test"));
     }
 
