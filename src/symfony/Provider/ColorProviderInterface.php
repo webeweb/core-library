@@ -29,7 +29,7 @@ interface ColorProviderInterface extends ProviderInterface {
     /**
      * Get the colors.
      *
-     * @return array Returns the colors.
+     * @return mixed[] Returns the colors.
      */
     public function getColors(): array;
 
