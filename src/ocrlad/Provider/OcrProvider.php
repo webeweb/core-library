@@ -37,7 +37,7 @@ class OcrProvider extends AbstractProvider {
     /**
      * FTP client.
      *
-     * @var FtpClient
+     * @var FtpClient|null
      */
     private $ftpClient;
 
@@ -99,7 +99,7 @@ class OcrProvider extends AbstractProvider {
     /**
      * Destructor.
      *
-     * @throws FtpException Throws a FTP exception if an error occurs.
+     * @throws FtpException Throws an FTP exception if an error occurs.
      */
     public function __destruct() {
 
@@ -115,7 +115,7 @@ class OcrProvider extends AbstractProvider {
      * Build the file paths.
      *
      * @param IOFile $file The file.
-     * @return array Returns the file paths.
+     * @return array<string,mixed> Returns the file paths.
      */
     protected function buildFilePaths(IOFile $file): array {
 
