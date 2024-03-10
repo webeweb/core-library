@@ -24,7 +24,7 @@ class ObjectHelper {
     /**
      * Coalesce.
      *
-     * @param array $values The values.
+     * @param mixed[] $values The values.
      * @return mixed|null Returns the first non-null value.
      */
     public static function coalesce(...$values) {
