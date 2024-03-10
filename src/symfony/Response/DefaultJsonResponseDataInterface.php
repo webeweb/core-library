@@ -24,7 +24,7 @@ interface DefaultJsonResponseDataInterface extends JsonSerializable {
     /**
      * Get the data.
      *
-     * @return array|null Returns the data.
+     * @return mixed[]|null Returns the data.
      */
     public function getData(): ?array;
 
@@ -52,7 +52,7 @@ interface DefaultJsonResponseDataInterface extends JsonSerializable {
     /**
      * Set the data.
      *
-     * @param array|null $data The data.
+     * @param mixed[]|null $data The data.
      * @return DefaultJsonResponseDataInterface Returns this default JSON response data.
      */
     public function setData(?array $data);
