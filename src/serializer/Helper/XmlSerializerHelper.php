@@ -24,7 +24,7 @@ class XmlSerializerHelper extends SerializerHelper {
     /**
      * Serialize an array.
      *
-     * @param XmlSerializable[] $models The models.
+     * @param array<XmlSerializable|null> $models The models.
      * @return string Returns the serialized array.
      */
     public static function xmlSerializeArray(array $models): string {
