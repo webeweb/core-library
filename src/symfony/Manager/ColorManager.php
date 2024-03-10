@@ -54,6 +54,8 @@ class ColorManager extends AbstractManager implements ColorManagerInterface {
         }
 
         $identifier = ColorHelper::getIdentifier($provider);
+
+        /** @var ColorProviderInterface $current */
         foreach ($this->getProviders() as $current) {
 
             if ($identifier === ColorHelper::getIdentifier($current)) {
