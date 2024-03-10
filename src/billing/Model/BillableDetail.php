@@ -63,6 +63,7 @@ abstract class BillableDetail extends Taxable implements BillableDetailInterface
 
     /**
      * {@inheritDoc}
+     * @return array<string,mixed> Returns this serialized instance.
      */
     public function jsonSerialize(): array {
         return JsonSerializer::serializeBillableDetail($this);
