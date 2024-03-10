@@ -26,7 +26,7 @@ class ImageUtility {
      * @param int|null $height The height.
      * @param int|null $newWidth The new width.
      * @param int|null $newHeight The new height.
-     * @return array|null Returns the dimensions.
+     * @return int[]|null Returns the dimensions.
      */
     public static function getDimensions(?int $width, ?int $height, ?int $newWidth, ?int $newHeight): ?array {
 
