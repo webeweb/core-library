@@ -63,6 +63,7 @@ abstract class AbstractNotification implements NotificationInterface {
 
     /**
      * {@inheritDoc}
+     * @return array<string,mixed> Returns this serialized instance.
      */
     public function jsonSerialize(): array {
         return JsonSerializer::serializeNotification($this);
