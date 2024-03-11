@@ -3,8 +3,9 @@ CHANGELOG
 
 ### master
 
-- Add PHPStan analyse
 - Improve code quality
+- Improve PHPDoc
+- Update dependencies
 
 ### [8.82.0](https://github.com/webeweb/core-library/tree/v8.82.0) (2024-03-04)
 
