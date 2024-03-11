@@ -4,6 +4,8 @@
     "license": "MIT",
     "type": "library",
     "keywords": [
+        "webeweb",
+        "library",
         "accounting",
         "adoria",
         "billing",
@@ -12,7 +14,6 @@
         "database",
         "ftp",
         "image",
-        "library",
         "logger",
         "planning",
         "provider",
@@ -25,8 +26,7 @@
         "traits",
         "types",
         "validator",
-        "vehicle",
-        "webeweb"
+        "vehicle"
     ],
     "authors": [
         {
@@ -124,10 +124,10 @@
         }
     },
     "config": {
-        "sort-packages": true,
         "allow-plugins": {
             "phpstan/extension-installer": true
-        }
+        },
+        "sort-packages": true
     },
     "extra": {
         "branch-alias": {
