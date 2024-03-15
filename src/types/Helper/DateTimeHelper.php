@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types = 1);
+
 /*
  * This file is part of the core-library package.
  *
@@ -289,7 +291,7 @@ class DateTimeHelper extends DateTimeMethod {
      */
     public static function isDate($value): void {
 
-        if (false === strtotime($value)) {
+        if (null === $value || false === strtotime($value)) {
             throw new DateArgumentException($value);
         }
     }

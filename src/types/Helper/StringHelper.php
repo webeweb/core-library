@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types = 1);
+
 /*
  * This file is part of the core-library package.
  *
@@ -314,6 +316,11 @@ class StringHelper {
      * @return string|null Returns the converted string.
      */
     public static function ucfirst(?string $string): ?string {
+
+        if (null === $string) {
+            return null;
+        }
+
         return ucfirst(strtolower($string));
     }
 
@@ -325,6 +332,9 @@ class StringHelper {
      * @return string|null Returns the converted string.
      */
     public static function ucwords(?string $string, string $separators = " \t\r\n\f\v-"): ?string {
+
+        $string = ObjectHelper::coalesce($string, "");
+
         return ucwords(strtolower($string), $separators);
     }
 
@@ -337,6 +347,9 @@ class StringHelper {
     public static function usortCallback(bool $asc = true): callable {
 
         return function(?string $string1, ?string $string2) use ($asc): int {
+
+            $string1 = ObjectHelper::coalesce($string1, "");
+            $string2 = ObjectHelper::coalesce($string2, "");
 
             $result = strcmp($string1, $string2);
 

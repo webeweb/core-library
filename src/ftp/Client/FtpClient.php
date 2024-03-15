@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types = 1);
+
 /*
  * This file is part of the core-library package.
  *
@@ -208,7 +210,7 @@ class FtpClient extends AbstractClient {
         $username = $this->getAuthenticator()->getPasswordAuthentication()->getUsername();
         $password = $this->getAuthenticator()->getPasswordAuthentication()->getPassword();
 
-        if (false === @ftp_login($this->getConnection(), $username, $password)) {
+        if (null === $username || null === $password || false === @ftp_login($this->getConnection(), $username, $password)) {
             throw $this->newFtpException("ftp_login failed: [$username]");
         }
 

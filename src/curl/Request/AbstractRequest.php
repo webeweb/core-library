@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types = 1);
+
 /*
  * This file is part of the core-library package.
  *
@@ -144,11 +146,12 @@ abstract class AbstractRequest implements RequestInterface {
         $curlExec    = curl_exec($stream);
         $curlGetInfo = curl_getinfo($stream, CURLINFO_HEADER_SIZE);
 
-        $responseHeader = $this->parseheader(substr($curlExec, 0, $curlGetInfo));
-        $responseBody   = substr($curlExec, $curlGetInfo);
+        $responseHeader = false === is_bool($curlExec) ? $this->parseheader(substr($curlExec, 0, $curlGetInfo)) : [];
+        $responseBody   = false === is_bool($curlExec) ? substr($curlExec, $curlGetInfo) : "";
         $responseInfo   = curl_getinfo($stream);
 
         if (true === $this->getConfiguration()->getDebug()) {
+
             $msg = (new DateTime())->format("c") . " [DEBUG] $requestUrl" . PHP_EOL . "HTTP response body ~BEGIN~" . PHP_EOL . print_r($responseBody, true) . PHP_EOL . "~END~" . PHP_EOL;
             error_log($msg, 3, $this->getConfiguration()->getDebugFile());
         }
@@ -162,6 +165,7 @@ abstract class AbstractRequest implements RequestInterface {
 
         $msg = curl_errno($stream);
         if (0 === $curlHttpCode) {
+
             if (false === empty(curl_error($stream))) {
                 $msg = "Call to $requestUrl failed : " . curl_error($stream);
             } else {
@@ -169,7 +173,7 @@ abstract class AbstractRequest implements RequestInterface {
             }
         }
 
-        throw new RequestCallException($msg, $curlHttpCode, $response);
+        throw new RequestCallException((string) $msg, $curlHttpCode, $response);
     }
 
     /**
@@ -442,7 +446,11 @@ abstract class AbstractRequest implements RequestInterface {
      * {@inheritDoc}
      */
     public function setResourcePath(?string $resourcePath): RequestInterface {
-        $this->resourcePath = preg_replace("/^\//", "", trim($resourcePath));
+
+        if (null !== $resourcePath) {
+            $this->resourcePath = preg_replace("/^\//", "", trim($resourcePath));
+        }
+
         return $this;
     }
 }
