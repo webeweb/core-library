@@ -31,7 +31,7 @@ class JavascriptManager extends AbstractManager implements JavascriptManagerInte
      *
      * @var string
      */
-    const SERVICE_NAME = "wbw.core.manager.javascript";
+    public const SERVICE_NAME = "wbw.core.manager.javascript";
 
     /**
      * {@inheritDoc}

@@ -35,14 +35,14 @@ class UploadedFileService implements UploadedFileServiceInterface {
      *
      * @var string
      */
-    const SERVICE_NAME = "wbw.core.service.uploaded_file";
+    public const SERVICE_NAME = "wbw.core.service.uploaded_file";
 
     /**
      * Upload directory.
      *
      * @var string
      */
-    const UPLOAD_DIRECTORY = "/uploads";
+    public const UPLOAD_DIRECTORY = "/uploads";
 
     /**
      * Constructor.

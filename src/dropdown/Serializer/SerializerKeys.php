@@ -26,5 +26,5 @@ interface SerializerKeys {
      *
      * @var string
      */
-    const BY_DEFAULT = "byDefault";
+    public const BY_DEFAULT = "byDefault";
 }

@@ -28,28 +28,28 @@ interface LabelInterface extends JsonSerializable {
      *
      * @var string
      */
-    const LABEL_TYPE_DANGER = "danger";
+    public const LABEL_TYPE_DANGER = "danger";
 
     /**
      * Label type "info".
      *
      * @var string
      */
-    const LABEL_TYPE_INFO = "info";
+    public const LABEL_TYPE_INFO = "info";
 
     /**
      * Label type "success".
      *
      * @var string
      */
-    const LABEL_TYPE_SUCCESS = "success";
+    public const LABEL_TYPE_SUCCESS = "success";
 
     /**
      * Label type "warning".
      *
      * @var string
      */
-    const LABEL_TYPE_WARNING = "warning";
+    public const LABEL_TYPE_WARNING = "warning";
 
     /**
      * Get the content.

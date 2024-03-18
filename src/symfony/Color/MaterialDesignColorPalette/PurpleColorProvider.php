@@ -30,7 +30,7 @@ class PurpleColorProvider extends AbstractColorProvider implements PurpleColorPr
      *
      * @var string
      */
-    const SERVICE_NAME = "wbw.core.color.material_design_color_palette.purple";
+    public const SERVICE_NAME = "wbw.core.color.material_design_color_palette.purple";
 
     /**
      * Constructor.

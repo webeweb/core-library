@@ -28,7 +28,7 @@ interface NotificationsDropdownThemeProviderInterface extends ThemeProviderInter
      *
      * @var string
      */
-    const SERVICE_NAME = "wbw.core.provider.theme.notifications_dropdown";
+    public const SERVICE_NAME = "wbw.core.provider.theme.notifications_dropdown";
 
     /**
      * Get the notifications.

@@ -26,14 +26,14 @@ class WorldsWisdomQuoteProvider extends YamlQuoteProvider {
      *
      * @var string
      */
-    const RESOURCE_PATH = __DIR__ . "/../../Resources/assets/quote/WorldsWisdom.fr.yml";
+    public const RESOURCE_PATH = __DIR__ . "/../../Resources/assets/quote/WorldsWisdom.fr.yml";
 
     /**
      * Service name.
      *
      * @var string
      */
-    const SERVICE_NAME = "wbw.core.provider.quote.worlds_wisdom";
+    public const SERVICE_NAME = "wbw.core.provider.quote.worlds_wisdom";
 
     /**
      * Constructor.

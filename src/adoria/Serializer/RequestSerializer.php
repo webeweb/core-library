@@ -29,7 +29,7 @@ class RequestSerializer {
      *
      * @var string
      */
-    const REQUEST_DATE_FORMAT = "Y-m-d";
+    public const REQUEST_DATE_FORMAT = "Y-m-d";
 
     /**
      * Serialize a request data.

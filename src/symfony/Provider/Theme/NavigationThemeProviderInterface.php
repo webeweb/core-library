@@ -29,7 +29,7 @@ interface NavigationThemeProviderInterface extends ThemeProviderInterface {
      *
      * @var string
      */
-    const SERVICE_NAME = "wbw.core.provider.theme.navigation";
+    public const SERVICE_NAME = "wbw.core.provider.theme.navigation";
 
     /**
      * Get the tree.

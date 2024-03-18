@@ -30,7 +30,7 @@ class BlackColorProvider extends AbstractColorProvider implements BlackColorProv
      *
      * @var string
      */
-    const SERVICE_NAME = "wbw.core.color.material_design_color_palette.black";
+    public const SERVICE_NAME = "wbw.core.color.material_design_color_palette.black";
 
     /**
      * Constructor.

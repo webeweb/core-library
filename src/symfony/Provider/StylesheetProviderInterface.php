@@ -26,21 +26,21 @@ interface StylesheetProviderInterface extends ProviderInterface {
      *
      * @var string
      */
-    const STYLESHEET_PROVIDER_CONTENT_TYPE = "text/css; charset=utf-8";
+    public const STYLESHEET_PROVIDER_CONTENT_TYPE = "text/css; charset=utf-8";
 
     /**
      * Extension.
      *
      * @var string
      */
-    const STYLESHEET_PROVIDER_EXTENSION = "css";
+    public const STYLESHEET_PROVIDER_EXTENSION = "css";
 
     /**
      * Tag name.
      *
      * @var string
      */
-    const STYLESHEET_PROVIDER_TAG_NAME = "wbw.core.provider.stylesheet";
+    public const STYLESHEET_PROVIDER_TAG_NAME = "wbw.core.provider.stylesheet";
 
     /**
      * Get the stylesheets.

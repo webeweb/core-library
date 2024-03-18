@@ -28,7 +28,7 @@ interface ApplicationThemeProviderInterface extends ThemeProviderInterface {
      *
      * @var string
      */
-    const SERVICE_NAME = "wbw.core.provider.theme.application";
+    public const SERVICE_NAME = "wbw.core.provider.theme.application";
 
     /**
      * Get the description.

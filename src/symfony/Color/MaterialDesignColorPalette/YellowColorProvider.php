@@ -30,7 +30,7 @@ class YellowColorProvider extends AbstractColorProvider implements YellowColorPr
      *
      * @var string
      */
-    const SERVICE_NAME = "wbw.core.color.material_design_color_palette.yellow";
+    public const SERVICE_NAME = "wbw.core.color.material_design_color_palette.yellow";
 
     /**
      * Constructor.

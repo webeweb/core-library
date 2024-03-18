@@ -30,14 +30,14 @@ class Angle {
      *
      * @var string
      */
-    const UNIT_DEGREE = "degree";
+    public const UNIT_DEGREE = "degree";
 
     /**
      * Unit "radian".
      *
      * @var string
      */
-    const UNIT_RADIAN = "radian";
+    public const UNIT_RADIAN = "radian";
 
     /**
      * Units.

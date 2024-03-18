@@ -28,5 +28,5 @@ class TokenGeneratorService extends TokenGenerator implements TokenGeneratorServ
      *
      * @var string
      */
-    const SERVICE_NAME = "wbw.core.service.token_generator";
+    public const SERVICE_NAME = "wbw.core.service.token_generator";
 }

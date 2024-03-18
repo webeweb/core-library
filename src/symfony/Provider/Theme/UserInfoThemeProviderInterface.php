@@ -28,7 +28,7 @@ interface UserInfoThemeProviderInterface extends ThemeProviderInterface {
      *
      * @var string
      */
-    const SERVICE_NAME = "wbw.core.provider.theme.user_info";
+    public const SERVICE_NAME = "wbw.core.provider.theme.user_info";
 
     /**
      * Provide a register link.

@@ -29,49 +29,49 @@ interface RequestInterface {
      *
      * @var string
      */
-    const METHOD_DELETE = "DELETE";
+    public const METHOD_DELETE = "DELETE";
 
     /**
      * Method "GET".
      *
      * @var string
      */
-    const METHOD_GET = "GET";
+    public const METHOD_GET = "GET";
 
     /**
      * Method "HEAD".
      *
      * @var string
      */
-    const METHOD_HEAD = "HEAD";
+    public const METHOD_HEAD = "HEAD";
 
     /**
      * Method "OPTIONS".
      *
      * @var string
      */
-    const METHOD_OPTIONS = "OPTIONS";
+    public const METHOD_OPTIONS = "OPTIONS";
 
     /**
      * Method "PATCH".
      *
      * @var string
      */
-    const METHOD_PATCH = "PATCH";
+    public const METHOD_PATCH = "PATCH";
 
     /**
      * Method "POST".
      *
      * @var string
      */
-    const METHOD_POST = "POST";
+    public const METHOD_POST = "POST";
 
     /**
      * Method "PUT".
      *
      * @var string
      */
-    const METHOD_PUT = "PUT";
+    public const METHOD_PUT = "PUT";
 
     /**
      * Add a header.

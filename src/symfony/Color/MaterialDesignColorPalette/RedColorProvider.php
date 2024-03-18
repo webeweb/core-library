@@ -30,7 +30,7 @@ class RedColorProvider extends AbstractColorProvider implements RedColorProvider
      *
      * @var string
      */
-    const SERVICE_NAME = "wbw.core.color.material_design_color_palette.red";
+    public const SERVICE_NAME = "wbw.core.color.material_design_color_palette.red";
 
     /**
      * Constructor.

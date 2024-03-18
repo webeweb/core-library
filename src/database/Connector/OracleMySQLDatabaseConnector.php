@@ -29,7 +29,7 @@ class OracleMySQLDatabaseConnector extends AbstractDatabaseConnector {
      *
      * @var string
      */
-    const DEFAULT_DSN = "mysql:host=%HOST%;port=%PORT%;dbname=%DATABASE%;";
+    public const DEFAULT_DSN = "mysql:host=%HOST%;port=%PORT%;dbname=%DATABASE%;";
 
     /**
      * Constructor.

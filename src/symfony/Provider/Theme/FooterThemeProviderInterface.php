@@ -28,5 +28,5 @@ interface FooterThemeProviderInterface extends ThemeProviderInterface {
      *
      * @var string
      */
-    const SERVICE_NAME = "wbw.core.provider.theme.footer";
+    public const SERVICE_NAME = "wbw.core.provider.theme.footer";
 }

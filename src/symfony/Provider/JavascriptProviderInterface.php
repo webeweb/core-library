@@ -26,21 +26,21 @@ interface JavascriptProviderInterface extends ProviderInterface {
      *
      * @var string
      */
-    const JAVASCRIPT_PROVIDER_CONTENT_TYPE = "application/javascript";
+    public const JAVASCRIPT_PROVIDER_CONTENT_TYPE = "application/javascript";
 
     /**
      * Extension.
      *
      * @var string
      */
-    const JAVASCRIPT_PROVIDER_EXTENSION = "js";
+    public const JAVASCRIPT_PROVIDER_EXTENSION = "js";
 
     /**
      * Tag name.
      *
      * @var string
      */
-    const JAVASCRIPT_PROVIDER_TAG_NAME = "wbw.core.provider.javascript";
+    public const JAVASCRIPT_PROVIDER_TAG_NAME = "wbw.core.provider.javascript";
 
     /**
      * Get the javascripts.

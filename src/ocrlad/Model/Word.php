@@ -35,14 +35,14 @@ class Word {
      *
      * @var string
      */
-    const TYPE_LINE_BREAK = "LB";
+    public const TYPE_LINE_BREAK = "LB";
 
     /**
      * Type "no line break".
      *
      * @var string
      */
-    const TYPE_NO_LINE_BREAK = "NLB";
+    public const TYPE_NO_LINE_BREAK = "NLB";
 
     /**
      * OCR confidence.

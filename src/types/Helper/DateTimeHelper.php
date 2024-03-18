@@ -33,7 +33,7 @@ class DateTimeHelper extends DateTimeMethod {
      *
      * @var string
      */
-    const DATETIME_FORMAT = "Y-m-d H:i";
+    public const DATETIME_FORMAT = "Y-m-d H:i";
 
     /**
      * Compare two date/times.

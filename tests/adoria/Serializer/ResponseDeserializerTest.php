@@ -30,7 +30,7 @@ class ResponseDeserializerTest extends AbstractTestCase {
      *
      * @var string
      */
-    const RAW_RESPONSE_LINE = <<< JSON
+    public const RAW_RESPONSE_LINE = <<< JSON
 {
     "BookingJournalCode": "bookingJournalCode",
     "InvoiceDate": "2019-01-16",
@@ -52,7 +52,7 @@ JSON;
      *
      * @var string
      */
-    const RAW_RESPONSE_RESULT = <<< JSON
+    public const RAW_RESPONSE_RESULT = <<< JSON
 {
     "ReturnCode": 1,
     "Errors": [],

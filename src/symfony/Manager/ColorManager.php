@@ -32,7 +32,7 @@ class ColorManager extends AbstractManager implements ColorManagerInterface {
      *
      * @var string
      */
-    const SERVICE_NAME = "wbw.core.manager.color";
+    public const SERVICE_NAME = "wbw.core.manager.color";
 
     /**
      * {@inheritDoc}

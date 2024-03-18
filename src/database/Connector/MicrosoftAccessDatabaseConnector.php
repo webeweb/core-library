@@ -30,7 +30,7 @@ class MicrosoftAccessDatabaseConnector extends AbstractDatabaseConnector {
      *
      * @var string
      */
-    const DEFAULT_DSN = "odbc:DRIVER={Microsoft Access Driver (*.mdb)}; DBQ=%DBQ%; UID=%UID%; PWD=%PWD%";
+    public const DEFAULT_DSN = "odbc:DRIVER={Microsoft Access Driver (*.mdb)}; DBQ=%DBQ%; UID=%UID%; PWD=%PWD%";
 
     /**
      * Constructor.

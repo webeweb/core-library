@@ -30,7 +30,7 @@ class DerDeserializer {
      *
      * @var string
      */
-    const DER_DELIMITER = ";";
+    public const DER_DELIMITER = ";";
 
     /**
      * Deserialize a document.

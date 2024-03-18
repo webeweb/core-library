@@ -30,7 +30,7 @@ class TealColorProvider extends AbstractColorProvider implements TealColorProvid
      *
      * @var string
      */
-    const SERVICE_NAME = "wbw.core.color.material_design_color_palette.teal";
+    public const SERVICE_NAME = "wbw.core.color.material_design_color_palette.teal";
 
     /**
      * Constructor.

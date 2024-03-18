@@ -30,7 +30,7 @@ class WhiteColorProvider extends AbstractColorProvider implements WhiteColorProv
      *
      * @var string
      */
-    const SERVICE_NAME = "wbw.core.color.material_design_color_palette.white";
+    public const SERVICE_NAME = "wbw.core.color.material_design_color_palette.white";
 
     /**
      * Constructor.

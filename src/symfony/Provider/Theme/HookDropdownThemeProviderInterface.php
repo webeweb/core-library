@@ -28,7 +28,7 @@ interface HookDropdownThemeProviderInterface extends ThemeProviderInterface {
      *
      * @var string
      */
-    const SERVICE_NAME = "wbw.core.provider.theme.hook_dropdown";
+    public const SERVICE_NAME = "wbw.core.provider.theme.hook_dropdown";
 
     /**
      * Get the items.

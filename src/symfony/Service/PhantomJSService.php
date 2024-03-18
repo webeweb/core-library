@@ -28,7 +28,7 @@ class PhantomJSService {
      *
      * @avr string
      */
-    const SERVICE_NAME = "wbw.core.service.phantomjs";
+    public const SERVICE_NAME = "wbw.core.service.phantomjs";
 
     /**
      * Binary path.

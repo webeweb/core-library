@@ -30,7 +30,7 @@ class LimeColorProvider extends AbstractColorProvider implements LimeColorProvid
      *
      * @var string
      */
-    const SERVICE_NAME = "wbw.core.color.material_design_color_palette.lime";
+    public const SERVICE_NAME = "wbw.core.color.material_design_color_palette.lime";
 
     /**
      * Constructor.

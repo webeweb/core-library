@@ -30,28 +30,28 @@ interface NavigationNodeInterface extends AlphabeticalTreeNodeInterface, JsonSer
      *
      * @var string
      */
-    const DEFAULT_HREF = "javascript: void(0);";
+    public const DEFAULT_HREF = "javascript: void(0);";
 
     /**
      * Matcher "regular expression".
      *
      * @var string
      */
-    const MATCHER_REGEXP = "regexp";
+    public const MATCHER_REGEXP = "regexp";
 
     /**
      * Matcher "router".
      *
      * @var string
      */
-    const MATCHER_ROUTER = "router";
+    public const MATCHER_ROUTER = "router";
 
     /**
      * Matcher "URL".
      *
      * @var string
      */
-    const MATCHER_URL = "url";
+    public const MATCHER_URL = "url";
 
     /**
      * Add a navigation node.

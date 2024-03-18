@@ -30,7 +30,7 @@ class DeepOrangeColorProvider extends AbstractColorProvider implements DeepOrang
      *
      * @var string
      */
-    const SERVICE_NAME = "wbw.core.color.material_design_color_palette.deep_orange";
+    public const SERVICE_NAME = "wbw.core.color.material_design_color_palette.deep_orange";
 
     /**
      * Constructor.

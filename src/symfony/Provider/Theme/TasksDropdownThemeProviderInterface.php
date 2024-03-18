@@ -28,7 +28,7 @@ interface TasksDropdownThemeProviderInterface extends ThemeProviderInterface {
      *
      * @var string
      */
-    const SERVICE_NAME = "wbw.core.provider.theme.tasks_dropdown";
+    public const SERVICE_NAME = "wbw.core.provider.theme.tasks_dropdown";
 
     /**
      * Get the tasks.

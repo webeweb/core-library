@@ -28,5 +28,5 @@ interface BreadcrumbsThemeProviderInterface extends ThemeProviderInterface {
      *
      * @var string
      */
-    const SERVICE_NAME = "wbw.core.provider.theme.breadcrumbs";
+    public const SERVICE_NAME = "wbw.core.provider.theme.breadcrumbs";
 }
