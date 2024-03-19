@@ -44,6 +44,13 @@ interface ManagerInterface {
     public function containsProvider(ProviderInterface $provider): bool;
 
     /**
+     * Get the providers.
+     *
+     * @return ProviderInterface[] Returns the provider.
+     */
+    public function &getProviders(): array;
+
+    /**
      * Determine if this manager contains providers.
      *
      * @return bool Returns true in case of success, false otherwise.

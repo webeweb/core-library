@@ -60,9 +60,7 @@ class AbstractManager implements ManagerInterface {
     }
 
     /**
-     * Get the providers.
-     *
-     * @return ProviderInterface[] Returns the provider.
+     * {@inheritDoc}
      */
     public function &getProviders(): array {
         return $this->providers;
