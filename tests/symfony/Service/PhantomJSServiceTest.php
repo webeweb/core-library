@@ -55,10 +55,10 @@ class PhantomJSServiceTest extends AbstractTestCase {
         $this->binaryPath = realpath(__DIR__ . "/../Fixtures/bin/phantomjs");
 
         // Set an Output path mock.
-        $this->outputPath = realpath(__DIR__ . "/../Fixtures/app/var/phantomjs/output");
+        $this->outputPath = realpath(__DIR__ . "/../Fixtures/bin");
 
         // Set a Scripts path mock.
-        $this->scriptsPath = realpath(__DIR__ . "/../Fixtures/app/var/phantomjs/scripts");
+        $this->scriptsPath = realpath(__DIR__ . "/../Fixtures/bin");
     }
 
     /**
