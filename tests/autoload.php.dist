@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types = 1);
+
 /*
  * This file is part of the core-library package.
  *
@@ -23,6 +25,6 @@ if (true === is_file($symfonyAutoloader)) {
 } else {
 	die("Unable to find autoload.php. Please run:
 
-wget http://getcomposer.org/composer.phar
-php composer.phar install");
-}
+        wget http://getcomposer.org/composer.phar
+        php composer.phar install");
+    }
