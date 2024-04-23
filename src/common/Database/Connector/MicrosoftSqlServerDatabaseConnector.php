@@ -11,7 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Database\Connector;
+namespace WBW\Library\Common\Database\Connector;
 
 use PDO;
 use WBW\Library\Common\Security\Authenticator;
@@ -20,9 +20,9 @@ use WBW\Library\Common\Security\Authenticator;
  * Microsoft SQL Server database connector.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Database\Connector
+ * @package WBW\Library\Common\Database\Connector
  */
-class MicrosoftSQLServerDatabaseConnector extends AbstractDatabaseConnector {
+class MicrosoftSqlServerDatabaseConnector extends AbstractDatabaseConnector {
 
     /**
      * Microsoft SQL Server DSN.
