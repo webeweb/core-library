@@ -13,8 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Curl\Configuration;
 
-use WBW\Library\Traits\Booleans\BooleanDebugTrait;
-use WBW\Library\Traits\Booleans\BooleanVerboseTrait;
+use WBW\Library\Common\Traits\Booleans\BooleanDebugTrait;
+use WBW\Library\Common\Traits\Booleans\BooleanVerboseTrait;
 
 /**
  * Configuration.

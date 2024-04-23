@@ -1,0 +1,39 @@
+<?php
+
+declare(strict_types = 1);
+
+/*
+ * This file is part of the core-library package.
+ *
+ * (c) 2021 WEBEWEB
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace WBW\Library\Common\Tests\Traits\Booleans;
+
+use WBW\Library\Common\Tests\Fixtures\Traits\Booleans\TestBooleanIncomeTrait;
+use WBW\Library\Common\Tests\AbstractTestCase;
+
+/**
+ * Boolean income trait test.
+ *
+ * @author webeweb <https://github.com/webeweb>
+ * @package WBW\Library\Common\Tests\Traits\Booleans
+ */
+class BooleanIncomeTraitTest extends AbstractTestCase {
+
+    /**
+     * Test setIncome()
+     *
+     * @return void
+     */
+    public function testSetIncome(): void {
+
+        $obj = new TestBooleanIncomeTrait();
+
+        $obj->setIncome(true);
+        $this->assertTrue($obj->getIncome());
+    }
+}

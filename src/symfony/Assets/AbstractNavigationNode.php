@@ -13,11 +13,11 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Symfony\Assets;
 
+use WBW\Library\Common\Traits\Booleans\BooleanActiveTrait;
+use WBW\Library\Common\Traits\Booleans\BooleanEnableTrait;
+use WBW\Library\Common\Traits\Booleans\BooleanVisibleTrait;
 use WBW\Library\Sorter\Model\AlphabeticalTreeNodeInterface;
 use WBW\Library\Symfony\Serializer\JsonSerializer;
-use WBW\Library\Traits\Booleans\BooleanActiveTrait;
-use WBW\Library\Traits\Booleans\BooleanEnableTrait;
-use WBW\Library\Traits\Booleans\BooleanVisibleTrait;
 use WBW\Library\Traits\Strings\StringIconTrait;
 use WBW\Library\Traits\Strings\StringIdTrait;
 use WBW\Library\Traits\Strings\StringLabelTrait;
