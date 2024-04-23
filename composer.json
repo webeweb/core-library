@@ -69,6 +69,7 @@
         "psr-4": {
             "WBW\\Library\\Adoria\\": "lib/adoria/",
             "WBW\\Library\\Curl\\": "lib/curl/",
+            "WBW\\Library\\Ftp\\": "lib/ftp/",
             "WBW\\Library\\Quadratus\\": "lib/quadratus/",
             "WBW\\Library\\Common\\": "src/common/",
             "WBW\\Library\\Accounting\\": "src/accounting/",
@@ -76,7 +77,6 @@
             "WBW\\Library\\Core\\": "src/core/",
             "WBW\\Library\\Database\\": "src/database/",
             "WBW\\Library\\Dropdown\\": "src/dropdown/",
-            "WBW\\Library\\Ftp\\": "src/ftp/",
             "WBW\\Library\\Image\\": "src/image/",
             "WBW\\Library\\Maths\\": "src/maths/",
             "WBW\\Library\\OcrLad\\": "src/ocrlad/",
@@ -96,6 +96,7 @@
         "exclude-from-classmap": [
             "/lib/adoria/Tests/",
             "/lib/curl/Tests/",
+            "/lib/ftp/Tests/",
             "/lib/quadratus/Tests/"
         ]
     },
@@ -103,6 +104,7 @@
         "psr-4": {
             "WBW\\Library\\Adoria\\Tests\\": "lib/adoria/Tests",
             "WBW\\Library\\Curl\\Tests\\": "lib/curl/Tests",
+            "WBW\\Library\\Ftp\\Tests\\": "lib/ftp/Tests",
             "WBW\\Library\\Quadratus\\Tests\\": "lib/quadratus/Tests",
             "WBW\\Library\\Common\\Tests\\": "tests/common/",
             "WBW\\Library\\Accounting\\Tests\\": "tests/accounting/",
@@ -110,7 +112,6 @@
             "WBW\\Library\\Core\\Tests\\": "tests/core/",
             "WBW\\Library\\Database\\Tests\\": "tests/database/",
             "WBW\\Library\\Dropdown\\Tests\\": "tests/dropdown/",
-            "WBW\\Library\\Ftp\\Tests\\": "tests/ftp/",
             "WBW\\Library\\Image\\Tests\\": "tests/image/",
             "WBW\\Library\\Maths\\Tests\\": "tests/maths/",
             "WBW\\Library\\OcrLad\\Tests\\": "tests/ocrlad/",

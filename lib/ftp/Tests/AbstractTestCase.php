@@ -13,7 +13,9 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Ftp\Tests;
 
-use WBW\Library\Core\Tests\AbstractTestCase as BaseTestCase;
+use PHPUnit\Framework\TestCase as BaseTestCase;
+use WBW\Library\Security\Authenticator;
+use WBW\Library\Security\PasswordAuthentication;
 
 /**
  * Abstract test case.
@@ -25,30 +27,37 @@ use WBW\Library\Core\Tests\AbstractTestCase as BaseTestCase;
 abstract class AbstractTestCase extends BaseTestCase {
 
     /**
+     * Authenticator.
+     *
+     * @var Authenticator|null
+     */
+    protected $authenticator;
+
+    /**
      * Local directory.
      *
-     * @var string
+     * @var string|null
      */
     protected $localDir;
 
     /**
      * Local file.
      *
-     * @var string
+     * @var string|null
      */
     protected $localFile;
 
     /**
      * Remote directory.
      *
-     * @var string
+     * @var string|null
      */
     protected $remoteDir;
 
     /**
      * Remote file.
      *
-     * @var string
+     * @var string|null
      */
     protected $remoteFile;
 
@@ -62,14 +71,19 @@ abstract class AbstractTestCase extends BaseTestCase {
         $this->remoteDir  = "/pub";
         $this->remoteFile = "/readme.txt";
 
-        $this->localDir  = realpath(__DIR__ . "/..");
+        $this->localDir  = realpath(__DIR__ . "/../../../var");
         $this->localFile = implode("", [$this->localDir, $this->remoteFile]);
 
         if (true === file_exists($this->localFile)) {
             unlink($this->localFile);
         }
 
-        // Set the Authenticator mock.
+        // Set a Password authentication mock.
+        $passwordAuthentication = new PasswordAuthentication("demo", "password");
+
+        // Set an Authenticator mock.
+        $this->authenticator = new Authenticator("hostname", $passwordAuthentication);
         $this->authenticator->setHostname("test.rebex.net");
+        $this->authenticator->setPort(null);
     }
 }
