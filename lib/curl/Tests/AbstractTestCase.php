@@ -13,7 +13,6 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Curl\Tests;
 
-
 use PHPUnit\Framework\TestCase as BaseTestCase;
 use WBW\Library\Curl\Configuration\Configuration;
 
@@ -31,14 +30,14 @@ abstract class AbstractTestCase extends BaseTestCase {
      *
      * @var Configuration|null
      */
-    protected $curlConfiguration;
+    protected $configuration;
 
     /**
-     * cURL resource path.
+     * Resource path.
      *
      * @var string|null
      */
-    protected $curlResourcePath;
+    protected $resourcePath;
 
     /**
      * {@inheritDoc}
@@ -47,10 +46,10 @@ abstract class AbstractTestCase extends BaseTestCase {
         parent::setUp();
 
         // Set a Configuration mock.
-        $this->curlConfiguration = new Configuration();
-        $this->curlConfiguration->setHost("https://webeweb.me/");
+        $this->configuration = new Configuration();
+        $this->configuration->setHost("https://webeweb.me/");
 
         // Set a resource path mock.
-        $this->curlResourcePath = "curl-library.php";
+        $this->resourcePath = "curl-library.php";
     }
 }

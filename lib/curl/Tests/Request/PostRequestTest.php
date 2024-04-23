@@ -34,7 +34,7 @@ class PostRequestTest extends AbstractTestCase {
      */
     public function testAddPostData(): void {
 
-        $obj = new PostRequest($this->curlConfiguration, $this->curlResourcePath);
+        $obj = new PostRequest($this->configuration, $this->resourcePath);
         $obj->addPostData("name", "value");
 
         $exp = ["name" => "value"];
@@ -50,7 +50,7 @@ class PostRequestTest extends AbstractTestCase {
      */
     public function testCall(): void {
 
-        $obj = new PostRequest($this->curlConfiguration, $this->curlResourcePath);
+        $obj = new PostRequest($this->configuration, $this->resourcePath);
         $obj->addHeader("header", "header");
         $obj->addQueryData("queryData", "queryData");
 
@@ -69,7 +69,7 @@ class PostRequestTest extends AbstractTestCase {
      */
     public function testClearPostData(): void {
 
-        $obj = new PostRequest($this->curlConfiguration, $this->curlResourcePath);
+        $obj = new PostRequest($this->configuration, $this->resourcePath);
 
         $obj->addPostData("name", "value");
         $this->assertCount(1, $obj->getPostData());
@@ -86,7 +86,7 @@ class PostRequestTest extends AbstractTestCase {
      */
     public function testRemovePostData(): void {
 
-        $obj = new PostRequest($this->curlConfiguration, $this->curlResourcePath);
+        $obj = new PostRequest($this->configuration, $this->resourcePath);
 
         $obj->addPostData("name", "value");
         $this->assertCount(1, $obj->getPostData());
@@ -106,13 +106,13 @@ class PostRequestTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $obj = new PostRequest($this->curlConfiguration, $this->curlResourcePath);
+        $obj = new PostRequest($this->configuration, $this->resourcePath);
 
-        $this->assertSame($this->curlConfiguration, $obj->getConfiguration());
+        $this->assertSame($this->configuration, $obj->getConfiguration());
         $this->assertEquals([], $obj->getHeaders());
         $this->assertEquals(RequestInterface::METHOD_POST, $obj->getMethod());
         $this->assertEquals([], $obj->getPostData());
         $this->assertEquals([], $obj->getQueryData());
-        $this->assertEquals($this->curlResourcePath, $obj->getResourcePath());
+        $this->assertEquals($this->resourcePath, $obj->getResourcePath());
     }
 }

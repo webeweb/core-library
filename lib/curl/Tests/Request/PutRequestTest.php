@@ -14,17 +14,17 @@ declare(strict_types = 1);
 namespace WBW\Library\Curl\Tests\Request;
 
 use Throwable;
-use WBW\Library\Curl\Request\OptionsRequest;
+use WBW\Library\Curl\Request\PutRequest;
 use WBW\Library\Curl\Request\RequestInterface;
 use WBW\Library\Curl\Tests\AbstractTestCase;
 
 /**
- * OPTIONS request test.
+ * PUT request test.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Curl\Tests\Request
  */
-class OptionsRequestTest extends AbstractTestCase {
+class PutRequestTest extends AbstractTestCase {
 
     /**
      * Test call() method.
@@ -34,14 +34,14 @@ class OptionsRequestTest extends AbstractTestCase {
      */
     public function testCall(): void {
 
-        $obj = new OptionsRequest($this->curlConfiguration, $this->curlResourcePath);
+        $obj = new PutRequest($this->configuration, $this->resourcePath);
         $obj->addHeader("header", "header");
         $obj->addQueryData("queryData", "queryData");
 
         $res = $obj->call();
         $this->assertEquals("header: header", $res->getRequestHeader()[0]);
         $this->assertStringContainsString("queryData=queryData", $res->getRequestUrl());
-        $this->assertEquals(RequestInterface::METHOD_OPTIONS, json_decode($res->getResponseBody(), true)["method"]);
+        $this->assertEquals(RequestInterface::METHOD_PUT, json_decode($res->getResponseBody(), true)["method"]);
         $this->assertEquals(200, $res->getResponseInfo()["http_code"]);
     }
 
@@ -53,13 +53,13 @@ class OptionsRequestTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $obj = new OptionsRequest($this->curlConfiguration, $this->curlResourcePath);
+        $obj = new PutRequest($this->configuration, $this->resourcePath);
 
-        $this->assertSame($this->curlConfiguration, $obj->getConfiguration());
+        $this->assertSame($this->configuration, $obj->getConfiguration());
         $this->assertEquals([], $obj->getHeaders());
-        $this->assertEquals(RequestInterface::METHOD_OPTIONS, $obj->getMethod());
+        $this->assertEquals(RequestInterface::METHOD_PUT, $obj->getMethod());
         $this->assertEquals([], $obj->getPostData());
         $this->assertEquals([], $obj->getQueryData());
-        $this->assertEquals($this->curlResourcePath, $obj->getResourcePath());
+        $this->assertEquals($this->resourcePath, $obj->getResourcePath());
     }
 }

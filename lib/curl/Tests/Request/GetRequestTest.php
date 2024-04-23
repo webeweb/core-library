@@ -36,7 +36,7 @@ class GetRequestTest extends AbstractTestCase {
      */
     public function testCallWithAllowEncoding(): void {
 
-        $obj = new GetRequest($this->curlConfiguration, $this->curlResourcePath);
+        $obj = new GetRequest($this->configuration, $this->resourcePath);
         $obj->getConfiguration()->setAllowEncoding(true);
 
         $res = $obj->call();
@@ -52,7 +52,7 @@ class GetRequestTest extends AbstractTestCase {
      */
     public function testCallWithConnectTimeout(): void {
 
-        $obj = new GetRequest($this->curlConfiguration, $this->curlResourcePath);
+        $obj = new GetRequest($this->configuration, $this->resourcePath);
         $obj->getConfiguration()->setConnectTimeout(30);
 
         $res = $obj->call();
@@ -68,7 +68,7 @@ class GetRequestTest extends AbstractTestCase {
      */
     public function testCallWithDebug(): void {
 
-        $obj = new GetRequest($this->curlConfiguration, $this->curlResourcePath);
+        $obj = new GetRequest($this->configuration, $this->resourcePath);
         $obj->getConfiguration()->setDebug(true);
 
         $res = $obj->call();
@@ -84,7 +84,7 @@ class GetRequestTest extends AbstractTestCase {
      */
     public function testCallWithHeader(): void {
 
-        $obj = new GetRequest($this->curlConfiguration, $this->curlResourcePath);
+        $obj = new GetRequest($this->configuration, $this->resourcePath);
         $obj->addHeader("h", "v");
 
         $res = $obj->call();
@@ -101,7 +101,7 @@ class GetRequestTest extends AbstractTestCase {
      */
     public function testCallWithHeaderApplicationJSON(): void {
 
-        $obj = new GetRequest($this->curlConfiguration, $this->curlResourcePath);
+        $obj = new GetRequest($this->configuration, $this->resourcePath);
         $obj->addHeader("Content-Type", "application/json");
         $obj->addPostData("name", "value");
 
@@ -119,7 +119,7 @@ class GetRequestTest extends AbstractTestCase {
      */
     public function testCallWithHttpCodes(): void {
 
-        $obj = new GetRequest($this->curlConfiguration, $this->curlResourcePath);
+        $obj = new GetRequest($this->configuration, $this->resourcePath);
 
         foreach (CurlHelper::enumCodes() as $code) {
 
@@ -150,7 +150,7 @@ class GetRequestTest extends AbstractTestCase {
      */
     public function testCallWithRequestTimeout(): void {
 
-        $obj = new GetRequest($this->curlConfiguration, $this->curlResourcePath);
+        $obj = new GetRequest($this->configuration, $this->resourcePath);
         $obj->getConfiguration()->setRequestTimeout(30);
 
         $res = $obj->call();
@@ -166,7 +166,7 @@ class GetRequestTest extends AbstractTestCase {
      */
     public function testCallWithRequestTimeoutException(): void {
 
-        $obj = new GetRequest($this->curlConfiguration, $this->curlResourcePath);
+        $obj = new GetRequest($this->configuration, $this->resourcePath);
         $obj->getConfiguration()->setRequestTimeout(10);
         $obj->addQueryData("sleep", "60");
 
@@ -191,7 +191,7 @@ class GetRequestTest extends AbstractTestCase {
      */
     public function testCallWithSSLVerification(): void {
 
-        $obj = new GetRequest($this->curlConfiguration, $this->curlResourcePath);
+        $obj = new GetRequest($this->configuration, $this->resourcePath);
         $obj->getConfiguration()->setSslVerification(false);
 
         $res = $obj->call();
@@ -207,7 +207,7 @@ class GetRequestTest extends AbstractTestCase {
      */
     public function testCallWithVerbose(): void {
 
-        $obj = new GetRequest($this->curlConfiguration, $this->curlResourcePath);
+        $obj = new GetRequest($this->configuration, $this->resourcePath);
         $obj->getConfiguration()->setVerbose(true);
 
         $res = $obj->call();
@@ -223,7 +223,7 @@ class GetRequestTest extends AbstractTestCase {
      */
     public function testClearHeaders(): void {
 
-        $obj = new GetRequest($this->curlConfiguration, $this->curlResourcePath);
+        $obj = new GetRequest($this->configuration, $this->resourcePath);
 
         $obj->addHeader("name", "value");
         $this->assertCount(1, $obj->getHeaders());
@@ -240,7 +240,7 @@ class GetRequestTest extends AbstractTestCase {
      */
     public function testClearQueryData(): void {
 
-        $obj = new GetRequest($this->curlConfiguration, $this->curlResourcePath);
+        $obj = new GetRequest($this->configuration, $this->resourcePath);
 
         $obj->addQueryData("name", "value");
         $this->assertCount(1, $obj->getQueryData());
@@ -257,7 +257,7 @@ class GetRequestTest extends AbstractTestCase {
      */
     public function testRemoveHeader(): void {
 
-        $obj = new GetRequest($this->curlConfiguration, $this->curlResourcePath);
+        $obj = new GetRequest($this->configuration, $this->resourcePath);
 
         $obj->addHeader("name", "value");
         $this->assertCount(1, $obj->getHeaders());
@@ -277,7 +277,7 @@ class GetRequestTest extends AbstractTestCase {
      */
     public function testRemoveQueryData(): void {
 
-        $obj = new GetRequest($this->curlConfiguration, $this->curlResourcePath);
+        $obj = new GetRequest($this->configuration, $this->resourcePath);
 
         $obj->addQueryData("name", "value");
         $this->assertCount(1, $obj->getQueryData());
@@ -297,13 +297,13 @@ class GetRequestTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $obj = new GetRequest($this->curlConfiguration, $this->curlResourcePath);
+        $obj = new GetRequest($this->configuration, $this->resourcePath);
 
-        $this->assertSame($this->curlConfiguration, $obj->getConfiguration());
+        $this->assertSame($this->configuration, $obj->getConfiguration());
         $this->assertEquals([], $obj->getHeaders());
         $this->assertEquals(RequestInterface::METHOD_GET, $obj->getMethod());
         $this->assertEquals([], $obj->getPostData());
         $this->assertEquals([], $obj->getQueryData());
-        $this->assertEquals($this->curlResourcePath, $obj->getResourcePath());
+        $this->assertEquals($this->resourcePath, $obj->getResourcePath());
     }
 }
