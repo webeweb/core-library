@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Ftp\Exception;
 
-use WBW\Library\Core\Exception\AbstractException as BaseException;
+use WBW\Library\Common\Exception\AbstractException as BaseException;
 
 /**
  * FTP exception.

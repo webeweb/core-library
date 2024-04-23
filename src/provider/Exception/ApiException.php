@@ -14,7 +14,7 @@ declare(strict_types = 1);
 namespace WBW\Library\Provider\Exception;
 
 use Throwable;
-use WBW\Library\Core\Exception\AbstractException as BaseException;
+use WBW\Library\Common\Exception\AbstractException as BaseException;
 
 /**
  * API exception.

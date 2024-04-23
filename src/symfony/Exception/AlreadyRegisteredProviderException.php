@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Symfony\Exception;
 
-use WBW\Library\Core\Exception\AbstractException;
+use WBW\Library\Common\Exception\AbstractException;
 use WBW\Library\Symfony\Provider\ProviderInterface;
 
 /**

@@ -11,16 +11,16 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Fixtures\Exception;
+namespace WBW\Library\Common\Tests\Fixtures\Exception;
 
-use WBW\Library\Core\Exception\AbstractException;
+use WBW\Library\Common\Exception\AbstractException;
 
 /**
- * Test exception.
+ * Test abstract exception.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Core\Tests\Fixtures\Exception
+ * @package WBW\Library\Common\Tests\Fixtures\Exception
  */
-class TestException extends AbstractException {
+class TestAbstractException extends AbstractException {
 
 }

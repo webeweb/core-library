@@ -11,7 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Exception;
+namespace WBW\Library\Common\Exception;
 
 use Exception;
 use Throwable;
@@ -20,7 +20,7 @@ use Throwable;
  * Abstract exception.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Core\Exception
+ * @package WBW\Library\Common\Exception
  * @abstract
  */
 abstract class AbstractException extends Exception {

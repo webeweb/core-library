@@ -11,17 +11,17 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Exception;
+namespace WBW\Library\Common\Tests\Exception;
 
 use Throwable;
-use WBW\Library\Core\Tests\AbstractTestCase;
-use WBW\Library\Core\Tests\Fixtures\Exception\TestException;
+use WBW\Library\Common\Tests\Fixtures\Exception\TestAbstractException;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * Abstract exception test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Core\Tests\Exception
+ * @package WBW\Library\Common\Tests\Exception
  */
 class AbstractExceptionTest extends AbstractTestCase {
 
@@ -35,7 +35,7 @@ class AbstractExceptionTest extends AbstractTestCase {
         // Set a Throwable mock.
         $throwable = $this->getMockBuilder(Throwable::class)->getMock();
 
-        $obj = new TestException("message", 500, $throwable);
+        $obj = new TestAbstractException("message", 500, $throwable);
 
         $this->assertEquals("message", $obj->getMessage());
         $this->assertEquals(500, $obj->getCode());
