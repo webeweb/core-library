@@ -14,7 +14,7 @@ declare(strict_types = 1);
 namespace WBW\Library\Symfony\Provider;
 
 use JsonSerializable;
-use WBW\Library\Serializer\SerializerKeys;
+use WBW\Library\Common\Serializer\SerializerKeys;
 use WBW\Library\Traits\Strings\StringDomainTrait;
 
 /**

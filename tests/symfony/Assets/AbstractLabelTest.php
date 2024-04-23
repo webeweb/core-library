@@ -14,7 +14,7 @@ declare(strict_types = 1);
 namespace WBW\Library\Symfony\Tests\Assets;
 
 use JsonSerializable;
-use WBW\Library\Serializer\SerializerKeys;
+use WBW\Library\Common\Serializer\SerializerKeys;
 use WBW\Library\Symfony\Assets\LabelInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 use WBW\Library\Symfony\Tests\Fixtures\Assets\TestLabel;

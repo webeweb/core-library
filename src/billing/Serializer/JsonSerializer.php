@@ -25,7 +25,7 @@ use WBW\Library\Billing\Model\SalesBillInterface;
 use WBW\Library\Billing\Model\SendingAddressInterface;
 use WBW\Library\Billing\Model\TaxableInterface;
 use WBW\Library\Serializer\Helper\JsonSerializerHelper;
-use WBW\Library\Serializer\SerializerKeys as BaseSerializerKeys;
+use WBW\Library\Common\Serializer\SerializerKeys as BaseSerializerKeys;
 
 /**
  * JSON serializer.

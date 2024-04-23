@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\System\Serializer;
 
-use WBW\Library\Serializer\SerializerKeys as BaseSerializerKeys;
+use WBW\Library\Common\Serializer\SerializerKeys as BaseSerializerKeys;
 use WBW\Library\System\Model\CpuInterface;
 use WBW\Library\System\Model\HardDiskInterface;
 use WBW\Library\System\Model\MemoryInterface;

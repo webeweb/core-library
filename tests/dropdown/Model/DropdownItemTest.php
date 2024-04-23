@@ -17,7 +17,7 @@ use JsonSerializable;
 use WBW\Library\Dropdown\Model\DropdownItem;
 use WBW\Library\Dropdown\Model\DropdownItemInterface;
 use WBW\Library\Dropdown\Tests\AbstractTestCase;
-use WBW\Library\Serializer\SerializerKeys as BaseSerializerKeys;
+use WBW\Library\Common\Serializer\SerializerKeys as BaseSerializerKeys;
 
 /**
  * Dropdown item test.

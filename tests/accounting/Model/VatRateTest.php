@@ -19,7 +19,7 @@ use WBW\Library\Accounting\Model\AccountingAccountInterface;
 use WBW\Library\Accounting\Model\VatRate;
 use WBW\Library\Accounting\Model\VatRateInterface;
 use WBW\Library\Accounting\Tests\AbstractTestCase;
-use WBW\Library\Serializer\SerializerKeys as BaseSerializerKeys;
+use WBW\Library\Common\Serializer\SerializerKeys as BaseSerializerKeys;
 
 /**
  * VAT rate test.

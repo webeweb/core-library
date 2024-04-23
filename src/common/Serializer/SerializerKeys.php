@@ -11,13 +11,13 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Serializer;
+namespace WBW\Library\Common\Serializer;
 
 /**
  * Serializer keys.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Serializer
+ * @package WBW\Library\Common\Serializer
  */
 interface SerializerKeys {
 

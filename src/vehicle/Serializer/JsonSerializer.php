@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Vehicle\Serializer;
 
-use WBW\Library\Serializer\SerializerKeys as BaseSerializerKeys;
+use WBW\Library\Common\Serializer\SerializerKeys as BaseSerializerKeys;
 use WBW\Library\Vehicle\Model\RegistrationCertificateInterface;
 use WBW\Library\Vehicle\Model\VehicleBrandInterface;
 

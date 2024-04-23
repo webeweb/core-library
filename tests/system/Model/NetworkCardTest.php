@@ -14,7 +14,7 @@ declare(strict_types = 1);
 namespace WBW\Library\System\Tests\Model;
 
 use JsonSerializable;
-use WBW\Library\Serializer\SerializerKeys as BaseSerializerKeys;
+use WBW\Library\Common\Serializer\SerializerKeys as BaseSerializerKeys;
 use WBW\Library\System\Model\NetworkCard;
 use WBW\Library\System\Model\NetworkCardInterface;
 use WBW\Library\System\Serializer\SerializerKeys;

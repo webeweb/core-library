@@ -14,7 +14,7 @@ declare(strict_types = 1);
 namespace WBW\Library\System\Tests\Model;
 
 use JsonSerializable;
-use WBW\Library\Serializer\SerializerKeys as BaseSerializerKeys;
+use WBW\Library\Common\Serializer\SerializerKeys as BaseSerializerKeys;
 use WBW\Library\System\Model\OperatingSystem;
 use WBW\Library\System\Model\OperatingSystemInterface;
 use WBW\Library\System\Serializer\SerializerKeys;

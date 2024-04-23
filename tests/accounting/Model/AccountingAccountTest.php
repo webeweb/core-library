@@ -17,7 +17,7 @@ use JsonSerializable;
 use WBW\Library\Accounting\Model\AccountingAccount;
 use WBW\Library\Accounting\Model\AccountingAccountInterface;
 use WBW\Library\Accounting\Tests\AbstractTestCase;
-use WBW\Library\Serializer\SerializerKeys as BaseSerializerKeys;
+use WBW\Library\Common\Serializer\SerializerKeys as BaseSerializerKeys;
 
 /**
  * Accounting account test.
