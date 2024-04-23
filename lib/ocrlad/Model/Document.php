@@ -13,8 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\OcrLad\Model;
 
+use WBW\Library\Common\Traits\Strings\StringFilenameTrait;
 use WBW\Library\OcrLad\Traits\Arrays\ArrayWordsTrait;
-use WBW\Library\Traits\Strings\StringFilenameTrait;
 
 /**
  * Document.

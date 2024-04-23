@@ -14,8 +14,8 @@ declare(strict_types = 1);
 namespace WBW\Library\Dropdown\Model;
 
 use WBW\Library\Common\Traits\Integers\IntegerPositionTrait;
+use WBW\Library\Common\Traits\Strings\StringLabelTrait;
 use WBW\Library\Dropdown\Serializer\JsonSerializer;
-use WBW\Library\Traits\Strings\StringLabelTrait;
 
 /**
  * Dropdown item.

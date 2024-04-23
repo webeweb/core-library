@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Provider\Response;
 
-use WBW\Library\Traits\Strings\StringRawResponseTrait;
+use WBW\Library\Common\Traits\Strings\StringRawResponseTrait;
 
 /**
  * Abstract response.

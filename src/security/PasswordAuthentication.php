@@ -13,8 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Security;
 
-use WBW\Library\Traits\Strings\StringPasswordTrait;
-use WBW\Library\Traits\Strings\StringUsernameTrait;
+use WBW\Library\Common\Traits\Strings\StringPasswordTrait;
+use WBW\Library\Common\Traits\Strings\StringUsernameTrait;
 
 /**
  * Password authentication.

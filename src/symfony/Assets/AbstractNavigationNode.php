@@ -16,13 +16,13 @@ namespace WBW\Library\Symfony\Assets;
 use WBW\Library\Common\Traits\Booleans\BooleanActiveTrait;
 use WBW\Library\Common\Traits\Booleans\BooleanEnableTrait;
 use WBW\Library\Common\Traits\Booleans\BooleanVisibleTrait;
+use WBW\Library\Common\Traits\Strings\StringIconTrait;
+use WBW\Library\Common\Traits\Strings\StringIdTrait;
+use WBW\Library\Common\Traits\Strings\StringLabelTrait;
+use WBW\Library\Common\Traits\Strings\StringTargetTrait;
+use WBW\Library\Common\Traits\Strings\StringUriTrait;
 use WBW\Library\Sorter\Model\AlphabeticalTreeNodeInterface;
 use WBW\Library\Symfony\Serializer\JsonSerializer;
-use WBW\Library\Traits\Strings\StringIconTrait;
-use WBW\Library\Traits\Strings\StringIdTrait;
-use WBW\Library\Traits\Strings\StringLabelTrait;
-use WBW\Library\Traits\Strings\StringTargetTrait;
-use WBW\Library\Traits\Strings\StringUriTrait;
 
 /**
  * Abstract navigation node.

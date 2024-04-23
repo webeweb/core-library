@@ -14,7 +14,7 @@ declare(strict_types = 1);
 namespace WBW\Library\Symfony\Model;
 
 use WBW\Library\Common\Traits\DateTimes\DateTimeDateTrait;
-use WBW\Library\Traits\Strings\StringContentTrait;
+use WBW\Library\Common\Traits\Strings\StringContentTrait;
 
 /**
  * Quote.

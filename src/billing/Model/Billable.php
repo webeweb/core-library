@@ -25,9 +25,9 @@ use WBW\Library\Common\Traits\Floats\FloatDiscountTotalTrait;
 use WBW\Library\Common\Traits\Floats\FloatExcludingVatTotalTrait;
 use WBW\Library\Common\Traits\Floats\FloatIncludingVatTotalTrait;
 use WBW\Library\Common\Traits\Floats\FloatVatTotalTrait;
-use WBW\Library\Traits\Strings\StringCommentTrait;
-use WBW\Library\Traits\Strings\StringNumberTrait;
-use WBW\Library\Traits\Strings\StringReferenceTrait;
+use WBW\Library\Common\Traits\Strings\StringCommentTrait;
+use WBW\Library\Common\Traits\Strings\StringNumberTrait;
+use WBW\Library\Common\Traits\Strings\StringReferenceTrait;
 
 /**
  * Billable.

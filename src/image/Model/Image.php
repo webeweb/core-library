@@ -18,12 +18,12 @@ use RuntimeException;
 use WBW\Library\Common\Traits\Integers\IntegerHeightTrait;
 use WBW\Library\Common\Traits\Integers\IntegerSizeTrait;
 use WBW\Library\Common\Traits\Integers\IntegerWidthTrait;
+use WBW\Library\Common\Traits\Strings\StringDirectoryTrait;
+use WBW\Library\Common\Traits\Strings\StringExtensionTrait;
+use WBW\Library\Common\Traits\Strings\StringFilenameTrait;
+use WBW\Library\Common\Traits\Strings\StringMimeTypeTrait;
+use WBW\Library\Common\Traits\Strings\StringPathnameTrait;
 use WBW\Library\Image\Helper\ImageHelper;
-use WBW\Library\Traits\Strings\StringDirectoryTrait;
-use WBW\Library\Traits\Strings\StringExtensionTrait;
-use WBW\Library\Traits\Strings\StringFilenameTrait;
-use WBW\Library\Traits\Strings\StringMimeTypeTrait;
-use WBW\Library\Traits\Strings\StringPathnameTrait;
 
 /**
  * Image.

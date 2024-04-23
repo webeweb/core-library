@@ -15,7 +15,7 @@ namespace WBW\Library\Symfony\Provider;
 
 use JsonSerializable;
 use WBW\Library\Common\Serializer\SerializerKeys;
-use WBW\Library\Traits\Strings\StringDomainTrait;
+use WBW\Library\Common\Traits\Strings\StringDomainTrait;
 
 /**
  * Abstract color provider.

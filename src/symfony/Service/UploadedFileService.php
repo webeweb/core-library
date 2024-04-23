@@ -15,7 +15,7 @@ namespace WBW\Library\Symfony\Service;
 
 use SplFileInfo;
 use Throwable;
-use WBW\Library\Traits\Strings\StringDirectoryTrait;
+use WBW\Library\Common\Traits\Strings\StringDirectoryTrait;
 use WBW\Library\Types\Helper\StringHelper;
 
 /**

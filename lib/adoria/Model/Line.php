@@ -14,8 +14,8 @@ declare(strict_types = 1);
 namespace WBW\Library\Adoria\Model;
 
 use DateTime;
-use WBW\Library\Traits\Strings\StringAccountingCodeTrait;
-use WBW\Library\Traits\Strings\StringReferenceTrait;
+use WBW\Library\Common\Traits\Strings\StringAccountingCodeTrait;
+use WBW\Library\Common\Traits\Strings\StringReferenceTrait;
 
 /**
  * Line.

@@ -13,9 +13,9 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Symfony\Assets;
 
+use WBW\Library\Common\Traits\Strings\StringNameTrait;
+use WBW\Library\Common\Traits\Strings\StringStyleTrait;
 use WBW\Library\Symfony\Serializer\JsonSerializer;
-use WBW\Library\Traits\Strings\StringNameTrait;
-use WBW\Library\Traits\Strings\StringStyleTrait;
 
 /**
  * Abstract icon.

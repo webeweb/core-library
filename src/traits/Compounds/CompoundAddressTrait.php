@@ -13,12 +13,12 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Traits\Compounds;
 
-use WBW\Library\Traits\Strings\StringAddresseeTrait;
-use WBW\Library\Traits\Strings\StringCountryTrait;
-use WBW\Library\Traits\Strings\StringHouseNumberTrait;
-use WBW\Library\Traits\Strings\StringLocationTrait;
-use WBW\Library\Traits\Strings\StringPostalCodeTrait;
-use WBW\Library\Traits\Strings\StringStreetNameTrait;
+use WBW\Library\Common\Traits\Strings\StringAddresseeTrait;
+use WBW\Library\Common\Traits\Strings\StringCountryTrait;
+use WBW\Library\Common\Traits\Strings\StringHouseNumberTrait;
+use WBW\Library\Common\Traits\Strings\StringLocationTrait;
+use WBW\Library\Common\Traits\Strings\StringPostalCodeTrait;
+use WBW\Library\Common\Traits\Strings\StringStreetNameTrait;
 
 /**
  * Compound address trait.

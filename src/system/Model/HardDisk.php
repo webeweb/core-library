@@ -13,9 +13,9 @@ declare(strict_types = 1);
 
 namespace WBW\Library\System\Model;
 
+use WBW\Library\Common\Traits\Strings\StringNameTrait;
+use WBW\Library\Common\Traits\Strings\StringTypeTrait;
 use WBW\Library\System\Serializer\JsonSerializer;
-use WBW\Library\Traits\Strings\StringNameTrait;
-use WBW\Library\Traits\Strings\StringTypeTrait;
 
 /**
  * Hard disk.

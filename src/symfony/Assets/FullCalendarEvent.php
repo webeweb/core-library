@@ -14,10 +14,10 @@ declare(strict_types = 1);
 namespace WBW\Library\Symfony\Assets;
 
 use DateTime;
+use WBW\Library\Common\Traits\Strings\StringIdTrait;
+use WBW\Library\Common\Traits\Strings\StringTitleTrait;
+use WBW\Library\Common\Traits\Strings\StringUrlTrait;
 use WBW\Library\Symfony\Serializer\JsonSerializer;
-use WBW\Library\Traits\Strings\StringIdTrait;
-use WBW\Library\Traits\Strings\StringTitleTrait;
-use WBW\Library\Traits\Strings\StringUrlTrait;
 
 /**
  * Full Calendar event.

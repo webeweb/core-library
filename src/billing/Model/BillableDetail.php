@@ -20,9 +20,9 @@ use WBW\Library\Common\Traits\Floats\FloatExcludingVatTotalTrait;
 use WBW\Library\Common\Traits\Floats\FloatIncludingVatTotalTrait;
 use WBW\Library\Common\Traits\Floats\FloatQuantityTrait;
 use WBW\Library\Common\Traits\Floats\FloatVatTotalTrait;
-use WBW\Library\Traits\Strings\StringCommentTrait;
-use WBW\Library\Traits\Strings\StringLabelTrait;
-use WBW\Library\Traits\Strings\StringReferenceTrait;
+use WBW\Library\Common\Traits\Strings\StringCommentTrait;
+use WBW\Library\Common\Traits\Strings\StringLabelTrait;
+use WBW\Library\Common\Traits\Strings\StringReferenceTrait;
 
 /**
  * Billable detail.

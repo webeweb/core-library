@@ -14,8 +14,8 @@ declare(strict_types = 1);
 namespace WBW\Library\Symfony\Model;
 
 use WBW\Library\Common\Traits\Integers\IntegerCountTrait;
-use WBW\Library\Traits\Strings\StringEntityTrait;
-use WBW\Library\Traits\Strings\StringTableTrait;
+use WBW\Library\Common\Traits\Strings\StringEntityTrait;
+use WBW\Library\Common\Traits\Strings\StringTableTrait;
 
 /**
  * Repository report.

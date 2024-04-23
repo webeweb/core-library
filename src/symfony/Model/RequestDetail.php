@@ -15,12 +15,12 @@ namespace WBW\Library\Symfony\Model;
 
 use WBW\Library\Common\Traits\DateTimes\DateTimeDateTrait;
 use WBW\Library\Common\Traits\Integers\IntegerIdTrait;
+use WBW\Library\Common\Traits\Strings\StringIpAddressTrait;
+use WBW\Library\Common\Traits\Strings\StringMethodTrait;
+use WBW\Library\Common\Traits\Strings\StringRouteTrait;
+use WBW\Library\Common\Traits\Strings\StringUrlTrait;
+use WBW\Library\Common\Traits\Strings\StringUserAgentTrait;
 use WBW\Library\Symfony\Serializer\JsonSerializer;
-use WBW\Library\Traits\Strings\StringIpAddressTrait;
-use WBW\Library\Traits\Strings\StringMethodTrait;
-use WBW\Library\Traits\Strings\StringRouteTrait;
-use WBW\Library\Traits\Strings\StringUrlTrait;
-use WBW\Library\Traits\Strings\StringUserAgentTrait;
 
 /**
  * Request detail.

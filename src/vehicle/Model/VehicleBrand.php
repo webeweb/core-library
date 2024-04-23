@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Vehicle\Model;
 
-use WBW\Library\Traits\Strings\StringLabelTrait;
+use WBW\Library\Common\Traits\Strings\StringLabelTrait;
 use WBW\Library\Vehicle\Serializer\JsonSerializer;
 
 /**

@@ -13,9 +13,9 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Symfony\Assets;
 
+use WBW\Library\Common\Traits\Strings\StringContentTrait;
+use WBW\Library\Common\Traits\Strings\StringTypeTrait;
 use WBW\Library\Symfony\Serializer\JsonSerializer;
-use WBW\Library\Traits\Strings\StringContentTrait;
-use WBW\Library\Traits\Strings\StringTypeTrait;
 
 /**
  * Abstract badge.

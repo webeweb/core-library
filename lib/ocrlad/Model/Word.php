@@ -14,9 +14,9 @@ declare(strict_types = 1);
 namespace WBW\Library\OcrLad\Model;
 
 use WBW\Library\Common\Traits\Integers\IntegerPageTrait;
+use WBW\Library\Common\Traits\Strings\StringContentTrait;
+use WBW\Library\Common\Traits\Strings\StringTypeTrait;
 use WBW\Library\OcrLad\Geometry\Point;
-use WBW\Library\Traits\Strings\StringContentTrait;
-use WBW\Library\Traits\Strings\StringTypeTrait;
 
 /**
  * Word.

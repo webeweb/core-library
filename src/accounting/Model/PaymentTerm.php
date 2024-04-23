@@ -14,8 +14,8 @@ declare(strict_types = 1);
 namespace WBW\Library\Accounting\Model;
 
 use WBW\Library\Accounting\Serializer\JsonSerializer;
-use WBW\Library\Traits\Strings\StringCodeTrait;
-use WBW\Library\Traits\Strings\StringLabelTrait;
+use WBW\Library\Common\Traits\Strings\StringCodeTrait;
+use WBW\Library\Common\Traits\Strings\StringLabelTrait;
 
 /**
  * Payment term.

@@ -14,7 +14,7 @@ declare(strict_types = 1);
 namespace WBW\Library\Security;
 
 use WBW\Library\Common\Traits\Integers\IntegerPortTrait;
-use WBW\Library\Traits\Strings\StringHostnameTrait;
+use WBW\Library\Common\Traits\Strings\StringHostnameTrait;
 
 /**
  * Authenticator.

@@ -14,9 +14,9 @@ declare(strict_types = 1);
 namespace WBW\Library\Accounting\Model;
 
 use WBW\Library\Accounting\Serializer\JsonSerializer;
-use WBW\Library\Traits\Strings\StringLabelTrait;
-use WBW\Library\Traits\Strings\StringNumberTrait;
-use WBW\Library\Traits\Strings\StringTypeTrait;
+use WBW\Library\Common\Traits\Strings\StringLabelTrait;
+use WBW\Library\Common\Traits\Strings\StringNumberTrait;
+use WBW\Library\Common\Traits\Strings\StringTypeTrait;
 
 /**
  * Accounting account.

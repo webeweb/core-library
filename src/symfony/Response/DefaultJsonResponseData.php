@@ -14,8 +14,8 @@ declare(strict_types = 1);
 namespace WBW\Library\Symfony\Response;
 
 use WBW\Library\Common\Traits\Arrays\ArrayDataTrait;
-use WBW\Library\Traits\Strings\ArrayErrorsTrait;
-use WBW\Library\Traits\Strings\StringMessageTrait;
+use WBW\Library\Common\Traits\Strings\ArrayErrorsTrait;
+use WBW\Library\Common\Traits\Strings\StringMessageTrait;
 
 /**
  * Default JSON response data.

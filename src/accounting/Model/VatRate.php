@@ -15,7 +15,7 @@ namespace WBW\Library\Accounting\Model;
 
 use WBW\Library\Accounting\Serializer\JsonSerializer;
 use WBW\Library\Common\Traits\Floats\FloatRateTrait;
-use WBW\Library\Traits\Strings\StringLabelTrait;
+use WBW\Library\Common\Traits\Strings\StringLabelTrait;
 
 /**
  * VAT rate.

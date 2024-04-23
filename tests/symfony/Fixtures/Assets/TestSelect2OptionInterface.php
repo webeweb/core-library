@@ -13,9 +13,9 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Symfony\Tests\Fixtures\Assets;
 
+use WBW\Library\Common\Traits\Strings\StringNameTrait;
 use WBW\Library\Core\Model\AbstractNode;
 use WBW\Library\Symfony\Assets\Select2OptionInterface;
-use WBW\Library\Traits\Strings\StringNameTrait;
 
 /**
  * Test Select2 option interface.

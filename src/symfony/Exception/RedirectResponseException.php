@@ -14,8 +14,8 @@ declare(strict_types = 1);
 namespace WBW\Library\Symfony\Exception;
 
 use WBW\Library\Common\Exception\AbstractException;
-use WBW\Library\Traits\Strings\StringOriginUrlTrait;
-use WBW\Library\Traits\Strings\StringRedirectUrlTrait;
+use WBW\Library\Common\Traits\Strings\StringOriginUrlTrait;
+use WBW\Library\Common\Traits\Strings\StringRedirectUrlTrait;
 
 /**
  * Redirect response exception.
