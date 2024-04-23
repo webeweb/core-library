@@ -13,9 +13,9 @@ declare(strict_types = 1);
 
 namespace WBW\Library\OcrLad\Model;
 
+use WBW\Library\Common\Traits\Integers\IntegerHeightTrait;
+use WBW\Library\Common\Traits\Integers\IntegerWidthTrait;
 use WBW\Library\OcrLad\Traits\Arrays\ArrayWordsTrait;
-use WBW\Library\Traits\Integers\IntegerHeightTrait;
-use WBW\Library\Traits\Integers\IntegerWidthTrait;
 
 /**
  * Page.

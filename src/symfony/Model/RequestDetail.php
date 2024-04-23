@@ -14,8 +14,8 @@ declare(strict_types = 1);
 namespace WBW\Library\Symfony\Model;
 
 use WBW\Library\Common\Traits\DateTimes\DateTimeDateTrait;
+use WBW\Library\Common\Traits\Integers\IntegerIdTrait;
 use WBW\Library\Symfony\Serializer\JsonSerializer;
-use WBW\Library\Traits\Integers\IntegerIdTrait;
 use WBW\Library\Traits\Strings\StringIpAddressTrait;
 use WBW\Library\Traits\Strings\StringMethodTrait;
 use WBW\Library\Traits\Strings\StringRouteTrait;

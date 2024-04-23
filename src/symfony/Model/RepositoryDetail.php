@@ -14,8 +14,8 @@ declare(strict_types = 1);
 namespace WBW\Library\Symfony\Model;
 
 use WBW\Library\Common\Traits\Floats\FloatAverageTrait;
-use WBW\Library\Traits\Integers\IntegerMaximumTrait;
-use WBW\Library\Traits\Integers\IntegerMinimumTrait;
+use WBW\Library\Common\Traits\Integers\IntegerMaximumTrait;
+use WBW\Library\Common\Traits\Integers\IntegerMinimumTrait;
 use WBW\Library\Traits\Strings\StringTypeTrait;
 
 /**
