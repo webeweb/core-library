@@ -11,16 +11,16 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Traits\Tests\Compounds;
+namespace WBW\Library\Common\Tests\Traits\Compounds;
 
-use WBW\Library\Traits\Tests\AbstractTestCase;
-use WBW\Library\Traits\Tests\Fixtures\Compounds\TestCompoundTimestampableTrait;
+use WBW\Library\Common\Tests\Fixtures\Traits\Compounds\TestCompoundTimestampableTrait;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * Compound timestampable trait test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Traits\Tests\Compounds
+ * @package WBW\Library\Common\Tests\Traits\Compounds
  */
 class CompoundTimestampableTraitTest extends AbstractTestCase {
 

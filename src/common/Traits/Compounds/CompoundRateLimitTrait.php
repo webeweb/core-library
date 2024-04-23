@@ -11,7 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Traits\Compounds;
+namespace WBW\Library\Common\Traits\Compounds;
 
 use DateTime;
 
@@ -19,7 +19,7 @@ use DateTime;
  * Compound rate limit trait.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Traits\Compounds
+ * @package WBW\Library\Common\Traits\Compounds
  */
 trait CompoundRateLimitTrait {
 

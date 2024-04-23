@@ -11,15 +11,15 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Traits\Tests\Fixtures\Compounds;
+namespace WBW\Library\Common\Tests\Fixtures\Traits\Compounds;
 
-use WBW\Library\Traits\Compounds\CompoundTimestampableTrait;
+use WBW\Library\Common\Traits\Compounds\CompoundTimestampableTrait;
 
 /**
  * Test compound timestampable trait.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Traits\Tests\Fixtures\Compounds
+ * @package WBW\Library\Common\Tests\Fixtures\Traits\Compounds
  */
 class TestCompoundTimestampableTrait {
 

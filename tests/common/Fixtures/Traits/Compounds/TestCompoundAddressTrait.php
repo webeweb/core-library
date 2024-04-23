@@ -11,17 +11,17 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Traits\Tests\Fixtures\Compounds;
+namespace WBW\Library\Common\Tests\Fixtures\Traits\Compounds;
 
-use WBW\Library\Traits\Compounds\CompoundPointTrait;
+use WBW\Library\Common\Traits\Compounds\CompoundAddressTrait;
 
 /**
- * Test Compound point trait.
+ * Test compound address trait.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Traits\Tests\Fixtures\Compounds
+ * @package WBW\Library\Common\Tests\Fixtures\Traits\Compounds
  */
-class TestCompoundPointTrait {
+class TestCompoundAddressTrait {
 
-    use CompoundPointTrait;
+    use CompoundAddressTrait;
 }

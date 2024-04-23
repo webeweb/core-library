@@ -11,7 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Traits\Compounds;
+namespace WBW\Library\Common\Traits\Compounds;
 
 use WBW\Library\Common\Traits\Strings\StringAddresseeTrait;
 use WBW\Library\Common\Traits\Strings\StringCountryTrait;
@@ -24,7 +24,7 @@ use WBW\Library\Common\Traits\Strings\StringStreetNameTrait;
  * Compound address trait.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Traits\Compounds
+ * @package WBW\Library\Common\Traits\Compounds
  */
 trait CompoundAddressTrait {
 
