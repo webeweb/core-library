@@ -13,6 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\OcrLad\Tests\Provider;
 
+use Psr\Log\LoggerInterface;
 use WBW\Library\OcrLad\Model\IOFile;
 use WBW\Library\OcrLad\Provider\OcrProvider;
 use WBW\Library\OcrLad\Tests\AbstractTestCase;
@@ -25,6 +26,23 @@ use WBW\Library\OcrLad\Tests\Fixtures\Provider\TestOcrProvider;
  * @package WBW\Library\OcrLad\Tests\Provider
  */
 class OcrProviderTest extends AbstractTestCase {
+
+    /**
+     * Logger.
+     *
+     * @var LoggerInterface|null
+     */
+    private $logger;
+
+    /**
+     * {@inheritDoc}
+     */
+    protected function setUp(): void {
+        parent::setUp();
+
+        // Set a Logger mock.
+        $this->logger = $this->getMockBuilder(LoggerInterface::class)->getMock();
+    }
 
     /**
      * Test buildFilePaths()

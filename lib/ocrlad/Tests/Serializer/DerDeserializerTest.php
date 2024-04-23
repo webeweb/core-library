@@ -33,7 +33,7 @@ class DerDeserializerTest extends AbstractTestCase {
     public function testDeserializeDocument(): void {
 
         // Set a filename mock.
-        $filename = __DIR__ . "/../Fixtures/OcrLad.der";
+        $filename = __DIR__ . "/../Fixtures/Serializer/DerDeserializerTest.testDeserializeDocument.der";
 
         $res = DerDeserializer::deserializeDocument($filename);
         $this->assertEquals($filename, $res->getFilename());

@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\OcrLad\Tests;
 
-use WBW\Library\Core\Tests\AbstractTestCase as BaseTestCase;
+use PHPUnit\Framework\TestCase as BaseTestCase;
 
 /**
  * Abstract test case.

@@ -13,6 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\OcrLad\Tests\Provider;
 
+use Psr\Log\LoggerInterface;
 use WBW\Library\OcrLad\Provider\OcrProvider;
 use WBW\Library\OcrLad\Tests\AbstractTestCase;
 use WBW\Library\OcrLad\Tests\Fixtures\Provider\TestOcrProviderTrait;
@@ -32,8 +33,11 @@ class OcrProviderTraitTest extends AbstractTestCase {
      */
     public function testSetOcrProvider(): void {
 
+        // Set a Logger mock.
+        $logger = $this->getMockBuilder(LoggerInterface::class)->getMock();
+
         // Set an OCR provider mock.
-        $ocrProvider = new OcrProvider($this->logger);
+        $ocrProvider = new OcrProvider($logger);
 
         $obj = new TestOcrProviderTrait();
 
