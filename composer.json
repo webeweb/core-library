@@ -67,6 +67,7 @@
     },
     "autoload": {
         "psr-4": {
+            "WBW\\Library\\Common\\": "src/common/",
             "WBW\\Library\\Accounting\\": "src/accounting/",
             "WBW\\Library\\Adoria\\": "src/adoria/",
             "WBW\\Library\\Billing\\": "src/billing/",
@@ -96,6 +97,7 @@
     },
     "autoload-dev": {
         "psr-4": {
+            "WBW\\Library\\Common\\Tests\\": "tests/common/",
             "WBW\\Library\\Accounting\\Tests\\": "tests/accounting/",
             "WBW\\Library\\Adoria\\Tests\\": "tests/adoria/",
             "WBW\\Library\\Billing\\Tests\\": "tests/billing/",
