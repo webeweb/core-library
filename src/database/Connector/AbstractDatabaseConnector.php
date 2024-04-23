@@ -15,7 +15,7 @@ namespace WBW\Library\Database\Connector;
 
 use PDO;
 use Throwable;
-use WBW\Library\Security\Authenticator;
+use WBW\Library\Common\Security\Authenticator;
 
 /**
  * Abstract database connector.

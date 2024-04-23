@@ -14,7 +14,7 @@ declare(strict_types = 1);
 namespace WBW\Library\Database\Connector;
 
 use PDO;
-use WBW\Library\Security\Authenticator;
+use WBW\Library\Common\Security\Authenticator;
 
 /**
  * Oracle MySQL database connector.

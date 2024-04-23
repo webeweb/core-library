@@ -15,7 +15,7 @@ namespace WBW\Library\Database\Connector;
 
 use InvalidArgumentException;
 use PDO;
-use WBW\Library\Security\Authenticator;
+use WBW\Library\Common\Security\Authenticator;
 
 /**
  * Microsoft Access database connector.

@@ -14,8 +14,8 @@ declare(strict_types = 1);
 namespace WBW\Library\Ftp\Tests;
 
 use PHPUnit\Framework\TestCase as BaseTestCase;
-use WBW\Library\Security\Authenticator;
-use WBW\Library\Security\PasswordAuthentication;
+use WBW\Library\Common\Security\Authenticator;
+use WBW\Library\Common\Security\PasswordAuthentication;
 
 /**
  * Abstract test case.

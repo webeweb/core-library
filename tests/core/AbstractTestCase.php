@@ -15,8 +15,8 @@ namespace WBW\Library\Core\Tests;
 
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
-use WBW\Library\Security\Authenticator;
-use WBW\Library\Security\PasswordAuthentication;
+use WBW\Library\Common\Security\Authenticator;
+use WBW\Library\Common\Security\PasswordAuthentication;
 
 /**
  * Abstract test case.

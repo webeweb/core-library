@@ -11,18 +11,36 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Security\Tests;
+namespace WBW\Library\Common\Tests\Security;
 
-use WBW\Library\Security\Authenticator;
-use WBW\Library\Security\PasswordAuthentication;
+use WBW\Library\Common\Security\Authenticator;
+use WBW\Library\Common\Security\PasswordAuthentication;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * Authenticator test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Security\Tests
+ * @package WBW\Library\Common\Security\Tests
  */
 class AuthenticatorTest extends AbstractTestCase {
+
+    /**
+     * Password authentication.
+     *
+     * @var PasswordAuthentication|null
+     */
+    private $passwordAuthentication;
+
+    /**
+     * {@inheritDoc}
+     */
+    protected function setUp(): void {
+        parent::setUp();
+
+        // Set a Password authentication mock.
+        $this->passwordAuthentication = new PasswordAuthentication("demo", "password");
+    }
 
     /**
      * Test setPasswordAuthentication()

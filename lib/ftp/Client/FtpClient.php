@@ -13,8 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Ftp\Client;
 
+use WBW\Library\Common\Security\Authenticator;
 use WBW\Library\Ftp\Exception\FtpException;
-use WBW\Library\Security\Authenticator;
 use WBW\Library\Types\Helper\StringHelper;
 
 /**

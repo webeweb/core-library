@@ -11,16 +11,16 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Security\Tests;
+namespace WBW\Library\Common\Tests\Security;
 
-use WBW\Library\Ftp\Tests\AbstractTestCase;
-use WBW\Library\Security\PasswordAuthentication;
+use WBW\Library\Common\Security\PasswordAuthentication;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * Password authentication test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Security\Tests
+ * @package WBW\Library\Common\Security\Tests
  */
 class PasswordAuthenticationTest extends AbstractTestCase {
 

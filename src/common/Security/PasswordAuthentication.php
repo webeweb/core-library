@@ -11,7 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Security;
+namespace WBW\Library\Common\Security;
 
 use WBW\Library\Common\Traits\Strings\StringPasswordTrait;
 use WBW\Library\Common\Traits\Strings\StringUsernameTrait;
@@ -20,7 +20,7 @@ use WBW\Library\Common\Traits\Strings\StringUsernameTrait;
  * Password authentication.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Security
+ * @package WBW\Library\Common\Security
  */
 class PasswordAuthentication {
 
