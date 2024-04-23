@@ -11,16 +11,16 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Traits\Tests\Arrays;
+namespace WBW\Library\Common\Tests\Traits\Arrays;
 
-use WBW\Library\Traits\Tests\AbstractTestCase;
-use WBW\Library\Traits\Tests\Fixtures\Arrays\TestArrayDataTrait;
+use WBW\Library\Common\Tests\Fixtures\Traits\Arrays\TestArrayDataTrait;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * Array data trait test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Traits\Tests\Arrays
+ * @package WBW\Library\Common\Tests\Traits\Arrays
  */
 class ArrayDataTraitTest extends AbstractTestCase {
 

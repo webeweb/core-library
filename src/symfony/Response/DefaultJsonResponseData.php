@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Symfony\Response;
 
-use WBW\Library\Traits\Arrays\ArrayDataTrait;
+use WBW\Library\Common\Traits\Arrays\ArrayDataTrait;
 use WBW\Library\Traits\Strings\ArrayErrorsTrait;
 use WBW\Library\Traits\Strings\StringMessageTrait;
 

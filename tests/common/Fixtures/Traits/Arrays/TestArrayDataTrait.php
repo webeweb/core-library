@@ -11,15 +11,15 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Traits\Tests\Fixtures\Arrays;
+namespace WBW\Library\Common\Tests\Fixtures\Traits\Arrays;
 
-use WBW\Library\Traits\Arrays\ArrayDataTrait;
+use WBW\Library\Common\Traits\Arrays\ArrayDataTrait;
 
 /**
  * Test array data trait.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Traits\Tests\Fixtures\Arrays
+ * @package WBW\Library\Common\Tests\Fixtures\Traits\Arrays
  */
 class TestArrayDataTrait {
 

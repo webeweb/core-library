@@ -11,13 +11,13 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Traits\Arrays;
+namespace WBW\Library\Common\Traits\Arrays;
 
 /**
  * Array data trait.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Traits\Arrays
+ * @package WBW\Library\Common\Traits\Arrays
  */
 trait ArrayDataTrait {
 
