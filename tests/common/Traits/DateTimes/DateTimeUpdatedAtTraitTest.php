@@ -15,8 +15,8 @@ namespace WBW\Library\Common\Tests\Traits\DateTimes;
 
 use DateTime;
 use Throwable;
-use WBW\Library\Common\Tests\Fixtures\Traits\DateTimes\TestDateTimeUpdatedAtTrait;
 use WBW\Library\Common\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\Fixtures\Traits\DateTimes\TestDateTimeUpdatedAtTrait;
 
 /**
  * Date/time updated at trait test.

@@ -18,8 +18,8 @@ use WBW\Library\Accounting\Model\BankDetailsInterface;
 use WBW\Library\Accounting\Model\PaymentChoiceInterface;
 use WBW\Library\Accounting\Model\PaymentTermInterface;
 use WBW\Library\Accounting\Model\VatRateInterface;
-use WBW\Library\Serializer\Helper\JsonSerializerHelper;
 use WBW\Library\Common\Serializer\SerializerKeys as BaseSerializerKeys;
+use WBW\Library\Serializer\Helper\JsonSerializerHelper;
 
 /**
  * JSON serializer.

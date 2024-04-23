@@ -13,8 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Dropdown\Serializer;
 
-use WBW\Library\Dropdown\Model\DropdownItemInterface;
 use WBW\Library\Common\Serializer\SerializerKeys as BaseSerializerKeys;
+use WBW\Library\Dropdown\Model\DropdownItemInterface;
 
 /**
  * JSON serializer.

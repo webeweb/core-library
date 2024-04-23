@@ -14,8 +14,8 @@ declare(strict_types = 1);
 namespace WBW\Library\Common\Tests\Exception;
 
 use Throwable;
-use WBW\Library\Common\Tests\Fixtures\Exception\TestAbstractException;
 use WBW\Library\Common\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\Fixtures\Exception\TestAbstractException;
 
 /**
  * Abstract exception test.

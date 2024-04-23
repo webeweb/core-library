@@ -14,8 +14,8 @@ declare(strict_types = 1);
 namespace WBW\Library\Common\Tests\Traits\DateTimes;
 
 use DateTime;
-use WBW\Library\Common\Tests\Fixtures\Traits\DateTimes\TestDateTimeTimestampTrait;
 use WBW\Library\Common\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\Fixtures\Traits\DateTimes\TestDateTimeTimestampTrait;
 
 /**
  * Date/time timestamp trait test.

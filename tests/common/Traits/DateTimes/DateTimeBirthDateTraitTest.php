@@ -15,8 +15,8 @@ namespace WBW\Library\Common\Tests\Traits\DateTimes;
 
 use DateTime;
 use Throwable;
-use WBW\Library\Common\Tests\Fixtures\Traits\DateTimes\TestDateTimeBirthDateTrait;
 use WBW\Library\Common\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\Fixtures\Traits\DateTimes\TestDateTimeBirthDateTrait;
 
 /**
  * Date/time birth date trait test.

@@ -48,6 +48,7 @@ class MicrosoftSqlServerDatabaseConnectorTest extends AbstractTestCase {
         $this->authenticator = new Authenticator("localhost", $passwordAuthentication);
         $this->authenticator->setPort(null);
     }
+
     /**
      * Test getConnection()
      *
