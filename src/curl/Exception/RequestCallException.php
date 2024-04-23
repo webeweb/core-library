@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Curl\Exception;
 
-use WBW\Library\Curl\Api\ResponseInterface;
+use WBW\Library\Curl\Response\ResponseInterface;
 
 /**
  * Request call exception.

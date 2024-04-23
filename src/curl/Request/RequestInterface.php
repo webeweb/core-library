@@ -11,10 +11,11 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Curl\Api;
+namespace WBW\Library\Curl\Request;
 
 use Throwable;
 use WBW\Library\Curl\Configuration\Configuration;
+use WBW\Library\Curl\Response\ResponseInterface;
 
 /**
  * Request interface.

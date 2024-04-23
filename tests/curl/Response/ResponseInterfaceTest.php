@@ -11,9 +11,9 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Curl\Tests\Api;
+namespace WBW\Library\Curl\Tests\Response;
 
-use WBW\Library\Curl\Api\ResponseInterface;
+use WBW\Library\Curl\Response\ResponseInterface;
 use WBW\Library\Curl\Tests\AbstractTestCase;
 
 /**

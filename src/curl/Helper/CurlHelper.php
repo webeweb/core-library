@@ -15,9 +15,9 @@ namespace WBW\Library\Curl\Helper;
 
 use DateTime;
 use Throwable;
-use WBW\Library\Curl\Api\RequestInterface;
-use WBW\Library\Curl\Api\ResponseInterface;
 use WBW\Library\Curl\Configuration\Configuration;
+use WBW\Library\Curl\Request\RequestInterface;
+use WBW\Library\Curl\Response\ResponseInterface;
 
 /**
  * cURL helper.

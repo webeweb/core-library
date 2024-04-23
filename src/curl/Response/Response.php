@@ -13,8 +13,6 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Curl\Response;
 
-use WBW\Library\Curl\Api\ResponseInterface;
-
 /**
  * Response.
  *

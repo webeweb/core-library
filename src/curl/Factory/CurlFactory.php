@@ -14,8 +14,6 @@ declare(strict_types = 1);
 namespace WBW\Library\Curl\Factory;
 
 use InvalidArgumentException;
-use WBW\Library\Curl\Api\RequestInterface;
-use WBW\Library\Curl\Api\ResponseInterface;
 use WBW\Library\Curl\Configuration\Configuration;
 use WBW\Library\Curl\Request\DeleteRequest;
 use WBW\Library\Curl\Request\GetRequest;
@@ -24,7 +22,9 @@ use WBW\Library\Curl\Request\OptionsRequest;
 use WBW\Library\Curl\Request\PatchRequest;
 use WBW\Library\Curl\Request\PostRequest;
 use WBW\Library\Curl\Request\PutRequest;
+use WBW\Library\Curl\Request\RequestInterface;
 use WBW\Library\Curl\Response\Response;
+use WBW\Library\Curl\Response\ResponseInterface;
 
 /**
  * cURL factory.

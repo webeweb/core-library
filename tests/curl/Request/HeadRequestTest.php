@@ -14,8 +14,8 @@ declare(strict_types = 1);
 namespace WBW\Library\Curl\Tests\Request;
 
 use Throwable;
-use WBW\Library\Curl\Api\RequestInterface;
 use WBW\Library\Curl\Request\HeadRequest;
+use WBW\Library\Curl\Request\RequestInterface;
 use WBW\Library\Curl\Tests\AbstractTestCase;
 
 /**
