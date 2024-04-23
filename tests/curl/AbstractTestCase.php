@@ -13,7 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Curl\Tests;
 
-use WBW\Library\Core\Tests\AbstractTestCase as BaseTestCase;
+
+use PHPUnit\Framework\TestCase as BaseTestCase;
 use WBW\Library\Curl\Configuration\Configuration;
 
 /**
@@ -28,14 +29,14 @@ abstract class AbstractTestCase extends BaseTestCase {
     /**
      * Configuration.
      *
-     * @var Configuration
+     * @var Configuration|null
      */
     protected $curlConfiguration;
 
     /**
      * cURL resource path.
      *
-     * @var string
+     * @var string|null
      */
     protected $curlResourcePath;
 
