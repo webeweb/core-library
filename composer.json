@@ -68,6 +68,7 @@
     "autoload": {
         "psr-4": {
             "WBW\\Library\\Curl\\": "lib/curl/",
+            "WBW\\Library\\Quadratus\\": "lib/quadratus/",
             "WBW\\Library\\Common\\": "src/common/",
             "WBW\\Library\\Accounting\\": "src/accounting/",
             "WBW\\Library\\Adoria\\": "src/adoria/",
@@ -81,7 +82,6 @@
             "WBW\\Library\\OcrLad\\": "src/ocrlad/",
             "WBW\\Library\\Planning\\": "src/planning/",
             "WBW\\Library\\Provider\\": "src/provider/",
-            "WBW\\Library\\Quadratus\\": "src/quadratus/",
             "WBW\\Library\\Security\\": "src/security/",
             "WBW\\Library\\Serializer\\": "src/serializer/",
             "WBW\\Library\\SkiData\\": "src/skidata/",
@@ -94,12 +94,14 @@
             "WBW\\Library\\Vehicle\\": "src/vehicle/"
         },
         "exclude-from-classmap": [
-            "/lib/curl/Tests/"
+            "/lib/curl/Tests/",
+            "/lib/quadratus/Tests/"
         ]
     },
     "autoload-dev": {
         "psr-4": {
             "WBW\\Library\\Curl\\Tests\\": "lib/curl/Tests",
+            "WBW\\Library\\Quadratus\\Tests\\": "lib/quadratus/Tests",
             "WBW\\Library\\Common\\Tests\\": "tests/common/",
             "WBW\\Library\\Accounting\\Tests\\": "tests/accounting/",
             "WBW\\Library\\Adoria\\Tests\\": "tests/adoria/",
@@ -113,7 +115,6 @@
             "WBW\\Library\\OcrLad\\Tests\\": "tests/ocrlad/",
             "WBW\\Library\\Planning\\Tests\\": "tests/planning/",
             "WBW\\Library\\Provider\\Tests\\": "tests/provider/",
-            "WBW\\Library\\Quadratus\\Tests\\": "tests/quadratus/",
             "WBW\\Library\\Security\\Tests\\": "tests/security/",
             "WBW\\Library\\Serializer\\Tests\\": "tests/serializer/",
             "WBW\\Library\\SkiData\\Tests\\": "tests/skidata/",
