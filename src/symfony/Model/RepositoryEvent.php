@@ -13,8 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Symfony\Model;
 
+use WBW\Library\Common\Traits\DateTimes\DateTimeDateTrait;
 use WBW\Library\Symfony\Serializer\JsonSerializer;
-use WBW\Library\Traits\DateTimes\DateTimeDateTrait;
 use WBW\Library\Traits\Integers\IntegerIdTrait;
 use WBW\Library\Traits\Strings\StringEntityTrait;
 use WBW\Library\Traits\Strings\StringIpAddressTrait;

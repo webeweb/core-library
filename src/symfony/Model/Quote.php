@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Symfony\Model;
 
-use WBW\Library\Traits\DateTimes\DateTimeDateTrait;
+use WBW\Library\Common\Traits\DateTimes\DateTimeDateTrait;
 use WBW\Library\Traits\Strings\StringContentTrait;
 
 /**
