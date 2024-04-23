@@ -88,7 +88,6 @@
             "WBW\\Library\\Sorter\\": "src/sorter/",
             "WBW\\Library\\Symfony\\": "src/symfony/",
             "WBW\\Library\\System\\": "src/system/",
-            "WBW\\Library\\Traits\\": "src/traits/",
             "WBW\\Library\\Types\\": "src/types/",
             "WBW\\Library\\Validator\\": "src/validator/",
             "WBW\\Library\\Vehicle\\": "src/vehicle/"
@@ -125,7 +124,6 @@
             "WBW\\Library\\Sorter\\Tests\\": "tests/sorter/",
             "WBW\\Library\\Symfony\\Tests\\": "tests/symfony/",
             "WBW\\Library\\System\\Tests\\": "tests/system/",
-            "WBW\\Library\\Traits\\Tests\\": "tests/traits/",
             "WBW\\Library\\Types\\Tests\\": "tests/types/",
             "WBW\\Library\\Validator\\Tests\\": "tests/validator/",
             "WBW\\Library\\Vehicle\\Tests\\": "tests/vehicle/"
