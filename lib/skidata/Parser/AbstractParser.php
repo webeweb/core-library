@@ -14,7 +14,6 @@ declare(strict_types = 1);
 namespace WBW\Library\SkiData\Parser;
 
 use DateTime;
-use WBW\Library\SkiData\Api\ParserInterface;
 use WBW\Library\SkiData\Exception\TooLongDataException;
 use WBW\Library\SkiData\Model\StartRecordFormat;
 use WBW\Library\Types\Helper\IntegerHelper;
@@ -26,7 +25,21 @@ use WBW\Library\Types\Helper\IntegerHelper;
  * @package WBW\Library\SkiData\Parser
  * @abstract
  */
-abstract class AbstractParser implements ParserInterface {
+abstract class AbstractParser {
+
+    /**
+     * Date/time format.
+     *
+     * @var string
+     */
+    public const DATETIME_FORMAT = "Ymd His";
+
+    /**
+     * Date format.
+     *
+     * @var string
+     */
+    public const DATE_FORMAT = "Ymd";
 
     /**
      * Start record format.
