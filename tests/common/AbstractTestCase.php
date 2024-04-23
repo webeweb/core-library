@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Tests;
 
-use PHPUnit\Framework\TestCase;
+use PHPUnit\Framework\TestCase as BaseTestCase;
 
 /**
  * Abstract test case.
@@ -21,6 +21,6 @@ use PHPUnit\Framework\TestCase;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Common\Tests
  */
-abstract class AbstractTestCase extends TestCase {
+abstract class AbstractTestCase extends BaseTestCase {
 
 }
