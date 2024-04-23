@@ -15,7 +15,6 @@ namespace WBW\Library\Adoria\Provider;
 
 use Psr\Log\LoggerInterface;
 use Throwable;
-use WBW\Library\Adoria\Api\ApiProviderInterface;
 use WBW\Library\Adoria\Model\RequestData;
 use WBW\Library\Adoria\Model\Result;
 use WBW\Library\Adoria\Serializer\RequestSerializer;
@@ -31,7 +30,21 @@ use WBW\Library\Provider\Exception\ApiException;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Adoria\Provider
  */
-class ApiProvider extends AbstractProvider implements ApiProviderInterface {
+class ApiProvider extends AbstractProvider {
+
+    /**
+     * Endpoint path.
+     *
+     * @avr string
+     */
+    public const ENDPOINT_PATH = "http://ws.adoria.com";
+
+    /**
+     * Resource path.
+     *
+     * @var string
+     */
+    public const RESOURCE_PATH = "/MdbProcurement.adoria.ExternalsServices/EProcurement/Buying/V10.svc/rest/AcountingInterface";
 
     /**
      * Constructor.
@@ -86,7 +99,7 @@ class ApiProvider extends AbstractProvider implements ApiProviderInterface {
 
         $parameters = RequestSerializer::serializeRequestData($requestData);
 
-        $rawResponse = $this->callAPI(self::REQUEST_DATA_RESOURCE_PATH, $parameters);
+        $rawResponse = $this->callAPI(self::RESOURCE_PATH, $parameters);
 
         return ResponseDeserializer::deserializeResult($rawResponse);
     }

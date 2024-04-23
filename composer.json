@@ -67,11 +67,11 @@
     },
     "autoload": {
         "psr-4": {
+            "WBW\\Library\\Adoria\\": "lib/adoria/",
             "WBW\\Library\\Curl\\": "lib/curl/",
             "WBW\\Library\\Quadratus\\": "lib/quadratus/",
             "WBW\\Library\\Common\\": "src/common/",
             "WBW\\Library\\Accounting\\": "src/accounting/",
-            "WBW\\Library\\Adoria\\": "src/adoria/",
             "WBW\\Library\\Billing\\": "src/billing/",
             "WBW\\Library\\Core\\": "src/core/",
             "WBW\\Library\\Database\\": "src/database/",
@@ -94,17 +94,18 @@
             "WBW\\Library\\Vehicle\\": "src/vehicle/"
         },
         "exclude-from-classmap": [
+            "/lib/adoria/Tests/",
             "/lib/curl/Tests/",
             "/lib/quadratus/Tests/"
         ]
     },
     "autoload-dev": {
         "psr-4": {
+            "WBW\\Library\\Adoria\\Tests\\": "lib/adoria/Tests",
             "WBW\\Library\\Curl\\Tests\\": "lib/curl/Tests",
             "WBW\\Library\\Quadratus\\Tests\\": "lib/quadratus/Tests",
             "WBW\\Library\\Common\\Tests\\": "tests/common/",
             "WBW\\Library\\Accounting\\Tests\\": "tests/accounting/",
-            "WBW\\Library\\Adoria\\Tests\\": "tests/adoria/",
             "WBW\\Library\\Billing\\Tests\\": "tests/billing/",
             "WBW\\Library\\Core\\Tests\\": "tests/core/",
             "WBW\\Library\\Database\\Tests\\": "tests/database/",
