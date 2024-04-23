@@ -30,28 +30,28 @@ class Configuration {
     /**
      * Allow encoding.
      *
-     * @var bool
+     * @var bool|null
      */
     private $allowEncoding;
 
     /**
      * Connect timeout.
      *
-     * @var int
+     * @var int|null
      */
     private $connectTimeout;
 
     /**
      * Debug file.
      *
-     * @var string
+     * @var string|null
      */
     private $debugFile;
 
     /**
      * Headers.
      *
-     * @var array<string,string>
+     * @var array<string,string>|null
      */
     private $headers;
 
@@ -114,21 +114,21 @@ class Configuration {
     /**
      * HTTP request timeout.
      *
-     * @var int
+     * @var int|null
      */
     private $requestTimeout;
 
     /**
      * SSL verification.
      *
-     * @var bool
+     * @var bool|null
      */
     private $sslVerification;
 
     /**
      * User agent.
      *
-     * @var string
+     * @var string|null
      */
     private $userAgent;
 

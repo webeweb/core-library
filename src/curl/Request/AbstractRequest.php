@@ -34,42 +34,42 @@ abstract class AbstractRequest implements RequestInterface {
     /**
      * Configuration.
      *
-     * @var Configuration
+     * @var Configuration|null
      */
     private $configuration;
 
     /**
      * Headers.
      *
-     * @var array<string,string>
+     * @var array<string,string>|null
      */
     private $headers;
 
     /**
      * Method.
      *
-     * @var string
+     * @var string|null
      */
     private $method;
 
     /**
      * POST data.
      *
-     * @var array<string,string>
+     * @var array<string,string>|null
      */
     private $postData;
 
     /**
      * Query data.
      *
-     * @var array<string,string>
+     * @var array<string,string>|null
      */
     private $queryData;
 
     /**
      * Resource path.
      *
-     * @var string
+     * @var string|null
      */
     private $resourcePath;
 

@@ -31,7 +31,7 @@ class Response implements ResponseInterface {
     /**
      * Request header.
      *
-     * @var string[]
+     * @var string[]|null
      */
     private $requestHeader;
 
@@ -52,14 +52,14 @@ class Response implements ResponseInterface {
     /**
      * Response header.
      *
-     * @var string[]
+     * @var string[]|null
      */
     private $responseHeader;
 
     /**
      * Response info.
      *
-     * @var array<string,string>
+     * @var array<string,string>|null
      */
     private $responseInfo;
 
