@@ -11,15 +11,16 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Logger\Tests;
+namespace WBW\Library\Common\Tests\Logger;
 
-use WBW\Library\Logger\NullLogger;
+use WBW\Library\Common\Logger\NullLogger;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * Null logger test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Logger\Tests
+ * @package WBW\Library\Common\Tests\Logger
  */
 class NullLoggerTest extends AbstractTestCase {
 
