@@ -13,8 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Tests\Traits\Strings;
 
-use WBW\Library\Common\Tests\Fixtures\Traits\Strings\TestStringAccountingCodeTrait;
 use WBW\Library\Common\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\Fixtures\Traits\Strings\TestStringAccountingCodeTrait;
 
 /**
  * String accounting code trait test.

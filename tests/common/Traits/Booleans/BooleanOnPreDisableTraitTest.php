@@ -13,8 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Tests\Traits\Booleans;
 
-use WBW\Library\Common\Tests\Fixtures\Traits\Booleans\TestBooleanOnPreDisableTrait;
 use WBW\Library\Common\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\Fixtures\Traits\Booleans\TestBooleanOnPreDisableTrait;
 
 /**
  * Boolean on pre disable trait test.

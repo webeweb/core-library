@@ -13,8 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Tests\Traits\Floats;
 
-use WBW\Library\Common\Tests\Fixtures\Traits\Floats\TestFloatVatRateTrait;
 use WBW\Library\Common\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\Fixtures\Traits\Floats\TestFloatVatRateTrait;
 
 /**
  * Float VAT rate trait test.

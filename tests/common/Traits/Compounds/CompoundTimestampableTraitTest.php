@@ -13,8 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Tests\Traits\Compounds;
 
-use WBW\Library\Common\Tests\Fixtures\Traits\Compounds\TestCompoundTimestampableTrait;
 use WBW\Library\Common\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\Fixtures\Traits\Compounds\TestCompoundTimestampableTrait;
 
 /**
  * Compound timestampable trait test.

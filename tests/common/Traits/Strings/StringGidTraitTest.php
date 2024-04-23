@@ -13,8 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Tests\Traits\Strings;
 
-use WBW\Library\Common\Tests\Fixtures\Traits\Strings\TestStringGidTrait;
 use WBW\Library\Common\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\Fixtures\Traits\Strings\TestStringGidTrait;
 
 /**
  * String GID trait test.

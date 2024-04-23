@@ -13,8 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Tests\Traits\Integers;
 
-use WBW\Library\Common\Tests\Fixtures\Traits\Integers\TestIntegerStatusTrait;
 use WBW\Library\Common\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\Fixtures\Traits\Integers\TestIntegerStatusTrait;
 
 /**
  * Integer status trait test.

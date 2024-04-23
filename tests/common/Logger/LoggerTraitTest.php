@@ -14,8 +14,8 @@ declare(strict_types = 1);
 namespace WBW\Library\Common\Tests\Logger;
 
 use Psr\Log\LoggerInterface;
-use WBW\Library\Common\Tests\Fixtures\Logger\TestLoggerTrait;
 use WBW\Library\Common\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\Fixtures\Logger\TestLoggerTrait;
 
 /**
  * Logger trait test.

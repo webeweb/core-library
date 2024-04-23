@@ -13,8 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Tests\Traits\Booleans;
 
-use WBW\Library\Common\Tests\Fixtures\Traits\Booleans\TestBooleanOnPostNewTrait;
 use WBW\Library\Common\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\Fixtures\Traits\Booleans\TestBooleanOnPostNewTrait;
 
 /**
  * Boolean on post new trait test.

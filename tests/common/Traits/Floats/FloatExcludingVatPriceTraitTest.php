@@ -13,8 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Tests\Traits\Floats;
 
-use WBW\Library\Common\Tests\Fixtures\Traits\Floats\TestFloatExcludingVatPriceTrait;
 use WBW\Library\Common\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\Fixtures\Traits\Floats\TestFloatExcludingVatPriceTrait;
 
 /**
  * Float excluding VAT price trait test.

@@ -13,8 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Tests\Traits\Strings;
 
-use WBW\Library\Common\Tests\Fixtures\Traits\Strings\TestStringLangTrait;
 use WBW\Library\Common\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\Fixtures\Traits\Strings\TestStringLangTrait;
 
 /**
  * String lang trait test.

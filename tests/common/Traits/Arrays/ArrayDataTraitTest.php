@@ -13,8 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Tests\Traits\Arrays;
 
-use WBW\Library\Common\Tests\Fixtures\Traits\Arrays\TestArrayDataTrait;
 use WBW\Library\Common\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\Fixtures\Traits\Arrays\TestArrayDataTrait;
 
 /**
  * Array data trait test.

@@ -13,8 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Tests\Traits\Booleans;
 
-use WBW\Library\Common\Tests\Fixtures\Traits\Booleans\TestBooleanOnPreDeleteTrait;
 use WBW\Library\Common\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\Fixtures\Traits\Booleans\TestBooleanOnPreDeleteTrait;
 
 /**
  * Boolean on pre delete trait test.

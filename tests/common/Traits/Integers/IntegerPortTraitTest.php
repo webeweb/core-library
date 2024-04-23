@@ -15,8 +15,8 @@ namespace WBW\Library\Common\Tests\Traits\Integers;
 
 use InvalidArgumentException;
 use Throwable;
-use WBW\Library\Common\Tests\Fixtures\Traits\Integers\TestIntegerPortTrait;
 use WBW\Library\Common\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\Fixtures\Traits\Integers\TestIntegerPortTrait;
 
 /**
  * Integer port trait test.

@@ -13,8 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Tests\Traits\Booleans;
 
-use WBW\Library\Common\Tests\Fixtures\Traits\Booleans\TestBooleanEnabledTrait;
 use WBW\Library\Common\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\Fixtures\Traits\Booleans\TestBooleanEnabledTrait;
 
 /**
  * Boolean enabled trait test.

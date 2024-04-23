@@ -13,8 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Tests\Traits\Floats;
 
-use WBW\Library\Common\Tests\Fixtures\Traits\Floats\TestFloatMaximumTrait;
 use WBW\Library\Common\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\Fixtures\Traits\Floats\TestFloatMaximumTrait;
 
 /**
  * Float maximum trait test.

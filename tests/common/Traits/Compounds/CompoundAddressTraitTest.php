@@ -13,8 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Tests\Traits\Compounds;
 
-use WBW\Library\Common\Tests\Fixtures\Traits\Compounds\TestCompoundAddressTrait;
 use WBW\Library\Common\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\Fixtures\Traits\Compounds\TestCompoundAddressTrait;
 
 /**
  * Compound address trait test.
