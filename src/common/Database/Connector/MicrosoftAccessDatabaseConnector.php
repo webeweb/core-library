@@ -11,7 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Database\Connector;
+namespace WBW\Library\Common\Database\Connector;
 
 use InvalidArgumentException;
 use PDO;
@@ -21,7 +21,7 @@ use WBW\Library\Common\Security\Authenticator;
  * Microsoft Access database connector.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Database\Connector
+ * @package WBW\Library\Common\Database\Connector
  */
 class MicrosoftAccessDatabaseConnector extends AbstractDatabaseConnector {
 

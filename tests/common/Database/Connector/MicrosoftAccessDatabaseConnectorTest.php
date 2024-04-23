@@ -11,22 +11,44 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Database\Tests\Connector;
+namespace WBW\Library\Common\Tests\Database\Connector;
 
 use InvalidArgumentException;
 use PDOException;
 use Throwable;
-use WBW\Library\Database\Connector\MicrosoftAccessDatabaseConnector;
-use WBW\Library\Database\Tests\AbstractTestCase;
+use WBW\Library\Common\Database\Connector\MicrosoftAccessDatabaseConnector;
+use WBW\Library\Common\Security\Authenticator;
+use WBW\Library\Common\Security\PasswordAuthentication;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * Microsoft Access database connector test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Database\Tests\Connector
+ * @package WBW\Library\Common\Tests\Database\Connector
  */
 class MicrosoftAccessDatabaseConnectorTest extends AbstractTestCase {
 
+    /**
+     * Authenticator.
+     *
+     * @var Authenticator|null
+     */
+    private $authenticator;
+
+    /**
+     * {@inheritDoc}
+     */
+    protected function setUp(): void {
+        parent::setUp();
+
+        // Set a Password authentication mock.
+        $passwordAuthentication = new PasswordAuthentication("demo", "password");
+
+        // Set an Authenticator mock.
+        $this->authenticator = new Authenticator("localhost", $passwordAuthentication);
+        $this->authenticator->setPort(null);
+    }
     /**
      * Test getConnection()
      *
@@ -54,7 +76,7 @@ class MicrosoftAccessDatabaseConnectorTest extends AbstractTestCase {
     public function testGetConnectionWithPDOException(): void {
 
         // Set a MDB mock.
-        $mdb = realpath(__DIR__ . "/../Fixtures/test.mdb");
+        $mdb = realpath(__DIR__ . "/../../Fixtures/Database/Connector/MicrosoftAccessDatabaseConnectorTest.mdb");
 
         $obj = new MicrosoftAccessDatabaseConnector($this->authenticator, $mdb);
 
