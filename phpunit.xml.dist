@@ -6,17 +6,27 @@
          colors="true">
     <filter>
         <whitelist>
+            <directory>./lib</directory>
             <directory>./src</directory>
             <exclude>
+                <directory>lib/adoria/Tests</directory>
+                <directory>lib/curl/Tests</directory>
+                <directory>lib/ftp/Tests</directory>
+                <directory>lib/ocrlad/Tests</directory>
+                <directory>lib/quadratus/Tests</directory>
+                <directory>lib/skidata/Tests</directory>
                 <directory>src/types/Resources</directory>
-                <directory>tests</directory>
-                <directory>util</directory>
-                <directory>vendor</directory>
             </exclude>
         </whitelist>
     </filter>
     <testsuites>
         <testsuite name="webeweb/core-library">
+            <directory>./lib/adoria/Tests</directory>
+            <directory>./lib/curl/Tests</directory>
+            <directory>./lib/ftp/Tests</directory>
+            <directory>./lib/ocrlad/Tests</directory>
+            <directory>./lib/quadratus/Tests</directory>
+            <directory>./lib/skidata/Tests</directory>
             <directory>./tests</directory>
         </testsuite>
     </testsuites>
