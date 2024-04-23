@@ -14,7 +14,7 @@ declare(strict_types = 1);
 namespace WBW\Library\Symfony\Manager;
 
 use Psr\Log\LoggerInterface;
-use WBW\Library\Logger\LoggerTrait;
+use WBW\Library\Common\Logger\LoggerTrait;
 use WBW\Library\Symfony\Provider\ProviderInterface;
 
 /**

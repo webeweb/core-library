@@ -11,7 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Logger;
+namespace WBW\Library\Common\Logger;
 
 use Psr\Log\LoggerInterface;
 
@@ -19,7 +19,7 @@ use Psr\Log\LoggerInterface;
  * Logger trait.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Logger
+ * @package WBW\Library\Common\Logger
  */
 trait LoggerTrait {
 

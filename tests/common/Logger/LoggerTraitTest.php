@@ -11,9 +11,11 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Logger\Tests;
+namespace WBW\Library\Common\Tests\Logger;
 
-use WBW\Library\Logger\Tests\Fixtures\TestLoggerTrait;
+use Psr\Log\LoggerInterface;
+use WBW\Library\Common\Tests\Fixtures\Logger\TestLoggerTrait;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * Logger trait test.
@@ -30,10 +32,13 @@ class LoggerTraitTest extends AbstractTestCase {
      */
     public function testSetLogger(): void {
 
+        // Set a Logger mock.
+        $logger = $this->getMockBuilder(LoggerInterface::class)->getMock();
+
         $obj = new TestLoggerTrait();
 
-        $obj->setLogger($this->logger);
-        $this->assertSame($this->logger, $obj->getLogger());
+        $obj->setLogger($logger);
+        $this->assertSame($logger, $obj->getLogger());
     }
 
 }

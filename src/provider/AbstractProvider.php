@@ -15,7 +15,7 @@ namespace WBW\Library\Provider;
 
 use InvalidArgumentException;
 use Psr\Log\LoggerInterface;
-use WBW\Library\Logger\LoggerTrait;
+use WBW\Library\Common\Logger\LoggerTrait;
 use WBW\Library\Provider\Api\SubstituableRequestInterface;
 use WBW\Library\Provider\Request\AbstractRequest;
 use WBW\Library\Traits\Booleans\BooleanDebugTrait;

@@ -11,15 +11,15 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Logger\Tests\Fixtures;
+namespace WBW\Library\Common\Tests\Fixtures\Logger;
 
-use WBW\Library\Logger\LoggerTrait;
+use WBW\Library\Common\Logger\LoggerTrait;
 
 /**
  * Test logger trait.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Logger\Tests\Fixtures
+ * @package WBW\Library\Common\Tests\Fixtures\Logger
  */
 class TestLoggerTrait {
 
