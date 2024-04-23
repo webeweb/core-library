@@ -2,6 +2,9 @@
 /.phpunit.result.cache
 /composer.lock
 
+/var/*
+!/var/.gitkeep
+
 /tests/image/Fixtures/*thumb*
 /tests/symfony/Fixtures/app/public/*
 !/tests/symfony/Fixtures/app/public/.gitkeep
