@@ -15,12 +15,12 @@ namespace WBW\Library\Billing\Model;
 
 use WBW\Library\Billing\Helper\TaxableHelper;
 use WBW\Library\Billing\Serializer\JsonSerializer;
-use WBW\Library\Traits\Floats\FloatDiscountAmountTrait;
-use WBW\Library\Traits\Floats\FloatDiscountRateTrait;
-use WBW\Library\Traits\Floats\FloatExcludingVatPriceTrait;
-use WBW\Library\Traits\Floats\FloatIncludingVatPriceTrait;
-use WBW\Library\Traits\Floats\FloatVatAmountTrait;
-use WBW\Library\Traits\Floats\FloatVatRateTrait;
+use WBW\Library\Common\Traits\Floats\FloatDiscountAmountTrait;
+use WBW\Library\Common\Traits\Floats\FloatDiscountRateTrait;
+use WBW\Library\Common\Traits\Floats\FloatExcludingVatPriceTrait;
+use WBW\Library\Common\Traits\Floats\FloatIncludingVatPriceTrait;
+use WBW\Library\Common\Traits\Floats\FloatVatAmountTrait;
+use WBW\Library\Common\Traits\Floats\FloatVatRateTrait;
 
 /**
  * Taxable.

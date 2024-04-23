@@ -11,19 +11,17 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Traits\Compounds;
+namespace WBW\Library\Common\Tests\Fixtures\Traits\Floats;
 
-use WBW\Library\Common\Traits\Floats\FloatXTrait;
-use WBW\Library\Common\Traits\Floats\FloatYTrait;
+use WBW\Library\Common\Traits\Floats\FloatAverageTrait;
 
 /**
- * Compound point trait.
+ * Test float average trait.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Traits\Compounds
+ * @package WBW\Library\Common\Tests\Fixtures\Traits\Floats
  */
-trait CompoundPointTrait {
+class TestFloatAverageTrait {
 
-    use FloatXTrait;
-    use FloatYTrait;
+    use FloatAverageTrait;
 }

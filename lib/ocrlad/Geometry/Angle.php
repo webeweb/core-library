@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\OcrLad\Geometry;
 
-use WBW\Library\Traits\Floats\FloatValueTrait;
+use WBW\Library\Common\Traits\Floats\FloatValueTrait;
 
 /**
  * Angle.

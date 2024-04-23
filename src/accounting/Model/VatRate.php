@@ -14,7 +14,7 @@ declare(strict_types = 1);
 namespace WBW\Library\Accounting\Model;
 
 use WBW\Library\Accounting\Serializer\JsonSerializer;
-use WBW\Library\Traits\Floats\FloatRateTrait;
+use WBW\Library\Common\Traits\Floats\FloatRateTrait;
 use WBW\Library\Traits\Strings\StringLabelTrait;
 
 /**

@@ -15,11 +15,11 @@ namespace WBW\Library\Billing\Model;
 
 use WBW\Library\Billing\Helper\BillableDetailHelper;
 use WBW\Library\Billing\Serializer\JsonSerializer;
-use WBW\Library\Traits\Floats\FloatDiscountTotalTrait;
-use WBW\Library\Traits\Floats\FloatExcludingVatTotalTrait;
-use WBW\Library\Traits\Floats\FloatIncludingVatTotalTrait;
-use WBW\Library\Traits\Floats\FloatQuantityTrait;
-use WBW\Library\Traits\Floats\FloatVatTotalTrait;
+use WBW\Library\Common\Traits\Floats\FloatDiscountTotalTrait;
+use WBW\Library\Common\Traits\Floats\FloatExcludingVatTotalTrait;
+use WBW\Library\Common\Traits\Floats\FloatIncludingVatTotalTrait;
+use WBW\Library\Common\Traits\Floats\FloatQuantityTrait;
+use WBW\Library\Common\Traits\Floats\FloatVatTotalTrait;
 use WBW\Library\Traits\Strings\StringCommentTrait;
 use WBW\Library\Traits\Strings\StringLabelTrait;
 use WBW\Library\Traits\Strings\StringReferenceTrait;

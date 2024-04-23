@@ -13,8 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\OcrLad\Geometry;
 
-use WBW\Library\Traits\Floats\FloatXTrait;
-use WBW\Library\Traits\Floats\FloatYTrait;
+use WBW\Library\Common\Traits\Floats\FloatXTrait;
+use WBW\Library\Common\Traits\Floats\FloatYTrait;
 
 /**
  * Point.
