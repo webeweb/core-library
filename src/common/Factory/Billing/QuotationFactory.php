@@ -13,7 +13,6 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Factory\Billing;
 
-use WBW\Library\Billing\Factory\BillableFactory;
 use WBW\Library\Common\Model\Billing\QuotationInterface;
 
 /**
