@@ -13,6 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Tests\Fixtures\Model\Billing;
 
+use WBW\Library\Common\Model\Billing\BillingAddressInterface;
 use WBW\Library\Common\Model\Billing\BillingAddressTrait;
 
 /**
@@ -21,7 +22,15 @@ use WBW\Library\Common\Model\Billing\BillingAddressTrait;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Common\Tests\Fixtures\Model\Billing
  */
-class TestBillingAddressTrait {
+class TestBillingAddressTrait implements BillingAddressInterface {
 
     use BillingAddressTrait;
+
+    /**
+     * {@inheritDoc}
+     * @return array<string,mixed> Returns this serialized instance.
+     */
+    public function jsonSerialize(): array {
+        return [];
+    }
 }
