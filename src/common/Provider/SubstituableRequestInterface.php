@@ -11,13 +11,13 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Provider\Api;
+namespace WBW\Library\Common\Provider;
 
 /**
  * Substituable request interface.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Provider\Api
+ * @package WBW\Library\Common\Provider
  */
 interface SubstituableRequestInterface {
 

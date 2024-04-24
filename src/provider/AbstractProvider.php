@@ -17,8 +17,8 @@ use InvalidArgumentException;
 use Psr\Log\LoggerInterface;
 use WBW\Library\Common\Logger\LoggerTrait;
 use WBW\Library\Common\Provider\AbstractRequest;
+use WBW\Library\Common\Provider\SubstituableRequestInterface;
 use WBW\Library\Common\Traits\Booleans\BooleanDebugTrait;
-use WBW\Library\Provider\Api\SubstituableRequestInterface;
 
 /**
  * Abstract provider.

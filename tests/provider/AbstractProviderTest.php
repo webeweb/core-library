@@ -15,8 +15,8 @@ namespace WBW\Library\Provider\Tests;
 
 use InvalidArgumentException;
 use Throwable;
-use WBW\Library\Common\Tests\Fixtures\Provider\TestRequest;
-use WBW\Library\Provider\Tests\Fixtures\Request\TestSubstituableRequest;
+use WBW\Library\Common\Tests\Fixtures\Provider\TestAbstractRequest;
+use WBW\Library\Common\Tests\Fixtures\Provider\TestSubstituableRequest;
 use WBW\Library\Provider\Tests\Fixtures\TestProvider;
 
 /**
@@ -35,7 +35,7 @@ class AbstractProviderTest extends AbstractTestCase {
     public function testBuildResourcePath(): void {
 
         // Set a Request mock.
-        $request = new TestRequest();
+        $request = new TestAbstractRequest();
 
         $obj = new TestProvider();
 

@@ -11,17 +11,17 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Provider\Tests\Fixtures\Request;
+namespace WBW\Library\Common\Tests\Fixtures\Provider;
 
 use WBW\Library\Common\Provider\AbstractRequest;
+use WBW\Library\Common\Provider\SubstituableRequestInterface;
 use WBW\Library\Common\Traits\Strings\StringIdTrait;
-use WBW\Library\Provider\Api\SubstituableRequestInterface;
 
 /**
  * Test substituable request.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Provider\Tests\Fixtures\Request
+ * @package WBW\Library\Common\Tests\Fixtures\Provider
  */
 class TestSubstituableRequest extends AbstractRequest implements SubstituableRequestInterface {
 
