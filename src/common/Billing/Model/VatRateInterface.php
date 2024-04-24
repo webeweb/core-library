@@ -14,7 +14,6 @@ declare(strict_types = 1);
 namespace WBW\Library\Common\Billing\Model;
 
 use JsonSerializable;
-use WBW\Library\Accounting\Model\AccountingAccountInterface;
 
 /**
  * VAT rate interface.

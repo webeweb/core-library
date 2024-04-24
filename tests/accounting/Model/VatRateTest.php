@@ -15,9 +15,9 @@ namespace WBW\Library\Accounting\Tests\Model;
 
 use JsonSerializable;
 use WBW\Library\Accounting\Model\AccountingAccount;
-use WBW\Library\Accounting\Model\AccountingAccountInterface;
 use WBW\Library\Accounting\Model\VatRate;
 use WBW\Library\Accounting\Tests\AbstractTestCase;
+use WBW\Library\Common\Billing\Model\AccountingAccountInterface;
 use WBW\Library\Common\Billing\Model\VatRateInterface;
 use WBW\Library\Common\Serializer\SerializerKeys as BaseSerializerKeys;
 

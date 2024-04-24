@@ -11,16 +11,16 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Accounting\Tests\Model;
+namespace WBW\Library\Common\Tests\Billing\Model;
 
-use WBW\Library\Accounting\Model\AccountingAccountInterface;
 use WBW\Library\Accounting\Tests\AbstractTestCase;
+use WBW\Library\Common\Billing\Model\AccountingAccountInterface;
 
 /**
  * Accounting account interface test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Accounting\Tests\Model
+ * @package WBW\Library\Common\Tests\Billing\Model
  */
 class AccountingAccountInterfaceTest extends AbstractTestCase {
 

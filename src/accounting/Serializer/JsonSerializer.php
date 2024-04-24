@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Accounting\Serializer;
 
-use WBW\Library\Accounting\Model\AccountingAccountInterface;
+use WBW\Library\Common\Billing\Model\AccountingAccountInterface;
 use WBW\Library\Common\Billing\Model\BankDetailsInterface;
 use WBW\Library\Common\Billing\Model\PaymentChoiceInterface;
 use WBW\Library\Common\Billing\Model\PaymentTermInterface;

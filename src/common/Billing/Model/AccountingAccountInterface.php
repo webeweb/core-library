@@ -11,7 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Accounting\Model;
+namespace WBW\Library\Common\Billing\Model;
 
 use JsonSerializable;
 
