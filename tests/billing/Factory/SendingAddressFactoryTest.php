@@ -15,7 +15,7 @@ namespace WBW\Library\Billing\Tests\Factory;
 
 use WBW\Library\Billing\Factory\SendingAddressFactory;
 use WBW\Library\Billing\Tests\AbstractTestCase;
-use WBW\Library\Billing\Tests\Fixtures\Model\TestSendingAddressTrait;
+use WBW\Library\Common\Tests\Fixtures\Model\Billing\TestSendingAddressTrait;
 
 /**
  * Sending address factory test.

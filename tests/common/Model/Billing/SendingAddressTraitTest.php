@@ -11,10 +11,10 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Billing\Tests\Model;
+namespace WBW\Library\Common\Tests\Model\Billing;
 
-use WBW\Library\Billing\Tests\AbstractTestCase;
-use WBW\Library\Billing\Tests\Fixtures\Model\TestSendingAddressTrait;
+use WBW\Library\Common\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\Fixtures\Model\Billing\TestSendingAddressTrait;
 
 /**
  * Sending address trait test.
@@ -23,31 +23,6 @@ use WBW\Library\Billing\Tests\Fixtures\Model\TestSendingAddressTrait;
  * @package WBW\Library\Billing\Tests\Model
  */
 class SendingAddressTraitTest extends AbstractTestCase {
-
-    /**
-     * Test jsonSerialize()
-     *
-     * @return void
-     */
-    public function testJsonSerialize(): void {
-
-        // Set the expected data.
-        $data = file_get_contents(__DIR__ . "/SendingAddressTraitTest.testJsonSerialize.json");
-        $json = json_decode($data, true);
-
-        $obj = new TestSendingAddressTrait();
-        $obj->setSendingAddressAddressee("addressee");
-        $obj->setSendingAddressHouseNumber("houseNumber");
-        $obj->setSendingAddressStreetName("streetName");
-        $obj->setSendingAddressPostalCode("postalCode");
-        $obj->setSendingAddressLocation("location");
-        $obj->setSendingAddressCountry("country");
-
-        $res = $obj->jsonSerialize();
-        $this->assertCount(6, $res);
-
-        $this->assertEquals($json, $res);
-    }
 
     /**
      * Test setSendingAddressAddressee()
