@@ -11,20 +11,20 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Billing\Tests\Factory;
+namespace WBW\Library\Common\Tests\Factory\Billing;
 
 use DateTime;
-use WBW\Library\Billing\Factory\QuotationFactory;
-use WBW\Library\Billing\Tests\AbstractTestCase;
+use WBW\Library\Common\Factory\Billing\QuotationFactory;
 use WBW\Library\Common\Model\Billing\BillableDetailInterface;
 use WBW\Library\Common\Model\Billing\Quotation;
 use WBW\Library\Common\Model\Billing\QuotationInterface;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * Quotation factory test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Billing\Tests\Factory
+ * @package WBW\Library\Common\Tests\Factory\Billing
  */
 class QuotationFactoryTest extends AbstractTestCase {
 
