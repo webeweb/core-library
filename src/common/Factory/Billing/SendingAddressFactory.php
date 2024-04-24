@@ -11,7 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Billing\Factory;
+namespace WBW\Library\Common\Factory\Billing;
 
 use WBW\Library\Common\Model\Billing\SendingAddressInterface;
 
@@ -19,7 +19,7 @@ use WBW\Library\Common\Model\Billing\SendingAddressInterface;
  * Sending address factory.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Billing\Factory
+ * @package WBW\Library\Common\Factory\Billing
  */
 class SendingAddressFactory {
 

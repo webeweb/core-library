@@ -13,6 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Tests\Fixtures\Model\Billing;
 
+use WBW\Library\Common\Model\Billing\SendingAddressInterface;
 use WBW\Library\Common\Model\Billing\SendingAddressTrait;
 
 /**
@@ -21,7 +22,15 @@ use WBW\Library\Common\Model\Billing\SendingAddressTrait;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Billing\Tests\Fixtures\Model
  */
-class TestSendingAddressTrait {
+class TestSendingAddressTrait implements SendingAddressInterface {
 
     use SendingAddressTrait;
+
+    /**
+     * {@inheritDoc}
+     * @return array<string,mixed> Returns this serialized instance.
+     */
+    public function jsonSerialize(): array {
+        return [];
+    }
 }
