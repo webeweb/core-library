@@ -11,15 +11,15 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Billing\Tests\Fixtures\Helper;
+namespace WBW\Library\Common\Tests\Fixtures\Helper\Billing;
 
-use WBW\Library\Billing\Helper\TaxableHelper;
+use WBW\Library\Common\Helper\Billing\TaxableHelper;
 
 /**
  * Test taxable helper.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Billing\Tests\Fixtures\Helper
+ * @package WBW\Library\Common\Tests\Fixtures\Helper\Billing
  */
 class TestTaxableHelper extends TaxableHelper {
 

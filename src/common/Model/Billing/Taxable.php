@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Model\Billing;
 
-use WBW\Library\Billing\Helper\TaxableHelper;
+use WBW\Library\Common\Helper\Billing\TaxableHelper;
 use WBW\Library\Common\Serializer\Billing\JsonSerializer;
 use WBW\Library\Common\Traits\Floats\FloatDiscountAmountTrait;
 use WBW\Library\Common\Traits\Floats\FloatDiscountRateTrait;
