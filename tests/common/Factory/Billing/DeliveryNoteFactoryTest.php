@@ -11,20 +11,20 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Billing\Tests\Factory;
+namespace WBW\Library\Common\Tests\Factory\Billing;
 
 use DateTime;
-use WBW\Library\Billing\Factory\DeliveryNoteFactory;
-use WBW\Library\Billing\Tests\AbstractTestCase;
+use WBW\Library\Common\Factory\Billing\DeliveryNoteFactory;
 use WBW\Library\Common\Model\Billing\BillableDetailInterface;
 use WBW\Library\Common\Model\Billing\DeliveryNote;
 use WBW\Library\Common\Model\Billing\DeliveryNoteInterface;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * Delivery note factory test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Billing\Tests\Factory
+ * @package WBW\Library\Common\Tests\Factory\Billing
  */
 class DeliveryNoteFactoryTest extends AbstractTestCase {
 
