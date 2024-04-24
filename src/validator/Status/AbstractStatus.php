@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Validator\Status;
 
-use WBW\Library\Validator\Api\StatusInterface;
+use WBW\Library\Common\Validator\StatusInterface;
 
 /**
  * Abstract status.

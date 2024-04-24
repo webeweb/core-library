@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Validator\Tests\RuleSet;
 
-use WBW\Library\Validator\Api\StatusInterface;
+use WBW\Library\Common\Validator\StatusInterface;
 use WBW\Library\Validator\RuleSet\DefaultRuleSet;
 use WBW\Library\Validator\Tests\AbstractTestCase;
 use WBW\Library\Validator\Tests\Fixtures\Rule\TestRule;

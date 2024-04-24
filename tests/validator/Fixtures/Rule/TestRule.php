@@ -13,8 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Validator\Tests\Fixtures\Rule;
 
+use WBW\Library\Common\Validator\StatusInterface;
 use WBW\Library\Validator\Api\RuleInterface;
-use WBW\Library\Validator\Api\StatusInterface;
 use WBW\Library\Validator\Rule\AbstractRule;
 use WBW\Library\Validator\Status\DefaultStatus;
 

@@ -11,7 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Validator\Api;
+namespace WBW\Library\Common\Validator;
 
 use JsonSerializable;
 
@@ -19,7 +19,7 @@ use JsonSerializable;
  * Status interface.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Validator\Api
+ * @package WBW\Library\Common\Validator
  */
 interface StatusInterface extends JsonSerializable {
 
