@@ -18,7 +18,7 @@ use WBW\Library\Adoria\Model\RequestData;
 use WBW\Library\Adoria\Model\Result;
 use WBW\Library\Adoria\Provider\ApiProvider;
 use WBW\Library\Adoria\Tests\AbstractTestCase;
-use WBW\Library\Provider\Exception\ApiException;
+use WBW\Library\Common\Provider\ProviderException;
 
 /**
  * API provider test.
@@ -52,7 +52,7 @@ class ApiProviderTest extends AbstractTestCase {
             $this->assertEquals([], $res->getData());
         } catch (Throwable $ex) {
 
-            $this->assertInstanceOf(ApiException::class, $ex);
+            $this->assertInstanceOf(ProviderException::class, $ex);
             $this->assertEquals("Failed to call Adoria API", $ex->getMessage());
         }
     }

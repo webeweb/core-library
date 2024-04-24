@@ -11,18 +11,18 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Provider\Exception;
+namespace WBW\Library\Common\Provider;
 
 use Throwable;
 use WBW\Library\Common\Exception\AbstractException as BaseException;
 
 /**
- * API exception.
+ * Provider exception.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Provider\Exception
+ * @package WBW\Library\Common\Provider
  */
-class ApiException extends BaseException {
+class ProviderException extends BaseException {
 
     /**
      * Constructor.

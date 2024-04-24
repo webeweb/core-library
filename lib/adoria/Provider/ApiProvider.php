@@ -20,9 +20,9 @@ use WBW\Library\Adoria\Model\Result;
 use WBW\Library\Adoria\Serializer\RequestSerializer;
 use WBW\Library\Adoria\Serializer\ResponseDeserializer;
 use WBW\Library\Common\Provider\AbstractProvider;
+use WBW\Library\Common\Provider\ProviderException;
 use WBW\Library\Curl\Configuration\Configuration;
 use WBW\Library\Curl\Request\PostRequest;
-use WBW\Library\Provider\Exception\ApiException;
 
 /**
  * API provider.
@@ -61,7 +61,7 @@ class ApiProvider extends AbstractProvider {
      * @param string $resourcePath The resource path.
      * @param array<string,mixed> $postData The post data.
      * @return string Returns the response.
-     * @throws ApiException Throws an API exception if an error occurs.
+     * @throws ProviderException Throws a provider exception if an error occurs.
      */
     protected function callApi(string $resourcePath, array $postData): string {
 
@@ -84,7 +84,7 @@ class ApiProvider extends AbstractProvider {
             return $response->getResponseBody();
         } catch (Throwable $ex) {
 
-            throw new ApiException("Failed to call Adoria API", 500, $ex);
+            throw new ProviderException("Failed to call Adoria API", 500, $ex);
         }
     }
 
@@ -93,7 +93,7 @@ class ApiProvider extends AbstractProvider {
      *
      * @param RequestData $requestData The request data.
      * @return Result Returns the result.
-     * @throws ApiException Throws an API exception if an error occurs.
+     * @throws ProviderException Throws a provider exception if an error occurs.
      */
     public function requestData(RequestData $requestData): Result {
 
