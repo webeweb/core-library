@@ -20,12 +20,6 @@ namespace WBW\Library\Common\Provider;
  * @package WBW\Library\Common\Provider
  * @abstract
  */
-abstract class AbstractRequest {
+abstract class AbstractRequest implements RequestInterface {
 
-    /**
-     * Get the resource path.
-     *
-     * @return string Returns the resource path.
-     */
-    abstract public function getResourcePath(): string;
 }
