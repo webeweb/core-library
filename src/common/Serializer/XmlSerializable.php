@@ -24,7 +24,7 @@ interface XmlSerializable {
     /**
      * XML serialize.
      *
-     * @return string|null Returns the serialized instance into XML.
+     * @return string|null Returns this serialized instance.
      */
     public function xmlSerialize(): ?string;
 }

@@ -24,7 +24,7 @@ interface CsvSerializable {
     /**
      * CSV serialize.
      *
-     * @return string|null Returns the serialized instance into CSV.
+     * @return string|null Returns this serialized instance.
      */
     public function csvSerialize(): ?string;
 }
