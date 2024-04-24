@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Billing;
 
-use WBW\Library\Common\Billing\Serializer\BillingSerializer;
+use WBW\Library\Common\Serializer\Billing\JsonSerializer;
 use WBW\Library\Common\Traits\Strings\StringCodeTrait;
 use WBW\Library\Common\Traits\Strings\StringLabelTrait;
 
@@ -40,6 +40,6 @@ class PaymentTerm implements PaymentTermInterface {
      * @return array<string,mixed> Returns this serialized instance.
      */
     public function jsonSerialize(): array {
-        return BillingSerializer::serializePaymentTerm($this);
+        return JsonSerializer::serializePaymentTerm($this);
     }
 }

@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Billing;
 
-use WBW\Library\Common\Billing\Serializer\BillingSerializer;
+use WBW\Library\Common\Serializer\Billing\JsonSerializer;
 
 /**
  * Bank details.
@@ -161,7 +161,7 @@ class BankDetails implements BankDetailsInterface {
      * @return array<string,mixed> Returns this serialized instance.
      */
     public function jsonSerialize(): array {
-        return BillingSerializer::serializeBankDetails($this);
+        return JsonSerializer::serializeBankDetails($this);
     }
 
     /**

@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Billing;
 
-use WBW\Library\Common\Billing\Serializer\BillingSerializer;
+use WBW\Library\Common\Serializer\Billing\JsonSerializer;
 use WBW\Library\Common\Traits\Strings\StringLabelTrait;
 use WBW\Library\Common\Traits\Strings\StringNumberTrait;
 use WBW\Library\Common\Traits\Strings\StringTypeTrait;
@@ -42,6 +42,6 @@ class AccountingAccount implements AccountingAccountInterface {
      * @return array<string,mixed> Returns this serialized instance.
      */
     public function jsonSerialize(): array {
-        return BillingSerializer::serializeAccountingAccount($this);
+        return JsonSerializer::serializeAccountingAccount($this);
     }
 }
