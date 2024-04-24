@@ -15,7 +15,7 @@ namespace WBW\Library\Billing\Tests\Factory;
 
 use WBW\Library\Billing\Factory\BillingAddressFactory;
 use WBW\Library\Billing\Tests\AbstractTestCase;
-use WBW\Library\Billing\Tests\Fixtures\Model\TestBillingAddressTrait;
+use WBW\Library\Common\Tests\Fixtures\Model\Billing\TestBillingAddressTrait;
 
 /**
  * Billing address factory test.

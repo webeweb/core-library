@@ -11,43 +11,18 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Billing\Tests\Model;
+namespace WBW\Library\Common\Tests\Model\Billing;
 
-use WBW\Library\Billing\Tests\AbstractTestCase;
-use WBW\Library\Billing\Tests\Fixtures\Model\TestBillingAddressTrait;
+use WBW\Library\Common\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\Fixtures\Model\Billing\TestBillingAddressTrait;
 
 /**
  * Billing address trait test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Billing\Tests\Model
+ * @package WBW\Library\Common\Tests\Model\Billing
  */
 class BillingAddressTraitTest extends AbstractTestCase {
-
-    /**
-     * Test jsonSerialize()
-     *
-     * @return void
-     */
-    public function testJsonSerialize(): void {
-
-        // Set the expected data.
-        $data = file_get_contents(__DIR__ . "/BillingAddressTraitTest.testJsonSerialize.json");
-        $json = json_decode($data, true);
-
-        $obj = new TestBillingAddressTrait();
-        $obj->setBillingAddressAddressee("addressee");
-        $obj->setBillingAddressHouseNumber("houseNumber");
-        $obj->setBillingAddressStreetName("streetName");
-        $obj->setBillingAddressPostalCode("postalCode");
-        $obj->setBillingAddressLocation("location");
-        $obj->setBillingAddressCountry("country");
-
-        $res = $obj->jsonSerialize();
-        $this->assertCount(6, $res);
-
-        $this->assertEquals($json, $res);
-    }
 
     /**
      * Test setBillingAddressAddressee()
