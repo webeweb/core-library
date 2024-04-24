@@ -11,13 +11,13 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Serializer\Model;
+namespace WBW\Library\Common\Serializer;
 
 /**
  * CSV serializable.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Serializer\Model
+ * @package WBW\Library\Common\Serializer
  */
 interface CsvSerializable {
 

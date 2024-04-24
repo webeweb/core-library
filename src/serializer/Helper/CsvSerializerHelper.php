@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Serializer\Helper;
 
-use WBW\Library\Serializer\Model\CsvSerializable;
+use WBW\Library\Common\Serializer\CsvSerializable;
 
 /**
  * CSV serializer helper.

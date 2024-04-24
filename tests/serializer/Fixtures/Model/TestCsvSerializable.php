@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Serializer\Tests\Fixtures\Model;
 
-use WBW\Library\Serializer\Model\CsvSerializable;
+use WBW\Library\Common\Serializer\CsvSerializable;
 
 /**
  * Test CSV serializable.
