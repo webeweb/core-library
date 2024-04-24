@@ -15,7 +15,7 @@ namespace WBW\Library\Provider\Tests;
 
 use InvalidArgumentException;
 use Throwable;
-use WBW\Library\Provider\Tests\Fixtures\Request\TestRequest;
+use WBW\Library\Common\Tests\Fixtures\Provider\TestRequest;
 use WBW\Library\Provider\Tests\Fixtures\Request\TestSubstituableRequest;
 use WBW\Library\Provider\Tests\Fixtures\TestProvider;
 

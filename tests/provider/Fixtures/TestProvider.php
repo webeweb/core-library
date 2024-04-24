@@ -15,8 +15,8 @@ namespace WBW\Library\Provider\Tests\Fixtures;
 
 use InvalidArgumentException;
 use Psr\Log\LoggerInterface;
+use WBW\Library\Common\Provider\AbstractRequest;
 use WBW\Library\Provider\AbstractProvider;
-use WBW\Library\Provider\Request\AbstractRequest;
 
 /**
  * Test provider.

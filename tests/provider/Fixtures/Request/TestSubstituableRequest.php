@@ -13,9 +13,9 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Provider\Tests\Fixtures\Request;
 
+use WBW\Library\Common\Provider\AbstractRequest;
 use WBW\Library\Common\Traits\Strings\StringIdTrait;
 use WBW\Library\Provider\Api\SubstituableRequestInterface;
-use WBW\Library\Provider\Request\AbstractRequest;
 
 /**
  * Test substituable request.

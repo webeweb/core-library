@@ -11,13 +11,13 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Provider\Request;
+namespace WBW\Library\Common\Provider;
 
 /**
  * Abstract request.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Provider\Request
+ * @package WBW\Library\Common\Provider
  * @abstract
  */
 abstract class AbstractRequest {

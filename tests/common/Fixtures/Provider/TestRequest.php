@@ -11,15 +11,15 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Provider\Tests\Fixtures\Request;
+namespace WBW\Library\Common\Tests\Fixtures\Provider;
 
-use WBW\Library\Provider\Request\AbstractRequest;
+use WBW\Library\Common\Provider\AbstractRequest;
 
 /**
  * Test request.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Provider\Tests\Fixtures\Request
+ * @package WBW\Library\Common\Tests\Fixtures\Provider
  */
 class TestRequest extends AbstractRequest {
 
@@ -27,6 +27,6 @@ class TestRequest extends AbstractRequest {
      * {@inheritDoc}
      */
     public function getResourcePath(): string {
-        return "/resource-path";
+        return "/test";
     }
 }
