@@ -15,7 +15,7 @@ namespace WBW\Library\Accounting\Serializer;
 
 use WBW\Library\Accounting\Model\AccountingAccountInterface;
 use WBW\Library\Accounting\Model\BankDetailsInterface;
-use WBW\Library\Accounting\Model\PaymentChoiceInterface;
+use WBW\Library\Common\Billing\Model\PaymentChoiceInterface;
 use WBW\Library\Common\Billing\Model\PaymentTermInterface;
 use WBW\Library\Common\Billing\Model\VatRateInterface;
 use WBW\Library\Common\Serializer\SerializerKeys as BaseSerializerKeys;
