@@ -16,17 +16,17 @@ namespace WBW\Library\Common\Tests\Fixtures\Provider;
 use WBW\Library\Common\Provider\AbstractRequest;
 
 /**
- * Test request.
+ * Test abstract request.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Common\Tests\Fixtures\Provider
  */
-class TestRequest extends AbstractRequest {
+class TestAbstractRequest extends AbstractRequest {
 
     /**
      * {@inheritDoc}
      */
     public function getResourcePath(): string {
-        return "/test";
+        return "/resource-path";
     }
 }
