@@ -11,16 +11,16 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Types\Exception;
+namespace WBW\Library\Common\Exception;
 
 use InvalidArgumentException;
 use Throwable;
 
 /**
- * Double argument exception.
+ * Date argument exception.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Types\Exception
+ * @package WBW\Library\Common\Exception
  */
 class DateArgumentException extends InvalidArgumentException {
 

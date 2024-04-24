@@ -17,8 +17,8 @@ use DateTime;
 use InvalidArgumentException;
 use Symfony\Component\Yaml\Yaml;
 use Throwable;
+use WBW\Library\Common\Exception\DateArgumentException;
 use WBW\Library\Common\Factory\DateTimeFactory;
-use WBW\Library\Types\Exception\DateArgumentException;
 
 /**
  * Date/time helper.

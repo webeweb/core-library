@@ -18,7 +18,7 @@ use InvalidArgumentException;
 use Throwable;
 use WBW\Library\Common\Exception\ArrayArgumentException;
 use WBW\Library\Common\Exception\BooleanArgumentException;
-use WBW\Library\Types\Exception\DateArgumentException;
+use WBW\Library\Common\Exception\DateArgumentException;
 use WBW\Library\Types\Exception\DoubleArgumentException;
 use WBW\Library\Types\Exception\FloatArgumentException;
 use WBW\Library\Types\Exception\IntegerArgumentException;
