@@ -11,14 +11,13 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Accounting\Serializer;
+namespace WBW\Library\Common\Billing\Serializer;
 
 use WBW\Library\Common\Billing\Model\AccountingAccountInterface;
 use WBW\Library\Common\Billing\Model\BankDetailsInterface;
 use WBW\Library\Common\Billing\Model\PaymentChoiceInterface;
 use WBW\Library\Common\Billing\Model\PaymentTermInterface;
 use WBW\Library\Common\Billing\Model\VatRateInterface;
-use WBW\Library\Common\Billing\Serializer\SerializerKeys;
 use WBW\Library\Common\Serializer\SerializerKeys as BaseSerializerKeys;
 use WBW\Library\Serializer\Helper\JsonSerializerHelper;
 
@@ -26,7 +25,7 @@ use WBW\Library\Serializer\Helper\JsonSerializerHelper;
  * JSON serializer.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Accounting\Serializer
+ * @package WBW\Library\Common\Billing\Serializer
  */
 class JsonSerializer {
 

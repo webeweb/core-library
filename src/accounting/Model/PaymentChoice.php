@@ -13,8 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Accounting\Model;
 
-use WBW\Library\Accounting\Serializer\JsonSerializer;
 use WBW\Library\Common\Billing\Model\PaymentChoiceInterface;
+use WBW\Library\Common\Billing\Serializer\JsonSerializer;
 use WBW\Library\Common\Traits\Strings\StringLabelTrait;
 
 /**
