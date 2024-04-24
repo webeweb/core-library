@@ -13,6 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Validator\Api;
 
+use WBW\Library\Common\Validator\RuleSetInterface;
 use WBW\Library\Common\Validator\StatusInterface;
 
 /**

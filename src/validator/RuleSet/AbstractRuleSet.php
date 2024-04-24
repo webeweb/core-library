@@ -14,7 +14,7 @@ declare(strict_types = 1);
 namespace WBW\Library\Validator\RuleSet;
 
 use WBW\Library\Common\Validator\RuleInterface;
-use WBW\Library\Validator\Api\RuleSetInterface;
+use WBW\Library\Common\Validator\RuleSetInterface;
 
 /**
  * Abstract rule set.
