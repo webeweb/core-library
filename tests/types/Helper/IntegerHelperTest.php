@@ -14,7 +14,7 @@ declare(strict_types = 1);
 namespace WBW\Library\Types\Tests\Helper;
 
 use Throwable;
-use WBW\Library\Types\Exception\IntegerArgumentException;
+use WBW\Library\Common\Exception\IntegerArgumentException;
 use WBW\Library\Types\Helper\IntegerHelper;
 use WBW\Library\Types\Tests\AbstractTestCase;
 

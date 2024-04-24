@@ -13,9 +13,9 @@ declare(strict_types = 1);
 
 namespace WBW\Library\SkiData\Parser;
 
+use WBW\Library\Common\Exception\IntegerArgumentException;
 use WBW\Library\SkiData\Exception\TooLongDataException;
 use WBW\Library\SkiData\Model\Card;
-use WBW\Library\Types\Exception\IntegerArgumentException;
 use WBW\Library\Types\Helper\BooleanHelper;
 use WBW\Library\Types\Helper\IntegerHelper;
 

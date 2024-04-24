@@ -11,16 +11,17 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Types\Tests\Exception;
+namespace WBW\Library\Common\Tests\Exception;
 
-use WBW\Library\Types\Exception\IntegerArgumentException;
+use InvalidArgumentException;
+use WBW\Library\Common\Exception\IntegerArgumentException;
 use WBW\Library\Types\Tests\AbstractTestCase;
 
 /**
  * Integer argument exception test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Types\Tests\Exception
+ * @package WBW\Library\Common\Tests\Exception
  */
 class IntegerArgumentExceptionTest extends AbstractTestCase {
 
@@ -31,8 +32,10 @@ class IntegerArgumentExceptionTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $ex = new IntegerArgumentException("exception");
+        $obj = new IntegerArgumentException("exception");
 
-        $this->assertEquals('The argument "exception" is not an integer', $ex->getMessage());
+        $this->assertInstanceOf(InvalidArgumentException::class, $obj);
+
+        $this->assertEquals('The argument "exception" is not an integer', $obj->getMessage());
     }
 }
