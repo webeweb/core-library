@@ -15,8 +15,8 @@ namespace WBW\Library\Accounting\Tests\Model;
 
 use JsonSerializable;
 use WBW\Library\Accounting\Model\PaymentTerm;
-use WBW\Library\Accounting\Model\PaymentTermInterface;
 use WBW\Library\Accounting\Tests\AbstractTestCase;
+use WBW\Library\Common\Billing\Model\PaymentTermInterface;
 use WBW\Library\Common\Serializer\SerializerKeys as BaseSerializerKeys;
 
 /**
