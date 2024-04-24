@@ -13,8 +13,6 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Math;
 
-use WBW\Library\Maths\Helper\IntegerHelper;
-
 /**
  * Pascal's triangle.
  *
@@ -60,10 +58,10 @@ class PascalTriangle {
             return 1;
         }
 
-        $fY = IntegerHelper::factorial($y);
-        $fX = IntegerHelper::factorial($x);
+        $fY = Integer::factorial($y);
+        $fX = Integer::factorial($x);
 
-        $fYX = IntegerHelper::factorial($y - $x);
+        $fYX = Integer::factorial($y - $x);
 
         return $fY / ($fX * $fYX);
     }
