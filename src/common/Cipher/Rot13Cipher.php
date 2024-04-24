@@ -11,17 +11,17 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Maths\Helper;
+namespace WBW\Library\Common\Cipher;
 
 use WBW\Library\Types\Helper\StringHelper;
 
 /**
- * ROT 13 Helper.
+ * ROT 13 cipher.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Maths\Helper
+ * @package WBW\Library\Common\Cipher
  */
-class Rot13Helper {
+class Rot13Cipher {
 
     /**
      * Alphabet.
