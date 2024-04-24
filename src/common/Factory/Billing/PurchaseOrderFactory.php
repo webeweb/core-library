@@ -11,15 +11,16 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Billing\Factory;
+namespace WBW\Library\Common\Factory\Billing;
 
+use WBW\Library\Billing\Factory\BillableFactory;
 use WBW\Library\Common\Model\Billing\PurchaseOrderInterface;
 
 /**
  * Purchase order factory.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Billing\Factory
+ * @package WBW\Library\Common\Factory\Billing
  */
 class PurchaseOrderFactory {
 
