@@ -11,20 +11,20 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Helper;
+namespace WBW\Library\Common\Tests\Utility;
 
 use InvalidArgumentException;
 use Throwable;
-use WBW\Library\Core\Helper\ArchiveHelper;
-use WBW\Library\Core\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\AbstractTestCase;
+use WBW\Library\Common\Utility\ArchiveUtility;
 
 /**
- * Archive helper test.
+ * Archive utility test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Core\Tests\Helper
+ * @package WBW\Library\Common\Tests\Utility
  */
-class ArchiveHelperTest extends AbstractTestCase {
+class ArchiveUtilityTest extends AbstractTestCase {
 
     /**
      * {@inheritDoc}
@@ -32,8 +32,8 @@ class ArchiveHelperTest extends AbstractTestCase {
     public static function tearDownAfterClass(): void {
 
         $filenames = [
-            getcwd() . "/README.md.zip",
-            getcwd() . "/tests.zip",
+            __DIR__ . "/../../../README.md.zip",
+            __DIR__ . "/../../../var/tests.zip",
         ];
 
         foreach ($filenames as $current) {
@@ -51,10 +51,10 @@ class ArchiveHelperTest extends AbstractTestCase {
      */
     public function testZip(): void {
 
-        $src = getcwd() . "/README.md";
-        $dst = getcwd() . "/README.md.zip";
+        $src = __DIR__ . "/../../../README.md";
+        $dst = __DIR__ . "/../../../var/README.md.zip";
 
-        ArchiveHelper::zip($src, $dst);
+        ArchiveUtility::zip($src, $dst);
         $this->assertFileExists($dst);
         $this->assertGreaterThan(900, filesize($dst));
     }
@@ -66,10 +66,10 @@ class ArchiveHelperTest extends AbstractTestCase {
      */
     public function testZipWithDirectory(): void {
 
-        $src = getcwd() . "/tests";
-        $dst = getcwd() . "/tests.zip";
+        $src = __DIR__ . "/../../../tests";
+        $dst = __DIR__ . "/../../../var/tests.zip";
 
-        ArchiveHelper::zip($src, $dst);
+        ArchiveUtility::zip($src, $dst);
         $this->assertFileExists($dst);
         $this->assertGreaterThan(38000, filesize($dst));
     }
@@ -83,7 +83,7 @@ class ArchiveHelperTest extends AbstractTestCase {
 
         try {
 
-            ArchiveHelper::zip("exception", "exception.zip");
+            ArchiveUtility::zip("exception", "exception.zip");
         } catch (Throwable $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);

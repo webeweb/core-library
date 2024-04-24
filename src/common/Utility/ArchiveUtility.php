@@ -11,7 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Helper;
+namespace WBW\Library\Common\Utility;
 
 use InvalidArgumentException;
 use RecursiveDirectoryIterator;
@@ -19,12 +19,12 @@ use RecursiveIteratorIterator;
 use ZipArchive;
 
 /**
- * Archive helper.
+ * Archive utility.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Core\Helper
+ * @package WBW\Library\Common\Utility
  */
-class ArchiveHelper {
+class ArchiveUtility {
 
     /**
      * Create a ZIP archive.
