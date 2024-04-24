@@ -11,9 +11,8 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Accounting\Model;
+namespace WBW\Library\Common\Billing\Model;
 
-use WBW\Library\Common\Billing\Model\AccountingAccountInterface;
 use WBW\Library\Common\Billing\Serializer\JsonSerializer;
 use WBW\Library\Common\Traits\Strings\StringLabelTrait;
 use WBW\Library\Common\Traits\Strings\StringNumberTrait;
@@ -23,7 +22,7 @@ use WBW\Library\Common\Traits\Strings\StringTypeTrait;
  * Accounting account.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Accounting\Model
+ * @package WBW\Library\Common\Billing\Model
  */
 class AccountingAccount implements AccountingAccountInterface {
 
