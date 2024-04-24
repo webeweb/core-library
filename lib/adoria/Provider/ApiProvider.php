@@ -19,9 +19,9 @@ use WBW\Library\Adoria\Model\RequestData;
 use WBW\Library\Adoria\Model\Result;
 use WBW\Library\Adoria\Serializer\RequestSerializer;
 use WBW\Library\Adoria\Serializer\ResponseDeserializer;
+use WBW\Library\Common\Provider\AbstractProvider;
 use WBW\Library\Curl\Configuration\Configuration;
 use WBW\Library\Curl\Request\PostRequest;
-use WBW\Library\Provider\AbstractProvider;
 use WBW\Library\Provider\Exception\ApiException;
 
 /**

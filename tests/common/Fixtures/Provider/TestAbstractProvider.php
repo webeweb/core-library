@@ -11,20 +11,20 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Provider\Tests\Fixtures;
+namespace WBW\Library\Common\Tests\Fixtures\Provider;
 
 use InvalidArgumentException;
 use Psr\Log\LoggerInterface;
-use WBW\Library\Common\Provider\AbstractRequest;
-use WBW\Library\Provider\AbstractProvider;
+use WBW\Library\Common\Provider\AbstractProvider;
+use WBW\Library\Common\Provider\RequestInterface;
 
 /**
- * Test provider.
+ * Test abstract provider.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Provider\Tests\Fixtures
+ * @package WBW\Library\Common\Tests\Fixtures\Provider
  */
-class TestProvider extends AbstractProvider {
+class TestAbstractProvider extends AbstractProvider {
 
     /**
      * Constructor.
@@ -38,7 +38,7 @@ class TestProvider extends AbstractProvider {
     /**
      * {@inheritDoc}
      */
-    public function buildResourcePath(AbstractRequest $request): string {
+    public function buildResourcePath(RequestInterface $request): string {
         return parent::buildResourcePath($request);
     }
 

@@ -11,21 +11,40 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Provider\Tests;
+namespace WBW\Library\Common\Tests\Provider;
 
 use InvalidArgumentException;
+use Psr\Log\LoggerInterface;
 use Throwable;
+use WBW\Library\Common\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\Fixtures\Provider\TestAbstractProvider;
 use WBW\Library\Common\Tests\Fixtures\Provider\TestAbstractRequest;
 use WBW\Library\Common\Tests\Fixtures\Provider\TestSubstituableRequest;
-use WBW\Library\Provider\Tests\Fixtures\TestProvider;
 
 /**
  * Abstract provider test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Provider\Tests
+ * @package WBW\Library\Common\Tests\Provider
  */
 class AbstractProviderTest extends AbstractTestCase {
+
+    /**
+     * Logger.
+     *
+     * @var LoggerInterface|null
+     */
+    private $logger;
+
+    /**
+     * {@inheritDoc}
+     */
+    protected function setUp(): void {
+        parent::setUp();
+
+        // Set a Logger mock.
+        $this->logger = $this->getMockBuilder(LoggerInterface::class)->getMock();
+    }
 
     /**
      * Test buildResourcePath()
@@ -37,7 +56,7 @@ class AbstractProviderTest extends AbstractTestCase {
         // Set a Request mock.
         $request = new TestAbstractRequest();
 
-        $obj = new TestProvider();
+        $obj = new TestAbstractProvider();
 
         $this->assertEquals("/resource-path", $obj->buildResourcePath($request));
     }
@@ -49,10 +68,10 @@ class AbstractProviderTest extends AbstractTestCase {
      */
     public function testBuildResourcePathWithInvalidArgumentException(): void {
 
-        // Set a Substituable request mock.
+        // Set an Substituable request mock.
         $request = new TestSubstituableRequest();
 
-        $obj = new TestProvider();
+        $obj = new TestAbstractProvider();
 
         try {
 
@@ -71,11 +90,11 @@ class AbstractProviderTest extends AbstractTestCase {
      */
     public function testBuildResourcePathWithSubstituableRequest(): void {
 
-        // Set a Substituable request mock.
+        // Set an Substituable request mock.
         $request = new TestSubstituableRequest();
         $request->setId("id");
 
-        $obj = new TestProvider();
+        $obj = new TestAbstractProvider();
 
         $this->assertEquals("/resource-path/id", $obj->buildResourcePath($request));
     }
@@ -87,7 +106,7 @@ class AbstractProviderTest extends AbstractTestCase {
      */
     public function testLogInfo(): void {
 
-        $obj = new TestProvider($this->logger);
+        $obj = new TestAbstractProvider($this->logger);
 
         $this->assertSame($obj, $obj->logInfo("message", []));
     }
@@ -99,7 +118,7 @@ class AbstractProviderTest extends AbstractTestCase {
      */
     public function testNewMandatoryParameterException(): void {
 
-        $obj = new TestProvider($this->logger);
+        $obj = new TestAbstractProvider($this->logger);
 
         $res = $obj->newMandatoryParameterException("parameter");
         $this->assertEquals('The mandatory parameter "parameter" is missing', $res->getMessage());
@@ -112,7 +131,7 @@ class AbstractProviderTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $obj = new TestProvider($this->logger);
+        $obj = new TestAbstractProvider($this->logger);
 
         $this->assertSame($this->logger, $obj->getLogger());
         $this->assertFalse($obj->getDebug());

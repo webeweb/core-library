@@ -14,6 +14,7 @@ declare(strict_types = 1);
 namespace WBW\Library\OcrLad\Provider;
 
 use Psr\Log\LoggerInterface;
+use WBW\Library\Common\Provider\AbstractProvider;
 use WBW\Library\Common\Security\Authenticator;
 use WBW\Library\Common\Security\PasswordAuthentication;
 use WBW\Library\Common\Traits\Strings\StringHostnameTrait;
@@ -22,7 +23,6 @@ use WBW\Library\Common\Traits\Strings\StringUsernameTrait;
 use WBW\Library\Ftp\Client\FtpClient;
 use WBW\Library\Ftp\Exception\FtpException;
 use WBW\Library\OcrLad\Model\IOFile;
-use WBW\Library\Provider\AbstractProvider;
 
 /**
  * OCR provider.
