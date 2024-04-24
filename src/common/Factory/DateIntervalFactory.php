@@ -11,7 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Types\Factory;
+namespace WBW\Library\Common\Factory;
 
 use DateInterval;
 use Throwable;
@@ -20,7 +20,7 @@ use Throwable;
  * Date interval factory.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Types\Factory
+ * @package WBW\Library\Common\Factory
  */
 class DateIntervalFactory {
 

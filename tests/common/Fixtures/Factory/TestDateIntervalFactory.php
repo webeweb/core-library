@@ -11,15 +11,15 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Types\Tests\Fixtures\Factory;
+namespace WBW\Library\Common\Tests\Fixtures\Factory;
 
-use WBW\Library\Types\Factory\DateIntervalFactory;
+use WBW\Library\Common\Factory\DateIntervalFactory;
 
 /**
  * Test date interval factory.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Types\Tests\Fixtures\Factory
+ * @package WBW\Library\Common\Tests\Fixtures\Factory
  */
 class TestDateIntervalFactory extends DateIntervalFactory {
 

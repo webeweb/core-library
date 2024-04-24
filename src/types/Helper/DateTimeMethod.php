@@ -16,7 +16,7 @@ namespace WBW\Library\Types\Helper;
 use DateTime;
 use InvalidArgumentException;
 use Throwable;
-use WBW\Library\Types\Factory\DateIntervalFactory;
+use WBW\Library\Common\Factory\DateIntervalFactory;
 
 /**
  * Date/time method.

@@ -11,18 +11,18 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Types\Tests\Factory;
+namespace WBW\Library\Common\Tests\Factory;
 
 use Throwable;
-use WBW\Library\Types\Factory\DateIntervalFactory;
-use WBW\Library\Types\Tests\AbstractTestCase;
-use WBW\Library\Types\Tests\Fixtures\Factory\TestDateIntervalFactory;
+use WBW\Library\Common\Factory\DateIntervalFactory;
+use WBW\Library\Common\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\Fixtures\Factory\TestDateIntervalFactory;
 
 /**
  * Date interval factory test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Types\Tests\Factory
+ * @package WBW\Library\Common\Tests\Factory
  */
 class DateIntervalFactoryTest extends AbstractTestCase {
 
