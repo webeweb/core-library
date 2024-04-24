@@ -13,6 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Validator;
 
+use WBW\Library\Common\Validator\AbstractValidator;
 use WBW\Library\Common\Validator\RuleSetInterface;
 
 /**

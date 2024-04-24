@@ -11,16 +11,13 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Validator;
-
-use WBW\Library\Common\Validator\RuleSetInterface;
-use WBW\Library\Common\Validator\ValidatorInterface;
+namespace WBW\Library\Common\Validator;
 
 /**
  * Abstract validator.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Validator
+ * @package WBW\Library\Common\Validator
  * @abstract
  */
 abstract class AbstractValidator implements ValidatorInterface {
@@ -28,7 +25,7 @@ abstract class AbstractValidator implements ValidatorInterface {
     /**
      * Rule set.
      *
-     * @var RuleSetInterface
+     * @var RuleSetInterface|null
      */
     private $ruleSet;
 
