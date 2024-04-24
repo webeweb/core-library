@@ -22,7 +22,7 @@ use WBW\Library\Billing\Model\PurchaseBillInterface;
 use WBW\Library\Billing\Model\PurchaseOrderInterface;
 use WBW\Library\Billing\Model\QuotationInterface;
 use WBW\Library\Billing\Model\SalesBillInterface;
-use WBW\Library\Billing\Model\SendingAddressInterface;
+use WBW\Library\Common\Model\Billing\SendingAddressInterface;
 use WBW\Library\Common\Model\Billing\TaxableInterface;
 use WBW\Library\Common\Serializer\SerializerKeys as BaseSerializerKeys;
 use WBW\Library\Serializer\Helper\JsonSerializerHelper;
