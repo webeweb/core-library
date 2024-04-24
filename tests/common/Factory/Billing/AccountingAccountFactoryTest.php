@@ -13,9 +13,9 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Tests\Factory\Billing;
 
-use WBW\Library\Common\Tests\AbstractTestCase;
 use WBW\Library\Common\Factory\Billing\AccountingAccountFactory;
 use WBW\Library\Common\Model\Billing\AccountingAccount;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * Accounting account factory test.

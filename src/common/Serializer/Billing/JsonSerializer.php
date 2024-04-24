@@ -101,9 +101,9 @@ class JsonSerializer {
     public static function serializeVatRate(VatRateInterface $model): array {
 
         return [
-            SerializerKeys::LABEL                    => $model->getLabel(),
+            SerializerKeys::LABEL                        => $model->getLabel(),
             SerializerKeys::PURCHASES_ACCOUNTING_ACCOUNT => JsonSerializerHelper::jsonSerializeModel($model->getPurchasesAccountingAccount()),
-            SerializerKeys::RATE                     => $model->getRate(),
+            SerializerKeys::RATE                         => $model->getRate(),
             SerializerKeys::SALES_ACCOUNTING_ACCOUNT     => JsonSerializerHelper::jsonSerializeModel($model->getSalesAccountingAccount()),
         ];
     }
