@@ -11,15 +11,13 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Validator\Api;
-
-use WBW\Library\Common\Validator\StatusInterface;
+namespace WBW\Library\Common\Validator;
 
 /**
  * Rule interface.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Validator\Api
+ * @package WBW\Library\Common\Validator
  */
 interface RuleInterface {
 
