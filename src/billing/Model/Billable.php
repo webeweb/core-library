@@ -18,6 +18,7 @@ use Doctrine\Common\Collections\Collection;
 use WBW\Library\Billing\Helper\BillableHelper;
 use WBW\Library\Billing\Serializer\JsonSerializer;
 use WBW\Library\Common\Model\Billing\BillableDetailInterface;
+use WBW\Library\Common\Model\Billing\BillableInterface;
 use WBW\Library\Common\Traits\DateTimes\DateTimeCreatedAtTrait;
 use WBW\Library\Common\Traits\DateTimes\DateTimeDateTrait;
 use WBW\Library\Common\Traits\DateTimes\DateTimeUpdatedAtTrait;

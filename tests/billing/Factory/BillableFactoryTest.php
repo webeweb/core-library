@@ -15,10 +15,10 @@ namespace WBW\Library\Billing\Tests\Factory;
 
 use DateTime;
 use WBW\Library\Billing\Factory\BillableFactory;
-use WBW\Library\Billing\Model\BillableInterface;
 use WBW\Library\Billing\Tests\AbstractTestCase;
 use WBW\Library\Billing\Tests\Fixtures\Model\TestBillable;
 use WBW\Library\Common\Model\Billing\BillableDetailInterface;
+use WBW\Library\Common\Model\Billing\BillableInterface;
 
 /**
  * Billable factory test.

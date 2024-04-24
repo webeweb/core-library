@@ -14,10 +14,10 @@ declare(strict_types = 1);
 namespace WBW\Library\Billing\Tests\Model;
 
 use JsonSerializable;
-use WBW\Library\Billing\Model\BillableInterface;
 use WBW\Library\Billing\Tests\AbstractTestCase;
 use WBW\Library\Billing\Tests\Fixtures\Model\TestBillableDetail;
 use WBW\Library\Common\Model\Billing\BillableDetailInterface;
+use WBW\Library\Common\Model\Billing\BillableInterface;
 use WBW\Library\Common\Model\Billing\TaxableInterface;
 
 /**

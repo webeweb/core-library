@@ -14,7 +14,6 @@ declare(strict_types = 1);
 namespace WBW\Library\Common\Model\Billing;
 
 use DateTime;
-use WBW\Library\Billing\Model\BillableInterface;
 
 /**
  * Purchase bill interface.
