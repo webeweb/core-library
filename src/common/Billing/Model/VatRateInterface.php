@@ -20,7 +20,7 @@ use WBW\Library\Accounting\Model\AccountingAccountInterface;
  * VAT rate interface.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Accounting\Model
+ * @package WBW\Library\Common\Billing\Model
  */
 interface VatRateInterface extends JsonSerializable {
 

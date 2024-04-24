@@ -19,7 +19,7 @@ use JsonSerializable;
  * Payment term interface.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Accounting\Model
+ * @package WBW\Library\Common\Billing\Model
  */
 interface PaymentTermInterface extends JsonSerializable {
 
