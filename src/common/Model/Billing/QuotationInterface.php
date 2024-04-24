@@ -14,7 +14,6 @@ declare(strict_types = 1);
 namespace WBW\Library\Common\Model\Billing;
 
 use DateTime;
-use WBW\Library\Billing\Model\Quotation;
 
 /**
  * Quotation interface.
@@ -35,7 +34,7 @@ interface QuotationInterface extends BillableInterface {
      * Set the expiration date.
      *
      * @param DateTime|null $expirationDate The expiration date.
-     * @return Quotation Returns this quotation.
+     * @return QuotationInterface Returns this quotation.
      */
     public function setExpirationDate(?DateTime $expirationDate): QuotationInterface;
 }
