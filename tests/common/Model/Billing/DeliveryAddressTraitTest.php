@@ -24,7 +24,6 @@ use WBW\Library\Common\Tests\Fixtures\Model\Billing\TestDeliveryAddressTrait;
  */
 class DeliveryAddressTraitTest extends AbstractTestCase {
 
-
     /**
      * Test setDeliveryAddressAddressee()
      *
