@@ -11,15 +11,17 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Maths\Helper;
+namespace WBW\Library\Common\Math;
+
+use WBW\Library\Maths\Helper\IntegerHelper;
 
 /**
- * Pascal's triangle helper.
+ * Pascal's triangle.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Maths\Helper
+ * @package WBW\Library\Common\Math
  */
-class PascalTriangleHelper {
+class PascalTriangle {
 
     /**
      * Cell.
