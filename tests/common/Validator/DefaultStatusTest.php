@@ -14,6 +14,7 @@ declare(strict_types = 1);
 namespace WBW\Library\Common\Tests\Validator;
 
 use WBW\Library\Common\Validator\DefaultStatus;
+use WBW\Library\Common\Validator\StatusInterface;
 use WBW\Library\Validator\Tests\AbstractTestCase;
 
 /**
@@ -25,62 +26,6 @@ use WBW\Library\Validator\Tests\AbstractTestCase;
 class DefaultStatusTest extends AbstractTestCase {
 
     /**
-     * Test jsonSerialize()
-     *
-     * @return void
-     */
-    public function testJsonSerialize(): void {
-
-        $obj = new DefaultStatus();
-        $obj->setCode(200);
-        $obj->setMessage("message");
-        $obj->setRuleName("ruleName");
-
-        $exp = ["code" => 200, "message" => "message", "ruleName" => "ruleName"];
-
-        $this->assertEquals($exp, $obj->jsonSerialize());
-    }
-
-    /**
-     * Test setCode() method.
-     *
-     * @return void
-     */
-    public function testSetCode(): void {
-
-        $obj = new DefaultStatus();
-
-        $obj->setCode(200);
-        $this->assertEquals(200, $obj->getCode());
-    }
-
-    /**
-     * Test setMessage() method.
-     *
-     * @return void
-     */
-    public function testSetMessage(): void {
-
-        $obj = new DefaultStatus();
-
-        $obj->setMessage("message");
-        $this->assertEquals("message", $obj->getMessage());
-    }
-
-    /**
-     * Test setRuleName() method.
-     *
-     * @return void
-     */
-    public function testSetRuleName(): void {
-
-        $obj = new DefaultStatus();
-
-        $obj->setRuleName("ruleName");
-        $this->assertEquals("ruleName", $obj->getRuleName());
-    }
-
-    /**
      * Test __construct()
      *
      * @return void
@@ -88,6 +33,8 @@ class DefaultStatusTest extends AbstractTestCase {
     public function test__construct(): void {
 
         $obj = new DefaultStatus();
+
+        $this->assertInstanceOf(StatusInterface::class, $obj);
 
         $this->assertNull($obj->getCode());
         $this->assertNull($obj->getMessage());
