@@ -11,7 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Common\Model\Billing;
+namespace WBW\Library\Common\Billing;
 
 use DateTime;
 
@@ -19,7 +19,7 @@ use DateTime;
  * Purchase bill interface.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Common\Model\Billing
+ * @package WBW\Library\Common\Billing
  */
 interface PurchaseBillInterface extends BillableInterface {
 

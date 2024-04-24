@@ -13,17 +13,17 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Billing\Serializer;
 
-use WBW\Library\Common\Model\Billing\BillableDetailInterface;
-use WBW\Library\Common\Model\Billing\BillableInterface;
-use WBW\Library\Common\Model\Billing\BillingAddressInterface;
-use WBW\Library\Common\Model\Billing\DeliveryAddressInterface;
-use WBW\Library\Common\Model\Billing\DeliveryNoteInterface;
-use WBW\Library\Common\Model\Billing\PurchaseBillInterface;
-use WBW\Library\Common\Model\Billing\PurchaseOrderInterface;
-use WBW\Library\Common\Model\Billing\QuotationInterface;
-use WBW\Library\Common\Model\Billing\SalesBillInterface;
-use WBW\Library\Common\Model\Billing\SendingAddressInterface;
-use WBW\Library\Common\Model\Billing\TaxableInterface;
+use WBW\Library\Common\Billing\BillableDetailInterface;
+use WBW\Library\Common\Billing\BillableInterface;
+use WBW\Library\Common\Billing\BillingAddressInterface;
+use WBW\Library\Common\Billing\DeliveryAddressInterface;
+use WBW\Library\Common\Billing\DeliveryNoteInterface;
+use WBW\Library\Common\Billing\PurchaseBillInterface;
+use WBW\Library\Common\Billing\PurchaseOrderInterface;
+use WBW\Library\Common\Billing\QuotationInterface;
+use WBW\Library\Common\Billing\SalesBillInterface;
+use WBW\Library\Common\Billing\SendingAddressInterface;
+use WBW\Library\Common\Billing\TaxableInterface;
 use WBW\Library\Common\Serializer\SerializerKeys as BaseSerializerKeys;
 use WBW\Library\Serializer\Helper\JsonSerializerHelper;
 

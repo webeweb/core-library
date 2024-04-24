@@ -15,7 +15,7 @@ namespace WBW\Library\Billing\Tests\Fixtures\Model;
 
 use WBW\Library\Billing\Model\SendingAddressTrait;
 use WBW\Library\Billing\Serializer\JsonSerializer;
-use WBW\Library\Common\Model\Billing\SendingAddressInterface;
+use WBW\Library\Common\Billing\SendingAddressInterface;
 
 /**
  * Test sending address trait.

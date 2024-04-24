@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Billing\Factory;
 
-use WBW\Library\Common\Model\Billing\BillableDetailInterface;
+use WBW\Library\Common\Billing\BillableDetailInterface;
 
 /**
  * Billable detail factory.

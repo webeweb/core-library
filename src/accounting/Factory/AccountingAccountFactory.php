@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Accounting\Factory;
 
-use WBW\Library\Common\Billing\Model\AccountingAccountInterface;
+use WBW\Library\Common\Billing\AccountingAccountInterface;
 
 /**
  * Accounting account factory.

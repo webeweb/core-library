@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Accounting\Factory;
 
-use WBW\Library\Common\Billing\Model\BankDetailsInterface;
+use WBW\Library\Common\Billing\BankDetailsInterface;
 
 /**
  * Bank details factory.

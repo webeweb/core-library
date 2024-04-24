@@ -11,19 +11,21 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Common\Billing\Model;
+namespace WBW\Library\Common\Billing;
 
 use WBW\Library\Common\Billing\Serializer\JsonSerializer;
+use WBW\Library\Common\Traits\Strings\StringCodeTrait;
 use WBW\Library\Common\Traits\Strings\StringLabelTrait;
 
 /**
- * Payment choice.
+ * Payment term.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Common\Billing\Model
+ * @package WBW\Library\Common\Billing
  */
-class PaymentChoice implements PaymentChoiceInterface {
+class PaymentTerm implements PaymentTermInterface {
 
+    use StringCodeTrait;
     use StringLabelTrait;
 
     /**
@@ -38,6 +40,6 @@ class PaymentChoice implements PaymentChoiceInterface {
      * @return array<string,mixed> Returns this serialized instance.
      */
     public function jsonSerialize(): array {
-        return JsonSerializer::serializePaymentChoice($this);
+        return JsonSerializer::serializePaymentTerm($this);
     }
 }

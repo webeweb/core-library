@@ -11,7 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Common\Billing\Model;
+namespace WBW\Library\Common\Billing;
 
 use WBW\Library\Common\Billing\Serializer\JsonSerializer;
 use WBW\Library\Common\Traits\Floats\FloatRateTrait;
@@ -21,7 +21,7 @@ use WBW\Library\Common\Traits\Strings\StringLabelTrait;
  * VAT rate.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Common\Billing\Model
+ * @package WBW\Library\Common\Billing
  */
 class VatRate implements VatRateInterface {
 

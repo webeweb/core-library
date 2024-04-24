@@ -14,7 +14,7 @@ declare(strict_types = 1);
 namespace WBW\Library\Billing\Tests\Fixtures\Helper;
 
 use WBW\Library\Billing\Helper\BillableDetailHelper;
-use WBW\Library\Common\Model\Billing\BillableDetailInterface;
+use WBW\Library\Common\Billing\BillableDetailInterface;
 
 /**
  * Test billable detail helper.

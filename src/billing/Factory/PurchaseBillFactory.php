@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Billing\Factory;
 
-use WBW\Library\Common\Model\Billing\PurchaseBillInterface;
+use WBW\Library\Common\Billing\PurchaseBillInterface;
 
 /**
  * Purchase bill factory.

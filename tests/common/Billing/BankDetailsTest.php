@@ -11,11 +11,11 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Common\Tests\Billing\Model;
+namespace WBW\Library\Common\Tests\Billing;
 
 use JsonSerializable;
-use WBW\Library\Common\Billing\Model\BankDetails;
-use WBW\Library\Common\Billing\Model\BankDetailsInterface;
+use WBW\Library\Common\Billing\BankDetails;
+use WBW\Library\Common\Billing\BankDetailsInterface;
 use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**

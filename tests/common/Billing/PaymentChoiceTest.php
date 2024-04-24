@@ -11,20 +11,20 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Common\Tests\Billing\Model;
+namespace WBW\Library\Common\Tests\Billing;
 
 use JsonSerializable;
-use WBW\Library\Common\Billing\Model\PaymentTerm;
-use WBW\Library\Common\Billing\Model\PaymentTermInterface;
+use WBW\Library\Common\Billing\PaymentChoice;
+use WBW\Library\Common\Billing\PaymentChoiceInterface;
 use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
- * Payment term test.
+ * Payment choice test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Common\Tests\Billing\Model
+ * @package WBW\Library\Common\Tests\Billing
  */
-class PaymentTermTest extends AbstractTestCase {
+class PaymentChoiceTest extends AbstractTestCase {
 
     /**
      * Test jsonSerialize()
@@ -33,7 +33,7 @@ class PaymentTermTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        $obj = new PaymentTerm();
+        $obj = new PaymentChoice();
 
         $this->assertIsArray($obj->jsonSerialize());
     }
@@ -45,12 +45,11 @@ class PaymentTermTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $obj = new PaymentTerm();
+        $obj = new PaymentChoice();
 
         $this->assertInstanceOf(JsonSerializable::class, $obj);
-        $this->assertInstanceOf(PaymentTermInterface::class, $obj);
+        $this->assertInstanceOf(PaymentChoiceInterface::class, $obj);
 
-        $this->assertNull($obj->getCode());
         $this->assertNull($obj->getLabel());
     }
 }

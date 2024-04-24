@@ -17,8 +17,8 @@ use DateTime;
 use WBW\Library\Billing\Factory\SalesBillFactory;
 use WBW\Library\Billing\Model\SalesBill;
 use WBW\Library\Billing\Tests\AbstractTestCase;
-use WBW\Library\Common\Model\Billing\BillableDetailInterface;
-use WBW\Library\Common\Model\Billing\SalesBillInterface;
+use WBW\Library\Common\Billing\BillableDetailInterface;
+use WBW\Library\Common\Billing\SalesBillInterface;
 
 /**
  * Sales bill factory test.

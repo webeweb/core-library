@@ -21,8 +21,8 @@ use WBW\Library\Billing\Model\Quotation;
 use WBW\Library\Billing\Tests\AbstractTestCase;
 use WBW\Library\Billing\Tests\Fixtures\Model\TestBillable;
 use WBW\Library\Billing\Tests\Fixtures\Model\TestBillableDetail;
-use WBW\Library\Common\Model\Billing\BillableInterface;
-use WBW\Library\Common\Model\Billing\QuotationInterface;
+use WBW\Library\Common\Billing\BillableInterface;
+use WBW\Library\Common\Billing\QuotationInterface;
 
 /**
  * Quotation test.

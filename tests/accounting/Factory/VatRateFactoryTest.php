@@ -15,8 +15,8 @@ namespace WBW\Library\Accounting\Tests\Factory;
 
 use WBW\Library\Accounting\Factory\VatRateFactory;
 use WBW\Library\Accounting\Tests\AbstractTestCase;
-use WBW\Library\Common\Billing\Model\AccountingAccountInterface;
-use WBW\Library\Common\Billing\Model\VatRate;
+use WBW\Library\Common\Billing\AccountingAccountInterface;
+use WBW\Library\Common\Billing\VatRate;
 
 /**
  * VAT rate factory test.
