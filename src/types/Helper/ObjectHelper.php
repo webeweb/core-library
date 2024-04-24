@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Types\Helper;
 
-use WBW\Library\Types\Exception\ObjectArgumentException;
+use WBW\Library\Common\Exception\ObjectArgumentException;
 
 /**
  * Object helper.

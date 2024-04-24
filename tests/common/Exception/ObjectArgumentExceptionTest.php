@@ -11,16 +11,17 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Types\Tests\Exception;
+namespace WBW\Library\Common\Tests\Exception;
 
-use WBW\Library\Types\Exception\ObjectArgumentException;
+use InvalidArgumentException;
+use WBW\Library\Common\Exception\ObjectArgumentException;
 use WBW\Library\Types\Tests\AbstractTestCase;
 
 /**
  * Object argument exception test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Types\Tests\Exception
+ * @package WBW\Library\Common\Tests\Exception
  */
 class ObjectArgumentExceptionTest extends AbstractTestCase {
 
@@ -31,8 +32,10 @@ class ObjectArgumentExceptionTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $ex = new ObjectArgumentException("exception");
+        $obj = new ObjectArgumentException("exception");
 
-        $this->assertEquals('The argument "exception" is not an object', $ex->getMessage());
+        $this->assertInstanceOf(InvalidArgumentException::class, $obj);
+
+        $this->assertEquals('The argument "exception" is not an object', $obj->getMessage());
     }
 }

@@ -23,7 +23,7 @@ use WBW\Library\Common\Exception\DoubleArgumentException;
 use WBW\Library\Common\Exception\FloatArgumentException;
 use WBW\Library\Common\Exception\IntegerArgumentException;
 use WBW\Library\Common\Exception\NumberArgumentException;
-use WBW\Library\Types\Exception\ObjectArgumentException;
+use WBW\Library\Common\Exception\ObjectArgumentException;
 use WBW\Library\Types\Exception\ResourceArgumentException;
 use WBW\Library\Types\Exception\StringArgumentException;
 use WBW\Library\Types\Exception\TimestampArgumentException;
