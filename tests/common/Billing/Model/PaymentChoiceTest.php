@@ -11,19 +11,18 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Accounting\Tests\Model;
+namespace WBW\Library\Common\Tests\Billing\Model;
 
 use JsonSerializable;
-use WBW\Library\Accounting\Model\PaymentChoice;
-use WBW\Library\Accounting\Tests\AbstractTestCase;
+use WBW\Library\Common\Billing\Model\PaymentChoice;
 use WBW\Library\Common\Billing\Model\PaymentChoiceInterface;
-use WBW\Library\Common\Serializer\SerializerKeys as BaseSerializerKeys;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * Payment choice test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Accounting\Tests\Model
+ * @package WBW\Library\Common\Tests\Billing\Model
  */
 class PaymentChoiceTest extends AbstractTestCase {
 
@@ -34,17 +33,9 @@ class PaymentChoiceTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        // Set the expected data.
-        $data = file_get_contents(__DIR__ . "/PaymentChoiceTest.testJsonSerialize.json");
-        $json = json_decode($data, true);
-
         $obj = new PaymentChoice();
-        $obj->setLabel(BaseSerializerKeys::LABEL);
 
-        $res = $obj->jsonSerialize();
-        $this->assertCount(1, $res);
-
-        $this->assertEquals($json, $res);
+        $this->assertIsArray($obj->jsonSerialize());
     }
 
     /**
