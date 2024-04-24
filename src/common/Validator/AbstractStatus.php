@@ -31,7 +31,7 @@ abstract class AbstractStatus implements StatusInterface {
     /**
      * Rule name.
      *
-     * @var string
+     * @var string|null
      */
     private $ruleName;
 

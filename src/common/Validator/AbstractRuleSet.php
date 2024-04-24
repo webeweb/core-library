@@ -25,7 +25,7 @@ abstract class AbstractRuleSet implements RuleSetInterface {
     /**
      * Rules.
      *
-     * @var RuleInterface[]
+     * @var RuleInterface[]|null
      */
     private $rules;
 
