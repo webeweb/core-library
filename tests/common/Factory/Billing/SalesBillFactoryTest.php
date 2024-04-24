@@ -11,20 +11,20 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Billing\Tests\Factory;
+namespace WBW\Library\Common\Tests\Factory\Billing;
 
 use DateTime;
-use WBW\Library\Billing\Factory\SalesBillFactory;
-use WBW\Library\Billing\Tests\AbstractTestCase;
+use WBW\Library\Common\Factory\Billing\SalesBillFactory;
 use WBW\Library\Common\Model\Billing\BillableDetailInterface;
 use WBW\Library\Common\Model\Billing\SalesBill;
 use WBW\Library\Common\Model\Billing\SalesBillInterface;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * Sales bill factory test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Billing\Tests\Factory
+ * @package WBW\Library\Common\Tests\Factory\Billing
  */
 class SalesBillFactoryTest extends AbstractTestCase {
 
