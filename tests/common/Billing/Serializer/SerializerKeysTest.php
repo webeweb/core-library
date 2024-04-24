@@ -11,16 +11,16 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Accounting\Tests\Serializer;
+namespace WBW\Library\Common\Tests\Billing\Serializer;
 
-use WBW\Library\Accounting\Serializer\SerializerKeys;
-use WBW\Library\Accounting\Tests\AbstractTestCase;
+use WBW\Library\Common\Billing\Serializer\SerializerKeys;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * Serializer keys test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Accounting\Tests\Serializer
+ * @package WBW\Library\Common\Tests\Billing\Serializer
  */
 class SerializerKeysTest extends AbstractTestCase {
 

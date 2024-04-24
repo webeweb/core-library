@@ -18,6 +18,7 @@ use WBW\Library\Common\Billing\Model\BankDetailsInterface;
 use WBW\Library\Common\Billing\Model\PaymentChoiceInterface;
 use WBW\Library\Common\Billing\Model\PaymentTermInterface;
 use WBW\Library\Common\Billing\Model\VatRateInterface;
+use WBW\Library\Common\Billing\Serializer\SerializerKeys;
 use WBW\Library\Common\Serializer\SerializerKeys as BaseSerializerKeys;
 use WBW\Library\Serializer\Helper\JsonSerializerHelper;
 
