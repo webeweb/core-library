@@ -11,16 +11,17 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Security\Tests;
+namespace WBW\Library\Common\Tests\Security;
 
 use Throwable;
-use WBW\Library\Security\TokenGenerator;
+use WBW\Library\Common\Security\TokenGenerator;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * Token generator test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Security\Tests
+ * @package WBW\Library\Common\Tests\Security
  */
 class TokenGeneratorTest extends AbstractTestCase {
 

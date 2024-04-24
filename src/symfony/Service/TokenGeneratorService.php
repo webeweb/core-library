@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Symfony\Service;
 
-use WBW\Library\Security\TokenGenerator;
+use WBW\Library\Common\Security\TokenGenerator;
 
 /**
  * Token generator service.
