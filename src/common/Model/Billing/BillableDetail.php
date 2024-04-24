@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Model\Billing;
 
-use WBW\Library\Billing\Helper\BillableDetailHelper;
+use WBW\Library\Common\Helper\Billing\BillableDetailHelper;
 use WBW\Library\Common\Serializer\Billing\JsonSerializer;
 use WBW\Library\Common\Traits\Floats\FloatDiscountTotalTrait;
 use WBW\Library\Common\Traits\Floats\FloatExcludingVatTotalTrait;
