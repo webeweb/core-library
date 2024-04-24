@@ -11,11 +11,10 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Billing\Model;
+namespace WBW\Library\Common\Model\Billing;
 
 use WBW\Library\Billing\Helper\TaxableHelper;
-use WBW\Library\Billing\Serializer\JsonSerializer;
-use WBW\Library\Common\Model\Billing\TaxableInterface;
+use WBW\Library\Common\Serializer\Billing\JsonSerializer;
 use WBW\Library\Common\Traits\Floats\FloatDiscountAmountTrait;
 use WBW\Library\Common\Traits\Floats\FloatDiscountRateTrait;
 use WBW\Library\Common\Traits\Floats\FloatExcludingVatPriceTrait;
@@ -27,7 +26,7 @@ use WBW\Library\Common\Traits\Floats\FloatVatRateTrait;
  * Taxable.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Billing\Model
+ * @package WBW\Library\Common\Model\Billing
  * @abstract
  */
 abstract class Taxable implements TaxableInterface {

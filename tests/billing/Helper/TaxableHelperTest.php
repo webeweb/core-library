@@ -16,7 +16,7 @@ namespace WBW\Library\Billing\Tests\Helper;
 use WBW\Library\Billing\Helper\TaxableHelper;
 use WBW\Library\Billing\Tests\AbstractTestCase;
 use WBW\Library\Billing\Tests\Fixtures\Helper\TestTaxableHelper;
-use WBW\Library\Billing\Tests\Fixtures\Model\TestTaxable;
+use WBW\Library\Common\Tests\Fixtures\Model\Billing\TestTaxable;
 
 /**
  * Taxable helper test.

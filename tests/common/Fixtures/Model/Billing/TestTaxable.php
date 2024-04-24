@@ -11,15 +11,15 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Billing\Tests\Fixtures\Model;
+namespace WBW\Library\Common\Tests\Fixtures\Model\Billing;
 
-use WBW\Library\Billing\Model\Taxable;
+use WBW\Library\Common\Model\Billing\Taxable;
 
 /**
  * Test taxable.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Billing\Tests\Fixtures\Model
+ * @package WBW\Library\Common\Tests\Fixtures\Model\Billing
  */
 class TestTaxable extends Taxable {
 

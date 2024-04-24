@@ -15,7 +15,7 @@ namespace WBW\Library\Billing\Tests\Factory;
 
 use WBW\Library\Billing\Factory\TaxableFactory;
 use WBW\Library\Billing\Tests\AbstractTestCase;
-use WBW\Library\Billing\Tests\Fixtures\Model\TestTaxable;
+use WBW\Library\Common\Tests\Fixtures\Model\Billing\TestTaxable;
 
 /**
  * Taxable factory test.
