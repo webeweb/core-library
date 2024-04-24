@@ -11,16 +11,16 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Billing\Model;
+namespace WBW\Library\Common\Model\Billing;
 
-use WBW\Library\Billing\Serializer\JsonSerializer;
-use WBW\Library\Common\Model\Billing\SalesBillInterface;
+use WBW\Library\Billing\Model\Billable;
+use WBW\Library\Common\Serializer\Billing\JsonSerializer;
 
 /**
  * Sales bill.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Billing\Model
+ * @package WBW\Library\Common\Model\Billing
  */
 class SalesBill extends Billable implements SalesBillInterface {
 
