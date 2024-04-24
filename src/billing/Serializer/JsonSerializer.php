@@ -19,7 +19,7 @@ use WBW\Library\Billing\Model\BillingAddressInterface;
 use WBW\Library\Billing\Model\DeliveryAddressInterface;
 use WBW\Library\Billing\Model\DeliveryNoteInterface;
 use WBW\Library\Billing\Model\PurchaseBillInterface;
-use WBW\Library\Billing\Model\PurchaseOrderInterface;
+use WBW\Library\Common\Model\Billing\PurchaseOrderInterface;
 use WBW\Library\Common\Model\Billing\QuotationInterface;
 use WBW\Library\Common\Model\Billing\SalesBillInterface;
 use WBW\Library\Common\Model\Billing\SendingAddressInterface;
