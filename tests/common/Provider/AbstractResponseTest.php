@@ -11,16 +11,16 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Provider\Tests\Response;
+namespace WBW\Library\Common\Tests\Provider;
 
+use WBW\Library\Common\Tests\Fixtures\Provider\TestAbstractResponse;
 use WBW\Library\Provider\Tests\AbstractTestCase;
-use WBW\Library\Provider\Tests\Fixtures\Response\TestResponse;
 
 /**
  * Abstract response test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Provider\Tests\Response
+ * @package WBW\Library\Common\Tests\Provider
  */
 class AbstractResponseTest extends AbstractTestCase {
 
@@ -31,7 +31,7 @@ class AbstractResponseTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $obj = new TestResponse();
+        $obj = new TestAbstractResponse();
 
         $this->assertNull($obj->getRawResponse());
     }

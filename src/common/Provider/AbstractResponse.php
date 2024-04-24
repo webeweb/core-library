@@ -11,7 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Provider\Response;
+namespace WBW\Library\Common\Provider;
 
 use WBW\Library\Common\Traits\Strings\StringRawResponseTrait;
 
@@ -19,7 +19,7 @@ use WBW\Library\Common\Traits\Strings\StringRawResponseTrait;
  * Abstract response.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Provider\Response
+ * @package WBW\Library\Common\Provider
  * @abstract
  */
 abstract class AbstractResponse {

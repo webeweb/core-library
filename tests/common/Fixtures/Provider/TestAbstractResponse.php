@@ -11,16 +11,16 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Provider\Tests\Fixtures\Response;
+namespace WBW\Library\Common\Tests\Fixtures\Provider;
 
-use WBW\Library\Provider\Response\AbstractResponse;
+use WBW\Library\Common\Provider\AbstractResponse;
 
 /**
- * Test response.
+ * Test abstract response.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Provider\Tests\Fixtures\Response
+ * @package WBW\Library\Common\Tests\Fixtures\Provider
  */
-class TestResponse extends AbstractResponse {
+class TestAbstractResponse extends AbstractResponse {
 
 }
