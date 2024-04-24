@@ -15,9 +15,9 @@ namespace WBW\Library\Billing\Tests\Factory;
 
 use DateTime;
 use WBW\Library\Billing\Factory\QuotationFactory;
-use WBW\Library\Billing\Model\Quotation;
 use WBW\Library\Billing\Tests\AbstractTestCase;
 use WBW\Library\Common\Model\Billing\BillableDetailInterface;
+use WBW\Library\Common\Model\Billing\Quotation;
 use WBW\Library\Common\Model\Billing\QuotationInterface;
 
 /**

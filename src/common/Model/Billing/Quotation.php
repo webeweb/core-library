@@ -11,17 +11,17 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Billing\Model;
+namespace WBW\Library\Common\Model\Billing;
 
 use DateTime;
-use WBW\Library\Billing\Serializer\JsonSerializer;
-use WBW\Library\Common\Model\Billing\QuotationInterface;
+use WBW\Library\Billing\Model\Billable;
+use WBW\Library\Common\Serializer\Billing\JsonSerializer;
 
 /**
  * Quotation.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Billing\Model
+ * @package WBW\Library\Common\Model\Billing
  */
 class Quotation extends Billable implements QuotationInterface {
 
