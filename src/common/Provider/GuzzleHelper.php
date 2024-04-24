@@ -11,13 +11,13 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Provider\Helper;
+namespace WBW\Library\Common\Provider;
 
 /**
  * Guzzle helper.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Provider\Helper
+ * @package WBW\Library\Common\Provider
  */
 class GuzzleHelper {
 

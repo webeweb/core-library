@@ -11,16 +11,16 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Provider\Tests\Helper;
+namespace WBW\Library\Common\Tests\Provider;
 
-use WBW\Library\Provider\Helper\GuzzleHelper;
-use WBW\Library\Provider\Tests\AbstractTestCase;
+use WBW\Library\Common\Provider\GuzzleHelper;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * Guzzle helper test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Provider\Tests\Helper
+ * @package WBW\Library\Common\Tests\Provider
  */
 class GuzzleHelperTest extends AbstractTestCase {
 
