@@ -15,7 +15,7 @@ namespace WBW\Library\Billing\Serializer;
 
 use WBW\Library\Billing\Model\BillableDetailInterface;
 use WBW\Library\Billing\Model\BillableInterface;
-use WBW\Library\Billing\Model\BillingAddressInterface;
+use WBW\Library\Common\Model\Billing\BillingAddressInterface;
 use WBW\Library\Common\Model\Billing\DeliveryAddressInterface;
 use WBW\Library\Common\Model\Billing\DeliveryNoteInterface;
 use WBW\Library\Common\Model\Billing\PurchaseBillInterface;
