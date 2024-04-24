@@ -11,14 +11,12 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Billing\Model;
+namespace WBW\Library\Common\Model\Billing;
 
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use WBW\Library\Billing\Helper\BillableHelper;
-use WBW\Library\Billing\Serializer\JsonSerializer;
-use WBW\Library\Common\Model\Billing\BillableDetailInterface;
-use WBW\Library\Common\Model\Billing\BillableInterface;
+use WBW\Library\Common\Serializer\Billing\JsonSerializer;
 use WBW\Library\Common\Traits\DateTimes\DateTimeCreatedAtTrait;
 use WBW\Library\Common\Traits\DateTimes\DateTimeDateTrait;
 use WBW\Library\Common\Traits\DateTimes\DateTimeUpdatedAtTrait;
@@ -35,7 +33,7 @@ use WBW\Library\Common\Traits\Strings\StringReferenceTrait;
  * Billable.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Billing\Model
+ * @package WBW\Library\Common\Model\Billing
  * @abstract
  */
 abstract class Billable implements BillableInterface {

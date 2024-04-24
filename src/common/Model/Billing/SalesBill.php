@@ -13,7 +13,6 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Model\Billing;
 
-use WBW\Library\Billing\Model\Billable;
 use WBW\Library\Common\Serializer\Billing\JsonSerializer;
 
 /**
