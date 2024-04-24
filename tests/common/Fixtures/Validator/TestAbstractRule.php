@@ -15,6 +15,7 @@ namespace WBW\Library\Common\Tests\Fixtures\Validator;
 
 use WBW\Library\Common\Validator\AbstractRule;
 use WBW\Library\Common\Validator\DefaultStatus;
+use WBW\Library\Common\Validator\RuleInterface;
 use WBW\Library\Common\Validator\StatusInterface;
 
 /**
@@ -30,6 +31,15 @@ class TestAbstractRule extends AbstractRule {
      */
     public function __construct() {
         parent::__construct("test");
+    }
+
+    /**
+     * Set the name as null.
+     *
+     * @return RuleInterface Returns this rule.
+     */
+    public function setNameAsNull() {
+        return parent::setName(null);
     }
 
     /**
