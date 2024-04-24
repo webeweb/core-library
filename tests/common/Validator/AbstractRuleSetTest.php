@@ -23,7 +23,7 @@ use WBW\Library\Validator\Tests\AbstractTestCase;
  * Abstract rule set test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Validator\Tests\Validator\RuleSet
+ * @package WBW\Library\Common\Tests\Validator
  */
 class AbstractRuleSetTest extends AbstractTestCase {
 
