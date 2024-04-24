@@ -16,7 +16,7 @@ namespace WBW\Library\Types\Tests;
 use DateTime;
 use InvalidArgumentException;
 use Throwable;
-use WBW\Library\Types\Exception\ArrayArgumentException;
+use WBW\Library\Common\Exception\ArrayArgumentException;
 use WBW\Library\Types\Exception\BooleanArgumentException;
 use WBW\Library\Types\Exception\DateArgumentException;
 use WBW\Library\Types\Exception\DoubleArgumentException;

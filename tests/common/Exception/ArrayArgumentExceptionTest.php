@@ -11,16 +11,17 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Types\Tests\Exception;
+namespace WBW\Library\Common\Tests\Exception;
 
-use WBW\Library\Types\Exception\ArrayArgumentException;
+use InvalidArgumentException;
+use WBW\Library\Common\Exception\ArrayArgumentException;
 use WBW\Library\Types\Tests\AbstractTestCase;
 
 /**
  * Array argument exception test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Types\Tests\Exception
+ * @package WBW\Library\Common\Tests\Exception
  */
 class ArrayArgumentExceptionTest extends AbstractTestCase {
 
@@ -31,8 +32,10 @@ class ArrayArgumentExceptionTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $ex = new ArrayArgumentException("exception");
+        $obj = new ArrayArgumentException("exception");
 
-        $this->assertEquals('The argument "exception" is not an array', $ex->getMessage());
+        $this->assertInstanceOf(InvalidArgumentException::class, $obj);
+
+        $this->assertEquals('The argument "exception" is not an array', $obj->getMessage());
     }
 }
