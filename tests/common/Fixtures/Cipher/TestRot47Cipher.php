@@ -11,17 +11,17 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Maths\Tests\Helper\Fixtures;
+namespace WBW\Library\Common\Tests\Fixtures\Cipher;
 
-use WBW\Library\Maths\Helper\Rot47Helper;
+use WBW\Library\Common\Cipher\Rot47Cipher;
 
 /**
- * Test ROT 47 helper.
+ * Test ROT 47 cipher.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Maths\Tests\Helper\Fixtures
+ * @package WBW\Library\Common\Tests\Fixtures\Cipher
  */
-class TestRot47Helper extends Rot47Helper {
+class TestRot47Cipher extends Rot47Cipher {
 
     /**
      * {@inheritDoc}
