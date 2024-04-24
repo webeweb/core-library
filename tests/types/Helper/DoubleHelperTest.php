@@ -14,7 +14,7 @@ declare(strict_types = 1);
 namespace WBW\Library\Types\Tests\Helper;
 
 use Throwable;
-use WBW\Library\Types\Exception\DoubleArgumentException;
+use WBW\Library\Common\Exception\DoubleArgumentException;
 use WBW\Library\Types\Helper\DoubleHelper;
 use WBW\Library\Types\Tests\AbstractTestCase;
 

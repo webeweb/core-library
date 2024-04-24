@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Types\Helper;
 
-use WBW\Library\Types\Exception\DoubleArgumentException;
+use WBW\Library\Common\Exception\DoubleArgumentException;
 use WBW\Library\Types\Exception\FloatArgumentException;
 
 /**
