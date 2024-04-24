@@ -11,17 +11,17 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Billing\Tests\Factory;
+namespace WBW\Library\Common\Tests\Factory\Billing;
 
-use WBW\Library\Billing\Factory\DeliveryAddressFactory;
-use WBW\Library\Billing\Tests\AbstractTestCase;
+use WBW\Library\Common\Factory\Billing\DeliveryAddressFactory;
+use WBW\Library\Common\Tests\AbstractTestCase;
 use WBW\Library\Common\Tests\Fixtures\Model\Billing\TestDeliveryAddressTrait;
 
 /**
  * Delivery address factory test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Billing\Tests\Factory
+ * @package WBW\Library\Common\Tests\Factory\Billing
  */
 class DeliveryAddressFactoryTest extends AbstractTestCase {
 
