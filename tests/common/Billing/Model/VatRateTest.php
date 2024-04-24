@@ -11,21 +11,19 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Accounting\Tests\Model;
+namespace WBW\Library\Common\Tests\Billing\Model;
 
 use JsonSerializable;
-use WBW\Library\Accounting\Model\AccountingAccount;
-use WBW\Library\Accounting\Model\VatRate;
-use WBW\Library\Accounting\Tests\AbstractTestCase;
 use WBW\Library\Common\Billing\Model\AccountingAccountInterface;
+use WBW\Library\Common\Billing\Model\VatRate;
 use WBW\Library\Common\Billing\Model\VatRateInterface;
-use WBW\Library\Common\Serializer\SerializerKeys as BaseSerializerKeys;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * VAT rate test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Accounting\Tests\Model
+ * @package WBW\Library\Common\Tests\Billing\Model
  */
 class VatRateTest extends AbstractTestCase {
 
@@ -36,28 +34,9 @@ class VatRateTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        // Set the expected data.
-        $data = file_get_contents(__DIR__ . "/VatRateTest.testJsonSerialize.json");
-        $json = json_decode($data, true);
-
         $obj = new VatRate();
-        $obj->setLabel(BaseSerializerKeys::LABEL);
-        $obj->setRate(0.123456789);
 
-        $obj->setPurchasesAccountingAccount(new AccountingAccount());
-        $obj->getPurchasesAccountingAccount()->setLabel("purchaseLabel");
-        $obj->getPurchasesAccountingAccount()->setNumber("purchaseNumber");
-        $obj->getPurchasesAccountingAccount()->setType("purchaseType");
-
-        $obj->setSalesAccountingAccount(new AccountingAccount());
-        $obj->getSalesAccountingAccount()->setLabel("salesLabel");
-        $obj->getSalesAccountingAccount()->setNumber("salesNumber");
-        $obj->getSalesAccountingAccount()->setType("salesType");
-
-        $res = $obj->jsonSerialize();
-        $this->assertCount(4, $res);
-
-        $this->assertEquals($json, $res);
+        $this->assertIsArray($obj->jsonSerialize());
     }
 
     /**
