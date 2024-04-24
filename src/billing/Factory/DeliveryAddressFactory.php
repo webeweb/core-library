@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Billing\Factory;
 
-use WBW\Library\Billing\Model\DeliveryAddressInterface;
+use WBW\Library\Common\Model\Billing\DeliveryAddressInterface;
 
 /**
  * Delivery address factory.
