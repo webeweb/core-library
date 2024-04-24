@@ -13,11 +13,11 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Validator\Tests;
 
+use WBW\Library\Common\Tests\Fixtures\Validator\TestAbstractRule;
 use WBW\Library\Common\Validator\RuleSetInterface;
 use WBW\Library\Common\Validator\StatusInterface;
 use WBW\Library\Validator\DefaultValidator;
 use WBW\Library\Validator\RuleSet\DefaultRuleSet;
-use WBW\Library\Validator\Tests\Fixtures\Rule\TestRule;
 
 /**
  * Default validator test.
@@ -41,7 +41,7 @@ class DefaultValidatorTest extends AbstractTestCase {
         parent::setUp();
 
         // Set a Rule mock.
-        $rule = new TestRule();
+        $rule = new TestAbstractRule();
 
         // Set a Rule set mock.
         $this->ruleSet = new DefaultRuleSet();
@@ -57,7 +57,7 @@ class DefaultValidatorTest extends AbstractTestCase {
 
         $obj = new DefaultValidator($this->ruleSet);
 
-        $res = $obj->validate(new TestRule());
+        $res = $obj->validate(new TestAbstractRule());
         $this->assertCount(1, $res);
         $this->assertInstanceOf(StatusInterface::class, $res[0]);
         $this->assertEquals(500, $res[0]->getCode());

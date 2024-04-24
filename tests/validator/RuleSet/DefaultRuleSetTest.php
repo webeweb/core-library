@@ -13,10 +13,10 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Validator\Tests\RuleSet;
 
+use WBW\Library\Common\Tests\Fixtures\Validator\TestAbstractRule;
 use WBW\Library\Common\Validator\StatusInterface;
 use WBW\Library\Validator\RuleSet\DefaultRuleSet;
 use WBW\Library\Validator\Tests\AbstractTestCase;
-use WBW\Library\Validator\Tests\Fixtures\Rule\TestRule;
 
 /**
  * Default rule set test.
@@ -34,7 +34,7 @@ class DefaultRuleSetTest extends AbstractTestCase {
     public function testRemoveRule(): void {
 
         // Set a Rule mock.
-        $rule = new TestRule();
+        $rule = new TestAbstractRule();
 
         $obj = new DefaultRuleSet();
 
@@ -42,7 +42,7 @@ class DefaultRuleSetTest extends AbstractTestCase {
         $this->assertCount(1, $obj->getRules());
         $this->assertSame($rule, $obj->getRules()[0]);
 
-        $this->assertSame($obj, $obj->removeRule(new TestRule()));
+        $this->assertSame($obj, $obj->removeRule(new TestAbstractRule()));
         $this->assertCount(1, $obj->getRules());
         $this->assertSame($rule, $obj->getRules()[0]);
 
@@ -58,13 +58,13 @@ class DefaultRuleSetTest extends AbstractTestCase {
     public function testValidate(): void {
 
         // Set a Rule mock.
-        $rule = new TestRule();
+        $rule = new TestAbstractRule();
         $rule->setName(null);
 
         $obj = new DefaultRuleSet();
         $obj->addRule($rule);
 
-        $res = $obj->validate(new TestRule());
+        $res = $obj->validate(new TestAbstractRule());
         $this->assertCount(1, $res);
 
         $this->assertInstanceOf(StatusInterface::class, $res[0]);

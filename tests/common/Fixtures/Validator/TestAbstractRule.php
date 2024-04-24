@@ -11,33 +11,25 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Validator\Tests\Fixtures\Rule;
+namespace WBW\Library\Common\Tests\Fixtures\Validator;
 
-use WBW\Library\Common\Validator\RuleInterface;
+use WBW\Library\Common\Validator\AbstractRule;
 use WBW\Library\Common\Validator\StatusInterface;
-use WBW\Library\Validator\Rule\AbstractRule;
 use WBW\Library\Validator\Status\DefaultStatus;
 
 /**
- * Test rule.
+ * Test abstract rule.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Validator\Tests\Fixtures\Rule
+ * @package WBW\Library\Common\Tests\Fixtures\Validator
  */
-class TestRule extends AbstractRule {
+class TestAbstractRule extends AbstractRule {
 
     /**
      * Constructor.
      */
     public function __construct() {
-        parent::__construct("Test rule");
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function setName(?string $name): RuleInterface {
-        return parent::setName($name);
+        parent::__construct("test");
     }
 
     /**

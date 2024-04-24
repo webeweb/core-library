@@ -11,16 +11,17 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Validator\Tests\Rule;
+namespace WBW\Library\Common\Tests\Validator;
 
-use WBW\Library\Validator\Tests\AbstractTestCase;
-use WBW\Library\Validator\Tests\Fixtures\Rule\TestRule;
+use WBW\Library\Common\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\Fixtures\Validator\TestAbstractRule;
+use WBW\Library\Common\Validator\RuleInterface;
 
 /**
  * Abstract rule test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Validator\Tests\Rule
+ * @package WBW\Library\Common\Tests\Validator
  */
 class AbstractRuleTest extends AbstractTestCase {
 
@@ -31,8 +32,10 @@ class AbstractRuleTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $obj = new TestRule();
+        $obj = new TestAbstractRule();
 
-        $this->assertEquals("Test rule", $obj->getName());
+        $this->assertInstanceOf(RuleInterface::class, $obj);
+
+        $this->assertEquals("test", $obj->getName());
     }
 }
