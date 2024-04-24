@@ -14,7 +14,7 @@ declare(strict_types = 1);
 namespace WBW\Library\Common\Tests\Provider;
 
 use WBW\Library\Common\Provider\ResponseInterface;
-use WBW\Library\common\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\AbstractTestCase;
 use WBW\Library\Common\Tests\Fixtures\Provider\TestAbstractResponse;
 
 /**
