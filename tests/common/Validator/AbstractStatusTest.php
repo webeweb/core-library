@@ -13,9 +13,9 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Tests\Validator;
 
+use WBW\Library\Common\Tests\AbstractTestCase;
 use WBW\Library\Common\Tests\Fixtures\Validator\TestAbstractStatus;
 use WBW\Library\Common\Validator\StatusInterface;
-use WBW\Library\Validator\Tests\AbstractTestCase;
 
 /**
  * Abstract status test.

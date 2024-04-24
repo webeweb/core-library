@@ -88,7 +88,6 @@
             "WBW\\Library\\Symfony\\": "src/symfony/",
             "WBW\\Library\\System\\": "src/system/",
             "WBW\\Library\\Types\\": "src/types/",
-            "WBW\\Library\\Validator\\": "src/validator/",
             "WBW\\Library\\Vehicle\\": "src/vehicle/"
         },
         "exclude-from-classmap": [
@@ -123,7 +122,6 @@
             "WBW\\Library\\Symfony\\Tests\\": "tests/symfony/",
             "WBW\\Library\\System\\Tests\\": "tests/system/",
             "WBW\\Library\\Types\\Tests\\": "tests/types/",
-            "WBW\\Library\\Validator\\Tests\\": "tests/validator/",
             "WBW\\Library\\Vehicle\\Tests\\": "tests/vehicle/"
         }
     },

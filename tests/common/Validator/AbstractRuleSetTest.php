@@ -13,11 +13,11 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Tests\Validator;
 
+use WBW\Library\Common\Tests\AbstractTestCase;
 use WBW\Library\Common\Tests\Fixtures\Validator\TestAbstractRule;
 use WBW\Library\Common\Tests\Fixtures\Validator\TestAbstractRuleSet;
 use WBW\Library\Common\Validator\RuleSetInterface;
 use WBW\Library\Common\Validator\StatusInterface;
-use WBW\Library\Validator\Tests\AbstractTestCase;
 
 /**
  * Abstract rule set test.

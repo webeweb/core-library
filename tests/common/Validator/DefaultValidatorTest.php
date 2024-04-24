@@ -13,10 +13,10 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Tests\Validator;
 
+use WBW\Library\Common\Tests\AbstractTestCase;
 use WBW\Library\Common\Tests\Fixtures\Validator\TestAbstractRuleSet;
 use WBW\Library\Common\Validator\DefaultValidator;
 use WBW\Library\Common\Validator\ValidatorInterface;
-use WBW\Library\Validator\Tests\AbstractTestCase;
 
 /**
  * Default validator test.
