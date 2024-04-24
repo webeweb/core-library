@@ -11,16 +11,17 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Types\Tests\Exception;
+namespace WBW\Library\Common\Tests\Exception;
 
-use WBW\Library\Types\Exception\ResourceArgumentException;
+use InvalidArgumentException;
+use WBW\Library\Common\Exception\ResourceArgumentException;
 use WBW\Library\Types\Tests\AbstractTestCase;
 
 /**
  * Resource argument exception test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Types\Tests\Exception
+ * @package WBW\Library\Common\Tests\Exception
  */
 class ResourceArgumentExceptionTest extends AbstractTestCase {
 
@@ -31,8 +32,10 @@ class ResourceArgumentExceptionTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $ex = new ResourceArgumentException("exception");
+        $obj = new ResourceArgumentException("exception");
 
-        $this->assertEquals('The argument "exception" is not a resource', $ex->getMessage());
+        $this->assertInstanceOf(InvalidArgumentException::class, $obj);
+
+        $this->assertEquals('The argument "exception" is not a resource', $obj->getMessage());
     }
 }

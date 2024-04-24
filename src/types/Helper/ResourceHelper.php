@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Types\Helper;
 
-use WBW\Library\Types\Exception\ResourceArgumentException;
+use WBW\Library\Common\Exception\ResourceArgumentException;
 
 /**
  * Resource helper.
