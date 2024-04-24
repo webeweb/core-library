@@ -14,7 +14,7 @@ declare(strict_types = 1);
 namespace WBW\Library\Types\Helper;
 
 use InvalidArgumentException;
-use WBW\Library\Types\Exception\FloatArgumentException;
+use WBW\Library\Common\Exception\FloatArgumentException;
 
 /**
  * Float helper.

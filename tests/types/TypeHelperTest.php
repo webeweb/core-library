@@ -20,7 +20,7 @@ use WBW\Library\Common\Exception\ArrayArgumentException;
 use WBW\Library\Common\Exception\BooleanArgumentException;
 use WBW\Library\Common\Exception\DateArgumentException;
 use WBW\Library\Common\Exception\DoubleArgumentException;
-use WBW\Library\Types\Exception\FloatArgumentException;
+use WBW\Library\Common\Exception\FloatArgumentException;
 use WBW\Library\Types\Exception\IntegerArgumentException;
 use WBW\Library\Types\Exception\NumberArgumentException;
 use WBW\Library\Types\Exception\ObjectArgumentException;

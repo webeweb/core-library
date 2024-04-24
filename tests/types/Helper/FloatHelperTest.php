@@ -15,7 +15,7 @@ namespace WBW\Library\Types\Tests\Helper;
 
 use InvalidArgumentException;
 use Throwable;
-use WBW\Library\Types\Exception\FloatArgumentException;
+use WBW\Library\Common\Exception\FloatArgumentException;
 use WBW\Library\Types\Helper\FloatHelper;
 use WBW\Library\Types\Tests\AbstractTestCase;
 

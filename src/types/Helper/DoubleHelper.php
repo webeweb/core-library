@@ -14,7 +14,7 @@ declare(strict_types = 1);
 namespace WBW\Library\Types\Helper;
 
 use WBW\Library\Common\Exception\DoubleArgumentException;
-use WBW\Library\Types\Exception\FloatArgumentException;
+use WBW\Library\Common\Exception\FloatArgumentException;
 
 /**
  * Double helper.
