@@ -15,9 +15,9 @@ namespace WBW\Library\Accounting\Tests\Model;
 
 use JsonSerializable;
 use WBW\Library\Accounting\Model\BankDetails;
-use WBW\Library\Accounting\Model\BankDetailsInterface;
 use WBW\Library\Accounting\Serializer\SerializerKeys;
 use WBW\Library\Accounting\Tests\AbstractTestCase;
+use WBW\Library\Common\Billing\Model\BankDetailsInterface;
 
 /**
  * Bank details test.

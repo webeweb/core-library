@@ -11,7 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Accounting\Model;
+namespace WBW\Library\Common\Billing\Model;
 
 use JsonSerializable;
 
@@ -19,7 +19,7 @@ use JsonSerializable;
  * Bank details interface.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Accounting\Model
+ * @package WBW\Library\Common\Billing\Model
  */
 interface BankDetailsInterface extends JsonSerializable {
 
