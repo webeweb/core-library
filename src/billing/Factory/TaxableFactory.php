@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Billing\Factory;
 
-use WBW\Library\Common\Billing\TaxableInterface;
+use WBW\Library\Common\Model\Billing\TaxableInterface;
 
 /**
  * Taxable factory.

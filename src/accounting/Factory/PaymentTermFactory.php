@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Accounting\Factory;
 
-use WBW\Library\Common\Billing\PaymentTermInterface;
+use WBW\Library\Common\Model\Billing\PaymentTermInterface;
 
 /**
  * Payment term factory.

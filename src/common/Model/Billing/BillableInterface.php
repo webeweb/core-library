@@ -11,7 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Common\Billing;
+namespace WBW\Library\Common\Model\Billing;
 
 use DateTime;
 use JsonSerializable;
@@ -20,7 +20,7 @@ use JsonSerializable;
  * Billable interface.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Common\Billing
+ * @package WBW\Library\Common\Model\Billing
  */
 interface BillableInterface extends JsonSerializable {
 

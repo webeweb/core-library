@@ -14,7 +14,7 @@ declare(strict_types = 1);
 namespace WBW\Library\Billing\Model;
 
 use WBW\Library\Billing\Serializer\JsonSerializer;
-use WBW\Library\Common\Billing\PurchaseOrderInterface;
+use WBW\Library\Common\Model\Billing\PurchaseOrderInterface;
 
 /**
  * Purchase order.

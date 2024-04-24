@@ -11,24 +11,17 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Common\Billing;
+namespace WBW\Library\Common\Model\Billing;
 
 use JsonSerializable;
 
 /**
- * Payment term interface.
+ * Payment choice interface.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Common\Billing
+ * @package WBW\Library\Common\Model\Billing
  */
-interface PaymentTermInterface extends JsonSerializable {
-
-    /**
-     * Get the code.
-     *
-     * @return string|null Returns the code.
-     */
-    public function getCode(): ?string;
+interface PaymentChoiceInterface extends JsonSerializable {
 
     /**
      * Get the label.
@@ -38,18 +31,10 @@ interface PaymentTermInterface extends JsonSerializable {
     public function getLabel(): ?string;
 
     /**
-     * Set the code.
-     *
-     * @param string|null $code The code.
-     * @return PaymentTermInterface Returns this payment term.
-     */
-    public function setCode(?string $code);
-
-    /**
      * Set the label.
      *
      * @param string|null $label The label.
-     * @return PaymentTermInterface Returns this payment term.
+     * @return PaymentChoiceInterface Returns this payment choice.
      */
     public function setLabel(?string $label);
 }

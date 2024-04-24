@@ -15,7 +15,7 @@ namespace WBW\Library\Accounting\Tests\Factory;
 
 use WBW\Library\Accounting\Factory\BankDetailsFactory;
 use WBW\Library\Accounting\Tests\AbstractTestCase;
-use WBW\Library\Common\Billing\BankDetails;
+use WBW\Library\Common\Model\Billing\BankDetails;
 
 /**
  * Bank details factory test.

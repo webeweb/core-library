@@ -11,7 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Common\Billing;
+namespace WBW\Library\Common\Model\Billing;
 
 use JsonSerializable;
 
@@ -19,7 +19,7 @@ use JsonSerializable;
  * Billing address interface.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Common\Billing
+ * @package WBW\Library\Common\Model\Billing
  */
 interface BillingAddressInterface extends JsonSerializable {
 

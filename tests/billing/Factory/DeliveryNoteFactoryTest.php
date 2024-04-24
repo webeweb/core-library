@@ -17,8 +17,8 @@ use DateTime;
 use WBW\Library\Billing\Factory\DeliveryNoteFactory;
 use WBW\Library\Billing\Model\DeliveryNote;
 use WBW\Library\Billing\Tests\AbstractTestCase;
-use WBW\Library\Common\Billing\BillableDetailInterface;
-use WBW\Library\Common\Billing\DeliveryNoteInterface;
+use WBW\Library\Common\Model\Billing\BillableDetailInterface;
+use WBW\Library\Common\Model\Billing\DeliveryNoteInterface;
 
 /**
  * Delivery note factory test.

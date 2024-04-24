@@ -15,7 +15,7 @@ namespace WBW\Library\Billing\Model;
 
 use DateTime;
 use WBW\Library\Billing\Serializer\JsonSerializer;
-use WBW\Library\Common\Billing\QuotationInterface;
+use WBW\Library\Common\Model\Billing\QuotationInterface;
 
 /**
  * Quotation.

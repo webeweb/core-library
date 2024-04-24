@@ -21,8 +21,8 @@ use WBW\Library\Billing\Model\PurchaseOrder;
 use WBW\Library\Billing\Tests\AbstractTestCase;
 use WBW\Library\Billing\Tests\Fixtures\Model\TestBillable;
 use WBW\Library\Billing\Tests\Fixtures\Model\TestBillableDetail;
-use WBW\Library\Common\Billing\BillableInterface;
-use WBW\Library\Common\Billing\PurchaseOrderInterface;
+use WBW\Library\Common\Model\Billing\BillableInterface;
+use WBW\Library\Common\Model\Billing\PurchaseOrderInterface;
 
 /**
  * Purchase order test.

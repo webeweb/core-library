@@ -17,8 +17,8 @@ use DateTime;
 use WBW\Library\Billing\Factory\PurchaseBillFactory;
 use WBW\Library\Billing\Model\PurchaseBill;
 use WBW\Library\Billing\Tests\AbstractTestCase;
-use WBW\Library\Common\Billing\BillableDetailInterface;
-use WBW\Library\Common\Billing\PurchaseBillInterface;
+use WBW\Library\Common\Model\Billing\BillableDetailInterface;
+use WBW\Library\Common\Model\Billing\PurchaseBillInterface;
 
 /**
  * Purchase bill factory test.

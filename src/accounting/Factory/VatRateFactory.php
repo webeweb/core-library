@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Accounting\Factory;
 
-use WBW\Library\Common\Billing\VatRateInterface;
+use WBW\Library\Common\Model\Billing\VatRateInterface;
 
 /**
  * VAT rate factory.

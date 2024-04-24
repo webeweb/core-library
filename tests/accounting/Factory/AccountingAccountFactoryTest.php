@@ -15,7 +15,7 @@ namespace WBW\Library\Accounting\Tests\Factory;
 
 use WBW\Library\Accounting\Factory\AccountingAccountFactory;
 use WBW\Library\Accounting\Tests\AbstractTestCase;
-use WBW\Library\Common\Billing\AccountingAccount;
+use WBW\Library\Common\Model\Billing\AccountingAccount;
 
 /**
  * Accounting account factory test.

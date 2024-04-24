@@ -17,8 +17,8 @@ use DateTime;
 use WBW\Library\Billing\Factory\PurchaseOrderFactory;
 use WBW\Library\Billing\Model\PurchaseOrder;
 use WBW\Library\Billing\Tests\AbstractTestCase;
-use WBW\Library\Common\Billing\BillableDetailInterface;
-use WBW\Library\Common\Billing\PurchaseOrderInterface;
+use WBW\Library\Common\Model\Billing\BillableDetailInterface;
+use WBW\Library\Common\Model\Billing\PurchaseOrderInterface;
 
 /**
  * Purchase order factory test.

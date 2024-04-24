@@ -16,7 +16,7 @@ namespace WBW\Library\Billing\Tests\Model;
 use JsonSerializable;
 use WBW\Library\Billing\Tests\AbstractTestCase;
 use WBW\Library\Billing\Tests\Fixtures\Model\TestTaxable;
-use WBW\Library\Common\Billing\TaxableInterface;
+use WBW\Library\Common\Model\Billing\TaxableInterface;
 
 /**
  * Taxable test.

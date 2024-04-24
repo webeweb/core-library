@@ -13,11 +13,11 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Serializer\Billing;
 
-use WBW\Library\Common\Billing\AccountingAccountInterface;
-use WBW\Library\Common\Billing\BankDetailsInterface;
-use WBW\Library\Common\Billing\PaymentChoiceInterface;
-use WBW\Library\Common\Billing\PaymentTermInterface;
-use WBW\Library\Common\Billing\VatRateInterface;
+use WBW\Library\Common\Model\Billing\AccountingAccountInterface;
+use WBW\Library\Common\Model\Billing\BankDetailsInterface;
+use WBW\Library\Common\Model\Billing\PaymentChoiceInterface;
+use WBW\Library\Common\Model\Billing\PaymentTermInterface;
+use WBW\Library\Common\Model\Billing\VatRateInterface;
 use WBW\Library\Common\Serializer\SerializerKeys;
 use WBW\Library\Serializer\Helper\JsonSerializerHelper;
 

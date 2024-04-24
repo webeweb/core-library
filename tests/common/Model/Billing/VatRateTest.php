@@ -11,19 +11,19 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Common\Tests\Billing;
+namespace WBW\Library\Common\Tests\Model\Billing;
 
 use JsonSerializable;
-use WBW\Library\Common\Billing\AccountingAccountInterface;
-use WBW\Library\Common\Billing\VatRate;
-use WBW\Library\Common\Billing\VatRateInterface;
+use WBW\Library\Common\Model\Billing\AccountingAccountInterface;
+use WBW\Library\Common\Model\Billing\VatRate;
+use WBW\Library\Common\Model\Billing\VatRateInterface;
 use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * VAT rate test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Common\Tests\Billing
+ * @package WBW\Library\Common\Tests\Model\Billing
  */
 class VatRateTest extends AbstractTestCase {
 

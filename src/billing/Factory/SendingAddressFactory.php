@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Billing\Factory;
 
-use WBW\Library\Common\Billing\SendingAddressInterface;
+use WBW\Library\Common\Model\Billing\SendingAddressInterface;
 
 /**
  * Sending address factory.

@@ -15,7 +15,7 @@ namespace WBW\Library\Accounting\Tests\Factory;
 
 use WBW\Library\Accounting\Factory\PaymentTermFactory;
 use WBW\Library\Accounting\Tests\AbstractTestCase;
-use WBW\Library\Common\Billing\PaymentTerm;
+use WBW\Library\Common\Model\Billing\PaymentTerm;
 
 /**
  * Payment term factory test.
