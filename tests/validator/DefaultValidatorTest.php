@@ -14,10 +14,10 @@ declare(strict_types = 1);
 namespace WBW\Library\Validator\Tests;
 
 use WBW\Library\Common\Tests\Fixtures\Validator\TestAbstractRule;
+use WBW\Library\Common\Validator\DefaultRuleSet;
 use WBW\Library\Common\Validator\RuleSetInterface;
 use WBW\Library\Common\Validator\StatusInterface;
 use WBW\Library\Validator\DefaultValidator;
-use WBW\Library\Validator\RuleSet\DefaultRuleSet;
 
 /**
  * Default validator test.

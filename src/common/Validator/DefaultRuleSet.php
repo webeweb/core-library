@@ -11,15 +11,13 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Validator\RuleSet;
-
-use WBW\Library\Common\Validator\AbstractRuleSet;
+namespace WBW\Library\Common\Validator;
 
 /**
  * Default rule set.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Validator\RuleSet
+ * @package WBW\Library\Common\Validator
  */
 class DefaultRuleSet extends AbstractRuleSet {
 
