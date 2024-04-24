@@ -11,7 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Billing\Factory;
+namespace WBW\Library\Common\Factory\Billing;
 
 use WBW\Library\Common\Model\Billing\TaxableInterface;
 
@@ -19,7 +19,7 @@ use WBW\Library\Common\Model\Billing\TaxableInterface;
  * Taxable factory.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Billing\Factory
+ * @package WBW\Library\Common\Factory\Billing
  */
 class TaxableFactory {
 
@@ -28,7 +28,7 @@ class TaxableFactory {
      *
      * @param TaxableInterface $src The taxable source.
      * @param TaxableInterface $dst The taxable destination.
-     * @return TaxableInterface Returns the taxable destionation
+     * @return TaxableInterface Returns the taxable destination
      */
     public static function copy(TaxableInterface $src, TaxableInterface $dst): TaxableInterface {
 
