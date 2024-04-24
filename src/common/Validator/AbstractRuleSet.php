@@ -11,16 +11,13 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Validator\RuleSet;
-
-use WBW\Library\Common\Validator\RuleInterface;
-use WBW\Library\Common\Validator\RuleSetInterface;
+namespace WBW\Library\Common\Validator;
 
 /**
  * Abstract rule set.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Validator\RuleSet
+ * @package WBW\Library\Common\Validator
  * @abstract
  */
 abstract class AbstractRuleSet implements RuleSetInterface {
