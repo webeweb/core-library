@@ -25,7 +25,7 @@ use WBW\Library\Common\Exception\IntegerArgumentException;
 use WBW\Library\Common\Exception\NumberArgumentException;
 use WBW\Library\Common\Exception\ObjectArgumentException;
 use WBW\Library\Common\Exception\ResourceArgumentException;
-use WBW\Library\Types\Exception\StringArgumentException;
+use WBW\Library\Common\Exception\StringArgumentException;
 use WBW\Library\Types\Exception\TimestampArgumentException;
 use WBW\Library\Types\TypeHelper;
 use WBW\Library\Types\TypeInterface;

@@ -14,7 +14,7 @@ declare(strict_types = 1);
 namespace WBW\Library\Types\Helper;
 
 use Transliterator;
-use WBW\Library\Types\Exception\StringArgumentException;
+use WBW\Library\Common\Exception\StringArgumentException;
 
 /**
  * String helper.
