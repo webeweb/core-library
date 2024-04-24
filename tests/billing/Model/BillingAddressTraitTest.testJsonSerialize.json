@@ -1,8 +1,0 @@
-{
-    "billingAddressAddressee": "addressee",
-    "billingAddressHouseNumber": "houseNumber",
-    "billingAddressStreetName": "streetName",
-    "billingAddressPostalCode": "postalCode",
-    "billingAddressLocation": "location",
-    "billingAddressCountry": "country"
-}

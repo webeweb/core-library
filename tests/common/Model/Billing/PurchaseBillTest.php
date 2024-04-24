@@ -15,10 +15,10 @@ namespace WBW\Library\Common\Tests\Model\Billing;
 
 use JsonSerializable;
 use Throwable;
-use WBW\Library\Billing\Tests\AbstractTestCase;
 use WBW\Library\Common\Model\Billing\BillableInterface;
 use WBW\Library\Common\Model\Billing\PurchaseBill;
 use WBW\Library\Common\Model\Billing\PurchaseBillInterface;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * Purchase bill test.
