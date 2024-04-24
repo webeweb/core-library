@@ -11,18 +11,18 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Types\Tests\Factory;
+namespace WBW\Library\Common\Tests\Factory;
 
 use DateTime;
 use Throwable;
-use WBW\Library\Types\Factory\DateTimeFactory;
-use WBW\Library\Types\Tests\AbstractTestCase;
+use WBW\Library\Common\Factory\DateTimeFactory;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * Date/time factory test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Types\Tests\Factory
+ * @package WBW\Library\Common\Tests\Factory
  */
 class DateTimeFactoryTest extends AbstractTestCase {
 
