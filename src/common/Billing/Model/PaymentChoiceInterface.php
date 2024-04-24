@@ -14,7 +14,6 @@ declare(strict_types = 1);
 namespace WBW\Library\Common\Billing\Model;
 
 use JsonSerializable;
-use WBW\Library\Accounting\Model\PaymentChoice;
 
 /**
  * Payment choice interface.
@@ -35,7 +34,7 @@ interface PaymentChoiceInterface extends JsonSerializable {
      * Set the label.
      *
      * @param string|null $label The label.
-     * @return PaymentChoice Returns this payment choice.
+     * @return PaymentChoiceInterface Returns this payment choice.
      */
     public function setLabel(?string $label);
 }
