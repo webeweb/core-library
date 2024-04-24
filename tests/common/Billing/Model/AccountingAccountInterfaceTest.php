@@ -13,8 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Tests\Billing\Model;
 
-use WBW\Library\Accounting\Tests\AbstractTestCase;
 use WBW\Library\Common\Billing\Model\AccountingAccountInterface;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * Accounting account interface test.
