@@ -13,6 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Validator\Status;
 
+use WBW\Library\Common\Validator\AbstractStatus;
+
 /**
  * Default status.
  *
