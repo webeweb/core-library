@@ -11,15 +11,17 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Billing\Model;
+namespace WBW\Library\Common\Model\Billing;
 
 use DateTime;
+use WBW\Library\Billing\Model\BillableInterface;
+use WBW\Library\Billing\Model\Quotation;
 
 /**
  * Quotation interface.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Billing\Model
+ * @package WBW\Library\Common\Model\Billing
  */
 interface QuotationInterface extends BillableInterface {
 

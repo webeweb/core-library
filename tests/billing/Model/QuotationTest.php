@@ -19,10 +19,10 @@ use JsonSerializable;
 use Throwable;
 use WBW\Library\Billing\Model\BillableInterface;
 use WBW\Library\Billing\Model\Quotation;
-use WBW\Library\Billing\Model\QuotationInterface;
 use WBW\Library\Billing\Tests\AbstractTestCase;
 use WBW\Library\Billing\Tests\Fixtures\Model\TestBillable;
 use WBW\Library\Billing\Tests\Fixtures\Model\TestBillableDetail;
+use WBW\Library\Common\Model\Billing\QuotationInterface;
 
 /**
  * Quotation test.

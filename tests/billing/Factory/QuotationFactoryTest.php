@@ -17,8 +17,8 @@ use DateTime;
 use WBW\Library\Billing\Factory\QuotationFactory;
 use WBW\Library\Billing\Model\BillableDetailInterface;
 use WBW\Library\Billing\Model\Quotation;
-use WBW\Library\Billing\Model\QuotationInterface;
 use WBW\Library\Billing\Tests\AbstractTestCase;
+use WBW\Library\Common\Model\Billing\QuotationInterface;
 
 /**
  * Quotation factory test.
