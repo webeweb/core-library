@@ -11,43 +11,19 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Billing\Tests\Model;
+namespace WBW\Library\Common\Tests\Model\Billing;
 
-use WBW\Library\Billing\Tests\AbstractTestCase;
-use WBW\Library\Billing\Tests\Fixtures\Model\TestDeliveryAddressTrait;
+use WBW\Library\Common\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\Fixtures\Model\Billing\TestDeliveryAddressTrait;
 
 /**
  * Delivery address trait test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Billing\Tests\Model
+ * @package WBW\Library\Common\Tests\Model\Billing
  */
 class DeliveryAddressTraitTest extends AbstractTestCase {
 
-    /**
-     * Test jsonSerialize()
-     *
-     * @return void
-     */
-    public function testJsonSerialize(): void {
-
-        // Set the expected data.
-        $data = file_get_contents(__DIR__ . "/DeliveryAddressTraitTest.testJsonSerialize.json");
-        $json = json_decode($data, true);
-
-        $obj = new TestDeliveryAddressTrait();
-        $obj->setDeliveryAddressAddressee("addressee");
-        $obj->setDeliveryAddressHouseNumber("houseNumber");
-        $obj->setDeliveryAddressStreetName("streetName");
-        $obj->setDeliveryAddressPostalCode("postalCode");
-        $obj->setDeliveryAddressLocation("location");
-        $obj->setDeliveryAddressCountry("country");
-
-        $res = $obj->jsonSerialize();
-        $this->assertCount(6, $res);
-
-        $this->assertEquals($json, $res);
-    }
 
     /**
      * Test setDeliveryAddressAddressee()

@@ -15,7 +15,7 @@ namespace WBW\Library\Billing\Tests\Factory;
 
 use WBW\Library\Billing\Factory\DeliveryAddressFactory;
 use WBW\Library\Billing\Tests\AbstractTestCase;
-use WBW\Library\Billing\Tests\Fixtures\Model\TestDeliveryAddressTrait;
+use WBW\Library\Common\Tests\Fixtures\Model\Billing\TestDeliveryAddressTrait;
 
 /**
  * Delivery address factory test.
