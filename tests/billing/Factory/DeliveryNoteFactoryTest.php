@@ -15,9 +15,9 @@ namespace WBW\Library\Billing\Tests\Factory;
 
 use DateTime;
 use WBW\Library\Billing\Factory\DeliveryNoteFactory;
-use WBW\Library\Billing\Model\DeliveryNote;
 use WBW\Library\Billing\Tests\AbstractTestCase;
 use WBW\Library\Common\Model\Billing\BillableDetailInterface;
+use WBW\Library\Common\Model\Billing\DeliveryNote;
 use WBW\Library\Common\Model\Billing\DeliveryNoteInterface;
 
 /**
