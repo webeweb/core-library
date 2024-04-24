@@ -134,6 +134,55 @@ interface SerializerKeys {
     public const BIC = "bic";
 
     /**
+     * Serializer key "billable".
+     *
+     * @var string
+     */
+    public const BILLABLE = "billable";
+
+    /**
+     * Serializer key "billing address addressee".
+     *
+     * @var string
+     */
+    public const BILLING_ADDRESS_ADDRESSEE = "billingAddressAddressee";
+
+    /**
+     * Serializer key "billing address country".
+     *
+     * @var string
+     */
+    public const BILLING_ADDRESS_COUNTRY = "billingAddressCountry";
+
+    /**
+     * Serializer key "billing address house number".
+     *
+     * @var string
+     */
+    public const BILLING_ADDRESS_HOUSE_NUMBER = "billingAddressHouseNumber";
+
+    /**
+     * Serializer key "billing address location".
+     *
+     * @var string
+     */
+    public const BILLING_ADDRESS_LOCATION = "billingAddressLocation";
+
+    /**
+     * Serializer key "billing address postal code".
+     *
+     * @var string
+     */
+    public const BILLING_ADDRESS_POSTAL_CODE = "billingAddressPostalCode";
+
+    /**
+     * Serializer key "billing address street name".
+     *
+     * @var string
+     */
+    public const BILLING_ADDRESS_STREET_NAME = "billingAddressStreetName";
+
+    /**
      * Serializer key "birth date".
      *
      * @var string
@@ -260,11 +309,60 @@ interface SerializerKeys {
     public const DELETED = "deleted";
 
     /**
+     * Serializer key "delivery address addressee".
+     *
+     * @var string
+     */
+    public const DELIVERY_ADDRESS_ADDRESSEE = "deliveryAddressAddressee";
+
+    /**
+     * Serializer key "delivery address country".
+     *
+     * @var string
+     */
+    public const DELIVERY_ADDRESS_COUNTRY = "deliveryAddressCountry";
+
+    /**
+     * Serializer key "delivery address house number".
+     *
+     * @var string
+     */
+    public const DELIVERY_ADDRESS_HOUSE_NUMBER = "deliveryAddressHouseNumber";
+
+    /**
+     * Serializer key "delivery address location".
+     *
+     * @var string
+     */
+    public const DELIVERY_ADDRESS_LOCATION = "deliveryAddressLocation";
+
+    /**
+     * Serializer key "delivery address postal code".
+     *
+     * @var string
+     */
+    public const DELIVERY_ADDRESS_POSTAL_CODE = "deliveryAddressPostalCode";
+
+    /**
+     * Serializer key "delivery address street name".
+     *
+     * @var string
+     */
+    public const DELIVERY_ADDRESS_STREET_NAME = "deliveryAddressStreetName";
+
+    /**
      * Serializer key "description".
      *
      * @var string
      */
     public const DESCRIPTION = "description";
+
+    /**
+     * Serializer key "details".
+     *
+     * @var string
+     */
+    public const DETAILS = "details";
 
     /**
      * Serializer key "directory".
@@ -384,6 +482,13 @@ interface SerializerKeys {
      * @var string
      */
     public const EXCLUDING_VAT_TOTAL = "excludingVatTotal";
+
+    /**
+     * Serializer key "expiration date".
+     *
+     * @var string
+     */
+    public const EXPIRATION_DATE = "expirationDate";
 
     /**
      * Serializer key "extension".
@@ -1042,6 +1147,48 @@ interface SerializerKeys {
      * @var string
      */
     public const SCORE = "score";
+
+    /**
+     * Serializer key "sending address addressee".
+     *
+     * @var string
+     */
+    public const SENDING_ADDRESS_ADDRESSEE = "sendingAddressAddressee";
+
+    /**
+     * Serializer key "sending address country".
+     *
+     * @var string
+     */
+    public const SENDING_ADDRESS_COUNTRY = "sendingAddressCountry";
+
+    /**
+     * Serializer key "sending address house number".
+     *
+     * @var string
+     */
+    public const SENDING_ADDRESS_HOUSE_NUMBER = "sendingAddressHouseNumber";
+
+    /**
+     * Serializer key "sending address location".
+     *
+     * @var string
+     */
+    public const SENDING_ADDRESS_LOCATION = "sendingAddressLocation";
+
+    /**
+     * Serializer key "sending address postal code".
+     *
+     * @var string
+     */
+    public const SENDING_ADDRESS_POSTAL_CODE = "sendingAddressPostalCode";
+
+    /**
+     * Serializer key "sending address street name".
+     *
+     * @var string
+     */
+    public const SENDING_ADDRESS_STREET_NAME = "sendingAddressStreetName";
 
     /**
      * Serializer key "SIRET number".

@@ -48,6 +48,13 @@ class SerializerKeysTest extends AbstractTestCase {
         $this->assertEquals("beginsAt", SerializerKeys::BEGINS_AT);
         $this->assertEquals("beginsOn", SerializerKeys::BEGINS_ON);
         $this->assertEquals("bic", SerializerKeys::BIC);
+        $this->assertEquals("billable", SerializerKeys::BILLABLE);
+        $this->assertEquals("billingAddressAddressee", SerializerKeys::BILLING_ADDRESS_ADDRESSEE);
+        $this->assertEquals("billingAddressCountry", SerializerKeys::BILLING_ADDRESS_COUNTRY);
+        $this->assertEquals("billingAddressHouseNumber", SerializerKeys::BILLING_ADDRESS_HOUSE_NUMBER);
+        $this->assertEquals("billingAddressLocation", SerializerKeys::BILLING_ADDRESS_LOCATION);
+        $this->assertEquals("billingAddressPostalCode", SerializerKeys::BILLING_ADDRESS_POSTAL_CODE);
+        $this->assertEquals("billingAddressStreetName", SerializerKeys::BILLING_ADDRESS_STREET_NAME);
         $this->assertEquals("birthDate", SerializerKeys::BIRTH_DATE);
         $this->assertEquals("branchCode", SerializerKeys::BRANCH_CODE);
 
@@ -68,7 +75,14 @@ class SerializerKeysTest extends AbstractTestCase {
         $this->assertEquals("date", SerializerKeys::DATE);
         $this->assertEquals("debug", SerializerKeys::DEBUG);
         $this->assertEquals("deleted", SerializerKeys::DELETED);
+        $this->assertEquals("deliveryAddressAddressee", SerializerKeys::DELIVERY_ADDRESS_ADDRESSEE);
+        $this->assertEquals("deliveryAddressCountry", SerializerKeys::DELIVERY_ADDRESS_COUNTRY);
+        $this->assertEquals("deliveryAddressHouseNumber", SerializerKeys::DELIVERY_ADDRESS_HOUSE_NUMBER);
+        $this->assertEquals("deliveryAddressLocation", SerializerKeys::DELIVERY_ADDRESS_LOCATION);
+        $this->assertEquals("deliveryAddressPostalCode", SerializerKeys::DELIVERY_ADDRESS_POSTAL_CODE);
+        $this->assertEquals("deliveryAddressStreetName", SerializerKeys::DELIVERY_ADDRESS_STREET_NAME);
         $this->assertEquals("description", SerializerKeys::DESCRIPTION);
+        $this->assertEquals("details", SerializerKeys::DETAILS);
         $this->assertEquals("directory", SerializerKeys::DIRECTORY);
         $this->assertEquals("disabled", SerializerKeys::DISABLED);
         $this->assertEquals("discountAmount", SerializerKeys::DISCOUNT_AMOUNT);
@@ -87,6 +101,7 @@ class SerializerKeysTest extends AbstractTestCase {
         $this->assertEquals("error", SerializerKeys::ERROR);
         $this->assertEquals("excludingVatPrice", SerializerKeys::EXCLUDING_VAT_PRICE);
         $this->assertEquals("excludingVatTotal", SerializerKeys::EXCLUDING_VAT_TOTAL);
+        $this->assertEquals("expirationDate", SerializerKeys::EXPIRATION_DATE);
         $this->assertEquals("extension", SerializerKeys::EXTENSION);
 
         $this->assertEquals("filename", SerializerKeys::FILENAME);
@@ -194,6 +209,12 @@ class SerializerKeysTest extends AbstractTestCase {
         $this->assertEquals("salt", SerializerKeys::SALT);
         $this->assertEquals("schema", SerializerKeys::SCHEMA);
         $this->assertEquals("score", SerializerKeys::SCORE);
+        $this->assertEquals("sendingAddressAddressee", SerializerKeys::SENDING_ADDRESS_ADDRESSEE);
+        $this->assertEquals("sendingAddressCountry", SerializerKeys::SENDING_ADDRESS_COUNTRY);
+        $this->assertEquals("sendingAddressHouseNumber", SerializerKeys::SENDING_ADDRESS_HOUSE_NUMBER);
+        $this->assertEquals("sendingAddressLocation", SerializerKeys::SENDING_ADDRESS_LOCATION);
+        $this->assertEquals("sendingAddressPostalCode", SerializerKeys::SENDING_ADDRESS_POSTAL_CODE);
+        $this->assertEquals("sendingAddressStreetName", SerializerKeys::SENDING_ADDRESS_STREET_NAME);
         $this->assertEquals("siretNumber", SerializerKeys::SIRET_NUMBER);
         $this->assertEquals("size", SerializerKeys::SIZE);
         $this->assertEquals("source", SerializerKeys::SOURCE);
