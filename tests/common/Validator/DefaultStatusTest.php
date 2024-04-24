@@ -11,16 +11,16 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Validator\Tests\Status;
+namespace WBW\Library\Common\Tests\Validator;
 
-use WBW\Library\Validator\Status\DefaultStatus;
+use WBW\Library\Common\Validator\DefaultStatus;
 use WBW\Library\Validator\Tests\AbstractTestCase;
 
 /**
  * Default status test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Validator\Tests\Status
+ * @package WBW\Library\Common\Tests\Validator
  */
 class DefaultStatusTest extends AbstractTestCase {
 

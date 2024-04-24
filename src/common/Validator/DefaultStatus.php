@@ -11,15 +11,13 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Validator\Status;
-
-use WBW\Library\Common\Validator\AbstractStatus;
+namespace WBW\Library\Common\Validator;
 
 /**
  * Default status.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Validator\Status
+ * @package WBW\Library\Common\Validator
  */
 class DefaultStatus extends AbstractStatus {
 

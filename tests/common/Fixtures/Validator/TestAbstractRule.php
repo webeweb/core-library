@@ -14,8 +14,8 @@ declare(strict_types = 1);
 namespace WBW\Library\Common\Tests\Fixtures\Validator;
 
 use WBW\Library\Common\Validator\AbstractRule;
+use WBW\Library\Common\Validator\DefaultStatus;
 use WBW\Library\Common\Validator\StatusInterface;
-use WBW\Library\Validator\Status\DefaultStatus;
 
 /**
  * Test abstract rule.
