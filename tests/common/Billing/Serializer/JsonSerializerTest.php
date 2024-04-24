@@ -19,8 +19,7 @@ use WBW\Library\Common\Billing\Model\PaymentChoiceInterface;
 use WBW\Library\Common\Billing\Model\PaymentTermInterface;
 use WBW\Library\Common\Billing\Model\VatRateInterface;
 use WBW\Library\Common\Billing\Serializer\JsonSerializer;
-use WBW\Library\Common\Billing\Serializer\SerializerKeys;
-use WBW\Library\Common\Serializer\SerializerKeys as BaseSerializerKeys;
+use WBW\Library\Common\Serializer\SerializerKeys;
 use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
@@ -40,16 +39,16 @@ class JsonSerializerTest extends AbstractTestCase {
 
         // Set an Accounting account mock.
         $model = $this->getMockBuilder(AccountingAccountInterface::class)->getMock();
-        $model->expects($this->any())->method("getLabel")->willReturn(BaseSerializerKeys::LABEL);
-        $model->expects($this->any())->method("getNumber")->willReturn(BaseSerializerKeys::NUMBER);
-        $model->expects($this->any())->method("getType")->willReturn(BaseSerializerKeys::TYPE);
+        $model->expects($this->any())->method("getLabel")->willReturn(SerializerKeys::LABEL);
+        $model->expects($this->any())->method("getNumber")->willReturn(SerializerKeys::NUMBER);
+        $model->expects($this->any())->method("getType")->willReturn(SerializerKeys::TYPE);
 
         $res = JsonSerializer::serializeAccountingAccount($model);
         $this->assertCount(3, $res);
 
-        $this->assertEquals($model->getLabel(), $res[BaseSerializerKeys::LABEL]);
-        $this->assertEquals($model->getNumber(), $res[BaseSerializerKeys::NUMBER]);
-        $this->assertEquals($model->getType(), $res[BaseSerializerKeys::TYPE]);
+        $this->assertEquals($model->getLabel(), $res[SerializerKeys::LABEL]);
+        $this->assertEquals($model->getNumber(), $res[SerializerKeys::NUMBER]);
+        $this->assertEquals($model->getType(), $res[SerializerKeys::TYPE]);
     }
 
     /**
@@ -94,12 +93,12 @@ class JsonSerializerTest extends AbstractTestCase {
 
         // Set a Payment choice mock.
         $model = $this->getMockBuilder(PaymentChoiceInterface::class)->getMock();
-        $model->expects($this->any())->method("getLabel")->willReturn(BaseSerializerKeys::LABEL);
+        $model->expects($this->any())->method("getLabel")->willReturn(SerializerKeys::LABEL);
 
         $res = JsonSerializer::serializePaymentChoice($model);
         $this->assertCount(1, $res);
 
-        $this->assertEquals($model->getLabel(), $res[BaseSerializerKeys::LABEL]);
+        $this->assertEquals($model->getLabel(), $res[SerializerKeys::LABEL]);
     }
 
     /**
@@ -111,14 +110,14 @@ class JsonSerializerTest extends AbstractTestCase {
 
         // Set a Payment term mock.
         $model = $this->getMockBuilder(PaymentTermInterface::class)->getMock();
-        $model->expects($this->any())->method("getCode")->willReturn(BaseSerializerKeys::CODE);
-        $model->expects($this->any())->method("getLabel")->willReturn(BaseSerializerKeys::LABEL);
+        $model->expects($this->any())->method("getCode")->willReturn(SerializerKeys::CODE);
+        $model->expects($this->any())->method("getLabel")->willReturn(SerializerKeys::LABEL);
 
         $res = JsonSerializer::serializePaymentTerm($model);
         $this->assertCount(2, $res);
 
-        $this->assertEquals($model->getCode(), $res[BaseSerializerKeys::CODE]);
-        $this->assertEquals($model->getLabel(), $res[BaseSerializerKeys::LABEL]);
+        $this->assertEquals($model->getCode(), $res[SerializerKeys::CODE]);
+        $this->assertEquals($model->getLabel(), $res[SerializerKeys::LABEL]);
     }
 
     /**
@@ -134,7 +133,7 @@ class JsonSerializerTest extends AbstractTestCase {
 
         // Set a Payment term mock.
         $model = $this->getMockBuilder(VatRateInterface::class)->getMock();
-        $model->expects($this->any())->method("getLabel")->willReturn(BaseSerializerKeys::LABEL);
+        $model->expects($this->any())->method("getLabel")->willReturn(SerializerKeys::LABEL);
         $model->expects($this->any())->method("getPurchasesAccountingAccount")->willReturn($accountingAccount);
         $model->expects($this->any())->method("getRate")->willReturn(0.1);
         $model->expects($this->any())->method("getSalesAccountingAccount")->willReturn($accountingAccount);
@@ -142,9 +141,9 @@ class JsonSerializerTest extends AbstractTestCase {
         $res = JsonSerializer::serializeVatRate($model);
         $this->assertCount(4, $res);
 
-        $this->assertEquals($model->getLabel(), $res[BaseSerializerKeys::LABEL]);
+        $this->assertEquals($model->getLabel(), $res[SerializerKeys::LABEL]);
         $this->assertIsArray($res[SerializerKeys::PURCHASES_ACCOUNTING_ACCOUNT]);
-        $this->assertEquals($model->getRate(), $res[BaseSerializerKeys::RATE]);
+        $this->assertEquals($model->getRate(), $res[SerializerKeys::RATE]);
         $this->assertIsArray($res[SerializerKeys::SALES_ACCOUNTING_ACCOUNT]);
     }
 }

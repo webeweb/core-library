@@ -18,7 +18,7 @@ use WBW\Library\Common\Billing\Model\BankDetailsInterface;
 use WBW\Library\Common\Billing\Model\PaymentChoiceInterface;
 use WBW\Library\Common\Billing\Model\PaymentTermInterface;
 use WBW\Library\Common\Billing\Model\VatRateInterface;
-use WBW\Library\Common\Serializer\SerializerKeys as BaseSerializerKeys;
+use WBW\Library\Common\Serializer\SerializerKeys;
 use WBW\Library\Serializer\Helper\JsonSerializerHelper;
 
 /**
@@ -38,9 +38,9 @@ class JsonSerializer {
     public static function serializeAccountingAccount(AccountingAccountInterface $model): array {
 
         return [
-            BaseSerializerKeys::LABEL  => $model->getLabel(),
-            BaseSerializerKeys::NUMBER => $model->getNumber(),
-            BaseSerializerKeys::TYPE   => $model->getType(),
+            SerializerKeys::LABEL  => $model->getLabel(),
+            SerializerKeys::NUMBER => $model->getNumber(),
+            SerializerKeys::TYPE   => $model->getType(),
         ];
     }
 
@@ -74,7 +74,7 @@ class JsonSerializer {
     public static function serializePaymentChoice(PaymentChoiceInterface $model): array {
 
         return [
-            BaseSerializerKeys::LABEL => $model->getLabel(),
+            SerializerKeys::LABEL => $model->getLabel(),
         ];
     }
 
@@ -87,8 +87,8 @@ class JsonSerializer {
     public static function serializePaymentTerm(PaymentTermInterface $model): array {
 
         return [
-            BaseSerializerKeys::CODE  => $model->getCode(),
-            BaseSerializerKeys::LABEL => $model->getLabel(),
+            SerializerKeys::CODE  => $model->getCode(),
+            SerializerKeys::LABEL => $model->getLabel(),
         ];
     }
 
@@ -101,9 +101,9 @@ class JsonSerializer {
     public static function serializeVatRate(VatRateInterface $model): array {
 
         return [
-            BaseSerializerKeys::LABEL                    => $model->getLabel(),
+            SerializerKeys::LABEL                    => $model->getLabel(),
             SerializerKeys::PURCHASES_ACCOUNTING_ACCOUNT => JsonSerializerHelper::jsonSerializeModel($model->getPurchasesAccountingAccount()),
-            BaseSerializerKeys::RATE                     => $model->getRate(),
+            SerializerKeys::RATE                     => $model->getRate(),
             SerializerKeys::SALES_ACCOUNTING_ACCOUNT     => JsonSerializerHelper::jsonSerializeModel($model->getSalesAccountingAccount()),
         ];
     }

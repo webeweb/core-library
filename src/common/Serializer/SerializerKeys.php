@@ -43,6 +43,13 @@ interface SerializerKeys {
     public const ACCOUNTING_CODE = "accountingCode";
 
     /**
+     * Serializer key "account number".
+     *
+     * @var string
+     */
+    public const ACCOUNT_NUMBER = "accountNumber";
+
+    /**
      * Serializer key "active".
      *
      * @var string
@@ -85,6 +92,27 @@ interface SerializerKeys {
     public const AVERAGE = "average";
 
     /**
+     * Serializer key "bank code".
+     *
+     * @var string
+     */
+    public const BANK_CODE = "bankCode";
+
+    /**
+     * Serializer key "bank domiciliation".
+     *
+     * @var string
+     */
+    public const BANK_DOMICILIATION = "bankDomiciliation";
+
+    /**
+     * Serializer key "bank name".
+     *
+     * @var string
+     */
+    public const BANK_NAME = "bankName";
+
+    /**
      * Serializer key "begins at".
      *
      * @var string
@@ -99,11 +127,25 @@ interface SerializerKeys {
     public const BEGINS_ON = "beginsOn";
 
     /**
+     * Serializer key "BIC".
+     *
+     * @var string
+     */
+    public const BIC = "bic";
+
+    /**
      * Serializer key "birth date".
      *
      * @var string
      */
     public const BIRTH_DATE = "birthDate";
+
+    /**
+     * Serializer key "branch code".
+     *
+     * @var string
+     */
+    public const BRANCH_CODE = "branchCode";
 
     /**
      * Serializer key "category".
@@ -449,6 +491,13 @@ interface SerializerKeys {
     public const HOUSE_NUMBER = "houseNumber";
 
     /**
+     * Serializer key "IBAN".
+     *
+     * @var string
+     */
+    public const IBAN = "iban";
+
+    /**
      * Serializer key "icon".
      *
      * @var string
@@ -764,6 +813,13 @@ interface SerializerKeys {
     public const ORIGIN_URL = "originUrl";
 
     /**
+     * Serializer key "owner".
+     *
+     * @var string
+     */
+    public const OWNER = "owner";
+
+    /**
      * Serializer key "page".
      *
      * @var string
@@ -839,6 +895,13 @@ interface SerializerKeys {
      * @var string
      */
     public const POSTAL_CODE = "postalCode";
+
+    /**
+     * Serializer key "purchases accounting account".
+     *
+     * @var string
+     */
+    public const PURCHASES_ACCOUNTING_ACCOUNT = "purchasesAccountingAccount";
 
     /**
      * Serializer key "q".
@@ -925,6 +988,13 @@ interface SerializerKeys {
     public const RESET = "reset";
 
     /**
+     * Serializer key "RIB key".
+     *
+     * @var string
+     */
+    public const RIB_KEY = "ribKey";
+
+    /**
      * Serializer key "role".
      *
      * @var string
@@ -944,6 +1014,13 @@ interface SerializerKeys {
      * @var string
      */
     public const ROUTE = "route";
+
+    /**
+     * Serializer key "sales accounting account".
+     *
+     * @var string
+     */
+    public const SALES_ACCOUNTING_ACCOUNT = "salesAccountingAccount";
 
     /**
      * Serializer key "salt".
