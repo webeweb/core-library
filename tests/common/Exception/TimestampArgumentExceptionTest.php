@@ -11,16 +11,17 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Types\Tests\Exception;
+namespace WBW\Library\Common\Tests\Exception;
 
-use WBW\Library\Types\Exception\TimestampArgumentException;
+use InvalidArgumentException;
+use WBW\Library\Common\Exception\TimestampArgumentException;
 use WBW\Library\Types\Tests\AbstractTestCase;
 
 /**
  * Timestamp argument exception test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Types\Tests\Exception
+ * @package WBW\Library\Common\Tests\Exception
  */
 class TimestampArgumentExceptionTest extends AbstractTestCase {
 
@@ -31,8 +32,10 @@ class TimestampArgumentExceptionTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $ex = new TimestampArgumentException("exception");
+        $obj = new TimestampArgumentException("exception");
 
-        $this->assertEquals('The argument "exception" is not a timestamp', $ex->getMessage());
+        $this->assertInstanceOf(InvalidArgumentException::class, $obj);
+
+        $this->assertEquals('The argument "exception" is not a timestamp', $obj->getMessage());
     }
 }

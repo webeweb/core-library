@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Types\Helper;
 
-use WBW\Library\Types\Exception\TimestampArgumentException;
+use WBW\Library\Common\Exception\TimestampArgumentException;
 
 /**
  * Timestamp helper.

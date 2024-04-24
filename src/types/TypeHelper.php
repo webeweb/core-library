@@ -16,7 +16,7 @@ namespace WBW\Library\Types;
 use DateTime;
 use InvalidArgumentException;
 use WBW\Library\Common\Exception\DateArgumentException;
-use WBW\Library\Types\Exception\TimestampArgumentException;
+use WBW\Library\Common\Exception\TimestampArgumentException;
 use WBW\Library\Types\Helper\ArrayHelper;
 use WBW\Library\Types\Helper\BooleanHelper;
 use WBW\Library\Types\Helper\DateTimeHelper;
