@@ -13,8 +13,9 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Tests\Provider;
 
+use WBW\Library\Common\Provider\ResponseInterface;
+use WBW\Library\common\Tests\AbstractTestCase;
 use WBW\Library\Common\Tests\Fixtures\Provider\TestAbstractResponse;
-use WBW\Library\Provider\Tests\AbstractTestCase;
 
 /**
  * Abstract response test.
@@ -32,6 +33,8 @@ class AbstractResponseTest extends AbstractTestCase {
     public function test__construct(): void {
 
         $obj = new TestAbstractResponse();
+
+        $this->assertInstanceOf(ResponseInterface::class, $obj);
 
         $this->assertNull($obj->getRawResponse());
     }

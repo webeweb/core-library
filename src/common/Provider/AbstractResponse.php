@@ -22,7 +22,7 @@ use WBW\Library\Common\Traits\Strings\StringRawResponseTrait;
  * @package WBW\Library\Common\Provider
  * @abstract
  */
-abstract class AbstractResponse {
+abstract class AbstractResponse implements ResponseInterface {
 
     use StringRawResponseTrait;
 }
