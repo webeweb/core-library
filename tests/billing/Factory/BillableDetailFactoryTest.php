@@ -16,7 +16,7 @@ namespace WBW\Library\Billing\Tests\Factory;
 use WBW\Library\Billing\Factory\BillableDetailFactory;
 use WBW\Library\Billing\Tests\AbstractTestCase;
 use WBW\Library\Billing\Tests\Fixtures\Model\TestBillable;
-use WBW\Library\Billing\Tests\Fixtures\Model\TestBillableDetail;
+use WBW\Library\Common\Tests\Fixtures\Model\Billing\TestBillableDetail;
 
 /**
  * Billable detail factory test.

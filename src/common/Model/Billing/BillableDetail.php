@@ -11,13 +11,10 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Billing\Model;
+namespace WBW\Library\Common\Model\Billing;
 
 use WBW\Library\Billing\Helper\BillableDetailHelper;
-use WBW\Library\Billing\Serializer\JsonSerializer;
-use WBW\Library\Common\Model\Billing\BillableDetailInterface;
-use WBW\Library\Common\Model\Billing\BillableInterface;
-use WBW\Library\Common\Model\Billing\Taxable;
+use WBW\Library\Common\Serializer\Billing\JsonSerializer;
 use WBW\Library\Common\Traits\Floats\FloatDiscountTotalTrait;
 use WBW\Library\Common\Traits\Floats\FloatExcludingVatTotalTrait;
 use WBW\Library\Common\Traits\Floats\FloatIncludingVatTotalTrait;
@@ -31,7 +28,7 @@ use WBW\Library\Common\Traits\Strings\StringReferenceTrait;
  * Billable detail.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Billing\Model
+ * @package WBW\Library\Common\Model\Billing
  * @abstract
  */
 abstract class BillableDetail extends Taxable implements BillableDetailInterface {

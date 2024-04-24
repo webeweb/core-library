@@ -16,7 +16,7 @@ namespace WBW\Library\Billing\Tests\Helper;
 use WBW\Library\Billing\Helper\BillableDetailHelper;
 use WBW\Library\Billing\Tests\AbstractTestCase;
 use WBW\Library\Billing\Tests\Fixtures\Helper\TestBillableDetailHelper;
-use WBW\Library\Billing\Tests\Fixtures\Model\TestBillableDetail;
+use WBW\Library\Common\Tests\Fixtures\Model\Billing\TestBillableDetail;
 
 /**
  * Billable detail helper test.
