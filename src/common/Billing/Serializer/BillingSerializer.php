@@ -22,12 +22,12 @@ use WBW\Library\Common\Serializer\SerializerKeys;
 use WBW\Library\Serializer\Helper\JsonSerializerHelper;
 
 /**
- * JSON serializer.
+ *  Billing JSON serializer.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Common\Billing\Serializer
  */
-class JsonSerializer {
+class BillingSerializer {
 
     /**
      * Serialize an accounting account.

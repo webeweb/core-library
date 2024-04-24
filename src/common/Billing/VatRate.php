@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Billing;
 
-use WBW\Library\Common\Billing\Serializer\JsonSerializer;
+use WBW\Library\Common\Billing\Serializer\BillingSerializer;
 use WBW\Library\Common\Traits\Floats\FloatRateTrait;
 use WBW\Library\Common\Traits\Strings\StringLabelTrait;
 
@@ -68,7 +68,7 @@ class VatRate implements VatRateInterface {
      * @return array<string,mixed> Returns this serialized instance.
      */
     public function jsonSerialize(): array {
-        return JsonSerializer::serializeVatRate($this);
+        return BillingSerializer::serializeVatRate($this);
     }
 
     /**

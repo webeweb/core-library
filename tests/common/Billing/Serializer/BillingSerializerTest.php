@@ -17,18 +17,18 @@ use WBW\Library\Common\Billing\AccountingAccountInterface;
 use WBW\Library\Common\Billing\BankDetailsInterface;
 use WBW\Library\Common\Billing\PaymentChoiceInterface;
 use WBW\Library\Common\Billing\PaymentTermInterface;
-use WBW\Library\Common\Billing\Serializer\JsonSerializer;
+use WBW\Library\Common\Billing\Serializer\BillingSerializer;
 use WBW\Library\Common\Billing\VatRateInterface;
 use WBW\Library\Common\Serializer\SerializerKeys;
 use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
- * JSON serializer test.
+ * Billing JSON serializer test.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Common\Tests\Billing\Serializer
  */
-class JsonSerializerTest extends AbstractTestCase {
+class BillingSerializerTest extends AbstractTestCase {
 
     /**
      * Test serializeAccountingAccount()
@@ -43,7 +43,7 @@ class JsonSerializerTest extends AbstractTestCase {
         $model->expects($this->any())->method("getNumber")->willReturn(SerializerKeys::NUMBER);
         $model->expects($this->any())->method("getType")->willReturn(SerializerKeys::TYPE);
 
-        $res = JsonSerializer::serializeAccountingAccount($model);
+        $res = BillingSerializer::serializeAccountingAccount($model);
         $this->assertCount(3, $res);
 
         $this->assertEquals($model->getLabel(), $res[SerializerKeys::LABEL]);
@@ -70,7 +70,7 @@ class JsonSerializerTest extends AbstractTestCase {
         $model->expects($this->any())->method("getOwner")->willReturn(SerializerKeys::OWNER);
         $model->expects($this->any())->method("getRibKey")->willReturn(SerializerKeys::RIB_KEY);
 
-        $res = JsonSerializer::serializeBankDetails($model);
+        $res = BillingSerializer::serializeBankDetails($model);
         $this->assertCount(9, $res);
 
         $this->assertEquals($model->getAccountNumber(), $res[SerializerKeys::ACCOUNT_NUMBER]);
@@ -95,7 +95,7 @@ class JsonSerializerTest extends AbstractTestCase {
         $model = $this->getMockBuilder(PaymentChoiceInterface::class)->getMock();
         $model->expects($this->any())->method("getLabel")->willReturn(SerializerKeys::LABEL);
 
-        $res = JsonSerializer::serializePaymentChoice($model);
+        $res = BillingSerializer::serializePaymentChoice($model);
         $this->assertCount(1, $res);
 
         $this->assertEquals($model->getLabel(), $res[SerializerKeys::LABEL]);
@@ -113,7 +113,7 @@ class JsonSerializerTest extends AbstractTestCase {
         $model->expects($this->any())->method("getCode")->willReturn(SerializerKeys::CODE);
         $model->expects($this->any())->method("getLabel")->willReturn(SerializerKeys::LABEL);
 
-        $res = JsonSerializer::serializePaymentTerm($model);
+        $res = BillingSerializer::serializePaymentTerm($model);
         $this->assertCount(2, $res);
 
         $this->assertEquals($model->getCode(), $res[SerializerKeys::CODE]);
@@ -129,7 +129,7 @@ class JsonSerializerTest extends AbstractTestCase {
 
         // Set an Accounting account mock.
         $accountingAccount = $this->getMockBuilder(AccountingAccountInterface::class)->getMock();
-        $accountingAccount->expects($this->any())->method("jsonSerialize")->willReturn(JsonSerializer::serializeAccountingAccount($accountingAccount));
+        $accountingAccount->expects($this->any())->method("jsonSerialize")->willReturn(BillingSerializer::serializeAccountingAccount($accountingAccount));
 
         // Set a Payment term mock.
         $model = $this->getMockBuilder(VatRateInterface::class)->getMock();
@@ -138,7 +138,7 @@ class JsonSerializerTest extends AbstractTestCase {
         $model->expects($this->any())->method("getRate")->willReturn(0.1);
         $model->expects($this->any())->method("getSalesAccountingAccount")->willReturn($accountingAccount);
 
-        $res = JsonSerializer::serializeVatRate($model);
+        $res = BillingSerializer::serializeVatRate($model);
         $this->assertCount(4, $res);
 
         $this->assertEquals($model->getLabel(), $res[SerializerKeys::LABEL]);
