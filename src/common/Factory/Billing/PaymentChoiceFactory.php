@@ -11,7 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Accounting\Factory;
+namespace WBW\Library\Common\Factory\Billing;
 
 use WBW\Library\Common\Model\Billing\PaymentChoiceInterface;
 
@@ -19,7 +19,7 @@ use WBW\Library\Common\Model\Billing\PaymentChoiceInterface;
  * Payment choice factory.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Accounting\Factory
+ * @package WBW\Library\Common\Factory\Billing
  */
 class PaymentChoiceFactory {
 

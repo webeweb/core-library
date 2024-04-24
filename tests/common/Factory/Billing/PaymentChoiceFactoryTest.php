@@ -11,17 +11,17 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Accounting\Tests\Factory;
+namespace WBW\Library\Common\Tests\Factory\Billing;
 
-use WBW\Library\Accounting\Factory\PaymentChoiceFactory;
-use WBW\Library\Accounting\Tests\AbstractTestCase;
+use WBW\Library\Common\Factory\Billing\PaymentChoiceFactory;
 use WBW\Library\Common\Model\Billing\PaymentChoice;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * Payment choice factory test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Accounting\Tests\Factory
+ * @package WBW\Library\Common\Tests\Factory\Billing
  */
 class PaymentChoiceFactoryTest extends AbstractTestCase {
 
