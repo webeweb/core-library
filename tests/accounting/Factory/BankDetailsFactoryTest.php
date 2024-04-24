@@ -14,8 +14,8 @@ declare(strict_types = 1);
 namespace WBW\Library\Accounting\Tests\Factory;
 
 use WBW\Library\Accounting\Factory\BankDetailsFactory;
-use WBW\Library\Accounting\Model\BankDetails;
 use WBW\Library\Accounting\Tests\AbstractTestCase;
+use WBW\Library\Common\Billing\Model\BankDetails;
 
 /**
  * Bank details factory test.
