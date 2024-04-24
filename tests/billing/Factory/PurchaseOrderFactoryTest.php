@@ -15,9 +15,9 @@ namespace WBW\Library\Billing\Tests\Factory;
 
 use DateTime;
 use WBW\Library\Billing\Factory\PurchaseOrderFactory;
-use WBW\Library\Billing\Model\PurchaseOrder;
 use WBW\Library\Billing\Tests\AbstractTestCase;
 use WBW\Library\Common\Model\Billing\BillableDetailInterface;
+use WBW\Library\Common\Model\Billing\PurchaseOrder;
 use WBW\Library\Common\Model\Billing\PurchaseOrderInterface;
 
 /**
