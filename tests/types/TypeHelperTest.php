@@ -17,7 +17,7 @@ use DateTime;
 use InvalidArgumentException;
 use Throwable;
 use WBW\Library\Common\Exception\ArrayArgumentException;
-use WBW\Library\Types\Exception\BooleanArgumentException;
+use WBW\Library\Common\Exception\BooleanArgumentException;
 use WBW\Library\Types\Exception\DateArgumentException;
 use WBW\Library\Types\Exception\DoubleArgumentException;
 use WBW\Library\Types\Exception\FloatArgumentException;

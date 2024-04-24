@@ -11,16 +11,17 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Types\Tests\Exception;
+namespace WBW\Library\Common\Tests\Exception;
 
-use WBW\Library\Types\Exception\BooleanArgumentException;
+use InvalidArgumentException;
+use WBW\Library\Common\Exception\BooleanArgumentException;
 use WBW\Library\Types\Tests\AbstractTestCase;
 
 /**
  * Boolean argument exception test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Types\Tests\Exception
+ * @package WBW\Library\Common\Tests\Exception
  */
 class BooleanArgumentExceptionTest extends AbstractTestCase {
 
@@ -31,8 +32,10 @@ class BooleanArgumentExceptionTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $ex = new BooleanArgumentException("exception");
+        $obj = new BooleanArgumentException("exception");
 
-        $this->assertEquals('The argument "exception" is not a boolean', $ex->getMessage());
+        $this->assertInstanceOf(InvalidArgumentException::class, $obj);
+
+        $this->assertEquals('The argument "exception" is not a boolean', $obj->getMessage());
     }
 }

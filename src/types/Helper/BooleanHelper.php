@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Types\Helper;
 
-use WBW\Library\Types\Exception\BooleanArgumentException;
+use WBW\Library\Common\Exception\BooleanArgumentException;
 
 /**
  * Boolean helper.
