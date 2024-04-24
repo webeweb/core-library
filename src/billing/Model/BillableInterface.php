@@ -15,6 +15,7 @@ namespace WBW\Library\Billing\Model;
 
 use DateTime;
 use JsonSerializable;
+use WBW\Library\Common\Model\Billing\BillableDetailInterface;
 
 /**
  * Billable interface.

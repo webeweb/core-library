@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Billing\Helper;
 
-use WBW\Library\Billing\Model\BillableDetailInterface;
+use WBW\Library\Common\Model\Billing\BillableDetailInterface;
 
 /**
  * Billable detail helper.

@@ -11,15 +11,15 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Billing\Model;
+namespace WBW\Library\Common\Model\Billing;
 
-use WBW\Library\Common\Model\Billing\TaxableInterface;
+use WBW\Library\Billing\Model\BillableInterface;
 
 /**
  * Billable detail interface.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Billing\Model
+ * @package WBW\Library\Common\Model\Billing
  */
 interface BillableDetailInterface extends TaxableInterface {
 

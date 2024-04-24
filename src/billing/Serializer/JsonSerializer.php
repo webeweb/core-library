@@ -13,8 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Billing\Serializer;
 
-use WBW\Library\Billing\Model\BillableDetailInterface;
 use WBW\Library\Billing\Model\BillableInterface;
+use WBW\Library\Common\Model\Billing\BillableDetailInterface;
 use WBW\Library\Common\Model\Billing\BillingAddressInterface;
 use WBW\Library\Common\Model\Billing\DeliveryAddressInterface;
 use WBW\Library\Common\Model\Billing\DeliveryNoteInterface;

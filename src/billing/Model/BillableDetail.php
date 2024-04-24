@@ -15,6 +15,7 @@ namespace WBW\Library\Billing\Model;
 
 use WBW\Library\Billing\Helper\BillableDetailHelper;
 use WBW\Library\Billing\Serializer\JsonSerializer;
+use WBW\Library\Common\Model\Billing\BillableDetailInterface;
 use WBW\Library\Common\Traits\Floats\FloatDiscountTotalTrait;
 use WBW\Library\Common\Traits\Floats\FloatExcludingVatTotalTrait;
 use WBW\Library\Common\Traits\Floats\FloatIncludingVatTotalTrait;
