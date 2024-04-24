@@ -11,15 +11,15 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Maths\Helper;
+namespace WBW\Library\Common\Math;
 
 /**
- * Fibonacci helper.
+ * Fibonacci.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Maths\Helper
+ * @package WBW\Library\Common\Math
  */
-class FibonacciHelper {
+class Fibonacci {
 
     /**
      * Fibonacci.
