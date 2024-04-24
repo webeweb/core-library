@@ -11,16 +11,16 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Billing\Tests\Fixtures\Helper;
+namespace WBW\Library\Common\Tests\Fixtures\Helper\Billing;
 
-use WBW\Library\Billing\Helper\BillableHelper;
+use WBW\Library\Common\Helper\Billing\BillableHelper;
 use WBW\Library\Common\Model\Billing\BillableInterface;
 
 /**
  * Test billable helper.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Billing\Tests\Fixtures\Helper
+ * @package WBW\Library\Common\Tests\Fixtures\Helper\Billing
  */
 class TestBillableHelper extends BillableHelper {
 

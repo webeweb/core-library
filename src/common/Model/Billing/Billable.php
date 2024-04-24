@@ -15,7 +15,7 @@ namespace WBW\Library\Common\Model\Billing;
 
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
-use WBW\Library\Billing\Helper\BillableHelper;
+use WBW\Library\Common\Helper\Billing\BillableHelper;
 use WBW\Library\Common\Serializer\Billing\JsonSerializer;
 use WBW\Library\Common\Traits\DateTimes\DateTimeCreatedAtTrait;
 use WBW\Library\Common\Traits\DateTimes\DateTimeDateTrait;

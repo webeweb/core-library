@@ -11,7 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Billing\Helper;
+namespace WBW\Library\Common\Helper\Billing;
 
 use WBW\Library\Common\Model\Billing\BillableInterface;
 
@@ -19,7 +19,7 @@ use WBW\Library\Common\Model\Billing\BillableInterface;
  * Billable helper.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Billing\Helper
+ * @package WBW\Library\Common\Helper\Billing
  */
 class BillableHelper {
 
