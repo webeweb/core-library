@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Billing\Helper;
 
-use WBW\Library\Billing\Model\TaxableInterface;
+use WBW\Library\Common\Model\Billing\TaxableInterface;
 
 /**
  * Taxable helper.

@@ -16,9 +16,9 @@ namespace WBW\Library\Billing\Tests\Model;
 use JsonSerializable;
 use WBW\Library\Billing\Model\BillableDetailInterface;
 use WBW\Library\Billing\Model\BillableInterface;
-use WBW\Library\Billing\Model\TaxableInterface;
 use WBW\Library\Billing\Tests\AbstractTestCase;
 use WBW\Library\Billing\Tests\Fixtures\Model\TestBillableDetail;
+use WBW\Library\Common\Model\Billing\TaxableInterface;
 
 /**
  * Billable detail test.

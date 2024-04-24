@@ -15,6 +15,7 @@ namespace WBW\Library\Billing\Model;
 
 use WBW\Library\Billing\Helper\TaxableHelper;
 use WBW\Library\Billing\Serializer\JsonSerializer;
+use WBW\Library\Common\Model\Billing\TaxableInterface;
 use WBW\Library\Common\Traits\Floats\FloatDiscountAmountTrait;
 use WBW\Library\Common\Traits\Floats\FloatDiscountRateTrait;
 use WBW\Library\Common\Traits\Floats\FloatExcludingVatPriceTrait;
