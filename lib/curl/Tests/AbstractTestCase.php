@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Curl\Tests;
 
-use PHPUnit\Framework\TestCase as BaseTestCase;
+use WBW\Library\Common\Tests\AbstractTestCase as BaseTestCase;
 use WBW\Library\Curl\Configuration\Configuration;
 
 /**
