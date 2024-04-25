@@ -20,8 +20,8 @@ use WBW\Library\Common\Model\System\HardDiskInterface;
 use WBW\Library\Common\Model\System\MemoryInterface;
 use WBW\Library\Common\Model\System\NetworkCardInterface;
 use WBW\Library\Common\Model\System\NetworkInterface;
+use WBW\Library\Common\Model\System\OperatingSystemInterface;
 use WBW\Library\System\Helper\SystemHelper;
-use WBW\Library\System\Model\OperatingSystemInterface;
 use WBW\Library\System\Model\ProcessorInterface;
 
 /**
