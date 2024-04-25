@@ -11,18 +11,18 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Serializer\Helper;
+namespace WBW\Library\Common\Serializer;
 
 use Psr\Log\LoggerInterface;
 
 /**
- * Serializer helper.
+ * Abstract serializer.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Serializer\Helper
+ * @package WBW\Library\Common\Helper
  * @abstract
  */
-abstract class SerializerHelper {
+abstract class AbstractSerializer {
 
     /**
      * Logger.
