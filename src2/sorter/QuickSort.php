@@ -13,6 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Sorter;
 
+use WBW\Library\Common\Sorter\FunctorInterface;
+
 /**
  * Quick sort.
  *

@@ -11,13 +11,13 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Sorter;
+namespace WBW\Library\Common\Sorter;
 
 /**
  * Functor interface.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Sorter
+ * @package WBW\Library\Common\Sorter
  */
 interface FunctorInterface {
 

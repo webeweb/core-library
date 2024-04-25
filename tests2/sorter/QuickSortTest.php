@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Sorter\Tests;
 
-use WBW\Library\Sorter\FunctorInterface;
+use WBW\Library\Common\Sorter\FunctorInterface;
 use WBW\Library\Sorter\QuickSort;
 use WBW\Library\Sorter\Tests\Fixtures\TestIntegerFunctor;
 

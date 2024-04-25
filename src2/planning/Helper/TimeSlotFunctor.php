@@ -14,7 +14,7 @@ declare(strict_types = 1);
 namespace WBW\Library\Planning\Helper;
 
 use WBW\Library\Common\Helper\DateTimeHelper;
-use WBW\Library\Sorter\FunctorInterface;
+use WBW\Library\Common\Sorter\FunctorInterface;
 
 /**
  * Time slot functor.
