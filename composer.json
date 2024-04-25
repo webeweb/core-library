@@ -82,8 +82,7 @@
             "WBW\\Library\\Serializer\\": "src2/serializer/",
             "WBW\\Library\\Sorter\\": "src2/sorter/",
             "WBW\\Library\\Symfony\\": "src2/symfony/",
-            "WBW\\Library\\System\\": "src2/system/",
-            "WBW\\Library\\Types\\": "src2/types/"
+            "WBW\\Library\\System\\": "src2/system/"
         },
         "exclude-from-classmap": [
             "/lib/adoria/Tests/",
@@ -111,8 +110,7 @@
             "WBW\\Library\\Serializer\\Tests\\": "tests2/serializer/",
             "WBW\\Library\\Sorter\\Tests\\": "tests2/sorter/",
             "WBW\\Library\\Symfony\\Tests\\": "tests2/symfony/",
-            "WBW\\Library\\System\\Tests\\": "tests2/system/",
-            "WBW\\Library\\Types\\Tests\\": "tests2/types/"
+            "WBW\\Library\\System\\Tests\\": "tests2/system/"
         }
     },
     "config": {
