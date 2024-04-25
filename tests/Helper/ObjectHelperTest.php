@@ -11,18 +11,18 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Types\Tests\Helper;
+namespace WBW\Library\Common\Tests\Helper;
 
 use DateTime;
-use WBW\Library\Types\Helper\ObjectHelper;
-use WBW\Library\Types\Tests\AbstractTestCase;
-use WBW\Library\Types\Tests\Fixtures\TestObject;
+use WBW\Library\Common\Helper\ObjectHelper;
+use WBW\Library\Common\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\Fixtures\Helper\TestObject;
 
 /**
  * Object helper test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Types\Tests\Helper
+ * @package WBW\Library\Common\Tests\Helper
  */
 class ObjectHelperTest extends AbstractTestCase {
 
@@ -68,7 +68,7 @@ class ObjectHelperTest extends AbstractTestCase {
      */
     public function testCompare(): void {
 
-        // Set a Date/time mock.
+        // Set a date/time mock.
         $arg = new DateTime();
 
         $this->assertNull(ObjectHelper::compare(null, null));

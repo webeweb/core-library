@@ -15,7 +15,6 @@ namespace WBW\Library\Common\Helper;
 
 use Transliterator;
 use WBW\Library\Common\Exception\StringArgumentException;
-use WBW\Library\Types\Helper\ObjectHelper;
 
 /**
  * String helper.

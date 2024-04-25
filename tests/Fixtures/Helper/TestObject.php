@@ -11,13 +11,13 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Types\Tests\Fixtures;
+namespace WBW\Library\Common\Tests\Fixtures\Helper;
 
 /**
  * Test object.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Types\Tests\Fixtures
+ * @package WBW\Library\Common\Tests\Fixtures\Helper
  */
 class TestObject {
 
