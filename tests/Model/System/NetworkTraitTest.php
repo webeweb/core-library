@@ -11,17 +11,17 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\System\Tests\Model;
+namespace WBW\Library\Common\Tests\Model\System;
 
 use WBW\Library\Common\Model\System\NetworkInterface;
-use WBW\Library\System\Tests\AbstractTestCase;
-use WBW\Library\System\Tests\Fixtures\Model\TestNetworkTrait;
+use WBW\Library\Common\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\Fixtures\Model\System\TestNetworkTrait;
 
 /**
  * Network trait test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\System\Tests\Model
+ * @package WBW\Library\Common\Tests\Model\System
  */
 class NetworkTraitTest extends AbstractTestCase {
 
