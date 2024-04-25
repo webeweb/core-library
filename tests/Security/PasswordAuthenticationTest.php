@@ -13,8 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Tests\Security;
 
-use WBW\Library\Common\Tests\AbstractTestCase;
 use WBW\Library\Common\Security\PasswordAuthentication;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * Password authentication test.

@@ -15,7 +15,7 @@ namespace WBW\Library\Common\Tests\Exception;
 
 use InvalidArgumentException;
 use WBW\Library\Common\Exception\ObjectArgumentException;
-use WBW\Library\Types\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * Object argument exception test.

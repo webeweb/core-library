@@ -13,9 +13,9 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Tests\Provider;
 
-use WBW\Library\Common\Tests\AbstractTestCase;
 use Throwable;
 use WBW\Library\Common\Provider\ProviderException;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * Provider exception test.

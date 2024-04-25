@@ -14,11 +14,11 @@ declare(strict_types = 1);
 namespace WBW\Library\Common\Tests\Serializer\Vehicle;
 
 use DateTime;
-use WBW\Library\Common\Tests\AbstractTestCase;
 use WBW\Library\Common\Model\Vehicle\RegistrationCertificateInterface;
 use WBW\Library\Common\Model\Vehicle\VehicleBrandInterface;
 use WBW\Library\Common\Serializer\SerializerKeys;
 use WBW\Library\Common\Serializer\Vehicle\JsonSerializer;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * JSON serializer test.

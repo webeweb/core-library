@@ -15,7 +15,7 @@ namespace WBW\Library\Common\Tests\Exception;
 
 use InvalidArgumentException;
 use WBW\Library\Common\Exception\NumberArgumentException;
-use WBW\Library\Types\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * Number argument exception test.

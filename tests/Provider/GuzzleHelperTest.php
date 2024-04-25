@@ -13,8 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Tests\Provider;
 
-use WBW\Library\Common\Tests\AbstractTestCase;
 use WBW\Library\Common\Provider\GuzzleHelper;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * Guzzle helper test.

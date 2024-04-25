@@ -13,9 +13,9 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Tests\Provider;
 
+use WBW\Library\Common\Provider\RequestInterface;
 use WBW\Library\Common\Tests\AbstractTestCase;
 use WBW\Library\Common\Tests\Fixtures\Provider\TestAbstractRequest;
-use WBW\Library\Common\Provider\RequestInterface;
 
 /**
  * Abstract request test.
