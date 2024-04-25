@@ -11,15 +11,13 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\System\Model;
-
-use WBW\Library\Common\Model\System\MemoryInterface;
+namespace WBW\Library\Common\Model\System;
 
 /**
  * Memory trait.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\System\Model
+ * @package WBW\Library\Common\Model\System
  */
 trait MemoryTrait {
 
