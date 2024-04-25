@@ -45,6 +45,7 @@
         "ext-fileinfo": "*",
         "ext-ftp": "*",
         "ext-gd": "*",
+        "ext-imagick": "*",
         "ext-intl": "*",
         "ext-json": "*",
         "ext-mbstring": "*",
@@ -62,8 +63,8 @@
         "phpstan/phpstan-phpunit": "^1.0",
         "phpunit/phpunit": "^7.0|^9.0"
     },
-    "conflict": {
-        "webeweb/core-bundle": "<3.20"
+    "suggest": {
+        "ext-ftp": "For usage of WBW\\Library\\Ftp\\Client classes"
     },
     "autoload": {
         "psr-4": {
