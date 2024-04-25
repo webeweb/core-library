@@ -15,6 +15,7 @@
                 <directory>lib/ocrlad/Tests</directory>
                 <directory>lib/quadratus/Tests</directory>
                 <directory>lib/skidata/Tests</directory>
+                <directory>lib/widget/Tests</directory>
                 <directory>src/Resources</directory>
             </exclude>
         </whitelist>
@@ -27,6 +28,7 @@
             <directory>./lib/ocrlad/Tests</directory>
             <directory>./lib/quadratus/Tests</directory>
             <directory>./lib/skidata/Tests</directory>
+            <directory>./lib/widget/Tests</directory>
             <directory>./tests</directory>
         </testsuite>
     </testsuites>
