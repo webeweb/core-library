@@ -29,8 +29,8 @@ use WBW\Library\Common\Model\Billing\SalesBillInterface;
 use WBW\Library\Common\Model\Billing\SendingAddressInterface;
 use WBW\Library\Common\Model\Billing\TaxableInterface;
 use WBW\Library\Common\Model\Billing\VatRateInterface;
+use WBW\Library\Common\Serializer\JsonSerializer as BaseJsonSerializer;
 use WBW\Library\Common\Serializer\SerializerKeys;
-use WBW\Library\Serializer\Helper\JsonSerializerHelper;
 
 /**
  *  JSON serializer.
@@ -88,13 +88,13 @@ class JsonSerializer {
             SerializerKeys::COMMENT             => $model->getComment(),
             SerializerKeys::CREATED_AT          => $model->getCreatedAt(),
             SerializerKeys::DATE                => $model->getDate(),
-            SerializerKeys::DETAILS             => JsonSerializerHelper::jsonSerializeArray($model->getDetails()),
+            SerializerKeys::DETAILS             => BaseJsonSerializer::jsonSerializeArray($model->getDetails()),
             SerializerKeys::DISCOUNT_RATE       => $model->getDiscountRate(),
             SerializerKeys::DISCOUNT_TOTAL      => $model->getDiscountTotal(),
             SerializerKeys::EXCLUDING_VAT_TOTAL => $model->getExcludingVatTotal(),
             SerializerKeys::INCLUDING_VAT_TOTAL => $model->getIncludingVatTotal(),
             SerializerKeys::NUMBER              => $model->getNumber(),
-            SerializerKeys::PARENT              => JsonSerializerHelper::jsonSerializeModel($model->getParent()),
+            SerializerKeys::PARENT              => BaseJsonSerializer::jsonSerializeModel($model->getParent()),
             SerializerKeys::REFERENCE           => $model->getReference(),
             SerializerKeys::UPDATED_AT          => $model->getUpdatedAt(),
             SerializerKeys::VAT_TOTAL           => $model->getVatTotal(),
@@ -292,9 +292,9 @@ class JsonSerializer {
 
         return [
             SerializerKeys::LABEL                        => $model->getLabel(),
-            SerializerKeys::PURCHASES_ACCOUNTING_ACCOUNT => JsonSerializerHelper::jsonSerializeModel($model->getPurchasesAccountingAccount()),
+            SerializerKeys::PURCHASES_ACCOUNTING_ACCOUNT => BaseJsonSerializer::jsonSerializeModel($model->getPurchasesAccountingAccount()),
             SerializerKeys::RATE                         => $model->getRate(),
-            SerializerKeys::SALES_ACCOUNTING_ACCOUNT     => JsonSerializerHelper::jsonSerializeModel($model->getSalesAccountingAccount()),
+            SerializerKeys::SALES_ACCOUNTING_ACCOUNT     => BaseJsonSerializer::jsonSerializeModel($model->getSalesAccountingAccount()),
         ];
     }
 }

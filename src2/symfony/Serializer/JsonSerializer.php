@@ -15,8 +15,8 @@ namespace WBW\Library\Symfony\Serializer;
 
 use InvalidArgumentException;
 use WBW\Library\Common\Helper\ArrayHelper;
+use WBW\Library\Common\Serializer\JsonSerializer as BaseJsonSerializer;
 use WBW\Library\Common\Serializer\SerializerKeys as BaseSerializerKeys;
-use WBW\Library\Serializer\Helper\JsonSerializerHelper;
 use WBW\Library\Symfony\Assets\AlertInterface;
 use WBW\Library\Symfony\Assets\BadgeInterface;
 use WBW\Library\Symfony\Assets\ButtonInterface;
@@ -164,7 +164,7 @@ class JsonSerializer {
             BaseSerializerKeys::ICON    => $model->getIcon(),
             BaseSerializerKeys::LABEL   => $model->getLabel(),
             SerializerKeys::MATCHER     => $model->getMatcher(),
-            BaseSerializerKeys::PARENT  => JsonSerializerHelper::jsonSerializeModel($model->getParent()),
+            BaseSerializerKeys::PARENT  => BaseJsonSerializer::jsonSerializeModel($model->getParent()),
             BaseSerializerKeys::TARGET  => $model->getTarget(),
             BaseSerializerKeys::URI     => $model->getUri(),
             BaseSerializerKeys::VISIBLE => $model->getVisible(),

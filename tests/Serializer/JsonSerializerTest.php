@@ -11,19 +11,19 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Serializer\Tests\Helper;
+namespace WBW\Library\Common\Tests\Serializer;
 
-use WBW\Library\Serializer\Helper\JsonSerializerHelper;
-use WBW\Library\Serializer\Tests\AbstractTestCase;
-use WBW\Library\Serializer\Tests\Fixtures\Model\TestJsonSerializable;
+use WBW\Library\Common\Serializer\JsonSerializer;
+use WBW\Library\Common\Tests\Fixtures\Serializer\TestJsonSerializable;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
- * JSON serializer helper test.
+ * JSON serializer test.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Serializer\Tests\Helper
  */
-class JsonSerializerHelperTest extends AbstractTestCase {
+class JsonSerializerTest extends AbstractTestCase {
 
     /**
      * Test serializeArray()
@@ -38,7 +38,7 @@ class JsonSerializerHelperTest extends AbstractTestCase {
             null,
         ];
 
-        $res = JsonSerializerHelper::jsonSerializeArray($models);
+        $res = JsonSerializer::jsonSerializeArray($models);
         $this->assertEquals([[], []], $res);
     }
 }
