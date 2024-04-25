@@ -56,7 +56,7 @@ class TimeSlotTest extends AbstractTestCase {
     protected function setUp(): void {
         parent::setUp();
 
-        // Set date/times mock.
+        // Set date/time mock.
         $this->dateTimes = TestFixtures::getTimeSlotDateTimes();
 
         // Set an end date mock.
