@@ -11,20 +11,21 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\System\Tests;
+namespace WBW\Library\Common\Tests\Monitor;
 
 use RuntimeException;
 use Throwable;
 use WBW\Library\Common\Model\System\PropertyInterface;
-use WBW\Library\System\System;
+use WBW\Library\Common\Monitor\SystemMonitor;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
- * System test.
+ * System monitor test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\System\Tests
+ * @package WBW\Library\Common\Tests\Monitor
  */
-class SystemTest extends AbstractTestCase {
+class SystemMonitorTest extends AbstractTestCase {
 
     /**
      * Test getCpu()
@@ -35,7 +36,7 @@ class SystemTest extends AbstractTestCase {
 
         try {
 
-            $res = System::getCpu();
+            $res = SystemMonitor::getCpu();
 
             $this->assertNotNull($res);
         } catch (Throwable $ex) {
@@ -54,7 +55,7 @@ class SystemTest extends AbstractTestCase {
 
         try {
 
-            $res = System::getDate();
+            $res = SystemMonitor::getDate();
 
             $this->assertNotNull($res);
         } catch (Throwable $ex) {
@@ -73,7 +74,7 @@ class SystemTest extends AbstractTestCase {
 
         try {
 
-            $res = System::getHardDisks();
+            $res = SystemMonitor::getHardDisks();
 
             $this->assertNotCount(0, $res);
         } catch (Throwable $ex) {
@@ -92,7 +93,7 @@ class SystemTest extends AbstractTestCase {
 
         try {
 
-            $res = System::getHostname();
+            $res = SystemMonitor::getHostname();
 
             $this->assertNotNull($res);
         } catch (Throwable $ex) {
@@ -111,7 +112,7 @@ class SystemTest extends AbstractTestCase {
 
         try {
 
-            $res = System::getMemory();
+            $res = SystemMonitor::getMemory();
 
             $this->assertNotNull($res);
         } catch (Throwable $ex) {
@@ -130,7 +131,7 @@ class SystemTest extends AbstractTestCase {
 
         try {
 
-            $res = System::getNetwork();
+            $res = SystemMonitor::getNetwork();
 
             $this->assertNotNull($res);
         } catch (Throwable $ex) {
@@ -149,7 +150,7 @@ class SystemTest extends AbstractTestCase {
 
         try {
 
-            $res = System::getNetworkCards();
+            $res = SystemMonitor::getNetworkCards();
 
             $this->assertNotCount(0, $res);
         } catch (Throwable $ex) {
@@ -168,7 +169,7 @@ class SystemTest extends AbstractTestCase {
 
         try {
 
-            $res = System::getOperatingSystem();
+            $res = SystemMonitor::getOperatingSystem();
 
             $this->assertNotNull($res);
         } catch (Throwable $ex) {
@@ -187,7 +188,7 @@ class SystemTest extends AbstractTestCase {
 
         try {
 
-            $res = System::getProcessors();
+            $res = SystemMonitor::getProcessors();
 
             $this->assertNotCount(0, $res);
         } catch (Throwable $ex) {
@@ -204,7 +205,7 @@ class SystemTest extends AbstractTestCase {
      */
     public function testGetProperties(): void {
 
-        $this->assertIsArray(System::getProperties());
+        $this->assertIsArray(SystemMonitor::getProperties());
     }
 
     /**
@@ -214,8 +215,8 @@ class SystemTest extends AbstractTestCase {
      */
     public function testGetProperty(): void {
 
-        $this->assertNotNull(System::getProperty(PropertyInterface::FILE_SEPARATOR));
-        $this->assertNull(System::getProperty(""));
+        $this->assertNotNull(SystemMonitor::getProperty(PropertyInterface::FILE_SEPARATOR));
+        $this->assertNull(SystemMonitor::getProperty(""));
     }
 
     /**
@@ -227,7 +228,7 @@ class SystemTest extends AbstractTestCase {
 
         try {
 
-            $res = System::getUptime();
+            $res = SystemMonitor::getUptime();
 
             $this->assertNotNull($res);
         } catch (Throwable $ex) {
@@ -235,25 +236,5 @@ class SystemTest extends AbstractTestCase {
             $this->assertInstanceOf(RuntimeException::class, $ex);
             $this->assertEquals("This operating system is unsupported", $ex->getMessage());
         }
-    }
-
-    /**
-     * Test isUnix()
-     *
-     * @return void
-     */
-    public function testIsUnix(): void {
-
-        $this->assertIsBool(System::isUnix());
-    }
-
-    /**
-     * Test isWindows()
-     *
-     * @return void
-     */
-    public function testIsWindows(): void {
-
-        $this->assertIsBool(System::isWindows());
     }
 }

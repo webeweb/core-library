@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Symfony\Service;
 
-use WBW\Library\System\System;
+use WBW\Library\Common\Monitor\SystemMonitor;
 
 /**
  * PhantomJS service.
@@ -81,7 +81,7 @@ class PhantomJSService {
     public function getCommand(): ?string {
 
         $command = $this->getBinaryPath();
-        $command .= true === System::isWindows() ? ".exe" : "";
+        $command .= true === SystemMonitor::isWindows() ? ".exe" : "";
 
         return realpath($command);
     }

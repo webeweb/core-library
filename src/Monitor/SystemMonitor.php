@@ -11,7 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\System;
+namespace WBW\Library\Common\Monitor;
 
 use RuntimeException;
 use WBW\Library\Common\Helper\ArrayHelper;
@@ -25,12 +25,12 @@ use WBW\Library\Common\Model\System\ProcessorInterface;
 use WBW\Library\Common\Utility\SystemUtility;
 
 /**
- * System.
+ * System monitor.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\System
+ * @package WBW\Library\Common\Monitor
  */
-class System {
+class SystemMonitor {
 
     /**
      * Get the current processor usage.
@@ -152,23 +152,5 @@ class System {
      */
     public static function getUptime(): string {
         return SystemUtility::retrieveUptime();
-    }
-
-    /**
-     * Determine if the operating system is Unix.
-     *
-     * @return bool Returns true in case of success, false otherwise.
-     */
-    public static function isUnix(): bool {
-        return SystemUtility::isUnix();
-    }
-
-    /**
-     * Determine if the operating system is Windows.
-     *
-     * @return bool Returns true in case of success, false otherwise.
-     */
-    public static function isWindows(): bool {
-        return SystemUtility::isWindows();
     }
 }
