@@ -11,7 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Dropdown\Helper;
+namespace WBW\Library\Widget\Helper;
 
 use WBW\Library\Widget\Component\DropdownItemInterface;
 
@@ -19,17 +19,17 @@ use WBW\Library\Widget\Component\DropdownItemInterface;
  * Dropdown item helper.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Dropdown\Helper
+ * @package WBW\Library\Widget\Helper
  */
 class DropdownItemHelper {
 
     /**
-     * Position.
+     * Set the position.
      *
      * @param DropdownItemInterface[] $models The models.
      * @return void
      */
-    public static function position(array $models): void {
+    public static function setPosition(array $models): void {
 
         $i = -1;
 

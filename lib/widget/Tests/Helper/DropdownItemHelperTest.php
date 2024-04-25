@@ -11,27 +11,27 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Dropdown\Tests\Helper;
+namespace WBW\Library\Widget\Tests\Helper;
 
-use WBW\Library\Dropdown\Helper\DropdownItemHelper;
-use WBW\Library\Widget\Tests\Fixtures\Component\TestDropdownItem;
 use WBW\Library\Widget\Component\DropdownItemInterface;
-use WBW\Library\Dropdown\Tests\AbstractTestCase;
+use WBW\Library\Widget\Helper\DropdownItemHelper;
+use WBW\Library\Widget\Tests\AbstractTestCase;
+use WBW\Library\Widget\Tests\Fixtures\Component\TestDropdownItem;
 
 /**
  * Dropdown item helper test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Dropdown\Tests\Helper
+ * @package WBW\Library\Widget\Tests\Helper
  */
 class DropdownItemHelperTest extends AbstractTestCase {
 
     /**
-     * Test position()
+     * Test setPosition()
      *
      * @return void
      */
-    public function testPosition(): void {
+    public function testSetPosition(): void {
 
         /** @var DropdownItemInterface[] $obj */
         $obj = [
@@ -40,7 +40,7 @@ class DropdownItemHelperTest extends AbstractTestCase {
             new TestDropdownItem(),
         ];
 
-        DropdownItemHelper::position($obj);
+        DropdownItemHelper::setPosition($obj);
 
         $i = -1;
         foreach ($obj as $current) {
@@ -55,10 +55,10 @@ class DropdownItemHelperTest extends AbstractTestCase {
      */
     public function testSwap(): void {
 
-        $src = new DropdownItem();
+        $src = new TestDropdownItem();
         $src->setPosition(0);
 
-        $dst = new DropdownItem();
+        $dst = new TestDropdownItem();
         $dst->setPosition(1);
 
         DropdownItemHelper::swap($src, $dst);
