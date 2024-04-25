@@ -58,9 +58,9 @@ class ProcessorTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        $obj = new Processor([]);
+        $obj = new Processor(["key" => "value"]);
 
-        $this->assertIsArray($obj->jsonSerialize());
+        $this->assertEquals($obj->getValues(), $obj->jsonSerialize());
     }
 
     /**
