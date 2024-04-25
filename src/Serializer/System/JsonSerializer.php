@@ -11,7 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\System\Serializer;
+namespace WBW\Library\Common\Serializer\System;
 
 use WBW\Library\Common\Model\System\CpuInterface;
 use WBW\Library\Common\Model\System\HardDiskInterface;
@@ -26,7 +26,7 @@ use WBW\Library\Common\Serializer\SerializerKeys;
  * JSON serializer.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\System\Serializer
+ * @package WBW\Library\Common\Serializer\System
  */
 class JsonSerializer {
 
@@ -39,14 +39,14 @@ class JsonSerializer {
     public static function serializeCpu(CpuInterface $model): array {
 
         return [
-            SerializerKeys::US     => $model->getUs(),
-            SerializerKeys::SY     => $model->getSy(),
-            SerializerKeys::NI     => $model->getNi(),
+            SerializerKeys::US => $model->getUs(),
+            SerializerKeys::SY => $model->getSy(),
+            SerializerKeys::NI => $model->getNi(),
             SerializerKeys::ID => $model->getId(),
-            SerializerKeys::WA     => $model->getWa(),
-            SerializerKeys::HI     => $model->getHi(),
-            SerializerKeys::SI     => $model->getSi(),
-            SerializerKeys::ST     => $model->getSt(),
+            SerializerKeys::WA => $model->getWa(),
+            SerializerKeys::HI => $model->getHi(),
+            SerializerKeys::SI => $model->getSi(),
+            SerializerKeys::ST => $model->getSt(),
         ];
     }
 
@@ -62,8 +62,8 @@ class JsonSerializer {
             SerializerKeys::AVAILABLE   => $model->getAvailable(),
             SerializerKeys::FILE_SYSTEM => $model->getFileSystem(),
             SerializerKeys::MOUNTED_ON  => $model->getMountedOn(),
-            SerializerKeys::NAME    => $model->getName(),
-            SerializerKeys::TYPE    => $model->getType(),
+            SerializerKeys::NAME        => $model->getName(),
+            SerializerKeys::TYPE        => $model->getType(),
             SerializerKeys::USED        => $model->getUsed(),
             SerializerKeys::USE_PERCENT => $model->getUsePercent(),
         ];
@@ -88,8 +88,8 @@ class JsonSerializer {
     public static function serializeNetwork(NetworkInterface $model): array {
 
         return [
-            SerializerKeys::DNS          => $model->getDns(),
-            SerializerKeys::GATEWAY      => $model->getGateway(),
+            SerializerKeys::DNS      => $model->getDns(),
+            SerializerKeys::GATEWAY  => $model->getGateway(),
             SerializerKeys::HOSTNAME => $model->getHostname(),
         ];
     }
@@ -103,13 +103,13 @@ class JsonSerializer {
     public static function serializeNetworkCard(NetworkCardInterface $model): array {
 
         return [
-            SerializerKeys::DUPLEX   => $model->getDuplex(),
-            SerializerKeys::IPV4     => $model->getIpv4(),
-            SerializerKeys::IPV6     => $model->getIpv6(),
-            SerializerKeys::MAC      => $model->getMac(),
-            SerializerKeys::NAME => $model->getName(),
-            SerializerKeys::SPEED    => $model->getSpeed(),
-            SerializerKeys::STATUS   => $model->getStatus(),
+            SerializerKeys::DUPLEX => $model->getDuplex(),
+            SerializerKeys::IPV4   => $model->getIpv4(),
+            SerializerKeys::IPV6   => $model->getIpv6(),
+            SerializerKeys::MAC    => $model->getMac(),
+            SerializerKeys::NAME   => $model->getName(),
+            SerializerKeys::SPEED  => $model->getSpeed(),
+            SerializerKeys::STATUS => $model->getStatus(),
         ];
     }
 
@@ -122,10 +122,10 @@ class JsonSerializer {
     public static function serializeOperatingSystem(OperatingSystemInterface $model): array {
 
         return [
-            SerializerKeys::CODENAME        => $model->getCodename(),
+            SerializerKeys::CODENAME    => $model->getCodename(),
             SerializerKeys::DESCRIPTION => $model->getDescription(),
             SerializerKeys::ID          => $model->getId(),
-            SerializerKeys::RELEASE         => $model->getRelease(),
+            SerializerKeys::RELEASE     => $model->getRelease(),
         ];
     }
 

@@ -14,8 +14,8 @@ declare(strict_types = 1);
 namespace WBW\Library\System\Model;
 
 use WBW\Library\Common\Model\System\NetworkCardInterface;
+use WBW\Library\Common\Serializer\System\JsonSerializer;
 use WBW\Library\Common\Traits\Strings\StringNameTrait;
-use WBW\Library\System\Serializer\JsonSerializer;
 
 /**
  * Network card.

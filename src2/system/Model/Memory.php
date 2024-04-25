@@ -15,7 +15,7 @@ namespace WBW\Library\System\Model;
 
 use WBW\Library\Common\Helper\ArrayHelper;
 use WBW\Library\Common\Model\System\MemoryInterface;
-use WBW\Library\System\Serializer\JsonSerializer;
+use WBW\Library\Common\Serializer\System\JsonSerializer;
 
 /**
  * Memory.
