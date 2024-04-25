@@ -11,13 +11,13 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\System\Model;
+namespace WBW\Library\Common\Model\System;
 
 /**
  * Property interface.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\System\Model
+ * @package WBW\Library\Common\Model\System
  */
 interface PropertyInterface {
 

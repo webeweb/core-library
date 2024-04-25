@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\System\Tests\Model;
 
-use WBW\Library\System\Model\PropertyInterface;
+use WBW\Library\Common\Model\System\PropertyInterface;
 use WBW\Library\System\Tests\AbstractTestCase;
 
 /**

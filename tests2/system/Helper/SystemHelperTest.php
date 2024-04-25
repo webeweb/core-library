@@ -15,8 +15,8 @@ namespace WBW\Library\System\Tests\Helper;
 
 use RuntimeException;
 use Throwable;
+use WBW\Library\Common\Model\System\PropertyInterface;
 use WBW\Library\System\Helper\SystemHelper;
-use WBW\Library\System\Model\PropertyInterface;
 use WBW\Library\System\Tests\AbstractTestCase;
 
 /**
