@@ -14,6 +14,7 @@ declare(strict_types = 1);
 namespace WBW\Library\Types\Helper;
 
 use WBW\Library\Common\Exception\ObjectArgumentException;
+use WBW\Library\Common\Helper\BooleanHelper;
 
 /**
  * Object helper.

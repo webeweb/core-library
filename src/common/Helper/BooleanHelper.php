@@ -11,7 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Types\Helper;
+namespace WBW\Library\Common\Helper;
 
 use WBW\Library\Common\Exception\BooleanArgumentException;
 
@@ -19,7 +19,7 @@ use WBW\Library\Common\Exception\BooleanArgumentException;
  * Boolean helper.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Types\Helper
+ * @package WBW\Library\Common\Helper
  */
 class BooleanHelper {
 

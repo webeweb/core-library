@@ -11,16 +11,16 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Types\Tests\Helper;
+namespace WBW\Library\Common\Tests\Helper;
 
-use WBW\Library\Types\Helper\BooleanHelper;
-use WBW\Library\Types\Tests\AbstractTestCase;
+use WBW\Library\Common\Helper\BooleanHelper;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * Boolean helper test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Types\Tests\Helper
+ * @package WBW\Library\Common\Tests\Helper
  */
 class BooleanHelperTest extends AbstractTestCase {
 
