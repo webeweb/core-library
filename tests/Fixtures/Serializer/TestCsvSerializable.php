@@ -11,7 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Serializer\Tests\Fixtures\Model;
+namespace WBW\Library\Common\Tests\Fixtures\Serializer;
 
 use WBW\Library\Common\Serializer\CsvSerializable;
 
@@ -19,7 +19,7 @@ use WBW\Library\Common\Serializer\CsvSerializable;
  * Test CSV serializable.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Serializer\Tests\Fixtures\Model
+ * @package WBW\Library\Common\Tests\Fixtures\Serializer
  */
 class TestCsvSerializable implements CsvSerializable {
 

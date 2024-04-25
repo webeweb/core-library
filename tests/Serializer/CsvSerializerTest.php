@@ -11,19 +11,19 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Serializer\Tests\Helper;
+namespace WBW\Library\Common\Tests\Serializer;
 
-use WBW\Library\Serializer\Helper\CsvSerializerHelper;
-use WBW\Library\Serializer\Tests\AbstractTestCase;
-use WBW\Library\Serializer\Tests\Fixtures\Model\TestCsvSerializable;
+use WBW\Library\Common\Serializer\CsvSerializer;
+use WBW\Library\Common\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\Fixtures\Serializer\TestCsvSerializable;
 
 /**
  * CSV serializer helper test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Serializer\Tests\Helper
+ * @package WBW\Library\Common\Tests\Helper
  */
-class CsvSerializerHelperTest extends AbstractTestCase {
+class CsvSerializerTest extends AbstractTestCase {
 
     /**
      * Test serializeArray()
@@ -38,7 +38,7 @@ class CsvSerializerHelperTest extends AbstractTestCase {
             null,
         ];
 
-        $res = CsvSerializerHelper::csvSerializeArray($models);
+        $res = CsvSerializer::csvSerializeArray($models);
         $this->assertEquals("\n", $res);
     }
 }

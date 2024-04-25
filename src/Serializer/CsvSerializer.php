@@ -11,17 +11,15 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Serializer\Helper;
-
-use WBW\Library\Common\Serializer\CsvSerializable;
+namespace WBW\Library\Common\Serializer;
 
 /**
- * CSV serializer helper.
+ * CSV serializer.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Serializer\Helper
+ * @package WBW\Library\Common\Helper
  */
-class CsvSerializerHelper extends SerializerHelper {
+class CsvSerializer extends AbstractSerializer {
 
     /**
      * Serialize an array.
