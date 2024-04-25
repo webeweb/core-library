@@ -136,21 +136,6 @@ class DateTimeHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Test getFirstLastDateMonth()
-     *
-     * @return void
-     */
-    public function testGetFirstLastDateMonth(): void {
-
-        // Set a date/time mock.
-        $date = new DateTime("2022-10-27");
-
-        $res = DateTimeHelper::getFirstLastDateMonth($date);
-
-        $this->assertCount(2, $res);
-    }
-
-    /**
      * Test getGreater()
      *
      * @return void.
@@ -546,22 +531,6 @@ class DateTimeHelperTest extends AbstractTestCase {
         $this->assertEquals(3, DateTimeHelper::numberBusinessDays(new DateTime("2023-06-01"), new DateTime("2023-06-05"), 3, 5));
         $this->assertEquals(3, DateTimeHelper::numberBusinessDays(new DateTime("2023-06-01"), new DateTime("2023-06-06"), 3, 5));
         $this->assertEquals(3, DateTimeHelper::numberBusinessDays(new DateTime("2023-06-01"), new DateTime("2023-06-07"), 3, 5));
-    }
-
-    /**
-     * Test range()
-     *
-     * @return void
-     * @throws Throwable Throws an exception if an error occurs.
-     */
-    public function testRange(): void {
-
-        // Set the date/time mock.
-        $a = new DateTime("2021-11-25");
-        $b = new DateTime("2021-12-25");
-
-        $res = DateTimeHelper::range($a, $b);
-        $this->assertCount(31, $res);
     }
 
     /**

@@ -132,17 +132,6 @@ class DateTimeHelper extends DateTimeMethod {
     }
 
     /**
-     * Get the first and last date of month.
-     *
-     * @param DateTime $date The date.
-     * @return DateTime[] Returns the dates.
-     * @deprecated since 8.78.0 use {@see WBW\Library\Types\Factory\DateTimeFactory::firstLastDateMonth()} instead.
-     */
-    public static function getFirstLastDateMonth(DateTime $date): array {
-        return DateTimeFactory::firstLastDateMonth($date);
-    }
-
-    /**
      * Get the greater date/time.
      *
      * @param DateTime $a The date/time A.
@@ -382,20 +371,6 @@ class DateTimeHelper extends DateTimeMethod {
         $daysW = $workingDays * $weeks; // Number of days during the full weeks
 
         return $daysA + $daysW + max($daysB, 0);
-    }
-
-    /**
-     * Range from a date/time to another date/time.
-     *
-     * @param DateTime $from From date/time.
-     * @param DateTime $to To date/time.
-     * @return DateTime[]|null Returns the date/time range.
-     * @throws InvalidArgumentException Throws an illegal argument exception if the two date/time does not have the same time zone.
-     * @throws Throwable Throws an exception if an error occurs.
-     * @deprecated since 8.78.0 use {@see WBW\Library\Types\Factory\DateTimeFactory::range()} instead.
-     */
-    public static function range(DateTime $from, DateTime $to): ?array {
-        return DateTimeFactory::range($from, $to);
     }
 
     /**
