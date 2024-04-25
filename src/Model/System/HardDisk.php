@@ -11,9 +11,8 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\System\Model;
+namespace WBW\Library\Common\Model\System;
 
-use WBW\Library\Common\Model\System\HardDiskInterface;
 use WBW\Library\Common\Serializer\System\JsonSerializer;
 use WBW\Library\Common\Traits\Strings\StringNameTrait;
 use WBW\Library\Common\Traits\Strings\StringTypeTrait;
@@ -22,7 +21,7 @@ use WBW\Library\Common\Traits\Strings\StringTypeTrait;
  * Hard disk.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\System\Model
+ * @package WBW\Library\Common\Model\System
  */
 class HardDisk implements HardDiskInterface {
 
