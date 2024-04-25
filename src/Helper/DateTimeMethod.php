@@ -11,7 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Types\Helper;
+namespace WBW\Library\Common\Helper;
 
 use DateTime;
 use InvalidArgumentException;
@@ -22,7 +22,7 @@ use WBW\Library\Common\Factory\DateIntervalFactory;
  * Date/time method.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Types\Helper
+ * @package WBW\Library\Common\Helper
  */
 class DateTimeMethod {
 
