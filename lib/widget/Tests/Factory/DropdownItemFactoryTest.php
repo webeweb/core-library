@@ -11,17 +11,17 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Dropdown\Tests\Factory;
+namespace WBW\Library\Widget\Tests\Factory;
 
-use WBW\Library\Dropdown\Factory\DropdownItemFactory;
+use WBW\Library\Widget\Factory\DropdownItemFactory;
+use WBW\Library\Widget\Tests\AbstractTestCase;
 use WBW\Library\Widget\Tests\Fixtures\Component\TestDropdownItem;
-use WBW\Library\Dropdown\Tests\AbstractTestCase;
 
 /**
  * Dropdown item factory test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Dropdown\Tests\Factory
+ * @package WBW\Library\Widget\Tests\Factory
  */
 class DropdownItemFactoryTest extends AbstractTestCase {
 

@@ -11,7 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Dropdown\Factory;
+namespace WBW\Library\Widget\Factory;
 
 use WBW\Library\Widget\Component\DropdownItemInterface;
 
@@ -19,7 +19,7 @@ use WBW\Library\Widget\Component\DropdownItemInterface;
  * Dropdown item factory.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Dropdown\Factory
+ * @package WBW\Library\Widget\Factory
  */
 class DropdownItemFactory {
 
