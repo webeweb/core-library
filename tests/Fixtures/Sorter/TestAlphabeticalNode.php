@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Tests\Fixtures\Sorter;
 
-use WBW\Library\Symfony\Assets\AbstractNavigationNode;
+use WBW\Library\Widget\Component\AbstractNavigationNode;
 
 /**
  * Test alphabetical node.

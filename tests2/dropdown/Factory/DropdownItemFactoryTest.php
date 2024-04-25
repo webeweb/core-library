@@ -14,7 +14,7 @@ declare(strict_types = 1);
 namespace WBW\Library\Dropdown\Tests\Factory;
 
 use WBW\Library\Dropdown\Factory\DropdownItemFactory;
-use WBW\Library\Dropdown\Model\DropdownItem;
+use WBW\Library\Widget\Tests\Fixtures\Component\TestDropdownItem;
 use WBW\Library\Dropdown\Tests\AbstractTestCase;
 
 /**
@@ -32,12 +32,12 @@ class DropdownItemFactoryTest extends AbstractTestCase {
      */
     public function testCopy(): void {
 
-        $obj = new DropdownItem();
+        $obj = new TestDropdownItem();
         $obj->setByDefault(true);
         $obj->setLabel("label");
         $obj->setPosition(1);
 
-        $res = DropdownItemFactory::copy($obj, new DropdownItem());
+        $res = DropdownItemFactory::copy($obj, new TestDropdownItem());
         $this->assertEquals($obj->getByDefault(), $res->getByDefault());
         $this->assertEquals($obj->getLabel(), $res->getLabel());
         $this->assertEquals($obj->getPosition(), $res->getPosition());

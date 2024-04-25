@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Dropdown\Helper;
 
-use WBW\Library\Dropdown\Model\DropdownItemInterface;
+use WBW\Library\Widget\Component\DropdownItemInterface;
 
 /**
  * Dropdown item helper.

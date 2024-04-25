@@ -13,8 +13,9 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Symfony\Theme;
 
-use WBW\Library\Symfony\Assets\Navigation\NavigationTree;
+
 use WBW\Library\Symfony\Provider\Theme\NavigationThemeProviderInterface;
+use WBW\Library\Widget\Component\Navigation\NavigationTree;
 
 /**
  * Default navigation theme provider.

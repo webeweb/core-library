@@ -14,8 +14,8 @@ declare(strict_types = 1);
 namespace WBW\Library\Dropdown\Tests\Helper;
 
 use WBW\Library\Dropdown\Helper\DropdownItemHelper;
-use WBW\Library\Dropdown\Model\DropdownItem;
-use WBW\Library\Dropdown\Model\DropdownItemInterface;
+use WBW\Library\Widget\Tests\Fixtures\Component\TestDropdownItem;
+use WBW\Library\Widget\Component\DropdownItemInterface;
 use WBW\Library\Dropdown\Tests\AbstractTestCase;
 
 /**
@@ -35,9 +35,9 @@ class DropdownItemHelperTest extends AbstractTestCase {
 
         /** @var DropdownItemInterface[] $obj */
         $obj = [
-            new DropdownItem(),
-            new DropdownItem(),
-            new DropdownItem(),
+            new TestDropdownItem(),
+            new TestDropdownItem(),
+            new TestDropdownItem(),
         ];
 
         DropdownItemHelper::position($obj);
