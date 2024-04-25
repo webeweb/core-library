@@ -14,8 +14,8 @@ declare(strict_types = 1);
 namespace WBW\Library\System\Helper;
 
 use RuntimeException;
+use WBW\Library\Common\Model\System\CpuInterface;
 use WBW\Library\System\Model\Cpu;
-use WBW\Library\System\Model\CpuInterface;
 use WBW\Library\System\Model\HardDisk;
 use WBW\Library\System\Model\HardDiskInterface;
 use WBW\Library\System\Model\Memory;

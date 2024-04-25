@@ -13,8 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\System\Serializer;
 
+use WBW\Library\Common\Model\System\CpuInterface;
 use WBW\Library\Common\Serializer\SerializerKeys;
-use WBW\Library\System\Model\CpuInterface;
 use WBW\Library\System\Model\HardDiskInterface;
 use WBW\Library\System\Model\MemoryInterface;
 use WBW\Library\System\Model\NetworkCardInterface;

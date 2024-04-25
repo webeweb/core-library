@@ -13,6 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\System\Model;
 
+use WBW\Library\Common\Model\System\CpuInterface;
+
 /**
  * Current processor usage trait.
  *
