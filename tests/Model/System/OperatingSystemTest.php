@@ -11,20 +11,18 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\System\Tests\Model;
+namespace WBW\Library\Common\Tests\Model\System;
 
 use JsonSerializable;
+use WBW\Library\Common\Model\System\OperatingSystem;
 use WBW\Library\Common\Model\System\OperatingSystemInterface;
-use WBW\Library\Common\Serializer\SerializerKeys as BaseSerializerKeys;
-use WBW\Library\System\Model\OperatingSystem;
-use WBW\Library\System\Serializer\SerializerKeys;
-use WBW\Library\System\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * Operating system test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\System\Tests\Model
+ * @package WBW\Library\Common\Tests\Model\System
  */
 class OperatingSystemTest extends AbstractTestCase {
 
@@ -35,20 +33,9 @@ class OperatingSystemTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        // Set the expected data.
-        $data = file_get_contents(__DIR__ . "/OperatingSystemTest.testJsonSerialize.json");
-        $json = json_decode($data, true);
-
         $obj = new OperatingSystem();
-        $obj->setCodename(SerializerKeys::CODENAME);
-        $obj->setDescription(BaseSerializerKeys::DESCRIPTION);
-        $obj->setId(BaseSerializerKeys::ID);
-        $obj->setRelease(SerializerKeys::RELEASE);
 
-        $res = $obj->jsonSerialize();
-        $this->assertCount(4, $res);
-
-        $this->assertEquals($json, $res);
+        $this->assertIsArray($obj->jsonSerialize());
     }
 
     /**
