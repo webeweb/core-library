@@ -14,8 +14,8 @@ declare(strict_types = 1);
 namespace WBW\Library\Common\Tests\Serializer;
 
 use WBW\Library\Common\Serializer\JsonSerializer;
-use WBW\Library\Common\Tests\Fixtures\Serializer\TestJsonSerializable;
 use WBW\Library\Common\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\Fixtures\Serializer\TestJsonSerializable;
 
 /**
  * JSON serializer test.
