@@ -15,9 +15,9 @@ namespace WBW\Library\SkiData\Parser;
 
 use WBW\Library\Common\Exception\IntegerArgumentException;
 use WBW\Library\Common\Helper\BooleanHelper;
+use WBW\Library\Common\Helper\IntegerHelper;
 use WBW\Library\SkiData\Exception\TooLongDataException;
 use WBW\Library\SkiData\Model\User;
-use WBW\Library\Types\Helper\IntegerHelper;
 
 /**
  * User parser.

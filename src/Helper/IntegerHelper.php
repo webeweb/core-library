@@ -11,7 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Types\Helper;
+namespace WBW\Library\Common\Helper;
 
 use WBW\Library\Common\Exception\IntegerArgumentException;
 
@@ -19,7 +19,7 @@ use WBW\Library\Common\Exception\IntegerArgumentException;
  * Integer helper.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Types\Helper
+ * @package WBW\Library\Common\Helper
  */
 class IntegerHelper {
 
@@ -31,6 +31,7 @@ class IntegerHelper {
      * @throws IntegerArgumentException Throws an integer argument exception if the value is not of expected type.
      */
     public static function isInteger($value): void {
+
         if (false === is_integer($value)) {
             throw new IntegerArgumentException($value);
         }

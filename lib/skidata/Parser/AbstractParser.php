@@ -14,9 +14,9 @@ declare(strict_types = 1);
 namespace WBW\Library\SkiData\Parser;
 
 use DateTime;
+use WBW\Library\Common\Helper\IntegerHelper;
 use WBW\Library\SkiData\Exception\TooLongDataException;
 use WBW\Library\SkiData\Model\StartRecordFormat;
-use WBW\Library\Types\Helper\IntegerHelper;
 
 /**
  * Abstract parser.
