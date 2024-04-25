@@ -14,8 +14,8 @@ declare(strict_types = 1);
 namespace WBW\Library\Sorter\Tests;
 
 use WBW\Library\Common\Sorter\AlphabeticalNodeInterface;
+use WBW\Library\Common\Tests\Fixtures\TestFixtures;
 use WBW\Library\Sorter\AlphabeticalTreeSort;
-use WBW\Library\Sorter\Tests\Fixtures\TestFixtures;
 
 /**
  * Alphabetical tree sort test.

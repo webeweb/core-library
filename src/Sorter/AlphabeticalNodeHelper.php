@@ -11,18 +11,17 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Sorter\Helper;
+namespace WBW\Library\Common\Sorter;
 
-use WBW\Library\Common\Sorter\AlphabeticalNodeInterface;
 use WBW\Library\Sorter\AlphabeticalTreeSort;
 
 /**
- * Alphabetical tree node helper.
+ * Alphabetical node helper.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Sorter\Helper
+ * @package WBW\Library\Common\Sorter
  */
-class AlphabeticalTreeNodeHelper {
+class AlphabeticalNodeHelper {
 
     /**
      * Create the choices.

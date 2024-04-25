@@ -11,17 +11,17 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Sorter\Tests\Fixtures\Model;
+namespace WBW\Library\Common\Tests\Fixtures\Sorter;
 
 use WBW\Library\Symfony\Assets\AbstractNavigationNode;
 
 /**
- * Test node.
+ * Test alphabetical node.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Sorter\Tests\Fixtures\Model
+ * @package WBW\Library\Common\Tests\Fixtures\Sorter
  */
-class TestNode extends AbstractNavigationNode {
+class TestAlphabeticalNode extends AbstractNavigationNode {
 
     /**
      * Constructor.

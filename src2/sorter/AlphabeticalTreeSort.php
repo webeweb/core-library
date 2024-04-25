@@ -14,7 +14,7 @@ declare(strict_types = 1);
 namespace WBW\Library\Sorter;
 
 use WBW\Library\Common\Sorter\AlphabeticalNodeInterface;
-use WBW\Library\Sorter\Helper\AlphabeticalTreeNodeHelper;
+use WBW\Library\Common\Sorter\AlphabeticalNodeHelper;
 
 /**
  * Alphabetical tree sort.
@@ -52,8 +52,8 @@ class AlphabeticalTreeSort {
      */
     protected function compare(AlphabeticalNodeInterface $a, AlphabeticalNodeInterface $b): int {
 
-        $pathA = AlphabeticalTreeNodeHelper::getPath($a);
-        $pathB = AlphabeticalTreeNodeHelper::getPath($b);
+        $pathA = AlphabeticalNodeHelper::getPath($a);
+        $pathB = AlphabeticalNodeHelper::getPath($b);
 
         $count = count($pathA);
 

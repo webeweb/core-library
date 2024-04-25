@@ -11,25 +11,25 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Sorter\Tests\Helper;
+namespace WBW\Library\Common\Tests\Sorter;
 
-use WBW\Library\Sorter\Helper\AlphabeticalTreeNodeHelper;
-use WBW\Library\Sorter\Tests\AbstractTestCase;
-use WBW\Library\Sorter\Tests\Fixtures\Model\TestNode;
-use WBW\Library\Sorter\Tests\Fixtures\TestFixtures;
+use WBW\Library\Common\Sorter\AlphabeticalNodeHelper;
+use WBW\Library\Common\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\Fixtures\Sorter\TestAlphabeticalNode;
+use WBW\Library\Common\Tests\Fixtures\TestFixtures;
 
 /**
- * Alphabetical tree node helper test.
+ * Alphabetical node helper test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Sorter\Helper
+ * @package WBW\Library\Common\Tests\Sorter
  */
-class AlphabeticalTreeNodeHelperTest extends AbstractTestCase {
+class AlphabeticalNodeHelperTest extends AbstractTestCase {
 
     /**
      * Nodes.
      *
-     * @var TestNode[]
+     * @var TestAlphabeticalNode[]|null
      */
     private $nodes;
 
@@ -40,7 +40,7 @@ class AlphabeticalTreeNodeHelperTest extends AbstractTestCase {
         parent::setUp();
 
         // Set the node mocks.
-        $this->nodes = TestFixtures::getTestNodes();
+        $this->nodes = TestFixtures::getAlphabeticalNodes();
     }
 
     /**
@@ -50,7 +50,7 @@ class AlphabeticalTreeNodeHelperTest extends AbstractTestCase {
      */
     public function testCreateChoices(): void {
 
-        $res = AlphabeticalTreeNodeHelper::createChoices($this->nodes);
+        $res = AlphabeticalNodeHelper::createChoices($this->nodes);
         $this->assertCount(3, $res["id01"]);
         $this->assertSame($this->nodes[7], $res["id01"][0]);
         $this->assertSame($this->nodes[8], $res["id01"][1]);
@@ -70,16 +70,16 @@ class AlphabeticalTreeNodeHelperTest extends AbstractTestCase {
      */
     public function testGetLevel(): void {
 
-        $this->assertEquals(0, AlphabeticalTreeNodeHelper::getLevel($this->nodes[0]));
-        $this->assertEquals(0, AlphabeticalTreeNodeHelper::getLevel($this->nodes[1]));
-        $this->assertEquals(2, AlphabeticalTreeNodeHelper::getLevel($this->nodes[2]));
-        $this->assertEquals(2, AlphabeticalTreeNodeHelper::getLevel($this->nodes[3]));
-        $this->assertEquals(1, AlphabeticalTreeNodeHelper::getLevel($this->nodes[4]));
-        $this->assertEquals(1, AlphabeticalTreeNodeHelper::getLevel($this->nodes[5]));
-        $this->assertEquals(1, AlphabeticalTreeNodeHelper::getLevel($this->nodes[6]));
-        $this->assertEquals(1, AlphabeticalTreeNodeHelper::getLevel($this->nodes[7]));
-        $this->assertEquals(1, AlphabeticalTreeNodeHelper::getLevel($this->nodes[8]));
-        $this->assertEquals(1, AlphabeticalTreeNodeHelper::getLevel($this->nodes[9]));
+        $this->assertEquals(0, AlphabeticalNodeHelper::getLevel($this->nodes[0]));
+        $this->assertEquals(0, AlphabeticalNodeHelper::getLevel($this->nodes[1]));
+        $this->assertEquals(2, AlphabeticalNodeHelper::getLevel($this->nodes[2]));
+        $this->assertEquals(2, AlphabeticalNodeHelper::getLevel($this->nodes[3]));
+        $this->assertEquals(1, AlphabeticalNodeHelper::getLevel($this->nodes[4]));
+        $this->assertEquals(1, AlphabeticalNodeHelper::getLevel($this->nodes[5]));
+        $this->assertEquals(1, AlphabeticalNodeHelper::getLevel($this->nodes[6]));
+        $this->assertEquals(1, AlphabeticalNodeHelper::getLevel($this->nodes[7]));
+        $this->assertEquals(1, AlphabeticalNodeHelper::getLevel($this->nodes[8]));
+        $this->assertEquals(1, AlphabeticalNodeHelper::getLevel($this->nodes[9]));
     }
 
     /**
@@ -89,13 +89,13 @@ class AlphabeticalTreeNodeHelperTest extends AbstractTestCase {
      */
     public function testRemoveOrphan(): void {
 
-        AlphabeticalTreeNodeHelper::removeOrphan($this->nodes);
+        AlphabeticalNodeHelper::removeOrphan($this->nodes);
         $this->assertCount(10, $this->nodes);
 
         $this->nodes[1]->removeNode($this->nodes[4]);
-        (new TestNode("id11"))->addNode($this->nodes[4]); // Set a new parent that is not in the initial array.
+        (new TestAlphabeticalNode("id11"))->addNode($this->nodes[4]); // Set a new parent that is not in the initial array.
 
-        AlphabeticalTreeNodeHelper::removeOrphan($this->nodes);
+        AlphabeticalNodeHelper::removeOrphan($this->nodes);
         $this->assertCount(7, $this->nodes);
     }
 
@@ -106,7 +106,7 @@ class AlphabeticalTreeNodeHelperTest extends AbstractTestCase {
      */
     public function testSort(): void {
 
-        $res = AlphabeticalTreeNodeHelper::sort($this->nodes);
+        $res = AlphabeticalNodeHelper::sort($this->nodes);
         $this->assertEquals($this->nodes[0]->getAlphabeticalTreeNodeLabel(), $res[0]->getAlphabeticalTreeNodeLabel());
         $this->assertEquals($this->nodes[7]->getAlphabeticalTreeNodeLabel(), $res[1]->getAlphabeticalTreeNodeLabel());
         $this->assertEquals($this->nodes[8]->getAlphabeticalTreeNodeLabel(), $res[2]->getAlphabeticalTreeNodeLabel());
