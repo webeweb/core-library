@@ -11,23 +11,20 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Sorter;
-
-use WBW\Library\Common\Sorter\AlphabeticalNodeInterface;
-use WBW\Library\Common\Sorter\AlphabeticalNodeHelper;
+namespace WBW\Library\Common\Sorter;
 
 /**
  * Alphabetical tree sort.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Sorter
+ * @package WBW\Library\Common\Sorter
  */
 class AlphabeticalTreeSort {
 
     /**
      * Nodes.
      *
-     * @var AlphabeticalNodeInterface[]
+     * @var AlphabeticalNodeInterface[]|null
      */
     private $nodes;
 

@@ -11,24 +11,25 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Sorter\Tests;
+namespace WBW\Library\Common\Tests\Sorter;
 
 use WBW\Library\Common\Sorter\AlphabeticalNodeInterface;
+use WBW\Library\Common\Sorter\AlphabeticalTreeSort;
+use WBW\Library\Common\Tests\AbstractTestCase;
 use WBW\Library\Common\Tests\Fixtures\TestFixtures;
-use WBW\Library\Sorter\AlphabeticalTreeSort;
 
 /**
  * Alphabetical tree sort test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Sorter\Tests
+ * @package WBW\Library\Common\Tests\Sorter
  */
 class AlphabeticalTreeSortTest extends AbstractTestCase {
 
     /**
      * Nodes.
      *
-     * @var AlphabeticalNodeInterface[]
+     * @var AlphabeticalNodeInterface[]|null
      */
     private $nodes;
 
@@ -39,7 +40,7 @@ class AlphabeticalTreeSortTest extends AbstractTestCase {
         parent::setUp();
 
         // Set the node mocks.
-        $this->nodes = TestFixtures::getTestNodes();
+        $this->nodes = TestFixtures::getAlphabeticalNodes();
     }
 
     /**

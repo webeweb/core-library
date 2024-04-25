@@ -13,8 +13,6 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Sorter;
 
-use WBW\Library\Sorter\AlphabeticalTreeSort;
-
 /**
  * Alphabetical node helper.
  *
