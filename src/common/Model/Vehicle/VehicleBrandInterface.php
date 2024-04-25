@@ -11,7 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Vehicle\Model;
+namespace WBW\Library\Common\Model\Vehicle;
 
 use JsonSerializable;
 
@@ -19,7 +19,7 @@ use JsonSerializable;
  * Vehicle brand interface.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Vehicle\Model
+ * @package WBW\Library\Common\Model\Vehicle
  */
 interface VehicleBrandInterface extends JsonSerializable {
 

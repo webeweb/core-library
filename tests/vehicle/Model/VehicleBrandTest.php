@@ -14,9 +14,9 @@ declare(strict_types = 1);
 namespace WBW\Library\Vehicle\Tests\Model;
 
 use JsonSerializable;
+use WBW\Library\Common\Model\Vehicle\VehicleBrandInterface;
 use WBW\Library\Common\Serializer\SerializerKeys as BaseSerializerKeys;
 use WBW\Library\Vehicle\Model\VehicleBrand;
-use WBW\Library\Vehicle\Model\VehicleBrandInterface;
 use WBW\Library\Vehicle\Tests\AbstractTestCase;
 
 /**

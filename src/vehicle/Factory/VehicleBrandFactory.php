@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Vehicle\Factory;
 
-use WBW\Library\Vehicle\Model\VehicleBrandInterface;
+use WBW\Library\Common\Model\Vehicle\VehicleBrandInterface;
 
 /**
  * Vehicle brand factory.
