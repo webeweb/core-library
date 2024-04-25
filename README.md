@@ -11,25 +11,24 @@ projects.
 
 Provides:
 
-- Accounting models
-- Billing models
-- cURL wrapper
-- Database connectors (Access, SQL Server, MySQL, etc.)
-- FTP clients (FTP, FTPS, SFTP, etc.)
-- Image utilities
-- Logger models
-- Maths helpers (Fibonacci, Luhn algorithm, Pascal's triangle, ROT13, ROT45, etc.)
-- Planning utilities (time slots, etc.)
-- Quadratus models
+- Cipher (ROT13, ROT45, etc.)
+- Database connector (Access, SQL Server, MySQL, etc.)
+- Helper (array, boolean, double, float, integer, string, etc.)
+- Logger (null logger, terminal logger, ect.)
+- Math (Fibonacci, Luhn algorithm, Pascal's triangle, etc.)
+- Model (billing, system, vehicle, etc.)
+- Monitor (hard disk, memory, network, operating system, processor, etc.)
 - Security classes (authenticator, password authentication, token generator, etc.)
-- Serialization utilities
-- SkiData utilities (card, customer, user, etc.)
-- Sorting utilities (alphabetical tree sort, quick sort, etc.)
-- System utilities (hard disk, memory, network, operating system, processor, etc.)
+- Serializer (CSV, JSON, XML, etc.)
+- Sorter (alphabetical tree sort, quick sort, etc.)
 - Traits collection (array, boolean, double, float, integer, string, etc.)
-- Types utilities (array, boolean, double, float, integer, string, etc.)
+- Utility (archive, system, etc.)
 - Validation API (rule, rule set, validator, etc.)
-- Vehicle models
+- cURL wrapper
+- FTP clients (FTP, FTPS, SFTP, etc.)
+- Quadratus models
+- SkiData (card, customer, user, etc.)
+- Widget (asset, component, renderer, etc.)
 
 If you like this package, pay me a beer (or a coffee)
 [![paypal.me](https://img.shields.io/badge/paypal.me-webeweb-003087.svg?style=flat-square&logo=paypal)](https://www.paypal.me/webeweb)
