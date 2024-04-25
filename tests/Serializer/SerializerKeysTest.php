@@ -13,8 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Tests\Serializer;
 
-use WBW\Library\Common\Serializer\SerializerKeys;
 use WBW\Library\Common\Tests\AbstractTestCase;
+use WBW\Library\Common\Serializer\SerializerKeys;
 
 /**
  * Serializer keys test.

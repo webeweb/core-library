@@ -11,19 +11,19 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Common\Tests\Provider;
+namespace WBW\Library\Common\Tests\Exception;
 
-use Throwable;
-use WBW\Library\Common\Provider\ProviderException;
 use WBW\Library\Common\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\Fixtures\Exception\TestAbstractException;
+use Throwable;
 
 /**
- * Provider exception test.
+ * Abstract exception test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Common\Tests\Provider
+ * @package WBW\Library\Common\Tests\Exception
  */
-class ProviderExceptionTest extends AbstractTestCase {
+class AbstractExceptionTest extends AbstractTestCase {
 
     /**
      * Test __construct()
@@ -35,7 +35,7 @@ class ProviderExceptionTest extends AbstractTestCase {
         // Set a Throwable mock.
         $throwable = $this->getMockBuilder(Throwable::class)->getMock();
 
-        $obj = new ProviderException("message", 500, $throwable);
+        $obj = new TestAbstractException("message", 500, $throwable);
 
         $this->assertEquals("message", $obj->getMessage());
         $this->assertEquals(500, $obj->getCode());

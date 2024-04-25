@@ -5,25 +5,24 @@ declare(strict_types = 1);
 /*
  * This file is part of the core-library package.
  *
- * (c) 2024 WEBEWEB
+ * (c) 2018 WEBEWEB
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Common\Tests\Provider;
+namespace WBW\Library\Common\Tests\Security;
 
-use WBW\Library\Common\Provider\RequestInterface;
 use WBW\Library\Common\Tests\AbstractTestCase;
-use WBW\Library\Common\Tests\Fixtures\Provider\TestAbstractRequest;
+use WBW\Library\Common\Security\PasswordAuthentication;
 
 /**
- * Abstract request test.
+ * Password authentication test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Common\Tests\Provider
+ * @package WBW\Library\Common\Security\Tests
  */
-class AbstractRequestTest extends AbstractTestCase {
+class PasswordAuthenticationTest extends AbstractTestCase {
 
     /**
      * Test __construct()
@@ -32,8 +31,9 @@ class AbstractRequestTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $obj = new TestAbstractRequest();
+        $obj = new PasswordAuthentication(null, null);
 
-        $this->assertInstanceOf(RequestInterface::class, $obj);
+        $this->assertNull($obj->getPassword());
+        $this->assertNull($obj->getUsername());
     }
 }

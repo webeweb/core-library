@@ -13,9 +13,9 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Tests\Security;
 
+use WBW\Library\Common\Tests\AbstractTestCase;
 use Throwable;
 use WBW\Library\Common\Security\TokenGenerator;
-use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * Token generator test.

@@ -32,8 +32,8 @@ class ArchiveUtilityTest extends AbstractTestCase {
     public static function tearDownAfterClass(): void {
 
         $filenames = [
-            __DIR__ . "/../../../README.md.zip",
-            __DIR__ . "/../../../var/tests.zip",
+            __DIR__ . "/../../README.md.zip",
+            __DIR__ . "/../../var/tests.zip",
         ];
 
         foreach ($filenames as $current) {
@@ -51,8 +51,8 @@ class ArchiveUtilityTest extends AbstractTestCase {
      */
     public function testZip(): void {
 
-        $src = __DIR__ . "/../../../README.md";
-        $dst = __DIR__ . "/../../../var/README.md.zip";
+        $src = __DIR__ . "/../../README.md";
+        $dst = __DIR__ . "/../../var/README.md.zip";
 
         ArchiveUtility::zip($src, $dst);
         $this->assertFileExists($dst);
@@ -66,8 +66,8 @@ class ArchiveUtilityTest extends AbstractTestCase {
      */
     public function testZipWithDirectory(): void {
 
-        $src = __DIR__ . "/../../../tests";
-        $dst = __DIR__ . "/../../../var/tests.zip";
+        $src = __DIR__ . "/../../tests";
+        $dst = __DIR__ . "/../../var/tests.zip";
 
         ArchiveUtility::zip($src, $dst);
         $this->assertFileExists($dst);

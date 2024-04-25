@@ -15,11 +15,11 @@ namespace WBW\Library\Common\Tests\Provider;
 
 use InvalidArgumentException;
 use Psr\Log\LoggerInterface;
-use Throwable;
 use WBW\Library\Common\Tests\AbstractTestCase;
 use WBW\Library\Common\Tests\Fixtures\Provider\TestAbstractProvider;
 use WBW\Library\Common\Tests\Fixtures\Provider\TestAbstractRequest;
 use WBW\Library\Common\Tests\Fixtures\Provider\TestSubstituableRequest;
+use Throwable;
 
 /**
  * Abstract provider test.

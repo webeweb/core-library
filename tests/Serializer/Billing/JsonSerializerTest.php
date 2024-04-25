@@ -14,6 +14,7 @@ declare(strict_types = 1);
 namespace WBW\Library\Common\Tests\Serializer\Billing;
 
 use DateTime;
+use WBW\Library\Common\Tests\AbstractTestCase;
 use WBW\Library\Common\Model\Billing\AccountingAccountInterface;
 use WBW\Library\Common\Model\Billing\BankDetailsInterface;
 use WBW\Library\Common\Model\Billing\BillableDetailInterface;
@@ -32,7 +33,6 @@ use WBW\Library\Common\Model\Billing\TaxableInterface;
 use WBW\Library\Common\Model\Billing\VatRateInterface;
 use WBW\Library\Common\Serializer\Billing\JsonSerializer;
 use WBW\Library\Common\Serializer\SerializerKeys;
-use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * JSON serializer test.
