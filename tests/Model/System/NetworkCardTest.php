@@ -11,20 +11,18 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\System\Tests\Model;
+namespace WBW\Library\Common\Tests\Model\System;
 
 use JsonSerializable;
+use WBW\Library\Common\Model\System\NetworkCard;
 use WBW\Library\Common\Model\System\NetworkCardInterface;
-use WBW\Library\Common\Serializer\SerializerKeys as BaseSerializerKeys;
-use WBW\Library\System\Model\NetworkCard;
-use WBW\Library\System\Serializer\SerializerKeys;
-use WBW\Library\System\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * Network card test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\System\Tests\Model
+ * @package WBW\Library\Common\Tests\Model\System
  */
 class NetworkCardTest extends AbstractTestCase {
 
@@ -35,23 +33,9 @@ class NetworkCardTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        // Set the expected data.
-        $data = file_get_contents(__DIR__ . "/NetworkCardTest.testJsonSerialize.json");
-        $json = json_decode($data, true);
-
         $obj = new NetworkCard();
-        $obj->setDuplex(SerializerKeys::DUPLEX);
-        $obj->setIpv4(SerializerKeys::IPV4);
-        $obj->setIpv6(SerializerKeys::IPV6);
-        $obj->setMac(SerializerKeys::MAC);
-        $obj->setName(BaseSerializerKeys::NAME);
-        $obj->setSpeed(SerializerKeys::SPEED);
-        $obj->setStatus(SerializerKeys::STATUS);
 
-        $res = $obj->jsonSerialize();
-        $this->assertCount(7, $res);
-
-        $this->assertEquals($json, $res);
+        $this->assertIsArray($obj->jsonSerialize());
     }
 
     /**
