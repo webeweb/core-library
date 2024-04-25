@@ -38,7 +38,7 @@ class TestAbstractRule extends AbstractRule {
      *
      * @return RuleInterface Returns this rule.
      */
-    public function setNameAsNull() {
+    public function setNameAsNull(): RuleInterface {
         return parent::setName(null);
     }
 

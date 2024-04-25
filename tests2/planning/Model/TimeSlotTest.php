@@ -51,6 +51,7 @@ class TimeSlotTest extends AbstractTestCase {
 
     /**
      * {@inheritDoc}
+     * @throws Throwable Throws an exception if an error occurs.
      */
     protected function setUp(): void {
         parent::setUp();

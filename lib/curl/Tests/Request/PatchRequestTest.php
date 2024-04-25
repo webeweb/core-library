@@ -16,6 +16,7 @@ namespace WBW\Library\Curl\Tests\Request;
 
 use Throwable;
 use WBW\Library\Curl\Request\PatchRequest;
+use WBW\Library\Curl\Request\RequestInterface;
 use WBW\Library\Curl\Tests\AbstractTestCase;
 
 /**
@@ -41,7 +42,7 @@ class PatchRequestTest extends AbstractTestCase {
         $res = $obj->call();
         $this->assertEquals("header: header", $res->getRequestHeader()[0]);
         $this->assertStringContainsString("queryData=queryData", $res->getRequestUrl());
-        $this->assertEquals(PatchRequest::METHOD_PATCH, json_decode($res->getResponseBody(), true)["method"]);
+        $this->assertEquals(RequestInterface::METHOD_PATCH, json_decode($res->getResponseBody(), true)["method"]);
         $this->assertEquals(200, $res->getResponseInfo()["http_code"]);
     }
 
@@ -57,7 +58,7 @@ class PatchRequestTest extends AbstractTestCase {
 
         $this->assertSame($this->configuration, $obj->getConfiguration());
         $this->assertEquals([], $obj->getHeaders());
-        $this->assertEquals(PatchRequest::METHOD_PATCH, $obj->getMethod());
+        $this->assertEquals(RequestInterface::METHOD_PATCH, $obj->getMethod());
         $this->assertEquals([], $obj->getPostData());
         $this->assertEquals([], $obj->getQueryData());
         $this->assertEquals($this->resourcePath, $obj->getResourcePath());

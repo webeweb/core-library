@@ -112,7 +112,7 @@ class Result {
      * @param string[] $errors The errors.
      * @return Result Returns this result.
      */
-    public function setErrors(array $errors = []): Result {
+    public function setErrors(array $errors): Result {
         $this->errors = $errors;
         return $this;
     }
