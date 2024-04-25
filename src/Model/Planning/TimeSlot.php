@@ -16,7 +16,7 @@ namespace WBW\Library\Common\Model\Planning;
 use DateTime;
 use InvalidArgumentException;
 use WBW\Library\Common\Helper\DateTimeHelper;
-use WBW\Library\Planning\Helper\TimeSlotHelper;
+use WBW\Library\Common\Helper\Planning\TimeSlotHelper;
 
 /**
  * Time slot.

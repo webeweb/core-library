@@ -11,10 +11,9 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Planning\Helper;
+namespace WBW\Library\Common\Helper\Planning;
 
 use WBW\Library\Common\Helper\DateTimeHelper;
-use WBW\Library\Common\Helper\Planning\TimeSlotFunctor;
 use WBW\Library\Common\Model\Planning\TimeSlot;
 use WBW\Library\Common\Sorter\QuickSort;
 
@@ -22,7 +21,7 @@ use WBW\Library\Common\Sorter\QuickSort;
  * Time slot helper.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Planning\Helper
+ * @package WBW\Library\Common\Helper\Planning
  */
 class TimeSlotHelper {
 
@@ -34,8 +33,10 @@ class TimeSlotHelper {
      * @return bool Returns true in case of success, false otherwise.
      */
     public static function contains(TimeSlot $a, TimeSlot $b): bool {
+
         $c1 = DateTimeHelper::isBetween($b->getStartDate(), $a->getStartDate(), $a->getEndDate());
         $c2 = DateTimeHelper::isBetween($b->getEndDate(), $a->getStartDate(), $a->getEndDate());
+
         return $c1 && $c2;
     }
 
@@ -149,10 +150,12 @@ class TimeSlotHelper {
      * @return bool Returns true in case of success, false otherwise.
      */
     public static function hasInnerJoin(TimeSlot $a, TimeSlot $b): bool {
+
         $c1 = DateTimeHelper::isBetween($b->getStartDate(), $a->getStartDate(), $a->getEndDate());
         $c2 = DateTimeHelper::isBetween($b->getEndDate(), $a->getStartDate(), $a->getEndDate());
         $c3 = DateTimeHelper::isBetween($a->getStartDate(), $b->getStartDate(), $b->getEndDate());
         $c4 = DateTimeHelper::isBetween($a->getEndDate(), $b->getStartDate(), $b->getEndDate());
+
         return $c1 || $c2 || $c3 || $c4;
     }
 

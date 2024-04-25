@@ -11,27 +11,27 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Planning\Tests\Helper;
+namespace WBW\Library\Common\Tests\Helper\Planning;
 
 use DateTime;
 use Throwable;
+use WBW\Library\Common\Helper\Planning\TimeSlotHelper;
 use WBW\Library\Common\Model\Planning\TimeSlot;
-use WBW\Library\Planning\Helper\TimeSlotHelper;
-use WBW\Library\Planning\Tests\AbstractTestCase;
-use WBW\Library\Planning\Tests\Fixtures\TestFixtures;
+use WBW\Library\Common\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\Fixtures\TestFixtures;
 
 /**
  * Time slot helper test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Planning\Tests\Helper
+ * @package WBW\Library\Common\Tests\Helper\Planning
  */
 class TimeSlotHelperTest extends AbstractTestCase {
 
     /**
      * Dates.
      *
-     * @var DateTime[]
+     * @var DateTime[]|null
      */
     private $dateTimes;
 
@@ -42,8 +42,8 @@ class TimeSlotHelperTest extends AbstractTestCase {
     protected function setUp(): void {
         parent::setUp();
 
-        // Set Date/times mock.
-        $this->dateTimes = TestFixtures::getDateTimes();
+        // Set date/time mock.
+        $this->dateTimes = TestFixtures::getTimeSlotDateTimes();
     }
 
     /**
@@ -148,7 +148,6 @@ class TimeSlotHelperTest extends AbstractTestCase {
 
         // 08:00-18:00 / 11:00-15:00
         $res1 = TimeSlotHelper::fullJoinWithout(new TimeSlot($this->dateTimes[0], $this->dateTimes[3]), new TimeSlot($this->dateTimes[1], $this->dateTimes[2]));
-
         $this->assertCount(2, $res1);
 
         $this->assertEquals($this->dateTimes[0], $res1[0]->getStartDate()); /* 08:00 */
@@ -159,7 +158,6 @@ class TimeSlotHelperTest extends AbstractTestCase {
 
         // 11:00-18:00 / 08:00-15:00
         $res2 = TimeSlotHelper::fullJoinWithout(new TimeSlot($this->dateTimes[1], $this->dateTimes[3]), new TimeSlot($this->dateTimes[0], $this->dateTimes[2]));
-
         $this->assertCount(2, $res2);
 
         $this->assertEquals($this->dateTimes[0], $res2[0]->getStartDate()); /* 08:00 */
@@ -170,7 +168,6 @@ class TimeSlotHelperTest extends AbstractTestCase {
 
         // 08:00-15:00 / 11:00-18:00
         $res3 = TimeSlotHelper::fullJoinWithout(new TimeSlot($this->dateTimes[0], $this->dateTimes[2]), new TimeSlot($this->dateTimes[1], $this->dateTimes[3]));
-
         $this->assertCount(2, $res3);
 
         $this->assertEquals($this->dateTimes[0], $res3[0]->getStartDate()); /* 08:00 */
@@ -181,7 +178,6 @@ class TimeSlotHelperTest extends AbstractTestCase {
 
         // 11:00-15:00 / 08:00-18:00
         $res4 = TimeSlotHelper::fullJoinWithout(new TimeSlot($this->dateTimes[1], $this->dateTimes[2]), new TimeSlot($this->dateTimes[0], $this->dateTimes[3]));
-
         $this->assertCount(2, $res4);
 
         $this->assertEquals($this->dateTimes[0], $res4[0]->getStartDate()); /* 08:00 */
@@ -334,7 +330,6 @@ class TimeSlotHelperTest extends AbstractTestCase {
 
         // 08:00-18:00 / 11:00-15:00
         $res1 = TimeSlotHelper::leftJoinWithout(new TimeSlot($this->dateTimes[0], $this->dateTimes[3]), new TimeSlot($this->dateTimes[1], $this->dateTimes[2]));
-
         $this->assertCount(2, $res1);
 
         $this->assertEquals($this->dateTimes[0], $res1[0]->getStartDate()); /* 08:00 */
@@ -345,7 +340,6 @@ class TimeSlotHelperTest extends AbstractTestCase {
 
         // 11:00-18:00 / 08:00-15:00
         $res2 = TimeSlotHelper::leftJoinWithout(new TimeSlot($this->dateTimes[1], $this->dateTimes[3]), new TimeSlot($this->dateTimes[0], $this->dateTimes[2]));
-
         $this->assertCount(1, $res2);
 
         $this->assertEquals($this->dateTimes[2], $res2[0]->getStartDate()); /* 15:00 */
@@ -353,7 +347,6 @@ class TimeSlotHelperTest extends AbstractTestCase {
 
         // 08:00-15:00 / 11:00-18:00
         $res3 = TimeSlotHelper::leftJoinWithout(new TimeSlot($this->dateTimes[0], $this->dateTimes[2]), new TimeSlot($this->dateTimes[1], $this->dateTimes[3]));
-
         $this->assertCount(1, $res3);
 
         $this->assertEquals($this->dateTimes[0], $res3[0]->getStartDate()); /* 08:00 */
