@@ -14,8 +14,8 @@ declare(strict_types = 1);
 namespace WBW\Library\System\Tests\Model;
 
 use JsonSerializable;
+use WBW\Library\Common\Model\System\ProcessorInterface;
 use WBW\Library\System\Model\Processor;
-use WBW\Library\System\Model\ProcessorInterface;
 use WBW\Library\System\Tests\AbstractTestCase;
 
 /**
