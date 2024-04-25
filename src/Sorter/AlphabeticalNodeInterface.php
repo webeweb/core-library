@@ -11,15 +11,15 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Sorter\Model;
+namespace WBW\Library\Common\Sorter;
 
 /**
- * Alphabetical tree node interface.
+ * Alphabetical node interface.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Sorter\Model
+ * @package WBW\Library\Common\Sorter
  */
-interface AlphabeticalTreeNodeInterface {
+interface AlphabeticalNodeInterface {
 
     /**
      * Get the label.
@@ -31,7 +31,7 @@ interface AlphabeticalTreeNodeInterface {
     /**
      * Get the parent.
      *
-     * @return AlphabeticalTreeNodeInterface|null Returns the parent.
+     * @return AlphabeticalNodeInterface|null Returns the parent.
      */
-    public function getAlphabeticalTreeNodeParent(): ?AlphabeticalTreeNodeInterface;
+    public function getAlphabeticalTreeNodeParent(): ?AlphabeticalNodeInterface;
 }

@@ -13,6 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Symfony\Assets;
 
+use WBW\Library\Common\Sorter\AlphabeticalNodeInterface;
 use WBW\Library\Common\Traits\Booleans\BooleanActiveTrait;
 use WBW\Library\Common\Traits\Booleans\BooleanEnableTrait;
 use WBW\Library\Common\Traits\Booleans\BooleanVisibleTrait;
@@ -21,7 +22,6 @@ use WBW\Library\Common\Traits\Strings\StringIdTrait;
 use WBW\Library\Common\Traits\Strings\StringLabelTrait;
 use WBW\Library\Common\Traits\Strings\StringTargetTrait;
 use WBW\Library\Common\Traits\Strings\StringUriTrait;
-use WBW\Library\Sorter\Model\AlphabeticalTreeNodeInterface;
 use WBW\Library\Symfony\Serializer\JsonSerializer;
 
 /**
@@ -130,7 +130,7 @@ abstract class AbstractNavigationNode implements NavigationNodeInterface {
     /**
      * {@inheritDoc}
      */
-    public function getAlphabeticalTreeNodeParent(): ?AlphabeticalTreeNodeInterface {
+    public function getAlphabeticalTreeNodeParent(): ?AlphabeticalNodeInterface {
         return $this->getParent();
     }
 

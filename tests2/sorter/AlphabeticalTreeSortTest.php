@@ -13,8 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Sorter\Tests;
 
+use WBW\Library\Common\Sorter\AlphabeticalNodeInterface;
 use WBW\Library\Sorter\AlphabeticalTreeSort;
-use WBW\Library\Sorter\Model\AlphabeticalTreeNodeInterface;
 use WBW\Library\Sorter\Tests\Fixtures\TestFixtures;
 
 /**
@@ -28,7 +28,7 @@ class AlphabeticalTreeSortTest extends AbstractTestCase {
     /**
      * Nodes.
      *
-     * @var AlphabeticalTreeNodeInterface[]
+     * @var AlphabeticalNodeInterface[]
      */
     private $nodes;
 

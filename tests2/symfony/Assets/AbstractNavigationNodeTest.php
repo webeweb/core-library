@@ -15,7 +15,7 @@ namespace WBW\Library\Symfony\Tests\Assets;
 
 use JsonSerializable;
 use WBW\Library\Common\Serializer\SerializerKeys;
-use WBW\Library\Sorter\Model\AlphabeticalTreeNodeInterface;
+use WBW\Library\Common\Sorter\AlphabeticalNodeInterface;
 use WBW\Library\Symfony\Assets\Navigation\NavigationNode;
 use WBW\Library\Symfony\Assets\NavigationNodeInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
@@ -255,7 +255,7 @@ class AbstractNavigationNodeTest extends AbstractTestCase {
         $obj = new TestNavigationNode("id");
 
         $this->assertInstanceOf(JsonSerializable::class, $obj);
-        $this->assertInstanceOf(AlphabeticalTreeNodeInterface::class, $obj);
+        $this->assertInstanceOf(AlphabeticalNodeInterface::class, $obj);
         $this->assertInstanceOf(NavigationNodeInterface::class, $obj);
 
         $this->assertFalse($obj->getActive());

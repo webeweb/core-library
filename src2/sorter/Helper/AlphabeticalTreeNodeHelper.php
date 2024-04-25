@@ -13,8 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Sorter\Helper;
 
+use WBW\Library\Common\Sorter\AlphabeticalNodeInterface;
 use WBW\Library\Sorter\AlphabeticalTreeSort;
-use WBW\Library\Sorter\Model\AlphabeticalTreeNodeInterface;
 
 /**
  * Alphabetical tree node helper.
@@ -27,8 +27,8 @@ class AlphabeticalTreeNodeHelper {
     /**
      * Create the choices.
      *
-     * @param AlphabeticalTreeNodeInterface[] $choices The choices.
-     * @return array<string,AlphabeticalTreeNodeInterface[]> Returns the choices.
+     * @param AlphabeticalNodeInterface[] $choices The choices.
+     * @return array<string,AlphabeticalNodeInterface[]> Returns the choices.
      */
     public static function createChoices(array $choices): array {
 
@@ -56,20 +56,20 @@ class AlphabeticalTreeNodeHelper {
     /**
      * Get the level.
      *
-     * @param AlphabeticalTreeNodeInterface $node The node.
+     * @param AlphabeticalNodeInterface $node The node.
      * @return int Returns the level.
      */
-    public static function getLevel(AlphabeticalTreeNodeInterface $node): int {
+    public static function getLevel(AlphabeticalNodeInterface $node): int {
         return count(static::getPath($node)) - 1;
     }
 
     /**
      * Get the path.
      *
-     * @param AlphabeticalTreeNodeInterface $node The node.
-     * @return AlphabeticalTreeNodeInterface[] Returns the path.
+     * @param AlphabeticalNodeInterface $node The node.
+     * @return AlphabeticalNodeInterface[] Returns the path.
      */
-    public static function getPath(AlphabeticalTreeNodeInterface $node): array {
+    public static function getPath(AlphabeticalNodeInterface $node): array {
 
         $path = [];
 
@@ -86,7 +86,7 @@ class AlphabeticalTreeNodeHelper {
     /**
      * Remove orphan.
      *
-     * @param AlphabeticalTreeNodeInterface[] $nodes The nodes.
+     * @param AlphabeticalNodeInterface[] $nodes The nodes.
      * @return void
      */
     public static function removeOrphan(array &$nodes = []): void {
@@ -97,7 +97,7 @@ class AlphabeticalTreeNodeHelper {
 
             foreach ($nodes as $k => $v) {
 
-                if (true === ($v instanceof AlphabeticalTreeNodeInterface) && null !== $v->getAlphabeticalTreeNodeParent() && false === in_array($v->getAlphabeticalTreeNodeParent(), $nodes)) {
+                if (true === ($v instanceof AlphabeticalNodeInterface) && null !== $v->getAlphabeticalTreeNodeParent() && false === in_array($v->getAlphabeticalTreeNodeParent(), $nodes)) {
                     unset($nodes[$k]);
                     $found = true;
                 }
@@ -108,8 +108,8 @@ class AlphabeticalTreeNodeHelper {
     /**
      * Sort.
      *
-     * @param AlphabeticalTreeNodeInterface[] $nodes The nodes.
-     * @return AlphabeticalTreeNodeInterface[] Returns the sorted nodes.
+     * @param AlphabeticalNodeInterface[] $nodes The nodes.
+     * @return AlphabeticalNodeInterface[] Returns the sorted nodes.
      */
     public static function sort(array $nodes): array {
 

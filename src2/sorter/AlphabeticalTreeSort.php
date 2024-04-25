@@ -13,8 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Sorter;
 
+use WBW\Library\Common\Sorter\AlphabeticalNodeInterface;
 use WBW\Library\Sorter\Helper\AlphabeticalTreeNodeHelper;
-use WBW\Library\Sorter\Model\AlphabeticalTreeNodeInterface;
 
 /**
  * Alphabetical tree sort.
@@ -27,14 +27,14 @@ class AlphabeticalTreeSort {
     /**
      * Nodes.
      *
-     * @var AlphabeticalTreeNodeInterface[]
+     * @var AlphabeticalNodeInterface[]
      */
     private $nodes;
 
     /**
      * Constructor.
      *
-     * @param AlphabeticalTreeNodeInterface[] $nodes The nodes.
+     * @param AlphabeticalNodeInterface[] $nodes The nodes.
      */
     public function __construct(array $nodes) {
         $this->setNodes($nodes);
@@ -43,14 +43,14 @@ class AlphabeticalTreeSort {
     /**
      * Compare two nodes.
      *
-     * @param AlphabeticalTreeNodeInterface $a The node A.
-     * @param AlphabeticalTreeNodeInterface $b The node B.
+     * @param AlphabeticalNodeInterface $a The node A.
+     * @param AlphabeticalNodeInterface $b The node B.
      * @return int Returns
      *  < O if the node A is lesser than node B
      *  > 0 if the node A is greater than node B
      *  = 0 if the two nodes are equals
      */
-    protected function compare(AlphabeticalTreeNodeInterface $a, AlphabeticalTreeNodeInterface $b): int {
+    protected function compare(AlphabeticalNodeInterface $a, AlphabeticalNodeInterface $b): int {
 
         $pathA = AlphabeticalTreeNodeHelper::getPath($a);
         $pathB = AlphabeticalTreeNodeHelper::getPath($b);
@@ -73,7 +73,7 @@ class AlphabeticalTreeSort {
     /**
      * Get the nodes.
      *
-     * @return AlphabeticalTreeNodeInterface[] Returns the nodes.
+     * @return AlphabeticalNodeInterface[] Returns the nodes.
      */
     public function getNodes(): array {
         return $this->nodes;
@@ -82,7 +82,7 @@ class AlphabeticalTreeSort {
     /**
      * Set the nodes.
      *
-     * @param AlphabeticalTreeNodeInterface[] $nodes The nodes.
+     * @param AlphabeticalNodeInterface[] $nodes The nodes.
      * @return AlphabeticalTreeSort Returns this alphabetical tree sort.
      */
     protected function setNodes(array $nodes): AlphabeticalTreeSort {

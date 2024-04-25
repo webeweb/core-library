@@ -14,7 +14,7 @@ declare(strict_types = 1);
 namespace WBW\Library\Symfony\Assets;
 
 use JsonSerializable;
-use WBW\Library\Sorter\Model\AlphabeticalTreeNodeInterface;
+use WBW\Library\Common\Sorter\AlphabeticalNodeInterface;
 
 /**
  * Abstract navigation node.
@@ -23,7 +23,7 @@ use WBW\Library\Sorter\Model\AlphabeticalTreeNodeInterface;
  * @package WBW\Library\Symfony\Assets
  * @abstract
  */
-interface NavigationNodeInterface extends AlphabeticalTreeNodeInterface, JsonSerializable {
+interface NavigationNodeInterface extends AlphabeticalNodeInterface, JsonSerializable {
 
     /**
      * Default HREF.
