@@ -15,8 +15,8 @@ namespace WBW\Library\System\Serializer;
 
 use WBW\Library\Common\Model\System\CpuInterface;
 use WBW\Library\Common\Model\System\HardDiskInterface;
+use WBW\Library\Common\Model\System\MemoryInterface;
 use WBW\Library\Common\Serializer\SerializerKeys;
-use WBW\Library\System\Model\MemoryInterface;
 use WBW\Library\System\Model\NetworkCardInterface;
 use WBW\Library\System\Model\NetworkInterface;
 use WBW\Library\System\Model\OperatingSystemInterface;

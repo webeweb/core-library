@@ -14,8 +14,8 @@ declare(strict_types = 1);
 namespace WBW\Library\System\Tests\Model;
 
 use JsonSerializable;
+use WBW\Library\Common\Model\System\MemoryInterface;
 use WBW\Library\System\Model\Memory;
-use WBW\Library\System\Model\MemoryInterface;
 use WBW\Library\System\Tests\AbstractTestCase;
 
 /**
