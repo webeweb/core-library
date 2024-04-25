@@ -11,15 +11,15 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\System\Tests\Fixtures\Model;
+namespace WBW\Library\Common\Tests\Fixtures\Model\System;
 
-use WBW\Library\System\Model\NetworkCardTrait;
+use WBW\Library\Common\Model\System\NetworkCardTrait;
 
 /**
  * Test network card tait.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\System\Tests\Fixtures\Model
+ * @package WBW\Library\Common\Tests\Fixtures\Model\System
  */
 class TestNetworkCardTrait {
 
