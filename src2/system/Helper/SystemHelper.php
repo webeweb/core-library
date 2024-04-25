@@ -20,6 +20,7 @@ use WBW\Library\Common\Model\System\MemoryInterface;
 use WBW\Library\Common\Model\System\NetworkCardInterface;
 use WBW\Library\Common\Model\System\NetworkInterface;
 use WBW\Library\Common\Model\System\OperatingSystemInterface;
+use WBW\Library\Common\Model\System\Processor;
 use WBW\Library\Common\Model\System\ProcessorInterface;
 use WBW\Library\Common\Model\System\PropertyInterface;
 use WBW\Library\System\Model\Cpu;
@@ -28,7 +29,6 @@ use WBW\Library\System\Model\Memory;
 use WBW\Library\System\Model\Network;
 use WBW\Library\System\Model\NetworkCard;
 use WBW\Library\System\Model\OperatingSystem;
-use WBW\Library\System\Model\Processor;
 
 /**
  * System helper.

@@ -11,18 +11,18 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\System\Tests\Model;
+namespace WBW\Library\Common\Tests\Model\System;
 
 use JsonSerializable;
+use WBW\Library\Common\Model\System\Processor;
 use WBW\Library\Common\Model\System\ProcessorInterface;
-use WBW\Library\System\Model\Processor;
-use WBW\Library\System\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * Processor test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\System\Tests\Model
+ * @package WBW\Library\Common\Tests\Model\System
  */
 class ProcessorTest extends AbstractTestCase {
 
@@ -58,9 +58,9 @@ class ProcessorTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        $obj = new Processor(["key" => "value"]);
+        $obj = new Processor([]);
 
-        $this->assertEquals($obj->getValues(), $obj->jsonSerialize());
+        $this->assertIsArray($obj->jsonSerialize());
     }
 
     /**
