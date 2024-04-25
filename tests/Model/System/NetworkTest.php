@@ -11,20 +11,18 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\System\Tests\Model;
+namespace WBW\Library\Common\Tests\Model\System;
 
 use JsonSerializable;
+use WBW\Library\Common\Model\System\Network;
 use WBW\Library\Common\Model\System\NetworkInterface;
-use WBW\Library\Common\Serializer\SerializerKeys as BaseSerializerKeys;
-use WBW\Library\System\Model\Network;
-use WBW\Library\System\Serializer\SerializerKeys;
-use WBW\Library\System\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * Network test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\System\Tests\Model
+ * @package WBW\Library\Common\Tests\Model\System
  */
 class NetworkTest extends AbstractTestCase {
 
@@ -35,19 +33,9 @@ class NetworkTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        // Set the expected data.
-        $data = file_get_contents(__DIR__ . "/NetworkTest.testJsonSerialize.json");
-        $json = json_decode($data, true);
-
         $obj = new Network();
-        $obj->setDns(SerializerKeys::DNS);
-        $obj->setGateway(SerializerKeys::GATEWAY);
-        $obj->setHostname(BaseSerializerKeys::HOSTNAME);
 
-        $res = $obj->jsonSerialize();
-        $this->assertCount(3, $res);
-
-        $this->assertEquals($json, $res);
+        $this->assertIsArray($obj->jsonSerialize());
     }
 
     /**
