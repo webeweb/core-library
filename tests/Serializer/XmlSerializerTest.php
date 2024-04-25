@@ -11,19 +11,19 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Serializer\Tests\Helper;
+namespace WBW\Library\Common\Tests\Serializer;
 
-use WBW\Library\Serializer\Helper\XmlSerializerHelper;
-use WBW\Library\Serializer\Tests\AbstractTestCase;
-use WBW\Library\Serializer\Tests\Fixtures\Model\TestXmlSerializable;
+use WBW\Library\Common\Serializer\XmlSerializer;
+use WBW\Library\Common\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\Fixtures\Serializer\TestXmlSerializable;
 
 /**
- * XML serializer helper test.
+ * XML serializer test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Serializer\Tests\Helper
+ * @package WBW\Library\Common\Tests\Serializer
  */
-class XmlSerializerHelperTest extends AbstractTestCase {
+class XmlSerializerTest extends AbstractTestCase {
 
     /**
      * Test serializeArray()
@@ -38,7 +38,7 @@ class XmlSerializerHelperTest extends AbstractTestCase {
             null,
         ];
 
-        $res = XmlSerializerHelper::xmlSerializeArray($models);
+        $res = XmlSerializer::xmlSerializeArray($models);
         $this->assertEquals("", $res);
     }
 
@@ -49,9 +49,9 @@ class XmlSerializerHelperTest extends AbstractTestCase {
      */
     public function testSerializeValue(): void {
 
-        $this->assertNull(XmlSerializerHelper::xmlSerializeValue(null));
+        $this->assertNull(XmlSerializer::xmlSerializeValue(null));
 
-        $res = XmlSerializerHelper::xmlSerializeValue('<?xml version="1.0" encoding="utf-8"?>');
+        $res = XmlSerializer::xmlSerializeValue('<?xml version="1.0" encoding="utf-8"?>');
         $this->assertEquals("&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;", $res);
     }
 }

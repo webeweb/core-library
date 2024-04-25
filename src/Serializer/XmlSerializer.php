@@ -11,17 +11,15 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Serializer\Helper;
-
-use WBW\Library\Common\Serializer\XmlSerializable;
+namespace WBW\Library\Common\Serializer;
 
 /**
- * XML serializer helper.
+ * XML serializer.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Serializer\Helper
+ * @package WBW\Library\Common\Helper
  */
-class XmlSerializerHelper extends SerializerHelper {
+class XmlSerializer extends AbstractSerializer {
 
     /**
      * Serialize an array.
