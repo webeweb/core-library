@@ -1,9 +1,0 @@
-{
-    "available": "available",
-    "fileSystem": "fileSystem",
-    "mountedOn": "mountedOn",
-    "name": "name",
-    "type": "type",
-    "usePercent": "usePercent",
-    "used": "used"
-}
