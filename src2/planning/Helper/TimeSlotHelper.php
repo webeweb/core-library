@@ -14,6 +14,7 @@ declare(strict_types = 1);
 namespace WBW\Library\Planning\Helper;
 
 use WBW\Library\Common\Helper\DateTimeHelper;
+use WBW\Library\Common\Helper\Planning\TimeSlotFunctor;
 use WBW\Library\Common\Model\Planning\TimeSlot;
 use WBW\Library\Common\Sorter\QuickSort;
 

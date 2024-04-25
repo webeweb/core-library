@@ -11,7 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Planning\Helper;
+namespace WBW\Library\Common\Helper\Planning;
 
 use WBW\Library\Common\Helper\DateTimeHelper;
 use WBW\Library\Common\Sorter\FunctorInterface;
@@ -20,7 +20,7 @@ use WBW\Library\Common\Sorter\FunctorInterface;
  * Time slot functor.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Planning\Helper
+ * @package WBW\Library\Common\Helper\Planning
  */
 class TimeSlotFunctor implements FunctorInterface {
 
