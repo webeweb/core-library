@@ -13,6 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\System\Model;
 
+use WBW\Library\Common\Model\System\NetworkInterface;
 use WBW\Library\System\Serializer\JsonSerializer;
 
 /**
