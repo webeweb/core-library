@@ -11,7 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Types\Helper;
+namespace WBW\Library\Common\Helper;
 
 use DateTime;
 use InvalidArgumentException;
@@ -19,14 +19,12 @@ use Symfony\Component\Yaml\Yaml;
 use Throwable;
 use WBW\Library\Common\Exception\DateArgumentException;
 use WBW\Library\Common\Factory\DateTimeFactory;
-use WBW\Library\Common\Helper\DateTimeMethod;
-use WBW\Library\Common\Helper\DateTimeZoneHelper;
 
 /**
  * Date/time helper.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Types\Helper
+ * @package WBW\Library\Common\Helper
  */
 class DateTimeHelper extends DateTimeMethod {
 

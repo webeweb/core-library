@@ -16,8 +16,8 @@ namespace WBW\Library\Common\Factory;
 use DateTime;
 use InvalidArgumentException;
 use Throwable;
+use WBW\Library\Common\Helper\DateTimeHelper;
 use WBW\Library\Common\Helper\DateTimeMethod;
-use WBW\Library\Types\Helper\DateTimeHelper;
 
 /**
  * Date/time factory.

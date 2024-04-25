@@ -14,7 +14,7 @@ declare(strict_types = 1);
 namespace WBW\Library\Symfony\Renderer\DateTimes;
 
 use DateTime;
-use WBW\Library\Types\Helper\DateTimeHelper;
+use WBW\Library\Common\Helper\DateTimeHelper;
 
 /**
  * Date/time renderer trait.
