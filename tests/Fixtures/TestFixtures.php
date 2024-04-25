@@ -13,6 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Tests\Fixtures;
 
+use DateTime;
+use Throwable;
 use WBW\Library\Common\Tests\Fixtures\Sorter\TestAlphabeticalNode;
 
 /**
@@ -55,5 +57,21 @@ class TestFixtures {
         $fixtures[4]->addNode($fixtures[2]);
 
         return $fixtures;
+    }
+
+    /**
+     * Get the time slot date/times.
+     *
+     * @return DateTime[] Returns the time slot date/times.
+     * @throws Throwable Throws an exception if an error occurs.
+     */
+    public static function getTimeSlotDateTimes(): array {
+
+        return [
+            new DateTime("2018-08-22 08:00:00"),
+            new DateTime("2018-08-22 11:00:00"),
+            new DateTime("2018-08-22 15:00:00"),
+            new DateTime("2018-08-22 18:00:00"),
+        ];
     }
 }

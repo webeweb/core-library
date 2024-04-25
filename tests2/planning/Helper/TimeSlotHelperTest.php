@@ -15,8 +15,8 @@ namespace WBW\Library\Planning\Tests\Helper;
 
 use DateTime;
 use Throwable;
+use WBW\Library\Common\Model\Planning\TimeSlot;
 use WBW\Library\Planning\Helper\TimeSlotHelper;
-use WBW\Library\Planning\Model\TimeSlot;
 use WBW\Library\Planning\Tests\AbstractTestCase;
 use WBW\Library\Planning\Tests\Fixtures\TestFixtures;
 

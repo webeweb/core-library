@@ -11,7 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Planning\Model;
+namespace WBW\Library\Common\Model\Planning;
 
 use DateTime;
 use InvalidArgumentException;
@@ -22,28 +22,28 @@ use WBW\Library\Planning\Helper\TimeSlotHelper;
  * Time slot.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Planning\Model
+ * @package WBW\Library\Common\Model\Planning
  */
 class TimeSlot {
 
     /**
      * End date.
      *
-     * @var DateTime
+     * @var DateTime|null
      */
     private $endDate;
 
     /**
      * StartDate.
      *
-     * @var DateTime
+     * @var DateTime|null
      */
     private $startDate;
 
     /**
      * Time slots.
      *
-     * @var TimeSlot[]
+     * @var TimeSlot[]|null
      */
     private $timeSlots;
 

@@ -11,41 +11,41 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Planning\Tests\Model;
+namespace WBW\Library\Common\Tests\Model\Planning;
 
 use DateTime;
 use InvalidArgumentException;
 use Throwable;
-use WBW\Library\Planning\Model\TimeSlot;
-use WBW\Library\Planning\Tests\AbstractTestCase;
-use WBW\Library\Planning\Tests\Fixtures\TestFixtures;
+use WBW\Library\Common\Model\Planning\TimeSlot;
+use WBW\Library\Common\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\Fixtures\TestFixtures;
 
 /**
  * Time slot test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Planning\Tests\Model
+ * @package WBW\Library\Common\Tests\Model\Planning
  */
 class TimeSlotTest extends AbstractTestCase {
 
     /**
-     * Dates.
+     * Date/times.
      *
-     * @var DateTime[]
+     * @var DateTime[]|null
      */
     private $dateTimes;
 
     /**
      * End date.
      *
-     * @var DateTime
+     * @var DateTime|null
      */
     private $endDate;
 
     /**
      * Start date.
      *
-     * @var DateTime
+     * @var DateTime|null
      */
     private $startDate;
 
@@ -56,13 +56,13 @@ class TimeSlotTest extends AbstractTestCase {
     protected function setUp(): void {
         parent::setUp();
 
-        // Set Date/times mock.
-        $this->dateTimes = TestFixtures::getDateTimes();
+        // Set date/times mock.
+        $this->dateTimes = TestFixtures::getTimeSlotDateTimes();
 
-        // Set an End date mock.
+        // Set an end date mock.
         $this->endDate = new DateTime("2018-08-06 20:30");
 
-        // Set a Start date mock.
+        // Set a start date mock.
         $this->startDate = new DateTime("2018-08-06 08:30");
     }
 
