@@ -11,19 +11,19 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\System\Tests\Helper;
+namespace WBW\Library\Common\Tests\Utility;
 
 use RuntimeException;
 use Throwable;
 use WBW\Library\Common\Model\System\PropertyInterface;
-use WBW\Library\System\Helper\SystemHelper;
-use WBW\Library\System\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\AbstractTestCase;
+use WBW\Library\Common\Utility\SystemUtility;
 
 /**
- * System helper test.
+ * System utility test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\System\Tests\Helper
+ * @package WBW\Library\Common\Tests\Utility
  */
 class SystemHelperTest extends AbstractTestCase {
 
@@ -35,9 +35,9 @@ class SystemHelperTest extends AbstractTestCase {
     public function testIsUnix(): void {
 
         if ("\\" !== DIRECTORY_SEPARATOR) {
-            $this->assertTrue(SystemHelper::isUnix());
+            $this->assertTrue(SystemUtility::isUnix());
         } else {
-            $this->assertFalse(SystemHelper::isUnix());
+            $this->assertFalse(SystemUtility::isUnix());
         }
     }
 
@@ -49,9 +49,9 @@ class SystemHelperTest extends AbstractTestCase {
     public function testIsWindows(): void {
 
         if ("\\" !== DIRECTORY_SEPARATOR) {
-            $this->assertFalse(SystemHelper::isWindows());
+            $this->assertFalse(SystemUtility::isWindows());
         } else {
-            $this->assertTrue(SystemHelper::isWindows());
+            $this->assertTrue(SystemUtility::isWindows());
         }
     }
 
@@ -64,7 +64,7 @@ class SystemHelperTest extends AbstractTestCase {
 
         try {
 
-            $obj = SystemHelper::retrieveCpu();
+            $obj = SystemUtility::retrieveCpu();
 
             $this->assertGreaterThanOrEqual(0, $obj->getUs());
             $this->assertGreaterThanOrEqual(0, $obj->getSy());
@@ -90,7 +90,7 @@ class SystemHelperTest extends AbstractTestCase {
 
         try {
 
-            $this->assertNotNull(SystemHelper::retrieveDate());
+            $this->assertNotNull(SystemUtility::retrieveDate());
         } catch (Throwable $ex) {
 
             $this->assertInstanceOf(RuntimeException::class, $ex);
@@ -107,7 +107,7 @@ class SystemHelperTest extends AbstractTestCase {
 
         try {
 
-            $res = SystemHelper::retrieveHardDisks();
+            $res = SystemUtility::retrieveHardDisks();
 
             $this->assertGreaterThanOrEqual(1, count($res));
         } catch (Throwable $ex) {
@@ -126,7 +126,7 @@ class SystemHelperTest extends AbstractTestCase {
 
         try {
 
-            $this->assertNotNull(SystemHelper::retrieveHostname());
+            $this->assertNotNull(SystemUtility::retrieveHostname());
         } catch (Throwable $ex) {
 
             $this->assertInstanceOf(RuntimeException::class, $ex);
@@ -143,7 +143,7 @@ class SystemHelperTest extends AbstractTestCase {
 
         try {
 
-            $obj = SystemHelper::retrieveMemory();
+            $obj = SystemUtility::retrieveMemory();
 
             $this->assertNotCount(0, $obj->getValues());
 
@@ -172,7 +172,7 @@ class SystemHelperTest extends AbstractTestCase {
 
         try {
 
-            $obj = SystemHelper::retrieveNetwork();
+            $obj = SystemUtility::retrieveNetwork();
 
             $this->assertNotNull($obj->getHostname());
             $this->assertNotNull($obj->getGateway());
@@ -193,7 +193,7 @@ class SystemHelperTest extends AbstractTestCase {
 
         try {
 
-            $obj = SystemHelper::retrieveNetworkCard("lo");
+            $obj = SystemUtility::retrieveNetworkCard("lo");
 
             $this->assertNotNull($obj->getName());
             $this->assertNotNull($obj->getDuplex());
@@ -218,7 +218,7 @@ class SystemHelperTest extends AbstractTestCase {
 
         try {
 
-            $res = SystemHelper::retrieveNetworkCards();
+            $res = SystemUtility::retrieveNetworkCards();
 
             $this->assertGreaterThan(1, count($res));
         } catch (Throwable $ex) {
@@ -237,7 +237,7 @@ class SystemHelperTest extends AbstractTestCase {
 
         try {
 
-            $obj = SystemHelper::retrieveOperatingSystem();
+            $obj = SystemUtility::retrieveOperatingSystem();
 
             $this->assertNotNull($obj->getCodename());
             $this->assertNotNull($obj->getDescription());
@@ -259,7 +259,7 @@ class SystemHelperTest extends AbstractTestCase {
 
         try {
 
-            $res = SystemHelper::retrieveProcessors();
+            $res = SystemUtility::retrieveProcessors();
 
             $this->assertGreaterThanOrEqual(1, count($res));
 
@@ -285,7 +285,7 @@ class SystemHelperTest extends AbstractTestCase {
      */
     public function testRetrieveProperties(): void {
 
-        $res = SystemHelper::retrieveProperties();
+        $res = SystemUtility::retrieveProperties();
         $this->assertCount(14, $res);
 
         $this->assertArrayHasKey(PropertyInterface::FILE_SEPARATOR, $res);
@@ -313,7 +313,7 @@ class SystemHelperTest extends AbstractTestCase {
 
         try {
 
-            $this->assertNotNull(SystemHelper::retrieveUptime());
+            $this->assertNotNull(SystemUtility::retrieveUptime());
         } catch (Throwable $ex) {
 
             $this->assertInstanceOf(RuntimeException::class, $ex);

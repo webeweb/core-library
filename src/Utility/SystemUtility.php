@@ -11,7 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\System\Helper;
+namespace WBW\Library\Common\Utility;
 
 use RuntimeException;
 use WBW\Library\Common\Model\System\Cpu;
@@ -31,12 +31,12 @@ use WBW\Library\Common\Model\System\ProcessorInterface;
 use WBW\Library\Common\Model\System\PropertyInterface;
 
 /**
- * System helper.
+ * System utility.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\System\Helper
+ * @package WBW\Library\Common\Utility
  */
-class SystemHelper {
+class SystemUtility {
 
     /**
      * Determine if this system is supported.

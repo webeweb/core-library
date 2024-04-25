@@ -22,7 +22,7 @@ use WBW\Library\Common\Model\System\NetworkCardInterface;
 use WBW\Library\Common\Model\System\NetworkInterface;
 use WBW\Library\Common\Model\System\OperatingSystemInterface;
 use WBW\Library\Common\Model\System\ProcessorInterface;
-use WBW\Library\System\Helper\SystemHelper;
+use WBW\Library\Common\Utility\SystemUtility;
 
 /**
  * System.
@@ -39,7 +39,7 @@ class System {
      * @throws RuntimeException Throws a runtime exception.
      */
     public static function getCpu(): CpuInterface {
-        return SystemHelper::retrieveCpu();
+        return SystemUtility::retrieveCpu();
     }
 
     /**
@@ -49,7 +49,7 @@ class System {
      * @throws RuntimeException Throws a runtime exception.
      */
     public static function getDate(): string {
-        return SystemHelper::retrieveDate();
+        return SystemUtility::retrieveDate();
     }
 
     /**
@@ -59,7 +59,7 @@ class System {
      * @throws RuntimeException Throws a runtime exception.
      */
     public static function getHardDisks(): array {
-        return SystemHelper::retrieveHardDisks();
+        return SystemUtility::retrieveHardDisks();
     }
 
     /**
@@ -69,7 +69,7 @@ class System {
      * @throws RuntimeException Throws a runtime exception.
      */
     public static function getHostname(): string {
-        return SystemHelper::retrieveHostname();
+        return SystemUtility::retrieveHostname();
     }
 
     /**
@@ -79,7 +79,7 @@ class System {
      * @throws RuntimeException Throws a runtime exception.
      */
     public static function getMemory(): MemoryInterface {
-        return SystemHelper::retrieveMemory();
+        return SystemUtility::retrieveMemory();
     }
 
     /**
@@ -89,7 +89,7 @@ class System {
      * @throws RuntimeException Throws a runtime exception.
      */
     public static function getNetwork(): NetworkInterface {
-        return SystemHelper::retrieveNetwork();
+        return SystemUtility::retrieveNetwork();
     }
 
     /**
@@ -99,7 +99,7 @@ class System {
      * @throws RuntimeException Throws a runtime exception.
      */
     public static function getNetworkCards(): array {
-        return SystemHelper::retrieveNetworkCards();
+        return SystemUtility::retrieveNetworkCards();
     }
 
     /**
@@ -109,7 +109,7 @@ class System {
      * @throws RuntimeException Throws a runtime exception.
      */
     public static function getOperatingSystem(): OperatingSystemInterface {
-        return SystemHelper::retrieveOperatingSystem();
+        return SystemUtility::retrieveOperatingSystem();
     }
 
     /**
@@ -119,7 +119,7 @@ class System {
      * @throws RuntimeException Throws a runtime exception.
      */
     public static function getProcessors(): array {
-        return SystemHelper::retrieveProcessors();
+        return SystemUtility::retrieveProcessors();
     }
 
     /**
@@ -128,7 +128,7 @@ class System {
      * @return string[] Returns the properties.
      */
     public static function getProperties(): array {
-        return SystemHelper::retrieveProperties();
+        return SystemUtility::retrieveProperties();
     }
 
     /**
@@ -139,7 +139,7 @@ class System {
      */
     public static function getProperty(string $name): ?string {
 
-        $properties = SystemHelper::retrieveProperties();
+        $properties = SystemUtility::retrieveProperties();
 
         return ArrayHelper::get($properties, $name);
     }
@@ -151,7 +151,7 @@ class System {
      * @throws RuntimeException Throws a runtime exception.
      */
     public static function getUptime(): string {
-        return SystemHelper::retrieveUptime();
+        return SystemUtility::retrieveUptime();
     }
 
     /**
@@ -160,7 +160,7 @@ class System {
      * @return bool Returns true in case of success, false otherwise.
      */
     public static function isUnix(): bool {
-        return SystemHelper::isUnix();
+        return SystemUtility::isUnix();
     }
 
     /**
@@ -169,6 +169,6 @@ class System {
      * @return bool Returns true in case of success, false otherwise.
      */
     public static function isWindows(): bool {
-        return SystemHelper::isWindows();
+        return SystemUtility::isWindows();
     }
 }
