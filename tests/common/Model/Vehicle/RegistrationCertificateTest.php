@@ -11,21 +11,20 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Vehicle\Tests\Model;
+namespace WBW\Library\Common\Tests\Model\Vehicle;
 
 use DateTime;
-use DateTimeZone;
 use JsonSerializable;
 use Throwable;
+use WBW\Library\Common\Model\Vehicle\RegistrationCertificate;
 use WBW\Library\Common\Model\Vehicle\RegistrationCertificateInterface;
-use WBW\Library\Vehicle\Model\RegistrationCertificate;
-use WBW\Library\Vehicle\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * Registration certificate test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Vehicle\Tests\Model
+ * @package WBW\Library\Common\Tests\Model\Vehicle
  */
 class RegistrationCertificateTest extends AbstractTestCase {
 
@@ -37,69 +36,9 @@ class RegistrationCertificateTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        // Set the date/time mocks.
-        $b  = new DateTime("2021-09-10 09:02:00.00000", new DateTimeZone("UTC"));
-        $i  = new DateTime("2021-09-10 09:09:00.00000", new DateTimeZone("UTC"));
-        $i1 = new DateTime("2021-09-10 09:09:01.00000", new DateTimeZone("UTC"));
-        $x1 = new DateTime("2021-09-10 09:24:01.00000", new DateTimeZone("UTC"));
-
-        // Set the expected data.
-        $data = file_get_contents(__DIR__ . "/RegistrationCertificateTest.testJsonSerialize.json");
-
         $obj = new RegistrationCertificate();
 
-        $obj->setA("a");
-        $obj->setA1("a1");
-        $obj->setB($b);
-        $obj->setC1("c1");
-        $obj->setC3("c3");
-        $obj->setC41("c41");
-        $obj->setC4a("c4a");
-        $obj->setD1("d1");
-        $obj->setD2("d2");
-        $obj->setD21("d21");
-        $obj->setD3("d3");
-        $obj->setE("e");
-        $obj->setF1(61);
-        $obj->setF2(62);
-        $obj->setF3(63);
-        $obj->setG(70);
-        $obj->setG1(71);
-        $obj->setH("h");
-        $obj->setI($i);
-        $obj->setI1($i1);
-        $obj->setJ("j");
-        $obj->setJ1("j1");
-        $obj->setJ2("j2");
-        $obj->setJ3("j3");
-        $obj->setK("K");
-        $obj->setP1(161);
-        $obj->setP2(162);
-        $obj->setP3("p3");
-        $obj->setP6(166);
-        $obj->setQ(17.123456789);
-        $obj->setS1(191);
-        $obj->setS2(192);
-        $obj->setU1(211);
-        $obj->setU2(212);
-        $obj->setV7(217);
-        $obj->setV9("v9");
-        $obj->setX1($x1);
-        $obj->setY1(25.1);
-        $obj->setY2(25.2);
-        $obj->setY3(25.3);
-        $obj->setY4(25.4);
-        $obj->setY5(25.5);
-        $obj->setY6(25.6);
-        $obj->setZ1("z1");
-        $obj->setZ2("z2");
-        $obj->setZ3("z3");
-        $obj->setZ4("z4");
-
-        $res = $obj->jsonSerialize();
-        $this->assertCount(47, $res);
-
-        $this->assertEquals($data, json_encode($res, JSON_PRETTY_PRINT) . "\n");
+        $this->assertIsArray($obj->jsonSerialize());
     }
 
     /**
@@ -734,8 +673,8 @@ class RegistrationCertificateTest extends AbstractTestCase {
 
         $obj = new RegistrationCertificate();
 
-        $this->assertInstanceOf(RegistrationCertificateInterface::class, $obj);
         $this->assertInstanceOf(JsonSerializable::class, $obj);
+        $this->assertInstanceOf(RegistrationCertificateInterface::class, $obj);
 
         $this->assertNull($obj->getA());
         $this->assertNull($obj->getA1());

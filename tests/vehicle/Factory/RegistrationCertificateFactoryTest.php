@@ -16,8 +16,8 @@ namespace WBW\Library\Vehicle\Tests\Factory;
 use DateTime;
 use DateTimeZone;
 use Throwable;
+use WBW\Library\Common\Model\Vehicle\RegistrationCertificate;
 use WBW\Library\Vehicle\Factory\RegistrationCertificateFactory;
-use WBW\Library\Vehicle\Model\RegistrationCertificate;
 use WBW\Library\Vehicle\Tests\AbstractTestCase;
 
 /**

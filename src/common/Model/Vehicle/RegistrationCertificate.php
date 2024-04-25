@@ -11,17 +11,16 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Vehicle\Model;
+namespace WBW\Library\Common\Model\Vehicle;
 
 use DateTime;
-use WBW\Library\Common\Model\Vehicle\RegistrationCertificateInterface;
 use WBW\Library\Common\Serializer\Vehicle\JsonSerializer;
 
 /**
  * Registration certificate.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Vehicle\Model
+ * @package WBW\Library\Common\Model\Vehicle
  */
 class RegistrationCertificate implements RegistrationCertificateInterface {
 
