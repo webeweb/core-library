@@ -11,9 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\System\Model;
-
-use WBW\Library\Common\Model\System\ProcessorInterface;
+namespace WBW\Library\Common\Model\System;
 
 /**
  * Processor trait.
