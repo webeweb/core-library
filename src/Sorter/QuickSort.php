@@ -11,15 +11,13 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Sorter;
-
-use WBW\Library\Common\Sorter\FunctorInterface;
+namespace WBW\Library\Common\Sorter;
 
 /**
  * Quick sort.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Sorter
+ * @package WBW\Library\Common\Sorter
  */
 class QuickSort {
 

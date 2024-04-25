@@ -11,17 +11,17 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Sorter\Tests\Fixtures;
+namespace WBW\Library\Common\Tests\Fixtures\Sorter;
 
 use WBW\Library\Common\Sorter\FunctorInterface;
 
 /**
- * Test integer functor.
+ * Test functor.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Sorter\Tests\Fixtures
+ * @package WBW\Library\Common\Tests\Fixtures\Sorter
  */
-class TestIntegerFunctor implements FunctorInterface {
+class TestFunctor implements FunctorInterface {
 
     /**
      * {@inheritDoc}

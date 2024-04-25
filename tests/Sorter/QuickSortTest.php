@@ -11,31 +11,32 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Sorter\Tests;
+namespace WBW\Library\Common\Tests\Sorter;
 
 use WBW\Library\Common\Sorter\FunctorInterface;
-use WBW\Library\Sorter\QuickSort;
-use WBW\Library\Sorter\Tests\Fixtures\TestIntegerFunctor;
+use WBW\Library\Common\Sorter\QuickSort;
+use WBW\Library\Common\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\Fixtures\Sorter\TestFunctor;
 
 /**
  * Quick sort test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Sorter\Tests
+ * @package WBW\Library\Common\Tests\Sorter
  */
 class QuickSortTest extends AbstractTestCase {
 
     /**
      * Functor.
      *
-     * @var FunctorInterface
+     * @var FunctorInterface|null
      */
     private $functor;
 
     /**
      * Values.
      *
-     * @var int[]
+     * @var int[]|null
      */
     private $values;
 
@@ -46,7 +47,7 @@ class QuickSortTest extends AbstractTestCase {
         parent::setUp();
 
         // Set the functor mock.
-        $this->functor = new TestIntegerFunctor();
+        $this->functor = new TestFunctor();
 
         // Set the values mock.
         $this->values = [12, 98, 21, 89, 23, 87, 32, 78, 34, 76, 43, 67, 45, 65, 54, 56,];
