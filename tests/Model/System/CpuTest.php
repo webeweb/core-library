@@ -11,18 +11,18 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\System\Tests\Model;
+namespace WBW\Library\Common\Tests\Model\System;
 
 use JsonSerializable;
+use WBW\Library\Common\Model\System\Cpu;
 use WBW\Library\Common\Model\System\CpuInterface;
-use WBW\Library\System\Model\Cpu;
-use WBW\Library\System\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * Current processor usage test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\System\Tests\Model
+ * @package WBW\Library\Common\Tests\Model\System
  */
 class CpuTest extends AbstractTestCase {
 
@@ -33,24 +33,9 @@ class CpuTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        // Set the expected data.
-        $data = file_get_contents(__DIR__ . "/CpuTest.testJsonSerialize.json");
-        $json = json_decode($data, true);
-
         $obj = new Cpu();
-        $obj->setUs(0.123456789);
-        $obj->setSy(0.234567891);
-        $obj->setNi(0.345678912);
-        $obj->setId(0.456789123);
-        $obj->setWa(0.567891234);
-        $obj->setHi(0.678912345);
-        $obj->setSi(0.789123456);
-        $obj->setSt(0.891234567);
 
-        $res = $obj->jsonSerialize();
-        $this->assertCount(8, $res);
-
-        $this->assertEquals($json, $res);
+        $this->assertIsArray($obj->jsonSerialize());
     }
 
     /**

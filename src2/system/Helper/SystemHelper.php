@@ -14,6 +14,7 @@ declare(strict_types = 1);
 namespace WBW\Library\System\Helper;
 
 use RuntimeException;
+use WBW\Library\Common\Model\System\Cpu;
 use WBW\Library\Common\Model\System\CpuInterface;
 use WBW\Library\Common\Model\System\HardDisk;
 use WBW\Library\Common\Model\System\HardDiskInterface;
@@ -28,7 +29,6 @@ use WBW\Library\Common\Model\System\OperatingSystemInterface;
 use WBW\Library\Common\Model\System\Processor;
 use WBW\Library\Common\Model\System\ProcessorInterface;
 use WBW\Library\Common\Model\System\PropertyInterface;
-use WBW\Library\System\Model\Cpu;
 
 /**
  * System helper.
