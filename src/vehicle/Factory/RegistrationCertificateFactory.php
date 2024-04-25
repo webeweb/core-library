@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Vehicle\Factory;
 
-use WBW\Library\Vehicle\Model\RegistrationCertificateInterface;
+use WBW\Library\Common\Model\Vehicle\RegistrationCertificateInterface;
 
 /**
  * Registration certificate factory.

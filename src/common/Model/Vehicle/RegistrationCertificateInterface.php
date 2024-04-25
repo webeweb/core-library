@@ -11,7 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Vehicle\Model;
+namespace WBW\Library\Common\Model\Vehicle;
 
 use DateTime;
 use JsonSerializable;
@@ -20,7 +20,7 @@ use JsonSerializable;
  * Registration certificate interface.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Vehicle\Model
+ * @package WWBW\Library\Common\Model\Vehicle
  */
 interface RegistrationCertificateInterface extends JsonSerializable {
 

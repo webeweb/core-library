@@ -17,8 +17,8 @@ use DateTime;
 use DateTimeZone;
 use JsonSerializable;
 use Throwable;
+use WBW\Library\Common\Model\Vehicle\RegistrationCertificateInterface;
 use WBW\Library\Vehicle\Model\RegistrationCertificate;
-use WBW\Library\Vehicle\Model\RegistrationCertificateInterface;
 use WBW\Library\Vehicle\Tests\AbstractTestCase;
 
 /**
