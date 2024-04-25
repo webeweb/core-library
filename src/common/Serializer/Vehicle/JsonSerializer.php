@@ -11,7 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Vehicle\Serializer;
+namespace WBW\Library\Common\Serializer\Vehicle;
 
 use WBW\Library\Common\Model\Vehicle\RegistrationCertificateInterface;
 use WBW\Library\Common\Model\Vehicle\VehicleBrandInterface;
@@ -21,7 +21,7 @@ use WBW\Library\Common\Serializer\SerializerKeys;
  * JSON Serializer.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Vehicle\Serializer
+ * @package WBW\Library\Common\Serializer\Vehicle
  */
 class JsonSerializer {
 

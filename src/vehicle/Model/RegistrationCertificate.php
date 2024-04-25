@@ -15,7 +15,7 @@ namespace WBW\Library\Vehicle\Model;
 
 use DateTime;
 use WBW\Library\Common\Model\Vehicle\RegistrationCertificateInterface;
-use WBW\Library\Vehicle\Serializer\JsonSerializer;
+use WBW\Library\Common\Serializer\Vehicle\JsonSerializer;
 
 /**
  * Registration certificate.
