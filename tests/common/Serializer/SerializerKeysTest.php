@@ -31,6 +31,8 @@ class SerializerKeysTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
+        $this->assertEquals("a", SerializerKeys::A);
+        $this->assertEquals("a1", SerializerKeys::A1);
         $this->assertEquals("accessToken", SerializerKeys::ACCESS_TOKEN);
         $this->assertEquals("account", SerializerKeys::ACCOUNT);
         $this->assertEquals("accountNumber", SerializerKeys::ACCOUNT_NUMBER);
@@ -42,6 +44,7 @@ class SerializerKeysTest extends AbstractTestCase {
         $this->assertEquals("avatar", SerializerKeys::AVATAR);
         $this->assertEquals("average", SerializerKeys::AVERAGE);
 
+        $this->assertEquals("b", SerializerKeys::B);
         $this->assertEquals("bankCode", SerializerKeys::BANK_CODE);
         $this->assertEquals("bankDomiciliation", SerializerKeys::BANK_DOMICILIATION);
         $this->assertEquals("bankName", SerializerKeys::BANK_NAME);
@@ -58,6 +61,10 @@ class SerializerKeysTest extends AbstractTestCase {
         $this->assertEquals("birthDate", SerializerKeys::BIRTH_DATE);
         $this->assertEquals("branchCode", SerializerKeys::BRANCH_CODE);
 
+        $this->assertEquals("c1", SerializerKeys::C1);
+        $this->assertEquals("c3", SerializerKeys::C3);
+        $this->assertEquals("c41", SerializerKeys::C41);
+        $this->assertEquals("c4a", SerializerKeys::C4A);
         $this->assertEquals("category", SerializerKeys::CATEGORY);
         $this->assertEquals("civility", SerializerKeys::CIVILITY);
         $this->assertEquals("code", SerializerKeys::CODE);
@@ -71,6 +78,10 @@ class SerializerKeysTest extends AbstractTestCase {
         $this->assertEquals("createdAt", SerializerKeys::CREATED_AT);
         $this->assertEquals("customer", SerializerKeys::CUSTOMER);
 
+        $this->assertEquals("d1", SerializerKeys::D1);
+        $this->assertEquals("d2", SerializerKeys::D2);
+        $this->assertEquals("d21", SerializerKeys::D21);
+        $this->assertEquals("d3", SerializerKeys::D3);
         $this->assertEquals("data", SerializerKeys::DATA);
         $this->assertEquals("date", SerializerKeys::DATE);
         $this->assertEquals("debug", SerializerKeys::DEBUG);
@@ -91,6 +102,7 @@ class SerializerKeysTest extends AbstractTestCase {
         $this->assertEquals("domain", SerializerKeys::DOMAIN);
         $this->assertEquals("duration", SerializerKeys::DURATION);
 
+        $this->assertEquals("e", SerializerKeys::E);
         $this->assertEquals("email", SerializerKeys::EMAIL);
         $this->assertEquals("enable", SerializerKeys::ENABLE);
         $this->assertEquals("enabled", SerializerKeys::ENABLED);
@@ -104,6 +116,9 @@ class SerializerKeysTest extends AbstractTestCase {
         $this->assertEquals("expirationDate", SerializerKeys::EXPIRATION_DATE);
         $this->assertEquals("extension", SerializerKeys::EXTENSION);
 
+        $this->assertEquals("f1", SerializerKeys::F1);
+        $this->assertEquals("f2", SerializerKeys::F2);
+        $this->assertEquals("f3", SerializerKeys::F3);
         $this->assertEquals("filename", SerializerKeys::FILENAME);
         $this->assertEquals("finishesAt", SerializerKeys::FINISHES_AT);
         $this->assertEquals("finishesOn", SerializerKeys::FINISHES_ON);
@@ -111,8 +126,11 @@ class SerializerKeysTest extends AbstractTestCase {
         $this->assertEquals("format", SerializerKeys::FORMAT);
         $this->assertEquals("from", SerializerKeys::FROM);
 
+        $this->assertEquals("g", SerializerKeys::G);
+        $this->assertEquals("g1", SerializerKeys::G1);
         $this->assertEquals("gid", SerializerKeys::GID);
 
+        $this->assertEquals("h", SerializerKeys::H);
         $this->assertEquals("hash", SerializerKeys::HASH);
         $this->assertEquals("hashMD5", SerializerKeys::HASH_MD5);
         $this->assertEquals("hashSHA1", SerializerKeys::HASH_SHA1);
@@ -121,6 +139,8 @@ class SerializerKeysTest extends AbstractTestCase {
         $this->assertEquals("hostname", SerializerKeys::HOSTNAME);
         $this->assertEquals("houseNumber", SerializerKeys::HOUSE_NUMBER);
 
+        $this->assertEquals("i", SerializerKeys::I);
+        $this->assertEquals("i1", SerializerKeys::I1);
         $this->assertEquals("iban", SerializerKeys::IBAN);
         $this->assertEquals("icon", SerializerKeys::ICON);
         $this->assertEquals("id", SerializerKeys::ID);
@@ -132,6 +152,13 @@ class SerializerKeysTest extends AbstractTestCase {
         $this->assertEquals("ipAddress", SerializerKeys::IP_ADDRESS);
 
         $this->assertEquals("key", SerializerKeys::KEY);
+
+        $this->assertEquals("j", SerializerKeys::J);
+        $this->assertEquals("j1", SerializerKeys::J1);
+        $this->assertEquals("j2", SerializerKeys::J2);
+        $this->assertEquals("j3", SerializerKeys::J3);
+
+        $this->assertEquals("k", SerializerKeys::K);
 
         $this->assertEquals("label", SerializerKeys::LABEL);
         $this->assertEquals("lang", SerializerKeys::LANG);
@@ -174,6 +201,10 @@ class SerializerKeysTest extends AbstractTestCase {
         $this->assertEquals("originUrl", SerializerKeys::ORIGIN_URL);
         $this->assertEquals("owner", SerializerKeys::OWNER);
 
+        $this->assertEquals("p1", SerializerKeys::P1);
+        $this->assertEquals("p2", SerializerKeys::P2);
+        $this->assertEquals("p3", SerializerKeys::P3);
+        $this->assertEquals("p6", SerializerKeys::P6);
         $this->assertEquals("page", SerializerKeys::PAGE);
         $this->assertEquals("parent", SerializerKeys::PARENT);
         $this->assertEquals("password", SerializerKeys::PASSWORD);
@@ -205,6 +236,8 @@ class SerializerKeysTest extends AbstractTestCase {
         $this->assertEquals("role", SerializerKeys::ROLE);
         $this->assertEquals("roles", SerializerKeys::ROLES);
 
+        $this->assertEquals("s1", SerializerKeys::S1);
+        $this->assertEquals("s2", SerializerKeys::S2);
         $this->assertEquals("salesAccountingAccount", SerializerKeys::SALES_ACCOUNTING_ACCOUNT);
         $this->assertEquals("salt", SerializerKeys::SALT);
         $this->assertEquals("schema", SerializerKeys::SCHEMA);
@@ -237,6 +270,8 @@ class SerializerKeysTest extends AbstractTestCase {
         $this->assertEquals("totalAmount", SerializerKeys::TOTAL_AMOUNT);
         $this->assertEquals("type", SerializerKeys::TYPE);
 
+        $this->assertEquals("u1", SerializerKeys::U1);
+        $this->assertEquals("u2", SerializerKeys::U2);
         $this->assertEquals("uid", SerializerKeys::UID);
         $this->assertEquals("unitPrice", SerializerKeys::UNIT_PRICE);
         $this->assertEquals("unitValue", SerializerKeys::UNIT_VALUE);
@@ -246,6 +281,8 @@ class SerializerKeysTest extends AbstractTestCase {
         $this->assertEquals("username", SerializerKeys::USERNAME);
         $this->assertEquals("userAgent", SerializerKeys::USER_AGENT);
 
+        $this->assertEquals("v7", SerializerKeys::V7);
+        $this->assertEquals("v9", SerializerKeys::V9);
         $this->assertEquals("value", SerializerKeys::VALUE);
         $this->assertEquals("vatAmount", SerializerKeys::VAT_AMOUNT);
         $this->assertEquals("vatNumber", SerializerKeys::VAT_NUMBER);
@@ -258,8 +295,20 @@ class SerializerKeysTest extends AbstractTestCase {
         $this->assertEquals("width", SerializerKeys::WIDTH);
 
         $this->assertEquals("x", SerializerKeys::X);
+        $this->assertEquals("x1", SerializerKeys::X1);
 
         $this->assertEquals("y", SerializerKeys::Y);
+        $this->assertEquals("y1", SerializerKeys::Y1);
+        $this->assertEquals("y2", SerializerKeys::Y2);
+        $this->assertEquals("y3", SerializerKeys::Y3);
+        $this->assertEquals("y4", SerializerKeys::Y4);
+        $this->assertEquals("y5", SerializerKeys::Y5);
+        $this->assertEquals("y6", SerializerKeys::Y6);
         $this->assertEquals("year", SerializerKeys::YEAR);
+
+        $this->assertEquals("z1", SerializerKeys::Z1);
+        $this->assertEquals("z2", SerializerKeys::Z2);
+        $this->assertEquals("z3", SerializerKeys::Z3);
+        $this->assertEquals("z4", SerializerKeys::Z4);
     }
 }

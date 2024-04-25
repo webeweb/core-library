@@ -22,6 +22,20 @@ namespace WBW\Library\Common\Serializer;
 interface SerializerKeys {
 
     /**
+     * Serializer key "A".
+     *
+     * @var string
+     */
+    public const A = "a";
+
+    /**
+     * Serializer key "A.1".
+     *
+     * @var string
+     */
+    public const A1 = "a1";
+
+    /**
      * Serializer key "access token".
      *
      * @var string
@@ -90,6 +104,13 @@ interface SerializerKeys {
      * @var string
      */
     public const AVERAGE = "average";
+
+    /**
+     * Serializer key "B".
+     *
+     * @var string
+     */
+    public const B = "b";
 
     /**
      * Serializer key "bank code".
@@ -197,6 +218,34 @@ interface SerializerKeys {
     public const BRANCH_CODE = "branchCode";
 
     /**
+     * Serializer key "C.1".
+     *
+     * @var string
+     */
+    public const C1 = "c1";
+
+    /**
+     * Serializer key "C.3".
+     *
+     * @var string
+     */
+    public const C3 = "c3";
+
+    /**
+     * Serializer key "C.4.1".
+     *
+     * @var string
+     */
+    public const C41 = "c41";
+
+    /**
+     * Serializer key "C.4a".
+     *
+     * @var string
+     */
+    public const C4A = "c4a";
+
+    /**
      * Serializer key "category".
      *
      * @var string
@@ -279,6 +328,34 @@ interface SerializerKeys {
      * @var string
      */
     public const CUSTOMER = "customer";
+
+    /**
+     * Serializer key "D.1".
+     *
+     * @var string
+     */
+    public const D1 = "d1";
+
+    /**
+     * Serializer key "D.2".
+     *
+     * @var string
+     */
+    public const D2 = "d2";
+
+    /**
+     * Serializer key "D.2.1".
+     *
+     * @var string
+     */
+    public const D21 = "d21";
+
+    /**
+     * Serializer key "D.3".
+     *
+     * @var string
+     */
+    public const D3 = "d3";
 
     /**
      * Serializer key "data".
@@ -414,6 +491,13 @@ interface SerializerKeys {
     public const DURATION = "duration";
 
     /**
+     * Serializer key "E".
+     *
+     * @var string
+     */
+    public const E = "e";
+
+    /**
      * Serializer key "email".
      *
      * @var string
@@ -498,6 +582,27 @@ interface SerializerKeys {
     public const EXTENSION = "extension";
 
     /**
+     * Serializer key "F.1".
+     *
+     * @var string
+     */
+    public const F1 = "f1";
+
+    /**
+     * Serializer key "F.2".
+     *
+     * @var string
+     */
+    public const F2 = "f2";
+
+    /**
+     * Serializer key "F.3".
+     *
+     * @var string
+     */
+    public const F3 = "f3";
+
+    /**
      * Serializer key "filename".
      *
      * @var string
@@ -540,11 +645,32 @@ interface SerializerKeys {
     public const FROM = "from";
 
     /**
+     * Serializer key "G".
+     *
+     * @var string
+     */
+    public const G = "g";
+
+    /**
+     * Serializer key "G.1".
+     *
+     * @var string
+     */
+    public const G1 = "g1";
+
+    /**
      * Serializer key "GID".
      *
      * @var string
      */
     public const GID = "gid";
+
+    /**
+     * Serializer key "H".
+     *
+     * @var string
+     */
+    public const H = "h";
 
     /**
      * Serializer key "hash".
@@ -594,6 +720,20 @@ interface SerializerKeys {
      * @var string
      */
     public const HOUSE_NUMBER = "houseNumber";
+
+    /**
+     * Serializer key "I".
+     *
+     * @var string
+     */
+    public const I = "i";
+
+    /**
+     * Serializer key "I.1".
+     *
+     * @var string
+     */
+    public const I1 = "i1";
 
     /**
      * Serializer key "IBAN".
@@ -657,6 +797,41 @@ interface SerializerKeys {
      * @var string
      */
     public const IP_ADDRESS = "ipAddress";
+
+    /**
+     * Serializer key "J".
+     *
+     * @var string
+     */
+    public const J = "j";
+
+    /**
+     * Serializer key "J.1".
+     *
+     * @var string
+     */
+    public const J1 = "j1";
+
+    /**
+     * Serializer key "J.2".
+     *
+     * @var string
+     */
+    public const J2 = "j2";
+
+    /**
+     * Serializer key "J.3".
+     *
+     * @var string
+     */
+    public const J3 = "j3";
+
+    /**
+     * Serializer key "K".
+     *
+     * @var string
+     */
+    public const K = "k";
 
     /**
      * Serializer key "key".
@@ -925,6 +1100,34 @@ interface SerializerKeys {
     public const OWNER = "owner";
 
     /**
+     * Serializer key "P.1".
+     *
+     * @var string
+     */
+    public const P1 = "p1";
+
+    /**
+     * Serializer key "P.2".
+     *
+     * @var string
+     */
+    public const P2 = "p2";
+
+    /**
+     * Serializer key "P.3".
+     *
+     * @var string
+     */
+    public const P3 = "p3";
+
+    /**
+     * Serializer key "P.6".
+     *
+     * @var string
+     */
+    public const P6 = "p6";
+
+    /**
      * Serializer key "page".
      *
      * @var string
@@ -1119,6 +1322,20 @@ interface SerializerKeys {
      * @var string
      */
     public const ROUTE = "route";
+
+    /**
+     * Serializer key "S.1".
+     *
+     * @var string
+     */
+    public const S1 = "s1";
+
+    /**
+     * Serializer key "S.2".
+     *
+     * @var string
+     */
+    public const S2 = "s2";
 
     /**
      * Serializer key "sales accounting account".
@@ -1331,6 +1548,20 @@ interface SerializerKeys {
     public const TYPE = "type";
 
     /**
+     * Serializer key "U.1".
+     *
+     * @var string
+     */
+    public const U1 = "u1";
+
+    /**
+     * Serializer key "U.2".
+     *
+     * @var string
+     */
+    public const U2 = "u2";
+
+    /**
      * Serializer key "UID".
      *
      * @var string
@@ -1385,6 +1616,20 @@ interface SerializerKeys {
      * @var string
      */
     public const USER_AGENT = "userAgent";
+
+    /**
+     * Serializer key "V.7".
+     *
+     * @var string
+     */
+    public const V7 = "v7";
+
+    /**
+     * Serializer key "V.9".
+     *
+     * @var string
+     */
+    public const V9 = "v9";
 
     /**
      * Serializer key "value".
@@ -1457,6 +1702,13 @@ interface SerializerKeys {
     public const X = "x";
 
     /**
+     * Serializer key "X.1".
+     *
+     * @var string
+     */
+    public const X1 = "x1";
+
+    /**
      * Serializer key "y".
      *
      * @var string
@@ -1464,9 +1716,79 @@ interface SerializerKeys {
     public const Y = "y";
 
     /**
+     * Serializer key "Y.1".
+     *
+     * @var string
+     */
+    public const Y1 = "y1";
+
+    /**
+     * Serializer key "Y.2".
+     *
+     * @var string
+     */
+    public const Y2 = "y2";
+
+    /**
+     * Serializer key "Y.3".
+     *
+     * @var string
+     */
+    public const Y3 = "y3";
+
+    /**
+     * Serializer key "Y.4".
+     *
+     * @var string
+     */
+    public const Y4 = "y4";
+
+    /**
+     * Serializer key "Y.5".
+     *
+     * @var string
+     */
+    public const Y5 = "y5";
+
+    /**
+     * Serializer key "Y.6".
+     *
+     * @var string
+     */
+    public const Y6 = "y6";
+
+    /**
      * Serializer key "year".
      *
      * @var string
      */
     public const YEAR = "year";
+
+    /**
+     * Serializer key "Z.1".
+     *
+     * @var string
+     */
+    public const Z1 = "z1";
+
+    /**
+     * Serializer key "Z.2".
+     *
+     * @var string
+     */
+    public const Z2 = "z2";
+
+    /**
+     * Serializer key "Z.3".
+     *
+     * @var string
+     */
+    public const Z3 = "z3";
+
+    /**
+     * Serializer key "Z.4".
+     *
+     * @var string
+     */
+    public const Z4 = "z4";
 }
