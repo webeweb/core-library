@@ -13,8 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Symfony\Tests\Exception;
 
-use WBW\Library\Symfony\Color\MaterialDesignColorPalette\RedColorProvider;
 use WBW\Library\Symfony\Exception\AlreadyRegisteredProviderException;
+use WBW\Library\Symfony\Provider\ProviderInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 
 /**
@@ -33,10 +33,10 @@ class AlreadyRegisteredProviderExceptionTest extends AbstractTestCase {
     public function test__construct(): void {
 
         // Set a Provider mock.
-        $provider = new RedColorProvider();
+        $provider = $this->getMockBuilder(ProviderInterface::class)->getMock();
 
         $obj = new AlreadyRegisteredProviderException($provider);
 
-        $this->assertEquals('The provider "WBW\\Library\\Symfony\\Color\\MaterialDesignColorPalette\\RedColorProvider" is already registered', $obj->getMessage());
+        $this->assertEquals('The provider "' . get_class($provider) . '" is already registered', $obj->getMessage());
     }
 }
