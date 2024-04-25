@@ -11,16 +11,16 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Renderer\Assets;
+namespace WBW\Library\Widget\Tests\Renderer\Component;
 
-use WBW\Library\Symfony\Tests\AbstractTestCase;
-use WBW\Library\Symfony\Tests\Fixtures\Renderer\Assets\TestImageRendererTrait;
+use WBW\Library\Widget\Tests\AbstractTestCase;
+use WBW\Library\Widget\Tests\Fixtures\Renderer\Component\TestImageRendererTrait;
 
 /**
  * Image renderer trait.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Renderer\Assets
+ * @package WBW\Library\Widget\Tests\Renderer\Component
  */
 class ImageRendererTraitTest extends AbstractTestCase {
 

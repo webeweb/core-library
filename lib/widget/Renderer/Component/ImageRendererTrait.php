@@ -11,7 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Renderer\Assets;
+namespace WBW\Library\Widget\Renderer\Component;
 
 use WBW\Library\Common\Helper\StringHelper;
 
@@ -19,7 +19,7 @@ use WBW\Library\Common\Helper\StringHelper;
  * Image renderer trait.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Renderer\Assets
+ * @package WBW\Library\Widget\Renderer\Component
  */
 trait ImageRendererTrait {
 

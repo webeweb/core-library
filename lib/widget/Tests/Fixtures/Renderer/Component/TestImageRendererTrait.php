@@ -11,15 +11,15 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Fixtures\Renderer\Assets;
+namespace WBW\Library\Widget\Tests\Fixtures\Renderer\Component;
 
-use WBW\Library\Symfony\Renderer\Assets\ImageRendererTrait;
+use WBW\Library\Widget\Renderer\Component\ImageRendererTrait;
 
 /**
  * Test image renderer trait.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Fixtures\Renderer\Assets
+ * @package WBW\Library\Widget\Tests\Fixtures\Renderer\Component
  */
 class TestImageRendererTrait {
 
