@@ -15,6 +15,7 @@ namespace WBW\Library\Types\Helper;
 
 use WBW\Library\Common\Exception\DoubleArgumentException;
 use WBW\Library\Common\Exception\FloatArgumentException;
+use WBW\Library\Common\Helper\FloatHelper;
 
 /**
  * Double helper.
