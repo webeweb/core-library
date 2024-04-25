@@ -11,16 +11,16 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Types\Tests\Helper;
+namespace WBW\Library\Common\Tests\Helper;
 
-use WBW\Library\Types\Helper\ArrayHelper;
-use WBW\Library\Types\Tests\AbstractTestCase;
+use WBW\Library\Common\Helper\ArrayHelper;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * Array helper test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Types\Tests\Helper
+ * @package WBW\Library\Common\Tests\Helper
  */
 class ArrayHelperTest extends AbstractTestCase {
 
@@ -198,7 +198,7 @@ class ArrayHelperTest extends AbstractTestCase {
     public function testObfuscate(): void {
 
         // Set the expected data.
-        $json = file_get_contents(__DIR__ . "/ArrayHelperTest.testObfuscate.json");
+        $json = file_get_contents(__DIR__ . "/../Fixtures/Helper/ArrayHelperTest.testObfuscate.json");
         $data = json_decode($json, true);
 
         $str = str_repeat("*", 8);

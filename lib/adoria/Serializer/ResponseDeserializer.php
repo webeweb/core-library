@@ -16,7 +16,7 @@ namespace WBW\Library\Adoria\Serializer;
 use DateTime;
 use WBW\Library\Adoria\Model\Line;
 use WBW\Library\Adoria\Model\Result;
-use WBW\Library\Types\Helper\ArrayHelper;
+use WBW\Library\Common\Helper\ArrayHelper;
 
 /**
  * Response deserializer.

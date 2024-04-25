@@ -13,8 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\System\Model;
 
+use WBW\Library\Common\Helper\ArrayHelper;
 use WBW\Library\System\Serializer\JsonSerializer;
-use WBW\Library\Types\Helper\ArrayHelper;
 
 /**
  * Memory.

@@ -14,7 +14,7 @@ declare(strict_types = 1);
 namespace WBW\Library\Adoria\Serializer;
 
 use WBW\Library\Adoria\Model\RequestData;
-use WBW\Library\Types\Helper\ArrayHelper;
+use WBW\Library\Common\Helper\ArrayHelper;
 
 /**
  * Request serializer.

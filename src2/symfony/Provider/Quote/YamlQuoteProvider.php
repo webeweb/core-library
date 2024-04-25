@@ -16,11 +16,11 @@ namespace WBW\Library\Symfony\Provider\Quote;
 use DateTime;
 use InvalidArgumentException;
 use Symfony\Component\Yaml\Yaml;
+use WBW\Library\Common\Helper\ArrayHelper;
 use WBW\Library\Common\Traits\Strings\StringFilenameTrait;
 use WBW\Library\Symfony\Model\Quote;
 use WBW\Library\Symfony\Provider\AbstractQuoteProvider;
 use WBW\Library\Symfony\Provider\QuoteProviderInterface;
-use WBW\Library\Types\Helper\ArrayHelper;
 
 /**
  * YAML quote provider.

@@ -14,6 +14,7 @@ declare(strict_types = 1);
 namespace WBW\Library\System;
 
 use RuntimeException;
+use WBW\Library\Common\Helper\ArrayHelper;
 use WBW\Library\System\Helper\SystemHelper;
 use WBW\Library\System\Model\CpuInterface;
 use WBW\Library\System\Model\HardDiskInterface;
@@ -22,7 +23,6 @@ use WBW\Library\System\Model\NetworkCardInterface;
 use WBW\Library\System\Model\NetworkInterface;
 use WBW\Library\System\Model\OperatingSystemInterface;
 use WBW\Library\System\Model\ProcessorInterface;
-use WBW\Library\Types\Helper\ArrayHelper;
 
 /**
  * System.

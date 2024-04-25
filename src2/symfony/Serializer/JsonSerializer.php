@@ -14,6 +14,7 @@ declare(strict_types = 1);
 namespace WBW\Library\Symfony\Serializer;
 
 use InvalidArgumentException;
+use WBW\Library\Common\Helper\ArrayHelper;
 use WBW\Library\Common\Serializer\SerializerKeys as BaseSerializerKeys;
 use WBW\Library\Serializer\Helper\JsonSerializerHelper;
 use WBW\Library\Symfony\Assets\AlertInterface;
@@ -29,7 +30,6 @@ use WBW\Library\Symfony\Assets\Select2OptionInterface;
 use WBW\Library\Symfony\Assets\ToastInterface;
 use WBW\Library\Symfony\Model\RepositoryEventInterface;
 use WBW\Library\Symfony\Model\RequestDetailInterface;
-use WBW\Library\Types\Helper\ArrayHelper;
 
 /**
  * JSON serializer.
