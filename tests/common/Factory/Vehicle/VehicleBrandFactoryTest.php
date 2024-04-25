@@ -11,17 +11,17 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Vehicle\Tests\Factory;
+namespace WBW\Library\Common\Tests\Factory\Vehicle;
 
+use WBW\Library\Common\Factory\Vehicle\VehicleBrandFactory;
 use WBW\Library\Common\Model\Vehicle\VehicleBrand;
-use WBW\Library\Vehicle\Factory\VehicleBrandFactory;
-use WBW\Library\Vehicle\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * Vehicle brand factory test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Vehicle\Tests\Factory
+ * @package WBW\Library\Common\Tests\Factory\Vehicle
  */
 class VehicleBrandFactoryTest extends AbstractTestCase {
 
