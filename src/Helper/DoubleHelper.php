@@ -11,17 +11,16 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Types\Helper;
+namespace WBW\Library\Common\Helper;
 
 use WBW\Library\Common\Exception\DoubleArgumentException;
 use WBW\Library\Common\Exception\FloatArgumentException;
-use WBW\Library\Common\Helper\FloatHelper;
 
 /**
  * Double helper.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Types\Helper
+ * @package WBW\Library\Common\Helper
  */
 class DoubleHelper {
 

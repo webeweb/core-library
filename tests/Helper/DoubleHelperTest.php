@@ -11,18 +11,18 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Types\Tests\Helper;
+namespace WBW\Library\Common\Tests\Helper;
 
 use Throwable;
 use WBW\Library\Common\Exception\DoubleArgumentException;
-use WBW\Library\Types\Helper\DoubleHelper;
-use WBW\Library\Types\Tests\AbstractTestCase;
+use WBW\Library\Common\Helper\DoubleHelper;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * Double helper test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Types\Tests\Helper
+ * @package WBW\Library\Common\Tests\Helper
  */
 class DoubleHelperTest extends AbstractTestCase {
 
