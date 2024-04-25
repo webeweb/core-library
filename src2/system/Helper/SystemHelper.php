@@ -16,6 +16,7 @@ namespace WBW\Library\System\Helper;
 use RuntimeException;
 use WBW\Library\Common\Model\System\CpuInterface;
 use WBW\Library\Common\Model\System\HardDiskInterface;
+use WBW\Library\Common\Model\System\Memory;
 use WBW\Library\Common\Model\System\MemoryInterface;
 use WBW\Library\Common\Model\System\Network;
 use WBW\Library\Common\Model\System\NetworkCard;
@@ -28,7 +29,6 @@ use WBW\Library\Common\Model\System\ProcessorInterface;
 use WBW\Library\Common\Model\System\PropertyInterface;
 use WBW\Library\System\Model\Cpu;
 use WBW\Library\System\Model\HardDisk;
-use WBW\Library\System\Model\Memory;
 
 /**
  * System helper.

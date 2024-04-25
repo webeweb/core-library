@@ -11,24 +11,23 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\System\Model;
+namespace WBW\Library\Common\Model\System;
 
 use WBW\Library\Common\Helper\ArrayHelper;
-use WBW\Library\Common\Model\System\MemoryInterface;
 use WBW\Library\Common\Serializer\System\JsonSerializer;
 
 /**
  * Memory.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\System\Model
+ * @package WBW\Library\Common\Model\System
  */
 class Memory implements MemoryInterface {
 
     /**
      * Values.
      *
-     * @var int[]
+     * @var int[]|null
      */
     protected $values;
 
