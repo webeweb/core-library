@@ -11,18 +11,18 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Serializer\Helper;
+namespace WBW\Library\Common\Serializer;
 
 use DOMNode;
 use DOMNodeList;
 
 /**
- * XML deserializer helper.
+ * XML deserializer.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Serializer\Helper
+ * @package WBW\Library\Common\Helper
  */
-class XmlDeserializerHelper extends SerializerHelper {
+class XmlDeserializer extends AbstractSerializer {
 
     /**
      * Get a child DOM node text content.
