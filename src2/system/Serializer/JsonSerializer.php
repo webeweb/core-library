@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\System\Serializer;
 
-use WBW\Library\Common\Serializer\SerializerKeys as BaseSerializerKeys;
+use WBW\Library\Common\Serializer\SerializerKeys;
 use WBW\Library\System\Model\CpuInterface;
 use WBW\Library\System\Model\HardDiskInterface;
 use WBW\Library\System\Model\MemoryInterface;
@@ -42,7 +42,7 @@ class JsonSerializer {
             SerializerKeys::US     => $model->getUs(),
             SerializerKeys::SY     => $model->getSy(),
             SerializerKeys::NI     => $model->getNi(),
-            BaseSerializerKeys::ID => $model->getId(),
+            SerializerKeys::ID => $model->getId(),
             SerializerKeys::WA     => $model->getWa(),
             SerializerKeys::HI     => $model->getHi(),
             SerializerKeys::SI     => $model->getSi(),
@@ -62,8 +62,8 @@ class JsonSerializer {
             SerializerKeys::AVAILABLE   => $model->getAvailable(),
             SerializerKeys::FILE_SYSTEM => $model->getFileSystem(),
             SerializerKeys::MOUNTED_ON  => $model->getMountedOn(),
-            BaseSerializerKeys::NAME    => $model->getName(),
-            BaseSerializerKeys::TYPE    => $model->getType(),
+            SerializerKeys::NAME    => $model->getName(),
+            SerializerKeys::TYPE    => $model->getType(),
             SerializerKeys::USED        => $model->getUsed(),
             SerializerKeys::USE_PERCENT => $model->getUsePercent(),
         ];
@@ -90,7 +90,7 @@ class JsonSerializer {
         return [
             SerializerKeys::DNS          => $model->getDns(),
             SerializerKeys::GATEWAY      => $model->getGateway(),
-            BaseSerializerKeys::HOSTNAME => $model->getHostname(),
+            SerializerKeys::HOSTNAME => $model->getHostname(),
         ];
     }
 
@@ -107,7 +107,7 @@ class JsonSerializer {
             SerializerKeys::IPV4     => $model->getIpv4(),
             SerializerKeys::IPV6     => $model->getIpv6(),
             SerializerKeys::MAC      => $model->getMac(),
-            BaseSerializerKeys::NAME => $model->getName(),
+            SerializerKeys::NAME => $model->getName(),
             SerializerKeys::SPEED    => $model->getSpeed(),
             SerializerKeys::STATUS   => $model->getStatus(),
         ];
@@ -123,8 +123,8 @@ class JsonSerializer {
 
         return [
             SerializerKeys::CODENAME        => $model->getCodename(),
-            BaseSerializerKeys::DESCRIPTION => $model->getDescription(),
-            BaseSerializerKeys::ID          => $model->getId(),
+            SerializerKeys::DESCRIPTION => $model->getDescription(),
+            SerializerKeys::ID          => $model->getId(),
             SerializerKeys::RELEASE         => $model->getRelease(),
         ];
     }

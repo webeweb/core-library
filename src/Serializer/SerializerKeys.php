@@ -92,6 +92,13 @@ interface SerializerKeys {
     public const API_TOKEN = "apiToken";
 
     /**
+     * Serializer key "available".
+     *
+     * @var string
+     */
+    public const AVAILABLE = "available";
+
+    /**
      * Serializer key "avatar".
      *
      * @var string
@@ -265,6 +272,13 @@ interface SerializerKeys {
      * @var string
      */
     public const CODE = "code";
+
+    /**
+     * Serializer key "codename".
+     *
+     * @var string
+     */
+    public const CODENAME = "codename";
 
     /**
      * Serializer key "color".
@@ -477,11 +491,25 @@ interface SerializerKeys {
     public const DISCOUNT_TOTAL = "discountTotal";
 
     /**
+     * Serializer key "dns".
+     *
+     * @var string
+     */
+    public const DNS = "dns";
+
+    /**
      * Serializer key "domain".
      *
      * @var string
      */
     public const DOMAIN = "domain";
+
+    /**
+     * Serializer key "duplex".
+     *
+     * @var string
+     */
+    public const DUPLEX = "duplex";
 
     /**
      * Serializer key "duration".
@@ -610,6 +638,13 @@ interface SerializerKeys {
     public const FILENAME = "filename";
 
     /**
+     * Serializer key "fileSystem".
+     *
+     * @var string
+     */
+    public const FILE_SYSTEM = "fileSystem";
+
+    /**
      * Serializer key "finishes at".
      *
      * @var string
@@ -659,6 +694,13 @@ interface SerializerKeys {
     public const G1 = "g1";
 
     /**
+     * Serializer key "gateway".
+     *
+     * @var string
+     */
+    public const GATEWAY = "gateway";
+
+    /**
      * Serializer key "GID".
      *
      * @var string
@@ -706,6 +748,13 @@ interface SerializerKeys {
      * @var string
      */
     public const HEIGHT = "height";
+
+    /**
+     * Serializer key "hi".
+     *
+     * @var string
+     */
+    public const HI = "hi";
 
     /**
      * Serializer key "hostname".
@@ -790,6 +839,20 @@ interface SerializerKeys {
      * @var string
      */
     public const INCOME = "income";
+
+    /**
+     * Serializer key "ipv4".
+     *
+     * @var string
+     */
+    public const IPV4 = "ipv4";
+
+    /**
+     * Serializer key "ipv6".
+     *
+     * @var string
+     */
+    public const IPV6 = "ipv6";
 
     /**
      * Serializer key "ipAddress".
@@ -932,6 +995,13 @@ interface SerializerKeys {
     public const LONGITUDE = "longitude";
 
     /**
+     * Serializer key "mac".
+     *
+     * @var string
+     */
+    public const MAC = "mac";
+
+    /**
      * Serializer key "macAddress".
      *
      * @var string
@@ -1051,6 +1121,13 @@ interface SerializerKeys {
     public const MOTIF = "motif";
 
     /**
+     * Serializer key "mounted on".
+     *
+     * @var string
+     */
+    public const MOUNTED_ON = "mountedOn";
+
+    /**
      * Serializer key "NAF code".
      *
      * @var string
@@ -1063,6 +1140,13 @@ interface SerializerKeys {
      * @var string
      */
     public const NAME = "name";
+
+    /**
+     * Serializer key "ni".
+     *
+     * @var string
+     */
+    public const NI = "ni";
 
     /**
      * Serializer key "number".
@@ -1275,6 +1359,13 @@ interface SerializerKeys {
     public const REFERENCE = "reference";
 
     /**
+     * Serializer key "release".
+     *
+     * @var string
+     */
+    public const RELEASE = "release";
+
+    /**
      * Serializer key "remaining".
      *
      * @var string
@@ -1408,6 +1499,13 @@ interface SerializerKeys {
     public const SENDING_ADDRESS_STREET_NAME = "sendingAddressStreetName";
 
     /**
+     * Serializer key "si".
+     *
+     * @var string
+     */
+    public const SI = "si";
+
+    /**
      * Serializer key "SIRET number".
      *
      * @var string
@@ -1427,6 +1525,20 @@ interface SerializerKeys {
      * @var string
      */
     public const SOURCE = "source";
+
+    /**
+     * Serializer key "speed".
+     *
+     * @var string
+     */
+    public const SPEED = "speed";
+
+    /**
+     * Serializer key "st".
+     *
+     * @var string
+     */
+    public const ST = "st";
 
     /**
      * Serializer key "started at".
@@ -1476,6 +1588,13 @@ interface SerializerKeys {
      * @var string
      */
     public const SUBJECT = "subject";
+
+    /**
+     * Serializer key "sy".
+     *
+     * @var string
+     */
+    public const SY = "sy";
 
     /**
      * Serializer key "table".
@@ -1604,6 +1723,20 @@ interface SerializerKeys {
     public const URL = "url";
 
     /**
+     * Serializer key "us".
+     *
+     * @var string
+     */
+    public const US = "us";
+
+    /**
+     * Serializer key "used".
+     *
+     * @var string
+     */
+    public const USED = "used";
+
+    /**
      * Serializer key "username".
      *
      * @var string
@@ -1616,6 +1749,13 @@ interface SerializerKeys {
      * @var string
      */
     public const USER_AGENT = "userAgent";
+
+    /**
+     * Serializer key "usePercent".
+     *
+     * @var string
+     */
+    public const USE_PERCENT = "usePercent";
 
     /**
      * Serializer key "V.7".
@@ -1686,6 +1826,13 @@ interface SerializerKeys {
      * @var string
      */
     public const VISIBLE = "visible";
+
+    /**
+     * Serializer key "wa".
+     *
+     * @var string
+     */
+    public const WA = "wa";
 
     /**
      * Serializer key "width".
