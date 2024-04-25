@@ -11,9 +11,8 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Vehicle\Model;
+namespace WBW\Library\Common\Model\Vehicle;
 
-use WBW\Library\Common\Model\Vehicle\VehicleBrandInterface;
 use WBW\Library\Common\Serializer\Vehicle\JsonSerializer;
 use WBW\Library\Common\Traits\Strings\StringLabelTrait;
 
@@ -21,7 +20,7 @@ use WBW\Library\Common\Traits\Strings\StringLabelTrait;
  * Vehicle brand.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Vehicle\Model
+ * @package WBW\Library\Common\Model\Vehicle
  */
 class VehicleBrand implements VehicleBrandInterface {
 

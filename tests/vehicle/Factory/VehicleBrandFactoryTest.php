@@ -13,8 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Vehicle\Tests\Factory;
 
+use WBW\Library\Common\Model\Vehicle\VehicleBrand;
 use WBW\Library\Vehicle\Factory\VehicleBrandFactory;
-use WBW\Library\Vehicle\Model\VehicleBrand;
 use WBW\Library\Vehicle\Tests\AbstractTestCase;
 
 /**

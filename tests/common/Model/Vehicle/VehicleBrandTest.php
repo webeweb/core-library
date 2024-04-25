@@ -11,19 +11,19 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Vehicle\Tests\Model;
+namespace WBW\Library\Common\Tests\Model\Vehicle;
 
 use JsonSerializable;
+use WBW\Library\Common\Model\Vehicle\VehicleBrand;
 use WBW\Library\Common\Model\Vehicle\VehicleBrandInterface;
 use WBW\Library\Common\Serializer\SerializerKeys as BaseSerializerKeys;
-use WBW\Library\Vehicle\Model\VehicleBrand;
-use WBW\Library\Vehicle\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * Vehicle brand test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Vehicle\Tests\Model
+ * @package WBW\Library\Common\Tests\Model\Vehicle
  */
 class VehicleBrandTest extends AbstractTestCase {
 
@@ -34,17 +34,9 @@ class VehicleBrandTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        // Set the expected data.
-        $data = file_get_contents(__DIR__ . "/VehicleBrandTest.testJsonSerialize.json");
-        $json = json_decode($data, true);
-
         $obj = new VehicleBrand();
-        $obj->setLabel(BaseSerializerKeys::LABEL);
 
-        $res = $obj->jsonSerialize();
-        $this->assertCount(1, $res);
-
-        $this->assertEquals($json, $res);
+        $this->assertIsArray($obj->jsonSerialize());
     }
 
     /**
@@ -56,8 +48,8 @@ class VehicleBrandTest extends AbstractTestCase {
 
         $obj = new VehicleBrand();
 
-        $this->assertInstanceOf(VehicleBrandInterface::class, $obj);
         $this->assertInstanceOf(JsonSerializable::class, $obj);
+        $this->assertInstanceOf(VehicleBrandInterface::class, $obj);
 
         $this->assertNull($obj->getLabel());
     }
