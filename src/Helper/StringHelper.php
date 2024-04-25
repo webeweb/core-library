@@ -11,16 +11,17 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Types\Helper;
+namespace WBW\Library\Common\Helper;
 
 use Transliterator;
 use WBW\Library\Common\Exception\StringArgumentException;
+use WBW\Library\Types\Helper\ObjectHelper;
 
 /**
  * String helper.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Types\Helper
+ * @package WBW\Library\Common\Helper
  */
 class StringHelper {
 
@@ -264,7 +265,7 @@ class StringHelper {
         }
 
         $callback = function($m): string {
-            return count($m) < 5 ? StringHelper . phpstrtolower($m[2]) . $m[3] : strtolower($m[5]) . $m[6];
+            return count($m) < 5 ? strtolower($m[2]) . $m[3] : strtolower($m[5]) . $m[6];
         };
 
         return preg_replace_callback("/(([A-Z]+)([A-Z][a-z].+))|(([A-Z])([a-z].+))/", $callback, $string);

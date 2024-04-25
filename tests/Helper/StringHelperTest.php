@@ -11,17 +11,17 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Types\Tests\Helper;
+namespace WBW\Library\Common\Tests\Helper;
 
 use Throwable;
-use WBW\Library\Types\Helper\StringHelper;
-use WBW\Library\Types\Tests\AbstractTestCase;
+use WBW\Library\Common\Helper\StringHelper;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * String helper test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Types\Tests\Helper
+ * @package WBW\Library\Common\Tests\Helper
  */
 class StringHelperTest extends AbstractTestCase {
 
@@ -44,7 +44,7 @@ class StringHelperTest extends AbstractTestCase {
     public function testDomNode(): void {
 
         $arg = ["type" => "text/javascript"];
-        $exp = file_get_contents(__DIR__ . "/StringHelperTest.testDomNode.html.txt");
+        $exp = file_get_contents(__DIR__ . "/../Fixtures/Helper/StringHelperTest.testDomNode.html.txt");
 
         $this->assertEquals($exp, StringHelper::domNode("script", "\n    $(document).ready(function() {});\n", $arg) . "\n");
     }

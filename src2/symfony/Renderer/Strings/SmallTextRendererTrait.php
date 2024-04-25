@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Symfony\Renderer\Strings;
 
-use WBW\Library\Types\Helper\StringHelper;
+use WBW\Library\Common\Helper\StringHelper;
 
 /**
  * Small text renderer trait.

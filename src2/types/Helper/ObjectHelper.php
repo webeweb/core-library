@@ -15,6 +15,7 @@ namespace WBW\Library\Types\Helper;
 
 use WBW\Library\Common\Exception\ObjectArgumentException;
 use WBW\Library\Common\Helper\BooleanHelper;
+use WBW\Library\Common\Helper\StringHelper;
 
 /**
  * Object helper.

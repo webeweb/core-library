@@ -13,9 +13,9 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Ftp\Client;
 
+use WBW\Library\Common\Helper\StringHelper;
 use WBW\Library\Common\Security\Authenticator;
 use WBW\Library\Ftp\Exception\FtpException;
-use WBW\Library\Types\Helper\StringHelper;
 
 /**
  * FTP client.
