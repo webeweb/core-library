@@ -11,7 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Vehicle\Factory;
+namespace WBW\Library\Common\Factory\Vehicle;
 
 use WBW\Library\Common\Model\Vehicle\RegistrationCertificateInterface;
 
@@ -19,7 +19,7 @@ use WBW\Library\Common\Model\Vehicle\RegistrationCertificateInterface;
  * Registration certificate factory.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Vehicle\Factory
+ * @package WBW\Library\Common\Factory\Vehicle
  */
 class RegistrationCertificateFactory {
 

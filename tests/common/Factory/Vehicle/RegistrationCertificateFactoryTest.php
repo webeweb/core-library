@@ -11,20 +11,20 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Vehicle\Tests\Factory;
+namespace WBW\Library\Common\Tests\Factory\Vehicle;
 
 use DateTime;
 use DateTimeZone;
 use Throwable;
+use WBW\Library\Common\Factory\Vehicle\RegistrationCertificateFactory;
 use WBW\Library\Common\Model\Vehicle\RegistrationCertificate;
-use WBW\Library\Vehicle\Factory\RegistrationCertificateFactory;
-use WBW\Library\Vehicle\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * Registration certificate factory test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Vehicle\Tests\Factory
+ * @package WBW\Library\Common\Tests\Factory\Vehicle
  */
 class RegistrationCertificateFactoryTest extends AbstractTestCase {
 
