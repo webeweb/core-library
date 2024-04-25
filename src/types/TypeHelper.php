@@ -17,6 +17,7 @@ use DateTime;
 use InvalidArgumentException;
 use WBW\Library\Common\Exception\DateArgumentException;
 use WBW\Library\Common\Exception\TimestampArgumentException;
+use WBW\Library\Common\Helper\ResourceHelper;
 use WBW\Library\Common\Helper\TimestampHelper;
 use WBW\Library\Types\Helper\ArrayHelper;
 use WBW\Library\Types\Helper\BooleanHelper;
@@ -26,7 +27,6 @@ use WBW\Library\Types\Helper\FloatHelper;
 use WBW\Library\Types\Helper\IntegerHelper;
 use WBW\Library\Types\Helper\NumberHelper;
 use WBW\Library\Types\Helper\ObjectHelper;
-use WBW\Library\Types\Helper\ResourceHelper;
 use WBW\Library\Types\Helper\StringHelper;
 
 /**
