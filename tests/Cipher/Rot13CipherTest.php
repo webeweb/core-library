@@ -14,8 +14,8 @@ declare(strict_types = 1);
 namespace WBW\Library\Common\Tests\Cipher;
 
 use WBW\Library\Common\Cipher\Rot13Cipher;
+use WBW\Library\Common\Tests\AbstractTestCase;
 use WBW\Library\Common\Tests\Fixtures\Cipher\TestRot13Cipher;
-use WBW\Library\Maths\Tests\AbstractTestCase;
 
 /**
  * ROT 13 cipher test.

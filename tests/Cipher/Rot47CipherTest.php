@@ -14,8 +14,8 @@ declare(strict_types = 1);
 namespace WBW\Library\Common\Tests\Cipher;
 
 use WBW\Library\Common\Cipher\Rot47Cipher;
+use WBW\Library\Common\Tests\AbstractTestCase;
 use WBW\Library\Common\Tests\Fixtures\Cipher\TestRot47Cipher;
-use WBW\Library\Maths\Tests\AbstractTestCase;
 
 /**
  * ROT 47 cipher test.
