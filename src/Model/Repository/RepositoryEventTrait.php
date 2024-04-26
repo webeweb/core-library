@@ -11,15 +11,13 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Model;
-
-use WBW\Library\Common\Model\Repository\RepositoryEventInterface;
+namespace WBW\Library\Common\Model\Repository;
 
 /**
  * Repository event trait.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Model
+ * @package WBW\Library\Common\Model\Repository
  */
 trait RepositoryEventTrait {
 
