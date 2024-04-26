@@ -13,8 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Symfony\Serializer;
 
+use WBW\Library\Common\Model\Request\RequestDetailInterface;
 use WBW\Library\Common\Serializer\SerializerKeys;
-use WBW\Library\Symfony\Model\RequestDetailInterface;
 
 /**
  * JSON serializer.
