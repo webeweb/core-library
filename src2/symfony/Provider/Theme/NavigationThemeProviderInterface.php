@@ -13,8 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Symfony\Provider\Theme;
 
-use WBW\Library\Widget\Component\Navigation\NavigationTree;
 use WBW\Library\Symfony\Provider\ThemeProviderInterface;
+use WBW\Library\Widget\Component\Navigation\NavigationTree;
 
 /**
  * Navigation theme provider interface.
