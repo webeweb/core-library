@@ -53,8 +53,7 @@
         "ext-posix": "*",
         "ext-zip": "*",
         "doctrine/collections": "^1.5|^2.0",
-        "psr/log": "^1.0|^2.0|^3.0",
-        "symfony/yaml": "^3.0|^4.0|^5.0|^6.0|^7.0"
+        "psr/log": "^1.0|^2.0|^3.0"
     },
     "require-dev": {
         "guzzlehttp/guzzle": "^6.0|^7.0",
