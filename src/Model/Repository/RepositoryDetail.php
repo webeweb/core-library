@@ -11,10 +11,8 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Model;
+namespace WBW\Library\Common\Model\Repository;
 
-use WBW\Library\Common\Model\Repository\RepositoryDetailInterface;
-use WBW\Library\Common\Model\Repository\RepositoryReportTrait;
 use WBW\Library\Common\Traits\Floats\FloatAverageTrait;
 use WBW\Library\Common\Traits\Integers\IntegerMaximumTrait;
 use WBW\Library\Common\Traits\Integers\IntegerMinimumTrait;
@@ -24,7 +22,7 @@ use WBW\Library\Common\Traits\Strings\StringTypeTrait;
  * Repository detail.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Model
+ * @package WBW\Library\Common\Model\Repository
  */
 class RepositoryDetail implements RepositoryDetailInterface {
 
