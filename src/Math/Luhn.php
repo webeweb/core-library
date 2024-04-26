@@ -14,12 +14,12 @@ declare(strict_types = 1);
 namespace WBW\Library\Common\Math;
 
 /**
- * Modulo 10.
+ * Luhn.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Common\Math
  */
-class Modulo10 {
+class Luhn {
 
     /**
      * Check.

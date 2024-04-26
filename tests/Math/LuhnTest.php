@@ -13,16 +13,16 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Tests\Math;
 
-use WBW\Library\Common\Math\Modulo10;
+use WBW\Library\Common\Math\Luhn;
 use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
- * Modulo 10 test.
+ * Luhn test.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Common\Tests\Math
  */
-class Modulo10Test extends AbstractTestCase {
+class LuhnTest extends AbstractTestCase {
 
     /**
      * Test check()
@@ -31,13 +31,13 @@ class Modulo10Test extends AbstractTestCase {
      */
     public function testCheck(): void {
 
-        $this->assertTrue(Modulo10::check("51538089700014"));
-        $this->assertFalse(Modulo10::check("51538089700024"));
+        $this->assertTrue(Luhn::check("51538089700014"));
+        $this->assertFalse(Luhn::check("51538089700024"));
 
-        $this->assertTrue(Modulo10::check("53897790100015"));
-        $this->assertFalse(Modulo10::check("53897790100025"));
+        $this->assertTrue(Luhn::check("53897790100015"));
+        $this->assertFalse(Luhn::check("53897790100025"));
 
-        $this->assertTrue(Modulo10::check("53395168700011"));
-        $this->assertFalse(Modulo10::check("53395168700021"));
+        $this->assertTrue(Luhn::check("53395168700011"));
+        $this->assertFalse(Luhn::check("53395168700021"));
     }
 }
