@@ -11,21 +11,20 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Model;
+namespace WBW\Library\Common\Model\Repository;
 
-use WBW\Library\Common\Model\Repository\RepositoryEventInterface;
+use WBW\Library\Common\Serializer\Repository\JsonSerializer;
 use WBW\Library\Common\Traits\DateTimes\DateTimeDateTrait;
 use WBW\Library\Common\Traits\Integers\IntegerIdTrait;
 use WBW\Library\Common\Traits\Strings\StringEntityTrait;
 use WBW\Library\Common\Traits\Strings\StringIpAddressTrait;
 use WBW\Library\Common\Traits\Strings\StringTypeTrait;
-use WBW\Library\Symfony\Serializer\JsonSerializer;
 
 /**
  * Repository event.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Model
+ * @package WBW\Library\Common\Model\Repository
  */
 class RepositoryEvent implements RepositoryEventInterface {
 
