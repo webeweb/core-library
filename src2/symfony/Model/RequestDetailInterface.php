@@ -122,7 +122,7 @@ interface RequestDetailInterface extends JsonSerializable {
      * Set the IP address.
      *
      * @param string|null $ipAddress The IP address.
-     * @return RepositoryEventInterface Returns this repository event.
+     * @return RequestDetailInterface Returns this request detail.
      */
     public function setIpAddress(?string $ipAddress);
 
