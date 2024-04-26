@@ -11,15 +11,15 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Fixtures\Model;
+namespace WBW\Library\Common\Tests\Fixtures\Model\Repository;
 
-use WBW\Library\Symfony\Model\RepositoryDetailTrait;
+use WBW\Library\Common\Model\Repository\RepositoryDetailTrait;
 
 /**
  * Test repository detail trait.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Fixtures\Model
+ * @package WBW\Library\Common\Tests\Fixtures\Model\Repository
  */
 class TestRepositoryDetailTrait {
 
