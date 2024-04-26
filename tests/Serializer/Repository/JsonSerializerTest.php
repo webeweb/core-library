@@ -56,7 +56,7 @@ class JsonSerializerTest extends AbstractTestCase {
         $this->assertCount(12, $res);
 
         $this->assertEquals($model->getId(), $res[SerializerKeys::ID]);
-        $this->assertEquals($model->getDate(), $res[SerializerKeys::DATE]);
+        $this->assertSame($model->getDate(), $res[SerializerKeys::DATE]);
         $this->assertEquals($model->getEntity(), $res[SerializerKeys::ENTITY]);
         $this->assertEquals($model->getEntityData(), $res[SerializerKeys::ENTITY_DATA]);
         $this->assertEquals($model->getEntityId(), $res[SerializerKeys::ENTITY_ID]);
