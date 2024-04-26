@@ -11,13 +11,13 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Model;
+namespace WBW\Library\Common\Model;
 
 /**
  * Abstract node.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Core\Model
+ * @package WBW\Library\Common\Model
  * @abstract
  */
 abstract class AbstractNode {
@@ -25,14 +25,14 @@ abstract class AbstractNode {
     /**
      * Id.
      *
-     * @var string
+     * @var string|null
      */
     private $id;
 
     /**
      * Index.
      *
-     * @var array<string,int>
+     * @var array<string,int>|null
      */
     private $index;
 
@@ -189,8 +189,10 @@ abstract class AbstractNode {
     public function removeNode(AbstractNode $node): AbstractNode {
 
         if (true === array_key_exists($node->id, $this->index)) {
+
             unset($this->nodes[$this->index[$node->id]]);
             unset($this->index[$node->id]);
+
             $node->parent = null;
         }
 

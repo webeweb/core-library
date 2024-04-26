@@ -11,16 +11,16 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Model;
+namespace WBW\Library\Common\Tests\Model;
 
-use WBW\Library\Core\Tests\AbstractTestCase;
-use WBW\Library\Core\Tests\Fixtures\Model\TestNode;
+use WBW\Library\Common\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\Fixtures\Model\TestNode;
 
 /**
  * Abstract node test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Core\Tests\Node
+ * @package WBW\Library\Common\Tests\Node
  */
 class AbstractNodeTest extends AbstractTestCase {
 

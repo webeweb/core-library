@@ -11,15 +11,15 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Fixtures\Model;
+namespace WBW\Library\Common\Tests\Fixtures\Model;
 
-use WBW\Library\Core\Model\AbstractNode;
+use WBW\Library\Common\Model\AbstractNode;
 
 /**
  * Test node.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Core\Tests\Fixtures\Model
+ * @package WBW\Library\Common\Tests\Fixtures\Model
  */
 class TestNode extends AbstractNode {
 
