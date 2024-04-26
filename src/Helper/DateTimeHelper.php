@@ -15,7 +15,6 @@ namespace WBW\Library\Common\Helper;
 
 use DateTime;
 use InvalidArgumentException;
-use Symfony\Component\Yaml\Yaml;
 use Throwable;
 use WBW\Library\Common\Exception\DateArgumentException;
 
@@ -401,16 +400,16 @@ class DateTimeHelper extends DateTimeMethod {
             return null;
         }
 
-        $messages = __DIR__ . "/../Resources/translations/DateTimeHelper.%locale%.yml";
+        $messages = __DIR__ . "/../Resources/translations/DateTimeHelper.%locale%.json";
         $filename = str_replace("%locale%", $locale, $messages);
 
         if (false === file_exists($filename)) {
             $filename = str_replace("%locale%", "en", $messages);
         }
 
-        $translations = Yaml::parse(file_get_contents(realpath($filename)));
+        $translations = json_decode(file_get_contents(realpath($filename)), true);
 
-        return str_ireplace(array_keys($translations["weekdays"]), array_values($translations["weekdays"]), $date);
+        return str_ireplace(array_keys($translations), array_values($translations), $date);
     }
 
     /**
