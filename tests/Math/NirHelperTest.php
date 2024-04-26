@@ -11,16 +11,16 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Maths\Tests\Helper;
+namespace WBW\Library\Common\Tests\Math;
 
-use WBW\Library\Maths\Helper\NirHelper;
-use WBW\Library\Maths\Tests\AbstractTestCase;
+use WBW\Library\Common\Math\NirHelper;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * NIR helper test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Maths\Tests\Helper
+ * @package WBW\Library\Common\Tests\Math
  */
 class NirHelperTest extends AbstractTestCase {
 
