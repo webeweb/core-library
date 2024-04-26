@@ -43,7 +43,6 @@
         "ext-curl": "*",
         "ext-dom": "*",
         "ext-fileinfo": "*",
-        "ext-ftp": "*",
         "ext-gd": "*",
         "ext-imagick": "*",
         "ext-intl": "*",
