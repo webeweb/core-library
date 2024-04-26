@@ -11,15 +11,15 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Response;
+namespace WBW\Library\Common\Model\Response;
 
-use WBW\Library\Common\Model\Response\SimpleJsonResponseDataInterface;
+use WBW\Library\Common\Serializer\Response\JsonSerializer;
 
 /**
  * Simple JSON response data.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Response
+ * @package WBW\Library\Common\Model\Response
  */
 class SimpleJsonResponseData implements SimpleJsonResponseDataInterface {
 
@@ -67,11 +67,7 @@ class SimpleJsonResponseData implements SimpleJsonResponseDataInterface {
      * @return array<string,mixed> Returns this serialized instance.
      */
     public function jsonSerialize(): array {
-
-        return [
-            "status" => $this->getStatus(),
-            "notify" => $this->getNotify(),
-        ];
+        return JsonSerializer::serializeSimpleJsonResponseData($this);
     }
 
     /**

@@ -11,18 +11,18 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Response;
+namespace WBW\Library\Common\Tests\Model\Response;
 
 use JsonSerializable;
+use WBW\Library\Common\Model\Response\SimpleJsonResponseData;
 use WBW\Library\Common\Model\Response\SimpleJsonResponseDataInterface;
-use WBW\Library\Symfony\Response\SimpleJsonResponseData;
-use WBW\Library\Symfony\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * Simple JSON response data test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Response
+ * @package WBW\Library\Common\Tests\Model\Response
  */
 class SimpleJsonResponseDataTest extends AbstractTestCase {
 
@@ -33,18 +33,9 @@ class SimpleJsonResponseDataTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        // Set the expected data.
-        $data = file_get_contents(__DIR__ . "/SimpleJsonResponseDataTest.testJsonSerialize.json");
-        $json = json_decode($data, true);
-
         $obj = new SimpleJsonResponseData();
-        $obj->setNotify("notify");
-        $obj->setStatus(200);
 
-        $res = $obj->jsonSerialize();
-        $this->assertCount(2, $res);
-
-        $this->assertEquals($json, $res);
+        $this->assertIsArray($obj->jsonSerialize());
     }
 
     /**
