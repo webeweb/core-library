@@ -207,6 +207,7 @@ class SerializerKeysTest extends AbstractTestCase {
         $this->assertEquals("nafCode", SerializerKeys::NAF_CODE);
         $this->assertEquals("name", SerializerKeys::NAME);
         $this->assertEquals("ni", SerializerKeys::NI);
+        $this->assertEquals("notify", SerializerKeys::NOTIFY);
         $this->assertEquals("number", SerializerKeys::NUMBER);
 
         $this->assertEquals("object", SerializerKeys::OBJECT);

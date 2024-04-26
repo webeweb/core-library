@@ -1156,6 +1156,13 @@ interface SerializerKeys {
     public const NI = "ni";
 
     /**
+     * Serializer key "notify".
+     *
+     * @var string
+     */
+    public const NOTIFY = "notify";
+
+    /**
      * Serializer key "number".
      *
      * @var string
