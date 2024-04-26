@@ -92,13 +92,13 @@ class JsonSerializerTest extends AbstractTestCase {
 
         // Set a Select2 option mock.
         $model = $this->getMockBuilder(Select2OptionInterface::class)->getMock();
-        $model->expects($this->any())->method("getSelect2OptionId")->willReturn(BaseSerializerKeys::ID);
-        $model->expects($this->any())->method("getSelect2OptionText")->willReturn(BaseSerializerKeys::TEXT);
+        $model->expects($this->any())->method("getChoiceValue")->willReturn(BaseSerializerKeys::ID);
+        $model->expects($this->any())->method("getChoiceLabel")->willReturn(BaseSerializerKeys::TEXT);
 
         $res = JsonSerializer::serializeSelect2Option($model);
         $this->assertCount(2, $res);
 
-        $this->assertEquals($model->getSelect2OptionId(), $res[BaseSerializerKeys::ID]);
-        $this->assertEquals($model->getSelect2OptionText(), $res[BaseSerializerKeys::TEXT]);
+        $this->assertEquals($model->getChoiceValue(), $res[BaseSerializerKeys::ID]);
+        $this->assertEquals($model->getChoiceLabel(), $res[BaseSerializerKeys::TEXT]);
     }
 }

@@ -13,25 +13,15 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Widget\Assets\Select2;
 
+use WBW\Library\Widget\Component\Select\ChoiceLabelInterface;
+use WBW\Library\Widget\Component\Select\ChoiceValueInterface;
+
 /**
  * Select2 option interface.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Widget\Assets\Select2
  */
-interface Select2OptionInterface {
+interface Select2OptionInterface extends ChoiceLabelInterface, ChoiceValueInterface {
 
-    /**
-     * Get a Select2 option "id".
-     *
-     * @return mixed Returns the Select2 option "id".
-     */
-    public function getSelect2OptionId();
-
-    /**
-     * Get a Select2 option "text".
-     *
-     * @return string Returns the Select2 option "text".
-     */
-    public function getSelect2OptionText(): ?string;
 }

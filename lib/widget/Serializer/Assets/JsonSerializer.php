@@ -75,8 +75,8 @@ class JsonSerializer {
     public static function serializeSelect2Option(Select2OptionInterface $model): array {
 
         return [
-            BaseSerializerKeys::ID   => $model->getSelect2OptionId(),
-            BaseSerializerKeys::TEXT => $model->getSelect2OptionText(),
+            BaseSerializerKeys::ID   => $model->getChoiceValue(),
+            BaseSerializerKeys::TEXT => $model->getChoiceLabel(),
         ];
     }
 }
