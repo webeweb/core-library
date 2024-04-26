@@ -13,7 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Symfony\Tests;
 
-use WBW\Library\Core\Tests\AbstractTestCase as BaseTestCase;
+use Psr\Log\LoggerInterface;
+use WBW\Library\Common\Tests\AbstractTestCase as BaseTestCase;
 
 /**
  * Abstract test case.
@@ -24,4 +25,20 @@ use WBW\Library\Core\Tests\AbstractTestCase as BaseTestCase;
  */
 abstract class AbstractTestCase extends BaseTestCase {
 
+    /**
+     * Logger.
+     *
+     * @var LoggerInterface|null
+     */
+    protected $logger;
+
+    /**
+     * {@inheritDoc}
+     */
+    protected function setUp(): void {
+        parent::setUp();
+
+        // Set a Logger mock.
+        $this->logger = $this->getMockBuilder(LoggerInterface::class)->getMock();
+    }
 }
