@@ -11,7 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Serializer;
+namespace WBW\Library\Common\Serializer\Request;
 
 use WBW\Library\Common\Model\Request\RequestDetailInterface;
 use WBW\Library\Common\Serializer\SerializerKeys;
@@ -20,7 +20,7 @@ use WBW\Library\Common\Serializer\SerializerKeys;
  * JSON serializer.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Serializer
+ * @package WBW\Library\Common\Serializer\Request
  */
 class JsonSerializer {
 

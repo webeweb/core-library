@@ -14,6 +14,7 @@ declare(strict_types = 1);
 namespace WBW\Library\Symfony\Model;
 
 use WBW\Library\Common\Model\Request\RequestDetailInterface;
+use WBW\Library\Common\Serializer\Request\JsonSerializer;
 use WBW\Library\Common\Traits\DateTimes\DateTimeDateTrait;
 use WBW\Library\Common\Traits\Integers\IntegerIdTrait;
 use WBW\Library\Common\Traits\Strings\StringIpAddressTrait;
@@ -21,7 +22,6 @@ use WBW\Library\Common\Traits\Strings\StringMethodTrait;
 use WBW\Library\Common\Traits\Strings\StringRouteTrait;
 use WBW\Library\Common\Traits\Strings\StringUrlTrait;
 use WBW\Library\Common\Traits\Strings\StringUserAgentTrait;
-use WBW\Library\Symfony\Serializer\JsonSerializer;
 
 /**
  * Request detail.
