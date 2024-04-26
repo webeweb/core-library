@@ -85,6 +85,8 @@ class SerializerKeysTest extends AbstractTestCase {
         $this->assertEquals("d21", SerializerKeys::D21);
         $this->assertEquals("d3", SerializerKeys::D3);
         $this->assertEquals("data", SerializerKeys::DATA);
+        $this->assertEquals("dataGet", SerializerKeys::DATA_GET);
+        $this->assertEquals("dataPost", SerializerKeys::DATA_POST);
         $this->assertEquals("date", SerializerKeys::DATE);
         $this->assertEquals("debug", SerializerKeys::DEBUG);
         $this->assertEquals("deleted", SerializerKeys::DELETED);
@@ -113,6 +115,8 @@ class SerializerKeysTest extends AbstractTestCase {
         $this->assertEquals("endedAt", SerializerKeys::ENDED_AT);
         $this->assertEquals("endedOn", SerializerKeys::ENDED_ON);
         $this->assertEquals("entity", SerializerKeys::ENTITY);
+        $this->assertEquals("entityData", SerializerKeys::ENTITY_DATA);
+        $this->assertEquals("entityId", SerializerKeys::ENTITY_ID);
         $this->assertEquals("environment", SerializerKeys::ENVIRONMENT);
         $this->assertEquals("error", SerializerKeys::ERROR);
         $this->assertEquals("errors", SerializerKeys::ERRORS);
@@ -187,6 +191,7 @@ class SerializerKeysTest extends AbstractTestCase {
         $this->assertEquals("mac", SerializerKeys::MAC);
         $this->assertEquals("macAddress", SerializerKeys::MAC_ADDRESS);
         $this->assertEquals("maritalStatus", SerializerKeys::MARITAL_STATUS);
+        $this->assertEquals("matcher", SerializerKeys::MATCHER);
         $this->assertEquals("max", SerializerKeys::MAX);
         $this->assertEquals("maximum", SerializerKeys::MAXIMUM);
         $this->assertEquals("maxDuration", SerializerKeys::MAX_DURATION);
@@ -245,6 +250,11 @@ class SerializerKeysTest extends AbstractTestCase {
         $this->assertEquals("release", SerializerKeys::RELEASE);
         $this->assertEquals("remaining", SerializerKeys::REMAINING);
         $this->assertEquals("request", SerializerKeys::REQUEST);
+        $this->assertEquals("requestDataGet", SerializerKeys::REQUEST_DATA_GET);
+        $this->assertEquals("requestDataPost", SerializerKeys::REQUEST_DATA_POST);
+        $this->assertEquals("requestMethod", SerializerKeys::REQUEST_METHOD);
+        $this->assertEquals("requestRoute", SerializerKeys::REQUEST_ROUTE);
+        $this->assertEquals("requestUrl", SerializerKeys::REQUEST_URL);
         $this->assertEquals("reset", SerializerKeys::RESET);
         $this->assertEquals("ribKey", SerializerKeys::RIB_KEY);
         $this->assertEquals("route", SerializerKeys::ROUTE);
@@ -320,6 +330,7 @@ class SerializerKeysTest extends AbstractTestCase {
 
         $this->assertEquals("x", SerializerKeys::X);
         $this->assertEquals("x1", SerializerKeys::X1);
+        $this->assertEquals("xmlHttp", SerializerKeys::XML_HTTP);
 
         $this->assertEquals("y", SerializerKeys::Y);
         $this->assertEquals("y1", SerializerKeys::Y1);

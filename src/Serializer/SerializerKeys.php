@@ -379,6 +379,20 @@ interface SerializerKeys {
     public const DATA = "data";
 
     /**
+     * Serializer key "data GET".
+     *
+     * @var string
+     */
+    public const DATA_GET = "dataGet";
+
+    /**
+     * Serializer key "data POST".
+     *
+     * @var string
+     */
+    public const DATA_POST = "dataPost";
+
+    /**
      * Serializer key "date".
      *
      * @var string
@@ -566,6 +580,20 @@ interface SerializerKeys {
      * @var string
      */
     public const ENTITY = "entity";
+
+    /**
+     * Serializer key "entity data".
+     *
+     * @var string
+     */
+    public const ENTITY_DATA = "entityData";
+
+    /**
+     * Serializer key "entity id".
+     *
+     * @var string
+     */
+    public const ENTITY_ID = "entityId";
 
     /**
      * Serializer key "environment".
@@ -1023,6 +1051,13 @@ interface SerializerKeys {
     public const MARITAL_STATUS = "maritalStatus";
 
     /**
+     * Serializer key "matcher".
+     *
+     * @var string
+     */
+    public const MATCHER = "matcher";
+
+    /**
      * Serializer key "max".
      *
      * @var string
@@ -1392,6 +1427,41 @@ interface SerializerKeys {
      * @var string
      */
     public const REQUEST = "request";
+
+    /**
+     * Serializer key "request data GET".
+     *
+     * @var string
+     */
+    public const REQUEST_DATA_GET = "requestDataGet";
+
+    /**
+     * Serializer key "request data POST".
+     *
+     * @var string
+     */
+    public const REQUEST_DATA_POST = "requestDataPost";
+
+    /**
+     * Serializer key "request method".
+     *
+     * @var string
+     */
+    public const REQUEST_METHOD = "requestMethod";
+
+    /**
+     * Serializer key "request route".
+     *
+     * @var string
+     */
+    public const REQUEST_ROUTE = "requestRoute";
+
+    /**
+     * Serializer key "request URL".
+     *
+     * @var string
+     */
+    public const REQUEST_URL = "requestUrl";
 
     /**
      * Serializer key "reset".
@@ -1875,6 +1945,13 @@ interface SerializerKeys {
      * @var string
      */
     public const X1 = "x1";
+
+    /**
+     * Serializer key "XML HTTP".
+     *
+     * @var string
+     */
+    public const XML_HTTP = "xmlHttp";
 
     /**
      * Serializer key "y".
