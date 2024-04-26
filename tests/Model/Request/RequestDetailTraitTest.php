@@ -11,17 +11,17 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Model;
+namespace WBW\Library\Common\Tests\Model\Request;
 
 use WBW\Library\Common\Model\Request\RequestDetailInterface;
-use WBW\Library\Symfony\Tests\AbstractTestCase;
-use WBW\Library\Symfony\Tests\Fixtures\Model\TestRequestDetailTrait;
+use WBW\Library\Common\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\Fixtures\Model\Request\TestRequestDetailTrait;
 
 /**
  * Request detail trait test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Model
+ * @package WBW\Library\Common\Tests\Model\Request
  */
 class RequestDetailTraitTest extends AbstractTestCase {
 

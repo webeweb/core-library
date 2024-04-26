@@ -11,15 +11,15 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Fixtures\Model;
+namespace WBW\Library\Common\Tests\Fixtures\Model\Request;
 
-use WBW\Library\Symfony\Model\RequestDetailTrait;
+use WBW\Library\Common\Model\Request\RequestDetailTrait;
 
 /**
  * Test request detail trait.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Fixtures\Model
+ * @package WBW\Library\Common\Tests\Fixtures\Model\Request
  */
 class TestRequestDetailTrait {
 
