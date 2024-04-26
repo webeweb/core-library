@@ -11,9 +11,8 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Model;
+namespace WBW\Library\Common\Model\Request;
 
-use WBW\Library\Common\Model\Request\RequestDetailInterface;
 use WBW\Library\Common\Serializer\Request\JsonSerializer;
 use WBW\Library\Common\Traits\DateTimes\DateTimeDateTrait;
 use WBW\Library\Common\Traits\Integers\IntegerIdTrait;
@@ -27,7 +26,7 @@ use WBW\Library\Common\Traits\Strings\StringUserAgentTrait;
  * Request detail.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Model
+ * @package WBW\Library\Common\Model\Request
  */
 class RequestDetail implements RequestDetailInterface {
 

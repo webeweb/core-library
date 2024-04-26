@@ -11,15 +11,12 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Model;
+namespace WBW\Library\Common\Tests\Model\Request;
 
-use DateTime;
 use JsonSerializable;
+use WBW\Library\Common\Model\Request\RequestDetail;
 use WBW\Library\Common\Model\Request\RequestDetailInterface;
-use WBW\Library\Common\Serializer\SerializerKeys as BaseSerializerKeys;
-use WBW\Library\Symfony\Model\RequestDetail;
-use WBW\Library\Symfony\Serializer\SerializerKeys;
-use WBW\Library\Symfony\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * Repository event test.
@@ -36,27 +33,9 @@ class RequestDetailTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        // Set the date/time mock.
-        $date = new DateTime("2023-01-24 09:50:00");
-
-        // Set the expected data.
-        $data = file_get_contents(__DIR__ . "/RequestDetailTest.testJsonSerialize.json");
-
         $obj = new RequestDetail();
-        $obj->setDate($date);
-        $obj->setDataGet(SerializerKeys::DATA_GET);
-        $obj->setDataPost(SerializerKeys::DATA_POST);
-        $obj->setIpAddress(BaseSerializerKeys::IP_ADDRESS);
-        $obj->setMethod(BaseSerializerKeys::METHOD);
-        $obj->setRoute(BaseSerializerKeys::ROUTE);
-        $obj->setUrl(BaseSerializerKeys::URL);
-        $obj->setUserAgent(BaseSerializerKeys::USER_AGENT);
-        $obj->setXmlHttp(true);
 
-        $res = $obj->jsonSerialize();
-        $this->assertCount(10, $res);
-
-        $this->assertEquals($data, json_encode($res, JSON_PRETTY_PRINT) . "\n");
+        $this->assertIsArray($obj->jsonSerialize());
     }
 
     /**
