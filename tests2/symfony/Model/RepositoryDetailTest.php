@@ -13,8 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Symfony\Tests\Model;
 
+use WBW\Library\Common\Model\Repository\RepositoryDetailInterface;
 use WBW\Library\Symfony\Model\RepositoryDetail;
-use WBW\Library\Symfony\Model\RepositoryDetailInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 
 /**

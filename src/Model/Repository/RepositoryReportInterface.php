@@ -13,8 +13,6 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Model\Repository;
 
-use WBW\Library\Symfony\Model\RepositoryDetailInterface;
-
 /**
  * Repository report.
  *
