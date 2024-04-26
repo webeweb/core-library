@@ -11,7 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Response;
+namespace WBW\Library\Common\Model\Response;
 
 use JsonSerializable;
 
@@ -19,7 +19,7 @@ use JsonSerializable;
  * Simple JSON response data.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Response
+ * @package WBW\Library\Common\Model\Response
  */
 interface SimpleJsonResponseDataInterface extends JsonSerializable {
 

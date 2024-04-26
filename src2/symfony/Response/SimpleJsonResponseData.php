@@ -13,6 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Symfony\Response;
 
+use WBW\Library\Common\Model\Response\SimpleJsonResponseDataInterface;
+
 /**
  * Simple JSON response data.
  *

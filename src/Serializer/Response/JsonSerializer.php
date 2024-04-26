@@ -14,8 +14,8 @@ declare(strict_types = 1);
 namespace WBW\Library\Common\Serializer\Response;
 
 use WBW\Library\Common\Model\Response\DefaultJsonResponseDataInterface;
+use WBW\Library\Common\Model\Response\SimpleJsonResponseDataInterface;
 use WBW\Library\Common\Serializer\SerializerKeys;
-use WBW\Library\Symfony\Response\SimpleJsonResponseDataInterface;
 
 /**
  * JSON serializer.
