@@ -11,7 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Response;
+namespace WBW\Library\Common\Model\Response;
 
 use JsonSerializable;
 
@@ -19,7 +19,7 @@ use JsonSerializable;
  * Default JSON response data.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Response
+ * @package WBW\Library\Common\Model\Response
  */
 interface DefaultJsonResponseDataInterface extends JsonSerializable {
 
@@ -79,7 +79,7 @@ interface DefaultJsonResponseDataInterface extends JsonSerializable {
      * Set the success.
      *
      * @param bool|null $success The success.
-     * @return DefaultJsonResponseData Returns this default JSON response data.
+     * @return DefaultJsonResponseDataInterface Returns this default JSON response data.
      */
     public function setSuccess(?bool $success): DefaultJsonResponseDataInterface;
 }

@@ -14,8 +14,8 @@ declare(strict_types = 1);
 namespace WBW\Library\Symfony\Tests\Response;
 
 use JsonSerializable;
+use WBW\Library\Common\Model\Response\DefaultJsonResponseDataInterface;
 use WBW\Library\Symfony\Response\DefaultJsonResponseData;
-use WBW\Library\Symfony\Response\DefaultJsonResponseDataInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 
 /**

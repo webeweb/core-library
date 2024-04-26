@@ -13,6 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Symfony\Response;
 
+use WBW\Library\Common\Model\Response\DefaultJsonResponseDataInterface;
 use WBW\Library\Common\Traits\Arrays\ArrayDataTrait;
 use WBW\Library\Common\Traits\Strings\ArrayErrorsTrait;
 use WBW\Library\Common\Traits\Strings\StringMessageTrait;
