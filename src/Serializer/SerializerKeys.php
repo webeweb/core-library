@@ -582,6 +582,13 @@ interface SerializerKeys {
     public const ERROR = "error";
 
     /**
+     * Serializer key "errors".
+     *
+     * @var string
+     */
+    public const ERRORS = "errors";
+
+    /**
      * Serializer key "excluding VAT price".
      *
      * @var string
@@ -1588,6 +1595,13 @@ interface SerializerKeys {
      * @var string
      */
     public const SUBJECT = "subject";
+
+    /**
+     * Serializer key "success".
+     *
+     * @var string
+     */
+    public const SUCCESS = "success";
 
     /**
      * Serializer key "sy".
