@@ -76,7 +76,6 @@
             "WBW\\Library\\SkiData\\": "lib/skidata/",
             "WBW\\Library\\Widget\\": "lib/widget/",
             "WBW\\Library\\Common\\": "src",
-            "WBW\\Library\\Core\\": "src2/core/",
             "WBW\\Library\\Maths\\": "src2/maths/",
             "WBW\\Library\\Symfony\\": "src2/symfony/"
         },
@@ -100,7 +99,6 @@
             "WBW\\Library\\SkiData\\Tests\\": "lib/skidata/Tests",
             "WBW\\Library\\Widget\\Tests\\": "lib/widget/Tests",
             "WBW\\Library\\Common\\Tests\\": "tests",
-            "WBW\\Library\\Core\\Tests\\": "tests2/core/",
             "WBW\\Library\\Maths\\Tests\\": "tests2/maths/",
             "WBW\\Library\\Symfony\\Tests\\": "tests2/symfony/"
         }
