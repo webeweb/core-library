@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Tests\Serializer\Request;
 
-use _PHPStan_ae8980142\Nette\Utils\DateTime;
+use DateTime;
 use WBW\Library\Common\Model\Request\RequestDetailInterface;
 use WBW\Library\Common\Serializer\Request\JsonSerializer;
 use WBW\Library\Common\Serializer\SerializerKeys;
