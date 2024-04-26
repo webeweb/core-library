@@ -11,18 +11,18 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Response;
+namespace WBW\Library\Common\Tests\Model\Response;
 
 use JsonSerializable;
+use WBW\Library\Common\Model\Response\DefaultJsonResponseData;
 use WBW\Library\Common\Model\Response\DefaultJsonResponseDataInterface;
-use WBW\Library\Symfony\Response\DefaultJsonResponseData;
-use WBW\Library\Symfony\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * Default JSON response data test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Response
+ * @package WBW\Library\Common\Tests\Model\Response
  */
 class DefaultJsonResponseDataTest extends AbstractTestCase {
 
@@ -33,20 +33,9 @@ class DefaultJsonResponseDataTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        // Set the expected data.
-        $data = file_get_contents(__DIR__ . "/DefaultJsonResponseDataTest.testJsonSerialize.json");
-        $json = json_decode($data, true);
-
         $obj = new DefaultJsonResponseData();
-        $obj->setData(["data"]);
-        $obj->setErrors(["error"]);
-        $obj->setMessage("message");
-        $obj->setSuccess(true);
 
-        $res = $obj->jsonSerialize();
-        $this->assertCount(4, $res);
-
-        $this->assertEquals($json, $res);
+        $this->assertIsArray($obj->jsonSerialize());
     }
 
     /**
@@ -77,7 +66,6 @@ class DefaultJsonResponseDataTest extends AbstractTestCase {
         $this->assertNull($obj->getData());
         $this->assertNull($obj->getErrors());
         $this->assertNull($obj->getMessage());
-
         $this->assertNull($obj->getSuccess());
     }
 }

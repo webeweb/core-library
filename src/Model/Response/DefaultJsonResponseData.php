@@ -11,9 +11,9 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Response;
+namespace WBW\Library\Common\Model\Response;
 
-use WBW\Library\Common\Model\Response\DefaultJsonResponseDataInterface;
+use WBW\Library\Common\Serializer\Response\JsonSerializer;
 use WBW\Library\Common\Traits\Arrays\ArrayDataTrait;
 use WBW\Library\Common\Traits\Strings\ArrayErrorsTrait;
 use WBW\Library\Common\Traits\Strings\StringMessageTrait;
@@ -22,7 +22,7 @@ use WBW\Library\Common\Traits\Strings\StringMessageTrait;
  * Default JSON response data.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Response
+ * @package WBW\Library\Common\Model\Response
  */
 class DefaultJsonResponseData implements DefaultJsonResponseDataInterface {
 
@@ -56,13 +56,7 @@ class DefaultJsonResponseData implements DefaultJsonResponseDataInterface {
      * @return array<string,mixed> Returns this serialized instance.
      */
     public function jsonSerialize(): array {
-
-        return [
-            "success" => $this->getSuccess(),
-            "data"    => $this->getData(),
-            "message" => $this->getMessage(),
-            "errors"  => $this->getErrors(),
-        ];
+        return JsonSerializer::serializeDefaultJsonResponseData($this);
     }
 
     /**
