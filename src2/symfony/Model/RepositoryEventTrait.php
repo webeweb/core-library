@@ -13,6 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Symfony\Model;
 
+use WBW\Library\Common\Model\Repository\RepositoryEventInterface;
+
 /**
  * Repository event trait.
  *

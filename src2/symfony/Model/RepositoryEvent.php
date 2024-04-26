@@ -13,6 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Symfony\Model;
 
+use WBW\Library\Common\Model\Repository\RepositoryEventInterface;
 use WBW\Library\Common\Traits\DateTimes\DateTimeDateTrait;
 use WBW\Library\Common\Traits\Integers\IntegerIdTrait;
 use WBW\Library\Common\Traits\Strings\StringEntityTrait;

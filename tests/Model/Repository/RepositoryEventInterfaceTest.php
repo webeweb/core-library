@@ -11,16 +11,16 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Model;
+namespace WBW\Library\Common\Tests\Model\Repository;
 
-use WBW\Library\Symfony\Model\RepositoryEventInterface;
-use WBW\Library\Symfony\Tests\AbstractTestCase;
+use WBW\Library\Common\Model\Repository\RepositoryEventInterface;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * Repository event interface test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Model
+ * @package WBW\Library\Common\Tests\Model\Repository
  */
 class RepositoryEventInterfaceTest extends AbstractTestCase {
 

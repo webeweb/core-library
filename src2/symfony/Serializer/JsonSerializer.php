@@ -13,8 +13,8 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Symfony\Serializer;
 
+use WBW\Library\Common\Model\Repository\RepositoryEventInterface;
 use WBW\Library\Common\Serializer\SerializerKeys as BaseSerializerKeys;
-use WBW\Library\Symfony\Model\RepositoryEventInterface;
 use WBW\Library\Symfony\Model\RequestDetailInterface;
 
 /**

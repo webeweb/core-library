@@ -11,7 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Model;
+namespace WBW\Library\Common\Model\Repository;
 
 use DateTime;
 use JsonSerializable;
@@ -20,7 +20,7 @@ use JsonSerializable;
  * Repository event interface.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Model
+ * @package WBW\Library\Common\Model\Repository
  */
 interface RepositoryEventInterface extends JsonSerializable {
 

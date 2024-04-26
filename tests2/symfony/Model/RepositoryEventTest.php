@@ -15,9 +15,9 @@ namespace WBW\Library\Symfony\Tests\Model;
 
 use DateTime;
 use JsonSerializable;
+use WBW\Library\Common\Model\Repository\RepositoryEventInterface;
 use WBW\Library\Common\Serializer\SerializerKeys as BaseSerializerKeys;
 use WBW\Library\Symfony\Model\RepositoryEvent;
-use WBW\Library\Symfony\Model\RepositoryEventInterface;
 use WBW\Library\Symfony\Serializer\SerializerKeys;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 
