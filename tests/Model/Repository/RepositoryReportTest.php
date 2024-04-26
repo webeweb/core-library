@@ -11,18 +11,18 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Tests\Model;
+namespace WBW\Library\Common\Tests\Model\Repository;
 
 use WBW\Library\Common\Model\Repository\RepositoryDetailInterface;
+use WBW\Library\Common\Model\Repository\RepositoryReport;
 use WBW\Library\Common\Model\Repository\RepositoryReportInterface;
-use WBW\Library\Symfony\Model\RepositoryReport;
-use WBW\Library\Symfony\Tests\AbstractTestCase;
+use WBW\Library\Common\Tests\AbstractTestCase;
 
 /**
  * Repository report test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Tests\Model
+ * @package WBW\Library\Common\Tests\Model\Repository
  */
 class RepositoryReportTest extends AbstractTestCase {
 

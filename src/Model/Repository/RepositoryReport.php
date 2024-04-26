@@ -11,10 +11,8 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Model;
+namespace WBW\Library\Common\Model\Repository;
 
-use WBW\Library\Common\Model\Repository\RepositoryDetailInterface;
-use WBW\Library\Common\Model\Repository\RepositoryReportInterface;
 use WBW\Library\Common\Traits\Integers\IntegerCountTrait;
 use WBW\Library\Common\Traits\Strings\StringEntityTrait;
 use WBW\Library\Common\Traits\Strings\StringTableTrait;
@@ -23,7 +21,7 @@ use WBW\Library\Common\Traits\Strings\StringTableTrait;
  * Repository report.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Model
+ * @package WBW\Library\Common\Model\Repository
  */
 class RepositoryReport implements RepositoryReportInterface {
 
@@ -34,7 +32,7 @@ class RepositoryReport implements RepositoryReportInterface {
     /**
      * Details.
      *
-     * @var RepositoryDetailInterface[]
+     * @var RepositoryDetailInterface[]|null
      */
     protected $details;
 
