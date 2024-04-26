@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Symfony\Tests\Model;
 
-use WBW\Library\Symfony\Model\RepositoryReportInterface;
+use WBW\Library\Common\Model\Repository\RepositoryReportInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 use WBW\Library\Symfony\Tests\Fixtures\Model\TestRepositoryReportTrait;
 

@@ -13,9 +13,9 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Symfony\Tests\Model;
 
+use WBW\Library\Common\Model\Repository\RepositoryReportInterface;
 use WBW\Library\Symfony\Model\RepositoryDetailInterface;
 use WBW\Library\Symfony\Model\RepositoryReport;
-use WBW\Library\Symfony\Model\RepositoryReportInterface;
 use WBW\Library\Symfony\Tests\AbstractTestCase;
 
 /**
