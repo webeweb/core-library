@@ -11,13 +11,13 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Assets;
+namespace WBW\Library\Widget\Component\Select;
 
 /**
  * Choice label interface.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Assets
+ * @package WBW\Library\Widget\Component\Select
  */
 interface ChoiceLabelInterface {
 
