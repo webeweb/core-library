@@ -68,8 +68,7 @@
             "WBW\\Library\\Quadratus\\": "lib/quadratus/",
             "WBW\\Library\\SkiData\\": "lib/skidata/",
             "WBW\\Library\\Widget\\": "lib/widget/",
-            "WBW\\Library\\Common\\": "src",
-            "WBW\\Library\\Symfony\\": "src2/symfony/"
+            "WBW\\Library\\Common\\": "src"
         },
         "exclude-from-classmap": [
             "/lib/adoria/Tests/",
@@ -90,8 +89,7 @@
             "WBW\\Library\\Quadratus\\Tests\\": "lib/quadratus/Tests",
             "WBW\\Library\\SkiData\\Tests\\": "lib/skidata/Tests",
             "WBW\\Library\\Widget\\Tests\\": "lib/widget/Tests",
-            "WBW\\Library\\Common\\Tests\\": "tests",
-            "WBW\\Library\\Symfony\\Tests\\": "tests2/symfony/"
+            "WBW\\Library\\Common\\Tests\\": "tests"
         }
     },
     "config": {
