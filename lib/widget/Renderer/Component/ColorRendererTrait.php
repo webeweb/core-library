@@ -11,7 +11,7 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Symfony\Renderer\Assets;
+namespace WBW\Library\Widget\Renderer\Component;
 
 use WBW\Library\Common\Helper\StringHelper;
 
@@ -19,19 +19,19 @@ use WBW\Library\Common\Helper\StringHelper;
  * Color renderer trait.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Symfony\Renderer\Assets
+ * @package WBW\Library\Widget\Renderer\Component
  */
 trait ColorRendererTrait {
 
     /**
-     * Render a color.
+     * Preview a color.
      *
      * @param string|null $color The color.
      * @param int|null $width The width.
      * @param int|null $height The height.
-     * @return string|null Returns the rendered color.
+     * @return string|null Returns the preview color.
      */
-    protected function renderColor(?string $color, ?int $width = null, ?int $height = null): ?string {
+    protected function previewColor(?string $color, ?int $width = null, ?int $height = null): ?string {
 
         if (null === $color) {
             return null;
