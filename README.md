@@ -35,7 +35,7 @@ If you like this package, pay me a beer (or a coffee)
 
 ## Compatibility
 
-[![PHP](https://img.shields.io/packagist/php-v/webeweb/core-library.svg?style=for-the-badge&color=777BB4&logo=php)](http://php.net)
+[![PHP](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fwebeweb%2Fcore-library%2Fmaster%2Fcomposer.json&query=%24.require.php&style=for-the-badge&color=777BB4&logo=php&label=PHP)](http://php.net)
 
 ## Installation
 
