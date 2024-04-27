@@ -73,7 +73,7 @@ class ImageUtilityTest extends AbstractTestCase {
 
         // Set the mocks.
         $uri = $this->images[0];
-        $url = "https://raw.githubusercontent.com/webeweb/core-library/master/tests/image/Fixtures/TestImage_1920x1037.jpg";
+        $url = "https://raw.githubusercontent.com/webeweb/core-library/master/lib/widget/Tests/Fixtures/Component/Image/DefaultImage_1920x1037.jpg";
 
         $exp = file_get_contents(__DIR__ . "/../Fixtures/Utility/ImageUtilityTest.testBase64Encode.txt");
 
