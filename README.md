@@ -14,7 +14,7 @@ Provides:
 - Cipher (ROT13, ROT45, etc.)
 - Database connector (Access, SQL Server, MySQL, etc.)
 - Helper (array, boolean, double, float, integer, string, etc.)
-- Logger (null logger, terminal logger, ect.)
+- Logger (null logger, terminal logger, etc.)
 - Math (Fibonacci, Luhn algorithm, Pascal's triangle, etc.)
 - Model (billing, system, vehicle, etc.)
 - Monitor (hard disk, memory, network, operating system, processor, etc.)
