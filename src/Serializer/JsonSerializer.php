@@ -29,13 +29,13 @@ class JsonSerializer {
      * @param array<JsonSerializable|null> $models The models.
      * @return mixed[] Returns the serialized array.
      */
-    public static function jsonSerializeArray(array $models): array {
+    public static function serializeArray(array $models): array {
 
         $output = [];
 
         foreach ($models as $current) {
 
-            $array = static::jsonSerializeModel($current);
+            $array = static::serializeModel($current);
             if (null !== $array) {
                 $output[] = $array;
             }
@@ -50,7 +50,7 @@ class JsonSerializer {
      * @param JsonSerializable|null $model The model.
      * @return array<string,mixed>|null Returns the serialized model.
      */
-    public static function jsonSerializeModel(?JsonSerializable $model): ?array {
+    public static function serializeModel(?JsonSerializable $model): ?array {
 
         if (null === $model) {
             return null;

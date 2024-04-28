@@ -88,13 +88,13 @@ class JsonSerializer {
             SerializerKeys::COMMENT             => $model->getComment(),
             SerializerKeys::CREATED_AT          => $model->getCreatedAt(),
             SerializerKeys::DATE                => $model->getDate(),
-            SerializerKeys::DETAILS             => BaseJsonSerializer::jsonSerializeArray($model->getDetails()),
+            SerializerKeys::DETAILS             => BaseJsonSerializer::serializeArray($model->getDetails()),
             SerializerKeys::DISCOUNT_RATE       => $model->getDiscountRate(),
             SerializerKeys::DISCOUNT_TOTAL      => $model->getDiscountTotal(),
             SerializerKeys::EXCLUDING_VAT_TOTAL => $model->getExcludingVatTotal(),
             SerializerKeys::INCLUDING_VAT_TOTAL => $model->getIncludingVatTotal(),
             SerializerKeys::NUMBER              => $model->getNumber(),
-            SerializerKeys::PARENT              => BaseJsonSerializer::jsonSerializeModel($model->getParent()),
+            SerializerKeys::PARENT              => BaseJsonSerializer::serializeModel($model->getParent()),
             SerializerKeys::REFERENCE           => $model->getReference(),
             SerializerKeys::UPDATED_AT          => $model->getUpdatedAt(),
             SerializerKeys::VAT_TOTAL           => $model->getVatTotal(),
@@ -292,9 +292,9 @@ class JsonSerializer {
 
         return [
             SerializerKeys::LABEL                        => $model->getLabel(),
-            SerializerKeys::PURCHASES_ACCOUNTING_ACCOUNT => BaseJsonSerializer::jsonSerializeModel($model->getPurchasesAccountingAccount()),
+            SerializerKeys::PURCHASES_ACCOUNTING_ACCOUNT => BaseJsonSerializer::serializeModel($model->getPurchasesAccountingAccount()),
             SerializerKeys::RATE                         => $model->getRate(),
-            SerializerKeys::SALES_ACCOUNTING_ACCOUNT     => BaseJsonSerializer::jsonSerializeModel($model->getSalesAccountingAccount()),
+            SerializerKeys::SALES_ACCOUNTING_ACCOUNT     => BaseJsonSerializer::serializeModel($model->getSalesAccountingAccount()),
         ];
     }
 }
