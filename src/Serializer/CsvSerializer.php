@@ -27,13 +27,13 @@ class CsvSerializer extends AbstractSerializer {
      * @param array<CsvSerializable|null> $models The models.
      * @return string Returns the serialized array.
      */
-    public static function csvSerializeArray(array $models): string {
+    public static function serializeArray(array $models): string {
 
         $output = [];
 
         foreach ($models as $current) {
 
-            $result = static::csvSerializeModel($current);
+            $result = static::serializeModel($current);
             if (null !== $result) {
                 $output[] = $result;
             }
@@ -48,7 +48,7 @@ class CsvSerializer extends AbstractSerializer {
      * @param CsvSerializable|null $model The model.
      * @return string|null Returns the serialized model.
      */
-    public static function csvSerializeModel(?CsvSerializable $model): ?string {
+    public static function serializeModel(?CsvSerializable $model): ?string {
 
         if (null === $model) {
             return null;
