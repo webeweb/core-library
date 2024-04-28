@@ -38,7 +38,7 @@ class XmlSerializerTest extends AbstractTestCase {
             null,
         ];
 
-        $res = XmlSerializer::xmlSerializeArray($models);
+        $res = XmlSerializer::serializeArray($models);
         $this->assertEquals("", $res);
     }
 
@@ -49,9 +49,9 @@ class XmlSerializerTest extends AbstractTestCase {
      */
     public function testSerializeValue(): void {
 
-        $this->assertNull(XmlSerializer::xmlSerializeValue(null));
+        $this->assertNull(XmlSerializer::serializeValue(null));
 
-        $res = XmlSerializer::xmlSerializeValue('<?xml version="1.0" encoding="utf-8"?>');
+        $res = XmlSerializer::serializeValue('<?xml version="1.0" encoding="utf-8"?>');
         $this->assertEquals("&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;", $res);
     }
 }

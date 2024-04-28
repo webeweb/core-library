@@ -27,13 +27,13 @@ class XmlSerializer extends AbstractSerializer {
      * @param array<XmlSerializable|null> $models The models.
      * @return string Returns the serialized array.
      */
-    public static function xmlSerializeArray(array $models): string {
+    public static function serializeArray(array $models): string {
 
         $output = [];
 
         foreach ($models as $current) {
 
-            $result = static::xmlSerializeModel($current);
+            $result = static::serializeModel($current);
             if (null !== $result) {
                 $output[] = $result;
             }
@@ -48,7 +48,7 @@ class XmlSerializer extends AbstractSerializer {
      * @param XmlSerializable|null $model The model.
      * @return string|null Returns the serialized model.
      */
-    public static function xmlSerializeModel(?XmlSerializable $model): ?string {
+    public static function serializeModel(?XmlSerializable $model): ?string {
 
         if (null === $model) {
             return null;
@@ -63,7 +63,7 @@ class XmlSerializer extends AbstractSerializer {
      * @param string|null $value The value.
      * @return string|null Returns the serialized value.
      */
-    public static function xmlSerializeValue(?string $value): ?string {
+    public static function serializeValue(?string $value): ?string {
 
         if (null === $value) {
             return null;
