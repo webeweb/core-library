@@ -13,8 +13,6 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Common\Model\Billing;
 
-use Doctrine\Common\Collections\ArrayCollection;
-use Doctrine\Common\Collections\Collection;
 use WBW\Library\Common\Helper\Billing\BillableHelper;
 use WBW\Library\Common\Serializer\Billing\JsonSerializer;
 use WBW\Library\Common\Traits\DateTimes\DateTimeCreatedAtTrait;
@@ -53,7 +51,7 @@ abstract class Billable implements BillableInterface {
     /**
      * Details.
      *
-     * @var Collection<int,BillableDetailInterface>
+     * @var BillableDetailInterface[]|null
      */
     protected $details;
 
@@ -68,14 +66,14 @@ abstract class Billable implements BillableInterface {
      * Constructor.
      */
     public function __construct() {
-        $this->setDetails(new ArrayCollection());
+        $this->setDetails([]);
     }
 
     /**
      * {@inheritDoc}
      */
     public function addDetail(BillableDetailInterface $detail): BillableInterface {
-        $this->details->add($detail);
+        $this->details[] = $detail;
         $detail->setBillable($this);
         return $this;
     }
@@ -84,7 +82,7 @@ abstract class Billable implements BillableInterface {
      * {@inheritDoc}
      */
     public function getDetails(): array {
-        return $this->details->toArray();
+        return $this->details;
     }
 
     /**
@@ -124,18 +122,24 @@ abstract class Billable implements BillableInterface {
      * {@inheritDoc}
      */
     public function removeDetail(BillableDetailInterface $detail): BillableInterface {
-        $this->details->removeElement($detail);
-        $detail->setBillable(null);
+
+        $pos = array_search($detail, $this->details, true);
+        if (false !== $pos) {
+
+            unset($this->details[$pos]);
+            $detail->setBillable(null);
+        }
+
         return $this;
     }
 
     /**
      * Set the details.
      *
-     * @param Collection<int,BillableDetailInterface> $details The details.
+     * @param BillableDetailInterface[] $details The details.
      * @return BillableInterface Returns this billable.
      */
-    protected function setDetails(Collection $details): BillableInterface {
+    protected function setDetails(array $details): BillableInterface {
         $this->details = $details;
         return $this;
     }

@@ -46,7 +46,6 @@
         "ext-pdo": "*",
         "ext-posix": "*",
         "ext-zip": "*",
-        "doctrine/collections": "^1.5|^2.0",
         "psr/log": "^1.0|^2.0|^3.0"
     },
     "require-dev": {
