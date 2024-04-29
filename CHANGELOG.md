@@ -1,6 +1,28 @@
 CHANGELOG
 =========
 
+### [9.0.0](https://github.com/webeweb/core-library/tree/v9.0.0) (2024-04-29)
+
+- Add widget library
+- Improve code quality
+- Improve PHPDoc
+- Merge dropdown, image and symfony classes into widget package
+- Move accounting classes
+- Move billing classes
+- Move database classes
+- Move logger classes
+- Move maths classes
+- Move planning classes
+- Move provider classes
+- Move security classes
+- Move sorter classes
+- Move system classe
+- Move trait classes
+- Move type classes
+- Move validator classes
+- Move vehicle classes
+- Update dependencies
+
 ### [8.85.0](https://github.com/webeweb/core-library/tree/v8.85.0) (2024-03-18)
 
 - Improve constants visibility
