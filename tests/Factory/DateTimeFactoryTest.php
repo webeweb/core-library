@@ -33,7 +33,7 @@ class DateTimeFactoryTest extends AbstractTestCase {
      */
     public function testFirstLastDateMonth(): void {
 
-        // Set a date/time mock.
+        // Set a date mock.
         $date = new DateTime("2022-10-27");
 
         $res = DateTimeFactory::firstLastDateMonth($date);

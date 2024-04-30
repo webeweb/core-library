@@ -32,7 +32,7 @@ class DateTimeCreatedTraitTest extends AbstractTestCase {
      */
     public function testSetCreated(): void {
 
-        // Set a created mock.
+        // Set a date/time mock.
         $created = new DateTime();
 
         $obj = new TestDateTimeCreatedTrait();

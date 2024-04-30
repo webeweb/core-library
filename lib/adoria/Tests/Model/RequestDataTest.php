@@ -47,7 +47,7 @@ class RequestDataTest extends AbstractTestCase {
      */
     public function testSetBuyDateMax(): void {
 
-        // Set an Buy max date mock.
+        // Set a buy max date mock.
         $buyDateMax = new DateTime();
 
         $obj = new RequestData();

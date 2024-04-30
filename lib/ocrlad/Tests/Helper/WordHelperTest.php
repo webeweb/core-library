@@ -32,7 +32,7 @@ class WordHelperTest extends AbstractTestCase {
      */
     public function testImplodeWords(): void {
 
-        // Set a Word mocks.
+        // Set the Word mocks.
         $word1 = (new Word())->setContent("Hello");
         $word2 = (new Word())->setContent("World");
         $word3 = (new Word())->setContent("!");

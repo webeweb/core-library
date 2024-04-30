@@ -183,7 +183,7 @@ class JsonSerializerTest extends AbstractTestCase {
         $parent = $this->getMockBuilder(NavigationNodeInterface::class)->getMock();
         $parent->expects($this->any())->method("jsonSerialize")->willReturn(JsonSerializer::serializeNavigationNode($parent));
 
-        // Set a NavigationNode mock.
+        // Set a Navigation node mock.
         $model = $this->getMockBuilder(NavigationNodeInterface::class)->getMock();
         $model->expects($this->any())->method("getId")->willReturn(BaseSerializerKeys::ID);
         $model->expects($this->any())->method("getActive")->willReturn(true);

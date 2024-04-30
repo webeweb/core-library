@@ -60,7 +60,7 @@ class CompoundRateLimitTraitTest extends AbstractTestCase {
      */
     public function testSetReset(): void {
 
-        // Set a Date/time mock.
+        // Set a reset mock.
         $reset = new DateTime();
 
         $obj = new TestCompoundRateLimitTrait();

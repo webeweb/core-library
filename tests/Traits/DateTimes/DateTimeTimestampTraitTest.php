@@ -32,7 +32,7 @@ class DateTimeTimestampTraitTest extends AbstractTestCase {
      */
     public function testSetTimestamp(): void {
 
-        // Set a timestamp mock.
+        // Set a date/time mock.
         $timestamp = new DateTime();
 
         $obj = new TestDateTimeTimestampTrait();

@@ -129,7 +129,7 @@ class LineTest extends AbstractTestCase {
      */
     public function testSetInvoiceDueDate(): void {
 
-        // Set a Invoice due date mock.
+        // Set an Invoice due date mock.
         $invoiceDueDate = new DateTime();
 
         $obj = new Line();

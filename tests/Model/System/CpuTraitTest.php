@@ -32,7 +32,7 @@ class CpuTraitTest extends AbstractTestCase {
      */
     public function testSetCpu(): void {
 
-        // Set a Cpu mock.
+        // Set a Current processor usage mock.
         $cpu = $this->getMockBuilder(CpuInterface::class)->getMock();
 
         $obj = new TestCpuTrait();

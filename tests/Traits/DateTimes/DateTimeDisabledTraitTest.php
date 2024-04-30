@@ -32,7 +32,7 @@ class DateTimeDisabledTraitTest extends AbstractTestCase {
      */
     public function testSetDisabled(): void {
 
-        // Set a disabled mock.
+        // Set a date/time mock.
         $disabled = new DateTime();
 
         $obj = new TestDateTimeDisabledTrait();

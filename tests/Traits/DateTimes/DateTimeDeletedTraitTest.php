@@ -32,7 +32,7 @@ class DateTimeDeletedTraitTest extends AbstractTestCase {
      */
     public function testSetDeleted(): void {
 
-        // Set a deleted mock.
+        // Set a date/time mock.
         $deleted = new DateTime();
 
         $obj = new TestDateTimeDeletedTrait();

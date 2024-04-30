@@ -79,7 +79,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      */
     public function testGetAge(): void {
 
-        // Set a reference date/time mock.
+        // Set a reference mock.
         $ref = new DateTime("2019-02-14");
 
         $this->assertEquals(19, DateTimeHelper::getAge(new DateTime("2000-02-13"), $ref));

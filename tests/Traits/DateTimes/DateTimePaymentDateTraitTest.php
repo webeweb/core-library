@@ -32,7 +32,7 @@ class DateTimePaymentDateTraitTest extends AbstractTestCase {
      */
     public function testSetPaymentDate(): void {
 
-        // Set a payment date mock.
+        // Set a date/time mock.
         $paymentDate = new DateTime();
 
         $obj = new TestDateTimePaymentDateTrait();

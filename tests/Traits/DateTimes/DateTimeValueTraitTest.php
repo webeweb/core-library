@@ -32,7 +32,7 @@ class DateTimeValueTraitTest extends AbstractTestCase {
      */
     public function testSetValue(): void {
 
-        // Set a value mock.
+        // Set a date/time mock.
         $value = new DateTime();
 
         $obj = new TestDateTimeValueTrait();

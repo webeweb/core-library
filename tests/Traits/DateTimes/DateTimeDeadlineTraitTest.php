@@ -32,7 +32,7 @@ class DateTimeDeadlineTraitTest extends AbstractTestCase {
      */
     public function testSetDeadline(): void {
 
-        // Set a deadline mock.
+        // Set a date/time mock.
         $deadline = new DateTime();
 
         $obj = new TestDateTimeDeadlineTrait();
