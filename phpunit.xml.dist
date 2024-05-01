@@ -6,7 +6,8 @@
          colors="true">
     <filter>
         <whitelist>
-            <directory>./</directory>
+            <directory>./lib</directory>
+            <directory>./src</directory>
             <exclude>
                 <directory>lib/adoria/Tests</directory>
                 <directory>lib/curl/Tests</directory>
@@ -16,7 +17,6 @@
                 <directory>lib/skidata/Tests</directory>
                 <directory>lib/widget/Tests</directory>
                 <directory>src/Resources</directory>
-                <directory>vendor</directory>
             </exclude>
         </whitelist>
     </filter>
