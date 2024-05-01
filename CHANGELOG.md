@@ -3,6 +3,7 @@ CHANGELOG
 
 ### master
 
+- Add cURL documentation
 - Improve code quality
 
 ### [9.1.0](https://github.com/webeweb/core-library/tree/v9.1.0) (2024-04-29)
