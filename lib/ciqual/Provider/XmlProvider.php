@@ -36,35 +36,35 @@ class XmlProvider {
      *
      * @var string
      */
-    const FILENAME_ALIMENT = "alim_";
+    public const FILENAME_ALIMENT = "alim_";
 
     /**
      * Filename "composition".
      *
      * @var string
      */
-    const FILENAME_COMPOSITION = "compo_";
+    public const FILENAME_COMPOSITION = "compo_";
 
     /**
      * Filename "constituant".
      *
      * @var string
      */
-    const FILENAME_CONSTITUANT = "const_";
+    public const FILENAME_CONSTITUANT = "const_";
 
     /**
      * Filename "groupe aliments".
      *
      * @var string
      */
-    const FILENAME_GROUPE_ALIMENT = "alim_grp_";
+    public const FILENAME_GROUPE_ALIMENT = "alim_grp_";
 
     /**
      * Filename "source".
      *
      * @var string
      */
-    const FILENAME_SOURCE = "sources_";
+    public const FILENAME_SOURCE = "sources_";
 
     /**
      * Deserialize XML.
