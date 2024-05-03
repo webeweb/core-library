@@ -17,7 +17,6 @@
                 <directory>lib/quadratus/Tests</directory>
                 <directory>lib/skidata/Tests</directory>
                 <directory>lib/widget/Tests</directory>
-                <directory>src/Resources</directory>
             </exclude>
         </whitelist>
     </filter>
