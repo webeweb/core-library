@@ -1,0 +1,9 @@
+{
+    "id": 1,
+    "amount": 0.1,
+    "code": "code",
+    "label": "label",
+    "unit": {
+        "id": null
+    }
+}

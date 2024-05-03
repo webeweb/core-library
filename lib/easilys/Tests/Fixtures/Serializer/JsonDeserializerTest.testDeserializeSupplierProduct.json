@@ -1,0 +1,36 @@
+{
+    "id": 1,
+    "billingUnit": "billingUnit",
+    "chain": 2,
+    "codeInternal": "codeInternal",
+    "dairySubsidy": {
+        "id": null
+    },
+    "dateCreated": 3,
+    "dateUpdated": 4,
+    "extId": "extId",
+    "idDocumentProductSheet": 5,
+    "idSiteOwner": 6,
+    "isActive": true,
+    "isDecimalAllowed": false,
+    "label": "label",
+    "minOrderQty": 7,
+    "nbBillingPerOrder": 8,
+    "nbProductionPerOrders": [
+        1,
+        2,
+        3
+    ],
+    "nbStoragePerOrder": 9,
+    "orderUnit": "orderUnit",
+    "packagingLevel": {
+        "id": null
+    },
+    "product": {
+        "id": null
+    },
+    "preOrderDelay": 10,
+    "reference": "reference",
+    "storageUnit": "storageUnit",
+    "weightOrderUnit": 11
+}

@@ -1,0 +1,18 @@
+{
+    "id": 1,
+    "dateCreated": "dateCreated",
+    "dateEnd": "dateEnd",
+    "dateStart": "dateStart",
+    "dateUpdated": "dateUpdated",
+    "extId": "extId",
+    "idSiteOwner": 2,
+    "idUser": 3,
+    "isValidated": true,
+    "label": "label",
+    "prodFamily": {
+        "id": null
+    },
+    "supplier": {
+        "id": null
+    }
+}

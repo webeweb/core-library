@@ -1,0 +1,10 @@
+{
+    "id": 1,
+    "address": "address",
+    "city": "city",
+    "country": "country",
+    "isMain": true,
+    "label": "label",
+    "postalCode": "postalCode",
+    "type": "type"
+}

@@ -1,0 +1,11 @@
+{
+    "id": 1,
+    "idSiteOwner": 2,
+    "label": "label",
+    "genericFamily": {
+        "id": null
+    },
+    "productionUnit": {
+        "id": null
+    }
+}

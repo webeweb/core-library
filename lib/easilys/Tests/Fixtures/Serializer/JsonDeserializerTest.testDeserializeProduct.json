@@ -1,0 +1,82 @@
+{
+    "id": 1,
+    "allergens": [
+        {
+            "id": null,
+            "label": null
+        }
+    ],
+    "bestBeforeStatus": 2,
+    "brand": "brand",
+    "certifications": [
+        {
+            "id": null
+        }
+    ],
+    "codeInternal": "codeInternal",
+    "codes": [
+        {
+            "id": null
+        }
+    ],
+    "composition": "composition",
+    "dateCreated": "dateCreated",
+    "dateUpdated": "dateUpdated",
+    "documentUrl": "documentUrl",
+    "ean13": "ean13",
+    "extDocumentProductSheet": "extDocumentProductSheet",
+    "family": {
+        "id": null
+    },
+    "generics": [
+        {
+            "id": null
+        }
+    ],
+    "icon": "icon",
+    "idDocumentProductSheet": 3,
+    "idSiteOwner": 4,
+    "image": "image",
+    "importedOriginSupplierLabel": "importedOriginSupplierLabel",
+    "label": "label",
+    "labelDocumentProductSheet": "labelDocumentProductSheet",
+    "labelPublic": "labelPublic",
+    "nutritionalValue": {
+        "energyKcal": null,
+        "energyKj": null,
+        "carbohydrate": null,
+        "lipid": null,
+        "protein": null,
+        "calcium": null,
+        "salt": null,
+        "includingSugar": null,
+        "includingSaturatedFattyAcids": null,
+        "fiber": null,
+        "ethanol": null,
+        "polyols": null,
+        "organicAcid": null
+    },
+    "origin": {
+        "id": null
+    },
+    "purchaseGenerics": [],
+    "quality": {
+        "id": null
+    },
+    "range": {
+        "id": null
+    },
+    "ratioCookedOverRaw": 5,
+    "refProductOfSupplier": "refProductOfSupplier",
+    "storageType": {
+        "id": null
+    },
+    "supplierAllergen": "supplierAllergen",
+    "supplierCertification": "supplierCertification",
+    "supplierLabel": "supplierLabel",
+    "tax": {
+        "id": null
+    },
+    "weightPerPiece": 6,
+    "weightProductionUnit": 7
+}

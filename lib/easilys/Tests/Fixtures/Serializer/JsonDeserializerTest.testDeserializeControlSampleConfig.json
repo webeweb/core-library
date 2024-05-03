@@ -1,0 +1,6 @@
+{
+    "amountForConsumptionSite": "amountForConsumptionSite",
+    "amountForProductionSite": "amountForProductionSite",
+    "isControlSampleActive": true,
+    "isControlSampleBillable": true
+}

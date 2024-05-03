@@ -1,0 +1,69 @@
+{
+    "id": 1,
+    "accountingGeneral": {
+        "accountingCreditInvoice": null,
+        "accountingGeneralSupplier": null,
+        "accountingPurchaseInvoice": null
+    },
+    "addresses": [
+        {
+            "id": null
+        }
+    ],
+    "addressInvoicing": {
+        "id": null
+    },
+    "applyToChildrenSites": true,
+    "automaticStockTransfer": {
+        "fromConsumption": true
+    },
+    "billableStatus": 2,
+    "blockClosingInventoryWithPendingReceipts": true,
+    "codeGLN": "codeGLN",
+    "codeInternal": "codeInternal",
+    "controlSampleConfig": {
+        "amountForConsumptionSite": null,
+        "amountForProductionSite": null,
+        "isControlSampleActive": null,
+        "isControlSampleBillable": null
+    },
+    "dateStartBilling": "dateStartBilling",
+    "depth": 3,
+    "displayNegativeStock": true,
+    "extData": {},
+    "extId": "extId",
+    "hasFinishedProducts": true,
+    "idAccountIdeolys": "idAccountIdeolys",
+    "idAccountIdeolysRoot": "idAccountIdeolysRoot",
+    "idParent": 4,
+    "idTree": 5,
+    "isDoingStockTransfer": true,
+    "isPaymentActive": true,
+    "isUsingOnlyOrderableSupplierProduct": true,
+    "label": "label",
+    "leftBorder": 6,
+    "link": "link",
+    "params": {
+        "supplierOrder_autoReceipt": true
+    },
+    "rightBorder": 7,
+    "status": 8,
+    "stockValuationType": 9,
+    "stockWithdrawalOrigin": "stockWithdrawalOrigin",
+    "supplier": {
+        "id": null
+    },
+    "supplierProductReference": {
+        "applyToChildrenSites": true,
+        "isMandatory": true
+    },
+    "tags": [
+        {
+            "id": null
+        }
+    ],
+    "type": 10,
+    "useGrossQuantityInRecipe": true,
+    "useNetQuantityInRecipe": false,
+    "zeroQuantityByDefault": null
+}

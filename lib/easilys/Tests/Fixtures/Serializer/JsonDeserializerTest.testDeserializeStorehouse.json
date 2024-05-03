@@ -1,0 +1,103 @@
+{
+    "id": 1,
+    "accountingNumber": "accountingNumber",
+    "address": {
+        "address": null
+    },
+    "allClaimWorkflow": true,
+    "analyticalGroup": {
+        "id": null
+    },
+    "autoCloseReceipt": false,
+    "autoSentPreOrder": null,
+    "catchwords": "catchwords",
+    "certifications": [],
+    "codeGLN": "codeGLN",
+    "codeInternal": "codeInternal",
+    "dateEnd": "dateEnd",
+    "dateLinked": "dateLinked",
+    "dateStart": "dateStart",
+    "dateValid": "dateValid",
+    "deliveryDataSendingModes": [],
+    "deliveryDaysProduction": [
+        {
+            "id": null
+        }
+    ],
+    "deliveryWeekdays": [
+        {
+            "weekday": null
+        }
+    ],
+    "emails": [
+        {
+            "id": null
+        }
+    ],
+    "faxes": [
+        {
+            "id": null
+        }
+    ],
+    "idOasysSupplier": 2,
+    "idSite": 3,
+    "idSiteOwner": 4,
+    "intraCommunityVAT": "intraCommunityVAT",
+    "isActive": true,
+    "isClaimForcedWhenReceiptUpdated": false,
+    "isClaimMustBeSendByFax": null,
+    "isClaimMustBeSendByMail": true,
+    "isCreditNoteMustBeSendByFax": false,
+    "isCreditNoteMustBeSendByMail": null,
+    "isDeliveryNoteInvoice": true,
+    "isInClaimWorkflow": false,
+    "isOnSupplierDirectory": null,
+    "isOrderDelayNullable": true,
+    "isPreorderAuthorized": false,
+    "isReceiptPricesFromPricelist": null,
+    "isShippingCostNullable": true,
+    "isStatusLinkInOrderEmail": false,
+    "isThresholdStrict": null,
+    "isUsingDeliveryDaysProduction": true,
+    "label": "label",
+    "linkedUsers": [
+        {
+            "id": null
+        }
+    ],
+    "logo": "logo",
+    "nbDaysBetweenDeliveryAndConsumption": 5,
+    "nbDaysDeliveryBeforeProduction": 6,
+    "networkFull": 7,
+    "openingDaysType": 8,
+    "orderDelay": 9,
+    "orderSupplierUnit": 10,
+    "paymentMethod": 11,
+    "paymentTerms": 12,
+    "phones": [
+        {
+            "id": null
+        }
+    ],
+    "presentation": "presentation",
+    "prodFamilies": [
+        {
+            "id": null
+        }
+    ],
+    "purchaseType": 13,
+    "refSiteOfSupplier": "refSiteOfSupplier",
+    "sendingModes": [
+        1
+    ],
+    "shippingCost": 14,
+    "siret": "siret",
+    "specifications": "specifications",
+    "supplier": {
+        "id": null
+    },
+    "thresholdOrder": 15,
+    "types": [],
+    "universes": null,
+    "website": "website"
+}

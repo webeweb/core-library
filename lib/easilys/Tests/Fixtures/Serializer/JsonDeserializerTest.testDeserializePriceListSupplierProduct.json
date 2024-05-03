@@ -1,0 +1,20 @@
+{
+    "id": 1,
+    "dateEnd": "dateEnd",
+    "dateStart": "dateStart",
+    "dateUpdated": "dateUpdated",
+    "isAvailable": true,
+    "isCurrent": false,
+    "isFuture": null,
+    "isOrderable": true,
+    "priceBillingUnit": 0.1,
+    "priceList": {
+        "id": null
+    },
+    "priceOrderUnit": 0.2,
+    "receivedQuantity": 3,
+    "supplierProduct": {
+        "id": null
+    },
+    "targetQuantity": 4
+}

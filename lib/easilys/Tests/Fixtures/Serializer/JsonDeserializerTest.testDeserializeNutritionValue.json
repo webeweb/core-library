@@ -1,0 +1,15 @@
+{
+    "calcium": 1,
+    "carbohydrate": 2,
+    "energyKcal": 3,
+    "energyKj": 4,
+    "ethanol": 5,
+    "fiber": 6,
+    "includingSaturatedFattyAcids": 7,
+    "includingSugar": 8,
+    "lipid": 9,
+    "organicAcid": 10,
+    "polyols": 11,
+    "protein": 12,
+    "salt": 13
+}
