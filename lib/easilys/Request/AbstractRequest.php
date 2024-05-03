@@ -29,7 +29,7 @@ abstract class AbstractRequest extends BaseRequest {
     /**
      * Params
      *
-     * @var string[]
+     * @var string[]|null
      */
     protected $params;
 
@@ -81,7 +81,7 @@ abstract class AbstractRequest extends BaseRequest {
     /**
      * Serialize this request.
      *
-     * @return array Returns this serialized request.
+     * @return array<string,mixed> Returns this serialized request.
      * @throws InvalidArgumentException Throws an invalid argument exception if a mandatory parameter is missing.
      */
     public function serializeRequest(): array {
