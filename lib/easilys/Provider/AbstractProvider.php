@@ -101,10 +101,8 @@ abstract class AbstractProvider extends BaseProvider {
 
             return $response->getBody()->getContents();
         } catch (InvalidArgumentException $ex) {
-
             throw $ex;
         } catch (Throwable $ex) {
-
             throw new ProviderException("Call Easilys API failed", 500, $ex);
         }
     }
