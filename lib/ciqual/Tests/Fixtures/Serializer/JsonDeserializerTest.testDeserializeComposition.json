@@ -1,0 +1,9 @@
+{
+    "codeAliment": "codeAliment",
+    "codeConstituant": "codeConstituant",
+    "teneur": "teneur",
+    "min": "min",
+    "max": "max",
+    "codeConfiance": "codeConfiance",
+    "codeSource": "codeSource"
+}
