@@ -14,8 +14,8 @@ declare(strict_types = 1);
 namespace WBW\Library\Easilys\Request;
 
 use InvalidArgumentException;
-use WBW\Library\Easilys\Response\AbstractResponse;
 use WBW\Library\Common\Provider\AbstractRequest as BaseRequest;
+use WBW\Library\Easilys\Response\AbstractResponse;
 
 /**
  * Abstract request.

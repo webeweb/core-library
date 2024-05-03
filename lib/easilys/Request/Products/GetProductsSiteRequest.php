@@ -13,11 +13,11 @@ declare(strict_types = 1);
 
 namespace WBW\Library\Easilys\Request\Products;
 
+use WBW\Library\Common\Provider\SubstituableRequestInterface;
 use WBW\Library\Easilys\Request\AbstractRequest;
 use WBW\Library\Easilys\Response\AbstractResponse;
 use WBW\Library\Easilys\Serializer\Products\ResponseDeserializer;
 use WBW\Library\Easilys\Traits\Integers\IntegerIdSiteTrait;
-use WBW\Library\Common\Provider\SubstituableRequestInterface;
 
 /**
  * GET products site request.
