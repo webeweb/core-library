@@ -15,13 +15,12 @@ namespace WBW\Library\Easilys\Provider;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Cookie\CookieJar;
-use GuzzleHttp\Exception\GuzzleException;
 use InvalidArgumentException;
 use Psr\Log\LoggerInterface;
 use Throwable;
+use WBW\Library\Common\Provider\ProviderException;
 use WBW\Library\Easilys\Request\AbstractRequest;
 use WBW\Library\Easilys\Response\AbstractResponse;
-use WBW\Library\Provider\Exception\ApiException;
 
 /**
  * API provider.
@@ -39,8 +38,7 @@ class ApiProvider extends AbstractProvider {
      * @param string $password The password.
      * @param LoggerInterface|null $logger The logger.
      * @return ApiProvider Returns the API provider.
-     * @throws GuzzleException Throws a Guzzle exception if an error occurs.
-     * @throws ApiException Throws an API exception if an error occurs.
+     * @throws ProviderException Throws a provider exception if an error occurs.
      */
     public static function login(string $endpoint, string $username, string $password, LoggerInterface $logger = null): ApiProvider {
 
@@ -78,7 +76,7 @@ class ApiProvider extends AbstractProvider {
 
             return new ApiProvider($endpoint, $accessToken, $logger);
         } catch (Throwable $ex) {
-            throw new ApiException("Call Easilys API failed", 500, $ex);
+            throw new ProviderException("Call Easilys API failed", 500, $ex);
         }
     }
 
@@ -88,8 +86,7 @@ class ApiProvider extends AbstractProvider {
      * @param AbstractRequest $request The request.
      * @return AbstractResponse Returns the response.
      * @throws InvalidArgumentException Throws an invalid argument exception if a parameter is missing.
-     * @throws GuzzleException Throws a Guzzle exception if an error occurs.
-     * @throws ApiException Throws an API exception if an error occurs.
+     * @throws ProviderException Throws a provider exception if an error occurs.
      */
     public function sendRequest(AbstractRequest $request): AbstractResponse {
 
