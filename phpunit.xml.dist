@@ -10,6 +10,7 @@
             <directory>./src</directory>
             <exclude>
                 <directory>lib/adoria/Tests</directory>
+                <directory>lib/ciqual/Tests</directory>
                 <directory>lib/curl/Tests</directory>
                 <directory>lib/easilys/Tests</directory>
                 <directory>lib/ftp/Tests</directory>
@@ -23,6 +24,7 @@
     <testsuites>
         <testsuite name="webeweb/core-library">
             <directory>./lib/adoria/Tests</directory>
+            <directory>./lib/ciqual/Tests</directory>
             <directory>./lib/curl/Tests</directory>
             <directory>./lib/easilys/Tests</directory>
             <directory>./lib/ftp/Tests</directory>
