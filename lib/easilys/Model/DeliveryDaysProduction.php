@@ -30,7 +30,7 @@ class DeliveryDaysProduction {
     /**
      * Days.
      *
-     * @var array|null
+     * @var mixed[]|null
      */
     protected $days;
 
@@ -44,7 +44,7 @@ class DeliveryDaysProduction {
     /**
      * Get the days.
      *
-     * @return array|null Returns the days.
+     * @return mixed[]|null Returns the days.
      */
     public function getDays(): ?array {
         return $this->days;
@@ -53,7 +53,7 @@ class DeliveryDaysProduction {
     /**
      * Set the days.
      *
-     * @param array|null $days The days.
+     * @param mixed[]|null $days The days.
      * @return DeliveryDaysProduction Returns this delivery days production.
      */
     public function setDays(?array $days): DeliveryDaysProduction {
