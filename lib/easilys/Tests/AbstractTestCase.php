@@ -34,7 +34,7 @@ abstract class AbstractTestCase extends BaseTestCase {
     /**
      * Get Easilys.
      *
-     * @return array|null Returns Easilys.
+     * @return array<string,mixed>|null Returns Easilys.
      */
     public static function getEasilys(): ?array {
 
