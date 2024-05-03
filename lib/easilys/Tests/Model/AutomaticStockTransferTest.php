@@ -1,6 +1,6 @@
 <?php
 
-declare(strict_types=1);
+declare(strict_types = 1);
 
 /*
  * This file is part of the core-library package.
@@ -34,7 +34,7 @@ class AutomaticStockTransferTest extends AbstractTestCase {
         $obj = new AutomaticStockTransfer();
 
         $obj->setFromConsumption(true);
-        $this->assertTrue( $obj->getFromConsumption());
+        $this->assertTrue($obj->getFromConsumption());
     }
 
     /**

@@ -1,6 +1,6 @@
 <?php
 
-declare(strict_types=1);
+declare(strict_types = 1);
 
 /*
  * This file is part of the core-library package.
@@ -34,8 +34,8 @@ class PriceListTest extends AbstractTestCase {
 
         $obj = new PriceList();
 
-        $obj->setIdUser("idUser");
-        $this->assertEquals("idUser", $obj->getIdUser());
+        $obj->setIdUser(1);
+        $this->assertEquals(1, $obj->getIdUser());
     }
 
     /**

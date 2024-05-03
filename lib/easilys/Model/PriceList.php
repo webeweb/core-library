@@ -1,6 +1,6 @@
 <?php
 
-declare(strict_types=1);
+declare(strict_types = 1);
 
 /*
  * This file is part of the core-library package.
@@ -13,6 +13,8 @@ declare(strict_types=1);
 
 namespace WBW\Library\Easilys\Model;
 
+use WBW\Library\Common\Traits\Integers\IntegerIdTrait;
+use WBW\Library\Common\Traits\Strings\StringLabelTrait;
 use WBW\Library\Easilys\Traits\Booleans\BooleanIsValidatedTrait;
 use WBW\Library\Easilys\Traits\Integers\IntegerIdSiteOwnerTrait;
 use WBW\Library\Easilys\Traits\Objects\SupplierTrait;
@@ -21,8 +23,6 @@ use WBW\Library\Easilys\Traits\Strings\StringDateEndTrait;
 use WBW\Library\Easilys\Traits\Strings\StringDateStartTrait;
 use WBW\Library\Easilys\Traits\Strings\StringDateUpdatedTrait;
 use WBW\Library\Easilys\Traits\Strings\StringExtIdTrait;
-use WBW\Library\Common\Traits\Integers\IntegerIdTrait;
-use WBW\Library\Common\Traits\Strings\StringLabelTrait;
 
 /**
  * Price list.
@@ -48,7 +48,7 @@ class PriceList {
     /**
      * Id user.
      *
-     * @var string|null
+     * @var int|null
      */
     protected $idUser;
 
@@ -69,9 +69,9 @@ class PriceList {
     /**
      * Get the id user.
      *
-     * @return string|null Returns the id user.
+     * @return int|null Returns the id user.
      */
-    public function getIdUser(): ?string {
+    public function getIdUser(): ?int {
         return $this->idUser;
     }
 
@@ -87,10 +87,10 @@ class PriceList {
     /**
      * Set the id user.
      *
-     * @param string|null $idUser The id user.
+     * @param int|null $idUser The id user.
      * @return PriceList Returns this price list header.
      */
-    public function setIdUser(?string $idUser): PriceList {
+    public function setIdUser(?int $idUser): PriceList {
         $this->idUser = $idUser;
         return $this;
     }

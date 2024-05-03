@@ -1,6 +1,6 @@
 <?php
 
-declare(strict_types=1);
+declare(strict_types = 1);
 
 /*
  * This file is part of the core-library package.
@@ -13,11 +13,11 @@ declare(strict_types=1);
 
 namespace WBW\Library\Easilys\Model;
 
+use WBW\Library\Common\Traits\Integers\IntegerIdTrait;
+use WBW\Library\Common\Traits\Strings\StringEmailTrait;
+use WBW\Library\Common\Traits\Strings\StringLabelTrait;
 use WBW\Library\Easilys\Traits\Booleans\BooleanIsMainTrait;
 use WBW\Library\Easilys\Traits\Strings\StringContextTrait;
-use WBW\Library\Common\Traits\Strings\StringEmailTrait;
-use WBW\Library\Common\Traits\Strings\StringIdTrait;
-use WBW\Library\Common\Traits\Strings\StringLabelTrait;
 
 /**
  * Email.
@@ -28,9 +28,11 @@ use WBW\Library\Common\Traits\Strings\StringLabelTrait;
 class Email {
 
     use BooleanIsMainTrait;
+    use IntegerIdTrait {
+        setId as public;
+    }
     use StringContextTrait;
     use StringEmailTrait;
-    use StringIdTrait;
     use StringLabelTrait;
 
     /**

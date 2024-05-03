@@ -1,6 +1,6 @@
 <?php
 
-declare(strict_types=1);
+declare(strict_types = 1);
 
 /*
  * This file is part of the core-library package.
@@ -13,12 +13,12 @@ declare(strict_types=1);
 
 namespace WBW\Library\Easilys\Model;
 
-use WBW\Library\Easilys\Traits\Booleans\BooleanIsMainTrait;
+use WBW\Library\Common\Traits\Integers\IntegerIdTrait;
 use WBW\Library\Common\Traits\Strings\StringCountryTrait;
-use WBW\Library\Common\Traits\Strings\StringIdTrait;
 use WBW\Library\Common\Traits\Strings\StringLabelTrait;
 use WBW\Library\Common\Traits\Strings\StringPostalCodeTrait;
 use WBW\Library\Common\Traits\Strings\StringTypeTrait;
+use WBW\Library\Easilys\Traits\Booleans\BooleanIsMainTrait;
 
 /**
  * Address.
@@ -29,8 +29,10 @@ use WBW\Library\Common\Traits\Strings\StringTypeTrait;
 class Address {
 
     use BooleanIsMainTrait;
+    use IntegerIdTrait {
+        setId as public;
+    }
     use StringCountryTrait;
-    use StringIdTrait;
     use StringLabelTrait;
     use StringPostalCodeTrait;
     use StringTypeTrait;
