@@ -51,7 +51,7 @@ vendor/bin/phpunit lib/easilys/Tests
 ```
 
 > IMPORTANT NOTICE: To test this library with your access token, add it into a
-> `.easilys` file at the root of this package.
+> `.easilys.json` file at the root of this directory.
 >
 > ```json
 > {
