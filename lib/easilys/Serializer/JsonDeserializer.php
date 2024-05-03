@@ -321,9 +321,7 @@ class JsonDeserializer {
             return null;
         }
 
-        $model = new ExtData();
-
-        return $model;
+        return new ExtData();
     }
 
     /**
