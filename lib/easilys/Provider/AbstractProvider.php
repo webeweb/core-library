@@ -57,7 +57,7 @@ abstract class AbstractProvider extends BaseProvider {
     /**
      * Build the configuration.
      *
-     * @return array Returns the configuration.
+     * @return array<string,mixed> Returns the configuration.
      */
     private function buildConfiguration(): array {
 
@@ -77,10 +77,10 @@ abstract class AbstractProvider extends BaseProvider {
      * Call the API.
      *
      * @param AbstractRequest $request The request.
-     * @param array $queryData The query data.
+     * @param array<string,mixed> $queryData The query data.
      * @return string Returns the raw response.
      * @throws InvalidArgumentException Throws an invalid argument exception if a parameter is missing.
-     * @throws ProviderException Throws an API exception if an error occurs.
+     * @throws ProviderException Throws a provider exception if an error occurs.
      */
     protected function callApi(AbstractRequest $request, array $queryData): string {
 
