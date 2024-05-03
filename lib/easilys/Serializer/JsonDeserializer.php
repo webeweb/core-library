@@ -67,7 +67,7 @@ class JsonDeserializer {
     /**
      * Deserialize an accounting general.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return AccountingGeneral|null Returns the accounting general.
      */
     public static function deserializeAccountingGeneral(array $data): ?AccountingGeneral {
@@ -87,8 +87,8 @@ class JsonDeserializer {
     /**
      * Deserialize a address.
      *
-     * @param array $data The data.
-     * @return Supplier|null Returns the address.
+     * @param array<string,mixed> $data The data.
+     * @return Address|null Returns the address.
      */
     public static function deserializeAddress(array $data): ?Address {
 
@@ -112,7 +112,7 @@ class JsonDeserializer {
     /**
      * Deserialize an allergen.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return Allergen|null Returns the allergen.
      */
     public static function deserializeAllergen(array $data): ?Allergen {
@@ -131,7 +131,7 @@ class JsonDeserializer {
     /**
      * Deserialize an analytical group.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return AnalyticalGroup|null Returns the analytical group.
      */
     public static function deserializeAnalyticalGroup(array $data): ?AnalyticalGroup {
@@ -150,7 +150,7 @@ class JsonDeserializer {
     /**
      * Deserialize a automatic stock transfer.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return AutomaticStockTransfer|null Returns the automatic stock transfer.
      */
     public static function deserializeAutomaticStockTransfer(array $data): ?AutomaticStockTransfer {
@@ -168,7 +168,7 @@ class JsonDeserializer {
     /**
      * Deserialize a certification.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return Certification|null Returns the certification.
      */
     public static function deserializeCertification(array $data): ?Certification {
@@ -189,7 +189,7 @@ class JsonDeserializer {
     /**
      * Deserialize a code.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return Code|null Returns the code.
      */
     public static function deserializeCode(array $data): ?Code {
@@ -210,7 +210,7 @@ class JsonDeserializer {
     /**
      * Deserialize a control sample config.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return ControlSampleConfig|null Returns the control sample config.
      */
     public static function deserializeControlSampleConfig(array $data): ?ControlSampleConfig {
@@ -231,7 +231,7 @@ class JsonDeserializer {
     /**
      * Deserialize a dairy subsidy.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return DairySubsidy|null Returns the tree.
      */
     public static function deserializeDairySubsidy(array $data): ?DairySubsidy {
@@ -253,7 +253,7 @@ class JsonDeserializer {
     /**
      * Deserialize a delivery days production.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return DeliveryDaysProduction|null Returns the fax.
      */
     public static function deserializeDeliveryDaysProduction(array $data): ?DeliveryDaysProduction {
@@ -272,7 +272,7 @@ class JsonDeserializer {
     /**
      * Deserialize a delivery weekday.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return DeliveryWeekday|null Returns the delivery weekday.
      */
     public static function deserializeDeliveryWeekday(array $data): ?DeliveryWeekday {
@@ -290,7 +290,7 @@ class JsonDeserializer {
     /**
      * Deserialize an email.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return Email|null Returns the email.
      */
     public static function deserializeEmail(array $data): ?Email {
@@ -312,7 +312,7 @@ class JsonDeserializer {
     /**
      * Deserialize an ext data.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return ExtData|null Returns the ext data.
      */
     public static function deserializeExtData(array $data): ?ExtData {
@@ -329,7 +329,7 @@ class JsonDeserializer {
     /**
      * Deserialize a family.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return Family|null Returns the family.
      */
     public static function deserializeFamily(array $data): ?Family {
@@ -349,7 +349,7 @@ class JsonDeserializer {
     /**
      * Deserialize a fax.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return Fax|null Returns the fax.
      */
     public static function deserializeFax(array $data): ?Fax {
@@ -368,7 +368,7 @@ class JsonDeserializer {
     /**
      * Deserialize a generic.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return Generic|null Returns the generic.
      */
     public static function deserializeGeneric(array $data): ?Generic {
@@ -390,7 +390,7 @@ class JsonDeserializer {
     /**
      * Deserialize a generic family.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return GenericFamily|null Returns the generic family.
      */
     public static function deserializeGenericFamily(array $data): ?GenericFamily {
@@ -410,7 +410,7 @@ class JsonDeserializer {
     /**
      * Deserialize a linked user.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return LinkedUser|null Returns the linked user.
      */
     public static function deserializeLinkedUser(array $data): ?LinkedUser {
@@ -430,7 +430,7 @@ class JsonDeserializer {
     /**
      * Deserialize a nutrition value.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return NutritionValue|null Returns the nutrition value.
      */
     public static function deserializeNutritionValue(array $data): ?NutritionValue {
@@ -460,7 +460,7 @@ class JsonDeserializer {
     /**
      * Deserialize an origin.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return Origin|null Returns the origin.
      */
     public static function deserializeOrigin(array $data): ?Origin {
@@ -479,7 +479,7 @@ class JsonDeserializer {
     /**
      * Deserialize a packaging level.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return PackagingLevel|null Returns the allergen.
      */
     public static function deserializePackagingLevel(array $data): ?PackagingLevel {
@@ -497,7 +497,7 @@ class JsonDeserializer {
     /**
      * Deserialize a params.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return Params|null Returns the params.
      */
     public static function deserializeParams(array $data): ?Params {
@@ -515,7 +515,7 @@ class JsonDeserializer {
     /**
      * Deserialize a phone.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return Phone|null Returns the phone.
      */
     public static function deserializePhone(array $data): ?Phone {
@@ -538,7 +538,7 @@ class JsonDeserializer {
     /**
      * Deserialize a price list.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return PriceList|null Returns the price list.
      */
     public static function deserializePriceList(array $data): ?PriceList {
@@ -567,7 +567,7 @@ class JsonDeserializer {
     /**
      * Deserialize a price list supplier product.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return PriceListSupplierProduct|null Returns the ext data.
      */
     public static function deserializePriceListSupplierProduct(array $data): ?PriceListSupplierProduct {
@@ -598,7 +598,7 @@ class JsonDeserializer {
     /**
      * Deserialize a prod family.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return ProdFamily|null Returns the prod family.
      */
     public static function deserializeProdFamily(array $data): ?ProdFamily {
@@ -617,7 +617,7 @@ class JsonDeserializer {
     /**
      * Deserialize a product.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return Product|null Returns the product.
      */
     public static function deserializeProduct(array $data): ?Product {
@@ -686,7 +686,7 @@ class JsonDeserializer {
     /**
      * Deserialize a production unit.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return ProductionUnit|null Returns the production unit.
      */
     public static function deserializeProductionUnit(array $data): ?ProductionUnit {
@@ -706,7 +706,7 @@ class JsonDeserializer {
     /**
      * Deserialize a quality.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return Quality|null Returns the quality.
      */
     public static function deserializeQuality(array $data): ?Quality {
@@ -725,7 +725,7 @@ class JsonDeserializer {
     /**
      * Deserialize a range.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return Range|null Returns the range.
      */
     public static function deserializeRange(array $data): ?Range {
@@ -744,7 +744,7 @@ class JsonDeserializer {
     /**
      * Deserialize a site.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return Site|null Returns the site.
      */
     public static function deserializeSite(array $data): ?Site {
@@ -807,7 +807,7 @@ class JsonDeserializer {
     /**
      * Deserialize a storage type.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return StorageType|null Returns the storage type.
      */
     public static function deserializeStorageType(array $data): ?StorageType {
@@ -826,7 +826,7 @@ class JsonDeserializer {
     /**
      * Deserialize a storehouse.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return Storehouse|null Returns the storehouse.
      */
     public static function deserializeStorehouse(array $data): ?Storehouse {
@@ -932,7 +932,7 @@ class JsonDeserializer {
     /**
      * Deserialize a supplier.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return Supplier|null Returns the supplier.
      */
     public static function deserializeSupplier(array $data): ?Supplier {
@@ -953,7 +953,7 @@ class JsonDeserializer {
     /**
      * Deserialize a supplier product.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return SupplierProduct|null Returns the ext data.
      */
     public static function deserializeSupplierProduct(array $data): ?SupplierProduct {
@@ -994,7 +994,7 @@ class JsonDeserializer {
     /**
      * Deserialize a supplier product reference.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return SupplierProductReference|null Returns the supplier product reference.
      */
     public static function deserializeSupplierProductReference(array $data): ?SupplierProductReference {
@@ -1013,7 +1013,7 @@ class JsonDeserializer {
     /**
      * Deserialize a tag.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return Tag|null Returns the tag.
      */
     public static function deserializeTag(array $data): ?Tag {
@@ -1034,7 +1034,7 @@ class JsonDeserializer {
     /**
      * Deserialize a tax.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return Tax|null Returns the tax.
      */
     public static function deserializeTax(array $data): ?Tax {
@@ -1054,7 +1054,7 @@ class JsonDeserializer {
     /**
      * Deserialize a tree.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return Tree|null Returns the tree.
      */
     public static function deserializeTree(array $data): ?Tree {
@@ -1073,7 +1073,7 @@ class JsonDeserializer {
     /**
      * Deserialize a unit.
      *
-     * @param array $data The data.
+     * @param array<string,mixed> $data The data.
      * @return Unit|null Returns the production unit.
      */
     public static function deserializeUnit(array $data): ?Unit {
