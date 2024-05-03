@@ -30,14 +30,14 @@ abstract class AbstractResponse extends BaseResponse {
     /**
      * Data.
      *
-     * @var array
+     * @var mixed[]|null
      */
     protected $data;
 
     /**
      * Errors.
      *
-     * @var string[]
+     * @var string[]|null
      */
     protected $errors;
 
@@ -77,7 +77,7 @@ abstract class AbstractResponse extends BaseResponse {
     /**
      * Set the data.
      *
-     * @param array $data The data.
+     * @param mixed[] $data The data.
      * @return AbstractResponse Returns this response.
      */
     protected function setData(array $data): AbstractResponse {
