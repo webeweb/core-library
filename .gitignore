@@ -2,5 +2,7 @@
 /.phpunit.result.cache
 /composer.lock
 
+/lib/easilys/.easilys.json
+
 /var/*
 !/var/.gitkeep
