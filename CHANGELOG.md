@@ -1,6 +1,12 @@
 CHANGELOG
 =========
 
+### master
+
+- Add Ciqual library
+- Improve code quality
+- Update dependencies
+
 ### [9.2.0](https://github.com/webeweb/core-library/tree/v9.2.0) (2024-05-03)
 
 - Add cURL documentation
