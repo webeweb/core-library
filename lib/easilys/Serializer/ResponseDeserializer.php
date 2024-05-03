@@ -28,7 +28,7 @@ class ResponseDeserializer {
      * Deserialize a response.
      *
      * @param string $rawResponse The raw response.
-     * @return array Returns the deserialized response.
+     * @return array<string,mixed> Returns the deserialized response.
      */
     protected static function deserializeResponse(string $rawResponse, AbstractResponse $response): array {
 
