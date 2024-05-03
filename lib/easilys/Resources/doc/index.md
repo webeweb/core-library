@@ -20,6 +20,7 @@ $provider->setDebug(true);
 GET Sites root tree
 
 ```php
+use WBW\Library\Easilys\Model\Site;
 use WBW\Library\Easilys\Provider\ApiProvider;
 use WBW\Library\Easilys\Request\General\GetSitesRootTreeRequest;
 use WBW\Library\Easilys\Response\General\GetSitesResponse;
@@ -34,7 +35,7 @@ $request->setIdTree(1);
 /** @var GetSitesResponse $response */
 $response = $provider->sendRequest($request);
 
-// Handle the response.
+/** @var Site[] */
 $response->getData();
 ```
 
@@ -43,6 +44,7 @@ $response->getData();
 GET Price list headers site
 
 ```php
+use WBW\Library\Easilys\Model\PriceList;
 use WBW\Library\Easilys\Provider\ApiProvider;
 use WBW\Library\Easilys\Request\Products\GetPriceListHeadersSiteRequest;
 use WBW\Library\Easilys\Response\Products\GetPriceListHeadersSiteResponse;
@@ -56,7 +58,7 @@ $request->setIdSite(1);
 /** @var GetPriceListHeadersSiteResponse $response */
 $response = $provider->sendRequest($request);
 
-// Handle the response.
+/** @var PriceList[] */
 $response->getData();
 ```
 
@@ -65,6 +67,7 @@ $response->getData();
 GET Price list supplier products site
 
 ```php
+use WBW\Library\Easilys\Model\PriceListSupplierProduct;
 use WBW\Library\Easilys\Provider\ApiProvider;
 use WBW\Library\Easilys\Request\Products\GetPriceListSupplierProductsSiteRequest;
 use WBW\Library\Easilys\Response\Products\GetPriceListSupplierProductsSiteResponse;
@@ -81,7 +84,7 @@ $request->addParam("search", "priceList[id]:=$priceList");
 /** @var GetPriceListSupplierProductsSiteResponse $response */
 $response = $provider->sendRequest($request);
 
-// Handle the response.
+/** @var PriceListSupplierProduct[] */
 $response->getData();
 ```
 
@@ -90,6 +93,7 @@ $response->getData();
 GET Qualities
 
 ```php
+use WBW\Library\Easilys\Model\Quality;
 use WBW\Library\Easilys\Provider\ApiProvider;
 use WBW\Library\Easilys\Request\Products\GetQualitiesRequest;
 use WBW\Library\Easilys\Response\Products\GetQualitiesResponse;
@@ -102,7 +106,7 @@ $request = new GetQualitiesRequest();
 /** @var GetQualitiesResponse $response */
 $response = $provider->sendRequest($request);
 
-// Handle the response.
+/** @var Quality[] */
 $response->getData();
 ```
 
@@ -111,6 +115,7 @@ $response->getData();
 GET Ranges
 
 ```php
+use WBW\Library\Easilys\Model\Range;
 use WBW\Library\Easilys\Provider\ApiProvider;
 use WBW\Library\Easilys\Request\Products\GetRangesRequest;
 use WBW\Library\Easilys\Response\Products\GetRangesResponse;
@@ -123,7 +128,7 @@ $request = new GetRangesRequest();
 /** @var GetRangesResponse $response */
 $response = $provider->sendRequest($request);
 
-// Handle the response.
+/** @var Range[] */
 $response->getData();
 ```
 
@@ -132,6 +137,7 @@ $response->getData();
 GET Units
 
 ```php
+use WBW\Library\Easilys\Model\Unit;
 use WBW\Library\Easilys\Provider\ApiProvider;
 use WBW\Library\Easilys\Request\Products\GetUnitsRequest;
 use WBW\Library\Easilys\Response\Products\GetUnitsResponse;
@@ -144,7 +150,7 @@ $request = new GetUnitsRequest();
 /** @var GetUnitsResponse $response */
 $response = $provider->sendRequest($request);
 
-// Handle the response.
+/** @var Unit[] */
 $response->getData();
 ```
 
@@ -153,6 +159,7 @@ $response->getData();
 GET Storehouses site
 
 ```php
+use WBW\Library\Easilys\Model\Storehouse;
 use WBW\Library\Easilys\Provider\ApiProvider;
 use WBW\Library\Easilys\Request\Suppliers\GetStorehousesSiteRequest;
 use WBW\Library\Easilys\Response\Suppliers\GetStorehousesSiteResponse;
@@ -170,6 +177,6 @@ $request->addParam("search", "dateValid:=$date+network-full:=1+seeAll:=true");
 /** @var GetStorehousesSiteResponse $response */
 $response = $provider->sendRequest($request);
 
-// Handle the response.
+/** @var Storehouse[] */
 $response->getData();
 ```
