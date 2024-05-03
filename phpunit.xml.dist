@@ -11,6 +11,7 @@
             <exclude>
                 <directory>lib/adoria/Tests</directory>
                 <directory>lib/curl/Tests</directory>
+                <directory>lib/easilys/Tests</directory>
                 <directory>lib/ftp/Tests</directory>
                 <directory>lib/ocrlad/Tests</directory>
                 <directory>lib/quadratus/Tests</directory>
@@ -24,6 +25,7 @@
         <testsuite name="webeweb/core-library">
             <directory>./lib/adoria/Tests</directory>
             <directory>./lib/curl/Tests</directory>
+            <directory>./lib/easilys/Tests</directory>
             <directory>./lib/ftp/Tests</directory>
             <directory>./lib/ocrlad/Tests</directory>
             <directory>./lib/quadratus/Tests</directory>
