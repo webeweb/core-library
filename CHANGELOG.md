@@ -1,7 +1,7 @@
 CHANGELOG
 =========
 
-### master
+### [9.2.0](https://github.com/webeweb/core-library/tree/v9.2.0) (2024-05-03)
 
 - Add cURL documentation
 - Add Easilys library
