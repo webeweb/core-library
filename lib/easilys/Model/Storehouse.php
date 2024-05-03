@@ -108,7 +108,7 @@ class Storehouse {
     /**
      * Delivery data sending modes.
      *
-     * @var array|null
+     * @var mixed[]|null
      */
     protected $deliveryDataSendingModes;
 
@@ -614,7 +614,7 @@ class Storehouse {
     /**
      * Get the delivery data sending modes.
      *
-     * @return array|null Returns the delivery data sending modes.
+     * @return mixed[]|null Returns the delivery data sending modes.
      */
     public function getDeliveryDataSendingModes(): ?array {
         return $this->deliveryDataSendingModes;
@@ -1107,7 +1107,7 @@ class Storehouse {
     /**
      * Set the delivery data sending modes.
      *
-     * @param array|null $deliveryDataSendingModes The delivery data sending modes.
+     * @param mixed[]|null $deliveryDataSendingModes The delivery data sending modes.
      * @return Storehouse Returns this storehouse.
      */
     public function setDeliveryDataSendingModes(?array $deliveryDataSendingModes): Storehouse {
