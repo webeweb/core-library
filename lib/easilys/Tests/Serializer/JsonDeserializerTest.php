@@ -72,6 +72,8 @@ class JsonDeserializerTest extends AbstractTestCase {
      */
     public function testDeserializeAccountingGeneral(): void {
 
+        $this->assertNull(JsonDeserializer::deserializeAccountingGeneral([]));
+
         // Set a JSON mock.
         $json = file_get_contents(__DIR__ . "/../Fixtures/Serializer/JsonDeserializerTest.testDeserializeAccountingGeneral.json");
         $data = json_decode($json, true);
@@ -90,6 +92,8 @@ class JsonDeserializerTest extends AbstractTestCase {
      * @return void
      */
     public function testDeserializeAddress(): void {
+
+        $this->assertNull(JsonDeserializer::deserializeAddress([]));
 
         // Set a JSON mock.
         $json = file_get_contents(__DIR__ . "/../Fixtures/Serializer/JsonDeserializerTest.testDeserializeAddress.json");
@@ -115,6 +119,8 @@ class JsonDeserializerTest extends AbstractTestCase {
      */
     public function testDeserializeAllergen(): void {
 
+        $this->assertNull(JsonDeserializer::deserializeAllergen([]));
+
         // Set a JSON mock.
         $json = file_get_contents(__DIR__ . "/../Fixtures/Serializer/JsonDeserializerTest.testDeserializeAllergen.json");
         $data = json_decode($json, true);
@@ -132,6 +138,8 @@ class JsonDeserializerTest extends AbstractTestCase {
      * @return void
      */
     public function testDeserializeAnalyticalGroup(): void {
+
+        $this->assertNull(JsonDeserializer::deserializeAnalyticalGroup([]));
 
         // Set a JSON mock.
         $json = file_get_contents(__DIR__ . "/../Fixtures/Serializer/JsonDeserializerTest.testDeserializeAnalyticalGroup.json");
@@ -151,6 +159,8 @@ class JsonDeserializerTest extends AbstractTestCase {
      */
     public function testDeserializeAutomaticStockTransfer(): void {
 
+        $this->assertNull(JsonDeserializer::deserializeAutomaticStockTransfer([]));
+
         // Set a JSON mock.
         $json = file_get_contents(__DIR__ . "/../Fixtures/Serializer/JsonDeserializerTest.testDeserializeAutomaticStockTransfer.json");
         $data = json_decode($json, true);
@@ -167,6 +177,8 @@ class JsonDeserializerTest extends AbstractTestCase {
      * @return void
      */
     public function testDeserializeCertification(): void {
+
+        $this->assertNull(JsonDeserializer::deserializeCertification([]));
 
         // Set a JSON mock.
         $json = file_get_contents(__DIR__ . "/../Fixtures/Serializer/JsonDeserializerTest.testDeserializeCertification.json");
@@ -188,6 +200,8 @@ class JsonDeserializerTest extends AbstractTestCase {
      */
     public function testDeserializeCode(): void {
 
+        $this->assertNull(JsonDeserializer::deserializeCode([]));
+
         // Set a JSON mock.
         $json = file_get_contents(__DIR__ . "/../Fixtures/Serializer/JsonDeserializerTest.testDeserializeCode.json");
         $data = json_decode($json, true);
@@ -208,6 +222,8 @@ class JsonDeserializerTest extends AbstractTestCase {
      */
     public function testDeserializeControlSampleConfig(): void {
 
+        $this->assertNull(JsonDeserializer::deserializeControlSampleConfig([]));
+
         // Set a JSON mock.
         $json = file_get_contents(__DIR__ . "/../Fixtures/Serializer/JsonDeserializerTest.testDeserializeControlSampleConfig.json");
         $data = json_decode($json, true);
@@ -227,6 +243,8 @@ class JsonDeserializerTest extends AbstractTestCase {
      * @return void
      */
     public function testDeserializeDairySubsidy(): void {
+
+        $this->assertNull(JsonDeserializer::deserializeDairySubsidy([]));
 
         // Set a JSON mock.
         $json = file_get_contents(__DIR__ . "/../Fixtures/Serializer/JsonDeserializerTest.testDeserializeDairySubsidy.json");
@@ -249,6 +267,8 @@ class JsonDeserializerTest extends AbstractTestCase {
      */
     public function testDeserializeDeliveryDaysProduction(): void {
 
+        $this->assertNull(JsonDeserializer::deserializeDeliveryDaysProduction([]));
+
         // Set a JSON mock.
         $json = file_get_contents(__DIR__ . "/../Fixtures/Serializer/JsonDeserializerTest.testDeserializeDeliveryDaysProduction.json");
         $data = json_decode($json, true);
@@ -267,6 +287,8 @@ class JsonDeserializerTest extends AbstractTestCase {
      */
     public function testDeserializeDeliveryWeekday(): void {
 
+        $this->assertNull(JsonDeserializer::deserializeDeliveryWeekday([]));
+
         // Set a JSON mock.
         $json = file_get_contents(__DIR__ . "/../Fixtures/Serializer/JsonDeserializerTest.testDeserializeDeliveryWeekday.json");
         $data = json_decode($json, true);
@@ -283,6 +305,8 @@ class JsonDeserializerTest extends AbstractTestCase {
      * @return void
      */
     public function testDeserializeEmail(): void {
+
+        $this->assertNull(JsonDeserializer::deserializeEmail([]));
 
         // Set a JSON mock.
         $json = file_get_contents(__DIR__ . "/../Fixtures/Serializer/JsonDeserializerTest.testDeserializeEmail.json");
@@ -304,6 +328,8 @@ class JsonDeserializerTest extends AbstractTestCase {
      * @return void
      */
     public function testDeserializeFamily(): void {
+
+        $this->assertNull(JsonDeserializer::deserializeFamily([]));
 
         // Set a JSON mock.
         $json = file_get_contents(__DIR__ . "/../Fixtures/Serializer/JsonDeserializerTest.testDeserializeFamily.json");
@@ -327,6 +353,8 @@ class JsonDeserializerTest extends AbstractTestCase {
      */
     public function testDeserializeFax(): void {
 
+        $this->assertNull(JsonDeserializer::deserializeFax([]));
+
         // Set a JSON mock.
         $json = file_get_contents(__DIR__ . "/../Fixtures/Serializer/JsonDeserializerTest.testDeserializeFax.json");
         $data = json_decode($json, true);
@@ -344,6 +372,8 @@ class JsonDeserializerTest extends AbstractTestCase {
      * @return void
      */
     public function testDeserializeGeneric(): void {
+
+        $this->assertNull(JsonDeserializer::deserializeGeneric([]));
 
         // Set a JSON mock.
         $json = file_get_contents(__DIR__ . "/../Fixtures/Serializer/JsonDeserializerTest.testDeserializeGeneric.json");
@@ -365,6 +395,8 @@ class JsonDeserializerTest extends AbstractTestCase {
      * @return void
      */
     public function testDeserializeGenericFamily(): void {
+
+        $this->assertNull(JsonDeserializer::deserializeGenericFamily([]));
 
         // Set a JSON mock.
         $json = file_get_contents(__DIR__ . "/../Fixtures/Serializer/JsonDeserializerTest.testDeserializeGenericFamily.json");
@@ -388,6 +420,8 @@ class JsonDeserializerTest extends AbstractTestCase {
      */
     public function testDeserializeLinkedUser(): void {
 
+        $this->assertNull(JsonDeserializer::deserializeLinkedUser([]));
+
         // Set a JSON mock.
         $json = file_get_contents(__DIR__ . "/../Fixtures/Serializer/JsonDeserializerTest.testDeserializeLinkedUser.json");
         $data = json_decode($json, true);
@@ -406,6 +440,8 @@ class JsonDeserializerTest extends AbstractTestCase {
      * @return void
      */
     public function testDeserializeNutritionValue(): void {
+
+        $this->assertNull(JsonDeserializer::deserializeNutritionValue([]));
 
         // Set a JSON mock.
         $json = file_get_contents(__DIR__ . "/../Fixtures/Serializer/JsonDeserializerTest.testDeserializeNutritionValue.json");
@@ -436,6 +472,8 @@ class JsonDeserializerTest extends AbstractTestCase {
      */
     public function testDeserializeOrigin(): void {
 
+        $this->assertNull(JsonDeserializer::deserializeOrigin([]));
+
         // Set a JSON mock.
         $json = file_get_contents(__DIR__ . "/../Fixtures/Serializer/JsonDeserializerTest.testDeserializeOrigin.json");
         $data = json_decode($json, true);
@@ -454,6 +492,8 @@ class JsonDeserializerTest extends AbstractTestCase {
      */
     public function testDeserializePackagingLevel(): void {
 
+        $this->assertNull(JsonDeserializer::deserializePackagingLevel([]));
+
         // Set a JSON mock.
         $json = file_get_contents(__DIR__ . "/../Fixtures/Serializer/JsonDeserializerTest.testDeserializePackagingLevel.json");
         $data = json_decode($json, true);
@@ -471,6 +511,8 @@ class JsonDeserializerTest extends AbstractTestCase {
      */
     public function testDeserializeParams(): void {
 
+        $this->assertNull(JsonDeserializer::deserializeParams([]));
+
         // Set a JSON mock.
         $json = file_get_contents(__DIR__ . "/../Fixtures/Serializer/JsonDeserializerTest.testDeserializeParams.json");
         $data = json_decode($json, true);
@@ -487,6 +529,8 @@ class JsonDeserializerTest extends AbstractTestCase {
      * @return void
      */
     public function testDeserializePhone(): void {
+
+        $this->assertNull(JsonDeserializer::deserializePhone([]));
 
         // Set a JSON mock.
         $json = file_get_contents(__DIR__ . "/../Fixtures/Serializer/JsonDeserializerTest.testDeserializePhone.json");
@@ -509,6 +553,8 @@ class JsonDeserializerTest extends AbstractTestCase {
      * @return void
      */
     public function testDeserializePriceList(): void {
+
+        $this->assertNull(JsonDeserializer::deserializePriceList([]));
 
         // Set a JSON mock.
         $json = file_get_contents(__DIR__ . "/../Fixtures/Serializer/JsonDeserializerTest.testDeserializePriceList.json");
@@ -536,6 +582,8 @@ class JsonDeserializerTest extends AbstractTestCase {
      * @return void
      */
     public function testDeserializePriceListSupplierProduct(): void {
+
+        $this->assertNull(JsonDeserializer::deserializePriceListSupplierProduct([]));
 
         // Set a JSON mock.
         $json = file_get_contents(__DIR__ . "/../Fixtures/Serializer/JsonDeserializerTest.testDeserializePriceListSupplierProduct.json");
@@ -567,6 +615,8 @@ class JsonDeserializerTest extends AbstractTestCase {
      */
     public function testDeserializeProdFamily(): void {
 
+        $this->assertNull(JsonDeserializer::deserializeProdFamily([]));
+
         // Set a JSON mock.
         $json = file_get_contents(__DIR__ . "/../Fixtures/Serializer/JsonDeserializerTest.testDeserializeProdFamily.json");
         $data = json_decode($json, true);
@@ -584,6 +634,8 @@ class JsonDeserializerTest extends AbstractTestCase {
      * @return void
      */
     public function testDeserializeProduct(): void {
+
+        $this->assertNull(JsonDeserializer::deserializeProduct([]));
 
         // Set a JSON mock.
         $json = file_get_contents(__DIR__ . "/../Fixtures/Serializer/JsonDeserializerTest.testDeserializeProduct.json");
@@ -638,6 +690,8 @@ class JsonDeserializerTest extends AbstractTestCase {
      */
     public function testDeserializeProductionUnit(): void {
 
+        $this->assertNull(JsonDeserializer::deserializeProductionUnit([]));
+
         // Set a JSON mock.
         $json = file_get_contents(__DIR__ . "/../Fixtures/Serializer/JsonDeserializerTest.testDeserializeProductionUnit.json");
         $data = json_decode($json, true);
@@ -657,6 +711,8 @@ class JsonDeserializerTest extends AbstractTestCase {
      */
     public function testDeserializeQuality(): void {
 
+        $this->assertNull(JsonDeserializer::deserializeQuality([]));
+
         // Set a JSON mock.
         $json = file_get_contents(__DIR__ . "/../Fixtures/Serializer/JsonDeserializerTest.testDeserializeQuality.json");
         $data = json_decode($json, true);
@@ -675,6 +731,8 @@ class JsonDeserializerTest extends AbstractTestCase {
      */
     public function testDeserializeRange(): void {
 
+        $this->assertNull(JsonDeserializer::deserializeRange([]));
+
         // Set a JSON mock.
         $json = file_get_contents(__DIR__ . "/../Fixtures/Serializer/JsonDeserializerTest.testDeserializeRange.json");
         $data = json_decode($json, true);
@@ -692,6 +750,8 @@ class JsonDeserializerTest extends AbstractTestCase {
      * @return void
      */
     public function testDeserializeSite(): void {
+
+        $this->assertNull(JsonDeserializer::deserializeSite([]));
 
         // Set a JSON mock.
         $json = file_get_contents(__DIR__ . "/../Fixtures/Serializer/JsonDeserializerTest.testDeserializeSite.json");
@@ -748,6 +808,8 @@ class JsonDeserializerTest extends AbstractTestCase {
      */
     public function testDeserializeStorageType(): void {
 
+        $this->assertNull(JsonDeserializer::deserializeStorageType([]));
+
         // Set a JSON mock.
         $json = file_get_contents(__DIR__ . "/../Fixtures/Serializer/JsonDeserializerTest.testDeserializeStorageType.json");
         $data = json_decode($json, true);
@@ -765,6 +827,8 @@ class JsonDeserializerTest extends AbstractTestCase {
      * @return void
      */
     public function testDeserializeStorehouse(): void {
+
+        $this->assertNull(JsonDeserializer::deserializeStorehouse([]));
 
         // Set a JSON mock.
         $json = file_get_contents(__DIR__ . "/../Fixtures/Serializer/JsonDeserializerTest.testDeserializeStorehouse.json");
@@ -848,6 +912,8 @@ class JsonDeserializerTest extends AbstractTestCase {
      */
     public function testDeserializeSupplier(): void {
 
+        $this->assertNull(JsonDeserializer::deserializeSupplier([]));
+
         // Set a JSON mock.
         $json = file_get_contents(__DIR__ . "/../Fixtures/Serializer/JsonDeserializerTest.testDeserializeSupplier.json");
         $data = json_decode($json, true);
@@ -867,6 +933,8 @@ class JsonDeserializerTest extends AbstractTestCase {
      * @return void
      */
     public function testDeserializeSupplierProduct(): void {
+
+        $this->assertNull(JsonDeserializer::deserializeSupplierProduct([]));
 
         // Set a JSON mock.
         $json = file_get_contents(__DIR__ . "/../Fixtures/Serializer/JsonDeserializerTest.testDeserializeSupplierProduct.json");
@@ -908,6 +976,8 @@ class JsonDeserializerTest extends AbstractTestCase {
      */
     public function testDeserializeSupplierProductReference(): void {
 
+        $this->assertNull(JsonDeserializer::deserializeSupplierProductReference([]));
+
         // Set a JSON mock.
         $json = file_get_contents(__DIR__ . "/../Fixtures/Serializer/JsonDeserializerTest.testDeserializeSupplierProductReference.json");
         $data = json_decode($json, true);
@@ -925,6 +995,8 @@ class JsonDeserializerTest extends AbstractTestCase {
      * @return void
      */
     public function testDeserializeTag(): void {
+
+        $this->assertNull(JsonDeserializer::deserializeTag([]));
 
         // Set a JSON mock.
         $json = file_get_contents(__DIR__ . "/../Fixtures/Serializer/JsonDeserializerTest.testDeserializeTag.json");
@@ -946,6 +1018,8 @@ class JsonDeserializerTest extends AbstractTestCase {
      */
     public function testDeserializeTax(): void {
 
+        $this->assertNull(JsonDeserializer::deserializeTax([]));
+
         // Set a JSON mock.
         $json = file_get_contents(__DIR__ . "/../Fixtures/Serializer/JsonDeserializerTest.testDeserializeTax.json");
         $data = json_decode($json, true);
@@ -965,6 +1039,8 @@ class JsonDeserializerTest extends AbstractTestCase {
      */
     public function testDeserializeTree(): void {
 
+        $this->assertNull(JsonDeserializer::deserializeTree([]));
+
         // Set a JSON mock.
         $json = file_get_contents(__DIR__ . "/../Fixtures/Serializer/JsonDeserializerTest.testDeserializeTree.json");
         $data = json_decode($json, true);
@@ -982,6 +1058,8 @@ class JsonDeserializerTest extends AbstractTestCase {
      * @return void
      */
     public function testDeserializeUnit(): void {
+
+        $this->assertNull(JsonDeserializer::deserializeUnit([]));
 
         // Set a JSON mock.
         $json = file_get_contents(__DIR__ . "/../Fixtures/Serializer/JsonDeserializerTest.testDeserializeUnit.json");
