@@ -1,6 +1,6 @@
 <?php
 
-declare(strict_types=1);
+declare(strict_types = 1);
 
 /*
  * This file is part of the core-library package.
@@ -13,6 +13,11 @@ declare(strict_types=1);
 
 namespace WBW\Library\Easilys\Model;
 
+use WBW\Library\Common\Traits\Integers\IntegerIdTrait;
+use WBW\Library\Common\Traits\Integers\IntegerStatusTrait;
+use WBW\Library\Common\Traits\Integers\IntegerTypeTrait;
+use WBW\Library\Common\Traits\Strings\StringLabelTrait;
+use WBW\Library\Common\Traits\Strings\StringLinkTrait;
 use WBW\Library\Easilys\Traits\Booleans\BooleanApplyToChildrenSitesTrait;
 use WBW\Library\Easilys\Traits\Integers\IntegerIdParentTrait;
 use WBW\Library\Easilys\Traits\Integers\IntegerIdTreeTrait;
@@ -20,11 +25,6 @@ use WBW\Library\Easilys\Traits\Objects\SupplierTrait;
 use WBW\Library\Easilys\Traits\Strings\StringCodeGlnTrait;
 use WBW\Library\Easilys\Traits\Strings\StringCodeInternalTrait;
 use WBW\Library\Easilys\Traits\Strings\StringExtIdTrait;
-use WBW\Library\Common\Traits\Integers\IntegerIdTrait;
-use WBW\Library\Common\Traits\Integers\IntegerStatusTrait;
-use WBW\Library\Common\Traits\Integers\IntegerTypeTrait;
-use WBW\Library\Common\Traits\Strings\StringLabelTrait;
-use WBW\Library\Common\Traits\Strings\StringLinkTrait;
 
 /**
  * Site.

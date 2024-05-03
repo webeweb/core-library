@@ -1,6 +1,6 @@
 <?php
 
-declare(strict_types=1);
+declare(strict_types = 1);
 
 /*
  * This file is part of the core-library package.
@@ -13,11 +13,11 @@ declare(strict_types=1);
 
 namespace WBW\Library\Easilys\Model;
 
+use WBW\Library\Common\Traits\Integers\IntegerIdTrait;
 use WBW\Library\Easilys\Traits\Booleans\BooleanIsValidatedTrait;
 use WBW\Library\Easilys\Traits\Strings\StringDateEndTrait;
 use WBW\Library\Easilys\Traits\Strings\StringDateStartTrait;
 use WBW\Library\Easilys\Traits\Strings\StringDateUpdatedTrait;
-use WBW\Library\Common\Traits\Integers\IntegerIdTrait;
 
 /**
  * Price list supplier product.

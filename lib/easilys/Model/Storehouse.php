@@ -1,6 +1,6 @@
 <?php
 
-declare(strict_types=1);
+declare(strict_types = 1);
 
 /*
  * This file is part of the core-library package.
@@ -13,6 +13,8 @@ declare(strict_types=1);
 
 namespace WBW\Library\Easilys\Model;
 
+use WBW\Library\Common\Traits\Integers\IntegerIdTrait;
+use WBW\Library\Common\Traits\Strings\StringLabelTrait;
 use WBW\Library\Easilys\Traits\Arrays\ArrayCertificationsTrait;
 use WBW\Library\Easilys\Traits\Booleans\BooleanIsActiveTrait;
 use WBW\Library\Easilys\Traits\Integers\IntegerIdSiteOwnerTrait;
@@ -23,8 +25,6 @@ use WBW\Library\Easilys\Traits\Strings\StringCodeGlnTrait;
 use WBW\Library\Easilys\Traits\Strings\StringCodeInternalTrait;
 use WBW\Library\Easilys\Traits\Strings\StringDateEndTrait;
 use WBW\Library\Easilys\Traits\Strings\StringDateStartTrait;
-use WBW\Library\Common\Traits\Integers\IntegerIdTrait;
-use WBW\Library\Common\Traits\Strings\StringLabelTrait;
 
 /**
  * Storehouse.
