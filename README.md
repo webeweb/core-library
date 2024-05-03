@@ -24,6 +24,7 @@ Provides:
 - Traits collection (array, boolean, double, float, integer, string, etc.)
 - Utility (archive, system, etc.)
 - Validation API (rule, rule set, validator, etc.)
+- Ciqual table
 - cURL wrapper
 - FTP clients (FTP, FTPS, SFTP, etc.)
 - Quadratus models
