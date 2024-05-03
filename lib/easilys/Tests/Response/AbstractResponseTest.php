@@ -14,7 +14,7 @@ declare(strict_types = 1);
 namespace WBW\Library\Easilys\Tests\Response;
 
 use WBW\Library\Easilys\Tests\AbstractTestCase;
-use WBW\Library\Easilys\Tests\Fixtures\Response\TestResponse;
+use WBW\Library\Easilys\Tests\Fixtures\Response\TestAbstractResponse;
 
 /**
  * Abstract response test.
@@ -31,7 +31,7 @@ class AbstractResponseTest extends AbstractTestCase {
      */
     public function testSetErrors(): void {
 
-        $obj = new TestResponse();
+        $obj = new TestAbstractResponse();
 
         $obj->setErrors(["error"]);
         $this->assertEquals(["error"], $obj->getErrors());
@@ -44,7 +44,7 @@ class AbstractResponseTest extends AbstractTestCase {
      */
     public function testSetSuccess(): void {
 
-        $obj = new TestResponse();
+        $obj = new TestAbstractResponse();
 
         $obj->setSuccess(true);
         $this->assertTrue($obj->getSuccess());
@@ -57,7 +57,7 @@ class AbstractResponseTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $obj = new TestResponse();
+        $obj = new TestAbstractResponse();
 
         $this->assertEquals([], $obj->getData());
         $this->assertEquals([], $obj->getErrors());

@@ -16,12 +16,12 @@ namespace WBW\Library\Easilys\Tests\Fixtures\Response;
 use WBW\Library\Easilys\Response\AbstractResponse;
 
 /**
- * Test response.
+ * Test abstract response.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Easilys\Tests\Fixtures\Response
  */
-class TestResponse extends AbstractResponse {
+class TestAbstractResponse extends AbstractResponse {
 
     /**
      * Get the data.
