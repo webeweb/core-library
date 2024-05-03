@@ -90,7 +90,7 @@ class SupplierProduct {
     /**
      * Nb production per orders.
      *
-     * @var array|null
+     * @var int[]|null
      */
     protected $nbProductionPerOrders;
 
@@ -207,7 +207,7 @@ class SupplierProduct {
     /**
      * Get the nb production per orders.
      *
-     * @return array|null Returns the nb production per orders.
+     * @return int[]|null Returns the nb production per orders.
      */
     public function getNbProductionPerOrders(): ?array {
         return $this->nbProductionPerOrders;
@@ -345,7 +345,7 @@ class SupplierProduct {
     /**
      * Set the nb production per orders.
      *
-     * @param array|null $nbProductionPerOrders The nb production per orders.
+     * @param int[]|null $nbProductionPerOrders The nb production per orders.
      * @return SupplierProduct Returns this supplier product.
      */
     public function setNbProductionPerOrders(?array $nbProductionPerOrders): SupplierProduct {
