@@ -26,6 +26,7 @@ use WBW\Library\Easilys\Model\DairySubsidy;
 use WBW\Library\Easilys\Model\DeliveryDaysProduction;
 use WBW\Library\Easilys\Model\DeliveryWeekday;
 use WBW\Library\Easilys\Model\Email;
+use WBW\Library\Easilys\Model\ExtData;
 use WBW\Library\Easilys\Model\Family;
 use WBW\Library\Easilys\Model\Fax;
 use WBW\Library\Easilys\Model\Generic;
@@ -320,6 +321,23 @@ class JsonDeserializerTest extends AbstractTestCase {
         $this->assertEquals(SerializerKeys::E_MAIL, $res->getEmail());
         $this->assertEquals(SerializerKeys::IS_MAIN, $res->getIsMain());
         $this->assertEquals(BaseSerializerKeys::LABEL, $res->getLabel());
+    }
+
+    /**
+     * Test deserializeExtData()
+     *
+     * @return void
+     */
+    public function testDeserializeExtData(): void {
+
+        $this->assertNull(JsonDeserializer::deserializeExtData([]));
+
+        // Set a JSON mock.
+        $json = file_get_contents(__DIR__ . "/../Fixtures/Serializer/JsonDeserializerTest.testDeserializeExtData.json");
+        $data = json_decode($json, true);
+
+        $res = JsonDeserializer::deserializeExtData($data);
+        $this->assertInstanceOf(ExtData::class, $res);
     }
 
     /**
