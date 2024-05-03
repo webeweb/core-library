@@ -61,6 +61,7 @@
     "autoload": {
         "psr-4": {
             "WBW\\Library\\Adoria\\": "lib/adoria/",
+            "WBW\\Library\\Ciqual\\": "lib/ciqual/",
             "WBW\\Library\\Curl\\": "lib/curl/",
             "WBW\\Library\\Easilys\\": "lib/easilys/",
             "WBW\\Library\\Ftp\\": "lib/ftp/",
@@ -72,6 +73,7 @@
         },
         "exclude-from-classmap": [
             "/lib/adoria/Tests/",
+            "/lib/ciqual/Tests/",
             "/lib/curl/Tests/",
             "/lib/easilys/Tests/",
             "/lib/ftp/Tests/",
@@ -84,6 +86,7 @@
     "autoload-dev": {
         "psr-4": {
             "WBW\\Library\\Adoria\\Tests\\": "lib/adoria/Tests",
+            "WBW\\Library\\Ciqual\\Tests\\": "lib/ciqual/Tests",
             "WBW\\Library\\Curl\\Tests\\": "lib/curl/Tests",
             "WBW\\Library\\Easilys\\Tests\\": "lib/easilys/Tests",
             "WBW\\Library\\Ftp\\Tests\\": "lib/ftp/Tests",
