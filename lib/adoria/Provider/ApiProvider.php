@@ -83,7 +83,6 @@ class ApiProvider extends AbstractProvider {
 
             return $response->getResponseBody();
         } catch (Throwable $ex) {
-
             throw new ProviderException("Failed to call Adoria API", 500, $ex);
         }
     }
