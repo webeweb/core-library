@@ -24,4 +24,39 @@ use WBW\Library\Common\Tests\AbstractTestCase as BaseTestCase;
  */
 abstract class AbstractTestCase extends BaseTestCase {
 
+    /**
+     * Easilys.
+     *
+     * @var array<string,mixed>|null
+     */
+    protected $easilys;
+
+    /**
+     * Get Easilys.
+     *
+     * @return array|null Returns Easilys.
+     */
+    public static function getEasilys(): ?array {
+
+        $path = __DIR__ . "/../.easilys.json";
+        if (true === file_exists($path)) {
+            return json_decode(file_get_contents($path), true);
+        }
+
+        return [
+            "endpoint"     => "endpoint",
+            "username"     => "username",
+            "password"     => "password",
+            "access_token" => "access_token",
+        ];
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    protected function setUp(): void {
+        parent::setUp();
+
+        $this->easilys = static::getEasilys();
+    }
 }
