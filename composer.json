@@ -46,10 +46,10 @@
         "ext-pdo": "*",
         "ext-posix": "*",
         "ext-zip": "*",
+        "guzzlehttp/guzzle": "^6.0|^7.0",
         "psr/log": "^1.0|^2.0|^3.0"
     },
     "require-dev": {
-        "guzzlehttp/guzzle": "^6.0|^7.0",
         "phpstan/extension-installer": "^1.1",
         "phpstan/phpstan": "^1.4",
         "phpstan/phpstan-phpunit": "^1.0",
@@ -62,6 +62,7 @@
         "psr-4": {
             "WBW\\Library\\Adoria\\": "lib/adoria/",
             "WBW\\Library\\Curl\\": "lib/curl/",
+            "WBW\\Library\\Easilys\\": "lib/easilys/",
             "WBW\\Library\\Ftp\\": "lib/ftp/",
             "WBW\\Library\\OcrLad\\": "lib/ocrlad/",
             "WBW\\Library\\Quadratus\\": "lib/quadratus/",
@@ -72,6 +73,7 @@
         "exclude-from-classmap": [
             "/lib/adoria/Tests/",
             "/lib/curl/Tests/",
+            "/lib/easilys/Tests/",
             "/lib/ftp/Tests/",
             "/lib/ocrlad/Tests/",
             "/lib/quadratus/Tests/",
@@ -83,6 +85,7 @@
         "psr-4": {
             "WBW\\Library\\Adoria\\Tests\\": "lib/adoria/Tests",
             "WBW\\Library\\Curl\\Tests\\": "lib/curl/Tests",
+            "WBW\\Library\\Easilys\\Tests\\": "lib/easilys/Tests",
             "WBW\\Library\\Ftp\\Tests\\": "lib/ftp/Tests",
             "WBW\\Library\\OcrLad\\Tests\\": "lib/ocrlad/Tests",
             "WBW\\Library\\Quadratus\\Tests\\": "lib/quadratus/Tests",
