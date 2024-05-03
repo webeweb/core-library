@@ -14,7 +14,7 @@ declare(strict_types = 1);
 namespace WBW\Library\Easilys\Tests\Request;
 
 use WBW\Library\Easilys\Tests\AbstractTestCase;
-use WBW\Library\Easilys\Tests\Fixtures\Request\TestRequest;
+use WBW\Library\Easilys\Tests\Fixtures\Request\TestAbstractRequest;
 
 /**
  * Abstract request test.
@@ -31,7 +31,7 @@ class AbstractRequestTest extends AbstractTestCase {
      */
     public function testAddParam(): void {
 
-        $obj = new TestRequest();
+        $obj = new TestAbstractRequest();
 
         $obj->addParam("k", "v");
         $this->assertEquals(["k" => "v"], $obj->getParams());
@@ -44,7 +44,7 @@ class AbstractRequestTest extends AbstractTestCase {
      */
     public function testGetMethod(): void {
 
-        $obj = new TestRequest();
+        $obj = new TestAbstractRequest();
 
         $this->assertEquals("GET", $obj->getMethod());
     }
@@ -56,7 +56,7 @@ class AbstractRequestTest extends AbstractTestCase {
      */
     public function testSerializeRequest(): void {
 
-        $obj = new TestRequest();
+        $obj = new TestAbstractRequest();
 
         $this->assertEquals([], $obj->serializeRequest());
     }
@@ -68,7 +68,7 @@ class AbstractRequestTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $obj = new TestRequest();
+        $obj = new TestAbstractRequest();
 
         $this->assertEquals([], $obj->getParams());
     }

@@ -18,12 +18,12 @@ use WBW\Library\Easilys\Request\AbstractRequest;
 use WBW\Library\Easilys\Response\AbstractResponse;
 
 /**
- * Test request.
+ * Test abstract request.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Easilys\Tests\Fixtures\Request
  */
-class TestRequest extends AbstractRequest {
+class TestAbstractRequest extends AbstractRequest {
 
     /**
      * {@inheritddoc}
