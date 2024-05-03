@@ -19,7 +19,7 @@ use WBW\Library\Common\Tests\AbstractTestCase as BaseTestCase;
  * Abstract test case.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Bundle\Widget\Tests
+ * @package WBW\Library\Widget\Tests
  * @abstract
  */
 abstract class AbstractTestCase extends BaseTestCase {
