@@ -26,7 +26,7 @@ class TestAbstractResponse extends AbstractResponse {
     /**
      * Get the data.
      *
-     * @return array Returns the data.
+     * @return mixed[] Returns the data.
      */
     public function getData(): array {
         return $this->data;
