@@ -16,11 +16,11 @@ namespace WBW\Library\Easilys\Tests\Fixtures\Provider;
 use WBW\Library\Easilys\Provider\AbstractProvider;
 
 /**
- * Test provider.
+ * Test abstract provider.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Easilys\Tests\Fixtures\Provider
  */
-class TestProvider extends AbstractProvider {
+class TestAbstractProvider extends AbstractProvider {
 
 }

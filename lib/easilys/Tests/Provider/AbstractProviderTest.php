@@ -15,7 +15,7 @@ namespace WBW\Library\Easilys\Tests\Provider;
 
 use Psr\Log\LoggerInterface;
 use WBW\Library\Easilys\Tests\AbstractTestCase;
-use WBW\Library\Easilys\Tests\Fixtures\Provider\TestProvider;
+use WBW\Library\Easilys\Tests\Fixtures\Provider\TestAbstractProvider;
 
 /**
  * Abstract provider test.
@@ -35,7 +35,7 @@ class AbstractProviderTest extends AbstractTestCase {
         // Set a Logger mock.
         $logger = $this->getMockBuilder(LoggerInterface::class)->getMock();
 
-        $obj = new TestProvider("endpointPath", "accessToken", $logger);
+        $obj = new TestAbstractProvider("endpointPath", "accessToken", $logger);
 
         $this->assertSame($logger, $obj->getLogger());
 
