@@ -16,6 +16,7 @@
                 <directory>lib/ftp/Tests</directory>
                 <directory>lib/ocrlad/Tests</directory>
                 <directory>lib/quadratus/Tests</directory>
+                <directory>lib/querybuilder/Tests</directory>
                 <directory>lib/skidata/Tests</directory>
                 <directory>lib/widget/Tests</directory>
             </exclude>
@@ -30,6 +31,7 @@
             <directory>./lib/ftp/Tests</directory>
             <directory>./lib/ocrlad/Tests</directory>
             <directory>./lib/quadratus/Tests</directory>
+            <directory>./lib/querybuilder/Tests</directory>
             <directory>./lib/skidata/Tests</directory>
             <directory>./lib/widget/Tests</directory>
             <directory>./tests</directory>
