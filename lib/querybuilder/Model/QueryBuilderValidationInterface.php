@@ -54,7 +54,7 @@ interface QueryBuilderValidationInterface extends JsonSerializable {
     /**
      * Get the messages.
      *
-     * @return array|null Returns the messages.
+     * @return string[]|null Returns the messages.
      */
     public function getMessages(): ?array;
 
