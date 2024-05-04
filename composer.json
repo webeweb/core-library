@@ -67,6 +67,7 @@
             "WBW\\Library\\Ftp\\": "lib/ftp/",
             "WBW\\Library\\OcrLad\\": "lib/ocrlad/",
             "WBW\\Library\\Quadratus\\": "lib/quadratus/",
+            "WBW\\Library\\QueryBuilder\\": "lib/querybuilder/",
             "WBW\\Library\\SkiData\\": "lib/skidata/",
             "WBW\\Library\\Widget\\": "lib/widget/",
             "WBW\\Library\\Common\\": "src"
@@ -79,6 +80,7 @@
             "/lib/ftp/Tests/",
             "/lib/ocrlad/Tests/",
             "/lib/quadratus/Tests/",
+            "/lib/querybuilder/Tests/",
             "/lib/skidata/Tests/",
             "/lib/widget/Tests/"
         ]
@@ -92,6 +94,7 @@
             "WBW\\Library\\Ftp\\Tests\\": "lib/ftp/Tests",
             "WBW\\Library\\OcrLad\\Tests\\": "lib/ocrlad/Tests",
             "WBW\\Library\\Quadratus\\Tests\\": "lib/quadratus/Tests",
+            "WBW\\Library\\QueryBuilder\\Tests\\": "lib/querybuilder/Tests",
             "WBW\\Library\\SkiData\\Tests\\": "lib/skidata/Tests",
             "WBW\\Library\\Widget\\Tests\\": "lib/widget/Tests",
             "WBW\\Library\\Common\\Tests\\": "tests"
