@@ -57,7 +57,7 @@ class JsonSerializer {
      * Serialize a filter set.
      *
      * @param QueryBuilderFilterSetInterface $model The filter set.
-     * @return array<string,mixed> Returns the serialized filter set.
+     * @return array<int,mixed> Returns the serialized filter set.
      */
     public static function serializeQueryBuilderFilterSet(QueryBuilderFilterSetInterface $model): array {
 
