@@ -31,7 +31,7 @@ interface QueryBuilderRuleSetInterface {
     /**
      * Get the rules.
      *
-     * @return array Returns the rules.
+     * @return QueryBuilderRuleInterface[] Returns the rules.
      */
     public function getRules(): array;
 
