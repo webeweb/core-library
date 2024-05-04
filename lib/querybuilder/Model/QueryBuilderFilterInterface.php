@@ -68,7 +68,7 @@ interface QueryBuilderFilterInterface extends JsonSerializable {
     /**
      * Get the operators.
      *
-     * @return array Returns the operators.
+     * @return string[] Returns the operators.
      */
     public function getOperators(): array;
 
@@ -89,7 +89,7 @@ interface QueryBuilderFilterInterface extends JsonSerializable {
     /**
      * Get the values.
      *
-     * @return array|null Returns the values.
+     * @return mixed[]|null Returns the values.
      */
     public function getValues(): ?array;
 }
