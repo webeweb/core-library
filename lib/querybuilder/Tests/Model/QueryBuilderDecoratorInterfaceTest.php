@@ -17,7 +17,7 @@ use WBW\Library\QueryBuilder\Model\QueryBuilderDecoratorInterface;
 use WBW\Library\QueryBuilder\Tests\AbstractTestCase;
 
 /**
- * Query builder decorator interface test.
+ * QueryBuilder decorator interface test.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\QueryBuilder\Tests\Model
