@@ -151,6 +151,6 @@ class QueryBuilderHelper {
             $sql[] = static::queryBuilderRule2Sql($current);
         }
 
-        return "(" . implode(" " . $ruleSet->getCondition() . " ", $sql) . ")";
+        return "(" . implode(" {$ruleSet->getCondition()} ", $sql) . ")";
     }
 }
