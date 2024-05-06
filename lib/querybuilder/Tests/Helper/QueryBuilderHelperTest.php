@@ -15,8 +15,13 @@ namespace WBW\Library\QueryBuilder\Tests\Helper;
 
 use WBW\Library\QueryBuilder\Helper\QueryBuilderHelper;
 use WBW\Library\QueryBuilder\Model\QueryBuilderConditionInterface;
+use WBW\Library\QueryBuilder\Model\QueryBuilderDecoratorInterface;
+use WBW\Library\QueryBuilder\Model\QueryBuilderFilterSetInterface;
 use WBW\Library\QueryBuilder\Model\QueryBuilderInputInterface;
+use WBW\Library\QueryBuilder\Model\QueryBuilderOperatorInterface;
+use WBW\Library\QueryBuilder\Model\QueryBuilderRuleInterface;
 use WBW\Library\QueryBuilder\Model\QueryBuilderTypeInterface;
+use WBW\Library\QueryBuilder\Serializer\JsonDeserializer;
 use WBW\Library\QueryBuilder\Tests\AbstractTestCase;
 
 /**
@@ -80,5 +85,107 @@ class QueryBuilderHelperTest extends AbstractTestCase {
         ];
 
         $this->assertEquals($exp, QueryBuilderHelper::enumTypes());
+    }
+
+    /**
+     * Test queryBuilderRule2Sql()
+     *
+     * @returns void
+     */
+    public function testQueryBuilderRule2Sql(): void {
+
+        // Set a QueryBuilder rule mock.
+        $obj = $this->getMockBuilder(QueryBuilderRuleInterface::class)->getMock();
+        $obj->expects($this->any())->method("getField")->willReturn("field");
+        $obj->expects($this->any())->method("getOperator")->willReturn(QueryBuilderOperatorInterface::OPERATOR_EQUAL);
+        $obj->expects($this->any())->method("getType")->willReturn(QueryBuilderTypeInterface::TYPE_STRING);
+        $obj->expects($this->any())->method("getValue")->willReturn("value");
+
+        $this->assertEquals("field = 'value'", QueryBuilderHelper::queryBuilderRule2Sql($obj));
+    }
+
+    /**
+     * Test queryBuilderRule2Sql()
+     *
+     * @returns void
+     */
+    public function testQueryBuilderRule2SqlWithDecorator(): void {
+
+        // Set a QueryBuilder filter set mock.
+        $decorator = $this->getMockBuilder(QueryBuilderDecoratorInterface::class)->getMock();
+
+        // Set a QueryBuilder rule mock.
+        $obj = $this->getMockBuilder(QueryBuilderRuleInterface::class)->getMock();
+        $obj->expects($this->any())->method("getDecorator")->willReturn($decorator);
+
+        $this->assertEquals("", QueryBuilderHelper::queryBuilderRule2Sql($obj));
+    }
+
+    /**
+     * Test queryBuilderRuleSet2Sql()
+     *
+     * @returns void
+     */
+    public function testQueryBuilderRuleSet2Sql(): void {
+
+        // Set a QueryBuilder filter set mock.
+        $filterSet = $this->getMockBuilder(QueryBuilderFilterSetInterface::class)->getMock();
+
+        // Set a data mock.
+        $data = [
+            "condition" => QueryBuilderConditionInterface::CONDITION_OR,
+            "rules"     => [
+                [
+                    "id"       => "age",
+                    "field"    => "age",
+                    "input"    => QueryBuilderInputInterface::INPUT_NUMBER,
+                    "operator" => QueryBuilderOperatorInterface::OPERATOR_GREATER,
+                    "type"     => QueryBuilderTypeInterface::TYPE_INTEGER,
+                    "value"    => "21",
+                ],
+                [
+                    "condition" => QueryBuilderConditionInterface::CONDITION_AND,
+                    "rules"     => [
+                        [
+                            "id"       => "firstname",
+                            "field"    => "firstname",
+                            "input"    => QueryBuilderInputInterface::INPUT_TEXT,
+                            "operator" => QueryBuilderOperatorInterface::OPERATOR_EQUAL,
+                            "type"     => QueryBuilderTypeInterface::TYPE_STRING,
+                            "value"    => "John",
+                        ],
+                        [
+                            "id"       => "lastname",
+                            "field"    => "lastname",
+                            "input"    => QueryBuilderInputInterface::INPUT_NUMBER,
+                            "operator" => QueryBuilderOperatorInterface::OPERATOR_EQUAL,
+                            "type"     => QueryBuilderTypeInterface::TYPE_STRING,
+                            "value"    => "DOE",
+                        ],
+                    ],
+                ],
+            ],
+            "valid"     => true,
+        ];
+
+        $obj = JsonDeserializer::deserializeQueryBuilderRuleSet($filterSet, $data);
+
+        $res = "(age > 21 OR (firstname = 'John' AND lastname = 'DOE'))";
+        $this->assertEquals($res, QueryBuilderHelper::queryBuilderRuleSet2Sql($obj));
+    }
+
+    /**
+     * Test queryBuilderRuleSet2Sql()
+     *
+     * @returns void
+     */
+    public function testQueryBuilderRuleSet2SqlWithoutRules(): void {
+
+        // Set a QueryBuilder filter set mock.
+        $filterSet = $this->getMockBuilder(QueryBuilderFilterSetInterface::class)->getMock();
+
+        $obj = JsonDeserializer::deserializeQueryBuilderRuleSet($filterSet, []);
+
+        $this->assertEquals("", QueryBuilderHelper::queryBuilderRuleSet2Sql($obj));
     }
 }

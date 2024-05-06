@@ -13,13 +13,16 @@ declare(strict_types = 1);
 
 namespace WBW\Library\QueryBuilder\Helper;
 
+use WBW\Library\QueryBuilder\Factory\QueryBuilderFactory;
 use WBW\Library\QueryBuilder\Model\QueryBuilderConditionInterface;
 use WBW\Library\QueryBuilder\Model\QueryBuilderInputInterface;
 use WBW\Library\QueryBuilder\Model\QueryBuilderOperatorInterface;
+use WBW\Library\QueryBuilder\Model\QueryBuilderRuleInterface;
+use WBW\Library\QueryBuilder\Model\QueryBuilderRuleSetInterface;
 use WBW\Library\QueryBuilder\Model\QueryBuilderTypeInterface;
 
 /**
- * Query builder helper.
+ * QueryBuilder helper.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\QueryBuilder\Helper
@@ -103,5 +106,51 @@ class QueryBuilderHelper {
             QueryBuilderTypeInterface::TYPE_STRING,
             QueryBuilderTypeInterface::TYPE_TIME,
         ];
+    }
+
+    /**
+     * Convert a rule into a SQL string representation.
+     *
+     * @param QueryBuilderRuleInterface $rule The rule.
+     * @return string|null Returns the SQL string representing the rule.
+     */
+    public static function queryBuilderRule2Sql(QueryBuilderRuleInterface $rule): ?string {
+
+        if (null !== $rule->getDecorator()) {
+            return $rule->getDecorator()->toSql($rule);
+        }
+
+        $qbo = QueryBuilderFactory::newQueryBuilderOperator($rule->getOperator());
+
+        return $qbo->toSql($rule);
+    }
+
+    /**
+     * Convert a rule set into a SQL string representation.
+     *
+     * @param QueryBuilderRuleSetInterface $ruleSet The rule set.
+     * @return string Returns the SQL string representing the rule set.
+     */
+    public static function queryBuilderRuleSet2Sql(QueryBuilderRuleSetInterface $ruleSet): string {
+
+        if (0 === count($ruleSet->getRules())) {
+            return "";
+        }
+
+        $sql = [];
+
+        foreach ($ruleSet->getRules() as $current) {
+
+            if (true === ($current instanceof QueryBuilderRuleSetInterface)) {
+
+                $sql[] = static::queryBuilderRuleSet2Sql($current);
+                continue;
+            }
+
+            /** @var QueryBuilderRuleInterface $current */
+            $sql[] = static::queryBuilderRule2Sql($current);
+        }
+
+        return "(" . implode(" " . $ruleSet->getCondition() . " ", $sql) . ")";
     }
 }
