@@ -4,6 +4,8 @@ CHANGELOG
 ### master
 
 - Add QueryBuilder library
+- Improve code quality
+- Improve PHPDoc
 
 ### [9.3.0](https://github.com/webeweb/core-library/tree/v9.3.0) (2024-05-04)
 
