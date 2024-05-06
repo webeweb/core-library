@@ -65,6 +65,19 @@ class RequestDetailTest extends AbstractTestCase {
     }
 
     /**
+     * Test setXmlHttp()
+     *
+     * @return void
+     */
+    public function testSetXmlHttp(): void {
+
+        $obj = new RequestDetail();
+
+        $obj->setXmlHttp(true);
+        $this->assertTrue($obj->getXmlHttp());
+    }
+
+    /**
      * Test __construct()
      *
      * @return void
