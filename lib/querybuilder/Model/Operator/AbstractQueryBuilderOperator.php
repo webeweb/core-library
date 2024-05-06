@@ -1,0 +1,78 @@
+<?php
+
+declare(strict_types = 1);
+
+/*
+ * This file is part of the core-library package.
+ *
+ * (c) 2019 WEBEWEB
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace WBW\Library\QueryBuilder\Model\Operator;
+
+use WBW\Library\QueryBuilder\Helper\QueryBuilderHelper;
+use WBW\Library\QueryBuilder\Model\QueryBuilderDecoratorInterface;
+use WBW\Library\QueryBuilder\Model\QueryBuilderOperatorInterface;
+use WBW\Library\QueryBuilder\Model\QueryBuilderRuleInterface;
+
+/**
+ * Abstract QueryBuilder operator.
+ *
+ * @author webeweb <https://github.com/webeweb>
+ * @package WBW\Library\QueryBuilder\Model\Operator
+ * @abstract
+ */
+abstract class AbstractQueryBuilderOperator implements QueryBuilderOperatorInterface, QueryBuilderDecoratorInterface {
+
+    /**
+     * Operator.
+     *
+     * @var string
+     */
+    private $operator;
+
+    /**
+     * Constructor.
+     *
+     * @param string $operator The operator.
+     */
+    protected function __construct(string $operator) {
+        $this->setOperator($operator);
+    }
+
+    /**
+     * Get the operator.
+     *
+     * @return string Returns the operator.
+     */
+    public function getOperator(): string {
+        return $this->operator;
+    }
+
+    /**
+     * Set the operator.
+     *
+     * @param string $operator The operator
+     * @return AbstractQueryBuilderOperator Returns this operator.
+     */
+    protected function setOperator(string $operator): AbstractQueryBuilderOperator {
+        $this->operator = $operator;
+        return $this;
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function toSql(QueryBuilderRuleInterface $rule, bool $wrap = false): string {
+
+        $sql = [
+            $rule->getField(),
+            QueryBuilderHelper::enumOperators()[$this->getOperator()],
+        ];
+
+        return implode(" ", $sql);
+    }
+}
