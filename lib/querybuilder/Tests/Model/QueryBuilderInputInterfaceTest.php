@@ -20,7 +20,7 @@ use WBW\Library\QueryBuilder\Tests\AbstractTestCase;
  * QueryBuilder input interface test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\QueryBuilder\Tests\API
+ * @package WBW\Library\QueryBuilder\Tests\Model
  */
 class QueryBuilderInputInterfaceTest extends AbstractTestCase {
 

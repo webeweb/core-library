@@ -17,8 +17,8 @@ use InvalidArgumentException;
 use Throwable;
 use WBW\Library\QueryBuilder\Model\QueryBuilderDecoratorInterface;
 use WBW\Library\QueryBuilder\Model\QueryBuilderOperatorInterface;
-use WBW\Library\QueryBuilder\Model\QueryBuilderRuleInterface;
 use WBW\Library\QueryBuilder\Model\QueryBuilderRule;
+use WBW\Library\QueryBuilder\Model\QueryBuilderRuleInterface;
 use WBW\Library\QueryBuilder\Tests\AbstractTestCase;
 
 /**
@@ -37,12 +37,12 @@ class QueryBuilderRuleTest extends AbstractTestCase {
     public function testSetDecorator(): void {
 
         // Set a QueryBuilder decorator mock.
-        $qbDecorator = $this->getMockBuilder(QueryBuilderDecoratorInterface::class)->getMock();
+        $decorator = $this->getMockBuilder(QueryBuilderDecoratorInterface::class)->getMock();
 
         $obj = new QueryBuilderRule();
 
-        $obj->setDecorator($qbDecorator);
-        $this->assertSame($qbDecorator, $obj->getDecorator());
+        $obj->setDecorator($decorator);
+        $this->assertSame($decorator, $obj->getDecorator());
     }
 
     /**

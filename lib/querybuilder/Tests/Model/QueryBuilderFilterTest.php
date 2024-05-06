@@ -52,12 +52,12 @@ class QueryBuilderFilterTest extends AbstractTestCase {
     public function testSetDecorator(): void {
 
         // Set a QueryBuilder decorator mock.
-        $qbDecorator = $this->getMockBuilder(QueryBuilderDecoratorInterface::class)->getMock();
+        $decorator = $this->getMockBuilder(QueryBuilderDecoratorInterface::class)->getMock();
 
         $obj = new QueryBuilderFilter("id", QueryBuilderTypeInterface::TYPE_BOOLEAN, []);
 
-        $obj->setDecorator($qbDecorator);
-        $this->assertSame($qbDecorator, $obj->getDecorator());
+        $obj->setDecorator($decorator);
+        $this->assertSame($decorator, $obj->getDecorator());
     }
 
     /**
@@ -126,12 +126,12 @@ class QueryBuilderFilterTest extends AbstractTestCase {
     public function testSetValidation(): void {
 
         // Set a QueryBuilder validation mock.
-        $qbValidation = $this->getMockBuilder(QueryBuilderValidationInterface::class)->getMock();
+        $validation = $this->getMockBuilder(QueryBuilderValidationInterface::class)->getMock();
 
         $obj = new QueryBuilderFilter("id", QueryBuilderTypeInterface::TYPE_BOOLEAN, []);
 
-        $obj->setValidation($qbValidation);
-        $this->assertSame($qbValidation, $obj->getValidation());
+        $obj->setValidation($validation);
+        $this->assertSame($validation, $obj->getValidation());
     }
 
     /**

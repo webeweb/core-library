@@ -16,6 +16,7 @@ namespace WBW\Library\QueryBuilder\Tests\Model;
 use InvalidArgumentException;
 use Throwable;
 use WBW\Library\QueryBuilder\Model\QueryBuilderConditionInterface;
+use WBW\Library\QueryBuilder\Model\QueryBuilderRuleInterface;
 use WBW\Library\QueryBuilder\Model\QueryBuilderRuleSet;
 use WBW\Library\QueryBuilder\Model\QueryBuilderRuleSetInterface;
 use WBW\Library\QueryBuilder\Tests\AbstractTestCase;
@@ -27,6 +28,40 @@ use WBW\Library\QueryBuilder\Tests\AbstractTestCase;
  * @package WBW\Library\QueryBuilder\Tests\Model
  */
 class QueryBuilderRuleSetTest extends AbstractTestCase {
+
+    /**
+     * Test addRule()
+     *
+     * @return void
+     */
+    public function testAddRule(): void {
+
+        // Set a QueryBuilder rule mock.
+        $rule = $this->getMockBuilder(QueryBuilderRuleInterface::class)->getMock();
+
+        $obj = new QueryBuilderRuleSet();
+
+        $obj->addRule($rule);
+        $this->assertCount(1, $obj->getRules());
+        $this->assertSame($rule, $obj->getRules()[0]);
+    }
+
+    /**
+     * Test addRuleSet()
+     *
+     * @return void
+     */
+    public function testAddRuleSet(): void {
+
+        // Set a QueryBuilder rule set mock.
+        $rule = $this->getMockBuilder(QueryBuilderRuleSetInterface::class)->getMock();
+
+        $obj = new QueryBuilderRuleSet();
+
+        $obj->addRuleSet($rule);
+        $this->assertCount(1, $obj->getRules());
+        $this->assertSame($rule, $obj->getRules()[0]);
+    }
 
     /**
      * Test setCondition()

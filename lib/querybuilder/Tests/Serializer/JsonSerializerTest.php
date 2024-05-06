@@ -39,8 +39,8 @@ class JsonSerializerTest extends AbstractTestCase {
     public function testSerializeQueryBuilderFilter(): void {
 
         // Set a QueryBuilder validation mock.
-        $qbValidation = $this->getMockBuilder(QueryBuilderValidationInterface::class)->getMock();
-        $qbValidation->expects($this->any())->method("jsonSerialize")->willReturn(JsonSerializer::serializeQueryBuilderValidation($qbValidation));
+        $validation = $this->getMockBuilder(QueryBuilderValidationInterface::class)->getMock();
+        $validation->expects($this->any())->method("jsonSerialize")->willReturn(JsonSerializer::serializeQueryBuilderValidation($validation));
 
         // Set a QueryBuilder filter mock.
         $model = $this->getMockBuilder(QueryBuilderFilterInterface::class)->getMock();
@@ -51,7 +51,7 @@ class JsonSerializerTest extends AbstractTestCase {
         $model->expects($this->any())->method("getMultiple")->willReturn(true);
         $model->expects($this->any())->method("getOperators")->willReturn([QueryBuilderOperatorInterface::OPERATOR_EQUAL]);
         $model->expects($this->any())->method("getType")->willReturn(QueryBuilderTypeInterface::TYPE_STRING);
-        $model->expects($this->any())->method("getValidation")->willReturn($qbValidation);
+        $model->expects($this->any())->method("getValidation")->willReturn($validation);
         $model->expects($this->any())->method("getValues")->willReturn([SerializerKeys::VALUES]);
 
         $res = JsonSerializer::serializeQueryBuilderFilter($model);
@@ -76,23 +76,23 @@ class JsonSerializerTest extends AbstractTestCase {
     public function testSerializeQueryBuilderFilterSet(): void {
 
         // Set a QueryBuilder filter mock.
-        $qbFilter = $this->getMockBuilder(QueryBuilderFilterInterface::class)->getMock();
-        $qbFilter->expects($this->any())->method("getId")->willReturn(SerializerKeys::ID);
-        $qbFilter->expects($this->any())->method("getType")->willReturn(QueryBuilderTypeInterface::TYPE_STRING);
-        $qbFilter->expects($this->any())->method("getOperators")->willReturn([QueryBuilderOperatorInterface::OPERATOR_EQUAL]);
-        $qbFilter->expects($this->any())->method("jsonSerialize")->willReturn(JsonSerializer::serializeQueryBuilderFilter($qbFilter));
+        $filter = $this->getMockBuilder(QueryBuilderFilterInterface::class)->getMock();
+        $filter->expects($this->any())->method("getId")->willReturn(SerializerKeys::ID);
+        $filter->expects($this->any())->method("getType")->willReturn(QueryBuilderTypeInterface::TYPE_STRING);
+        $filter->expects($this->any())->method("getOperators")->willReturn([QueryBuilderOperatorInterface::OPERATOR_EQUAL]);
+        $filter->expects($this->any())->method("jsonSerialize")->willReturn(JsonSerializer::serializeQueryBuilderFilter($filter));
 
         // Set a QueryBuilder filter set mock.
         $model = $this->getMockBuilder(QueryBuilderFilterSetInterface::class)->getMock();
-        $model->expects($this->any())->method("getFilters")->willReturn([$qbFilter]);
+        $model->expects($this->any())->method("getFilters")->willReturn([$filter]);
 
         $res = JsonSerializer::serializeQueryBuilderFilterSet($model);
         $this->assertCount(1, $res);
 
-        $this->assertEquals($qbFilter->getId(), $res[0][SerializerKeys::ID]);
-        $this->assertEquals($qbFilter->getLabel(), $res[0][SerializerKeys::LABEL]);
-        $this->assertEquals($qbFilter->getOperators(), $res[0][SerializerKeys::OPERATORS]);
-        $this->assertEquals($qbFilter->getType(), $res[0][SerializerKeys::TYPE]);
+        $this->assertEquals($filter->getId(), $res[0][SerializerKeys::ID]);
+        $this->assertEquals($filter->getLabel(), $res[0][SerializerKeys::LABEL]);
+        $this->assertEquals($filter->getOperators(), $res[0][SerializerKeys::OPERATORS]);
+        $this->assertEquals($filter->getType(), $res[0][SerializerKeys::TYPE]);
     }
 
     /**

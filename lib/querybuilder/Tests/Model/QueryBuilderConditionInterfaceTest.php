@@ -20,7 +20,7 @@ use WBW\Library\QueryBuilder\Tests\AbstractTestCase;
  * QueryBuilder condition interface test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\QueryBuilder\Tests\API
+ * @package WBW\Library\QueryBuilder\Tests\Model
  */
 class QueryBuilderConditionInterfaceTest extends AbstractTestCase {
 

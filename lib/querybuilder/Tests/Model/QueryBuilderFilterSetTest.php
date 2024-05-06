@@ -38,14 +38,14 @@ class QueryBuilderFilterSetTest extends AbstractTestCase {
     public function testAddFilter(): void {
 
         // Set a QueryBuilder filter mock.
-        $qbFilter = $this->getMockBuilder(QueryBuilderFilterInterface::class)->getMock();
-        $qbFilter->expects($this->any())->method("getId")->willReturn("id");
+        $filter = $this->getMockBuilder(QueryBuilderFilterInterface::class)->getMock();
+        $filter->expects($this->any())->method("getId")->willReturn("id");
 
         $obj = new QueryBuilderFilterSet();
 
-        $this->assertSame($obj, $obj->addFilter($qbFilter));
+        $this->assertSame($obj, $obj->addFilter($filter));
         $this->assertNull($obj->getDecorator("id"));
-        $this->assertSame($qbFilter, $obj->getFilter("id"));
+        $this->assertSame($filter, $obj->getFilter("id"));
         $this->assertCount(1, $obj->getFilters());
     }
 
@@ -57,13 +57,13 @@ class QueryBuilderFilterSetTest extends AbstractTestCase {
     public function testAddFilterWithSameId(): void {
 
         // Set a QueryBuilder filter mock.
-        $qbFilter = $this->getMockBuilder(QueryBuilderFilterInterface::class)->getMock();
-        $qbFilter->expects($this->any())->method("getId")->willReturn("id");
+        $filter = $this->getMockBuilder(QueryBuilderFilterInterface::class)->getMock();
+        $filter->expects($this->any())->method("getId")->willReturn("id");
 
         $obj = new QueryBuilderFilterSet();
 
-        $this->assertSame($obj, $obj->addFilter($qbFilter));
-        $this->assertSame($obj, $obj->addFilter($qbFilter));
+        $this->assertSame($obj, $obj->addFilter($filter));
+        $this->assertSame($obj, $obj->addFilter($filter));
         $this->assertCount(1, $obj->getFilters());
     }
 
@@ -87,16 +87,16 @@ class QueryBuilderFilterSetTest extends AbstractTestCase {
     public function testRemoveFilter(): void {
 
         // Set a QueryBuilder filter mock.
-        $qbFilter = $this->getMockBuilder(QueryBuilderFilterInterface::class)->getMock();
-        $qbFilter->expects($this->any())->method("getId")->willReturn("id");
+        $filter = $this->getMockBuilder(QueryBuilderFilterInterface::class)->getMock();
+        $filter->expects($this->any())->method("getId")->willReturn("id");
 
         $obj = new QueryBuilderFilterSet();
-        $obj->addFilter($qbFilter);
+        $obj->addFilter($filter);
 
         $this->assertSame($obj, $obj->removeFilter(new QueryBuilderFilter("bad", QueryBuilderTypeInterface::TYPE_INTEGER, [QueryBuilderOperatorInterface::OPERATOR_EQUAL])));
         $this->assertCount(1, $obj->getFilters());
 
-        $this->assertSame($obj, $obj->removeFilter($qbFilter));
+        $this->assertSame($obj, $obj->removeFilter($filter));
         $this->assertCount(0, $obj->getFilters());
     }
 
