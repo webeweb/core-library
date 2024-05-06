@@ -28,6 +28,7 @@ Provides:
 - cURL wrapper
 - FTP clients (FTP, FTPS, SFTP, etc.)
 - Quadratus models
+- QueryBuilder wrapper
 - SkiData (card, customer, user, etc.)
 - Widget (asset, component, renderer, etc.)
 
