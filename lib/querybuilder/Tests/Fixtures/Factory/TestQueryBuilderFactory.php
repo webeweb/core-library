@@ -26,14 +26,14 @@ class TestQueryBuilderFactory extends QueryBuilderFactory {
     /**
      * {@inheritDoc}
      */
-    public static function enumOperators(): array {
-        return parent::enumOperators();
+    public static function enumQueryBuilderOperators(): array {
+        return parent::enumQueryBuilderOperators();
     }
 
     /**
      * {@inheritDoc}
      */
-    public static function enumTypes(): array {
-        return parent::enumTypes();
+    public static function enumQueryBuilderTypes(): array {
+        return parent::enumQueryBuilderTypes();
     }
 }

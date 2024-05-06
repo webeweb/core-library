@@ -43,7 +43,7 @@ class ArrayQueryBuilderType extends AbstractQueryBuilderType {
 
         foreach ($rule->getValue() as $current) {
 
-            $qbd = QueryBuilderFactory::newType($rule->getType());
+            $qbd = QueryBuilderFactory::newQueryBuilderType($rule->getType());
 
             $qbr = new QueryBuilderRule();
             $qbr->setType($rule->getType());

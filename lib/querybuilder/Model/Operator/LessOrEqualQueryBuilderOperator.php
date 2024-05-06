@@ -37,7 +37,7 @@ class LessOrEqualQueryBuilderOperator extends AbstractQueryBuilderOperator {
      */
     public function toSql(QueryBuilderRuleInterface $rule, bool $wrap = false): string {
 
-        $qbt = QueryBuilderFactory::newType($rule->getType());
+        $qbt = QueryBuilderFactory::newQueryBuilderType($rule->getType());
 
         $sql = [
             parent::toSql($rule, $wrap),

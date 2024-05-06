@@ -32,11 +32,11 @@ use WBW\Library\QueryBuilder\Tests\Fixtures\Factory\TestQueryBuilderFactory;
 class QueryBuilderFactoryTest extends AbstractTestCase {
 
     /**
-     * Test enumOperators()
+     * Test enumQueryBuilderOperators()
      *
      * @return void
      */
-    public function testEnumOperators(): void {
+    public function testEnumQueryBuilderOperators(): void {
 
         $res = [
             QueryBuilderOperatorInterface::OPERATOR_BEGINS_WITH      => "WBW\\Library\\QueryBuilder\\Model\\Operator\\BeginsWithQueryBuilderOperator",
@@ -61,15 +61,15 @@ class QueryBuilderFactoryTest extends AbstractTestCase {
             QueryBuilderOperatorInterface::OPERATOR_NOT_IN           => "WBW\\Library\\QueryBuilder\\Model\\Operator\\NotInQueryBuilderOperator",
         ];
 
-        $this->assertEquals($res, TestQueryBuilderFactory::enumOperators());
+        $this->assertEquals($res, TestQueryBuilderFactory::enumQueryBuilderOperators());
     }
 
     /**
-     * Test enumTypes()
+     * Test enumQueryBuilderTypes()
      *
      * @return void
      */
-    public function testEnumTypes(): void {
+    public function testEnumQueryBuilderTypes(): void {
 
         $res = [
             QueryBuilderTypeInterface::TYPE_BOOLEAN  => "WBW\\Library\\QueryBuilder\\Model\\Type\\BooleanQueryBuilderType",
@@ -81,7 +81,7 @@ class QueryBuilderFactoryTest extends AbstractTestCase {
             QueryBuilderTypeInterface::TYPE_TIME     => "WBW\\Library\\QueryBuilder\\Model\\Type\\TimeQueryBuilderType",
         ];
 
-        $this->assertEquals($res, TestQueryBuilderFactory::enumTypes());
+        $this->assertEquals($res, TestQueryBuilderFactory::enumQueryBuilderTypes());
     }
 
     /**
@@ -89,14 +89,14 @@ class QueryBuilderFactoryTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testNewQueryBuilderDecoratorOperator(): void {
+    public function testNewQueryBuilderOperator(): void {
 
-        $classes = TestQueryBuilderFactory::enumOperators();
+        $classes = TestQueryBuilderFactory::enumQueryBuilderOperators();
         $values  = QueryBuilderHelper::enumOperators();
 
         foreach (array_keys($values) as $current) {
 
-            $res = QueryBuilderFactory::newOperator($current);
+            $res = QueryBuilderFactory::newQueryBuilderOperator($current);
             $this->assertInstanceOf(QueryBuilderDecoratorInterface::class, $res);
             $this->assertInstanceOf($classes[$current], $res);
         }
@@ -107,11 +107,11 @@ class QueryBuilderFactoryTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testNewQueryBuilderDecoratorOperatorWithInvalidArgumentException(): void {
+    public function testNewQueryBuilderOperatorWithInvalidArgumentException(): void {
 
         try {
 
-            QueryBuilderFactory::newOperator("operator");
+            QueryBuilderFactory::newQueryBuilderOperator("operator");
         } catch (Throwable $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
@@ -120,33 +120,33 @@ class QueryBuilderFactoryTest extends AbstractTestCase {
     }
 
     /**
-     * Test newType()
+     * Test newQueryBuilderType()
      *
      * @return void
      */
-    public function testNewType(): void {
+    public function testNewQueryBuilderType(): void {
 
-        $classes = TestQueryBuilderFactory::enumTypes();
+        $classes = TestQueryBuilderFactory::enumQueryBuilderTypes();
         $values  = QueryBuilderHelper::enumTypes();
 
         foreach ($values as $current) {
 
-            $res = QueryBuilderFactory::newType($current);
+            $res = QueryBuilderFactory::newQueryBuilderType($current);
             $this->assertInstanceOf(QueryBuilderDecoratorInterface::class, $res);
             $this->assertInstanceOf($classes[$current], $res);
         }
     }
 
     /**
-     * Test newType()
+     * Test newQueryBuilderType()
      *
      * @return void
      */
-    public function testNewTypeWithInvalidArgumentException(): void {
+    public function testNewQueryBuilderTypeWithInvalidArgumentException(): void {
 
         try {
 
-            QueryBuilderFactory::newType("type");
+            QueryBuilderFactory::newQueryBuilderType("type");
         } catch (Throwable $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);
