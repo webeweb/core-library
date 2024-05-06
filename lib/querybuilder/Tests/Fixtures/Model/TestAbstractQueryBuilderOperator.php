@@ -11,16 +11,16 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\QueryBuilder\Tests\Fixtures\Model\Operator;
+namespace WBW\Library\QueryBuilder\Tests\Fixtures\Model;
 
-use WBW\Library\QueryBuilder\Model\Operator\AbstractQueryBuilderOperator;
+use WBW\Library\QueryBuilder\Model\AbstractQueryBuilderOperator;
 use WBW\Library\QueryBuilder\Model\QueryBuilderRuleInterface;
 
 /**
  * Test abstract QueryBuilder operator.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\QueryBuilder\Tests\Fixtures\Model\Operator
+ * @package WBW\Library\QueryBuilder\Tests\Fixtures\Model
  */
 class TestAbstractQueryBuilderOperator extends AbstractQueryBuilderOperator {
 

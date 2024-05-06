@@ -11,16 +11,18 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\QueryBuilder\Tests\Model\Operator;
+namespace WBW\Library\QueryBuilder\Tests\Model;
 
+use WBW\Library\QueryBuilder\Model\QueryBuilderDecoratorInterface;
+use WBW\Library\QueryBuilder\Model\QueryBuilderOperatorInterface;
 use WBW\Library\QueryBuilder\Tests\AbstractTestCase;
-use WBW\Library\QueryBuilder\Tests\Fixtures\Model\Operator\TestAbstractQueryBuilderOperator;
+use WBW\Library\QueryBuilder\Tests\Fixtures\Model\TestAbstractQueryBuilderOperator;
 
 /**
  * Abstract QueryBuilder operator test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\QueryBuilder\Tests\Model\Operator
+ * @package WBW\Library\QueryBuilder\Tests\Model
  */
 class AbstractQueryBuilderOperatorTest extends AbstractTestCase {
 
@@ -32,6 +34,9 @@ class AbstractQueryBuilderOperatorTest extends AbstractTestCase {
     public function test__construct(): void {
 
         $obj = new TestAbstractQueryBuilderOperator("operator");
+
+        $this->assertInstanceOf(QueryBuilderOperatorInterface::class, $obj);
+        $this->assertInstanceOf(QueryBuilderDecoratorInterface::class, $obj);
 
         $this->assertEquals("operator", $obj->getOperator());
     }

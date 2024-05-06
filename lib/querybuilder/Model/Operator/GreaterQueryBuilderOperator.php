@@ -14,6 +14,7 @@ declare(strict_types = 1);
 namespace WBW\Library\QueryBuilder\Model\Operator;
 
 use WBW\Library\QueryBuilder\Factory\QueryBuilderFactory;
+use WBW\Library\QueryBuilder\Model\AbstractQueryBuilderOperator;
 use WBW\Library\QueryBuilder\Model\QueryBuilderRuleInterface;
 
 /**

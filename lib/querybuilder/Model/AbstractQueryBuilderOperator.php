@@ -11,18 +11,15 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\QueryBuilder\Model\Operator;
+namespace WBW\Library\QueryBuilder\Model;
 
 use WBW\Library\QueryBuilder\Helper\QueryBuilderHelper;
-use WBW\Library\QueryBuilder\Model\QueryBuilderDecoratorInterface;
-use WBW\Library\QueryBuilder\Model\QueryBuilderOperatorInterface;
-use WBW\Library\QueryBuilder\Model\QueryBuilderRuleInterface;
 
 /**
  * Abstract QueryBuilder operator.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\QueryBuilder\Model\Operator
+ * @package WBW\Library\QueryBuilder\Model
  * @abstract
  */
 abstract class AbstractQueryBuilderOperator implements QueryBuilderOperatorInterface, QueryBuilderDecoratorInterface {
