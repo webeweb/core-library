@@ -82,10 +82,6 @@ class ResponseDeserializer {
         $lines = [];
 
         $data = ArrayHelper::get($decodedResponse, "Datas", []);
-        if (null === $data) {
-            $data = [];
-        }
-
         foreach ($data as $current) {
             $lines[] = static::deserializeLine(json_encode($current));
         }
