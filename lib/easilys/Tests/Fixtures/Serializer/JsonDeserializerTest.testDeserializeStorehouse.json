@@ -11,7 +11,11 @@
     "autoCloseReceipt": false,
     "autoSentPreOrder": null,
     "catchwords": "catchwords",
-    "certifications": [],
+    "certifications": [
+        {
+            "id": null
+        }
+    ],
     "codeGLN": "codeGLN",
     "codeInternal": "codeInternal",
     "dateEnd": "dateEnd",

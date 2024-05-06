@@ -687,7 +687,7 @@ class JsonDeserializerTest extends AbstractTestCase {
         $this->assertEquals(SerializerKeys::LABEL_PUBLIC, $res->getLabelPublic());
         $this->assertNotNull($res->getNutritionValue());
         $this->assertNotNull($res->getOrigin());
-        $this->assertCount(0, $res->getPurchaseGenerics());
+        $this->assertCount(1, $res->getPurchaseGenerics());
         $this->assertNotNull($res->getQuality());
         $this->assertNotNull($res->getRange());
         $this->assertEquals(5, $res->getRatioCookedOverRaw());
@@ -864,7 +864,7 @@ class JsonDeserializerTest extends AbstractTestCase {
         $this->assertFalse($res->getAutoCloseReceipt());
         $this->assertNull($res->getAutoSentPreOrder());
         $this->assertEquals(SerializerKeys::CATCHWORDS, $res->getCatchwords());
-        $this->assertEquals([], $res->getCertifications());
+        $this->assertCount(1, $res->getCertifications());
         $this->assertEquals(SerializerKeys::CODE_GLN, $res->getCodeGLN());
         $this->assertEquals(SerializerKeys::CODE_INTERNAL, $res->getCodeInternal());
         $this->assertEquals(SerializerKeys::DATE_END, $res->getDateEnd());

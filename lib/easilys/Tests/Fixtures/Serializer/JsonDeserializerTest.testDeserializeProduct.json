@@ -59,7 +59,11 @@
     "origin": {
         "id": null
     },
-    "purchaseGenerics": [],
+    "purchaseGenerics": [
+        {
+            "id": null
+        }
+    ],
     "quality": {
         "id": null
     },
