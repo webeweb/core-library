@@ -13,8 +13,9 @@ declare(strict_types = 1);
 
 namespace WBW\Library\QueryBuilder\Factory;
 
-use WBW\Library\QueryBuilder\Model\QueryBuilderConditionInterface;
-use WBW\Library\QueryBuilder\Model\QueryBuilderInputInterface;
+use InvalidArgumentException;
+use WBW\Library\Common\Helper\ArrayHelper;
+use WBW\Library\QueryBuilder\Model\QueryBuilderDecoratorInterface;
 use WBW\Library\QueryBuilder\Model\QueryBuilderOperatorInterface;
 use WBW\Library\QueryBuilder\Model\QueryBuilderTypeInterface;
 
@@ -27,81 +28,98 @@ use WBW\Library\QueryBuilder\Model\QueryBuilderTypeInterface;
 class QueryBuilderFactory {
 
     /**
-     * Enumerate the conditions.
+     * Namespace.
      *
-     * @return string[] Returns the conditions enumeration.
+     * @var string
      */
-    public static function enumConditions(): array {
-
-        return [
-            QueryBuilderConditionInterface::CONDITION_AND,
-            QueryBuilderConditionInterface::CONDITION_OR,
-        ];
-    }
-
-    /**
-     * Enumerate the inputs.
-     *
-     * @return string[] Returns the inputs enumeration.
-     */
-    public static function enumInputs(): array {
-
-        return [
-            QueryBuilderInputInterface::INPUT_CHECKBOX,
-            QueryBuilderInputInterface::INPUT_NUMBER,
-            QueryBuilderInputInterface::INPUT_RADIO,
-            QueryBuilderInputInterface::INPUT_SELECT,
-            QueryBuilderInputInterface::INPUT_TEXT,
-            QueryBuilderInputInterface::INPUT_TEXTAREA,
-        ];
-    }
+    protected const NAMESPACE = "WBW\\Library\\QueryBuilder\\Model";
 
     /**
      * Enumerate the operators.
      *
-     * @return array<string,string> Returns the operators enumeration.
+     * @return array<string,string> Returns the operators.
      */
-    public static function enumOperators(): array {
+    protected static function enumOperators(): array {
 
         return [
-            QueryBuilderOperatorInterface::OPERATOR_BEGINS_WITH      => "LIKE",
-            QueryBuilderOperatorInterface::OPERATOR_BETWEEN          => "BETWEEN",
-            QueryBuilderOperatorInterface::OPERATOR_CONTAINS         => "LIKE",
-            QueryBuilderOperatorInterface::OPERATOR_ENDS_WITH        => "LIKE",
-            QueryBuilderOperatorInterface::OPERATOR_EQUAL            => "=",
-            QueryBuilderOperatorInterface::OPERATOR_GREATER          => ">",
-            QueryBuilderOperatorInterface::OPERATOR_GREATER_OR_EQUAL => ">=",
-            QueryBuilderOperatorInterface::OPERATOR_IN               => "IN",
-            QueryBuilderOperatorInterface::OPERATOR_IS_EMPTY         => "IS NULL",
-            QueryBuilderOperatorInterface::OPERATOR_IS_NOT_EMPTY     => "IS NOT NULL",
-            QueryBuilderOperatorInterface::OPERATOR_IS_NOT_NULL      => "IS NOT NULL",
-            QueryBuilderOperatorInterface::OPERATOR_IS_NULL          => "IS NULL",
-            QueryBuilderOperatorInterface::OPERATOR_LESS             => "<",
-            QueryBuilderOperatorInterface::OPERATOR_LESS_OR_EQUAL    => "<=",
-            QueryBuilderOperatorInterface::OPERATOR_NOT_BEGINS_WITH  => "NOT LIKE",
-            QueryBuilderOperatorInterface::OPERATOR_NOT_BETWEEN      => "NOT BETWEEN",
-            QueryBuilderOperatorInterface::OPERATOR_NOT_CONTAINS     => "NOT LIKE",
-            QueryBuilderOperatorInterface::OPERATOR_NOT_ENDS_WITH    => "NOT LIKE",
-            QueryBuilderOperatorInterface::OPERATOR_NOT_EQUAL        => "<>",
-            QueryBuilderOperatorInterface::OPERATOR_NOT_IN           => "NOT IN",
+            QueryBuilderOperatorInterface::OPERATOR_BEGINS_WITH      => self::NAMESPACE . "\\Operator\\BeginsWithQueryBuilderOperator",
+            QueryBuilderOperatorInterface::OPERATOR_BETWEEN          => self::NAMESPACE . "\\Operator\\BetweenQueryBuilderOperator",
+            QueryBuilderOperatorInterface::OPERATOR_CONTAINS         => self::NAMESPACE . "\\Operator\\ContainsQueryBuilderOperator",
+            QueryBuilderOperatorInterface::OPERATOR_ENDS_WITH        => self::NAMESPACE . "\\Operator\\EndsWithQueryBuilderOperator",
+            QueryBuilderOperatorInterface::OPERATOR_EQUAL            => self::NAMESPACE . "\\Operator\\EqualQueryBuilderOperator",
+            QueryBuilderOperatorInterface::OPERATOR_GREATER          => self::NAMESPACE . "\\Operator\\GreaterQueryBuilderOperator",
+            QueryBuilderOperatorInterface::OPERATOR_GREATER_OR_EQUAL => self::NAMESPACE . "\\Operator\\GreaterOrEqualQueryBuilderOperator",
+            QueryBuilderOperatorInterface::OPERATOR_IN               => self::NAMESPACE . "\\Operator\\InQueryBuilderOperator",
+            QueryBuilderOperatorInterface::OPERATOR_IS_EMPTY         => self::NAMESPACE . "\\Operator\\IsEmptyQueryBuilderOperator",
+            QueryBuilderOperatorInterface::OPERATOR_IS_NOT_EMPTY     => self::NAMESPACE . "\\Operator\\IsNotEmptyQueryBuilderOperator",
+            QueryBuilderOperatorInterface::OPERATOR_IS_NOT_NULL      => self::NAMESPACE . "\\Operator\\IsNotNullQueryBuilderOperator",
+            QueryBuilderOperatorInterface::OPERATOR_IS_NULL          => self::NAMESPACE . "\\Operator\\IsNullQueryBuilderOperator",
+            QueryBuilderOperatorInterface::OPERATOR_LESS             => self::NAMESPACE . "\\Operator\\LessQueryBuilderOperator",
+            QueryBuilderOperatorInterface::OPERATOR_LESS_OR_EQUAL    => self::NAMESPACE . "\\Operator\\LessOrEqualQueryBuilderOperator",
+            QueryBuilderOperatorInterface::OPERATOR_NOT_BEGINS_WITH  => self::NAMESPACE . "\\Operator\\NotBeginsWithQueryBuilderOperator",
+            QueryBuilderOperatorInterface::OPERATOR_NOT_BETWEEN      => self::NAMESPACE . "\\Operator\\NotBetweenQueryBuilderOperator",
+            QueryBuilderOperatorInterface::OPERATOR_NOT_CONTAINS     => self::NAMESPACE . "\\Operator\\NotContainsQueryBuilderOperator",
+            QueryBuilderOperatorInterface::OPERATOR_NOT_ENDS_WITH    => self::NAMESPACE . "\\Operator\\NotEndsWithQueryBuilderOperator",
+            QueryBuilderOperatorInterface::OPERATOR_NOT_EQUAL        => self::NAMESPACE . "\\Operator\\NotEqualQueryBuilderOperator",
+            QueryBuilderOperatorInterface::OPERATOR_NOT_IN           => self::NAMESPACE . "\\Operator\\NotInQueryBuilderOperator",
         ];
     }
 
     /**
      * Enumerate the types.
      *
-     * @return string[] Returns the types enumeration.
+     * @return array<string,string> Returns the types.
      */
-    public static function enumTypes(): array {
+    protected static function enumTypes(): array {
 
         return [
-            QueryBuilderTypeInterface::TYPE_BOOLEAN,
-            QueryBuilderTypeInterface::TYPE_DATE,
-            QueryBuilderTypeInterface::TYPE_DATETIME,
-            QueryBuilderTypeInterface::TYPE_DOUBLE,
-            QueryBuilderTypeInterface::TYPE_INTEGER,
-            QueryBuilderTypeInterface::TYPE_STRING,
-            QueryBuilderTypeInterface::TYPE_TIME,
+            QueryBuilderTypeInterface::TYPE_BOOLEAN  => self::NAMESPACE . "\\Type\\BooleanQueryBuilderType",
+            QueryBuilderTypeInterface::TYPE_DATE     => self::NAMESPACE . "\\Type\\DateQueryBuilderType",
+            QueryBuilderTypeInterface::TYPE_DATETIME => self::NAMESPACE . "\\Type\\DateTimeQueryBuilderType",
+            QueryBuilderTypeInterface::TYPE_DOUBLE   => self::NAMESPACE . "\\Type\\DoubleQueryBuilderType",
+            QueryBuilderTypeInterface::TYPE_INTEGER  => self::NAMESPACE . "\\Type\\IntegerQueryBuilderType",
+            QueryBuilderTypeInterface::TYPE_STRING   => self::NAMESPACE . "\\Type\\StringQueryBuilderType",
+            QueryBuilderTypeInterface::TYPE_TIME     => self::NAMESPACE . "\\Type\\TimeQueryBuilderType",
         ];
+    }
+
+    /**
+     * Create a QueryBuilder decorator.
+     *
+     * @param array $enum The enumeration.
+     * @param string $key The key.
+     * @return QueryBuilderDecoratorInterface|null Returns the QueryBuilder decorator in case of success, null otherwise.
+     * @throws InvalidArgumentException Throws an invalid argument exception if the argument is invalid.
+     */
+    protected static function newDecorator(array $enum, string $key): ?QueryBuilderDecoratorInterface {
+
+        $class = ArrayHelper::get($enum, $key);
+        if (null === $class) {
+            throw new InvalidArgumentException(sprintf('The decorator "%s" is invalid', $key));
+        }
+
+        return new $class();
+    }
+
+    /**
+     * Create a QueryBuilder operator.
+     *
+     * @param string $operator The Operator.
+     * @return QueryBuilderDecoratorInterface|null Returns the QueryBuilder operator in case of success, false otherwise.
+     * @throws InvalidArgumentException Throws an invalid argument exception if the argument is invalid.
+     */
+    public static function newOperator(string $operator): ?QueryBuilderDecoratorInterface {
+        return static::newDecorator(static::enumOperators(), $operator);
+    }
+
+    /**
+     * Create a QueryBuilder type.
+     *
+     * @param string $type The type.
+     * @return QueryBuilderDecoratorInterface|null Returns the QueryBuilder type in case of success, false otherwise.
+     * @throws InvalidArgumentException Throws an invalid argument exception if the argument is invalid.
+     */
+    public static function newType(string $type): ?QueryBuilderDecoratorInterface {
+        return static::newDecorator(static::enumTypes(), $type);
     }
 }
