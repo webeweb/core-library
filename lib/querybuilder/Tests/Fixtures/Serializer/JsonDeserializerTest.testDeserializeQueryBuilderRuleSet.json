@@ -1,0 +1,35 @@
+{
+    "condition": "OR",
+    "rules": [
+        {
+            "id": "age",
+            "field": "age",
+            "input": "number",
+            "operator": "greater",
+            "type": "integer",
+            "value": "21"
+        },
+        {
+            "condition": "AND",
+            "rules": [
+                {
+                    "id": "firstname",
+                    "field": "firstname",
+                    "input": "text",
+                    "operator": "equal",
+                    "type": "string",
+                    "value": "John"
+                },
+                {
+                    "id": "lastname",
+                    "field": "lastname",
+                    "input": "number",
+                    "operator": "equal",
+                    "type": "string",
+                    "value": "DOE"
+                }
+            ]
+        }
+    ],
+    "valid": true
+}
