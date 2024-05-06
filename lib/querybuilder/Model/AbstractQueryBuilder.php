@@ -14,7 +14,7 @@ declare(strict_types = 1);
 namespace WBW\Library\QueryBuilder\Model;
 
 use InvalidArgumentException;
-use WBW\Library\QueryBuilder\Factory\QueryBuilderFactory;
+use WBW\Library\QueryBuilder\Helper\QueryBuilderHelper;
 
 /**
  * Abstract QueryBuilder.
@@ -127,7 +127,7 @@ abstract class AbstractQueryBuilder {
      */
     public function setInput(?string $input): AbstractQueryBuilder {
 
-        if (false === in_array($input, QueryBuilderFactory::enumInputs())) {
+        if (false === in_array($input, QueryBuilderHelper::enumInputs())) {
             throw new InvalidArgumentException(sprintf('The input "%s" is invalid', $input));
         }
 
@@ -144,7 +144,7 @@ abstract class AbstractQueryBuilder {
      */
     public function setType(?string $type): AbstractQueryBuilder {
 
-        if (null !== $type && false === in_array($type, QueryBuilderFactory::enumTypes())) {
+        if (null !== $type && false === in_array($type, QueryBuilderHelper::enumTypes())) {
             throw new InvalidArgumentException(sprintf('The type "%s" is invalid', $type));
         }
 

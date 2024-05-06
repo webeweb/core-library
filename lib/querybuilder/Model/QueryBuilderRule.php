@@ -14,7 +14,7 @@ declare(strict_types = 1);
 namespace WBW\Library\QueryBuilder\Model;
 
 use InvalidArgumentException;
-use WBW\Library\QueryBuilder\Factory\QueryBuilderFactory;
+use WBW\Library\QueryBuilder\Helper\QueryBuilderHelper;
 
 /**
  * QueryBuilder rule.
@@ -93,7 +93,7 @@ class QueryBuilderRule extends AbstractQueryBuilder implements QueryBuilderRuleI
      */
     public function setOperator(?string $operator): QueryBuilderRuleInterface {
 
-        if (null !== $operator && false === array_key_exists($operator, QueryBuilderFactory::enumOperators())) {
+        if (null !== $operator && false === array_key_exists($operator, QueryBuilderHelper::enumOperators())) {
             throw new InvalidArgumentException(sprintf('The operator "%s" is invalid', $operator));
         }
 

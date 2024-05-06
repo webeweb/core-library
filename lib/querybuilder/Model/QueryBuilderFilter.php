@@ -14,7 +14,7 @@ declare(strict_types = 1);
 namespace WBW\Library\QueryBuilder\Model;
 
 use InvalidArgumentException;
-use WBW\Library\QueryBuilder\Factory\QueryBuilderFactory;
+use WBW\Library\QueryBuilder\Helper\QueryBuilderHelper;
 use WBW\Library\QueryBuilder\Serializer\JsonSerializer;
 
 /**
@@ -177,7 +177,7 @@ class QueryBuilderFilter extends AbstractQueryBuilder implements QueryBuilderFil
      */
     public function setOperators(array $operators): QueryBuilderFilterInterface {
 
-        $enum = QueryBuilderFactory::enumOperators();
+        $enum = QueryBuilderHelper::enumOperators();
 
         foreach ($operators as $current) {
 

@@ -14,7 +14,7 @@ declare(strict_types = 1);
 namespace WBW\Library\QueryBuilder\Model;
 
 use InvalidArgumentException;
-use WBW\Library\QueryBuilder\Factory\QueryBuilderFactory;
+use WBW\Library\QueryBuilder\Helper\QueryBuilderHelper;
 
 /**
  * QueryBuilder rule set.
@@ -105,7 +105,7 @@ class QueryBuilderRuleSet implements QueryBuilderRuleSetInterface {
      */
     public function setCondition(?string $condition): QueryBuilderRuleSetInterface {
 
-        if (null !== $condition && false === in_array($condition, QueryBuilderFactory::enumConditions())) {
+        if (null !== $condition && false === in_array($condition, QueryBuilderHelper::enumConditions())) {
             throw new InvalidArgumentException(sprintf('The condition "%s" is invalid', $condition));
         }
 
