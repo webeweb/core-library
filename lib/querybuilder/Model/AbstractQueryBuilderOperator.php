@@ -27,7 +27,7 @@ abstract class AbstractQueryBuilderOperator implements QueryBuilderOperatorInter
     /**
      * Operator.
      *
-     * @var string
+     * @var string|null
      */
     private $operator;
 

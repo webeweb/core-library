@@ -61,14 +61,14 @@ class QueryBuilderValidation implements QueryBuilderValidationInterface {
     /**
      * Min.
      *
-     * @var mixed
+     * @var mixed|null
      */
     private $min;
 
     /**
      * Step.
      *
-     * @var mixed
+     * @var mixed|null
      */
     private $step;
 
