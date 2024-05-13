@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### master   
+
+- Add Highcharts library
+
 ### [9.4.0](https://github.com/webeweb/core-library/tree/v9.4.0) (2024-05-13)   
 
 - Add QueryBuilder library
