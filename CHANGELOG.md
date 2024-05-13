@@ -3,24 +3,24 @@ CHANGELOG
 
 ### master   
 
-- Add Highcharts library
+- Backup Highcharts library
 
 ### [9.4.0](https://github.com/webeweb/core-library/tree/v9.4.0) (2024-05-13)   
 
-- Add QueryBuilder library
+- Backup QueryBuilder library
 - Improve code quality
 - Improve PHPDoc
 
 ### [9.3.0](https://github.com/webeweb/core-library/tree/v9.3.0) (2024-05-04)
 
-- Add Ciqual library
+- Backup Ciqual library
 - Improve code quality
 - Update dependencies
 
 ### [9.2.0](https://github.com/webeweb/core-library/tree/v9.2.0) (2024-05-03)
 
 - Add cURL documentation
-- Add Easilys library
+- Backup Easilys library
 - Improve code quality
 - Update dependencies
 
