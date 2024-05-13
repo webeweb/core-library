@@ -14,6 +14,7 @@
                 <directory>lib/curl/Tests</directory>
                 <directory>lib/easilys/Tests</directory>
                 <directory>lib/ftp/Tests</directory>
+                <directory>lib/highcharts/Tests</directory>
                 <directory>lib/ocrlad/Tests</directory>
                 <directory>lib/quadratus/Tests</directory>
                 <directory>lib/querybuilder/Tests</directory>
@@ -29,6 +30,7 @@
             <directory>./lib/curl/Tests</directory>
             <directory>./lib/easilys/Tests</directory>
             <directory>./lib/ftp/Tests</directory>
+            <directory>./lib/highcharts/Tests</directory>
             <directory>./lib/ocrlad/Tests</directory>
             <directory>./lib/quadratus/Tests</directory>
             <directory>./lib/querybuilder/Tests</directory>
