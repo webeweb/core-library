@@ -1,7 +1,7 @@
 CHANGELOG
 =========
 
-### master   
+### [9.5.0](https://github.com/webeweb/core-library/tree/v9.5.0) (2024-05-14)
 
 - Backup Highcharts library
 - Improve code quality
