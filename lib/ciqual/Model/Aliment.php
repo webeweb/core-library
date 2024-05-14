@@ -40,7 +40,7 @@ class Aliment implements JsonSerializable {
      *
      * @var string
      */
-    const DOM_NODE_NAME = "ALIM";
+    public const DOM_NODE_NAME = "ALIM";
 
     /**
      * Code groupe.
