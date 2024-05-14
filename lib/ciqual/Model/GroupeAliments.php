@@ -40,7 +40,7 @@ class GroupeAliments implements JsonSerializable {
      *
      * @var string
      */
-    const DOM_NODE_NAME = "ALIM_GRP";
+    public const DOM_NODE_NAME = "ALIM_GRP";
 
     /**
      * Nom ENG sous-groupe.
