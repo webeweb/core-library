@@ -26,131 +26,131 @@ interface SerializerKeys {
      *
      * @var string
      */
-    const CITATION_REF = "citationRef";
+    public const CITATION_REF = "citationRef";
 
     /**
      * Serializer key "code".
      *
      * @var string
      */
-    const CODE = "code";
+    public const CODE = "code";
 
     /**
      * Serializer key "code aliment".
      *
      * @var string
      */
-    const CODE_ALIMENT = "codeAliment";
+    public const CODE_ALIMENT = "codeAliment";
 
     /**
      * Serializer key "code confiance".
      *
      * @var string
      */
-    const CODE_CONFIANCE = "codeConfiance";
+    public const CODE_CONFIANCE = "codeConfiance";
 
     /**
      * Serializer key "code constituant".
      *
      * @var string
      */
-    const CODE_CONSTITUANT = "codeConstituant";
+    public const CODE_CONSTITUANT = "codeConstituant";
 
     /**
      * Serializer key "code groupe".
      *
      * @var string
      */
-    const CODE_GROUPE = "codeGroupe";
+    public const CODE_GROUPE = "codeGroupe";
 
     /**
      * Serializer key "code source".
      *
      * @var string
      */
-    const CODE_SOURCE = "codeSource";
+    public const CODE_SOURCE = "codeSource";
 
     /**
      * Serializer key "code sous-groupe".
      *
      * @var string
      */
-    const CODE_SOUS_GROUPE = "codeSousGroupe";
+    public const CODE_SOUS_GROUPE = "codeSousGroupe";
 
     /**
      * Serializer key "code sous sous-groupe".
      *
      * @var string
      */
-    const CODE_SOUS_SOUS_GROUPE = "codeSousSousGroupe";
+    public const CODE_SOUS_SOUS_GROUPE = "codeSousSousGroupe";
 
     /**
      * Serializer key "max".
      *
      * @var string
      */
-    const MAX = "max";
+    public const MAX = "max";
 
     /**
      * Serializer key "min".
      *
      * @var string
      */
-    const MIN = "min";
+    public const MIN = "min";
 
     /**
      * Serializer key "nom ENG".
      *
      * @var string
      */
-    const NOM_ENG = "nomEng";
+    public const NOM_ENG = "nomEng";
 
     /**
      * Serializer key "nom ENG sous-groupe".
      *
      * @var string
      */
-    const NOM_ENG_SOUS_GROUPE = "nomEngSousGroupe";
+    public const NOM_ENG_SOUS_GROUPE = "nomEngSousGroupe";
 
     /**
      * Serializer key "nom ENG sous sous-groupe".
      *
      * @var string
      */
-    const NOM_ENG_SOUS_SOUS_GROUPE = "nomEngSousSousGroupe";
+    public const NOM_ENG_SOUS_SOUS_GROUPE = "nomEngSousSousGroupe";
 
     /**
      * Serializer key "nom FR".
      *
      * @var string
      */
-    const NOM_FR = "nomFr";
+    public const NOM_FR = "nomFr";
 
     /**
      * Serializer key "nom FR sous-groupe".
      *
      * @var string
      */
-    const NOM_FR_SOUS_GROUPE = "nomFrSousGroupe";
+    public const NOM_FR_SOUS_GROUPE = "nomFrSousGroupe";
 
     /**
      * Serializer key "nom FR sous sous-groupe".
      *
      * @var string
      */
-    const NOM_FR_SOUS_SOUS_GROUPE = "nomFrSousSousGroupe";
+    public const NOM_FR_SOUS_SOUS_GROUPE = "nomFrSousSousGroupe";
 
     /**
      * Serializer key "nom index FR".
      *
      * @var string
      */
-    const NOM_INDEX_FR = "nomIndexFr";
+    public const NOM_INDEX_FR = "nomIndexFr";
 
     /**
      * Serializer key "teneur".
      *
      * @var string
      */
-    const TENEUR = "teneur";
+    public const TENEUR = "teneur";
 }
