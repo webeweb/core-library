@@ -34,7 +34,7 @@ class GetSiteRequest extends AbstractRequest implements SubstituableRequestInter
      *
      * @var string
      */
-    const RESOURCE_PATH = "/site/:idSite";
+    public const RESOURCE_PATH = "/site/:idSite";
 
     /**
      * {@inheritdoc
