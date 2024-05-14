@@ -46,32 +46,6 @@ class HighchartsGlobalTest extends AbstractTestCase {
     }
 
     /**
-     * Tests setDate()
-     *
-     * @return void.
-     */
-    public function testSetDate(): void {
-
-        $obj = new \WBW\Library\Highcharts\Model\Options\HighchartsGlobal();
-
-        $obj->setDate(["Date" => "44749712dbec183e983dcd78a7736c41"]);
-        $this->assertEquals(["Date" => "44749712dbec183e983dcd78a7736c41"], $obj->getDate());
-    }
-
-    /**
-     * Tests setVMLRadialGradientURL()
-     *
-     * @return void.
-     */
-    public function testSetVMLRadialGradientURL(): void {
-
-        $obj = new \WBW\Library\Highcharts\Model\Options\HighchartsGlobal();
-
-        $obj->setVMLRadialGradientURL("4fff8f495410c9be27e06b48ed58de29");
-        $this->assertEquals("4fff8f495410c9be27e06b48ed58de29", $obj->getVMLRadialGradientURL());
-    }
-
-    /**
      * Tests setCanvasToolsURL()
      *
      * @return void.
@@ -82,6 +56,19 @@ class HighchartsGlobalTest extends AbstractTestCase {
 
         $obj->setCanvasToolsURL("a676408d51fa75bb7824a5b404b76cd7");
         $this->assertEquals("a676408d51fa75bb7824a5b404b76cd7", $obj->getCanvasToolsURL());
+    }
+
+    /**
+     * Tests setDate()
+     *
+     * @return void.
+     */
+    public function testSetDate(): void {
+
+        $obj = new \WBW\Library\Highcharts\Model\Options\HighchartsGlobal();
+
+        $obj->setDate(["Date" => "44749712dbec183e983dcd78a7736c41"]);
+        $this->assertEquals(["Date" => "44749712dbec183e983dcd78a7736c41"], $obj->getDate());
     }
 
     /**
@@ -134,6 +121,19 @@ class HighchartsGlobalTest extends AbstractTestCase {
 
         $obj->setUseUTC(true);
         $this->assertTrue($obj->getUseUTC());
+    }
+
+    /**
+     * Tests setVMLRadialGradientURL()
+     *
+     * @return void.
+     */
+    public function testSetVMLRadialGradientURL(): void {
+
+        $obj = new \WBW\Library\Highcharts\Model\Options\HighchartsGlobal();
+
+        $obj->setVMLRadialGradientURL("4fff8f495410c9be27e06b48ed58de29");
+        $this->assertEquals("4fff8f495410c9be27e06b48ed58de29", $obj->getVMLRadialGradientURL());
     }
 
     /**
