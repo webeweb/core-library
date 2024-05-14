@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [9.5.1](https://github.com/webeweb/core-library/tree/v9.5.1) (2024-05-14)
+
+- Improve cURL documentation
+
 ### [9.5.0](https://github.com/webeweb/core-library/tree/v9.5.0) (2024-05-14)
 
 - Backup Highcharts library
