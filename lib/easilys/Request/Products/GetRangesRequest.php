@@ -30,7 +30,7 @@ class GetRangesRequest extends AbstractRequest {
      *
      * @var string
      */
-    const RESOURCE_PATH = "/ranges";
+    public const RESOURCE_PATH = "/ranges";
 
     /**
      * {@inheritdoc
