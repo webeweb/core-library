@@ -4,6 +4,7 @@ CHANGELOG
 ### master   
 
 - Backup Highcharts library
+- Improve code quality
 
 ### [9.4.0](https://github.com/webeweb/core-library/tree/v9.4.0) (2024-05-13)   
 
