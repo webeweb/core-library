@@ -34,7 +34,7 @@ class GetStorehousesSiteRequest extends AbstractRequest implements SubstituableR
      *
      * @var string
      */
-    const RESOURCE_PATH = "/storehouses/site/:idSite";
+    public const RESOURCE_PATH = "/storehouses/site/:idSite";
 
     /**
      * {@inheritdoc
