@@ -30,7 +30,7 @@ class GetSitesRequest extends AbstractRequest {
      *
      * @var string
      */
-    const RESOURCE_PATH = "/sites";
+    public const RESOURCE_PATH = "/sites";
 
     /**
      * {@inheritdoc
