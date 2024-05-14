@@ -29,7 +29,7 @@ class Composition implements JsonSerializable {
      *
      * @var string
      */
-    const DOM_NODE_NAME = "COMPO";
+    public const DOM_NODE_NAME = "COMPO";
 
     /**
      * Code aliment.
