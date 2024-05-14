@@ -143,7 +143,7 @@ class HighchartsFunnelTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsFunnel();
 
         $obj->setAllowPointSelect(false);
-        $this->assertEquals(false, $obj->getAllowPointSelect());
+        $this->assertFalse($obj->getAllowPointSelect());
     }
 
     /**
@@ -247,7 +247,7 @@ class HighchartsFunnelTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsFunnel();
 
         $obj->setCursor(null);
-        $this->assertEquals(null, $obj->getCursor());
+        $this->assertNull($obj->getCursor());
 
         $obj->setCursor("crosshair");
         $this->assertEquals("crosshair", $obj->getCursor());
@@ -317,7 +317,7 @@ class HighchartsFunnelTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsFunnel();
 
         $obj->setEnableMouseTracking(false);
-        $this->assertEquals(false, $obj->getEnableMouseTracking());
+        $this->assertFalse($obj->getEnableMouseTracking());
     }
 
     /**
@@ -346,7 +346,7 @@ class HighchartsFunnelTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsFunnel();
 
         $obj->setExposeElementToA11y(true);
-        $this->assertEquals(true, $obj->getExposeElementToA11y());
+        $this->assertTrue($obj->getExposeElementToA11y());
     }
 
     /**
@@ -375,7 +375,7 @@ class HighchartsFunnelTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsFunnel();
 
         $obj->setGetExtremesFromAll(true);
-        $this->assertEquals(true, $obj->getGetExtremesFromAll());
+        $this->assertTrue($obj->getGetExtremesFromAll());
     }
 
     /**
@@ -495,7 +495,7 @@ class HighchartsFunnelTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsFunnel();
 
         $obj->setReversed(true);
-        $this->assertEquals(true, $obj->getReversed());
+        $this->assertTrue($obj->getReversed());
     }
 
     /**
@@ -508,7 +508,7 @@ class HighchartsFunnelTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsFunnel();
 
         $obj->setSelected(false);
-        $this->assertEquals(false, $obj->getSelected());
+        $this->assertFalse($obj->getSelected());
     }
 
     /**
@@ -534,7 +534,7 @@ class HighchartsFunnelTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsFunnel();
 
         $obj->setShowInLegend(true);
-        $this->assertEquals(true, $obj->getShowInLegend());
+        $this->assertTrue($obj->getShowInLegend());
     }
 
     /**
@@ -547,7 +547,7 @@ class HighchartsFunnelTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsFunnel();
 
         $obj->setSkipKeyboardNavigation(true);
-        $this->assertEquals(true, $obj->getSkipKeyboardNavigation());
+        $this->assertTrue($obj->getSkipKeyboardNavigation());
     }
 
     /**
@@ -589,7 +589,7 @@ class HighchartsFunnelTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsFunnel();
 
         $obj->setStickyTracking(false);
-        $this->assertEquals(false, $obj->getStickyTracking());
+        $this->assertFalse($obj->getStickyTracking());
     }
 
     /**
@@ -615,7 +615,7 @@ class HighchartsFunnelTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsFunnel();
 
         $obj->setVisible(true);
-        $this->assertEquals(true, $obj->getVisible());
+        $this->assertTrue($obj->getVisible());
     }
 
     /**
@@ -666,7 +666,7 @@ class HighchartsFunnelTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsFunnel();
 
-        $this->assertEquals(false, $obj->getAllowPointSelect());
+        $this->assertFalse($obj->getAllowPointSelect());
         $this->assertNull($obj->getAnimationLimit());
         $this->assertEquals("#ffffff", $obj->getBorderColor());
         $this->assertEquals(1, $obj->getBorderWidth());
@@ -678,11 +678,11 @@ class HighchartsFunnelTest extends AbstractTestCase {
         $this->assertNull($obj->getDataLabels());
         $this->assertEquals(0, $obj->getDepth());
         $this->assertNull($obj->getDescription());
-        $this->assertEquals(true, $obj->getEnableMouseTracking());
+        $this->assertTrue($obj->getEnableMouseTracking());
         $this->assertNull($obj->getEvents());
         $this->assertNull($obj->getExposeElementToA11y());
         $this->assertNull($obj->getFindNearestPointBy());
-        $this->assertEquals(false, $obj->getGetExtremesFromAll());
+        $this->assertFalse($obj->getGetExtremesFromAll());
         $this->assertNull($obj->getHeight());
         $this->assertNull($obj->getKeys());
         $this->assertNull($obj->getLinkedTo());
@@ -691,16 +691,16 @@ class HighchartsFunnelTest extends AbstractTestCase {
         $this->assertEquals("30%", $obj->getNeckWidth());
         $this->assertNull($obj->getPoint());
         $this->assertNull($obj->getPointDescriptionFormatter());
-        $this->assertEquals(false, $obj->getReversed());
-        $this->assertEquals(false, $obj->getSelected());
+        $this->assertFalse($obj->getReversed());
+        $this->assertFalse($obj->getSelected());
         $this->assertEquals("false", $obj->getShadow());
-        $this->assertEquals(false, $obj->getShowInLegend());
+        $this->assertFalse($obj->getShowInLegend());
         $this->assertNull($obj->getSkipKeyboardNavigation());
         $this->assertEquals(10, $obj->getSlicedOffset());
         $this->assertNull($obj->getStates());
-        $this->assertEquals(false, $obj->getStickyTracking());
+        $this->assertFalse($obj->getStickyTracking());
         $this->assertNull($obj->getTooltip());
-        $this->assertEquals(true, $obj->getVisible());
+        $this->assertTrue($obj->getVisible());
         $this->assertEquals("90%", $obj->getWidth());
         $this->assertEquals("y", $obj->getZoneAxis());
         $this->assertNull($obj->getZones());

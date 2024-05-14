@@ -94,7 +94,7 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Arearange\HighchartsDataLabels();
 
         $obj->setAllowOverlap(false);
-        $this->assertEquals(false, $obj->getAllowOverlap());
+        $this->assertFalse($obj->getAllowOverlap());
     }
 
     /**
@@ -185,7 +185,7 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Arearange\HighchartsDataLabels();
 
         $obj->setCrop(false);
-        $this->assertEquals(false, $obj->getCrop());
+        $this->assertFalse($obj->getCrop());
     }
 
     /**
@@ -198,7 +198,7 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Arearange\HighchartsDataLabels();
 
         $obj->setDefer(false);
-        $this->assertEquals(false, $obj->getDefer());
+        $this->assertFalse($obj->getDefer());
     }
 
     /**
@@ -211,7 +211,7 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Arearange\HighchartsDataLabels();
 
         $obj->setEnabled(true);
-        $this->assertEquals(true, $obj->getEnabled());
+        $this->assertTrue($obj->getEnabled());
     }
 
     /**
@@ -250,7 +250,7 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Arearange\HighchartsDataLabels();
 
         $obj->setInside(false);
-        $this->assertEquals(false, $obj->getInside());
+        $this->assertFalse($obj->getInside());
     }
 
     /**
@@ -344,7 +344,7 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Arearange\HighchartsDataLabels();
 
         $obj->setUseHTML(true);
-        $this->assertEquals(true, $obj->getUseHTML());
+        $this->assertTrue($obj->getUseHTML());
     }
 
     /**
@@ -441,16 +441,16 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Arearange\HighchartsDataLabels();
 
         $this->assertEquals("center", $obj->getAlign());
-        $this->assertEquals(false, $obj->getAllowOverlap());
+        $this->assertFalse($obj->getAllowOverlap());
         $this->assertNull($obj->getBackgroundColor());
         $this->assertNull($obj->getBorderColor());
         $this->assertEquals(0, $obj->getBorderRadius());
         $this->assertEquals(0, $obj->getBorderWidth());
         $this->assertNull($obj->getClassName());
         $this->assertNull($obj->getColor());
-        $this->assertEquals(true, $obj->getCrop());
-        $this->assertEquals(true, $obj->getDefer());
-        $this->assertEquals(false, $obj->getEnabled());
+        $this->assertTrue($obj->getCrop());
+        $this->assertTrue($obj->getDefer());
+        $this->assertFalse($obj->getEnabled());
         $this->assertEquals("{y}", $obj->getFormat());
         $this->assertNull($obj->getFormatter());
         $this->assertNull($obj->getInside());
@@ -460,7 +460,7 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
         $this->assertEquals("false", $obj->getShadow());
         $this->assertEquals("square", $obj->getShape());
         $this->assertEquals(["color" => "contrast", "fontSize" => "11px", "fontWeight" => "bold", "textOutline" => "1px contrast"], $obj->getStyle());
-        $this->assertEquals(false, $obj->getUseHTML());
+        $this->assertFalse($obj->getUseHTML());
         $this->assertNull($obj->getVerticalAlign());
         $this->assertEquals(0, $obj->getXHigh());
         $this->assertEquals(0, $obj->getXLow());

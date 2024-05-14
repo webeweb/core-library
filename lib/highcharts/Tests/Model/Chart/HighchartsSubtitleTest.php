@@ -76,7 +76,7 @@ class HighchartsSubtitleTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsSubtitle();
 
         $obj->setFloating(true);
-        $this->assertEquals(true, $obj->getFloating());
+        $this->assertTrue($obj->getFloating());
     }
 
     /**
@@ -115,7 +115,7 @@ class HighchartsSubtitleTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsSubtitle();
 
         $obj->setUseHTML(false);
-        $this->assertEquals(false, $obj->getUseHTML());
+        $this->assertFalse($obj->getUseHTML());
     }
 
     /**
@@ -186,10 +186,10 @@ class HighchartsSubtitleTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsSubtitle();
 
         $this->assertEquals("center", $obj->getAlign());
-        $this->assertEquals(false, $obj->getFloating());
+        $this->assertFalse($obj->getFloating());
         $this->assertEquals(["color" => "#666666"], $obj->getStyle());
         $this->assertNull($obj->getText());
-        $this->assertEquals(false, $obj->getUseHTML());
+        $this->assertFalse($obj->getUseHTML());
         $this->assertNull($obj->getVerticalAlign());
         $this->assertEquals(-44, $obj->getWidthAdjust());
         $this->assertEquals(0, $obj->getX());

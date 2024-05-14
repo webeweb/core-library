@@ -81,7 +81,7 @@ class HighchartsButtonOptionsTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Navigation\HighchartsButtonOptions();
 
         $obj->setEnabled(false);
-        $this->assertEquals(false, $obj->getEnabled());
+        $this->assertFalse($obj->getEnabled());
     }
 
     /**
@@ -256,7 +256,7 @@ class HighchartsButtonOptionsTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Navigation\HighchartsButtonOptions();
 
         $this->assertEquals("right", $obj->getAlign());
-        $this->assertEquals(true, $obj->getEnabled());
+        $this->assertTrue($obj->getEnabled());
         $this->assertEquals(20, $obj->getHeight());
         $this->assertEquals("#666666", $obj->getSymbolFill());
         $this->assertEquals(14, $obj->getSymbolSize());

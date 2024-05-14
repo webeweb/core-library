@@ -133,7 +133,7 @@ class HighchartsGlobalTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Options\HighchartsGlobal();
 
         $obj->setUseUTC(true);
-        $this->assertEquals(true, $obj->getUseUTC());
+        $this->assertTrue($obj->getUseUTC());
     }
 
     /**
@@ -151,6 +151,6 @@ class HighchartsGlobalTest extends AbstractTestCase {
         $this->assertNull($obj->getGetTimezoneOffset());
         $this->assertNull($obj->getTimezone());
         $this->assertEquals(0, $obj->getTimezoneOffset());
-        $this->assertEquals(true, $obj->getUseUTC());
+        $this->assertTrue($obj->getUseUTC());
     }
 }

@@ -171,7 +171,7 @@ class HighchartsWaterfallTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsWaterfall();
 
         $obj->setAllowPointSelect(true);
-        $this->assertEquals(true, $obj->getAllowPointSelect());
+        $this->assertTrue($obj->getAllowPointSelect());
     }
 
     /**
@@ -184,7 +184,7 @@ class HighchartsWaterfallTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsWaterfall();
 
         $obj->setAnimation(true);
-        $this->assertEquals(true, $obj->getAnimation());
+        $this->assertTrue($obj->getAnimation());
     }
 
     /**
@@ -275,7 +275,7 @@ class HighchartsWaterfallTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsWaterfall();
 
         $obj->setColorByPoint(false);
-        $this->assertEquals(false, $obj->getColorByPoint());
+        $this->assertFalse($obj->getColorByPoint());
     }
 
     /**
@@ -314,7 +314,7 @@ class HighchartsWaterfallTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsWaterfall();
 
         $obj->setCrisp(false);
-        $this->assertEquals(false, $obj->getCrisp());
+        $this->assertFalse($obj->getCrisp());
     }
 
     /**
@@ -327,7 +327,7 @@ class HighchartsWaterfallTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsWaterfall();
 
         $obj->setCursor(null);
-        $this->assertEquals(null, $obj->getCursor());
+        $this->assertNull($obj->getCursor());
 
         $obj->setCursor("crosshair");
         $this->assertEquals("crosshair", $obj->getCursor());
@@ -449,7 +449,7 @@ class HighchartsWaterfallTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsWaterfall();
 
         $obj->setEnableMouseTracking(true);
-        $this->assertEquals(true, $obj->getEnableMouseTracking());
+        $this->assertTrue($obj->getEnableMouseTracking());
     }
 
     /**
@@ -478,7 +478,7 @@ class HighchartsWaterfallTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsWaterfall();
 
         $obj->setExposeElementToA11y(true);
-        $this->assertEquals(true, $obj->getExposeElementToA11y());
+        $this->assertTrue($obj->getExposeElementToA11y());
     }
 
     /**
@@ -507,7 +507,7 @@ class HighchartsWaterfallTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsWaterfall();
 
         $obj->setGetExtremesFromAll(true);
-        $this->assertEquals(true, $obj->getGetExtremesFromAll());
+        $this->assertTrue($obj->getGetExtremesFromAll());
     }
 
     /**
@@ -546,7 +546,7 @@ class HighchartsWaterfallTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsWaterfall();
 
         $obj->setGrouping(true);
-        $this->assertEquals(true, $obj->getGrouping());
+        $this->assertTrue($obj->getGrouping());
     }
 
     /**
@@ -731,7 +731,7 @@ class HighchartsWaterfallTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsWaterfall();
 
         $obj->setPointIntervalUnit(null);
-        $this->assertEquals(null, $obj->getPointIntervalUnit());
+        $this->assertNull($obj->getPointIntervalUnit());
 
         $obj->setPointIntervalUnit("day");
         $this->assertEquals("day", $obj->getPointIntervalUnit());
@@ -766,7 +766,7 @@ class HighchartsWaterfallTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsWaterfall();
 
         $obj->setPointPlacement(null);
-        $this->assertEquals(null, $obj->getPointPlacement());
+        $this->assertNull($obj->getPointPlacement());
 
         $obj->setPointPlacement("between");
         $this->assertEquals("between", $obj->getPointPlacement());
@@ -824,7 +824,7 @@ class HighchartsWaterfallTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsWaterfall();
 
         $obj->setSelected(false);
-        $this->assertEquals(false, $obj->getSelected());
+        $this->assertFalse($obj->getSelected());
     }
 
     /**
@@ -850,7 +850,7 @@ class HighchartsWaterfallTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsWaterfall();
 
         $obj->setShowCheckbox(true);
-        $this->assertEquals(true, $obj->getShowCheckbox());
+        $this->assertTrue($obj->getShowCheckbox());
     }
 
     /**
@@ -863,7 +863,7 @@ class HighchartsWaterfallTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsWaterfall();
 
         $obj->setShowInLegend(true);
-        $this->assertEquals(true, $obj->getShowInLegend());
+        $this->assertTrue($obj->getShowInLegend());
     }
 
     /**
@@ -876,7 +876,7 @@ class HighchartsWaterfallTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsWaterfall();
 
         $obj->setSkipKeyboardNavigation(false);
-        $this->assertEquals(false, $obj->getSkipKeyboardNavigation());
+        $this->assertFalse($obj->getSkipKeyboardNavigation());
     }
 
     /**
@@ -889,7 +889,7 @@ class HighchartsWaterfallTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsWaterfall();
 
         $obj->setSoftThreshold(true);
-        $this->assertEquals(true, $obj->getSoftThreshold());
+        $this->assertTrue($obj->getSoftThreshold());
     }
 
     /**
@@ -931,7 +931,7 @@ class HighchartsWaterfallTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsWaterfall();
 
         $obj->setStickyTracking(false);
-        $this->assertEquals(false, $obj->getStickyTracking());
+        $this->assertFalse($obj->getStickyTracking());
     }
 
     /**
@@ -970,7 +970,7 @@ class HighchartsWaterfallTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsWaterfall();
 
         $obj->setType(null);
-        $this->assertEquals(null, $obj->getType());
+        $this->assertNull($obj->getType());
 
         $obj->setType("area");
         $this->assertEquals("area", $obj->getType());
@@ -1044,7 +1044,7 @@ class HighchartsWaterfallTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsWaterfall();
 
         $obj->setVisible(true);
-        $this->assertEquals(true, $obj->getVisible());
+        $this->assertTrue($obj->getVisible());
     }
 
     /**
@@ -1121,18 +1121,18 @@ class HighchartsWaterfallTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsWaterfall();
 
-        $this->assertEquals(false, $obj->getAllowPointSelect());
-        $this->assertEquals(true, $obj->getAnimation());
+        $this->assertFalse($obj->getAllowPointSelect());
+        $this->assertTrue($obj->getAnimation());
         $this->assertNull($obj->getAnimationLimit());
         $this->assertEquals("#333333", $obj->getBorderColor());
         $this->assertEquals(0, $obj->getBorderRadius());
         $this->assertEquals(1, $obj->getBorderWidth());
         $this->assertNull($obj->getClassName());
         $this->assertNull($obj->getColor());
-        $this->assertEquals(false, $obj->getColorByPoint());
+        $this->assertFalse($obj->getColorByPoint());
         $this->assertNull($obj->getColorIndex());
         $this->assertNull($obj->getColors());
-        $this->assertEquals(true, $obj->getCrisp());
+        $this->assertTrue($obj->getCrisp());
         $this->assertNull($obj->getCursor());
         $this->assertEquals("Dot", $obj->getDashStyle());
         $this->assertNull($obj->getData());
@@ -1141,14 +1141,14 @@ class HighchartsWaterfallTest extends AbstractTestCase {
         $this->assertNull($obj->getDescription());
         $this->assertNull($obj->getEdgeColor());
         $this->assertEquals(1, $obj->getEdgeWidth());
-        $this->assertEquals(true, $obj->getEnableMouseTracking());
+        $this->assertTrue($obj->getEnableMouseTracking());
         $this->assertNull($obj->getEvents());
         $this->assertNull($obj->getExposeElementToA11y());
         $this->assertNull($obj->getFindNearestPointBy());
-        $this->assertEquals(false, $obj->getGetExtremesFromAll());
+        $this->assertFalse($obj->getGetExtremesFromAll());
         $this->assertEquals(0.2, $obj->getGroupPadding());
         $this->assertEquals(1, $obj->getGroupZPadding());
-        $this->assertEquals(true, $obj->getGrouping());
+        $this->assertTrue($obj->getGrouping());
         $this->assertNull($obj->getId());
         $this->assertNull($obj->getIndex());
         $this->assertNull($obj->getKeys());
@@ -1168,20 +1168,20 @@ class HighchartsWaterfallTest extends AbstractTestCase {
         $this->assertNull($obj->getPointRange());
         $this->assertEquals(0, $obj->getPointStart());
         $this->assertNull($obj->getPointWidth());
-        $this->assertEquals(false, $obj->getSelected());
+        $this->assertFalse($obj->getSelected());
         $this->assertEquals("false", $obj->getShadow());
-        $this->assertEquals(false, $obj->getShowCheckbox());
-        $this->assertEquals(true, $obj->getShowInLegend());
+        $this->assertFalse($obj->getShowCheckbox());
+        $this->assertTrue($obj->getShowInLegend());
         $this->assertNull($obj->getSkipKeyboardNavigation());
-        $this->assertEquals(true, $obj->getSoftThreshold());
+        $this->assertTrue($obj->getSoftThreshold());
         $this->assertNull($obj->getStack());
         $this->assertNull($obj->getStates());
-        $this->assertEquals(true, $obj->getStickyTracking());
+        $this->assertTrue($obj->getStickyTracking());
         $this->assertEquals(0, $obj->getThreshold());
         $this->assertNull($obj->getTooltip());
         $this->assertNull($obj->getType());
         $this->assertNull($obj->getUpColor());
-        $this->assertEquals(true, $obj->getVisible());
+        $this->assertTrue($obj->getVisible());
         $this->assertEquals("0", $obj->getXAxis());
         $this->assertEquals("0", $obj->getYAxis());
         $this->assertNull($obj->getZIndex());

@@ -106,7 +106,7 @@ class HighchartsHoverTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Treemap\States\HighchartsHover();
 
         $obj->setEnabled(false);
-        $this->assertEquals(false, $obj->getEnabled());
+        $this->assertFalse($obj->getEnabled());
     }
 
     /**
@@ -135,7 +135,7 @@ class HighchartsHoverTest extends AbstractTestCase {
         $this->assertNull($obj->getBorderColor());
         $this->assertEquals(0.1, $obj->getBrightness());
         $this->assertNull($obj->getColor());
-        $this->assertEquals(true, $obj->getEnabled());
+        $this->assertTrue($obj->getEnabled());
         $this->assertEquals(0.75, $obj->getOpacity());
     }
 }

@@ -170,7 +170,7 @@ class HighchartsAreaTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsArea();
 
         $obj->setAllowPointSelect(true);
-        $this->assertEquals(true, $obj->getAllowPointSelect());
+        $this->assertTrue($obj->getAllowPointSelect());
     }
 
     /**
@@ -183,7 +183,7 @@ class HighchartsAreaTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsArea();
 
         $obj->setAnimation(true);
-        $this->assertEquals(true, $obj->getAnimation());
+        $this->assertTrue($obj->getAnimation());
     }
 
     /**
@@ -248,7 +248,7 @@ class HighchartsAreaTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsArea();
 
         $obj->setConnectEnds(true);
-        $this->assertEquals(true, $obj->getConnectEnds());
+        $this->assertTrue($obj->getConnectEnds());
     }
 
     /**
@@ -261,7 +261,7 @@ class HighchartsAreaTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsArea();
 
         $obj->setConnectNulls(true);
-        $this->assertEquals(true, $obj->getConnectNulls());
+        $this->assertTrue($obj->getConnectNulls());
     }
 
     /**
@@ -287,7 +287,7 @@ class HighchartsAreaTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsArea();
 
         $obj->setCursor(null);
-        $this->assertEquals(null, $obj->getCursor());
+        $this->assertNull($obj->getCursor());
 
         $obj->setCursor("crosshair");
         $this->assertEquals("crosshair", $obj->getCursor());
@@ -387,7 +387,7 @@ class HighchartsAreaTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsArea();
 
         $obj->setEnableMouseTracking(true);
-        $this->assertEquals(true, $obj->getEnableMouseTracking());
+        $this->assertTrue($obj->getEnableMouseTracking());
     }
 
     /**
@@ -416,7 +416,7 @@ class HighchartsAreaTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsArea();
 
         $obj->setExposeElementToA11y(false);
-        $this->assertEquals(false, $obj->getExposeElementToA11y());
+        $this->assertFalse($obj->getExposeElementToA11y());
     }
 
     /**
@@ -471,7 +471,7 @@ class HighchartsAreaTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsArea();
 
         $obj->setGetExtremesFromAll(true);
-        $this->assertEquals(true, $obj->getGetExtremesFromAll());
+        $this->assertTrue($obj->getGetExtremesFromAll());
     }
 
     /**
@@ -636,7 +636,7 @@ class HighchartsAreaTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsArea();
 
         $obj->setPointIntervalUnit(null);
-        $this->assertEquals(null, $obj->getPointIntervalUnit());
+        $this->assertNull($obj->getPointIntervalUnit());
 
         $obj->setPointIntervalUnit("day");
         $this->assertEquals("day", $obj->getPointIntervalUnit());
@@ -658,7 +658,7 @@ class HighchartsAreaTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsArea();
 
         $obj->setPointPlacement(null);
-        $this->assertEquals(null, $obj->getPointPlacement());
+        $this->assertNull($obj->getPointPlacement());
 
         $obj->setPointPlacement("between");
         $this->assertEquals("between", $obj->getPointPlacement());
@@ -690,7 +690,7 @@ class HighchartsAreaTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsArea();
 
         $obj->setSelected(false);
-        $this->assertEquals(false, $obj->getSelected());
+        $this->assertFalse($obj->getSelected());
     }
 
     /**
@@ -716,7 +716,7 @@ class HighchartsAreaTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsArea();
 
         $obj->setShowCheckbox(false);
-        $this->assertEquals(false, $obj->getShowCheckbox());
+        $this->assertFalse($obj->getShowCheckbox());
     }
 
     /**
@@ -729,7 +729,7 @@ class HighchartsAreaTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsArea();
 
         $obj->setShowInLegend(true);
-        $this->assertEquals(true, $obj->getShowInLegend());
+        $this->assertTrue($obj->getShowInLegend());
     }
 
     /**
@@ -742,7 +742,7 @@ class HighchartsAreaTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsArea();
 
         $obj->setSkipKeyboardNavigation(true);
-        $this->assertEquals(true, $obj->getSkipKeyboardNavigation());
+        $this->assertTrue($obj->getSkipKeyboardNavigation());
     }
 
     /**
@@ -755,7 +755,7 @@ class HighchartsAreaTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsArea();
 
         $obj->setSoftThreshold(false);
-        $this->assertEquals(false, $obj->getSoftThreshold());
+        $this->assertFalse($obj->getSoftThreshold());
     }
 
     /**
@@ -768,7 +768,7 @@ class HighchartsAreaTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsArea();
 
         $obj->setStacking(null);
-        $this->assertEquals(null, $obj->getStacking());
+        $this->assertNull($obj->getStacking());
 
         $obj->setStacking("normal");
         $this->assertEquals("normal", $obj->getStacking());
@@ -822,7 +822,7 @@ class HighchartsAreaTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsArea();
 
         $obj->setStickyTracking(false);
-        $this->assertEquals(false, $obj->getStickyTracking());
+        $this->assertFalse($obj->getStickyTracking());
     }
 
     /**
@@ -861,7 +861,7 @@ class HighchartsAreaTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsArea();
 
         $obj->setTrackByArea(false);
-        $this->assertEquals(false, $obj->getTrackByArea());
+        $this->assertFalse($obj->getTrackByArea());
     }
 
     /**
@@ -887,7 +887,7 @@ class HighchartsAreaTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsArea();
 
         $obj->setVisible(false);
-        $this->assertEquals(false, $obj->getVisible());
+        $this->assertFalse($obj->getVisible());
     }
 
     /**
@@ -925,26 +925,26 @@ class HighchartsAreaTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsArea();
 
-        $this->assertEquals(false, $obj->getAllowPointSelect());
-        $this->assertEquals(true, $obj->getAnimation());
+        $this->assertFalse($obj->getAllowPointSelect());
+        $this->assertTrue($obj->getAnimation());
         $this->assertNull($obj->getAnimationLimit());
         $this->assertNull($obj->getClassName());
         $this->assertNull($obj->getColor());
         $this->assertNull($obj->getColorIndex());
-        $this->assertEquals(true, $obj->getConnectEnds());
-        $this->assertEquals(false, $obj->getConnectNulls());
+        $this->assertTrue($obj->getConnectEnds());
+        $this->assertFalse($obj->getConnectNulls());
         $this->assertEquals(300, $obj->getCropThreshold());
         $this->assertNull($obj->getCursor());
         $this->assertEquals("Solid", $obj->getDashStyle());
         $this->assertNull($obj->getDataLabels());
         $this->assertNull($obj->getDescription());
-        $this->assertEquals(true, $obj->getEnableMouseTracking());
+        $this->assertTrue($obj->getEnableMouseTracking());
         $this->assertNull($obj->getEvents());
         $this->assertNull($obj->getExposeElementToA11y());
         $this->assertNull($obj->getFillColor());
         $this->assertEquals(0.75, $obj->getFillOpacity());
         $this->assertNull($obj->getFindNearestPointBy());
-        $this->assertEquals(false, $obj->getGetExtremesFromAll());
+        $this->assertFalse($obj->getGetExtremesFromAll());
         $this->assertNull($obj->getKeys());
         $this->assertNull($obj->getLineColor());
         $this->assertEquals(2, $obj->getLineWidth());
@@ -959,21 +959,21 @@ class HighchartsAreaTest extends AbstractTestCase {
         $this->assertNull($obj->getPointIntervalUnit());
         $this->assertNull($obj->getPointPlacement());
         $this->assertEquals(0, $obj->getPointStart());
-        $this->assertEquals(false, $obj->getSelected());
+        $this->assertFalse($obj->getSelected());
         $this->assertEquals("false", $obj->getShadow());
-        $this->assertEquals(false, $obj->getShowCheckbox());
-        $this->assertEquals(true, $obj->getShowInLegend());
+        $this->assertFalse($obj->getShowCheckbox());
+        $this->assertTrue($obj->getShowInLegend());
         $this->assertNull($obj->getSkipKeyboardNavigation());
-        $this->assertEquals(false, $obj->getSoftThreshold());
+        $this->assertFalse($obj->getSoftThreshold());
         $this->assertNull($obj->getStacking());
         $this->assertNull($obj->getStates());
         $this->assertEquals("false", $obj->getStep());
-        $this->assertEquals(true, $obj->getStickyTracking());
+        $this->assertTrue($obj->getStickyTracking());
         $this->assertEquals(0, $obj->getThreshold());
         $this->assertNull($obj->getTooltip());
-        $this->assertEquals(false, $obj->getTrackByArea());
+        $this->assertFalse($obj->getTrackByArea());
         $this->assertEquals(1000, $obj->getTurboThreshold());
-        $this->assertEquals(true, $obj->getVisible());
+        $this->assertTrue($obj->getVisible());
         $this->assertEquals("y", $obj->getZoneAxis());
         $this->assertNull($obj->getZones());
     }

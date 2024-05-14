@@ -185,7 +185,7 @@ class HighchartsDataTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Waterfall\HighchartsData();
 
         $obj->setIntermediateSum(false);
-        $this->assertEquals(false, $obj->getIntermediateSum());
+        $this->assertFalse($obj->getIntermediateSum());
     }
 
     /**
@@ -198,7 +198,7 @@ class HighchartsDataTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Waterfall\HighchartsData();
 
         $obj->setSum(true);
-        $this->assertEquals(true, $obj->getSum());
+        $this->assertTrue($obj->getSum());
     }
 
     /**
@@ -237,7 +237,7 @@ class HighchartsDataTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Waterfall\HighchartsData();
 
         $obj->setSelected(true);
-        $this->assertEquals(true, $obj->getSelected());
+        $this->assertTrue($obj->getSelected());
     }
 
     /**
@@ -283,11 +283,11 @@ class HighchartsDataTest extends AbstractTestCase {
         $this->assertNull($obj->getDrilldown());
         $this->assertNull($obj->getEvents());
         $this->assertNull($obj->getId());
-        $this->assertEquals(false, $obj->getIntermediateSum());
-        $this->assertEquals(false, $obj->getSum());
+        $this->assertFalse($obj->getIntermediateSum());
+        $this->assertFalse($obj->getSum());
         $this->assertNull($obj->getLabelrank());
         $this->assertNull($obj->getName());
-        $this->assertEquals(false, $obj->getSelected());
+        $this->assertFalse($obj->getSelected());
         $this->assertNull($obj->getX());
         $this->assertNull($obj->getY());
     }

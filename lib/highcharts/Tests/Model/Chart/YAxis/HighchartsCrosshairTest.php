@@ -123,7 +123,7 @@ class HighchartsCrosshairTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\YAxis\HighchartsCrosshair();
 
         $obj->setSnap(true);
-        $this->assertEquals(true, $obj->getSnap());
+        $this->assertTrue($obj->getSnap());
     }
 
     /**
@@ -164,7 +164,7 @@ class HighchartsCrosshairTest extends AbstractTestCase {
         $this->assertNull($obj->getClassName());
         $this->assertNull($obj->getColor());
         $this->assertEquals("Solid", $obj->getDashStyle());
-        $this->assertEquals(true, $obj->getSnap());
+        $this->assertTrue($obj->getSnap());
         $this->assertNull($obj->getWidth());
         $this->assertEquals(2, $obj->getZIndex());
     }

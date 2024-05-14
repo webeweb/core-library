@@ -157,7 +157,7 @@ class HighchartsPolygonTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsPolygon();
 
         $obj->setAllowPointSelect(false);
-        $this->assertEquals(false, $obj->getAllowPointSelect());
+        $this->assertFalse($obj->getAllowPointSelect());
     }
 
     /**
@@ -170,7 +170,7 @@ class HighchartsPolygonTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsPolygon();
 
         $obj->setAnimation(true);
-        $this->assertEquals(true, $obj->getAnimation());
+        $this->assertTrue($obj->getAnimation());
     }
 
     /**
@@ -248,7 +248,7 @@ class HighchartsPolygonTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsPolygon();
 
         $obj->setCursor(null);
-        $this->assertEquals(null, $obj->getCursor());
+        $this->assertNull($obj->getCursor());
 
         $obj->setCursor("crosshair");
         $this->assertEquals("crosshair", $obj->getCursor());
@@ -348,7 +348,7 @@ class HighchartsPolygonTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsPolygon();
 
         $obj->setEnableMouseTracking(false);
-        $this->assertEquals(false, $obj->getEnableMouseTracking());
+        $this->assertFalse($obj->getEnableMouseTracking());
     }
 
     /**
@@ -377,7 +377,7 @@ class HighchartsPolygonTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsPolygon();
 
         $obj->setExposeElementToA11y(true);
-        $this->assertEquals(true, $obj->getExposeElementToA11y());
+        $this->assertTrue($obj->getExposeElementToA11y());
     }
 
     /**
@@ -406,7 +406,7 @@ class HighchartsPolygonTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsPolygon();
 
         $obj->setGetExtremesFromAll(true);
-        $this->assertEquals(true, $obj->getGetExtremesFromAll());
+        $this->assertTrue($obj->getGetExtremesFromAll());
     }
 
     /**
@@ -529,7 +529,7 @@ class HighchartsPolygonTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsPolygon();
 
         $obj->setPointIntervalUnit(null);
-        $this->assertEquals(null, $obj->getPointIntervalUnit());
+        $this->assertNull($obj->getPointIntervalUnit());
 
         $obj->setPointIntervalUnit("day");
         $this->assertEquals("day", $obj->getPointIntervalUnit());
@@ -564,7 +564,7 @@ class HighchartsPolygonTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsPolygon();
 
         $obj->setSelected(true);
-        $this->assertEquals(true, $obj->getSelected());
+        $this->assertTrue($obj->getSelected());
     }
 
     /**
@@ -590,7 +590,7 @@ class HighchartsPolygonTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsPolygon();
 
         $obj->setShowCheckbox(true);
-        $this->assertEquals(true, $obj->getShowCheckbox());
+        $this->assertTrue($obj->getShowCheckbox());
     }
 
     /**
@@ -603,7 +603,7 @@ class HighchartsPolygonTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsPolygon();
 
         $obj->setShowInLegend(false);
-        $this->assertEquals(false, $obj->getShowInLegend());
+        $this->assertFalse($obj->getShowInLegend());
     }
 
     /**
@@ -616,7 +616,7 @@ class HighchartsPolygonTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsPolygon();
 
         $obj->setSkipKeyboardNavigation(false);
-        $this->assertEquals(false, $obj->getSkipKeyboardNavigation());
+        $this->assertFalse($obj->getSkipKeyboardNavigation());
     }
 
     /**
@@ -645,7 +645,7 @@ class HighchartsPolygonTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsPolygon();
 
         $obj->setStickyTracking(false);
-        $this->assertEquals(false, $obj->getStickyTracking());
+        $this->assertFalse($obj->getStickyTracking());
     }
 
     /**
@@ -684,7 +684,7 @@ class HighchartsPolygonTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsPolygon();
 
         $obj->setVisible(true);
-        $this->assertEquals(true, $obj->getVisible());
+        $this->assertTrue($obj->getVisible());
     }
 
     /**
@@ -722,8 +722,8 @@ class HighchartsPolygonTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsPolygon();
 
-        $this->assertEquals(false, $obj->getAllowPointSelect());
-        $this->assertEquals(true, $obj->getAnimation());
+        $this->assertFalse($obj->getAllowPointSelect());
+        $this->assertTrue($obj->getAnimation());
         $this->assertNull($obj->getAnimationLimit());
         $this->assertNull($obj->getClassName());
         $this->assertNull($obj->getColor());
@@ -733,11 +733,11 @@ class HighchartsPolygonTest extends AbstractTestCase {
         $this->assertEquals("Solid", $obj->getDashStyle());
         $this->assertNull($obj->getDataLabels());
         $this->assertNull($obj->getDescription());
-        $this->assertEquals(true, $obj->getEnableMouseTracking());
+        $this->assertTrue($obj->getEnableMouseTracking());
         $this->assertNull($obj->getEvents());
         $this->assertNull($obj->getExposeElementToA11y());
         $this->assertNull($obj->getFindNearestPointBy());
-        $this->assertEquals(false, $obj->getGetExtremesFromAll());
+        $this->assertFalse($obj->getGetExtremesFromAll());
         $this->assertNull($obj->getKeys());
         $this->assertEquals(0, $obj->getLineWidth());
         $this->assertNull($obj->getLinkedTo());
@@ -748,16 +748,16 @@ class HighchartsPolygonTest extends AbstractTestCase {
         $this->assertEquals(1, $obj->getPointInterval());
         $this->assertNull($obj->getPointIntervalUnit());
         $this->assertEquals(0, $obj->getPointStart());
-        $this->assertEquals(false, $obj->getSelected());
+        $this->assertFalse($obj->getSelected());
         $this->assertEquals("false", $obj->getShadow());
-        $this->assertEquals(false, $obj->getShowCheckbox());
-        $this->assertEquals(true, $obj->getShowInLegend());
+        $this->assertFalse($obj->getShowCheckbox());
+        $this->assertTrue($obj->getShowInLegend());
         $this->assertNull($obj->getSkipKeyboardNavigation());
         $this->assertNull($obj->getStates());
-        $this->assertEquals(false, $obj->getStickyTracking());
+        $this->assertFalse($obj->getStickyTracking());
         $this->assertNull($obj->getTooltip());
         $this->assertEquals(1000, $obj->getTurboThreshold());
-        $this->assertEquals(true, $obj->getVisible());
+        $this->assertTrue($obj->getVisible());
         $this->assertEquals("y", $obj->getZoneAxis());
         $this->assertNull($obj->getZones());
     }

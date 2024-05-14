@@ -77,7 +77,7 @@ class HighchartsTooltipTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsTooltip();
 
         $obj->setAnimation(true);
-        $this->assertEquals(true, $obj->getAnimation());
+        $this->assertTrue($obj->getAnimation());
     }
 
     /**
@@ -168,7 +168,7 @@ class HighchartsTooltipTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsTooltip();
 
         $obj->setEnabled(true);
-        $this->assertEquals(true, $obj->getEnabled());
+        $this->assertTrue($obj->getEnabled());
     }
 
     /**
@@ -181,7 +181,7 @@ class HighchartsTooltipTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsTooltip();
 
         $obj->setFollowPointer(false);
-        $this->assertEquals(false, $obj->getFollowPointer());
+        $this->assertFalse($obj->getFollowPointer());
     }
 
     /**
@@ -194,7 +194,7 @@ class HighchartsTooltipTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsTooltip();
 
         $obj->setFollowTouchMove(true);
-        $this->assertEquals(true, $obj->getFollowTouchMove());
+        $this->assertTrue($obj->getFollowTouchMove());
     }
 
     /**
@@ -311,7 +311,7 @@ class HighchartsTooltipTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsTooltip();
 
         $obj->setShadow(true);
-        $this->assertEquals(true, $obj->getShadow());
+        $this->assertTrue($obj->getShadow());
     }
 
     /**
@@ -337,7 +337,7 @@ class HighchartsTooltipTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsTooltip();
 
         $obj->setShared(false);
-        $this->assertEquals(false, $obj->getShared());
+        $this->assertFalse($obj->getShared());
     }
 
     /**
@@ -363,7 +363,7 @@ class HighchartsTooltipTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsTooltip();
 
         $obj->setSplit(false);
-        $this->assertEquals(false, $obj->getSplit());
+        $this->assertFalse($obj->getSplit());
     }
 
     /**
@@ -389,7 +389,7 @@ class HighchartsTooltipTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsTooltip();
 
         $obj->setUseHTML(false);
-        $this->assertEquals(false, $obj->getUseHTML());
+        $this->assertFalse($obj->getUseHTML());
     }
 
     /**
@@ -453,16 +453,16 @@ class HighchartsTooltipTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsTooltip();
 
-        $this->assertEquals(true, $obj->getAnimation());
+        $this->assertTrue($obj->getAnimation());
         $this->assertEquals("rgba(247,247,247,0.85)", $obj->getBackgroundColor());
         $this->assertNull($obj->getBorderColor());
         $this->assertEquals(3, $obj->getBorderRadius());
         $this->assertEquals(1, $obj->getBorderWidth());
         $this->assertNull($obj->getCrosshairs());
         $this->assertNull($obj->getDateTimeLabelFormats());
-        $this->assertEquals(true, $obj->getEnabled());
-        $this->assertEquals(false, $obj->getFollowPointer());
-        $this->assertEquals(true, $obj->getFollowTouchMove());
+        $this->assertTrue($obj->getEnabled());
+        $this->assertFalse($obj->getFollowPointer());
+        $this->assertTrue($obj->getFollowTouchMove());
         $this->assertEquals("false", $obj->getFooterFormat());
         $this->assertNull($obj->getFormatter());
         $this->assertNull($obj->getHeaderFormat());
@@ -471,13 +471,13 @@ class HighchartsTooltipTest extends AbstractTestCase {
         $this->assertEquals("<span style=\"color:{point.color}\">\\u25CF</span> {series.name}: <b>{point.y}</b><br/>", $obj->getPointFormat());
         $this->assertNull($obj->getPointFormatter());
         $this->assertNull($obj->getPositioner());
-        $this->assertEquals(true, $obj->getShadow());
+        $this->assertTrue($obj->getShadow());
         $this->assertEquals("callout", $obj->getShape());
-        $this->assertEquals(false, $obj->getShared());
+        $this->assertFalse($obj->getShared());
         $this->assertNull($obj->getSnap());
-        $this->assertEquals(false, $obj->getSplit());
+        $this->assertFalse($obj->getSplit());
         $this->assertEquals(["color" => "#333333", "cursor" => "default", "fontSize" => "12px", "pointerEvents" => "none", "whiteSpace" => "nowrap"], $obj->getStyle());
-        $this->assertEquals(false, $obj->getUseHTML());
+        $this->assertFalse($obj->getUseHTML());
         $this->assertNull($obj->getValueDecimals());
         $this->assertNull($obj->getValuePrefix());
         $this->assertNull($obj->getValueSuffix());

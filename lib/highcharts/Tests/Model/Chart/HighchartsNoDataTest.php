@@ -91,7 +91,7 @@ class HighchartsNoDataTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsNoData();
 
         $obj->setUseHTML(true);
-        $this->assertEquals(true, $obj->getUseHTML());
+        $this->assertTrue($obj->getUseHTML());
     }
 
     /**
@@ -106,6 +106,6 @@ class HighchartsNoDataTest extends AbstractTestCase {
         $this->assertNull($obj->getAttr());
         $this->assertEquals(["x" => 0, "y" => 0, "align" => "center", "verticalAlign" => "middle"], $obj->getPosition());
         $this->assertEquals(["fontSize" => "12px", "fontWeight" => "bold", "color" => "#666666"], $obj->getStyle());
-        $this->assertEquals(false, $obj->getUseHTML());
+        $this->assertFalse($obj->getUseHTML());
     }
 }

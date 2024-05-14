@@ -164,7 +164,7 @@ class HighchartsSplineTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsSpline();
 
         $obj->setAllowPointSelect(true);
-        $this->assertEquals(true, $obj->getAllowPointSelect());
+        $this->assertTrue($obj->getAllowPointSelect());
     }
 
     /**
@@ -177,7 +177,7 @@ class HighchartsSplineTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsSpline();
 
         $obj->setAnimation(false);
-        $this->assertEquals(false, $obj->getAnimation());
+        $this->assertFalse($obj->getAnimation());
     }
 
     /**
@@ -242,7 +242,7 @@ class HighchartsSplineTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsSpline();
 
         $obj->setConnectEnds(true);
-        $this->assertEquals(true, $obj->getConnectEnds());
+        $this->assertTrue($obj->getConnectEnds());
     }
 
     /**
@@ -255,7 +255,7 @@ class HighchartsSplineTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsSpline();
 
         $obj->setConnectNulls(true);
-        $this->assertEquals(true, $obj->getConnectNulls());
+        $this->assertTrue($obj->getConnectNulls());
     }
 
     /**
@@ -281,7 +281,7 @@ class HighchartsSplineTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsSpline();
 
         $obj->setCursor(null);
-        $this->assertEquals(null, $obj->getCursor());
+        $this->assertNull($obj->getCursor());
 
         $obj->setCursor("crosshair");
         $this->assertEquals("crosshair", $obj->getCursor());
@@ -381,7 +381,7 @@ class HighchartsSplineTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsSpline();
 
         $obj->setEnableMouseTracking(true);
-        $this->assertEquals(true, $obj->getEnableMouseTracking());
+        $this->assertTrue($obj->getEnableMouseTracking());
     }
 
     /**
@@ -410,7 +410,7 @@ class HighchartsSplineTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsSpline();
 
         $obj->setExposeElementToA11y(true);
-        $this->assertEquals(true, $obj->getExposeElementToA11y());
+        $this->assertTrue($obj->getExposeElementToA11y());
     }
 
     /**
@@ -439,7 +439,7 @@ class HighchartsSplineTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsSpline();
 
         $obj->setGetExtremesFromAll(true);
-        $this->assertEquals(true, $obj->getGetExtremesFromAll());
+        $this->assertTrue($obj->getGetExtremesFromAll());
     }
 
     /**
@@ -578,7 +578,7 @@ class HighchartsSplineTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsSpline();
 
         $obj->setPointIntervalUnit(null);
-        $this->assertEquals(null, $obj->getPointIntervalUnit());
+        $this->assertNull($obj->getPointIntervalUnit());
 
         $obj->setPointIntervalUnit("day");
         $this->assertEquals("day", $obj->getPointIntervalUnit());
@@ -600,7 +600,7 @@ class HighchartsSplineTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsSpline();
 
         $obj->setPointPlacement(null);
-        $this->assertEquals(null, $obj->getPointPlacement());
+        $this->assertNull($obj->getPointPlacement());
 
         $obj->setPointPlacement("between");
         $this->assertEquals("between", $obj->getPointPlacement());
@@ -632,7 +632,7 @@ class HighchartsSplineTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsSpline();
 
         $obj->setSelected(true);
-        $this->assertEquals(true, $obj->getSelected());
+        $this->assertTrue($obj->getSelected());
     }
 
     /**
@@ -658,7 +658,7 @@ class HighchartsSplineTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsSpline();
 
         $obj->setShowCheckbox(true);
-        $this->assertEquals(true, $obj->getShowCheckbox());
+        $this->assertTrue($obj->getShowCheckbox());
     }
 
     /**
@@ -671,7 +671,7 @@ class HighchartsSplineTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsSpline();
 
         $obj->setShowInLegend(true);
-        $this->assertEquals(true, $obj->getShowInLegend());
+        $this->assertTrue($obj->getShowInLegend());
     }
 
     /**
@@ -684,7 +684,7 @@ class HighchartsSplineTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsSpline();
 
         $obj->setSkipKeyboardNavigation(true);
-        $this->assertEquals(true, $obj->getSkipKeyboardNavigation());
+        $this->assertTrue($obj->getSkipKeyboardNavigation());
     }
 
     /**
@@ -697,7 +697,7 @@ class HighchartsSplineTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsSpline();
 
         $obj->setSoftThreshold(true);
-        $this->assertEquals(true, $obj->getSoftThreshold());
+        $this->assertTrue($obj->getSoftThreshold());
     }
 
     /**
@@ -710,7 +710,7 @@ class HighchartsSplineTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsSpline();
 
         $obj->setStacking(null);
-        $this->assertEquals(null, $obj->getStacking());
+        $this->assertNull($obj->getStacking());
 
         $obj->setStacking("normal");
         $this->assertEquals("normal", $obj->getStacking());
@@ -745,7 +745,7 @@ class HighchartsSplineTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsSpline();
 
         $obj->setStickyTracking(false);
-        $this->assertEquals(false, $obj->getStickyTracking());
+        $this->assertFalse($obj->getStickyTracking());
     }
 
     /**
@@ -797,7 +797,7 @@ class HighchartsSplineTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsSpline();
 
         $obj->setVisible(true);
-        $this->assertEquals(true, $obj->getVisible());
+        $this->assertTrue($obj->getVisible());
     }
 
     /**
@@ -835,24 +835,24 @@ class HighchartsSplineTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsSpline();
 
-        $this->assertEquals(false, $obj->getAllowPointSelect());
-        $this->assertEquals(true, $obj->getAnimation());
+        $this->assertFalse($obj->getAllowPointSelect());
+        $this->assertTrue($obj->getAnimation());
         $this->assertNull($obj->getAnimationLimit());
         $this->assertNull($obj->getClassName());
         $this->assertNull($obj->getColor());
         $this->assertNull($obj->getColorIndex());
-        $this->assertEquals(true, $obj->getConnectEnds());
-        $this->assertEquals(false, $obj->getConnectNulls());
+        $this->assertTrue($obj->getConnectEnds());
+        $this->assertFalse($obj->getConnectNulls());
         $this->assertEquals(300, $obj->getCropThreshold());
         $this->assertNull($obj->getCursor());
         $this->assertEquals("Solid", $obj->getDashStyle());
         $this->assertNull($obj->getDataLabels());
         $this->assertNull($obj->getDescription());
-        $this->assertEquals(true, $obj->getEnableMouseTracking());
+        $this->assertTrue($obj->getEnableMouseTracking());
         $this->assertNull($obj->getEvents());
         $this->assertNull($obj->getExposeElementToA11y());
         $this->assertNull($obj->getFindNearestPointBy());
-        $this->assertEquals(false, $obj->getGetExtremesFromAll());
+        $this->assertFalse($obj->getGetExtremesFromAll());
         $this->assertNull($obj->getKeys());
         $this->assertEquals(2, $obj->getLineWidth());
         $this->assertEquals("round", $obj->getLinecap());
@@ -865,19 +865,19 @@ class HighchartsSplineTest extends AbstractTestCase {
         $this->assertNull($obj->getPointIntervalUnit());
         $this->assertNull($obj->getPointPlacement());
         $this->assertEquals(0, $obj->getPointStart());
-        $this->assertEquals(false, $obj->getSelected());
+        $this->assertFalse($obj->getSelected());
         $this->assertEquals("false", $obj->getShadow());
-        $this->assertEquals(false, $obj->getShowCheckbox());
-        $this->assertEquals(true, $obj->getShowInLegend());
+        $this->assertFalse($obj->getShowCheckbox());
+        $this->assertTrue($obj->getShowInLegend());
         $this->assertNull($obj->getSkipKeyboardNavigation());
-        $this->assertEquals(true, $obj->getSoftThreshold());
+        $this->assertTrue($obj->getSoftThreshold());
         $this->assertNull($obj->getStacking());
         $this->assertNull($obj->getStates());
-        $this->assertEquals(true, $obj->getStickyTracking());
+        $this->assertTrue($obj->getStickyTracking());
         $this->assertEquals(0, $obj->getThreshold());
         $this->assertNull($obj->getTooltip());
         $this->assertEquals(1000, $obj->getTurboThreshold());
-        $this->assertEquals(true, $obj->getVisible());
+        $this->assertTrue($obj->getVisible());
         $this->assertEquals("y", $obj->getZoneAxis());
         $this->assertNull($obj->getZones());
     }

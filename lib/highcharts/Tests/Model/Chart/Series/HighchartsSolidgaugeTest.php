@@ -113,7 +113,7 @@ class HighchartsSolidgaugeTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsSolidgauge();
 
         $obj->setAnimation(true);
-        $this->assertEquals(true, $obj->getAnimation());
+        $this->assertTrue($obj->getAnimation());
     }
 
     /**
@@ -165,7 +165,7 @@ class HighchartsSolidgaugeTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsSolidgauge();
 
         $obj->setCursor(null);
-        $this->assertEquals(null, $obj->getCursor());
+        $this->assertNull($obj->getCursor());
 
         $obj->setCursor("crosshair");
         $this->assertEquals("crosshair", $obj->getCursor());
@@ -232,7 +232,7 @@ class HighchartsSolidgaugeTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsSolidgauge();
 
         $obj->setEnableMouseTracking(true);
-        $this->assertEquals(true, $obj->getEnableMouseTracking());
+        $this->assertTrue($obj->getEnableMouseTracking());
     }
 
     /**
@@ -261,7 +261,7 @@ class HighchartsSolidgaugeTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsSolidgauge();
 
         $obj->setExposeElementToA11y(false);
-        $this->assertEquals(false, $obj->getExposeElementToA11y());
+        $this->assertFalse($obj->getExposeElementToA11y());
     }
 
     /**
@@ -290,7 +290,7 @@ class HighchartsSolidgaugeTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsSolidgauge();
 
         $obj->setGetExtremesFromAll(false);
-        $this->assertEquals(false, $obj->getGetExtremesFromAll());
+        $this->assertFalse($obj->getGetExtremesFromAll());
     }
 
     /**
@@ -426,10 +426,10 @@ class HighchartsSolidgaugeTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsSolidgauge();
 
         $obj->setRounded(false);
-        $this->assertEquals(false, $obj->getRounded());
+        $this->assertFalse($obj->getRounded());
 
         $obj->setRounded(true);
-        $this->assertEquals(true, $obj->getRounded());
+        $this->assertTrue($obj->getRounded());
     }
 
     /**
@@ -442,7 +442,7 @@ class HighchartsSolidgaugeTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsSolidgauge();
 
         $obj->setSelected(true);
-        $this->assertEquals(true, $obj->getSelected());
+        $this->assertTrue($obj->getSelected());
     }
 
     /**
@@ -455,7 +455,7 @@ class HighchartsSolidgaugeTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsSolidgauge();
 
         $obj->setShowCheckbox(false);
-        $this->assertEquals(false, $obj->getShowCheckbox());
+        $this->assertFalse($obj->getShowCheckbox());
     }
 
     /**
@@ -468,7 +468,7 @@ class HighchartsSolidgaugeTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsSolidgauge();
 
         $obj->setShowInLegend(false);
-        $this->assertEquals(false, $obj->getShowInLegend());
+        $this->assertFalse($obj->getShowInLegend());
     }
 
     /**
@@ -481,7 +481,7 @@ class HighchartsSolidgaugeTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsSolidgauge();
 
         $obj->setSkipKeyboardNavigation(false);
-        $this->assertEquals(false, $obj->getSkipKeyboardNavigation());
+        $this->assertFalse($obj->getSkipKeyboardNavigation());
     }
 
     /**
@@ -494,7 +494,7 @@ class HighchartsSolidgaugeTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsSolidgauge();
 
         $obj->setStickyTracking(false);
-        $this->assertEquals(false, $obj->getStickyTracking());
+        $this->assertFalse($obj->getStickyTracking());
     }
 
     /**
@@ -533,7 +533,7 @@ class HighchartsSolidgaugeTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsSolidgauge();
 
         $obj->setType(null);
-        $this->assertEquals(null, $obj->getType());
+        $this->assertNull($obj->getType());
 
         $obj->setType("area");
         $this->assertEquals("area", $obj->getType());
@@ -594,7 +594,7 @@ class HighchartsSolidgaugeTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsSolidgauge();
 
         $obj->setVisible(true);
-        $this->assertEquals(true, $obj->getVisible());
+        $this->assertTrue($obj->getVisible());
     }
 
     /**
@@ -607,7 +607,7 @@ class HighchartsSolidgaugeTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsSolidgauge();
 
         $obj->setWrap(true);
-        $this->assertEquals(true, $obj->getWrap());
+        $this->assertTrue($obj->getWrap());
     }
 
     /**
@@ -658,7 +658,7 @@ class HighchartsSolidgaugeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsSolidgauge();
 
-        $this->assertEquals(true, $obj->getAnimation());
+        $this->assertTrue($obj->getAnimation());
         $this->assertNull($obj->getAnimationLimit());
         $this->assertNull($obj->getClassName());
         $this->assertNull($obj->getColorIndex());
@@ -666,11 +666,11 @@ class HighchartsSolidgaugeTest extends AbstractTestCase {
         $this->assertNull($obj->getData());
         $this->assertNull($obj->getDataLabels());
         $this->assertNull($obj->getDescription());
-        $this->assertEquals(true, $obj->getEnableMouseTracking());
+        $this->assertTrue($obj->getEnableMouseTracking());
         $this->assertNull($obj->getEvents());
         $this->assertNull($obj->getExposeElementToA11y());
         $this->assertNull($obj->getFindNearestPointBy());
-        $this->assertEquals(false, $obj->getGetExtremesFromAll());
+        $this->assertFalse($obj->getGetExtremesFromAll());
         $this->assertNull($obj->getId());
         $this->assertNull($obj->getIndex());
         $this->assertNull($obj->getKeys());
@@ -680,17 +680,17 @@ class HighchartsSolidgaugeTest extends AbstractTestCase {
         $this->assertEquals(0, $obj->getOvershoot());
         $this->assertNull($obj->getPoint());
         $this->assertNull($obj->getPointDescriptionFormatter());
-        $this->assertEquals(false, $obj->getRounded());
-        $this->assertEquals(false, $obj->getSelected());
-        $this->assertEquals(false, $obj->getShowCheckbox());
+        $this->assertFalse($obj->getRounded());
+        $this->assertFalse($obj->getSelected());
+        $this->assertFalse($obj->getShowCheckbox());
         $this->assertNull($obj->getShowInLegend());
         $this->assertNull($obj->getSkipKeyboardNavigation());
-        $this->assertEquals(true, $obj->getStickyTracking());
+        $this->assertTrue($obj->getStickyTracking());
         $this->assertNull($obj->getThreshold());
         $this->assertNull($obj->getTooltip());
         $this->assertNull($obj->getType());
-        $this->assertEquals(true, $obj->getVisible());
-        $this->assertEquals(true, $obj->getWrap());
+        $this->assertTrue($obj->getVisible());
+        $this->assertTrue($obj->getWrap());
         $this->assertEquals("0", $obj->getXAxis());
         $this->assertEquals("0", $obj->getYAxis());
         $this->assertNull($obj->getZIndex());

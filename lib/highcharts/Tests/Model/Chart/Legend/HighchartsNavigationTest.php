@@ -93,7 +93,7 @@ class HighchartsNavigationTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Legend\HighchartsNavigation();
 
         $obj->setEnabled(false);
-        $this->assertEquals(false, $obj->getEnabled());
+        $this->assertFalse($obj->getEnabled());
     }
 
     /**
@@ -134,7 +134,7 @@ class HighchartsNavigationTest extends AbstractTestCase {
         $this->assertEquals("#003399", $obj->getActiveColor());
         $this->assertEquals("true", $obj->getAnimation());
         $this->assertEquals(12, $obj->getArrowSize());
-        $this->assertEquals(true, $obj->getEnabled());
+        $this->assertTrue($obj->getEnabled());
         $this->assertEquals("#cccccc", $obj->getInactiveColor());
         $this->assertNull($obj->getStyle());
     }

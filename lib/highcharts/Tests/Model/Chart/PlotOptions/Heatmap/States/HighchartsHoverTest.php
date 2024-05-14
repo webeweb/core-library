@@ -82,7 +82,7 @@ class HighchartsHoverTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Heatmap\States\HighchartsHover();
 
         $obj->setEnabled(false);
-        $this->assertEquals(false, $obj->getEnabled());
+        $this->assertFalse($obj->getEnabled());
     }
 
     /**
@@ -150,7 +150,7 @@ class HighchartsHoverTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Heatmap\States\HighchartsHover();
 
         $this->assertEquals("{ \"duration\": 50 }", $obj->getAnimation());
-        $this->assertEquals(true, $obj->getEnabled());
+        $this->assertTrue($obj->getEnabled());
         $this->assertNull($obj->getHalo());
         $this->assertEquals(2, $obj->getLineWidth());
         $this->assertEquals(1, $obj->getLineWidthPlus());

@@ -222,7 +222,7 @@ class HighchartsDataTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Funnel\HighchartsData();
 
         $obj->setSelected(true);
-        $this->assertEquals(true, $obj->getSelected());
+        $this->assertTrue($obj->getSelected());
     }
 
     /**
@@ -258,7 +258,7 @@ class HighchartsDataTest extends AbstractTestCase {
         $this->assertNull($obj->getLabelrank());
         $this->assertNull($obj->getLegendIndex());
         $this->assertNull($obj->getName());
-        $this->assertEquals(false, $obj->getSelected());
+        $this->assertFalse($obj->getSelected());
         $this->assertNull($obj->getY());
     }
 }

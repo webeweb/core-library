@@ -223,7 +223,7 @@ class HighchartsDataTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Pie\HighchartsData();
 
         $obj->setSelected(true);
-        $this->assertEquals(true, $obj->getSelected());
+        $this->assertTrue($obj->getSelected());
     }
 
     /**
@@ -236,7 +236,7 @@ class HighchartsDataTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Pie\HighchartsData();
 
         $obj->setSliced(true);
-        $this->assertEquals(true, $obj->getSliced());
+        $this->assertTrue($obj->getSliced());
     }
 
     /**
@@ -272,8 +272,8 @@ class HighchartsDataTest extends AbstractTestCase {
         $this->assertNull($obj->getLabelrank());
         $this->assertNull($obj->getLegendIndex());
         $this->assertNull($obj->getName());
-        $this->assertEquals(false, $obj->getSelected());
-        $this->assertEquals(false, $obj->getSliced());
+        $this->assertFalse($obj->getSelected());
+        $this->assertFalse($obj->getSliced());
         $this->assertNull($obj->getY());
     }
 }

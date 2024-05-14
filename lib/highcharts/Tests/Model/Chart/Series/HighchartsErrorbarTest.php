@@ -148,7 +148,7 @@ class HighchartsErrorbarTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsErrorbar();
 
         $obj->setAllowPointSelect(true);
-        $this->assertEquals(true, $obj->getAllowPointSelect());
+        $this->assertTrue($obj->getAllowPointSelect());
     }
 
     /**
@@ -200,7 +200,7 @@ class HighchartsErrorbarTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsErrorbar();
 
         $obj->setColorByPoint(true);
-        $this->assertEquals(true, $obj->getColorByPoint());
+        $this->assertTrue($obj->getColorByPoint());
     }
 
     /**
@@ -239,7 +239,7 @@ class HighchartsErrorbarTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsErrorbar();
 
         $obj->setCrisp(true);
-        $this->assertEquals(true, $obj->getCrisp());
+        $this->assertTrue($obj->getCrisp());
     }
 
     /**
@@ -252,7 +252,7 @@ class HighchartsErrorbarTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsErrorbar();
 
         $obj->setCursor(null);
-        $this->assertEquals(null, $obj->getCursor());
+        $this->assertNull($obj->getCursor());
 
         $obj->setCursor("crosshair");
         $this->assertEquals("crosshair", $obj->getCursor());
@@ -345,7 +345,7 @@ class HighchartsErrorbarTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsErrorbar();
 
         $obj->setEnableMouseTracking(false);
-        $this->assertEquals(false, $obj->getEnableMouseTracking());
+        $this->assertFalse($obj->getEnableMouseTracking());
     }
 
     /**
@@ -374,7 +374,7 @@ class HighchartsErrorbarTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsErrorbar();
 
         $obj->setExposeElementToA11y(false);
-        $this->assertEquals(false, $obj->getExposeElementToA11y());
+        $this->assertFalse($obj->getExposeElementToA11y());
     }
 
     /**
@@ -403,7 +403,7 @@ class HighchartsErrorbarTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsErrorbar();
 
         $obj->setGetExtremesFromAll(true);
-        $this->assertEquals(true, $obj->getGetExtremesFromAll());
+        $this->assertTrue($obj->getGetExtremesFromAll());
     }
 
     /**
@@ -588,7 +588,7 @@ class HighchartsErrorbarTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsErrorbar();
 
         $obj->setPointIntervalUnit(null);
-        $this->assertEquals(null, $obj->getPointIntervalUnit());
+        $this->assertNull($obj->getPointIntervalUnit());
 
         $obj->setPointIntervalUnit("day");
         $this->assertEquals("day", $obj->getPointIntervalUnit());
@@ -623,7 +623,7 @@ class HighchartsErrorbarTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsErrorbar();
 
         $obj->setPointPlacement(null);
-        $this->assertEquals(null, $obj->getPointPlacement());
+        $this->assertNull($obj->getPointPlacement());
 
         $obj->setPointPlacement("between");
         $this->assertEquals("between", $obj->getPointPlacement());
@@ -681,7 +681,7 @@ class HighchartsErrorbarTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsErrorbar();
 
         $obj->setSelected(false);
-        $this->assertEquals(false, $obj->getSelected());
+        $this->assertFalse($obj->getSelected());
     }
 
     /**
@@ -694,7 +694,7 @@ class HighchartsErrorbarTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsErrorbar();
 
         $obj->setSkipKeyboardNavigation(true);
-        $this->assertEquals(true, $obj->getSkipKeyboardNavigation());
+        $this->assertTrue($obj->getSkipKeyboardNavigation());
     }
 
     /**
@@ -792,7 +792,7 @@ class HighchartsErrorbarTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsErrorbar();
 
         $obj->setStickyTracking(true);
-        $this->assertEquals(true, $obj->getStickyTracking());
+        $this->assertTrue($obj->getStickyTracking());
     }
 
     /**
@@ -831,7 +831,7 @@ class HighchartsErrorbarTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsErrorbar();
 
         $obj->setType(null);
-        $this->assertEquals(null, $obj->getType());
+        $this->assertNull($obj->getType());
 
         $obj->setType("area");
         $this->assertEquals("area", $obj->getType());
@@ -892,7 +892,7 @@ class HighchartsErrorbarTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsErrorbar();
 
         $obj->setVisible(false);
-        $this->assertEquals(false, $obj->getVisible());
+        $this->assertFalse($obj->getVisible());
     }
 
     /**
@@ -1008,25 +1008,25 @@ class HighchartsErrorbarTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsErrorbar();
 
-        $this->assertEquals(false, $obj->getAllowPointSelect());
+        $this->assertFalse($obj->getAllowPointSelect());
         $this->assertNull($obj->getAnimationLimit());
         $this->assertNull($obj->getClassName());
         $this->assertEquals("#000000", $obj->getColor());
-        $this->assertEquals(false, $obj->getColorByPoint());
+        $this->assertFalse($obj->getColorByPoint());
         $this->assertNull($obj->getColorIndex());
         $this->assertNull($obj->getColors());
-        $this->assertEquals(true, $obj->getCrisp());
+        $this->assertTrue($obj->getCrisp());
         $this->assertNull($obj->getCursor());
         $this->assertNull($obj->getData());
         $this->assertEquals(25, $obj->getDepth());
         $this->assertNull($obj->getDescription());
         $this->assertNull($obj->getEdgeColor());
         $this->assertEquals(1, $obj->getEdgeWidth());
-        $this->assertEquals(true, $obj->getEnableMouseTracking());
+        $this->assertTrue($obj->getEnableMouseTracking());
         $this->assertNull($obj->getEvents());
         $this->assertNull($obj->getExposeElementToA11y());
         $this->assertNull($obj->getFindNearestPointBy());
-        $this->assertEquals(false, $obj->getGetExtremesFromAll());
+        $this->assertFalse($obj->getGetExtremesFromAll());
         $this->assertEquals(1, $obj->getGroupZPadding());
         $this->assertNull($obj->getId());
         $this->assertNull($obj->getIndex());
@@ -1046,17 +1046,17 @@ class HighchartsErrorbarTest extends AbstractTestCase {
         $this->assertNull($obj->getPointRange());
         $this->assertEquals(0, $obj->getPointStart());
         $this->assertNull($obj->getPointWidth());
-        $this->assertEquals(false, $obj->getSelected());
+        $this->assertFalse($obj->getSelected());
         $this->assertNull($obj->getSkipKeyboardNavigation());
         $this->assertNull($obj->getStates());
         $this->assertNull($obj->getStemColor());
         $this->assertEquals("Solid", $obj->getStemDashStyle());
         $this->assertNull($obj->getStemWidth());
-        $this->assertEquals(true, $obj->getStickyTracking());
+        $this->assertTrue($obj->getStickyTracking());
         $this->assertNull($obj->getTooltip());
         $this->assertEquals(1000, $obj->getTurboThreshold());
         $this->assertNull($obj->getType());
-        $this->assertEquals(true, $obj->getVisible());
+        $this->assertTrue($obj->getVisible());
         $this->assertNull($obj->getWhiskerColor());
         $this->assertEquals("50%", $obj->getWhiskerLength());
         $this->assertNull($obj->getWhiskerWidth());

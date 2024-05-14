@@ -84,7 +84,7 @@ class HighchartsOptions3dTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Chart\HighchartsOptions3d();
 
         $obj->setAxisLabelPosition(null);
-        $this->assertEquals(null, $obj->getAxisLabelPosition());
+        $this->assertNull($obj->getAxisLabelPosition());
 
         $obj->setAxisLabelPosition("auto");
         $this->assertEquals("auto", $obj->getAxisLabelPosition());
@@ -126,7 +126,7 @@ class HighchartsOptions3dTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Chart\HighchartsOptions3d();
 
         $obj->setEnabled(true);
-        $this->assertEquals(true, $obj->getEnabled());
+        $this->assertTrue($obj->getEnabled());
     }
 
     /**
@@ -139,7 +139,7 @@ class HighchartsOptions3dTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Chart\HighchartsOptions3d();
 
         $obj->setFitToPlot(true);
-        $this->assertEquals(true, $obj->getFitToPlot());
+        $this->assertTrue($obj->getFitToPlot());
     }
 
     /**
@@ -184,8 +184,8 @@ class HighchartsOptions3dTest extends AbstractTestCase {
         $this->assertNull($obj->getAxisLabelPosition());
         $this->assertEquals(0, $obj->getBeta());
         $this->assertEquals(100, $obj->getDepth());
-        $this->assertEquals(false, $obj->getEnabled());
-        $this->assertEquals(true, $obj->getFitToPlot());
+        $this->assertFalse($obj->getEnabled());
+        $this->assertTrue($obj->getFitToPlot());
         $this->assertNull($obj->getFrame());
         $this->assertEquals(100, $obj->getViewDistance());
     }

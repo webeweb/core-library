@@ -72,7 +72,7 @@ class HighchartsMarkerTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Polygon\Data\HighchartsMarker();
 
         $obj->setEnabled(false);
-        $this->assertEquals(false, $obj->getEnabled());
+        $this->assertFalse($obj->getEnabled());
     }
 
     /**
@@ -166,7 +166,7 @@ class HighchartsMarkerTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Polygon\Data\HighchartsMarker();
 
         $obj->setSymbol(null);
-        $this->assertEquals(null, $obj->getSymbol());
+        $this->assertNull($obj->getSymbol());
 
         $obj->setSymbol("circle");
         $this->assertEquals("circle", $obj->getSymbol());

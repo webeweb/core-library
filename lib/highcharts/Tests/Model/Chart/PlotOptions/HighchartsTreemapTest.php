@@ -166,10 +166,10 @@ class HighchartsTreemapTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsTreemap();
 
         $obj->setAllowDrillToNode(false);
-        $this->assertEquals(false, $obj->getAllowDrillToNode());
+        $this->assertFalse($obj->getAllowDrillToNode());
 
         $obj->setAllowDrillToNode(true);
-        $this->assertEquals(true, $obj->getAllowDrillToNode());
+        $this->assertTrue($obj->getAllowDrillToNode());
     }
 
     /**
@@ -182,7 +182,7 @@ class HighchartsTreemapTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsTreemap();
 
         $obj->setAllowPointSelect(true);
-        $this->assertEquals(true, $obj->getAllowPointSelect());
+        $this->assertTrue($obj->getAllowPointSelect());
     }
 
     /**
@@ -195,7 +195,7 @@ class HighchartsTreemapTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsTreemap();
 
         $obj->setAlternateStartingDirection(false);
-        $this->assertEquals(false, $obj->getAlternateStartingDirection());
+        $this->assertFalse($obj->getAlternateStartingDirection());
     }
 
     /**
@@ -208,7 +208,7 @@ class HighchartsTreemapTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsTreemap();
 
         $obj->setAnimation(false);
-        $this->assertEquals(false, $obj->getAnimation());
+        $this->assertFalse($obj->getAnimation());
     }
 
     /**
@@ -286,7 +286,7 @@ class HighchartsTreemapTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsTreemap();
 
         $obj->setColorByPoint(true);
-        $this->assertEquals(true, $obj->getColorByPoint());
+        $this->assertTrue($obj->getColorByPoint());
     }
 
     /**
@@ -325,7 +325,7 @@ class HighchartsTreemapTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsTreemap();
 
         $obj->setCrisp(false);
-        $this->assertEquals(false, $obj->getCrisp());
+        $this->assertFalse($obj->getCrisp());
     }
 
     /**
@@ -351,7 +351,7 @@ class HighchartsTreemapTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsTreemap();
 
         $obj->setCursor(null);
-        $this->assertEquals(null, $obj->getCursor());
+        $this->assertNull($obj->getCursor());
 
         $obj->setCursor("crosshair");
         $this->assertEquals("crosshair", $obj->getCursor());
@@ -408,7 +408,7 @@ class HighchartsTreemapTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsTreemap();
 
         $obj->setEnableMouseTracking(true);
-        $this->assertEquals(true, $obj->getEnableMouseTracking());
+        $this->assertTrue($obj->getEnableMouseTracking());
     }
 
     /**
@@ -437,7 +437,7 @@ class HighchartsTreemapTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsTreemap();
 
         $obj->setExposeElementToA11y(true);
-        $this->assertEquals(true, $obj->getExposeElementToA11y());
+        $this->assertTrue($obj->getExposeElementToA11y());
     }
 
     /**
@@ -466,7 +466,7 @@ class HighchartsTreemapTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsTreemap();
 
         $obj->setGetExtremesFromAll(false);
-        $this->assertEquals(false, $obj->getGetExtremesFromAll());
+        $this->assertFalse($obj->getGetExtremesFromAll());
     }
 
     /**
@@ -479,7 +479,7 @@ class HighchartsTreemapTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsTreemap();
 
         $obj->setIgnoreHiddenPoint(false);
-        $this->assertEquals(false, $obj->getIgnoreHiddenPoint());
+        $this->assertFalse($obj->getIgnoreHiddenPoint());
     }
 
     /**
@@ -492,10 +492,10 @@ class HighchartsTreemapTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsTreemap();
 
         $obj->setInteractByLeaf(false);
-        $this->assertEquals(false, $obj->getInteractByLeaf());
+        $this->assertFalse($obj->getInteractByLeaf());
 
         $obj->setInteractByLeaf(true);
-        $this->assertEquals(true, $obj->getInteractByLeaf());
+        $this->assertTrue($obj->getInteractByLeaf());
     }
 
     /**
@@ -559,10 +559,10 @@ class HighchartsTreemapTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsTreemap();
 
         $obj->setLevelIsConstant(false);
-        $this->assertEquals(false, $obj->getLevelIsConstant());
+        $this->assertFalse($obj->getLevelIsConstant());
 
         $obj->setLevelIsConstant(true);
-        $this->assertEquals(true, $obj->getLevelIsConstant());
+        $this->assertTrue($obj->getLevelIsConstant());
     }
 
     /**
@@ -656,7 +656,7 @@ class HighchartsTreemapTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsTreemap();
 
         $obj->setSelected(true);
-        $this->assertEquals(true, $obj->getSelected());
+        $this->assertTrue($obj->getSelected());
     }
 
     /**
@@ -682,7 +682,7 @@ class HighchartsTreemapTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsTreemap();
 
         $obj->setShowCheckbox(false);
-        $this->assertEquals(false, $obj->getShowCheckbox());
+        $this->assertFalse($obj->getShowCheckbox());
     }
 
     /**
@@ -695,7 +695,7 @@ class HighchartsTreemapTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsTreemap();
 
         $obj->setShowInLegend(false);
-        $this->assertEquals(false, $obj->getShowInLegend());
+        $this->assertFalse($obj->getShowInLegend());
     }
 
     /**
@@ -708,7 +708,7 @@ class HighchartsTreemapTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsTreemap();
 
         $obj->setSkipKeyboardNavigation(true);
-        $this->assertEquals(true, $obj->getSkipKeyboardNavigation());
+        $this->assertTrue($obj->getSkipKeyboardNavigation());
     }
 
     /**
@@ -750,7 +750,7 @@ class HighchartsTreemapTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsTreemap();
 
         $obj->setStickyTracking(false);
-        $this->assertEquals(false, $obj->getStickyTracking());
+        $this->assertFalse($obj->getStickyTracking());
     }
 
     /**
@@ -792,7 +792,7 @@ class HighchartsTreemapTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsTreemap();
 
         $obj->setVisible(false);
-        $this->assertEquals(false, $obj->getVisible());
+        $this->assertFalse($obj->getVisible());
     }
 
     /**
@@ -830,51 +830,51 @@ class HighchartsTreemapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsTreemap();
 
-        $this->assertEquals(false, $obj->getAllowDrillToNode());
-        $this->assertEquals(false, $obj->getAllowPointSelect());
-        $this->assertEquals(false, $obj->getAlternateStartingDirection());
-        $this->assertEquals(true, $obj->getAnimation());
+        $this->assertFalse($obj->getAllowDrillToNode());
+        $this->assertFalse($obj->getAllowPointSelect());
+        $this->assertFalse($obj->getAlternateStartingDirection());
+        $this->assertTrue($obj->getAnimation());
         $this->assertNull($obj->getAnimationLimit());
         $this->assertEquals("#e6e6e6", $obj->getBorderColor());
         $this->assertEquals(1, $obj->getBorderWidth());
         $this->assertNull($obj->getClassName());
         $this->assertNull($obj->getColor());
-        $this->assertEquals(false, $obj->getColorByPoint());
+        $this->assertFalse($obj->getColorByPoint());
         $this->assertNull($obj->getColorIndex());
         $this->assertNull($obj->getColors());
-        $this->assertEquals(true, $obj->getCrisp());
+        $this->assertTrue($obj->getCrisp());
         $this->assertEquals(300, $obj->getCropThreshold());
         $this->assertNull($obj->getCursor());
         $this->assertNull($obj->getDataLabels());
         $this->assertNull($obj->getDescription());
-        $this->assertEquals(true, $obj->getEnableMouseTracking());
+        $this->assertTrue($obj->getEnableMouseTracking());
         $this->assertNull($obj->getEvents());
         $this->assertNull($obj->getExposeElementToA11y());
         $this->assertNull($obj->getFindNearestPointBy());
-        $this->assertEquals(false, $obj->getGetExtremesFromAll());
-        $this->assertEquals(true, $obj->getIgnoreHiddenPoint());
+        $this->assertFalse($obj->getGetExtremesFromAll());
+        $this->assertTrue($obj->getIgnoreHiddenPoint());
         $this->assertNull($obj->getInteractByLeaf());
         $this->assertNull($obj->getKeys());
         $this->assertEquals("sliceAndDice", $obj->getLayoutAlgorithm());
         $this->assertEquals("vertical", $obj->getLayoutStartingDirection());
-        $this->assertEquals(true, $obj->getLevelIsConstant());
+        $this->assertTrue($obj->getLevelIsConstant());
         $this->assertNull($obj->getLevels());
         $this->assertNull($obj->getLinkedTo());
         $this->assertNull($obj->getMaxPointWidth());
         $this->assertEquals(0.15, $obj->getOpacity());
         $this->assertNull($obj->getPoint());
         $this->assertNull($obj->getPointDescriptionFormatter());
-        $this->assertEquals(false, $obj->getSelected());
+        $this->assertFalse($obj->getSelected());
         $this->assertEquals("false", $obj->getShadow());
-        $this->assertEquals(false, $obj->getShowCheckbox());
-        $this->assertEquals(false, $obj->getShowInLegend());
+        $this->assertFalse($obj->getShowCheckbox());
+        $this->assertFalse($obj->getShowInLegend());
         $this->assertNull($obj->getSkipKeyboardNavigation());
         $this->assertNull($obj->getSortIndex());
         $this->assertNull($obj->getStates());
-        $this->assertEquals(true, $obj->getStickyTracking());
+        $this->assertTrue($obj->getStickyTracking());
         $this->assertNull($obj->getTooltip());
         $this->assertEquals(1000, $obj->getTurboThreshold());
-        $this->assertEquals(true, $obj->getVisible());
+        $this->assertTrue($obj->getVisible());
         $this->assertEquals("y", $obj->getZoneAxis());
         $this->assertNull($obj->getZones());
     }

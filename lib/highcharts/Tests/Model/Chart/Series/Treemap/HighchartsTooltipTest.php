@@ -75,7 +75,7 @@ class HighchartsTooltipTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Treemap\HighchartsTooltip();
 
         $obj->setFollowPointer(false);
-        $this->assertEquals(false, $obj->getFollowPointer());
+        $this->assertFalse($obj->getFollowPointer());
     }
 
     /**
@@ -88,7 +88,7 @@ class HighchartsTooltipTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Treemap\HighchartsTooltip();
 
         $obj->setFollowTouchMove(false);
-        $this->assertEquals(false, $obj->getFollowTouchMove());
+        $this->assertFalse($obj->getFollowTouchMove());
     }
 
     /**
@@ -179,7 +179,7 @@ class HighchartsTooltipTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Treemap\HighchartsTooltip();
 
         $obj->setSplit(false);
-        $this->assertEquals(false, $obj->getSplit());
+        $this->assertFalse($obj->getSplit());
     }
 
     /**
@@ -244,15 +244,15 @@ class HighchartsTooltipTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Treemap\HighchartsTooltip();
 
         $this->assertNull($obj->getDateTimeLabelFormats());
-        $this->assertEquals(false, $obj->getFollowPointer());
-        $this->assertEquals(true, $obj->getFollowTouchMove());
+        $this->assertFalse($obj->getFollowPointer());
+        $this->assertTrue($obj->getFollowTouchMove());
         $this->assertEquals("false", $obj->getFooterFormat());
         $this->assertEquals("\"\"", $obj->getHeaderFormat());
         $this->assertEquals(500, $obj->getHideDelay());
         $this->assertEquals(8, $obj->getPadding());
         $this->assertEquals("\"&#60;b&#62;{point.name}&#60;/b&#62;: {point.value}&#60;/b&#62;&#60;br/&#62;\"", $obj->getPointFormat());
         $this->assertNull($obj->getPointFormatter());
-        $this->assertEquals(false, $obj->getSplit());
+        $this->assertFalse($obj->getSplit());
         $this->assertNull($obj->getValueDecimals());
         $this->assertNull($obj->getValuePrefix());
         $this->assertNull($obj->getValueSuffix());

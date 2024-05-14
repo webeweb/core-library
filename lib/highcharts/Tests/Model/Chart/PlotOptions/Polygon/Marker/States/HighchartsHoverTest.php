@@ -55,7 +55,7 @@ class HighchartsHoverTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Polygon\Marker\States\HighchartsHover();
 
         $obj->setEnabled(false);
-        $this->assertEquals(false, $obj->getEnabled());
+        $this->assertFalse($obj->getEnabled());
     }
 
     /**
@@ -145,7 +145,7 @@ class HighchartsHoverTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Polygon\Marker\States\HighchartsHover();
 
-        $this->assertEquals(true, $obj->getEnabled());
+        $this->assertTrue($obj->getEnabled());
         $this->assertNull($obj->getFillColor());
         $this->assertEquals("#ffffff", $obj->getLineColor());
         $this->assertEquals(0, $obj->getLineWidth());

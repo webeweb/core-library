@@ -80,7 +80,7 @@ class HighchartsExportingTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsExporting();
 
         $obj->setAllowHTML(false);
-        $this->assertEquals(false, $obj->getAllowHTML());
+        $this->assertFalse($obj->getAllowHTML());
     }
 
     /**
@@ -122,7 +122,7 @@ class HighchartsExportingTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsExporting();
 
         $obj->setEnabled(true);
-        $this->assertEquals(true, $obj->getEnabled());
+        $this->assertTrue($obj->getEnabled());
     }
 
     /**
@@ -148,7 +148,7 @@ class HighchartsExportingTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsExporting();
 
         $obj->setFallbackToExportServer(true);
-        $this->assertEquals(true, $obj->getFallbackToExportServer());
+        $this->assertTrue($obj->getFallbackToExportServer());
     }
 
     /**
@@ -312,12 +312,12 @@ class HighchartsExportingTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsExporting();
 
-        $this->assertEquals(false, $obj->getAllowHTML());
+        $this->assertFalse($obj->getAllowHTML());
         $this->assertNull($obj->getButtons());
         $this->assertNull($obj->getChartOptions());
-        $this->assertEquals(true, $obj->getEnabled());
+        $this->assertTrue($obj->getEnabled());
         $this->assertNull($obj->getError());
-        $this->assertEquals(true, $obj->getFallbackToExportServer());
+        $this->assertTrue($obj->getFallbackToExportServer());
         $this->assertEquals("chart", $obj->getFilename());
         $this->assertNull($obj->getFormAttributes());
         $this->assertEquals("https://code.highcharts.com/{version}/lib", $obj->getLibURL());

@@ -152,7 +152,7 @@ class HighchartsBubbleTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBubble();
 
         $obj->setAllowPointSelect(false);
-        $this->assertEquals(false, $obj->getAllowPointSelect());
+        $this->assertFalse($obj->getAllowPointSelect());
     }
 
     /**
@@ -165,7 +165,7 @@ class HighchartsBubbleTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBubble();
 
         $obj->setAnimation(false);
-        $this->assertEquals(false, $obj->getAnimation());
+        $this->assertFalse($obj->getAnimation());
     }
 
     /**
@@ -243,7 +243,7 @@ class HighchartsBubbleTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBubble();
 
         $obj->setCursor(null);
-        $this->assertEquals(null, $obj->getCursor());
+        $this->assertNull($obj->getCursor());
 
         $obj->setCursor("crosshair");
         $this->assertEquals("crosshair", $obj->getCursor());
@@ -343,7 +343,7 @@ class HighchartsBubbleTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBubble();
 
         $obj->setDisplayNegative(true);
-        $this->assertEquals(true, $obj->getDisplayNegative());
+        $this->assertTrue($obj->getDisplayNegative());
     }
 
     /**
@@ -356,7 +356,7 @@ class HighchartsBubbleTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBubble();
 
         $obj->setEnableMouseTracking(true);
-        $this->assertEquals(true, $obj->getEnableMouseTracking());
+        $this->assertTrue($obj->getEnableMouseTracking());
     }
 
     /**
@@ -385,7 +385,7 @@ class HighchartsBubbleTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBubble();
 
         $obj->setExposeElementToA11y(true);
-        $this->assertEquals(true, $obj->getExposeElementToA11y());
+        $this->assertTrue($obj->getExposeElementToA11y());
     }
 
     /**
@@ -414,7 +414,7 @@ class HighchartsBubbleTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBubble();
 
         $obj->setGetExtremesFromAll(true);
-        $this->assertEquals(true, $obj->getGetExtremesFromAll());
+        $this->assertTrue($obj->getGetExtremesFromAll());
     }
 
     /**
@@ -560,7 +560,7 @@ class HighchartsBubbleTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBubble();
 
         $obj->setPointIntervalUnit(null);
-        $this->assertEquals(null, $obj->getPointIntervalUnit());
+        $this->assertNull($obj->getPointIntervalUnit());
 
         $obj->setPointIntervalUnit("day");
         $this->assertEquals("day", $obj->getPointIntervalUnit());
@@ -595,7 +595,7 @@ class HighchartsBubbleTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBubble();
 
         $obj->setSelected(false);
-        $this->assertEquals(false, $obj->getSelected());
+        $this->assertFalse($obj->getSelected());
     }
 
     /**
@@ -621,7 +621,7 @@ class HighchartsBubbleTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBubble();
 
         $obj->setShowCheckbox(false);
-        $this->assertEquals(false, $obj->getShowCheckbox());
+        $this->assertFalse($obj->getShowCheckbox());
     }
 
     /**
@@ -634,7 +634,7 @@ class HighchartsBubbleTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBubble();
 
         $obj->setShowInLegend(true);
-        $this->assertEquals(true, $obj->getShowInLegend());
+        $this->assertTrue($obj->getShowInLegend());
     }
 
     /**
@@ -663,7 +663,7 @@ class HighchartsBubbleTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBubble();
 
         $obj->setSizeByAbsoluteValue(true);
-        $this->assertEquals(true, $obj->getSizeByAbsoluteValue());
+        $this->assertTrue($obj->getSizeByAbsoluteValue());
     }
 
     /**
@@ -676,7 +676,7 @@ class HighchartsBubbleTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBubble();
 
         $obj->setSkipKeyboardNavigation(true);
-        $this->assertEquals(true, $obj->getSkipKeyboardNavigation());
+        $this->assertTrue($obj->getSkipKeyboardNavigation());
     }
 
     /**
@@ -689,7 +689,7 @@ class HighchartsBubbleTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBubble();
 
         $obj->setSoftThreshold(true);
-        $this->assertEquals(true, $obj->getSoftThreshold());
+        $this->assertTrue($obj->getSoftThreshold());
     }
 
     /**
@@ -718,7 +718,7 @@ class HighchartsBubbleTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBubble();
 
         $obj->setStickyTracking(false);
-        $this->assertEquals(false, $obj->getStickyTracking());
+        $this->assertFalse($obj->getStickyTracking());
     }
 
     /**
@@ -757,7 +757,7 @@ class HighchartsBubbleTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBubble();
 
         $obj->setVisible(true);
-        $this->assertEquals(true, $obj->getVisible());
+        $this->assertTrue($obj->getVisible());
     }
 
     /**
@@ -834,8 +834,8 @@ class HighchartsBubbleTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBubble();
 
-        $this->assertEquals(false, $obj->getAllowPointSelect());
-        $this->assertEquals(true, $obj->getAnimation());
+        $this->assertFalse($obj->getAllowPointSelect());
+        $this->assertTrue($obj->getAnimation());
         $this->assertNull($obj->getAnimationLimit());
         $this->assertNull($obj->getClassName());
         $this->assertNull($obj->getColor());
@@ -845,12 +845,12 @@ class HighchartsBubbleTest extends AbstractTestCase {
         $this->assertEquals("Solid", $obj->getDashStyle());
         $this->assertNull($obj->getDataLabels());
         $this->assertNull($obj->getDescription());
-        $this->assertEquals(true, $obj->getDisplayNegative());
-        $this->assertEquals(true, $obj->getEnableMouseTracking());
+        $this->assertTrue($obj->getDisplayNegative());
+        $this->assertTrue($obj->getEnableMouseTracking());
         $this->assertNull($obj->getEvents());
         $this->assertNull($obj->getExposeElementToA11y());
         $this->assertNull($obj->getFindNearestPointBy());
-        $this->assertEquals(false, $obj->getGetExtremesFromAll());
+        $this->assertFalse($obj->getGetExtremesFromAll());
         $this->assertNull($obj->getKeys());
         $this->assertEquals(0, $obj->getLineWidth());
         $this->assertNull($obj->getLinkedTo());
@@ -863,19 +863,19 @@ class HighchartsBubbleTest extends AbstractTestCase {
         $this->assertEquals(1, $obj->getPointInterval());
         $this->assertNull($obj->getPointIntervalUnit());
         $this->assertEquals(0, $obj->getPointStart());
-        $this->assertEquals(false, $obj->getSelected());
+        $this->assertFalse($obj->getSelected());
         $this->assertEquals("false", $obj->getShadow());
-        $this->assertEquals(false, $obj->getShowCheckbox());
-        $this->assertEquals(true, $obj->getShowInLegend());
+        $this->assertFalse($obj->getShowCheckbox());
+        $this->assertTrue($obj->getShowInLegend());
         $this->assertEquals("area", $obj->getSizeBy());
-        $this->assertEquals(false, $obj->getSizeByAbsoluteValue());
+        $this->assertFalse($obj->getSizeByAbsoluteValue());
         $this->assertNull($obj->getSkipKeyboardNavigation());
-        $this->assertEquals(false, $obj->getSoftThreshold());
+        $this->assertFalse($obj->getSoftThreshold());
         $this->assertNull($obj->getStates());
-        $this->assertEquals(false, $obj->getStickyTracking());
+        $this->assertFalse($obj->getStickyTracking());
         $this->assertEquals(0, $obj->getThreshold());
         $this->assertNull($obj->getTooltip());
-        $this->assertEquals(true, $obj->getVisible());
+        $this->assertTrue($obj->getVisible());
         $this->assertNull($obj->getZMax());
         $this->assertNull($obj->getZMin());
         $this->assertEquals(0, $obj->getZThreshold());

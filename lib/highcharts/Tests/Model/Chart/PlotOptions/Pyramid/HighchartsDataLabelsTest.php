@@ -193,7 +193,7 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Pyramid\HighchartsDataLabels();
 
         $obj->setCrop(true);
-        $this->assertEquals(true, $obj->getCrop());
+        $this->assertTrue($obj->getCrop());
     }
 
     /**
@@ -206,7 +206,7 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Pyramid\HighchartsDataLabels();
 
         $obj->setDefer(false);
-        $this->assertEquals(false, $obj->getDefer());
+        $this->assertFalse($obj->getDefer());
     }
 
     /**
@@ -232,7 +232,7 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Pyramid\HighchartsDataLabels();
 
         $obj->setEnabled(false);
-        $this->assertEquals(false, $obj->getEnabled());
+        $this->assertFalse($obj->getEnabled());
     }
 
     /**
@@ -271,7 +271,7 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Pyramid\HighchartsDataLabels();
 
         $obj->setInside(false);
-        $this->assertEquals(false, $obj->getInside());
+        $this->assertFalse($obj->getInside());
     }
 
     /**
@@ -352,7 +352,7 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Pyramid\HighchartsDataLabels();
 
         $obj->setSoftConnector(false);
-        $this->assertEquals(false, $obj->getSoftConnector());
+        $this->assertFalse($obj->getSoftConnector());
     }
 
     /**
@@ -378,7 +378,7 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Pyramid\HighchartsDataLabels();
 
         $obj->setUseHTML(true);
-        $this->assertEquals(true, $obj->getUseHTML());
+        $this->assertTrue($obj->getUseHTML());
     }
 
     /**
@@ -457,10 +457,10 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
         $this->assertEquals("{point.color}", $obj->getConnectorColor());
         $this->assertEquals(5, $obj->getConnectorPadding());
         $this->assertEquals(1, $obj->getConnectorWidth());
-        $this->assertEquals(true, $obj->getCrop());
-        $this->assertEquals(true, $obj->getDefer());
+        $this->assertTrue($obj->getCrop());
+        $this->assertTrue($obj->getDefer());
         $this->assertEquals(30, $obj->getDistance());
-        $this->assertEquals(true, $obj->getEnabled());
+        $this->assertTrue($obj->getEnabled());
         $this->assertEquals("{y}", $obj->getFormat());
         $this->assertNull($obj->getFormatter());
         $this->assertNull($obj->getInside());
@@ -469,9 +469,9 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
         $this->assertEquals(0, $obj->getRotation());
         $this->assertEquals("false", $obj->getShadow());
         $this->assertEquals("square", $obj->getShape());
-        $this->assertEquals(true, $obj->getSoftConnector());
+        $this->assertTrue($obj->getSoftConnector());
         $this->assertEquals(["color" => "contrast", "fontSize" => "11px", "fontWeight" => "bold", "textOutline" => "1px contrast"], $obj->getStyle());
-        $this->assertEquals(false, $obj->getUseHTML());
+        $this->assertFalse($obj->getUseHTML());
         $this->assertNull($obj->getVerticalAlign());
         $this->assertEquals(0, $obj->getX());
         $this->assertEquals(-6, $obj->getY());

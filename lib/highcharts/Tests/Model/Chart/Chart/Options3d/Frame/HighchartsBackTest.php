@@ -77,10 +77,10 @@ class HighchartsBackTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Chart\Options3d\Frame\HighchartsBack();
 
         $obj->setVisible(false);
-        $this->assertEquals(false, $obj->getVisible());
+        $this->assertFalse($obj->getVisible());
 
         $obj->setVisible(true);
-        $this->assertEquals(true, $obj->getVisible());
+        $this->assertTrue($obj->getVisible());
 
         $obj->setVisible("auto");
         $this->assertEquals("auto", $obj->getVisible());

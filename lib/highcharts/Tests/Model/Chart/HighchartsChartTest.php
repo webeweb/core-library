@@ -136,7 +136,7 @@ class HighchartsChartTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsChart();
 
         $obj->setAlignTicks(true);
-        $this->assertEquals(true, $obj->getAlignTicks());
+        $this->assertTrue($obj->getAlignTicks());
     }
 
     /**
@@ -310,7 +310,7 @@ class HighchartsChartTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsChart();
 
         $obj->setIgnoreHiddenSeries(false);
-        $this->assertEquals(false, $obj->getIgnoreHiddenSeries());
+        $this->assertFalse($obj->getIgnoreHiddenSeries());
     }
 
     /**
@@ -323,7 +323,7 @@ class HighchartsChartTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsChart();
 
         $obj->setInverted(true);
-        $this->assertEquals(true, $obj->getInverted());
+        $this->assertTrue($obj->getInverted());
     }
 
     /**
@@ -417,7 +417,7 @@ class HighchartsChartTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsChart();
 
         $obj->setPanKey(null);
-        $this->assertEquals(null, $obj->getPanKey());
+        $this->assertNull($obj->getPanKey());
 
         $obj->setPanKey("alt");
         $this->assertEquals("alt", $obj->getPanKey());
@@ -442,7 +442,7 @@ class HighchartsChartTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsChart();
 
         $obj->setPanning(false);
-        $this->assertEquals(false, $obj->getPanning());
+        $this->assertFalse($obj->getPanning());
     }
 
     /**
@@ -539,7 +539,7 @@ class HighchartsChartTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsChart();
 
         $obj->setPolar(false);
-        $this->assertEquals(false, $obj->getPolar());
+        $this->assertFalse($obj->getPolar());
     }
 
     /**
@@ -552,7 +552,7 @@ class HighchartsChartTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsChart();
 
         $obj->setReflow(false);
-        $this->assertEquals(false, $obj->getReflow());
+        $this->assertFalse($obj->getReflow());
     }
 
     /**
@@ -620,7 +620,7 @@ class HighchartsChartTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsChart();
 
         $obj->setShowAxes(true);
-        $this->assertEquals(true, $obj->getShowAxes());
+        $this->assertTrue($obj->getShowAxes());
     }
 
     /**
@@ -813,7 +813,7 @@ class HighchartsChartTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsChart();
 
         $obj->setZoomType(null);
-        $this->assertEquals(null, $obj->getZoomType());
+        $this->assertNull($obj->getZoomType());
 
         $obj->setZoomType("x");
         $this->assertEquals("x", $obj->getZoomType());
@@ -834,7 +834,7 @@ class HighchartsChartTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsChart();
 
-        $this->assertEquals(true, $obj->getAlignTicks());
+        $this->assertTrue($obj->getAlignTicks());
         $this->assertEquals("true", $obj->getAnimation());
         $this->assertEquals("#FFFFFF", $obj->getBackgroundColor());
         $this->assertEquals("#335cad", $obj->getBorderColor());
@@ -846,8 +846,8 @@ class HighchartsChartTest extends AbstractTestCase {
         $this->assertNull($obj->getDescription());
         $this->assertNull($obj->getEvents());
         $this->assertNull($obj->getHeight());
-        $this->assertEquals(true, $obj->getIgnoreHiddenSeries());
-        $this->assertEquals(false, $obj->getInverted());
+        $this->assertTrue($obj->getIgnoreHiddenSeries());
+        $this->assertFalse($obj->getInverted());
         $this->assertNull($obj->getMargin());
         $this->assertNull($obj->getMarginBottom());
         $this->assertNull($obj->getMarginLeft());
@@ -855,20 +855,20 @@ class HighchartsChartTest extends AbstractTestCase {
         $this->assertNull($obj->getMarginTop());
         $this->assertNull($obj->getOptions3d());
         $this->assertNull($obj->getPanKey());
-        $this->assertEquals(false, $obj->getPanning());
+        $this->assertFalse($obj->getPanning());
         $this->assertNull($obj->getPinchType());
         $this->assertNull($obj->getPlotBackgroundColor());
         $this->assertNull($obj->getPlotBackgroundImage());
         $this->assertEquals("#cccccc", $obj->getPlotBorderColor());
         $this->assertEquals(0, $obj->getPlotBorderWidth());
         $this->assertEquals("false", $obj->getPlotShadow());
-        $this->assertEquals(false, $obj->getPolar());
-        $this->assertEquals(true, $obj->getReflow());
+        $this->assertFalse($obj->getPolar());
+        $this->assertTrue($obj->getReflow());
         $this->assertNull($obj->getRenderTo());
         $this->assertNull($obj->getResetZoomButton());
         $this->assertEquals("rgba(51,92,173,0.25)", $obj->getSelectionMarkerFill());
         $this->assertEquals("false", $obj->getShadow());
-        $this->assertEquals(false, $obj->getShowAxes());
+        $this->assertFalse($obj->getShowAxes());
         $this->assertEquals([10, 10, 15, 10], $obj->getSpacing());
         $this->assertEquals(15, $obj->getSpacingBottom());
         $this->assertEquals(10, $obj->getSpacingLeft());

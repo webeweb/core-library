@@ -222,7 +222,7 @@ class HighchartsDataTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Pyramid\HighchartsData();
 
         $obj->setSelected(false);
-        $this->assertEquals(false, $obj->getSelected());
+        $this->assertFalse($obj->getSelected());
     }
 
     /**
@@ -258,7 +258,7 @@ class HighchartsDataTest extends AbstractTestCase {
         $this->assertNull($obj->getLabelrank());
         $this->assertNull($obj->getLegendIndex());
         $this->assertNull($obj->getName());
-        $this->assertEquals(false, $obj->getSelected());
+        $this->assertFalse($obj->getSelected());
         $this->assertNull($obj->getY());
     }
 }

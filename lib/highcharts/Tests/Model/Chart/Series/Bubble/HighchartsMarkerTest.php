@@ -71,7 +71,7 @@ class HighchartsMarkerTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Bubble\HighchartsMarker();
 
         $obj->setEnabled(true);
-        $this->assertEquals(true, $obj->getEnabled());
+        $this->assertTrue($obj->getEnabled());
     }
 
     /**

@@ -78,7 +78,7 @@ class HighchartsStackLabelsTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\YAxis\HighchartsStackLabels();
 
         $obj->setEnabled(true);
-        $this->assertEquals(true, $obj->getEnabled());
+        $this->assertTrue($obj->getEnabled());
     }
 
     /**
@@ -162,7 +162,7 @@ class HighchartsStackLabelsTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\YAxis\HighchartsStackLabels();
 
         $obj->setUseHTML(true);
-        $this->assertEquals(true, $obj->getUseHTML());
+        $this->assertTrue($obj->getUseHTML());
     }
 
     /**
@@ -220,13 +220,13 @@ class HighchartsStackLabelsTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\YAxis\HighchartsStackLabels();
 
         $this->assertNull($obj->getAlign());
-        $this->assertEquals(false, $obj->getEnabled());
+        $this->assertFalse($obj->getEnabled());
         $this->assertEquals("{total}", $obj->getFormat());
         $this->assertNull($obj->getFormatter());
         $this->assertEquals(0, $obj->getRotation());
         $this->assertEquals(["color" => "#000000", "fontSize" => "11px", "fontWeight" => "bold", "textShadow" => "1px 1px contrast, -1px -1px contrast, -1px 1px contrast, 1px -1px contrast"], $obj->getStyle());
         $this->assertNull($obj->getTextAlign());
-        $this->assertEquals(false, $obj->getUseHTML());
+        $this->assertFalse($obj->getUseHTML());
         $this->assertNull($obj->getVerticalAlign());
         $this->assertNull($obj->getX());
         $this->assertNull($obj->getY());

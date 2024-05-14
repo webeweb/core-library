@@ -155,7 +155,7 @@ class HighchartsBoxplotTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsBoxplot();
 
         $obj->setAllowPointSelect(false);
-        $this->assertEquals(false, $obj->getAllowPointSelect());
+        $this->assertFalse($obj->getAllowPointSelect());
     }
 
     /**
@@ -207,7 +207,7 @@ class HighchartsBoxplotTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsBoxplot();
 
         $obj->setColorByPoint(false);
-        $this->assertEquals(false, $obj->getColorByPoint());
+        $this->assertFalse($obj->getColorByPoint());
     }
 
     /**
@@ -246,7 +246,7 @@ class HighchartsBoxplotTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsBoxplot();
 
         $obj->setCrisp(true);
-        $this->assertEquals(true, $obj->getCrisp());
+        $this->assertTrue($obj->getCrisp());
     }
 
     /**
@@ -259,7 +259,7 @@ class HighchartsBoxplotTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsBoxplot();
 
         $obj->setCursor(null);
-        $this->assertEquals(null, $obj->getCursor());
+        $this->assertNull($obj->getCursor());
 
         $obj->setCursor("crosshair");
         $this->assertEquals("crosshair", $obj->getCursor());
@@ -352,7 +352,7 @@ class HighchartsBoxplotTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsBoxplot();
 
         $obj->setEnableMouseTracking(true);
-        $this->assertEquals(true, $obj->getEnableMouseTracking());
+        $this->assertTrue($obj->getEnableMouseTracking());
     }
 
     /**
@@ -381,7 +381,7 @@ class HighchartsBoxplotTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsBoxplot();
 
         $obj->setExposeElementToA11y(true);
-        $this->assertEquals(true, $obj->getExposeElementToA11y());
+        $this->assertTrue($obj->getExposeElementToA11y());
     }
 
     /**
@@ -423,7 +423,7 @@ class HighchartsBoxplotTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsBoxplot();
 
         $obj->setGetExtremesFromAll(true);
-        $this->assertEquals(true, $obj->getGetExtremesFromAll());
+        $this->assertTrue($obj->getGetExtremesFromAll());
     }
 
     /**
@@ -462,7 +462,7 @@ class HighchartsBoxplotTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsBoxplot();
 
         $obj->setGrouping(false);
-        $this->assertEquals(false, $obj->getGrouping());
+        $this->assertFalse($obj->getGrouping());
     }
 
     /**
@@ -660,7 +660,7 @@ class HighchartsBoxplotTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsBoxplot();
 
         $obj->setPointIntervalUnit(null);
-        $this->assertEquals(null, $obj->getPointIntervalUnit());
+        $this->assertNull($obj->getPointIntervalUnit());
 
         $obj->setPointIntervalUnit("day");
         $this->assertEquals("day", $obj->getPointIntervalUnit());
@@ -695,7 +695,7 @@ class HighchartsBoxplotTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsBoxplot();
 
         $obj->setPointPlacement(null);
-        $this->assertEquals(null, $obj->getPointPlacement());
+        $this->assertNull($obj->getPointPlacement());
 
         $obj->setPointPlacement("between");
         $this->assertEquals("between", $obj->getPointPlacement());
@@ -753,7 +753,7 @@ class HighchartsBoxplotTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsBoxplot();
 
         $obj->setSelected(true);
-        $this->assertEquals(true, $obj->getSelected());
+        $this->assertTrue($obj->getSelected());
     }
 
     /**
@@ -766,7 +766,7 @@ class HighchartsBoxplotTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsBoxplot();
 
         $obj->setShowCheckbox(false);
-        $this->assertEquals(false, $obj->getShowCheckbox());
+        $this->assertFalse($obj->getShowCheckbox());
     }
 
     /**
@@ -779,7 +779,7 @@ class HighchartsBoxplotTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsBoxplot();
 
         $obj->setShowInLegend(false);
-        $this->assertEquals(false, $obj->getShowInLegend());
+        $this->assertFalse($obj->getShowInLegend());
     }
 
     /**
@@ -792,7 +792,7 @@ class HighchartsBoxplotTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsBoxplot();
 
         $obj->setSkipKeyboardNavigation(false);
-        $this->assertEquals(false, $obj->getSkipKeyboardNavigation());
+        $this->assertFalse($obj->getSkipKeyboardNavigation());
     }
 
     /**
@@ -890,7 +890,7 @@ class HighchartsBoxplotTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsBoxplot();
 
         $obj->setStickyTracking(false);
-        $this->assertEquals(false, $obj->getStickyTracking());
+        $this->assertFalse($obj->getStickyTracking());
     }
 
     /**
@@ -929,7 +929,7 @@ class HighchartsBoxplotTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsBoxplot();
 
         $obj->setType(null);
-        $this->assertEquals(null, $obj->getType());
+        $this->assertNull($obj->getType());
 
         $obj->setType("area");
         $this->assertEquals("area", $obj->getType());
@@ -990,7 +990,7 @@ class HighchartsBoxplotTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsBoxplot();
 
         $obj->setVisible(false);
-        $this->assertEquals(false, $obj->getVisible());
+        $this->assertFalse($obj->getVisible());
     }
 
     /**
@@ -1106,29 +1106,29 @@ class HighchartsBoxplotTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsBoxplot();
 
-        $this->assertEquals(false, $obj->getAllowPointSelect());
+        $this->assertFalse($obj->getAllowPointSelect());
         $this->assertNull($obj->getAnimationLimit());
         $this->assertNull($obj->getClassName());
         $this->assertNull($obj->getColor());
-        $this->assertEquals(false, $obj->getColorByPoint());
+        $this->assertFalse($obj->getColorByPoint());
         $this->assertNull($obj->getColorIndex());
         $this->assertNull($obj->getColors());
-        $this->assertEquals(true, $obj->getCrisp());
+        $this->assertTrue($obj->getCrisp());
         $this->assertNull($obj->getCursor());
         $this->assertNull($obj->getData());
         $this->assertEquals(25, $obj->getDepth());
         $this->assertNull($obj->getDescription());
         $this->assertNull($obj->getEdgeColor());
         $this->assertEquals(1, $obj->getEdgeWidth());
-        $this->assertEquals(true, $obj->getEnableMouseTracking());
+        $this->assertTrue($obj->getEnableMouseTracking());
         $this->assertNull($obj->getEvents());
         $this->assertNull($obj->getExposeElementToA11y());
         $this->assertEquals("#ffffff", $obj->getFillColor());
         $this->assertNull($obj->getFindNearestPointBy());
-        $this->assertEquals(false, $obj->getGetExtremesFromAll());
+        $this->assertFalse($obj->getGetExtremesFromAll());
         $this->assertEquals(0.2, $obj->getGroupPadding());
         $this->assertEquals(1, $obj->getGroupZPadding());
-        $this->assertEquals(true, $obj->getGrouping());
+        $this->assertTrue($obj->getGrouping());
         $this->assertNull($obj->getId());
         $this->assertNull($obj->getIndex());
         $this->assertNull($obj->getKeys());
@@ -1149,19 +1149,19 @@ class HighchartsBoxplotTest extends AbstractTestCase {
         $this->assertNull($obj->getPointRange());
         $this->assertEquals(0, $obj->getPointStart());
         $this->assertNull($obj->getPointWidth());
-        $this->assertEquals(false, $obj->getSelected());
-        $this->assertEquals(false, $obj->getShowCheckbox());
-        $this->assertEquals(true, $obj->getShowInLegend());
+        $this->assertFalse($obj->getSelected());
+        $this->assertFalse($obj->getShowCheckbox());
+        $this->assertTrue($obj->getShowInLegend());
         $this->assertNull($obj->getSkipKeyboardNavigation());
         $this->assertNull($obj->getStates());
         $this->assertNull($obj->getStemColor());
         $this->assertEquals("Solid", $obj->getStemDashStyle());
         $this->assertNull($obj->getStemWidth());
-        $this->assertEquals(true, $obj->getStickyTracking());
+        $this->assertTrue($obj->getStickyTracking());
         $this->assertNull($obj->getTooltip());
         $this->assertEquals(1000, $obj->getTurboThreshold());
         $this->assertNull($obj->getType());
-        $this->assertEquals(true, $obj->getVisible());
+        $this->assertTrue($obj->getVisible());
         $this->assertNull($obj->getWhiskerColor());
         $this->assertEquals("50%", $obj->getWhiskerLength());
         $this->assertEquals(2, $obj->getWhiskerWidth());

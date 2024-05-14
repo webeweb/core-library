@@ -58,7 +58,7 @@ class HighchartsAccessibilityTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsAccessibility();
 
         $obj->setDescribeSingleSeries(false);
-        $this->assertEquals(false, $obj->getDescribeSingleSeries());
+        $this->assertFalse($obj->getDescribeSingleSeries());
     }
 
     /**
@@ -71,7 +71,7 @@ class HighchartsAccessibilityTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsAccessibility();
 
         $obj->setEnabled(true);
-        $this->assertEquals(true, $obj->getEnabled());
+        $this->assertTrue($obj->getEnabled());
     }
 
     /**
@@ -187,8 +187,8 @@ class HighchartsAccessibilityTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsAccessibility();
 
-        $this->assertEquals(false, $obj->getDescribeSingleSeries());
-        $this->assertEquals(true, $obj->getEnabled());
+        $this->assertFalse($obj->getDescribeSingleSeries());
+        $this->assertTrue($obj->getEnabled());
         $this->assertNull($obj->getKeyboardNavigation());
         $this->assertNull($obj->getOnTableAnchorClick());
         $this->assertNull($obj->getPointDateFormat());

@@ -82,7 +82,7 @@ class HighchartsHoverTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Bubble\States\HighchartsHover();
 
         $obj->setEnabled(true);
-        $this->assertEquals(true, $obj->getEnabled());
+        $this->assertTrue($obj->getEnabled());
     }
 
     /**
@@ -150,7 +150,7 @@ class HighchartsHoverTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Bubble\States\HighchartsHover();
 
         $this->assertEquals("{ \"duration\": 50 }", $obj->getAnimation());
-        $this->assertEquals(true, $obj->getEnabled());
+        $this->assertTrue($obj->getEnabled());
         $this->assertNull($obj->getHalo());
         $this->assertEquals(2, $obj->getLineWidth());
         $this->assertEquals(1, $obj->getLineWidthPlus());

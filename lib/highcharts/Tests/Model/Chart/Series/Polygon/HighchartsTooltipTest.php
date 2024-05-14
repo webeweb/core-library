@@ -75,7 +75,7 @@ class HighchartsTooltipTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Polygon\HighchartsTooltip();
 
         $obj->setFollowPointer(false);
-        $this->assertEquals(false, $obj->getFollowPointer());
+        $this->assertFalse($obj->getFollowPointer());
     }
 
     /**
@@ -88,7 +88,7 @@ class HighchartsTooltipTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Polygon\HighchartsTooltip();
 
         $obj->setFollowTouchMove(true);
-        $this->assertEquals(true, $obj->getFollowTouchMove());
+        $this->assertTrue($obj->getFollowTouchMove());
     }
 
     /**
@@ -179,7 +179,7 @@ class HighchartsTooltipTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Polygon\HighchartsTooltip();
 
         $obj->setSplit(true);
-        $this->assertEquals(true, $obj->getSplit());
+        $this->assertTrue($obj->getSplit());
     }
 
     /**
@@ -244,15 +244,15 @@ class HighchartsTooltipTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Polygon\HighchartsTooltip();
 
         $this->assertNull($obj->getDateTimeLabelFormats());
-        $this->assertEquals(false, $obj->getFollowPointer());
-        $this->assertEquals(true, $obj->getFollowTouchMove());
+        $this->assertFalse($obj->getFollowPointer());
+        $this->assertTrue($obj->getFollowTouchMove());
         $this->assertEquals("false", $obj->getFooterFormat());
         $this->assertNull($obj->getHeaderFormat());
         $this->assertEquals(500, $obj->getHideDelay());
         $this->assertEquals(8, $obj->getPadding());
         $this->assertEquals("<span style=\"color:{point.color}\">\\u25CF</span> {series.name}: <b>{point.y}</b><br/>", $obj->getPointFormat());
         $this->assertNull($obj->getPointFormatter());
-        $this->assertEquals(false, $obj->getSplit());
+        $this->assertFalse($obj->getSplit());
         $this->assertNull($obj->getValueDecimals());
         $this->assertNull($obj->getValuePrefix());
         $this->assertNull($obj->getValueSuffix());

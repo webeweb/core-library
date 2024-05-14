@@ -80,7 +80,7 @@ class HighchartsDrilldownTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsDrilldown();
 
         $obj->setAllowPointDrilldown(false);
-        $this->assertEquals(false, $obj->getAllowPointDrilldown());
+        $this->assertFalse($obj->getAllowPointDrilldown());
     }
 
     /**
@@ -133,7 +133,7 @@ class HighchartsDrilldownTest extends AbstractTestCase {
 
         $this->assertEquals(["cursor" => "pointer", "color" => "#003399", "fontWeight" => "bold", "textDecoration" => "underline"], $obj->getActiveAxisLabelStyle());
         $this->assertEquals(["cursor" => "pointer", "color" => "#003399", "fontWeight" => "bold", "textDecoration" => "underline"], $obj->getActiveDataLabelStyle());
-        $this->assertEquals(true, $obj->getAllowPointDrilldown());
+        $this->assertTrue($obj->getAllowPointDrilldown());
         $this->assertNull($obj->getAnimation());
         $this->assertNull($obj->getDrillUpButton());
         $this->assertNull($obj->getSeries());

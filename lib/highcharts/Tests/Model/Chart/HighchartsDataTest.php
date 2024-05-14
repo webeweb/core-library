@@ -107,7 +107,7 @@ class HighchartsDataTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsData();
 
         $obj->setDateFormat(null);
-        $this->assertEquals(null, $obj->getDateFormat());
+        $this->assertNull($obj->getDateFormat());
 
         $obj->setDateFormat("YYYY-mm-dd");
         $this->assertEquals("YYYY-mm-dd", $obj->getDateFormat());
@@ -177,7 +177,7 @@ class HighchartsDataTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsData();
 
         $obj->setFirstRowAsNames(true);
-        $this->assertEquals(true, $obj->getFirstRowAsNames());
+        $this->assertTrue($obj->getFirstRowAsNames());
     }
 
     /**
@@ -320,7 +320,7 @@ class HighchartsDataTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsData();
 
         $obj->setSwitchRowsAndColumns(true);
-        $this->assertEquals(true, $obj->getSwitchRowsAndColumns());
+        $this->assertTrue($obj->getSwitchRowsAndColumns());
     }
 
     /**
@@ -352,7 +352,7 @@ class HighchartsDataTest extends AbstractTestCase {
         $this->assertEquals(".", $obj->getDecimalPoint());
         $this->assertNull($obj->getEndColumn());
         $this->assertNull($obj->getEndRow());
-        $this->assertEquals(true, $obj->getFirstRowAsNames());
+        $this->assertTrue($obj->getFirstRowAsNames());
         $this->assertNull($obj->getGoogleSpreadsheetKey());
         $this->assertNull($obj->getGoogleSpreadsheetWorksheet());
         $this->assertNull($obj->getItemDelimiter());
@@ -363,7 +363,7 @@ class HighchartsDataTest extends AbstractTestCase {
         $this->assertNull($obj->getSeriesMapping());
         $this->assertEquals(0, $obj->getStartColumn());
         $this->assertEquals(0, $obj->getStartRow());
-        $this->assertEquals(false, $obj->getSwitchRowsAndColumns());
+        $this->assertFalse($obj->getSwitchRowsAndColumns());
         $this->assertNull($obj->getTable());
     }
 }

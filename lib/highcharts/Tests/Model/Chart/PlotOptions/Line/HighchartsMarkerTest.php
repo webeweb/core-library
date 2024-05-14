@@ -72,7 +72,7 @@ class HighchartsMarkerTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Line\HighchartsMarker();
 
         $obj->setEnabled(true);
-        $this->assertEquals(true, $obj->getEnabled());
+        $this->assertTrue($obj->getEnabled());
     }
 
     /**
@@ -166,7 +166,7 @@ class HighchartsMarkerTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Line\HighchartsMarker();
 
         $obj->setSymbol(null);
-        $this->assertEquals(null, $obj->getSymbol());
+        $this->assertNull($obj->getSymbol());
 
         $obj->setSymbol("circle");
         $this->assertEquals("circle", $obj->getSymbol());

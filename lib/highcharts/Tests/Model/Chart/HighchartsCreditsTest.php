@@ -53,7 +53,7 @@ class HighchartsCreditsTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsCredits();
 
         $obj->setEnabled(true);
-        $this->assertEquals(true, $obj->getEnabled());
+        $this->assertTrue($obj->getEnabled());
     }
 
     /**
@@ -117,7 +117,7 @@ class HighchartsCreditsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsCredits();
 
-        $this->assertEquals(true, $obj->getEnabled());
+        $this->assertTrue($obj->getEnabled());
         $this->assertEquals("http://www.highcharts.com", $obj->getHref());
         $this->assertNull($obj->getPosition());
         $this->assertEquals(["cursor" => "pointer", "color" => "#999999", "fontSize" => "10px"], $obj->getStyle());

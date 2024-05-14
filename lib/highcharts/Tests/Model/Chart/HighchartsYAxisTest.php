@@ -189,7 +189,7 @@ class HighchartsYAxisTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsYAxis();
 
         $obj->setAllowDecimals(false);
-        $this->assertEquals(false, $obj->getAllowDecimals());
+        $this->assertFalse($obj->getAllowDecimals());
     }
 
     /**
@@ -322,7 +322,7 @@ class HighchartsYAxisTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsYAxis();
 
         $obj->setEndOnTick(false);
-        $this->assertEquals(false, $obj->getEndOnTick());
+        $this->assertFalse($obj->getEndOnTick());
     }
 
     /**
@@ -797,7 +797,7 @@ class HighchartsYAxisTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsYAxis();
 
         $obj->setOpposite(false);
-        $this->assertEquals(false, $obj->getOpposite());
+        $this->assertFalse($obj->getOpposite());
     }
 
     /**
@@ -836,7 +836,7 @@ class HighchartsYAxisTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsYAxis();
 
         $obj->setReversed(true);
-        $this->assertEquals(true, $obj->getReversed());
+        $this->assertTrue($obj->getReversed());
     }
 
     /**
@@ -849,7 +849,7 @@ class HighchartsYAxisTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsYAxis();
 
         $obj->setReversedStacks(true);
-        $this->assertEquals(true, $obj->getReversedStacks());
+        $this->assertTrue($obj->getReversedStacks());
     }
 
     /**
@@ -862,7 +862,7 @@ class HighchartsYAxisTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsYAxis();
 
         $obj->setShowEmpty(true);
-        $this->assertEquals(true, $obj->getShowEmpty());
+        $this->assertTrue($obj->getShowEmpty());
     }
 
     /**
@@ -875,7 +875,7 @@ class HighchartsYAxisTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsYAxis();
 
         $obj->setShowFirstLabel(true);
-        $this->assertEquals(true, $obj->getShowFirstLabel());
+        $this->assertTrue($obj->getShowFirstLabel());
     }
 
     /**
@@ -888,7 +888,7 @@ class HighchartsYAxisTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsYAxis();
 
         $obj->setShowLastLabel(true);
-        $this->assertEquals(true, $obj->getShowLastLabel());
+        $this->assertTrue($obj->getShowLastLabel());
     }
 
     /**
@@ -956,7 +956,7 @@ class HighchartsYAxisTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsYAxis();
 
         $obj->setStartOnTick(true);
-        $this->assertEquals(true, $obj->getStartOnTick());
+        $this->assertTrue($obj->getStartOnTick());
     }
 
     /**
@@ -1102,7 +1102,7 @@ class HighchartsYAxisTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsYAxis();
 
         $obj->setTickmarkPlacement(null);
-        $this->assertEquals(null, $obj->getTickmarkPlacement());
+        $this->assertNull($obj->getTickmarkPlacement());
 
         $obj->setTickmarkPlacement("between");
         $this->assertEquals("between", $obj->getTickmarkPlacement());
@@ -1159,7 +1159,7 @@ class HighchartsYAxisTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsYAxis();
 
         $obj->setUniqueNames(true);
-        $this->assertEquals(true, $obj->getUniqueNames());
+        $this->assertTrue($obj->getUniqueNames());
     }
 
     /**
@@ -1185,7 +1185,7 @@ class HighchartsYAxisTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsYAxis();
 
         $obj->setVisible(true);
-        $this->assertEquals(true, $obj->getVisible());
+        $this->assertTrue($obj->getVisible());
     }
 
     /**
@@ -1197,7 +1197,7 @@ class HighchartsYAxisTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsYAxis();
 
-        $this->assertEquals(true, $obj->getAllowDecimals());
+        $this->assertTrue($obj->getAllowDecimals());
         $this->assertNull($obj->getAlternateGridColor());
         $this->assertEquals(0, $obj->getAngle());
         $this->assertNull($obj->getBreaks());
@@ -1207,7 +1207,7 @@ class HighchartsYAxisTest extends AbstractTestCase {
         $this->assertNull($obj->getCrosshair());
         $this->assertNull($obj->getDateTimeLabelFormats());
         $this->assertNull($obj->getDescription());
-        $this->assertEquals(true, $obj->getEndOnTick());
+        $this->assertTrue($obj->getEndOnTick());
         $this->assertNull($obj->getEvents());
         $this->assertNull($obj->getFloor());
         $this->assertEquals("#e6e6e6", $obj->getGridLineColor());
@@ -1238,19 +1238,19 @@ class HighchartsYAxisTest extends AbstractTestCase {
         $this->assertEquals("outside", $obj->getMinorTickPosition());
         $this->assertEquals(0, $obj->getMinorTickWidth());
         $this->assertEquals(0, $obj->getOffset());
-        $this->assertEquals(false, $obj->getOpposite());
+        $this->assertFalse($obj->getOpposite());
         $this->assertNull($obj->getPlotBands());
         $this->assertNull($obj->getPlotLines());
-        $this->assertEquals(false, $obj->getReversed());
-        $this->assertEquals(true, $obj->getReversedStacks());
-        $this->assertEquals(true, $obj->getShowEmpty());
-        $this->assertEquals(true, $obj->getShowFirstLabel());
+        $this->assertFalse($obj->getReversed());
+        $this->assertTrue($obj->getReversedStacks());
+        $this->assertTrue($obj->getShowEmpty());
+        $this->assertTrue($obj->getShowFirstLabel());
         $this->assertNull($obj->getShowLastLabel());
         $this->assertNull($obj->getSoftMax());
         $this->assertNull($obj->getSoftMin());
         $this->assertNull($obj->getStackLabels());
         $this->assertEquals(1, $obj->getStartOfWeek());
-        $this->assertEquals(true, $obj->getStartOnTick());
+        $this->assertTrue($obj->getStartOnTick());
         $this->assertNull($obj->getStops());
         $this->assertNull($obj->getTickAmount());
         $this->assertEquals("#ccd6eb", $obj->getTickColor());
@@ -1264,8 +1264,8 @@ class HighchartsYAxisTest extends AbstractTestCase {
         $this->assertNull($obj->getTickmarkPlacement());
         $this->assertNull($obj->getTitle());
         $this->assertEquals("linear", $obj->getType());
-        $this->assertEquals(true, $obj->getUniqueNames());
+        $this->assertTrue($obj->getUniqueNames());
         $this->assertNull($obj->getUnits());
-        $this->assertEquals(true, $obj->getVisible());
+        $this->assertTrue($obj->getVisible());
     }
 }

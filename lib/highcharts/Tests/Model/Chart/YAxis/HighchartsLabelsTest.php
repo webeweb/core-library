@@ -124,7 +124,7 @@ class HighchartsLabelsTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\YAxis\HighchartsLabels();
 
         $obj->setEnabled(true);
-        $this->assertEquals(true, $obj->getEnabled());
+        $this->assertTrue($obj->getEnabled());
     }
 
     /**
@@ -163,7 +163,7 @@ class HighchartsLabelsTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\YAxis\HighchartsLabels();
 
         $obj->setOverflow(null);
-        $this->assertEquals(null, $obj->getOverflow());
+        $this->assertNull($obj->getOverflow());
 
         $obj->setOverflow("justify");
         $this->assertEquals("justify", $obj->getOverflow());
@@ -192,7 +192,7 @@ class HighchartsLabelsTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\YAxis\HighchartsLabels();
 
         $obj->setReserveSpace(false);
-        $this->assertEquals(false, $obj->getReserveSpace());
+        $this->assertFalse($obj->getReserveSpace());
     }
 
     /**
@@ -257,7 +257,7 @@ class HighchartsLabelsTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\YAxis\HighchartsLabels();
 
         $obj->setUseHTML(true);
-        $this->assertEquals(true, $obj->getUseHTML());
+        $this->assertTrue($obj->getUseHTML());
     }
 
     /**
@@ -312,17 +312,17 @@ class HighchartsLabelsTest extends AbstractTestCase {
         $this->assertEquals([-45], $obj->getAutoRotation());
         $this->assertEquals(80, $obj->getAutoRotationLimit());
         $this->assertEquals(-25, $obj->getDistance());
-        $this->assertEquals(true, $obj->getEnabled());
+        $this->assertTrue($obj->getEnabled());
         $this->assertEquals("{value}", $obj->getFormat());
         $this->assertNull($obj->getFormatter());
         $this->assertNull($obj->getOverflow());
         $this->assertEquals(5, $obj->getPadding());
-        $this->assertEquals(true, $obj->getReserveSpace());
+        $this->assertTrue($obj->getReserveSpace());
         $this->assertEquals(0, $obj->getRotation());
         $this->assertNull($obj->getStaggerLines());
         $this->assertNull($obj->getStep());
         $this->assertEquals(["color" => "#666666", "cursor" => "default", "fontSize" => "11px"], $obj->getStyle());
-        $this->assertEquals(false, $obj->getUseHTML());
+        $this->assertFalse($obj->getUseHTML());
         $this->assertNull($obj->getX());
         $this->assertEquals(3, $obj->getY());
         $this->assertEquals(7, $obj->getZIndex());

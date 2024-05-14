@@ -122,7 +122,7 @@ class HighchartsLabelTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\XAxis\PlotLines\HighchartsLabel();
 
         $obj->setUseHTML(false);
-        $this->assertEquals(false, $obj->getUseHTML());
+        $this->assertFalse($obj->getUseHTML());
     }
 
     /**
@@ -184,7 +184,7 @@ class HighchartsLabelTest extends AbstractTestCase {
         $this->assertNull($obj->getStyle());
         $this->assertNull($obj->getText());
         $this->assertNull($obj->getTextAlign());
-        $this->assertEquals(false, $obj->getUseHTML());
+        $this->assertFalse($obj->getUseHTML());
         $this->assertEquals("top", $obj->getVerticalAlign());
         $this->assertNull($obj->getX());
         $this->assertNull($obj->getY());

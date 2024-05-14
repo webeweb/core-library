@@ -185,7 +185,7 @@ class HighchartsLegendTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsLegend();
 
         $obj->setEnabled(true);
-        $this->assertEquals(true, $obj->getEnabled());
+        $this->assertTrue($obj->getEnabled());
     }
 
     /**
@@ -198,7 +198,7 @@ class HighchartsLegendTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsLegend();
 
         $obj->setFloating(false);
-        $this->assertEquals(false, $obj->getFloating());
+        $this->assertFalse($obj->getFloating());
     }
 
     /**
@@ -412,7 +412,7 @@ class HighchartsLegendTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsLegend();
 
         $obj->setReversed(true);
-        $this->assertEquals(true, $obj->getReversed());
+        $this->assertTrue($obj->getReversed());
     }
 
     /**
@@ -425,7 +425,7 @@ class HighchartsLegendTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsLegend();
 
         $obj->setRtl(true);
-        $this->assertEquals(true, $obj->getRtl());
+        $this->assertTrue($obj->getRtl());
     }
 
     /**
@@ -451,7 +451,7 @@ class HighchartsLegendTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsLegend();
 
         $obj->setSquareSymbol(false);
-        $this->assertEquals(false, $obj->getSquareSymbol());
+        $this->assertFalse($obj->getSquareSymbol());
     }
 
     /**
@@ -545,7 +545,7 @@ class HighchartsLegendTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsLegend();
 
         $obj->setUseHTML(false);
-        $this->assertEquals(false, $obj->getUseHTML());
+        $this->assertFalse($obj->getUseHTML());
     }
 
     /**
@@ -620,8 +620,8 @@ class HighchartsLegendTest extends AbstractTestCase {
         $this->assertEquals("#999999", $obj->getBorderColor());
         $this->assertEquals(0, $obj->getBorderRadius());
         $this->assertEquals(0, $obj->getBorderWidth());
-        $this->assertEquals(true, $obj->getEnabled());
-        $this->assertEquals(false, $obj->getFloating());
+        $this->assertTrue($obj->getEnabled());
+        $this->assertFalse($obj->getFloating());
         $this->assertEquals(20, $obj->getItemDistance());
         $this->assertEquals(["color" => "#cccccc"], $obj->getItemHiddenStyle());
         $this->assertEquals(["color" => "#000000"], $obj->getItemHoverStyle());
@@ -637,17 +637,17 @@ class HighchartsLegendTest extends AbstractTestCase {
         $this->assertNull($obj->getMaxHeight());
         $this->assertNull($obj->getNavigation());
         $this->assertEquals(8, $obj->getPadding());
-        $this->assertEquals(false, $obj->getReversed());
-        $this->assertEquals(false, $obj->getRtl());
+        $this->assertFalse($obj->getReversed());
+        $this->assertFalse($obj->getRtl());
         $this->assertEquals("false", $obj->getShadow());
-        $this->assertEquals(true, $obj->getSquareSymbol());
+        $this->assertTrue($obj->getSquareSymbol());
         $this->assertNull($obj->getStyle());
         $this->assertNull($obj->getSymbolHeight());
         $this->assertEquals(5, $obj->getSymbolPadding());
         $this->assertNull($obj->getSymbolRadius());
         $this->assertNull($obj->getSymbolWidth());
         $this->assertNull($obj->getTitle());
-        $this->assertEquals(false, $obj->getUseHTML());
+        $this->assertFalse($obj->getUseHTML());
         $this->assertEquals("bottom", $obj->getVerticalAlign());
         $this->assertNull($obj->getWidth());
         $this->assertEquals(0, $obj->getX());

@@ -51,7 +51,7 @@ class HighchartsKeyboardNavigationTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Accessibility\HighchartsKeyboardNavigation();
 
         $obj->setEnabled(true);
-        $this->assertEquals(true, $obj->getEnabled());
+        $this->assertTrue($obj->getEnabled());
     }
 
     /**
@@ -64,7 +64,7 @@ class HighchartsKeyboardNavigationTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Accessibility\HighchartsKeyboardNavigation();
 
         $obj->setSkipNullPoints(true);
-        $this->assertEquals(true, $obj->getSkipNullPoints());
+        $this->assertTrue($obj->getSkipNullPoints());
     }
 
     /**
@@ -77,7 +77,7 @@ class HighchartsKeyboardNavigationTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Accessibility\HighchartsKeyboardNavigation();
 
         $obj->setTabThroughChartElements(true);
-        $this->assertEquals(true, $obj->getTabThroughChartElements());
+        $this->assertTrue($obj->getTabThroughChartElements());
     }
 
     /**
@@ -89,8 +89,8 @@ class HighchartsKeyboardNavigationTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Accessibility\HighchartsKeyboardNavigation();
 
-        $this->assertEquals(true, $obj->getEnabled());
-        $this->assertEquals(false, $obj->getSkipNullPoints());
-        $this->assertEquals(true, $obj->getTabThroughChartElements());
+        $this->assertTrue($obj->getEnabled());
+        $this->assertFalse($obj->getSkipNullPoints());
+        $this->assertTrue($obj->getTabThroughChartElements());
     }
 }

@@ -116,7 +116,7 @@ class HighchartsTitleTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\YAxis\HighchartsTitle();
 
         $obj->setReserveSpace(false);
-        $this->assertEquals(false, $obj->getReserveSpace());
+        $this->assertFalse($obj->getReserveSpace());
     }
 
     /**
@@ -197,7 +197,7 @@ class HighchartsTitleTest extends AbstractTestCase {
         $this->assertEquals("middle", $obj->getEnabled());
         $this->assertEquals(40, $obj->getMargin());
         $this->assertNull($obj->getOffset());
-        $this->assertEquals(true, $obj->getReserveSpace());
+        $this->assertTrue($obj->getReserveSpace());
         $this->assertEquals(270, $obj->getRotation());
         $this->assertEquals(["color" => "#666666"], $obj->getStyle());
         $this->assertEquals("Values", $obj->getText());

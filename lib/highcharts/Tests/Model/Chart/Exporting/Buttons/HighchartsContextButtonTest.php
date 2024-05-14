@@ -85,7 +85,7 @@ class HighchartsContextButtonTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Exporting\Buttons\HighchartsContextButton();
 
         $obj->setEnabled(true);
-        $this->assertEquals(true, $obj->getEnabled());
+        $this->assertTrue($obj->getEnabled());
     }
 
     /**
@@ -327,7 +327,7 @@ class HighchartsContextButtonTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\Exporting\Buttons\HighchartsContextButton();
 
         $this->assertEquals("right", $obj->getAlign());
-        $this->assertEquals(true, $obj->getEnabled());
+        $this->assertTrue($obj->getEnabled());
         $this->assertEquals(20, $obj->getHeight());
         $this->assertNull($obj->getMenuItems());
         $this->assertNull($obj->getOnclick());

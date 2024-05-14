@@ -53,7 +53,7 @@ class HighchartsSelectTest extends AbstractTestCase {
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Areaspline\Marker\States\HighchartsSelect();
 
         $obj->setEnabled(true);
-        $this->assertEquals(true, $obj->getEnabled());
+        $this->assertTrue($obj->getEnabled());
     }
 
     /**
@@ -117,7 +117,7 @@ class HighchartsSelectTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Areaspline\Marker\States\HighchartsSelect();
 
-        $this->assertEquals(true, $obj->getEnabled());
+        $this->assertTrue($obj->getEnabled());
         $this->assertNull($obj->getFillColor());
         $this->assertEquals("#000000", $obj->getLineColor());
         $this->assertEquals(0, $obj->getLineWidth());
