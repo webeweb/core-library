@@ -22,5 +22,5 @@ $response = $request->call();
 ```
 
 > IMPORTANT NOTICE:
-> 
+>
 > An example is available into this [library](../../../adoria/Provider/ApiProvider.php)
