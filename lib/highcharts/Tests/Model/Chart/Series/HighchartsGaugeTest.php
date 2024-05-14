@@ -34,14 +34,14 @@ class HighchartsGaugeTest extends AbstractTestCase {
         $events = new \WBW\Library\Highcharts\Model\Chart\Series\Gauge\HighchartsEvents();
         $point  = new \WBW\Library\Highcharts\Model\Chart\Series\Gauge\HighchartsPoint();
 
-        $exp = ["animation" => true, "animationLimit" => 48.0, "className" => "6f66e878c62db60568a3487869695820", "color" => "70dda5dfb8053dc6d1c492574bce9bfd", "colorIndex" => 37.0, "cursor" => "crosshair", "data" => ["data" => "8d777f385d3dfec8815d20f7496026dc"], "dataLabels" => ["dataLabels" => "d4d108fe6659fac79420fa083ef3adf2"], "description" => "67daf92c833c41c95db874e18fcb2786", "dial" => ["dial" => "6de514dbc026d5badb01f8ea18ffcc9b"], "enableMouseTracking" => false, "events" => $events->jsonSerialize(), "exposeElementToA11y" => true, "findNearestPointBy" => "xy", "getExtremesFromAll" => true, "id" => "b80bb7740288fda1f201890375a60c8f", "index" => 91.0, "keys" => ["keys" => "14f802e1fba977727845e8872c1743a7"], "legendIndex" => 45.0, "linkedTo" => "914fab47afc86331ec62837807a29419", "name" => "b068931cc450442b63f5b3d276ea4297", "negativeColor" => "52fe4d3a854b01e25193b4f35fc2040e", "overshoot" => 20.0, "pivot" => ["pivot" => "dca758fd47f2bcd3bbf3f20bbfe2e975"], "point" => $point->jsonSerialize(), "pointDescriptionFormatter" => "b5fd0c15b3ca81f726e2c7b93907ba36", "selected" => true, "showCheckbox" => true, "showInLegend" => false, "skipKeyboardNavigation" => false, "stickyTracking" => true, "threshold" => 33.0, "tooltip" => ["tooltip" => "ddbfc1b6aa0ad4d79c5dac7aa3b44888"], "type" => "waterfall", "visible" => false, "wrap" => false, "xAxis" => "b919a806dedef37999b45653bdde66c6", "yAxis" => "f3cd431f5ac1725ea18774e5c02f2889", "zIndex" => 18.0];
+        $exp = ["animation" => true, "animationLimit" => 59.0, "className" => "6f66e878c62db60568a3487869695820", "color" => "70dda5dfb8053dc6d1c492574bce9bfd", "colorIndex" => 89.0, "cursor" => "crosshair", "data" => ["data" => "8d777f385d3dfec8815d20f7496026dc"], "dataLabels" => ["dataLabels" => "d4d108fe6659fac79420fa083ef3adf2"], "description" => "67daf92c833c41c95db874e18fcb2786", "dial" => ["dial" => "6de514dbc026d5badb01f8ea18ffcc9b"], "enableMouseTracking" => false, "events" => $events->jsonSerialize(), "exposeElementToA11y" => true, "findNearestPointBy" => "xy", "getExtremesFromAll" => true, "id" => "b80bb7740288fda1f201890375a60c8f", "index" => 5.0, "keys" => ["keys" => "14f802e1fba977727845e8872c1743a7"], "legendIndex" => 75.0, "linkedTo" => "914fab47afc86331ec62837807a29419", "name" => "b068931cc450442b63f5b3d276ea4297", "negativeColor" => "52fe4d3a854b01e25193b4f35fc2040e", "overshoot" => 27.0, "pivot" => ["pivot" => "dca758fd47f2bcd3bbf3f20bbfe2e975"], "point" => $point->jsonSerialize(), "pointDescriptionFormatter" => "b5fd0c15b3ca81f726e2c7b93907ba36", "selected" => false, "showCheckbox" => true, "showInLegend" => true, "skipKeyboardNavigation" => false, "stickyTracking" => true, "threshold" => 61.0, "tooltip" => ["tooltip" => "ddbfc1b6aa0ad4d79c5dac7aa3b44888"], "type" => "waterfall", "visible" => true, "wrap" => false, "xAxis" => "b919a806dedef37999b45653bdde66c6", "yAxis" => "f3cd431f5ac1725ea18774e5c02f2889", "zIndex" => 97.0];
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsGauge();
         $obj->setAnimation(true);
-        $obj->setAnimationLimit(48.0);
+        $obj->setAnimationLimit(59.0);
         $obj->setClassName("6f66e878c62db60568a3487869695820");
         $obj->setColor("70dda5dfb8053dc6d1c492574bce9bfd");
-        $obj->setColorIndex(37.0);
+        $obj->setColorIndex(89.0);
         $obj->setCursor("crosshair");
         $obj->setData(["data" => "8d777f385d3dfec8815d20f7496026dc"]);
         $obj->setDataLabels(["dataLabels" => "d4d108fe6659fac79420fa083ef3adf2"]);
@@ -53,29 +53,29 @@ class HighchartsGaugeTest extends AbstractTestCase {
         $obj->setFindNearestPointBy("xy");
         $obj->setGetExtremesFromAll(true);
         $obj->setId("b80bb7740288fda1f201890375a60c8f");
-        $obj->setIndex(91.0);
+        $obj->setIndex(5.0);
         $obj->setKeys(["keys" => "14f802e1fba977727845e8872c1743a7"]);
-        $obj->setLegendIndex(45.0);
+        $obj->setLegendIndex(75.0);
         $obj->setLinkedTo("914fab47afc86331ec62837807a29419");
         $obj->setName("b068931cc450442b63f5b3d276ea4297");
         $obj->setNegativeColor("52fe4d3a854b01e25193b4f35fc2040e");
-        $obj->setOvershoot(20.0);
+        $obj->setOvershoot(27.0);
         $obj->setPivot(["pivot" => "dca758fd47f2bcd3bbf3f20bbfe2e975"]);
         $obj->setPoint($point);
         $obj->setPointDescriptionFormatter("b5fd0c15b3ca81f726e2c7b93907ba36");
-        $obj->setSelected(true);
+        $obj->setSelected(false);
         $obj->setShowCheckbox(true);
-        $obj->setShowInLegend(false);
+        $obj->setShowInLegend(true);
         $obj->setSkipKeyboardNavigation(false);
         $obj->setStickyTracking(true);
-        $obj->setThreshold(33.0);
+        $obj->setThreshold(61.0);
         $obj->setTooltip(["tooltip" => "ddbfc1b6aa0ad4d79c5dac7aa3b44888"]);
         $obj->setType("waterfall");
-        $obj->setVisible(false);
+        $obj->setVisible(true);
         $obj->setWrap(false);
         $obj->setXAxis("b919a806dedef37999b45653bdde66c6");
         $obj->setYAxis("f3cd431f5ac1725ea18774e5c02f2889");
-        $obj->setZIndex(18.0);
+        $obj->setZIndex(97.0);
 
         $this->assertEquals($exp, $obj->jsonSerialize());
     }
@@ -115,8 +115,8 @@ class HighchartsGaugeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsGauge();
 
-        $obj->setAnimation(false);
-        $this->assertEquals(false, $obj->getAnimation());
+        $obj->setAnimation(true);
+        $this->assertEquals(true, $obj->getAnimation());
     }
 
     /**
@@ -128,8 +128,8 @@ class HighchartsGaugeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsGauge();
 
-        $obj->setAnimationLimit(45.0);
-        $this->assertEquals(45.0, $obj->getAnimationLimit());
+        $obj->setAnimationLimit(98.0);
+        $this->assertEquals(98.0, $obj->getAnimationLimit());
     }
 
     /**
@@ -167,8 +167,8 @@ class HighchartsGaugeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsGauge();
 
-        $obj->setColorIndex(80.0);
-        $this->assertEquals(80.0, $obj->getColorIndex());
+        $obj->setColorIndex(92.0);
+        $this->assertEquals(92.0, $obj->getColorIndex());
     }
 
     /**
@@ -180,8 +180,23 @@ class HighchartsGaugeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsGauge();
 
+        $obj->setCursor(null);
+        $this->assertEquals(null, $obj->getCursor());
+
         $obj->setCursor("crosshair");
         $this->assertEquals("crosshair", $obj->getCursor());
+
+        $obj->setCursor("default");
+        $this->assertEquals("default", $obj->getCursor());
+
+        $obj->setCursor("help");
+        $this->assertEquals("help", $obj->getCursor());
+
+        $obj->setCursor("none");
+        $this->assertEquals("none", $obj->getCursor());
+
+        $obj->setCursor("pointer");
+        $this->assertEquals("pointer", $obj->getCursor());
     }
 
     /**
@@ -287,6 +302,9 @@ class HighchartsGaugeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsGauge();
 
+        $obj->setFindNearestPointBy("x");
+        $this->assertEquals("x", $obj->getFindNearestPointBy());
+
         $obj->setFindNearestPointBy("xy");
         $this->assertEquals("xy", $obj->getFindNearestPointBy());
     }
@@ -326,8 +344,8 @@ class HighchartsGaugeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsGauge();
 
-        $obj->setIndex(9.0);
-        $this->assertEquals(9.0, $obj->getIndex());
+        $obj->setIndex(78.0);
+        $this->assertEquals(78.0, $obj->getIndex());
     }
 
     /**
@@ -352,8 +370,8 @@ class HighchartsGaugeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsGauge();
 
-        $obj->setLegendIndex(32.0);
-        $this->assertEquals(32.0, $obj->getLegendIndex());
+        $obj->setLegendIndex(53.0);
+        $this->assertEquals(53.0, $obj->getLegendIndex());
     }
 
     /**
@@ -404,8 +422,8 @@ class HighchartsGaugeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsGauge();
 
-        $obj->setOvershoot(25.0);
-        $this->assertEquals(25.0, $obj->getOvershoot());
+        $obj->setOvershoot(62.0);
+        $this->assertEquals(62.0, $obj->getOvershoot());
     }
 
     /**
@@ -459,8 +477,8 @@ class HighchartsGaugeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsGauge();
 
-        $obj->setSelected(false);
-        $this->assertEquals(false, $obj->getSelected());
+        $obj->setSelected(true);
+        $this->assertEquals(true, $obj->getSelected());
     }
 
     /**
@@ -498,8 +516,8 @@ class HighchartsGaugeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsGauge();
 
-        $obj->setSkipKeyboardNavigation(true);
-        $this->assertEquals(true, $obj->getSkipKeyboardNavigation());
+        $obj->setSkipKeyboardNavigation(false);
+        $this->assertEquals(false, $obj->getSkipKeyboardNavigation());
     }
 
     /**
@@ -524,8 +542,8 @@ class HighchartsGaugeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsGauge();
 
-        $obj->setThreshold(86.0);
-        $this->assertEquals(86.0, $obj->getThreshold());
+        $obj->setThreshold(66.0);
+        $this->assertEquals(66.0, $obj->getThreshold());
     }
 
     /**
@@ -549,6 +567,54 @@ class HighchartsGaugeTest extends AbstractTestCase {
     public function testSetType(): void {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsGauge();
+
+        $obj->setType(null);
+        $this->assertEquals(null, $obj->getType());
+
+        $obj->setType("area");
+        $this->assertEquals("area", $obj->getType());
+
+        $obj->setType("arearange");
+        $this->assertEquals("arearange", $obj->getType());
+
+        $obj->setType("areaspline");
+        $this->assertEquals("areaspline", $obj->getType());
+
+        $obj->setType("areasplinerange");
+        $this->assertEquals("areasplinerange", $obj->getType());
+
+        $obj->setType("boxplot");
+        $this->assertEquals("boxplot", $obj->getType());
+
+        $obj->setType("bubble");
+        $this->assertEquals("bubble", $obj->getType());
+
+        $obj->setType("column");
+        $this->assertEquals("column", $obj->getType());
+
+        $obj->setType("columnrange");
+        $this->assertEquals("columnrange", $obj->getType());
+
+        $obj->setType("errorbar");
+        $this->assertEquals("errorbar", $obj->getType());
+
+        $obj->setType("funnel");
+        $this->assertEquals("funnel", $obj->getType());
+
+        $obj->setType("gauge");
+        $this->assertEquals("gauge", $obj->getType());
+
+        $obj->setType("line");
+        $this->assertEquals("line", $obj->getType());
+
+        $obj->setType("pie");
+        $this->assertEquals("pie", $obj->getType());
+
+        $obj->setType("scatter");
+        $this->assertEquals("scatter", $obj->getType());
+
+        $obj->setType("spline");
+        $this->assertEquals("spline", $obj->getType());
 
         $obj->setType("waterfall");
         $this->assertEquals("waterfall", $obj->getType());
@@ -615,8 +681,8 @@ class HighchartsGaugeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsGauge();
 
-        $obj->setZIndex(53.0);
-        $this->assertEquals(53.0, $obj->getZIndex());
+        $obj->setZIndex(43.0);
+        $this->assertEquals(43.0, $obj->getZIndex());
     }
 
     /**

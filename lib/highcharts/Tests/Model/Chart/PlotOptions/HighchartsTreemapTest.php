@@ -37,29 +37,29 @@ class HighchartsTreemapTest extends AbstractTestCase {
         $states     = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Treemap\HighchartsStates();
         $tooltip    = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Treemap\HighchartsTooltip();
 
-        $exp = ["allowDrillToNode" => true, "allowPointSelect" => false, "alternateStartingDirection" => true, "animation" => true, "animationLimit" => 8.0, "borderColor" => "97da935a74593c55d78be9d1295aa994", "borderWidth" => 93.0, "className" => "6f66e878c62db60568a3487869695820", "color" => "70dda5dfb8053dc6d1c492574bce9bfd", "colorByPoint" => false, "colorIndex" => 74.0, "colors" => ["colors" => "62848e3ce5804aa985513a7922ff87b2"], "crisp" => true, "cropThreshold" => 48.0, "cursor" => "crosshair", "dataLabels" => $dataLabels->jsonSerialize(), "description" => "67daf92c833c41c95db874e18fcb2786", "enableMouseTracking" => true, "events" => $events->jsonSerialize(), "exposeElementToA11y" => false, "findNearestPointBy" => "xy", "getExtremesFromAll" => true, "ignoreHiddenPoint" => false, "interactByLeaf" => true, "keys" => ["keys" => "14f802e1fba977727845e8872c1743a7"], "layoutAlgorithm" => "strip", "layoutStartingDirection" => "horizontal", "levelIsConstant" => false, "levels" => ["levels" => "836eb5e382b5d9f430df48883fca918e"], "linkedTo" => "914fab47afc86331ec62837807a29419", "maxPointWidth" => 60.0, "opacity" => 32.0, "point" => $point->jsonSerialize(), "pointDescriptionFormatter" => "b5fd0c15b3ca81f726e2c7b93907ba36", "selected" => true, "shadow" => "3bf1114a986ba87ed28fc1b5884fc2f8", "showCheckbox" => false, "showInLegend" => false, "skipKeyboardNavigation" => false, "sortIndex" => 59.0, "states" => $states->jsonSerialize(), "stickyTracking" => true, "tooltip" => $tooltip->jsonSerialize(), "turboThreshold" => 82.0, "visible" => false, "zoneAxis" => "88421adabea658556aa3ab6c6181afad", "zones" => ["zones" => "26f94136f5db8afd4e9df1e512f7fdc5"]];
+        $exp = ["allowDrillToNode" => true, "allowPointSelect" => true, "alternateStartingDirection" => true, "animation" => false, "animationLimit" => 86.0, "borderColor" => "97da935a74593c55d78be9d1295aa994", "borderWidth" => 39.0, "className" => "6f66e878c62db60568a3487869695820", "color" => "70dda5dfb8053dc6d1c492574bce9bfd", "colorByPoint" => true, "colorIndex" => 49.0, "colors" => ["colors" => "62848e3ce5804aa985513a7922ff87b2"], "crisp" => true, "cropThreshold" => 70.0, "cursor" => "crosshair", "dataLabels" => $dataLabels->jsonSerialize(), "description" => "67daf92c833c41c95db874e18fcb2786", "enableMouseTracking" => false, "events" => $events->jsonSerialize(), "exposeElementToA11y" => true, "findNearestPointBy" => "xy", "getExtremesFromAll" => true, "ignoreHiddenPoint" => false, "interactByLeaf" => true, "keys" => ["keys" => "14f802e1fba977727845e8872c1743a7"], "layoutAlgorithm" => "strip", "layoutStartingDirection" => "horizontal", "levelIsConstant" => false, "levels" => ["levels" => "836eb5e382b5d9f430df48883fca918e"], "linkedTo" => "914fab47afc86331ec62837807a29419", "maxPointWidth" => 58.0, "opacity" => 5.0, "point" => $point->jsonSerialize(), "pointDescriptionFormatter" => "b5fd0c15b3ca81f726e2c7b93907ba36", "selected" => false, "shadow" => "3bf1114a986ba87ed28fc1b5884fc2f8", "showCheckbox" => false, "showInLegend" => true, "skipKeyboardNavigation" => false, "sortIndex" => 85.0, "states" => $states->jsonSerialize(), "stickyTracking" => false, "tooltip" => $tooltip->jsonSerialize(), "turboThreshold" => 26.0, "visible" => false, "zoneAxis" => "88421adabea658556aa3ab6c6181afad", "zones" => ["zones" => "26f94136f5db8afd4e9df1e512f7fdc5"]];
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsTreemap();
         $obj->setAllowDrillToNode(true);
-        $obj->setAllowPointSelect(false);
+        $obj->setAllowPointSelect(true);
         $obj->setAlternateStartingDirection(true);
-        $obj->setAnimation(true);
-        $obj->setAnimationLimit(8.0);
+        $obj->setAnimation(false);
+        $obj->setAnimationLimit(86.0);
         $obj->setBorderColor("97da935a74593c55d78be9d1295aa994");
-        $obj->setBorderWidth(93.0);
+        $obj->setBorderWidth(39.0);
         $obj->setClassName("6f66e878c62db60568a3487869695820");
         $obj->setColor("70dda5dfb8053dc6d1c492574bce9bfd");
-        $obj->setColorByPoint(false);
-        $obj->setColorIndex(74.0);
+        $obj->setColorByPoint(true);
+        $obj->setColorIndex(49.0);
         $obj->setColors(["colors" => "62848e3ce5804aa985513a7922ff87b2"]);
         $obj->setCrisp(true);
-        $obj->setCropThreshold(48.0);
+        $obj->setCropThreshold(70.0);
         $obj->setCursor("crosshair");
         $obj->setDataLabels($dataLabels);
         $obj->setDescription("67daf92c833c41c95db874e18fcb2786");
-        $obj->setEnableMouseTracking(true);
+        $obj->setEnableMouseTracking(false);
         $obj->setEvents($events);
-        $obj->setExposeElementToA11y(false);
+        $obj->setExposeElementToA11y(true);
         $obj->setFindNearestPointBy("xy");
         $obj->setGetExtremesFromAll(true);
         $obj->setIgnoreHiddenPoint(false);
@@ -70,20 +70,20 @@ class HighchartsTreemapTest extends AbstractTestCase {
         $obj->setLevelIsConstant(false);
         $obj->setLevels(["levels" => "836eb5e382b5d9f430df48883fca918e"]);
         $obj->setLinkedTo("914fab47afc86331ec62837807a29419");
-        $obj->setMaxPointWidth(60.0);
-        $obj->setOpacity(32.0);
+        $obj->setMaxPointWidth(58.0);
+        $obj->setOpacity(5.0);
         $obj->setPoint($point);
         $obj->setPointDescriptionFormatter("b5fd0c15b3ca81f726e2c7b93907ba36");
-        $obj->setSelected(true);
+        $obj->setSelected(false);
         $obj->setShadow("3bf1114a986ba87ed28fc1b5884fc2f8");
         $obj->setShowCheckbox(false);
-        $obj->setShowInLegend(false);
+        $obj->setShowInLegend(true);
         $obj->setSkipKeyboardNavigation(false);
-        $obj->setSortIndex(59.0);
+        $obj->setSortIndex(85.0);
         $obj->setStates($states);
-        $obj->setStickyTracking(true);
+        $obj->setStickyTracking(false);
         $obj->setTooltip($tooltip);
-        $obj->setTurboThreshold(82.0);
+        $obj->setTurboThreshold(26.0);
         $obj->setVisible(false);
         $obj->setZoneAxis("88421adabea658556aa3ab6c6181afad");
         $obj->setZones(["zones" => "26f94136f5db8afd4e9df1e512f7fdc5"]);
@@ -165,6 +165,9 @@ class HighchartsTreemapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsTreemap();
 
+        $obj->setAllowDrillToNode(false);
+        $this->assertEquals(false, $obj->getAllowDrillToNode());
+
         $obj->setAllowDrillToNode(true);
         $this->assertEquals(true, $obj->getAllowDrillToNode());
     }
@@ -178,8 +181,8 @@ class HighchartsTreemapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsTreemap();
 
-        $obj->setAllowPointSelect(false);
-        $this->assertEquals(false, $obj->getAllowPointSelect());
+        $obj->setAllowPointSelect(true);
+        $this->assertEquals(true, $obj->getAllowPointSelect());
     }
 
     /**
@@ -204,8 +207,8 @@ class HighchartsTreemapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsTreemap();
 
-        $obj->setAnimation(true);
-        $this->assertEquals(true, $obj->getAnimation());
+        $obj->setAnimation(false);
+        $this->assertEquals(false, $obj->getAnimation());
     }
 
     /**
@@ -217,8 +220,8 @@ class HighchartsTreemapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsTreemap();
 
-        $obj->setAnimationLimit(90.0);
-        $this->assertEquals(90.0, $obj->getAnimationLimit());
+        $obj->setAnimationLimit(43.0);
+        $this->assertEquals(43.0, $obj->getAnimationLimit());
     }
 
     /**
@@ -243,8 +246,8 @@ class HighchartsTreemapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsTreemap();
 
-        $obj->setBorderWidth(1.0);
-        $this->assertEquals(1.0, $obj->getBorderWidth());
+        $obj->setBorderWidth(62.0);
+        $this->assertEquals(62.0, $obj->getBorderWidth());
     }
 
     /**
@@ -295,8 +298,8 @@ class HighchartsTreemapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsTreemap();
 
-        $obj->setColorIndex(48.0);
-        $this->assertEquals(48.0, $obj->getColorIndex());
+        $obj->setColorIndex(11.0);
+        $this->assertEquals(11.0, $obj->getColorIndex());
     }
 
     /**
@@ -321,8 +324,8 @@ class HighchartsTreemapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsTreemap();
 
-        $obj->setCrisp(true);
-        $this->assertEquals(true, $obj->getCrisp());
+        $obj->setCrisp(false);
+        $this->assertEquals(false, $obj->getCrisp());
     }
 
     /**
@@ -334,8 +337,8 @@ class HighchartsTreemapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsTreemap();
 
-        $obj->setCropThreshold(11.0);
-        $this->assertEquals(11.0, $obj->getCropThreshold());
+        $obj->setCropThreshold(29.0);
+        $this->assertEquals(29.0, $obj->getCropThreshold());
     }
 
     /**
@@ -347,8 +350,23 @@ class HighchartsTreemapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsTreemap();
 
+        $obj->setCursor(null);
+        $this->assertEquals(null, $obj->getCursor());
+
         $obj->setCursor("crosshair");
         $this->assertEquals("crosshair", $obj->getCursor());
+
+        $obj->setCursor("default");
+        $this->assertEquals("default", $obj->getCursor());
+
+        $obj->setCursor("help");
+        $this->assertEquals("help", $obj->getCursor());
+
+        $obj->setCursor("none");
+        $this->assertEquals("none", $obj->getCursor());
+
+        $obj->setCursor("pointer");
+        $this->assertEquals("pointer", $obj->getCursor());
     }
 
     /**
@@ -389,8 +407,8 @@ class HighchartsTreemapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsTreemap();
 
-        $obj->setEnableMouseTracking(false);
-        $this->assertEquals(false, $obj->getEnableMouseTracking());
+        $obj->setEnableMouseTracking(true);
+        $this->assertEquals(true, $obj->getEnableMouseTracking());
     }
 
     /**
@@ -431,6 +449,9 @@ class HighchartsTreemapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsTreemap();
 
+        $obj->setFindNearestPointBy("x");
+        $this->assertEquals("x", $obj->getFindNearestPointBy());
+
         $obj->setFindNearestPointBy("xy");
         $this->assertEquals("xy", $obj->getFindNearestPointBy());
     }
@@ -470,6 +491,9 @@ class HighchartsTreemapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsTreemap();
 
+        $obj->setInteractByLeaf(false);
+        $this->assertEquals(false, $obj->getInteractByLeaf());
+
         $obj->setInteractByLeaf(true);
         $this->assertEquals(true, $obj->getInteractByLeaf());
     }
@@ -496,8 +520,17 @@ class HighchartsTreemapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsTreemap();
 
+        $obj->setLayoutAlgorithm("sliceAndDice");
+        $this->assertEquals("sliceAndDice", $obj->getLayoutAlgorithm());
+
+        $obj->setLayoutAlgorithm("squarified");
+        $this->assertEquals("squarified", $obj->getLayoutAlgorithm());
+
         $obj->setLayoutAlgorithm("strip");
         $this->assertEquals("strip", $obj->getLayoutAlgorithm());
+
+        $obj->setLayoutAlgorithm("stripes");
+        $this->assertEquals("stripes", $obj->getLayoutAlgorithm());
     }
 
     /**
@@ -511,6 +544,9 @@ class HighchartsTreemapTest extends AbstractTestCase {
 
         $obj->setLayoutStartingDirection("horizontal");
         $this->assertEquals("horizontal", $obj->getLayoutStartingDirection());
+
+        $obj->setLayoutStartingDirection("vertical");
+        $this->assertEquals("vertical", $obj->getLayoutStartingDirection());
     }
 
     /**
@@ -524,6 +560,9 @@ class HighchartsTreemapTest extends AbstractTestCase {
 
         $obj->setLevelIsConstant(false);
         $this->assertEquals(false, $obj->getLevelIsConstant());
+
+        $obj->setLevelIsConstant(true);
+        $this->assertEquals(true, $obj->getLevelIsConstant());
     }
 
     /**
@@ -561,8 +600,8 @@ class HighchartsTreemapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsTreemap();
 
-        $obj->setMaxPointWidth(8.0);
-        $this->assertEquals(8.0, $obj->getMaxPointWidth());
+        $obj->setMaxPointWidth(74.0);
+        $this->assertEquals(74.0, $obj->getMaxPointWidth());
     }
 
     /**
@@ -574,8 +613,8 @@ class HighchartsTreemapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsTreemap();
 
-        $obj->setOpacity(93.0);
-        $this->assertEquals(93.0, $obj->getOpacity());
+        $obj->setOpacity(64.0);
+        $this->assertEquals(64.0, $obj->getOpacity());
     }
 
     /**
@@ -642,8 +681,8 @@ class HighchartsTreemapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsTreemap();
 
-        $obj->setShowCheckbox(true);
-        $this->assertEquals(true, $obj->getShowCheckbox());
+        $obj->setShowCheckbox(false);
+        $this->assertEquals(false, $obj->getShowCheckbox());
     }
 
     /**
@@ -655,8 +694,8 @@ class HighchartsTreemapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsTreemap();
 
-        $obj->setShowInLegend(true);
-        $this->assertEquals(true, $obj->getShowInLegend());
+        $obj->setShowInLegend(false);
+        $this->assertEquals(false, $obj->getShowInLegend());
     }
 
     /**
@@ -668,8 +707,8 @@ class HighchartsTreemapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsTreemap();
 
-        $obj->setSkipKeyboardNavigation(false);
-        $this->assertEquals(false, $obj->getSkipKeyboardNavigation());
+        $obj->setSkipKeyboardNavigation(true);
+        $this->assertEquals(true, $obj->getSkipKeyboardNavigation());
     }
 
     /**
@@ -681,8 +720,8 @@ class HighchartsTreemapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsTreemap();
 
-        $obj->setSortIndex(55.0);
-        $this->assertEquals(55.0, $obj->getSortIndex());
+        $obj->setSortIndex(99.0);
+        $this->assertEquals(99.0, $obj->getSortIndex());
     }
 
     /**
@@ -710,8 +749,8 @@ class HighchartsTreemapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsTreemap();
 
-        $obj->setStickyTracking(true);
-        $this->assertEquals(true, $obj->getStickyTracking());
+        $obj->setStickyTracking(false);
+        $this->assertEquals(false, $obj->getStickyTracking());
     }
 
     /**
@@ -739,8 +778,8 @@ class HighchartsTreemapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsTreemap();
 
-        $obj->setTurboThreshold(6.0);
-        $this->assertEquals(6.0, $obj->getTurboThreshold());
+        $obj->setTurboThreshold(9.0);
+        $this->assertEquals(9.0, $obj->getTurboThreshold());
     }
 
     /**
@@ -752,8 +791,8 @@ class HighchartsTreemapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsTreemap();
 
-        $obj->setVisible(true);
-        $this->assertEquals(true, $obj->getVisible());
+        $obj->setVisible(false);
+        $this->assertEquals(false, $obj->getVisible());
     }
 
     /**

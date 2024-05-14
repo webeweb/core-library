@@ -31,36 +31,36 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        $exp = ["align" => "right", "allowOverlap" => false, "backgroundColor" => "930f2a43179a7ae5fc25ed873223e99f", "borderColor" => "97da935a74593c55d78be9d1295aa994", "borderRadius" => 42.0, "borderWidth" => 26.0, "className" => "6f66e878c62db60568a3487869695820", "color" => "70dda5dfb8053dc6d1c492574bce9bfd", "crop" => false, "defer" => false, "enabled" => false, "format" => "1ddcb92ade31c8fbd370001f9b29a7d9", "formatter" => "f2ffc59487832cbad265a8fef2133592", "inside" => false, "overflow" => "none", "padding" => 50.0, "rotation" => 89.0, "shadow" => "3bf1114a986ba87ed28fc1b5884fc2f8", "shape" => "8c73a98a300905900337f535531dfca6", "style" => ["style" => "a1b01e734b573fca08eb1a65e6df9a38"], "useHTML" => true, "verticalAlign" => "bottom", "xHigh" => 37.0, "xLow" => 14.0, "yHigh" => 60.0, "yLow" => 38.0, "zIndex" => 21.0];
+        $exp = ["align" => "right", "allowOverlap" => true, "backgroundColor" => "930f2a43179a7ae5fc25ed873223e99f", "borderColor" => "97da935a74593c55d78be9d1295aa994", "borderRadius" => 73.0, "borderWidth" => 34.0, "className" => "6f66e878c62db60568a3487869695820", "color" => "70dda5dfb8053dc6d1c492574bce9bfd", "crop" => false, "defer" => true, "enabled" => false, "format" => "1ddcb92ade31c8fbd370001f9b29a7d9", "formatter" => "f2ffc59487832cbad265a8fef2133592", "inside" => true, "overflow" => "none", "padding" => 63.0, "rotation" => 43.0, "shadow" => "3bf1114a986ba87ed28fc1b5884fc2f8", "shape" => "8c73a98a300905900337f535531dfca6", "style" => ["style" => "a1b01e734b573fca08eb1a65e6df9a38"], "useHTML" => true, "verticalAlign" => "bottom", "xHigh" => 47.0, "xLow" => 24.0, "yHigh" => 42.0, "yLow" => 62.0, "zIndex" => 47.0];
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Arearange\HighchartsDataLabels();
         $obj->setAlign("right");
-        $obj->setAllowOverlap(false);
+        $obj->setAllowOverlap(true);
         $obj->setBackgroundColor("930f2a43179a7ae5fc25ed873223e99f");
         $obj->setBorderColor("97da935a74593c55d78be9d1295aa994");
-        $obj->setBorderRadius(42.0);
-        $obj->setBorderWidth(26.0);
+        $obj->setBorderRadius(73.0);
+        $obj->setBorderWidth(34.0);
         $obj->setClassName("6f66e878c62db60568a3487869695820");
         $obj->setColor("70dda5dfb8053dc6d1c492574bce9bfd");
         $obj->setCrop(false);
-        $obj->setDefer(false);
+        $obj->setDefer(true);
         $obj->setEnabled(false);
         $obj->setFormat("1ddcb92ade31c8fbd370001f9b29a7d9");
         $obj->setFormatter("f2ffc59487832cbad265a8fef2133592");
-        $obj->setInside(false);
+        $obj->setInside(true);
         $obj->setOverflow("none");
-        $obj->setPadding(50.0);
-        $obj->setRotation(89.0);
+        $obj->setPadding(63.0);
+        $obj->setRotation(43.0);
         $obj->setShadow("3bf1114a986ba87ed28fc1b5884fc2f8");
         $obj->setShape("8c73a98a300905900337f535531dfca6");
         $obj->setStyle(["style" => "a1b01e734b573fca08eb1a65e6df9a38"]);
         $obj->setUseHTML(true);
         $obj->setVerticalAlign("bottom");
-        $obj->setXHigh(37.0);
-        $obj->setXLow(14.0);
-        $obj->setYHigh(60.0);
-        $obj->setYLow(38.0);
-        $obj->setZIndex(21.0);
+        $obj->setXHigh(47.0);
+        $obj->setXLow(24.0);
+        $obj->setYHigh(42.0);
+        $obj->setYLow(62.0);
+        $obj->setZIndex(47.0);
 
         $this->assertEquals($exp, $obj->jsonSerialize());
     }
@@ -73,6 +73,12 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
     public function testSetAlign(): void {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Arearange\HighchartsDataLabels();
+
+        $obj->setAlign("center");
+        $this->assertEquals("center", $obj->getAlign());
+
+        $obj->setAlign("left");
+        $this->assertEquals("left", $obj->getAlign());
 
         $obj->setAlign("right");
         $this->assertEquals("right", $obj->getAlign());
@@ -87,8 +93,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Arearange\HighchartsDataLabels();
 
-        $obj->setAllowOverlap(true);
-        $this->assertEquals(true, $obj->getAllowOverlap());
+        $obj->setAllowOverlap(false);
+        $this->assertEquals(false, $obj->getAllowOverlap());
     }
 
     /**
@@ -126,8 +132,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Arearange\HighchartsDataLabels();
 
-        $obj->setBorderRadius(16.0);
-        $this->assertEquals(16.0, $obj->getBorderRadius());
+        $obj->setBorderRadius(40.0);
+        $this->assertEquals(40.0, $obj->getBorderRadius());
     }
 
     /**
@@ -139,8 +145,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Arearange\HighchartsDataLabels();
 
-        $obj->setBorderWidth(85.0);
-        $this->assertEquals(85.0, $obj->getBorderWidth());
+        $obj->setBorderWidth(75.0);
+        $this->assertEquals(75.0, $obj->getBorderWidth());
     }
 
     /**
@@ -191,8 +197,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Arearange\HighchartsDataLabels();
 
-        $obj->setDefer(true);
-        $this->assertEquals(true, $obj->getDefer());
+        $obj->setDefer(false);
+        $this->assertEquals(false, $obj->getDefer());
     }
 
     /**
@@ -204,8 +210,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Arearange\HighchartsDataLabels();
 
-        $obj->setEnabled(false);
-        $this->assertEquals(false, $obj->getEnabled());
+        $obj->setEnabled(true);
+        $this->assertEquals(true, $obj->getEnabled());
     }
 
     /**
@@ -243,8 +249,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Arearange\HighchartsDataLabels();
 
-        $obj->setInside(true);
-        $this->assertEquals(true, $obj->getInside());
+        $obj->setInside(false);
+        $this->assertEquals(false, $obj->getInside());
     }
 
     /**
@@ -255,6 +261,9 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
     public function testSetOverflow(): void {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Arearange\HighchartsDataLabels();
+
+        $obj->setOverflow("justify");
+        $this->assertEquals("justify", $obj->getOverflow());
 
         $obj->setOverflow("none");
         $this->assertEquals("none", $obj->getOverflow());
@@ -269,8 +278,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Arearange\HighchartsDataLabels();
 
-        $obj->setPadding(73.0);
-        $this->assertEquals(73.0, $obj->getPadding());
+        $obj->setPadding(1.0);
+        $this->assertEquals(1.0, $obj->getPadding());
     }
 
     /**
@@ -282,8 +291,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Arearange\HighchartsDataLabels();
 
-        $obj->setRotation(77.0);
-        $this->assertEquals(77.0, $obj->getRotation());
+        $obj->setRotation(45.0);
+        $this->assertEquals(45.0, $obj->getRotation());
     }
 
     /**
@@ -349,6 +358,12 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj->setVerticalAlign("bottom");
         $this->assertEquals("bottom", $obj->getVerticalAlign());
+
+        $obj->setVerticalAlign("middle");
+        $this->assertEquals("middle", $obj->getVerticalAlign());
+
+        $obj->setVerticalAlign("top");
+        $this->assertEquals("top", $obj->getVerticalAlign());
     }
 
     /**
@@ -360,8 +375,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Arearange\HighchartsDataLabels();
 
-        $obj->setXHigh(88.0);
-        $this->assertEquals(88.0, $obj->getXHigh());
+        $obj->setXHigh(48.0);
+        $this->assertEquals(48.0, $obj->getXHigh());
     }
 
     /**
@@ -373,8 +388,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Arearange\HighchartsDataLabels();
 
-        $obj->setXLow(61.0);
-        $this->assertEquals(61.0, $obj->getXLow());
+        $obj->setXLow(21.0);
+        $this->assertEquals(21.0, $obj->getXLow());
     }
 
     /**
@@ -386,8 +401,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Arearange\HighchartsDataLabels();
 
-        $obj->setYHigh(80.0);
-        $this->assertEquals(80.0, $obj->getYHigh());
+        $obj->setYHigh(48.0);
+        $this->assertEquals(48.0, $obj->getYHigh());
     }
 
     /**
@@ -399,8 +414,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Arearange\HighchartsDataLabels();
 
-        $obj->setYLow(68.0);
-        $this->assertEquals(68.0, $obj->getYLow());
+        $obj->setYLow(3.0);
+        $this->assertEquals(3.0, $obj->getYLow());
     }
 
     /**
@@ -412,8 +427,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Arearange\HighchartsDataLabels();
 
-        $obj->setZIndex(81.0);
-        $this->assertEquals(81.0, $obj->getZIndex());
+        $obj->setZIndex(56.0);
+        $this->assertEquals(56.0, $obj->getZIndex());
     }
 
     /**

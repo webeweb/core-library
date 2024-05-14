@@ -31,13 +31,13 @@ class HighchartsPositionTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        $exp = ["align" => "right", "verticalAlign" => "bottom", "x" => 45.0, "y" => 57.0];
+        $exp = ["align" => "right", "verticalAlign" => "bottom", "x" => 46.0, "y" => 85.0];
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Credits\HighchartsPosition();
         $obj->setAlign("right");
         $obj->setVerticalAlign("bottom");
-        $obj->setX(45.0);
-        $obj->setY(57.0);
+        $obj->setX(46.0);
+        $obj->setY(85.0);
 
         $this->assertEquals($exp, $obj->jsonSerialize());
     }
@@ -50,6 +50,12 @@ class HighchartsPositionTest extends AbstractTestCase {
     public function testSetAlign(): void {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Credits\HighchartsPosition();
+
+        $obj->setAlign("center");
+        $this->assertEquals("center", $obj->getAlign());
+
+        $obj->setAlign("left");
+        $this->assertEquals("left", $obj->getAlign());
 
         $obj->setAlign("right");
         $this->assertEquals("right", $obj->getAlign());
@@ -66,6 +72,12 @@ class HighchartsPositionTest extends AbstractTestCase {
 
         $obj->setVerticalAlign("bottom");
         $this->assertEquals("bottom", $obj->getVerticalAlign());
+
+        $obj->setVerticalAlign("middle");
+        $this->assertEquals("middle", $obj->getVerticalAlign());
+
+        $obj->setVerticalAlign("top");
+        $this->assertEquals("top", $obj->getVerticalAlign());
     }
 
     /**
@@ -77,8 +89,8 @@ class HighchartsPositionTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Credits\HighchartsPosition();
 
-        $obj->setX(23.0);
-        $this->assertEquals(23.0, $obj->getX());
+        $obj->setX(77.0);
+        $this->assertEquals(77.0, $obj->getX());
     }
 
     /**
@@ -90,8 +102,8 @@ class HighchartsPositionTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Credits\HighchartsPosition();
 
-        $obj->setY(100.0);
-        $this->assertEquals(100.0, $obj->getY());
+        $obj->setY(94.0);
+        $this->assertEquals(94.0, $obj->getY());
     }
 
     /**

@@ -31,18 +31,18 @@ class HighchartsMarkerTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        $exp = ["enabled" => true, "fillColor" => "1fde055d3ff900e04ca08bc82066d7fd", "height" => 59.0, "lineColor" => "c2580eebfdbdb9fc629f50cc147c3f63", "lineWidth" => 18.0, "radius" => 92.0, "states" => "34d955a0df5f7af9c9b4e4dccb3c3564", "symbol" => "triangle-down", "width" => 94.0];
+        $exp = ["enabled" => true, "fillColor" => "1fde055d3ff900e04ca08bc82066d7fd", "height" => 2.0, "lineColor" => "c2580eebfdbdb9fc629f50cc147c3f63", "lineWidth" => 11.0, "radius" => 16.0, "states" => "34d955a0df5f7af9c9b4e4dccb3c3564", "symbol" => "triangle-down", "width" => 55.0];
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Scatter\States\Hover\HighchartsMarker();
         $obj->setEnabled(true);
         $obj->setFillColor("1fde055d3ff900e04ca08bc82066d7fd");
-        $obj->setHeight(59.0);
+        $obj->setHeight(2.0);
         $obj->setLineColor("c2580eebfdbdb9fc629f50cc147c3f63");
-        $obj->setLineWidth(18.0);
-        $obj->setRadius(92.0);
+        $obj->setLineWidth(11.0);
+        $obj->setRadius(16.0);
         $obj->setStates("34d955a0df5f7af9c9b4e4dccb3c3564");
         $obj->setSymbol("triangle-down");
-        $obj->setWidth(94.0);
+        $obj->setWidth(55.0);
 
         $this->assertEquals($exp, $obj->jsonSerialize());
     }
@@ -56,8 +56,8 @@ class HighchartsMarkerTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Scatter\States\Hover\HighchartsMarker();
 
-        $obj->setEnabled(true);
-        $this->assertEquals(true, $obj->getEnabled());
+        $obj->setEnabled(false);
+        $this->assertEquals(false, $obj->getEnabled());
     }
 
     /**
@@ -82,8 +82,8 @@ class HighchartsMarkerTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Scatter\States\Hover\HighchartsMarker();
 
-        $obj->setHeight(23.0);
-        $this->assertEquals(23.0, $obj->getHeight());
+        $obj->setHeight(97.0);
+        $this->assertEquals(97.0, $obj->getHeight());
     }
 
     /**
@@ -108,8 +108,8 @@ class HighchartsMarkerTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Scatter\States\Hover\HighchartsMarker();
 
-        $obj->setLineWidth(55.0);
-        $this->assertEquals(55.0, $obj->getLineWidth());
+        $obj->setLineWidth(45.0);
+        $this->assertEquals(45.0, $obj->getLineWidth());
     }
 
     /**
@@ -121,8 +121,8 @@ class HighchartsMarkerTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Scatter\States\Hover\HighchartsMarker();
 
-        $obj->setRadius(61.0);
-        $this->assertEquals(61.0, $obj->getRadius());
+        $obj->setRadius(3.0);
+        $this->assertEquals(3.0, $obj->getRadius());
     }
 
     /**
@@ -147,6 +147,21 @@ class HighchartsMarkerTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Scatter\States\Hover\HighchartsMarker();
 
+        $obj->setSymbol(null);
+        $this->assertEquals(null, $obj->getSymbol());
+
+        $obj->setSymbol("circle");
+        $this->assertEquals("circle", $obj->getSymbol());
+
+        $obj->setSymbol("diamond");
+        $this->assertEquals("diamond", $obj->getSymbol());
+
+        $obj->setSymbol("square");
+        $this->assertEquals("square", $obj->getSymbol());
+
+        $obj->setSymbol("triangle");
+        $this->assertEquals("triangle", $obj->getSymbol());
+
         $obj->setSymbol("triangle-down");
         $this->assertEquals("triangle-down", $obj->getSymbol());
     }
@@ -160,8 +175,8 @@ class HighchartsMarkerTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Scatter\States\Hover\HighchartsMarker();
 
-        $obj->setWidth(8.0);
-        $this->assertEquals(8.0, $obj->getWidth());
+        $obj->setWidth(3.0);
+        $this->assertEquals(3.0, $obj->getWidth());
     }
 
     /**

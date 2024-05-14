@@ -57,6 +57,12 @@ class HighchartsTitleTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsTitle();
 
+        $obj->setAlign("center");
+        $this->assertEquals("center", $obj->getAlign());
+
+        $obj->setAlign("left");
+        $this->assertEquals("left", $obj->getAlign());
+
         $obj->setAlign("right");
         $this->assertEquals("right", $obj->getAlign());
     }
@@ -137,6 +143,12 @@ class HighchartsTitleTest extends AbstractTestCase {
 
         $obj->setVerticalAlign("bottom");
         $this->assertEquals("bottom", $obj->getVerticalAlign());
+
+        $obj->setVerticalAlign("middle");
+        $this->assertEquals("middle", $obj->getVerticalAlign());
+
+        $obj->setVerticalAlign("top");
+        $this->assertEquals("top", $obj->getVerticalAlign());
     }
 
     /**

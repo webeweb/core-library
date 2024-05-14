@@ -31,13 +31,13 @@ class HighchartsPositionTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        $exp = ["align" => "right", "verticalAlign" => "bottom", "x" => 73.0, "y" => 89.0];
+        $exp = ["align" => "right", "verticalAlign" => "bottom", "x" => 37.0, "y" => 82.0];
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\NoData\HighchartsPosition();
         $obj->setAlign("right");
         $obj->setVerticalAlign("bottom");
-        $obj->setX(73.0);
-        $obj->setY(89.0);
+        $obj->setX(37.0);
+        $obj->setY(82.0);
 
         $this->assertEquals($exp, $obj->jsonSerialize());
     }
@@ -50,6 +50,12 @@ class HighchartsPositionTest extends AbstractTestCase {
     public function testSetAlign(): void {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\NoData\HighchartsPosition();
+
+        $obj->setAlign("center");
+        $this->assertEquals("center", $obj->getAlign());
+
+        $obj->setAlign("left");
+        $this->assertEquals("left", $obj->getAlign());
 
         $obj->setAlign("right");
         $this->assertEquals("right", $obj->getAlign());
@@ -66,6 +72,12 @@ class HighchartsPositionTest extends AbstractTestCase {
 
         $obj->setVerticalAlign("bottom");
         $this->assertEquals("bottom", $obj->getVerticalAlign());
+
+        $obj->setVerticalAlign("middle");
+        $this->assertEquals("middle", $obj->getVerticalAlign());
+
+        $obj->setVerticalAlign("top");
+        $this->assertEquals("top", $obj->getVerticalAlign());
     }
 
     /**
@@ -77,8 +89,8 @@ class HighchartsPositionTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\NoData\HighchartsPosition();
 
-        $obj->setX(35.0);
-        $this->assertEquals(35.0, $obj->getX());
+        $obj->setX(7.0);
+        $this->assertEquals(7.0, $obj->getX());
     }
 
     /**
@@ -90,8 +102,8 @@ class HighchartsPositionTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\NoData\HighchartsPosition();
 
-        $obj->setY(99.0);
-        $this->assertEquals(99.0, $obj->getY());
+        $obj->setY(75.0);
+        $this->assertEquals(75.0, $obj->getY());
     }
 
     /**

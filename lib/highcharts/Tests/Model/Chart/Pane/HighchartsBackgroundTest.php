@@ -31,12 +31,12 @@ class HighchartsBackgroundTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        $exp = ["backgroundColor" => "930f2a43179a7ae5fc25ed873223e99f", "borderColor" => "97da935a74593c55d78be9d1295aa994", "borderWidth" => 22.0, "className" => "6f66e878c62db60568a3487869695820", "innerRadius" => "4af6d1c19dac6f0e026e724be31aa5f6", "outerRadius" => "fcbebf64e522be59666d285fa4c098b1", "shape" => "arc"];
+        $exp = ["backgroundColor" => "930f2a43179a7ae5fc25ed873223e99f", "borderColor" => "97da935a74593c55d78be9d1295aa994", "borderWidth" => 32.0, "className" => "6f66e878c62db60568a3487869695820", "innerRadius" => "4af6d1c19dac6f0e026e724be31aa5f6", "outerRadius" => "fcbebf64e522be59666d285fa4c098b1", "shape" => "arc"];
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Pane\HighchartsBackground();
         $obj->setBackgroundColor("930f2a43179a7ae5fc25ed873223e99f");
         $obj->setBorderColor("97da935a74593c55d78be9d1295aa994");
-        $obj->setBorderWidth(22.0);
+        $obj->setBorderWidth(32.0);
         $obj->setClassName("6f66e878c62db60568a3487869695820");
         $obj->setInnerRadius("4af6d1c19dac6f0e026e724be31aa5f6");
         $obj->setOuterRadius("fcbebf64e522be59666d285fa4c098b1");
@@ -80,8 +80,8 @@ class HighchartsBackgroundTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Pane\HighchartsBackground();
 
-        $obj->setBorderWidth(28.0);
-        $this->assertEquals(28.0, $obj->getBorderWidth());
+        $obj->setBorderWidth(41.0);
+        $this->assertEquals(41.0, $obj->getBorderWidth());
     }
 
     /**
@@ -134,6 +134,9 @@ class HighchartsBackgroundTest extends AbstractTestCase {
 
         $obj->setShape("arc");
         $this->assertEquals("arc", $obj->getShape());
+
+        $obj->setShape("solid");
+        $this->assertEquals("solid", $obj->getShape());
     }
 
     /**

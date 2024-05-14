@@ -31,23 +31,23 @@ class HighchartsButtonOptionsTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        $exp = ["align" => "right", "enabled" => false, "height" => 36.0, "symbolFill" => "91c9eea38e42d2f606dbfea1e027bfbf", "symbolSize" => 32.0, "symbolStroke" => "07f92b4194c5eb604aeb59004eeaab2a", "symbolStrokeWidth" => 29.0, "symbolX" => 35.0, "symbolY" => 52.0, "text" => "1cb251ec0d568de6a929b520c4aed8d1", "theme" => ["theme" => "f484570d7cf557020e11ace406901b10"], "verticalAlign" => "bottom", "width" => 2.0, "y" => 52.0];
+        $exp = ["align" => "right", "enabled" => true, "height" => 70.0, "symbolFill" => "91c9eea38e42d2f606dbfea1e027bfbf", "symbolSize" => 35.0, "symbolStroke" => "07f92b4194c5eb604aeb59004eeaab2a", "symbolStrokeWidth" => 30.0, "symbolX" => 8.0, "symbolY" => 72.0, "text" => "1cb251ec0d568de6a929b520c4aed8d1", "theme" => ["theme" => "f484570d7cf557020e11ace406901b10"], "verticalAlign" => "bottom", "width" => 77.0, "y" => 4.0];
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Navigation\HighchartsButtonOptions();
         $obj->setAlign("right");
-        $obj->setEnabled(false);
-        $obj->setHeight(36.0);
+        $obj->setEnabled(true);
+        $obj->setHeight(70.0);
         $obj->setSymbolFill("91c9eea38e42d2f606dbfea1e027bfbf");
-        $obj->setSymbolSize(32.0);
+        $obj->setSymbolSize(35.0);
         $obj->setSymbolStroke("07f92b4194c5eb604aeb59004eeaab2a");
-        $obj->setSymbolStrokeWidth(29.0);
-        $obj->setSymbolX(35.0);
-        $obj->setSymbolY(52.0);
+        $obj->setSymbolStrokeWidth(30.0);
+        $obj->setSymbolX(8.0);
+        $obj->setSymbolY(72.0);
         $obj->setText("1cb251ec0d568de6a929b520c4aed8d1");
         $obj->setTheme(["theme" => "f484570d7cf557020e11ace406901b10"]);
         $obj->setVerticalAlign("bottom");
-        $obj->setWidth(2.0);
-        $obj->setY(52.0);
+        $obj->setWidth(77.0);
+        $obj->setY(4.0);
 
         $this->assertEquals($exp, $obj->jsonSerialize());
     }
@@ -60,6 +60,12 @@ class HighchartsButtonOptionsTest extends AbstractTestCase {
     public function testSetAlign(): void {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Navigation\HighchartsButtonOptions();
+
+        $obj->setAlign("center");
+        $this->assertEquals("center", $obj->getAlign());
+
+        $obj->setAlign("left");
+        $this->assertEquals("left", $obj->getAlign());
 
         $obj->setAlign("right");
         $this->assertEquals("right", $obj->getAlign());
@@ -87,8 +93,8 @@ class HighchartsButtonOptionsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Navigation\HighchartsButtonOptions();
 
-        $obj->setHeight(47.0);
-        $this->assertEquals(47.0, $obj->getHeight());
+        $obj->setHeight(88.0);
+        $this->assertEquals(88.0, $obj->getHeight());
     }
 
     /**
@@ -113,8 +119,8 @@ class HighchartsButtonOptionsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Navigation\HighchartsButtonOptions();
 
-        $obj->setSymbolSize(31.0);
-        $this->assertEquals(31.0, $obj->getSymbolSize());
+        $obj->setSymbolSize(80.0);
+        $this->assertEquals(80.0, $obj->getSymbolSize());
     }
 
     /**
@@ -139,8 +145,8 @@ class HighchartsButtonOptionsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Navigation\HighchartsButtonOptions();
 
-        $obj->setSymbolStrokeWidth(63.0);
-        $this->assertEquals(63.0, $obj->getSymbolStrokeWidth());
+        $obj->setSymbolStrokeWidth(88.0);
+        $this->assertEquals(88.0, $obj->getSymbolStrokeWidth());
     }
 
     /**
@@ -152,8 +158,8 @@ class HighchartsButtonOptionsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Navigation\HighchartsButtonOptions();
 
-        $obj->setSymbolX(20.0);
-        $this->assertEquals(20.0, $obj->getSymbolX());
+        $obj->setSymbolX(98.0);
+        $this->assertEquals(98.0, $obj->getSymbolX());
     }
 
     /**
@@ -165,8 +171,8 @@ class HighchartsButtonOptionsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Navigation\HighchartsButtonOptions();
 
-        $obj->setSymbolY(19.0);
-        $this->assertEquals(19.0, $obj->getSymbolY());
+        $obj->setSymbolY(87.0);
+        $this->assertEquals(87.0, $obj->getSymbolY());
     }
 
     /**
@@ -206,6 +212,12 @@ class HighchartsButtonOptionsTest extends AbstractTestCase {
 
         $obj->setVerticalAlign("bottom");
         $this->assertEquals("bottom", $obj->getVerticalAlign());
+
+        $obj->setVerticalAlign("middle");
+        $this->assertEquals("middle", $obj->getVerticalAlign());
+
+        $obj->setVerticalAlign("top");
+        $this->assertEquals("top", $obj->getVerticalAlign());
     }
 
     /**
@@ -217,8 +229,8 @@ class HighchartsButtonOptionsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Navigation\HighchartsButtonOptions();
 
-        $obj->setWidth(53.0);
-        $this->assertEquals(53.0, $obj->getWidth());
+        $obj->setWidth(51.0);
+        $this->assertEquals(51.0, $obj->getWidth());
     }
 
     /**
@@ -230,8 +242,8 @@ class HighchartsButtonOptionsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Navigation\HighchartsButtonOptions();
 
-        $obj->setY(27.0);
-        $this->assertEquals(27.0, $obj->getY());
+        $obj->setY(97.0);
+        $this->assertEquals(97.0, $obj->getY());
     }
 
     /**

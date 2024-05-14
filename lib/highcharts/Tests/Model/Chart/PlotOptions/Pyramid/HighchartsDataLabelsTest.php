@@ -31,37 +31,37 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        $exp = ["backgroundColor" => "930f2a43179a7ae5fc25ed873223e99f", "borderColor" => "97da935a74593c55d78be9d1295aa994", "borderRadius" => 35.0, "borderWidth" => 20.0, "className" => "6f66e878c62db60568a3487869695820", "color" => "70dda5dfb8053dc6d1c492574bce9bfd", "connectorColor" => "8bf77ed7251dc34fbae6786923398a9d", "connectorPadding" => 51.0, "connectorWidth" => 98.0, "crop" => true, "defer" => true, "distance" => 49.0, "enabled" => true, "format" => "1ddcb92ade31c8fbd370001f9b29a7d9", "formatter" => "f2ffc59487832cbad265a8fef2133592", "inside" => false, "overflow" => "none", "padding" => 5.0, "rotation" => 16.0, "shadow" => "3bf1114a986ba87ed28fc1b5884fc2f8", "shape" => "8c73a98a300905900337f535531dfca6", "softConnector" => true, "style" => ["style" => "a1b01e734b573fca08eb1a65e6df9a38"], "useHTML" => true, "verticalAlign" => "bottom", "x" => 5.0, "y" => 30.0, "zIndex" => 63.0];
+        $exp = ["backgroundColor" => "930f2a43179a7ae5fc25ed873223e99f", "borderColor" => "97da935a74593c55d78be9d1295aa994", "borderRadius" => 99.0, "borderWidth" => 48.0, "className" => "6f66e878c62db60568a3487869695820", "color" => "70dda5dfb8053dc6d1c492574bce9bfd", "connectorColor" => "8bf77ed7251dc34fbae6786923398a9d", "connectorPadding" => 76.0, "connectorWidth" => 96.0, "crop" => true, "defer" => true, "distance" => 68.0, "enabled" => false, "format" => "1ddcb92ade31c8fbd370001f9b29a7d9", "formatter" => "f2ffc59487832cbad265a8fef2133592", "inside" => false, "overflow" => "none", "padding" => 94.0, "rotation" => 85.0, "shadow" => "3bf1114a986ba87ed28fc1b5884fc2f8", "shape" => "8c73a98a300905900337f535531dfca6", "softConnector" => false, "style" => ["style" => "a1b01e734b573fca08eb1a65e6df9a38"], "useHTML" => false, "verticalAlign" => "bottom", "x" => 24.0, "y" => 12.0, "zIndex" => 33.0];
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Pyramid\HighchartsDataLabels();
         $obj->setBackgroundColor("930f2a43179a7ae5fc25ed873223e99f");
         $obj->setBorderColor("97da935a74593c55d78be9d1295aa994");
-        $obj->setBorderRadius(35.0);
-        $obj->setBorderWidth(20.0);
+        $obj->setBorderRadius(99.0);
+        $obj->setBorderWidth(48.0);
         $obj->setClassName("6f66e878c62db60568a3487869695820");
         $obj->setColor("70dda5dfb8053dc6d1c492574bce9bfd");
         $obj->setConnectorColor("8bf77ed7251dc34fbae6786923398a9d");
-        $obj->setConnectorPadding(51.0);
-        $obj->setConnectorWidth(98.0);
+        $obj->setConnectorPadding(76.0);
+        $obj->setConnectorWidth(96.0);
         $obj->setCrop(true);
         $obj->setDefer(true);
-        $obj->setDistance(49.0);
-        $obj->setEnabled(true);
+        $obj->setDistance(68.0);
+        $obj->setEnabled(false);
         $obj->setFormat("1ddcb92ade31c8fbd370001f9b29a7d9");
         $obj->setFormatter("f2ffc59487832cbad265a8fef2133592");
         $obj->setInside(false);
         $obj->setOverflow("none");
-        $obj->setPadding(5.0);
-        $obj->setRotation(16.0);
+        $obj->setPadding(94.0);
+        $obj->setRotation(85.0);
         $obj->setShadow("3bf1114a986ba87ed28fc1b5884fc2f8");
         $obj->setShape("8c73a98a300905900337f535531dfca6");
-        $obj->setSoftConnector(true);
+        $obj->setSoftConnector(false);
         $obj->setStyle(["style" => "a1b01e734b573fca08eb1a65e6df9a38"]);
-        $obj->setUseHTML(true);
+        $obj->setUseHTML(false);
         $obj->setVerticalAlign("bottom");
-        $obj->setX(5.0);
-        $obj->setY(30.0);
-        $obj->setZIndex(63.0);
+        $obj->setX(24.0);
+        $obj->setY(12.0);
+        $obj->setZIndex(33.0);
 
         $this->assertEquals($exp, $obj->jsonSerialize());
     }
@@ -101,8 +101,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Pyramid\HighchartsDataLabels();
 
-        $obj->setBorderRadius(95.0);
-        $this->assertEquals(95.0, $obj->getBorderRadius());
+        $obj->setBorderRadius(70.0);
+        $this->assertEquals(70.0, $obj->getBorderRadius());
     }
 
     /**
@@ -114,8 +114,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Pyramid\HighchartsDataLabels();
 
-        $obj->setBorderWidth(89.0);
-        $this->assertEquals(89.0, $obj->getBorderWidth());
+        $obj->setBorderWidth(84.0);
+        $this->assertEquals(84.0, $obj->getBorderWidth());
     }
 
     /**
@@ -166,8 +166,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Pyramid\HighchartsDataLabels();
 
-        $obj->setConnectorPadding(38.0);
-        $this->assertEquals(38.0, $obj->getConnectorPadding());
+        $obj->setConnectorPadding(98.0);
+        $this->assertEquals(98.0, $obj->getConnectorPadding());
     }
 
     /**
@@ -179,8 +179,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Pyramid\HighchartsDataLabels();
 
-        $obj->setConnectorWidth(99.0);
-        $this->assertEquals(99.0, $obj->getConnectorWidth());
+        $obj->setConnectorWidth(53.0);
+        $this->assertEquals(53.0, $obj->getConnectorWidth());
     }
 
     /**
@@ -192,8 +192,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Pyramid\HighchartsDataLabels();
 
-        $obj->setCrop(false);
-        $this->assertEquals(false, $obj->getCrop());
+        $obj->setCrop(true);
+        $this->assertEquals(true, $obj->getCrop());
     }
 
     /**
@@ -205,8 +205,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Pyramid\HighchartsDataLabels();
 
-        $obj->setDefer(true);
-        $this->assertEquals(true, $obj->getDefer());
+        $obj->setDefer(false);
+        $this->assertEquals(false, $obj->getDefer());
     }
 
     /**
@@ -218,8 +218,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Pyramid\HighchartsDataLabels();
 
-        $obj->setDistance(36.0);
-        $this->assertEquals(36.0, $obj->getDistance());
+        $obj->setDistance(53.0);
+        $this->assertEquals(53.0, $obj->getDistance());
     }
 
     /**
@@ -270,8 +270,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Pyramid\HighchartsDataLabels();
 
-        $obj->setInside(true);
-        $this->assertEquals(true, $obj->getInside());
+        $obj->setInside(false);
+        $this->assertEquals(false, $obj->getInside());
     }
 
     /**
@@ -282,6 +282,9 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
     public function testSetOverflow(): void {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Pyramid\HighchartsDataLabels();
+
+        $obj->setOverflow("justify");
+        $this->assertEquals("justify", $obj->getOverflow());
 
         $obj->setOverflow("none");
         $this->assertEquals("none", $obj->getOverflow());
@@ -296,8 +299,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Pyramid\HighchartsDataLabels();
 
-        $obj->setPadding(37.0);
-        $this->assertEquals(37.0, $obj->getPadding());
+        $obj->setPadding(99.0);
+        $this->assertEquals(99.0, $obj->getPadding());
     }
 
     /**
@@ -309,8 +312,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Pyramid\HighchartsDataLabels();
 
-        $obj->setRotation(90.0);
-        $this->assertEquals(90.0, $obj->getRotation());
+        $obj->setRotation(36.0);
+        $this->assertEquals(36.0, $obj->getRotation());
     }
 
     /**
@@ -348,8 +351,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Pyramid\HighchartsDataLabels();
 
-        $obj->setSoftConnector(true);
-        $this->assertEquals(true, $obj->getSoftConnector());
+        $obj->setSoftConnector(false);
+        $this->assertEquals(false, $obj->getSoftConnector());
     }
 
     /**
@@ -389,6 +392,12 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj->setVerticalAlign("bottom");
         $this->assertEquals("bottom", $obj->getVerticalAlign());
+
+        $obj->setVerticalAlign("middle");
+        $this->assertEquals("middle", $obj->getVerticalAlign());
+
+        $obj->setVerticalAlign("top");
+        $this->assertEquals("top", $obj->getVerticalAlign());
     }
 
     /**
@@ -400,8 +409,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Pyramid\HighchartsDataLabels();
 
-        $obj->setX(89.0);
-        $this->assertEquals(89.0, $obj->getX());
+        $obj->setX(38.0);
+        $this->assertEquals(38.0, $obj->getX());
     }
 
     /**
@@ -413,8 +422,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Pyramid\HighchartsDataLabels();
 
-        $obj->setY(20.0);
-        $this->assertEquals(20.0, $obj->getY());
+        $obj->setY(18.0);
+        $this->assertEquals(18.0, $obj->getY());
     }
 
     /**
@@ -426,8 +435,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Pyramid\HighchartsDataLabels();
 
-        $obj->setZIndex(99.0);
-        $this->assertEquals(99.0, $obj->getZIndex());
+        $obj->setZIndex(75.0);
+        $this->assertEquals(75.0, $obj->getZIndex());
     }
 
     /**

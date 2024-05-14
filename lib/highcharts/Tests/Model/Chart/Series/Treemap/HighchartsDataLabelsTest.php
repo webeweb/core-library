@@ -31,34 +31,34 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        $exp = ["align" => "right", "allowOverlap" => true, "backgroundColor" => "930f2a43179a7ae5fc25ed873223e99f", "borderColor" => "97da935a74593c55d78be9d1295aa994", "borderRadius" => 71.0, "borderWidth" => 54.0, "className" => "6f66e878c62db60568a3487869695820", "color" => "70dda5dfb8053dc6d1c492574bce9bfd", "crop" => false, "defer" => true, "enabled" => false, "format" => "1ddcb92ade31c8fbd370001f9b29a7d9", "formatter" => "f2ffc59487832cbad265a8fef2133592", "inside" => false, "overflow" => "none", "padding" => 70.0, "rotation" => 73.0, "shadow" => "3bf1114a986ba87ed28fc1b5884fc2f8", "shape" => "8c73a98a300905900337f535531dfca6", "style" => ["style" => "a1b01e734b573fca08eb1a65e6df9a38"], "useHTML" => true, "verticalAlign" => "ca9e085e0fcf449934cc13d9e60dd722", "x" => 21.0, "y" => 10.0, "zIndex" => 19.0];
+        $exp = ["align" => "right", "allowOverlap" => false, "backgroundColor" => "930f2a43179a7ae5fc25ed873223e99f", "borderColor" => "97da935a74593c55d78be9d1295aa994", "borderRadius" => 12.0, "borderWidth" => 46.0, "className" => "6f66e878c62db60568a3487869695820", "color" => "70dda5dfb8053dc6d1c492574bce9bfd", "crop" => true, "defer" => true, "enabled" => true, "format" => "1ddcb92ade31c8fbd370001f9b29a7d9", "formatter" => "f2ffc59487832cbad265a8fef2133592", "inside" => true, "overflow" => "none", "padding" => 43.0, "rotation" => 42.0, "shadow" => "3bf1114a986ba87ed28fc1b5884fc2f8", "shape" => "8c73a98a300905900337f535531dfca6", "style" => ["style" => "a1b01e734b573fca08eb1a65e6df9a38"], "useHTML" => false, "verticalAlign" => "ca9e085e0fcf449934cc13d9e60dd722", "x" => 47.0, "y" => 94.0, "zIndex" => 15.0];
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Treemap\HighchartsDataLabels();
         $obj->setAlign("right");
-        $obj->setAllowOverlap(true);
+        $obj->setAllowOverlap(false);
         $obj->setBackgroundColor("930f2a43179a7ae5fc25ed873223e99f");
         $obj->setBorderColor("97da935a74593c55d78be9d1295aa994");
-        $obj->setBorderRadius(71.0);
-        $obj->setBorderWidth(54.0);
+        $obj->setBorderRadius(12.0);
+        $obj->setBorderWidth(46.0);
         $obj->setClassName("6f66e878c62db60568a3487869695820");
         $obj->setColor("70dda5dfb8053dc6d1c492574bce9bfd");
-        $obj->setCrop(false);
+        $obj->setCrop(true);
         $obj->setDefer(true);
-        $obj->setEnabled(false);
+        $obj->setEnabled(true);
         $obj->setFormat("1ddcb92ade31c8fbd370001f9b29a7d9");
         $obj->setFormatter("f2ffc59487832cbad265a8fef2133592");
-        $obj->setInside(false);
+        $obj->setInside(true);
         $obj->setOverflow("none");
-        $obj->setPadding(70.0);
-        $obj->setRotation(73.0);
+        $obj->setPadding(43.0);
+        $obj->setRotation(42.0);
         $obj->setShadow("3bf1114a986ba87ed28fc1b5884fc2f8");
         $obj->setShape("8c73a98a300905900337f535531dfca6");
         $obj->setStyle(["style" => "a1b01e734b573fca08eb1a65e6df9a38"]);
-        $obj->setUseHTML(true);
+        $obj->setUseHTML(false);
         $obj->setVerticalAlign("ca9e085e0fcf449934cc13d9e60dd722");
-        $obj->setX(21.0);
-        $obj->setY(10.0);
-        $obj->setZIndex(19.0);
+        $obj->setX(47.0);
+        $obj->setY(94.0);
+        $obj->setZIndex(15.0);
 
         $this->assertEquals($exp, $obj->jsonSerialize());
     }
@@ -71,6 +71,12 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
     public function testSetAlign(): void {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Treemap\HighchartsDataLabels();
+
+        $obj->setAlign("center");
+        $this->assertEquals("center", $obj->getAlign());
+
+        $obj->setAlign("left");
+        $this->assertEquals("left", $obj->getAlign());
 
         $obj->setAlign("right");
         $this->assertEquals("right", $obj->getAlign());
@@ -85,8 +91,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Treemap\HighchartsDataLabels();
 
-        $obj->setAllowOverlap(true);
-        $this->assertEquals(true, $obj->getAllowOverlap());
+        $obj->setAllowOverlap(false);
+        $this->assertEquals(false, $obj->getAllowOverlap());
     }
 
     /**
@@ -124,8 +130,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Treemap\HighchartsDataLabels();
 
-        $obj->setBorderRadius(64.0);
-        $this->assertEquals(64.0, $obj->getBorderRadius());
+        $obj->setBorderRadius(69.0);
+        $this->assertEquals(69.0, $obj->getBorderRadius());
     }
 
     /**
@@ -137,8 +143,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Treemap\HighchartsDataLabels();
 
-        $obj->setBorderWidth(12.0);
-        $this->assertEquals(12.0, $obj->getBorderWidth());
+        $obj->setBorderWidth(42.0);
+        $this->assertEquals(42.0, $obj->getBorderWidth());
     }
 
     /**
@@ -176,8 +182,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Treemap\HighchartsDataLabels();
 
-        $obj->setCrop(true);
-        $this->assertEquals(true, $obj->getCrop());
+        $obj->setCrop(false);
+        $this->assertEquals(false, $obj->getCrop());
     }
 
     /**
@@ -189,8 +195,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Treemap\HighchartsDataLabels();
 
-        $obj->setDefer(false);
-        $this->assertEquals(false, $obj->getDefer());
+        $obj->setDefer(true);
+        $this->assertEquals(true, $obj->getDefer());
     }
 
     /**
@@ -241,8 +247,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Treemap\HighchartsDataLabels();
 
-        $obj->setInside(true);
-        $this->assertEquals(true, $obj->getInside());
+        $obj->setInside(false);
+        $this->assertEquals(false, $obj->getInside());
     }
 
     /**
@@ -253,6 +259,9 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
     public function testSetOverflow(): void {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Treemap\HighchartsDataLabels();
+
+        $obj->setOverflow("justify");
+        $this->assertEquals("justify", $obj->getOverflow());
 
         $obj->setOverflow("none");
         $this->assertEquals("none", $obj->getOverflow());
@@ -267,8 +276,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Treemap\HighchartsDataLabels();
 
-        $obj->setPadding(80.0);
-        $this->assertEquals(80.0, $obj->getPadding());
+        $obj->setPadding(32.0);
+        $this->assertEquals(32.0, $obj->getPadding());
     }
 
     /**
@@ -280,8 +289,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Treemap\HighchartsDataLabels();
 
-        $obj->setRotation(99.0);
-        $this->assertEquals(99.0, $obj->getRotation());
+        $obj->setRotation(21.0);
+        $this->assertEquals(21.0, $obj->getRotation());
     }
 
     /**
@@ -358,8 +367,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Treemap\HighchartsDataLabels();
 
-        $obj->setX(24.0);
-        $this->assertEquals(24.0, $obj->getX());
+        $obj->setX(79.0);
+        $this->assertEquals(79.0, $obj->getX());
     }
 
     /**
@@ -371,8 +380,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Treemap\HighchartsDataLabels();
 
-        $obj->setY(29.0);
-        $this->assertEquals(29.0, $obj->getY());
+        $obj->setY(1.0);
+        $this->assertEquals(1.0, $obj->getY());
     }
 
     /**
@@ -384,8 +393,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Treemap\HighchartsDataLabels();
 
-        $obj->setZIndex(80.0);
-        $this->assertEquals(80.0, $obj->getZIndex());
+        $obj->setZIndex(19.0);
+        $this->assertEquals(19.0, $obj->getZIndex());
     }
 
     /**

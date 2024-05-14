@@ -35,62 +35,62 @@ class HighchartsBoxplotTest extends AbstractTestCase {
         $point  = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Boxplot\HighchartsPoint();
         $states = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Boxplot\HighchartsStates();
 
-        $exp = ["allowPointSelect" => true, "animationLimit" => 5.0, "className" => "6f66e878c62db60568a3487869695820", "color" => "70dda5dfb8053dc6d1c492574bce9bfd", "colorByPoint" => true, "colorIndex" => 19.0, "colors" => ["colors" => "62848e3ce5804aa985513a7922ff87b2"], "crisp" => false, "cursor" => "crosshair", "depth" => 87.0, "description" => "67daf92c833c41c95db874e18fcb2786", "edgeColor" => "acbab0d2e7e54e5a7a32fc80409601fc", "edgeWidth" => 11.0, "enableMouseTracking" => false, "events" => $events->jsonSerialize(), "exposeElementToA11y" => true, "fillColor" => "1fde055d3ff900e04ca08bc82066d7fd", "findNearestPointBy" => "xy", "getExtremesFromAll" => false, "groupPadding" => 19.0, "groupZPadding" => 17.0, "grouping" => true, "keys" => ["keys" => "14f802e1fba977727845e8872c1743a7"], "lineWidth" => 49.0, "linkedTo" => "914fab47afc86331ec62837807a29419", "maxPointWidth" => 92.0, "medianColor" => "c7dbc658d3d58056469f6d2d5a8a3626", "medianWidth" => 41.0, "negativeColor" => "52fe4d3a854b01e25193b4f35fc2040e", "point" => $point->jsonSerialize(), "pointDescriptionFormatter" => "b5fd0c15b3ca81f726e2c7b93907ba36", "pointInterval" => 70.0, "pointIntervalUnit" => "year", "pointPadding" => 1.0, "pointPlacement" => "between", "pointRange" => 42.0, "pointStart" => 23.0, "pointWidth" => 58.0, "selected" => true, "showCheckbox" => false, "showInLegend" => false, "skipKeyboardNavigation" => false, "states" => $states->jsonSerialize(), "stemColor" => "98696f23b6ed2a881042dfa365a28d23", "stemDashStyle" => "LongDashDotDot", "stemWidth" => 87.0, "stickyTracking" => true, "tooltip" => ["tooltip" => "ddbfc1b6aa0ad4d79c5dac7aa3b44888"], "turboThreshold" => 91.0, "visible" => false, "whiskerColor" => "3176f361ab524a038497eb1a6c93df38", "whiskerLength" => "37518c6619bd2f0f7e6872160a81d6bb", "whiskerWidth" => 74.0, "zoneAxis" => "88421adabea658556aa3ab6c6181afad", "zones" => ["zones" => "26f94136f5db8afd4e9df1e512f7fdc5"]];
+        $exp = ["allowPointSelect" => true, "animationLimit" => 0.0, "className" => "6f66e878c62db60568a3487869695820", "color" => "70dda5dfb8053dc6d1c492574bce9bfd", "colorByPoint" => true, "colorIndex" => 54.0, "colors" => ["colors" => "62848e3ce5804aa985513a7922ff87b2"], "crisp" => false, "cursor" => "crosshair", "depth" => 87.0, "description" => "67daf92c833c41c95db874e18fcb2786", "edgeColor" => "acbab0d2e7e54e5a7a32fc80409601fc", "edgeWidth" => 10.0, "enableMouseTracking" => false, "events" => $events->jsonSerialize(), "exposeElementToA11y" => true, "fillColor" => "1fde055d3ff900e04ca08bc82066d7fd", "findNearestPointBy" => "xy", "getExtremesFromAll" => false, "groupPadding" => 21.0, "groupZPadding" => 31.0, "grouping" => false, "keys" => ["keys" => "14f802e1fba977727845e8872c1743a7"], "lineWidth" => 81.0, "linkedTo" => "914fab47afc86331ec62837807a29419", "maxPointWidth" => 8.0, "medianColor" => "c7dbc658d3d58056469f6d2d5a8a3626", "medianWidth" => 85.0, "negativeColor" => "52fe4d3a854b01e25193b4f35fc2040e", "point" => $point->jsonSerialize(), "pointDescriptionFormatter" => "b5fd0c15b3ca81f726e2c7b93907ba36", "pointInterval" => 95.0, "pointIntervalUnit" => "year", "pointPadding" => 25.0, "pointPlacement" => "between", "pointRange" => 91.0, "pointStart" => 41.0, "pointWidth" => 18.0, "selected" => true, "showCheckbox" => true, "showInLegend" => true, "skipKeyboardNavigation" => true, "states" => $states->jsonSerialize(), "stemColor" => "98696f23b6ed2a881042dfa365a28d23", "stemDashStyle" => "LongDashDotDot", "stemWidth" => 95.0, "stickyTracking" => false, "tooltip" => ["tooltip" => "ddbfc1b6aa0ad4d79c5dac7aa3b44888"], "turboThreshold" => 0.0, "visible" => true, "whiskerColor" => "3176f361ab524a038497eb1a6c93df38", "whiskerLength" => "37518c6619bd2f0f7e6872160a81d6bb", "whiskerWidth" => 79.0, "zoneAxis" => "88421adabea658556aa3ab6c6181afad", "zones" => ["zones" => "26f94136f5db8afd4e9df1e512f7fdc5"]];
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBoxplot();
         $obj->setAllowPointSelect(true);
-        $obj->setAnimationLimit(5.0);
+        $obj->setAnimationLimit(0.0);
         $obj->setClassName("6f66e878c62db60568a3487869695820");
         $obj->setColor("70dda5dfb8053dc6d1c492574bce9bfd");
         $obj->setColorByPoint(true);
-        $obj->setColorIndex(19.0);
+        $obj->setColorIndex(54.0);
         $obj->setColors(["colors" => "62848e3ce5804aa985513a7922ff87b2"]);
         $obj->setCrisp(false);
         $obj->setCursor("crosshair");
         $obj->setDepth(87.0);
         $obj->setDescription("67daf92c833c41c95db874e18fcb2786");
         $obj->setEdgeColor("acbab0d2e7e54e5a7a32fc80409601fc");
-        $obj->setEdgeWidth(11.0);
+        $obj->setEdgeWidth(10.0);
         $obj->setEnableMouseTracking(false);
         $obj->setEvents($events);
         $obj->setExposeElementToA11y(true);
         $obj->setFillColor("1fde055d3ff900e04ca08bc82066d7fd");
         $obj->setFindNearestPointBy("xy");
         $obj->setGetExtremesFromAll(false);
-        $obj->setGroupPadding(19.0);
-        $obj->setGroupZPadding(17.0);
-        $obj->setGrouping(true);
+        $obj->setGroupPadding(21.0);
+        $obj->setGroupZPadding(31.0);
+        $obj->setGrouping(false);
         $obj->setKeys(["keys" => "14f802e1fba977727845e8872c1743a7"]);
-        $obj->setLineWidth(49.0);
+        $obj->setLineWidth(81.0);
         $obj->setLinkedTo("914fab47afc86331ec62837807a29419");
-        $obj->setMaxPointWidth(92.0);
+        $obj->setMaxPointWidth(8.0);
         $obj->setMedianColor("c7dbc658d3d58056469f6d2d5a8a3626");
-        $obj->setMedianWidth(41.0);
+        $obj->setMedianWidth(85.0);
         $obj->setNegativeColor("52fe4d3a854b01e25193b4f35fc2040e");
         $obj->setPoint($point);
         $obj->setPointDescriptionFormatter("b5fd0c15b3ca81f726e2c7b93907ba36");
-        $obj->setPointInterval(70.0);
+        $obj->setPointInterval(95.0);
         $obj->setPointIntervalUnit("year");
-        $obj->setPointPadding(1.0);
+        $obj->setPointPadding(25.0);
         $obj->setPointPlacement("between");
-        $obj->setPointRange(42.0);
-        $obj->setPointStart(23.0);
-        $obj->setPointWidth(58.0);
+        $obj->setPointRange(91.0);
+        $obj->setPointStart(41.0);
+        $obj->setPointWidth(18.0);
         $obj->setSelected(true);
-        $obj->setShowCheckbox(false);
-        $obj->setShowInLegend(false);
-        $obj->setSkipKeyboardNavigation(false);
+        $obj->setShowCheckbox(true);
+        $obj->setShowInLegend(true);
+        $obj->setSkipKeyboardNavigation(true);
         $obj->setStates($states);
         $obj->setStemColor("98696f23b6ed2a881042dfa365a28d23");
         $obj->setStemDashStyle("LongDashDotDot");
-        $obj->setStemWidth(87.0);
-        $obj->setStickyTracking(true);
+        $obj->setStemWidth(95.0);
+        $obj->setStickyTracking(false);
         $obj->setTooltip(["tooltip" => "ddbfc1b6aa0ad4d79c5dac7aa3b44888"]);
-        $obj->setTurboThreshold(91.0);
-        $obj->setVisible(false);
+        $obj->setTurboThreshold(0.0);
+        $obj->setVisible(true);
         $obj->setWhiskerColor("3176f361ab524a038497eb1a6c93df38");
         $obj->setWhiskerLength("37518c6619bd2f0f7e6872160a81d6bb");
-        $obj->setWhiskerWidth(74.0);
+        $obj->setWhiskerWidth(79.0);
         $obj->setZoneAxis("88421adabea658556aa3ab6c6181afad");
         $obj->setZones(["zones" => "26f94136f5db8afd4e9df1e512f7fdc5"]);
 
@@ -145,8 +145,8 @@ class HighchartsBoxplotTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBoxplot();
 
-        $obj->setAllowPointSelect(true);
-        $this->assertEquals(true, $obj->getAllowPointSelect());
+        $obj->setAllowPointSelect(false);
+        $this->assertEquals(false, $obj->getAllowPointSelect());
     }
 
     /**
@@ -158,8 +158,8 @@ class HighchartsBoxplotTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBoxplot();
 
-        $obj->setAnimationLimit(99.0);
-        $this->assertEquals(99.0, $obj->getAnimationLimit());
+        $obj->setAnimationLimit(40.0);
+        $this->assertEquals(40.0, $obj->getAnimationLimit());
     }
 
     /**
@@ -210,8 +210,8 @@ class HighchartsBoxplotTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBoxplot();
 
-        $obj->setColorIndex(38.0);
-        $this->assertEquals(38.0, $obj->getColorIndex());
+        $obj->setColorIndex(23.0);
+        $this->assertEquals(23.0, $obj->getColorIndex());
     }
 
     /**
@@ -236,8 +236,8 @@ class HighchartsBoxplotTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBoxplot();
 
-        $obj->setCrisp(false);
-        $this->assertEquals(false, $obj->getCrisp());
+        $obj->setCrisp(true);
+        $this->assertEquals(true, $obj->getCrisp());
     }
 
     /**
@@ -249,8 +249,23 @@ class HighchartsBoxplotTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBoxplot();
 
+        $obj->setCursor(null);
+        $this->assertEquals(null, $obj->getCursor());
+
         $obj->setCursor("crosshair");
         $this->assertEquals("crosshair", $obj->getCursor());
+
+        $obj->setCursor("default");
+        $this->assertEquals("default", $obj->getCursor());
+
+        $obj->setCursor("help");
+        $this->assertEquals("help", $obj->getCursor());
+
+        $obj->setCursor("none");
+        $this->assertEquals("none", $obj->getCursor());
+
+        $obj->setCursor("pointer");
+        $this->assertEquals("pointer", $obj->getCursor());
     }
 
     /**
@@ -262,8 +277,8 @@ class HighchartsBoxplotTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBoxplot();
 
-        $obj->setDepth(90.0);
-        $this->assertEquals(90.0, $obj->getDepth());
+        $obj->setDepth(91.0);
+        $this->assertEquals(91.0, $obj->getDepth());
     }
 
     /**
@@ -301,8 +316,8 @@ class HighchartsBoxplotTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBoxplot();
 
-        $obj->setEdgeWidth(24.0);
-        $this->assertEquals(24.0, $obj->getEdgeWidth());
+        $obj->setEdgeWidth(9.0);
+        $this->assertEquals(9.0, $obj->getEdgeWidth());
     }
 
     /**
@@ -369,6 +384,9 @@ class HighchartsBoxplotTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBoxplot();
 
+        $obj->setFindNearestPointBy("x");
+        $this->assertEquals("x", $obj->getFindNearestPointBy());
+
         $obj->setFindNearestPointBy("xy");
         $this->assertEquals("xy", $obj->getFindNearestPointBy());
     }
@@ -395,8 +413,8 @@ class HighchartsBoxplotTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBoxplot();
 
-        $obj->setGroupPadding(63.0);
-        $this->assertEquals(63.0, $obj->getGroupPadding());
+        $obj->setGroupPadding(43.0);
+        $this->assertEquals(43.0, $obj->getGroupPadding());
     }
 
     /**
@@ -408,8 +426,8 @@ class HighchartsBoxplotTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBoxplot();
 
-        $obj->setGroupZPadding(38.0);
-        $this->assertEquals(38.0, $obj->getGroupZPadding());
+        $obj->setGroupZPadding(27.0);
+        $this->assertEquals(27.0, $obj->getGroupZPadding());
     }
 
     /**
@@ -421,8 +439,8 @@ class HighchartsBoxplotTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBoxplot();
 
-        $obj->setGrouping(false);
-        $this->assertEquals(false, $obj->getGrouping());
+        $obj->setGrouping(true);
+        $this->assertEquals(true, $obj->getGrouping());
     }
 
     /**
@@ -447,8 +465,8 @@ class HighchartsBoxplotTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBoxplot();
 
-        $obj->setLineWidth(18.0);
-        $this->assertEquals(18.0, $obj->getLineWidth());
+        $obj->setLineWidth(48.0);
+        $this->assertEquals(48.0, $obj->getLineWidth());
     }
 
     /**
@@ -473,8 +491,8 @@ class HighchartsBoxplotTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBoxplot();
 
-        $obj->setMaxPointWidth(88.0);
-        $this->assertEquals(88.0, $obj->getMaxPointWidth());
+        $obj->setMaxPointWidth(8.0);
+        $this->assertEquals(8.0, $obj->getMaxPointWidth());
     }
 
     /**
@@ -499,8 +517,8 @@ class HighchartsBoxplotTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBoxplot();
 
-        $obj->setMedianWidth(1.0);
-        $this->assertEquals(1.0, $obj->getMedianWidth());
+        $obj->setMedianWidth(4.0);
+        $this->assertEquals(4.0, $obj->getMedianWidth());
     }
 
     /**
@@ -554,8 +572,8 @@ class HighchartsBoxplotTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBoxplot();
 
-        $obj->setPointInterval(59.0);
-        $this->assertEquals(59.0, $obj->getPointInterval());
+        $obj->setPointInterval(33.0);
+        $this->assertEquals(33.0, $obj->getPointInterval());
     }
 
     /**
@@ -566,6 +584,15 @@ class HighchartsBoxplotTest extends AbstractTestCase {
     public function testSetPointIntervalUnit(): void {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBoxplot();
+
+        $obj->setPointIntervalUnit(null);
+        $this->assertEquals(null, $obj->getPointIntervalUnit());
+
+        $obj->setPointIntervalUnit("day");
+        $this->assertEquals("day", $obj->getPointIntervalUnit());
+
+        $obj->setPointIntervalUnit("month");
+        $this->assertEquals("month", $obj->getPointIntervalUnit());
 
         $obj->setPointIntervalUnit("year");
         $this->assertEquals("year", $obj->getPointIntervalUnit());
@@ -580,8 +607,8 @@ class HighchartsBoxplotTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBoxplot();
 
-        $obj->setPointPadding(57.0);
-        $this->assertEquals(57.0, $obj->getPointPadding());
+        $obj->setPointPadding(3.0);
+        $this->assertEquals(3.0, $obj->getPointPadding());
     }
 
     /**
@@ -593,8 +620,14 @@ class HighchartsBoxplotTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBoxplot();
 
+        $obj->setPointPlacement(null);
+        $this->assertEquals(null, $obj->getPointPlacement());
+
         $obj->setPointPlacement("between");
         $this->assertEquals("between", $obj->getPointPlacement());
+
+        $obj->setPointPlacement("on");
+        $this->assertEquals("on", $obj->getPointPlacement());
     }
 
     /**
@@ -606,8 +639,8 @@ class HighchartsBoxplotTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBoxplot();
 
-        $obj->setPointRange(2.0);
-        $this->assertEquals(2.0, $obj->getPointRange());
+        $obj->setPointRange(29.0);
+        $this->assertEquals(29.0, $obj->getPointRange());
     }
 
     /**
@@ -619,8 +652,8 @@ class HighchartsBoxplotTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBoxplot();
 
-        $obj->setPointStart(0.0);
-        $this->assertEquals(0.0, $obj->getPointStart());
+        $obj->setPointStart(23.0);
+        $this->assertEquals(23.0, $obj->getPointStart());
     }
 
     /**
@@ -632,8 +665,8 @@ class HighchartsBoxplotTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBoxplot();
 
-        $obj->setPointWidth(81.0);
-        $this->assertEquals(81.0, $obj->getPointWidth());
+        $obj->setPointWidth(44.0);
+        $this->assertEquals(44.0, $obj->getPointWidth());
     }
 
     /**
@@ -645,8 +678,8 @@ class HighchartsBoxplotTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBoxplot();
 
-        $obj->setSelected(true);
-        $this->assertEquals(true, $obj->getSelected());
+        $obj->setSelected(false);
+        $this->assertEquals(false, $obj->getSelected());
     }
 
     /**
@@ -671,8 +704,8 @@ class HighchartsBoxplotTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBoxplot();
 
-        $obj->setShowInLegend(false);
-        $this->assertEquals(false, $obj->getShowInLegend());
+        $obj->setShowInLegend(true);
+        $this->assertEquals(true, $obj->getShowInLegend());
     }
 
     /**
@@ -726,8 +759,38 @@ class HighchartsBoxplotTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBoxplot();
 
+        $obj->setStemDashStyle("Dash");
+        $this->assertEquals("Dash", $obj->getStemDashStyle());
+
+        $obj->setStemDashStyle("DashDot");
+        $this->assertEquals("DashDot", $obj->getStemDashStyle());
+
+        $obj->setStemDashStyle("Dot");
+        $this->assertEquals("Dot", $obj->getStemDashStyle());
+
+        $obj->setStemDashStyle("LongDash");
+        $this->assertEquals("LongDash", $obj->getStemDashStyle());
+
+        $obj->setStemDashStyle("LongDashDot");
+        $this->assertEquals("LongDashDot", $obj->getStemDashStyle());
+
         $obj->setStemDashStyle("LongDashDotDot");
         $this->assertEquals("LongDashDotDot", $obj->getStemDashStyle());
+
+        $obj->setStemDashStyle("ShortDash");
+        $this->assertEquals("ShortDash", $obj->getStemDashStyle());
+
+        $obj->setStemDashStyle("ShortDashDot");
+        $this->assertEquals("ShortDashDot", $obj->getStemDashStyle());
+
+        $obj->setStemDashStyle("ShortDashDotDot");
+        $this->assertEquals("ShortDashDotDot", $obj->getStemDashStyle());
+
+        $obj->setStemDashStyle("ShortDot");
+        $this->assertEquals("ShortDot", $obj->getStemDashStyle());
+
+        $obj->setStemDashStyle("Solid");
+        $this->assertEquals("Solid", $obj->getStemDashStyle());
     }
 
     /**
@@ -739,8 +802,8 @@ class HighchartsBoxplotTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBoxplot();
 
-        $obj->setStemWidth(70.0);
-        $this->assertEquals(70.0, $obj->getStemWidth());
+        $obj->setStemWidth(75.0);
+        $this->assertEquals(75.0, $obj->getStemWidth());
     }
 
     /**
@@ -752,8 +815,8 @@ class HighchartsBoxplotTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBoxplot();
 
-        $obj->setStickyTracking(false);
-        $this->assertEquals(false, $obj->getStickyTracking());
+        $obj->setStickyTracking(true);
+        $this->assertEquals(true, $obj->getStickyTracking());
     }
 
     /**
@@ -778,8 +841,8 @@ class HighchartsBoxplotTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBoxplot();
 
-        $obj->setTurboThreshold(72.0);
-        $this->assertEquals(72.0, $obj->getTurboThreshold());
+        $obj->setTurboThreshold(82.0);
+        $this->assertEquals(82.0, $obj->getTurboThreshold());
     }
 
     /**
@@ -830,8 +893,8 @@ class HighchartsBoxplotTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBoxplot();
 
-        $obj->setWhiskerWidth(28.0);
-        $this->assertEquals(28.0, $obj->getWhiskerWidth());
+        $obj->setWhiskerWidth(42.0);
+        $this->assertEquals(42.0, $obj->getWhiskerWidth());
     }
 
     /**

@@ -106,8 +106,26 @@ class HighchartsDataTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsData();
 
+        $obj->setDateFormat(null);
+        $this->assertEquals(null, $obj->getDateFormat());
+
+        $obj->setDateFormat("YYYY-mm-dd");
+        $this->assertEquals("YYYY-mm-dd", $obj->getDateFormat());
+
+        $obj->setDateFormat("dd/mm/YY");
+        $this->assertEquals("dd/mm/YY", $obj->getDateFormat());
+
+        $obj->setDateFormat("dd/mm/YYYY");
+        $this->assertEquals("dd/mm/YYYY", $obj->getDateFormat());
+
+        $obj->setDateFormat("dd/mm/YYYY");
+        $this->assertEquals("dd/mm/YYYY", $obj->getDateFormat());
+
         $obj->setDateFormat("mm/dd/YY");
         $this->assertEquals("mm/dd/YY", $obj->getDateFormat());
+
+        $obj->setDateFormat("mm/dd/YYYY");
+        $this->assertEquals("mm/dd/YYYY", $obj->getDateFormat());
     }
 
     /**

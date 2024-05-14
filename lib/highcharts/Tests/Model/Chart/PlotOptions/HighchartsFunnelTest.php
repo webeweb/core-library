@@ -36,40 +36,40 @@ class HighchartsFunnelTest extends AbstractTestCase {
         $point      = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Funnel\HighchartsPoint();
         $states     = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Funnel\HighchartsStates();
 
-        $exp = ["allowPointSelect" => true, "animationLimit" => 61.0, "borderColor" => "97da935a74593c55d78be9d1295aa994", "borderWidth" => 75.0, "center" => ["center" => "adb115059e28d960fa8badfac5516667"], "className" => "6f66e878c62db60568a3487869695820", "colorIndex" => 89.0, "colors" => ["colors" => "62848e3ce5804aa985513a7922ff87b2"], "cursor" => "crosshair", "dataLabels" => $dataLabels->jsonSerialize(), "depth" => 91.0, "description" => "67daf92c833c41c95db874e18fcb2786", "enableMouseTracking" => false, "events" => $events->jsonSerialize(), "exposeElementToA11y" => true, "findNearestPointBy" => "xy", "getExtremesFromAll" => false, "height" => "b435e227d5dd201e1768b2bcb2e0aa81", "keys" => ["keys" => "14f802e1fba977727845e8872c1743a7"], "linkedTo" => "914fab47afc86331ec62837807a29419", "minSize" => 60.0, "neckHeight" => "142c0436e1f9b00518a0ae71ecf6e173", "neckWidth" => "61de757e2a097f6432a2ff93d2ec6823", "point" => $point->jsonSerialize(), "pointDescriptionFormatter" => "b5fd0c15b3ca81f726e2c7b93907ba36", "reversed" => true, "selected" => false, "shadow" => "3bf1114a986ba87ed28fc1b5884fc2f8", "showInLegend" => false, "skipKeyboardNavigation" => true, "slicedOffset" => 42.0, "states" => $states->jsonSerialize(), "stickyTracking" => true, "tooltip" => ["tooltip" => "ddbfc1b6aa0ad4d79c5dac7aa3b44888"], "visible" => false, "width" => "eaae26a6fb20ed3ef54fb23bfa0b1fcc", "zoneAxis" => "88421adabea658556aa3ab6c6181afad", "zones" => ["zones" => "26f94136f5db8afd4e9df1e512f7fdc5"]];
+        $exp = ["allowPointSelect" => true, "animationLimit" => 74.0, "borderColor" => "97da935a74593c55d78be9d1295aa994", "borderWidth" => 30.0, "center" => ["center" => "adb115059e28d960fa8badfac5516667"], "className" => "6f66e878c62db60568a3487869695820", "colorIndex" => 26.0, "colors" => ["colors" => "62848e3ce5804aa985513a7922ff87b2"], "cursor" => "crosshair", "dataLabels" => $dataLabels->jsonSerialize(), "depth" => 62.0, "description" => "67daf92c833c41c95db874e18fcb2786", "enableMouseTracking" => false, "events" => $events->jsonSerialize(), "exposeElementToA11y" => true, "findNearestPointBy" => "xy", "getExtremesFromAll" => true, "height" => "b435e227d5dd201e1768b2bcb2e0aa81", "keys" => ["keys" => "14f802e1fba977727845e8872c1743a7"], "linkedTo" => "914fab47afc86331ec62837807a29419", "minSize" => 21.0, "neckHeight" => "142c0436e1f9b00518a0ae71ecf6e173", "neckWidth" => "61de757e2a097f6432a2ff93d2ec6823", "point" => $point->jsonSerialize(), "pointDescriptionFormatter" => "b5fd0c15b3ca81f726e2c7b93907ba36", "reversed" => false, "selected" => true, "shadow" => "3bf1114a986ba87ed28fc1b5884fc2f8", "showInLegend" => false, "skipKeyboardNavigation" => false, "slicedOffset" => 9.0, "states" => $states->jsonSerialize(), "stickyTracking" => true, "tooltip" => ["tooltip" => "ddbfc1b6aa0ad4d79c5dac7aa3b44888"], "visible" => false, "width" => "eaae26a6fb20ed3ef54fb23bfa0b1fcc", "zoneAxis" => "88421adabea658556aa3ab6c6181afad", "zones" => ["zones" => "26f94136f5db8afd4e9df1e512f7fdc5"]];
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsFunnel();
         $obj->setAllowPointSelect(true);
-        $obj->setAnimationLimit(61.0);
+        $obj->setAnimationLimit(74.0);
         $obj->setBorderColor("97da935a74593c55d78be9d1295aa994");
-        $obj->setBorderWidth(75.0);
+        $obj->setBorderWidth(30.0);
         $obj->setCenter(["center" => "adb115059e28d960fa8badfac5516667"]);
         $obj->setClassName("6f66e878c62db60568a3487869695820");
-        $obj->setColorIndex(89.0);
+        $obj->setColorIndex(26.0);
         $obj->setColors(["colors" => "62848e3ce5804aa985513a7922ff87b2"]);
         $obj->setCursor("crosshair");
         $obj->setDataLabels($dataLabels);
-        $obj->setDepth(91.0);
+        $obj->setDepth(62.0);
         $obj->setDescription("67daf92c833c41c95db874e18fcb2786");
         $obj->setEnableMouseTracking(false);
         $obj->setEvents($events);
         $obj->setExposeElementToA11y(true);
         $obj->setFindNearestPointBy("xy");
-        $obj->setGetExtremesFromAll(false);
+        $obj->setGetExtremesFromAll(true);
         $obj->setHeight("b435e227d5dd201e1768b2bcb2e0aa81");
         $obj->setKeys(["keys" => "14f802e1fba977727845e8872c1743a7"]);
         $obj->setLinkedTo("914fab47afc86331ec62837807a29419");
-        $obj->setMinSize(60.0);
+        $obj->setMinSize(21.0);
         $obj->setNeckHeight("142c0436e1f9b00518a0ae71ecf6e173");
         $obj->setNeckWidth("61de757e2a097f6432a2ff93d2ec6823");
         $obj->setPoint($point);
         $obj->setPointDescriptionFormatter("b5fd0c15b3ca81f726e2c7b93907ba36");
-        $obj->setReversed(true);
-        $obj->setSelected(false);
+        $obj->setReversed(false);
+        $obj->setSelected(true);
         $obj->setShadow("3bf1114a986ba87ed28fc1b5884fc2f8");
         $obj->setShowInLegend(false);
-        $obj->setSkipKeyboardNavigation(true);
-        $obj->setSlicedOffset(42.0);
+        $obj->setSkipKeyboardNavigation(false);
+        $obj->setSlicedOffset(9.0);
         $obj->setStates($states);
         $obj->setStickyTracking(true);
         $obj->setTooltip(["tooltip" => "ddbfc1b6aa0ad4d79c5dac7aa3b44888"]);
@@ -155,8 +155,8 @@ class HighchartsFunnelTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsFunnel();
 
-        $obj->setAnimationLimit(26.0);
-        $this->assertEquals(26.0, $obj->getAnimationLimit());
+        $obj->setAnimationLimit(50.0);
+        $this->assertEquals(50.0, $obj->getAnimationLimit());
     }
 
     /**
@@ -181,8 +181,8 @@ class HighchartsFunnelTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsFunnel();
 
-        $obj->setBorderWidth(41.0);
-        $this->assertEquals(41.0, $obj->getBorderWidth());
+        $obj->setBorderWidth(16.0);
+        $this->assertEquals(16.0, $obj->getBorderWidth());
     }
 
     /**
@@ -220,8 +220,8 @@ class HighchartsFunnelTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsFunnel();
 
-        $obj->setColorIndex(39.0);
-        $this->assertEquals(39.0, $obj->getColorIndex());
+        $obj->setColorIndex(21.0);
+        $this->assertEquals(21.0, $obj->getColorIndex());
     }
 
     /**
@@ -246,8 +246,23 @@ class HighchartsFunnelTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsFunnel();
 
+        $obj->setCursor(null);
+        $this->assertEquals(null, $obj->getCursor());
+
         $obj->setCursor("crosshair");
         $this->assertEquals("crosshair", $obj->getCursor());
+
+        $obj->setCursor("default");
+        $this->assertEquals("default", $obj->getCursor());
+
+        $obj->setCursor("help");
+        $this->assertEquals("help", $obj->getCursor());
+
+        $obj->setCursor("none");
+        $this->assertEquals("none", $obj->getCursor());
+
+        $obj->setCursor("pointer");
+        $this->assertEquals("pointer", $obj->getCursor());
     }
 
     /**
@@ -275,8 +290,8 @@ class HighchartsFunnelTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsFunnel();
 
-        $obj->setDepth(41.0);
-        $this->assertEquals(41.0, $obj->getDepth());
+        $obj->setDepth(39.0);
+        $this->assertEquals(39.0, $obj->getDepth());
     }
 
     /**
@@ -301,8 +316,8 @@ class HighchartsFunnelTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsFunnel();
 
-        $obj->setEnableMouseTracking(true);
-        $this->assertEquals(true, $obj->getEnableMouseTracking());
+        $obj->setEnableMouseTracking(false);
+        $this->assertEquals(false, $obj->getEnableMouseTracking());
     }
 
     /**
@@ -330,8 +345,8 @@ class HighchartsFunnelTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsFunnel();
 
-        $obj->setExposeElementToA11y(false);
-        $this->assertEquals(false, $obj->getExposeElementToA11y());
+        $obj->setExposeElementToA11y(true);
+        $this->assertEquals(true, $obj->getExposeElementToA11y());
     }
 
     /**
@@ -342,6 +357,9 @@ class HighchartsFunnelTest extends AbstractTestCase {
     public function testSetFindNearestPointBy(): void {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsFunnel();
+
+        $obj->setFindNearestPointBy("x");
+        $this->assertEquals("x", $obj->getFindNearestPointBy());
 
         $obj->setFindNearestPointBy("xy");
         $this->assertEquals("xy", $obj->getFindNearestPointBy());
@@ -408,8 +426,8 @@ class HighchartsFunnelTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsFunnel();
 
-        $obj->setMinSize(41.0);
-        $this->assertEquals(41.0, $obj->getMinSize());
+        $obj->setMinSize(75.0);
+        $this->assertEquals(75.0, $obj->getMinSize());
     }
 
     /**
@@ -476,8 +494,8 @@ class HighchartsFunnelTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsFunnel();
 
-        $obj->setReversed(false);
-        $this->assertEquals(false, $obj->getReversed());
+        $obj->setReversed(true);
+        $this->assertEquals(true, $obj->getReversed());
     }
 
     /**
@@ -489,8 +507,8 @@ class HighchartsFunnelTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsFunnel();
 
-        $obj->setSelected(true);
-        $this->assertEquals(true, $obj->getSelected());
+        $obj->setSelected(false);
+        $this->assertEquals(false, $obj->getSelected());
     }
 
     /**
@@ -541,8 +559,8 @@ class HighchartsFunnelTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsFunnel();
 
-        $obj->setSlicedOffset(30.0);
-        $this->assertEquals(30.0, $obj->getSlicedOffset());
+        $obj->setSlicedOffset(7.0);
+        $this->assertEquals(7.0, $obj->getSlicedOffset());
     }
 
     /**
@@ -570,8 +588,8 @@ class HighchartsFunnelTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsFunnel();
 
-        $obj->setStickyTracking(true);
-        $this->assertEquals(true, $obj->getStickyTracking());
+        $obj->setStickyTracking(false);
+        $this->assertEquals(false, $obj->getStickyTracking());
     }
 
     /**
@@ -596,8 +614,8 @@ class HighchartsFunnelTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsFunnel();
 
-        $obj->setVisible(false);
-        $this->assertEquals(false, $obj->getVisible());
+        $obj->setVisible(true);
+        $this->assertEquals(true, $obj->getVisible());
     }
 
     /**

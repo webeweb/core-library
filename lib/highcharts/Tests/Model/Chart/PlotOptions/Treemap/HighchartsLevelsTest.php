@@ -31,17 +31,17 @@ class HighchartsLevelsTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        $exp = ["borderColor" => "97da935a74593c55d78be9d1295aa994", "borderDashStyle" => "8c4e9f2e21a77d83fc413d4c86d1cc81", "borderWidth" => 94.0, "color" => "70dda5dfb8053dc6d1c492574bce9bfd", "dataLabels" => ["dataLabels" => "d4d108fe6659fac79420fa083ef3adf2"], "layoutAlgorithm" => "strip", "layoutStartingDirection" => "horizontal", "level" => 27.0];
+        $exp = ["borderColor" => "97da935a74593c55d78be9d1295aa994", "borderDashStyle" => "8c4e9f2e21a77d83fc413d4c86d1cc81", "borderWidth" => 5.0, "color" => "70dda5dfb8053dc6d1c492574bce9bfd", "dataLabels" => ["dataLabels" => "d4d108fe6659fac79420fa083ef3adf2"], "layoutAlgorithm" => "strip", "layoutStartingDirection" => "horizontal", "level" => 32.0];
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Treemap\HighchartsLevels();
         $obj->setBorderColor("97da935a74593c55d78be9d1295aa994");
         $obj->setBorderDashStyle("8c4e9f2e21a77d83fc413d4c86d1cc81");
-        $obj->setBorderWidth(94.0);
+        $obj->setBorderWidth(5.0);
         $obj->setColor("70dda5dfb8053dc6d1c492574bce9bfd");
         $obj->setDataLabels(["dataLabels" => "d4d108fe6659fac79420fa083ef3adf2"]);
         $obj->setLayoutAlgorithm("strip");
         $obj->setLayoutStartingDirection("horizontal");
-        $obj->setLevel(27.0);
+        $obj->setLevel(32.0);
 
         $this->assertEquals($exp, $obj->jsonSerialize());
     }
@@ -81,8 +81,8 @@ class HighchartsLevelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Treemap\HighchartsLevels();
 
-        $obj->setBorderWidth(7.0);
-        $this->assertEquals(7.0, $obj->getBorderWidth());
+        $obj->setBorderWidth(68.0);
+        $this->assertEquals(68.0, $obj->getBorderWidth());
     }
 
     /**
@@ -120,8 +120,17 @@ class HighchartsLevelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Treemap\HighchartsLevels();
 
+        $obj->setLayoutAlgorithm("sliceAndDice");
+        $this->assertEquals("sliceAndDice", $obj->getLayoutAlgorithm());
+
+        $obj->setLayoutAlgorithm("squarified");
+        $this->assertEquals("squarified", $obj->getLayoutAlgorithm());
+
         $obj->setLayoutAlgorithm("strip");
         $this->assertEquals("strip", $obj->getLayoutAlgorithm());
+
+        $obj->setLayoutAlgorithm("stripes");
+        $this->assertEquals("stripes", $obj->getLayoutAlgorithm());
     }
 
     /**
@@ -135,6 +144,9 @@ class HighchartsLevelsTest extends AbstractTestCase {
 
         $obj->setLayoutStartingDirection("horizontal");
         $this->assertEquals("horizontal", $obj->getLayoutStartingDirection());
+
+        $obj->setLayoutStartingDirection("vertical");
+        $this->assertEquals("vertical", $obj->getLayoutStartingDirection());
     }
 
     /**
@@ -146,8 +158,8 @@ class HighchartsLevelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Treemap\HighchartsLevels();
 
-        $obj->setLevel(45.0);
-        $this->assertEquals(45.0, $obj->getLevel());
+        $obj->setLevel(72.0);
+        $this->assertEquals(72.0, $obj->getLevel());
     }
 
     /**

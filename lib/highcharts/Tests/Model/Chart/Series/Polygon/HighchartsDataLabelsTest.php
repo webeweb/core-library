@@ -31,34 +31,34 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        $exp = ["align" => "right", "allowOverlap" => true, "backgroundColor" => "930f2a43179a7ae5fc25ed873223e99f", "borderColor" => "97da935a74593c55d78be9d1295aa994", "borderRadius" => 42.0, "borderWidth" => 96.0, "className" => "6f66e878c62db60568a3487869695820", "color" => "70dda5dfb8053dc6d1c492574bce9bfd", "crop" => false, "defer" => false, "enabled" => false, "format" => "1ddcb92ade31c8fbd370001f9b29a7d9", "formatter" => "f2ffc59487832cbad265a8fef2133592", "inside" => true, "overflow" => "none", "padding" => 21.0, "rotation" => 13.0, "shadow" => "3bf1114a986ba87ed28fc1b5884fc2f8", "shape" => "8c73a98a300905900337f535531dfca6", "style" => ["style" => "a1b01e734b573fca08eb1a65e6df9a38"], "useHTML" => true, "verticalAlign" => "bottom", "x" => 89.0, "y" => 91.0, "zIndex" => 13.0];
+        $exp = ["align" => "right", "allowOverlap" => false, "backgroundColor" => "930f2a43179a7ae5fc25ed873223e99f", "borderColor" => "97da935a74593c55d78be9d1295aa994", "borderRadius" => 42.0, "borderWidth" => 79.0, "className" => "6f66e878c62db60568a3487869695820", "color" => "70dda5dfb8053dc6d1c492574bce9bfd", "crop" => false, "defer" => true, "enabled" => false, "format" => "1ddcb92ade31c8fbd370001f9b29a7d9", "formatter" => "f2ffc59487832cbad265a8fef2133592", "inside" => false, "overflow" => "none", "padding" => 19.0, "rotation" => 58.0, "shadow" => "3bf1114a986ba87ed28fc1b5884fc2f8", "shape" => "8c73a98a300905900337f535531dfca6", "style" => ["style" => "a1b01e734b573fca08eb1a65e6df9a38"], "useHTML" => true, "verticalAlign" => "bottom", "x" => 0.0, "y" => 3.0, "zIndex" => 57.0];
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Polygon\HighchartsDataLabels();
         $obj->setAlign("right");
-        $obj->setAllowOverlap(true);
+        $obj->setAllowOverlap(false);
         $obj->setBackgroundColor("930f2a43179a7ae5fc25ed873223e99f");
         $obj->setBorderColor("97da935a74593c55d78be9d1295aa994");
         $obj->setBorderRadius(42.0);
-        $obj->setBorderWidth(96.0);
+        $obj->setBorderWidth(79.0);
         $obj->setClassName("6f66e878c62db60568a3487869695820");
         $obj->setColor("70dda5dfb8053dc6d1c492574bce9bfd");
         $obj->setCrop(false);
-        $obj->setDefer(false);
+        $obj->setDefer(true);
         $obj->setEnabled(false);
         $obj->setFormat("1ddcb92ade31c8fbd370001f9b29a7d9");
         $obj->setFormatter("f2ffc59487832cbad265a8fef2133592");
-        $obj->setInside(true);
+        $obj->setInside(false);
         $obj->setOverflow("none");
-        $obj->setPadding(21.0);
-        $obj->setRotation(13.0);
+        $obj->setPadding(19.0);
+        $obj->setRotation(58.0);
         $obj->setShadow("3bf1114a986ba87ed28fc1b5884fc2f8");
         $obj->setShape("8c73a98a300905900337f535531dfca6");
         $obj->setStyle(["style" => "a1b01e734b573fca08eb1a65e6df9a38"]);
         $obj->setUseHTML(true);
         $obj->setVerticalAlign("bottom");
-        $obj->setX(89.0);
-        $obj->setY(91.0);
-        $obj->setZIndex(13.0);
+        $obj->setX(0.0);
+        $obj->setY(3.0);
+        $obj->setZIndex(57.0);
 
         $this->assertEquals($exp, $obj->jsonSerialize());
     }
@@ -71,6 +71,12 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
     public function testSetAlign(): void {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Polygon\HighchartsDataLabels();
+
+        $obj->setAlign("center");
+        $this->assertEquals("center", $obj->getAlign());
+
+        $obj->setAlign("left");
+        $this->assertEquals("left", $obj->getAlign());
 
         $obj->setAlign("right");
         $this->assertEquals("right", $obj->getAlign());
@@ -85,8 +91,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Polygon\HighchartsDataLabels();
 
-        $obj->setAllowOverlap(true);
-        $this->assertEquals(true, $obj->getAllowOverlap());
+        $obj->setAllowOverlap(false);
+        $this->assertEquals(false, $obj->getAllowOverlap());
     }
 
     /**
@@ -124,8 +130,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Polygon\HighchartsDataLabels();
 
-        $obj->setBorderRadius(65.0);
-        $this->assertEquals(65.0, $obj->getBorderRadius());
+        $obj->setBorderRadius(38.0);
+        $this->assertEquals(38.0, $obj->getBorderRadius());
     }
 
     /**
@@ -137,8 +143,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Polygon\HighchartsDataLabels();
 
-        $obj->setBorderWidth(96.0);
-        $this->assertEquals(96.0, $obj->getBorderWidth());
+        $obj->setBorderWidth(12.0);
+        $this->assertEquals(12.0, $obj->getBorderWidth());
     }
 
     /**
@@ -176,8 +182,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Polygon\HighchartsDataLabels();
 
-        $obj->setCrop(true);
-        $this->assertEquals(true, $obj->getCrop());
+        $obj->setCrop(false);
+        $this->assertEquals(false, $obj->getCrop());
     }
 
     /**
@@ -189,8 +195,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Polygon\HighchartsDataLabels();
 
-        $obj->setDefer(true);
-        $this->assertEquals(true, $obj->getDefer());
+        $obj->setDefer(false);
+        $this->assertEquals(false, $obj->getDefer());
     }
 
     /**
@@ -202,8 +208,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Polygon\HighchartsDataLabels();
 
-        $obj->setEnabled(false);
-        $this->assertEquals(false, $obj->getEnabled());
+        $obj->setEnabled(true);
+        $this->assertEquals(true, $obj->getEnabled());
     }
 
     /**
@@ -241,8 +247,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Polygon\HighchartsDataLabels();
 
-        $obj->setInside(false);
-        $this->assertEquals(false, $obj->getInside());
+        $obj->setInside(true);
+        $this->assertEquals(true, $obj->getInside());
     }
 
     /**
@@ -253,6 +259,9 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
     public function testSetOverflow(): void {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Polygon\HighchartsDataLabels();
+
+        $obj->setOverflow("justify");
+        $this->assertEquals("justify", $obj->getOverflow());
 
         $obj->setOverflow("none");
         $this->assertEquals("none", $obj->getOverflow());
@@ -267,8 +276,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Polygon\HighchartsDataLabels();
 
-        $obj->setPadding(93.0);
-        $this->assertEquals(93.0, $obj->getPadding());
+        $obj->setPadding(16.0);
+        $this->assertEquals(16.0, $obj->getPadding());
     }
 
     /**
@@ -280,8 +289,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Polygon\HighchartsDataLabels();
 
-        $obj->setRotation(1.0);
-        $this->assertEquals(1.0, $obj->getRotation());
+        $obj->setRotation(19.0);
+        $this->assertEquals(19.0, $obj->getRotation());
     }
 
     /**
@@ -347,6 +356,12 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj->setVerticalAlign("bottom");
         $this->assertEquals("bottom", $obj->getVerticalAlign());
+
+        $obj->setVerticalAlign("middle");
+        $this->assertEquals("middle", $obj->getVerticalAlign());
+
+        $obj->setVerticalAlign("top");
+        $this->assertEquals("top", $obj->getVerticalAlign());
     }
 
     /**
@@ -358,8 +373,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Polygon\HighchartsDataLabels();
 
-        $obj->setX(91.0);
-        $this->assertEquals(91.0, $obj->getX());
+        $obj->setX(65.0);
+        $this->assertEquals(65.0, $obj->getX());
     }
 
     /**
@@ -371,8 +386,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Polygon\HighchartsDataLabels();
 
-        $obj->setY(38.0);
-        $this->assertEquals(38.0, $obj->getY());
+        $obj->setY(19.0);
+        $this->assertEquals(19.0, $obj->getY());
     }
 
     /**
@@ -384,8 +399,8 @@ class HighchartsDataLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Polygon\HighchartsDataLabels();
 
-        $obj->setZIndex(67.0);
-        $this->assertEquals(67.0, $obj->getZIndex());
+        $obj->setZIndex(16.0);
+        $this->assertEquals(16.0, $obj->getZIndex());
     }
 
     /**

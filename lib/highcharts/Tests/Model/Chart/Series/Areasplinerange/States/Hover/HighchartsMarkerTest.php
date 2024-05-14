@@ -31,18 +31,18 @@ class HighchartsMarkerTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        $exp = ["enabled" => true, "fillColor" => "1fde055d3ff900e04ca08bc82066d7fd", "height" => 82.0, "lineColor" => "c2580eebfdbdb9fc629f50cc147c3f63", "lineWidth" => 59.0, "radius" => 45.0, "states" => "34d955a0df5f7af9c9b4e4dccb3c3564", "symbol" => "triangle-down", "width" => 24.0];
+        $exp = ["enabled" => false, "fillColor" => "1fde055d3ff900e04ca08bc82066d7fd", "height" => 43.0, "lineColor" => "c2580eebfdbdb9fc629f50cc147c3f63", "lineWidth" => 89.0, "radius" => 5.0, "states" => "34d955a0df5f7af9c9b4e4dccb3c3564", "symbol" => "triangle-down", "width" => 69.0];
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Areasplinerange\States\Hover\HighchartsMarker();
-        $obj->setEnabled(true);
+        $obj->setEnabled(false);
         $obj->setFillColor("1fde055d3ff900e04ca08bc82066d7fd");
-        $obj->setHeight(82.0);
+        $obj->setHeight(43.0);
         $obj->setLineColor("c2580eebfdbdb9fc629f50cc147c3f63");
-        $obj->setLineWidth(59.0);
-        $obj->setRadius(45.0);
+        $obj->setLineWidth(89.0);
+        $obj->setRadius(5.0);
         $obj->setStates("34d955a0df5f7af9c9b4e4dccb3c3564");
         $obj->setSymbol("triangle-down");
-        $obj->setWidth(24.0);
+        $obj->setWidth(69.0);
 
         $this->assertEquals($exp, $obj->jsonSerialize());
     }
@@ -82,8 +82,8 @@ class HighchartsMarkerTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Areasplinerange\States\Hover\HighchartsMarker();
 
-        $obj->setHeight(9.0);
-        $this->assertEquals(9.0, $obj->getHeight());
+        $obj->setHeight(58.0);
+        $this->assertEquals(58.0, $obj->getHeight());
     }
 
     /**
@@ -108,8 +108,8 @@ class HighchartsMarkerTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Areasplinerange\States\Hover\HighchartsMarker();
 
-        $obj->setLineWidth(56.0);
-        $this->assertEquals(56.0, $obj->getLineWidth());
+        $obj->setLineWidth(27.0);
+        $this->assertEquals(27.0, $obj->getLineWidth());
     }
 
     /**
@@ -121,8 +121,8 @@ class HighchartsMarkerTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Areasplinerange\States\Hover\HighchartsMarker();
 
-        $obj->setRadius(47.0);
-        $this->assertEquals(47.0, $obj->getRadius());
+        $obj->setRadius(70.0);
+        $this->assertEquals(70.0, $obj->getRadius());
     }
 
     /**
@@ -147,6 +147,21 @@ class HighchartsMarkerTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Areasplinerange\States\Hover\HighchartsMarker();
 
+        $obj->setSymbol(null);
+        $this->assertEquals(null, $obj->getSymbol());
+
+        $obj->setSymbol("circle");
+        $this->assertEquals("circle", $obj->getSymbol());
+
+        $obj->setSymbol("diamond");
+        $this->assertEquals("diamond", $obj->getSymbol());
+
+        $obj->setSymbol("square");
+        $this->assertEquals("square", $obj->getSymbol());
+
+        $obj->setSymbol("triangle");
+        $this->assertEquals("triangle", $obj->getSymbol());
+
         $obj->setSymbol("triangle-down");
         $this->assertEquals("triangle-down", $obj->getSymbol());
     }
@@ -160,8 +175,8 @@ class HighchartsMarkerTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\Areasplinerange\States\Hover\HighchartsMarker();
 
-        $obj->setWidth(29.0);
-        $this->assertEquals(29.0, $obj->getWidth());
+        $obj->setWidth(38.0);
+        $this->assertEquals(38.0, $obj->getWidth());
     }
 
     /**

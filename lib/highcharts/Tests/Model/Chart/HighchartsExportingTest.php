@@ -264,6 +264,15 @@ class HighchartsExportingTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsExporting();
 
+        $obj->setType("application/pdf");
+        $this->assertEquals("application/pdf", $obj->getType());
+
+        $obj->setType("image/jpeg");
+        $this->assertEquals("image/jpeg", $obj->getType());
+
+        $obj->setType("image/png");
+        $this->assertEquals("image/png", $obj->getType());
+
         $obj->setType("image/svg+xml");
         $this->assertEquals("image/svg+xml", $obj->getType());
     }

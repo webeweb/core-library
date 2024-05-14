@@ -31,13 +31,13 @@ class HighchartsPositionTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        $exp = ["align" => "f792d1afb0399dce47533bead9d71a8a", "verticalAlign" => "bottom", "x" => 13.0, "y" => 3.0];
+        $exp = ["align" => "f792d1afb0399dce47533bead9d71a8a", "verticalAlign" => "bottom", "x" => 1.0, "y" => 51.0];
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Chart\ResetZoomButton\HighchartsPosition();
         $obj->setAlign("f792d1afb0399dce47533bead9d71a8a");
         $obj->setVerticalAlign("bottom");
-        $obj->setX(13.0);
-        $obj->setY(3.0);
+        $obj->setX(1.0);
+        $obj->setY(51.0);
 
         $this->assertEquals($exp, $obj->jsonSerialize());
     }
@@ -66,6 +66,12 @@ class HighchartsPositionTest extends AbstractTestCase {
 
         $obj->setVerticalAlign("bottom");
         $this->assertEquals("bottom", $obj->getVerticalAlign());
+
+        $obj->setVerticalAlign("middle");
+        $this->assertEquals("middle", $obj->getVerticalAlign());
+
+        $obj->setVerticalAlign("top");
+        $this->assertEquals("top", $obj->getVerticalAlign());
     }
 
     /**
@@ -77,8 +83,8 @@ class HighchartsPositionTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Chart\ResetZoomButton\HighchartsPosition();
 
-        $obj->setX(92.0);
-        $this->assertEquals(92.0, $obj->getX());
+        $obj->setX(69.0);
+        $this->assertEquals(69.0, $obj->getX());
     }
 
     /**
@@ -90,8 +96,8 @@ class HighchartsPositionTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Chart\ResetZoomButton\HighchartsPosition();
 
-        $obj->setY(35.0);
-        $this->assertEquals(35.0, $obj->getY());
+        $obj->setY(71.0);
+        $this->assertEquals(71.0, $obj->getY());
     }
 
     /**

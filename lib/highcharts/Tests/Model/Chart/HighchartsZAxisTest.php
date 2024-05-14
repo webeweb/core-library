@@ -36,71 +36,71 @@ class HighchartsZAxisTest extends AbstractTestCase {
         $labels    = new \WBW\Library\Highcharts\Model\Chart\ZAxis\HighchartsLabels();
         $title     = new \WBW\Library\Highcharts\Model\Chart\ZAxis\HighchartsTitle();
 
-        $exp = ["allowDecimals" => false, "alternateGridColor" => "e4c3a98e933a4f898d10c74d6b0cc3e9", "categories" => ["categories" => "b0b5ccb4a195a07fd3eed14affb8695f"], "ceiling" => 55.0, "className" => "6f66e878c62db60568a3487869695820", "crosshair" => $crosshair->jsonSerialize(), "dateTimeLabelFormats" => ["dateTimeLabelFormats" => "e9db9b38c23127a66165e1d8cefd5ad8"], "description" => "67daf92c833c41c95db874e18fcb2786", "endOnTick" => true, "events" => $events->jsonSerialize(), "floor" => 15.0, "gridLineColor" => "fa817119e014d62cd3eeb4aef3821870", "gridLineDashStyle" => "LongDashDotDot", "gridLineWidth" => 53.0, "gridZIndex" => 62.0, "id" => "b80bb7740288fda1f201890375a60c8f", "labels" => $labels->jsonSerialize(), "lineColor" => "c2580eebfdbdb9fc629f50cc147c3f63", "lineWidth" => 75.0, "linkedTo" => 96.0, "max" => 44.0, "maxPadding" => 1.0, "maxZoom" => 15.0, "min" => 25.0, "minPadding" => 30.0, "minRange" => 77.0, "minTickInterval" => 74.0, "minorGridLineColor" => "02d67903f43b194a260f6e05958c6f60", "minorGridLineDashStyle" => "LongDashDotDot", "minorGridLineWidth" => 1.0, "minorTickColor" => "58f14daeca50e29794caa541286c45b5", "minorTickInterval" => "bec8a7be3cd5e2a8eff4a3ee2f5c7e2d", "minorTickLength" => 59.0, "minorTickPosition" => "outside", "minorTickWidth" => 30.0, "offset" => 79.0, "opposite" => false, "plotBands" => ["plotBands" => "a6eb9963a4bde85c1ff1d28632fe012d"], "plotLines" => ["plotLines" => "ca27823684c96816234d7d97344db89c"], "reversed" => true, "showEmpty" => true, "showFirstLabel" => true, "showLastLabel" => false, "softMax" => 29.0, "softMin" => 9.0, "startOfWeek" => 73.0, "startOnTick" => false, "tickAmount" => 65.0, "tickColor" => "3569a8266538a625569574b2c96e237c", "tickInterval" => 45.0, "tickLength" => 1.0, "tickPixelInterval" => 73.0, "tickPosition" => "outside", "tickPositioner" => "c6a22a267ac93652e3443f821bb369bd", "tickPositions" => ["tickPositions" => "8c5d1b19e77eea01652836867fe6d741"], "tickWidth" => 100.0, "tickmarkPlacement" => "between", "title" => $title->jsonSerialize(), "type" => "category", "uniqueNames" => true, "units" => ["units" => "b98b3dfbd27e710e6c3ceeae58770b52"], "visible" => true];
+        $exp = ["allowDecimals" => false, "alternateGridColor" => "e4c3a98e933a4f898d10c74d6b0cc3e9", "categories" => ["categories" => "b0b5ccb4a195a07fd3eed14affb8695f"], "ceiling" => 53.0, "className" => "6f66e878c62db60568a3487869695820", "crosshair" => $crosshair->jsonSerialize(), "dateTimeLabelFormats" => ["dateTimeLabelFormats" => "e9db9b38c23127a66165e1d8cefd5ad8"], "description" => "67daf92c833c41c95db874e18fcb2786", "endOnTick" => false, "events" => $events->jsonSerialize(), "floor" => 51.0, "gridLineColor" => "fa817119e014d62cd3eeb4aef3821870", "gridLineDashStyle" => "LongDashDotDot", "gridLineWidth" => 43.0, "gridZIndex" => 10.0, "id" => "b80bb7740288fda1f201890375a60c8f", "labels" => $labels->jsonSerialize(), "lineColor" => "c2580eebfdbdb9fc629f50cc147c3f63", "lineWidth" => 20.0, "linkedTo" => 61.0, "max" => 95.0, "maxPadding" => 75.0, "maxZoom" => 47.0, "min" => 87.0, "minPadding" => 89.0, "minRange" => 90.0, "minTickInterval" => 10.0, "minorGridLineColor" => "02d67903f43b194a260f6e05958c6f60", "minorGridLineDashStyle" => "LongDashDotDot", "minorGridLineWidth" => 25.0, "minorTickColor" => "58f14daeca50e29794caa541286c45b5", "minorTickInterval" => "bec8a7be3cd5e2a8eff4a3ee2f5c7e2d", "minorTickLength" => 78.0, "minorTickPosition" => "outside", "minorTickWidth" => 12.0, "offset" => 0.0, "opposite" => true, "plotBands" => ["plotBands" => "a6eb9963a4bde85c1ff1d28632fe012d"], "plotLines" => ["plotLines" => "ca27823684c96816234d7d97344db89c"], "reversed" => false, "showEmpty" => true, "showFirstLabel" => true, "showLastLabel" => true, "softMax" => 0.0, "softMin" => 30.0, "startOfWeek" => 17.0, "startOnTick" => true, "tickAmount" => 45.0, "tickColor" => "3569a8266538a625569574b2c96e237c", "tickInterval" => 67.0, "tickLength" => 12.0, "tickPixelInterval" => 87.0, "tickPosition" => "outside", "tickPositioner" => "c6a22a267ac93652e3443f821bb369bd", "tickPositions" => ["tickPositions" => "8c5d1b19e77eea01652836867fe6d741"], "tickWidth" => 20.0, "tickmarkPlacement" => "between", "title" => $title->jsonSerialize(), "type" => "category", "uniqueNames" => false, "units" => ["units" => "b98b3dfbd27e710e6c3ceeae58770b52"], "visible" => false];
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsZAxis();
         $obj->setAllowDecimals(false);
         $obj->setAlternateGridColor("e4c3a98e933a4f898d10c74d6b0cc3e9");
         $obj->setCategories(["categories" => "b0b5ccb4a195a07fd3eed14affb8695f"]);
-        $obj->setCeiling(55.0);
+        $obj->setCeiling(53.0);
         $obj->setClassName("6f66e878c62db60568a3487869695820");
         $obj->setCrosshair($crosshair);
         $obj->setDateTimeLabelFormats(["dateTimeLabelFormats" => "e9db9b38c23127a66165e1d8cefd5ad8"]);
         $obj->setDescription("67daf92c833c41c95db874e18fcb2786");
-        $obj->setEndOnTick(true);
+        $obj->setEndOnTick(false);
         $obj->setEvents($events);
-        $obj->setFloor(15.0);
+        $obj->setFloor(51.0);
         $obj->setGridLineColor("fa817119e014d62cd3eeb4aef3821870");
         $obj->setGridLineDashStyle("LongDashDotDot");
-        $obj->setGridLineWidth(53.0);
-        $obj->setGridZIndex(62.0);
+        $obj->setGridLineWidth(43.0);
+        $obj->setGridZIndex(10.0);
         $obj->setId("b80bb7740288fda1f201890375a60c8f");
         $obj->setLabels($labels);
         $obj->setLineColor("c2580eebfdbdb9fc629f50cc147c3f63");
-        $obj->setLineWidth(75.0);
-        $obj->setLinkedTo(96.0);
-        $obj->setMax(44.0);
-        $obj->setMaxPadding(1.0);
-        $obj->setMaxZoom(15.0);
-        $obj->setMin(25.0);
-        $obj->setMinPadding(30.0);
-        $obj->setMinRange(77.0);
-        $obj->setMinTickInterval(74.0);
+        $obj->setLineWidth(20.0);
+        $obj->setLinkedTo(61.0);
+        $obj->setMax(95.0);
+        $obj->setMaxPadding(75.0);
+        $obj->setMaxZoom(47.0);
+        $obj->setMin(87.0);
+        $obj->setMinPadding(89.0);
+        $obj->setMinRange(90.0);
+        $obj->setMinTickInterval(10.0);
         $obj->setMinorGridLineColor("02d67903f43b194a260f6e05958c6f60");
         $obj->setMinorGridLineDashStyle("LongDashDotDot");
-        $obj->setMinorGridLineWidth(1.0);
+        $obj->setMinorGridLineWidth(25.0);
         $obj->setMinorTickColor("58f14daeca50e29794caa541286c45b5");
         $obj->setMinorTickInterval("bec8a7be3cd5e2a8eff4a3ee2f5c7e2d");
-        $obj->setMinorTickLength(59.0);
+        $obj->setMinorTickLength(78.0);
         $obj->setMinorTickPosition("outside");
-        $obj->setMinorTickWidth(30.0);
-        $obj->setOffset(79.0);
-        $obj->setOpposite(false);
+        $obj->setMinorTickWidth(12.0);
+        $obj->setOffset(0.0);
+        $obj->setOpposite(true);
         $obj->setPlotBands(["plotBands" => "a6eb9963a4bde85c1ff1d28632fe012d"]);
         $obj->setPlotLines(["plotLines" => "ca27823684c96816234d7d97344db89c"]);
-        $obj->setReversed(true);
+        $obj->setReversed(false);
         $obj->setShowEmpty(true);
         $obj->setShowFirstLabel(true);
-        $obj->setShowLastLabel(false);
-        $obj->setSoftMax(29.0);
-        $obj->setSoftMin(9.0);
-        $obj->setStartOfWeek(73.0);
-        $obj->setStartOnTick(false);
-        $obj->setTickAmount(65.0);
+        $obj->setShowLastLabel(true);
+        $obj->setSoftMax(0.0);
+        $obj->setSoftMin(30.0);
+        $obj->setStartOfWeek(17.0);
+        $obj->setStartOnTick(true);
+        $obj->setTickAmount(45.0);
         $obj->setTickColor("3569a8266538a625569574b2c96e237c");
-        $obj->setTickInterval(45.0);
-        $obj->setTickLength(1.0);
-        $obj->setTickPixelInterval(73.0);
+        $obj->setTickInterval(67.0);
+        $obj->setTickLength(12.0);
+        $obj->setTickPixelInterval(87.0);
         $obj->setTickPosition("outside");
         $obj->setTickPositioner("c6a22a267ac93652e3443f821bb369bd");
         $obj->setTickPositions(["tickPositions" => "8c5d1b19e77eea01652836867fe6d741"]);
-        $obj->setTickWidth(100.0);
+        $obj->setTickWidth(20.0);
         $obj->setTickmarkPlacement("between");
         $obj->setTitle($title);
         $obj->setType("category");
-        $obj->setUniqueNames(true);
+        $obj->setUniqueNames(false);
         $obj->setUnits(["units" => "b98b3dfbd27e710e6c3ceeae58770b52"]);
-        $obj->setVisible(true);
+        $obj->setVisible(false);
 
         $this->assertEquals($exp, $obj->jsonSerialize());
     }
@@ -205,8 +205,8 @@ class HighchartsZAxisTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsZAxis();
 
-        $obj->setCeiling(46.0);
-        $this->assertEquals(46.0, $obj->getCeiling());
+        $obj->setCeiling(33.0);
+        $this->assertEquals(33.0, $obj->getCeiling());
     }
 
     /**
@@ -302,8 +302,8 @@ class HighchartsZAxisTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsZAxis();
 
-        $obj->setFloor(48.0);
-        $this->assertEquals(48.0, $obj->getFloor());
+        $obj->setFloor(24.0);
+        $this->assertEquals(24.0, $obj->getFloor());
     }
 
     /**
@@ -328,8 +328,38 @@ class HighchartsZAxisTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsZAxis();
 
+        $obj->setGridLineDashStyle("Dash");
+        $this->assertEquals("Dash", $obj->getGridLineDashStyle());
+
+        $obj->setGridLineDashStyle("DashDot");
+        $this->assertEquals("DashDot", $obj->getGridLineDashStyle());
+
+        $obj->setGridLineDashStyle("Dot");
+        $this->assertEquals("Dot", $obj->getGridLineDashStyle());
+
+        $obj->setGridLineDashStyle("LongDash");
+        $this->assertEquals("LongDash", $obj->getGridLineDashStyle());
+
+        $obj->setGridLineDashStyle("LongDashDot");
+        $this->assertEquals("LongDashDot", $obj->getGridLineDashStyle());
+
         $obj->setGridLineDashStyle("LongDashDotDot");
         $this->assertEquals("LongDashDotDot", $obj->getGridLineDashStyle());
+
+        $obj->setGridLineDashStyle("ShortDash");
+        $this->assertEquals("ShortDash", $obj->getGridLineDashStyle());
+
+        $obj->setGridLineDashStyle("ShortDashDot");
+        $this->assertEquals("ShortDashDot", $obj->getGridLineDashStyle());
+
+        $obj->setGridLineDashStyle("ShortDashDotDot");
+        $this->assertEquals("ShortDashDotDot", $obj->getGridLineDashStyle());
+
+        $obj->setGridLineDashStyle("ShortDot");
+        $this->assertEquals("ShortDot", $obj->getGridLineDashStyle());
+
+        $obj->setGridLineDashStyle("Solid");
+        $this->assertEquals("Solid", $obj->getGridLineDashStyle());
     }
 
     /**
@@ -341,8 +371,8 @@ class HighchartsZAxisTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsZAxis();
 
-        $obj->setGridLineWidth(90.0);
-        $this->assertEquals(90.0, $obj->getGridLineWidth());
+        $obj->setGridLineWidth(27.0);
+        $this->assertEquals(27.0, $obj->getGridLineWidth());
     }
 
     /**
@@ -354,8 +384,8 @@ class HighchartsZAxisTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsZAxis();
 
-        $obj->setGridZIndex(64.0);
-        $this->assertEquals(64.0, $obj->getGridZIndex());
+        $obj->setGridZIndex(32.0);
+        $this->assertEquals(32.0, $obj->getGridZIndex());
     }
 
     /**
@@ -409,8 +439,8 @@ class HighchartsZAxisTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsZAxis();
 
-        $obj->setLineWidth(63.0);
-        $this->assertEquals(63.0, $obj->getLineWidth());
+        $obj->setLineWidth(71.0);
+        $this->assertEquals(71.0, $obj->getLineWidth());
     }
 
     /**
@@ -422,8 +452,8 @@ class HighchartsZAxisTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsZAxis();
 
-        $obj->setLinkedTo(15.0);
-        $this->assertEquals(15.0, $obj->getLinkedTo());
+        $obj->setLinkedTo(14.0);
+        $this->assertEquals(14.0, $obj->getLinkedTo());
     }
 
     /**
@@ -435,8 +465,8 @@ class HighchartsZAxisTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsZAxis();
 
-        $obj->setMax(94.0);
-        $this->assertEquals(94.0, $obj->getMax());
+        $obj->setMax(20.0);
+        $this->assertEquals(20.0, $obj->getMax());
     }
 
     /**
@@ -448,8 +478,8 @@ class HighchartsZAxisTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsZAxis();
 
-        $obj->setMaxPadding(40.0);
-        $this->assertEquals(40.0, $obj->getMaxPadding());
+        $obj->setMaxPadding(61.0);
+        $this->assertEquals(61.0, $obj->getMaxPadding());
     }
 
     /**
@@ -461,8 +491,8 @@ class HighchartsZAxisTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsZAxis();
 
-        $obj->setMaxZoom(90.0);
-        $this->assertEquals(90.0, $obj->getMaxZoom());
+        $obj->setMaxZoom(25.0);
+        $this->assertEquals(25.0, $obj->getMaxZoom());
     }
 
     /**
@@ -474,8 +504,8 @@ class HighchartsZAxisTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsZAxis();
 
-        $obj->setMin(96.0);
-        $this->assertEquals(96.0, $obj->getMin());
+        $obj->setMin(46.0);
+        $this->assertEquals(46.0, $obj->getMin());
     }
 
     /**
@@ -487,8 +517,8 @@ class HighchartsZAxisTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsZAxis();
 
-        $obj->setMinPadding(99.0);
-        $this->assertEquals(99.0, $obj->getMinPadding());
+        $obj->setMinPadding(38.0);
+        $this->assertEquals(38.0, $obj->getMinPadding());
     }
 
     /**
@@ -500,8 +530,8 @@ class HighchartsZAxisTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsZAxis();
 
-        $obj->setMinRange(19.0);
-        $this->assertEquals(19.0, $obj->getMinRange());
+        $obj->setMinRange(37.0);
+        $this->assertEquals(37.0, $obj->getMinRange());
     }
 
     /**
@@ -513,8 +543,8 @@ class HighchartsZAxisTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsZAxis();
 
-        $obj->setMinTickInterval(74.0);
-        $this->assertEquals(74.0, $obj->getMinTickInterval());
+        $obj->setMinTickInterval(47.0);
+        $this->assertEquals(47.0, $obj->getMinTickInterval());
     }
 
     /**
@@ -539,8 +569,38 @@ class HighchartsZAxisTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsZAxis();
 
+        $obj->setMinorGridLineDashStyle("Dash");
+        $this->assertEquals("Dash", $obj->getMinorGridLineDashStyle());
+
+        $obj->setMinorGridLineDashStyle("DashDot");
+        $this->assertEquals("DashDot", $obj->getMinorGridLineDashStyle());
+
+        $obj->setMinorGridLineDashStyle("Dot");
+        $this->assertEquals("Dot", $obj->getMinorGridLineDashStyle());
+
+        $obj->setMinorGridLineDashStyle("LongDash");
+        $this->assertEquals("LongDash", $obj->getMinorGridLineDashStyle());
+
+        $obj->setMinorGridLineDashStyle("LongDashDot");
+        $this->assertEquals("LongDashDot", $obj->getMinorGridLineDashStyle());
+
         $obj->setMinorGridLineDashStyle("LongDashDotDot");
         $this->assertEquals("LongDashDotDot", $obj->getMinorGridLineDashStyle());
+
+        $obj->setMinorGridLineDashStyle("ShortDash");
+        $this->assertEquals("ShortDash", $obj->getMinorGridLineDashStyle());
+
+        $obj->setMinorGridLineDashStyle("ShortDashDot");
+        $this->assertEquals("ShortDashDot", $obj->getMinorGridLineDashStyle());
+
+        $obj->setMinorGridLineDashStyle("ShortDashDotDot");
+        $this->assertEquals("ShortDashDotDot", $obj->getMinorGridLineDashStyle());
+
+        $obj->setMinorGridLineDashStyle("ShortDot");
+        $this->assertEquals("ShortDot", $obj->getMinorGridLineDashStyle());
+
+        $obj->setMinorGridLineDashStyle("Solid");
+        $this->assertEquals("Solid", $obj->getMinorGridLineDashStyle());
     }
 
     /**
@@ -552,8 +612,8 @@ class HighchartsZAxisTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsZAxis();
 
-        $obj->setMinorGridLineWidth(17.0);
-        $this->assertEquals(17.0, $obj->getMinorGridLineWidth());
+        $obj->setMinorGridLineWidth(96.0);
+        $this->assertEquals(96.0, $obj->getMinorGridLineWidth());
     }
 
     /**
@@ -591,8 +651,8 @@ class HighchartsZAxisTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsZAxis();
 
-        $obj->setMinorTickLength(93.0);
-        $this->assertEquals(93.0, $obj->getMinorTickLength());
+        $obj->setMinorTickLength(69.0);
+        $this->assertEquals(69.0, $obj->getMinorTickLength());
     }
 
     /**
@@ -603,6 +663,9 @@ class HighchartsZAxisTest extends AbstractTestCase {
     public function testSetMinorTickPosition(): void {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsZAxis();
+
+        $obj->setMinorTickPosition("inside");
+        $this->assertEquals("inside", $obj->getMinorTickPosition());
 
         $obj->setMinorTickPosition("outside");
         $this->assertEquals("outside", $obj->getMinorTickPosition());
@@ -617,8 +680,8 @@ class HighchartsZAxisTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsZAxis();
 
-        $obj->setMinorTickWidth(44.0);
-        $this->assertEquals(44.0, $obj->getMinorTickWidth());
+        $obj->setMinorTickWidth(10.0);
+        $this->assertEquals(10.0, $obj->getMinorTickWidth());
     }
 
     /**
@@ -630,8 +693,8 @@ class HighchartsZAxisTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsZAxis();
 
-        $obj->setOffset(79.0);
-        $this->assertEquals(79.0, $obj->getOffset());
+        $obj->setOffset(76.0);
+        $this->assertEquals(76.0, $obj->getOffset());
     }
 
     /**
@@ -682,8 +745,8 @@ class HighchartsZAxisTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsZAxis();
 
-        $obj->setReversed(true);
-        $this->assertEquals(true, $obj->getReversed());
+        $obj->setReversed(false);
+        $this->assertEquals(false, $obj->getReversed());
     }
 
     /**
@@ -695,8 +758,8 @@ class HighchartsZAxisTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsZAxis();
 
-        $obj->setShowEmpty(true);
-        $this->assertEquals(true, $obj->getShowEmpty());
+        $obj->setShowEmpty(false);
+        $this->assertEquals(false, $obj->getShowEmpty());
     }
 
     /**
@@ -721,8 +784,8 @@ class HighchartsZAxisTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsZAxis();
 
-        $obj->setShowLastLabel(false);
-        $this->assertEquals(false, $obj->getShowLastLabel());
+        $obj->setShowLastLabel(true);
+        $this->assertEquals(true, $obj->getShowLastLabel());
     }
 
     /**
@@ -734,8 +797,8 @@ class HighchartsZAxisTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsZAxis();
 
-        $obj->setSoftMax(53.0);
-        $this->assertEquals(53.0, $obj->getSoftMax());
+        $obj->setSoftMax(51.0);
+        $this->assertEquals(51.0, $obj->getSoftMax());
     }
 
     /**
@@ -747,8 +810,8 @@ class HighchartsZAxisTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsZAxis();
 
-        $obj->setSoftMin(35.0);
-        $this->assertEquals(35.0, $obj->getSoftMin());
+        $obj->setSoftMin(31.0);
+        $this->assertEquals(31.0, $obj->getSoftMin());
     }
 
     /**
@@ -760,8 +823,8 @@ class HighchartsZAxisTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsZAxis();
 
-        $obj->setStartOfWeek(8.0);
-        $this->assertEquals(8.0, $obj->getStartOfWeek());
+        $obj->setStartOfWeek(10.0);
+        $this->assertEquals(10.0, $obj->getStartOfWeek());
     }
 
     /**
@@ -786,8 +849,8 @@ class HighchartsZAxisTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsZAxis();
 
-        $obj->setTickAmount(34.0);
-        $this->assertEquals(34.0, $obj->getTickAmount());
+        $obj->setTickAmount(51.0);
+        $this->assertEquals(51.0, $obj->getTickAmount());
     }
 
     /**
@@ -812,8 +875,8 @@ class HighchartsZAxisTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsZAxis();
 
-        $obj->setTickInterval(93.0);
-        $this->assertEquals(93.0, $obj->getTickInterval());
+        $obj->setTickInterval(34.0);
+        $this->assertEquals(34.0, $obj->getTickInterval());
     }
 
     /**
@@ -825,8 +888,8 @@ class HighchartsZAxisTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsZAxis();
 
-        $obj->setTickLength(13.0);
-        $this->assertEquals(13.0, $obj->getTickLength());
+        $obj->setTickLength(75.0);
+        $this->assertEquals(75.0, $obj->getTickLength());
     }
 
     /**
@@ -838,8 +901,8 @@ class HighchartsZAxisTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsZAxis();
 
-        $obj->setTickPixelInterval(86.0);
-        $this->assertEquals(86.0, $obj->getTickPixelInterval());
+        $obj->setTickPixelInterval(14.0);
+        $this->assertEquals(14.0, $obj->getTickPixelInterval());
     }
 
     /**
@@ -850,6 +913,9 @@ class HighchartsZAxisTest extends AbstractTestCase {
     public function testSetTickPosition(): void {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsZAxis();
+
+        $obj->setTickPosition("inside");
+        $this->assertEquals("inside", $obj->getTickPosition());
 
         $obj->setTickPosition("outside");
         $this->assertEquals("outside", $obj->getTickPosition());
@@ -890,8 +956,8 @@ class HighchartsZAxisTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsZAxis();
 
-        $obj->setTickWidth(38.0);
-        $this->assertEquals(38.0, $obj->getTickWidth());
+        $obj->setTickWidth(68.0);
+        $this->assertEquals(68.0, $obj->getTickWidth());
     }
 
     /**
@@ -903,8 +969,14 @@ class HighchartsZAxisTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsZAxis();
 
+        $obj->setTickmarkPlacement(null);
+        $this->assertEquals(null, $obj->getTickmarkPlacement());
+
         $obj->setTickmarkPlacement("between");
         $this->assertEquals("between", $obj->getTickmarkPlacement());
+
+        $obj->setTickmarkPlacement("on");
+        $this->assertEquals("on", $obj->getTickmarkPlacement());
     }
 
     /**
@@ -934,6 +1006,15 @@ class HighchartsZAxisTest extends AbstractTestCase {
 
         $obj->setType("category");
         $this->assertEquals("category", $obj->getType());
+
+        $obj->setType("datetime");
+        $this->assertEquals("datetime", $obj->getType());
+
+        $obj->setType("linear");
+        $this->assertEquals("linear", $obj->getType());
+
+        $obj->setType("logarithmic");
+        $this->assertEquals("logarithmic", $obj->getType());
     }
 
     /**
@@ -945,8 +1026,8 @@ class HighchartsZAxisTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsZAxis();
 
-        $obj->setUniqueNames(true);
-        $this->assertEquals(true, $obj->getUniqueNames());
+        $obj->setUniqueNames(false);
+        $this->assertEquals(false, $obj->getUniqueNames());
     }
 
     /**

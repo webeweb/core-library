@@ -31,15 +31,15 @@ class HighchartsCrosshairTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        $exp = ["className" => "6f66e878c62db60568a3487869695820", "color" => "70dda5dfb8053dc6d1c492574bce9bfd", "dashStyle" => "LongDashDotDot", "snap" => true, "width" => 90.0, "zIndex" => 16.0];
+        $exp = ["className" => "6f66e878c62db60568a3487869695820", "color" => "70dda5dfb8053dc6d1c492574bce9bfd", "dashStyle" => "LongDashDotDot", "snap" => true, "width" => 38.0, "zIndex" => 91.0];
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\XAxis\HighchartsCrosshair();
         $obj->setClassName("6f66e878c62db60568a3487869695820");
         $obj->setColor("70dda5dfb8053dc6d1c492574bce9bfd");
         $obj->setDashStyle("LongDashDotDot");
         $obj->setSnap(true);
-        $obj->setWidth(90.0);
-        $obj->setZIndex(16.0);
+        $obj->setWidth(38.0);
+        $obj->setZIndex(91.0);
 
         $this->assertEquals($exp, $obj->jsonSerialize());
     }
@@ -79,8 +79,38 @@ class HighchartsCrosshairTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\XAxis\HighchartsCrosshair();
 
+        $obj->setDashStyle("Dash");
+        $this->assertEquals("Dash", $obj->getDashStyle());
+
+        $obj->setDashStyle("DashDot");
+        $this->assertEquals("DashDot", $obj->getDashStyle());
+
+        $obj->setDashStyle("Dot");
+        $this->assertEquals("Dot", $obj->getDashStyle());
+
+        $obj->setDashStyle("LongDash");
+        $this->assertEquals("LongDash", $obj->getDashStyle());
+
+        $obj->setDashStyle("LongDashDot");
+        $this->assertEquals("LongDashDot", $obj->getDashStyle());
+
         $obj->setDashStyle("LongDashDotDot");
         $this->assertEquals("LongDashDotDot", $obj->getDashStyle());
+
+        $obj->setDashStyle("ShortDash");
+        $this->assertEquals("ShortDash", $obj->getDashStyle());
+
+        $obj->setDashStyle("ShortDashDot");
+        $this->assertEquals("ShortDashDot", $obj->getDashStyle());
+
+        $obj->setDashStyle("ShortDashDotDot");
+        $this->assertEquals("ShortDashDotDot", $obj->getDashStyle());
+
+        $obj->setDashStyle("ShortDot");
+        $this->assertEquals("ShortDot", $obj->getDashStyle());
+
+        $obj->setDashStyle("Solid");
+        $this->assertEquals("Solid", $obj->getDashStyle());
     }
 
     /**
@@ -105,8 +135,8 @@ class HighchartsCrosshairTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\XAxis\HighchartsCrosshair();
 
-        $obj->setWidth(40.0);
-        $this->assertEquals(40.0, $obj->getWidth());
+        $obj->setWidth(49.0);
+        $this->assertEquals(49.0, $obj->getWidth());
     }
 
     /**
@@ -118,8 +148,8 @@ class HighchartsCrosshairTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\XAxis\HighchartsCrosshair();
 
-        $obj->setZIndex(66.0);
-        $this->assertEquals(66.0, $obj->getZIndex());
+        $obj->setZIndex(73.0);
+        $this->assertEquals(73.0, $obj->getZIndex());
     }
 
     /**

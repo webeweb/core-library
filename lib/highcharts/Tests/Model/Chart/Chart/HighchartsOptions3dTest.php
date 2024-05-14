@@ -33,17 +33,17 @@ class HighchartsOptions3dTest extends AbstractTestCase {
 
         $frame = new \WBW\Library\Highcharts\Model\Chart\Chart\Options3d\HighchartsFrame();
 
-        $exp = ["alpha" => 98.0, "axisLabelPosition" => "auto", "beta" => 94.0, "depth" => 96.0, "enabled" => false, "fitToPlot" => false, "frame" => $frame->jsonSerialize(), "viewDistance" => 11.0];
+        $exp = ["alpha" => 3.0, "axisLabelPosition" => "auto", "beta" => 4.0, "depth" => 82.0, "enabled" => false, "fitToPlot" => true, "frame" => $frame->jsonSerialize(), "viewDistance" => 29.0];
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Chart\HighchartsOptions3d();
-        $obj->setAlpha(98.0);
+        $obj->setAlpha(3.0);
         $obj->setAxisLabelPosition("auto");
-        $obj->setBeta(94.0);
-        $obj->setDepth(96.0);
+        $obj->setBeta(4.0);
+        $obj->setDepth(82.0);
         $obj->setEnabled(false);
-        $obj->setFitToPlot(false);
+        $obj->setFitToPlot(true);
         $obj->setFrame($frame);
-        $obj->setViewDistance(11.0);
+        $obj->setViewDistance(29.0);
 
         $this->assertEquals($exp, $obj->jsonSerialize());
     }
@@ -70,8 +70,8 @@ class HighchartsOptions3dTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Chart\HighchartsOptions3d();
 
-        $obj->setAlpha(62.0);
-        $this->assertEquals(62.0, $obj->getAlpha());
+        $obj->setAlpha(52.0);
+        $this->assertEquals(52.0, $obj->getAlpha());
     }
 
     /**
@@ -82,6 +82,9 @@ class HighchartsOptions3dTest extends AbstractTestCase {
     public function testSetAxisLabelPosition(): void {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Chart\HighchartsOptions3d();
+
+        $obj->setAxisLabelPosition(null);
+        $this->assertEquals(null, $obj->getAxisLabelPosition());
 
         $obj->setAxisLabelPosition("auto");
         $this->assertEquals("auto", $obj->getAxisLabelPosition());
@@ -96,8 +99,8 @@ class HighchartsOptions3dTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Chart\HighchartsOptions3d();
 
-        $obj->setBeta(41.0);
-        $this->assertEquals(41.0, $obj->getBeta());
+        $obj->setBeta(26.0);
+        $this->assertEquals(26.0, $obj->getBeta());
     }
 
     /**
@@ -109,8 +112,8 @@ class HighchartsOptions3dTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Chart\HighchartsOptions3d();
 
-        $obj->setDepth(2.0);
-        $this->assertEquals(2.0, $obj->getDepth());
+        $obj->setDepth(47.0);
+        $this->assertEquals(47.0, $obj->getDepth());
     }
 
     /**
@@ -164,8 +167,8 @@ class HighchartsOptions3dTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Chart\HighchartsOptions3d();
 
-        $obj->setViewDistance(22.0);
-        $this->assertEquals(22.0, $obj->getViewDistance());
+        $obj->setViewDistance(3.0);
+        $this->assertEquals(3.0, $obj->getViewDistance());
     }
 
     /**

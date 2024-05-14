@@ -37,54 +37,54 @@ class HighchartsPolygonTest extends AbstractTestCase {
         $point      = new \WBW\Library\Highcharts\Model\Chart\Series\Polygon\HighchartsPoint();
         $states     = new \WBW\Library\Highcharts\Model\Chart\Series\Polygon\HighchartsStates();
 
-        $exp = ["allowPointSelect" => true, "animation" => false, "animationLimit" => 82.0, "className" => "6f66e878c62db60568a3487869695820", "color" => "70dda5dfb8053dc6d1c492574bce9bfd", "colorIndex" => 49.0, "cropThreshold" => 62.0, "cursor" => "crosshair", "dashStyle" => "LongDashDotDot", "data" => ["data" => "8d777f385d3dfec8815d20f7496026dc"], "dataLabels" => $dataLabels->jsonSerialize(), "description" => "67daf92c833c41c95db874e18fcb2786", "enableMouseTracking" => true, "events" => $events->jsonSerialize(), "exposeElementToA11y" => false, "findNearestPointBy" => "xy", "getExtremesFromAll" => false, "id" => "b80bb7740288fda1f201890375a60c8f", "index" => 92.0, "keys" => ["keys" => "14f802e1fba977727845e8872c1743a7"], "legendIndex" => 97.0, "lineWidth" => 66.0, "linkedTo" => "914fab47afc86331ec62837807a29419", "marker" => $marker->jsonSerialize(), "name" => "b068931cc450442b63f5b3d276ea4297", "negativeColor" => "52fe4d3a854b01e25193b4f35fc2040e", "point" => $point->jsonSerialize(), "pointDescriptionFormatter" => "b5fd0c15b3ca81f726e2c7b93907ba36", "pointInterval" => 21.0, "pointIntervalUnit" => "year", "pointStart" => 56.0, "selected" => true, "shadow" => "3bf1114a986ba87ed28fc1b5884fc2f8", "showCheckbox" => false, "showInLegend" => false, "skipKeyboardNavigation" => false, "states" => $states->jsonSerialize(), "stickyTracking" => false, "tooltip" => ["tooltip" => "ddbfc1b6aa0ad4d79c5dac7aa3b44888"], "turboThreshold" => 41.0, "type" => "waterfall", "visible" => true, "xAxis" => "b919a806dedef37999b45653bdde66c6", "yAxis" => "f3cd431f5ac1725ea18774e5c02f2889", "zIndex" => 21.0, "zoneAxis" => "88421adabea658556aa3ab6c6181afad", "zones" => ["zones" => "26f94136f5db8afd4e9df1e512f7fdc5"]];
+        $exp = ["allowPointSelect" => false, "animation" => true, "animationLimit" => 66.0, "className" => "6f66e878c62db60568a3487869695820", "color" => "70dda5dfb8053dc6d1c492574bce9bfd", "colorIndex" => 87.0, "cropThreshold" => 32.0, "cursor" => "crosshair", "dashStyle" => "LongDashDotDot", "data" => ["data" => "8d777f385d3dfec8815d20f7496026dc"], "dataLabels" => $dataLabels->jsonSerialize(), "description" => "67daf92c833c41c95db874e18fcb2786", "enableMouseTracking" => false, "events" => $events->jsonSerialize(), "exposeElementToA11y" => true, "findNearestPointBy" => "xy", "getExtremesFromAll" => false, "id" => "b80bb7740288fda1f201890375a60c8f", "index" => 65.0, "keys" => ["keys" => "14f802e1fba977727845e8872c1743a7"], "legendIndex" => 32.0, "lineWidth" => 41.0, "linkedTo" => "914fab47afc86331ec62837807a29419", "marker" => $marker->jsonSerialize(), "name" => "b068931cc450442b63f5b3d276ea4297", "negativeColor" => "52fe4d3a854b01e25193b4f35fc2040e", "point" => $point->jsonSerialize(), "pointDescriptionFormatter" => "b5fd0c15b3ca81f726e2c7b93907ba36", "pointInterval" => 33.0, "pointIntervalUnit" => "year", "pointStart" => 76.0, "selected" => true, "shadow" => "3bf1114a986ba87ed28fc1b5884fc2f8", "showCheckbox" => true, "showInLegend" => false, "skipKeyboardNavigation" => false, "states" => $states->jsonSerialize(), "stickyTracking" => true, "tooltip" => ["tooltip" => "ddbfc1b6aa0ad4d79c5dac7aa3b44888"], "turboThreshold" => 1.0, "type" => "waterfall", "visible" => true, "xAxis" => "b919a806dedef37999b45653bdde66c6", "yAxis" => "f3cd431f5ac1725ea18774e5c02f2889", "zIndex" => 53.0, "zoneAxis" => "88421adabea658556aa3ab6c6181afad", "zones" => ["zones" => "26f94136f5db8afd4e9df1e512f7fdc5"]];
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPolygon();
-        $obj->setAllowPointSelect(true);
-        $obj->setAnimation(false);
-        $obj->setAnimationLimit(82.0);
+        $obj->setAllowPointSelect(false);
+        $obj->setAnimation(true);
+        $obj->setAnimationLimit(66.0);
         $obj->setClassName("6f66e878c62db60568a3487869695820");
         $obj->setColor("70dda5dfb8053dc6d1c492574bce9bfd");
-        $obj->setColorIndex(49.0);
-        $obj->setCropThreshold(62.0);
+        $obj->setColorIndex(87.0);
+        $obj->setCropThreshold(32.0);
         $obj->setCursor("crosshair");
         $obj->setDashStyle("LongDashDotDot");
         $obj->setData(["data" => "8d777f385d3dfec8815d20f7496026dc"]);
         $obj->setDataLabels($dataLabels);
         $obj->setDescription("67daf92c833c41c95db874e18fcb2786");
-        $obj->setEnableMouseTracking(true);
+        $obj->setEnableMouseTracking(false);
         $obj->setEvents($events);
-        $obj->setExposeElementToA11y(false);
+        $obj->setExposeElementToA11y(true);
         $obj->setFindNearestPointBy("xy");
         $obj->setGetExtremesFromAll(false);
         $obj->setId("b80bb7740288fda1f201890375a60c8f");
-        $obj->setIndex(92.0);
+        $obj->setIndex(65.0);
         $obj->setKeys(["keys" => "14f802e1fba977727845e8872c1743a7"]);
-        $obj->setLegendIndex(97.0);
-        $obj->setLineWidth(66.0);
+        $obj->setLegendIndex(32.0);
+        $obj->setLineWidth(41.0);
         $obj->setLinkedTo("914fab47afc86331ec62837807a29419");
         $obj->setMarker($marker);
         $obj->setName("b068931cc450442b63f5b3d276ea4297");
         $obj->setNegativeColor("52fe4d3a854b01e25193b4f35fc2040e");
         $obj->setPoint($point);
         $obj->setPointDescriptionFormatter("b5fd0c15b3ca81f726e2c7b93907ba36");
-        $obj->setPointInterval(21.0);
+        $obj->setPointInterval(33.0);
         $obj->setPointIntervalUnit("year");
-        $obj->setPointStart(56.0);
+        $obj->setPointStart(76.0);
         $obj->setSelected(true);
         $obj->setShadow("3bf1114a986ba87ed28fc1b5884fc2f8");
-        $obj->setShowCheckbox(false);
+        $obj->setShowCheckbox(true);
         $obj->setShowInLegend(false);
         $obj->setSkipKeyboardNavigation(false);
         $obj->setStates($states);
-        $obj->setStickyTracking(false);
+        $obj->setStickyTracking(true);
         $obj->setTooltip(["tooltip" => "ddbfc1b6aa0ad4d79c5dac7aa3b44888"]);
-        $obj->setTurboThreshold(41.0);
+        $obj->setTurboThreshold(1.0);
         $obj->setType("waterfall");
         $obj->setVisible(true);
         $obj->setXAxis("b919a806dedef37999b45653bdde66c6");
         $obj->setYAxis("f3cd431f5ac1725ea18774e5c02f2889");
-        $obj->setZIndex(21.0);
+        $obj->setZIndex(53.0);
         $obj->setZoneAxis("88421adabea658556aa3ab6c6181afad");
         $obj->setZones(["zones" => "26f94136f5db8afd4e9df1e512f7fdc5"]);
 
@@ -191,8 +191,8 @@ class HighchartsPolygonTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPolygon();
 
-        $obj->setAnimationLimit(64.0);
-        $this->assertEquals(64.0, $obj->getAnimationLimit());
+        $obj->setAnimationLimit(60.0);
+        $this->assertEquals(60.0, $obj->getAnimationLimit());
     }
 
     /**
@@ -230,8 +230,8 @@ class HighchartsPolygonTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPolygon();
 
-        $obj->setColorIndex(71.0);
-        $this->assertEquals(71.0, $obj->getColorIndex());
+        $obj->setColorIndex(81.0);
+        $this->assertEquals(81.0, $obj->getColorIndex());
     }
 
     /**
@@ -243,8 +243,8 @@ class HighchartsPolygonTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPolygon();
 
-        $obj->setCropThreshold(17.0);
-        $this->assertEquals(17.0, $obj->getCropThreshold());
+        $obj->setCropThreshold(46.0);
+        $this->assertEquals(46.0, $obj->getCropThreshold());
     }
 
     /**
@@ -256,8 +256,23 @@ class HighchartsPolygonTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPolygon();
 
+        $obj->setCursor(null);
+        $this->assertEquals(null, $obj->getCursor());
+
         $obj->setCursor("crosshair");
         $this->assertEquals("crosshair", $obj->getCursor());
+
+        $obj->setCursor("default");
+        $this->assertEquals("default", $obj->getCursor());
+
+        $obj->setCursor("help");
+        $this->assertEquals("help", $obj->getCursor());
+
+        $obj->setCursor("none");
+        $this->assertEquals("none", $obj->getCursor());
+
+        $obj->setCursor("pointer");
+        $this->assertEquals("pointer", $obj->getCursor());
     }
 
     /**
@@ -269,8 +284,38 @@ class HighchartsPolygonTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPolygon();
 
+        $obj->setDashStyle("Dash");
+        $this->assertEquals("Dash", $obj->getDashStyle());
+
+        $obj->setDashStyle("DashDot");
+        $this->assertEquals("DashDot", $obj->getDashStyle());
+
+        $obj->setDashStyle("Dot");
+        $this->assertEquals("Dot", $obj->getDashStyle());
+
+        $obj->setDashStyle("LongDash");
+        $this->assertEquals("LongDash", $obj->getDashStyle());
+
+        $obj->setDashStyle("LongDashDot");
+        $this->assertEquals("LongDashDot", $obj->getDashStyle());
+
         $obj->setDashStyle("LongDashDotDot");
         $this->assertEquals("LongDashDotDot", $obj->getDashStyle());
+
+        $obj->setDashStyle("ShortDash");
+        $this->assertEquals("ShortDash", $obj->getDashStyle());
+
+        $obj->setDashStyle("ShortDashDot");
+        $this->assertEquals("ShortDashDot", $obj->getDashStyle());
+
+        $obj->setDashStyle("ShortDashDotDot");
+        $this->assertEquals("ShortDashDotDot", $obj->getDashStyle());
+
+        $obj->setDashStyle("ShortDot");
+        $this->assertEquals("ShortDot", $obj->getDashStyle());
+
+        $obj->setDashStyle("Solid");
+        $this->assertEquals("Solid", $obj->getDashStyle());
     }
 
     /**
@@ -324,8 +369,8 @@ class HighchartsPolygonTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPolygon();
 
-        $obj->setEnableMouseTracking(true);
-        $this->assertEquals(true, $obj->getEnableMouseTracking());
+        $obj->setEnableMouseTracking(false);
+        $this->assertEquals(false, $obj->getEnableMouseTracking());
     }
 
     /**
@@ -353,8 +398,8 @@ class HighchartsPolygonTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPolygon();
 
-        $obj->setExposeElementToA11y(true);
-        $this->assertEquals(true, $obj->getExposeElementToA11y());
+        $obj->setExposeElementToA11y(false);
+        $this->assertEquals(false, $obj->getExposeElementToA11y());
     }
 
     /**
@@ -365,6 +410,9 @@ class HighchartsPolygonTest extends AbstractTestCase {
     public function testSetFindNearestPointBy(): void {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPolygon();
+
+        $obj->setFindNearestPointBy("x");
+        $this->assertEquals("x", $obj->getFindNearestPointBy());
 
         $obj->setFindNearestPointBy("xy");
         $this->assertEquals("xy", $obj->getFindNearestPointBy());
@@ -405,8 +453,8 @@ class HighchartsPolygonTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPolygon();
 
-        $obj->setIndex(68.0);
-        $this->assertEquals(68.0, $obj->getIndex());
+        $obj->setIndex(32.0);
+        $this->assertEquals(32.0, $obj->getIndex());
     }
 
     /**
@@ -431,8 +479,8 @@ class HighchartsPolygonTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPolygon();
 
-        $obj->setLegendIndex(17.0);
-        $this->assertEquals(17.0, $obj->getLegendIndex());
+        $obj->setLegendIndex(92.0);
+        $this->assertEquals(92.0, $obj->getLegendIndex());
     }
 
     /**
@@ -444,8 +492,8 @@ class HighchartsPolygonTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPolygon();
 
-        $obj->setLineWidth(52.0);
-        $this->assertEquals(52.0, $obj->getLineWidth());
+        $obj->setLineWidth(23.0);
+        $this->assertEquals(23.0, $obj->getLineWidth());
     }
 
     /**
@@ -541,8 +589,8 @@ class HighchartsPolygonTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPolygon();
 
-        $obj->setPointInterval(71.0);
-        $this->assertEquals(71.0, $obj->getPointInterval());
+        $obj->setPointInterval(90.0);
+        $this->assertEquals(90.0, $obj->getPointInterval());
     }
 
     /**
@@ -553,6 +601,15 @@ class HighchartsPolygonTest extends AbstractTestCase {
     public function testSetPointIntervalUnit(): void {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPolygon();
+
+        $obj->setPointIntervalUnit(null);
+        $this->assertEquals(null, $obj->getPointIntervalUnit());
+
+        $obj->setPointIntervalUnit("day");
+        $this->assertEquals("day", $obj->getPointIntervalUnit());
+
+        $obj->setPointIntervalUnit("month");
+        $this->assertEquals("month", $obj->getPointIntervalUnit());
 
         $obj->setPointIntervalUnit("year");
         $this->assertEquals("year", $obj->getPointIntervalUnit());
@@ -567,8 +624,8 @@ class HighchartsPolygonTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPolygon();
 
-        $obj->setPointStart(100.0);
-        $this->assertEquals(100.0, $obj->getPointStart());
+        $obj->setPointStart(58.0);
+        $this->assertEquals(58.0, $obj->getPointStart());
     }
 
     /**
@@ -632,8 +689,8 @@ class HighchartsPolygonTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPolygon();
 
-        $obj->setSkipKeyboardNavigation(false);
-        $this->assertEquals(false, $obj->getSkipKeyboardNavigation());
+        $obj->setSkipKeyboardNavigation(true);
+        $this->assertEquals(true, $obj->getSkipKeyboardNavigation());
     }
 
     /**
@@ -661,8 +718,8 @@ class HighchartsPolygonTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPolygon();
 
-        $obj->setStickyTracking(true);
-        $this->assertEquals(true, $obj->getStickyTracking());
+        $obj->setStickyTracking(false);
+        $this->assertEquals(false, $obj->getStickyTracking());
     }
 
     /**
@@ -687,8 +744,8 @@ class HighchartsPolygonTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPolygon();
 
-        $obj->setTurboThreshold(82.0);
-        $this->assertEquals(82.0, $obj->getTurboThreshold());
+        $obj->setTurboThreshold(45.0);
+        $this->assertEquals(45.0, $obj->getTurboThreshold());
     }
 
     /**
@@ -699,6 +756,54 @@ class HighchartsPolygonTest extends AbstractTestCase {
     public function testSetType(): void {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPolygon();
+
+        $obj->setType(null);
+        $this->assertEquals(null, $obj->getType());
+
+        $obj->setType("area");
+        $this->assertEquals("area", $obj->getType());
+
+        $obj->setType("arearange");
+        $this->assertEquals("arearange", $obj->getType());
+
+        $obj->setType("areaspline");
+        $this->assertEquals("areaspline", $obj->getType());
+
+        $obj->setType("areasplinerange");
+        $this->assertEquals("areasplinerange", $obj->getType());
+
+        $obj->setType("boxplot");
+        $this->assertEquals("boxplot", $obj->getType());
+
+        $obj->setType("bubble");
+        $this->assertEquals("bubble", $obj->getType());
+
+        $obj->setType("column");
+        $this->assertEquals("column", $obj->getType());
+
+        $obj->setType("columnrange");
+        $this->assertEquals("columnrange", $obj->getType());
+
+        $obj->setType("errorbar");
+        $this->assertEquals("errorbar", $obj->getType());
+
+        $obj->setType("funnel");
+        $this->assertEquals("funnel", $obj->getType());
+
+        $obj->setType("gauge");
+        $this->assertEquals("gauge", $obj->getType());
+
+        $obj->setType("line");
+        $this->assertEquals("line", $obj->getType());
+
+        $obj->setType("pie");
+        $this->assertEquals("pie", $obj->getType());
+
+        $obj->setType("scatter");
+        $this->assertEquals("scatter", $obj->getType());
+
+        $obj->setType("spline");
+        $this->assertEquals("spline", $obj->getType());
 
         $obj->setType("waterfall");
         $this->assertEquals("waterfall", $obj->getType());
@@ -752,8 +857,8 @@ class HighchartsPolygonTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPolygon();
 
-        $obj->setZIndex(42.0);
-        $this->assertEquals(42.0, $obj->getZIndex());
+        $obj->setZIndex(78.0);
+        $this->assertEquals(78.0, $obj->getZIndex());
     }
 
     /**

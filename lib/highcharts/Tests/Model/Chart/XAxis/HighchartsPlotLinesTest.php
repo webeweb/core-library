@@ -33,7 +33,7 @@ class HighchartsPlotLinesTest extends AbstractTestCase {
 
         $label = new \WBW\Library\Highcharts\Model\Chart\XAxis\PlotLines\HighchartsLabel();
 
-        $exp = ["className" => "6f66e878c62db60568a3487869695820", "color" => "70dda5dfb8053dc6d1c492574bce9bfd", "dashStyle" => "LongDashDotDot", "events" => ["events" => "16908b0605f2645dfcb4c3a8d248cef3"], "id" => "b80bb7740288fda1f201890375a60c8f", "label" => $label->jsonSerialize(), "value" => 59.0, "width" => 2.0, "zIndex" => 77.0];
+        $exp = ["className" => "6f66e878c62db60568a3487869695820", "color" => "70dda5dfb8053dc6d1c492574bce9bfd", "dashStyle" => "LongDashDotDot", "events" => ["events" => "16908b0605f2645dfcb4c3a8d248cef3"], "id" => "b80bb7740288fda1f201890375a60c8f", "label" => $label->jsonSerialize(), "value" => 21.0, "width" => 19.0, "zIndex" => 53.0];
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\XAxis\HighchartsPlotLines();
         $obj->setClassName("6f66e878c62db60568a3487869695820");
@@ -42,9 +42,9 @@ class HighchartsPlotLinesTest extends AbstractTestCase {
         $obj->setEvents(["events" => "16908b0605f2645dfcb4c3a8d248cef3"]);
         $obj->setId("b80bb7740288fda1f201890375a60c8f");
         $obj->setLabel($label);
-        $obj->setValue(59.0);
-        $obj->setWidth(2.0);
-        $obj->setZIndex(77.0);
+        $obj->setValue(21.0);
+        $obj->setWidth(19.0);
+        $obj->setZIndex(53.0);
 
         $this->assertEquals($exp, $obj->jsonSerialize());
     }
@@ -97,8 +97,38 @@ class HighchartsPlotLinesTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\XAxis\HighchartsPlotLines();
 
+        $obj->setDashStyle("Dash");
+        $this->assertEquals("Dash", $obj->getDashStyle());
+
+        $obj->setDashStyle("DashDot");
+        $this->assertEquals("DashDot", $obj->getDashStyle());
+
+        $obj->setDashStyle("Dot");
+        $this->assertEquals("Dot", $obj->getDashStyle());
+
+        $obj->setDashStyle("LongDash");
+        $this->assertEquals("LongDash", $obj->getDashStyle());
+
+        $obj->setDashStyle("LongDashDot");
+        $this->assertEquals("LongDashDot", $obj->getDashStyle());
+
         $obj->setDashStyle("LongDashDotDot");
         $this->assertEquals("LongDashDotDot", $obj->getDashStyle());
+
+        $obj->setDashStyle("ShortDash");
+        $this->assertEquals("ShortDash", $obj->getDashStyle());
+
+        $obj->setDashStyle("ShortDashDot");
+        $this->assertEquals("ShortDashDot", $obj->getDashStyle());
+
+        $obj->setDashStyle("ShortDashDotDot");
+        $this->assertEquals("ShortDashDotDot", $obj->getDashStyle());
+
+        $obj->setDashStyle("ShortDot");
+        $this->assertEquals("ShortDot", $obj->getDashStyle());
+
+        $obj->setDashStyle("Solid");
+        $this->assertEquals("Solid", $obj->getDashStyle());
     }
 
     /**
@@ -152,8 +182,8 @@ class HighchartsPlotLinesTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\XAxis\HighchartsPlotLines();
 
-        $obj->setValue(58.0);
-        $this->assertEquals(58.0, $obj->getValue());
+        $obj->setValue(83.0);
+        $this->assertEquals(83.0, $obj->getValue());
     }
 
     /**
@@ -165,8 +195,8 @@ class HighchartsPlotLinesTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\XAxis\HighchartsPlotLines();
 
-        $obj->setWidth(94.0);
-        $this->assertEquals(94.0, $obj->getWidth());
+        $obj->setWidth(20.0);
+        $this->assertEquals(20.0, $obj->getWidth());
     }
 
     /**
@@ -178,8 +208,8 @@ class HighchartsPlotLinesTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\XAxis\HighchartsPlotLines();
 
-        $obj->setZIndex(33.0);
-        $this->assertEquals(33.0, $obj->getZIndex());
+        $obj->setZIndex(24.0);
+        $this->assertEquals(24.0, $obj->getZIndex());
     }
 
     /**

@@ -35,58 +35,58 @@ class HighchartsColumnrangeTest extends AbstractTestCase {
         $point  = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Columnrange\HighchartsPoint();
         $states = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Columnrange\HighchartsStates();
 
-        $exp = ["allowPointSelect" => true, "animation" => true, "animationLimit" => 12.0, "borderColor" => "97da935a74593c55d78be9d1295aa994", "borderRadius" => 80.0, "borderWidth" => 81.0, "className" => "6f66e878c62db60568a3487869695820", "color" => "70dda5dfb8053dc6d1c492574bce9bfd", "colorByPoint" => true, "colorIndex" => 39.0, "colors" => ["colors" => "62848e3ce5804aa985513a7922ff87b2"], "crisp" => true, "cropThreshold" => 8.0, "cursor" => "crosshair", "dataLabels" => ["dataLabels" => "d4d108fe6659fac79420fa083ef3adf2"], "depth" => 26.0, "description" => "67daf92c833c41c95db874e18fcb2786", "edgeColor" => "acbab0d2e7e54e5a7a32fc80409601fc", "edgeWidth" => 67.0, "enableMouseTracking" => false, "events" => $events->jsonSerialize(), "exposeElementToA11y" => false, "findNearestPointBy" => "xy", "getExtremesFromAll" => true, "groupPadding" => 37.0, "groupZPadding" => 0.0, "grouping" => true, "keys" => ["keys" => "14f802e1fba977727845e8872c1743a7"], "linkedTo" => "914fab47afc86331ec62837807a29419", "maxPointWidth" => 89.0, "minPointLength" => 31.0, "point" => $point->jsonSerialize(), "pointDescriptionFormatter" => "b5fd0c15b3ca81f726e2c7b93907ba36", "pointInterval" => 19.0, "pointIntervalUnit" => "year", "pointPadding" => 31.0, "pointPlacement" => "between", "pointRange" => 71.0, "pointStart" => 76.0, "pointWidth" => 30.0, "selected" => false, "shadow" => "3bf1114a986ba87ed28fc1b5884fc2f8", "showCheckbox" => false, "showInLegend" => false, "skipKeyboardNavigation" => true, "states" => $states->jsonSerialize(), "stickyTracking" => false, "tooltip" => ["tooltip" => "ddbfc1b6aa0ad4d79c5dac7aa3b44888"], "turboThreshold" => 45.0, "visible" => true, "zoneAxis" => "88421adabea658556aa3ab6c6181afad", "zones" => ["zones" => "26f94136f5db8afd4e9df1e512f7fdc5"]];
+        $exp = ["allowPointSelect" => false, "animation" => true, "animationLimit" => 34.0, "borderColor" => "97da935a74593c55d78be9d1295aa994", "borderRadius" => 62.0, "borderWidth" => 2.0, "className" => "6f66e878c62db60568a3487869695820", "color" => "70dda5dfb8053dc6d1c492574bce9bfd", "colorByPoint" => false, "colorIndex" => 47.0, "colors" => ["colors" => "62848e3ce5804aa985513a7922ff87b2"], "crisp" => false, "cropThreshold" => 96.0, "cursor" => "crosshair", "dataLabels" => ["dataLabels" => "d4d108fe6659fac79420fa083ef3adf2"], "depth" => 26.0, "description" => "67daf92c833c41c95db874e18fcb2786", "edgeColor" => "acbab0d2e7e54e5a7a32fc80409601fc", "edgeWidth" => 42.0, "enableMouseTracking" => true, "events" => $events->jsonSerialize(), "exposeElementToA11y" => false, "findNearestPointBy" => "xy", "getExtremesFromAll" => false, "groupPadding" => 62.0, "groupZPadding" => 82.0, "grouping" => true, "keys" => ["keys" => "14f802e1fba977727845e8872c1743a7"], "linkedTo" => "914fab47afc86331ec62837807a29419", "maxPointWidth" => 52.0, "minPointLength" => 59.0, "point" => $point->jsonSerialize(), "pointDescriptionFormatter" => "b5fd0c15b3ca81f726e2c7b93907ba36", "pointInterval" => 58.0, "pointIntervalUnit" => "year", "pointPadding" => 56.0, "pointPlacement" => "between", "pointRange" => 82.0, "pointStart" => 96.0, "pointWidth" => 73.0, "selected" => false, "shadow" => "3bf1114a986ba87ed28fc1b5884fc2f8", "showCheckbox" => false, "showInLegend" => false, "skipKeyboardNavigation" => false, "states" => $states->jsonSerialize(), "stickyTracking" => false, "tooltip" => ["tooltip" => "ddbfc1b6aa0ad4d79c5dac7aa3b44888"], "turboThreshold" => 51.0, "visible" => true, "zoneAxis" => "88421adabea658556aa3ab6c6181afad", "zones" => ["zones" => "26f94136f5db8afd4e9df1e512f7fdc5"]];
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsColumnrange();
-        $obj->setAllowPointSelect(true);
+        $obj->setAllowPointSelect(false);
         $obj->setAnimation(true);
-        $obj->setAnimationLimit(12.0);
+        $obj->setAnimationLimit(34.0);
         $obj->setBorderColor("97da935a74593c55d78be9d1295aa994");
-        $obj->setBorderRadius(80.0);
-        $obj->setBorderWidth(81.0);
+        $obj->setBorderRadius(62.0);
+        $obj->setBorderWidth(2.0);
         $obj->setClassName("6f66e878c62db60568a3487869695820");
         $obj->setColor("70dda5dfb8053dc6d1c492574bce9bfd");
-        $obj->setColorByPoint(true);
-        $obj->setColorIndex(39.0);
+        $obj->setColorByPoint(false);
+        $obj->setColorIndex(47.0);
         $obj->setColors(["colors" => "62848e3ce5804aa985513a7922ff87b2"]);
-        $obj->setCrisp(true);
-        $obj->setCropThreshold(8.0);
+        $obj->setCrisp(false);
+        $obj->setCropThreshold(96.0);
         $obj->setCursor("crosshair");
         $obj->setDataLabels(["dataLabels" => "d4d108fe6659fac79420fa083ef3adf2"]);
         $obj->setDepth(26.0);
         $obj->setDescription("67daf92c833c41c95db874e18fcb2786");
         $obj->setEdgeColor("acbab0d2e7e54e5a7a32fc80409601fc");
-        $obj->setEdgeWidth(67.0);
-        $obj->setEnableMouseTracking(false);
+        $obj->setEdgeWidth(42.0);
+        $obj->setEnableMouseTracking(true);
         $obj->setEvents($events);
         $obj->setExposeElementToA11y(false);
         $obj->setFindNearestPointBy("xy");
-        $obj->setGetExtremesFromAll(true);
-        $obj->setGroupPadding(37.0);
-        $obj->setGroupZPadding(0.0);
+        $obj->setGetExtremesFromAll(false);
+        $obj->setGroupPadding(62.0);
+        $obj->setGroupZPadding(82.0);
         $obj->setGrouping(true);
         $obj->setKeys(["keys" => "14f802e1fba977727845e8872c1743a7"]);
         $obj->setLinkedTo("914fab47afc86331ec62837807a29419");
-        $obj->setMaxPointWidth(89.0);
-        $obj->setMinPointLength(31.0);
+        $obj->setMaxPointWidth(52.0);
+        $obj->setMinPointLength(59.0);
         $obj->setPoint($point);
         $obj->setPointDescriptionFormatter("b5fd0c15b3ca81f726e2c7b93907ba36");
-        $obj->setPointInterval(19.0);
+        $obj->setPointInterval(58.0);
         $obj->setPointIntervalUnit("year");
-        $obj->setPointPadding(31.0);
+        $obj->setPointPadding(56.0);
         $obj->setPointPlacement("between");
-        $obj->setPointRange(71.0);
-        $obj->setPointStart(76.0);
-        $obj->setPointWidth(30.0);
+        $obj->setPointRange(82.0);
+        $obj->setPointStart(96.0);
+        $obj->setPointWidth(73.0);
         $obj->setSelected(false);
         $obj->setShadow("3bf1114a986ba87ed28fc1b5884fc2f8");
         $obj->setShowCheckbox(false);
         $obj->setShowInLegend(false);
-        $obj->setSkipKeyboardNavigation(true);
+        $obj->setSkipKeyboardNavigation(false);
         $obj->setStates($states);
         $obj->setStickyTracking(false);
         $obj->setTooltip(["tooltip" => "ddbfc1b6aa0ad4d79c5dac7aa3b44888"]);
-        $obj->setTurboThreshold(45.0);
+        $obj->setTurboThreshold(51.0);
         $obj->setVisible(true);
         $obj->setZoneAxis("88421adabea658556aa3ab6c6181afad");
         $obj->setZones(["zones" => "26f94136f5db8afd4e9df1e512f7fdc5"]);
@@ -168,8 +168,8 @@ class HighchartsColumnrangeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsColumnrange();
 
-        $obj->setAnimationLimit(80.0);
-        $this->assertEquals(80.0, $obj->getAnimationLimit());
+        $obj->setAnimationLimit(12.0);
+        $this->assertEquals(12.0, $obj->getAnimationLimit());
     }
 
     /**
@@ -194,8 +194,8 @@ class HighchartsColumnrangeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsColumnrange();
 
-        $obj->setBorderRadius(76.0);
-        $this->assertEquals(76.0, $obj->getBorderRadius());
+        $obj->setBorderRadius(24.0);
+        $this->assertEquals(24.0, $obj->getBorderRadius());
     }
 
     /**
@@ -207,8 +207,8 @@ class HighchartsColumnrangeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsColumnrange();
 
-        $obj->setBorderWidth(24.0);
-        $this->assertEquals(24.0, $obj->getBorderWidth());
+        $obj->setBorderWidth(27.0);
+        $this->assertEquals(27.0, $obj->getBorderWidth());
     }
 
     /**
@@ -259,8 +259,8 @@ class HighchartsColumnrangeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsColumnrange();
 
-        $obj->setColorIndex(15.0);
-        $this->assertEquals(15.0, $obj->getColorIndex());
+        $obj->setColorIndex(71.0);
+        $this->assertEquals(71.0, $obj->getColorIndex());
     }
 
     /**
@@ -285,8 +285,8 @@ class HighchartsColumnrangeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsColumnrange();
 
-        $obj->setCrisp(false);
-        $this->assertEquals(false, $obj->getCrisp());
+        $obj->setCrisp(true);
+        $this->assertEquals(true, $obj->getCrisp());
     }
 
     /**
@@ -298,8 +298,8 @@ class HighchartsColumnrangeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsColumnrange();
 
-        $obj->setCropThreshold(41.0);
-        $this->assertEquals(41.0, $obj->getCropThreshold());
+        $obj->setCropThreshold(40.0);
+        $this->assertEquals(40.0, $obj->getCropThreshold());
     }
 
     /**
@@ -311,8 +311,23 @@ class HighchartsColumnrangeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsColumnrange();
 
+        $obj->setCursor(null);
+        $this->assertEquals(null, $obj->getCursor());
+
         $obj->setCursor("crosshair");
         $this->assertEquals("crosshair", $obj->getCursor());
+
+        $obj->setCursor("default");
+        $this->assertEquals("default", $obj->getCursor());
+
+        $obj->setCursor("help");
+        $this->assertEquals("help", $obj->getCursor());
+
+        $obj->setCursor("none");
+        $this->assertEquals("none", $obj->getCursor());
+
+        $obj->setCursor("pointer");
+        $this->assertEquals("pointer", $obj->getCursor());
     }
 
     /**
@@ -337,8 +352,8 @@ class HighchartsColumnrangeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsColumnrange();
 
-        $obj->setDepth(42.0);
-        $this->assertEquals(42.0, $obj->getDepth());
+        $obj->setDepth(98.0);
+        $this->assertEquals(98.0, $obj->getDepth());
     }
 
     /**
@@ -376,8 +391,8 @@ class HighchartsColumnrangeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsColumnrange();
 
-        $obj->setEdgeWidth(69.0);
-        $this->assertEquals(69.0, $obj->getEdgeWidth());
+        $obj->setEdgeWidth(3.0);
+        $this->assertEquals(3.0, $obj->getEdgeWidth());
     }
 
     /**
@@ -418,8 +433,8 @@ class HighchartsColumnrangeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsColumnrange();
 
-        $obj->setExposeElementToA11y(true);
-        $this->assertEquals(true, $obj->getExposeElementToA11y());
+        $obj->setExposeElementToA11y(false);
+        $this->assertEquals(false, $obj->getExposeElementToA11y());
     }
 
     /**
@@ -430,6 +445,9 @@ class HighchartsColumnrangeTest extends AbstractTestCase {
     public function testSetFindNearestPointBy(): void {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsColumnrange();
+
+        $obj->setFindNearestPointBy("x");
+        $this->assertEquals("x", $obj->getFindNearestPointBy());
 
         $obj->setFindNearestPointBy("xy");
         $this->assertEquals("xy", $obj->getFindNearestPointBy());
@@ -457,8 +475,8 @@ class HighchartsColumnrangeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsColumnrange();
 
-        $obj->setGroupPadding(84.0);
-        $this->assertEquals(84.0, $obj->getGroupPadding());
+        $obj->setGroupPadding(1.0);
+        $this->assertEquals(1.0, $obj->getGroupPadding());
     }
 
     /**
@@ -470,8 +488,8 @@ class HighchartsColumnrangeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsColumnrange();
 
-        $obj->setGroupZPadding(78.0);
-        $this->assertEquals(78.0, $obj->getGroupZPadding());
+        $obj->setGroupZPadding(14.0);
+        $this->assertEquals(14.0, $obj->getGroupZPadding());
     }
 
     /**
@@ -483,8 +501,8 @@ class HighchartsColumnrangeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsColumnrange();
 
-        $obj->setGrouping(true);
-        $this->assertEquals(true, $obj->getGrouping());
+        $obj->setGrouping(false);
+        $this->assertEquals(false, $obj->getGrouping());
     }
 
     /**
@@ -522,8 +540,8 @@ class HighchartsColumnrangeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsColumnrange();
 
-        $obj->setMaxPointWidth(73.0);
-        $this->assertEquals(73.0, $obj->getMaxPointWidth());
+        $obj->setMaxPointWidth(54.0);
+        $this->assertEquals(54.0, $obj->getMaxPointWidth());
     }
 
     /**
@@ -535,8 +553,8 @@ class HighchartsColumnrangeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsColumnrange();
 
-        $obj->setMinPointLength(8.0);
-        $this->assertEquals(8.0, $obj->getMinPointLength());
+        $obj->setMinPointLength(73.0);
+        $this->assertEquals(73.0, $obj->getMinPointLength());
     }
 
     /**
@@ -577,8 +595,8 @@ class HighchartsColumnrangeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsColumnrange();
 
-        $obj->setPointInterval(94.0);
-        $this->assertEquals(94.0, $obj->getPointInterval());
+        $obj->setPointInterval(97.0);
+        $this->assertEquals(97.0, $obj->getPointInterval());
     }
 
     /**
@@ -589,6 +607,15 @@ class HighchartsColumnrangeTest extends AbstractTestCase {
     public function testSetPointIntervalUnit(): void {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsColumnrange();
+
+        $obj->setPointIntervalUnit(null);
+        $this->assertEquals(null, $obj->getPointIntervalUnit());
+
+        $obj->setPointIntervalUnit("day");
+        $this->assertEquals("day", $obj->getPointIntervalUnit());
+
+        $obj->setPointIntervalUnit("month");
+        $this->assertEquals("month", $obj->getPointIntervalUnit());
 
         $obj->setPointIntervalUnit("year");
         $this->assertEquals("year", $obj->getPointIntervalUnit());
@@ -603,8 +630,8 @@ class HighchartsColumnrangeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsColumnrange();
 
-        $obj->setPointPadding(3.0);
-        $this->assertEquals(3.0, $obj->getPointPadding());
+        $obj->setPointPadding(9.0);
+        $this->assertEquals(9.0, $obj->getPointPadding());
     }
 
     /**
@@ -616,8 +643,14 @@ class HighchartsColumnrangeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsColumnrange();
 
+        $obj->setPointPlacement(null);
+        $this->assertEquals(null, $obj->getPointPlacement());
+
         $obj->setPointPlacement("between");
         $this->assertEquals("between", $obj->getPointPlacement());
+
+        $obj->setPointPlacement("on");
+        $this->assertEquals("on", $obj->getPointPlacement());
     }
 
     /**
@@ -629,8 +662,8 @@ class HighchartsColumnrangeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsColumnrange();
 
-        $obj->setPointRange(79.0);
-        $this->assertEquals(79.0, $obj->getPointRange());
+        $obj->setPointRange(55.0);
+        $this->assertEquals(55.0, $obj->getPointRange());
     }
 
     /**
@@ -642,8 +675,8 @@ class HighchartsColumnrangeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsColumnrange();
 
-        $obj->setPointStart(70.0);
-        $this->assertEquals(70.0, $obj->getPointStart());
+        $obj->setPointStart(92.0);
+        $this->assertEquals(92.0, $obj->getPointStart());
     }
 
     /**
@@ -655,8 +688,8 @@ class HighchartsColumnrangeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsColumnrange();
 
-        $obj->setPointWidth(33.0);
-        $this->assertEquals(33.0, $obj->getPointWidth());
+        $obj->setPointWidth(83.0);
+        $this->assertEquals(83.0, $obj->getPointWidth());
     }
 
     /**
@@ -694,8 +727,8 @@ class HighchartsColumnrangeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsColumnrange();
 
-        $obj->setShowCheckbox(true);
-        $this->assertEquals(true, $obj->getShowCheckbox());
+        $obj->setShowCheckbox(false);
+        $this->assertEquals(false, $obj->getShowCheckbox());
     }
 
     /**
@@ -707,8 +740,8 @@ class HighchartsColumnrangeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsColumnrange();
 
-        $obj->setShowInLegend(true);
-        $this->assertEquals(true, $obj->getShowInLegend());
+        $obj->setShowInLegend(false);
+        $this->assertEquals(false, $obj->getShowInLegend());
     }
 
     /**
@@ -720,8 +753,8 @@ class HighchartsColumnrangeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsColumnrange();
 
-        $obj->setSkipKeyboardNavigation(true);
-        $this->assertEquals(true, $obj->getSkipKeyboardNavigation());
+        $obj->setSkipKeyboardNavigation(false);
+        $this->assertEquals(false, $obj->getSkipKeyboardNavigation());
     }
 
     /**
@@ -775,8 +808,8 @@ class HighchartsColumnrangeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsColumnrange();
 
-        $obj->setTurboThreshold(26.0);
-        $this->assertEquals(26.0, $obj->getTurboThreshold());
+        $obj->setTurboThreshold(52.0);
+        $this->assertEquals(52.0, $obj->getTurboThreshold());
     }
 
     /**

@@ -31,27 +31,27 @@ class HighchartsLabelsTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        $exp = ["align" => "right", "autoRotation" => ["autoRotation" => "df2870a8069e229823782cfb008a95ed"], "autoRotationLimit" => 12.0, "distance" => 83.0, "enabled" => true, "format" => "1ddcb92ade31c8fbd370001f9b29a7d9", "formatter" => "f2ffc59487832cbad265a8fef2133592", "overflow" => "justify", "padding" => 10.0, "reserveSpace" => true, "rotation" => 49.0, "staggerLines" => 16.0, "step" => 37.0, "style" => ["style" => "a1b01e734b573fca08eb1a65e6df9a38"], "useHTML" => false, "x" => 48.0, "y" => 32.0, "zIndex" => 1.0];
+        $exp = ["align" => "right", "autoRotation" => ["autoRotation" => "df2870a8069e229823782cfb008a95ed"], "autoRotationLimit" => 38.0, "distance" => 67.0, "enabled" => true, "format" => "1ddcb92ade31c8fbd370001f9b29a7d9", "formatter" => "f2ffc59487832cbad265a8fef2133592", "overflow" => "justify", "padding" => 28.0, "reserveSpace" => true, "rotation" => 34.0, "staggerLines" => 34.0, "step" => 3.0, "style" => ["style" => "a1b01e734b573fca08eb1a65e6df9a38"], "useHTML" => false, "x" => 47.0, "y" => 23.0, "zIndex" => 28.0];
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\YAxis\HighchartsLabels();
         $obj->setAlign("right");
         $obj->setAutoRotation(["autoRotation" => "df2870a8069e229823782cfb008a95ed"]);
-        $obj->setAutoRotationLimit(12.0);
-        $obj->setDistance(83.0);
+        $obj->setAutoRotationLimit(38.0);
+        $obj->setDistance(67.0);
         $obj->setEnabled(true);
         $obj->setFormat("1ddcb92ade31c8fbd370001f9b29a7d9");
         $obj->setFormatter("f2ffc59487832cbad265a8fef2133592");
         $obj->setOverflow("justify");
-        $obj->setPadding(10.0);
+        $obj->setPadding(28.0);
         $obj->setReserveSpace(true);
-        $obj->setRotation(49.0);
-        $obj->setStaggerLines(16.0);
-        $obj->setStep(37.0);
+        $obj->setRotation(34.0);
+        $obj->setStaggerLines(34.0);
+        $obj->setStep(3.0);
         $obj->setStyle(["style" => "a1b01e734b573fca08eb1a65e6df9a38"]);
         $obj->setUseHTML(false);
-        $obj->setX(48.0);
-        $obj->setY(32.0);
-        $obj->setZIndex(1.0);
+        $obj->setX(47.0);
+        $obj->setY(23.0);
+        $obj->setZIndex(28.0);
 
         $this->assertEquals($exp, $obj->jsonSerialize());
     }
@@ -64,6 +64,12 @@ class HighchartsLabelsTest extends AbstractTestCase {
     public function testSetAlign(): void {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\YAxis\HighchartsLabels();
+
+        $obj->setAlign("center");
+        $this->assertEquals("center", $obj->getAlign());
+
+        $obj->setAlign("left");
+        $this->assertEquals("left", $obj->getAlign());
 
         $obj->setAlign("right");
         $this->assertEquals("right", $obj->getAlign());
@@ -91,8 +97,8 @@ class HighchartsLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\YAxis\HighchartsLabels();
 
-        $obj->setAutoRotationLimit(69.0);
-        $this->assertEquals(69.0, $obj->getAutoRotationLimit());
+        $obj->setAutoRotationLimit(38.0);
+        $this->assertEquals(38.0, $obj->getAutoRotationLimit());
     }
 
     /**
@@ -104,8 +110,8 @@ class HighchartsLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\YAxis\HighchartsLabels();
 
-        $obj->setDistance(97.0);
-        $this->assertEquals(97.0, $obj->getDistance());
+        $obj->setDistance(2.0);
+        $this->assertEquals(2.0, $obj->getDistance());
     }
 
     /**
@@ -117,8 +123,8 @@ class HighchartsLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\YAxis\HighchartsLabels();
 
-        $obj->setEnabled(false);
-        $this->assertEquals(false, $obj->getEnabled());
+        $obj->setEnabled(true);
+        $this->assertEquals(true, $obj->getEnabled());
     }
 
     /**
@@ -156,6 +162,9 @@ class HighchartsLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\YAxis\HighchartsLabels();
 
+        $obj->setOverflow(null);
+        $this->assertEquals(null, $obj->getOverflow());
+
         $obj->setOverflow("justify");
         $this->assertEquals("justify", $obj->getOverflow());
     }
@@ -169,8 +178,8 @@ class HighchartsLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\YAxis\HighchartsLabels();
 
-        $obj->setPadding(94.0);
-        $this->assertEquals(94.0, $obj->getPadding());
+        $obj->setPadding(48.0);
+        $this->assertEquals(48.0, $obj->getPadding());
     }
 
     /**
@@ -195,8 +204,8 @@ class HighchartsLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\YAxis\HighchartsLabels();
 
-        $obj->setRotation(46.0);
-        $this->assertEquals(46.0, $obj->getRotation());
+        $obj->setRotation(5.0);
+        $this->assertEquals(5.0, $obj->getRotation());
     }
 
     /**
@@ -208,8 +217,8 @@ class HighchartsLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\YAxis\HighchartsLabels();
 
-        $obj->setStaggerLines(10.0);
-        $this->assertEquals(10.0, $obj->getStaggerLines());
+        $obj->setStaggerLines(80.0);
+        $this->assertEquals(80.0, $obj->getStaggerLines());
     }
 
     /**
@@ -221,8 +230,8 @@ class HighchartsLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\YAxis\HighchartsLabels();
 
-        $obj->setStep(12.0);
-        $this->assertEquals(12.0, $obj->getStep());
+        $obj->setStep(90.0);
+        $this->assertEquals(90.0, $obj->getStep());
     }
 
     /**
@@ -247,8 +256,8 @@ class HighchartsLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\YAxis\HighchartsLabels();
 
-        $obj->setUseHTML(false);
-        $this->assertEquals(false, $obj->getUseHTML());
+        $obj->setUseHTML(true);
+        $this->assertEquals(true, $obj->getUseHTML());
     }
 
     /**
@@ -260,8 +269,8 @@ class HighchartsLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\YAxis\HighchartsLabels();
 
-        $obj->setX(88.0);
-        $this->assertEquals(88.0, $obj->getX());
+        $obj->setX(36.0);
+        $this->assertEquals(36.0, $obj->getX());
     }
 
     /**
@@ -273,8 +282,8 @@ class HighchartsLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\YAxis\HighchartsLabels();
 
-        $obj->setY(56.0);
-        $this->assertEquals(56.0, $obj->getY());
+        $obj->setY(36.0);
+        $this->assertEquals(36.0, $obj->getY());
     }
 
     /**
@@ -286,8 +295,8 @@ class HighchartsLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\YAxis\HighchartsLabels();
 
-        $obj->setZIndex(100.0);
-        $this->assertEquals(100.0, $obj->getZIndex());
+        $obj->setZIndex(22.0);
+        $this->assertEquals(22.0, $obj->getZIndex());
     }
 
     /**

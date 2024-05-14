@@ -36,24 +36,24 @@ class HighchartsPieTest extends AbstractTestCase {
         $point      = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Pie\HighchartsPoint();
         $states     = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Pie\HighchartsStates();
 
-        $exp = ["allowPointSelect" => false, "animation" => false, "animationLimit" => 56.0, "borderColor" => "97da935a74593c55d78be9d1295aa994", "borderWidth" => 22.0, "center" => ["center" => "adb115059e28d960fa8badfac5516667"], "className" => "6f66e878c62db60568a3487869695820", "colorIndex" => 53.0, "colors" => ["colors" => "62848e3ce5804aa985513a7922ff87b2"], "cursor" => "crosshair", "dataLabels" => $dataLabels->jsonSerialize(), "depth" => 47.0, "description" => "67daf92c833c41c95db874e18fcb2786", "enableMouseTracking" => false, "endAngle" => 83.0, "events" => $events->jsonSerialize(), "exposeElementToA11y" => true, "findNearestPointBy" => "xy", "getExtremesFromAll" => true, "ignoreHiddenPoint" => false, "innerSize" => "a6d1a6164e85630d2ca35170621de672", "keys" => ["keys" => "14f802e1fba977727845e8872c1743a7"], "linkedTo" => "914fab47afc86331ec62837807a29419", "minSize" => 69.0, "point" => $point->jsonSerialize(), "pointDescriptionFormatter" => "b5fd0c15b3ca81f726e2c7b93907ba36", "selected" => false, "shadow" => "3bf1114a986ba87ed28fc1b5884fc2f8", "showInLegend" => false, "size" => "f7bd60b75b29d79b660a2859395c1a24", "skipKeyboardNavigation" => true, "slicedOffset" => 36.0, "startAngle" => 66.0, "states" => $states->jsonSerialize(), "stickyTracking" => false, "tooltip" => ["tooltip" => "ddbfc1b6aa0ad4d79c5dac7aa3b44888"], "visible" => true, "zoneAxis" => "88421adabea658556aa3ab6c6181afad", "zones" => ["zones" => "26f94136f5db8afd4e9df1e512f7fdc5"]];
+        $exp = ["allowPointSelect" => false, "animation" => true, "animationLimit" => 37.0, "borderColor" => "97da935a74593c55d78be9d1295aa994", "borderWidth" => 52.0, "center" => ["center" => "adb115059e28d960fa8badfac5516667"], "className" => "6f66e878c62db60568a3487869695820", "colorIndex" => 95.0, "colors" => ["colors" => "62848e3ce5804aa985513a7922ff87b2"], "cursor" => "crosshair", "dataLabels" => $dataLabels->jsonSerialize(), "depth" => 23.0, "description" => "67daf92c833c41c95db874e18fcb2786", "enableMouseTracking" => true, "endAngle" => 22.0, "events" => $events->jsonSerialize(), "exposeElementToA11y" => true, "findNearestPointBy" => "xy", "getExtremesFromAll" => true, "ignoreHiddenPoint" => false, "innerSize" => "a6d1a6164e85630d2ca35170621de672", "keys" => ["keys" => "14f802e1fba977727845e8872c1743a7"], "linkedTo" => "914fab47afc86331ec62837807a29419", "minSize" => 20.0, "point" => $point->jsonSerialize(), "pointDescriptionFormatter" => "b5fd0c15b3ca81f726e2c7b93907ba36", "selected" => false, "shadow" => "3bf1114a986ba87ed28fc1b5884fc2f8", "showInLegend" => true, "size" => "f7bd60b75b29d79b660a2859395c1a24", "skipKeyboardNavigation" => false, "slicedOffset" => 87.0, "startAngle" => 96.0, "states" => $states->jsonSerialize(), "stickyTracking" => false, "tooltip" => ["tooltip" => "ddbfc1b6aa0ad4d79c5dac7aa3b44888"], "visible" => false, "zoneAxis" => "88421adabea658556aa3ab6c6181afad", "zones" => ["zones" => "26f94136f5db8afd4e9df1e512f7fdc5"]];
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsPie();
         $obj->setAllowPointSelect(false);
-        $obj->setAnimation(false);
-        $obj->setAnimationLimit(56.0);
+        $obj->setAnimation(true);
+        $obj->setAnimationLimit(37.0);
         $obj->setBorderColor("97da935a74593c55d78be9d1295aa994");
-        $obj->setBorderWidth(22.0);
+        $obj->setBorderWidth(52.0);
         $obj->setCenter(["center" => "adb115059e28d960fa8badfac5516667"]);
         $obj->setClassName("6f66e878c62db60568a3487869695820");
-        $obj->setColorIndex(53.0);
+        $obj->setColorIndex(95.0);
         $obj->setColors(["colors" => "62848e3ce5804aa985513a7922ff87b2"]);
         $obj->setCursor("crosshair");
         $obj->setDataLabels($dataLabels);
-        $obj->setDepth(47.0);
+        $obj->setDepth(23.0);
         $obj->setDescription("67daf92c833c41c95db874e18fcb2786");
-        $obj->setEnableMouseTracking(false);
-        $obj->setEndAngle(83.0);
+        $obj->setEnableMouseTracking(true);
+        $obj->setEndAngle(22.0);
         $obj->setEvents($events);
         $obj->setExposeElementToA11y(true);
         $obj->setFindNearestPointBy("xy");
@@ -62,20 +62,20 @@ class HighchartsPieTest extends AbstractTestCase {
         $obj->setInnerSize("a6d1a6164e85630d2ca35170621de672");
         $obj->setKeys(["keys" => "14f802e1fba977727845e8872c1743a7"]);
         $obj->setLinkedTo("914fab47afc86331ec62837807a29419");
-        $obj->setMinSize(69.0);
+        $obj->setMinSize(20.0);
         $obj->setPoint($point);
         $obj->setPointDescriptionFormatter("b5fd0c15b3ca81f726e2c7b93907ba36");
         $obj->setSelected(false);
         $obj->setShadow("3bf1114a986ba87ed28fc1b5884fc2f8");
-        $obj->setShowInLegend(false);
+        $obj->setShowInLegend(true);
         $obj->setSize("f7bd60b75b29d79b660a2859395c1a24");
-        $obj->setSkipKeyboardNavigation(true);
-        $obj->setSlicedOffset(36.0);
-        $obj->setStartAngle(66.0);
+        $obj->setSkipKeyboardNavigation(false);
+        $obj->setSlicedOffset(87.0);
+        $obj->setStartAngle(96.0);
         $obj->setStates($states);
         $obj->setStickyTracking(false);
         $obj->setTooltip(["tooltip" => "ddbfc1b6aa0ad4d79c5dac7aa3b44888"]);
-        $obj->setVisible(true);
+        $obj->setVisible(false);
         $obj->setZoneAxis("88421adabea658556aa3ab6c6181afad");
         $obj->setZones(["zones" => "26f94136f5db8afd4e9df1e512f7fdc5"]);
 
@@ -143,8 +143,8 @@ class HighchartsPieTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsPie();
 
-        $obj->setAllowPointSelect(false);
-        $this->assertEquals(false, $obj->getAllowPointSelect());
+        $obj->setAllowPointSelect(true);
+        $this->assertEquals(true, $obj->getAllowPointSelect());
     }
 
     /**
@@ -156,8 +156,8 @@ class HighchartsPieTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsPie();
 
-        $obj->setAnimation(true);
-        $this->assertEquals(true, $obj->getAnimation());
+        $obj->setAnimation(false);
+        $this->assertEquals(false, $obj->getAnimation());
     }
 
     /**
@@ -169,8 +169,8 @@ class HighchartsPieTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsPie();
 
-        $obj->setAnimationLimit(40.0);
-        $this->assertEquals(40.0, $obj->getAnimationLimit());
+        $obj->setAnimationLimit(83.0);
+        $this->assertEquals(83.0, $obj->getAnimationLimit());
     }
 
     /**
@@ -195,8 +195,8 @@ class HighchartsPieTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsPie();
 
-        $obj->setBorderWidth(58.0);
-        $this->assertEquals(58.0, $obj->getBorderWidth());
+        $obj->setBorderWidth(32.0);
+        $this->assertEquals(32.0, $obj->getBorderWidth());
     }
 
     /**
@@ -234,8 +234,8 @@ class HighchartsPieTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsPie();
 
-        $obj->setColorIndex(59.0);
-        $this->assertEquals(59.0, $obj->getColorIndex());
+        $obj->setColorIndex(35.0);
+        $this->assertEquals(35.0, $obj->getColorIndex());
     }
 
     /**
@@ -260,8 +260,23 @@ class HighchartsPieTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsPie();
 
+        $obj->setCursor(null);
+        $this->assertEquals(null, $obj->getCursor());
+
         $obj->setCursor("crosshair");
         $this->assertEquals("crosshair", $obj->getCursor());
+
+        $obj->setCursor("default");
+        $this->assertEquals("default", $obj->getCursor());
+
+        $obj->setCursor("help");
+        $this->assertEquals("help", $obj->getCursor());
+
+        $obj->setCursor("none");
+        $this->assertEquals("none", $obj->getCursor());
+
+        $obj->setCursor("pointer");
+        $this->assertEquals("pointer", $obj->getCursor());
     }
 
     /**
@@ -289,8 +304,8 @@ class HighchartsPieTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsPie();
 
-        $obj->setDepth(2.0);
-        $this->assertEquals(2.0, $obj->getDepth());
+        $obj->setDepth(83.0);
+        $this->assertEquals(83.0, $obj->getDepth());
     }
 
     /**
@@ -328,8 +343,8 @@ class HighchartsPieTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsPie();
 
-        $obj->setEndAngle(36.0);
-        $this->assertEquals(36.0, $obj->getEndAngle());
+        $obj->setEndAngle(98.0);
+        $this->assertEquals(98.0, $obj->getEndAngle());
     }
 
     /**
@@ -357,8 +372,8 @@ class HighchartsPieTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsPie();
 
-        $obj->setExposeElementToA11y(true);
-        $this->assertEquals(true, $obj->getExposeElementToA11y());
+        $obj->setExposeElementToA11y(false);
+        $this->assertEquals(false, $obj->getExposeElementToA11y());
     }
 
     /**
@@ -369,6 +384,9 @@ class HighchartsPieTest extends AbstractTestCase {
     public function testSetFindNearestPointBy(): void {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsPie();
+
+        $obj->setFindNearestPointBy("x");
+        $this->assertEquals("x", $obj->getFindNearestPointBy());
 
         $obj->setFindNearestPointBy("xy");
         $this->assertEquals("xy", $obj->getFindNearestPointBy());
@@ -383,8 +401,8 @@ class HighchartsPieTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsPie();
 
-        $obj->setGetExtremesFromAll(false);
-        $this->assertEquals(false, $obj->getGetExtremesFromAll());
+        $obj->setGetExtremesFromAll(true);
+        $this->assertEquals(true, $obj->getGetExtremesFromAll());
     }
 
     /**
@@ -396,8 +414,8 @@ class HighchartsPieTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsPie();
 
-        $obj->setIgnoreHiddenPoint(false);
-        $this->assertEquals(false, $obj->getIgnoreHiddenPoint());
+        $obj->setIgnoreHiddenPoint(true);
+        $this->assertEquals(true, $obj->getIgnoreHiddenPoint());
     }
 
     /**
@@ -448,8 +466,8 @@ class HighchartsPieTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsPie();
 
-        $obj->setMinSize(5.0);
-        $this->assertEquals(5.0, $obj->getMinSize());
+        $obj->setMinSize(12.0);
+        $this->assertEquals(12.0, $obj->getMinSize());
     }
 
     /**
@@ -516,8 +534,8 @@ class HighchartsPieTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsPie();
 
-        $obj->setShowInLegend(true);
-        $this->assertEquals(true, $obj->getShowInLegend());
+        $obj->setShowInLegend(false);
+        $this->assertEquals(false, $obj->getShowInLegend());
     }
 
     /**
@@ -542,8 +560,8 @@ class HighchartsPieTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsPie();
 
-        $obj->setSkipKeyboardNavigation(true);
-        $this->assertEquals(true, $obj->getSkipKeyboardNavigation());
+        $obj->setSkipKeyboardNavigation(false);
+        $this->assertEquals(false, $obj->getSkipKeyboardNavigation());
     }
 
     /**
@@ -555,8 +573,8 @@ class HighchartsPieTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsPie();
 
-        $obj->setSlicedOffset(53.0);
-        $this->assertEquals(53.0, $obj->getSlicedOffset());
+        $obj->setSlicedOffset(91.0);
+        $this->assertEquals(91.0, $obj->getSlicedOffset());
     }
 
     /**
@@ -597,8 +615,8 @@ class HighchartsPieTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsPie();
 
-        $obj->setStickyTracking(false);
-        $this->assertEquals(false, $obj->getStickyTracking());
+        $obj->setStickyTracking(true);
+        $this->assertEquals(true, $obj->getStickyTracking());
     }
 
     /**

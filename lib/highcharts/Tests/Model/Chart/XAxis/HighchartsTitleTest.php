@@ -31,19 +31,19 @@ class HighchartsTitleTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        $exp = ["align" => "high", "enabled" => "a10311459433adf322f2590a4987c423", "margin" => 59.0, "offset" => 61.0, "reserveSpace" => true, "rotation" => 34.0, "style" => ["style" => "a1b01e734b573fca08eb1a65e6df9a38"], "text" => "1cb251ec0d568de6a929b520c4aed8d1", "x" => 49.0, "y" => 48.0];
+        $exp = ["align" => "high", "enabled" => "a10311459433adf322f2590a4987c423", "margin" => 37.0, "offset" => 25.0, "reserveSpace" => true, "rotation" => 81.0, "style" => ["style" => "a1b01e734b573fca08eb1a65e6df9a38"], "text" => "1cb251ec0d568de6a929b520c4aed8d1", "x" => 41.0, "y" => 56.0];
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\XAxis\HighchartsTitle();
         $obj->setAlign("high");
         $obj->setEnabled("a10311459433adf322f2590a4987c423");
-        $obj->setMargin(59.0);
-        $obj->setOffset(61.0);
+        $obj->setMargin(37.0);
+        $obj->setOffset(25.0);
         $obj->setReserveSpace(true);
-        $obj->setRotation(34.0);
+        $obj->setRotation(81.0);
         $obj->setStyle(["style" => "a1b01e734b573fca08eb1a65e6df9a38"]);
         $obj->setText("1cb251ec0d568de6a929b520c4aed8d1");
-        $obj->setX(49.0);
-        $obj->setY(48.0);
+        $obj->setX(41.0);
+        $obj->setY(56.0);
 
         $this->assertEquals($exp, $obj->jsonSerialize());
     }
@@ -59,6 +59,12 @@ class HighchartsTitleTest extends AbstractTestCase {
 
         $obj->setAlign("high");
         $this->assertEquals("high", $obj->getAlign());
+
+        $obj->setAlign("low");
+        $this->assertEquals("low", $obj->getAlign());
+
+        $obj->setAlign("middle");
+        $this->assertEquals("middle", $obj->getAlign());
     }
 
     /**
@@ -83,8 +89,8 @@ class HighchartsTitleTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\XAxis\HighchartsTitle();
 
-        $obj->setMargin(72.0);
-        $this->assertEquals(72.0, $obj->getMargin());
+        $obj->setMargin(10.0);
+        $this->assertEquals(10.0, $obj->getMargin());
     }
 
     /**
@@ -96,8 +102,8 @@ class HighchartsTitleTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\XAxis\HighchartsTitle();
 
-        $obj->setOffset(60.0);
-        $this->assertEquals(60.0, $obj->getOffset());
+        $obj->setOffset(24.0);
+        $this->assertEquals(24.0, $obj->getOffset());
     }
 
     /**
@@ -109,8 +115,8 @@ class HighchartsTitleTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\XAxis\HighchartsTitle();
 
-        $obj->setReserveSpace(false);
-        $this->assertEquals(false, $obj->getReserveSpace());
+        $obj->setReserveSpace(true);
+        $this->assertEquals(true, $obj->getReserveSpace());
     }
 
     /**
@@ -122,8 +128,8 @@ class HighchartsTitleTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\XAxis\HighchartsTitle();
 
-        $obj->setRotation(50.0);
-        $this->assertEquals(50.0, $obj->getRotation());
+        $obj->setRotation(84.0);
+        $this->assertEquals(84.0, $obj->getRotation());
     }
 
     /**
@@ -161,8 +167,8 @@ class HighchartsTitleTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\XAxis\HighchartsTitle();
 
-        $obj->setX(61.0);
-        $this->assertEquals(61.0, $obj->getX());
+        $obj->setX(70.0);
+        $this->assertEquals(70.0, $obj->getX());
     }
 
     /**
@@ -174,8 +180,8 @@ class HighchartsTitleTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\XAxis\HighchartsTitle();
 
-        $obj->setY(9.0);
-        $this->assertEquals(9.0, $obj->getY());
+        $obj->setY(86.0);
+        $this->assertEquals(86.0, $obj->getY());
     }
 
     /**

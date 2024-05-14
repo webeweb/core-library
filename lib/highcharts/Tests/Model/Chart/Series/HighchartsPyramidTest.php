@@ -36,50 +36,50 @@ class HighchartsPyramidTest extends AbstractTestCase {
         $point      = new \WBW\Library\Highcharts\Model\Chart\Series\Pyramid\HighchartsPoint();
         $states     = new \WBW\Library\Highcharts\Model\Chart\Series\Pyramid\HighchartsStates();
 
-        $exp = ["allowPointSelect" => false, "animationLimit" => 85.0, "borderColor" => "97da935a74593c55d78be9d1295aa994", "borderWidth" => 2.0, "center" => ["center" => "adb115059e28d960fa8badfac5516667"], "className" => "6f66e878c62db60568a3487869695820", "colorIndex" => 52.0, "colors" => ["colors" => "62848e3ce5804aa985513a7922ff87b2"], "cursor" => "crosshair", "data" => ["data" => "8d777f385d3dfec8815d20f7496026dc"], "dataLabels" => $dataLabels->jsonSerialize(), "depth" => 11.0, "description" => "67daf92c833c41c95db874e18fcb2786", "enableMouseTracking" => false, "events" => $events->jsonSerialize(), "exposeElementToA11y" => true, "findNearestPointBy" => "xy", "getExtremesFromAll" => true, "height" => "b435e227d5dd201e1768b2bcb2e0aa81", "id" => "b80bb7740288fda1f201890375a60c8f", "index" => 81.0, "keys" => ["keys" => "14f802e1fba977727845e8872c1743a7"], "legendIndex" => 5.0, "linkedTo" => "914fab47afc86331ec62837807a29419", "minSize" => 1.0, "name" => "b068931cc450442b63f5b3d276ea4297", "point" => $point->jsonSerialize(), "pointDescriptionFormatter" => "b5fd0c15b3ca81f726e2c7b93907ba36", "reversed" => false, "selected" => true, "shadow" => "3bf1114a986ba87ed28fc1b5884fc2f8", "showInLegend" => true, "skipKeyboardNavigation" => false, "slicedOffset" => 66.0, "states" => $states->jsonSerialize(), "stickyTracking" => false, "tooltip" => ["tooltip" => "ddbfc1b6aa0ad4d79c5dac7aa3b44888"], "type" => "waterfall", "visible" => false, "width" => "eaae26a6fb20ed3ef54fb23bfa0b1fcc", "zIndex" => 34.0, "zoneAxis" => "88421adabea658556aa3ab6c6181afad", "zones" => ["zones" => "26f94136f5db8afd4e9df1e512f7fdc5"]];
+        $exp = ["allowPointSelect" => true, "animationLimit" => 100.0, "borderColor" => "97da935a74593c55d78be9d1295aa994", "borderWidth" => 75.0, "center" => ["center" => "adb115059e28d960fa8badfac5516667"], "className" => "6f66e878c62db60568a3487869695820", "colorIndex" => 63.0, "colors" => ["colors" => "62848e3ce5804aa985513a7922ff87b2"], "cursor" => "crosshair", "data" => ["data" => "8d777f385d3dfec8815d20f7496026dc"], "dataLabels" => $dataLabels->jsonSerialize(), "depth" => 37.0, "description" => "67daf92c833c41c95db874e18fcb2786", "enableMouseTracking" => false, "events" => $events->jsonSerialize(), "exposeElementToA11y" => false, "findNearestPointBy" => "xy", "getExtremesFromAll" => false, "height" => "b435e227d5dd201e1768b2bcb2e0aa81", "id" => "b80bb7740288fda1f201890375a60c8f", "index" => 3.0, "keys" => ["keys" => "14f802e1fba977727845e8872c1743a7"], "legendIndex" => 96.0, "linkedTo" => "914fab47afc86331ec62837807a29419", "minSize" => 42.0, "name" => "b068931cc450442b63f5b3d276ea4297", "point" => $point->jsonSerialize(), "pointDescriptionFormatter" => "b5fd0c15b3ca81f726e2c7b93907ba36", "reversed" => false, "selected" => true, "shadow" => "3bf1114a986ba87ed28fc1b5884fc2f8", "showInLegend" => false, "skipKeyboardNavigation" => true, "slicedOffset" => 87.0, "states" => $states->jsonSerialize(), "stickyTracking" => true, "tooltip" => ["tooltip" => "ddbfc1b6aa0ad4d79c5dac7aa3b44888"], "type" => "waterfall", "visible" => false, "width" => "eaae26a6fb20ed3ef54fb23bfa0b1fcc", "zIndex" => 18.0, "zoneAxis" => "88421adabea658556aa3ab6c6181afad", "zones" => ["zones" => "26f94136f5db8afd4e9df1e512f7fdc5"]];
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPyramid();
-        $obj->setAllowPointSelect(false);
-        $obj->setAnimationLimit(85.0);
+        $obj->setAllowPointSelect(true);
+        $obj->setAnimationLimit(100.0);
         $obj->setBorderColor("97da935a74593c55d78be9d1295aa994");
-        $obj->setBorderWidth(2.0);
+        $obj->setBorderWidth(75.0);
         $obj->setCenter(["center" => "adb115059e28d960fa8badfac5516667"]);
         $obj->setClassName("6f66e878c62db60568a3487869695820");
-        $obj->setColorIndex(52.0);
+        $obj->setColorIndex(63.0);
         $obj->setColors(["colors" => "62848e3ce5804aa985513a7922ff87b2"]);
         $obj->setCursor("crosshair");
         $obj->setData(["data" => "8d777f385d3dfec8815d20f7496026dc"]);
         $obj->setDataLabels($dataLabels);
-        $obj->setDepth(11.0);
+        $obj->setDepth(37.0);
         $obj->setDescription("67daf92c833c41c95db874e18fcb2786");
         $obj->setEnableMouseTracking(false);
         $obj->setEvents($events);
-        $obj->setExposeElementToA11y(true);
+        $obj->setExposeElementToA11y(false);
         $obj->setFindNearestPointBy("xy");
-        $obj->setGetExtremesFromAll(true);
+        $obj->setGetExtremesFromAll(false);
         $obj->setHeight("b435e227d5dd201e1768b2bcb2e0aa81");
         $obj->setId("b80bb7740288fda1f201890375a60c8f");
-        $obj->setIndex(81.0);
+        $obj->setIndex(3.0);
         $obj->setKeys(["keys" => "14f802e1fba977727845e8872c1743a7"]);
-        $obj->setLegendIndex(5.0);
+        $obj->setLegendIndex(96.0);
         $obj->setLinkedTo("914fab47afc86331ec62837807a29419");
-        $obj->setMinSize(1.0);
+        $obj->setMinSize(42.0);
         $obj->setName("b068931cc450442b63f5b3d276ea4297");
         $obj->setPoint($point);
         $obj->setPointDescriptionFormatter("b5fd0c15b3ca81f726e2c7b93907ba36");
         $obj->setReversed(false);
         $obj->setSelected(true);
         $obj->setShadow("3bf1114a986ba87ed28fc1b5884fc2f8");
-        $obj->setShowInLegend(true);
-        $obj->setSkipKeyboardNavigation(false);
-        $obj->setSlicedOffset(66.0);
+        $obj->setShowInLegend(false);
+        $obj->setSkipKeyboardNavigation(true);
+        $obj->setSlicedOffset(87.0);
         $obj->setStates($states);
-        $obj->setStickyTracking(false);
+        $obj->setStickyTracking(true);
         $obj->setTooltip(["tooltip" => "ddbfc1b6aa0ad4d79c5dac7aa3b44888"]);
         $obj->setType("waterfall");
         $obj->setVisible(false);
         $obj->setWidth("eaae26a6fb20ed3ef54fb23bfa0b1fcc");
-        $obj->setZIndex(34.0);
+        $obj->setZIndex(18.0);
         $obj->setZoneAxis("88421adabea658556aa3ab6c6181afad");
         $obj->setZones(["zones" => "26f94136f5db8afd4e9df1e512f7fdc5"]);
 
@@ -160,8 +160,8 @@ class HighchartsPyramidTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPyramid();
 
-        $obj->setAnimationLimit(59.0);
-        $this->assertEquals(59.0, $obj->getAnimationLimit());
+        $obj->setAnimationLimit(67.0);
+        $this->assertEquals(67.0, $obj->getAnimationLimit());
     }
 
     /**
@@ -186,8 +186,8 @@ class HighchartsPyramidTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPyramid();
 
-        $obj->setBorderWidth(4.0);
-        $this->assertEquals(4.0, $obj->getBorderWidth());
+        $obj->setBorderWidth(7.0);
+        $this->assertEquals(7.0, $obj->getBorderWidth());
     }
 
     /**
@@ -225,8 +225,8 @@ class HighchartsPyramidTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPyramid();
 
-        $obj->setColorIndex(59.0);
-        $this->assertEquals(59.0, $obj->getColorIndex());
+        $obj->setColorIndex(11.0);
+        $this->assertEquals(11.0, $obj->getColorIndex());
     }
 
     /**
@@ -251,8 +251,23 @@ class HighchartsPyramidTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPyramid();
 
+        $obj->setCursor(null);
+        $this->assertEquals(null, $obj->getCursor());
+
         $obj->setCursor("crosshair");
         $this->assertEquals("crosshair", $obj->getCursor());
+
+        $obj->setCursor("default");
+        $this->assertEquals("default", $obj->getCursor());
+
+        $obj->setCursor("help");
+        $this->assertEquals("help", $obj->getCursor());
+
+        $obj->setCursor("none");
+        $this->assertEquals("none", $obj->getCursor());
+
+        $obj->setCursor("pointer");
+        $this->assertEquals("pointer", $obj->getCursor());
     }
 
     /**
@@ -293,8 +308,8 @@ class HighchartsPyramidTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPyramid();
 
-        $obj->setDepth(60.0);
-        $this->assertEquals(60.0, $obj->getDepth());
+        $obj->setDepth(77.0);
+        $this->assertEquals(77.0, $obj->getDepth());
     }
 
     /**
@@ -348,8 +363,8 @@ class HighchartsPyramidTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPyramid();
 
-        $obj->setExposeElementToA11y(false);
-        $this->assertEquals(false, $obj->getExposeElementToA11y());
+        $obj->setExposeElementToA11y(true);
+        $this->assertEquals(true, $obj->getExposeElementToA11y());
     }
 
     /**
@@ -360,6 +375,9 @@ class HighchartsPyramidTest extends AbstractTestCase {
     public function testSetFindNearestPointBy(): void {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPyramid();
+
+        $obj->setFindNearestPointBy("x");
+        $this->assertEquals("x", $obj->getFindNearestPointBy());
 
         $obj->setFindNearestPointBy("xy");
         $this->assertEquals("xy", $obj->getFindNearestPointBy());
@@ -413,8 +431,8 @@ class HighchartsPyramidTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPyramid();
 
-        $obj->setIndex(13.0);
-        $this->assertEquals(13.0, $obj->getIndex());
+        $obj->setIndex(66.0);
+        $this->assertEquals(66.0, $obj->getIndex());
     }
 
     /**
@@ -439,8 +457,8 @@ class HighchartsPyramidTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPyramid();
 
-        $obj->setLegendIndex(30.0);
-        $this->assertEquals(30.0, $obj->getLegendIndex());
+        $obj->setLegendIndex(38.0);
+        $this->assertEquals(38.0, $obj->getLegendIndex());
     }
 
     /**
@@ -465,8 +483,8 @@ class HighchartsPyramidTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPyramid();
 
-        $obj->setMinSize(21.0);
-        $this->assertEquals(21.0, $obj->getMinSize());
+        $obj->setMinSize(92.0);
+        $this->assertEquals(92.0, $obj->getMinSize());
     }
 
     /**
@@ -520,8 +538,8 @@ class HighchartsPyramidTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPyramid();
 
-        $obj->setReversed(true);
-        $this->assertEquals(true, $obj->getReversed());
+        $obj->setReversed(false);
+        $this->assertEquals(false, $obj->getReversed());
     }
 
     /**
@@ -559,8 +577,8 @@ class HighchartsPyramidTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPyramid();
 
-        $obj->setShowInLegend(false);
-        $this->assertEquals(false, $obj->getShowInLegend());
+        $obj->setShowInLegend(true);
+        $this->assertEquals(true, $obj->getShowInLegend());
     }
 
     /**
@@ -572,8 +590,8 @@ class HighchartsPyramidTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPyramid();
 
-        $obj->setSkipKeyboardNavigation(true);
-        $this->assertEquals(true, $obj->getSkipKeyboardNavigation());
+        $obj->setSkipKeyboardNavigation(false);
+        $this->assertEquals(false, $obj->getSkipKeyboardNavigation());
     }
 
     /**
@@ -585,8 +603,8 @@ class HighchartsPyramidTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPyramid();
 
-        $obj->setSlicedOffset(87.0);
-        $this->assertEquals(87.0, $obj->getSlicedOffset());
+        $obj->setSlicedOffset(81.0);
+        $this->assertEquals(81.0, $obj->getSlicedOffset());
     }
 
     /**
@@ -640,6 +658,54 @@ class HighchartsPyramidTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPyramid();
 
+        $obj->setType(null);
+        $this->assertEquals(null, $obj->getType());
+
+        $obj->setType("area");
+        $this->assertEquals("area", $obj->getType());
+
+        $obj->setType("arearange");
+        $this->assertEquals("arearange", $obj->getType());
+
+        $obj->setType("areaspline");
+        $this->assertEquals("areaspline", $obj->getType());
+
+        $obj->setType("areasplinerange");
+        $this->assertEquals("areasplinerange", $obj->getType());
+
+        $obj->setType("boxplot");
+        $this->assertEquals("boxplot", $obj->getType());
+
+        $obj->setType("bubble");
+        $this->assertEquals("bubble", $obj->getType());
+
+        $obj->setType("column");
+        $this->assertEquals("column", $obj->getType());
+
+        $obj->setType("columnrange");
+        $this->assertEquals("columnrange", $obj->getType());
+
+        $obj->setType("errorbar");
+        $this->assertEquals("errorbar", $obj->getType());
+
+        $obj->setType("funnel");
+        $this->assertEquals("funnel", $obj->getType());
+
+        $obj->setType("gauge");
+        $this->assertEquals("gauge", $obj->getType());
+
+        $obj->setType("line");
+        $this->assertEquals("line", $obj->getType());
+
+        $obj->setType("pie");
+        $this->assertEquals("pie", $obj->getType());
+
+        $obj->setType("scatter");
+        $this->assertEquals("scatter", $obj->getType());
+
+        $obj->setType("spline");
+        $this->assertEquals("spline", $obj->getType());
+
         $obj->setType("waterfall");
         $this->assertEquals("waterfall", $obj->getType());
     }
@@ -653,8 +719,8 @@ class HighchartsPyramidTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPyramid();
 
-        $obj->setVisible(true);
-        $this->assertEquals(true, $obj->getVisible());
+        $obj->setVisible(false);
+        $this->assertEquals(false, $obj->getVisible());
     }
 
     /**
@@ -679,8 +745,8 @@ class HighchartsPyramidTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPyramid();
 
-        $obj->setZIndex(70.0);
-        $this->assertEquals(70.0, $obj->getZIndex());
+        $obj->setZIndex(23.0);
+        $this->assertEquals(23.0, $obj->getZIndex());
     }
 
     /**

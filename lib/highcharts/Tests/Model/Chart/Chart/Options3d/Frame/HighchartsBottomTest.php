@@ -31,11 +31,11 @@ class HighchartsBottomTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        $exp = ["color" => "70dda5dfb8053dc6d1c492574bce9bfd", "size" => 60.0, "visible" => false];
+        $exp = ["color" => "70dda5dfb8053dc6d1c492574bce9bfd", "size" => 77.0, "visible" => false];
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Chart\Options3d\Frame\HighchartsBottom();
         $obj->setColor("70dda5dfb8053dc6d1c492574bce9bfd");
-        $obj->setSize(60.0);
+        $obj->setSize(77.0);
         $obj->setVisible(false);
 
         $this->assertEquals($exp, $obj->jsonSerialize());
@@ -63,8 +63,8 @@ class HighchartsBottomTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Chart\Options3d\Frame\HighchartsBottom();
 
-        $obj->setSize(92.0);
-        $this->assertEquals(92.0, $obj->getSize());
+        $obj->setSize(36.0);
+        $this->assertEquals(36.0, $obj->getSize());
     }
 
     /**
@@ -78,6 +78,15 @@ class HighchartsBottomTest extends AbstractTestCase {
 
         $obj->setVisible(false);
         $this->assertEquals(false, $obj->getVisible());
+
+        $obj->setVisible(true);
+        $this->assertEquals(true, $obj->getVisible());
+
+        $obj->setVisible("auto");
+        $this->assertEquals("auto", $obj->getVisible());
+
+        $obj->setVisible("default");
+        $this->assertEquals("default", $obj->getVisible());
     }
 
     /**

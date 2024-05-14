@@ -342,8 +342,38 @@ class HighchartsXAxisTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsXAxis();
 
+        $obj->setGridLineDashStyle("Dash");
+        $this->assertEquals("Dash", $obj->getGridLineDashStyle());
+
+        $obj->setGridLineDashStyle("DashDot");
+        $this->assertEquals("DashDot", $obj->getGridLineDashStyle());
+
+        $obj->setGridLineDashStyle("Dot");
+        $this->assertEquals("Dot", $obj->getGridLineDashStyle());
+
+        $obj->setGridLineDashStyle("LongDash");
+        $this->assertEquals("LongDash", $obj->getGridLineDashStyle());
+
+        $obj->setGridLineDashStyle("LongDashDot");
+        $this->assertEquals("LongDashDot", $obj->getGridLineDashStyle());
+
         $obj->setGridLineDashStyle("LongDashDotDot");
         $this->assertEquals("LongDashDotDot", $obj->getGridLineDashStyle());
+
+        $obj->setGridLineDashStyle("ShortDash");
+        $this->assertEquals("ShortDash", $obj->getGridLineDashStyle());
+
+        $obj->setGridLineDashStyle("ShortDashDot");
+        $this->assertEquals("ShortDashDot", $obj->getGridLineDashStyle());
+
+        $obj->setGridLineDashStyle("ShortDashDotDot");
+        $this->assertEquals("ShortDashDotDot", $obj->getGridLineDashStyle());
+
+        $obj->setGridLineDashStyle("ShortDot");
+        $this->assertEquals("ShortDot", $obj->getGridLineDashStyle());
+
+        $obj->setGridLineDashStyle("Solid");
+        $this->assertEquals("Solid", $obj->getGridLineDashStyle());
     }
 
     /**
@@ -553,8 +583,38 @@ class HighchartsXAxisTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsXAxis();
 
+        $obj->setMinorGridLineDashStyle("Dash");
+        $this->assertEquals("Dash", $obj->getMinorGridLineDashStyle());
+
+        $obj->setMinorGridLineDashStyle("DashDot");
+        $this->assertEquals("DashDot", $obj->getMinorGridLineDashStyle());
+
+        $obj->setMinorGridLineDashStyle("Dot");
+        $this->assertEquals("Dot", $obj->getMinorGridLineDashStyle());
+
+        $obj->setMinorGridLineDashStyle("LongDash");
+        $this->assertEquals("LongDash", $obj->getMinorGridLineDashStyle());
+
+        $obj->setMinorGridLineDashStyle("LongDashDot");
+        $this->assertEquals("LongDashDot", $obj->getMinorGridLineDashStyle());
+
         $obj->setMinorGridLineDashStyle("LongDashDotDot");
         $this->assertEquals("LongDashDotDot", $obj->getMinorGridLineDashStyle());
+
+        $obj->setMinorGridLineDashStyle("ShortDash");
+        $this->assertEquals("ShortDash", $obj->getMinorGridLineDashStyle());
+
+        $obj->setMinorGridLineDashStyle("ShortDashDot");
+        $this->assertEquals("ShortDashDot", $obj->getMinorGridLineDashStyle());
+
+        $obj->setMinorGridLineDashStyle("ShortDashDotDot");
+        $this->assertEquals("ShortDashDotDot", $obj->getMinorGridLineDashStyle());
+
+        $obj->setMinorGridLineDashStyle("ShortDot");
+        $this->assertEquals("ShortDot", $obj->getMinorGridLineDashStyle());
+
+        $obj->setMinorGridLineDashStyle("Solid");
+        $this->assertEquals("Solid", $obj->getMinorGridLineDashStyle());
     }
 
     /**
@@ -617,6 +677,9 @@ class HighchartsXAxisTest extends AbstractTestCase {
     public function testSetMinorTickPosition(): void {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsXAxis();
+
+        $obj->setMinorTickPosition("inside");
+        $this->assertEquals("inside", $obj->getMinorTickPosition());
 
         $obj->setMinorTickPosition("outside");
         $this->assertEquals("outside", $obj->getMinorTickPosition());
@@ -865,8 +928,11 @@ class HighchartsXAxisTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsXAxis();
 
-        $obj->setTickPosition("outside");
-        $this->assertEquals("outside", $obj->getTickPosition());
+        $obj->setMinorTickPosition("inside");
+        $this->assertEquals("inside", $obj->getMinorTickPosition());
+
+        $obj->setMinorTickPosition("outside");
+        $this->assertEquals("outside", $obj->getMinorTickPosition());
     }
 
     /**
@@ -948,6 +1014,15 @@ class HighchartsXAxisTest extends AbstractTestCase {
 
         $obj->setType("category");
         $this->assertEquals("category", $obj->getType());
+
+        $obj->setType("datetime");
+        $this->assertEquals("datetime", $obj->getType());
+
+        $obj->setType("linear");
+        $this->assertEquals("linear", $obj->getType());
+
+        $obj->setType("logarithmic");
+        $this->assertEquals("logarithmic", $obj->getType());
     }
 
     /**

@@ -239,8 +239,23 @@ class HighchartsChartTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsChart();
 
+        $obj->setDefaultSeriesType("area");
+        $this->assertEquals("area", $obj->getDefaultSeriesType());
+
+        $obj->setDefaultSeriesType("areaspline");
+        $this->assertEquals("areaspline", $obj->getDefaultSeriesType());
+
+        $obj->setDefaultSeriesType("column");
+        $this->assertEquals("column", $obj->getDefaultSeriesType());
+
+        $obj->setDefaultSeriesType("line");
+        $this->assertEquals("line", $obj->getDefaultSeriesType());
+
         $obj->setDefaultSeriesType("pie");
         $this->assertEquals("pie", $obj->getDefaultSeriesType());
+
+        $obj->setDefaultSeriesType("spline");
+        $this->assertEquals("spline", $obj->getDefaultSeriesType());
     }
 
     /**
@@ -401,6 +416,18 @@ class HighchartsChartTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsChart();
 
+        $obj->setPanKey(null);
+        $this->assertEquals(null, $obj->getPanKey());
+
+        $obj->setPanKey("alt");
+        $this->assertEquals("alt", $obj->getPanKey());
+
+        $obj->setPanKey("ctrl");
+        $this->assertEquals("ctrl", $obj->getPanKey());
+
+        $obj->setPanKey("meta");
+        $this->assertEquals("meta", $obj->getPanKey());
+
         $obj->setPanKey("shift");
         $this->assertEquals("shift", $obj->getPanKey());
     }
@@ -427,8 +454,14 @@ class HighchartsChartTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsChart();
 
+        $obj->setPinchType("x");
+        $this->assertEquals("x", $obj->getPinchType());
+
         $obj->setPinchType("xy");
         $this->assertEquals("xy", $obj->getPinchType());
+
+        $obj->setPinchType("y");
+        $this->assertEquals("y", $obj->getPinchType());
     }
 
     /**
@@ -677,6 +710,69 @@ class HighchartsChartTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsChart();
 
+        $obj->setType("area");
+        $this->assertEquals("area", $obj->getType());
+
+        $obj->setType("arearange");
+        $this->assertEquals("arearange", $obj->getType());
+
+        $obj->setType("areaspline");
+        $this->assertEquals("areaspline", $obj->getType());
+
+        $obj->setType("areasplinerange");
+        $this->assertEquals("areasplinerange", $obj->getType());
+
+        $obj->setType("bar");
+        $this->assertEquals("bar", $obj->getType());
+
+        $obj->setType("boxplot");
+        $this->assertEquals("boxplot", $obj->getType());
+
+        $obj->setType("bubble");
+        $this->assertEquals("bubble", $obj->getType());
+
+        $obj->setType("column");
+        $this->assertEquals("column", $obj->getType());
+
+        $obj->setType("columnrange");
+        $this->assertEquals("columnrange", $obj->getType());
+
+        $obj->setType("errorbar");
+        $this->assertEquals("errorbar", $obj->getType());
+
+        $obj->setType("funnel");
+        $this->assertEquals("funnel", $obj->getType());
+
+        $obj->setType("gauge");
+        $this->assertEquals("gauge", $obj->getType());
+
+        $obj->setType("heatmap");
+        $this->assertEquals("heatmap", $obj->getType());
+
+        $obj->setType("line");
+        $this->assertEquals("line", $obj->getType());
+
+        $obj->setType("pie");
+        $this->assertEquals("pie", $obj->getType());
+
+        $obj->setType("polygon");
+        $this->assertEquals("polygon", $obj->getType());
+
+        $obj->setType("pyramid");
+        $this->assertEquals("pyramid", $obj->getType());
+
+        $obj->setType("scatter");
+        $this->assertEquals("scatter", $obj->getType());
+
+        $obj->setType("solidgauge");
+        $this->assertEquals("solidgauge", $obj->getType());
+
+        $obj->setType("spline");
+        $this->assertEquals("spline", $obj->getType());
+
+        $obj->setType("treemap");
+        $this->assertEquals("treemap", $obj->getType());
+
         $obj->setType("waterfall");
         $this->assertEquals("waterfall", $obj->getType());
     }
@@ -716,8 +812,17 @@ class HighchartsChartTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsChart();
 
+        $obj->setZoomType(null);
+        $this->assertEquals(null, $obj->getZoomType());
+
+        $obj->setZoomType("x");
+        $this->assertEquals("x", $obj->getZoomType());
+
         $obj->setZoomType("xy");
         $this->assertEquals("xy", $obj->getZoomType());
+
+        $obj->setZoomType("y");
+        $this->assertEquals("y", $obj->getZoomType());
     }
 
     /**

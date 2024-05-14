@@ -31,18 +31,18 @@ class HighchartsLabelTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        $exp = ["align" => "f792d1afb0399dce47533bead9d71a8a", "rotation" => 31.0, "style" => ["style" => "a1b01e734b573fca08eb1a65e6df9a38"], "text" => "1cb251ec0d568de6a929b520c4aed8d1", "textAlign" => "6e1fcbf7c065b2e7fef4cdc9bae3fe53", "useHTML" => true, "verticalAlign" => "bottom", "x" => 84.0, "y" => 21.0];
+        $exp = ["align" => "f792d1afb0399dce47533bead9d71a8a", "rotation" => 12.0, "style" => ["style" => "a1b01e734b573fca08eb1a65e6df9a38"], "text" => "1cb251ec0d568de6a929b520c4aed8d1", "textAlign" => "6e1fcbf7c065b2e7fef4cdc9bae3fe53", "useHTML" => false, "verticalAlign" => "bottom", "x" => 26.0, "y" => 92.0];
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\XAxis\PlotLines\HighchartsLabel();
         $obj->setAlign("f792d1afb0399dce47533bead9d71a8a");
-        $obj->setRotation(31.0);
+        $obj->setRotation(12.0);
         $obj->setStyle(["style" => "a1b01e734b573fca08eb1a65e6df9a38"]);
         $obj->setText("1cb251ec0d568de6a929b520c4aed8d1");
         $obj->setTextAlign("6e1fcbf7c065b2e7fef4cdc9bae3fe53");
-        $obj->setUseHTML(true);
+        $obj->setUseHTML(false);
         $obj->setVerticalAlign("bottom");
-        $obj->setX(84.0);
-        $obj->setY(21.0);
+        $obj->setX(26.0);
+        $obj->setY(92.0);
 
         $this->assertEquals($exp, $obj->jsonSerialize());
     }
@@ -69,8 +69,8 @@ class HighchartsLabelTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\XAxis\PlotLines\HighchartsLabel();
 
-        $obj->setRotation(65.0);
-        $this->assertEquals(65.0, $obj->getRotation());
+        $obj->setRotation(79.0);
+        $this->assertEquals(79.0, $obj->getRotation());
     }
 
     /**
@@ -136,6 +136,12 @@ class HighchartsLabelTest extends AbstractTestCase {
 
         $obj->setVerticalAlign("bottom");
         $this->assertEquals("bottom", $obj->getVerticalAlign());
+
+        $obj->setVerticalAlign("middle");
+        $this->assertEquals("middle", $obj->getVerticalAlign());
+
+        $obj->setVerticalAlign("top");
+        $this->assertEquals("top", $obj->getVerticalAlign());
     }
 
     /**
@@ -147,8 +153,8 @@ class HighchartsLabelTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\XAxis\PlotLines\HighchartsLabel();
 
-        $obj->setX(24.0);
-        $this->assertEquals(24.0, $obj->getX());
+        $obj->setX(10.0);
+        $this->assertEquals(10.0, $obj->getX());
     }
 
     /**
@@ -160,8 +166,8 @@ class HighchartsLabelTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\XAxis\PlotLines\HighchartsLabel();
 
-        $obj->setY(41.0);
-        $this->assertEquals(41.0, $obj->getY());
+        $obj->setY(32.0);
+        $this->assertEquals(32.0, $obj->getY());
     }
 
     /**

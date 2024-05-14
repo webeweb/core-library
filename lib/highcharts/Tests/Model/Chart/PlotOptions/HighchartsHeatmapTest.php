@@ -36,23 +36,23 @@ class HighchartsHeatmapTest extends AbstractTestCase {
         $point      = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Heatmap\HighchartsPoint();
         $states     = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Heatmap\HighchartsStates();
 
-        $exp = ["allowPointSelect" => true, "animation" => false, "animationLimit" => 38.0, "borderColor" => "97da935a74593c55d78be9d1295aa994", "borderRadius" => 90.0, "borderWidth" => 97.0, "className" => "6f66e878c62db60568a3487869695820", "color" => "70dda5dfb8053dc6d1c492574bce9bfd", "colorByPoint" => false, "colorIndex" => 94.0, "colors" => ["colors" => "62848e3ce5804aa985513a7922ff87b2"], "colsize" => 79.0, "crisp" => true, "cropThreshold" => 81.0, "cursor" => "crosshair", "dataLabels" => $dataLabels->jsonSerialize(), "description" => "67daf92c833c41c95db874e18fcb2786", "enableMouseTracking" => true, "events" => $events->jsonSerialize(), "exposeElementToA11y" => false, "findNearestPointBy" => "xy", "getExtremesFromAll" => false, "keys" => ["keys" => "14f802e1fba977727845e8872c1743a7"], "linkedTo" => "914fab47afc86331ec62837807a29419", "maxPointWidth" => 57.0, "point" => $point->jsonSerialize(), "pointDescriptionFormatter" => "b5fd0c15b3ca81f726e2c7b93907ba36", "rowsize" => 1.0, "selected" => false, "shadow" => "3bf1114a986ba87ed28fc1b5884fc2f8", "showCheckbox" => true, "showInLegend" => true, "skipKeyboardNavigation" => false, "states" => $states->jsonSerialize(), "stickyTracking" => true, "tooltip" => ["tooltip" => "ddbfc1b6aa0ad4d79c5dac7aa3b44888"], "turboThreshold" => 27.0, "visible" => false, "zoneAxis" => "88421adabea658556aa3ab6c6181afad", "zones" => ["zones" => "26f94136f5db8afd4e9df1e512f7fdc5"]];
+        $exp = ["allowPointSelect" => false, "animation" => true, "animationLimit" => 33.0, "borderColor" => "97da935a74593c55d78be9d1295aa994", "borderRadius" => 16.0, "borderWidth" => 16.0, "className" => "6f66e878c62db60568a3487869695820", "color" => "70dda5dfb8053dc6d1c492574bce9bfd", "colorByPoint" => false, "colorIndex" => 95.0, "colors" => ["colors" => "62848e3ce5804aa985513a7922ff87b2"], "colsize" => 9.0, "crisp" => false, "cropThreshold" => 76.0, "cursor" => "crosshair", "dataLabels" => $dataLabels->jsonSerialize(), "description" => "67daf92c833c41c95db874e18fcb2786", "enableMouseTracking" => true, "events" => $events->jsonSerialize(), "exposeElementToA11y" => false, "findNearestPointBy" => "xy", "getExtremesFromAll" => true, "keys" => ["keys" => "14f802e1fba977727845e8872c1743a7"], "linkedTo" => "914fab47afc86331ec62837807a29419", "maxPointWidth" => 91.0, "point" => $point->jsonSerialize(), "pointDescriptionFormatter" => "b5fd0c15b3ca81f726e2c7b93907ba36", "rowsize" => 15.0, "selected" => false, "shadow" => "3bf1114a986ba87ed28fc1b5884fc2f8", "showCheckbox" => false, "showInLegend" => true, "skipKeyboardNavigation" => true, "states" => $states->jsonSerialize(), "stickyTracking" => true, "tooltip" => ["tooltip" => "ddbfc1b6aa0ad4d79c5dac7aa3b44888"], "turboThreshold" => 31.0, "visible" => true, "zoneAxis" => "88421adabea658556aa3ab6c6181afad", "zones" => ["zones" => "26f94136f5db8afd4e9df1e512f7fdc5"]];
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsHeatmap();
-        $obj->setAllowPointSelect(true);
-        $obj->setAnimation(false);
-        $obj->setAnimationLimit(38.0);
+        $obj->setAllowPointSelect(false);
+        $obj->setAnimation(true);
+        $obj->setAnimationLimit(33.0);
         $obj->setBorderColor("97da935a74593c55d78be9d1295aa994");
-        $obj->setBorderRadius(90.0);
-        $obj->setBorderWidth(97.0);
+        $obj->setBorderRadius(16.0);
+        $obj->setBorderWidth(16.0);
         $obj->setClassName("6f66e878c62db60568a3487869695820");
         $obj->setColor("70dda5dfb8053dc6d1c492574bce9bfd");
         $obj->setColorByPoint(false);
-        $obj->setColorIndex(94.0);
+        $obj->setColorIndex(95.0);
         $obj->setColors(["colors" => "62848e3ce5804aa985513a7922ff87b2"]);
-        $obj->setColsize(79.0);
-        $obj->setCrisp(true);
-        $obj->setCropThreshold(81.0);
+        $obj->setColsize(9.0);
+        $obj->setCrisp(false);
+        $obj->setCropThreshold(76.0);
         $obj->setCursor("crosshair");
         $obj->setDataLabels($dataLabels);
         $obj->setDescription("67daf92c833c41c95db874e18fcb2786");
@@ -60,23 +60,23 @@ class HighchartsHeatmapTest extends AbstractTestCase {
         $obj->setEvents($events);
         $obj->setExposeElementToA11y(false);
         $obj->setFindNearestPointBy("xy");
-        $obj->setGetExtremesFromAll(false);
+        $obj->setGetExtremesFromAll(true);
         $obj->setKeys(["keys" => "14f802e1fba977727845e8872c1743a7"]);
         $obj->setLinkedTo("914fab47afc86331ec62837807a29419");
-        $obj->setMaxPointWidth(57.0);
+        $obj->setMaxPointWidth(91.0);
         $obj->setPoint($point);
         $obj->setPointDescriptionFormatter("b5fd0c15b3ca81f726e2c7b93907ba36");
-        $obj->setRowsize(1.0);
+        $obj->setRowsize(15.0);
         $obj->setSelected(false);
         $obj->setShadow("3bf1114a986ba87ed28fc1b5884fc2f8");
-        $obj->setShowCheckbox(true);
+        $obj->setShowCheckbox(false);
         $obj->setShowInLegend(true);
-        $obj->setSkipKeyboardNavigation(false);
+        $obj->setSkipKeyboardNavigation(true);
         $obj->setStates($states);
         $obj->setStickyTracking(true);
         $obj->setTooltip(["tooltip" => "ddbfc1b6aa0ad4d79c5dac7aa3b44888"]);
-        $obj->setTurboThreshold(27.0);
-        $obj->setVisible(false);
+        $obj->setTurboThreshold(31.0);
+        $obj->setVisible(true);
         $obj->setZoneAxis("88421adabea658556aa3ab6c6181afad");
         $obj->setZones(["zones" => "26f94136f5db8afd4e9df1e512f7fdc5"]);
 
@@ -144,8 +144,8 @@ class HighchartsHeatmapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsHeatmap();
 
-        $obj->setAllowPointSelect(false);
-        $this->assertEquals(false, $obj->getAllowPointSelect());
+        $obj->setAllowPointSelect(true);
+        $this->assertEquals(true, $obj->getAllowPointSelect());
     }
 
     /**
@@ -170,8 +170,8 @@ class HighchartsHeatmapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsHeatmap();
 
-        $obj->setAnimationLimit(53.0);
-        $this->assertEquals(53.0, $obj->getAnimationLimit());
+        $obj->setAnimationLimit(38.0);
+        $this->assertEquals(38.0, $obj->getAnimationLimit());
     }
 
     /**
@@ -196,8 +196,8 @@ class HighchartsHeatmapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsHeatmap();
 
-        $obj->setBorderRadius(32.0);
-        $this->assertEquals(32.0, $obj->getBorderRadius());
+        $obj->setBorderRadius(74.0);
+        $this->assertEquals(74.0, $obj->getBorderRadius());
     }
 
     /**
@@ -209,8 +209,8 @@ class HighchartsHeatmapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsHeatmap();
 
-        $obj->setBorderWidth(48.0);
-        $this->assertEquals(48.0, $obj->getBorderWidth());
+        $obj->setBorderWidth(61.0);
+        $this->assertEquals(61.0, $obj->getBorderWidth());
     }
 
     /**
@@ -261,8 +261,8 @@ class HighchartsHeatmapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsHeatmap();
 
-        $obj->setColorIndex(84.0);
-        $this->assertEquals(84.0, $obj->getColorIndex());
+        $obj->setColorIndex(34.0);
+        $this->assertEquals(34.0, $obj->getColorIndex());
     }
 
     /**
@@ -287,8 +287,8 @@ class HighchartsHeatmapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsHeatmap();
 
-        $obj->setColsize(71.0);
-        $this->assertEquals(71.0, $obj->getColsize());
+        $obj->setColsize(53.0);
+        $this->assertEquals(53.0, $obj->getColsize());
     }
 
     /**
@@ -300,8 +300,8 @@ class HighchartsHeatmapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsHeatmap();
 
-        $obj->setCrisp(false);
-        $this->assertEquals(false, $obj->getCrisp());
+        $obj->setCrisp(true);
+        $this->assertEquals(true, $obj->getCrisp());
     }
 
     /**
@@ -326,8 +326,23 @@ class HighchartsHeatmapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsHeatmap();
 
+        $obj->setCursor(null);
+        $this->assertEquals(null, $obj->getCursor());
+
         $obj->setCursor("crosshair");
         $this->assertEquals("crosshair", $obj->getCursor());
+
+        $obj->setCursor("default");
+        $this->assertEquals("default", $obj->getCursor());
+
+        $obj->setCursor("help");
+        $this->assertEquals("help", $obj->getCursor());
+
+        $obj->setCursor("none");
+        $this->assertEquals("none", $obj->getCursor());
+
+        $obj->setCursor("pointer");
+        $this->assertEquals("pointer", $obj->getCursor());
     }
 
     /**
@@ -368,8 +383,8 @@ class HighchartsHeatmapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsHeatmap();
 
-        $obj->setEnableMouseTracking(true);
-        $this->assertEquals(true, $obj->getEnableMouseTracking());
+        $obj->setEnableMouseTracking(false);
+        $this->assertEquals(false, $obj->getEnableMouseTracking());
     }
 
     /**
@@ -410,6 +425,9 @@ class HighchartsHeatmapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsHeatmap();
 
+        $obj->setFindNearestPointBy("x");
+        $this->assertEquals("x", $obj->getFindNearestPointBy());
+
         $obj->setFindNearestPointBy("xy");
         $this->assertEquals("xy", $obj->getFindNearestPointBy());
     }
@@ -423,8 +441,8 @@ class HighchartsHeatmapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsHeatmap();
 
-        $obj->setGetExtremesFromAll(false);
-        $this->assertEquals(false, $obj->getGetExtremesFromAll());
+        $obj->setGetExtremesFromAll(true);
+        $this->assertEquals(true, $obj->getGetExtremesFromAll());
     }
 
     /**
@@ -462,8 +480,8 @@ class HighchartsHeatmapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsHeatmap();
 
-        $obj->setMaxPointWidth(84.0);
-        $this->assertEquals(84.0, $obj->getMaxPointWidth());
+        $obj->setMaxPointWidth(43.0);
+        $this->assertEquals(43.0, $obj->getMaxPointWidth());
     }
 
     /**
@@ -504,8 +522,8 @@ class HighchartsHeatmapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsHeatmap();
 
-        $obj->setRowsize(9.0);
-        $this->assertEquals(9.0, $obj->getRowsize());
+        $obj->setRowsize(94.0);
+        $this->assertEquals(94.0, $obj->getRowsize());
     }
 
     /**
@@ -517,8 +535,8 @@ class HighchartsHeatmapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsHeatmap();
 
-        $obj->setSelected(false);
-        $this->assertEquals(false, $obj->getSelected());
+        $obj->setSelected(true);
+        $this->assertEquals(true, $obj->getSelected());
     }
 
     /**
@@ -598,8 +616,8 @@ class HighchartsHeatmapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsHeatmap();
 
-        $obj->setStickyTracking(true);
-        $this->assertEquals(true, $obj->getStickyTracking());
+        $obj->setStickyTracking(false);
+        $this->assertEquals(false, $obj->getStickyTracking());
     }
 
     /**
@@ -624,8 +642,8 @@ class HighchartsHeatmapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsHeatmap();
 
-        $obj->setTurboThreshold(12.0);
-        $this->assertEquals(12.0, $obj->getTurboThreshold());
+        $obj->setTurboThreshold(21.0);
+        $this->assertEquals(21.0, $obj->getTurboThreshold());
     }
 
     /**
@@ -637,8 +655,8 @@ class HighchartsHeatmapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsHeatmap();
 
-        $obj->setVisible(true);
-        $this->assertEquals(true, $obj->getVisible());
+        $obj->setVisible(false);
+        $this->assertEquals(false, $obj->getVisible());
     }
 
     /**

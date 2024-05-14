@@ -37,36 +37,36 @@ class HighchartsAreasplineTest extends AbstractTestCase {
         $point      = new \WBW\Library\Highcharts\Model\Chart\Series\Areaspline\HighchartsPoint();
         $states     = new \WBW\Library\Highcharts\Model\Chart\Series\Areaspline\HighchartsStates();
 
-        $exp = ["allowPointSelect" => false, "animation" => false, "animationLimit" => 9.0, "className" => "6f66e878c62db60568a3487869695820", "color" => "70dda5dfb8053dc6d1c492574bce9bfd", "colorIndex" => 9.0, "connectEnds" => false, "connectNulls" => false, "cropThreshold" => 92.0, "cursor" => "crosshair", "dashStyle" => "LongDashDotDot", "data" => ["data" => "8d777f385d3dfec8815d20f7496026dc"], "dataLabels" => $dataLabels->jsonSerialize(), "description" => "67daf92c833c41c95db874e18fcb2786", "enableMouseTracking" => true, "events" => $events->jsonSerialize(), "exposeElementToA11y" => false, "fillColor" => "1fde055d3ff900e04ca08bc82066d7fd", "fillOpacity" => 20.0, "findNearestPointBy" => "xy", "getExtremesFromAll" => false, "id" => "b80bb7740288fda1f201890375a60c8f", "index" => 85.0, "keys" => ["keys" => "14f802e1fba977727845e8872c1743a7"], "legendIndex" => 33.0, "lineColor" => "c2580eebfdbdb9fc629f50cc147c3f63", "lineWidth" => 74.0, "linecap" => "square", "linkedTo" => "914fab47afc86331ec62837807a29419", "marker" => $marker->jsonSerialize(), "name" => "b068931cc450442b63f5b3d276ea4297", "negativeColor" => "52fe4d3a854b01e25193b4f35fc2040e", "negativeFillColor" => "a966442d64e00bf8663e7c5d9708074a", "point" => $point->jsonSerialize(), "pointDescriptionFormatter" => "b5fd0c15b3ca81f726e2c7b93907ba36", "pointInterval" => 61.0, "pointIntervalUnit" => "year", "pointPlacement" => "between", "pointStart" => 6.0, "selected" => true, "shadow" => "3bf1114a986ba87ed28fc1b5884fc2f8", "showCheckbox" => true, "showInLegend" => false, "skipKeyboardNavigation" => true, "softThreshold" => true, "stack" => "fac2a47adace059aff113283a03f6760", "stacking" => "percent", "states" => $states->jsonSerialize(), "stickyTracking" => false, "threshold" => 12.0, "tooltip" => ["tooltip" => "ddbfc1b6aa0ad4d79c5dac7aa3b44888"], "trackByArea" => true, "turboThreshold" => 74.0, "type" => "waterfall", "visible" => false, "xAxis" => "b919a806dedef37999b45653bdde66c6", "yAxis" => "f3cd431f5ac1725ea18774e5c02f2889", "zIndex" => 52.0, "zoneAxis" => "88421adabea658556aa3ab6c6181afad", "zones" => ["zones" => "26f94136f5db8afd4e9df1e512f7fdc5"]];
+        $exp = ["allowPointSelect" => false, "animation" => true, "animationLimit" => 35.0, "className" => "6f66e878c62db60568a3487869695820", "color" => "70dda5dfb8053dc6d1c492574bce9bfd", "colorIndex" => 33.0, "connectEnds" => false, "connectNulls" => true, "cropThreshold" => 48.0, "cursor" => "crosshair", "dashStyle" => "LongDashDotDot", "data" => ["data" => "8d777f385d3dfec8815d20f7496026dc"], "dataLabels" => $dataLabels->jsonSerialize(), "description" => "67daf92c833c41c95db874e18fcb2786", "enableMouseTracking" => false, "events" => $events->jsonSerialize(), "exposeElementToA11y" => false, "fillColor" => "1fde055d3ff900e04ca08bc82066d7fd", "fillOpacity" => 60.0, "findNearestPointBy" => "xy", "getExtremesFromAll" => true, "id" => "b80bb7740288fda1f201890375a60c8f", "index" => 42.0, "keys" => ["keys" => "14f802e1fba977727845e8872c1743a7"], "legendIndex" => 90.0, "lineColor" => "c2580eebfdbdb9fc629f50cc147c3f63", "lineWidth" => 14.0, "linecap" => "square", "linkedTo" => "914fab47afc86331ec62837807a29419", "marker" => $marker->jsonSerialize(), "name" => "b068931cc450442b63f5b3d276ea4297", "negativeColor" => "52fe4d3a854b01e25193b4f35fc2040e", "negativeFillColor" => "a966442d64e00bf8663e7c5d9708074a", "point" => $point->jsonSerialize(), "pointDescriptionFormatter" => "b5fd0c15b3ca81f726e2c7b93907ba36", "pointInterval" => 92.0, "pointIntervalUnit" => "year", "pointPlacement" => "between", "pointStart" => 31.0, "selected" => true, "shadow" => "3bf1114a986ba87ed28fc1b5884fc2f8", "showCheckbox" => true, "showInLegend" => true, "skipKeyboardNavigation" => false, "softThreshold" => true, "stack" => "fac2a47adace059aff113283a03f6760", "stacking" => "percent", "states" => $states->jsonSerialize(), "stickyTracking" => false, "threshold" => 53.0, "tooltip" => ["tooltip" => "ddbfc1b6aa0ad4d79c5dac7aa3b44888"], "trackByArea" => true, "turboThreshold" => 66.0, "type" => "waterfall", "visible" => true, "xAxis" => "b919a806dedef37999b45653bdde66c6", "yAxis" => "f3cd431f5ac1725ea18774e5c02f2889", "zIndex" => 55.0, "zoneAxis" => "88421adabea658556aa3ab6c6181afad", "zones" => ["zones" => "26f94136f5db8afd4e9df1e512f7fdc5"]];
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsAreaspline();
         $obj->setAllowPointSelect(false);
-        $obj->setAnimation(false);
-        $obj->setAnimationLimit(9.0);
+        $obj->setAnimation(true);
+        $obj->setAnimationLimit(35.0);
         $obj->setClassName("6f66e878c62db60568a3487869695820");
         $obj->setColor("70dda5dfb8053dc6d1c492574bce9bfd");
-        $obj->setColorIndex(9.0);
+        $obj->setColorIndex(33.0);
         $obj->setConnectEnds(false);
-        $obj->setConnectNulls(false);
-        $obj->setCropThreshold(92.0);
+        $obj->setConnectNulls(true);
+        $obj->setCropThreshold(48.0);
         $obj->setCursor("crosshair");
         $obj->setDashStyle("LongDashDotDot");
         $obj->setData(["data" => "8d777f385d3dfec8815d20f7496026dc"]);
         $obj->setDataLabels($dataLabels);
         $obj->setDescription("67daf92c833c41c95db874e18fcb2786");
-        $obj->setEnableMouseTracking(true);
+        $obj->setEnableMouseTracking(false);
         $obj->setEvents($events);
         $obj->setExposeElementToA11y(false);
         $obj->setFillColor("1fde055d3ff900e04ca08bc82066d7fd");
-        $obj->setFillOpacity(20.0);
+        $obj->setFillOpacity(60.0);
         $obj->setFindNearestPointBy("xy");
-        $obj->setGetExtremesFromAll(false);
+        $obj->setGetExtremesFromAll(true);
         $obj->setId("b80bb7740288fda1f201890375a60c8f");
-        $obj->setIndex(85.0);
+        $obj->setIndex(42.0);
         $obj->setKeys(["keys" => "14f802e1fba977727845e8872c1743a7"]);
-        $obj->setLegendIndex(33.0);
+        $obj->setLegendIndex(90.0);
         $obj->setLineColor("c2580eebfdbdb9fc629f50cc147c3f63");
-        $obj->setLineWidth(74.0);
+        $obj->setLineWidth(14.0);
         $obj->setLinecap("square");
         $obj->setLinkedTo("914fab47afc86331ec62837807a29419");
         $obj->setMarker($marker);
@@ -75,29 +75,29 @@ class HighchartsAreasplineTest extends AbstractTestCase {
         $obj->setNegativeFillColor("a966442d64e00bf8663e7c5d9708074a");
         $obj->setPoint($point);
         $obj->setPointDescriptionFormatter("b5fd0c15b3ca81f726e2c7b93907ba36");
-        $obj->setPointInterval(61.0);
+        $obj->setPointInterval(92.0);
         $obj->setPointIntervalUnit("year");
         $obj->setPointPlacement("between");
-        $obj->setPointStart(6.0);
+        $obj->setPointStart(31.0);
         $obj->setSelected(true);
         $obj->setShadow("3bf1114a986ba87ed28fc1b5884fc2f8");
         $obj->setShowCheckbox(true);
-        $obj->setShowInLegend(false);
-        $obj->setSkipKeyboardNavigation(true);
+        $obj->setShowInLegend(true);
+        $obj->setSkipKeyboardNavigation(false);
         $obj->setSoftThreshold(true);
         $obj->setStack("fac2a47adace059aff113283a03f6760");
         $obj->setStacking("percent");
         $obj->setStates($states);
         $obj->setStickyTracking(false);
-        $obj->setThreshold(12.0);
+        $obj->setThreshold(53.0);
         $obj->setTooltip(["tooltip" => "ddbfc1b6aa0ad4d79c5dac7aa3b44888"]);
         $obj->setTrackByArea(true);
-        $obj->setTurboThreshold(74.0);
+        $obj->setTurboThreshold(66.0);
         $obj->setType("waterfall");
-        $obj->setVisible(false);
+        $obj->setVisible(true);
         $obj->setXAxis("b919a806dedef37999b45653bdde66c6");
         $obj->setYAxis("f3cd431f5ac1725ea18774e5c02f2889");
-        $obj->setZIndex(52.0);
+        $obj->setZIndex(55.0);
         $obj->setZoneAxis("88421adabea658556aa3ab6c6181afad");
         $obj->setZones(["zones" => "26f94136f5db8afd4e9df1e512f7fdc5"]);
 
@@ -178,8 +178,8 @@ class HighchartsAreasplineTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsAreaspline();
 
-        $obj->setAllowPointSelect(true);
-        $this->assertEquals(true, $obj->getAllowPointSelect());
+        $obj->setAllowPointSelect(false);
+        $this->assertEquals(false, $obj->getAllowPointSelect());
     }
 
     /**
@@ -204,8 +204,8 @@ class HighchartsAreasplineTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsAreaspline();
 
-        $obj->setAnimationLimit(76.0);
-        $this->assertEquals(76.0, $obj->getAnimationLimit());
+        $obj->setAnimationLimit(49.0);
+        $this->assertEquals(49.0, $obj->getAnimationLimit());
     }
 
     /**
@@ -243,8 +243,8 @@ class HighchartsAreasplineTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsAreaspline();
 
-        $obj->setColorIndex(95.0);
-        $this->assertEquals(95.0, $obj->getColorIndex());
+        $obj->setColorIndex(72.0);
+        $this->assertEquals(72.0, $obj->getColorIndex());
     }
 
     /**
@@ -256,8 +256,8 @@ class HighchartsAreasplineTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsAreaspline();
 
-        $obj->setConnectEnds(false);
-        $this->assertEquals(false, $obj->getConnectEnds());
+        $obj->setConnectEnds(true);
+        $this->assertEquals(true, $obj->getConnectEnds());
     }
 
     /**
@@ -269,8 +269,8 @@ class HighchartsAreasplineTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsAreaspline();
 
-        $obj->setConnectNulls(true);
-        $this->assertEquals(true, $obj->getConnectNulls());
+        $obj->setConnectNulls(false);
+        $this->assertEquals(false, $obj->getConnectNulls());
     }
 
     /**
@@ -282,8 +282,8 @@ class HighchartsAreasplineTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsAreaspline();
 
-        $obj->setCropThreshold(4.0);
-        $this->assertEquals(4.0, $obj->getCropThreshold());
+        $obj->setCropThreshold(7.0);
+        $this->assertEquals(7.0, $obj->getCropThreshold());
     }
 
     /**
@@ -295,8 +295,23 @@ class HighchartsAreasplineTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsAreaspline();
 
+        $obj->setCursor(null);
+        $this->assertEquals(null, $obj->getCursor());
+
         $obj->setCursor("crosshair");
         $this->assertEquals("crosshair", $obj->getCursor());
+
+        $obj->setCursor("default");
+        $this->assertEquals("default", $obj->getCursor());
+
+        $obj->setCursor("help");
+        $this->assertEquals("help", $obj->getCursor());
+
+        $obj->setCursor("none");
+        $this->assertEquals("none", $obj->getCursor());
+
+        $obj->setCursor("pointer");
+        $this->assertEquals("pointer", $obj->getCursor());
     }
 
     /**
@@ -308,8 +323,38 @@ class HighchartsAreasplineTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsAreaspline();
 
+        $obj->setDashStyle("Dash");
+        $this->assertEquals("Dash", $obj->getDashStyle());
+
+        $obj->setDashStyle("DashDot");
+        $this->assertEquals("DashDot", $obj->getDashStyle());
+
+        $obj->setDashStyle("Dot");
+        $this->assertEquals("Dot", $obj->getDashStyle());
+
+        $obj->setDashStyle("LongDash");
+        $this->assertEquals("LongDash", $obj->getDashStyle());
+
+        $obj->setDashStyle("LongDashDot");
+        $this->assertEquals("LongDashDot", $obj->getDashStyle());
+
         $obj->setDashStyle("LongDashDotDot");
         $this->assertEquals("LongDashDotDot", $obj->getDashStyle());
+
+        $obj->setDashStyle("ShortDash");
+        $this->assertEquals("ShortDash", $obj->getDashStyle());
+
+        $obj->setDashStyle("ShortDashDot");
+        $this->assertEquals("ShortDashDot", $obj->getDashStyle());
+
+        $obj->setDashStyle("ShortDashDotDot");
+        $this->assertEquals("ShortDashDotDot", $obj->getDashStyle());
+
+        $obj->setDashStyle("ShortDot");
+        $this->assertEquals("ShortDot", $obj->getDashStyle());
+
+        $obj->setDashStyle("Solid");
+        $this->assertEquals("Solid", $obj->getDashStyle());
     }
 
     /**
@@ -392,8 +437,8 @@ class HighchartsAreasplineTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsAreaspline();
 
-        $obj->setExposeElementToA11y(false);
-        $this->assertEquals(false, $obj->getExposeElementToA11y());
+        $obj->setExposeElementToA11y(true);
+        $this->assertEquals(true, $obj->getExposeElementToA11y());
     }
 
     /**
@@ -418,8 +463,8 @@ class HighchartsAreasplineTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsAreaspline();
 
-        $obj->setFillOpacity(46.0);
-        $this->assertEquals(46.0, $obj->getFillOpacity());
+        $obj->setFillOpacity(100.0);
+        $this->assertEquals(100.0, $obj->getFillOpacity());
     }
 
     /**
@@ -430,6 +475,9 @@ class HighchartsAreasplineTest extends AbstractTestCase {
     public function testSetFindNearestPointBy(): void {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsAreaspline();
+
+        $obj->setFindNearestPointBy("x");
+        $this->assertEquals("x", $obj->getFindNearestPointBy());
 
         $obj->setFindNearestPointBy("xy");
         $this->assertEquals("xy", $obj->getFindNearestPointBy());
@@ -444,8 +492,8 @@ class HighchartsAreasplineTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsAreaspline();
 
-        $obj->setGetExtremesFromAll(false);
-        $this->assertEquals(false, $obj->getGetExtremesFromAll());
+        $obj->setGetExtremesFromAll(true);
+        $this->assertEquals(true, $obj->getGetExtremesFromAll());
     }
 
     /**
@@ -470,8 +518,8 @@ class HighchartsAreasplineTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsAreaspline();
 
-        $obj->setIndex(90.0);
-        $this->assertEquals(90.0, $obj->getIndex());
+        $obj->setIndex(91.0);
+        $this->assertEquals(91.0, $obj->getIndex());
     }
 
     /**
@@ -496,8 +544,8 @@ class HighchartsAreasplineTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsAreaspline();
 
-        $obj->setLegendIndex(46.0);
-        $this->assertEquals(46.0, $obj->getLegendIndex());
+        $obj->setLegendIndex(33.0);
+        $this->assertEquals(33.0, $obj->getLegendIndex());
     }
 
     /**
@@ -522,8 +570,8 @@ class HighchartsAreasplineTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsAreaspline();
 
-        $obj->setLineWidth(25.0);
-        $this->assertEquals(25.0, $obj->getLineWidth());
+        $obj->setLineWidth(17.0);
+        $this->assertEquals(17.0, $obj->getLineWidth());
     }
 
     /**
@@ -534,6 +582,9 @@ class HighchartsAreasplineTest extends AbstractTestCase {
     public function testSetLinecap(): void {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsAreaspline();
+
+        $obj->setLinecap("round");
+        $this->assertEquals("round", $obj->getLinecap());
 
         $obj->setLinecap("square");
         $this->assertEquals("square", $obj->getLinecap());
@@ -645,8 +696,8 @@ class HighchartsAreasplineTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsAreaspline();
 
-        $obj->setPointInterval(30.0);
-        $this->assertEquals(30.0, $obj->getPointInterval());
+        $obj->setPointInterval(86.0);
+        $this->assertEquals(86.0, $obj->getPointInterval());
     }
 
     /**
@@ -657,6 +708,15 @@ class HighchartsAreasplineTest extends AbstractTestCase {
     public function testSetPointIntervalUnit(): void {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsAreaspline();
+
+        $obj->setPointIntervalUnit(null);
+        $this->assertEquals(null, $obj->getPointIntervalUnit());
+
+        $obj->setPointIntervalUnit("day");
+        $this->assertEquals("day", $obj->getPointIntervalUnit());
+
+        $obj->setPointIntervalUnit("month");
+        $this->assertEquals("month", $obj->getPointIntervalUnit());
 
         $obj->setPointIntervalUnit("year");
         $this->assertEquals("year", $obj->getPointIntervalUnit());
@@ -671,8 +731,14 @@ class HighchartsAreasplineTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsAreaspline();
 
+        $obj->setPointPlacement(null);
+        $this->assertEquals(null, $obj->getPointPlacement());
+
         $obj->setPointPlacement("between");
         $this->assertEquals("between", $obj->getPointPlacement());
+
+        $obj->setPointPlacement("on");
+        $this->assertEquals("on", $obj->getPointPlacement());
     }
 
     /**
@@ -684,8 +750,8 @@ class HighchartsAreasplineTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsAreaspline();
 
-        $obj->setPointStart(31.0);
-        $this->assertEquals(31.0, $obj->getPointStart());
+        $obj->setPointStart(75.0);
+        $this->assertEquals(75.0, $obj->getPointStart());
     }
 
     /**
@@ -697,8 +763,8 @@ class HighchartsAreasplineTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsAreaspline();
 
-        $obj->setSelected(true);
-        $this->assertEquals(true, $obj->getSelected());
+        $obj->setSelected(false);
+        $this->assertEquals(false, $obj->getSelected());
     }
 
     /**
@@ -723,8 +789,8 @@ class HighchartsAreasplineTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsAreaspline();
 
-        $obj->setShowCheckbox(false);
-        $this->assertEquals(false, $obj->getShowCheckbox());
+        $obj->setShowCheckbox(true);
+        $this->assertEquals(true, $obj->getShowCheckbox());
     }
 
     /**
@@ -749,8 +815,8 @@ class HighchartsAreasplineTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsAreaspline();
 
-        $obj->setSkipKeyboardNavigation(true);
-        $this->assertEquals(true, $obj->getSkipKeyboardNavigation());
+        $obj->setSkipKeyboardNavigation(false);
+        $this->assertEquals(false, $obj->getSkipKeyboardNavigation());
     }
 
     /**
@@ -788,6 +854,12 @@ class HighchartsAreasplineTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsAreaspline();
 
+        $obj->setStacking(null);
+        $this->assertEquals(null, $obj->getStacking());
+
+        $obj->setStacking("normal");
+        $this->assertEquals("normal", $obj->getStacking());
+
         $obj->setStacking("percent");
         $this->assertEquals("percent", $obj->getStacking());
     }
@@ -817,8 +889,8 @@ class HighchartsAreasplineTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsAreaspline();
 
-        $obj->setStickyTracking(true);
-        $this->assertEquals(true, $obj->getStickyTracking());
+        $obj->setStickyTracking(false);
+        $this->assertEquals(false, $obj->getStickyTracking());
     }
 
     /**
@@ -830,8 +902,8 @@ class HighchartsAreasplineTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsAreaspline();
 
-        $obj->setThreshold(12.0);
-        $this->assertEquals(12.0, $obj->getThreshold());
+        $obj->setThreshold(98.0);
+        $this->assertEquals(98.0, $obj->getThreshold());
     }
 
     /**
@@ -856,8 +928,8 @@ class HighchartsAreasplineTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsAreaspline();
 
-        $obj->setTrackByArea(false);
-        $this->assertEquals(false, $obj->getTrackByArea());
+        $obj->setTrackByArea(true);
+        $this->assertEquals(true, $obj->getTrackByArea());
     }
 
     /**
@@ -869,8 +941,8 @@ class HighchartsAreasplineTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsAreaspline();
 
-        $obj->setTurboThreshold(74.0);
-        $this->assertEquals(74.0, $obj->getTurboThreshold());
+        $obj->setTurboThreshold(9.0);
+        $this->assertEquals(9.0, $obj->getTurboThreshold());
     }
 
     /**
@@ -881,6 +953,54 @@ class HighchartsAreasplineTest extends AbstractTestCase {
     public function testSetType(): void {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsAreaspline();
+
+        $obj->setType(null);
+        $this->assertEquals(null, $obj->getType());
+
+        $obj->setType("area");
+        $this->assertEquals("area", $obj->getType());
+
+        $obj->setType("arearange");
+        $this->assertEquals("arearange", $obj->getType());
+
+        $obj->setType("areaspline");
+        $this->assertEquals("areaspline", $obj->getType());
+
+        $obj->setType("areasplinerange");
+        $this->assertEquals("areasplinerange", $obj->getType());
+
+        $obj->setType("boxplot");
+        $this->assertEquals("boxplot", $obj->getType());
+
+        $obj->setType("bubble");
+        $this->assertEquals("bubble", $obj->getType());
+
+        $obj->setType("column");
+        $this->assertEquals("column", $obj->getType());
+
+        $obj->setType("columnrange");
+        $this->assertEquals("columnrange", $obj->getType());
+
+        $obj->setType("errorbar");
+        $this->assertEquals("errorbar", $obj->getType());
+
+        $obj->setType("funnel");
+        $this->assertEquals("funnel", $obj->getType());
+
+        $obj->setType("gauge");
+        $this->assertEquals("gauge", $obj->getType());
+
+        $obj->setType("line");
+        $this->assertEquals("line", $obj->getType());
+
+        $obj->setType("pie");
+        $this->assertEquals("pie", $obj->getType());
+
+        $obj->setType("scatter");
+        $this->assertEquals("scatter", $obj->getType());
+
+        $obj->setType("spline");
+        $this->assertEquals("spline", $obj->getType());
 
         $obj->setType("waterfall");
         $this->assertEquals("waterfall", $obj->getType());
@@ -895,8 +1015,8 @@ class HighchartsAreasplineTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsAreaspline();
 
-        $obj->setVisible(true);
-        $this->assertEquals(true, $obj->getVisible());
+        $obj->setVisible(false);
+        $this->assertEquals(false, $obj->getVisible());
     }
 
     /**
@@ -934,8 +1054,8 @@ class HighchartsAreasplineTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsAreaspline();
 
-        $obj->setZIndex(53.0);
-        $this->assertEquals(53.0, $obj->getZIndex());
+        $obj->setZIndex(51.0);
+        $this->assertEquals(51.0, $obj->getZIndex());
     }
 
     /**

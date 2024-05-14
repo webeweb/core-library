@@ -34,13 +34,13 @@ class HighchartsSolidgaugeTest extends AbstractTestCase {
         $events = new \WBW\Library\Highcharts\Model\Chart\Series\Solidgauge\HighchartsEvents();
         $point  = new \WBW\Library\Highcharts\Model\Chart\Series\Solidgauge\HighchartsPoint();
 
-        $exp = ["animation" => true, "animationLimit" => 4.0, "className" => "6f66e878c62db60568a3487869695820", "colorIndex" => 79.0, "cursor" => "crosshair", "data" => ["data" => "8d777f385d3dfec8815d20f7496026dc"], "dataLabels" => ["dataLabels" => "d4d108fe6659fac79420fa083ef3adf2"], "description" => "67daf92c833c41c95db874e18fcb2786", "enableMouseTracking" => false, "events" => $events->jsonSerialize(), "exposeElementToA11y" => false, "findNearestPointBy" => "xy", "getExtremesFromAll" => true, "id" => "b80bb7740288fda1f201890375a60c8f", "index" => 10.0, "keys" => ["keys" => "14f802e1fba977727845e8872c1743a7"], "legendIndex" => 45.0, "linecap" => "round", "name" => "b068931cc450442b63f5b3d276ea4297", "overshoot" => 30.0, "point" => $point->jsonSerialize(), "pointDescriptionFormatter" => "b5fd0c15b3ca81f726e2c7b93907ba36", "rounded" => false, "selected" => false, "showCheckbox" => true, "showInLegend" => false, "skipKeyboardNavigation" => false, "stickyTracking" => false, "threshold" => 42.0, "tooltip" => ["tooltip" => "ddbfc1b6aa0ad4d79c5dac7aa3b44888"], "type" => "waterfall", "visible" => false, "wrap" => true, "xAxis" => "b919a806dedef37999b45653bdde66c6", "yAxis" => "f3cd431f5ac1725ea18774e5c02f2889", "zIndex" => 13.0];
+        $exp = ["animation" => true, "animationLimit" => 64.0, "className" => "6f66e878c62db60568a3487869695820", "colorIndex" => 43.0, "cursor" => "crosshair", "data" => ["data" => "8d777f385d3dfec8815d20f7496026dc"], "dataLabels" => ["dataLabels" => "d4d108fe6659fac79420fa083ef3adf2"], "description" => "67daf92c833c41c95db874e18fcb2786", "enableMouseTracking" => false, "events" => $events->jsonSerialize(), "exposeElementToA11y" => false, "findNearestPointBy" => "xy", "getExtremesFromAll" => false, "id" => "b80bb7740288fda1f201890375a60c8f", "index" => 39.0, "keys" => ["keys" => "14f802e1fba977727845e8872c1743a7"], "legendIndex" => 96.0, "linecap" => "round", "name" => "b068931cc450442b63f5b3d276ea4297", "overshoot" => 48.0, "point" => $point->jsonSerialize(), "pointDescriptionFormatter" => "b5fd0c15b3ca81f726e2c7b93907ba36", "rounded" => false, "selected" => false, "showCheckbox" => false, "showInLegend" => true, "skipKeyboardNavigation" => false, "stickyTracking" => false, "threshold" => 67.0, "tooltip" => ["tooltip" => "ddbfc1b6aa0ad4d79c5dac7aa3b44888"], "type" => "waterfall", "visible" => false, "wrap" => true, "xAxis" => "b919a806dedef37999b45653bdde66c6", "yAxis" => "f3cd431f5ac1725ea18774e5c02f2889", "zIndex" => 82.0];
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsSolidgauge();
         $obj->setAnimation(true);
-        $obj->setAnimationLimit(4.0);
+        $obj->setAnimationLimit(64.0);
         $obj->setClassName("6f66e878c62db60568a3487869695820");
-        $obj->setColorIndex(79.0);
+        $obj->setColorIndex(43.0);
         $obj->setCursor("crosshair");
         $obj->setData(["data" => "8d777f385d3dfec8815d20f7496026dc"]);
         $obj->setDataLabels(["dataLabels" => "d4d108fe6659fac79420fa083ef3adf2"]);
@@ -49,30 +49,30 @@ class HighchartsSolidgaugeTest extends AbstractTestCase {
         $obj->setEvents($events);
         $obj->setExposeElementToA11y(false);
         $obj->setFindNearestPointBy("xy");
-        $obj->setGetExtremesFromAll(true);
+        $obj->setGetExtremesFromAll(false);
         $obj->setId("b80bb7740288fda1f201890375a60c8f");
-        $obj->setIndex(10.0);
+        $obj->setIndex(39.0);
         $obj->setKeys(["keys" => "14f802e1fba977727845e8872c1743a7"]);
-        $obj->setLegendIndex(45.0);
+        $obj->setLegendIndex(96.0);
         $obj->setLinecap("round");
         $obj->setName("b068931cc450442b63f5b3d276ea4297");
-        $obj->setOvershoot(30.0);
+        $obj->setOvershoot(48.0);
         $obj->setPoint($point);
         $obj->setPointDescriptionFormatter("b5fd0c15b3ca81f726e2c7b93907ba36");
         $obj->setRounded(false);
         $obj->setSelected(false);
-        $obj->setShowCheckbox(true);
-        $obj->setShowInLegend(false);
+        $obj->setShowCheckbox(false);
+        $obj->setShowInLegend(true);
         $obj->setSkipKeyboardNavigation(false);
         $obj->setStickyTracking(false);
-        $obj->setThreshold(42.0);
+        $obj->setThreshold(67.0);
         $obj->setTooltip(["tooltip" => "ddbfc1b6aa0ad4d79c5dac7aa3b44888"]);
         $obj->setType("waterfall");
         $obj->setVisible(false);
         $obj->setWrap(true);
         $obj->setXAxis("b919a806dedef37999b45653bdde66c6");
         $obj->setYAxis("f3cd431f5ac1725ea18774e5c02f2889");
-        $obj->setZIndex(13.0);
+        $obj->setZIndex(82.0);
 
         $this->assertEquals($exp, $obj->jsonSerialize());
     }
@@ -125,8 +125,8 @@ class HighchartsSolidgaugeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsSolidgauge();
 
-        $obj->setAnimationLimit(57.0);
-        $this->assertEquals(57.0, $obj->getAnimationLimit());
+        $obj->setAnimationLimit(39.0);
+        $this->assertEquals(39.0, $obj->getAnimationLimit());
     }
 
     /**
@@ -151,8 +151,8 @@ class HighchartsSolidgaugeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsSolidgauge();
 
-        $obj->setColorIndex(56.0);
-        $this->assertEquals(56.0, $obj->getColorIndex());
+        $obj->setColorIndex(48.0);
+        $this->assertEquals(48.0, $obj->getColorIndex());
     }
 
     /**
@@ -164,8 +164,23 @@ class HighchartsSolidgaugeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsSolidgauge();
 
+        $obj->setCursor(null);
+        $this->assertEquals(null, $obj->getCursor());
+
         $obj->setCursor("crosshair");
         $this->assertEquals("crosshair", $obj->getCursor());
+
+        $obj->setCursor("default");
+        $this->assertEquals("default", $obj->getCursor());
+
+        $obj->setCursor("help");
+        $this->assertEquals("help", $obj->getCursor());
+
+        $obj->setCursor("none");
+        $this->assertEquals("none", $obj->getCursor());
+
+        $obj->setCursor("pointer");
+        $this->assertEquals("pointer", $obj->getCursor());
     }
 
     /**
@@ -216,8 +231,8 @@ class HighchartsSolidgaugeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsSolidgauge();
 
-        $obj->setEnableMouseTracking(false);
-        $this->assertEquals(false, $obj->getEnableMouseTracking());
+        $obj->setEnableMouseTracking(true);
+        $this->assertEquals(true, $obj->getEnableMouseTracking());
     }
 
     /**
@@ -245,8 +260,8 @@ class HighchartsSolidgaugeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsSolidgauge();
 
-        $obj->setExposeElementToA11y(true);
-        $this->assertEquals(true, $obj->getExposeElementToA11y());
+        $obj->setExposeElementToA11y(false);
+        $this->assertEquals(false, $obj->getExposeElementToA11y());
     }
 
     /**
@@ -257,6 +272,9 @@ class HighchartsSolidgaugeTest extends AbstractTestCase {
     public function testSetFindNearestPointBy(): void {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsSolidgauge();
+
+        $obj->setFindNearestPointBy("x");
+        $this->assertEquals("x", $obj->getFindNearestPointBy());
 
         $obj->setFindNearestPointBy("xy");
         $this->assertEquals("xy", $obj->getFindNearestPointBy());
@@ -271,8 +289,8 @@ class HighchartsSolidgaugeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsSolidgauge();
 
-        $obj->setGetExtremesFromAll(true);
-        $this->assertEquals(true, $obj->getGetExtremesFromAll());
+        $obj->setGetExtremesFromAll(false);
+        $this->assertEquals(false, $obj->getGetExtremesFromAll());
     }
 
     /**
@@ -323,8 +341,8 @@ class HighchartsSolidgaugeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsSolidgauge();
 
-        $obj->setLegendIndex(26.0);
-        $this->assertEquals(26.0, $obj->getLegendIndex());
+        $obj->setLegendIndex(15.0);
+        $this->assertEquals(15.0, $obj->getLegendIndex());
     }
 
     /**
@@ -338,6 +356,9 @@ class HighchartsSolidgaugeTest extends AbstractTestCase {
 
         $obj->setLinecap("round");
         $this->assertEquals("round", $obj->getLinecap());
+
+        $obj->setLinecap("square");
+        $this->assertEquals("square", $obj->getLinecap());
     }
 
     /**
@@ -362,8 +383,8 @@ class HighchartsSolidgaugeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsSolidgauge();
 
-        $obj->setOvershoot(21.0);
-        $this->assertEquals(21.0, $obj->getOvershoot());
+        $obj->setOvershoot(65.0);
+        $this->assertEquals(65.0, $obj->getOvershoot());
     }
 
     /**
@@ -406,6 +427,9 @@ class HighchartsSolidgaugeTest extends AbstractTestCase {
 
         $obj->setRounded(false);
         $this->assertEquals(false, $obj->getRounded());
+
+        $obj->setRounded(true);
+        $this->assertEquals(true, $obj->getRounded());
     }
 
     /**
@@ -430,8 +454,8 @@ class HighchartsSolidgaugeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsSolidgauge();
 
-        $obj->setShowCheckbox(true);
-        $this->assertEquals(true, $obj->getShowCheckbox());
+        $obj->setShowCheckbox(false);
+        $this->assertEquals(false, $obj->getShowCheckbox());
     }
 
     /**
@@ -456,8 +480,8 @@ class HighchartsSolidgaugeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsSolidgauge();
 
-        $obj->setSkipKeyboardNavigation(true);
-        $this->assertEquals(true, $obj->getSkipKeyboardNavigation());
+        $obj->setSkipKeyboardNavigation(false);
+        $this->assertEquals(false, $obj->getSkipKeyboardNavigation());
     }
 
     /**
@@ -469,8 +493,8 @@ class HighchartsSolidgaugeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsSolidgauge();
 
-        $obj->setStickyTracking(true);
-        $this->assertEquals(true, $obj->getStickyTracking());
+        $obj->setStickyTracking(false);
+        $this->assertEquals(false, $obj->getStickyTracking());
     }
 
     /**
@@ -482,8 +506,8 @@ class HighchartsSolidgaugeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsSolidgauge();
 
-        $obj->setThreshold(13.0);
-        $this->assertEquals(13.0, $obj->getThreshold());
+        $obj->setThreshold(92.0);
+        $this->assertEquals(92.0, $obj->getThreshold());
     }
 
     /**
@@ -507,6 +531,54 @@ class HighchartsSolidgaugeTest extends AbstractTestCase {
     public function testSetType(): void {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsSolidgauge();
+
+        $obj->setType(null);
+        $this->assertEquals(null, $obj->getType());
+
+        $obj->setType("area");
+        $this->assertEquals("area", $obj->getType());
+
+        $obj->setType("arearange");
+        $this->assertEquals("arearange", $obj->getType());
+
+        $obj->setType("areaspline");
+        $this->assertEquals("areaspline", $obj->getType());
+
+        $obj->setType("areasplinerange");
+        $this->assertEquals("areasplinerange", $obj->getType());
+
+        $obj->setType("boxplot");
+        $this->assertEquals("boxplot", $obj->getType());
+
+        $obj->setType("bubble");
+        $this->assertEquals("bubble", $obj->getType());
+
+        $obj->setType("column");
+        $this->assertEquals("column", $obj->getType());
+
+        $obj->setType("columnrange");
+        $this->assertEquals("columnrange", $obj->getType());
+
+        $obj->setType("errorbar");
+        $this->assertEquals("errorbar", $obj->getType());
+
+        $obj->setType("funnel");
+        $this->assertEquals("funnel", $obj->getType());
+
+        $obj->setType("gauge");
+        $this->assertEquals("gauge", $obj->getType());
+
+        $obj->setType("line");
+        $this->assertEquals("line", $obj->getType());
+
+        $obj->setType("pie");
+        $this->assertEquals("pie", $obj->getType());
+
+        $obj->setType("scatter");
+        $this->assertEquals("scatter", $obj->getType());
+
+        $obj->setType("spline");
+        $this->assertEquals("spline", $obj->getType());
 
         $obj->setType("waterfall");
         $this->assertEquals("waterfall", $obj->getType());
@@ -534,8 +606,8 @@ class HighchartsSolidgaugeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsSolidgauge();
 
-        $obj->setWrap(false);
-        $this->assertEquals(false, $obj->getWrap());
+        $obj->setWrap(true);
+        $this->assertEquals(true, $obj->getWrap());
     }
 
     /**
@@ -573,8 +645,8 @@ class HighchartsSolidgaugeTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsSolidgauge();
 
-        $obj->setZIndex(28.0);
-        $this->assertEquals(28.0, $obj->getZIndex());
+        $obj->setZIndex(25.0);
+        $this->assertEquals(25.0, $obj->getZIndex());
     }
 
     /**

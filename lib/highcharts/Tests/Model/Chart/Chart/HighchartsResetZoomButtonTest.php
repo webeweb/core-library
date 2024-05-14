@@ -65,6 +65,9 @@ class HighchartsResetZoomButtonTest extends AbstractTestCase {
 
         $obj->setRelativeTo("chart");
         $this->assertEquals("chart", $obj->getRelativeTo());
+
+        $obj->setRelativeTo("plot");
+        $this->assertEquals("plot", $obj->getRelativeTo());
     }
 
     /**

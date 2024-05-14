@@ -31,20 +31,20 @@ class HighchartsStackLabelsTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        $exp = ["align" => "right", "enabled" => true, "format" => "1ddcb92ade31c8fbd370001f9b29a7d9", "formatter" => "f2ffc59487832cbad265a8fef2133592", "rotation" => 72.0, "style" => ["style" => "a1b01e734b573fca08eb1a65e6df9a38"], "textAlign" => "right", "useHTML" => false, "verticalAlign" => "bottom", "x" => 1.0, "y" => 73.0];
+        $exp = ["align" => "right", "enabled" => true, "format" => "1ddcb92ade31c8fbd370001f9b29a7d9", "formatter" => "f2ffc59487832cbad265a8fef2133592", "rotation" => 61.0, "style" => ["style" => "a1b01e734b573fca08eb1a65e6df9a38"], "textAlign" => "right", "useHTML" => false, "verticalAlign" => "bottom", "x" => 15.0, "y" => 89.0];
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\YAxis\HighchartsStackLabels();
         $obj->setAlign("right");
         $obj->setEnabled(true);
         $obj->setFormat("1ddcb92ade31c8fbd370001f9b29a7d9");
         $obj->setFormatter("f2ffc59487832cbad265a8fef2133592");
-        $obj->setRotation(72.0);
+        $obj->setRotation(61.0);
         $obj->setStyle(["style" => "a1b01e734b573fca08eb1a65e6df9a38"]);
         $obj->setTextAlign("right");
         $obj->setUseHTML(false);
         $obj->setVerticalAlign("bottom");
-        $obj->setX(1.0);
-        $obj->setY(73.0);
+        $obj->setX(15.0);
+        $obj->setY(89.0);
 
         $this->assertEquals($exp, $obj->jsonSerialize());
     }
@@ -57,6 +57,12 @@ class HighchartsStackLabelsTest extends AbstractTestCase {
     public function testSetAlign(): void {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\YAxis\HighchartsStackLabels();
+
+        $obj->setAlign("center");
+        $this->assertEquals("center", $obj->getAlign());
+
+        $obj->setAlign("left");
+        $this->assertEquals("left", $obj->getAlign());
 
         $obj->setAlign("right");
         $this->assertEquals("right", $obj->getAlign());
@@ -71,8 +77,8 @@ class HighchartsStackLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\YAxis\HighchartsStackLabels();
 
-        $obj->setEnabled(false);
-        $this->assertEquals(false, $obj->getEnabled());
+        $obj->setEnabled(true);
+        $this->assertEquals(true, $obj->getEnabled());
     }
 
     /**
@@ -110,8 +116,8 @@ class HighchartsStackLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\YAxis\HighchartsStackLabels();
 
-        $obj->setRotation(98.0);
-        $this->assertEquals(98.0, $obj->getRotation());
+        $obj->setRotation(17.0);
+        $this->assertEquals(17.0, $obj->getRotation());
     }
 
     /**
@@ -136,6 +142,12 @@ class HighchartsStackLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\YAxis\HighchartsStackLabels();
 
+        $obj->setTextAlign("center");
+        $this->assertEquals("center", $obj->getTextAlign());
+
+        $obj->setTextAlign("left");
+        $this->assertEquals("left", $obj->getTextAlign());
+
         $obj->setTextAlign("right");
         $this->assertEquals("right", $obj->getTextAlign());
     }
@@ -149,8 +161,8 @@ class HighchartsStackLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\YAxis\HighchartsStackLabels();
 
-        $obj->setUseHTML(false);
-        $this->assertEquals(false, $obj->getUseHTML());
+        $obj->setUseHTML(true);
+        $this->assertEquals(true, $obj->getUseHTML());
     }
 
     /**
@@ -164,6 +176,12 @@ class HighchartsStackLabelsTest extends AbstractTestCase {
 
         $obj->setVerticalAlign("bottom");
         $this->assertEquals("bottom", $obj->getVerticalAlign());
+
+        $obj->setVerticalAlign("middle");
+        $this->assertEquals("middle", $obj->getVerticalAlign());
+
+        $obj->setVerticalAlign("top");
+        $this->assertEquals("top", $obj->getVerticalAlign());
     }
 
     /**
@@ -175,8 +193,8 @@ class HighchartsStackLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\YAxis\HighchartsStackLabels();
 
-        $obj->setX(99.0);
-        $this->assertEquals(99.0, $obj->getX());
+        $obj->setX(24.0);
+        $this->assertEquals(24.0, $obj->getX());
     }
 
     /**
@@ -188,8 +206,8 @@ class HighchartsStackLabelsTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\YAxis\HighchartsStackLabels();
 
-        $obj->setY(36.0);
-        $this->assertEquals(36.0, $obj->getY());
+        $obj->setY(51.0);
+        $this->assertEquals(51.0, $obj->getY());
     }
 
     /**

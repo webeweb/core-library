@@ -31,18 +31,18 @@ class HighchartsMarkerTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        $exp = ["enabled" => false, "fillColor" => "1fde055d3ff900e04ca08bc82066d7fd", "height" => 7.0, "lineColor" => "c2580eebfdbdb9fc629f50cc147c3f63", "lineWidth" => 37.0, "radius" => 57.0, "states" => "34d955a0df5f7af9c9b4e4dccb3c3564", "symbol" => "triangle-down", "width" => 76.0];
+        $exp = ["enabled" => true, "fillColor" => "1fde055d3ff900e04ca08bc82066d7fd", "height" => 13.0, "lineColor" => "c2580eebfdbdb9fc629f50cc147c3f63", "lineWidth" => 48.0, "radius" => 63.0, "states" => "34d955a0df5f7af9c9b4e4dccb3c3564", "symbol" => "triangle-down", "width" => 82.0];
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Column\States\Hover\HighchartsMarker();
-        $obj->setEnabled(false);
+        $obj->setEnabled(true);
         $obj->setFillColor("1fde055d3ff900e04ca08bc82066d7fd");
-        $obj->setHeight(7.0);
+        $obj->setHeight(13.0);
         $obj->setLineColor("c2580eebfdbdb9fc629f50cc147c3f63");
-        $obj->setLineWidth(37.0);
-        $obj->setRadius(57.0);
+        $obj->setLineWidth(48.0);
+        $obj->setRadius(63.0);
         $obj->setStates("34d955a0df5f7af9c9b4e4dccb3c3564");
         $obj->setSymbol("triangle-down");
-        $obj->setWidth(76.0);
+        $obj->setWidth(82.0);
 
         $this->assertEquals($exp, $obj->jsonSerialize());
     }
@@ -56,8 +56,8 @@ class HighchartsMarkerTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Column\States\Hover\HighchartsMarker();
 
-        $obj->setEnabled(true);
-        $this->assertEquals(true, $obj->getEnabled());
+        $obj->setEnabled(false);
+        $this->assertEquals(false, $obj->getEnabled());
     }
 
     /**
@@ -82,8 +82,8 @@ class HighchartsMarkerTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Column\States\Hover\HighchartsMarker();
 
-        $obj->setHeight(10.0);
-        $this->assertEquals(10.0, $obj->getHeight());
+        $obj->setHeight(26.0);
+        $this->assertEquals(26.0, $obj->getHeight());
     }
 
     /**
@@ -108,8 +108,8 @@ class HighchartsMarkerTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Column\States\Hover\HighchartsMarker();
 
-        $obj->setLineWidth(11.0);
-        $this->assertEquals(11.0, $obj->getLineWidth());
+        $obj->setLineWidth(85.0);
+        $this->assertEquals(85.0, $obj->getLineWidth());
     }
 
     /**
@@ -121,8 +121,8 @@ class HighchartsMarkerTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Column\States\Hover\HighchartsMarker();
 
-        $obj->setRadius(75.0);
-        $this->assertEquals(75.0, $obj->getRadius());
+        $obj->setRadius(36.0);
+        $this->assertEquals(36.0, $obj->getRadius());
     }
 
     /**
@@ -147,6 +147,21 @@ class HighchartsMarkerTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Column\States\Hover\HighchartsMarker();
 
+        $obj->setSymbol(null);
+        $this->assertEquals(null, $obj->getSymbol());
+
+        $obj->setSymbol("circle");
+        $this->assertEquals("circle", $obj->getSymbol());
+
+        $obj->setSymbol("diamond");
+        $this->assertEquals("diamond", $obj->getSymbol());
+
+        $obj->setSymbol("square");
+        $this->assertEquals("square", $obj->getSymbol());
+
+        $obj->setSymbol("triangle");
+        $this->assertEquals("triangle", $obj->getSymbol());
+
         $obj->setSymbol("triangle-down");
         $this->assertEquals("triangle-down", $obj->getSymbol());
     }
@@ -160,8 +175,8 @@ class HighchartsMarkerTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\PlotOptions\Column\States\Hover\HighchartsMarker();
 
-        $obj->setWidth(14.0);
-        $this->assertEquals(14.0, $obj->getWidth());
+        $obj->setWidth(8.0);
+        $this->assertEquals(8.0, $obj->getWidth());
     }
 
     /**

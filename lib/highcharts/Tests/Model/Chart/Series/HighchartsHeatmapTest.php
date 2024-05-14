@@ -36,56 +36,56 @@ class HighchartsHeatmapTest extends AbstractTestCase {
         $point      = new \WBW\Library\Highcharts\Model\Chart\Series\Heatmap\HighchartsPoint();
         $states     = new \WBW\Library\Highcharts\Model\Chart\Series\Heatmap\HighchartsStates();
 
-        $exp = ["allowPointSelect" => true, "animation" => false, "animationLimit" => 99.0, "borderColor" => "97da935a74593c55d78be9d1295aa994", "borderRadius" => 14.0, "borderWidth" => 90.0, "className" => "6f66e878c62db60568a3487869695820", "color" => "70dda5dfb8053dc6d1c492574bce9bfd", "colorByPoint" => true, "colorIndex" => 61.0, "colors" => ["colors" => "62848e3ce5804aa985513a7922ff87b2"], "colsize" => 0.0, "crisp" => false, "cropThreshold" => 94.0, "cursor" => "crosshair", "data" => ["data" => "8d777f385d3dfec8815d20f7496026dc"], "dataLabels" => $dataLabels->jsonSerialize(), "description" => "67daf92c833c41c95db874e18fcb2786", "enableMouseTracking" => false, "events" => $events->jsonSerialize(), "exposeElementToA11y" => false, "findNearestPointBy" => "xy", "getExtremesFromAll" => false, "id" => "b80bb7740288fda1f201890375a60c8f", "index" => 49.0, "keys" => ["keys" => "14f802e1fba977727845e8872c1743a7"], "legendIndex" => 77.0, "linkedTo" => "914fab47afc86331ec62837807a29419", "maxPointWidth" => 92.0, "name" => "b068931cc450442b63f5b3d276ea4297", "point" => $point->jsonSerialize(), "pointDescriptionFormatter" => "b5fd0c15b3ca81f726e2c7b93907ba36", "rowsize" => 69.0, "selected" => true, "shadow" => "3bf1114a986ba87ed28fc1b5884fc2f8", "showCheckbox" => false, "showInLegend" => true, "skipKeyboardNavigation" => false, "states" => $states->jsonSerialize(), "stickyTracking" => false, "tooltip" => ["tooltip" => "ddbfc1b6aa0ad4d79c5dac7aa3b44888"], "turboThreshold" => 90.0, "type" => "waterfall", "visible" => true, "xAxis" => "b919a806dedef37999b45653bdde66c6", "yAxis" => "f3cd431f5ac1725ea18774e5c02f2889", "zIndex" => 81.0, "zoneAxis" => "88421adabea658556aa3ab6c6181afad", "zones" => ["zones" => "26f94136f5db8afd4e9df1e512f7fdc5"]];
+        $exp = ["allowPointSelect" => true, "animation" => false, "animationLimit" => 18.0, "borderColor" => "97da935a74593c55d78be9d1295aa994", "borderRadius" => 9.0, "borderWidth" => 44.0, "className" => "6f66e878c62db60568a3487869695820", "color" => "70dda5dfb8053dc6d1c492574bce9bfd", "colorByPoint" => false, "colorIndex" => 99.0, "colors" => ["colors" => "62848e3ce5804aa985513a7922ff87b2"], "colsize" => 86.0, "crisp" => true, "cropThreshold" => 60.0, "cursor" => "crosshair", "data" => ["data" => "8d777f385d3dfec8815d20f7496026dc"], "dataLabels" => $dataLabels->jsonSerialize(), "description" => "67daf92c833c41c95db874e18fcb2786", "enableMouseTracking" => true, "events" => $events->jsonSerialize(), "exposeElementToA11y" => false, "findNearestPointBy" => "xy", "getExtremesFromAll" => true, "id" => "b80bb7740288fda1f201890375a60c8f", "index" => 60.0, "keys" => ["keys" => "14f802e1fba977727845e8872c1743a7"], "legendIndex" => 99.0, "linkedTo" => "914fab47afc86331ec62837807a29419", "maxPointWidth" => 48.0, "name" => "b068931cc450442b63f5b3d276ea4297", "point" => $point->jsonSerialize(), "pointDescriptionFormatter" => "b5fd0c15b3ca81f726e2c7b93907ba36", "rowsize" => 63.0, "selected" => true, "shadow" => "3bf1114a986ba87ed28fc1b5884fc2f8", "showCheckbox" => true, "showInLegend" => false, "skipKeyboardNavigation" => true, "states" => $states->jsonSerialize(), "stickyTracking" => false, "tooltip" => ["tooltip" => "ddbfc1b6aa0ad4d79c5dac7aa3b44888"], "turboThreshold" => 100.0, "type" => "waterfall", "visible" => false, "xAxis" => "b919a806dedef37999b45653bdde66c6", "yAxis" => "f3cd431f5ac1725ea18774e5c02f2889", "zIndex" => 32.0, "zoneAxis" => "88421adabea658556aa3ab6c6181afad", "zones" => ["zones" => "26f94136f5db8afd4e9df1e512f7fdc5"]];
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsHeatmap();
         $obj->setAllowPointSelect(true);
         $obj->setAnimation(false);
-        $obj->setAnimationLimit(99.0);
+        $obj->setAnimationLimit(18.0);
         $obj->setBorderColor("97da935a74593c55d78be9d1295aa994");
-        $obj->setBorderRadius(14.0);
-        $obj->setBorderWidth(90.0);
+        $obj->setBorderRadius(9.0);
+        $obj->setBorderWidth(44.0);
         $obj->setClassName("6f66e878c62db60568a3487869695820");
         $obj->setColor("70dda5dfb8053dc6d1c492574bce9bfd");
-        $obj->setColorByPoint(true);
-        $obj->setColorIndex(61.0);
+        $obj->setColorByPoint(false);
+        $obj->setColorIndex(99.0);
         $obj->setColors(["colors" => "62848e3ce5804aa985513a7922ff87b2"]);
-        $obj->setColsize(0.0);
-        $obj->setCrisp(false);
-        $obj->setCropThreshold(94.0);
+        $obj->setColsize(86.0);
+        $obj->setCrisp(true);
+        $obj->setCropThreshold(60.0);
         $obj->setCursor("crosshair");
         $obj->setData(["data" => "8d777f385d3dfec8815d20f7496026dc"]);
         $obj->setDataLabels($dataLabels);
         $obj->setDescription("67daf92c833c41c95db874e18fcb2786");
-        $obj->setEnableMouseTracking(false);
+        $obj->setEnableMouseTracking(true);
         $obj->setEvents($events);
         $obj->setExposeElementToA11y(false);
         $obj->setFindNearestPointBy("xy");
-        $obj->setGetExtremesFromAll(false);
+        $obj->setGetExtremesFromAll(true);
         $obj->setId("b80bb7740288fda1f201890375a60c8f");
-        $obj->setIndex(49.0);
+        $obj->setIndex(60.0);
         $obj->setKeys(["keys" => "14f802e1fba977727845e8872c1743a7"]);
-        $obj->setLegendIndex(77.0);
+        $obj->setLegendIndex(99.0);
         $obj->setLinkedTo("914fab47afc86331ec62837807a29419");
-        $obj->setMaxPointWidth(92.0);
+        $obj->setMaxPointWidth(48.0);
         $obj->setName("b068931cc450442b63f5b3d276ea4297");
         $obj->setPoint($point);
         $obj->setPointDescriptionFormatter("b5fd0c15b3ca81f726e2c7b93907ba36");
-        $obj->setRowsize(69.0);
+        $obj->setRowsize(63.0);
         $obj->setSelected(true);
         $obj->setShadow("3bf1114a986ba87ed28fc1b5884fc2f8");
-        $obj->setShowCheckbox(false);
-        $obj->setShowInLegend(true);
-        $obj->setSkipKeyboardNavigation(false);
+        $obj->setShowCheckbox(true);
+        $obj->setShowInLegend(false);
+        $obj->setSkipKeyboardNavigation(true);
         $obj->setStates($states);
         $obj->setStickyTracking(false);
         $obj->setTooltip(["tooltip" => "ddbfc1b6aa0ad4d79c5dac7aa3b44888"]);
-        $obj->setTurboThreshold(90.0);
+        $obj->setTurboThreshold(100.0);
         $obj->setType("waterfall");
-        $obj->setVisible(true);
+        $obj->setVisible(false);
         $obj->setXAxis("b919a806dedef37999b45653bdde66c6");
         $obj->setYAxis("f3cd431f5ac1725ea18774e5c02f2889");
-        $obj->setZIndex(81.0);
+        $obj->setZIndex(32.0);
         $obj->setZoneAxis("88421adabea658556aa3ab6c6181afad");
         $obj->setZones(["zones" => "26f94136f5db8afd4e9df1e512f7fdc5"]);
 
@@ -153,8 +153,8 @@ class HighchartsHeatmapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsHeatmap();
 
-        $obj->setAllowPointSelect(true);
-        $this->assertEquals(true, $obj->getAllowPointSelect());
+        $obj->setAllowPointSelect(false);
+        $this->assertEquals(false, $obj->getAllowPointSelect());
     }
 
     /**
@@ -166,8 +166,8 @@ class HighchartsHeatmapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsHeatmap();
 
-        $obj->setAnimation(false);
-        $this->assertEquals(false, $obj->getAnimation());
+        $obj->setAnimation(true);
+        $this->assertEquals(true, $obj->getAnimation());
     }
 
     /**
@@ -179,8 +179,8 @@ class HighchartsHeatmapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsHeatmap();
 
-        $obj->setAnimationLimit(67.0);
-        $this->assertEquals(67.0, $obj->getAnimationLimit());
+        $obj->setAnimationLimit(98.0);
+        $this->assertEquals(98.0, $obj->getAnimationLimit());
     }
 
     /**
@@ -205,8 +205,8 @@ class HighchartsHeatmapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsHeatmap();
 
-        $obj->setBorderRadius(24.0);
-        $this->assertEquals(24.0, $obj->getBorderRadius());
+        $obj->setBorderRadius(19.0);
+        $this->assertEquals(19.0, $obj->getBorderRadius());
     }
 
     /**
@@ -218,8 +218,8 @@ class HighchartsHeatmapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsHeatmap();
 
-        $obj->setBorderWidth(83.0);
-        $this->assertEquals(83.0, $obj->getBorderWidth());
+        $obj->setBorderWidth(98.0);
+        $this->assertEquals(98.0, $obj->getBorderWidth());
     }
 
     /**
@@ -270,8 +270,8 @@ class HighchartsHeatmapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsHeatmap();
 
-        $obj->setColorIndex(18.0);
-        $this->assertEquals(18.0, $obj->getColorIndex());
+        $obj->setColorIndex(1.0);
+        $this->assertEquals(1.0, $obj->getColorIndex());
     }
 
     /**
@@ -296,8 +296,8 @@ class HighchartsHeatmapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsHeatmap();
 
-        $obj->setColsize(21.0);
-        $this->assertEquals(21.0, $obj->getColsize());
+        $obj->setColsize(37.0);
+        $this->assertEquals(37.0, $obj->getColsize());
     }
 
     /**
@@ -309,8 +309,8 @@ class HighchartsHeatmapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsHeatmap();
 
-        $obj->setCrisp(false);
-        $this->assertEquals(false, $obj->getCrisp());
+        $obj->setCrisp(true);
+        $this->assertEquals(true, $obj->getCrisp());
     }
 
     /**
@@ -322,8 +322,8 @@ class HighchartsHeatmapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsHeatmap();
 
-        $obj->setCropThreshold(32.0);
-        $this->assertEquals(32.0, $obj->getCropThreshold());
+        $obj->setCropThreshold(11.0);
+        $this->assertEquals(11.0, $obj->getCropThreshold());
     }
 
     /**
@@ -335,8 +335,23 @@ class HighchartsHeatmapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsHeatmap();
 
+        $obj->setCursor(null);
+        $this->assertEquals(null, $obj->getCursor());
+
         $obj->setCursor("crosshair");
         $this->assertEquals("crosshair", $obj->getCursor());
+
+        $obj->setCursor("default");
+        $this->assertEquals("default", $obj->getCursor());
+
+        $obj->setCursor("help");
+        $this->assertEquals("help", $obj->getCursor());
+
+        $obj->setCursor("none");
+        $this->assertEquals("none", $obj->getCursor());
+
+        $obj->setCursor("pointer");
+        $this->assertEquals("pointer", $obj->getCursor());
     }
 
     /**
@@ -390,8 +405,8 @@ class HighchartsHeatmapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsHeatmap();
 
-        $obj->setEnableMouseTracking(false);
-        $this->assertEquals(false, $obj->getEnableMouseTracking());
+        $obj->setEnableMouseTracking(true);
+        $this->assertEquals(true, $obj->getEnableMouseTracking());
     }
 
     /**
@@ -432,6 +447,9 @@ class HighchartsHeatmapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsHeatmap();
 
+        $obj->setFindNearestPointBy("x");
+        $this->assertEquals("x", $obj->getFindNearestPointBy());
+
         $obj->setFindNearestPointBy("xy");
         $this->assertEquals("xy", $obj->getFindNearestPointBy());
     }
@@ -445,8 +463,8 @@ class HighchartsHeatmapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsHeatmap();
 
-        $obj->setGetExtremesFromAll(true);
-        $this->assertEquals(true, $obj->getGetExtremesFromAll());
+        $obj->setGetExtremesFromAll(false);
+        $this->assertEquals(false, $obj->getGetExtremesFromAll());
     }
 
     /**
@@ -471,8 +489,8 @@ class HighchartsHeatmapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsHeatmap();
 
-        $obj->setIndex(10.0);
-        $this->assertEquals(10.0, $obj->getIndex());
+        $obj->setIndex(66.0);
+        $this->assertEquals(66.0, $obj->getIndex());
     }
 
     /**
@@ -497,8 +515,8 @@ class HighchartsHeatmapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsHeatmap();
 
-        $obj->setLegendIndex(80.0);
-        $this->assertEquals(80.0, $obj->getLegendIndex());
+        $obj->setLegendIndex(59.0);
+        $this->assertEquals(59.0, $obj->getLegendIndex());
     }
 
     /**
@@ -523,8 +541,8 @@ class HighchartsHeatmapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsHeatmap();
 
-        $obj->setMaxPointWidth(88.0);
-        $this->assertEquals(88.0, $obj->getMaxPointWidth());
+        $obj->setMaxPointWidth(69.0);
+        $this->assertEquals(69.0, $obj->getMaxPointWidth());
     }
 
     /**
@@ -578,8 +596,8 @@ class HighchartsHeatmapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsHeatmap();
 
-        $obj->setRowsize(21.0);
-        $this->assertEquals(21.0, $obj->getRowsize());
+        $obj->setRowsize(45.0);
+        $this->assertEquals(45.0, $obj->getRowsize());
     }
 
     /**
@@ -591,8 +609,8 @@ class HighchartsHeatmapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsHeatmap();
 
-        $obj->setSelected(false);
-        $this->assertEquals(false, $obj->getSelected());
+        $obj->setSelected(true);
+        $this->assertEquals(true, $obj->getSelected());
     }
 
     /**
@@ -617,8 +635,8 @@ class HighchartsHeatmapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsHeatmap();
 
-        $obj->setShowCheckbox(true);
-        $this->assertEquals(true, $obj->getShowCheckbox());
+        $obj->setShowCheckbox(false);
+        $this->assertEquals(false, $obj->getShowCheckbox());
     }
 
     /**
@@ -630,8 +648,8 @@ class HighchartsHeatmapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsHeatmap();
 
-        $obj->setShowInLegend(true);
-        $this->assertEquals(true, $obj->getShowInLegend());
+        $obj->setShowInLegend(false);
+        $this->assertEquals(false, $obj->getShowInLegend());
     }
 
     /**
@@ -698,8 +716,8 @@ class HighchartsHeatmapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsHeatmap();
 
-        $obj->setTurboThreshold(38.0);
-        $this->assertEquals(38.0, $obj->getTurboThreshold());
+        $obj->setTurboThreshold(68.0);
+        $this->assertEquals(68.0, $obj->getTurboThreshold());
     }
 
     /**
@@ -710,6 +728,54 @@ class HighchartsHeatmapTest extends AbstractTestCase {
     public function testSetType(): void {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsHeatmap();
+
+        $obj->setType(null);
+        $this->assertEquals(null, $obj->getType());
+
+        $obj->setType("area");
+        $this->assertEquals("area", $obj->getType());
+
+        $obj->setType("arearange");
+        $this->assertEquals("arearange", $obj->getType());
+
+        $obj->setType("areaspline");
+        $this->assertEquals("areaspline", $obj->getType());
+
+        $obj->setType("areasplinerange");
+        $this->assertEquals("areasplinerange", $obj->getType());
+
+        $obj->setType("boxplot");
+        $this->assertEquals("boxplot", $obj->getType());
+
+        $obj->setType("bubble");
+        $this->assertEquals("bubble", $obj->getType());
+
+        $obj->setType("column");
+        $this->assertEquals("column", $obj->getType());
+
+        $obj->setType("columnrange");
+        $this->assertEquals("columnrange", $obj->getType());
+
+        $obj->setType("errorbar");
+        $this->assertEquals("errorbar", $obj->getType());
+
+        $obj->setType("funnel");
+        $this->assertEquals("funnel", $obj->getType());
+
+        $obj->setType("gauge");
+        $this->assertEquals("gauge", $obj->getType());
+
+        $obj->setType("line");
+        $this->assertEquals("line", $obj->getType());
+
+        $obj->setType("pie");
+        $this->assertEquals("pie", $obj->getType());
+
+        $obj->setType("scatter");
+        $this->assertEquals("scatter", $obj->getType());
+
+        $obj->setType("spline");
+        $this->assertEquals("spline", $obj->getType());
 
         $obj->setType("waterfall");
         $this->assertEquals("waterfall", $obj->getType());
@@ -763,8 +829,8 @@ class HighchartsHeatmapTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\Series\HighchartsHeatmap();
 
-        $obj->setZIndex(7.0);
-        $this->assertEquals(7.0, $obj->getZIndex());
+        $obj->setZIndex(36.0);
+        $this->assertEquals(36.0, $obj->getZIndex());
     }
 
     /**
