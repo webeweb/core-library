@@ -34,7 +34,7 @@ class GetProductsSiteRequest extends AbstractRequest implements SubstituableRequ
      *
      * @var string
      */
-    const RESOURCE_PATH = "/products/site/:idSite";
+    public const RESOURCE_PATH = "/products/site/:idSite";
 
     /**
      * {@inheritdoc
