@@ -983,8 +983,14 @@ class HighchartsXAxisTest extends AbstractTestCase {
 
         $obj = new \WBW\Library\Highcharts\Model\Chart\HighchartsXAxis();
 
+        $obj->setTickmarkPlacement(null);
+        $this->assertNull($obj->getTickmarkPlacement());
+
         $obj->setTickmarkPlacement("between");
         $this->assertEquals("between", $obj->getTickmarkPlacement());
+
+        $obj->setTickmarkPlacement("on");
+        $this->assertEquals("on", $obj->getTickmarkPlacement());
     }
 
     /**
