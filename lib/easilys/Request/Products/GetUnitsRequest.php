@@ -33,7 +33,7 @@ class GetUnitsRequest extends AbstractRequest {
      *
      * @var string
      */
-    const RESOURCE_PATH = "/units";
+    public const RESOURCE_PATH = "/units";
 
     /**
      * {@inheritdoc
