@@ -36,7 +36,7 @@ class GetSitesFromTreeWithParentRequest extends AbstractRequest implements Subst
      *
      * @var string
      */
-    const RESOURCE_PATH = "/sites/from/:idSite/tree/:idTree/with-parent";
+    public const RESOURCE_PATH = "/sites/from/:idSite/tree/:idTree/with-parent";
 
     /**
      * {@inheritdoc
