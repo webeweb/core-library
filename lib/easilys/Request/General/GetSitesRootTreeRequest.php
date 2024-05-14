@@ -38,7 +38,7 @@ class GetSitesRootTreeRequest extends AbstractRequest implements SubstituableReq
      *
      * @var string
      */
-    const RESOURCE_PATH = "/sites/root/:id/tree/:idTree";
+    public const RESOURCE_PATH = "/sites/root/:id/tree/:idTree";
 
     /**
      * {@inheritdoc
