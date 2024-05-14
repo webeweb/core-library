@@ -74,7 +74,6 @@ class ApiProvider extends AbstractProvider {
             $request->getConfiguration()->setHost(self::ENDPOINT_PATH);
             $request->getConfiguration()->setUserAgent("webeweb/adoria-library");
 
-            // Handle each parameter.
             foreach ($postData as $name => $value) {
                 $request->addPostData($name, $value);
             }
