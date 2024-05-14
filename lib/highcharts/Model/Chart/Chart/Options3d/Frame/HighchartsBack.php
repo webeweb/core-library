@@ -128,14 +128,8 @@ class HighchartsBack implements JsonSerializable {
      */
     public function setVisible($visible): \WBW\Library\Highcharts\Model\Chart\Chart\Options3d\Frame\HighchartsBack {
 
-        switch ($visible) {
-
-            case false:
-            case true:
-            case "auto":
-            case "default":
-                $this->visible = $visible;
-                break;
+        if (true === in_array($visible, [false, true, "auto", "default"], true)) {
+            $this->visible = $visible;
         }
 
         return $this;
