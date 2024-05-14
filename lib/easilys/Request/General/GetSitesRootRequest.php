@@ -36,7 +36,7 @@ class GetSitesRootRequest extends AbstractRequest implements SubstituableRequest
      *
      * @var string
      */
-    const RESOURCE_PATH = "/sites/root/:id";
+    public const RESOURCE_PATH = "/sites/root/:id";
 
     /**
      * {@inheritdoc
