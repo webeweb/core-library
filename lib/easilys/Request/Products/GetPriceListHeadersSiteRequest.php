@@ -34,7 +34,7 @@ class GetPriceListHeadersSiteRequest extends AbstractRequest implements Substitu
      *
      * @var string
      */
-    const RESOURCE_PATH = "/price-list-headers/site/:idSite";
+    public const RESOURCE_PATH = "/price-list-headers/site/:idSite";
 
     /**
      * {@inheritdoc
