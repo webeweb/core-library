@@ -30,7 +30,7 @@ class GetQualitiesRequest extends AbstractRequest {
      *
      * @var string
      */
-    const RESOURCE_PATH = "/qualities";
+    public const RESOURCE_PATH = "/qualities";
 
     /**
      * {@inheritdoc
