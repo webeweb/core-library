@@ -5,7 +5,7 @@ Documentation
 use WBW\Library\Curl\Factory\CurlFactory;
 use WBW\Library\Curl\Request\RequestInterface;
 
-// Create a cURL POST request.
+// Create a cURL request.
 $request = CurlFactory::newCurlRequest(RequestInterface::REQUEST_POST);;
 $request->getConfiguration()->setHost("http://domain.tld");
 $request->setRessourcePath("/resource-path");
@@ -14,9 +14,13 @@ $request->addPostData("firstname", "John");
 $request->addPostData("lastname", "DOE");
 // ...
 
-// Call the POST request.
+// Call the request.
 $response = $request->call();
 
 // Handle the response.
 // ...
 ```
+
+> IMPORTANT NOTICE:
+> 
+> An example is available into this [library](../../../adoria/Provider/ApiProvider.php)
