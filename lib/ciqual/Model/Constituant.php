@@ -36,7 +36,7 @@ class Constituant implements JsonSerializable {
      *
      * @var string
      */
-    const DOM_NODE_NAME = "CONST";
+    public const DOM_NODE_NAME = "CONST";
 
     /**
      * Constructor.
