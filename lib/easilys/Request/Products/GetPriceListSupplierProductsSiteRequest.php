@@ -34,7 +34,7 @@ class GetPriceListSupplierProductsSiteRequest extends AbstractRequest implements
      *
      * @var string
      */
-    const RESOURCE_PATH = "/price-list-supplier-products/site/:idSite";
+    public const RESOURCE_PATH = "/price-list-supplier-products/site/:idSite";
 
     /**
      * {@inheritdoc
