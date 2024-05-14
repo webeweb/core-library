@@ -32,7 +32,7 @@ class Source implements JsonSerializable {
      *
      * @var string
      */
-    const DOM_NODE_NAME = "SOURCES";
+    public const DOM_NODE_NAME = "SOURCES";
 
     /**
      * Citation réf.
