@@ -34,7 +34,7 @@ class GetSitesNotInTreeRequest extends AbstractRequest implements SubstituableRe
      *
      * @var string
      */
-    const RESOURCE_PATH = "/sites/not-in-tree/:idTree";
+    public const RESOURCE_PATH = "/sites/not-in-tree/:idTree";
 
     /**
      * {@inheritdoc
