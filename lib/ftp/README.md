@@ -8,6 +8,9 @@ ftp-library
 
 Integrate FTP with your projects.
 
+> IMPORTANT NOTICE: Merged from my original repository
+> [ftp-library](https://github.com/webeweb/ftp-library)
+
 If you like this package, pay me a beer (or a coffee)
 [![paypal.me](https://img.shields.io/badge/paypal.me-webeweb-003087.svg?style=flat-square&logo=paypal)](https://www.paypal.me/webeweb)
 
