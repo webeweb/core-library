@@ -28,4 +28,4 @@ jobs:
             -   name: "Analysis"
                 run:  |
                       vendor/bin/phpstan --version
-                      vendor/bin/phpstan analyse --error-format=github --configuration phpstan.conf.neon
+                      vendor/bin/phpstan analyse src --error-format=github
