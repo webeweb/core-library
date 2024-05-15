@@ -1,7 +1,7 @@
 CHANGELOG
 =========
 
-### master
+### [9.5.3](https://github.com/webeweb/core-library/tree/v9.5.3) (2024-05-15)
 
 - Add Highcharts documentation
 - Improve documentation
