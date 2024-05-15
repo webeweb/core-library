@@ -35,6 +35,13 @@ Composer documentation.
 
 Read the [documentation](Resources/doc/index.md).
 
+Other resources:
+
+- [Ciqual 2020 XLS EN](Resources/doc/Ciqual_2020_XLS_EN.pdf)
+- [Ciqual 2020 XLS FR](Resources/doc/Ciqual_2020_XLS_FR.pdf)
+- [Ciqual 2020 XML EN](Resources/doc/Ciqual_2020_XML_EN.pdf)
+- [Ciqual 2020 XML FR](Resources/doc/Ciqual_2020_XML_FR.pdf)
+
 ## Testing
 
 To test the package, is better to clone this repository on your computer.
