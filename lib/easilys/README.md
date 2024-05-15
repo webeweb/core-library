@@ -6,7 +6,7 @@ easilys-library
 [![Packagist version](https://img.shields.io/packagist/v/webeweb/core-library.svg?style=for-the-badge&color=F28D1A&logo=packagist)](https://packagist.org/packages/webeweb/core-library)
 [![Packagist license](https://img.shields.io/packagist/l/webeweb/core-library.svg?style=for-the-badge&colorF28D1A&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0ZGRiIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMiIgZD0ibTMgNiAzIDFtMCAwLTMgOWE1LjAwMiA1LjAwMiAwIDAgMCA2LjAwMSAwTTYgN2wzIDlNNiA3bDYtMm02IDIgMy0xbS0zIDEtMyA5YTUuMDAyIDUuMDAyIDAgMCAwIDYuMDAxIDBNMTggN2wzIDltLTMtOS02LTJtMC0ydjJtMCAxNlY1bTAgMTZIOW0zIDBoMyIvPjwvc3ZnPg==)](./LICENSE)
 
-Integrate Easilys with your projects.
+Integrate Easilys f&b with your projects.
 
 > IMPORTANT NOTICE: Merged from a private repository
 
@@ -68,6 +68,11 @@ vendor/bin/phpunit lib/easilys/Tests
 
 `core-library` is released under the MIT License. See the bundled [LICENSE](../../LICENSE)
 file for details.
+
+Please note that the Easilys f&b is **not free**, see their
+[website](https://mapal-os.com/en) for more details or their
+[contact sales page](https://mapal-os.com/en/company/contact-us-at-mapal-os)
+for details on pricing.
 
 ## Donate
 
