@@ -27,12 +27,12 @@ class JsonSerializer {
      * Serialize an array.
      *
      * @param array<JsonSerializable|null>|null $models The models.
-     * @return mixed[] Returns the serialized array.
+     * @return mixed[]|null Returns the serialized array.
      */
-    public static function serializeArray(?array $models): array {
+    public static function serializeArray(?array $models): ?array {
 
-        if (null === $models || 0 === count($models)) {
-            return [];
+        if (null === $models) {
+            return null;
         }
 
         $output = [];

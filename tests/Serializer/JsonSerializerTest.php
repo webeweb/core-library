@@ -32,6 +32,9 @@ class JsonSerializerTest extends AbstractTestCase {
      */
     public function testSerializeArray(): void {
 
+        $this->assertNull(JsonSerializer::serializeArray(null));
+        $this->assertEquals([], JsonSerializer::serializeArray([]));
+
         $models = [
             new TestJsonSerializable(),
             new TestJsonSerializable(),
@@ -40,8 +43,5 @@ class JsonSerializerTest extends AbstractTestCase {
 
         $res = JsonSerializer::serializeArray($models);
         $this->assertEquals([[], []], $res);
-
-        $this->assertEquals([], JsonSerializer::serializeArray(null));
-        $this->assertEquals([], JsonSerializer::serializeArray([]));
     }
 }
