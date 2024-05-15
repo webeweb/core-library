@@ -22,14 +22,14 @@ jobs:
                     -   php-version: "8.3"
 
         steps:
-            -   name: "Checkout"
-                uses: actions/checkout@v4
-
-            -   name: "Build environment"
+            -   name: "Environment"
                 uses: shivammathur/setup-php@v2
                 with:
                     php-version: "${{ matrix.php-version }}"
                     coverage:    "xdebug"
+
+            -   name: "Checkout"
+                uses: actions/checkout@v4
 
             -   name: "Dependencies"
                 run:  |
@@ -37,20 +37,19 @@ jobs:
                       composer --version
                       COMPOSER_MEMORY_LIMIT=-1 composer update
 
-            -   name: "Application"
+            -   name: "Tests"
                 run:  |
                       mkdir -p build/logs
-                      vendor/bin/php-coveralls --version
-
-            -   name: "Tests"
-                run:  vendor/bin/phpunit --coverage-clover build/logs/clover.xml
+                      vendor/bin/phpunit --coverage-clover build/logs/clover.xml
 
             -   name: "Coverage"
                 env:
-                    COVERALLS_REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                    COVERALLS_REPO_TOKEN: ${{ secrets.github_token }}
                     COVERALLS_FLAG_NAME:  php-${{ matrix.php-version }}
                     COVERALLS_PARALLEL:   true
-                run:  vendor/bin/php-coveralls --coverage_clover=build/logs/clover.xml -v
+                run:  |
+                      vendor/bin/php-coveralls --version
+                      vendor/bin/php-coveralls --coverage_clover=build/logs/clover.xml -v
 
     coverage:
         name:    "Coverage"
