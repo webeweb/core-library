@@ -28,10 +28,6 @@ class GuzzleHelper {
      */
     public static function getStreamParameterName(): ?string {
 
-        if (false === interface_exists("GuzzleHttp\\ClientInterface")) {
-            return null;
-        }
-
         // Guzzle v6.x.x
         if (true === defined("GuzzleHttp\\ClientInterface::VERSION")) {
             return "save_to";
