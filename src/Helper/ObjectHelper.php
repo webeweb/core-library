@@ -27,7 +27,7 @@ class ObjectHelper {
      * Coalesce.
      *
      * @param mixed[] $values The values.
-     * @return mixed|null Returns the first non-null value.
+     * @return mixed Returns the first non-null value.
      */
     public static function coalesce(...$values) {
 
@@ -44,8 +44,8 @@ class ObjectHelper {
     /**
      * Compare two objects.
      *
-     * @param mixed|null $a The object A.
-     * @param mixed|null $b The object B.
+     * @param mixed $a The object A.
+     * @param mixed $b The object B.
      * @return int|null Returns null when $a end $b are null
      *                          -1 when $a is not null and $b is null
      *                          0 when $a and $b are not null
@@ -96,7 +96,7 @@ class ObjectHelper {
          *
          * @param object $object The object.
          * @param string $method The method.
-         * @return mixed|null Returns the value.
+         * @return mixed Returns the value.
          */
         $getValue = function($object, string $method) {
 
