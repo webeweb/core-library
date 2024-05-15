@@ -8,6 +8,9 @@ curl-library
 
 Integrate cURL with your projects.
 
+> IMPORTANT NOTICE: Merged from my original repository
+> [curl-library](https://github.com/webeweb/curl-library)
+
 If you like this package, pay me a beer (or a coffee)
 [![paypal.me](https://img.shields.io/badge/paypal.me-webeweb-003087.svg?style=flat-square&logo=paypal)](https://www.paypal.me/webeweb)
 
