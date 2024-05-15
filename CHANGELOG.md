@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+### master
+
+- Add Highcharts documentation
+- Improve documentation
+
 ### [9.5.2](https://github.com/webeweb/core-library/tree/v9.5.2) (2024-05-15)
 
 - Add FTP documentation
