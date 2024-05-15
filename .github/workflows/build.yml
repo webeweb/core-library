@@ -40,9 +40,7 @@ jobs:
             -   name: "Application"
                 run:  |
                       mkdir -p build/logs
-                      wget -c -nc --retry-connrefused --tries=0 https://github.com/php-coveralls/php-coveralls/releases/download/v2.5.3/php-coveralls.phar -O coveralls.phar
-                      chmod +x coveralls.phar
-                      php coveralls.phar --version
+                      vendor/bin/php-coveralls --version
 
             -   name: "Tests"
                 run:  vendor/bin/phpunit --coverage-clover build/logs/clover.xml
@@ -52,7 +50,7 @@ jobs:
                     COVERALLS_REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                     COVERALLS_FLAG_NAME:  php-${{ matrix.php-version }}
                     COVERALLS_PARALLEL:   true
-                run:  php coveralls.phar -v
+                run:  vendor/bin/php-coveralls --coverage_clover=build/logs/clover.xml -v
 
     coverage:
         name:    "Coverage"
