@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### master
+
+- Fix serializeArray()
+
 ### [9.5.4](https://github.com/webeweb/core-library/tree/v9.5.4) (2024-05-15)
 
 - Fix serializeArray()
