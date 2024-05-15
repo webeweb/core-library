@@ -82,7 +82,7 @@ class HighchartsHover implements JsonSerializable {
     /**
      * Get the animation.
      *
-     * @return mixed|null Returns the animation.
+     * @return mixed Returns the animation.
      */
     public function getAnimation() {
         return $this->animation;
@@ -167,7 +167,7 @@ class HighchartsHover implements JsonSerializable {
     /**
      * Set the animation.
      *
-     * @param mixed|null $animation The animation.
+     * @param mixed $animation The animation.
      * @return \WBW\Library\Highcharts\Model\Chart\PlotOptions\Spline\States\HighchartsHover Returns this highcharts hover.
      */
     public function setAnimation($animation): \WBW\Library\Highcharts\Model\Chart\PlotOptions\Spline\States\HighchartsHover {

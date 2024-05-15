@@ -606,7 +606,7 @@ class HighchartsSolidgauge implements JsonSerializable {
     /**
      * Get the x axis.
      *
-     * @return mixed|null Returns the x axis.
+     * @return mixed Returns the x axis.
      */
     public function getXAxis() {
         return $this->xAxis;
@@ -615,7 +615,7 @@ class HighchartsSolidgauge implements JsonSerializable {
     /**
      * Get the y axis.
      *
-     * @return mixed|null Returns the y axis.
+     * @return mixed Returns the y axis.
      */
     public function getYAxis() {
         return $this->yAxis;
@@ -1127,7 +1127,7 @@ class HighchartsSolidgauge implements JsonSerializable {
     /**
      * Set the x axis.
      *
-     * @param mixed|null $xAxis The x axis.
+     * @param mixed $xAxis The x axis.
      * @return \WBW\Library\Highcharts\Model\Chart\Series\HighchartsSolidgauge Returns this highcharts solidgauge.
      */
     public function setXAxis($xAxis): \WBW\Library\Highcharts\Model\Chart\Series\HighchartsSolidgauge {
@@ -1138,7 +1138,7 @@ class HighchartsSolidgauge implements JsonSerializable {
     /**
      * Set the y axis.
      *
-     * @param mixed|null $yAxis The y axis.
+     * @param mixed $yAxis The y axis.
      * @return \WBW\Library\Highcharts\Model\Chart\Series\HighchartsSolidgauge Returns this highcharts solidgauge.
      */
     public function setYAxis($yAxis): \WBW\Library\Highcharts\Model\Chart\Series\HighchartsSolidgauge {

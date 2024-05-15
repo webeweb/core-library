@@ -668,7 +668,7 @@ class HighchartsErrorbar implements JsonSerializable {
     /**
      * Get the point placement.
      *
-     * @return mixed|null Returns the point placement.
+     * @return mixed Returns the point placement.
      */
     public function getPointPlacement() {
         return $this->pointPlacement;
@@ -803,7 +803,7 @@ class HighchartsErrorbar implements JsonSerializable {
     /**
      * Get the whisker length.
      *
-     * @return mixed|null Returns the whisker length.
+     * @return mixed Returns the whisker length.
      */
     public function getWhiskerLength() {
         return $this->whiskerLength;
@@ -1284,7 +1284,7 @@ class HighchartsErrorbar implements JsonSerializable {
     /**
      * Set the point placement.
      *
-     * @param mixed|null $pointPlacement The point placement.
+     * @param mixed $pointPlacement The point placement.
      * @return \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsErrorbar Returns this highcharts errorbar.
      */
     public function setPointPlacement($pointPlacement): \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsErrorbar {
@@ -1475,7 +1475,7 @@ class HighchartsErrorbar implements JsonSerializable {
     /**
      * Set the whisker length.
      *
-     * @param mixed|null $whiskerLength The whisker length.
+     * @param mixed $whiskerLength The whisker length.
      * @return \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsErrorbar Returns this highcharts errorbar.
      */
     public function setWhiskerLength($whiskerLength): \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsErrorbar {

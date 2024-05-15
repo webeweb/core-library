@@ -398,7 +398,7 @@ class HighchartsDataLabels implements JsonSerializable {
     /**
      * Get the shadow.
      *
-     * @return mixed|null Returns the shadow.
+     * @return mixed Returns the shadow.
      */
     public function getShadow() {
         return $this->shadow;
@@ -731,7 +731,7 @@ class HighchartsDataLabels implements JsonSerializable {
     /**
      * Set the shadow.
      *
-     * @param mixed|null $shadow The shadow.
+     * @param mixed $shadow The shadow.
      * @return \WBW\Library\Highcharts\Model\Chart\Series\Columnrange\HighchartsDataLabels Returns this highcharts data labels.
      */
     public function setShadow($shadow): \WBW\Library\Highcharts\Model\Chart\Series\Columnrange\HighchartsDataLabels {

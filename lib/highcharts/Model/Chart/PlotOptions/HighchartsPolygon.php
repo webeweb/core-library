@@ -565,7 +565,7 @@ class HighchartsPolygon implements JsonSerializable {
     /**
      * Get the shadow.
      *
-     * @return mixed|null Returns the shadow.
+     * @return mixed Returns the shadow.
      */
     public function getShadow() {
         return $this->shadow;
@@ -1118,7 +1118,7 @@ class HighchartsPolygon implements JsonSerializable {
     /**
      * Set the shadow.
      *
-     * @param mixed|null $shadow The shadow.
+     * @param mixed $shadow The shadow.
      * @return \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsPolygon Returns this highcharts polygon.
      */
     public function setShadow($shadow): \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsPolygon {

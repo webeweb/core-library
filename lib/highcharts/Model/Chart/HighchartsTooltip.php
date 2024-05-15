@@ -301,7 +301,7 @@ class HighchartsTooltip implements JsonSerializable {
     /**
      * Get the crosshairs.
      *
-     * @return mixed|null Returns the crosshairs.
+     * @return mixed Returns the crosshairs.
      * @deprecated
      */
     public function getCrosshairs() {
@@ -614,7 +614,7 @@ class HighchartsTooltip implements JsonSerializable {
     /**
      * Set the crosshairs.
      *
-     * @param mixed|null $crosshairs The crosshairs.
+     * @param mixed $crosshairs The crosshairs.
      * @return \WBW\Library\Highcharts\Model\Chart\HighchartsTooltip Returns this highcharts tooltip.
      * @deprecated
      */

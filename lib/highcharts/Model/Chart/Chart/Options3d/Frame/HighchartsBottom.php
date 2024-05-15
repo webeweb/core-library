@@ -77,7 +77,7 @@ class HighchartsBottom implements JsonSerializable {
     /**
      * Get the visible.
      *
-     * @return mixed|null Returns the visible.
+     * @return mixed Returns the visible.
      */
     public function getVisible() {
         return $this->visible;
@@ -123,7 +123,7 @@ class HighchartsBottom implements JsonSerializable {
     /**
      * Set the visible.
      *
-     * @param mixed|null $visible The visible.
+     * @param mixed $visible The visible.
      * @return \WBW\Library\Highcharts\Model\Chart\Chart\Options3d\Frame\HighchartsBottom Returns this highcharts bottom.
      */
     public function setVisible($visible): \WBW\Library\Highcharts\Model\Chart\Chart\Options3d\Frame\HighchartsBottom {

@@ -101,7 +101,7 @@ class HighchartsPane implements JsonSerializable {
     /**
      * Get the size.
      *
-     * @return mixed|null Returns the size.
+     * @return mixed Returns the size.
      */
     public function getSize() {
         return $this->size;
@@ -169,7 +169,7 @@ class HighchartsPane implements JsonSerializable {
     /**
      * Set the size.
      *
-     * @param mixed|null $size The size.
+     * @param mixed $size The size.
      * @return \WBW\Library\Highcharts\Model\Chart\HighchartsPane Returns this highcharts pane.
      */
     public function setSize($size): \WBW\Library\Highcharts\Model\Chart\HighchartsPane {

@@ -462,7 +462,7 @@ class HighchartsPyramid implements JsonSerializable {
     /**
      * Get the height.
      *
-     * @return mixed|null Returns the height.
+     * @return mixed Returns the height.
      */
     public function getHeight() {
         return $this->height;
@@ -534,7 +534,7 @@ class HighchartsPyramid implements JsonSerializable {
     /**
      * Get the shadow.
      *
-     * @return mixed|null Returns the shadow.
+     * @return mixed Returns the shadow.
      */
     public function getShadow() {
         return $this->shadow;
@@ -606,7 +606,7 @@ class HighchartsPyramid implements JsonSerializable {
     /**
      * Get the width.
      *
-     * @return mixed|null Returns the width.
+     * @return mixed Returns the width.
      */
     public function getWidth() {
         return $this->width;
@@ -936,7 +936,7 @@ class HighchartsPyramid implements JsonSerializable {
     /**
      * Set the height.
      *
-     * @param mixed|null $height The height.
+     * @param mixed $height The height.
      * @return \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsPyramid Returns this highcharts pyramid.
      */
     public function setHeight($height): \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsPyramid {
@@ -1024,7 +1024,7 @@ class HighchartsPyramid implements JsonSerializable {
     /**
      * Set the shadow.
      *
-     * @param mixed|null $shadow The shadow.
+     * @param mixed $shadow The shadow.
      * @return \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsPyramid Returns this highcharts pyramid.
      */
     public function setShadow($shadow): \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsPyramid {
@@ -1112,7 +1112,7 @@ class HighchartsPyramid implements JsonSerializable {
     /**
      * Set the width.
      *
-     * @param mixed|null $width The width.
+     * @param mixed $width The width.
      * @return \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsPyramid Returns this highcharts pyramid.
      */
     public function setWidth($width): \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsPyramid {

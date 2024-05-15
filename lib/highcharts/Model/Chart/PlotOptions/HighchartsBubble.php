@@ -664,7 +664,7 @@ class HighchartsBubble implements JsonSerializable {
     /**
      * Get the shadow.
      *
-     * @return mixed|null Returns the shadow.
+     * @return mixed Returns the shadow.
      */
     public function getShadow() {
         return $this->shadow;
@@ -1301,7 +1301,7 @@ class HighchartsBubble implements JsonSerializable {
     /**
      * Set the shadow.
      *
-     * @param mixed|null $shadow The shadow.
+     * @param mixed $shadow The shadow.
      * @return \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBubble Returns this highcharts bubble.
      */
     public function setShadow($shadow): \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBubble {

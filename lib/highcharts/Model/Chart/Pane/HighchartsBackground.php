@@ -127,7 +127,7 @@ class HighchartsBackground implements JsonSerializable {
     /**
      * Get the inner radius.
      *
-     * @return mixed|null Returns the inner radius.
+     * @return mixed Returns the inner radius.
      */
     public function getInnerRadius() {
         return $this->innerRadius;
@@ -136,7 +136,7 @@ class HighchartsBackground implements JsonSerializable {
     /**
      * Get the outer radius.
      *
-     * @return mixed|null Returns the outer radius.
+     * @return mixed Returns the outer radius.
      */
     public function getOuterRadius() {
         return $this->outerRadius;
@@ -217,7 +217,7 @@ class HighchartsBackground implements JsonSerializable {
     /**
      * Set the inner radius.
      *
-     * @param mixed|null $innerRadius The inner radius.
+     * @param mixed $innerRadius The inner radius.
      * @return \WBW\Library\Highcharts\Model\Chart\Pane\HighchartsBackground Returns this highcharts background.
      */
     public function setInnerRadius($innerRadius): \WBW\Library\Highcharts\Model\Chart\Pane\HighchartsBackground {
@@ -228,7 +228,7 @@ class HighchartsBackground implements JsonSerializable {
     /**
      * Set the outer radius.
      *
-     * @param mixed|null $outerRadius The outer radius.
+     * @param mixed $outerRadius The outer radius.
      * @return \WBW\Library\Highcharts\Model\Chart\Pane\HighchartsBackground Returns this highcharts background.
      */
     public function setOuterRadius($outerRadius): \WBW\Library\Highcharts\Model\Chart\Pane\HighchartsBackground {

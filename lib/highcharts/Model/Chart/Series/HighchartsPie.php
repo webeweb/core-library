@@ -588,7 +588,7 @@ class HighchartsPie implements JsonSerializable {
     /**
      * Get the inner size.
      *
-     * @return mixed|null Returns the inner size.
+     * @return mixed Returns the inner size.
      */
     public function getInnerSize() {
         return $this->innerSize;
@@ -669,7 +669,7 @@ class HighchartsPie implements JsonSerializable {
     /**
      * Get the shadow.
      *
-     * @return mixed|null Returns the shadow.
+     * @return mixed Returns the shadow.
      */
     public function getShadow() {
         return $this->shadow;
@@ -687,7 +687,7 @@ class HighchartsPie implements JsonSerializable {
     /**
      * Get the size.
      *
-     * @return mixed|null Returns the size.
+     * @return mixed Returns the size.
      */
     public function getSize() {
         return $this->size;
@@ -1174,7 +1174,7 @@ class HighchartsPie implements JsonSerializable {
     /**
      * Set the inner size.
      *
-     * @param mixed|null $innerSize The inner size.
+     * @param mixed $innerSize The inner size.
      * @return \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPie Returns this highcharts pie.
      */
     public function setInnerSize($innerSize): \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPie {
@@ -1273,7 +1273,7 @@ class HighchartsPie implements JsonSerializable {
     /**
      * Set the shadow.
      *
-     * @param mixed|null $shadow The shadow.
+     * @param mixed $shadow The shadow.
      * @return \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPie Returns this highcharts pie.
      */
     public function setShadow($shadow): \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPie {
@@ -1295,7 +1295,7 @@ class HighchartsPie implements JsonSerializable {
     /**
      * Set the size.
      *
-     * @param mixed|null $size The size.
+     * @param mixed $size The size.
      * @return \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPie Returns this highcharts pie.
      */
     public function setSize($size): \WBW\Library\Highcharts\Model\Chart\Series\HighchartsPie {

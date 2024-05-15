@@ -178,7 +178,7 @@ class HighchartsAccessibility implements JsonSerializable {
     /**
      * Get the point description threshold.
      *
-     * @return mixed|null Returns the point description threshold.
+     * @return mixed Returns the point description threshold.
      */
     public function getPointDescriptionThreshold() {
         return $this->pointDescriptionThreshold;
@@ -304,7 +304,7 @@ class HighchartsAccessibility implements JsonSerializable {
     /**
      * Set the point description threshold.
      *
-     * @param mixed|null $pointDescriptionThreshold The point description threshold.
+     * @param mixed $pointDescriptionThreshold The point description threshold.
      * @return \WBW\Library\Highcharts\Model\Chart\HighchartsAccessibility Returns this highcharts accessibility.
      */
     public function setPointDescriptionThreshold($pointDescriptionThreshold): \WBW\Library\Highcharts\Model\Chart\HighchartsAccessibility {

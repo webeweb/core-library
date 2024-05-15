@@ -195,7 +195,7 @@ class HighchartsData implements JsonSerializable {
     /**
      * Get the inner radius.
      *
-     * @return mixed|null Returns the inner radius.
+     * @return mixed Returns the inner radius.
      */
     public function getInnerRadius() {
         return $this->innerRadius;
@@ -222,7 +222,7 @@ class HighchartsData implements JsonSerializable {
     /**
      * Get the radius.
      *
-     * @return mixed|null Returns the radius.
+     * @return mixed Returns the radius.
      */
     public function getRadius() {
         return $this->radius;
@@ -363,7 +363,7 @@ class HighchartsData implements JsonSerializable {
     /**
      * Set the inner radius.
      *
-     * @param mixed|null $innerRadius The inner radius.
+     * @param mixed $innerRadius The inner radius.
      * @return \WBW\Library\Highcharts\Model\Chart\Series\Solidgauge\HighchartsData Returns this highcharts data.
      */
     public function setInnerRadius($innerRadius): \WBW\Library\Highcharts\Model\Chart\Series\Solidgauge\HighchartsData {
@@ -396,7 +396,7 @@ class HighchartsData implements JsonSerializable {
     /**
      * Set the radius.
      *
-     * @param mixed|null $radius The radius.
+     * @param mixed $radius The radius.
      * @return \WBW\Library\Highcharts\Model\Chart\Series\Solidgauge\HighchartsData Returns this highcharts data.
      */
     public function setRadius($radius): \WBW\Library\Highcharts\Model\Chart\Series\Solidgauge\HighchartsData {

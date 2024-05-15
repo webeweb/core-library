@@ -771,7 +771,7 @@ class HighchartsZAxis implements JsonSerializable {
     /**
      * Get the minor tick interval.
      *
-     * @return mixed|null Returns the minor tick interval.
+     * @return mixed Returns the minor tick interval.
      */
     public function getMinorTickInterval() {
         return $this->minorTickInterval;
@@ -1548,7 +1548,7 @@ class HighchartsZAxis implements JsonSerializable {
     /**
      * Set the minor tick interval.
      *
-     * @param mixed|null $minorTickInterval The minor tick interval.
+     * @param mixed $minorTickInterval The minor tick interval.
      * @return \WBW\Library\Highcharts\Model\Chart\HighchartsZAxis Returns this highcharts z axis.
      */
     public function setMinorTickInterval($minorTickInterval): \WBW\Library\Highcharts\Model\Chart\HighchartsZAxis {

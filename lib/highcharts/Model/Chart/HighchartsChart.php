@@ -382,7 +382,7 @@ class HighchartsChart implements JsonSerializable {
     /**
      * Get the animation.
      *
-     * @return mixed|null Returns the animation.
+     * @return mixed Returns the animation.
      */
     public function getAnimation() {
         return $this->animation;
@@ -473,7 +473,7 @@ class HighchartsChart implements JsonSerializable {
     /**
      * Get the height.
      *
-     * @return mixed|null Returns the height.
+     * @return mixed Returns the height.
      */
     public function getHeight() {
         return $this->height;
@@ -617,7 +617,7 @@ class HighchartsChart implements JsonSerializable {
     /**
      * Get the plot shadow.
      *
-     * @return mixed|null Returns the plot shadow.
+     * @return mixed Returns the plot shadow.
      */
     public function getPlotShadow() {
         return $this->plotShadow;
@@ -644,7 +644,7 @@ class HighchartsChart implements JsonSerializable {
     /**
      * Get the render to.
      *
-     * @return mixed|null Returns the render to.
+     * @return mixed Returns the render to.
      */
     public function getRenderTo() {
         return $this->renderTo;
@@ -671,7 +671,7 @@ class HighchartsChart implements JsonSerializable {
     /**
      * Get the shadow.
      *
-     * @return mixed|null Returns the shadow.
+     * @return mixed Returns the shadow.
      */
     public function getShadow() {
         return $this->shadow;
@@ -883,7 +883,7 @@ class HighchartsChart implements JsonSerializable {
     /**
      * Set the animation.
      *
-     * @param mixed|null $animation The animation.
+     * @param mixed $animation The animation.
      * @return \WBW\Library\Highcharts\Model\Chart\HighchartsChart Returns this highcharts chart.
      */
     public function setAnimation($animation): \WBW\Library\Highcharts\Model\Chart\HighchartsChart {
@@ -1006,7 +1006,7 @@ class HighchartsChart implements JsonSerializable {
     /**
      * Set the height.
      *
-     * @param mixed|null $height The height.
+     * @param mixed $height The height.
      * @return \WBW\Library\Highcharts\Model\Chart\HighchartsChart Returns this highcharts chart.
      */
     public function setHeight($height): \WBW\Library\Highcharts\Model\Chart\HighchartsChart {
@@ -1202,7 +1202,7 @@ class HighchartsChart implements JsonSerializable {
     /**
      * Set the plot shadow.
      *
-     * @param mixed|null $plotShadow The plot shadow.
+     * @param mixed $plotShadow The plot shadow.
      * @return \WBW\Library\Highcharts\Model\Chart\HighchartsChart Returns this highcharts chart.
      */
     public function setPlotShadow($plotShadow): \WBW\Library\Highcharts\Model\Chart\HighchartsChart {
@@ -1235,7 +1235,7 @@ class HighchartsChart implements JsonSerializable {
     /**
      * Set the render to.
      *
-     * @param mixed|null $renderTo The render to.
+     * @param mixed $renderTo The render to.
      * @return \WBW\Library\Highcharts\Model\Chart\HighchartsChart Returns this highcharts chart.
      */
     public function setRenderTo($renderTo): \WBW\Library\Highcharts\Model\Chart\HighchartsChart {
@@ -1268,7 +1268,7 @@ class HighchartsChart implements JsonSerializable {
     /**
      * Set the shadow.
      *
-     * @param mixed|null $shadow The shadow.
+     * @param mixed $shadow The shadow.
      * @return \WBW\Library\Highcharts\Model\Chart\HighchartsChart Returns this highcharts chart.
      */
     public function setShadow($shadow): \WBW\Library\Highcharts\Model\Chart\HighchartsChart {

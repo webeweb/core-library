@@ -110,7 +110,7 @@ class HighchartsDrilldown implements JsonSerializable {
     /**
      * Get the animation.
      *
-     * @return mixed|null Returns the animation.
+     * @return mixed Returns the animation.
      */
     public function getAnimation() {
         return $this->animation;
@@ -188,7 +188,7 @@ class HighchartsDrilldown implements JsonSerializable {
     /**
      * Set the animation.
      *
-     * @param mixed|null $animation The animation.
+     * @param mixed $animation The animation.
      * @return \WBW\Library\Highcharts\Model\Chart\HighchartsDrilldown Returns this highcharts drilldown.
      */
     public function setAnimation($animation): \WBW\Library\Highcharts\Model\Chart\HighchartsDrilldown {

@@ -366,7 +366,7 @@ class HighchartsData implements JsonSerializable {
     /**
      * Get the table.
      *
-     * @return mixed|null Returns the table.
+     * @return mixed Returns the table.
      */
     public function getTable() {
         return $this->table;
@@ -629,7 +629,7 @@ class HighchartsData implements JsonSerializable {
     /**
      * Set the table.
      *
-     * @param mixed|null $table The table.
+     * @param mixed $table The table.
      * @return \WBW\Library\Highcharts\Model\Chart\HighchartsData Returns this highcharts data.
      */
     public function setTable($table): \WBW\Library\Highcharts\Model\Chart\HighchartsData {

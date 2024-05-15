@@ -537,7 +537,7 @@ class HighchartsFunnel implements JsonSerializable {
     /**
      * Get the height.
      *
-     * @return mixed|null Returns the height.
+     * @return mixed Returns the height.
      */
     public function getHeight() {
         return $this->height;
@@ -609,7 +609,7 @@ class HighchartsFunnel implements JsonSerializable {
     /**
      * Get the neck height.
      *
-     * @return mixed|null Returns the neck height.
+     * @return mixed Returns the neck height.
      */
     public function getNeckHeight() {
         return $this->neckHeight;
@@ -618,7 +618,7 @@ class HighchartsFunnel implements JsonSerializable {
     /**
      * Get the neck width.
      *
-     * @return mixed|null Returns the neck width.
+     * @return mixed Returns the neck width.
      */
     public function getNeckWidth() {
         return $this->neckWidth;
@@ -663,7 +663,7 @@ class HighchartsFunnel implements JsonSerializable {
     /**
      * Get the shadow.
      *
-     * @return mixed|null Returns the shadow.
+     * @return mixed Returns the shadow.
      */
     public function getShadow() {
         return $this->shadow;
@@ -744,7 +744,7 @@ class HighchartsFunnel implements JsonSerializable {
     /**
      * Get the width.
      *
-     * @return mixed|null Returns the width.
+     * @return mixed Returns the width.
      */
     public function getWidth() {
         return $this->width;
@@ -1103,7 +1103,7 @@ class HighchartsFunnel implements JsonSerializable {
     /**
      * Set the height.
      *
-     * @param mixed|null $height The height.
+     * @param mixed $height The height.
      * @return \WBW\Library\Highcharts\Model\Chart\Series\HighchartsFunnel Returns this highcharts funnel.
      */
     public function setHeight($height): \WBW\Library\Highcharts\Model\Chart\Series\HighchartsFunnel {
@@ -1191,7 +1191,7 @@ class HighchartsFunnel implements JsonSerializable {
     /**
      * Set the neck height.
      *
-     * @param mixed|null $neckHeight The neck height.
+     * @param mixed $neckHeight The neck height.
      * @return \WBW\Library\Highcharts\Model\Chart\Series\HighchartsFunnel Returns this highcharts funnel.
      */
     public function setNeckHeight($neckHeight): \WBW\Library\Highcharts\Model\Chart\Series\HighchartsFunnel {
@@ -1202,7 +1202,7 @@ class HighchartsFunnel implements JsonSerializable {
     /**
      * Set the neck width.
      *
-     * @param mixed|null $neckWidth The neck width.
+     * @param mixed $neckWidth The neck width.
      * @return \WBW\Library\Highcharts\Model\Chart\Series\HighchartsFunnel Returns this highcharts funnel.
      */
     public function setNeckWidth($neckWidth): \WBW\Library\Highcharts\Model\Chart\Series\HighchartsFunnel {
@@ -1257,7 +1257,7 @@ class HighchartsFunnel implements JsonSerializable {
     /**
      * Set the shadow.
      *
-     * @param mixed|null $shadow The shadow.
+     * @param mixed $shadow The shadow.
      * @return \WBW\Library\Highcharts\Model\Chart\Series\HighchartsFunnel Returns this highcharts funnel.
      */
     public function setShadow($shadow): \WBW\Library\Highcharts\Model\Chart\Series\HighchartsFunnel {
@@ -1379,7 +1379,7 @@ class HighchartsFunnel implements JsonSerializable {
     /**
      * Set the width.
      *
-     * @param mixed|null $width The width.
+     * @param mixed $width The width.
      * @return \WBW\Library\Highcharts\Model\Chart\Series\HighchartsFunnel Returns this highcharts funnel.
      */
     public function setWidth($width): \WBW\Library\Highcharts\Model\Chart\Series\HighchartsFunnel {

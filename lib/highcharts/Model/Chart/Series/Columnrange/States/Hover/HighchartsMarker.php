@@ -154,7 +154,7 @@ class HighchartsMarker implements JsonSerializable {
     /**
      * Get the states.
      *
-     * @return mixed|null Returns the states.
+     * @return mixed Returns the states.
      */
     public function getStates() {
         return $this->states;
@@ -268,7 +268,7 @@ class HighchartsMarker implements JsonSerializable {
     /**
      * Set the states.
      *
-     * @param mixed|null $states The states.
+     * @param mixed $states The states.
      * @return \WBW\Library\Highcharts\Model\Chart\Series\Columnrange\States\Hover\HighchartsMarker Returns this highcharts marker.
      */
     public function setStates($states): \WBW\Library\Highcharts\Model\Chart\Series\Columnrange\States\Hover\HighchartsMarker {

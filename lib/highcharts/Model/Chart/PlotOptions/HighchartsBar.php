@@ -792,7 +792,7 @@ class HighchartsBar implements JsonSerializable {
     /**
      * Get the point placement.
      *
-     * @return mixed|null Returns the point placement.
+     * @return mixed Returns the point placement.
      */
     public function getPointPlacement() {
         return $this->pointPlacement;
@@ -837,7 +837,7 @@ class HighchartsBar implements JsonSerializable {
     /**
      * Get the shadow.
      *
-     * @return mixed|null Returns the shadow.
+     * @return mixed Returns the shadow.
      */
     public function getShadow() {
         return $this->shadow;
@@ -1516,7 +1516,7 @@ class HighchartsBar implements JsonSerializable {
     /**
      * Set the point placement.
      *
-     * @param mixed|null $pointPlacement The point placement.
+     * @param mixed $pointPlacement The point placement.
      * @return \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBar Returns this highcharts bar.
      */
     public function setPointPlacement($pointPlacement): \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBar {
@@ -1580,7 +1580,7 @@ class HighchartsBar implements JsonSerializable {
     /**
      * Set the shadow.
      *
-     * @param mixed|null $shadow The shadow.
+     * @param mixed $shadow The shadow.
      * @return \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBar Returns this highcharts bar.
      */
     public function setShadow($shadow): \WBW\Library\Highcharts\Model\Chart\PlotOptions\HighchartsBar {

@@ -910,7 +910,7 @@ class HighchartsColumn implements JsonSerializable {
     /**
      * Get the point placement.
      *
-     * @return mixed|null Returns the point placement.
+     * @return mixed Returns the point placement.
      */
     public function getPointPlacement() {
         return $this->pointPlacement;
@@ -955,7 +955,7 @@ class HighchartsColumn implements JsonSerializable {
     /**
      * Get the shadow.
      *
-     * @return mixed|null Returns the shadow.
+     * @return mixed Returns the shadow.
      */
     public function getShadow() {
         return $this->shadow;
@@ -1081,7 +1081,7 @@ class HighchartsColumn implements JsonSerializable {
     /**
      * Get the x axis.
      *
-     * @return mixed|null Returns the x axis.
+     * @return mixed Returns the x axis.
      */
     public function getXAxis() {
         return $this->xAxis;
@@ -1090,7 +1090,7 @@ class HighchartsColumn implements JsonSerializable {
     /**
      * Get the y axis.
      *
-     * @return mixed|null Returns the y axis.
+     * @return mixed Returns the y axis.
      */
     public function getYAxis() {
         return $this->yAxis;
@@ -1744,7 +1744,7 @@ class HighchartsColumn implements JsonSerializable {
     /**
      * Set the point placement.
      *
-     * @param mixed|null $pointPlacement The point placement.
+     * @param mixed $pointPlacement The point placement.
      * @return \WBW\Library\Highcharts\Model\Chart\Series\HighchartsColumn Returns this highcharts column.
      */
     public function setPointPlacement($pointPlacement): \WBW\Library\Highcharts\Model\Chart\Series\HighchartsColumn {
@@ -1808,7 +1808,7 @@ class HighchartsColumn implements JsonSerializable {
     /**
      * Set the shadow.
      *
-     * @param mixed|null $shadow The shadow.
+     * @param mixed $shadow The shadow.
      * @return \WBW\Library\Highcharts\Model\Chart\Series\HighchartsColumn Returns this highcharts column.
      */
     public function setShadow($shadow): \WBW\Library\Highcharts\Model\Chart\Series\HighchartsColumn {
@@ -1994,7 +1994,7 @@ class HighchartsColumn implements JsonSerializable {
     /**
      * Set the x axis.
      *
-     * @param mixed|null $xAxis The x axis.
+     * @param mixed $xAxis The x axis.
      * @return \WBW\Library\Highcharts\Model\Chart\Series\HighchartsColumn Returns this highcharts column.
      */
     public function setXAxis($xAxis): \WBW\Library\Highcharts\Model\Chart\Series\HighchartsColumn {
@@ -2005,7 +2005,7 @@ class HighchartsColumn implements JsonSerializable {
     /**
      * Set the y axis.
      *
-     * @param mixed|null $yAxis The y axis.
+     * @param mixed $yAxis The y axis.
      * @return \WBW\Library\Highcharts\Model\Chart\Series\HighchartsColumn Returns this highcharts column.
      */
     public function setYAxis($yAxis): \WBW\Library\Highcharts\Model\Chart\Series\HighchartsColumn {
