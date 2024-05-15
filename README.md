@@ -60,6 +60,7 @@ Libraries resources:
 - cURL [README](lib/curl/README.md)/[Documentation](lib/curl/Resources/doc/index.md)
 - Easilys [README](lib/easilys/README.md)/[Documentation](lib/easilys/Resources/doc/index.md)
 - FTP [README](lib/ftp/README.md)/[Documentation](lib/ftp/Resources/doc/index.md)
+- Highcharts [README](lib/highcharts/README.md)/[Documentation](lib/highcharts/Resources/doc/index.md)
 
 ## Testing
 
