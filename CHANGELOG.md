@@ -4,6 +4,7 @@ CHANGELOG
 ### master
 
 - Fix serializeArray()
+- Remove dead code into Guzzle helper 
 
 ### [9.5.4](https://github.com/webeweb/core-library/tree/v9.5.4) (2024-05-15)
 
