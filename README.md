@@ -52,6 +52,15 @@ This command requires you to have Composer installed globally, as explained in
 the [installation chapter](https://getcomposer.org/doc/00-intro.md) of the
 Composer documentation.
 
+## Usage
+
+Libraries resources:
+
+- Ciqual [README](lib/ciqual/README.md)/[Documentation](lib/ciqual/Resources/doc/index.md)
+- cURL [README](lib/curl/README.md)/[Documentation](lib/curl/Resources/doc/index.md)
+- Easilys [README](lib/easilys/README.md)/[Documentation](lib/easilys/Resources/doc/index.md)
+- FTP [README](lib/ftp/README.md)/[Documentation](lib/ftp/Resources/doc/index.md)
+
 ## Testing
 
 To test the package, is better to clone this repository on your computer.
