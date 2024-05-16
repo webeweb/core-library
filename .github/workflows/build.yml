@@ -22,14 +22,14 @@ jobs:
                     -   php-version: "8.3"
 
         steps:
+            -   name: "Checkout"
+                uses: actions/checkout@v4
+
             -   name: "Environment"
                 uses: shivammathur/setup-php@v2
                 with:
                     php-version: "${{ matrix.php-version }}"
                     coverage:    "xdebug"
-
-            -   name: "Checkout"
-                uses: actions/checkout@v4
 
             -   name: "Dependencies"
                 run:  |
@@ -37,19 +37,21 @@ jobs:
                       composer --version
                       COMPOSER_MEMORY_LIMIT=-1 composer update
 
-            -   name: "Tests"
+            -   name: "Application"
                 run:  |
                       mkdir -p build/logs
                       vendor/bin/phpunit --coverage-clover build/logs/clover.xml
 
             -   name: "Coverage"
                 env:
-                    COVERALLS_REPO_TOKEN: ${{ secrets.github_token }}
+                    COVERALLS_REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                     COVERALLS_FLAG_NAME:  php-${{ matrix.php-version }}
                     COVERALLS_PARALLEL:   true
                 run:  |
-                      vendor/bin/php-coveralls --version
-                      vendor/bin/php-coveralls --coverage_clover=build/logs/clover.xml -v
+                      wget -c -nc --retry-connrefused --tries=0 https://github.com/php-coveralls/php-coveralls/releases/download/v2.5.3/php-coveralls.phar -O coveralls.phar
+                      chmod +x coveralls.phar
+                      php coveralls.phar --version
+                      php coveralls.phar --coverage_clover=build/logs/clover.xml -v
 
     coverage:
         name:    "Coverage"
@@ -61,5 +63,5 @@ jobs:
             -   name: "Coverage"
                 uses: coverallsapp/github-action@v2
                 with:
-                    github-token:      ${{ secrets.github_token }}
+                    github-token:      ${{ secrets.GITHUB_TOKEN }}
                     parallel-finished: true
