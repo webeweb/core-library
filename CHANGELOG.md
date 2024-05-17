@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### master
+
+- Prepare QueryBuilder documentation
+
 ### [9.5.5](https://github.com/webeweb/core-library/tree/v9.5.5) (2024-05-17)
 
 - Fix serializeArray()
