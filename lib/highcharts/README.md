@@ -6,13 +6,14 @@ highcharts-library
 [![Packagist version](https://img.shields.io/packagist/v/webeweb/core-library.svg?style=for-the-badge&color=F28D1A&logo=packagist)](https://packagist.org/packages/webeweb/core-library)
 [![Packagist license](https://img.shields.io/packagist/l/webeweb/core-library.svg?style=for-the-badge&colorF28D1A&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0ZGRiIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMiIgZD0ibTMgNiAzIDFtMCAwLTMgOWE1LjAwMiA1LjAwMiAwIDAgMCA2LjAwMSAwTTYgN2wzIDlNNiA3bDYtMm02IDIgMy0xbS0zIDEtMyA5YTUuMDAyIDUuMDAyIDAgMCAwIDYuMDAxIDBNMTggN2wzIDltLTMtOS02LTJtMC0ydjJtMCAxNlY1bTAgMTZIOW0zIDBoMyIvPjwvc3ZnPg==)](../../LICENSE)
 
-`highcharts-library` eases the use of Highcharts to display rich graphs and
-charts in your application by providing PHP objects to do the heavy lifting.
-
-Dry out your chart code by writing it all in PHP !
-
 > IMPORTANT NOTICE: Merged from my original repository
 > [highcharts-bundle](https://github.com/webeweb/highcharts-bundle)
+
+`highcharts-library` eases the use of [Highcharts](https://www.highcharts.com/)
+to display rich graphs and charts in your application by providing PHP objects
+to do the heavy lifting.
+
+Dry out your chart code by writing it all in PHP !
 
 If you like this package, pay me a beer (or a coffee)
 [![paypal.me](https://img.shields.io/badge/paypal.me-webeweb-003087.svg?style=flat-square&logo=paypal)](https://www.paypal.me/webeweb)
