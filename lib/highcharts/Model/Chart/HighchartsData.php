@@ -451,7 +451,6 @@ class HighchartsData implements JsonSerializable {
             case "YYYY-mm-dd":
             case "dd/mm/YY":
             case "dd/mm/YYYY":
-            case "dd/mm/YYYY":
             case "mm/dd/YY":
             case "mm/dd/YYYY":
                 $this->dateFormat = $dateFormat;
