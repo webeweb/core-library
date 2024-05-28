@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [9.5.7](https://github.com/webeweb/core-library/tree/v9.5.7) (2024-05-28)
+
+- Improve code quality
+
 ### [9.5.6](https://github.com/webeweb/core-library/tree/v9.5.6) (2024-05-28)
 
 - Fix Alphabetical node interface methods
