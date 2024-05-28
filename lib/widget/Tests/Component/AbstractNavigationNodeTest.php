@@ -44,7 +44,7 @@ class AbstractNavigationNodeTest extends AbstractTestCase {
         $this->assertEquals([$node], $obj->getNodes());
 
         $this->assertSame($obj, $node->getParent());
-        $this->assertSame($obj, $node->getAlphabeticalTreeNodeParent());
+        $this->assertSame($obj, $node->getAlphabeticalNodeParent());
     }
 
     /**
@@ -245,8 +245,8 @@ class AbstractNavigationNodeTest extends AbstractTestCase {
         $this->assertNull($obj->getUri());
         $this->assertTrue($obj->getVisible());
 
-        $this->assertNotEquals("", $obj->getAlphabeticalTreeNodeLabel());
-        $this->assertNull($obj->getAlphabeticalTreeNodeParent());
+        $this->assertNotEquals("", $obj->getAlphabeticalNodeLabel());
+        $this->assertNull($obj->getAlphabeticalNodeParent());
         $this->assertNull($obj->getFirstNode());
         $this->assertNull($obj->getLastNode());
         $this->assertEquals(NavigationNodeInterface::MATCHER_URL, $obj->getMatcher());

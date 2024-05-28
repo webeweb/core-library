@@ -60,7 +60,7 @@ class AlphabeticalTreeSort {
             $itemB = true === isset($pathB[$i]) ? $pathB[$i] : null;
 
             if ($itemA !== $itemB) {
-                return null !== $itemB ? strcasecmp($itemA->getAlphabeticalTreeNodeLabel(), $itemB->getAlphabeticalTreeNodeLabel()) : 1;
+                return null !== $itemB ? strcasecmp($itemA->getAlphabeticalNodeLabel(), $itemB->getAlphabeticalNodeLabel()) : 1;
             }
         }
 

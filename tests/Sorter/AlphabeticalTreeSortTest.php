@@ -55,15 +55,15 @@ class AlphabeticalTreeSortTest extends AbstractTestCase {
         $obj->sort();
 
         $res = $obj->getNodes();
-        $this->assertEquals($this->nodes[0]->getAlphabeticalTreeNodeLabel(), $res[0]->getAlphabeticalTreeNodeLabel());
-        $this->assertEquals($this->nodes[7]->getAlphabeticalTreeNodeLabel(), $res[1]->getAlphabeticalTreeNodeLabel());
-        $this->assertEquals($this->nodes[8]->getAlphabeticalTreeNodeLabel(), $res[2]->getAlphabeticalTreeNodeLabel());
-        $this->assertEquals($this->nodes[9]->getAlphabeticalTreeNodeLabel(), $res[3]->getAlphabeticalTreeNodeLabel());
-        $this->assertEquals($this->nodes[1]->getAlphabeticalTreeNodeLabel(), $res[4]->getAlphabeticalTreeNodeLabel());
-        $this->assertEquals($this->nodes[4]->getAlphabeticalTreeNodeLabel(), $res[5]->getAlphabeticalTreeNodeLabel());
-        $this->assertEquals($this->nodes[2]->getAlphabeticalTreeNodeLabel(), $res[6]->getAlphabeticalTreeNodeLabel());
-        $this->assertEquals($this->nodes[3]->getAlphabeticalTreeNodeLabel(), $res[7]->getAlphabeticalTreeNodeLabel());
-        $this->assertEquals($this->nodes[5]->getAlphabeticalTreeNodeLabel(), $res[8]->getAlphabeticalTreeNodeLabel());
-        $this->assertEquals($this->nodes[6]->getAlphabeticalTreeNodeLabel(), $res[9]->getAlphabeticalTreeNodeLabel());
+        $this->assertEquals($this->nodes[0]->getAlphabeticalNodeLabel(), $res[0]->getAlphabeticalNodeLabel());
+        $this->assertEquals($this->nodes[7]->getAlphabeticalNodeLabel(), $res[1]->getAlphabeticalNodeLabel());
+        $this->assertEquals($this->nodes[8]->getAlphabeticalNodeLabel(), $res[2]->getAlphabeticalNodeLabel());
+        $this->assertEquals($this->nodes[9]->getAlphabeticalNodeLabel(), $res[3]->getAlphabeticalNodeLabel());
+        $this->assertEquals($this->nodes[1]->getAlphabeticalNodeLabel(), $res[4]->getAlphabeticalNodeLabel());
+        $this->assertEquals($this->nodes[4]->getAlphabeticalNodeLabel(), $res[5]->getAlphabeticalNodeLabel());
+        $this->assertEquals($this->nodes[2]->getAlphabeticalNodeLabel(), $res[6]->getAlphabeticalNodeLabel());
+        $this->assertEquals($this->nodes[3]->getAlphabeticalNodeLabel(), $res[7]->getAlphabeticalNodeLabel());
+        $this->assertEquals($this->nodes[5]->getAlphabeticalNodeLabel(), $res[8]->getAlphabeticalNodeLabel());
+        $this->assertEquals($this->nodes[6]->getAlphabeticalNodeLabel(), $res[9]->getAlphabeticalNodeLabel());
     }
 }

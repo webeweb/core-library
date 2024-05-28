@@ -35,7 +35,7 @@ class SelectRendererTest extends AbstractTestCase {
 
         // Set an Alphabetical node mock.
         $alphabeticalNode = $this->getMockBuilder(AlphabeticalNodeInterface::class)->getMock();
-        $alphabeticalNode->expects($this->any())->method("getAlphabeticalTreeNodeParent")->willReturn(null);
+        $alphabeticalNode->expects($this->any())->method("getAlphabeticalNodeParent")->willReturn(null);
 
         // Set a Choice label mock.
         $choiceLabel = $this->getMockBuilder(ChoiceLabelInterface::class)->getMock();

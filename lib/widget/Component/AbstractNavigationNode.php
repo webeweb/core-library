@@ -123,14 +123,14 @@ abstract class AbstractNavigationNode implements NavigationNodeInterface {
     /**
      * {@inheritDoc}
      */
-    public function getAlphabeticalTreeNodeLabel(): string {
+    public function getAlphabeticalNodeLabel(): string {
         return $this->getId();
     }
 
     /**
      * {@inheritDoc}
      */
-    public function getAlphabeticalTreeNodeParent(): ?AlphabeticalNodeInterface {
+    public function getAlphabeticalNodeParent(): ?AlphabeticalNodeInterface {
         return $this->getParent();
     }
 

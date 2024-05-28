@@ -42,7 +42,7 @@ class DividerNodeTest extends AbstractTestCase {
         $this->assertEquals([], $obj->getNodes());
 
         $this->assertNull($node->getParent());
-        $this->assertNull($node->getAlphabeticalTreeNodeParent());
+        $this->assertNull($node->getAlphabeticalNodeParent());
     }
 
     /**

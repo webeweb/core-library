@@ -26,12 +26,12 @@ interface AlphabeticalNodeInterface {
      *
      * @return string|null Returns the label.
      */
-    public function getAlphabeticalTreeNodeLabel(): ?string;
+    public function getAlphabeticalNodeLabel(): ?string;
 
     /**
      * Get the parent.
      *
      * @return AlphabeticalNodeInterface|null Returns the parent.
      */
-    public function getAlphabeticalTreeNodeParent(): ?AlphabeticalNodeInterface;
+    public function getAlphabeticalNodeParent(): ?AlphabeticalNodeInterface;
 }
