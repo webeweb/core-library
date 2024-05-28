@@ -58,7 +58,6 @@ class IntegerHelperTest extends AbstractTestCase {
     public function testParseStringWithIntegerArgumentException(): void {
 
         try {
-
             IntegerHelper::parseString("1.0");
         } catch (Throwable $ex) {
 

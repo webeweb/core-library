@@ -49,7 +49,6 @@ class DateTimeHelperTest extends AbstractTestCase {
     public function testCompareWithInvalidArgumentException(): void {
 
         try {
-
             DateTimeHelper::compare(new DateTime("2018-08-22 14:05:00", new DateTimeZone("UTC")), new DateTime("2018-08-22 14:05:00", new DateTimeZone("Europe/Paris")));
         } catch (Throwable $ex) {
 

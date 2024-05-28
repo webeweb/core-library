@@ -74,7 +74,6 @@ class AbstractProviderTest extends AbstractTestCase {
         $obj = new TestAbstractProvider();
 
         try {
-
             $obj->buildResourcePath($request);
         } catch (Throwable $ex) {
 

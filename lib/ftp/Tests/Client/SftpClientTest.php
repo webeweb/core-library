@@ -76,7 +76,6 @@ class SftpClientTest extends AbstractTestCase {
         $obj->getAuthenticator()->setPort(80);
 
         try {
-
             $obj->connect();
         } catch (Throwable $ex) {
 
@@ -105,7 +104,6 @@ class SftpClientTest extends AbstractTestCase {
         $obj = $this->client;
 
         try {
-
             $obj->delete($this->remoteDir);
         } catch (Throwable $ex) {
 
@@ -151,7 +149,6 @@ class SftpClientTest extends AbstractTestCase {
         $obj->connect();
 
         try {
-
             $obj->login();
         } catch (Throwable $ex) {
 
@@ -178,7 +175,6 @@ class SftpClientTest extends AbstractTestCase {
         $obj = $this->client;
 
         try {
-
             $obj->mkdir("/mkdir");
         } catch (Throwable $ex) {
 
@@ -208,7 +204,6 @@ class SftpClientTest extends AbstractTestCase {
         $obj = $this->client;
 
         try {
-
             $obj->put($myself, "/put");
         } catch (Throwable $ex) {
 
@@ -235,7 +230,6 @@ class SftpClientTest extends AbstractTestCase {
         $obj = $this->client;
 
         try {
-
             $obj->rename($this->remoteDir, "/rename");
         } catch (Throwable $ex) {
 
@@ -264,7 +258,6 @@ class SftpClientTest extends AbstractTestCase {
         $obj = $this->client;
 
         try {
-
             $obj->rmdir($this->remoteDir);
         } catch (Throwable $ex) {
 

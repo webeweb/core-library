@@ -82,7 +82,6 @@ class ArchiveUtilityTest extends AbstractTestCase {
     public function testZipWithInvalidArgumentException(): void {
 
         try {
-
             ArchiveUtility::zip("exception", "exception.zip");
         } catch (Throwable $ex) {
 

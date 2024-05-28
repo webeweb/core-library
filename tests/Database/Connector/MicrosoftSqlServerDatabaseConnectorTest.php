@@ -59,7 +59,6 @@ class MicrosoftSqlServerDatabaseConnectorTest extends AbstractTestCase {
         $obj = new MicrosoftSqlServerDatabaseConnector($this->authenticator, "exception");
 
         try {
-
             $obj->getConnection();
         } catch (Throwable $ex) {
 

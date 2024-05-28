@@ -60,7 +60,6 @@ class MicrosoftAccessDatabaseConnectorTest extends AbstractTestCase {
         $obj = new MicrosoftAccessDatabaseConnector($this->authenticator, "exception");
 
         try {
-
             $obj->getConnection();
         } catch (Throwable $ex) {
 
@@ -82,7 +81,6 @@ class MicrosoftAccessDatabaseConnectorTest extends AbstractTestCase {
         $obj = new MicrosoftAccessDatabaseConnector($this->authenticator, $mdb);
 
         try {
-
             $obj->getConnection();
         } catch (Throwable $ex) {
 

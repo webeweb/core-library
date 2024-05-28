@@ -50,7 +50,6 @@ class DoubleHelperTest extends AbstractTestCase {
     public function testParseStringWithFloatArgumentException(): void {
 
         try {
-
             DoubleHelper::parseString("1A");
         } catch (Throwable $ex) {
 

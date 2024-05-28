@@ -49,10 +49,8 @@ class ApiProviderTest extends AbstractTestCase {
         try {
 
             $res = $obj->sendRequest($request);
-
             $this->assertInstanceOf(GetSitesResponse::class, $res);
         } catch (Throwable $ex) {
-
             $this->assertInstanceOf(ProviderException::class, $ex);
         }
     }
@@ -72,10 +70,8 @@ class ApiProviderTest extends AbstractTestCase {
         try {
 
             $res = $obj->sendRequest($request);
-
             $this->assertInstanceOf(GetSitesResponse::class, $res);
         } catch (Throwable $ex) {
-
             $this->assertInstanceOf(ProviderException::class, $ex);
         }
     }
@@ -97,10 +93,8 @@ class ApiProviderTest extends AbstractTestCase {
         try {
 
             $res = $obj->sendRequest($request);
-
             $this->assertInstanceOf(GetSitesResponse::class, $res);
         } catch (Throwable $ex) {
-
             $this->assertInstanceOf(ProviderException::class, $ex);
         }
     }
@@ -121,10 +115,8 @@ class ApiProviderTest extends AbstractTestCase {
         try {
 
             $res = $obj->sendRequest($request);
-
             $this->assertInstanceOf(GetSitesResponse::class, $res);
         } catch (Throwable $ex) {
-
             $this->assertInstanceOf(ProviderException::class, $ex);
         }
     }
@@ -145,10 +137,8 @@ class ApiProviderTest extends AbstractTestCase {
         try {
 
             $res = $obj->sendRequest($request);
-
             $this->assertInstanceOf(GetSitesResponse::class, $res);
         } catch (Throwable $ex) {
-
             $this->assertInstanceOf(ProviderException::class, $ex);
         }
     }
@@ -170,10 +160,8 @@ class ApiProviderTest extends AbstractTestCase {
         try {
 
             $res = $obj->sendRequest($request);
-
             $this->assertInstanceOf(GetSitesResponse::class, $res);
         } catch (Throwable $ex) {
-
             $this->assertInstanceOf(ProviderException::class, $ex);
         }
     }

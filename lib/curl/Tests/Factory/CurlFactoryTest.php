@@ -83,7 +83,6 @@ class CurlFactoryTest extends AbstractTestCase {
     public function testNewCurlRequestWithInvalidArgumentException(): void {
 
         try {
-
             CurlFactory::newCurlRequest("exception");
         } catch (Throwable $ex) {
 

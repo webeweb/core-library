@@ -51,7 +51,6 @@ class DateTimeMethodTest extends AbstractTestCase {
     public function testAddDayWithInvalidArgumentException(): void {
 
         try {
-
             DateTimeMethod::addDay(new DateTime(), -1);
         } catch (Throwable $ex) {
 
@@ -83,7 +82,6 @@ class DateTimeMethodTest extends AbstractTestCase {
     public function testAddHourWithInvalidArgumentException(): void {
 
         try {
-
             DateTimeMethod::addHour(new DateTime(), -1);
         } catch (Throwable $ex) {
 
@@ -116,7 +114,6 @@ class DateTimeMethodTest extends AbstractTestCase {
     public function testAddIntervalWithInvalidArgumentException(): void {
 
         try {
-
             DateTimeMethod::addInterval(new DateTime(), 0, 0, 0, 0, 0, -1);
         } catch (Throwable $ex) {
 
@@ -148,7 +145,6 @@ class DateTimeMethodTest extends AbstractTestCase {
     public function testAddMinuteWithInvalidArgumentException(): void {
 
         try {
-
             DateTimeMethod::addMinute(new DateTime(), -1);
         } catch (Throwable $ex) {
 
@@ -181,7 +177,6 @@ class DateTimeMethodTest extends AbstractTestCase {
     public function testAddMonthWithInvalidArgumentException(): void {
 
         try {
-
             DateTimeMethod::addMonth(new DateTime(), -1);
         } catch (Throwable $ex) {
 
@@ -213,7 +208,6 @@ class DateTimeMethodTest extends AbstractTestCase {
     public function testAddSecondWithInvalidArgumentException(): void {
 
         try {
-
             DateTimeMethod::addSecond(new DateTime(), -1);
         } catch (Throwable $ex) {
 
@@ -246,7 +240,6 @@ class DateTimeMethodTest extends AbstractTestCase {
     public function testAddYearWithInvalidArgumentException(): void {
 
         try {
-
             DateTimeMethod::addYear(new DateTime(), -1);
         } catch (Throwable $ex) {
 
@@ -316,7 +309,6 @@ class DateTimeMethodTest extends AbstractTestCase {
     public function testModIntervalWithInvalidArgumentException(): void {
 
         try {
-
             DateTimeMethod::modInterval(new DateTime(), -1, 0, 0, 0, 0, 1);
         } catch (Throwable $ex) {
 
@@ -414,7 +406,6 @@ class DateTimeMethodTest extends AbstractTestCase {
     public function testSubDayWithInvalidArgumentException(): void {
 
         try {
-
             DateTimeMethod::subDay(new DateTime(), -1);
         } catch (Throwable $ex) {
 
@@ -446,7 +437,6 @@ class DateTimeMethodTest extends AbstractTestCase {
     public function testSubHourWithInvalidArgumentException(): void {
 
         try {
-
             DateTimeMethod::subHour(new DateTime(), -1);
         } catch (Throwable $ex) {
 
@@ -479,7 +469,6 @@ class DateTimeMethodTest extends AbstractTestCase {
     public function testSubIntervalWithInvalidArgumentException(): void {
 
         try {
-
             DateTimeMethod::subInterval(new DateTime(), 0, 0, 0, 0, 0, -1);
         } catch (Throwable $ex) {
 
@@ -511,7 +500,6 @@ class DateTimeMethodTest extends AbstractTestCase {
     public function testSubMinuteWithInvalidArgumentException(): void {
 
         try {
-
             DateTimeMethod::subMinute(new DateTime(), -1);
         } catch (Throwable $ex) {
 
@@ -543,7 +531,6 @@ class DateTimeMethodTest extends AbstractTestCase {
     public function testSubMonthWithInvalidArgumentException(): void {
 
         try {
-
             DateTimeMethod::subMonth(new DateTime(), -1);
         } catch (Throwable $ex) {
 
@@ -575,7 +562,6 @@ class DateTimeMethodTest extends AbstractTestCase {
     public function testSubSecondWithInvalidArgumentException(): void {
 
         try {
-
             DateTimeMethod::subSecond(new DateTime(), -1);
         } catch (Throwable $ex) {
 
@@ -607,7 +593,6 @@ class DateTimeMethodTest extends AbstractTestCase {
     public function testSubYearWithInvalidArgumentException(): void {
 
         try {
-
             DateTimeMethod::subYear(new DateTime(), -1);
         } catch (Throwable $ex) {
 

@@ -37,7 +37,6 @@ class SystemMonitorTest extends AbstractTestCase {
         try {
 
             $res = SystemMonitor::getCpu();
-
             $this->assertNotNull($res);
         } catch (Throwable $ex) {
 
@@ -56,7 +55,6 @@ class SystemMonitorTest extends AbstractTestCase {
         try {
 
             $res = SystemMonitor::getDate();
-
             $this->assertNotNull($res);
         } catch (Throwable $ex) {
 
@@ -75,7 +73,6 @@ class SystemMonitorTest extends AbstractTestCase {
         try {
 
             $res = SystemMonitor::getHardDisks();
-
             $this->assertNotCount(0, $res);
         } catch (Throwable $ex) {
 
@@ -94,7 +91,6 @@ class SystemMonitorTest extends AbstractTestCase {
         try {
 
             $res = SystemMonitor::getHostname();
-
             $this->assertNotNull($res);
         } catch (Throwable $ex) {
 
@@ -113,7 +109,6 @@ class SystemMonitorTest extends AbstractTestCase {
         try {
 
             $res = SystemMonitor::getMemory();
-
             $this->assertNotNull($res);
         } catch (Throwable $ex) {
 
@@ -132,7 +127,6 @@ class SystemMonitorTest extends AbstractTestCase {
         try {
 
             $res = SystemMonitor::getNetwork();
-
             $this->assertNotNull($res);
         } catch (Throwable $ex) {
 
@@ -151,7 +145,6 @@ class SystemMonitorTest extends AbstractTestCase {
         try {
 
             $res = SystemMonitor::getNetworkCards();
-
             $this->assertNotCount(0, $res);
         } catch (Throwable $ex) {
 
@@ -170,7 +163,6 @@ class SystemMonitorTest extends AbstractTestCase {
         try {
 
             $res = SystemMonitor::getOperatingSystem();
-
             $this->assertNotNull($res);
         } catch (Throwable $ex) {
 
@@ -189,7 +181,6 @@ class SystemMonitorTest extends AbstractTestCase {
         try {
 
             $res = SystemMonitor::getProcessors();
-
             $this->assertNotCount(0, $res);
         } catch (Throwable $ex) {
 
@@ -229,7 +220,6 @@ class SystemMonitorTest extends AbstractTestCase {
         try {
 
             $res = SystemMonitor::getUptime();
-
             $this->assertNotNull($res);
         } catch (Throwable $ex) {
 

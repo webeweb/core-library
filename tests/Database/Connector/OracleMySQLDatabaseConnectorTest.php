@@ -59,7 +59,6 @@ class OracleMySQLDatabaseConnectorTest extends AbstractTestCase {
         $obj = new OracleMySQLDatabaseConnector($this->authenticator, "exception");
 
         try {
-
             $obj->getConnection();
         } catch (Throwable $ex) {
 

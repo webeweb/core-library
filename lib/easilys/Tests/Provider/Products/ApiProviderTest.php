@@ -54,10 +54,8 @@ class ApiProviderTest extends AbstractTestCase {
         try {
 
             $res = $obj->sendRequest($request);
-
             $this->assertInstanceOf(GetPriceListHeadersSiteResponse::class, $res);
         } catch (Throwable $ex) {
-
             $this->assertInstanceOf(ProviderException::class, $ex);
         }
     }
@@ -78,10 +76,8 @@ class ApiProviderTest extends AbstractTestCase {
         try {
 
             $res = $obj->sendRequest($request);
-
             $this->assertInstanceOf(GetPriceListSupplierProductsSiteResponse::class, $res);
         } catch (Throwable $ex) {
-
             $this->assertInstanceOf(ProviderException::class, $ex);
         }
     }
@@ -102,10 +98,8 @@ class ApiProviderTest extends AbstractTestCase {
         try {
 
             $res = $obj->sendRequest($request);
-
             $this->assertInstanceOf(GetProductsSiteResponse::class, $res);
         } catch (Throwable $ex) {
-
             $this->assertInstanceOf(ProviderException::class, $ex);
         }
     }
@@ -125,10 +119,8 @@ class ApiProviderTest extends AbstractTestCase {
         try {
 
             $res = $obj->sendRequest($request);
-
             $this->assertInstanceOf(GetQualitiesResponse::class, $res);
         } catch (Throwable $ex) {
-
             $this->assertInstanceOf(ProviderException::class, $ex);
         }
     }
@@ -148,10 +140,8 @@ class ApiProviderTest extends AbstractTestCase {
         try {
 
             $res = $obj->sendRequest($request);
-
             $this->assertInstanceOf(GetRangesResponse::class, $res);
         } catch (Throwable $ex) {
-
             $this->assertInstanceOf(ProviderException::class, $ex);
         }
     }
@@ -171,10 +161,8 @@ class ApiProviderTest extends AbstractTestCase {
         try {
 
             $res = $obj->sendRequest($request);
-
             $this->assertInstanceOf(GetUnitsResponse::class, $res);
         } catch (Throwable $ex) {
-
             $this->assertInstanceOf(ProviderException::class, $ex);
         }
     }

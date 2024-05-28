@@ -67,7 +67,6 @@ class AbstractImageTest extends AbstractTestCase {
         $pathname = getcwd() . "/exception.txt";
 
         try {
-
             new TestImage($pathname);
         } catch (Throwable $ex) {
 

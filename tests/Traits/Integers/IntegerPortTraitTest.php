@@ -50,7 +50,6 @@ class IntegerPortTraitTest extends AbstractTestCase {
         $obj = new TestIntegerPortTrait();
 
         try {
-
             $obj->setPort(65537);
         } catch (Throwable $ex) {
 
@@ -69,7 +68,6 @@ class IntegerPortTraitTest extends AbstractTestCase {
         $obj = new TestIntegerPortTrait();
 
         try {
-
             $obj->setPort(-1);
         } catch (Throwable $ex) {
 

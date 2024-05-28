@@ -68,7 +68,6 @@ class TypeHelperTest extends AbstractTestCase {
     public function testIsTypeOfWithArrayArgumentException(): void {
 
         try {
-
             TypeHelper::isTypeOf(null, TypeHelper::TYPE_ARRAY);
         } catch (Throwable $ex) {
 
@@ -85,7 +84,6 @@ class TypeHelperTest extends AbstractTestCase {
     public function testIsTypeOfWithBooleanArgumentException(): void {
 
         try {
-
             TypeHelper::isTypeOf(null, TypeHelper::TYPE_BOOLEAN);
         } catch (Throwable $ex) {
 
@@ -102,7 +100,6 @@ class TypeHelperTest extends AbstractTestCase {
     public function testIsTypeOfWithDateArgumentException(): void {
 
         try {
-
             TypeHelper::isTypeOf(null, TypeHelper::TYPE_DATE);
         } catch (Throwable $ex) {
 
@@ -119,7 +116,6 @@ class TypeHelperTest extends AbstractTestCase {
     public function testIsTypeOfWithDoubleArgumentException(): void {
 
         try {
-
             TypeHelper::isTypeOf(null, TypeHelper::TYPE_DOUBLE);
         } catch (Throwable $ex) {
 
@@ -136,7 +132,6 @@ class TypeHelperTest extends AbstractTestCase {
     public function testIsTypeOfWithFloatArgumentException(): void {
 
         try {
-
             TypeHelper::isTypeOf(null, TypeHelper::TYPE_FLOAT);
         } catch (Throwable $ex) {
 
@@ -153,7 +148,6 @@ class TypeHelperTest extends AbstractTestCase {
     public function testIsTypeOfWithIntegerArgumentException(): void {
 
         try {
-
             TypeHelper::isTypeOf(null, TypeHelper::TYPE_INTEGER);
         } catch (Throwable $ex) {
 
@@ -170,7 +164,6 @@ class TypeHelperTest extends AbstractTestCase {
     public function testIsTypeOfWithInvalidArgumentException(): void {
 
         try {
-
             TypeHelper::isTypeOf(null, -1);
         } catch (Throwable $ex) {
 
@@ -187,7 +180,6 @@ class TypeHelperTest extends AbstractTestCase {
     public function testIsTypeOfWithNumberArgumentException(): void {
 
         try {
-
             TypeHelper::isTypeOf(null, TypeHelper::TYPE_NUMBER);
         } catch (Throwable $ex) {
 
@@ -204,7 +196,6 @@ class TypeHelperTest extends AbstractTestCase {
     public function testIsTypeOfWithObjectArgumentException(): void {
 
         try {
-
             TypeHelper::isTypeOf(null, TypeHelper::TYPE_OBJECT);
         } catch (Throwable $ex) {
 
@@ -221,7 +212,6 @@ class TypeHelperTest extends AbstractTestCase {
     public function testIsTypeOfWithResourceArgumentException(): void {
 
         try {
-
             TypeHelper::isTypeOf(null, TypeHelper::TYPE_RESOURCE);
         } catch (Throwable $ex) {
 
@@ -238,7 +228,6 @@ class TypeHelperTest extends AbstractTestCase {
     public function testIsTypeOfWithStringArgumentException(): void {
 
         try {
-
             TypeHelper::isTypeOf(null, TypeHelper::TYPE_STRING);
         } catch (Throwable $ex) {
 
@@ -255,7 +244,6 @@ class TypeHelperTest extends AbstractTestCase {
     public function testIsTypeOfWithTimestampArgumentException(): void {
 
         try {
-
             TypeHelper::isTypeOf(null, TypeHelper::TYPE_TIMESTAMP);
         } catch (Throwable $ex) {
 
@@ -288,7 +276,6 @@ class TypeHelperTest extends AbstractTestCase {
     public function testTransformWithDateArgumentException(): void {
 
         try {
-
             TypeHelper::transform("exception", TypeHelper::TYPE_DATE, "Y-m-d");
         } catch (Throwable $ex) {
 
@@ -305,7 +292,6 @@ class TypeHelperTest extends AbstractTestCase {
     public function testTransformWithInvalidArgumentException(): void {
 
         try {
-
             TypeHelper::transform(null, TypeHelper::TYPE_ARRAY);
         } catch (Throwable $ex) {
 
@@ -322,7 +308,6 @@ class TypeHelperTest extends AbstractTestCase {
     public function testTransformWithInvalidArgumentException104(): void {
 
         try {
-
             TypeHelper::transform(null, TypeHelper::TYPE_RESOURCE);
         } catch (Throwable $ex) {
 
@@ -339,7 +324,6 @@ class TypeHelperTest extends AbstractTestCase {
     public function testTransformWithInvalidArgumentException116(): void {
 
         try {
-
             TypeHelper::transform(null, TypeHelper::TYPE_TIMESTAMP);
         } catch (Throwable $ex) {
 
@@ -356,7 +340,6 @@ class TypeHelperTest extends AbstractTestCase {
     public function testTransformWithInvalidArgumentException30(): void {
 
         try {
-
             TypeHelper::transform(null, TypeHelper::TYPE_DATE);
         } catch (Throwable $ex) {
 
@@ -373,7 +356,6 @@ class TypeHelperTest extends AbstractTestCase {
     public function testTransformWithInvalidArgumentException55(): void {
 
         try {
-
             TypeHelper::transform(null, TypeHelper::TYPE_OBJECT);
         } catch (Throwable $ex) {
 
@@ -407,7 +389,6 @@ class TypeHelperTest extends AbstractTestCase {
     public function testTransformWithTimestampArgumentException(): void {
 
         try {
-
             TypeHelper::transform("exception", TypeHelper::TYPE_TIMESTAMP, "Y-m-d H:m:s");
         } catch (Throwable $ex) {
 

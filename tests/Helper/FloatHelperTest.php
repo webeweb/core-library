@@ -50,7 +50,6 @@ class FloatHelperTest extends AbstractTestCase {
     public function testCalcPercentWithInvalidArgumentException(): void {
 
         try {
-
             FloatHelper::calcPercent(0, 0);
         } catch (Throwable $ex) {
 
@@ -83,7 +82,6 @@ class FloatHelperTest extends AbstractTestCase {
     public function testParseStringWithFloatArgumentException(): void {
 
         try {
-
             FloatHelper::parseString("1A");
         } catch (Throwable $ex) {
 

@@ -68,7 +68,6 @@ class QueryBuilderRuleTest extends AbstractTestCase {
         $obj = new QueryBuilderRule();
 
         try {
-
             $obj->setOperator("operator");
         } catch (Throwable $ex) {
 

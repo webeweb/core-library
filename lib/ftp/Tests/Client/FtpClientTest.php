@@ -109,7 +109,6 @@ class FtpClientTest extends AbstractTestCase {
         $obj = $this->client;
 
         try {
-
             $obj->chdir("/chdir");
         } catch (Throwable $ex) {
 
@@ -136,7 +135,6 @@ class FtpClientTest extends AbstractTestCase {
         $obj = $this->client;
 
         try {
-
             $obj->chmod(0644, $this->remoteFile);
         } catch (Throwable $ex) {
 
@@ -166,7 +164,6 @@ class FtpClientTest extends AbstractTestCase {
         $obj->getAuthenticator()->setPort(80);
 
         try {
-
             $obj->connect(3);
         } catch (Throwable $ex) {
 
@@ -195,7 +192,6 @@ class FtpClientTest extends AbstractTestCase {
         $obj = $this->client;
 
         try {
-
             $obj->delete($this->remoteFile);
         } catch (Throwable $ex) {
 
@@ -250,7 +246,6 @@ class FtpClientTest extends AbstractTestCase {
         $obj = $this->client;
 
         try {
-
             $obj->fget($localStream, "/fget");
         } catch (Throwable $ex) {
 
@@ -284,7 +279,6 @@ class FtpClientTest extends AbstractTestCase {
         $obj = $this->client;
 
         try {
-
             $obj->fput("/fput", $localStream);
         } catch (Throwable $ex) {
 
@@ -328,7 +322,6 @@ class FtpClientTest extends AbstractTestCase {
         $obj = $this->client;
 
         try {
-
             $obj->get($this->localFile, "/get");
         } catch (Throwable $ex) {
 
@@ -359,7 +352,6 @@ class FtpClientTest extends AbstractTestCase {
         $obj->connect();
 
         try {
-
             $obj->login();
         } catch (Throwable $ex) {
 
@@ -403,7 +395,6 @@ class FtpClientTest extends AbstractTestCase {
         $obj = $this->client;
 
         try {
-
             $obj->mdtm("/mdtm");
         } catch (Throwable $ex) {
 
@@ -430,7 +421,6 @@ class FtpClientTest extends AbstractTestCase {
         $obj = $this->client;
 
         try {
-
             $obj->mkdir("/mkdir");
         } catch (Throwable $ex) {
 
@@ -548,7 +538,6 @@ class FtpClientTest extends AbstractTestCase {
         $obj = $this->client;
 
         try {
-
             $obj->nlist("/nlist");
         } catch (Throwable $ex) {
 
@@ -575,7 +564,6 @@ class FtpClientTest extends AbstractTestCase {
         $obj = $this->client;
 
         try {
-
             $obj->put($this->myself, "/put");
         } catch (Throwable $ex) {
 
@@ -619,7 +607,6 @@ class FtpClientTest extends AbstractTestCase {
         $obj = $this->client;
 
         try {
-
             $obj->rawList("/rawList");
         } catch (Throwable $ex) {
 
@@ -661,7 +648,6 @@ class FtpClientTest extends AbstractTestCase {
         $obj = $this->client;
 
         try {
-
             $obj->rename($this->remoteDir, "/rename");
         } catch (Throwable $ex) {
 
@@ -690,7 +676,6 @@ class FtpClientTest extends AbstractTestCase {
         $obj = $this->client;
 
         try {
-
             $obj->rmdir($this->remoteDir);
         } catch (Throwable $ex) {
 
@@ -734,7 +719,6 @@ class FtpClientTest extends AbstractTestCase {
         $obj = $this->client;
 
         try {
-
             $obj->size("/size");
         } catch (Throwable $ex) {
 

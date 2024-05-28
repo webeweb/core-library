@@ -40,7 +40,6 @@ class ApiProviderTest extends AbstractTestCase {
             $this->assertEquals($this->easilys["endpoint"], $res->getEndpointPath());
             $this->assertNotEmpty($res->getAccessToken());
         } catch (Throwable $ex) {
-
             $this->assertInstanceOf(ProviderException::class, $ex);
         }
     }

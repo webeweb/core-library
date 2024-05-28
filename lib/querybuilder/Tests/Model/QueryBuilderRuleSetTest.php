@@ -86,7 +86,6 @@ class QueryBuilderRuleSetTest extends AbstractTestCase {
         $obj = new QueryBuilderRuleSet();
 
         try {
-
             $obj->setCondition("condition");
         } catch (Throwable $ex) {
 

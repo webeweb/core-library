@@ -89,7 +89,6 @@ class SystemHelperTest extends AbstractTestCase {
     public function testRetrieveDate(): void {
 
         try {
-
             $this->assertNotNull(SystemUtility::retrieveDate());
         } catch (Throwable $ex) {
 
@@ -108,7 +107,6 @@ class SystemHelperTest extends AbstractTestCase {
         try {
 
             $res = SystemUtility::retrieveHardDisks();
-
             $this->assertGreaterThanOrEqual(1, count($res));
         } catch (Throwable $ex) {
 
@@ -125,7 +123,6 @@ class SystemHelperTest extends AbstractTestCase {
     public function testRetrieveHostname(): void {
 
         try {
-
             $this->assertNotNull(SystemUtility::retrieveHostname());
         } catch (Throwable $ex) {
 
@@ -144,7 +141,6 @@ class SystemHelperTest extends AbstractTestCase {
         try {
 
             $obj = SystemUtility::retrieveMemory();
-
             $this->assertNotCount(0, $obj->getValues());
 
             foreach ($obj->getValues() as $current) {
@@ -219,7 +215,6 @@ class SystemHelperTest extends AbstractTestCase {
         try {
 
             $res = SystemUtility::retrieveNetworkCards();
-
             $this->assertGreaterThan(1, count($res));
         } catch (Throwable $ex) {
 
@@ -312,7 +307,6 @@ class SystemHelperTest extends AbstractTestCase {
     public function testRetrieveUptime(): void {
 
         try {
-
             $this->assertNotNull(SystemUtility::retrieveUptime());
         } catch (Throwable $ex) {
 

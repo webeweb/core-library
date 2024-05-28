@@ -77,7 +77,6 @@ class AbstractQueryBuilderTest extends AbstractTestCase {
         $obj = new TestAbstractQueryBuilder();
 
         try {
-
             $obj->setInput("input");
         } catch (Throwable $ex) {
 
@@ -109,7 +108,6 @@ class AbstractQueryBuilderTest extends AbstractTestCase {
         $obj = new TestAbstractQueryBuilder();
 
         try {
-
             $obj->setType("type");
         } catch (Throwable $ex) {
 

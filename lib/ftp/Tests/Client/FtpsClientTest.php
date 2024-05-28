@@ -73,7 +73,6 @@ class FtpsClientTest extends AbstractTestCase {
         $obj->getAuthenticator()->setPort(80);
 
         try {
-
             $obj->connect(3);
         } catch (Throwable $ex) {
 

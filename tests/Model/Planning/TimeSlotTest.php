@@ -210,7 +210,6 @@ class TimeSlotTest extends AbstractTestCase {
     public function test__constructWithException(): void {
 
         try {
-
             new TimeSlot($this->endDate, $this->startDate);
         } catch (Throwable $ex) {
 

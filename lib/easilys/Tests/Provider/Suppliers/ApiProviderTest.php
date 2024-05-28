@@ -44,10 +44,8 @@ class ApiProviderTest extends AbstractTestCase {
         try {
 
             $res = $obj->sendRequest($request);
-
             $this->assertInstanceOf(GetStorehousesSiteResponse::class, $res);
         } catch (Throwable $ex) {
-
             $this->assertInstanceOf(ProviderException::class, $ex);
         }
     }

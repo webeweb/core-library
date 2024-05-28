@@ -171,7 +171,6 @@ class GetRequestTest extends AbstractTestCase {
         $obj->addQueryData("sleep", "60");
 
         try {
-
             $obj->call();
         } catch (Throwable $ex) {
 

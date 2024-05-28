@@ -109,7 +109,6 @@ class QueryBuilderFilterTest extends AbstractTestCase {
         $obj = new QueryBuilderFilter("id", QueryBuilderTypeInterface::TYPE_BOOLEAN, []);
 
         try {
-
             $obj->setOperators(["exception"]);
         } catch (Throwable $ex) {
 

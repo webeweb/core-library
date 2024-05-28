@@ -81,7 +81,6 @@ class AssetsHelperTest extends AbstractTestCase {
     public function testListAssetsWithInvalidArgumentException(): void {
 
         try {
-
             AssetsHelper::listAssets($this->notDirectory);
         } catch (Throwable $ex) {
 
@@ -115,7 +114,6 @@ class AssetsHelperTest extends AbstractTestCase {
     public function testUnzipAssetsWithInvalidArgumentException(): void {
 
         try {
-
             AssetsHelper::unzipAssets($this->srcDirectory, $this->notDirectory);
         } catch (Throwable $ex) {
 

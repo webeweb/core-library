@@ -110,7 +110,6 @@ class QueryBuilderFactoryTest extends AbstractTestCase {
     public function testNewQueryBuilderOperatorWithInvalidArgumentException(): void {
 
         try {
-
             QueryBuilderFactory::newQueryBuilderOperator("operator");
         } catch (Throwable $ex) {
 
@@ -145,7 +144,6 @@ class QueryBuilderFactoryTest extends AbstractTestCase {
     public function testNewQueryBuilderTypeWithInvalidArgumentException(): void {
 
         try {
-
             QueryBuilderFactory::newQueryBuilderType("type");
         } catch (Throwable $ex) {
 
