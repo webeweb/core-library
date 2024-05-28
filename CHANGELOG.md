@@ -1,8 +1,10 @@
 CHANGELOG
 =========
 
-### master
+### [9.5.6](https://github.com/webeweb/core-library/tree/v9.5.6) (2024-05-28)
 
+- Fix Alphabetical node interface methods
+- Improve code quality
 - Prepare QueryBuilder documentation
 
 ### [9.5.5](https://github.com/webeweb/core-library/tree/v9.5.5) (2024-05-17)
