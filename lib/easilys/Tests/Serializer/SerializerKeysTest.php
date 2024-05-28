@@ -10,6 +10,8 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
+
 namespace WBW\Library\Easilys\Tests\Serializer;
 
 use WBW\Library\Easilys\Serializer\SerializerKeys;
