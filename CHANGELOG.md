@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### master
+
+- Improve Assets helper
+
 ### [9.5.7](https://github.com/webeweb/core-library/tree/v9.5.7) (2024-05-28)
 
 - Improve code quality
