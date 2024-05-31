@@ -54,29 +54,45 @@ class AssetsHelper {
     }
 
     /**
+     * Unzip an asset.
+     *
+     * @param string $filename The filename.
+     * @param string $directory The directory.
+     * @return bool Returns true in case of success, false otherwise.
+     * @throws InvalidArgumentException Throws an invalid argument if the directory is not a directory.
+     */
+    public static function unzipAsset(string $filename, string $directory): bool {
+
+        if (false === is_dir($directory)) {
+            throw new InvalidArgumentException(sprintf('"%s" is not a directory', $directory));
+        }
+
+        $result = false;
+
+        $zip = new ZipArchive();
+        if (true === $zip->open($filename)) {
+
+            $result = $zip->extractTo(realpath($directory));
+            $zip->close();
+        }
+
+        return $result;
+    }
+
+    /**
      * Unzip all assets.
      *
      * @param string $src The source directory.
      * @param string $dst The destination directory.
-     * @return bool[] Returns the assets.
-     * @throws InvalidArgumentException Throws an invalid argument if a directory is not a directory.
+     * @return bool[] Returns the results.
+     * @throws InvalidArgumentException Throws an invalid argument if the directory is not a directory.
      */
     public static function unzipAssets(string $src, string $dst): array {
-
-        if (false === is_dir($dst)) {
-            throw new InvalidArgumentException(sprintf('"%s" is not a directory', $dst));
-        }
 
         $result = [];
 
         foreach (static::listAssets($src) as $current) {
-
-            $zip = new ZipArchive();
-
-            if (true === $zip->open($current)) {
-                $result[$current] = $zip->extractTo(realpath($dst));
-                $zip->close();
-            }
+            $result[$current] = static::unzipAsset($current, $dst);
         }
 
         return $result;
