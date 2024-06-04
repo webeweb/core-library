@@ -1,8 +1,9 @@
 CHANGELOG
 =========
 
-### master
+### [9.6.0](https://github.com/webeweb/core-library/tree/v9.6.0) (2024-06-04)
 
+- Add integer duration trait
 - Improve Assets helper
 
 ### [9.5.7](https://github.com/webeweb/core-library/tree/v9.5.7) (2024-05-28)
