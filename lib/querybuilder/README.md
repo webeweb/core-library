@@ -9,7 +9,7 @@ querybuilder-library
 > IMPORTANT NOTICE: Merged from my original repository
 > [jquery-querybuilder-bundle](https://github.com/webeweb/jquery-querybuilder-bundle)
 
-`querybuilder-library` eases the use of [jQuery QueryBuilder](https://querybuilder.js.org/)
+`querybuilder-library` eases the use of [QueryBuilder](https://querybuilder.js.org/)
 to create user-friendly query/filter in your application by providing PHP
 objects to do the heavy lifting.
 
