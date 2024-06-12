@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [9.6.1](https://github.com/webeweb/core-library/tree/v9.6.1) (2024-06-12)
+
+- Fix type error into String helper when argument is not a string 
+
 ### [9.6.0](https://github.com/webeweb/core-library/tree/v9.6.0) (2024-06-04)
 
 - Add integer duration trait
