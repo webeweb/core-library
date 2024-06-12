@@ -181,6 +181,23 @@ class StringHelper {
 
         $output = [];
 
+        $callback = function($v): ?string {
+
+            if (true === is_bool($v)) {
+                return static::parseBoolean($v);
+            }
+
+            if (true === is_numeric($v)) {
+                return "$v";
+            }
+
+            if (true === is_string($v)) {
+                return trim($v);
+            }
+
+            return $v;
+        };
+
         foreach ($values as $key => $value) {
 
             if (null === $value) {
@@ -188,17 +205,13 @@ class StringHelper {
             }
 
             if (true === is_array($value)) {
-                $buffer = trim(implode(" ", $value));
-            } elseif (true === is_bool($value)) {
-                $buffer = static::parseBoolean($value);
-            } elseif (true === is_numeric($value)) {
-                $buffer = "$value";
+                $buffer = trim(implode(" ", array_map($callback, $value)));
             } else {
-                $buffer = trim($value);
+                $buffer = $callback($value);
             }
 
             if ("" !== $buffer) {
-                $output[] = $key . '="' . preg_replace("/\s+/", " ", $buffer) . '"';
+                $output[] = $callback($key) . '="' . preg_replace("/\s+/", " ", $buffer) . '"';
             }
         }
 
