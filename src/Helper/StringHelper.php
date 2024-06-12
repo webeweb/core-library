@@ -192,7 +192,7 @@ class StringHelper {
             } elseif (true === is_bool($value)) {
                 $buffer = static::parseBoolean($value);
             } elseif (true === is_numeric($value)) {
-                $buffer = $value;
+                $buffer = "$value";
             } else {
                 $buffer = trim($value);
             }
