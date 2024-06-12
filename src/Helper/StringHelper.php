@@ -189,6 +189,10 @@ class StringHelper {
 
             if (true === is_array($value)) {
                 $buffer = trim(implode(" ", $value));
+            } elseif (true === is_bool($value)) {
+                $buffer = static::parseBoolean($value);
+            } elseif (true === is_numeric($value)) {
+                $buffer = $value;
             } else {
                 $buffer = trim($value);
             }

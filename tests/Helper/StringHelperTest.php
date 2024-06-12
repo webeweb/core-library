@@ -145,16 +145,20 @@ class StringHelperTest extends AbstractTestCase {
     public function testParseArray(): void {
 
         $arg = [
-            "exception" => null,
-            "id"        => "id",
-            "class"     => [
+            "exception"          => null,
+            "id"                 => "id",
+            "class"              => [
                 "class1",
                 "class2",
                 "class3   class4",
             ],
+            "data-type-boolean" => true,
+            "data-type-float"   => 0.1,
+            "data-type-integer" => 1,
         ];
+        $exp = 'id="id" class="class1 class2 class3 class4" data-type-boolean="true" data-type-float="0.1" data-type-integer="1"';
 
-        $this->assertEquals('id="id" class="class1 class2 class3 class4"', StringHelper::parseArray($arg));
+        $this->assertEquals($exp, StringHelper::parseArray($arg));
     }
 
     /**
