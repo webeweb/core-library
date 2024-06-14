@@ -145,9 +145,9 @@ class StringHelperTest extends AbstractTestCase {
     public function testParseArray(): void {
 
         $arg = [
-            "exception"          => null,
-            "id"                 => "id",
-            "class"              => [
+            "exception"         => null,
+            "id"                => "id",
+            "class"             => [
                 null,
                 0.1,
                 1,
