@@ -67,19 +67,19 @@ class JsonSerializer {
     /**
      * Sort an array.
      *
-     * @param array|null $data The data.
-     * @return array|null Returns the sorted array.
+     * @param mixed[]|null $array The array.
+     * @return mixed[]|null Returns the array.
      */
-    public static function sortArray(?array $data): ?array {
+    public static function sortArray(?array $array): ?array {
 
-        if (null === $data) {
+        if (null === $array) {
             return null;
         }
 
-        if (true === ArrayHelper::isObject($data)) {
-            ksort($data);
+        if (true === ArrayHelper::isObject($array)) {
+            ksort($array);
         }
 
-        return $data;
+        return $array;
     }
 }
