@@ -14,6 +14,7 @@ declare(strict_types = 1);
 namespace WBW\Library\Common\Serializer;
 
 use JsonSerializable;
+use WBW\Library\Common\Helper\ArrayHelper;
 
 /**
  * JSON serializer.
@@ -61,5 +62,24 @@ class JsonSerializer {
         }
 
         return $model->jsonSerialize();
+    }
+
+    /**
+     * Sort an array.
+     *
+     * @param array|null $data The data.
+     * @return array|null Returns the sorted array.
+     */
+    public static function sortArray(?array $data): ?array {
+
+        if (null === $data) {
+            return null;
+        }
+
+        if (true === ArrayHelper::isObject($data)) {
+            ksort($data);
+        }
+
+        return $data;
     }
 }
