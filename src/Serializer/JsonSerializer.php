@@ -76,9 +76,18 @@ class JsonSerializer {
             return null;
         }
 
-        if (true === ArrayHelper::isObject($array)) {
-            ksort($array);
+        foreach ($array as $k => $v) {
+
+            if (true === is_array($v)) {
+                $array[$k] = static::sortArray($v);
+            }
         }
+
+        if (false === ArrayHelper::isObject($array)) {
+            return $array;
+        }
+
+        ksort($array, SORT_STRING);
 
         return $array;
     }
