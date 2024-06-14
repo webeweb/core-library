@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+### master
+
+- Add sortArray() into JSON serializer
+- Improve code quality
+
 ### [9.6.1](https://github.com/webeweb/core-library/tree/v9.6.1) (2024-06-12)
 
 - Fix type error into String helper when argument is not a string 
