@@ -54,10 +54,6 @@ class OcrProviderTest extends AbstractTestCase {
         // Set an I/O file mock.
         $file = new IOFile(getcwd() . "/tests/ThirdParty/OcrLad/Model/OcrFileTest.php");
 
-        $obj = new TestOcrProvider($this->logger);
-        $obj->setLocalDirectoryAfter("/localDirectoryAfter");
-        $obj->setRemoteDirectoryAfter("/remoteDirectoryAfter");
-
         $md5 = md5($file->getPathname());
 
         $exp = [
@@ -75,6 +71,10 @@ class OcrProviderTest extends AbstractTestCase {
                 "/localDirectoryAfter/~$md5.tif",
             ],
         ];
+
+        $obj = new TestOcrProvider($this->logger);
+        $obj->setLocalDirectoryAfter("/localDirectoryAfter");
+        $obj->setRemoteDirectoryAfter("/remoteDirectoryAfter");
 
         $res = $obj->buildFilePaths($file);
         $this->assertEquals($exp, $res);

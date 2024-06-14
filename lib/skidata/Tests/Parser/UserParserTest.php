@@ -35,6 +35,8 @@ class UserParserTest extends AbstractTestCase {
      */
     public function testParseEntity(): void {
 
+        $exp = '987654321;123456789;"title";"surname";"firstname";20170920;"12345";"remarks";20170921 115500;0;"identificationNumber";0;1;1;"creditCardNumber";;"remarks2";"remarks3";"division";"email";1;1;"eTicketEmailTelephone";1;3;2';
+
         $obj = new User();
         $obj->setUserNumber(987654321);
         $obj->setCustomerNumber(123456789);
@@ -62,8 +64,6 @@ class UserParserTest extends AbstractTestCase {
         $obj->setETicketAuthentication(1);
         $obj->setETicketServiceTyp(3);
         $obj->setETicketServiceArt(2);
-
-        $exp = '987654321;123456789;"title";"surname";"firstname";20170920;"12345";"remarks";20170921 115500;0;"identificationNumber";0;1;1;"creditCardNumber";;"remarks2";"remarks3";"division";"email";1;1;"eTicketEmailTelephone";1;3;2';
 
         $this->assertEquals($exp, (new UserParser())->parseEntity($obj));
     }

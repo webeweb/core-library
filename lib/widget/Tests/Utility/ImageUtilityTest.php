@@ -77,10 +77,9 @@ class ImageUtilityTest extends AbstractTestCase {
 
         $exp = file_get_contents(__DIR__ . "/../Fixtures/Utility/ImageUtilityTest.testBase64Encode.txt");
 
+        $this->assertNull(ImageUtility::encodeBase64(null));
         $this->assertEquals($exp, ImageUtility::encodeBase64($uri));
         $this->assertEquals($exp, ImageUtility::encodeBase64($url));
-
-        $this->assertNull(ImageUtility::encodeBase64(null));
     }
 
     /**

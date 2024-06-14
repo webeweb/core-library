@@ -36,14 +36,14 @@ class StartRecordFormatParserTest extends AbstractTestCase {
      */
     public function testParseEntity(): void {
 
+        $exp = '190000;0202747;20170921;00018;"EUR"';
+
         $obj = new StartRecordFormat();
         $obj->setVersionRecordStructure(190000);
         $obj->setFacilityNumber(202747);
         $obj->setDateFile(new DateTime("2017-09-21 16:10:00"));
         $obj->setNumberRecords(18);
         $obj->setCurrency("EUR");
-
-        $exp = '190000;0202747;20170921;00018;"EUR"';
 
         $this->assertEquals($exp, (new StartRecordFormatParser())->parseEntity($obj));
     }

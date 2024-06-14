@@ -32,12 +32,12 @@ class ImageHelperTest extends AbstractTestCase {
      */
     public function testGetDimensions(): void {
 
+        $exp = [1920, 1080];
+
         // Set an Image mock.
         $image = $this->getMockBuilder(ImageInterface::class)->getMock();
         $image->expects($this->any())->method("getWidth")->willReturn(1920);
         $image->expects($this->any())->method("getHeight")->willReturn(1080);
-
-        $exp = [1920, 1080];
 
         $this->assertEquals($exp, ImageHelper::getDimensions($image));
     }

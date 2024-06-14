@@ -32,12 +32,12 @@ class AbstractStatusTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
+        $exp = ["code" => 200, "message" => "message", "ruleName" => "ruleName"];
+
         $obj = new TestAbstractStatus();
         $obj->setCode(200);
         $obj->setMessage("message");
         $obj->setRuleName("ruleName");
-
-        $exp = ["code" => 200, "message" => "message", "ruleName" => "ruleName"];
 
         $this->assertEquals($exp, $obj->jsonSerialize());
     }

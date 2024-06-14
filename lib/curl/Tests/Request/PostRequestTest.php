@@ -34,10 +34,10 @@ class PostRequestTest extends AbstractTestCase {
      */
     public function testAddPostData(): void {
 
+        $exp = ["name" => "value"];
+
         $obj = new PostRequest($this->configuration, $this->resourcePath);
         $obj->addPostData("name", "value");
-
-        $exp = ["name" => "value"];
 
         $this->assertEquals($exp, $obj->getPostData());
     }

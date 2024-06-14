@@ -96,10 +96,10 @@ class MicrosoftAccessDatabaseConnectorTest extends AbstractTestCase {
      */
     public function testPrepareBinding(): void {
 
-        $obj = new MicrosoftAccessDatabaseConnector($this->authenticator, null);
-
         $arg = ["field1", "field2", "field3"];
         $exp = ["field1" => ":field1", "field2" => ":field2", "field3" => ":field3"];
+
+        $obj = new MicrosoftAccessDatabaseConnector($this->authenticator, null);
 
         $this->assertEquals($exp, $obj->prepareBinding($arg));
     }
@@ -111,10 +111,10 @@ class MicrosoftAccessDatabaseConnectorTest extends AbstractTestCase {
      */
     public function testPrepareInsert(): void {
 
-        $obj = new MicrosoftAccessDatabaseConnector($this->authenticator, null);
-
         $arg = ["field1" => "1", "field2" => "'value2'", "field3" => "'value3'"];
         $exp = "INSERT INTO table (`field1`, `field2`, `field3`) VALUES (1, 'value2', 'value3')";
+
+        $obj = new MicrosoftAccessDatabaseConnector($this->authenticator, null);
 
         $this->assertEquals($exp, $obj->prepareInsert("table", $arg));
     }
@@ -126,10 +126,10 @@ class MicrosoftAccessDatabaseConnectorTest extends AbstractTestCase {
      */
     public function testPrepareUpdate(): void {
 
-        $obj = new MicrosoftAccessDatabaseConnector($this->authenticator, null);
-
         $arg = ["field1" => "1", "field2" => "'value2'", "field3" => "'value3'"];
         $exp = "UPDATE table SET `field1` = 1, `field2` = 'value2', `field3` = 'value3'";
+
+        $obj = new MicrosoftAccessDatabaseConnector($this->authenticator, null);
 
         $this->assertEquals($exp, $obj->prepareUpdate("table", $arg));
     }

@@ -35,6 +35,12 @@ class RequestSerializerTest extends AbstractTestCase {
      */
     public function testSerializeRequestData(): void {
 
+        $exp = [
+            "AnalyticCode"      => "analyticCode",
+            "BuyDateMax"        => "2019-01-22",
+            "IdentificationKey" => "identificationKey",
+        ];
+
         // Set a Request data mock.
         $requestData = new RequestData();
         $requestData->setBuyDateMax(new DateTime("2019-01-22"));
@@ -42,12 +48,6 @@ class RequestSerializerTest extends AbstractTestCase {
         $requestData->setAnalyticCode("analyticCode");
 
         $obj = RequestSerializer::serializeRequestData($requestData);
-
-        $exp = [
-            "AnalyticCode"      => "analyticCode",
-            "BuyDateMax"        => "2019-01-22",
-            "IdentificationKey" => "identificationKey",
-        ];
 
         $this->assertEquals($exp, $obj);
     }

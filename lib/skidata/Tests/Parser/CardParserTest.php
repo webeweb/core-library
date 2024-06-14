@@ -35,6 +35,8 @@ class CardParserTest extends AbstractTestCase {
      */
     public function testParseEntity(): void {
 
+        $exp = '"ticketNumber";987654321;321;20170920;20170921;1;;2;0;3412;0;0;1;1;0;1;"displayText1";"displayText2";9876;123456789012;"serialNumberKeyCard";"3.0";3;"ticke";"serialNo";;20170922;1;1234567';
+
         $obj = new Card();
         $obj->setTicketNumber("ticketNumber");
         $obj->setUserNumber(987654321);
@@ -65,8 +67,6 @@ class CardParserTest extends AbstractTestCase {
         $obj->setSuspendPeriodUntil(new DateTime("2017-09-22 08:00:00"));
         $obj->setUseValidCarParks(true);
         $obj->setProductionFacilityNumber(1234567);
-
-        $exp = '"ticketNumber";987654321;321;20170920;20170921;1;;2;0;3412;0;0;1;1;0;1;"displayText1";"displayText2";9876;123456789012;"serialNumberKeyCard";"3.0";3;"ticke";"serialNo";;20170922;1;1234567';
 
         $this->assertEquals($exp, (new CardParser())->parseEntity($obj));
     }
