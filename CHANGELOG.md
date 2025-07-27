@@ -1,8 +1,9 @@
 CHANGELOG
 =========
 
-### master
+### [9.7.0](https://github.com/webeweb/core-library/tree/v9.7.0) (2025-07-27)
 
+- Add PHP 8.4 support
 - Add sortArray() into JSON serializer
 - Improve code quality
 
