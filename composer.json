@@ -12,6 +12,7 @@
         "quadratus",
         "skidata",
         "widget",
+        "xmltv",
         "cipher",
         "datatabase",
         "exception",
@@ -42,6 +43,7 @@
         "ext-imagick": "*",
         "ext-intl": "*",
         "ext-json": "*",
+        "ext-libxml": "*",
         "ext-mbstring": "*",
         "ext-pdo": "*",
         "ext-posix": "*",
@@ -71,6 +73,7 @@
             "WBW\\Library\\QueryBuilder\\": "lib/querybuilder/",
             "WBW\\Library\\SkiData\\": "lib/skidata/",
             "WBW\\Library\\Widget\\": "lib/widget/",
+            "WBW\\Library\\XmlTv\\": "lib/xmltv/",
             "WBW\\Library\\Common\\": "src"
         },
         "exclude-from-classmap": [
@@ -84,7 +87,8 @@
             "/lib/quadratus/Tests/",
             "/lib/querybuilder/Tests/",
             "/lib/skidata/Tests/",
-            "/lib/widget/Tests/"
+            "/lib/widget/Tests/",
+            "/lib/xmltv/Tests/"
         ]
     },
     "autoload-dev": {
@@ -100,6 +104,7 @@
             "WBW\\Library\\QueryBuilder\\Tests\\": "lib/querybuilder/Tests",
             "WBW\\Library\\SkiData\\Tests\\": "lib/skidata/Tests",
             "WBW\\Library\\Widget\\Tests\\": "lib/widget/Tests",
+            "WBW\\Library\\XmlTv\\Tests\\": "lib/xmltv/Tests",
             "WBW\\Library\\Common\\Tests\\": "tests"
         }
     },
