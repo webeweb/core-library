@@ -774,7 +774,7 @@ class XmlDeserializer extends BaseXmlDeserializer {
     }
 
     /**
-     * Deserialize an URL node.
+     * Deserialize a URL node.
      *
      * @param DOMNode $domNode The DOM node.
      * @return Url Returns the URL.

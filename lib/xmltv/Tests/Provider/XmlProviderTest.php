@@ -84,8 +84,8 @@ class XmlProviderTest extends AbstractTestCase {
         // Set a Logger mock.
         $logger = $this->getMockBuilder(LoggerInterface::class)->getMock();
 
-        // Set an URL mock.
-        $url = "https://raw.githubusercontent.com/webeweb/core-library/master/tests/Fixtures/xmltv.xml";
+        // Set a URL mock.
+        $url = "https://raw.githubusercontent.com/webeweb/core-library/master/lib/xmltv/Tests/Fixtures/xmltv.xml";
 
         $res = XmlProvider::getXml($url, $this->input, $logger);
         $this->assertInstanceOf(Tv::class, $res);

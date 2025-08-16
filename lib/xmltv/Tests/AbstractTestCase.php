@@ -512,7 +512,7 @@ abstract class AbstractTestCase extends BaseTestCase {
         // Set a Tv mock.
         $this->tv = new Tv();
 
-        // Set an URL mock.
+        // Set a URL mock.
         $this->url = new Url();
 
         // Set a Value mock.

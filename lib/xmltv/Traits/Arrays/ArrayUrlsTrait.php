@@ -31,7 +31,7 @@ trait ArrayUrlsTrait {
     protected $urls;
 
     /**
-     * Add an URL.
+     * Add a URL.
      *
      * @param Url $url The URL.
      * @return self Returns this instance.

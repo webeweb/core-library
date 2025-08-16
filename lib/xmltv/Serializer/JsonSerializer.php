@@ -549,7 +549,7 @@ class JsonSerializer {
     }
 
     /**
-     * Serialize an URL.
+     * Serialize a URL.
      *
      * @param Url $model The URL.
      * @return array<string,mixed> Returns the serialized URL.

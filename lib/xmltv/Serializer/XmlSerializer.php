@@ -613,7 +613,7 @@ class XmlSerializer {
     }
 
     /**
-     * Serialize an URL.
+     * Serialize a URL.
      *
      * @param Url $model The URL.
      * @return string Returns the serialized URL.
