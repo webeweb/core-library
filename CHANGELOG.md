@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+### master
+
+- Backup XML TV library
+- Update dependencies
+
 ### [9.7.0](https://github.com/webeweb/core-library/tree/v9.7.0) (2025-07-27)
 
 - Add PHP 8.4 support
