@@ -1,7 +1,7 @@
 CHANGELOG
 =========
 
-### master
+### [9.8.0](https://github.com/webeweb/core-library/tree/v9.8.0) (2025-08-17)
 
 - Backup XML TV library
 - Update dependencies
