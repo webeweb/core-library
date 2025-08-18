@@ -1,4 +1,4 @@
-DOCUMENTATION
+Documentation
 =============
 
 Get an XML file:
