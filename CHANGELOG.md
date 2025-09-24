@@ -1,7 +1,7 @@
 CHANGELOG
 =========
 
-### master
+### [9.9.0](https://github.com/webeweb/core-library/tree/v9.9.0) (2025-09-24)
 
 - Improve code quality
 
