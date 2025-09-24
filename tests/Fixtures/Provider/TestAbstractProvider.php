@@ -31,7 +31,7 @@ class TestAbstractProvider extends AbstractProvider {
      *
      * @param LoggerInterface|null $logger The logger.
      */
-    public function __construct(LoggerInterface $logger = null) {
+    public function __construct(?LoggerInterface $logger = null) {
         parent::__construct($logger);
     }
 

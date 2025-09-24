@@ -35,7 +35,7 @@ class TestNode extends AbstractNode {
     /**
      * {@inheritDoc}
      */
-    public function setParent(AbstractNode $parent = null): AbstractNode {
+    public function setParent(?AbstractNode $parent): AbstractNode {
         return parent::setParent($parent);
     }
 }
