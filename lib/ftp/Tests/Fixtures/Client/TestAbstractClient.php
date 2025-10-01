@@ -18,12 +18,12 @@ use WBW\Library\Ftp\Client\AbstractClient;
 use WBW\Library\Ftp\Exception\FtpException;
 
 /**
- * Test client.
+ * Test abstract client.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Ftp\Tests\Fixtures\Client
  */
-class TestClient extends AbstractClient {
+class TestAbstractClient extends AbstractClient {
 
     /**
      * Constructor.
