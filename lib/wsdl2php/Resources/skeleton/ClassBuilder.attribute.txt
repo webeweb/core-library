@@ -1,0 +1,7 @@
+
+    /**
+     * {{ attribute }}.
+     *
+     * @var {{ type }}|null
+     */
+    protected ${{ attribute }};
