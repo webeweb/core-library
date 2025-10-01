@@ -1,0 +1,15 @@
+<?php
+{{ header }}
+declare(strict_types = 1);
+
+namespace {{ namespace }};
+{{ uses }}
+/**
+ * {{ classname }}.
+ *
+ * @author {{ author }}
+ * @package {{ namespace }}
+ */
+class {{ classname }}{{ extends }}{{ implements }} {
+{{ attributes }}{{ construct }}{{ methods }}
+}
