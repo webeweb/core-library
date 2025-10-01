@@ -18,7 +18,7 @@ use WBW\Library\Common\Serializer\SerializerKeys;
 use WBW\Library\Common\Sorter\AlphabeticalNodeInterface;
 use WBW\Library\Widget\Component\NavigationNodeInterface;
 use WBW\Library\Widget\Tests\AbstractTestCase;
-use WBW\Library\Widget\Tests\Fixtures\Component\TestNavigationNode;
+use WBW\Library\Widget\Tests\Fixtures\Component\TestAbstractNavigationNode;
 
 /**
  * Abstract navigation node test.
@@ -36,9 +36,9 @@ class AbstractNavigationNodeTest extends AbstractTestCase {
     public function testAddNode(): void {
 
         // Set a Navigation node mock.
-        $node = new TestNavigationNode("node");
+        $node = new TestAbstractNavigationNode("node");
 
-        $obj = new TestNavigationNode("id");
+        $obj = new TestAbstractNavigationNode("id");
 
         $this->assertSame($obj, $obj->addNode($node));
         $this->assertEquals([$node], $obj->getNodes());
@@ -55,9 +55,9 @@ class AbstractNavigationNodeTest extends AbstractTestCase {
     public function testClearNode(): void {
 
         // Set a Navigation node mock.
-        $node = new TestNavigationNode("node");
+        $node = new TestAbstractNavigationNode("node");
 
-        $obj = new TestNavigationNode("id");
+        $obj = new TestAbstractNavigationNode("id");
 
         $this->assertSame($obj, $obj->addNode($node));
         $this->assertEquals([$node], $obj->getNodes());
@@ -74,9 +74,9 @@ class AbstractNavigationNodeTest extends AbstractTestCase {
     public function testGetFirstNode(): void {
 
         // Set a Navigation node mock.
-        $node = new TestNavigationNode("node");
+        $node = new TestAbstractNavigationNode("node");
 
-        $obj = new TestNavigationNode("id");
+        $obj = new TestAbstractNavigationNode("id");
 
         $this->assertSame($obj, $obj->addNode($node));
         $this->assertSame($node, $obj->getFirstNode());
@@ -90,9 +90,9 @@ class AbstractNavigationNodeTest extends AbstractTestCase {
     public function testGetLastNode(): void {
 
         // Set a Navigation node mock.
-        $node = new TestNavigationNode("node");
+        $node = new TestAbstractNavigationNode("node");
 
-        $obj = new TestNavigationNode("id");
+        $obj = new TestAbstractNavigationNode("id");
 
         $this->assertSame($obj, $obj->addNode($node));
         $this->assertSame($node, $obj->getLastNode());
@@ -106,9 +106,9 @@ class AbstractNavigationNodeTest extends AbstractTestCase {
     public function testGetNodeAt(): void {
 
         // Set a Navigation node mock.
-        $node = new TestNavigationNode("node");
+        $node = new TestAbstractNavigationNode("node");
 
-        $obj = new TestNavigationNode("id");
+        $obj = new TestAbstractNavigationNode("id");
 
         $this->assertSame($obj, $obj->addNode($node));
         $this->assertNull($obj->getNodeAt(-1));
@@ -124,10 +124,10 @@ class AbstractNavigationNodeTest extends AbstractTestCase {
     public function testGetNodeById(): void {
 
         // Set the Navigation node mocks.
-        $node1 = new TestNavigationNode("id1");
-        $node2 = new TestNavigationNode("id2");
+        $node1 = new TestAbstractNavigationNode("id1");
+        $node2 = new TestAbstractNavigationNode("id2");
 
-        $obj = new TestNavigationNode("id");
+        $obj = new TestAbstractNavigationNode("id");
         $obj->addNode($node1);
 
         $this->assertNull($obj->getNodeById($node2->getId()));
@@ -148,9 +148,9 @@ class AbstractNavigationNodeTest extends AbstractTestCase {
      */
     public function testIsDisplayable(): void {
 
-        $obj = new TestNavigationNode("id");
+        $obj = new TestAbstractNavigationNode("id");
 
-        $this->assertSame($obj, $obj->addNode(new TestNavigationNode("node")));
+        $this->assertSame($obj, $obj->addNode(new TestAbstractNavigationNode("node")));
 
         $this->assertFalse($obj->isDisplayable());
 
@@ -166,7 +166,7 @@ class AbstractNavigationNodeTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        $obj = new TestNavigationNode(SerializerKeys::LABEL);
+        $obj = new TestAbstractNavigationNode(SerializerKeys::LABEL);
 
         $this->assertIsArray($obj->jsonSerialize());
     }
@@ -179,9 +179,9 @@ class AbstractNavigationNodeTest extends AbstractTestCase {
     public function testRemoveNode(): void {
 
         // Set a Navigation node mock.
-        $node = new TestNavigationNode("node");
+        $node = new TestAbstractNavigationNode("node");
 
-        $obj = new TestNavigationNode("id");
+        $obj = new TestAbstractNavigationNode("id");
 
         $this->assertSame($obj, $obj->removeNode($node));
 
@@ -199,7 +199,7 @@ class AbstractNavigationNodeTest extends AbstractTestCase {
      */
     public function testSetMatcher(): void {
 
-        $obj = new TestNavigationNode("id");
+        $obj = new TestAbstractNavigationNode("id");
 
         $obj->setMatcher(NavigationNodeInterface::MATCHER_ROUTER);
         $this->assertEquals(NavigationNodeInterface::MATCHER_ROUTER, $obj->getMatcher());
@@ -213,9 +213,9 @@ class AbstractNavigationNodeTest extends AbstractTestCase {
     public function testSize(): void {
 
         // Set a Navigation node mock.
-        $node = new TestNavigationNode("node");
+        $node = new TestAbstractNavigationNode("node");
 
-        $obj = new TestNavigationNode("id");
+        $obj = new TestAbstractNavigationNode("id");
 
         $this->assertEquals(0, $obj->size());
 
@@ -230,7 +230,7 @@ class AbstractNavigationNodeTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $obj = new TestNavigationNode("id");
+        $obj = new TestAbstractNavigationNode("id");
 
         $this->assertInstanceOf(JsonSerializable::class, $obj);
         $this->assertInstanceOf(AlphabeticalNodeInterface::class, $obj);

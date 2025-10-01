@@ -16,12 +16,12 @@ namespace WBW\Library\Widget\Tests\Fixtures\Component;
 use WBW\Library\Widget\Component\AbstractNavigationNode;
 
 /**
- * Test navigation node.
+ * Test abstract navigation node.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Widget\Tests\Fixtures\Component
  */
-class TestNavigationNode extends AbstractNavigationNode {
+class TestAbstractNavigationNode extends AbstractNavigationNode {
 
     /**
      * Constructor.
