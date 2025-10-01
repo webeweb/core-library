@@ -16,12 +16,12 @@ namespace WBW\Library\Widget\Tests\Fixtures\Component;
 use WBW\Library\Widget\Component\AbstractProgressBar;
 
 /**
- * Test progress bar.
+ * Test abstract progress bar.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Widget\Tests\Fixtures\Component
  */
-class TestProgressBar extends AbstractProgressBar {
+class TestAbstractProgressBar extends AbstractProgressBar {
 
     /**
      * Constructor.

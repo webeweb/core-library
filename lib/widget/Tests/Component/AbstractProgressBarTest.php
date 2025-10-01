@@ -16,7 +16,7 @@ namespace WBW\Library\Widget\Tests\Component;
 use JsonSerializable;
 use WBW\Library\Widget\Component\ProgressBarInterface;
 use WBW\Library\Widget\Tests\AbstractTestCase;
-use WBW\Library\Widget\Tests\Fixtures\Component\TestProgressBar;
+use WBW\Library\Widget\Tests\Fixtures\Component\TestAbstractProgressBar;
 
 /**
  * Abstract progress bar test.
@@ -33,7 +33,7 @@ class AbstractProgressBarTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        $obj = new TestProgressBar("test");
+        $obj = new TestAbstractProgressBar("test");
 
         $this->assertIsArray($obj->jsonSerialize());
     }
@@ -45,7 +45,7 @@ class AbstractProgressBarTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $obj = new TestProgressBar("test");
+        $obj = new TestAbstractProgressBar("test");
 
         $this->assertInstanceOf(JsonSerializable::class, $obj);
         $this->assertInstanceOf(ProgressBarInterface::class, $obj);
