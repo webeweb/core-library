@@ -62,6 +62,7 @@ Libraries resources:
 - FTP [README](lib/ftp/README.md)/[Documentation](lib/ftp/Resources/doc/index.md)
 - Highcharts [README](lib/highcharts/README.md)/[Documentation](lib/highcharts/Resources/doc/index.md)
 - QueryBuilder [README](lib/querybuilder/README.md)/[Documentation](lib/querybuilder/Resources/doc/index.md)
+- WSDL to PHP [README](lib/wsdl2php/README.md)/[Documentation](lib/wsdl2php/Resources/doc/index.md)
 - XMLTV [README](lib/xmltv/README.md)/[Documentation](lib/xmltv/Resources/doc/index.md)
 
 ## Testing
