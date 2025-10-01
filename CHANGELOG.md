@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+### master
+
+- Backup WSDL to PHP library
+- Improve code quality
+
 ### [9.9.0](https://github.com/webeweb/core-library/tree/v9.9.0) (2025-09-24)
 
 - Improve code quality
@@ -18,7 +23,7 @@ CHANGELOG
 
 ### [9.6.1](https://github.com/webeweb/core-library/tree/v9.6.1) (2024-06-12)
 
-- Fix type error into String helper when argument is not a string 
+- Fix type error into String helper when argument is not a string
 
 ### [9.6.0](https://github.com/webeweb/core-library/tree/v9.6.0) (2024-06-04)
 
@@ -39,7 +44,7 @@ CHANGELOG
 
 - Fix serializeArray()
 - Improve documentation
-- Remove dead code into Guzzle helper 
+- Remove dead code into Guzzle helper
 
 ### [9.5.4](https://github.com/webeweb/core-library/tree/v9.5.4) (2024-05-15)
 
@@ -65,7 +70,7 @@ CHANGELOG
 - Backup Highcharts library
 - Improve code quality
 
-### [9.4.0](https://github.com/webeweb/core-library/tree/v9.4.0) (2024-05-13)   
+### [9.4.0](https://github.com/webeweb/core-library/tree/v9.4.0) (2024-05-13)
 
 - Backup QueryBuilder library
 - Improve code quality
