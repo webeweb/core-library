@@ -1,0 +1,13 @@
+
+    /**
+     * Test the set{{ attribute }}() method.
+     *
+     * @return void
+     */
+    public function test{{ attribute }}(): void {
+
+        $obj = new {{ classname }}();
+
+        $obj->set{{ attribute }}({{ value }});
+        $this-assertEquals({{ value }}, $obj->get{{ attribute }}());
+    }
