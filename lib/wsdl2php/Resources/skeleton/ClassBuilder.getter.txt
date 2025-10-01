@@ -1,0 +1,9 @@
+
+    /**
+     * Get the {{ attribute }}.
+     *
+     * @return {{ type }}|null Returns the {{ attribute }}.
+     */
+    public function get{{ Attribute }}(): ?{{ return }} {
+        return $this->{{ attribute }};
+    }
