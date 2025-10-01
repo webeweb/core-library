@@ -16,7 +16,7 @@ namespace WBW\Library\Widget\Tests\Component;
 use JsonSerializable;
 use WBW\Library\Widget\Component\ToastInterface;
 use WBW\Library\Widget\Tests\AbstractTestCase;
-use WBW\Library\Widget\Tests\Fixtures\Component\TestToast;
+use WBW\Library\Widget\Tests\Fixtures\Component\TestAbstractToast;
 
 /**
  * Abstract toast test.
@@ -33,7 +33,7 @@ class AbstractToastTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        $obj = new TestToast();
+        $obj = new TestAbstractToast();
 
         $this->assertIsArray($obj->jsonSerialize());
     }
@@ -45,7 +45,7 @@ class AbstractToastTest extends AbstractTestCase {
      */
     public function testSetContent(): void {
 
-        $obj = new TestToast();
+        $obj = new TestAbstractToast();
 
         $obj->setContent("content");
         $this->assertEquals("content", $obj->getContent());
@@ -58,7 +58,7 @@ class AbstractToastTest extends AbstractTestCase {
      */
     public function testSetType(): void {
 
-        $obj = new TestToast();
+        $obj = new TestAbstractToast();
 
         $obj->setType("type");
         $this->assertEquals("type", $obj->getType());
@@ -71,7 +71,7 @@ class AbstractToastTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $obj = new TestToast();
+        $obj = new TestAbstractToast();
 
         $this->assertInstanceOf(JsonSerializable::class, $obj);
         $this->assertInstanceOf(ToastInterface::class, $obj);

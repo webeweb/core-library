@@ -17,12 +17,12 @@ use WBW\Library\Widget\Component\AbstractToast;
 use WBW\Library\Widget\Component\ToastInterface;
 
 /**
- * Test toast.
+ * Test abstract toast.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Widget\Tests\Fixtures\Component
  */
-class TestToast extends AbstractToast {
+class TestAbstractToast extends AbstractToast {
 
     /**
      * Constructor.
