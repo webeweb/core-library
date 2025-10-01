@@ -16,7 +16,7 @@ namespace WBW\Library\Widget\Tests\Component;
 use JsonSerializable;
 use WBW\Library\Widget\Component\ColorInterface;
 use WBW\Library\Widget\Tests\AbstractTestCase;
-use WBW\Library\Widget\Tests\Fixtures\Component\TestColor;
+use WBW\Library\Widget\Tests\Fixtures\Component\TestAbstractColor;
 
 /**
  * Abstract color test.
@@ -33,7 +33,7 @@ class AbstractColorTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        $obj = new TestColor("test");
+        $obj = new TestAbstractColor("test");
 
         $this->assertIsArray($obj->jsonSerialize());
     }
@@ -45,7 +45,7 @@ class AbstractColorTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $obj = new TestColor("test");
+        $obj = new TestAbstractColor("test");
 
         $this->assertInstanceOf(JsonSerializable::class, $obj);
         $this->assertInstanceOf(ColorInterface::class, $obj);

@@ -16,12 +16,12 @@ namespace WBW\Library\Widget\Tests\Fixtures\Component;
 use WBW\Library\Widget\Component\AbstractColor;
 
 /**
- * Test color.
+ * Test abstract color.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Widget\Tests\Fixtures\Component
  */
-class TestColor extends AbstractColor {
+class TestAbstractColor extends AbstractColor {
 
     /**
      * Constructor.
