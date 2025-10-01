@@ -1,0 +1,11 @@
+
+    /**
+     * Set the {{ attribute }}.
+     *
+     * @param {{ type }}|null ${{ attribute }} The {{ attribute }}.
+     * @return {{ classname }} Returns this {{ classname }}.
+     */
+    public function set{{ Attribute }}(?{{ return }} ${{ attribute }}): {{ classname }} {
+        $this->{{ attribute }} = ${{ attribute }};
+        return $this;
+    }
