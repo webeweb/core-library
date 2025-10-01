@@ -16,7 +16,7 @@ namespace WBW\Library\Widget\Tests\Component;
 use JsonSerializable;
 use WBW\Library\Widget\Component\ButtonInterface;
 use WBW\Library\Widget\Tests\AbstractTestCase;
-use WBW\Library\Widget\Tests\Fixtures\Component\TestButton;
+use WBW\Library\Widget\Tests\Fixtures\Component\TestAbstractButton;
 
 /**
  * Abstract button test.
@@ -33,7 +33,7 @@ class AbstractButtonTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        $obj = new TestButton("test");
+        $obj = new TestAbstractButton("test");
 
         $this->assertIsArray($obj->jsonSerialize());
     }
@@ -45,7 +45,7 @@ class AbstractButtonTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $obj = new TestButton("test");
+        $obj = new TestAbstractButton("test");
 
         $this->assertInstanceOf(JsonSerializable::class, $obj);
         $this->assertInstanceOf(ButtonInterface::class, $obj);
