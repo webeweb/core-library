@@ -20,6 +20,7 @@
                 <directory>lib/querybuilder/Tests</directory>
                 <directory>lib/skidata/Tests</directory>
                 <directory>lib/widget/Tests</directory>
+                <directory>lib/wsdl2php/Tests</directory>
                 <directory>lib/xmltv/Tests</directory>
             </exclude>
         </whitelist>
@@ -37,6 +38,7 @@
             <directory>./lib/querybuilder/Tests</directory>
             <directory>./lib/skidata/Tests</directory>
             <directory>./lib/widget/Tests</directory>
+            <directory>./lib/wsdl2php/Tests</directory>
             <directory>./lib/xmltv/Tests</directory>
             <directory>./tests</directory>
         </testsuite>
