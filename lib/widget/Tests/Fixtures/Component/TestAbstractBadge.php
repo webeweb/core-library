@@ -16,12 +16,12 @@ namespace WBW\Library\Widget\Tests\Fixtures\Component;
 use WBW\Library\Widget\Component\AbstractBadge;
 
 /**
- * Test badge.
+ * Test abstract badge.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Widget\Tests\Fixtures\Component
  */
-class TestBadge extends AbstractBadge {
+class TestAbstractBadge extends AbstractBadge {
 
     /**
      * Constructor.

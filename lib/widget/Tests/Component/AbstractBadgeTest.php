@@ -16,7 +16,7 @@ namespace WBW\Library\Widget\Tests\Component;
 use JsonSerializable;
 use WBW\Library\Widget\Component\BadgeInterface;
 use WBW\Library\Widget\Tests\AbstractTestCase;
-use WBW\Library\Widget\Tests\Fixtures\Component\TestBadge;
+use WBW\Library\Widget\Tests\Fixtures\Component\TestAbstractBadge;
 
 /**
  * Abstract badge test.
@@ -33,7 +33,7 @@ class AbstractBadgeTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        $obj = new TestBadge("test");
+        $obj = new TestAbstractBadge("test");
 
         $this->assertIsArray($obj->jsonSerialize());
     }
@@ -45,7 +45,7 @@ class AbstractBadgeTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $obj = new TestBadge("test");
+        $obj = new TestAbstractBadge("test");
 
         $this->assertInstanceOf(JsonSerializable::class, $obj);
         $this->assertInstanceOf(BadgeInterface::class, $obj);
