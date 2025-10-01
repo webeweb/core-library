@@ -16,12 +16,12 @@ namespace WBW\Library\Widget\Tests\Fixtures\Component;
 use WBW\Library\Widget\Component\AbstractDropdownItem;
 
 /**
- * Test dropdown item.
+ * Test abstract dropdown item.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Widget\Tests\Fixtures\Component
  */
-class TestDropdownItem extends AbstractDropdownItem {
+class TestAbstractDropdownItem extends AbstractDropdownItem {
 
     /**
      * Constructor.

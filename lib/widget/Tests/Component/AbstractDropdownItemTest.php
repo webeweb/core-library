@@ -16,7 +16,7 @@ namespace WBW\Library\Widget\Tests\Component;
 use JsonSerializable;
 use WBW\Library\Widget\Component\DropdownItemInterface;
 use WBW\Library\Widget\Tests\AbstractTestCase;
-use WBW\Library\Widget\Tests\Fixtures\Component\TestDropdownItem;
+use WBW\Library\Widget\Tests\Fixtures\Component\TestAbstractDropdownItem;
 
 /**
  * Dropdown item test.
@@ -33,7 +33,7 @@ class AbstractDropdownItemTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        $obj = new TestDropdownItem();
+        $obj = new TestAbstractDropdownItem();
 
         $this->assertIsArray($obj->jsonSerialize());
     }
@@ -45,7 +45,7 @@ class AbstractDropdownItemTest extends AbstractTestCase {
      */
     public function testSetByDefault(): void {
 
-        $obj = new TestDropdownItem();
+        $obj = new TestAbstractDropdownItem();
 
         $obj->setByDefault(true);
         $this->assertTrue($obj->getByDefault());
@@ -58,7 +58,7 @@ class AbstractDropdownItemTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $obj = new TestDropdownItem();
+        $obj = new TestAbstractDropdownItem();
 
         $this->assertInstanceOf(JsonSerializable::class, $obj);
         $this->assertInstanceOf(DropdownItemInterface::class, $obj);
