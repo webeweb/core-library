@@ -16,7 +16,7 @@ namespace WBW\Library\Widget\Tests\Helper;
 use WBW\Library\Widget\Component\DropdownItemInterface;
 use WBW\Library\Widget\Helper\DropdownItemHelper;
 use WBW\Library\Widget\Tests\AbstractTestCase;
-use WBW\Library\Widget\Tests\Fixtures\Component\TestDropdownItem;
+use WBW\Library\Widget\Tests\Fixtures\Component\TestAbstractDropdownItem;
 
 /**
  * Dropdown item helper test.
@@ -35,9 +35,9 @@ class DropdownItemHelperTest extends AbstractTestCase {
 
         /** @var DropdownItemInterface[] $obj */
         $obj = [
-            new TestDropdownItem(),
-            new TestDropdownItem(),
-            new TestDropdownItem(),
+            new TestAbstractDropdownItem(),
+            new TestAbstractDropdownItem(),
+            new TestAbstractDropdownItem(),
         ];
 
         DropdownItemHelper::setPosition($obj);
@@ -55,10 +55,10 @@ class DropdownItemHelperTest extends AbstractTestCase {
      */
     public function testSwap(): void {
 
-        $src = new TestDropdownItem();
+        $src = new TestAbstractDropdownItem();
         $src->setPosition(0);
 
-        $dst = new TestDropdownItem();
+        $dst = new TestAbstractDropdownItem();
         $dst->setPosition(1);
 
         DropdownItemHelper::swap($src, $dst);
