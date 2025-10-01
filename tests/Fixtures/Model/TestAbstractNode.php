@@ -16,12 +16,12 @@ namespace WBW\Library\Common\Tests\Fixtures\Model;
 use WBW\Library\Common\Model\AbstractNode;
 
 /**
- * Test node.
+ * Test abstract node.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Common\Tests\Fixtures\Model
  */
-class TestNode extends AbstractNode {
+class TestAbstractNode extends AbstractNode {
 
     /**
      * Constructor.
