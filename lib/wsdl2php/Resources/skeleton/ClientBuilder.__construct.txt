@@ -1,0 +1,28 @@
+
+    /**
+     * Constructor.
+     *
+     * @param array $options The options.
+     * @param string|null $wsdl The WSDL.
+     * @throws Throwable Throws an exception if an error occurs.
+     */
+    public function __construct(array $options = [], $wsdl = null) {
+
+        foreach (self::$classmap as $key => $value) {
+
+            if (false === isset($options["classmap"][$key])) {
+                $options["classmap"][$key] = $value;
+            }
+        }
+
+        $options = array_merge([
+            "features" => 1,
+            "trace"    => true,
+        ], $options);
+
+        if (null === $wsdl) {
+            $wsdl = "{{ wsdl }}";
+        }
+
+        parent::__construct($wsdl, $options);
+    }
