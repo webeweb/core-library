@@ -50,7 +50,7 @@ composer install
 Once all required libraries are installed then do:
 
 ```bash
-vendor/bin/phpunit lib/querybuilder/Tests
+vendor/bin/phpunit lib/xmltv/Tests
 ```
 
 ## License
