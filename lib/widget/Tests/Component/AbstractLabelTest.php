@@ -16,7 +16,7 @@ namespace WBW\Library\Widget\Tests\Component;
 use JsonSerializable;
 use WBW\Library\Widget\Component\LabelInterface;
 use WBW\Library\Widget\Tests\AbstractTestCase;
-use WBW\Library\Widget\Tests\Fixtures\Component\TestLabel;
+use WBW\Library\Widget\Tests\Fixtures\Component\TestAbstractLabel;
 
 /**
  * Abstract label test.
@@ -33,7 +33,7 @@ class AbstractLabelTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        $obj = new TestLabel("test");
+        $obj = new TestAbstractLabel("test");
 
         $this->assertIsArray($obj->jsonSerialize());
     }
@@ -45,7 +45,7 @@ class AbstractLabelTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $obj = new TestLabel("test");
+        $obj = new TestAbstractLabel("test");
 
         $this->assertInstanceOf(JsonSerializable::class, $obj);
         $this->assertInstanceOf(LabelInterface::class, $obj);

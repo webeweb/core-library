@@ -16,12 +16,12 @@ namespace WBW\Library\Widget\Tests\Fixtures\Component;
 use WBW\Library\Widget\Component\AbstractLabel;
 
 /**
- * Test label.
+ * Test abstract label.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Widget\Tests\Fixtures\Component
  */
-class TestLabel extends AbstractLabel {
+class TestAbstractLabel extends AbstractLabel {
 
     /**
      * Constructor.
