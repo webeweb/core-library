@@ -16,7 +16,7 @@ namespace WBW\Library\Widget\Tests\Component;
 use JsonSerializable;
 use WBW\Library\Widget\Component\AlertInterface;
 use WBW\Library\Widget\Tests\AbstractTestCase;
-use WBW\Library\Widget\Tests\Fixtures\Component\TestAlert;
+use WBW\Library\Widget\Tests\Fixtures\Component\TestAbstractAlert;
 
 /**
  * Abstract alert test.
@@ -33,7 +33,7 @@ class AbstractAlertTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        $obj = new TestAlert("test");
+        $obj = new TestAbstractAlert("test");
 
         $this->assertIsArray($obj->jsonSerialize());
     }
@@ -45,7 +45,7 @@ class AbstractAlertTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $obj = new TestAlert("test");
+        $obj = new TestAbstractAlert("test");
 
         $this->assertInstanceOf(JsonSerializable::class, $obj);
         $this->assertInstanceOf(AlertInterface::class, $obj);

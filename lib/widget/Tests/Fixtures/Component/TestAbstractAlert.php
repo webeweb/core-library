@@ -16,12 +16,12 @@ namespace WBW\Library\Widget\Tests\Fixtures\Component;
 use WBW\Library\Widget\Component\AbstractAlert;
 
 /**
- * Test alert.
+ * Test abstract alert.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Widget\Tests\Fixtures\Component
  */
-class TestAlert extends AbstractAlert {
+class TestAbstractAlert extends AbstractAlert {
 
     /**
      * Constructor.
