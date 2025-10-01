@@ -1,0 +1,11 @@
+
+    /**
+     * Send a SOAP request {{ method }}.
+     *
+     * @param {{ type }} ${{ parameter }} The request.
+     * @return {{ return }} Returns the response.
+     * @throws Throwable Throws an exception if an error occurs.
+     */
+    public function {{ method }}({{ type }} ${{ parameter }}): {{ return }} {
+        return $this->__soapCall("{{ method }}", [${{ parameter }}]);
+    }
