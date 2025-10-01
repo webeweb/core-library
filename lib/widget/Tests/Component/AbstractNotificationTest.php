@@ -16,7 +16,7 @@ namespace WBW\Library\Widget\Tests\Component;
 use JsonSerializable;
 use WBW\Library\Widget\Component\NotificationInterface;
 use WBW\Library\Widget\Tests\AbstractTestCase;
-use WBW\Library\Widget\Tests\Fixtures\Component\TestNotification;
+use WBW\Library\Widget\Tests\Fixtures\Component\TestAbstractNotification;
 
 /**
  * Abstract notification test.
@@ -33,7 +33,7 @@ class AbstractNotificationTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        $obj = new TestNotification();
+        $obj = new TestAbstractNotification();
 
         $this->assertIsArray($obj->jsonSerialize());
     }
@@ -45,7 +45,7 @@ class AbstractNotificationTest extends AbstractTestCase {
      */
     public function testSetContent(): void {
 
-        $obj = new TestNotification();
+        $obj = new TestAbstractNotification();
 
         $obj->setContent("content");
         $this->assertEquals("content", $obj->getContent());
@@ -58,7 +58,7 @@ class AbstractNotificationTest extends AbstractTestCase {
      */
     public function testSetType(): void {
 
-        $obj = new TestNotification();
+        $obj = new TestAbstractNotification();
 
         $obj->setType("type");
         $this->assertEquals("type", $obj->getType());
@@ -71,7 +71,7 @@ class AbstractNotificationTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $obj = new TestNotification();
+        $obj = new TestAbstractNotification();
 
         $this->assertInstanceOf(JsonSerializable::class, $obj);
         $this->assertInstanceOf(NotificationInterface::class, $obj);

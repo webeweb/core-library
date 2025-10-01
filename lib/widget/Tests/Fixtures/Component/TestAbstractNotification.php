@@ -17,12 +17,12 @@ use WBW\Library\Widget\Component\AbstractNotification;
 use WBW\Library\Widget\Component\NotificationInterface;
 
 /**
- * Test notification.
+ * Test abstract notification.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Widget\Tests\Fixtures\Component
  */
-class TestNotification extends AbstractNotification {
+class TestAbstractNotification extends AbstractNotification {
 
     /**
      * Constructor.
