@@ -16,7 +16,7 @@ namespace WBW\Library\Widget\Tests\Component;
 use JsonSerializable;
 use WBW\Library\Widget\Component\IconInterface;
 use WBW\Library\Widget\Tests\AbstractTestCase;
-use WBW\Library\Widget\Tests\Fixtures\Component\TestIcon;
+use WBW\Library\Widget\Tests\Fixtures\Component\TestAbstractIcon;
 
 /**
  * Abstract icon test.
@@ -33,7 +33,7 @@ class AbstractIconTest extends AbstractTestCase {
      */
     public function testJsonSerialize(): void {
 
-        $obj = new TestIcon();
+        $obj = new TestAbstractIcon();
 
         $this->assertIsArray($obj->jsonSerialize());
     }
@@ -45,7 +45,7 @@ class AbstractIconTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $obj = new TestIcon();
+        $obj = new TestAbstractIcon();
 
         $this->assertInstanceOf(JsonSerializable::class, $obj);
         $this->assertInstanceOf(IconInterface::class, $obj);

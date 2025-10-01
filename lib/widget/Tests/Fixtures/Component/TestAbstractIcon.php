@@ -16,12 +16,12 @@ namespace WBW\Library\Widget\Tests\Fixtures\Component;
 use WBW\Library\Widget\Component\AbstractIcon;
 
 /**
- * Test icon.
+ * Test abstract icon.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Widget\Tests\Fixtures\Component
  */
-class TestIcon extends AbstractIcon {
+class TestAbstractIcon extends AbstractIcon {
 
     /**
      * Constructor.
