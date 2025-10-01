@@ -17,7 +17,7 @@ use InvalidArgumentException;
 use Throwable;
 use WBW\Library\Widget\Component\ImageInterface;
 use WBW\Library\Widget\Tests\AbstractTestCase;
-use WBW\Library\Widget\Tests\Fixtures\Component\TestImage;
+use WBW\Library\Widget\Tests\Fixtures\Component\TestAbstractImage;
 
 /**
  * Image test.
@@ -37,7 +37,7 @@ class AbstractImageTest extends AbstractTestCase {
         // Set a pathname mock.
         $pathname = realpath(__DIR__ . "/../Fixtures/Component/Image/DefaultImage_1920x1037.jpg");
 
-        $obj = new TestImage($pathname);
+        $obj = new TestAbstractImage($pathname);
 
         $this->assertInstanceOf(ImageInterface::class, $obj);
 
@@ -67,7 +67,7 @@ class AbstractImageTest extends AbstractTestCase {
         $pathname = getcwd() . "/exception.txt";
 
         try {
-            new TestImage($pathname);
+            new TestAbstractImage($pathname);
         } catch (Throwable $ex) {
 
             $this->assertInstanceOf(InvalidArgumentException::class, $ex);

@@ -16,12 +16,12 @@ namespace WBW\Library\Widget\Tests\Fixtures\Component;
 use WBW\Library\Widget\Component\AbstractImage;
 
 /**
- * Test image.
+ * Test abstract image.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Widget\Tests\Fixtures\Component
  */
-class TestImage extends AbstractImage {
+class TestAbstractImage extends AbstractImage {
 
     /**
      * Constructor.
