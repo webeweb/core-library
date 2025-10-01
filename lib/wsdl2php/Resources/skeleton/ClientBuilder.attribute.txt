@@ -1,0 +1,9 @@
+
+    /**
+     * Classmap.
+     *
+     * @var array<string,string>
+     */
+    private static $classmap = [
+{{ classmap }}
+    ];
