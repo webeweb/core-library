@@ -13,6 +13,7 @@
         "skidata",
         "widget",
         "xmltv",
+        "wsdl",
         "cipher",
         "datatabase",
         "exception",
@@ -73,6 +74,7 @@
             "WBW\\Library\\QueryBuilder\\": "lib/querybuilder/",
             "WBW\\Library\\SkiData\\": "lib/skidata/",
             "WBW\\Library\\Widget\\": "lib/widget/",
+            "WBW\\Library\\Wsdl2Php\\": "lib/wsdl2php/",
             "WBW\\Library\\XmlTv\\": "lib/xmltv/",
             "WBW\\Library\\Common\\": "src"
         },
@@ -88,6 +90,7 @@
             "/lib/querybuilder/Tests/",
             "/lib/skidata/Tests/",
             "/lib/widget/Tests/",
+            "/lib/wsdl2php/Tests/",
             "/lib/xmltv/Tests/"
         ]
     },
@@ -104,6 +107,7 @@
             "WBW\\Library\\QueryBuilder\\Tests\\": "lib/querybuilder/Tests",
             "WBW\\Library\\SkiData\\Tests\\": "lib/skidata/Tests",
             "WBW\\Library\\Widget\\Tests\\": "lib/widget/Tests",
+            "WBW\\Library\\Wsdl2Php\\Tests\\": "lib/wsdl2php/Tests",
             "WBW\\Library\\XmlTv\\Tests\\": "lib/xmltv/Tests",
             "WBW\\Library\\Common\\Tests\\": "tests"
         }
