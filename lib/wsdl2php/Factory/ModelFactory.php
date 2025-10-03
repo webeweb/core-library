@@ -51,7 +51,7 @@ class ModelFactory {
     /**
      * Create a node.
      *
-     * @param DOMNode $domNode
+     * @param DOMNode $domNode The DOM node.
      * @return AbstractNode|null Returns the created node.
      */
     public static function newNode(DOMNode $domNode): ?AbstractNode {
