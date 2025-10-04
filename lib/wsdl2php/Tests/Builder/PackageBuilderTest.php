@@ -44,6 +44,70 @@ class PackageBuilderTest extends AbstractTestCase {
     }
 
     /**
+     * Test build()
+     *
+     * @return void
+     */
+    public function testBuild(): void {
+
+        // Set a directory mock.
+        $directory = __DIR__ . "/../../../../var/wsdl";
+
+        // Set a filename mock.
+        $filename = implode(DIRECTORY_SEPARATOR, [
+            $directory,
+            "src",
+            "SWSSoapClient.php",
+        ]);
+
+        // Set a WSDL provider mock.
+        $provider = new WsdlProvider($this->wsdl);
+        $provider->load();
+        $provider->index();
+        $provider->sort();
+
+        $obj = new PackageBuilder($provider);
+        $obj->setDirectory($directory);
+
+        $obj->setPackage("test");
+        $obj->setYear("2021");
+        $obj->setCopyright("WEBEWEB");
+        $obj->setNamespace("WBW\\Library\\Test");
+        $obj->setAuthor("webeweb <https://github.com/webeweb/>");
+
+        $obj->load();
+        $obj->build();
+
+        $this->assertFileExists($filename);
+
+        // Clean up the directories.
+        $directories = [
+            implode(DIRECTORY_SEPARATOR, [
+                $directory,
+                "src",
+                "Model",
+            ]),
+            implode(DIRECTORY_SEPARATOR, [
+                $directory,
+                "src",
+                "Request",
+            ]),
+            implode(DIRECTORY_SEPARATOR, [
+                $directory,
+                "src",
+                "Response",
+            ]),
+        ];
+
+        foreach ($directories as $current) {
+            array_map("unlink", glob($current . DIRECTORY_SEPARATOR . "*.php"));
+            rmdir($current);
+        }
+
+        unlink($filename);
+    }
+
+    /**
      * Test setAuthor()
      *
      * @return void
