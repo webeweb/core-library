@@ -6,3 +6,6 @@
 
 /var/*
 !/var/.gitkeep
+!/var/cache/.gitkeep
+!/var/wsdl/src/.gitkeep
+!/var/wsdl/tests/.gitkeep
