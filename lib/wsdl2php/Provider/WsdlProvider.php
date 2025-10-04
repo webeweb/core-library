@@ -42,7 +42,7 @@ class WsdlProvider {
     private $definitions;
 
     /**
-     * Input nodes.
+     * wsdl:input nodes.
      *
      * @var WsdlInputNode[]
      */
@@ -56,28 +56,28 @@ class WsdlProvider {
     private $messages;
 
     /**
-     * wsdl:operations nodes.
+     * wsdl:operation nodes.
      *
      * @var WsdlOperationNode[]
      */
     private $operations;
 
     /**
-     * Output nodes.
+     * wsdl:output nodes.
      *
      * @var WsdlOutputNode[]
      */
     private $outputs;
 
     /**
-     * Part nodes.
+     * wsdl:part nodes.
      *
      * @var WsdlPartNode[]
      */
     private $parts;
 
     /**
-     * Get the wsdl:service node.
+     * wsdl:service node.
      *
      * @var WsdlServiceNode|null
      */
