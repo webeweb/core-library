@@ -1,10 +1,11 @@
 CHANGELOG
 =========
 
-### master
+### [9.9.1](https://github.com/webeweb/core-library/tree/v9.9.1) (2026-06-22)
 
 - Backup WSDL to PHP library
 - Improve code quality
+- Update gitattributes
 
 ### [9.9.0](https://github.com/webeweb/core-library/tree/v9.9.0) (2025-09-24)
 
