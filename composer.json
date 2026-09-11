@@ -56,7 +56,7 @@
         "phpstan/extension-installer": "^1.1",
         "phpstan/phpstan": "^1.4",
         "phpstan/phpstan-phpunit": "^1.0",
-        "phpunit/phpunit": "^7.0|^9.0"
+        "phpunit/phpunit": "^7.0|^8.0|^9.0"
     },
     "suggest": {
         "ext-ftp": "For usage of WBW\\Library\\Ftp\\Client classes"
